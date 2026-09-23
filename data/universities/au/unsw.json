@@ -1,0 +1,67 @@
+{
+  "id": "unsw",
+  "name": "UNSW Sydney",
+  "country": "au",
+  "city": "Sydney",
+  "currency": "AUD",
+  "website": "https://www.unsw.edu.au",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (Honours)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61500,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://articles.unienrol.com/unsw-fees-courses/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Aggregator figure for 2026 indicative first-year fee; official degree page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Information Technology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 63000,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://articles.unienrol.com/unsw-fees-courses/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Aggregator figure for 2026 indicative first-year fee; official degree page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Commerce",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 62000,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://articles.unienrol.com/unsw-fees-courses/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Aggregator figure for 2026 indicative first-year fee; official degree page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+    }
+  ]
+}

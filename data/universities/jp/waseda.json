@@ -1,0 +1,29 @@
+{
+  "id": "waseda",
+  "name": "Waseda University",
+  "country": "jp",
+  "city": "Tokyo",
+  "currency": "JPY",
+  "website": "https://www.waseda.jp",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "English-based Undergraduate Program in Science and Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1541000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.libertify.com/universities/waseda-english-ug-programs/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "UNCERTAIN: annual tuition JPY 1,541,000 and entrance fee JPY 200,000 as reported by a search summary (likely aggregator); official AY2026 PDF (Waseda_EDP_Tuition_AY2026.pdf) could not be read. Excludes lab, library and association fees, which vary by department."
+    }
+  ]
+}

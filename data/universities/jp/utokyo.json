@@ -1,0 +1,200 @@
+{
+  "id": "utokyo",
+  "name": "The University of Tokyo",
+  "country": "jp",
+  "city": "Tokyo",
+  "currency": "JPY",
+  "website": "https://www.u-tokyo.ac.jp",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "PEAK - International Program on Japan in East Asia (College of Arts and Sciences, English-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition JPY 642,960/yr for entrants from FY2025 (raised from 535,800); admission fee JPY 282,000 in oneOffFees. Japanese national-university fees are not formally cohort-locked."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "PEAK - International Program on Environmental Sciences (College of Arts and Sciences, English-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition JPY 642,960/yr for entrants from FY2025 (raised from 535,800); admission fee JPY 282,000 in oneOffFees. Japanese national-university fees are not formally cohort-locked."
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Faculty of Engineering (Japanese-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition JPY 642,960/yr for entrants from FY2025 (raised from 535,800); admission fee JPY 282,000 in oneOffFees. Japanese national-university fees are not formally cohort-locked."
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Faculty of Science, Department of Information Science (Japanese-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition JPY 642,960/yr for entrants from FY2025 (raised from 535,800); admission fee JPY 282,000 in oneOffFees. Japanese national-university fees are not formally cohort-locked."
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Faculty of Economics, Department of Management (Japanese-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition JPY 642,960/yr for entrants from FY2025 (raised from 535,800); admission fee JPY 282,000 in oneOffFees. Japanese national-university fees are not formally cohort-locked."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Graduate School of Engineering (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Master's tuition JPY 535,800/yr (UTokyo's increase to master's applies from FY2029 entrants); admission fee JPY 282,000 in oneOffFees."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Graduate School of Information Science and Technology (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Master's tuition JPY 535,800/yr (UTokyo's increase to master's applies from FY2029 entrants); admission fee JPY 282,000 in oneOffFees."
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Graduate School of Economics (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Master's tuition JPY 535,800/yr (UTokyo's increase to master's applies from FY2029 entrants); admission fee JPY 282,000 in oneOffFees."
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Graduate School of Science (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Master's tuition JPY 535,800/yr (UTokyo's increase to master's applies from FY2029 entrants); admission fee JPY 282,000 in oneOffFees."
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Graduate School of Humanities and Sociology (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Master's tuition JPY 535,800/yr (UTokyo's increase to master's applies from FY2029 entrants); admission fee JPY 282,000 in oneOffFees."
+    }
+  ]
+}

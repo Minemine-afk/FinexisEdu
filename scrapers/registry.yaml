@@ -1,0 +1,190 @@
+# Which page feeds which fee figure. See scrapers/models.py (Source, Target) and README.md.
+#
+# Sources with targets are scraped monthly. `manual: true` sources are listed in the
+# monthly PR when their data is 11+ months old, so a person can re-check them.
+# To automate one: add targets, set manual: false and test with
+#   python -m scrapers.run --dry-run --only <university>
+#
+# Patterns run on whitespace-collapsed page text; the first capture group is the amount.
+
+sources:
+  # --- scraped automatically ---
+  - university: kyoto
+    country: jp
+    url: https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2
+    parser: html
+    targets:
+    - pattern: Tuition is JPY ?([\d,]+) per year
+    - key: oneOffFees
+      pattern: amount to JPY ?([\d,]+)
+  - university: utokyo
+    country: jp
+    url: https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html
+    parser: html
+    targets:
+    - key: oneOffFees
+      pattern: admission fee is JPY ?([\d,]+)
+  - university: utoronto
+    country: ca
+    url: https://firstyear.engineering.utoronto.ca/finances/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: tuition is \$ ?([\d,]+)
+    - level: bachelor
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: plus \$ ?([\d,.]+) in incidental fees
+
+  # --- checked by hand (add targets to automate) ---
+  - university: anu
+    country: au
+    url: https://www.canamgroup.com/program/australia/the-australian-national-university-anu/bachelor-of-engineering-honours-in-electronic-and-communication-systems
+    parser: html
+    manual: true
+  - university: unimelb
+    country: au
+    url: https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/fees/
+    parser: html
+    manual: true
+  - university: unimelb
+    country: au
+    url: https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953
+    parser: html
+    manual: true
+  - university: unsw
+    country: au
+    url: https://articles.unienrol.com/unsw-fees-courses/
+    parser: html
+    manual: true
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf
+    parser: pdf
+    manual: true
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3
+    parser: html
+    manual: true
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4
+    parser: html
+    manual: true
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-1
+    parser: html
+    manual: true
+  - university: ubc
+    country: ca
+    url: https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/
+    parser: html
+    manual: true
+  - university: waseda
+    country: jp
+    url: https://www.libertify.com/universities/waseda-english-ug-programs/
+    parser: html
+    manual: true
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf
+    parser: pdf
+    manual: true
+  - university: ntu
+    country: sg
+    url: https://leapscholar.com/blog/ntu-singapore-fees/
+    parser: html
+    manual: true
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters
+    parser: html
+    manual: true
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence
+    parser: html
+    manual: true
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding
+    parser: html
+    manual: true
+  - university: nus
+    country: sg
+    url: https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf
+    parser: pdf
+    manual: true
+  - university: nus
+    country: sg
+    url: https://cde.nus.edu.sg/ece/graduate/msc-computer-engineering/tuition-fees/
+    parser: html
+    manual: true
+  - university: nus
+    country: sg
+    url: https://www.comp.nus.edu.sg/programmes/pg/mcs/scholarships
+    parser: html
+    manual: true
+  - university: nus
+    country: sg
+    url: https://mscfin.nus.edu.sg/fees-finances/programme-fees/
+    parser: html
+    manual: true
+  - university: nus
+    country: sg
+    url: https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2025/05/MSc-Maths-Track-ONE-Tuition-Fee-AY2026.pdf
+    parser: pdf
+    manual: true
+  - university: nus
+    country: sg
+    url: https://fass.nus.edu.sg/ecs/me-fees-and-payment-2026-and-2027/
+    parser: html
+    manual: true
+  - university: cambridge
+    country: uk
+    url: https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/sites/files/oxford/TM_MF1%20-%20MSc%20in%20Advanced%20Computer%20Science%20-%202026-27%20entry%20-%2028Oct2025_3.pdf
+    parser: pdf
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/sites/files/oxford/TS_HY6B3,%20TS_HY6B9P3%20-%20MSt%20in%20History%20(Early%20Modern%20History%201500-1700)%20-%202026-27%20entry%20-%2029Oct2025.pdf
+    parser: pdf
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.sbs.ox.ac.uk/programmes/degrees/msc-financial-economics
+    parser: html
+    manual: true
+  - university: mit
+    country: us
+    url: https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate
+    parser: html
+    manual: true
+  - university: mit
+    country: us
+    url: https://registrar.mit.edu/registration-academics/tuition-fees/graduate
+    parser: html
+    manual: true
+  - university: mit
+    country: us
+    url: https://mitsloan.mit.edu/mba/admissions/financing-your-education
+    parser: html
+    manual: true
+  - university: stanford
+    country: us
+    url: https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027
+    parser: html
+    manual: true
+  - university: stanford
+    country: us
+    url: https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates
+    parser: html
+    manual: true

@@ -1,0 +1,54 @@
+name: Refresh fee data
+
+on:
+  schedule:
+    # 03:00 UTC on the 1st of every month (11:00 in Singapore)
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install ".[browser]"
+      - run: python -m playwright install --with-deps chromium
+
+      - name: Scrape fee pages and exchange rates
+        run: python -m scrapers.run --strict || echo "SCRAPE_PROBLEMS=true" >> "$GITHUB_ENV"
+
+      # The scraped data must still pass the website's own schema checks.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+
+      - name: Open a pull request for review
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/refresh
+          delete-branch: true
+          commit-message: "data: monthly fee and exchange-rate refresh"
+          title: "Monthly fee data refresh"
+          body-path: scrapers/out/summary.md
+          add-paths: data/
+          labels: data-refresh
+
+      # Scraper problems still produce a PR (with the problems listed), but the
+      # run is marked failed so GitHub notifies the repo owner.
+      - name: Fail if any source had problems
+        if: env.SCRAPE_PROBLEMS == 'true'
+        run: |
+          echo "::error::Some fee pages could not be scraped. See the PR description or scrapers/out/summary.md."
+          exit 1

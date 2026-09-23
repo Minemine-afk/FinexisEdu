@@ -1,0 +1,290 @@
+{
+  "id": "nus",
+  "name": "National University of Singapore",
+  "country": "sg",
+  "city": "Singapore",
+  "currency": "SGD",
+  "website": "https://www.nus.edu.sg",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (College of Design and Engineering)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 8300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 11600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 21400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "AY2026/27 intake, MOE Tuition Grant rates. Citizen/PR exclude GST (MOE-subsidised); international is the non-ASEAN Tuition-Grant rate incl. 9% GST (ASEAN rate S$18,050 per search-result summary; not verified). Excludes Miscellaneous Student Fees (not captured)."
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computing (Computer Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 8300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 11600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 21400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "AY2026/27 intake, MOE Tuition Grant rates. Citizen/PR exclude GST (MOE-subsidised); international is the non-ASEAN Tuition-Grant rate incl. 9% GST (ASEAN rate S$18,050). Excludes Miscellaneous Student Fees (not captured)."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (College of Humanities and Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 8300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 11600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 21400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "AY2026/27 intake, MOE Tuition Grant rates. Citizen/PR exclude GST (MOE-subsidised); international is the non-ASEAN Tuition-Grant rate incl. 9% GST (ASEAN rate S$18,050). Excludes Miscellaneous Student Fees (not captured)."
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts / Social Sciences (College of Humanities and Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 8300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 11600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 21400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "AY2026/27 intake, MOE Tuition Grant rates. Citizen/PR exclude GST (MOE-subsidised); international is the non-ASEAN Tuition-Grant rate incl. 9% GST (ASEAN rate S$18,050). Excludes Miscellaneous Student Fees (not captured)."
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business Administration",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 9700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 13550,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 22200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "AY2026/27 intake, MOE Tuition Grant rates. Citizen/PR exclude GST (MOE-subsidised); international is the non-ASEAN Tuition-Grant rate incl. 9% GST (ASEAN rate S$21,150). Excludes Miscellaneous Student Fees (not captured). PR/international Business figures seen in a single search summary only."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc (Computer Engineering)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 31860,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 31860,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 53100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://cde.nus.edu.sg/ece/graduate/msc-computer-engineering/tuition-fees/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Programme fee S$53,100 (page says 'subject to prevailing GST'; unclear whether GST-inclusive). Citizen/PR = 40% fee rebate applied (computed). Excludes MSF."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Computing (Computer Science Specialisation)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 26857.6,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 26857.6,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 44762.67,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcs/scholarships",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Total tuition S$67,144 incl. 9% GST (Aug 2026 intake, up to 40 Units) divided by 1.5 years. Citizen/PR assume the 40% NUS Master's by Coursework Enhanced Tuition Fee Rebate (page says rebate 'may be provided'; percentage not shown on this page) - UNCERTAIN."
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc in Finance",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 45126,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 45126,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 75210,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Total programme fee S$75,210 incl. 9% GST (Aug 2026 intake; acceptance fee S$10,900 + 2 x S$32,155). Citizen/PR = 40% rebate for self-funded Singaporeans/PRs applied (computed). Excludes application fee and MSF."
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc in Mathematics (Track One)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 31392,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 31392,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 52320,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2025/05/MSc-Maths-Track-ONE-Tuition-Fee-AY2026.pdf",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Aug 2026 intake, full-time. International S$48,000 before GST = S$52,320 incl. GST (5,450+20,710+26,160); Citizen/PR S$28,800 after 40% rebate = S$31,392 incl. GST (5,450+10,246+15,696)."
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Economics (FASS)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 58350,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2026-and-2027/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "S$58,350 incl. GST for the whole programme, Aug 2026 intake (14,588 on acceptance + 2 x 21,881 full-time). Page states it applies to all students; whether the 40% SC/PR rebate applies is unconfirmed, so citizen/PR tiers omitted."
+    }
+  ]
+}
