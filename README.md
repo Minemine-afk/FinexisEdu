@@ -93,9 +93,11 @@ For `parser: browser` sources, also run `pip install -e ".[browser]"` and
 
 ## Deploying
 
-Import the repo into [Vercel](https://vercel.com/new); no settings or secrets
-are needed. The page re-renders daily for fresh exchange rates, and every
-merged data PR triggers a redeploy.
+Import this repo into [Vercel](https://vercel.com/new) with **Add New → Project →
+Import Git Repository** (not "Clone Template", which creates a separate, empty
+repo). Vercel detects Next.js automatically; no settings or secrets are needed.
+Production deploys from `main`. The page re-renders daily for fresh exchange
+rates, and every merge into `main` (including approved data PRs) redeploys it.
 
 For the monthly data PRs, go to **Settings → Actions → General** and allow
 GitHub Actions to create pull requests.
