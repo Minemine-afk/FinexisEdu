@@ -23,7 +23,23 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 international fee for BA excluding performance and science-based courses (those are NZ$48,133). Compulsory = Student Services Fee NZ$9.44/point x 120 points."
+      "notes": "2026 estimated international fee for 120 points, excluding performance and science-based courses (those NZ$48,133). Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point Arts course fee from that year's international Arts fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36836.4,
+          "annualCompulsoryFees": 1065.6,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_Arts_International.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 38310,
+          "annualCompulsoryFees": 1108.8,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Arts_International.pdf"
+        }
+      ]
     }
   ]
 }
