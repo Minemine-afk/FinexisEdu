@@ -5,6 +5,20 @@
   "city": "Tokyo",
   "currency": "JPY",
   "website": "https://www.waseda.jp",
+  "livingCosts": {
+    "year": 2023,
+    "months": 12,
+    "monthly": {
+      "housing": 64000,
+      "food": 37000,
+      "transport": 6000,
+      "personal": 20000
+    },
+    "sourceUrl": "https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "Waseda publishes only a total (about ¥1,000,000-¥2,000,000 a year for accommodation and living expenses, SILS applicants page), not a breakdown. Figures are JASSO 2023 Lifestyle Survey of Privately-Financed International Students (令和5年度私費外国人留学生生活実態調査, table 7-4), Tokyo average monthly spending in ¥1,000s: housing 57 + utilities 7, food 37, commuting 6, personal = hobbies/leisure 10 + other daily costs 10. Excludes study/research costs (56, includes tuition) and insurance/medical (3)."
+  },
   "programmes": [
     {
       "level": "bachelor",

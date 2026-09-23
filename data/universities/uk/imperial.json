@@ -5,6 +5,20 @@
   "city": "London",
   "currency": "GBP",
   "website": "https://www.imperial.ac.uk",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1120,
+      "food": 286,
+      "transport": 120,
+      "personal": 331
+    },
+    "sourceUrl": "https://www.imperial.ac.uk/study/fees-and-funding/living-costs/",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "Imperial 'Likely costs for living in London - 2026', monthly column. Housing = midpoint of College-run £1,084 and private-sector £1,156/month (9 months: £9,753 / £10,403). Food £286/month (£2,577 for 9 months), travel zones 1-2 £120 (£1,079), personal and leisure £331 (£2,982). Total £1,821-£1,893/month, £16,392-£17,042 for 9 months. Excludes tuition, study materials, flights and insurance."
+  },
   "programmes": [
     {
       "level": "bachelor",

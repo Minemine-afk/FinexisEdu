@@ -9,7 +9,26 @@ import {
   RESIDENCY_LABELS,
   formatMoney,
 } from "@/lib/format";
-import { FIELDS, LEVELS, type Country, type Field, type Level, type Programme, type University } from "@/lib/schema";
+import {
+  FIELDS,
+  LEVELS,
+  LIVING_CATEGORIES,
+  type Country,
+  type Field,
+  type Level,
+  type LivingCategory,
+  type LivingCosts,
+  type Programme,
+  type University,
+} from "@/lib/schema";
+import {
+  LIFESTYLE_MULTIPLIER,
+  livingCostsByYear,
+  monthlyTotal,
+  type Lifestyle,
+  type LivingYear,
+  type MonthlyLiving,
+} from "@/lib/living";
 import FeeChart from "./FeeChart";
 
 interface Props {
@@ -25,12 +44,29 @@ interface Option {
   programme: Programme;
 }
 
+export interface LivingResult {
+  estimate: LivingCosts;
+  monthly: MonthlyLiving;
+  customised: boolean;
+  increase: number;
+  years: LivingYear[];
+  totalLocal: number;
+  totalSgd: number;
+}
+
 export interface Selection extends Option {
   result: CalcResult;
   feeIncrease: number;
   fxRate: number;
+  /** University fees only. */
   totalSgd: number;
-  yearsSgd: { tuition: number; compulsoryFees: number; oneOffFees: number };
+  /** Fees plus living costs when they are included. */
+  grandTotalSgd: number;
+  yearsSgd: { tuition: number; compulsoryFees: number; oneOffFees: number; living: number };
+  /** Living costs, when included and the university has an estimate. */
+  living: LivingResult | null;
+  /** Why living costs are missing when they were asked for. */
+  livingNote: string | null;
 }
 
 const MAX_SELECTED = 4;
@@ -38,6 +74,13 @@ const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
 // Start years offered. Earlier years use published fee history only.
 const START_YEARS = [2024, 2025, 2026, 2027, 2028];
 const COUNTRY_ORDER = ["sg", "uk", "au", "us", "ca", "nz", "jp"];
+const LIFESTYLE_LABELS: Record<Lifestyle, string> = { frugal: "Frugal", moderate: "Moderate", comfortable: "Comfortable" };
+export const LIVING_LABELS: Record<LivingCategory, string> = {
+  housing: "Housing",
+  food: "Food",
+  transport: "Transport",
+  personal: "Personal & books",
+};
 
 function optionsFor(universities: University[], level: Level, field: Field): Option[] {
   return universities.flatMap((university) =>
@@ -98,6 +141,10 @@ export default function Calculator({ universities, countries, fx, today }: Props
     Math.min(Math.max(thisYear + 1, START_YEARS[0]), START_YEARS[START_YEARS.length - 1]),
   );
   const [customIncrease, setCustomIncrease] = useState<number | null>(null);
+  const [includeLiving, setIncludeLiving] = useState(false);
+  const [lifestyle, setLifestyle] = useState<Lifestyle>("moderate");
+  // The student's own monthly living budget, per university.
+  const [customLiving, setCustomLiving] = useState<Record<string, MonthlyLiving>>({});
   const options = useMemo(() => optionsFor(universities, level, field), [universities, level, field]);
   const [selected, setSelected] = useState<string[]>(() =>
     reselect(options, [], (o) => unavailableReason(o, residency, startYear) === null),
@@ -137,20 +184,45 @@ export default function Calculator({ universities, countries, fx, today }: Props
       const sgd = (n: number) => toSgd(n, o.university.currency, fx);
       const sum = (pick: (y: CalcResult["years"][number]) => number) =>
         sgd(result.years.reduce((s, y) => s + pick(y), 0));
+
+      let living: LivingResult | null = null;
+      let livingNote: string | null = null;
+      const estimate = o.university.livingCosts;
+      if (includeLiving) {
+        if (o.university.country === "sg") livingNote = "Living costs are not included for Singapore universities.";
+        else if (!estimate) livingNote = "No living-cost estimate from this university yet.";
+        else {
+          const custom = customLiving[o.university.id];
+          const increase = country?.livingCostIncrease ?? 0.03;
+          const years = livingCostsByYear({ living: estimate, years: result.years, lifestyle, increase, custom });
+          const totalLocal = years.reduce((t, y) => t + y.amount, 0);
+          const scale = custom ? 1 : LIFESTYLE_MULTIPLIER[lifestyle];
+          const monthly =
+            custom ??
+            (Object.fromEntries(LIVING_CATEGORIES.map((c) => [c, estimate.monthly[c] * scale])) as MonthlyLiving);
+          living = { estimate, monthly, customised: !!custom, increase, years, totalLocal, totalSgd: sgd(totalLocal) };
+        }
+      }
+
+      const totalSgd = sgd(result.totalLocal);
       return {
         ...o,
         result,
         feeIncrease,
         fxRate: o.university.currency === "SGD" ? 1 : fx.rates[o.university.currency],
-        totalSgd: sgd(result.totalLocal),
+        totalSgd,
+        grandTotalSgd: totalSgd + (living?.totalSgd ?? 0),
         yearsSgd: {
           tuition: sum((y) => y.tuition),
           compulsoryFees: sum((y) => y.compulsoryFees),
           oneOffFees: sum((y) => y.oneOffFees),
+          living: living?.totalSgd ?? 0,
         },
+        living,
+        livingNote,
       };
     })
-    .sort((a, b) => a.totalSgd - b.totalSgd);
+    .sort((a, b) => a.grandTotalSgd - b.grandTotalSgd);
 
   const grouped = COUNTRY_ORDER.map((code) => ({
     country: countryByCode.get(code as Country["code"]),
@@ -245,6 +317,28 @@ export default function Calculator({ universities, countries, fx, today }: Props
           </p>
         </fieldset>
 
+        <fieldset className="space-y-2">
+          <legend className="text-sm font-medium">Living costs</legend>
+          <label className="flex items-center gap-2 text-sm">
+            <input type="checkbox" checked={includeLiving} onChange={(e) => setIncludeLiving(e.target.checked)} />
+            Include living costs
+          </label>
+          {includeLiving && (
+            <>
+              <Segmented
+                label="Lifestyle"
+                value={lifestyle}
+                options={(Object.keys(LIFESTYLE_LABELS) as Lifestyle[]).map((l) => [l, LIFESTYLE_LABELS[l]])}
+                onChange={setLifestyle}
+              />
+              <p className="text-xs text-muted">
+                Based on each university&apos;s own estimate (Moderate); Frugal is 20% less, Comfortable 30% more. Adjust
+                any university&apos;s budget on its card. Not included for Singapore universities.
+              </p>
+            </>
+          )}
+        </fieldset>
+
         <div>
           <p className="text-sm font-medium">
             Universities <span className="font-normal text-muted">(up to {MAX_SELECTED})</span>
@@ -290,14 +384,28 @@ export default function Calculator({ universities, countries, fx, today }: Props
       <section className="min-w-0 space-y-6">
         {selections.length === 0 ? (
           <div className="rounded-xl border border-dashed border-border p-10 text-center text-muted">
-            Pick at least one university to see its total fees.
+            Pick at least one university to see its total {includeLiving ? "cost" : "fees"}.
           </div>
         ) : (
           <>
-            <FeeChart selections={selections} />
+            <FeeChart selections={selections} includeLiving={includeLiving} />
             <div className="grid gap-4 xl:grid-cols-2">
               {selections.map((s) => (
-                <ResultCard key={s.key} s={s} today={today} country={countryByCode.get(s.university.country)} />
+                <ResultCard
+                  key={s.key}
+                  s={s}
+                  today={today}
+                  country={countryByCode.get(s.university.country)}
+                  lifestyle={lifestyle}
+                  onCustomLiving={(m) =>
+                    setCustomLiving((prev) => {
+                      const next = { ...prev };
+                      if (m) next[s.university.id] = m;
+                      else delete next[s.university.id];
+                      return next;
+                    })
+                  }
+                />
               ))}
             </div>
           </>
@@ -321,7 +429,12 @@ function Segmented<T extends string>({
   return (
     <div>
       <span className="text-sm font-medium">{label}</span>
-      <div role="radiogroup" aria-label={label} className="mt-1 grid grid-cols-2 gap-1 rounded-md border border-border bg-surface p-1">
+      <div
+        role="radiogroup"
+        aria-label={label}
+        className="mt-1 grid gap-1 rounded-md border border-border bg-surface p-1"
+        style={{ gridTemplateColumns: `repeat(${options.length}, minmax(0, 1fr))` }}
+      >
         {options.map(([v, text]) => (
           <button
             key={v}
@@ -329,7 +442,7 @@ function Segmented<T extends string>({
             role="radio"
             aria-checked={value === v}
             onClick={() => onChange(v)}
-            className={`rounded px-3 py-1.5 text-sm${FOCUS} ${value === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted hover:bg-chip"}`}
+            className={`rounded px-2 py-1.5 text-sm${FOCUS} ${value === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted hover:bg-chip"}`}
           >
             {text}
           </button>
@@ -339,7 +452,19 @@ function Segmented<T extends string>({
   );
 }
 
-function ResultCard({ s, today, country }: { s: Selection; today: string; country?: Country }) {
+function ResultCard({
+  s,
+  today,
+  country,
+  lifestyle,
+  onCustomLiving,
+}: {
+  s: Selection;
+  today: string;
+  country?: Country;
+  lifestyle: Lifestyle;
+  onCustomLiving: (m: MonthlyLiving | null) => void;
+}) {
   const { university: u, programme: p, result } = s;
   const cur = u.currency;
   const stale = isStale(p.lastVerified, new Date(today));
@@ -366,10 +491,16 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
         {p.name} · {result.durationYears} {result.durationYears === 1 ? "year" : "years"}
       </p>
 
-      <p className="mt-4 text-3xl font-semibold text-accent tabular-nums">{formatMoney(s.totalSgd, "SGD")}</p>
+      <p className="mt-4 text-3xl font-semibold text-accent tabular-nums">{formatMoney(s.grandTotalSgd, "SGD")}</p>
+      {s.living && (
+        <p className="text-sm tabular-nums">
+          Fees {formatMoney(s.totalSgd, "SGD")} + living {formatMoney(s.living.totalSgd, "SGD")}
+        </p>
+      )}
       {cur !== "SGD" && (
         <p className="text-sm text-muted tabular-nums">
-          {formatMoney(result.totalLocal, cur)} at S$1 = {s.fxRate.toLocaleString("en-SG", { maximumFractionDigits: 4 })} {cur}
+          {formatMoney(result.totalLocal + (s.living?.totalLocal ?? 0), cur)} at S$1 ={" "}
+          {s.fxRate.toLocaleString("en-SG", { maximumFractionDigits: 4 })} {cur}
         </p>
       )}
 
@@ -389,14 +520,14 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
 
       <div className="mt-4 overflow-x-auto">
         <table className={`w-full tabular-nums ${hasCompulsory && hasOneOff ? "text-xs" : "text-sm"}`}>
-          <caption className="sr-only">Fees by year in {cur}</caption>
+          <caption className="sr-only">University fees by year in {cur}</caption>
           <thead className="text-left text-xs text-muted">
             <tr>
               <th className="py-1 pr-2 font-medium">Year</th>
               <th className={num}>Tuition</th>
               {hasCompulsory && <th className={num}>Other fees</th>}
               {hasOneOff && <th className={num}>One-off</th>}
-              <th className={num}>Total ({cur})</th>
+              <th className={num}>Fees ({cur})</th>
             </tr>
           </thead>
           <tbody>
@@ -418,6 +549,9 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
           </tbody>
         </table>
       </div>
+
+      {s.living && <LivingSection living={s.living} currency={cur} lifestyle={lifestyle} today={today} onCustom={onCustomLiving} />}
+      {s.livingNote && <p className="mt-4 rounded-md bg-chip px-3 py-2 text-xs text-muted">{s.livingNote}</p>}
 
       {p.notes && <p className="mt-3 text-xs text-muted">{p.notes}</p>}
       <p className="mt-3 text-xs text-muted">
@@ -444,5 +578,131 @@ function Badge({ children, warn }: { children: React.ReactNode; warn?: boolean }
     <span className={`rounded-full px-2 py-0.5 ${warn ? "bg-warn-bg text-warn-fg" : "bg-chip text-muted"}`}>
       {children}
     </span>
+  );
+}
+
+function LivingSection({
+  living,
+  currency: cur,
+  lifestyle,
+  today,
+  onCustom,
+}: {
+  living: LivingResult;
+  currency: string;
+  lifestyle: Lifestyle;
+  today: string;
+  onCustom: (m: MonthlyLiving | null) => void;
+}) {
+  const e = living.estimate;
+  const stale = isStale(e.lastVerified, new Date(today));
+  const projected = living.years.some((y) => y.projected);
+  // Some sources (e.g. a visa minimum) give one total, stored under housing.
+  const breakdown = living.customised || e.monthly.food + e.monthly.transport + e.monthly.personal > 0;
+  return (
+    <section className="mt-5 border-t border-border pt-4">
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <h3 className="text-sm font-semibold">
+          <span className="mr-1.5 inline-block h-2.5 w-2.5 rounded-sm bg-series-4" aria-hidden />
+          Living costs
+        </h3>
+        <span className="text-sm font-medium tabular-nums">{formatMoney(living.totalLocal, cur)}</span>
+      </div>
+      <p className="mt-0.5 text-xs text-muted">
+        {living.customised ? "Your own budget" : `${lifestyle[0].toUpperCase()}${lifestyle.slice(1)} lifestyle`} ·{" "}
+        {formatMoney(monthlyTotal(living.monthly), cur)} a month × {e.months} months a year
+        {projected && ` · later years +${(living.increase * 100).toFixed(1)}%/yr inflation`}
+      </p>
+      {breakdown ? (
+        <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-0.5 text-xs tabular-nums">
+          {LIVING_CATEGORIES.map((c) => (
+            <div key={c} className="flex justify-between gap-2">
+              <dt className="text-muted">{LIVING_LABELS[c]}</dt>
+              <dd>{formatMoney(living.monthly[c], cur)}/mo</dd>
+            </div>
+          ))}
+        </dl>
+      ) : (
+        <p className="mt-2 text-xs text-muted">This estimate is a single total, not split by category.</p>
+      )}
+      <p className="mt-2 text-xs text-muted tabular-nums">
+        {living.years.map((y) => `${y.academicYear}: ${formatMoney(y.amount, cur)}`).join(" · ")}
+      </p>
+
+      <details className="mt-2 text-sm">
+        <summary className="cursor-pointer text-xs font-medium text-accent">Customise this budget</summary>
+        <CustomLiving key={JSON.stringify(living.monthly)} initial={living.monthly} currency={cur} onSave={onCustom} customised={living.customised} />
+      </details>
+
+      <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
+        {e.sourceType === "secondary" && <Badge warn>Unofficial source</Badge>}
+        {stale && <Badge warn>Estimate may be outdated</Badge>}
+      </div>
+      {e.notes && <p className="mt-1 text-xs text-muted">{e.notes}</p>}
+      <p className="mt-1 text-xs text-muted">
+        {e.year} estimate ·{" "}
+        <a className="text-accent underline hover:text-foreground" href={e.sourceUrl} target="_blank" rel="noreferrer">
+          source
+        </a>{" "}
+        · checked {e.lastVerified}
+      </p>
+    </section>
+  );
+}
+
+function CustomLiving({
+  initial,
+  currency,
+  customised,
+  onSave,
+}: {
+  initial: MonthlyLiving;
+  currency: string;
+  customised: boolean;
+  onSave: (m: MonthlyLiving | null) => void;
+}) {
+  const [draft, setDraft] = useState<MonthlyLiving>(() =>
+    Object.fromEntries(LIVING_CATEGORIES.map((c) => [c, Math.round(initial[c])])) as MonthlyLiving,
+  );
+  return (
+    <form
+      className="mt-2 space-y-2"
+      onSubmit={(ev) => {
+        ev.preventDefault();
+        onSave(draft);
+      }}
+    >
+      <div className="grid grid-cols-2 gap-2">
+        {LIVING_CATEGORIES.map((c) => (
+          <label key={c} className="text-xs">
+            <span className="text-muted">
+              {LIVING_LABELS[c]} ({currency}/month)
+            </span>
+            <input
+              type="number"
+              min={0}
+              step="any"
+              className={`mt-0.5 w-full rounded-md border border-border bg-surface px-2 py-1 text-right tabular-nums${FOCUS}`}
+              value={draft[c]}
+              onChange={(ev) => setDraft({ ...draft, [c]: Math.max(0, Number(ev.target.value)) })}
+            />
+          </label>
+        ))}
+      </div>
+      <div className="flex gap-2">
+        <button type="submit" className={`rounded-md bg-accent-fill px-3 py-1 text-xs font-medium text-on-accent${FOCUS}`}>
+          Use my budget
+        </button>
+        {customised && (
+          <button
+            type="button"
+            className={`rounded-md border border-border px-3 py-1 text-xs${FOCUS}`}
+            onClick={() => onSave(null)}
+          >
+            Reset to university estimate
+          </button>
+        )}
+      </div>
+    </form>
   );
 }

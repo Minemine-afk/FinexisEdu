@@ -70,3 +70,27 @@ Fee history:
 - For cohort-locked programmes (fees fixed per intake), the entry is the fee for the
   cohort that started in `feeYear`. For others it is that academic year's fee.
 - Only add figures you actually found in a source. Never back-calculate.
+
+Living costs (optional, universities outside Singapore only):
+```jsonc
+"livingCosts": {
+  "year": 2026,                 // year the estimate is for (academic year it starts in)
+  "months": 9,                  // months per academic year the estimate covers
+  "monthly": {                  // per month, in the university's currency
+    "housing": 1500,            // rent / accommodation incl. utilities
+    "food": 600,                // groceries and meals
+    "transport": 100,           // local transport
+    "personal": 300             // books, phone, clothing, personal and other
+  },
+  "sourceUrl": "https://...",   // the university's own cost-of-living / cost-of-attendance page
+  "lastVerified": "2026-09-23",
+  "sourceType": "official",
+  "notes": "Undergraduate cost of attendance, off-campus; annual $X over 9 months"
+}
+```
+- Put it at the top level of the university file, next to `programmes`.
+- Use the university's own published estimate. If it gives yearly amounts, divide by
+  the number of months it covers and record the original figures in `notes`.
+- Map its categories onto the four above (e.g. "housing and food" split only if the
+  page splits it; otherwise put the combined figure in housing and say so).
+- Exclude tuition, fees, health insurance, visa costs and flights.

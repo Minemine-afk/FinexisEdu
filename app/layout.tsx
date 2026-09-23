@@ -10,7 +10,7 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "FinexisEdu: University Fee Calculator",
   description:
-    "Compare total university fees in SGD for Bachelor's and Master's degrees in Singapore, the UK, Australia, the US, Canada, New Zealand and Japan.",
+    "Compare total university fees, and optionally living costs, in SGD for Bachelor's and Master's degrees in Singapore, the UK, Australia, the US, Canada, New Zealand and Japan.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

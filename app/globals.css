@@ -19,6 +19,7 @@
   --series-1: #1d4ed8; /* tuition */
   --series-2: #38bdf8; /* compulsory fees */
   --series-3: #4338ca; /* one-off fees */
+  --series-4: #0d9488; /* living costs */
   --warn-bg: #fff4d6;
   --warn-fg: #6b4a00;
 }
@@ -42,6 +43,7 @@
     --series-1: #3478f0;
     --series-2: #13a8b8;
     --series-3: #8e70f2;
+    --series-4: #2fa36b;
     --warn-bg: #3a2e0a;
     --warn-fg: #ffd98a;
   }
@@ -63,6 +65,7 @@
   --color-series-1: var(--series-1);
   --color-series-2: var(--series-2);
   --color-series-3: var(--series-3);
+  --color-series-4: var(--series-4);
   --color-warn-bg: var(--warn-bg);
   --color-warn-fg: var(--warn-fg);
   --font-sans: var(--font-geist-sans);

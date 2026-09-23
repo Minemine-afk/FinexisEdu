@@ -12,6 +12,8 @@ LevelT = Literal["bachelor", "master"]
 FieldT = Literal["engineering", "computing", "business", "sciences", "arts"]
 TierT = Literal["citizen", "pr", "international"]
 FeeKey = Literal["annualTuition", "annualCompulsoryFees", "oneOffFees"]
+# Monthly living-cost categories on the university's `livingCosts` estimate.
+LivingKey = Literal["living.housing", "living.food", "living.transport", "living.personal"]
 
 
 class _Model(BaseModel):
@@ -56,6 +58,25 @@ class Programme(_Model):
     feeHistory: list[FeeHistoryEntry] = Field(default_factory=list)
 
 
+class MonthlyLiving(_Model):
+    housing: float = Field(ge=0)
+    food: float = Field(ge=0)
+    transport: float = Field(ge=0)
+    personal: float = Field(ge=0)
+
+
+class LivingCosts(_Model):
+    """The university's own estimate of a student's living costs, in its currency."""
+
+    year: int = Field(ge=2015, le=2100)
+    months: float = Field(gt=0, le=12)  # months per academic year the estimate covers
+    monthly: MonthlyLiving
+    sourceUrl: HttpUrl
+    lastVerified: date
+    sourceType: Literal["official", "secondary"] = "official"
+    notes: str | None = None
+
+
 class University(_Model):
     id: str = Field(pattern=r"^[a-z0-9-]+$")
     name: str
@@ -63,6 +84,7 @@ class University(_Model):
     city: str
     currency: str = Field(min_length=3, max_length=3)
     website: HttpUrl | None = None
+    livingCosts: LivingCosts | None = None
     programmes: list[Programme]
 
 
@@ -81,7 +103,8 @@ class Target(BaseModel):
     field: FieldT | None = None
     programme: str | None = None  # substring of the programme name
     tier: TierT = "international"
-    key: FeeKey = "annualTuition"
+    # A programme fee, or a monthly living-cost category (level/field/tier are then ignored).
+    key: FeeKey | LivingKey = "annualTuition"
     # Regex run on whitespace-normalised page text. The amount is its capture group;
     # with several groups (fees listed as separate line items) they are summed.
     pattern: str

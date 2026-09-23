@@ -5,6 +5,20 @@
   "city": "Oxford",
   "currency": "GBP",
   "website": "https://www.ox.ac.uk",
+  "livingCosts": {
+    "year": 2027,
+    "months": 9,
+    "monthly": {
+      "housing": 952.5,
+      "food": 442.5,
+      "transport": 0,
+      "personal": 430
+    },
+    "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/living-costs",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "Oxford 'Likely living costs 2027-28' (latest published; single full-time student, no dependants), range midpoints per month: food £325-£560, accommodation incl. bills £880-£1,025, personal items £165-£320, social activities £50-£135, study costs £35-£95, other £20-£40; total £1,475-£2,175/month, £13,275-£19,575 for 9 months. Personal = personal items + social + study + other. Transport not itemised, so 0. www.ox.ac.uk blocks automated access; figures read from the Wayback Machine copy of this page dated 2026-09-07."
+  },
   "programmes": [
     {
       "level": "master",

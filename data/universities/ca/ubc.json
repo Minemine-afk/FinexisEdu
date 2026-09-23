@@ -5,6 +5,20 @@
   "city": "Vancouver",
   "currency": "CAD",
   "website": "https://www.ubc.ca",
+  "livingCosts": {
+    "year": 2026,
+    "months": 8,
+    "monthly": {
+      "housing": 960.75,
+      "food": 1414,
+      "transport": 0,
+      "personal": 206.25
+    },
+    "sourceUrl": "https://you.ubc.ca/financial-planning/cost/",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "UBC first-year cost estimator defaults (Vancouver campus, standard on-campus residence), totalled over 8 months. Housing: residence $6,376-$8,996 for the year depending on room type, midpoint $7,686. Food: meal plan $7,712 for the year (964/month) + groceries $450/month. Transport 0: the U-Pass ($43.35/month) is included in student fees. Personal: books and supplies vary by programme ($800 Applied Science to $2,500 Computer Science for this file's programmes), midpoint $1,650/year; the estimator has no default for clothing, phone or social spending, so these are not included."
+  },
   "programmes": [
     {
       "level": "bachelor",
