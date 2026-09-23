@@ -141,6 +141,20 @@ def test_stale_entries_listed_for_manual_check(data_dir):
     assert report.manual and "Test University" in report.manual[0]
 
 
+def test_every_fee_source_is_registered():
+    """Each programme's current source page is either scraped or listed for a manual check,
+    so no university's fees silently stop being checked."""
+    from scrapers.run import DATA_DIR, REGISTRY_PATH, load_universities
+    import yaml
+
+    reg = Registry.model_validate(yaml.safe_load(REGISTRY_PATH.read_text()))
+    registered = {(s.university, str(s.url)) for s in reg.sources}
+    for uni_id, (_, uni) in load_universities(DATA_DIR).items():
+        for p in uni.programmes:
+            url = str(p.sourceUrl)
+            assert (uni_id, url) in registered, f"{uni_id}: {p.name} source {url} not in registry"
+
+
 def test_committed_registry_and_data_are_valid():
     from scrapers.run import DATA_DIR, REGISTRY_PATH, load_universities
     import yaml

@@ -1,0 +1,274 @@
+{
+  "id": "imperial",
+  "name": "Imperial College London",
+  "country": "uk",
+  "city": "London",
+  "currency": "GBP",
+  "website": "https://www.imperial.ac.uk",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "MEng Mechanical Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 45500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40940,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2024-25/faculty-of-engineering/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43300,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-engineering/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "MEng Computing",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 45500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40940,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2024-25/faculty-of-engineering/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43300,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-engineering/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc Physics",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 45500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-natural-sciences/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41650,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2024-25/faculty-of-natural-sciences/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43300,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-natural-sciences/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc Economics, Finance and Data Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 42700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/imperial-business-school/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39100,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2024-25/imperial-business-school/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 40700,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/imperial-business-school/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc Advanced Mechanical Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 45000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-engineering/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40900,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2024-25/taught-postgraduate-programmes/faculty-of-engineering/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42900,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/faculty-of-engineering/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Computing",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 46000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-engineering/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41750,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2024-25/taught-postgraduate-programmes/faculty-of-engineering/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43800,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/faculty-of-engineering/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Statistics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-natural-sciences/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34350,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2024-25/taught-postgraduate-programmes/faculty-of-natural-sciences/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35700,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/faculty-of-natural-sciences/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Business Analytics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/imperial-business-school/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41000,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2024-25/taught-postgraduate-programmes/imperial-business-school/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42500,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/imperial-business-school/"
+        }
+      ]
+    }
+  ]
+}
