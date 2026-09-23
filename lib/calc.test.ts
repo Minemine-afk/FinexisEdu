@@ -131,6 +131,20 @@ describe("past start years", () => {
     expect(r.years.map((y) => y.total)).toEqual([38000, 40000, expect.closeTo(44000)]);
   });
 
+  it("with strictTier, uses a Singapore citizen's history but never the international rate", () => {
+    const intlNow = Programme.parse({
+      ...nus,
+      feeYear: 2026,
+      fees: { international: nus.fees.international },
+      feeHistory: [{ feeYear: 2025, tier: "citizen", annualTuition: 8250 }],
+    });
+    const past = calculate({ programme: intlNow, currency: "SGD", residency: "citizen", startYear: 2025, feeIncrease: 0, strictTier: true });
+    expect(past.missingYears).toEqual([]);
+    expect(past.years[0].tuition).toBe(8250);
+    const now = calculate({ programme: intlNow, currency: "SGD", residency: "citizen", startYear: 2026, feeIncrease: 0, strictTier: true });
+    expect(now.missingYears).toEqual([2026]);
+  });
+
   it("looks history up by tier", () => {
     expect(feesForYear(nusWithHistory, "pr", 2024)).toBeNull();
     expect(feesForYear(nusWithHistory, "citizen", 2024)?.fees.annualTuition).toBe(9000);

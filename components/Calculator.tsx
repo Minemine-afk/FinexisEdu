@@ -52,18 +52,20 @@ function optionsFor(universities: University[], level: Level, field: Field): Opt
  * published fees for every year charged.
  */
 function unavailableReason(o: Option, residency: Residency, startYear: number): string | null {
-  if (!hasRateFor(o.university.country, o.programme, residency)) {
-    return `No ${RESIDENCY_LABELS[residency]} rate on file yet`;
-  }
   const { missingYears } = calculate({
     programme: o.programme,
     currency: o.university.currency,
     residency,
     startYear,
     feeIncrease: 0,
+    strictTier: o.university.country === "sg",
   });
-  if (missingYears.length > 0) return `No published ${missingYears.join(", ")} fee on file`;
-  return null;
+  if (missingYears.length === 0) return null;
+  // Missing years from the current fee year onwards mean the tier itself is absent.
+  if (!hasRateFor(o.university.country, o.programme, residency) && missingYears.some((y) => y >= o.programme.feeYear)) {
+    return `No ${RESIDENCY_LABELS[residency]} rate on file yet`;
+  }
+  return `No published ${missingYears.join(", ")} fee on file`;
 }
 
 /** Keeps the chosen universities when level or field changes, else picks one per country. */
@@ -126,6 +128,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
         residency,
         startYear,
         feeIncrease,
+        strictTier: o.university.country === "sg",
       });
       const sgd = (n: number) => toSgd(n, o.university.currency, fx);
       const sum = (pick: (y: CalcResult["years"][number]) => number) =>

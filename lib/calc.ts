@@ -10,6 +10,11 @@ export interface CalcInput {
   /** Yearly fee increase as a fraction, e.g. 0.03 for 3%. */
   feeIncrease: number;
   durationYears?: number;
+  /**
+   * Singapore universities: charge exactly the student's tier and never fall
+   * back to the international rate. Years without that tier count as missing.
+   */
+  strictTier?: boolean;
 }
 
 export interface YearBreakdown {
@@ -33,8 +38,8 @@ export interface CalcResult {
   /** True when an earlier year's tuition was published without its other fees, so current ones were used. */
   otherFeesFromCurrent: boolean;
   /**
-   * Years whose fee is needed but not on file (only possible before the current
-   * fee year). When non-empty, `years` and `totalLocal` are incomplete and must
+   * Fee years needed but not on file: the start year for cohort-locked
+   * programmes, else each missing academic year. When non-empty, `years` and `totalLocal` are incomplete and must
    * not be shown as a total.
    */
   missingYears: number[];
@@ -77,20 +82,22 @@ export interface YearFees {
  * never estimates the past.
  */
 export function feesForYear(programme: Programme, tier: Tier, year: number): YearFees | null {
-  const current = programme.fees[tier] ?? programme.fees.international;
+  const current = programme.fees[tier];
   if (year >= programme.feeYear) {
+    if (!current) return null;
     return { fees: current, yearsAhead: year - programme.feeYear, fromHistory: false, otherFeesFromCurrent: false };
   }
   const h = programme.feeHistory.find((e) => e.feeYear === year && e.tier === tier);
   if (!h) return null;
+  const fallback = current ?? programme.fees.international;
   const otherFeesFromCurrent =
-    (h.annualCompulsoryFees === undefined && current.annualCompulsoryFees > 0) ||
-    (h.oneOffFees === undefined && current.oneOffFees > 0);
+    (h.annualCompulsoryFees === undefined && fallback.annualCompulsoryFees > 0) ||
+    (h.oneOffFees === undefined && fallback.oneOffFees > 0);
   return {
     fees: {
       annualTuition: h.annualTuition,
-      annualCompulsoryFees: h.annualCompulsoryFees ?? current.annualCompulsoryFees,
-      oneOffFees: h.oneOffFees ?? current.oneOffFees,
+      annualCompulsoryFees: h.annualCompulsoryFees ?? fallback.annualCompulsoryFees,
+      oneOffFees: h.oneOffFees ?? fallback.oneOffFees,
     },
     yearsAhead: 0,
     fromHistory: true,
@@ -109,7 +116,7 @@ export function feesForYear(programme: Programme, tier: Tier, year: number): Yea
 export function calculate(input: CalcInput): CalcResult {
   const { programme, residency, startYear, feeIncrease } = input;
   const durationYears = input.durationYears ?? programme.durationYears;
-  const { tier } = pickTier(programme, residency);
+  const tier = input.strictTier ? residency : pickTier(programme, residency).tier;
 
   const years: YearBreakdown[] = [];
   const missingYears: number[] = [];
@@ -120,7 +127,7 @@ export function calculate(input: CalcInput): CalcResult {
     const pricedYear = programme.cohortLocked ? startYear : academicYear;
     const yf = feesForYear(programme, tier, pricedYear);
     if (!yf) {
-      missingYears.push(academicYear);
+      if (!missingYears.includes(pricedYear)) missingYears.push(pricedYear);
       continue;
     }
     const growth = Math.pow(1 + feeIncrease, yf.yearsAhead);

@@ -23,7 +23,27 @@
       "lastVerified": "2026-09-23",
       "sourceType": "secondary",
       "cohortLocked": true,
-      "notes": "Secondary source only: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read. Citizen/PR rates not found."
+      "notes": "Secondary source only for the 2026 figure: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read and no programme-level 2026 Citizen/PR figure was found (MoneySmart/AsiaOne only give a S$8,300-9,500 citizen range). 2025 history (SC 8,250 / PR 11,550 / international 20,000 non-ASEAN TG rate, ASEAN 17,950, non-subsidised 40,500 lab / 36,250 non-lab) comes from search-result summaries of NTU's official 2025 fee PDF, which were garbled; mapping of these figures to this programme's row is UNCERTAIN. SC/PR exclude GST; international incl. 9% GST. 2024 figures not added: summaries of the 2024 PDF gave conflicting rows (8,250/11,550/17,950/18,900 vs 9,450/13,250/20,600/21,050).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 8250,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 11550,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20000,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -42,7 +62,27 @@
       "lastVerified": "2026-09-23",
       "sourceType": "secondary",
       "cohortLocked": true,
-      "notes": "Secondary source only: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read. Citizen/PR rates not found."
+      "notes": "Secondary source only for the 2026 figure: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read and no programme-level 2026 Citizen/PR figure was found (MoneySmart/AsiaOne only give a S$8,300-9,500 citizen range). 2025 history (SC 8,250 / PR 11,550 / international 20,000 non-ASEAN TG rate, ASEAN 17,950, non-subsidised 40,500 lab / 36,250 non-lab) comes from search-result summaries of NTU's official 2025 fee PDF, which were garbled; mapping of these figures to this programme's row is UNCERTAIN. SC/PR exclude GST; international incl. 9% GST. 2024 figures not added: summaries of the 2024 PDF gave conflicting rows (8,250/11,550/17,950/18,900 vs 9,450/13,250/20,600/21,050).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 8250,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 11550,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20000,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -61,7 +101,8 @@
       "lastVerified": "2026-09-23",
       "sourceType": "secondary",
       "cohortLocked": true,
-      "notes": "Secondary source only: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read. Citizen/PR rates not found."
+      "notes": "Secondary source only: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read. Citizen/PR rates not found.",
+      "feeHistory": []
     },
     {
       "level": "master",
@@ -80,7 +121,8 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "AY2026 minimum total tuition for 30 AUs S$56,156.80 incl. GST (S$5,615.68 per 3-AU course). SC/PR subsidy (S$5,000 NTU subsidy for self-financed coursework masters) not applied as not confirmed for this programme."
+      "notes": "AY2026 minimum total tuition for 30 AUs S$56,156.80 incl. GST (S$5,615.68 per 3-AU course). SC/PR subsidy (S$5,000 NTU subsidy for self-financed coursework masters) not applied as not confirmed for this programme.",
+      "feeHistory": []
     },
     {
       "level": "master",
@@ -99,7 +141,8 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Total tuition S$63,220 incl. 9% GST (2 x S$31,610). Singaporeans/PRs receive additional subsidies (S$5,000 NTU subsidy; S$5,000 CCDS study grant from AY2026) - not applied, amounts/stacking unconfirmed."
+      "notes": "Total tuition S$63,220 incl. 9% GST (2 x S$31,610). Singaporeans/PRs receive additional subsidies (S$5,000 NTU subsidy; S$5,000 CCDS study grant from AY2026) - not applied, amounts/stacking unconfirmed.",
+      "feeHistory": []
     },
     {
       "level": "master",
@@ -128,7 +171,8 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "2026 intake programme fee S$89,380 incl. 9% GST. Citizen/PR = 10% study grant applied (computed). Duration 12 months assumed (not read from the fee page)."
+      "notes": "2026 intake programme fee S$89,380 incl. 9% GST. Citizen/PR = 10% study grant applied (computed). Duration 12 months assumed (not read from the fee page).",
+      "feeHistory": []
     }
   ]
 }
