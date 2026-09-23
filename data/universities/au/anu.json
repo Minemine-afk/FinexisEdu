@@ -19,11 +19,25 @@
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.canamgroup.com/program/australia/the-australian-national-university-anu/bachelor-of-engineering-honours-in-electronic-and-communication-systems",
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/AENGI",
       "lastVerified": "2026-09-23",
-      "sourceType": "secondary",
+      "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 annual indicative fee (48 units) per aggregators; official page https://programsandcourses.anu.edu.au/2026/program/AENGI not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+      "notes": "Annual indicative international fee for 48 units. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50760,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/AENGI"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/AENGI"
+        }
+      ]
     }
   ]
 }

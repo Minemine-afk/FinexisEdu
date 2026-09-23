@@ -13,36 +13,22 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "international": {
-          "annualTuition": 21400,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0
-        }
+        "citizen": { "annualTuition": 8300, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 11600, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 21400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
-      "sourceUrl": "https://leapscholar.com/blog/ntu-singapore-fees/",
+      "sourceUrl": "https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026",
       "lastVerified": "2026-09-23",
-      "sourceType": "secondary",
+      "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Secondary source only for the 2026 figure: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read and no programme-level 2026 Citizen/PR figure was found (MoneySmart/AsiaOne only give a S$8,300-9,500 citizen range). 2025 history (SC 8,250 / PR 11,550 / international 20,000 non-ASEAN TG rate, ASEAN 17,950, non-subsidised 40,500 lab / 36,250 non-lab) comes from search-result summaries of NTU's official 2025 fee PDF, which were garbled; mapping of these figures to this programme's row is UNCERTAIN. SC/PR exclude GST; international incl. 9% GST. 2024 figures not added: summaries of the 2024 PDF gave conflicting rows (8,250/11,550/17,950/18,900 vs 9,450/13,250/20,600/21,050).",
+      "notes": "Annual tuition for students who accepted an offer in 2026, fixed for the whole degree ('All Programmes' row). Citizen/PR: Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$18,050). Excludes miscellaneous fees, which are billed per semester.",
       "feeHistory": [
-        {
-          "feeYear": 2025,
-          "tier": "citizen",
-          "annualTuition": 8250,
-          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
-        },
-        {
-          "feeYear": 2025,
-          "tier": "pr",
-          "annualTuition": 11550,
-          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
-        },
-        {
-          "feeYear": 2025,
-          "tier": "international",
-          "annualTuition": 20000,
-          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
-        }
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 8250, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 11550, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20000, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 8250, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 11550, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 18900, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" }
       ]
     },
     {
@@ -52,36 +38,22 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "international": {
-          "annualTuition": 21400,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0
-        }
+        "citizen": { "annualTuition": 8300, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 11600, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 21400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
-      "sourceUrl": "https://leapscholar.com/blog/ntu-singapore-fees/",
+      "sourceUrl": "https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026",
       "lastVerified": "2026-09-23",
-      "sourceType": "secondary",
+      "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Secondary source only for the 2026 figure: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read and no programme-level 2026 Citizen/PR figure was found (MoneySmart/AsiaOne only give a S$8,300-9,500 citizen range). 2025 history (SC 8,250 / PR 11,550 / international 20,000 non-ASEAN TG rate, ASEAN 17,950, non-subsidised 40,500 lab / 36,250 non-lab) comes from search-result summaries of NTU's official 2025 fee PDF, which were garbled; mapping of these figures to this programme's row is UNCERTAIN. SC/PR exclude GST; international incl. 9% GST. 2024 figures not added: summaries of the 2024 PDF gave conflicting rows (8,250/11,550/17,950/18,900 vs 9,450/13,250/20,600/21,050).",
+      "notes": "Annual tuition for students who accepted an offer in 2026, fixed for the whole degree ('All Programmes' row). Citizen/PR: Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$18,050). Excludes miscellaneous fees, which are billed per semester.",
       "feeHistory": [
-        {
-          "feeYear": 2025,
-          "tier": "citizen",
-          "annualTuition": 8250,
-          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
-        },
-        {
-          "feeYear": 2025,
-          "tier": "pr",
-          "annualTuition": 11550,
-          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
-        },
-        {
-          "feeYear": 2025,
-          "tier": "international",
-          "annualTuition": 20000,
-          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
-        }
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 8250, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 11550, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20000, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 8250, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 11550, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 18900, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" }
       ]
     },
     {
@@ -91,58 +63,59 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "international": {
-          "annualTuition": 22200,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0
-        }
+        "citizen": { "annualTuition": 9500, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 13300, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 21800, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
-      "sourceUrl": "https://leapscholar.com/blog/ntu-singapore-fees/",
+      "sourceUrl": "https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026",
       "lastVerified": "2026-09-23",
-      "sourceType": "secondary",
+      "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Secondary source only: international Tuition-Grant rate for 2026 intake as reported by LeapScholar; official NTU page (accepted-programme-offer-in-2026) could not be read. Citizen/PR rates not found.",
-      "feeHistory": []
+      "notes": "Annual tuition for students who accepted an offer in 2026, fixed for the whole degree (Accountancy/Business row). Citizen/PR: Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$20,700). Excludes miscellaneous fees, which are billed per semester.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 9450, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 13250, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 21700, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 9450, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 13250, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 21050, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" }
+      ]
     },
     {
       "level": "master",
       "field": "engineering",
-      "name": "MSc (School of EEE coursework programme, e.g. MSc Electronics)",
+      "name": "MSc (School of EEE self-financed coursework programme, e.g. MSc Communications Engineering)",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
-        "international": {
-          "annualTuition": 56156.8,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0
-        }
+        "international": { "annualTuition": 58403.07, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters",
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "AY2026 minimum total tuition for 30 AUs S$56,156.80 incl. GST (S$5,615.68 per 3-AU course). SC/PR subsidy (S$5,000 NTU subsidy for self-financed coursework masters) not applied as not confirmed for this programme.",
-      "feeHistory": []
+      "notes": "Minimum total tuition (30 AUs) incl. 9% GST for admission in AY2027 (from Aug 2027): S$58,403.07; AY2026: S$56,156.80. Applies to all nationalities. No Citizen/PR tier: the page confirms the S$5,000 NTU SC/PR subsidy only for AY2024-AY2025. Excludes miscellaneous fees.",
+      "feeHistory": [
+        { "feeYear": 2026, "tier": "international", "annualTuition": 56156.8, "sourceUrl": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters" }
+      ]
     },
     {
       "level": "master",
       "field": "computing",
       "name": "MSc in Artificial Intelligence (MSAI)",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
-        "international": {
-          "annualTuition": 63220,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0
-        }
+        "international": { "annualTuition": 65748.8, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence",
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Total tuition S$63,220 incl. 9% GST (2 x S$31,610). Singaporeans/PRs receive additional subsidies (S$5,000 NTU subsidy; S$5,000 CCDS study grant from AY2026) - not applied, amounts/stacking unconfirmed.",
-      "feeHistory": []
+      "notes": "Total tuition incl. 9% GST for AY2027/28 and after: S$65,748.80 (12 months minimum full-time). No Citizen/PR tier: SC/PR get a S$5,000 NTU subsidy plus a S$5,000 CCDS study grant, but the net fee is not published. The 2026 entry (S$63,220) is a secondary figure, not confirmed on the official page, which now shows only AY2027. Excludes miscellaneous fees.",
+      "feeHistory": [
+        { "feeYear": 2026, "tier": "international", "annualTuition": 63220, "sourceUrl": "https://leapscholar.com/blog/masters-in-computer-science-in-singapore/" }
+      ]
     },
     {
       "level": "master",
@@ -151,27 +124,15 @@
       "durationYears": 1,
       "feeYear": 2026,
       "fees": {
-        "citizen": {
-          "annualTuition": 80442,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0
-        },
-        "pr": {
-          "annualTuition": 80442,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0
-        },
-        "international": {
-          "annualTuition": 89380,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0
-        }
+        "citizen": { "annualTuition": 80442, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 80442, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 89380, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
-      "sourceUrl": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding",
+      "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-mba",
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "2026 intake programme fee S$89,380 incl. 9% GST. Citizen/PR = 10% study grant applied (computed). Duration 12 months assumed (not read from the fee page).",
+      "notes": "Programme fee for the 2026 intake: S$89,380 incl. 9% GST (12- or 18-month programme). Citizen/PR: 10% SC/PR study grant applied (per the fees-funding page). The fees-funding page now shows a schedule totalling S$92,955.20 without saying which intake it is for (probably 2027). Excludes the one-time miscellaneous fee of S$620.",
       "feeHistory": []
     }
   ]

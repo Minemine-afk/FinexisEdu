@@ -64,6 +64,8 @@ export const Country = z.object({
   name: z.string(),
   currency: z.string().length(3),
   defaultFeeIncrease: z.number().min(0).max(0.5),
+  // Observed per-tier rates, where fee history allows (e.g. Singapore Citizen vs international).
+  feeIncreaseByTier: z.partialRecord(Tier, z.number().min(0).max(0.5)).optional(),
 });
 
 export const FxRates = z.object({

@@ -71,14 +71,19 @@ class Report:
 
 
 def extract_amount(text: str, pattern: str) -> float | None:
+    """The amount matched by `pattern`. With several capture groups the amounts
+    are added up, for fees published as separate line items."""
     m = re.search(pattern, text, re.IGNORECASE)
     if not m:
         return None
-    digits = re.sub(r"[^\d.]", "", m.group(1))
-    try:
-        return float(digits)
-    except ValueError:
-        return None
+    total = 0.0
+    for group in m.groups():
+        digits = re.sub(r"[^\d.]", "", group or "")
+        try:
+            total += float(digits)
+        except ValueError:
+            return None
+    return total
 
 
 def extract_year(text: str, pattern: str) -> int | None:
@@ -201,32 +206,51 @@ def refresh_fx(data_dir: Path, report: Report, dry_run: bool) -> None:
     report.notes.append(f"fallback exchange rates refreshed ({body['date']})")
 
 
+def _median_rate(growth: list[float]) -> float:
+    return round(min(max(statistics.median(growth), 0.0), 0.15), 3)
+
+
 def update_fee_increase_defaults(data_dir: Path, unis: list[University], report: Report, dry_run: bool) -> None:
     """Sets each country's default yearly increase to the median observed increase,
-    once there are at least five year-on-year data points."""
+    once there are at least five year-on-year data points.
+
+    Rates are also kept per fee tier, since Singapore Citizen fees rise far more
+    slowly than international ones. Identical fee series within a university
+    (e.g. one national rate listed under ten faculties) count once.
+    """
     for path in sorted((data_dir / "countries").glob("*.json")):
         country = json.loads(path.read_text())
-        growth: list[float] = []
+        by_tier: dict[str, list[float]] = {"citizen": [], "pr": [], "international": []}
         for uni in (u for u in unis if u.country == country["code"]):
+            seen: set[tuple] = set()
             for p in uni.programmes:
-                series = sorted(
-                    [(h.feeYear, h.annualTuition) for h in p.feeHistory if h.tier == "international"]
-                    + [(p.feeYear, p.fees.international.annualTuition)]
-                )
-                for (y0, a), (y1, b) in zip(series, series[1:]):
-                    if y1 > y0 and a > 0:
-                        growth.append((b / a) ** (1 / (y1 - y0)) - 1)
-        if len(growth) < 5:
-            continue
-        rate = round(min(max(statistics.median(growth), 0.0), 0.15), 3)
-        if rate != country["defaultFeeIncrease"]:
+                for tier, growth in by_tier.items():
+                    current = getattr(p.fees, tier)
+                    history = [(h.feeYear, h.annualTuition) for h in p.feeHistory if h.tier == tier]
+                    series = tuple(sorted(history + ([(p.feeYear, current.annualTuition)] if current else [])))
+                    if len(series) < 2 or (tier, series) in seen:
+                        continue
+                    seen.add((tier, series))
+                    for (y0, a), (y1, b) in zip(series, series[1:]):
+                        if y1 > y0 and a > 0:
+                            growth.append((b / a) ** (1 / (y1 - y0)) - 1)
+
+        updated = dict(country)
+        all_growth = [g for gs in by_tier.values() for g in gs]
+        if len(all_growth) >= 5:
+            updated["defaultFeeIncrease"] = _median_rate(all_growth)
+        tiers = {t: _median_rate(gs) for t, gs in by_tier.items() if len(gs) >= 5}
+        if len(tiers) > 1:
+            updated["feeIncreaseByTier"] = tiers
+        if updated != country:
             report.notes.append(
-                f"{country['name']}: default yearly increase {country['defaultFeeIncrease']:.1%} -> {rate:.1%}"
-                f" (median of {len(growth)} observations)"
+                f"{country['name']}: default yearly increase {country['defaultFeeIncrease']:.1%} -> "
+                f"{updated['defaultFeeIncrease']:.1%}"
+                + (f"; by tier {', '.join(f'{t} {r:.1%}' for t, r in tiers.items())}" if len(tiers) > 1 else "")
+                + f" ({len(all_growth)} observations)"
             )
             if not dry_run:
-                country["defaultFeeIncrease"] = rate
-                path.write_text(json.dumps(country, indent=2) + "\n")
+                path.write_text(json.dumps(updated, indent=2) + "\n")
 
 
 # ---------------------------------------------------------------------------

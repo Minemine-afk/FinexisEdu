@@ -15,15 +15,29 @@
       "fees": {
         "international": {
           "annualTuition": 61500,
-          "annualCompulsoryFees": 373,
+          "annualCompulsoryFees": 372,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://articles.unienrol.com/unsw-fees-courses/",
+      "sourceUrl": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours",
       "lastVerified": "2026-09-23",
-      "sourceType": "secondary",
+      "sourceType": "official",
       "cohortLocked": false,
-      "notes": "Aggregator figure for 2026 indicative first-year fee; official degree page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+      "notes": "2026 indicative first-year international fee (48 UOC). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Engineering per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54720,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58560,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
     },
     {
       "level": "master",
@@ -34,34 +48,62 @@
       "fees": {
         "international": {
           "annualTuition": 63000,
-          "annualCompulsoryFees": 373,
+          "annualCompulsoryFees": 372,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://articles.unienrol.com/unsw-fees-courses/",
+      "sourceUrl": "https://www.unsw.edu.au/study/postgraduate/master-of-information-technology",
       "lastVerified": "2026-09-23",
-      "sourceType": "secondary",
+      "sourceType": "official",
       "cohortLocked": false,
-      "notes": "Aggregator figure for 2026 indicative first-year fee; official degree page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+      "notes": "2026 indicative first-year international fee; 96 UOC. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate COMP per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54240,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58080,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
     },
     {
       "level": "master",
       "field": "business",
       "name": "Master of Commerce",
-      "durationYears": 2,
+      "durationYears": 1.5,
       "feeYear": 2026,
       "fees": {
         "international": {
           "annualTuition": 62000,
-          "annualCompulsoryFees": 373,
+          "annualCompulsoryFees": 372,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://articles.unienrol.com/unsw-fees-courses/",
+      "sourceUrl": "https://www.unsw.edu.au/study/postgraduate/master-of-commerce",
       "lastVerified": "2026-09-23",
-      "sourceType": "secondary",
+      "sourceType": "official",
       "cohortLocked": false,
-      "notes": "Aggregator figure for 2026 indicative first-year fee; official degree page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+      "notes": "2026 indicative first-year international fee (total to complete A$96,000). 72 UOC = 1.5 full-time years; UNSW lists 1.7 calendar years. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Business School per-UOC rate x 48 UOC (UNSW fee archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 56160,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 59280,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
     }
   ]
 }

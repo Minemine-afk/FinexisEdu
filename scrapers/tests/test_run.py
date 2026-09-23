@@ -83,6 +83,7 @@ def test_extract_helpers():
     assert extract_amount("Fee: £39,750 per year", r"Fee: £([\d,]+)") == 39750
     assert extract_amount("nothing here", r"Fee: £([\d,]+)") is None
     assert extract_year("AY2025/26 and AY2026/27", r"AY(\d{4})/\d{2}") == 2026
+    assert extract_amount("Tuition $7,000 Supplement $15,000", r"Tuition \$([\d,]+) Supplement \$([\d,]+)") == 22000
 
 
 def test_updates_fees_and_rolls_year_into_history(data_dir):
@@ -138,6 +139,20 @@ def test_dry_run_writes_nothing(data_dir):
 def test_stale_entries_listed_for_manual_check(data_dir):
     report = run(registry(manual=True), data_dir, date(2026, 12, 1), fetch=fixture_fetch, with_fx=False)
     assert report.manual and "Test University" in report.manual[0]
+
+
+def test_every_fee_source_is_registered():
+    """Each programme's current source page is either scraped or listed for a manual check,
+    so no university's fees silently stop being checked."""
+    from scrapers.run import DATA_DIR, REGISTRY_PATH, load_universities
+    import yaml
+
+    reg = Registry.model_validate(yaml.safe_load(REGISTRY_PATH.read_text()))
+    registered = {(s.university, str(s.url)) for s in reg.sources}
+    for uni_id, (_, uni) in load_universities(DATA_DIR).items():
+        for p in uni.programmes:
+            url = str(p.sourceUrl)
+            assert (uni_id, url) in registered, f"{uni_id}: {p.name} source {url} not in registry"
 
 
 def test_committed_registry_and_data_are_valid():

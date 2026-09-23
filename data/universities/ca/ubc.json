@@ -15,7 +15,7 @@
       "fees": {
         "international": {
           "annualTuition": 51530.4,
-          "annualCompulsoryFees": 0,
+          "annualCompulsoryFees": 985.87,
           "oneOffFees": 0
         }
       },
@@ -23,7 +23,21 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026/27 new international: C$1,717.68 per credit x 30 credits. Increases capped at 3%/yr for the cohort. Non-instructional fees not captured."
+      "notes": "C$1,717.68/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Arts undergraduate society fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47189.4,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 49548.6,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -34,7 +48,7 @@
       "fees": {
         "international": {
           "annualTuition": 53082,
-          "annualCompulsoryFees": 0,
+          "annualCompulsoryFees": 964.03,
           "oneOffFees": 0
         }
       },
@@ -42,13 +56,19 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026/27 new international: C$1,769.40 per credit x 30 credits. Increases capped at 3%/yr for the cohort. Non-instructional fees not captured.",
+      "notes": "C$1,769.40/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48610.2,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 51040.5,
-          "sourceUrl": "https://bog3.sites.olt.ubc.ca/files/2025/09/6_2025.03_Tuition-for-New-Program-Bachelor-of-Science-Major-in-Data-Science.pdf"
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
         }
       ]
     },
@@ -61,7 +81,7 @@
       "fees": {
         "international": {
           "annualTuition": 53082,
-          "annualCompulsoryFees": 0,
+          "annualCompulsoryFees": 964.03,
           "oneOffFees": 0
         }
       },
@@ -69,13 +89,19 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "Computer Science is charged the BSc rate (C$1,769.40/credit x 30). Increases capped at 3%/yr. Non-instructional fees not captured.",
+      "notes": "Computer Science is charged the Science rate: C$1,769.40/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48610.2,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 51040.5,
-          "sourceUrl": "https://bog3.sites.olt.ubc.ca/files/2025/09/6_2025.03_Tuition-for-New-Program-Bachelor-of-Science-Major-in-Data-Science.pdf"
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
         }
       ]
     },
@@ -88,7 +114,7 @@
       "fees": {
         "international": {
           "annualTuition": 66199.66,
-          "annualCompulsoryFees": 0,
+          "annualCompulsoryFees": 986.45,
           "oneOffFees": 0
         }
       },
@@ -96,7 +122,21 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026/27 new international first-year tuition. Increases capped at 3%/yr for the cohort. Non-instructional fees not captured."
+      "notes": "Engineering C$1,789.18/credit x 37-credit first-year load (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Applied Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 37 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 60622.65,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63653.69,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -107,7 +147,7 @@
       "fees": {
         "international": {
           "annualTuition": 66678.3,
-          "annualCompulsoryFees": 0,
+          "annualCompulsoryFees": 1268.8,
           "oneOffFees": 0
         }
       },
@@ -115,7 +155,21 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026/27 new international first-year tuition. Increases capped at 3%/yr for the cohort. Non-instructional fees not captured."
+      "notes": "Sauder C$2,222.61/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Commerce society and renovation fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61061.1,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 64113.9,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+        }
+      ]
     }
   ]
 }

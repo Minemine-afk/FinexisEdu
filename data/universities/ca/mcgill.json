@@ -15,7 +15,7 @@
       "fees": {
         "international": {
           "annualTuition": 54000,
-          "annualCompulsoryFees": 3646.94,
+          "annualCompulsoryFees": 2434.94,
           "oneOffFees": 0
         }
       },
@@ -23,7 +23,21 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Admitted Fall 2026, 30 credits; tuition per credit guaranteed for the programme. Compulsory = listed total C$57,646.94 minus tuition; may include international health insurance; other fees rise ~3%/yr."
+      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44000.1,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 48999.9,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -34,7 +48,7 @@
       "fees": {
         "international": {
           "annualTuition": 64785.9,
-          "annualCompulsoryFees": 0,
+          "annualCompulsoryFees": 2380.84,
           "oneOffFees": 0
         }
       },
@@ -42,7 +56,21 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Admitted Fall 2026, 30 credits; tuition per credit guaranteed for the programme. Other fees not captured."
+      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61066.8,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 62898.9,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -53,15 +81,29 @@
       "fees": {
         "international": {
           "annualTuition": 65167.5,
-          "annualCompulsoryFees": 0,
+          "annualCompulsoryFees": 2887.92,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-1",
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2",
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Admitted Fall 2026, 30 credits; tuition guaranteed. Figure may come from the Bioresource Engineering page (bachelor-engineering-bioresource-engineering-bengbioresource-4); verify. Other fees not captured."
+      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62637,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63889.8,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2"
+        }
+      ]
     }
   ]
 }

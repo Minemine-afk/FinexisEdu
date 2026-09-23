@@ -1,14 +1,665 @@
-# Which page feeds which fee figure. See scrapers/models.py (Source, Target) and README.md.
+# Which official page feeds which fee figure. See scrapers/models.py (Source, Target) and README.md.
 #
-# Sources with targets are scraped monthly. `manual: true` sources are listed in the
-# monthly PR when their data is 11+ months old, so a person can re-check them.
-# To automate one: add targets, set manual: false and test with
-#   python -m scrapers.run --dry-run --only <university>
-#
-# Patterns run on whitespace-collapsed page text; the first capture group is the amount.
+# Automated sources are scraped monthly: each target's regex runs on the page text and its
+# capture group(s) give the amount (several groups are added up). `manual: true` sources are
+# pages a person re-checks; the monthly PR lists their programmes once the data is 11+ months old.
+# Test a change with: python -m scrapers.run --dry-run --only <university>
 
 sources:
-  # --- scraped automatically ---
+  # ---------------------------------------------------------------- automated
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026
+    parser: html
+    year_pattern: fixed at the (\d{4}) rate
+    targets:
+    - level: bachelor
+      field: engineering
+      tier: citizen
+      pattern: All Programmes \(except for those listed below\) \$ ?([\d,]+)
+    - level: bachelor
+      field: engineering
+      tier: pr
+      pattern: All Programmes \(except for those listed below\) \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: engineering
+      tier: international
+      pattern: All Programmes \(except for those listed below\) \$ ?[\d,]+ \$ ?[\d,]+ \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: computing
+      tier: citizen
+      pattern: All Programmes \(except for those listed below\) \$ ?([\d,]+)
+    - level: bachelor
+      field: computing
+      tier: pr
+      pattern: All Programmes \(except for those listed below\) \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: computing
+      tier: international
+      pattern: All Programmes \(except for those listed below\) \$ ?[\d,]+ \$ ?[\d,]+ \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: business
+      tier: citizen
+      pattern: Business & Computer Engineering \$ ?([\d,]+)
+    - level: bachelor
+      field: business
+      tier: pr
+      pattern: Business & Computer Engineering \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: business
+      tier: international
+      pattern: Business & Computer Engineering \$ ?[\d,]+ \$ ?[\d,]+ \$ ?[\d,]+ \$ ?([\d,]+)
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      tier: international
+      pattern: AY ?\d{4} \(from Aug \d{4}\) S\$[\d,.]+ ?\* S\$[\d,.]+ ?\* S\$([\d,.]+) ?\* \*Inclusive
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence
+    parser: html
+    year_pattern: The tuition fees for Academic Year (\d{4})/\d{4}
+    targets:
+    - level: master
+      field: computing
+      tier: international
+      pattern: The tuition fees for Academic Year \d{4}/\d{4} and after are as follows:\s*Tuition Fees S\$([\d,.]+)
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/education/graduate-programme/nanyang-mba
+    parser: html
+    year_pattern: Programme Fee \((\d{4}) Intake\)
+    targets:
+    - level: master
+      field: business
+      tier: international
+      pattern: Programme Fee \(\d{4} Intake\):\s*S\$([\d,.]+)
+    - level: master
+      field: business
+      tier: citizen
+      pattern: Programme Fee \(\d{4} Intake\):\s*S\$([\d,.]+)
+      multiplier: 0.9
+    - level: master
+      field: business
+      tier: pr
+      pattern: Programme Fee \(\d{4} Intake\):\s*S\$([\d,.]+)
+      multiplier: 0.9
+  - university: nus
+    country: sg
+    url: https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: engineering
+      tier: citizen
+      pattern: Design and Engineering\d* ([\d,]+) [\d,]+ [\d,]+ [\d,]+
+    - level: bachelor
+      field: engineering
+      tier: pr
+      pattern: Design and Engineering\d* [\d,]+ ([\d,]+) [\d,]+ [\d,]+
+    - level: bachelor
+      field: engineering
+      tier: international
+      pattern: Design and Engineering\d* [\d,]+ [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: computing
+      tier: citizen
+      pattern: Computing ([\d,]+) [\d,]+ [\d,]+ [\d,]+
+    - level: bachelor
+      field: computing
+      tier: pr
+      pattern: Computing [\d,]+ ([\d,]+) [\d,]+ [\d,]+
+    - level: bachelor
+      field: computing
+      tier: international
+      pattern: Computing [\d,]+ [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      programme: College of Humanities and Sciences
+      tier: citizen
+      pattern: Humanities and Sciences ([\d,]+) [\d,]+ [\d,]+ [\d,]+
+    - level: bachelor
+      programme: College of Humanities and Sciences
+      tier: pr
+      pattern: Humanities and Sciences [\d,]+ ([\d,]+) [\d,]+ [\d,]+
+    - level: bachelor
+      programme: College of Humanities and Sciences
+      tier: international
+      pattern: Humanities and Sciences [\d,]+ [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: business
+      tier: citizen
+      pattern: Business[\d,]* ([\d,]+) [\d,]+ [\d,]+ [\d,]+
+    - level: bachelor
+      field: business
+      tier: pr
+      pattern: Business[\d,]* [\d,]+ ([\d,]+) [\d,]+ [\d,]+
+    - level: bachelor
+      field: business
+      tier: international
+      pattern: Business[\d,]* [\d,]+ [\d,]+ [\d,]+ ([\d,]+)
+  - university: nus
+    country: sg
+    url: https://cde.nus.edu.sg/ece/wp-content/uploads/sites/3/2025/10/ECE_MScFees_appendix.pdf
+    parser: pdf
+    targets:
+    - level: master
+      field: engineering
+      tier: international
+      pattern: 'Table 1: Illustration of Full Programme Fees .*?Full-time Students \$([\d,]+)'
+    - level: master
+      field: engineering
+      tier: citizen
+      pattern: 'Table 2b: .*?Full-time \$([\d,]+)'
+    - level: master
+      field: engineering
+      tier: pr
+      pattern: 'Table 2b: .*?Full-time \$([\d,]+)'
+  - university: nus
+    country: sg
+    url: https://www.comp.nus.edu.sg/programmes/pg/mcs/scholarships
+    parser: html
+    year_pattern: AY(\d{4})/\d{4} \(August \d{4} Intake\)
+    targets:
+    - level: master
+      field: computing
+      tier: international
+      pattern: MComp Programme \(with Specialisations\) Tuition Fees \(including prevailing GST 9%\) S\$([\d,]+)
+      multiplier: 0.6666666666666666
+  - university: nus
+    country: sg
+    url: https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2025/05/MSc-Maths-Track-ONE-Tuition-Fee-AY2026.pdf
+    parser: pdf
+    year_pattern: For August (\d{4}) Intake
+    targets:
+    - level: master
+      field: sciences
+      tier: international
+      pattern: International Students \(non-NUS Alumni\) Tuition Fee:\s*S\$([\d,]+) \(before any prevailing GST\)
+      multiplier: 1.09
+    - level: master
+      field: sciences
+      tier: citizen
+      pattern: Singapore Permanent Residents \(non-NUS Alumni\) Tuition Fee after \d+% rebate:\s*S\$([\d,]+)
+      multiplier: 1.09
+    - level: master
+      field: sciences
+      tier: pr
+      pattern: Singapore Permanent Residents \(non-NUS Alumni\) Tuition Fee after \d+% rebate:\s*S\$([\d,]+)
+      multiplier: 1.09
+  - university: cambridge
+    country: uk
+    url: https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/
+    parser: html
+    year_pattern: fees for entry in September (\d{4})
+    targets:
+    - level: master
+      field: business
+      pattern: The fees for entry in September \d{4} are £ ?([\d,]+)
+  - university: imperial
+    country: uk
+    url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/
+    year_pattern: (\d{4}) Cohort
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: Department of Mechanical Engineering All Programmes Entry Cohort Home and Ireland Overseas \d{4} Cohort £ ?[\d,.]+ £ ?([\d,.]+)
+    - level: bachelor
+      field: computing
+      pattern: Department of Computing All Programmes Entry Cohort Home and Ireland Overseas \d{4} Cohort £ ?[\d,.]+ £ ?([\d,.]+)
+  - university: imperial
+    country: uk
+    url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-natural-sciences/
+    year_pattern: (\d{4}) Cohort
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: Department of Physics All Programmes Entry Cohort Home and Ireland Overseas \d{4} Cohort £ ?[\d,.]+ £ ?([\d,.]+)
+  - university: imperial
+    country: uk
+    url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/imperial-business-school/
+    year_pattern: (\d{4}) Cohort
+    targets:
+    - level: bachelor
+      field: business
+      pattern: Business School All Programmes Entry Cohort Home and Ireland Overseas \d{4} Cohort £ ?[\d,.]+ £ ?([\d,.]+)
+  - university: imperial
+    country: uk
+    url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-engineering/
+    year_pattern: (\d{4}) Cohort
+    targets:
+    - level: master
+      field: engineering
+      pattern: MSc Advanced Mechanical Engineering Entry Cohort Home and Ireland Overseas FT Two-Year PT Three-Year PT FT Two-Year PT Three-Year PT \d{4} Cohort £ ?[\d,.]+ £ ?[\d,.]+ £ ?[\d,.]+ £ ?([\d,.]+)
+    - level: master
+      field: computing
+      pattern: Department of Computing All Programmes Entry Cohort Home and Ireland Overseas FT PT FT PT \d{4} Cohort £ ?[\d,.]+ N/A £ ?([\d,.]+)
+  - university: imperial
+    country: uk
+    url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-natural-sciences/
+    year_pattern: (\d{4}) Cohort
+    targets:
+    - level: master
+      field: sciences
+      pattern: MSc Statistics Entry Cohort Home and Ireland Overseas FT PT FT PT \d{4} Cohort £ ?[\d,.]+ N/A £ ?([\d,.]+)
+  - university: imperial
+    country: uk
+    url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/imperial-business-school/
+    year_pattern: (\d{4}) Cohort
+    targets:
+    - level: master
+      field: business
+      pattern: MSc Business Analytics \(1yr Full Time\) Entry Cohort Home and Ireland Overseas FT PT FT PT \d{4} Cohort £ ?[\d,.]+ N/A £ ?([\d,.]+)
+  - university: ucl
+    country: uk
+    url: https://www.mgmt.ucl.ac.uk/management
+    year_pattern: Fees for September (\d{4}) intake
+    targets:
+    - level: master
+      field: business
+      pattern: Fees for September \d{4} intake:\s*Home students:\s*£ ?[\d,]+,\s*Overseas:\s*£ ?([\d,]+)
+  - university: ucl
+    country: uk
+    url: https://www.mgmt.ucl.ac.uk/international-management
+    year_pattern: Fees for (\d{4}) entry
+    targets:
+    - level: bachelor
+      field: business
+      pattern: Fees for \d{4} entry, UK tuition fees £ ?[\d,]+, International Students tuition fees £ ?([\d,]+)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/AENGI
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://www.anu.edu.au/students/program-administration/fees-payments/services-amenities-fee
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: 2026 fee \$ ?([\d,.]+) for full-time students
+  - university: unimelb
+    country: au
+    url: https://ask.unimelb.edu.au/faq/5570/student-services-and-amenities-fee-ssaf/
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: International fee-paying student No \$ ?([\d,.]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours
+    parser: html
+    year_pattern: (\d{4}) Indicative first year full fee
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-information-technology
+    parser: html
+    year_pattern: (\d{4}) Indicative first year full fee
+    targets:
+    - level: master
+      field: computing
+      pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-commerce
+    parser: html
+    year_pattern: (\d{4}) Indicative first year full fee
+    targets:
+    - level: master
+      field: business
+      pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/student/managing-your-studies/fees/ssaf
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: 2026 Students studying under the 3\+ Academic Calendar:? The full-time fee is \$ ?([\d.]+) per term
+      multiplier: 3
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf
+    parser: pdf
+    year_pattern: (\d{4}) Admission Guide
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: B Engineering Honours 083109M \d+ Feb/Aug ([\d,]+)
+    - level: bachelor
+      field: computing
+      pattern: B Advanced Computing 093855E \d+ Feb/Aug ([\d,]+)
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/students/ssaf.html
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
+      multiplier: 2
+  - university: berkeley
+    country: us
+    url: https://registrar.berkeley.edu/tuition-fees/fee-schedule/
+    parser: html
+    targets:
+    - level: bachelor
+      multiplier: 2
+      pattern: Tuition [\d,.]+ ([\d,.]+) Student Services Fee [\d,.]+ [\d,.]+ Berkeley Campus Fee [\d,.]+ [\d,.]+ Transit Fee [\d,.]+ [\d,.]+ Nonresident Supplemental Tuition N/A ([\d,.]+)
+    - level: bachelor
+      key: annualCompulsoryFees
+      multiplier: 2
+      pattern: Student Services Fee [\d,.]+ ([\d,.]+) Berkeley Campus Fee [\d,.]+ ([\d,.]+) Transit Fee [\d,.]+ ([\d,.]+) Nonresident Supplemental Tuition N/A [\d,.]+ Instructional Resilience & Enhancement Fee [\d,.]+ ([\d,.]+)
+    - level: bachelor
+      key: oneOffFees
+      pattern: Document Management Fee [\d,.]+ ([\d,.]+) New Student Total
+    - level: master
+      field: engineering
+      multiplier: 2
+      pattern: Master of Engineering \(All M\.Eng Degrees\) Fee Description Residents Nonresidents Tuition [\d,.]+ ([\d,.]+) .{0,160}?Nonresident Supplemental Tuition N/A ([\d,.]+) Professional Degree Supplemental Tuition [\d,.]+ ([\d,.]+)
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      multiplier: 2
+      pattern: Master of Engineering \(All M\.Eng Degrees\) Fee Description Residents Nonresidents Tuition [\d,.]+ [\d,.]+ Student Services Fee [\d,.]+ ([\d,.]+) Berkeley Campus Fee [\d,.]+ ([\d,.]+) Transit Fee [\d,.]+ ([\d,.]+) .{0,120}?Instructional Resilience & Enhancement Fee [\d,.]+ ([\d,.]+)
+    - level: master
+      field: engineering
+      key: oneOffFees
+      pattern: Master of Engineering \(All M\.Eng Degrees\) Fee Description Residents Nonresidents .{0,500}?Document Management Fee (?:- Masters )?[\d,.]+ ([\d,.]+)
+    - level: master
+      field: computing
+      multiplier: 2
+      pattern: Master of Engineering \(All M\.Eng Degrees\) Fee Description Residents Nonresidents Tuition [\d,.]+ ([\d,.]+) .{0,160}?Nonresident Supplemental Tuition N/A ([\d,.]+) Professional Degree Supplemental Tuition [\d,.]+ ([\d,.]+)
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      multiplier: 2
+      pattern: Master of Engineering \(All M\.Eng Degrees\) Fee Description Residents Nonresidents Tuition [\d,.]+ [\d,.]+ Student Services Fee [\d,.]+ ([\d,.]+) Berkeley Campus Fee [\d,.]+ ([\d,.]+) Transit Fee [\d,.]+ ([\d,.]+) .{0,120}?Instructional Resilience & Enhancement Fee [\d,.]+ ([\d,.]+)
+    - level: master
+      field: computing
+      key: oneOffFees
+      pattern: Master of Engineering \(All M\.Eng Degrees\) Fee Description Residents Nonresidents .{0,500}?Document Management Fee (?:- Masters )?[\d,.]+ ([\d,.]+)
+    - level: master
+      field: business
+      multiplier: 2
+      pattern: Master of Business Administration \(Full-time MBA program only\) Fee Description Residents Nonresidents Tuition [\d,.]+ ([\d,.]+) .{0,160}?Nonresident Supplemental Tuition N/A ([\d,.]+) Professional Degree Supplemental Tuition [\d,.]+ ([\d,.]+)
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      multiplier: 2
+      pattern: Master of Business Administration \(Full-time MBA program only\) Fee Description Residents Nonresidents Tuition [\d,.]+ [\d,.]+ Student Services Fee [\d,.]+ ([\d,.]+) Berkeley Campus Fee [\d,.]+ ([\d,.]+) Transit Fee [\d,.]+ ([\d,.]+) .{0,120}?Instructional Resilience & Enhancement Fee [\d,.]+ ([\d,.]+)
+    - level: master
+      field: business
+      key: oneOffFees
+      pattern: Master of Business Administration \(Full-time MBA program only\) Fee Description Residents Nonresidents .{0,500}?Document Management Fee (?:- Masters )?[\d,.]+ ([\d,.]+)
+    - level: master
+      field: sciences
+      multiplier: 2
+      pattern: Master of Arts in Statistics Fee Description Residents Nonresidents Tuition [\d,.]+ ([\d,.]+) .{0,160}?Nonresident Supplemental Tuition N/A ([\d,.]+) Professional Degree Supplemental Tuition [\d,.]+ ([\d,.]+)
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      multiplier: 2
+      pattern: Master of Arts in Statistics Fee Description Residents Nonresidents Tuition [\d,.]+ [\d,.]+ Student Services Fee [\d,.]+ ([\d,.]+) Berkeley Campus Fee [\d,.]+ ([\d,.]+) Transit Fee [\d,.]+ ([\d,.]+) .{0,120}?Instructional Resilience & Enhancement Fee [\d,.]+ ([\d,.]+)
+    - level: master
+      field: sciences
+      key: oneOffFees
+      pattern: Master of Arts in Statistics Fee Description Residents Nonresidents .{0,500}?Document Management Fee (?:- Masters )?[\d,.]+ ([\d,.]+)
+    - level: master
+      field: arts
+      multiplier: 2
+      pattern: Master of Journalism \(M\.Journ\.\) Fee Description Residents Nonresidents Tuition [\d,.]+ ([\d,.]+) .{0,160}?Nonresident Supplemental Tuition N/A ([\d,.]+) Professional Degree Supplemental Tuition [\d,.]+ ([\d,.]+)
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      multiplier: 2
+      pattern: Master of Journalism \(M\.Journ\.\) Fee Description Residents Nonresidents Tuition [\d,.]+ [\d,.]+ Student Services Fee [\d,.]+ ([\d,.]+) Berkeley Campus Fee [\d,.]+ ([\d,.]+) Transit Fee [\d,.]+ ([\d,.]+) .{0,120}?Instructional Resilience & Enhancement Fee [\d,.]+ ([\d,.]+)
+    - level: master
+      field: arts
+      key: oneOffFees
+      pattern: Master of Journalism \(M\.Journ\.\) Fee Description Residents Nonresidents .{0,500}?Document Management Fee (?:- Masters )?[\d,.]+ ([\d,.]+)
+  - university: cmu
+    country: us
+    url: https://www.cmu.edu/sfs/tuition/undergraduate/index.html
+    parser: html
+    targets:
+    - level: bachelor
+      pattern: First-Years Entering Fall \d{4} .{0,80}?Tuition \$([\d,]+)
+    - level: bachelor
+      key: oneOffFees
+      pattern: First-Year Experience Fee \d* ?([\d,]+) [\d,]+ Technology Fee
+    - level: bachelor
+      key: annualCompulsoryFees
+      pattern: Technology Fee ([\d,]+) [\d,]+ Student Activities Fee ([\d,]+) [\d,]+ Transportation Fee ([\d,]+)
+  - university: cmu
+    country: us
+    url: https://www.cmu.edu/sfs/tuition/graduate/index.html
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: 'School of Computer Science Tuition: Varies Fees: \$ ?([\d,]+)'
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: 'College of Engineering Tuition: Varies Fees: \$ ?([\d,]+)'
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: 'Dietrich College of Humanities (?:&|and) Social Sciences Tuition: [^:]{0,40}Fees: \$ ?([\d,]+)'
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: 'Mellon College of Science Tuition: [^:]{0,40}Fees: \$ ?([\d,]+)'
+  - university: cmu
+    country: us
+    url: https://www.cmu.edu/sfs/tuition/graduate/scs.html
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      pattern: SCS Master's Program \$([\d,]+)
+  - university: cmu
+    country: us
+    url: https://www.cmu.edu/sfs/tuition/graduate/cit.html
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      pattern: Per unit Masters \$([\d,]+)
+  - university: cmu
+    country: us
+    url: https://www.cmu.edu/sfs/tuition/graduate/mcs.html
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      pattern: Per Unit Masters \$([\d,]+)
+  - university: cmu
+    country: us
+    url: https://www.cmu.edu/sfs/tuition/graduate/dc.html
+    parser: html
+    targets:
+    - level: master
+      field: arts
+      pattern: Academic Year Fall Spring Tuition \$([\d,]+)
+  - university: cmu
+    country: us
+    url: https://www.cmu.edu/sfs/tuition/graduate/tepper/full-accel-mba.html
+    parser: html
+    targets:
+    - level: master
+      field: business
+      pattern: Academic Year Tuition \$[\d,]+ \$[\d,]+ \$([\d,]+)
+  - university: mit
+    country: us
+    url: https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate
+    parser: html
+    year_pattern: Fall and spring (\d{4})-\d{4}
+    targets:
+    - level: bachelor
+      pattern: Full regular tuition \$ ?([\d,]+)
+      multiplier: 2
+  - university: mit
+    country: us
+    url: https://registrar.mit.edu/registration-academics/tuition-fees/graduate
+    parser: html
+    year_pattern: Fall and spring (\d{4})-\d{4}
+    targets:
+    - level: master
+      field: engineering
+      pattern: Full regular tuition \$ ?([\d,]+)
+      multiplier: 2
+    - level: master
+      field: computing
+      pattern: Full regular tuition \$ ?([\d,]+)
+      multiplier: 2
+  - university: mit
+    country: us
+    url: https://registrar.mit.edu/registration-academics/tuition-fees/miscellaneous-fees
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: Student life fee \(per term\) \$ ?([\d,]+)
+      multiplier: 2
+  - university: mit
+    country: us
+    url: https://registrar.mit.edu/registration-academics/tuition-fees/sloan-school-management
+    parser: html
+    targets:
+    - level: master
+      field: business
+      pattern: MBA Program \(includes mandatory \$[\d,]+ per year Sloan program fee\) \$ ?([\d,]+)
+  - university: stanford
+    country: us
+    url: https://studentservices.stanford.edu/tuition-rates/2026-2027-undergraduate-tuition-rates
+    parser: html
+    targets:
+    - level: bachelor
+      pattern: Full-time enrollment \$ ?([\d,]+) per quarter
+      multiplier: 3
+  - university: stanford
+    country: us
+    url: https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates
+    parser: html
+    targets:
+    - level: master
+      pattern: Graduate School of Engineering Coterm billing details Total Units Quarterly Tuition 8-10 units \$ ?[\d,]+ 11-18 units \$ ?([\d,]+)
+      multiplier: 3
+  - university: stanford
+    country: us
+    url: https://vaden.stanford.edu/home/about/vaden-health-services-fees/campus-health-service-fee-health-fee
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: the Health Fee is \$ ?([\d,]+) per quarter
+      multiplier: 3
+  - university: stanford
+    country: us
+    url: https://studentservices.stanford.edu/my-finances/tuition-fees/non-tuition-charges-fees/2026-2027-non-tuition-charges-fees
+    parser: html
+    targets:
+    - key: oneOffFees
+      pattern: Document Fee One-time \$ ?([\d,]+)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: bachelor
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  - university: ubc
+    country: ca
+    url: https://vancouver.calendar.ubc.ca/fees/tuition-fees/undergraduate
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: International Students - Program.*? Arts \$ ?([\d,.]+)
+      multiplier: 30
+    - level: bachelor
+      field: sciences
+      pattern: 'International Students - Program.*?Pharmaceutical Sciences \$ ?[\d,.]+(?: \$ ?[\d,.]+| N/A)* Science \$ ?([\d,.]+)'
+      multiplier: 30
+    - level: bachelor
+      field: computing
+      pattern: 'International Students - Program.*?Pharmaceutical Sciences \$ ?[\d,.]+(?: \$ ?[\d,.]+| N/A)* Science \$ ?([\d,.]+)'
+      multiplier: 30
+    - level: bachelor
+      field: engineering
+      pattern: International Students - Program.*?Applied Science \$ ?([\d,.]+)
+      multiplier: 37
+    - level: bachelor
+      field: business
+      pattern: International Students - Program.*? Commerce \$ ?([\d,.]+)
+      multiplier: 30
+  - university: utoronto
+    country: ca
+    url: https://firstyear.engineering.utoronto.ca/finances/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: Full-time international:\s*\$ ?([\d,]+)
+    - level: bachelor
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Full-time international:\s*\$ ?[\d,]+ \(plus \$ ?([\d,.]+) in incidental fees
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf
+    parser: pdf
+    year_pattern: International Tuition Fees (\d{4})
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: Bachelor of Arts NZ\$ ?([\d,]+)
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/cssf.html
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: In 2026 the fee is \$ ?([\d.]+) per point
+      multiplier: 120
   - university: kyoto
     country: jp
     url: https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2
@@ -23,248 +674,83 @@ sources:
     parser: html
     targets:
     - key: oneOffFees
-      pattern: admission fee is JPY ?([\d,]+)
-  - university: utoronto
-    country: ca
-    url: https://firstyear.engineering.utoronto.ca/finances/
-    parser: html
+      pattern: Admission fee ¥ ?([\d,]+)
+    - level: bachelor
+      pattern: Tuition fee \(annual\) ¥ ?([\d,]+)
+    - level: master
+      pattern: Tuition fee \(annual\) ¥ ?[\d,]+ ¥ ?([\d,]+)
+  - university: waseda
+    country: jp
+    url: https://waseda.box.com/shared/static/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
+    parser: pdf
     targets:
     - level: bachelor
-      field: engineering
-      pattern: tuition is \$ ?([\d,]+)
-    - level: bachelor
-      field: engineering
-      key: annualCompulsoryFees
-      pattern: plus \$ ?([\d,.]+) in incidental fees
+      pattern: 基幹理工学部 [\d,]+ [\d,]+ ([\d,]+)
 
-  # --- checked by hand (add targets to automate) ---
-  - university: anu
-    country: au
-    url: https://www.canamgroup.com/program/australia/the-australian-national-university-anu/bachelor-of-engineering-honours-in-electronic-and-communication-systems
+  # ---------------------------------------------------------------- checked by hand
+  # secondary source; the university's own fee page is not machine-readable
+  - university: nus
+    country: sg
+    url: https://leapscholar.com/blog/masters-in-economics-in-singapore/
     parser: html
     manual: true
+  # secondary source; the university's own fee page is not machine-readable
+  - university: nus
+    country: sg
+    url: https://www.educatly.com/program/661841/nus-msc-in-finance
+    parser: html
+    manual: true
+  # secondary source; the university's own fee page is not machine-readable
+  - university: smu
+    country: sg
+    url: https://leapscholar.com/blog/cost-of-studying-in-singapore/
+    parser: html
+    manual: true
+  # secondary source; the university's own fee page is not machine-readable
+  - university: smu
+    country: sg
+    url: https://leapscholar.com/blog/masters-in-economics-in-singapore/
+    parser: html
+    manual: true
+  # secondary source; the university's own fee page is not machine-readable
+  - university: oxford
+    country: uk
+    url: https://courseoptions.com/uk/course/uni-of-oxford/msc-advanced-computer-science-uni-of-oxford
+    parser: html
+    manual: true
+  # secondary source; the university's own fee page is not machine-readable
+  - university: oxford
+    country: uk
+    url: https://www.educatly.com/program/734267/mst-in-history-early-modern-history-1500-1700
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: oxford
+    country: uk
+    url: https://www.sbs.ox.ac.uk/sites/default/files/2024-10/MSc_in_Financial_Economics_2025-26entry_11Oct2024.pdf
+    parser: pdf
+    manual: true
+  # secondary source; the university's own fee page is not machine-readable
   - university: unimelb
     country: au
-    url: https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/fees/
+    url: https://augstudy.com/courses/bachelor-science-the-university-of-melbourne/
     parser: html
     manual: true
+  # secondary source; the university's own fee page is not machine-readable
   - university: unimelb
     country: au
     url: https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953
     parser: html
     manual: true
-  - university: unsw
-    country: au
-    url: https://articles.unienrol.com/unsw-fees-courses/
-    parser: html
-    manual: true
-  - university: usyd
-    country: au
-    url: https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf
-    parser: pdf
-    manual: true
-  - university: mcgill
-    country: ca
-    url: https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3
-    parser: html
-    manual: true
-  - university: mcgill
-    country: ca
-    url: https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4
-    parser: html
-    manual: true
-  - university: mcgill
-    country: ca
-    url: https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-1
-    parser: html
-    manual: true
+  # fee is not a single figure on the page (per-credit, ranges or several rows)
   - university: ubc
     country: ca
     url: https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/
     parser: html
     manual: true
+  # archived or yearly document
   - university: waseda
     country: jp
-    url: https://www.libertify.com/universities/waseda-english-ug-programs/
-    parser: html
-    manual: true
-  - university: auckland
-    country: nz
-    url: https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf
-    parser: pdf
-    manual: true
-  - university: ntu
-    country: sg
-    url: https://leapscholar.com/blog/ntu-singapore-fees/
-    parser: html
-    manual: true
-  - university: ntu
-    country: sg
-    url: https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters
-    parser: html
-    manual: true
-  - university: ntu
-    country: sg
-    url: https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence
-    parser: html
-    manual: true
-  - university: ntu
-    country: sg
-    url: https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding
-    parser: html
-    manual: true
-  - university: nus
-    country: sg
-    url: https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf
-    parser: pdf
-    manual: true
-  - university: nus
-    country: sg
-    url: https://cde.nus.edu.sg/ece/graduate/msc-computer-engineering/tuition-fees/
-    parser: html
-    manual: true
-  - university: nus
-    country: sg
-    url: https://www.comp.nus.edu.sg/programmes/pg/mcs/scholarships
-    parser: html
-    manual: true
-  - university: nus
-    country: sg
-    url: https://mscfin.nus.edu.sg/fees-finances/programme-fees/
-    parser: html
-    manual: true
-  - university: nus
-    country: sg
-    url: https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2025/05/MSc-Maths-Track-ONE-Tuition-Fee-AY2026.pdf
-    parser: pdf
-    manual: true
-  - university: nus
-    country: sg
-    url: https://fass.nus.edu.sg/ecs/me-fees-and-payment-2026-and-2027/
-    parser: html
-    manual: true
-  - university: cambridge
-    country: uk
-    url: https://www.jbs.cam.ac.uk/masters-degrees/mba/fees-funding/
-    parser: html
-    manual: true
-  - university: oxford
-    country: uk
-    url: https://www.ox.ac.uk/sites/files/oxford/TM_MF1%20-%20MSc%20in%20Advanced%20Computer%20Science%20-%202026-27%20entry%20-%2028Oct2025_3.pdf
-    parser: pdf
-    manual: true
-  - university: oxford
-    country: uk
-    url: https://www.ox.ac.uk/sites/files/oxford/TS_HY6B3,%20TS_HY6B9P3%20-%20MSt%20in%20History%20(Early%20Modern%20History%201500-1700)%20-%202026-27%20entry%20-%2029Oct2025.pdf
-    parser: pdf
-    manual: true
-  - university: oxford
-    country: uk
-    url: https://www.sbs.ox.ac.uk/programmes/degrees/msc-financial-economics
-    parser: html
-    manual: true
-  - university: mit
-    country: us
-    url: https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate
-    parser: html
-    manual: true
-  - university: mit
-    country: us
-    url: https://registrar.mit.edu/registration-academics/tuition-fees/graduate
-    parser: html
-    manual: true
-  - university: mit
-    country: us
-    url: https://mitsloan.mit.edu/mba/admissions/financing-your-education
-    parser: html
-    manual: true
-  - university: stanford
-    country: us
-    url: https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027
-    parser: html
-    manual: true
-  - university: stanford
-    country: us
-    url: https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates
-    parser: html
-    manual: true
-  - university: unimelb
-    country: au
-    url: https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf
-    parser: pdf
-    manual: true
-  - university: ubc
-    country: ca
-    url: https://bog3.sites.olt.ubc.ca/files/2025/09/6_2025.03_Tuition-for-New-Program-Bachelor-of-Science-Major-in-Data-Science.pdf
-    parser: pdf
-    manual: true
-  - university: utoronto
-    country: ca
-    url: https://discover.engineering.utoronto.ca/finances/
-    parser: html
-    manual: true
-  - university: kyoto
-    country: jp
-    url: https://gakuyu.blog/%E4%BA%AC%E9%83%BD%E5%A4%A7%E5%AD%A6-%E5%AD%A6%E8%B2%BB-2024%E5%B9%B4%E5%BA%A6/
-    parser: html
-    manual: true
-  - university: kyoto
-    country: jp
-    url: https://passnavi.obunsha.co.jp/univ/0560/expense
-    parser: html
-    manual: true
-  - university: utokyo
-    country: jp
-    url: https://www.u-tokyo.ac.jp/content/400247772.pdf
-    parser: pdf
-    manual: true
-  - university: ntu
-    country: sg
-    url: https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf
-    parser: pdf
-    manual: true
-  - university: smu
-    country: sg
-    url: https://www.smu.edu.sg/campus-life/financial-matters/tuition-fees
-    parser: html
-    manual: true
-  - university: smu
-    country: sg
-    url: https://masters.smu.edu.sg/programme/master-in-financial-economics
-    parser: html
-    manual: true
-  - university: cambridge
-    country: uk
-    url: https://yocket.com/universities/judge-business-school-4785
-    parser: html
-    manual: true
-  - university: oxford
-    country: uk
-    url: https://www.ox.ac.uk/sites/files/oxford/TM_MF1%20-%20MSc%20in%20Advanced%20Computer%20Science%20-%202025-26%20entry%20-%2025Oct2024.pdf
-    parser: pdf
-    manual: true
-  - university: oxford
-    country: uk
-    url: https://www.ox.ac.uk/sites/files/oxford/TS_HY6B3,%20TS_HY6B9P3%20-%20MSt%20in%20History%20(Early%20Modern%20History%201500-1700)%20-%202025-26%20entry%20-%2025Oct2024.pdf
-    parser: pdf
-    manual: true
-  - university: mit
-    country: us
-    url: https://news.mit.edu/2024/financial-aid-and-tuition-rates-2024-25-0321
-    parser: html
-    manual: true
-  - university: mit
-    country: us
-    url: https://registrar.mit.edu/sites/default/files/2025-04/tuition_25-26.pdf
-    parser: pdf
-    manual: true
-  - university: stanford
-    country: us
-    url: https://news.stanford.edu/report/2024/02/13/trustees-set-2024-25-tuition/
-    parser: html
-    manual: true
-  - university: stanford
-    country: us
-    url: https://news.stanford.edu/stories/2025/02/stanford-sets-2025-26-tuition-rates
+    url: https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
     parser: html
     manual: true

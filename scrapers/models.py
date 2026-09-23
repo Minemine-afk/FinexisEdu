@@ -82,7 +82,8 @@ class Target(BaseModel):
     programme: str | None = None  # substring of the programme name
     tier: TierT = "international"
     key: FeeKey = "annualTuition"
-    # Regex with one capture group around the amount, run on whitespace-normalised page text.
+    # Regex run on whitespace-normalised page text. The amount is its capture group;
+    # with several groups (fees listed as separate line items) they are summed.
     pattern: str
     # Multiply the captured amount, e.g. 0.5 when the page quotes a per-semester fee
     # or 1/1.5 when it quotes the total for a 1.5-year programme.
