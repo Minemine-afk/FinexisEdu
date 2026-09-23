@@ -15,26 +15,26 @@
       "fees": {
         "international": {
           "annualTuition": 52944,
-          "annualCompulsoryFees": 373,
+          "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/fees/",
+      "sourceUrl": "https://augstudy.com/courses/bachelor-science-the-university-of-melbourne/",
       "lastVerified": "2026-09-23",
-      "sourceType": "official",
+      "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "2026 international indicative first-year fee quoted as a range A$52,944 - A$62,208 depending on subjects; lower bound used. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+      "notes": "Tuition not confirmed on official page (study.unimelb.edu.au blocks automated access); agent listing, lower end of a subject-dependent range. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570)."
     },
     {
       "level": "master",
       "field": "engineering",
       "name": "Master of Mechanical Engineering",
-      "durationYears": 2,
+      "durationYears": 3,
       "feeYear": 2026,
       "fees": {
         "international": {
           "annualTuition": 62976,
-          "annualCompulsoryFees": 373,
+          "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
@@ -42,13 +42,13 @@
       "lastVerified": "2026-09-23",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Aggregator figure for 2026 international first-year fee; official page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed.",
+      "notes": "Tuition (2026 and 2025) not confirmed on official page (unimelb fee pages block automated access); aggregator figures. 300 points / 36 months full-time per the 2026 Handbook; up to 100 points credit for a cognate engineering degree. International students pay no SSAF.",
       "feeHistory": [
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 57984,
-          "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf"
+          "sourceUrl": "https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953"
         }
       ]
     }
