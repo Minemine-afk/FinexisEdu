@@ -80,6 +80,15 @@ personal/books), stored as monthly amounts in `livingCosts` in its data file.
   survey. UCL's figure is its US-loan budget. Each card says which source it uses.
 - The monthly scraper keeps these estimates updated like the fees.
 
+## On phones
+
+The site is responsive and can be installed as an app. In Safari, choose
+**Share → Add to Home Screen**; in Chrome on Android, **⋮ → Install app**.
+It then opens full-screen with its own icon (`app/manifest.ts`,
+`public/icons/`). On small screens a bottom bar links from the options to the
+results, chart bars open their breakdown on tap, and form fields are sized so
+iOS doesn't zoom in.
+
 ## The calculation
 
 Start years 2024–2028 are offered. For each year of study:

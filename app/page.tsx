@@ -14,7 +14,7 @@ export default async function Home() {
   return (
     <>
       <header className="bg-accent-strong text-on-accent">
-        <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
+        <div className="safe-x mx-auto max-w-6xl pt-[calc(env(safe-area-inset-top)+2.5rem)] pb-10 sm:pt-[calc(env(safe-area-inset-top)+3.5rem)] sm:pb-14">
           <p className="text-sm font-semibold uppercase tracking-widest text-on-accent-muted">FinexisEdu</p>
           <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">University fee calculator</h1>
           <p className="mt-3 max-w-2xl text-on-accent-muted">
@@ -24,11 +24,11 @@ export default async function Home() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-4 py-8 sm:py-10">
+      <main className="safe-x mx-auto max-w-6xl py-8 sm:py-10">
         <Calculator universities={universities} countries={countries} fx={fx} today={today} />
       </main>
 
-      <footer className="mx-auto max-w-6xl border-t-2 border-accent px-4 pt-6 pb-10 text-sm text-muted">
+      <footer className="safe-x mx-auto max-w-6xl border-t-2 border-accent pt-6 pb-[calc(env(safe-area-inset-bottom)+6rem)] text-sm text-muted lg:pb-10">
         <p>
           Fees come from each university&apos;s published fee pages and are refreshed by an automated monthly check.
           Future years are projections. Always confirm with the university before making decisions.

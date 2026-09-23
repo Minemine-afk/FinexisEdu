@@ -80,3 +80,25 @@ body {
 input[type="checkbox"] {
   accent-color: var(--accent);
 }
+
+/* Horizontal page padding that also clears the notch in landscape / installed mode. */
+.safe-x {
+  padding-left: max(1rem, env(safe-area-inset-left));
+  padding-right: max(1rem, env(safe-area-inset-right));
+}
+
+/* iOS Safari zooms into any focused field under 16px; keep fields at 16px on phones. */
+@media (max-width: 639px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* Comfortable checkbox size for touch. */
+input[type="checkbox"] {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+}
