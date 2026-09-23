@@ -1,0 +1,67 @@
+{
+  "id": "oxford",
+  "name": "University of Oxford",
+  "country": "uk",
+  "city": "Oxford",
+  "currency": "GBP",
+  "website": "https://www.ox.ac.uk",
+  "programmes": [
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc in Advanced Computer Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43730,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/sites/files/oxford/TM_MF1%20-%20MSc%20in%20Advanced%20Computer%20Science%20-%202026-27%20entry%20-%2028Oct2025_3.pdf",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Oxford Overseas course fee; single figure incl. college fee (Oxford no longer charges a separate college fee). Oxford states fees 'will usually increase annually' for continuing students. Home fee £18,970."
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MSt in History",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43730,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/sites/files/oxford/TS_HY6B3,%20TS_HY6B9P3%20-%20MSt%20in%20History%20(Early%20Modern%20History%201500-1700)%20-%202026-27%20entry%20-%2029Oct2025.pdf",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Oxford Overseas course fee; single figure incl. college fee (Oxford no longer charges a separate college fee). Oxford states fees 'will usually increase annually' for continuing students. Full-time (9 months). Figure seen once via search excerpt; verify."
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc in Financial Economics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 62920,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sbs.ox.ac.uk/programmes/degrees/msc-financial-economics",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Oxford Overseas course fee; single figure incl. college fee (Oxford no longer charges a separate college fee). Oxford states fees 'will usually increase annually' for continuing students. Same fee for Home and Overseas. 9-month programme. Figure seen once via search excerpt; verify."
+    }
+  ]
+}

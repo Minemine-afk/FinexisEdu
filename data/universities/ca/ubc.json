@@ -1,0 +1,105 @@
+{
+  "id": "ubc",
+  "name": "The University of British Columbia",
+  "country": "ca",
+  "city": "Vancouver",
+  "currency": "CAD",
+  "website": "https://www.ubc.ca",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 51530.4,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026/27 new international: C$1,717.68 per credit x 30 credits. Increases capped at 3%/yr for the cohort. Non-instructional fees not captured."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53082,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026/27 new international: C$1,769.40 per credit x 30 credits. Increases capped at 3%/yr for the cohort. Non-instructional fees not captured."
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (Computer Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53082,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Computer Science is charged the BSc rate (C$1,769.40/credit x 30). Increases capped at 3%/yr. Non-instructional fees not captured."
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Applied Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66199.66,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026/27 new international first-year tuition. Increases capped at 3%/yr for the cohort. Non-instructional fees not captured."
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66678.3,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026/27 new international first-year tuition. Increases capped at 3%/yr for the cohort. Non-instructional fees not captured."
+    }
+  ]
+}

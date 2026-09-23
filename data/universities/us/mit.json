@@ -1,0 +1,162 @@
+{
+  "id": "mit",
+  "name": "Massachusetts Institute of Technology",
+  "country": "us",
+  "city": "Cambridge, MA",
+  "currency": "USD",
+  "website": "https://www.mit.edu",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "SB in Mechanical Engineering (Course 2)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 full regular tuition $33,360 per term x 2 terms (fall, spring). Student life fee charged each term but amount not verified, so annualCompulsoryFees is 0. Same tuition for all majors."
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "SB in Computer Science and Engineering (Course 6-3)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 full regular tuition $33,360 per term x 2 terms (fall, spring). Student life fee charged each term but amount not verified, so annualCompulsoryFees is 0. Same tuition for all majors."
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "SB in Management (Course 15-1)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 full regular tuition $33,360 per term x 2 terms (fall, spring). Student life fee charged each term but amount not verified, so annualCompulsoryFees is 0. Same tuition for all majors."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "SB in Physics (Course 8)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 full regular tuition $33,360 per term x 2 terms (fall, spring). Student life fee charged each term but amount not verified, so annualCompulsoryFees is 0. Same tuition for all majors."
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "SB in Humanities (Course 21)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 full regular tuition $33,360 per term x 2 terms (fall, spring). Student life fee charged each term but amount not verified, so annualCompulsoryFees is 0. Same tuition for all majors."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "SM in Mechanical Engineering",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/graduate",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 full regular graduate tuition $33,360 per term x 2 terms. Duration is typical, not from source."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MEng in Electrical Engineering and Computer Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/graduate",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 full regular graduate tuition $33,360 per term x 2 terms. Duration is typical, not from source."
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MIT Sloan MBA",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 89692,
+          "annualCompulsoryFees": 2200,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://mitsloan.mit.edu/mba/admissions/financing-your-education",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 MBA tuition cost $91,892, which includes a mandatory $2,200 per year MBA program fee (split out here as compulsory fee)."
+    }
+  ]
+}

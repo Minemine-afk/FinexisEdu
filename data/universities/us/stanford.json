@@ -1,0 +1,124 @@
+{
+  "id": "stanford",
+  "name": "Stanford University",
+  "country": "us",
+  "city": "Stanford, CA",
+  "currency": "USD",
+  "website": "https://www.stanford.edu",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BS in Mechanical Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 67731,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 undergraduate tuition $67,731 (held at the 2025-26 rate). Same tuition for all majors. Mandatory fees (ASSU fee, Campus Health Service Fee) not included."
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BS in Computer Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 67731,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 undergraduate tuition $67,731 (held at the 2025-26 rate). Same tuition for all majors. Mandatory fees (ASSU fee, Campus Health Service Fee) not included."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BS in Physics",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 67731,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 undergraduate tuition $67,731 (held at the 2025-26 rate). Same tuition for all majors. Mandatory fees (ASSU fee, Campus Health Service Fee) not included."
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA in History",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 67731,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 undergraduate tuition $67,731 (held at the 2025-26 rate). Same tuition for all majors. Mandatory fees (ASSU fee, Campus Health Service Fee) not included."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MS in Mechanical Engineering",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 67686,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2025-26 Graduate School of Engineering rate $22,562 per quarter (11-18 units) x 3 academic quarters. Duration is typical, not from source."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MS in Computer Science",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 67686,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2025-26 Graduate School of Engineering rate $22,562 per quarter (11-18 units) x 3 academic quarters. Duration is typical, not from source."
+    }
+  ]
+}
