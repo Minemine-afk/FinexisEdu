@@ -34,6 +34,7 @@ export interface Selection extends Option {
 }
 
 const MAX_SELECTED = 4;
+const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
 // Start years offered. Earlier years use published fee history only.
 const START_YEARS = [2024, 2025, 2026, 2027, 2028];
 const COUNTRY_ORDER = ["sg", "uk", "au", "us", "ca", "nz", "jp"];
@@ -158,13 +159,13 @@ export default function Calculator({ universities, countries, fx, today }: Props
 
   return (
     <div className="grid gap-6 lg:grid-cols-[20rem_1fr]">
-      <aside className="space-y-5 rounded-xl border border-border bg-surface p-5 lg:self-start">
+      <aside className="space-y-5 rounded-xl border border-border bg-sidebar p-5 lg:self-start">
         <Segmented label="Level" value={level} options={LEVELS.map((l) => [l, LEVEL_LABELS[l]])} onChange={(l) => changeCourse(l, field)} />
 
         <label className="block">
           <span className="text-sm font-medium">Field of study</span>
           <select
-            className="mt-1 w-full rounded-md border border-border bg-surface px-3 py-2"
+            className="mt-1 w-full rounded-md border border-border bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-accent"
             value={field}
             onChange={(e) => changeCourse(level, e.target.value as Field)}
           >
@@ -179,7 +180,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
         <label className="block">
           <span className="text-sm font-medium">Residency</span>
           <select
-            className="mt-1 w-full rounded-md border border-border bg-surface px-3 py-2"
+            className="mt-1 w-full rounded-md border border-border bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-accent"
             value={residency}
             onChange={(e) => setResidency(e.target.value as Residency)}
           >
@@ -195,7 +196,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
         <label className="block">
           <span className="text-sm font-medium">Start year</span>
           <select
-            className="mt-1 w-full rounded-md border border-border bg-surface px-3 py-2"
+            className="mt-1 w-full rounded-md border border-border bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-accent"
             value={startYear}
             onChange={(e) => setStartYear(Number(e.target.value))}
           >
@@ -230,7 +231,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
                   max={20}
                   step={0.5}
                   aria-label="Yearly fee increase in percent"
-                  className="w-16 rounded-md border border-border bg-surface px-2 py-1 text-right"
+                  className="w-16 rounded-md border border-border bg-surface px-2 py-1 text-right outline-none focus-visible:ring-2 focus-visible:ring-accent"
                   value={+(customIncrease * 100).toFixed(1)}
                   onChange={(e) => setCustomIncrease(Math.max(0, Number(e.target.value)) / 100)}
                 />
@@ -320,7 +321,7 @@ function Segmented<T extends string>({
   return (
     <div>
       <span className="text-sm font-medium">{label}</span>
-      <div role="radiogroup" aria-label={label} className="mt-1 grid grid-cols-2 gap-1 rounded-md border border-border p-1">
+      <div role="radiogroup" aria-label={label} className="mt-1 grid grid-cols-2 gap-1 rounded-md border border-border bg-surface p-1">
         {options.map(([v, text]) => (
           <button
             key={v}
@@ -328,7 +329,7 @@ function Segmented<T extends string>({
             role="radio"
             aria-checked={value === v}
             onClick={() => onChange(v)}
-            className={`rounded px-3 py-1.5 text-sm ${value === v ? "bg-accent font-medium text-white" : "text-muted hover:bg-border/50"}`}
+            className={`rounded px-3 py-1.5 text-sm${FOCUS} ${value === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted hover:bg-chip"}`}
           >
             {text}
           </button>
@@ -356,7 +357,7 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
     .map((h) => ({ year: h.feeYear, url: h.sourceUrl! }));
 
   return (
-    <article className="rounded-xl border border-border bg-surface p-5">
+    <article className="rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5">
       <p className="text-xs font-medium uppercase tracking-wide text-muted">
         {country?.name} · {u.city}
       </p>
@@ -365,7 +366,7 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
         {p.name} · {result.durationYears} {result.durationYears === 1 ? "year" : "years"}
       </p>
 
-      <p className="mt-4 text-3xl font-semibold tabular-nums">{formatMoney(s.totalSgd, "SGD")}</p>
+      <p className="mt-4 text-3xl font-semibold text-accent tabular-nums">{formatMoney(s.totalSgd, "SGD")}</p>
       {cur !== "SGD" && (
         <p className="text-sm text-muted tabular-nums">
           {formatMoney(result.totalLocal, cur)} at S$1 = {s.fxRate.toLocaleString("en-SG", { maximumFractionDigits: 4 })} {cur}
@@ -421,14 +422,14 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
       {p.notes && <p className="mt-3 text-xs text-muted">{p.notes}</p>}
       <p className="mt-3 text-xs text-muted">
         {p.feeYear}/{String((p.feeYear + 1) % 100).padStart(2, "0")} fees ·{" "}
-        <a className="underline hover:text-foreground" href={p.sourceUrl} target="_blank" rel="noreferrer">
+        <a className="text-accent underline hover:text-foreground" href={p.sourceUrl} target="_blank" rel="noreferrer">
           source
         </a>{" "}
         · checked {p.lastVerified}
         {historySources.map((h) => (
           <span key={h.year}>
             {" · "}
-            <a className="underline hover:text-foreground" href={h.url} target="_blank" rel="noreferrer">
+            <a className="text-accent underline hover:text-foreground" href={h.url} target="_blank" rel="noreferrer">
               {h.year} source
             </a>
           </span>
@@ -440,7 +441,7 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
 
 function Badge({ children, warn }: { children: React.ReactNode; warn?: boolean }) {
   return (
-    <span className={`rounded-full px-2 py-0.5 ${warn ? "bg-warn-bg text-warn-fg" : "bg-border/60 text-muted"}`}>
+    <span className={`rounded-full px-2 py-0.5 ${warn ? "bg-warn-bg text-warn-fg" : "bg-chip text-muted"}`}>
       {children}
     </span>
   );

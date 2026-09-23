@@ -1,16 +1,24 @@
 @import "tailwindcss";
 
+/* Blue-and-white theme, with a navy version for dark mode. */
 :root {
   color-scheme: light;
-  --background: #f6f6f4;
-  --surface: #fcfcfb;
-  --border: #e2e1dc;
-  --foreground: #0b0b0b;
-  --muted: #52514e;
-  --accent: #2a78d6;
-  --series-1: #2a78d6; /* tuition */
-  --series-2: #eb6834; /* compulsory fees */
-  --series-3: #1baf7a; /* one-off fees */
+  --background: #ffffff;
+  --surface: #ffffff;
+  --sidebar: #eff5ff;
+  --border: #d6e2f5;
+  --foreground: #0b1f3a;
+  --muted: #4a5b78;
+  --accent: #1d4ed8;
+  --accent-strong: #1e3a8a;
+  --accent-fill: #1d4ed8; /* filled buttons: white text passes 4.5:1 */
+  --on-accent: #ffffff;
+  --on-accent-muted: #c7d7f5;
+  --chip: #e3ecfb;
+  /* Chart series, validated with the dataviz palette checker (light surface). */
+  --series-1: #1d4ed8; /* tuition */
+  --series-2: #38bdf8; /* compulsory fees */
+  --series-3: #4338ca; /* one-off fees */
   --warn-bg: #fff4d6;
   --warn-fg: #6b4a00;
 }
@@ -18,15 +26,22 @@
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --background: #111110;
-    --surface: #1a1a19;
-    --border: #32322f;
-    --foreground: #ffffff;
-    --muted: #c3c2b7;
-    --accent: #3987e5;
-    --series-1: #3987e5;
-    --series-2: #d95926;
-    --series-3: #199e70;
+    --background: #0a1628;
+    --surface: #10213d;
+    --sidebar: #0d1c35;
+    --border: #1f3558;
+    --foreground: #f2f6fc;
+    --muted: #a9b8d0;
+    --accent: #4f8df5;
+    --accent-strong: #0f2a5c;
+    --accent-fill: #2563eb;
+    --on-accent: #ffffff;
+    --on-accent-muted: #b4c6e6;
+    --chip: #1a3056;
+    /* Validated against the navy surface #10213d. */
+    --series-1: #3478f0;
+    --series-2: #13a8b8;
+    --series-3: #8e70f2;
     --warn-bg: #3a2e0a;
     --warn-fg: #ffd98a;
   }
@@ -35,10 +50,16 @@
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
+  --color-sidebar: var(--sidebar);
   --color-border: var(--border);
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-fill: var(--accent-fill);
+  --color-on-accent: var(--on-accent);
+  --color-on-accent-muted: var(--on-accent-muted);
+  --color-chip: var(--chip);
   --color-series-1: var(--series-1);
   --color-series-2: var(--series-2);
   --color-series-3: var(--series-3);
@@ -50,4 +71,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+/* Native checkboxes and number inputs in the theme blue. */
+input[type="checkbox"] {
+  accent-color: var(--accent);
 }
