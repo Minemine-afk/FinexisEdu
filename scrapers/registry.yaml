@@ -21,9 +21,14 @@ sources:
     country: jp
     url: https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html
     parser: html
+    # Table: Admission fee / Tuition fee (annual), columns Undergraduate, Graduate, ...
     targets:
     - key: oneOffFees
-      pattern: admission fee is JPY ?([\d,]+)
+      pattern: Admission fee ¥ ?([\d,]+)
+    - level: bachelor
+      pattern: Tuition fee \(annual\) ¥ ?([\d,]+)
+    - level: master
+      pattern: Tuition fee \(annual\) ¥ ?[\d,]+ ¥ ?([\d,]+)
   - university: utoronto
     country: ca
     url: https://firstyear.engineering.utoronto.ca/finances/
@@ -31,11 +36,11 @@ sources:
     targets:
     - level: bachelor
       field: engineering
-      pattern: tuition is \$ ?([\d,]+)
+      pattern: Full-time international:\s*\$ ?([\d,]+)
     - level: bachelor
       field: engineering
       key: annualCompulsoryFees
-      pattern: plus \$ ?([\d,.]+) in incidental fees
+      pattern: Full-time international:\s*\$ ?[\d,]+ \(plus \$ ?([\d,.]+) in incidental fees
 
   # --- checked by hand (add targets to automate) ---
   - university: anu
