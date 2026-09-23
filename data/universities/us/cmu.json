@@ -1,0 +1,380 @@
+{
+  "id": "cmu",
+  "name": "Carnegie Mellon University",
+  "country": "us",
+  "city": "Pittsburgh, PA",
+  "currency": "USD",
+  "website": "https://www.cmu.edu",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BS Mechanical Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 69702,
+          "annualCompulsoryFees": 1114,
+          "oneOffFees": 748
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/index.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition, same for all majors. Other fees = technology, student activities and transportation fees; one-off = First-Year Experience Fee. Health insurance excluded (waivable).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64596,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 610,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67020,
+          "annualCompulsoryFees": 1076,
+          "oneOffFees": 680,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2526.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BS Computer Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 69702,
+          "annualCompulsoryFees": 1114,
+          "oneOffFees": 748
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/index.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition, same for all majors. Other fees = technology, student activities and transportation fees; one-off = First-Year Experience Fee. Health insurance excluded (waivable).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64596,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 610,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67020,
+          "annualCompulsoryFees": 1076,
+          "oneOffFees": 680,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2526.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BS Business Administration (Tepper)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 69702,
+          "annualCompulsoryFees": 1114,
+          "oneOffFees": 748
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/index.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition, same for all majors. Other fees = technology, student activities and transportation fees; one-off = First-Year Experience Fee. Health insurance excluded (waivable).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64596,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 610,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67020,
+          "annualCompulsoryFees": 1076,
+          "oneOffFees": 680,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2526.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BS Physics",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 69702,
+          "annualCompulsoryFees": 1114,
+          "oneOffFees": 748
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/index.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition, same for all majors. Other fees = technology, student activities and transportation fees; one-off = First-Year Experience Fee. Health insurance excluded (waivable).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64596,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 610,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67020,
+          "annualCompulsoryFees": 1076,
+          "oneOffFees": 680,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2526.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA English",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 69702,
+          "annualCompulsoryFees": 1114,
+          "oneOffFees": 748
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/index.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Undergraduate tuition, same for all majors. Other fees = technology, student activities and transportation fees; one-off = First-Year Experience Fee. Health insurance excluded (waivable).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64596,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 610,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67020,
+          "annualCompulsoryFees": 1076,
+          "oneOffFees": 680,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2526.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MS in Computer Science",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 62200,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/scs.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "College master's rate (may vary by programme). Other fees = student activities, technology and transportation fees. Health insurance excluded (waivable). CMU's fee summary lists graduate fees of $1,040/yr; the student activities fee was raised to $248/yr on 29 July 2026, which that total may not yet include.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 57500,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2425-archive/scs-2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 60400,
+          "annualCompulsoryFees": 1006,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2526-archive/scs-2526.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MS in Mechanical Engineering",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61510,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/cit.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "College master's rate (may vary by programme). Other fees = student activities, technology and transportation fees. Health insurance excluded (waivable). Duration is typical. CMU's fee summary lists graduate fees of $1,040/yr; the student activities fee was raised to $248/yr on 29 July 2026, which that total may not yet include.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 57436,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2425-archive/cit-2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 60300,
+          "annualCompulsoryFees": 1006,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2526-archive/cit-2526.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MS in Data Analytics for Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 60900,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/mcs.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "College master's rate (may vary by programme). Other fees = student activities, technology and transportation fees. Health insurance excluded (waivable). The 2024-25 figure is the single Mellon College of Science graduate rate (not split into master's and doctoral). CMU's fee summary lists graduate fees of $1,040/yr; the student activities fee was raised to $248/yr on 29 July 2026, which that total may not yet include.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50000,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2425-archive/mcs-2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58000,
+          "annualCompulsoryFees": 1006,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2526-archive/mcs-2526.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA in Professional Writing",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53000,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/dc.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "College master's rate (may vary by programme). Other fees = student activities, technology and transportation fees. Health insurance excluded (waivable). CMU's fee summary lists graduate fees of $1,040/yr; the student activities fee was raised to $248/yr on 29 July 2026, which that total may not yet include.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 51500,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2425-archive/dc-2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53000,
+          "annualCompulsoryFees": 1006,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2526-archive/dc-2526.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Full-Time MBA (Tepper)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 84186,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/tepper/full-accel-mba.html",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "College master's rate (may vary by programme). Other fees = student activities, technology and transportation fees. Health insurance excluded (waivable). Tuition is $42,093 per semester x 2. 2024-25 figure from the graduate tuition index. CMU's fee summary lists graduate fees of $1,040/yr; the student activities fee was raised to $248/yr on 29 July 2026, which that total may not yet include.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 78362,
+          "annualCompulsoryFees": 954,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2425-archive/index-2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 81340,
+          "annualCompulsoryFees": 1006,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2526-archive/full-accel-mba-2526.html"
+        }
+      ]
+    }
+  ]
+}

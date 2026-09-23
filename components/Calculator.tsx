@@ -121,7 +121,9 @@ export default function Calculator({ universities, countries, fx, today }: Props
   const selections: Selection[] = options
     .filter((o) => selected.includes(o.key) && available(o))
     .map((o) => {
-      const feeIncrease = customIncrease ?? countryByCode.get(o.university.country)?.defaultFeeIncrease ?? 0.03;
+      const country = countryByCode.get(o.university.country);
+      const tier = o.university.country === "sg" ? residency : "international";
+      const feeIncrease = customIncrease ?? country?.feeIncreaseByTier?.[tier] ?? country?.defaultFeeIncrease ?? 0.03;
       const result = calculate({
         programme: o.programme,
         currency: o.university.currency,

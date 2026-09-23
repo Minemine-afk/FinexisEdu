@@ -14,16 +14,34 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 1541000,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 200000
+          "annualTuition": 1784000,
+          "annualCompulsoryFees": 63000,
+          "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.libertify.com/universities/waseda-english-ug-programs/",
+      "sourceUrl": "https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y",
       "lastVerified": "2026-09-23",
-      "sourceType": "secondary",
+      "sourceType": "official",
       "cohortLocked": false,
-      "notes": "UNCERTAIN: annual tuition JPY 1,541,000 and entrance fee JPY 200,000 as reported by a search summary (likely aggregator); official AY2026 PDF (Waseda_EDP_Tuition_AY2026.pdf) could not be read. Excludes lab, library and association fees, which vary by department."
+      "notes": "School of Fundamental Science and Engineering. Admission fee ¥200,000 + first-year tuition ¥1,584,000 = ¥1,784,000, the same as tuition in years 2-4, so the admission fee is included in tuition. Other fees = lab fee ¥60,000 + health mutual-aid ¥3,000 per year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1784000,
+          "annualCompulsoryFees": 63000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/zpy44om3fcn5ob1lmdcvdma14qpklled"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1784000,
+          "annualCompulsoryFees": 63000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d"
+        }
+      ]
     }
   ]
 }

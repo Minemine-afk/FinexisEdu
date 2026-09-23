@@ -11,10 +11,10 @@
       "field": "business",
       "name": "The Cambridge MBA (Judge Business School)",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 80000,
+          "annualTuition": 86250,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
@@ -23,13 +23,19 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Fee for September 2026 entry; same for British and overseas students. 1-year programme. Application fee £165 not included. Undergraduate fees not captured (official fee table is a PDF that could not be read).",
+      "notes": "Same fee for Home and Overseas; 1-year programme. Application fee £165 not included. The 2025 figure is from a secondary source, not confirmed on an official page.",
       "feeHistory": [
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 74000,
-          "sourceUrl": "https://yocket.com/universities/judge-business-school-4785"
+          "sourceUrl": "https://www.mbacrystalball.com/blog/2025/07/21/how-cambridge-judge-mba-applications-are-reviewed/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 80000,
+          "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/BMJBMBMBA/financial_tracker.html"
         }
       ]
     }

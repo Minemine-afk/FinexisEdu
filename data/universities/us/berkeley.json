@@ -1,0 +1,380 @@
+{
+  "id": "berkeley",
+  "name": "University of California, Berkeley",
+  "country": "us",
+  "city": "Berkeley, CA",
+  "currency": "USD",
+  "website": "https://www.berkeley.edu",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BS Mechanical Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53472,
+          "annualCompulsoryFees": 4012,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47346,
+          "annualCompulsoryFees": 3461,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51204,
+          "annualCompulsoryFees": 3877.5,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BS Electrical Engineering and Computer Sciences",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53472,
+          "annualCompulsoryFees": 4012,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47346,
+          "annualCompulsoryFees": 3461,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51204,
+          "annualCompulsoryFees": 3877.5,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BS Business Administration (Haas)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53472,
+          "annualCompulsoryFees": 4012,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47346,
+          "annualCompulsoryFees": 3461,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51204,
+          "annualCompulsoryFees": 3877.5,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BA Physics",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53472,
+          "annualCompulsoryFees": 4012,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47346,
+          "annualCompulsoryFees": 3461,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51204,
+          "annualCompulsoryFees": 3877.5,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA English",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53472,
+          "annualCompulsoryFees": 4012,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47346,
+          "annualCompulsoryFees": 3461,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51204,
+          "annualCompulsoryFees": 3877.5,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "M.Eng. Mechanical Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61653,
+          "annualCompulsoryFees": 3907.5,
+          "oneOffFees": 119
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable). Duration is typical.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 57999,
+          "annualCompulsoryFees": 3364,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 59699,
+          "annualCompulsoryFees": 3773.5,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "M.Eng. Electrical Engineering and Computer Sciences",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61653,
+          "annualCompulsoryFees": 3907.5,
+          "oneOffFees": 119
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable). Duration is typical.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 57999,
+          "annualCompulsoryFees": 3364,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 59699,
+          "annualCompulsoryFees": 3773.5,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Full-time MBA (Haas)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 88847,
+          "annualCompulsoryFees": 3907.5,
+          "oneOffFees": 119
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 82041,
+          "annualCompulsoryFees": 3364,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 85271,
+          "annualCompulsoryFees": 3773.5,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "M.A. Statistics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 55285,
+          "annualCompulsoryFees": 3907.5,
+          "oneOffFees": 119
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable). Duration is typical.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 51599,
+          "annualCompulsoryFees": 3364,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53307,
+          "annualCompulsoryFees": 3773.5,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Journalism",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 35275,
+          "annualCompulsoryFees": 3907.5,
+          "oneOffFees": 119
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-23",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable). Duration is typical.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 33781,
+          "annualCompulsoryFees": 3364,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34421,
+          "annualCompulsoryFees": 3773.5,
+          "oneOffFees": 119,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
+    }
+  ]
+}

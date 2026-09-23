@@ -83,6 +83,7 @@ def test_extract_helpers():
     assert extract_amount("Fee: £39,750 per year", r"Fee: £([\d,]+)") == 39750
     assert extract_amount("nothing here", r"Fee: £([\d,]+)") is None
     assert extract_year("AY2025/26 and AY2026/27", r"AY(\d{4})/\d{2}") == 2026
+    assert extract_amount("Tuition $7,000 Supplement $15,000", r"Tuition \$([\d,]+) Supplement \$([\d,]+)") == 22000
 
 
 def test_updates_fees_and_rolls_year_into_history(data_dir):
