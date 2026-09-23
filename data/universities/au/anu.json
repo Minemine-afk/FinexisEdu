@@ -5,6 +5,20 @@
   "city": "Canberra",
   "currency": "AUD",
   "website": "https://www.anu.edu.au",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 2335.67,
+      "food": 758.33,
+      "transport": 75.83,
+      "personal": 391.08
+    },
+    "sourceUrl": "https://www.anu.edu.au/students/program-administration/fees-payments/estimated-cost-of-living-in-canberra",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "ANU 'Estimated Cost of Living in Canberra' (2026), weekly figures x 52/12, range midpoints. Housing: accommodation $312 (share) to $673 (not sharing) + utilities $22-$71 per week. Food: groceries $146-$204/wk. Transport: $5-$30/wk. Personal: phone and internet $18-$26/wk, textbooks $1,531-$1,595/yr, clothing $214-$1,000 and shoes $60-$100 per 6 months, haircut $20-$82/month. Excludes GP visits and childcare. ANU's headline is AU$33,000-$39,000 a year (AU$634-$750/wk), or AU$24,000-$28,500 for the Feb-Nov academic year."
+  },
   "programmes": [
     {
       "level": "bachelor",

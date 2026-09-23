@@ -5,6 +5,20 @@
   "city": "Sydney",
   "currency": "AUD",
   "website": "https://www.unsw.edu.au",
+  "livingCosts": {
+    "year": 2025,
+    "months": 12,
+    "monthly": {
+      "housing": 1538.33,
+      "food": 801.67,
+      "transport": 238.33,
+      "personal": 390
+    },
+    "sourceUrl": "https://www.unsw.edu.au/study/your-future/cost-of-living-sydney",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "UNSW 'Weekly living expenses in Sydney for international students' table (figures accurate as of May 2025), 'Share house' column, weekly x 52/12, range midpoints. Housing: accommodation $290 + utilities and internet $65/wk. Food: $120-$250/wk. Transport: public transport $55/wk. Personal: phone plan $10-$20 + lifestyle spending $50-$100/wk. UNSW's share-house total is $590-$780/wk ($30,680-$40,560 over 52 weeks); other columns: on-campus apartment $555-$960, college $505-$760 (44 weeks), one-bedroom unit $785-$1,335/wk."
+  },
   "programmes": [
     {
       "level": "bachelor",

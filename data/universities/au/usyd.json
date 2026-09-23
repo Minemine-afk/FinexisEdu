@@ -5,6 +5,20 @@
   "city": "Sydney",
   "currency": "AUD",
   "website": "https://www.sydney.edu.au",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 2240,
+      "food": 1750,
+      "transport": 465,
+      "personal": 650
+    },
+    "sourceUrl": "https://www.sydney.edu.au/study/fees-and-loans/other-costs/living-costs.html",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "University of Sydney 'General living costs' table (monthly AUD, figures from the Study Australia cost-of-living calculator; the page gives no year, 2026 is the year it was read), range midpoints. Housing: accommodation $980-$3,500. Food: food and groceries $1,000-$2,500. Transport: $130-$800. Personal: mobile phone $30-$100 + lifestyle $350-$650 + gym $70-$100. The page also cites the older Home Affairs visa minimum of $24,505/yr."
+  },
   "programmes": [
     {
       "level": "bachelor",

@@ -597,6 +597,8 @@ function LivingSection({
   const e = living.estimate;
   const stale = isStale(e.lastVerified, new Date(today));
   const projected = living.years.some((y) => y.projected);
+  // Some sources (e.g. a visa minimum) give one total, stored under housing.
+  const breakdown = living.customised || e.monthly.food + e.monthly.transport + e.monthly.personal > 0;
   return (
     <section className="mt-5 border-t border-border pt-4">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -611,14 +613,18 @@ function LivingSection({
         {formatMoney(monthlyTotal(living.monthly), cur)} a month × {e.months} months a year
         {projected && ` · later years +${(living.increase * 100).toFixed(1)}%/yr inflation`}
       </p>
-      <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-0.5 text-xs tabular-nums">
-        {LIVING_CATEGORIES.map((c) => (
-          <div key={c} className="flex justify-between gap-2">
-            <dt className="text-muted">{LIVING_LABELS[c]}</dt>
-            <dd>{formatMoney(living.monthly[c], cur)}/mo</dd>
-          </div>
-        ))}
-      </dl>
+      {breakdown ? (
+        <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-0.5 text-xs tabular-nums">
+          {LIVING_CATEGORIES.map((c) => (
+            <div key={c} className="flex justify-between gap-2">
+              <dt className="text-muted">{LIVING_LABELS[c]}</dt>
+              <dd>{formatMoney(living.monthly[c], cur)}/mo</dd>
+            </div>
+          ))}
+        </dl>
+      ) : (
+        <p className="mt-2 text-xs text-muted">This estimate is a single total, not split by category.</p>
+      )}
       <p className="mt-2 text-xs text-muted tabular-nums">
         {living.years.map((y) => `${y.academicYear}: ${formatMoney(y.amount, cur)}`).join(" · ")}
       </p>

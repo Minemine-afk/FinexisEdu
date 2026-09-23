@@ -5,6 +5,20 @@
   "city": "Toronto",
   "currency": "CAD",
   "website": "https://www.utoronto.ca",
+  "livingCosts": {
+    "year": 2026,
+    "months": 8,
+    "monthly": {
+      "housing": 2152.5,
+      "food": 350,
+      "transport": 75,
+      "personal": 487.5
+    },
+    "sourceUrl": "https://www.studentlife.utoronto.ca/task/living-costs-in-toronto/",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "U of T Student Life 'Living costs in Toronto' 2026 monthly estimates for a student renting off campus (not specific to international students); ranges taken at their midpoint. Housing = rent $1,220-$2,700 (1,960) + hydro $65+ (65) + internet $60-$115 (87.50) + tenant's insurance $30-$50 (40). Food & grocery $350+ (350). Transportation $0-$150 (75). Personal = phone $50-$100 (75) + clothing & shoes $50-$100 (75) + entertainment & other $200 + books & supplies $550/semester (2 semesters over 8 months = 137.50). Months = 8-month academic year (Sep-Apr, two semesters; the page gives monthly figures only). One-off $550 emergency fund excluded."
+  },
   "programmes": [
     {
       "level": "bachelor",
