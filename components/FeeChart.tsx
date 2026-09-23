@@ -37,9 +37,15 @@ export default function FeeChart({ selections, includeLiving }: { selections: Se
         {selections.map((s) => (
           <li
             key={s.key}
-            className="relative"
+            className="relative cursor-pointer rounded-md outline-none focus-visible:ring-2 focus-visible:ring-accent"
+            // Hover on desktop; on touch screens a tap focuses the bar and opens its
+            // breakdown, and tapping anywhere else (blur) closes it. Keyboard works the same.
+            tabIndex={0}
             onMouseEnter={() => setHover(s.key)}
             onMouseLeave={() => setHover(null)}
+            onClick={() => setHover(s.key)}
+            onFocus={() => setHover(s.key)}
+            onBlur={() => setHover(null)}
           >
             <p className="truncate text-sm">{s.university.name}</p>
             <div className="mt-1 flex items-center gap-2">

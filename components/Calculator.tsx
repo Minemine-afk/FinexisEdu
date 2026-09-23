@@ -1,12 +1,13 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { calculate, hasRateFor, isStale, toSgd, type CalcResult, type Residency } from "@/lib/calc";
 import type { FxResult } from "@/lib/fx";
 import {
   FIELD_LABELS,
   LEVEL_LABELS,
   RESIDENCY_LABELS,
+  formatCompactSgd,
   formatMoney,
 } from "@/lib/format";
 import {
@@ -224,6 +225,17 @@ export default function Calculator({ universities, countries, fx, today }: Props
     })
     .sort((a, b) => a.grandTotalSgd - b.grandTotalSgd);
 
+  // On phones the options panel comes first, so a bottom bar links to the results.
+  const resultsRef = useRef<HTMLElement>(null);
+  const [resultsInView, setResultsInView] = useState(false);
+  useEffect(() => {
+    const el = resultsRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(([entry]) => setResultsInView(entry.isIntersecting), { threshold: 0.05 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
   const grouped = COUNTRY_ORDER.map((code) => ({
     country: countryByCode.get(code as Country["code"]),
     options: options.filter((o) => o.university.country === code),
@@ -287,7 +299,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
 
         <fieldset>
           <legend className="text-sm font-medium">Yearly fee increase</legend>
-          <div className="mt-1 flex items-center gap-2 text-sm">
+          <div className="mt-1 flex min-h-10 items-center gap-2 text-sm">
             <input
               id="custom-increase"
               type="checkbox"
@@ -319,7 +331,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
 
         <fieldset className="space-y-2">
           <legend className="text-sm font-medium">Living costs</legend>
-          <label className="flex items-center gap-2 text-sm">
+          <label className="flex min-h-10 cursor-pointer items-center gap-2 text-sm">
             <input type="checkbox" checked={includeLiving} onChange={(e) => setIncludeLiving(e.target.checked)} />
             Include living costs
           </label>
@@ -355,7 +367,9 @@ export default function Calculator({ universities, countries, fx, today }: Props
                     const checked = hasRate && selected.includes(o.key);
                     return (
                       <li key={o.key}>
-                        <label className={`flex items-start gap-2 text-sm ${hasRate ? "cursor-pointer" : "text-muted"}`}>
+                        <label
+                          className={`flex min-h-11 items-start gap-2 py-2.5 text-sm sm:min-h-0 sm:py-0.5 ${hasRate ? "cursor-pointer" : "text-muted"}`}
+                        >
                           <input
                             type="checkbox"
                             className="mt-1"
@@ -381,7 +395,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
         </div>
       </aside>
 
-      <section className="min-w-0 space-y-6">
+      <section id="results" ref={resultsRef} className="min-w-0 scroll-mt-4 space-y-6">
         {selections.length === 0 ? (
           <div className="rounded-xl border border-dashed border-border p-10 text-center text-muted">
             Pick at least one university to see its total {includeLiving ? "cost" : "fees"}.
@@ -411,6 +425,27 @@ export default function Calculator({ universities, countries, fx, today }: Props
           </>
         )}
       </section>
+
+      {selections.length > 0 && !resultsInView && (
+        <div className="fixed inset-x-0 bottom-0 z-20 border-t border-border bg-surface/95 pb-[env(safe-area-inset-bottom)] shadow-[0_-4px_16px_rgba(0,0,0,0.08)] backdrop-blur lg:hidden">
+          <div className="safe-x mx-auto flex max-w-6xl items-center justify-between gap-3 py-2.5">
+            <p className="min-w-0 text-sm">
+              <span className="font-medium">
+                {selections.length} {selections.length === 1 ? "university" : "universities"}
+              </span>
+              <span className="block truncate text-xs text-muted">
+                From {formatCompactSgd(selections[0].grandTotalSgd)} {includeLiving ? "incl. living costs" : "in fees"}
+              </span>
+            </p>
+            <a
+              href="#results"
+              className={`shrink-0 rounded-md bg-accent-fill px-4 py-2.5 text-sm font-medium text-on-accent${FOCUS}`}
+            >
+              View results ↓
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -442,7 +477,7 @@ function Segmented<T extends string>({
             role="radio"
             aria-checked={value === v}
             onClick={() => onChange(v)}
-            className={`rounded px-2 py-1.5 text-sm${FOCUS} ${value === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted hover:bg-chip"}`}
+            className={`rounded px-2 py-2.5 text-sm sm:py-1.5${FOCUS} ${value === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted hover:bg-chip"}`}
           >
             {text}
           </button>
@@ -630,7 +665,7 @@ function LivingSection({
       </p>
 
       <details className="mt-2 text-sm">
-        <summary className="cursor-pointer text-xs font-medium text-accent">Customise this budget</summary>
+        <summary className="cursor-pointer py-2 text-xs font-medium text-accent sm:py-0">Customise this budget</summary>
         <CustomLiving key={JSON.stringify(living.monthly)} initial={living.monthly} currency={cur} onSave={onCustom} customised={living.customised} />
       </details>
 
