@@ -199,6 +199,17 @@ sources:
     - level: master
       field: business
       pattern: The fees for entry in September \d{4} are £ ?([\d,]+)
+  - university: cambridge
+    country: uk
+    url: https://www.undergraduate.study.cam.ac.uk/fees-and-finance/living-costs
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Monthly living costs \d{4}-\d{2} .*?Accommodation £ ?([\d,]+)
+    - key: living.food
+      pattern: Monthly living costs \d{4}-\d{2} Food £ ?([\d,]+)
+    - key: living.personal
+      pattern: Personal items £ ?([\d,]+) Social activities £ ?([\d,]+) Study costs £ ?([\d,]+) Miscellaneous £ ?([\d,]+)
   - university: imperial
     country: uk
     url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/
@@ -253,6 +264,20 @@ sources:
     - level: master
       field: business
       pattern: MSc Business Analytics \(1yr Full Time\) Entry Cohort Home and Ireland Overseas FT PT FT PT \d{4} Cohort £ ?[\d,.]+ N/A £ ?([\d,.]+)
+  - university: imperial
+    country: uk
+    url: https://www.imperial.ac.uk/study/fees-and-funding/living-costs/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: College-run £ ?[\d,]+ £ ?([\d,]+) .*?Private sector £ ?[\d,]+ £ ?([\d,]+)
+      multiplier: 0.5
+    - key: living.food
+      pattern: Food £ ?\d+ £ ?([\d,]+) £ ?[\d,]+ £ ?[\d,]+ Travel
+    - key: living.transport
+      pattern: Travel \(zone 1-2\) £ ?\d+ £ ?([\d,]+)
+    - key: living.personal
+      pattern: Personal and leisure £ ?\d+ £ ?([\d,]+)
   - university: ucl
     country: uk
     url: https://www.mgmt.ucl.ac.uk/management
@@ -284,6 +309,20 @@ sources:
     targets:
     - key: annualCompulsoryFees
       pattern: 2026 fee \$ ?([\d,.]+) for full-time students
+  - university: anu
+    country: au
+    url: https://www.anu.edu.au/students/program-administration/fees-payments/estimated-cost-of-living-in-canberra
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Accommodation \$([\d,]+) \(share accommodation\) \$([\d,]+) \(not sharing\).*?Utilities \$([\d,]+) ?[–-] ?\$([\d,]+)
+      multiplier: 2.1666666666666665
+    - key: living.food
+      pattern: Average weekly living expenses.*?Groceries \$([\d,]+) ?[–-] ?\$([\d,]+)
+      multiplier: 2.1666666666666665
+    - key: living.transport
+      pattern: Average weekly living expenses.*?Transport \$([\d,]+) ?[–-] ?\$([\d,]+)
+      multiplier: 2.1666666666666665
   - university: unimelb
     country: au
     url: https://ask.unimelb.edu.au/faq/5570/student-services-and-amenities-fee-ssaf/
@@ -346,6 +385,23 @@ sources:
     - key: annualCompulsoryFees
       pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
       multiplier: 2
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/study/fees-and-loans/other-costs/living-costs.html
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Monthly cost \(AUD\) Accommodation .*?\$([\d,]+) ?[–-] ?\$([\d,]+)
+      multiplier: 0.5
+    - key: living.food
+      pattern: Food and groceries .*?\$([\d,]+) ?[–-] ?\$([\d,]+)
+      multiplier: 0.5
+    - key: living.transport
+      pattern: Transport Public transport in Sydney .*?\$([\d,]+) ?[–-] ?\$([\d,]+)
+      multiplier: 0.5
+    - key: living.personal
+      pattern: Mobile phone plan .*?\$([\d,]+) ?[–-] ?\$([\d,]+) Lifestyle expenses .*?\$([\d,]+) ?[–-] ?\$([\d,]+) Gym membership .*?\$([\d,]+) ?[–-] ?\$([\d,]+)
+      multiplier: 0.5
   - university: berkeley
     country: us
     url: https://registrar.berkeley.edu/tuition-fees/fee-schedule/
@@ -426,6 +482,23 @@ sources:
       field: arts
       key: oneOffFees
       pattern: Master of Journalism \(M\.Journ\.\) Fee Description Residents Nonresidents .{0,500}?Document Management Fee (?:- Masters )?[\d,.]+ ([\d,.]+)
+  - university: berkeley
+    country: us
+    url: https://financialaid.berkeley.edu/cost-of-attendance/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Housing \$([\d,]+) \$[\d,]+ n/a n/a Meal Plan
+      multiplier: 0.1111111111111111
+    - key: living.food
+      pattern: Meal Plan \$([\d,]+) n/a n/a n/a.*?Housing and Utilities n/a n/a \$[\d,]+ \$[\d,]+ Food \$([\d,]+)
+      multiplier: 0.1111111111111111
+    - key: living.transport
+      pattern: Miscellaneous and Personal \$[\d,]+ \$[\d,]+ \$[\d,]+ \$[\d,]+ Transportation \$([\d,]+)
+      multiplier: 0.1111111111111111
+    - key: living.personal
+      pattern: Books, Course Materials, Supplies, and Equipment \$([\d,]+) \$[\d,]+ \$[\d,]+ \$[\d,]+ Miscellaneous and Personal \$([\d,]+)
+      multiplier: 0.1111111111111111
   - university: cmu
     country: us
     url: https://www.cmu.edu/sfs/tuition/undergraduate/index.html
@@ -439,6 +512,18 @@ sources:
     - level: bachelor
       key: annualCompulsoryFees
       pattern: Technology Fee ([\d,]+) [\d,]+ Student Activities Fee ([\d,]+) [\d,]+ Transportation Fee ([\d,]+)
+    - key: living.housing
+      pattern: First-Years Entering Fall \d{4}.*?Housing \d ([\d,]+) [\d,]+ Food
+      multiplier: 0.1111111111111111
+    - key: living.food
+      pattern: First-Years Entering Fall \d{4}.*?Food \d ([\d,]+) [\d,]+ First-Year Experience Fee
+      multiplier: 0.1111111111111111
+    - key: living.transport
+      pattern: First-Years Entering Fall \d{4}.*?Transportation Allowance [\d,]+ ([\d,]+) [\d,]+ TOTAL COST OF ATTENDANCE
+      multiplier: 0.1111111111111111
+    - key: living.personal
+      pattern: First-Years Entering Fall \d{4}.*?Books, Course Materials, Supplies, Equipment \d ([\d,]+) [\d,]+ Miscellaneous Personal Expenses \d ([\d,]+)
+      multiplier: 0.1111111111111111
   - university: cmu
     country: us
     url: https://www.cmu.edu/sfs/tuition/graduate/index.html
@@ -539,6 +624,20 @@ sources:
     - level: master
       field: business
       pattern: MBA Program \(includes mandatory \$[\d,]+ per year Sloan program fee\) \$ ?([\d,]+)
+  - university: mit
+    country: us
+    url: https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/coa/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Housing \$([\d,]+) All first-year students
+      multiplier: 0.1111111111111111
+    - key: living.food
+      pattern: Food \$([\d,]+) There are multiple meal plan
+      multiplier: 0.1111111111111111
+    - key: living.personal
+      pattern: Books, course materials, supplies & equipment \$([\d,]+) .*?Personal expenses \$([\d,]+)
+      multiplier: 0.1111111111111111
   - university: stanford
     country: us
     url: https://studentservices.stanford.edu/tuition-rates/2026-2027-undergraduate-tuition-rates
@@ -643,6 +742,22 @@ sources:
       field: engineering
       key: annualCompulsoryFees
       pattern: Full-time international:\s*\$ ?[\d,]+ \(plus \$ ?([\d,.]+) in incidental fees
+  - university: utoronto
+    country: ca
+    url: https://www.studentlife.utoronto.ca/task/living-costs-in-toronto/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: 'Housing: \$([\d,]+) – \$([\d,]+)/month.*?Hydro: \$(?=([\d,]+))([\d,]+)\+/month.*?Internet: \$([\d,]+) – \$([\d,]+)/month.*?Tenant.s insurance: \$([\d,]+) – \$([\d,]+)/month'
+      multiplier: 0.5
+    - key: living.food
+      pattern: 'Food & grocery: \$([\d,]+)\+/month'
+    - key: living.transport
+      pattern: 'Transportation: \$([\d,]+) – \$([\d,]+)/month'
+      multiplier: 0.5
+    - key: living.personal
+      pattern: 'Phone bill: \$(?=([\d,]+))([\d,]+) – \$(?=([\d,]+))([\d,]+)/month.*?Clothing & shoes: \$(?=([\d,]+))([\d,]+) – \$(?=([\d,]+))([\d,]+)/month.*?other expenses: \$(?=([\d,]+))(?=([\d,]+))(?=([\d,]+))([\d,]+)/month.*?Books & supplies: \$([\d,]+)/semester'
+      multiplier: 0.25
   - university: auckland
     country: nz
     url: https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf
@@ -660,6 +775,20 @@ sources:
     - key: annualCompulsoryFees
       pattern: In 2026 the fee is \$ ?([\d.]+) per point
       multiplier: 120
+  - university: auckland
+    country: nz
+    url: https://www.businessmasters.auckland.ac.nz/living-in-auckland-new-zealand/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Rent per week \$([\d,]+) ?[–-] ?\$?([\d,]+)
+      multiplier: 2.1666666666666665
+    - key: living.food
+      pattern: Groceries per week \$([\d,]+) ?[–-] ?\$?([\d,]+)
+      multiplier: 2.1666666666666665
+    - key: living.transport
+      pattern: Monthly bus pass \$([\d,]+) ?[–-] ?\$?([\d,]+)
+      multiplier: 0.5
   - university: kyoto
     country: jp
     url: https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2
@@ -668,6 +797,23 @@ sources:
     - pattern: Tuition is JPY ?([\d,]+) per year
     - key: oneOffFees
       pattern: amount to JPY ?([\d,]+)
+  - university: kyoto
+    country: jp
+    url: https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf
+    parser: pdf
+    targets:
+    - key: living.housing
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?住居費 (?:\d+ ){4}(\d+) .*?電気、ガス、水道料金 (?:\d+ ){4}(\d+) '
+      multiplier: 1000
+    - key: living.food
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?食費 (?:\d+ ){4}(\d+) '
+      multiplier: 1000
+    - key: living.transport
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?通学費 (?:\d+ ){4}(\d+) '
+      multiplier: 1000
+    - key: living.personal
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?趣味、娯楽費 (?:\d+ ){4}(\d+) .*?その他の日常的な経費 (?:\d+ ){4}(\d+) '
+      multiplier: 1000
   - university: utokyo
     country: jp
     url: https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html
@@ -679,6 +825,28 @@ sources:
       pattern: Tuition fee \(annual\) ¥ ?([\d,]+)
     - level: master
       pattern: Tuition fee \(annual\) ¥ ?[\d,]+ ¥ ?([\d,]+)
+  - university: utokyo
+    country: jp
+    url: https://www.u-tokyo.ac.jp/adm/inbound/en/finance-living.html
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: one-room apartment for a single person typically costs around ([\d,]+) to ([\d,]+) yen per month
+      multiplier: 0.5
+    - key: living.food
+      pattern: Many spend around ([\d,]+) to ([\d,]+) yen per month
+      multiplier: 0.5
+  - university: utokyo
+    country: jp
+    url: https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf
+    parser: pdf
+    targets:
+    - key: living.transport
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?通学費 (?:\d+ ){8}(\d+) '
+      multiplier: 1000
+    - key: living.personal
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?趣味、娯楽費 (?:\d+ ){8}(\d+) .*?その他の日常的な経費 (?:\d+ ){8}(\d+) '
+      multiplier: 1000
   - university: waseda
     country: jp
     url: https://waseda.box.com/shared/static/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
@@ -686,6 +854,23 @@ sources:
     targets:
     - level: bachelor
       pattern: 基幹理工学部 [\d,]+ [\d,]+ ([\d,]+)
+  - university: waseda
+    country: jp
+    url: https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf
+    parser: pdf
+    targets:
+    - key: living.housing
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?住居費 (?:\d+ ){8}(\d+) .*?電気、ガス、水道料金 (?:\d+ ){8}(\d+) '
+      multiplier: 1000
+    - key: living.food
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?食費 (?:\d+ ){8}(\d+) '
+      multiplier: 1000
+    - key: living.transport
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?通学費 (?:\d+ ){8}(\d+) '
+      multiplier: 1000
+    - key: living.personal
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?趣味、娯楽費 (?:\d+ ){8}(\d+) .*?その他の日常的な経費 (?:\d+ ){8}(\d+) '
+      multiplier: 1000
 
   # ---------------------------------------------------------------- checked by hand
   # secondary source; the university's own fee page is not machine-readable
@@ -727,8 +912,20 @@ sources:
   # site blocks automated access
   - university: oxford
     country: uk
+    url: https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/living-costs
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: oxford
+    country: uk
     url: https://www.sbs.ox.ac.uk/sites/default/files/2024-10/MSc_in_Financial_Economics_2025-26entry_11Oct2024.pdf
     parser: pdf
+    manual: true
+  # site blocks automated access
+  - university: ucl
+    country: uk
+    url: https://www.ucl.ac.uk/scholarships/us-student-financial-aid/us-loans-costs
+    parser: html
     manual: true
   # secondary source; the university's own fee page is not machine-readable
   - university: unimelb
@@ -742,10 +939,34 @@ sources:
     url: https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953
     parser: html
     manual: true
+  # secondary source; the university's own fee page is not machine-readable
+  - university: unimelb
+    country: au
+    url: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+    parser: html
+    manual: true
+  # fee is not a single figure on the page (per-credit, ranges or several rows)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/your-future/cost-of-living-sydney
+    parser: html
+    manual: true
+  # fee is not a single figure on the page (per-credit, ranges or several rows)
+  - university: stanford
+    country: us
+    url: https://financialaid.stanford.edu/undergrad/budget/
+    parser: html
+    manual: true
   # fee is not a single figure on the page (per-credit, ranges or several rows)
   - university: ubc
     country: ca
     url: https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/
+    parser: html
+    manual: true
+  # fee is not a single figure on the page (per-credit, ranges or several rows)
+  - university: ubc
+    country: ca
+    url: https://you.ubc.ca/financial-planning/cost/
     parser: html
     manual: true
   # archived or yearly document

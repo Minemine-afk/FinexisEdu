@@ -5,6 +5,20 @@
   "city": "Kyoto",
   "currency": "JPY",
   "website": "https://www.kyoto-u.ac.jp",
+  "livingCosts": {
+    "year": 2023,
+    "months": 12,
+    "monthly": {
+      "housing": 47000,
+      "food": 32000,
+      "transport": 4000,
+      "personal": 15000
+    },
+    "sourceUrl": "https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf",
+    "lastVerified": "2026-09-23",
+    "sourceType": "official",
+    "notes": "Kyoto University publishes no itemised estimate of its own; its international-student guide cites JASSO averages. JASSO 2023 Lifestyle Survey of Privately-Financed International Students (令和5年度私費外国人留学生生活実態調査, table 7-4), Kinki region average monthly spending in ¥1,000s: housing 40 + utilities 7, food 32, commuting 4, personal = hobbies/leisure 7 + other daily costs 8. Excludes study/research costs (54, includes tuition) and insurance/medical (3)."
+  },
   "programmes": [
     {
       "level": "bachelor",

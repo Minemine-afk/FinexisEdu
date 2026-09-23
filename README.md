@@ -5,8 +5,8 @@ Bachelor's or Master's degree in Singapore, the UK, Australia, the US, Canada,
 New Zealand and Japan. It is built for Singaporean students and families.
 
 It covers tuition plus compulsory university fees (student services fees,
-Japanese admission fees, and so on). Living costs, visas and flights are
-deliberately out of scope.
+Japanese admission fees, and so on), and optionally living costs for studying
+abroad. Visas, flights and health insurance are out of scope.
 
 ## How it works
 
@@ -60,6 +60,25 @@ bot-protected.
 A few earlier-year figures are an official per-credit or per-course rate
 multiplied by a standard full-time load (UNSW, UBC, Auckland), the same way the
 current figures are built; their notes say so.
+
+## Living costs (optional)
+
+Switch on "Include living costs" to add each overseas university's own
+published estimate of a student's living costs (housing, food, transport and
+personal/books), stored as monthly amounts in `livingCosts` in its data file.
+
+- **Lifestyle:** Moderate is the university's estimate; Frugal is 20% less and
+  Comfortable 30% more. Each card also has "Customise this budget" to enter
+  your own monthly amounts.
+- **Months:** the estimate covers the months the university states (e.g. 9 for
+  a US academic year, 12 for Australia), charged pro rata for part years.
+- **Later years** grow by the country's latest official CPI inflation
+  (`livingCostIncrease` in `data/countries/`).
+- **Not included for Singapore universities.** McGill publishes no estimate.
+  Melbourne's figure is the Australian student-visa minimum (its own pages
+  block automated access). Kyoto and Waseda use JASSO's official student
+  survey. UCL's figure is its US-loan budget. Each card says which source it uses.
+- The monthly scraper keeps these estimates updated like the fees.
 
 ## The calculation
 

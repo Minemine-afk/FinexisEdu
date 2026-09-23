@@ -681,7 +681,7 @@ function CustomLiving({
             <input
               type="number"
               min={0}
-              step={10}
+              step="any"
               className={`mt-0.5 w-full rounded-md border border-border bg-surface px-2 py-1 text-right tabular-nums${FOCUS}`}
               value={draft[c]}
               onChange={(ev) => setDraft({ ...draft, [c]: Math.max(0, Number(ev.target.value)) })}

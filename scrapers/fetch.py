@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import io
 import re
+import time
 
 import requests
 from bs4 import BeautifulSoup
@@ -47,11 +48,24 @@ def browser_to_text(url: str) -> str:
             browser.close()
 
 
+def _get(url: str, attempts: int = 3) -> requests.Response:
+    """GET with a short retry on dropped connections, which some university servers do."""
+    for attempt in range(1, attempts + 1):
+        try:
+            res = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+            res.raise_for_status()
+            return res
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == attempts:
+                raise
+            time.sleep(2 * attempt)
+    raise AssertionError("unreachable")
+
+
 def fetch_text(url: str, parser: str) -> str:
     if parser == "browser":
         return browser_to_text(url)
-    res = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
-    res.raise_for_status()
+    res = _get(url)
     if parser == "pdf":
         return pdf_to_text(res.content)
     return html_to_text(res.text)

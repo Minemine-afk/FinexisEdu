@@ -19,7 +19,7 @@ export default async function Home() {
           <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">University fee calculator</h1>
           <p className="mt-3 max-w-2xl text-on-accent-muted">
             Total tuition and compulsory university fees, in Singapore dollars, for a Bachelor&apos;s or Master&apos;s
-            degree in Singapore and abroad. Living costs are not included.
+            degree in Singapore and abroad, with the option to add living costs for studying overseas.
           </p>
         </div>
       </header>
