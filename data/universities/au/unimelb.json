@@ -42,7 +42,15 @@
       "lastVerified": "2026-09-23",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Aggregator figure for 2026 international first-year fee; official page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed."
+      "notes": "Aggregator figure for 2026 international first-year fee; official page not readable. SSAF = A$373, the 2026 legislated full-time maximum; university's exact charge not separately confirmed.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 57984,
+          "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf"
+        }
+      ]
     }
   ]
 }
