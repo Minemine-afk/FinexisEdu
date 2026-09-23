@@ -127,7 +127,14 @@ def apply_source(source: Source, text: str, uni: University, today: date, report
                 fees = getattr(p.fees, tier)
                 if fees is not None:
                     p.feeHistory.append(
-                        FeeHistoryEntry(feeYear=p.feeYear, tier=tier, annualTuition=fees.annualTuition)
+                        FeeHistoryEntry(
+                            feeYear=p.feeYear,
+                            tier=tier,
+                            annualTuition=fees.annualTuition,
+                            annualCompulsoryFees=fees.annualCompulsoryFees,
+                            oneOffFees=fees.oneOffFees,
+                            sourceUrl=p.sourceUrl,
+                        )
                     )
             report.notes.append(f"{uni.id} {p.name}: fee year {p.feeYear} -> {page_year}")
             p.feeYear = page_year

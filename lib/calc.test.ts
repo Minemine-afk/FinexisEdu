@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { calculate, hasRateFor, isStale, pickTier, toSgd } from "./calc";
+import { calculate, feesForYear, hasRateFor, isStale, pickTier, toSgd } from "./calc";
 import { Programme } from "./schema";
 
 const nus = Programme.parse({
@@ -76,9 +76,10 @@ describe("calculate", () => {
     expect(r.years.map((y) => y.total)).toEqual([40000, 44000, 40000 * 1.1 ** 2].map((n) => expect.closeTo(n)));
   });
 
-  it("does not shrink fees when starting before the published year", () => {
+  it("never estimates a past year that has no published fee", () => {
     const r = calculate({ programme: ucl, currency: "GBP", residency: "citizen", startYear: 2024, feeIncrease: 0.1 });
-    expect(r.years[0].total).toBe(40000);
+    expect(r.missingYears).toEqual([2024, 2025]);
+    expect(r.years.map((y) => y.academicYear)).toEqual([2026]);
   });
 
   it("charges a partial final year for fractional durations", () => {
@@ -93,6 +94,46 @@ describe("calculate", () => {
     expect(r.years[0].oneOffFees).toBe(282000);
     expect(r.years[1].oneOffFees).toBe(0);
     expect(r.totalLocal).toBe(3 * 535800 + 282000);
+  });
+});
+
+describe("past start years", () => {
+  const nusWithHistory = Programme.parse({
+    ...nus,
+    feeYear: 2026,
+    feeHistory: [
+      { feeYear: 2024, tier: "citizen", annualTuition: 9000, annualCompulsoryFees: 450 },
+      { feeYear: 2025, tier: "citizen", annualTuition: 9500 },
+    ],
+  });
+  const uclWithHistory = Programme.parse({
+    ...ucl,
+    feeHistory: [{ feeYear: 2025, tier: "international", annualTuition: 38000 }],
+  });
+
+  it("charges a cohort-locked 2024 start its published 2024 fee for every year", () => {
+    const r = calculate({ programme: nusWithHistory, currency: "SGD", residency: "citizen", startYear: 2024, feeIncrease: 0.1 });
+    expect(r.missingYears).toEqual([]);
+    expect(r.years.map((y) => y.total)).toEqual([9450, 9450, 9450, 9450]);
+    expect(r.years.every((y) => y.basis === "history")).toBe(true);
+    expect(r.projected).toBe(false);
+  });
+
+  it("uses current other fees when history only has tuition, and says so", () => {
+    const r = calculate({ programme: nusWithHistory, currency: "SGD", residency: "citizen", startYear: 2025, feeIncrease: 0 });
+    expect(r.years[0].total).toBe(9500 + 500);
+    expect(r.otherFeesFromCurrent).toBe(true);
+  });
+
+  it("mixes published history, current and projected years when fees are not locked", () => {
+    const r = calculate({ programme: uclWithHistory, currency: "GBP", residency: "international", startYear: 2025, feeIncrease: 0.1 });
+    expect(r.years.map((y) => y.basis)).toEqual(["history", "current", "projected"]);
+    expect(r.years.map((y) => y.total)).toEqual([38000, 40000, expect.closeTo(44000)]);
+  });
+
+  it("looks history up by tier", () => {
+    expect(feesForYear(nusWithHistory, "pr", 2024)).toBeNull();
+    expect(feesForYear(nusWithHistory, "citizen", 2024)?.fees.annualTuition).toBe(9000);
   });
 });
 

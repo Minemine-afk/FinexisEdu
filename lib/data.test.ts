@@ -30,6 +30,21 @@ describe("committed data", () => {
     }
   });
 
+  it("has at most one history entry per year and tier, all before the current fee year", () => {
+    for (const u of universities) {
+      for (const p of u.programmes) {
+        const seen = new Set<string>();
+        for (const h of p.feeHistory) {
+          const key = `${h.feeYear}:${h.tier}`;
+          expect(seen.has(key), `${u.id}: ${p.name} duplicate ${key}`).toBe(false);
+          seen.add(key);
+          expect(h.feeYear, `${u.id}: ${p.name}`).toBeLessThan(p.feeYear);
+          if (u.country !== "sg") expect(h.tier, `${u.id}: ${p.name}`).toBe("international");
+        }
+      }
+    }
+  });
+
   it("has a fallback rate for every currency", () => {
     const fx = FxRates.parse(fallback);
     for (const c of FX_CURRENCIES) expect(fx.rates[c], c).toBeGreaterThan(0);

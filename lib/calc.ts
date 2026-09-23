@@ -17,6 +17,8 @@ export interface YearBreakdown {
   academicYear: number;
   /** Share of a full year charged, below 1 only for a final partial year. */
   fraction: number;
+  /** "history": an earlier year's published fee; "current": the latest published fee; "projected": grown from it. */
+  basis: "history" | "current" | "projected";
   tuition: number;
   compulsoryFees: number;
   oneOffFees: number;
@@ -28,6 +30,14 @@ export interface CalcResult {
   durationYears: number;
   /** True when any year uses a projected (not yet published) fee. */
   projected: boolean;
+  /** True when an earlier year's tuition was published without its other fees, so current ones were used. */
+  otherFeesFromCurrent: boolean;
+  /**
+   * Years whose fee is needed but not on file (only possible before the current
+   * fee year). When non-empty, `years` and `totalLocal` are incomplete and must
+   * not be shown as a total.
+   */
+  missingYears: number[];
   years: YearBreakdown[];
   totalLocal: number;
 }
@@ -52,36 +62,81 @@ export function hasRateFor(country: string, programme: Programme, residency: Res
   return country !== "sg" || residency === "international" || programme.fees[residency] !== undefined;
 }
 
+export interface YearFees {
+  fees: FeeTier;
+  /** Years after the latest published fee year; above 0 means the fee must be projected. */
+  yearsAhead: number;
+  fromHistory: boolean;
+  otherFeesFromCurrent: boolean;
+}
+
+/**
+ * The fee for `year`: the current published fee (years ahead of it are
+ * projected by the caller), or for earlier years the published history entry.
+ * Returns null when an earlier year has no published figure; the calculator
+ * never estimates the past.
+ */
+export function feesForYear(programme: Programme, tier: Tier, year: number): YearFees | null {
+  const current = programme.fees[tier] ?? programme.fees.international;
+  if (year >= programme.feeYear) {
+    return { fees: current, yearsAhead: year - programme.feeYear, fromHistory: false, otherFeesFromCurrent: false };
+  }
+  const h = programme.feeHistory.find((e) => e.feeYear === year && e.tier === tier);
+  if (!h) return null;
+  const otherFeesFromCurrent =
+    (h.annualCompulsoryFees === undefined && current.annualCompulsoryFees > 0) ||
+    (h.oneOffFees === undefined && current.oneOffFees > 0);
+  return {
+    fees: {
+      annualTuition: h.annualTuition,
+      annualCompulsoryFees: h.annualCompulsoryFees ?? current.annualCompulsoryFees,
+      oneOffFees: h.oneOffFees ?? current.oneOffFees,
+    },
+    yearsAhead: 0,
+    fromHistory: true,
+    otherFeesFromCurrent,
+  };
+}
+
 /**
  * Total university fees for a programme, in the university's own currency.
  *
- * Fees published for `feeYear` are grown by `feeIncrease` per year to reach
- * the student's start year. When the programme is cohort-locked, the fee
- * stays fixed from the start year onwards; otherwise it keeps growing each
- * year of study.
+ * Cohort-locked programmes charge the start year's fee for the whole degree;
+ * others charge each academic year's fee. Years up to the latest published fee
+ * year use published figures (current or `feeHistory`); later years grow the
+ * latest fee by `feeIncrease` per year.
  */
 export function calculate(input: CalcInput): CalcResult {
   const { programme, residency, startYear, feeIncrease } = input;
   const durationYears = input.durationYears ?? programme.durationYears;
-  const { tier, fees } = pickTier(programme, residency);
+  const { tier } = pickTier(programme, residency);
 
   const years: YearBreakdown[] = [];
+  const missingYears: number[] = [];
   let projected = false;
+  let otherFeesFromCurrent = false;
   for (let y = 0; y < Math.ceil(durationYears); y++) {
     const academicYear = startYear + y;
-    const yearsAhead = programme.cohortLocked
-      ? startYear - programme.feeYear
-      : academicYear - programme.feeYear;
-    const growth = Math.pow(1 + feeIncrease, Math.max(0, yearsAhead));
-    if (yearsAhead > 0) projected = true;
+    const pricedYear = programme.cohortLocked ? startYear : academicYear;
+    const yf = feesForYear(programme, tier, pricedYear);
+    if (!yf) {
+      missingYears.push(academicYear);
+      continue;
+    }
+    const growth = Math.pow(1 + feeIncrease, yf.yearsAhead);
+    if (yf.yearsAhead > 0) projected = true;
+    if (yf.otherFeesFromCurrent && (yf.fees.annualCompulsoryFees > 0 || (y === 0 && yf.fees.oneOffFees > 0))) {
+      otherFeesFromCurrent = true;
+    }
 
     const fraction = Math.min(1, durationYears - y);
-    const tuition = fees.annualTuition * fraction * growth;
-    const compulsoryFees = fees.annualCompulsoryFees * fraction * growth;
-    const oneOffFees = y === 0 ? fees.oneOffFees * growth : 0;
+    const tuition = yf.fees.annualTuition * fraction * growth;
+    const compulsoryFees = yf.fees.annualCompulsoryFees * fraction * growth;
+    const oneOffFees = y === 0 ? yf.fees.oneOffFees * growth : 0;
     years.push({
       academicYear,
       fraction,
+      basis: yf.fromHistory ? "history" : yf.yearsAhead > 0 ? "projected" : "current",
       tuition,
       compulsoryFees,
       oneOffFees,
@@ -93,6 +148,8 @@ export function calculate(input: CalcInput): CalcResult {
     tier,
     durationYears,
     projected,
+    otherFeesFromCurrent,
+    missingYears,
     years,
     totalLocal: years.reduce((sum, y) => sum + y.total, 0),
   };

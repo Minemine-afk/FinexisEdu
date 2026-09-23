@@ -94,7 +94,14 @@ def test_updates_fees_and_rolls_year_into_history(data_dir):
     assert p["fees"]["pr"]["annualTuition"] == 12600
     assert p["fees"]["international"]["annualTuition"] == 31500
     assert p["lastVerified"] == "2026-09-23"
-    assert {"feeYear": 2025, "tier": "international", "annualTuition": 30000} in p["feeHistory"]
+    assert {
+        "feeYear": 2025,
+        "tier": "international",
+        "annualTuition": 30000,
+        "annualCompulsoryFees": 500,
+        "oneOffFees": 0,
+        "sourceUrl": "https://example.edu/fees",
+    } in p["feeHistory"]
     assert len(report.changes) == 4
     assert not report.problems
 

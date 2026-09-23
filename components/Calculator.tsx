@@ -34,6 +34,8 @@ export interface Selection extends Option {
 }
 
 const MAX_SELECTED = 4;
+// Start years offered. Earlier years use published fee history only.
+const START_YEARS = [2024, 2025, 2026, 2027, 2028];
 const COUNTRY_ORDER = ["sg", "uk", "au", "us", "ca", "nz", "jp"];
 
 function optionsFor(universities: University[], level: Level, field: Field): Option[] {
@@ -44,9 +46,29 @@ function optionsFor(universities: University[], level: Level, field: Field): Opt
   );
 }
 
+/**
+ * Why a programme can't be priced for this student, or null if it can: Singapore
+ * universities need the student's own Citizen/PR rate, and past start years need
+ * published fees for every year charged.
+ */
+function unavailableReason(o: Option, residency: Residency, startYear: number): string | null {
+  if (!hasRateFor(o.university.country, o.programme, residency)) {
+    return `No ${RESIDENCY_LABELS[residency]} rate on file yet`;
+  }
+  const { missingYears } = calculate({
+    programme: o.programme,
+    currency: o.university.currency,
+    residency,
+    startYear,
+    feeIncrease: 0,
+  });
+  if (missingYears.length > 0) return `No published ${missingYears.join(", ")} fee on file`;
+  return null;
+}
+
 /** Keeps the chosen universities when level or field changes, else picks one per country. */
-function reselect(allOptions: Option[], previous: string[], residency: Residency): string[] {
-  const options = allOptions.filter((o) => hasRateFor(o.university.country, o.programme, residency));
+function reselect(allOptions: Option[], previous: string[], isAvailable: (o: Option) => boolean): string[] {
+  const options = allOptions.filter(isAvailable);
   const prevUnis = new Set(previous.map((k) => k.split(":")[0]));
   const kept: string[] = [];
   for (const o of options) {
@@ -68,18 +90,22 @@ export default function Calculator({ universities, countries, fx, today }: Props
   const [level, setLevel] = useState<Level>("bachelor");
   const [field, setField] = useState<Field>("computing");
   const [residency, setResidency] = useState<Residency>("citizen");
-  const [startYear, setStartYear] = useState(thisYear + 1);
+  const [startYear, setStartYear] = useState(
+    Math.min(Math.max(thisYear + 1, START_YEARS[0]), START_YEARS[START_YEARS.length - 1]),
+  );
   const [customIncrease, setCustomIncrease] = useState<number | null>(null);
   const options = useMemo(() => optionsFor(universities, level, field), [universities, level, field]);
-  const [selected, setSelected] = useState<string[]>(() => reselect(options, [], "citizen"));
+  const [selected, setSelected] = useState<string[]>(() =>
+    reselect(options, [], (o) => unavailableReason(o, residency, startYear) === null),
+  );
+
+  const available = (o: Option) => unavailableReason(o, residency, startYear) === null;
 
   function changeCourse(nextLevel: Level, nextField: Field) {
     setLevel(nextLevel);
     setField(nextField);
-    setSelected((prev) => reselect(optionsFor(universities, nextLevel, nextField), prev, residency));
+    setSelected((prev) => reselect(optionsFor(universities, nextLevel, nextField), prev, available));
   }
-
-  const available = (o: Option) => hasRateFor(o.university.country, o.programme, residency);
 
   function toggle(key: string) {
     setSelected((prev) => {
@@ -167,12 +193,17 @@ export default function Calculator({ universities, countries, fx, today }: Props
             value={startYear}
             onChange={(e) => setStartYear(Number(e.target.value))}
           >
-            {Array.from({ length: 6 }, (_, i) => thisYear + i).map((y) => (
+            {START_YEARS.map((y) => (
               <option key={y} value={y}>
                 {y}
               </option>
             ))}
           </select>
+          {startYear <= thisYear && (
+            <span className="mt-1 block text-xs text-muted">
+              Past and current intakes use published fees only. Programmes without them are greyed out.
+            </span>
+          )}
         </label>
 
         <fieldset>
@@ -218,7 +249,8 @@ export default function Calculator({ universities, countries, fx, today }: Props
                 <p className="text-xs font-medium uppercase tracking-wide text-muted">{country?.name}</p>
                 <ul className="mt-1 space-y-1">
                   {opts.map((o) => {
-                    const hasRate = available(o);
+                    const reason = unavailableReason(o, residency, startYear);
+                    const hasRate = reason === null;
                     const checked = hasRate && selected.includes(o.key);
                     return (
                       <li key={o.key}>
@@ -235,9 +267,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
                             {opts.filter((x) => x.university.id === o.university.id).length > 1 && (
                               <span className="block text-xs text-muted">{o.programme.name}</span>
                             )}
-                            {!hasRate && (
-                              <span className="block text-xs">No {RESIDENCY_LABELS[residency]} rate on file yet</span>
-                            )}
+                            {reason && <span className="block text-xs">{reason}</span>}
                           </span>
                         </label>
                       </li>
@@ -308,6 +338,15 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
   const stale = isStale(p.lastVerified, new Date(today));
   const hasCompulsory = result.years.some((y) => y.compulsoryFees > 0);
   const hasOneOff = result.years.some((y) => y.oneOffFees > 0);
+  // Cohort-locked programmes are priced at the start year's fee throughout.
+  const historyYears = new Set(
+    result.years
+      .filter((y) => y.basis === "history")
+      .map((y) => (p.cohortLocked ? result.years[0].academicYear : y.academicYear)),
+  );
+  const historySources = p.feeHistory
+    .filter((h) => h.tier === result.tier && historyYears.has(h.feeYear) && h.sourceUrl && h.sourceUrl !== p.sourceUrl)
+    .map((h) => ({ year: h.feeYear, url: h.sourceUrl! }));
 
   return (
     <article className="rounded-xl border border-border bg-surface p-5">
@@ -330,6 +369,7 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
         <Badge>{result.tier === "international" ? "International rate" : `${result.tier === "citizen" ? "Citizen" : "PR"} rate`}</Badge>
         {p.cohortLocked && <Badge>Fee fixed for your cohort</Badge>}
         {result.projected && <Badge>Includes projected {(s.feeIncrease * 100).toFixed(1)}%/yr increase</Badge>}
+        {result.otherFeesFromCurrent && <Badge>Other fees use current rates</Badge>}
         {p.sourceType === "secondary" && <Badge warn>Unofficial source</Badge>}
         {stale && <Badge warn>Data may be outdated</Badge>}
       </div>
@@ -352,6 +392,7 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
                 <td className="py-1">
                   {y.academicYear}
                   {y.fraction < 1 && <span className="text-muted"> (½)</span>}
+                  {y.basis !== "current" && <span className="text-xs text-muted"> · {y.basis === "history" ? "published" : "projected"}</span>}
                 </td>
                 <td className="py-1 text-right">{formatMoney(y.tuition, cur)}</td>
                 {hasCompulsory && <td className="py-1 text-right">{formatMoney(y.compulsoryFees, cur)}</td>}
@@ -370,6 +411,14 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
           source
         </a>{" "}
         · checked {p.lastVerified}
+        {historySources.map((h) => (
+          <span key={h.year}>
+            {" · "}
+            <a className="underline hover:text-foreground" href={h.url} target="_blank" rel="noreferrer">
+              {h.year} source
+            </a>
+          </span>
+        ))}
       </p>
     </article>
   );
