@@ -24,6 +24,10 @@ export const FeeHistoryEntry = z.object({
   feeYear: z.number().int(),
   tier: Tier,
   annualTuition: money,
+  // Omitted when only tuition was published; the calculator then uses current values.
+  annualCompulsoryFees: money.optional(),
+  oneOffFees: money.optional(),
+  sourceUrl: z.url().optional(),
 });
 
 export const Programme = z.object({
@@ -74,6 +78,7 @@ export type Level = z.infer<typeof Level>;
 export type Field = z.infer<typeof Field>;
 export type Tier = z.infer<typeof Tier>;
 export type FeeTier = z.infer<typeof FeeTier>;
+export type FeeHistoryEntry = z.infer<typeof FeeHistoryEntry>;
 export type Programme = z.infer<typeof Programme>;
 export type University = z.infer<typeof University>;
 export type Country = z.infer<typeof Country>;

@@ -36,13 +36,20 @@ every scraped change goes through a pull request:
 
 ## The calculation
 
-For each year of study:
+Start years 2024–2028 are offered. For each year of study:
 
-```
-fee(year) = (annual tuition + annual compulsory fees) × (1 + yearly increase) ^ (years after the published fee year)
-```
+- **Years up to the latest published fee year** use published figures only: the
+  current fee, or for earlier years the programme's `feeHistory`. If an earlier
+  year has no published figure, the programme is shown as "No published fee on
+  file"; the past is never estimated.
+- **Later years** are projected:
 
-plus one-off fees in the first year, converted to SGD at the latest rate.
+  ```
+  fee(year) = (annual tuition + annual compulsory fees) × (1 + yearly increase) ^ (years after the published fee year)
+  ```
+
+One-off fees are added in the first year, and everything is converted to SGD at
+the latest rate.
 
 - **Cohort-locked** programmes (NUS, NTU, SMU and many UK universities) keep the
   fee you start with for the whole degree, so only the gap between the

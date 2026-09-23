@@ -188,3 +188,83 @@ sources:
     url: https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates
     parser: html
     manual: true
+  - university: unimelb
+    country: au
+    url: https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf
+    parser: pdf
+    manual: true
+  - university: ubc
+    country: ca
+    url: https://bog3.sites.olt.ubc.ca/files/2025/09/6_2025.03_Tuition-for-New-Program-Bachelor-of-Science-Major-in-Data-Science.pdf
+    parser: pdf
+    manual: true
+  - university: utoronto
+    country: ca
+    url: https://discover.engineering.utoronto.ca/finances/
+    parser: html
+    manual: true
+  - university: kyoto
+    country: jp
+    url: https://gakuyu.blog/%E4%BA%AC%E9%83%BD%E5%A4%A7%E5%AD%A6-%E5%AD%A6%E8%B2%BB-2024%E5%B9%B4%E5%BA%A6/
+    parser: html
+    manual: true
+  - university: kyoto
+    country: jp
+    url: https://passnavi.obunsha.co.jp/univ/0560/expense
+    parser: html
+    manual: true
+  - university: utokyo
+    country: jp
+    url: https://www.u-tokyo.ac.jp/content/400247772.pdf
+    parser: pdf
+    manual: true
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf
+    parser: pdf
+    manual: true
+  - university: smu
+    country: sg
+    url: https://www.smu.edu.sg/campus-life/financial-matters/tuition-fees
+    parser: html
+    manual: true
+  - university: smu
+    country: sg
+    url: https://masters.smu.edu.sg/programme/master-in-financial-economics
+    parser: html
+    manual: true
+  - university: cambridge
+    country: uk
+    url: https://yocket.com/universities/judge-business-school-4785
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/sites/files/oxford/TM_MF1%20-%20MSc%20in%20Advanced%20Computer%20Science%20-%202025-26%20entry%20-%2025Oct2024.pdf
+    parser: pdf
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/sites/files/oxford/TS_HY6B3,%20TS_HY6B9P3%20-%20MSt%20in%20History%20(Early%20Modern%20History%201500-1700)%20-%202025-26%20entry%20-%2025Oct2024.pdf
+    parser: pdf
+    manual: true
+  - university: mit
+    country: us
+    url: https://news.mit.edu/2024/financial-aid-and-tuition-rates-2024-25-0321
+    parser: html
+    manual: true
+  - university: mit
+    country: us
+    url: https://registrar.mit.edu/sites/default/files/2025-04/tuition_25-26.pdf
+    parser: pdf
+    manual: true
+  - university: stanford
+    country: us
+    url: https://news.stanford.edu/report/2024/02/13/trustees-set-2024-25-tuition/
+    parser: html
+    manual: true
+  - university: stanford
+    country: us
+    url: https://news.stanford.edu/stories/2025/02/stanford-sets-2025-26-tuition-rates
+    parser: html
+    manual: true

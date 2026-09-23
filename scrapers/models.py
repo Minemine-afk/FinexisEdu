@@ -35,6 +35,10 @@ class FeeHistoryEntry(_Model):
     feeYear: int
     tier: TierT
     annualTuition: float = Field(ge=0)
+    # Omitted when only tuition was published; the calculator then uses current values.
+    annualCompulsoryFees: float | None = Field(default=None, ge=0)
+    oneOffFees: float | None = Field(default=None, ge=0)
+    sourceUrl: HttpUrl | None = None
 
 
 class Programme(_Model):

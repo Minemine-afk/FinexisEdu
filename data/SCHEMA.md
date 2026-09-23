@@ -30,8 +30,15 @@ Country codes: `sg`, `uk`, `au`, `us`, `ca`, `nz`, `jp`.
       "sourceType": "official",                  // "official" (university/government site) | "secondary" (aggregator, news)
       "cohortLocked": true,                      // true if the fee is fixed for the whole programme once you enrol
       "notes": "Tuition Grant rates; excludes GST",   // optional
-      "feeHistory": [                            // optional; filled in by the scraper over time
-        { "feeYear": 2024, "tier": "international", "annualTuition": 17000 }
+      "feeHistory": [                            // fees for EARLIER intakes/years; see below
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 400,           // optional; current value is used if omitted
+          "oneOffFees": 0,                       // optional; current value is used if omitted
+          "sourceUrl": "https://..."             // optional but strongly preferred
+        }
       ]
     }
   ]
@@ -52,3 +59,14 @@ Definitions:
 - US public universities: use the non-resident (out-of-state/international) rate.
 - Singaporeans studying abroad are international students, so only `international`
   matters outside Singapore.
+
+Fee history:
+- One entry per earlier `feeYear` **and tier**. For a Singapore university, a 2024
+  entry for citizens needs its own `{"feeYear": 2024, "tier": "citizen", ...}` row,
+  and likewise for `pr` and `international`.
+- The calculator shows start years 2024–2028. A 2024 or 2025 start uses these
+  entries and nothing else: if the needed year/tier has no entry, the programme is
+  shown as "No published fee on file" rather than estimated.
+- For cohort-locked programmes (fees fixed per intake), the entry is the fee for the
+  cohort that started in `feeYear`. For others it is that academic year's fee.
+- Only add figures you actually found in a source. Never back-calculate.
