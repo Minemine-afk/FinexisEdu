@@ -61,8 +61,9 @@ function unavailableReason(o: Option, residency: Residency, startYear: number): 
     strictTier: o.university.country === "sg",
   });
   if (missingYears.length === 0) return null;
-  // Missing years from the current fee year onwards mean the tier itself is absent.
-  if (!hasRateFor(o.university.country, o.programme, residency) && missingYears.some((y) => y >= o.programme.feeYear)) {
+  // A Singapore programme with no rate for this tier in any year is missing the tier, not a year.
+  const tierEverPublished = o.programme.feeHistory.some((h) => h.tier === residency);
+  if (!hasRateFor(o.university.country, o.programme, residency) && !tierEverPublished) {
     return `No ${RESIDENCY_LABELS[residency]} rate on file yet`;
   }
   return `No published ${missingYears.join(", ")} fee on file`;
@@ -343,6 +344,7 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
   const stale = isStale(p.lastVerified, new Date(today));
   const hasCompulsory = result.years.some((y) => y.compulsoryFees > 0);
   const hasOneOff = result.years.some((y) => y.oneOffFees > 0);
+  const num = `whitespace-nowrap py-1 text-right font-normal ${hasCompulsory && hasOneOff ? "pl-2" : "pl-3"}`;
   // Cohort-locked programmes are priced at the start year's fee throughout.
   const historyYears = new Set(
     result.years
@@ -373,36 +375,43 @@ function ResultCard({ s, today, country }: { s: Selection; today: string; countr
       <div className="mt-3 flex flex-wrap gap-1.5 text-xs">
         <Badge>{result.tier === "international" ? "International rate" : `${result.tier === "citizen" ? "Citizen" : "PR"} rate`}</Badge>
         {p.cohortLocked && <Badge>Fee fixed for your cohort</Badge>}
-        {result.projected && <Badge>Includes projected {(s.feeIncrease * 100).toFixed(1)}%/yr increase</Badge>}
+        {result.projected &&
+          (s.feeIncrease > 0 ? (
+            <Badge>Includes projected {(s.feeIncrease * 100).toFixed(1)}%/yr increase</Badge>
+          ) : (
+            <Badge>Future years assume no increase</Badge>
+          ))}
         {result.otherFeesFromCurrent && <Badge>Other fees use current rates</Badge>}
         {p.sourceType === "secondary" && <Badge warn>Unofficial source</Badge>}
         {stale && <Badge warn>Data may be outdated</Badge>}
       </div>
 
       <div className="mt-4 overflow-x-auto">
-        <table className="w-full text-sm tabular-nums">
+        <table className={`w-full tabular-nums ${hasCompulsory && hasOneOff ? "text-xs" : "text-sm"}`}>
           <caption className="sr-only">Fees by year in {cur}</caption>
           <thead className="text-left text-xs text-muted">
             <tr>
-              <th className="py-1 font-medium">Year</th>
-              <th className="py-1 text-right font-medium">Tuition</th>
-              {hasCompulsory && <th className="py-1 text-right font-medium">Other fees</th>}
-              {hasOneOff && <th className="py-1 text-right font-medium">One-off</th>}
-              <th className="py-1 text-right font-medium">Total ({cur})</th>
+              <th className="py-1 pr-2 font-medium">Year</th>
+              <th className={num}>Tuition</th>
+              {hasCompulsory && <th className={num}>Other fees</th>}
+              {hasOneOff && <th className={num}>One-off</th>}
+              <th className={num}>Total ({cur})</th>
             </tr>
           </thead>
           <tbody>
             {result.years.map((y) => (
-              <tr key={y.academicYear} className="border-t border-border">
-                <td className="py-1">
+              <tr key={y.academicYear} className="border-t border-border align-top">
+                <td className="py-1 pr-2">
                   {y.academicYear}
                   {y.fraction < 1 && <span className="text-muted"> (½)</span>}
-                  {y.basis !== "current" && <span className="text-xs text-muted"> · {y.basis === "history" ? "published" : "projected"}</span>}
+                  {y.basis !== "current" && (
+                    <span className="block text-xs text-muted">{y.basis === "history" ? "published" : "projected"}</span>
+                  )}
                 </td>
-                <td className="py-1 text-right">{formatMoney(y.tuition, cur)}</td>
-                {hasCompulsory && <td className="py-1 text-right">{formatMoney(y.compulsoryFees, cur)}</td>}
-                {hasOneOff && <td className="py-1 text-right">{formatMoney(y.oneOffFees, cur)}</td>}
-                <td className="py-1 text-right font-medium">{formatMoney(y.total, cur)}</td>
+                <td className={num}>{formatMoney(y.tuition, cur)}</td>
+                {hasCompulsory && <td className={num}>{formatMoney(y.compulsoryFees, cur)}</td>}
+                {hasOneOff && <td className={num}>{formatMoney(y.oneOffFees, cur)}</td>}
+                <td className={`${num} font-medium`}>{formatMoney(y.total, cur)}</td>
               </tr>
             ))}
           </tbody>

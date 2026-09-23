@@ -34,6 +34,33 @@ every scraped change goes through a pull request:
 - the website shows a "Data may be outdated" badge on entries older than a year,
   and an "Unofficial source" badge on figures not taken from the university itself.
 
+## Coverage (checked 23 Sep 2026)
+
+22 universities, 107 programmes. Every current figure was checked against the
+university's own fee page or PDF where the page is readable, and 2024/2025
+figures come from the universities' published fee tables for those years.
+
+| Country | Universities | Scraped automatically |
+|---|---|---|
+| Singapore | NUS, NTU, SMU | NUS and NTU fully (except NUS MSc Finance / Economics); SMU is manual |
+| UK | Cambridge (MBA), Imperial, Oxford, UCL (School of Management) | Cambridge, Imperial, UCL; Oxford is manual |
+| Australia | ANU, Melbourne, UNSW, Sydney | ANU, UNSW, Sydney; Melbourne tuition is manual |
+| US | Berkeley, CMU, MIT, Stanford | All |
+| Canada | McGill, UBC, Toronto | All (UBC compulsory fees are manual) |
+| New Zealand | Auckland | Yes |
+| Japan | Kyoto, UTokyo, Waseda | All (Waseda's lab/health fee is manual) |
+
+**Manual** sources are listed in `scrapers/registry.yaml` with the reason. They
+are pages that block automated access (SMU, Oxford, Melbourne, UCL's central
+site, some NUS programme sites) or that show a fee spread across rows. Figures
+from those sites carry an "Unofficial source" badge where the university's own
+page could not be read. Otago was left out because its whole site is
+bot-protected.
+
+A few earlier-year figures are an official per-credit or per-course rate
+multiplied by a standard full-time load (UNSW, UBC, Auckland), the same way the
+current figures are built; their notes say so.
+
 ## The calculation
 
 Start years 2024–2028 are offered. For each year of study:

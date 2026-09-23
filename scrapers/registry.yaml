@@ -269,6 +269,83 @@ sources:
     - level: bachelor
       field: business
       pattern: Fees for \d{4} entry, UK tuition fees £ ?[\d,]+, International Students tuition fees £ ?([\d,]+)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/AENGI
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://www.anu.edu.au/students/program-administration/fees-payments/services-amenities-fee
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: 2026 fee \$ ?([\d,.]+) for full-time students
+  - university: unimelb
+    country: au
+    url: https://ask.unimelb.edu.au/faq/5570/student-services-and-amenities-fee-ssaf/
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: International fee-paying student No \$ ?([\d,.]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours
+    parser: html
+    year_pattern: (\d{4}) Indicative first year full fee
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-information-technology
+    parser: html
+    year_pattern: (\d{4}) Indicative first year full fee
+    targets:
+    - level: master
+      field: computing
+      pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-commerce
+    parser: html
+    year_pattern: (\d{4}) Indicative first year full fee
+    targets:
+    - level: master
+      field: business
+      pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/student/managing-your-studies/fees/ssaf
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: 2026 Students studying under the 3\+ Academic Calendar:? The full-time fee is \$ ?([\d.]+) per term
+      multiplier: 3
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf
+    parser: pdf
+    year_pattern: (\d{4}) Admission Guide
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: B Engineering Honours 083109M \d+ Feb/Aug ([\d,]+)
+    - level: bachelor
+      field: computing
+      pattern: B Advanced Computing 093855E \d+ Feb/Aug ([\d,]+)
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/students/ssaf.html
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
+      multiplier: 2
   - university: berkeley
     country: us
     url: https://registrar.berkeley.edu/tuition-fees/fee-schedule/
@@ -493,6 +570,67 @@ sources:
     targets:
     - key: oneOffFees
       pattern: Document Fee One-time \$ ?([\d,]+)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: bachelor
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  - university: ubc
+    country: ca
+    url: https://vancouver.calendar.ubc.ca/fees/tuition-fees/undergraduate
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: International Students - Program.*? Arts \$ ?([\d,.]+)
+      multiplier: 30
+    - level: bachelor
+      field: sciences
+      pattern: 'International Students - Program.*?Pharmaceutical Sciences \$ ?[\d,.]+(?: \$ ?[\d,.]+| N/A)* Science \$ ?([\d,.]+)'
+      multiplier: 30
+    - level: bachelor
+      field: computing
+      pattern: 'International Students - Program.*?Pharmaceutical Sciences \$ ?[\d,.]+(?: \$ ?[\d,.]+| N/A)* Science \$ ?([\d,.]+)'
+      multiplier: 30
+    - level: bachelor
+      field: engineering
+      pattern: International Students - Program.*?Applied Science \$ ?([\d,.]+)
+      multiplier: 37
+    - level: bachelor
+      field: business
+      pattern: International Students - Program.*? Commerce \$ ?([\d,.]+)
+      multiplier: 30
   - university: utoronto
     country: ca
     url: https://firstyear.engineering.utoronto.ca/finances/
@@ -505,6 +643,23 @@ sources:
       field: engineering
       key: annualCompulsoryFees
       pattern: Full-time international:\s*\$ ?[\d,]+ \(plus \$ ?([\d,.]+) in incidental fees
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf
+    parser: pdf
+    year_pattern: International Tuition Fees (\d{4})
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: Bachelor of Arts NZ\$ ?([\d,]+)
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/cssf.html
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: In 2026 the fee is \$ ?([\d.]+) per point
+      multiplier: 120
   - university: kyoto
     country: jp
     url: https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2
@@ -575,12 +730,6 @@ sources:
     url: https://www.sbs.ox.ac.uk/sites/default/files/2024-10/MSc_in_Financial_Economics_2025-26entry_11Oct2024.pdf
     parser: pdf
     manual: true
-  # fee is not a single figure on the page (per-credit, ranges or several rows)
-  - university: anu
-    country: au
-    url: https://programsandcourses.anu.edu.au/2026/program/AENGI
-    parser: html
-    manual: true
   # secondary source; the university's own fee page is not machine-readable
   - university: unimelb
     country: au
@@ -594,58 +743,10 @@ sources:
     parser: html
     manual: true
   # fee is not a single figure on the page (per-credit, ranges or several rows)
-  - university: unsw
-    country: au
-    url: https://www.unsw.edu.au/study/postgraduate/master-of-commerce
-    parser: html
-    manual: true
-  # fee is not a single figure on the page (per-credit, ranges or several rows)
-  - university: unsw
-    country: au
-    url: https://www.unsw.edu.au/study/postgraduate/master-of-information-technology
-    parser: html
-    manual: true
-  # fee is not a single figure on the page (per-credit, ranges or several rows)
-  - university: unsw
-    country: au
-    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours
-    parser: html
-    manual: true
-  # archived or yearly document
-  - university: usyd
-    country: au
-    url: https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf
-    parser: pdf
-    manual: true
-  # fee is not a single figure on the page (per-credit, ranges or several rows)
-  - university: mcgill
-    country: ca
-    url: https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3
-    parser: html
-    manual: true
-  # fee is not a single figure on the page (per-credit, ranges or several rows)
-  - university: mcgill
-    country: ca
-    url: https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2
-    parser: html
-    manual: true
-  # fee is not a single figure on the page (per-credit, ranges or several rows)
-  - university: mcgill
-    country: ca
-    url: https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4
-    parser: html
-    manual: true
-  # fee is not a single figure on the page (per-credit, ranges or several rows)
   - university: ubc
     country: ca
     url: https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/
     parser: html
-    manual: true
-  # archived or yearly document
-  - university: auckland
-    country: nz
-    url: https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf
-    parser: pdf
     manual: true
   # archived or yearly document
   - university: waseda
