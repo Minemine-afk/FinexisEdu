@@ -110,6 +110,9 @@ def apply_source(source: Source, text: str, uni: University, today: date, report
         if amount is None:
             report.problems.append(f"{label}: pattern not found on {source.url}")
             continue
+        if t.key.startswith("living."):
+            apply_living(uni, t.key.removeprefix("living."), round(amount * t.multiplier, 2), today, report)
+            continue
         progs = matching_programmes(uni, t.level, t.field, t.programme)
         if not progs:
             report.problems.append(f"{label}: no programme in data/ matches this target")
@@ -160,6 +163,20 @@ def apply_source(source: Source, text: str, uni: University, today: date, report
     for p in touched.values():
         if p.lastVerified == today:
             report.verified.append(f"{uni.id}: {p.name}")
+
+
+def apply_living(uni: University, category: str, monthly: float, today: date, report: Report) -> None:
+    living = uni.livingCosts
+    if living is None:
+        report.problems.append(f"{uni.id}: living-cost target but no livingCosts in data")
+        return
+    old = getattr(living.monthly, category)
+    if abs(old - monthly) > 0.5:
+        report.changes.append(Change(uni.id, "living costs", f"monthly {category}", old, monthly))
+        setattr(living.monthly, category, monthly)
+    if living.lastVerified != today:
+        living.lastVerified = today
+        report.verified.append(f"{uni.id}: living costs")
 
 
 # ---------------------------------------------------------------------------
@@ -298,6 +315,9 @@ def run(
             for p in uni.programmes:
                 if today - p.lastVerified > MANUAL_CHECK_AFTER:
                     report.manual.append(f"{uni.name}: {p.name} (last checked {p.lastVerified}) — {p.sourceUrl}")
+            living = uni.livingCosts
+            if living and today - living.lastVerified > MANUAL_CHECK_AFTER:
+                report.manual.append(f"{uni.name}: living costs (last checked {living.lastVerified}) — {living.sourceUrl}")
         if with_fx:
             refresh_fx(data_dir, report, dry_run)
         update_fee_increase_defaults(data_dir, [u for _, u in unis.values()], report, dry_run)

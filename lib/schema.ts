@@ -49,6 +49,21 @@ export const Programme = z.object({
   feeHistory: z.array(FeeHistoryEntry).default([]),
 });
 
+export const LIVING_CATEGORIES = ["housing", "food", "transport", "personal"] as const;
+export const LivingCategory = z.enum(LIVING_CATEGORIES);
+
+// The university's own estimate of a student's living costs, in its currency.
+export const LivingCosts = z.object({
+  year: z.number().int().min(2015).max(2100),
+  // Months per academic year the estimate covers (e.g. 9 for a US academic year).
+  months: z.number().positive().max(12),
+  monthly: z.object({ housing: money, food: money, transport: money, personal: money }),
+  sourceUrl: z.url(),
+  lastVerified: z.iso.date(),
+  sourceType: z.enum(["official", "secondary"]).default("official"),
+  notes: z.string().optional(),
+});
+
 export const University = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   name: z.string().min(1),
@@ -56,6 +71,7 @@ export const University = z.object({
   city: z.string().min(1),
   currency: z.string().length(3),
   website: z.url().optional(),
+  livingCosts: LivingCosts.optional(),
   programmes: z.array(Programme),
 });
 
@@ -66,6 +82,8 @@ export const Country = z.object({
   defaultFeeIncrease: z.number().min(0).max(0.5),
   // Observed per-tier rates, where fee history allows (e.g. Singapore Citizen vs international).
   feeIncreaseByTier: z.partialRecord(Tier, z.number().min(0).max(0.5)).optional(),
+  // Yearly growth applied to living costs after their estimate year (latest official CPI inflation).
+  livingCostIncrease: z.number().min(0).max(0.5).optional(),
 });
 
 export const FxRates = z.object({
@@ -82,6 +100,8 @@ export type Tier = z.infer<typeof Tier>;
 export type FeeTier = z.infer<typeof FeeTier>;
 export type FeeHistoryEntry = z.infer<typeof FeeHistoryEntry>;
 export type Programme = z.infer<typeof Programme>;
+export type LivingCategory = z.infer<typeof LivingCategory>;
+export type LivingCosts = z.infer<typeof LivingCosts>;
 export type University = z.infer<typeof University>;
 export type Country = z.infer<typeof Country>;
 export type FxRates = z.infer<typeof FxRates>;

@@ -107,6 +107,23 @@ def test_updates_fees_and_rolls_year_into_history(data_dir):
     assert not report.problems
 
 
+def test_updates_monthly_living_costs(data_dir):
+    uni = json.loads((data_dir / "universities" / "sg" / "testu.json").read_text())
+    uni["livingCosts"] = {
+        "year": 2026, "months": 12,
+        "monthly": {"housing": 1000, "food": 400, "transport": 100, "personal": 200},
+        "sourceUrl": "https://example.edu/living", "lastVerified": "2025-01-01",
+    }
+    (data_dir / "universities" / "sg" / "testu.json").write_text(json.dumps(uni))
+    reg = registry(targets=[{"key": "living.transport", "pattern": r"Student services fee: S\$ ?([\d,]+)",
+                             "multiplier": 0.5}])
+    report = run(reg, data_dir, TODAY, fetch=fixture_fetch, with_fx=False)
+    living = read_uni(data_dir)["livingCosts"]
+    assert living["monthly"]["transport"] == 260
+    assert living["lastVerified"] == "2026-09-23"
+    assert report.changes[0].what == "monthly transport"
+
+
 def test_missing_pattern_keeps_old_value(data_dir):
     reg = registry(targets=[{"tier": "citizen", "pattern": r"Law S\$ ?([\d,]+)"}])
     report = run(reg, data_dir, TODAY, fetch=fixture_fetch, with_fx=False)
@@ -153,6 +170,9 @@ def test_every_fee_source_is_registered():
         for p in uni.programmes:
             url = str(p.sourceUrl)
             assert (uni_id, url) in registered, f"{uni_id}: {p.name} source {url} not in registry"
+        if uni.livingCosts:
+            url = str(uni.livingCosts.sourceUrl)
+            assert (uni_id, url) in registered, f"{uni_id}: living-cost source {url} not in registry"
 
 
 def test_committed_registry_and_data_are_valid():

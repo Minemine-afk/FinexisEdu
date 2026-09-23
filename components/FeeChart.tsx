@@ -8,18 +8,19 @@ const SEGMENTS = [
   { key: "tuition", label: "Tuition", color: "bg-series-1" },
   { key: "compulsoryFees", label: "Other compulsory fees", color: "bg-series-2" },
   { key: "oneOffFees", label: "One-off fees", color: "bg-series-3" },
+  { key: "living", label: "Living costs", color: "bg-series-4" },
 ] as const;
 
-/** Stacked horizontal bars of total fees in SGD, one per selected university. */
-export default function FeeChart({ selections }: { selections: Selection[] }) {
+/** Stacked horizontal bars of total cost in SGD, one per selected university. */
+export default function FeeChart({ selections, includeLiving }: { selections: Selection[]; includeLiving: boolean }) {
   const [hover, setHover] = useState<string | null>(null);
-  const max = Math.max(...selections.map((s) => s.totalSgd), 1);
+  const max = Math.max(...selections.map((s) => s.grandTotalSgd), 1);
   const used = SEGMENTS.filter((seg) => selections.some((s) => s.yearsSgd[seg.key] > 0));
 
   return (
     <figure className="rounded-xl border border-border bg-surface p-5">
       <figcaption className="flex flex-wrap items-baseline justify-between gap-2">
-        <span className="font-semibold">Total fees in SGD</span>
+        <span className="font-semibold">{includeLiving ? "Total cost in SGD" : "Total fees in SGD"}</span>
         {used.length > 1 && (
           <span className="flex flex-wrap gap-3 text-xs text-muted">
             {used.map((seg) => (
@@ -43,7 +44,7 @@ export default function FeeChart({ selections }: { selections: Selection[] }) {
             <p className="truncate text-sm">{s.university.name}</p>
             <div className="mt-1 flex items-center gap-2">
               <div className="flex h-5 min-w-0 flex-1">
-                <div className="flex gap-0.5" style={{ width: `${(s.totalSgd / max) * 100}%` }}>
+                <div className="flex gap-0.5" style={{ width: `${(s.grandTotalSgd / max) * 100}%` }}>
                   {used.map((seg, i) => {
                     const value = s.yearsSgd[seg.key];
                     if (value <= 0) return null;
@@ -59,7 +60,7 @@ export default function FeeChart({ selections }: { selections: Selection[] }) {
                 </div>
               </div>
               <span className="w-20 shrink-0 text-right text-sm font-medium tabular-nums">
-                {formatCompactSgd(s.totalSgd)}
+                {formatCompactSgd(s.grandTotalSgd)}
               </span>
             </div>
 
@@ -82,7 +83,7 @@ export default function FeeChart({ selections }: { selections: Selection[] }) {
                   ))}
                   <div className="flex justify-between gap-2 border-t border-border pt-1 font-medium">
                     <dt>Total</dt>
-                    <dd>{formatMoney(s.totalSgd, "SGD")}</dd>
+                    <dd>{formatMoney(s.grandTotalSgd, "SGD")}</dd>
                   </div>
                 </dl>
               </div>
