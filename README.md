@@ -62,8 +62,7 @@ data/                 all fee data as JSON; format described in data/SCHEMA.md
 scrapers/             Python scraper pipeline
   registry.yaml       which page and regex feeds which fee figure
   run.py              runs the registry, validates, writes data/, writes the PR summary
-ci-workflows/         ci.yml (tests + build), refresh-data.yml (monthly scrape → PR);
-                      move both into .github/workflows/ to switch them on
+.github/workflows/    ci.yml (tests + build), refresh-data.yml (monthly scrape → PR)
 ```
 
 ## Running locally
@@ -98,9 +97,7 @@ Import the repo into [Vercel](https://vercel.com/new); no settings or secrets
 are needed. The page re-renders daily for fresh exchange rates, and every
 merged data PR triggers a redeploy.
 
-To switch on CI and the monthly data refresh, move `ci-workflows/*.yml` into
-`.github/workflows/` (they are kept outside it only because the tool that created
-this repo couldn't push workflow files). Then, for the monthly data PRs, go to **Settings → Actions → General** and allow
+For the monthly data PRs, go to **Settings → Actions → General** and allow
 GitHub Actions to create pull requests.
 
 ## Limits
