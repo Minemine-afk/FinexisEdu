@@ -23,7 +23,15 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "Oxford Overseas course fee; single figure incl. college fee (Oxford no longer charges a separate college fee). Oxford states fees 'will usually increase annually' for continuing students. Home fee £18,970."
+      "notes": "Oxford Overseas course fee; single figure incl. college fee (Oxford no longer charges a separate college fee). Oxford states fees 'will usually increase annually' for continuing students. Home fee £18,970.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41250,
+          "sourceUrl": "https://www.ox.ac.uk/sites/files/oxford/TM_MF1%20-%20MSc%20in%20Advanced%20Computer%20Science%20-%202025-26%20entry%20-%2025Oct2024.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -42,7 +50,15 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "Oxford Overseas course fee; single figure incl. college fee (Oxford no longer charges a separate college fee). Oxford states fees 'will usually increase annually' for continuing students. Full-time (9 months). Figure seen once via search excerpt; verify."
+      "notes": "Oxford Overseas course fee; single figure incl. college fee (Oxford no longer charges a separate college fee). Oxford states fees 'will usually increase annually' for continuing students. Full-time (9 months). Figure seen once via search excerpt; verify.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41250,
+          "sourceUrl": "https://www.ox.ac.uk/sites/files/oxford/TS_HY6B3,%20TS_HY6B9P3%20-%20MSt%20in%20History%20(Early%20Modern%20History%201500-1700)%20-%202025-26%20entry%20-%2025Oct2024.pdf"
+        }
+      ]
     },
     {
       "level": "master",
