@@ -38,6 +38,8 @@ export const FIELD_LABELS = {
   business: "Business",
   sciences: "Sciences",
   arts: "Arts & Humanities",
+  law: "Law",
+  medicine: "Medicine",
 } as const;
 
 export const RESIDENCY_LABELS = {

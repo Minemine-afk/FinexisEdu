@@ -9,7 +9,7 @@ from pydantic import BaseModel, ConfigDict, Field, HttpUrl
 
 CountryCode = Literal["sg", "uk", "au", "us", "de", "ca", "nz", "ch", "jp", "ie"]
 LevelT = Literal["bachelor", "master"]
-FieldT = Literal["engineering", "computing", "business", "sciences", "arts"]
+FieldT = Literal["engineering", "computing", "business", "sciences", "arts", "law", "medicine"]
 TierT = Literal["citizen", "pr", "international"]
 FeeKey = Literal["annualTuition", "annualCompulsoryFees", "oneOffFees"]
 # Monthly living-cost categories on the university's `livingCosts` estimate.
