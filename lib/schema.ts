@@ -71,6 +71,10 @@ export const University = z.object({
   city: z.string().min(1),
   currency: z.string().length(3),
   website: z.url().optional(),
+  /** One or two sentences on what the university is (shown on hover over its name). */
+  description: z.string().min(1).optional(),
+  /** Why it is in the calculator, e.g. evidence of Singaporean enrolment or recognition. */
+  whyIncluded: z.string().min(1).optional(),
   livingCosts: LivingCosts.optional(),
   programmes: z.array(Programme),
 });

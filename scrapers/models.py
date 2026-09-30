@@ -84,6 +84,8 @@ class University(_Model):
     city: str
     currency: str = Field(min_length=3, max_length=3)
     website: HttpUrl | None = None
+    description: str | None = None
+    whyIncluded: str | None = None
     livingCosts: LivingCosts | None = None
     programmes: list[Programme]
 

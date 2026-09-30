@@ -74,16 +74,22 @@ A few earlier-year figures are an official per-credit or per-course rate
 multiplied by a standard full-time load (UNSW, UBC, Auckland), the same way the
 current figures are built; their notes say so.
 
-## Comparing two universities
+## Comparing up to three universities
 
-Each of the two comparison slots has a country dropdown, then a dropdown of
-that country's universities (and of programmes, where a university has more
-than one for the chosen level and field). The results show a headline tile for each (total
-in SGD and the difference between them), then two vertical bars on a common
-baseline. "Compare" switches the bars between the total and one part of it
-(tuition, other fees, one-off fees, living costs); the total is stacked by part.
-The year-by-year fees, living-cost breakdown, badges and source links for each
-university sit in the details panel below the chart.
+The options bar at the top holds the course and student settings, then three
+comparison slots. Each slot has a country dropdown, then a dropdown of that
+country's universities (and of programmes, where a university has more than one
+for the chosen level and field). The results show a headline tile for each
+university (total in SGD and how much more it costs than the cheapest), then
+vertical bars on a common baseline. "Compare" switches the bars between the
+total and one part of it (tuition, other fees, one-off fees, living costs); the
+total is stacked by part. The year-by-year fees, living-cost breakdown, badges
+and source links for each university sit in the details panel below the chart.
+
+Every university name is a link to its website; hovering (or tapping) it shows
+a short description and why the university is in the calculator (`description`
+and `whyIncluded` in its data file). For Singapore universities the details
+also list the Citizen, PR and international fee per year side by side.
 
 ## Living costs (optional)
 
