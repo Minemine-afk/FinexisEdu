@@ -1,0 +1,66 @@
+# Dublin City University. Fee schedules are one page per academic year (…2026-2027 / …2026-27);
+# earlier years' URLs redirect to the current page, so bump the URL when a new year is published.
+# UG rows: name, description, student contribution (EU only), EU fee, non-EU fee.
+sources:
+  - university: dcu
+    country: ie
+    url: https://www.dcu.ie/fees/undergraduate-fees-2026-2027
+    parser: html
+    year_pattern: Undergraduate Fees (\d{4})-\d{4}
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: Computer Science All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
+    - level: bachelor
+      field: business
+      pattern: Bachelor of Business Studies All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
+    - level: bachelor
+      field: engineering
+      pattern: Mechanical and Manufacturing Engineering All programme fees are per annum and subject to an annual increase\. €[\d,]+ \(Year 1- ?4\) €[\d,]+ \(Year 1 - 4\), €[\d,]+ \(Year 5 Integrated Masters\) €([\d,]+) \(Year 1 - 4\)
+    - level: bachelor
+      field: sciences
+      pattern: Applied Physics All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
+    - level: bachelor
+      field: arts
+      pattern: 'Arts: Joint Honours \(Humanities\) All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)'
+  # PG rows: name, (scholarship blurb for Engineering & Computing), description, EU FT, [EU PT], non-EU FT, [non-EU PT].
+  - university: dcu
+    country: ie
+    url: https://www.dcu.ie/fees/postgraduate-fees-2026-27
+    parser: html
+    year_pattern: Postgraduate Fees (\d{4})-\d{2}
+    targets:
+    - level: master
+      field: computing
+      pattern: MSc in Computing Faculty of Engineering & Computing International Scholarship.*?subject to an annual increase\. €[\d,]+ (?:See Modular Fees )?€([\d,]+)
+    - level: master
+      field: business
+      pattern: MSc in Management \(Business\) All programme fees are per annum and subject to an annual increase\. €[\d,]+ €([\d,]+)
+    - level: master
+      field: engineering
+      pattern: MEng in Mechanical and Manufacturing Engineering Faculty of Engineering & Computing International Scholarship.*?subject to an annual increase\. €[\d,]+ (?:See Modular Fees )?€([\d,]+)
+    - level: master
+      field: arts
+      pattern: MA in History All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
+  # Student Centre levy (paid by non-EU and postgraduate students with their tuition).
+  - university: dcu
+    country: ie
+    url: https://www.dcu.ie/fees/fees-fees-information-finance
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: 'Student with no grant: €[\d,.]+ €([\d,.]+) €[\d,.]+'
+  # Monthly budget in the 'Cost of attending University 2025/2026 - away from home' PDF.
+  - university: dcu
+    country: ie
+    url: https://www.dcu.ie/sites/default/files/inline-files/cost-of-attending-university-2025.26-away-from-home.pdf
+    parser: pdf
+    targets:
+    - key: living.housing
+      pattern: Rent \(Average Single Room\) ([\d,]+) .*?Gas/Electricity/Oil ([\d,]+) .*?Internet ([\d,]+) .*?Bin Charges ([\d,]+)
+    - key: living.food
+      pattern: Groceries/Toiletries ([\d,]+) On/Off campus meals ([\d,]+)
+    - key: living.transport
+      pattern: Transport – Average between Leap Card Student Cap €\d+pm / Fuel €\d+pm ([\d,]+) Weekend Transport – Outside Dublin Bi-Weekly travel ([\d,]+)
+    - key: living.personal
+      pattern: 'Phone ([\d,]+) Medication ([\d,]+) College Materials e\.g\., printing etc\. ([\d,]+) College Books ([\d,]+) .*?TV License ([\d,]+) Bin Charges [\d,]+ Extra-Curricular Activities e\.g\., Gym/Clubs & Socs/Sport ([\d,]+) Other: .*?\(100\) ([\d,]+)'
