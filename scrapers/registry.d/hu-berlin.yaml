@@ -1,0 +1,26 @@
+# Humboldt University of Berlin. hu-berlin.de blocks automated access (Anubis bot challenge),
+# so the semester contribution comes from DAAD's International Programmes entry for HU's
+# MEMS master's, which itemises it.
+sources:
+  - university: hu-berlin
+    country: de
+    url: https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      pattern: 'Total amount: ([\d.]+) EUR'
+      multiplier: 2
+  # DAAD national average student expenses (HU publishes no breakdown we can read)
+  - university: hu-berlin
+    country: de
+    url: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/costs-of-education-and-living/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: 'Rent \(including utility costs\): EUR ([\d,]+)'
+    - key: living.food
+      pattern: 'Food: EUR ([\d,]+)'
+    - key: living.transport
+      pattern: 'Transportation costs \(car/public transport\): EUR ([\d,]+)'
+    - key: living.personal
+      pattern: 'Recreation, culture and sports: EUR ([\d,]+) Clothing: EUR ([\d,]+) Semester contribution: EUR [\d,]+ Working materials \(books etc\.\): EUR ([\d,]+) Telephone/Internet/radio and TV licence, postage: EUR ([\d,]+) Other expenses: EUR ([\d,]+)'

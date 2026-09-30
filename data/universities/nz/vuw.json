@@ -1,0 +1,304 @@
+{
+  "id": "vuw",
+  "name": "Victoria University of Wellington",
+  "country": "nz",
+  "city": "Wellington",
+  "currency": "NZD",
+  "website": "https://www.wgtn.ac.nz",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 2504.67,
+      "food": 0,
+      "transport": 43.33,
+      "personal": 433.33
+    },
+    "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0006/2049180/money-matters.pdf",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "Victoria University of Wellington 'Money Matters 2026' example budget for a student in a hall of residence, 40 weeks at the 2026 rate, weekly x 52/12. Housing: catered room $578/wk (electricity, internet and meals included), so food is 0 because it is inside the room rate. Transport: $10/wk. Personal: mobile phone $15 + toiletries $15 + personal spending $70/wk. The example's weekly total is $688 ($27,520 for 40 weeks); excludes occasional costs (holiday travel, laptop, textbooks), insurance, visa and airfare. The guide's overall estimate is $20,000-$33,000 for 40 weeks."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (Computer Science)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 42891.6,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international undergraduate Science rate $357.43 per point x 120 points (the university's 'average year of full-time study'); COMP courses are in the Science fee band (Fees Schedule 2027). 360 points = 3 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 ($1,276.80) + Student Hardship Fee $33 (wgtn.ac.nz/students/money/fees/student-services-fee). 2026 = 2026 Science rate $337.20 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 40464,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39798,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international undergraduate Commerce rate $331.65 per point x 120 points (average full-time year). 360 points = 3 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Commerce rate $312.88 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37545.6,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering with Honours",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 49237.2,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international undergraduate Engineering rate $410.31 per point x 120 points (average full-time year). 480 points = 4 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Engineering rate $387.09 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 46450.8,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 42891.6,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international undergraduate Science rate $357.43 per point x 120 points (average full-time year). 360 points = 3 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Science rate $337.20 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 40464,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37483.2,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international undergraduate Humanities and Social Sciences rate $312.36 per point x 120 points (average full-time year). 360 points = 3 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = rate $294.68 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35361.6,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Computer Science",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48157.2,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international postgraduate Science rate $401.31 per point x 120 points (average full-time year); MCompSc is 180 points (COMP/AIML/SWEN 400-500 level, Science band), so 1.5 years of the annual figure. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Science rate $378.60 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45432,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Commerce",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 41118,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international postgraduate Commerce rate $342.65 per point x 120 points; the MCom is a 120-point thesis degree, 1 year full-time. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Commerce rate $323.26 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38791.2,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering Practice",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 52395.6,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international postgraduate Engineering rate $436.63 per point x 120 points (average full-time year); the MEP is 180 points, so 1.5 years of the annual figure. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Engineering rate $411.92 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 49430.4,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48157.2,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international postgraduate Science rate $401.31 per point x 120 points (average full-time year); the MSc (Part 1 coursework + Part 2 thesis) is 240 points, 2 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Science rate $378.60 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45432,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40599.6,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international postgraduate Humanities and Social Sciences rate $338.33 per point x 120 points; the MA is a 120-point thesis degree, 1 year full-time. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = rate $319.18 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38301.6,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    }
+  ]
+}
