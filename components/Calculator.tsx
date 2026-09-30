@@ -777,7 +777,7 @@ function ResultDetail({
       {s.living && <LivingSection living={s.living} currency={cur} lifestyle={lifestyle} today={today} onCustom={onCustomLiving} />}
       {s.livingNote && <p className="mt-4 rounded-md bg-chip px-3 py-2 text-xs text-muted">{s.livingNote}</p>}
 
-      {p.notes && <p className="mt-3 text-xs text-muted">{p.notes}</p>}
+      {p.notes && <MoreNotes label="Show more about this fee">{p.notes}</MoreNotes>}
       <p className="mt-3 text-xs text-muted">
         {p.feeYear}/{String((p.feeYear + 1) % 100).padStart(2, "0")} fees ·{" "}
         <a className="text-accent underline hover:text-foreground" href={p.sourceUrl} target="_blank" rel="noreferrer">
@@ -794,6 +794,16 @@ function ResultDetail({
         ))}
       </p>
     </article>
+  );
+}
+
+/** Long source notes, collapsed behind a "Show more" toggle. */
+function MoreNotes({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <details className="mt-2 text-xs">
+      <summary className={`cursor-pointer py-1.5 font-medium text-accent sm:py-0.5${FOCUS} rounded`}>{label}</summary>
+      <p className="mt-1 text-muted">{children}</p>
+    </details>
   );
 }
 
@@ -862,7 +872,7 @@ function LivingSection({
         {e.sourceType === "secondary" && <Badge warn>Unofficial source</Badge>}
         {stale && <Badge warn>Estimate may be outdated</Badge>}
       </div>
-      {e.notes && <p className="mt-1 text-xs text-muted">{e.notes}</p>}
+      {e.notes && <MoreNotes label="Show more about this estimate">{e.notes}</MoreNotes>}
       <p className="mt-1 text-xs text-muted">
         {e.year} estimate ·{" "}
         <a className="text-accent underline hover:text-foreground" href={e.sourceUrl} target="_blank" rel="noreferrer">
