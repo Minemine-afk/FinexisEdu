@@ -1,0 +1,24 @@
+sources:
+  # HSG 'Costs of an HSG degree': per-semester tuition for foreign nationals, application fee and monthly living costs.
+  - university: hsg
+    country: ch
+    url: https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/
+    parser: html
+    year_pattern: Tuition fees starting in autumn semester (\d{4})
+    targets:
+    - level: bachelor
+      pattern: Tuition fees for foreign nationals Bachelor CHF ([\d,.]+) / semester
+      multiplier: 2
+    - level: master
+      pattern: Tuition fees for foreign nationals Bachelor CHF [\d,.]+ / semester Master CHF ([\d,.]+) / semester
+      multiplier: 2
+    - key: oneOffFees
+      pattern: Application and processing fee \(non-refundable\) CHF ([\d,]+)
+    - key: living.housing
+      pattern: Accommodation \(rent plus utilities\) ([\d,]+) [\d,]+ Food
+    - key: living.food
+      pattern: Food ([\d,]+) [\d,]+ Communication
+    - key: living.transport
+      pattern: Transport \(public and private\) ([\d,]+) [\d,]+ Health
+    - key: living.personal
+      pattern: Communication \(telephone, internet, TV, radio\) ([\d,]+) [\d,]+ .*?Clothing ([\d,]+) [\d,]+ Leisure activities \(sports, culture, holidays\) ([\d,]+) [\d,]+ Other \(insurance, taxes, gifts\) ([\d,]+) [\d,]+ Total

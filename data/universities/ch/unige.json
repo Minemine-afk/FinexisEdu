@@ -1,0 +1,184 @@
+{
+  "id": "unige",
+  "name": "University of Geneva",
+  "country": "ch",
+  "city": "Geneva",
+  "currency": "CHF",
+  "website": "https://www.unige.ch",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 730,
+      "food": 600,
+      "transport": 45,
+      "personal": 350
+    },
+    "sourceUrl": "https://www.unige.ch/exchange/incoming/pourquoi-venir-lunige/etudiants/mobilite-monde-etudiants/4-preparer-son-sejour/budget",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "UNIGE 'Estimation du coût de la vie à Genève' (average monthly costs, published for incoming students): housing = rent CHF 600 + electricity/phone CHF 130; food (entretien, alimentation) CHF 600; transport CHF 45 (CHF 70 from age 25); personal = clothing/culture/leisure CHF 250 + study costs CHF 100. Excludes health and accident insurance (from CHF 80) and tuition. UNIGE's own total is about CHF 1,800-1,900 a month; the page is undated and was read in September 2026."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor en sciences informatiques",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed fees + CHF 435 supervision fees), the same for all students regardless of nationality. The CHF 65 application fee for holders of foreign diplomas is credited against the first semester's fees, so no one-off fee. 3-year (180 ECTS) bachelor's taught in French. Fee page undated; read September 2026.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor en gestion d'entreprise",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. The CHF 65 application fee for foreign diplomas is credited against the first semester's fees. 3-year (180 ECTS) Geneva School of Economics and Management bachelor's taught in French. UNIGE has no engineering programmes.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor en physique",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. The CHF 65 application fee for foreign diplomas is credited against the first semester's fees. 3-year (180 ECTS) bachelor's taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor ès lettres",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. The CHF 65 application fee for foreign diplomas is credited against the first semester's fees. 3-year (180 ECTS) Faculty of Humanities bachelor's taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master en sciences informatiques",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. No separate one-off fee (the CHF 65 application fee is credited against the first semester). 4-semester (120 ECTS) master's taught in French and English.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Science in Responsible Management",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. No separate one-off fee. 3-semester (90 ECTS) Geneva School of Economics and Management master's taught in English.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master en physique",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. No separate one-off fee. 4-semester (120 ECTS) master's taught in French and English.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Maîtrise universitaire ès lettres",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. No separate one-off fee. 3-semester (90 ECTS) general master's (MA90); the 120 ECTS MA with specialisation takes 4 semesters. Taught in French.",
+      "feeHistory": []
+    }
+  ]
+}

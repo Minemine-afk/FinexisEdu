@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import fallback from "@/data/fx-fallback.json";
 import { loadCountries, loadUniversities } from "./data";
 import { FX_CURRENCIES } from "./fx";
-import { FxRates } from "./schema";
+import { COUNTRY_CODES, FxRates } from "./schema";
 
 // Guards the committed data, including every scraper PR.
 describe("committed data", () => {
@@ -11,7 +11,7 @@ describe("committed data", () => {
 
   it("passes schema validation", () => {
     expect(universities.length).toBeGreaterThan(0);
-    expect(countries).toHaveLength(7);
+    expect(countries.map((c) => c.code).sort()).toEqual([...COUNTRY_CODES].sort());
   });
 
   it("has unique university ids", () => {

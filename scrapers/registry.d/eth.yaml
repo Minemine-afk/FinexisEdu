@@ -1,0 +1,32 @@
+sources:
+  # ETH Zurich fee PDF: group 2 (foreign students who move to Switzerland to study) rate, threefold since HS 2025.
+  - university: eth
+    country: ch
+    url: https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf
+    parser: pdf
+    targets:
+    - pattern: 'Regular enrolment \(incl\. Master thesis\) \d+ Until FS \d{4}: \d+ As of HS \d{4}: ([\d’'']+)'
+      multiplier: 2
+    - key: annualCompulsoryFees
+      pattern: Academic Sports Association Zurich \(ASVZ\) (\d+) Scholarship fund (\d+) VSETH \(ETH Zurich Student Union\), fee for general services (\d+)
+      multiplier: 2
+    - key: oneOffFees
+      pattern: Students applying to a Bachelor, Master, MAS or CAS/DAS programme with Swiss matriculation certificate \d+ non-Swiss matriculation certificate (\d+)
+  # Financial Aid Office 'Study and Living Costs, international students' PDF; annual figures / 12.
+  - university: eth
+    country: ch
+    url: https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/cost-of-living.pdf
+    parser: pdf
+    targets:
+    - key: living.housing
+      pattern: Rent \(room including heating, etc; canton of Zurich, average \d{4}\) Ø ([\d’']+)
+      multiplier: 0.08333333333333333
+    - key: living.food
+      pattern: Meals \(including meals at the refectory/cafeteria\) ([\d’']+)
+      multiplier: 0.08333333333333333
+    - key: living.transport
+      pattern: Public transport \(tramway, bus > Zurich City\) ([\d’']+)
+      multiplier: 0.08333333333333333
+    - key: living.personal
+      pattern: Study material \(teaching materials, books, software, special professional ([\d’']+) equipment.*?Individual expenses ([\d’']+)
+      multiplier: 0.08333333333333333

@@ -1,0 +1,304 @@
+{
+  "id": "eth",
+  "name": "ETH Zurich",
+  "country": "ch",
+  "city": "Zurich",
+  "currency": "CHF",
+  "website": "https://ethz.ch",
+  "livingCosts": {
+    "year": 2025,
+    "months": 12,
+    "monthly": {
+      "housing": 941.67,
+      "food": 600,
+      "transport": 48.83,
+      "personal": 223.33
+    },
+    "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/cost-of-living.pdf",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "ETH Financial Aid Office 'Study and Living Costs, international students (approximate)' PDF, annual figures / 12: rent (room incl. heating, canton of Zurich average 2024) CHF 11,300; meals incl. refectory CHF 7,200; public transport (Zurich city, age 25 or under) CHF 586; personal = individual expenses CHF 1,680 + study material CHF 1,000. Excludes health insurance (CHF 1,320), excursions (CHF 500), tuition and semester fees. ETH's own total incl. insurance is CHF 22,100 a year."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BSc Mechanical Engineering",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. Exam fees included. 3-year (180 ECTS) bachelor's taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BSc Computer Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc Physics",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German. ETH has no bachelor's in business or arts.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc Mechanical Engineering",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 2-year (120 ECTS) master's taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Computer Science",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 2-year (120 ECTS) master's taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Management, Technology and Economics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 4-semester (120 ECTS) master's incl. industrial internship, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Physics",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 3-semester (90 ECTS) master's taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA History and Philosophy of Knowledge",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 4-semester (120 ECTS) humanities master's (D-GESS), taught mainly in German with some English courses.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
+    }
+  ]
+}

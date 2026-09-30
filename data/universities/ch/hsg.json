@@ -1,0 +1,123 @@
+{
+  "id": "hsg",
+  "name": "University of St. Gallen",
+  "country": "ch",
+  "city": "St. Gallen",
+  "currency": "CHF",
+  "website": "https://www.unisg.ch",
+  "livingCosts": {
+    "year": 2024,
+    "months": 12,
+    "monthly": {
+      "housing": 795,
+      "food": 440,
+      "transport": 195,
+      "personal": 555
+    },
+    "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "HSG 'Cost of living: expenses for Bachelor's students per month' (source: Federal Statistical Office SSEE 2024 survey): accommodation incl. utilities CHF 795; food CHF 440; transport CHF 195; personal = communication CHF 45 + clothing CHF 130 + leisure CHF 210 + other (insurance, taxes, gifts) CHF 170. Excludes health (CHF 190) and tuition. HSG's own total is CHF 2,175 a month and it recommends budgeting CHF 25,000-30,000 a year."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Arts in Business Administration",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 6687,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 268
+        }
+      },
+      "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition for foreign nationals CHF 3,343.50 per semester x 2, from autumn semester 2026 (about 7% rise after fees were unchanged since 2014). Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 3-year (180 ECTS) bachelor's; the assessment year and most of the bachelor's are taught in German (some English tracks). HSG offers no engineering, computing, sciences or arts bachelor's.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 6258,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6258,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Arts in Business Management",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 7115,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 268
+        }
+      },
+      "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition for foreign nationals CHF 3,557.50 per semester x 2, from autumn semester 2026. Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 3-semester (90 ECTS) master's (MUG), taught in German with English electives.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 6658,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6658,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master in Computer Science",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 7115,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 268
+        }
+      },
+      "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition for foreign nationals CHF 3,557.50 per semester x 2, from autumn semester 2026. Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 4-semester (120 ECTS) master's (MCS), taught in English. HSG's only computing degree; its arts-type master's (MOK) was discontinued in 2025.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 6658,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6658,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        }
+      ]
+    }
+  ]
+}

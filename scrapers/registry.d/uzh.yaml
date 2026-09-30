@@ -1,0 +1,32 @@
+sources:
+  # UZH fees page: CHF 720 per semester plus the surcharge for foreign students (500 at bachelor, 100 at master level).
+  - university: uzh
+    country: ch
+    url: https://www.uzh.ch/en/studies/application/fees.html
+    parser: html
+    targets:
+    - level: bachelor
+      pattern: Tuition Fee per Semester Amount in CHF Students ([\d,]+)\.— PhD students [\d,]+\.— Surcharge for foreign students at Bachelor level ([\d,]+)\.—
+      multiplier: 2
+    - level: master
+      pattern: Tuition Fee per Semester Amount in CHF Students ([\d,]+)\.—.*?Surcharge for foreign students at Master, PhD level or in Teacher training ([\d,]+)\.—
+      multiplier: 2
+    - key: annualCompulsoryFees
+      pattern: Total Mandatory Semester Contributions ([\d,.]+)\.—
+      multiplier: 2
+    - key: oneOffFees
+      pattern: Bachelor's and Master's Degree for applicants with foreign qualifications \(from 1 January \d{4}\) ([\d,]+)\.—
+  # Student Financial Aid Office minimal monthly budget.
+  - university: uzh
+    country: ch
+    url: https://www.studienfinanzierung.uzh.ch/en/information/tuition_living_costs.html
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Housing \(rent, heating and energy costs\) CHF ([\d,]+)
+    - key: living.food
+      pattern: Food \(eating out and eating at home\) CHF ([\d,]+)
+    - key: living.transport
+      pattern: Travel \(public transportation, bike, car\) CHF ([\d,]+)
+    - key: living.personal
+      pattern: Personal \(clothing, hygiene, leisure, mobile phone\) CHF ([\d,]+)
