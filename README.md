@@ -1,10 +1,10 @@
 # FinexisEdu
 
 A web calculator for the **total university fees**, in Singapore dollars, of a
-Bachelor's or Master's degree in Singapore and in the ten countries where
-Singaporeans most often study: Australia, the UK, the US, Germany, Malaysia,
-Canada, New Zealand, Switzerland, Japan and Ireland (ranked by UNESCO's counts
-of Singaporean students abroad). It is built for Singaporean students and families.
+Bachelor's or Master's degree in Singapore and in nine of the countries where
+Singaporeans most often study: Australia, the UK, the US, Germany, Canada,
+New Zealand, Switzerland, Japan and Ireland (ranked by UNESCO's counts of
+Singaporean students abroad). It is built for Singaporean students and families.
 
 It covers tuition plus compulsory university fees (student services fees,
 Japanese admission fees, and so on), and optionally living costs for studying
@@ -38,7 +38,7 @@ every scraped change goes through a pull request:
 
 ## Coverage (checked 30 Sep 2026)
 
-55 universities, 388 programmes: five universities in each of the 11 countries.
+50 universities, 340 programmes: five universities in each of the 10 countries.
 Every current figure was checked against the university's own fee page or PDF
 where the page is readable, and 2024/2025 figures come from the universities'
 published fee tables for those years.
@@ -50,7 +50,6 @@ published fee tables for those years.
 | UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL | Cambridge, Imperial, LSE, UCL; Oxford is manual |
 | US | Berkeley, CMU, Harvard, MIT, Stanford | All |
 | Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin | All (HU Berlin via DAAD's listing; its own site blocks bots) |
-| Malaysia | Universiti Malaya, Monash Malaysia, Nottingham Malaysia, Taylor's, Sunway | All (Monash Malaysia via StudyMalaysia; its own site blocks bots) |
 | Canada | McGill, McMaster, Toronto, UBC, Waterloo | All (McMaster's tuition spreadsheet and UBC compulsory fees are manual) |
 | New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington | All except Otago (bot-protected) |
 | Switzerland | ETH Zurich, EPFL, Zurich, Geneva, St. Gallen | All |
@@ -60,8 +59,9 @@ published fee tables for those years.
 Why these countries: Singapore's MOE does not track students who study
 overseas, so the list follows the host countries' own counts of Singaporean
 students as compiled by UNESCO UIS (2023–24): Australia ~6,800, UK ~6,100,
-US ~3,800, then Germany, Malaysia, Canada, New Zealand, Switzerland, Japan and
-Ireland at 250–650 each.
+US ~3,800, then Germany, Canada, New Zealand, Switzerland, Japan and Ireland at
+250–650 each. Malaysia (about 550) is left out because most Singaporeans there
+take Singapore-delivered or branch-campus degrees.
 
 **Manual** sources are listed in `scrapers/registry.yaml` and
 `scrapers/registry.d/*.yaml` with the reason. They are pages that block

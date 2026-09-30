@@ -1,7 +1,7 @@
 # Fee data schema
 
 One JSON file per university at `data/universities/<country>/<id>.json`.
-Country codes: `sg`, `uk`, `au`, `us`, `de`, `my`, `ca`, `nz`, `ch`, `jp`, `ie`.
+Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
 
 ```jsonc
 {

@@ -2,7 +2,7 @@ import { z } from "zod";
 
 // Mirrors scrapers/models.py. Keep the two in sync; see data/SCHEMA.md.
 
-export const COUNTRY_CODES = ["sg", "uk", "au", "us", "de", "my", "ca", "nz", "ch", "jp", "ie"] as const;
+export const COUNTRY_CODES = ["sg", "uk", "au", "us", "de", "ca", "nz", "ch", "jp", "ie"] as const;
 export const LEVELS = ["bachelor", "master"] as const;
 export const FIELDS = ["engineering", "computing", "business", "sciences", "arts"] as const;
 export const TIERS = ["citizen", "pr", "international"] as const;

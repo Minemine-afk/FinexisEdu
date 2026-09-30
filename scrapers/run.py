@@ -35,7 +35,7 @@ SUMMARY_PATH = Path(__file__).resolve().parent / "out" / "summary.md"
 
 FLAG_THRESHOLD = 0.25  # changes bigger than this are called out for review
 MANUAL_CHECK_AFTER = timedelta(days=330)
-FX_CURRENCIES = ["GBP", "AUD", "USD", "EUR", "MYR", "CAD", "NZD", "CHF", "JPY"]
+FX_CURRENCIES = ["GBP", "AUD", "USD", "EUR", "CAD", "NZD", "CHF", "JPY"]
 FX_URL = "https://api.frankfurter.dev/v1/latest?base=SGD&symbols=" + ",".join(FX_CURRENCIES)
 
 Fetcher = Callable[[str, str], str]

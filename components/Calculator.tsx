@@ -76,7 +76,7 @@ const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
 // Start years offered. Earlier years use published fee history only.
 const START_YEARS = [2024, 2025, 2026, 2027, 2028];
 // Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
-const COUNTRY_ORDER = ["sg", "au", "uk", "us", "de", "my", "ca", "nz", "ch", "jp", "ie"];
+const COUNTRY_ORDER = ["sg", "au", "uk", "us", "de", "ca", "nz", "ch", "jp", "ie"];
 const LIFESTYLE_LABELS: Record<Lifestyle, string> = { frugal: "Frugal", moderate: "Moderate", comfortable: "Comfortable" };
 export const LIVING_LABELS: Record<LivingCategory, string> = {
   housing: "Housing",
