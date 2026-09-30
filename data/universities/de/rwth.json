@@ -1,0 +1,320 @@
+{
+  "id": "rwth",
+  "name": "RWTH Aachen University",
+  "country": "de",
+  "city": "Aachen",
+  "currency": "EUR",
+  "website": "https://www.rwth-aachen.de",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 500,
+      "food": 250,
+      "transport": 0,
+      "personal": 190
+    },
+    "sourceUrl": "https://www.rwth-aachen.de/go/id/bqmo/lidx/1",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "RWTH 'Costs' page / 'Costs of Studying in Aachen 2026': budget at least EUR 1,100 a month. Midpoints of the published ranges: accommodation and associated costs 400-600 -> 500; food 200-300 -> 250; personal = study materials 20-40 + internet and mobile phone 20-50 + additional costs (clothing, hygiene) 50-200 -> 30 + 35 + 125 = 190. Transport 0 because the Deutschlandsemesterticket is part of the semester contribution. Health insurance (100-150) excluded."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Language of instruction: German (some English).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Business Administration B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Language of instruction: German (some English).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering (Maschinenbau) B.Sc.",
+      "durationYears": 3.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Language of instruction: German. Standard period of study 7 semesters (210 ECTS).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physics B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Language of instruction: German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Data Science M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Language of instruction: English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Business Administration M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Language of instruction: German and English. RWTH's fully English-taught management master's (RWTH Business School) are privately financed with their own tuition, so the standard faculty programme is used.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Automotive Engineering M.Sc.",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Language of instruction: English. 3-semester programme (90 ECTS).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Language of instruction: English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    }
+  ]
+}

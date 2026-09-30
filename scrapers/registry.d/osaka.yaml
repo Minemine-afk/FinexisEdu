@@ -1,0 +1,35 @@
+# The University of Osaka (national university, MEXT standard rate).
+sources:
+  - university: osaka
+    country: jp
+    url: https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html
+    parser: html
+    targets:
+    - level: bachelor
+      pattern: Undergraduate student ¥([\d,]+) ¥[\d,]+ ¥[\d,]+
+    - level: bachelor
+      key: oneOffFees
+      pattern: Undergraduate student ¥[\d,]+ ¥[\d,]+ ¥([\d,]+)
+    - level: master
+      pattern: Graduate student ¥([\d,]+) ¥[\d,]+ ¥[\d,]+
+    - level: master
+      key: oneOffFees
+      pattern: Graduate student ¥[\d,]+ ¥[\d,]+ ¥([\d,]+)
+  # JASSO lifestyle survey, table 7-4, Kinki region column (same as kyoto)
+  - university: osaka
+    country: jp
+    url: https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf
+    parser: pdf
+    targets:
+    - key: living.housing
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?住居費 (?:\d+ ){4}(\d+) .*?電気、ガス、水道料金 (?:\d+ ){4}(\d+) '
+      multiplier: 1000
+    - key: living.food
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?食費 (?:\d+ ){4}(\d+) '
+      multiplier: 1000
+    - key: living.transport
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?通学費 (?:\d+ ){4}(\d+) '
+      multiplier: 1000
+    - key: living.personal
+      pattern: '第 7-4表 居住地域別の項目別支出内訳.*?趣味、娯楽費 (?:\d+ ){4}(\d+) .*?その他の日常的な経費 (?:\d+ ){4}(\d+) '
+      multiplier: 1000
