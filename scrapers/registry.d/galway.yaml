@@ -1,0 +1,58 @@
+# University of Galway. Fee tables quote the non-EU fee per annum including the EUR 140 student
+# levy; each cell is followed by its academic year. The pages also keep a few stale rows from
+# earlier years, so year_pattern takes the largest year present.
+sources:
+  - university: galway
+    country: ie
+    url: https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/
+    parser: html
+    year_pattern: p\.a\. (\d{4})/\d{2}
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: GY350 Bachelor of Science \(Computer Science and Information Technology\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: bachelor
+      field: business
+      pattern: GY201 Bachelor of Commerce €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: bachelor
+      field: engineering
+      pattern: GY402 Bachelor and Master of Engineering \(Civil\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: bachelor
+      field: sciences
+      pattern: GY301 Bachelor of Science €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: bachelor
+      field: arts
+      pattern: GY101 Bachelor of Arts \(Joint-Honours\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+  - university: galway
+    country: ie
+    url: https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/
+    parser: html
+    year_pattern: p\.a\. (\d{4})/\d{2}
+    targets:
+    - level: master
+      field: computing
+      pattern: 1CSD1 Computer Science - Data Analytics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: master
+      field: business
+      pattern: 1MBY1 Business Analytics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: master
+      field: engineering
+      pattern: 1MEC1 Civil Engineering \(ME\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: master
+      field: sciences
+      pattern: MSC-BMG Biomedical Genomics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: master
+      field: arts
+      pattern: 1MEN1 English \(MA\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+  # Monthly budget table (no transport line, so no living.transport target).
+  - university: galway
+    country: ie
+    url: https://www.universityofgalway.ie/global-galway/studyinireland/feesfinance/non-eupostgraduate/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Accommodation €([\d,]+) Food €[\d,]+ Books & Study Materials €[\d,]+ Clothes, laundry €[\d,]+ Utilities \(e\.g\. electricity, refuse etc\.\) €([\d,]+)
+    - key: living.food
+      pattern: Accommodation €[\d,]+ Food €([\d,]+)
+    - key: living.personal
+      pattern: Books & Study Materials €([\d,]+) Clothes, laundry €([\d,]+) Utilities \(e\.g\. electricity, refuse etc\.\) €[\d,]+ Recreation €([\d,]+) Other €([\d,]+)

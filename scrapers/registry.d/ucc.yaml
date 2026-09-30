@@ -1,0 +1,105 @@
+# University College Cork. Fee schedules are one page per academic year (…202627 is 2026/27);
+# the URL must be bumped when a new year replaces it. Columns: non-EU FT, non-EU PT, capitation, bench fee.
+sources:
+  - university: ucc
+    country: ie
+    url: https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/
+    parser: html
+    year_pattern: Fee Schedule (\d{4})/\d{2}
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: Computer Science - BSc \(Hons\) - CK401 €([\d,]+)
+    - level: bachelor
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Computer Science - BSc \(Hons\) - CK401 €[\d,]+ N/A €([\d,]+)
+    - level: bachelor
+      field: business
+      pattern: Commerce - BComm \(Hons\) - CK201 €([\d,]+)
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: Commerce - BComm \(Hons\) - CK201 €[\d,]+ N/A €([\d,]+)
+    - level: bachelor
+      field: engineering
+      pattern: Engineering - BE \(Hons\) - CK600 €([\d,]+)
+    - level: bachelor
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Engineering - BE \(Hons\) - CK600 €[\d,]+ N/A €([\d,]+)
+    - level: bachelor
+      field: sciences
+      pattern: Biological and Chemical Sciences - BSc \(Hons\) - CK402 €([\d,]+)
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Biological and Chemical Sciences - BSc \(Hons\) - CK402 €[\d,]+ N/A €([\d,]+)
+    - level: bachelor
+      field: arts
+      pattern: Arts - BA \(Hons\) - CK101 €([\d,]+)
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Arts - BA \(Hons\) - CK101 €[\d,]+ N/A €([\d,]+)
+  - university: ucc
+    country: ie
+    url: https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/
+    parser: html
+    year_pattern: Fee Schedule (\d{4})/\d{2}
+    targets:
+    - level: master
+      field: computing
+      pattern: Computing Science - MSc \(Non-EU Applications only\) N/A N/A €([\d,]+)
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Computing Science - MSc \(Non-EU Applications only\) N/A N/A €[\d,]+ N/A €([\d,]+)
+    - level: master
+      field: business
+      pattern: Finance \(Corporate Finance\) - MSc €[\d,]+ N/A €([\d,]+)
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: Finance \(Corporate Finance\) - MSc €[\d,]+ N/A €[\d,]+ N/A €([\d,]+)
+    - level: master
+      field: engineering
+      pattern: Electrical and Electronic Engineering - MEngSc €[\d,]+ N/A €([\d,]+)
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Electrical and Electronic Engineering - MEngSc €[\d,]+ N/A €[\d,]+ N/A €([\d,]+)
+    - level: master
+      field: sciences
+      pattern: Biotechnology - MSc €[\d,]+ N/A €([\d,]+)
+    # capitation + full-time bench fee, summed
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Biotechnology - MSc €[\d,]+ N/A €[\d,]+ N/A €([\d,]+) €([\d,]+)
+    - level: master
+      field: arts
+      pattern: History - MA €[\d,]+ €[\d,]+ €([\d,]+)
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: History - MA €[\d,]+ €[\d,]+ €[\d,]+ N/A €([\d,]+)
+  # Monthly ranges at their midpoints; utilities and phone are captured twice through a lookahead
+  # so that (a + b + c + c) / 2 = midpoint(a, b) + c.
+  - university: ucc
+    country: ie
+    url: https://www.ucc.ie/en/international/studentinfohub/beforeyouarrive/costofliving/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: (?=.*?Utilities \(Electric/Gas/Refuse\) €([\d,]+))On Campus Accommodation €([\d,]+) - €([\d,]+) .*?Utilities \(Electric/Gas/Refuse\) €([\d,]+)
+      multiplier: 0.5
+    - key: living.food
+      pattern: Food €([\d,]+) - €([\d,]+) Travel
+      multiplier: 0.5
+    - key: living.transport
+      pattern: Travel \(bus with Leap Card\) €([\d,]+)[–-]€([\d,]+)
+      multiplier: 0.5
+    - key: living.personal
+      pattern: (?=.*?Mobile Phone €([\d,]+))Mobile Phone €([\d,]+) Personal Expenses \(Social/Sports\) €([\d,]+) - €([\d,]+)
+      multiplier: 0.5

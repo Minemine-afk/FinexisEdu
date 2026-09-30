@@ -1,0 +1,354 @@
+{
+  "id": "ucd",
+  "name": "University College Dublin",
+  "country": "ie",
+  "city": "Dublin",
+  "currency": "EUR",
+  "website": "https://www.ucd.ie",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1335,
+      "food": 490,
+      "transport": 75,
+      "personal": 545
+    },
+    "sourceUrl": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/livingcosts/",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "UCD Global 'Estimated Monthly Living Costs (Per Student)', median column, last updated April 2026: accommodation EUR 1,200 + utilities EUR 135 = housing; food EUR 490; local travel (Leap Card) EUR 75; personal = books and copying EUR 120 + clothing and hygiene EUR 150 + internet and mobile EUR 45 + personal/social EUR 120 + miscellaneous EUR 110. UCD's median total is EUR 2,445 a month (range EUR 1,735-4,035). Excludes residence permit, health insurance, flights and one-off set-up costs. www.ucd.ie returns 403 to the scraper's user agent; read with a browser user agent."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BSc Computer Science (DN201)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29500,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (the table embedded in ucd.ie/students/fees/noneucoursefees/internationalnon-euundergraduatefees202627/). Published fees include the Student Centre Levy; the EUR 5 AMLE (students' union) levy is charged on top. UCD states that a student who starts a multi-year programme on a non-EU rate keeps that fee for the programme, so the fee is cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BComm Commerce (DN650)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23170,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27. 3-year degree (optional 4th year with internship). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23170,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BE Engineering (DN150)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29500,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Engineering common entry, College of Engineering and Architecture). 4-year BE (Hons); a 3-year BSc exit exists. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc Science (DN200)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29500,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Science common entry, College of Science). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA Humanities (DN530)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (BA Humanities, School of Languages, Cultures and Linguistics row; all DN530 rows are EUR 22,600). 3-year degree. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Computer Science (Negotiated Learning)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 31780,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (T150, full-time, 1 year; the table embedded in ucd.ie/students/fees/noneucoursefees/non-eugraduatetaughtfees202627/). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30560,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Management (Smurfit)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23870,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (B429, full-time, 1 year, UCD Smurfit Graduate Business School). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23170,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "ME Energy Systems Engineering",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29500,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (T164, full-time, quoted per year for the 2-year ME). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Physics (Negotiated Learning)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29500,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (F012, full-time, 1 year). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29100,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA Literature & Culture",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (Z251, full-time, 1 year, School of English, Drama and Film). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
+        }
+      ]
+    }
+  ]
+}

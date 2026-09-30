@@ -1,0 +1,75 @@
+# Trinity College Dublin. The fee schedules list every academic year, newest first, so an
+# unanchored pattern matches the newest row; year_pattern takes the largest year on the page.
+sources:
+  - university: tcd
+    country: ie
+    url: https://www.tcd.ie/courses/undergraduate/fees/
+    parser: html
+    year_pattern: (\d{4})/\d{2} (?:Trinity Business School|School of|TCD-Multidisciplinary)
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: Computer Science \(Year 5 is postgraduate\) UICS-ICSC-2F UF_\d+ €[\d,.]+ €[\d,.]+ €[\d,.]+ €([\d,.]+)
+    - level: bachelor
+      field: business
+      pattern: Business, Economic and Social Studies \(B\.E\.S\.S\.\) UBBE-BESS-2F UF_\d+ €[\d,.]+ €[\d,.]+ €[\d,.]+ €([\d,.]+)
+    - level: bachelor
+      field: engineering
+      pattern: Engineering with Management \(Year 5 is postgraduate\) UIEG-EMAN-2F UF_\d+ €[\d,.]+ €[\d,.]+ €[\d,.]+ €([\d,.]+)
+    - level: bachelor
+      field: sciences
+      pattern: School of Natural Sciences Science UBSC-BCGP-2S/ UBSC-SCIE-1F UF_\d+ €[\d,.]+ €[\d,.]+ €[\d,.]+ €([\d,.]+)
+    - level: bachelor
+      field: arts
+      pattern: School of English English Studies UBEN-ENGS-2F UF_\d+ €[\d,.]+ €[\d,.]+ €[\d,.]+ €([\d,.]+)
+  - university: tcd
+    country: ie
+    url: https://www.tcd.ie/courses/postgraduate/fees/
+    parser: html
+    year_pattern: (\d{4})/\d{2} (?:Trinity Business School|School of|TCD-Multidisciplinary|The School)
+    targets:
+    - level: master
+      field: computing
+      pattern: Masters in Computer Science PTCS-MCSC-1F PTCS-MCSC-1F Full-Time 1 €[\d,.]+ €([\d,.]+)
+    - level: master
+      field: business
+      pattern: Masters in Management PTBU-BMAN-2F PTBU-BMAN-2F Full-Time 1 €[\d,.]+ €([\d,.]+)
+    - level: master
+      field: engineering
+      pattern: Masters in Engineering PTEG-ENGI-1F PTEG-ENGI-1F Full-Time 1 €[\d,.]+ €([\d,.]+)
+    - level: master
+      field: sciences
+      pattern: Masters in Environmental Sciences PTNS-ENVS-1F PTNS-ENVS-1F Full-Time 1 €[\d,.]+ €([\d,.]+)
+    - level: master
+      field: arts
+      pattern: Masters in Modern and Contemporary Literary Studies PTEN-MCLS-1F PTEN-MCLS-1F Full-Time 1 €[\d,.]+ €([\d,.]+)
+  # Student Levies and Charges (SLC) table; full-time 4-year UG degree and 1-year PG degree rates.
+  - university: tcd
+    country: ie
+    url: https://www.tcd.ie/academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/
+    parser: html
+    targets:
+    - level: bachelor
+      key: annualCompulsoryFees
+      pattern: Full Time UG/PG Degree/Doctorate 4 Year €([\d,.]+)
+    - level: master
+      key: annualCompulsoryFees
+      pattern: Full Time PG Degree 1 Year €([\d,.]+)
+  # Annual ranges at their midpoints over a 9-month year (see the livingCosts notes in data/).
+  - university: tcd
+    country: ie
+    url: https://www.tcd.ie/study/international/welcome/cost-of-living/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Utilities €([\d,]+) [–-] €([\d,]+) .*?Trinity Hall \(1 academic year - September-June\)\* €([\d,]+) Kavanagh Court \(1 academic year - September-June\) €([\d,]+)
+      multiplier: 0.05555555555555555
+    - key: living.food
+      pattern: Meals €([\d,]+) [–-] €([\d,]+)
+      multiplier: 0.05555555555555555
+    - key: living.transport
+      pattern: Commuting €([\d,]+)
+      multiplier: 0.1111111111111111
+    - key: living.personal
+      pattern: (?=.*?Miscellaneous €([\d,]+))Miscellaneous €([\d,]+) .*?Personal & social €([\d,]+) [–-] €([\d,]+)
+      multiplier: 0.05555555555555555

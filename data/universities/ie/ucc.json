@@ -1,0 +1,224 @@
+{
+  "id": "ucc",
+  "name": "University College Cork",
+  "country": "ie",
+  "city": "Cork",
+  "currency": "EUR",
+  "website": "https://www.ucc.ie",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1035,
+      "food": 180,
+      "transport": 28,
+      "personal": 270
+    },
+    "sourceUrl": "https://www.ucc.ie/en/international/studentinfohub/beforeyouarrive/costofliving/",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "UCC International Office 'Cost of Living' monthly ranges (page updated 8 July 2026), taken at midpoints: housing = on-campus accommodation EUR 800-1,030 (option 1; private complexes EUR 800-2,222, house share EUR 700-900 excl. bills) plus utilities EUR 120; food EUR 120-240; travel (bus with Leap Card) EUR 26-30; personal = mobile phone EUR 20 plus personal expenses (social/sports) EUR 200-300. UCC's overall range is EUR 1,181-2,923 a month. Academic year runs September to May (9 months)."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BSc (Hons) Computer Science (CK401)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 27000,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, full-time fee per academic year; 4-year degree. Compulsory fee is the Student Capitation Fee (EUR 210, payable annually by all students). UCC says fees on multi-year programmes are subject to change from year to year. A 2027/28 schedule is already published.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BComm (Hons) Commerce (CK201)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21700,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, full-time fee per academic year; 4-year degree. Compulsory fee is the Student Capitation Fee (EUR 210). Fees are subject to change from year to year.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BE (Hons) Engineering (CK600)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 27000,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, full-time fee per academic year; 4-year degree. Compulsory fee is the Student Capitation Fee (EUR 210). Fees are subject to change from year to year.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc (Hons) Biological and Chemical Sciences (CK402)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 27000,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, full-time fee per academic year; 4-year degree. Compulsory fee is the Student Capitation Fee (EUR 210). Fees are subject to change from year to year.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA (Hons) Arts (CK101)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18500,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, full-time fee per academic year; 3-year degree. Compulsory fee is the Student Capitation Fee (EUR 210). Fees are subject to change from year to year.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Computing Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 28000,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office postgraduate EU and international schedule 2026/27; non-EU full-time fee for the 'Computing Science - MSc (Non-EU Applications only)' row, 1 year full-time. Compulsory fee is the Student Capitation Fee (EUR 210).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Finance (Corporate Finance)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 19700,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office postgraduate EU and international schedule 2026/27; non-EU full-time fee, 1 year (Cork University Business School; most business MScs are EUR 19,700, Business Analytics EUR 22,300). Compulsory fee is the Student Capitation Fee (EUR 210).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MEngSc Electrical and Electronic Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 28000,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office postgraduate EU and international schedule 2026/27; non-EU full-time fee, 1 year. Compulsory fee is the Student Capitation Fee (EUR 210); no bench fee for this programme.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Biotechnology",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 27000,
+          "annualCompulsoryFees": 1210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office postgraduate EU and international schedule 2026/27; non-EU full-time fee, 1 year. Compulsory fees = Student Capitation Fee EUR 210 + programme bench fee EUR 1,000 (full-time), both listed in the schedule.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA History",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18500,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office postgraduate EU and international schedule 2026/27; non-EU full-time fee, 1 year (College of Arts, Celtic Studies and Social Sciences). Compulsory fee is the Student Capitation Fee (EUR 210).",
+      "feeHistory": []
+    }
+  ]
+}
