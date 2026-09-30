@@ -1,0 +1,92 @@
+# Singapore Institute of Technology. The HTML fee pages sit behind Incapsula bot
+# protection, but the yearly fee-schedule PDFs are fetchable. Fees are quoted per
+# credit; the multiplier is the credits taken per year (60 for undergraduates,
+# 30 for the 60-credit, 2-year MSc).
+sources:
+  - university: sit
+    country: sg
+    url: https://www.singaporetech.edu.sg/sites/default/files/2026-03/SIT_Undergraduate_Tuition%20Fees_AY2026_1.pdf
+    parser: pdf
+    year_pattern: admitted in Academic Year (\d{4})
+    targets:
+    - level: bachelor
+      field: engineering
+      tier: citizen
+      pattern: Electrical and Electronic 240 S\$([\d.]+) S\$[\d.]+ S\$[\d.]+ S\$[\d.]+
+      multiplier: 60
+    - level: bachelor
+      field: engineering
+      tier: pr
+      pattern: Electrical and Electronic 240 S\$[\d.]+ S\$([\d.]+) S\$[\d.]+ S\$[\d.]+
+      multiplier: 60
+    - level: bachelor
+      field: engineering
+      tier: international
+      pattern: Electrical and Electronic 240 S\$[\d.]+ S\$[\d.]+ S\$[\d.]+ S\$([\d.]+)
+      multiplier: 60
+    - level: bachelor
+      field: computing
+      tier: citizen
+      pattern: 180 S\$([\d.]+) S\$[\d.]+ S\$[\d.]+ S\$[\d.]+ \$[\d.]+ Applied Computing
+      multiplier: 60
+    - level: bachelor
+      field: computing
+      tier: pr
+      pattern: 180 S\$[\d.]+ S\$([\d.]+) S\$[\d.]+ S\$[\d.]+ \$[\d.]+ Applied Computing
+      multiplier: 60
+    - level: bachelor
+      field: computing
+      tier: international
+      pattern: 180 S\$[\d.]+ S\$[\d.]+ S\$[\d.]+ S\$([\d.]+) \$[\d.]+ Applied Computing
+      multiplier: 60
+    - level: bachelor
+      field: business
+      tier: citizen
+      pattern: Bachelor of Business in Accountancy 180 S\$([\d.]+) S\$[\d.]+ S\$[\d.]+ S\$[\d.]+
+      multiplier: 60
+    - level: bachelor
+      field: business
+      tier: pr
+      pattern: Bachelor of Business in Accountancy 180 S\$[\d.]+ S\$([\d.]+) S\$[\d.]+ S\$[\d.]+
+      multiplier: 60
+    - level: bachelor
+      field: business
+      tier: international
+      pattern: Bachelor of Business in Accountancy 180 S\$[\d.]+ S\$[\d.]+ S\$[\d.]+ S\$([\d.]+)
+      multiplier: 60
+    - level: bachelor
+      field: sciences
+      tier: citizen
+      pattern: Bachelor of Food Technology with 240 S\$([\d.]+) S\$[\d.]+ S\$[\d.]+ S\$[\d.]+
+      multiplier: 60
+    - level: bachelor
+      field: sciences
+      tier: pr
+      pattern: Bachelor of Food Technology with 240 S\$[\d.]+ S\$([\d.]+) S\$[\d.]+ S\$[\d.]+
+      multiplier: 60
+    - level: bachelor
+      field: sciences
+      tier: international
+      pattern: Bachelor of Food Technology with 240 S\$[\d.]+ S\$[\d.]+ S\$[\d.]+ S\$([\d.]+)
+      multiplier: 60
+  - university: sit
+    country: sg
+    url: https://www.singaporetech.edu.sg/sites/default/files/2026-06/SIT_Postgraduate_Tuition%20Fees_AY2026.pdf
+    parser: pdf
+    year_pattern: admitted in Academic Year (\d{4})
+    targets:
+    - level: master
+      field: engineering
+      tier: citizen
+      pattern: Master of Science in Electrical and Electronic 60 \$([\d.]+) \$[\d.]+ \$[\d.]+
+      multiplier: 30
+    - level: master
+      field: engineering
+      tier: pr
+      pattern: Master of Science in Electrical and Electronic 60 \$[\d.]+ \$([\d.]+) \$[\d.]+
+      multiplier: 30
+    - level: master
+      field: engineering
+      tier: international
+      pattern: Master of Science in Electrical and Electronic 60 \$[\d.]+ \$[\d.]+ \$([\d.]+)
+      multiplier: 30

@@ -1,0 +1,118 @@
+{
+  "id": "suss",
+  "name": "Singapore University of Social Sciences",
+  "country": "sg",
+  "city": "Singapore",
+  "currency": "SGD",
+  "website": "https://www.suss.edu.sg",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science in Information and Communication Technology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 7550, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 12600, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 19200, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Academic Year 2026 full-time fees, charged per course (5-cu course: SC S$820, PR S$1,363, non-ASEAN international S$2,081 incl. GST). SUSS's 'Estimated Total Fees Per Programme (For 4 Years)' for non-Accountancy programmes: SC S$30,200, PR S$50,400, ASEAN international S$68,400, all other international S$76,800, unsubsidised S$134,966; annual figure = 4-year total / 4. SC/PR fees exclude GST (subsidised by MOE); international fees include 9% GST. Compulsory fees = annual miscellaneous fee S$240 (SC/PR) or S$530 (international) plus 9% GST. SUSS says fees are reviewed annually and does not state that they are fixed per cohort. suss.edu.sg is behind a Cloudflare bot check, so the official page was read through a reader-proxy copy (r.jina.ai) rather than directly; no earlier years' figures are published.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Accountancy",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 8460, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 13450, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 20500, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Academic Year 2026 full-time fees, charged per course (Accountancy 5-cu course: SC S$862, PR S$1,371, non-ASEAN international S$2,089 incl. GST). SUSS's 'Estimated Total Fees Per Programme (For 4 Years)' for Accountancy: SC S$33,840, PR S$53,800, ASEAN international S$73,000, all other international S$82,000, unsubsidised S$138,157; annual figure = 4-year total / 4. SC/PR fees exclude GST; international fees include 9% GST. Compulsory fees = annual miscellaneous fee S$240 (SC/PR) or S$530 (international) plus 9% GST. Fees are reviewed annually; SUSS does not state they are fixed per cohort. Official page read through a reader-proxy copy (r.jina.ai) because suss.edu.sg blocks automated access; no earlier years' figures are published.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Science in Psychology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 7550, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 12600, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 19200, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Academic Year 2026 full-time fees ('Psychology' row of SUSS's 'Estimated Total Fees Per Programme (For 4 Years)': SC S$30,200, PR S$50,400, ASEAN international S$68,400, all other international S$76,800, unsubsidised S$134,966); annual figure = 4-year total / 4. Fees are charged per course (5-cu course: SC S$820, PR S$1,363, non-ASEAN international S$2,081 incl. GST). SC/PR fees exclude GST; international fees include 9% GST. Compulsory fees = annual miscellaneous fee S$240 (SC/PR) or S$530 (international) plus 9% GST. Fees are reviewed annually; SUSS does not state they are fixed per cohort. Official page read through a reader-proxy copy (r.jina.ai) because suss.edu.sg blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Analytics and Visualisation",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "pr": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "international": { "annualTuition": 41437.44, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_78",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Whole-programme fee from SUSS's 'Year 2026/2027 Non-Subsidised Programme Fees (Graduate Programmes)' (updated Sept 2026): Master's Programme S$31,680 for Singapore Citizens/PRs and S$38,016 for other residents, both excluding GST; 9% GST added here (S$34,531.20 / S$41,437.44). Not MOE-subsidised (SSG subsidies for SC/PR not applied). 60 cu; international students take the accelerated track completed in 1 year, so the whole fee is taken as one year (SC/PR regular track is 1.5-4 years). Compulsory fees = annual miscellaneous fee S$20 (SC/PR/other residents) or S$530 (international Student's Pass holders) plus 9% GST. Read through a reader-proxy copy (r.jina.ai) because suss.edu.sg blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Management",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "pr": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "international": { "annualTuition": 41437.44, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_78",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Whole-programme fee from SUSS's 'Year 2026/2027 Non-Subsidised Programme Fees (Graduate Programmes)' (updated Sept 2026): Management Master's Programme S$31,680 for Singapore Citizens/PRs and S$38,016 for other residents, excluding GST; 9% GST added here (S$34,531.20 / S$41,437.44). Not MOE-subsidised (SSG subsidies for SC/PR not applied). 60 cu; international students are admitted to the accelerated pathway (MMGT-A, fixed at 12 or 18 months), so the whole fee is taken as one year (SC/PR regular pathway 18 months to 4 years). Compulsory fees = annual miscellaneous fee S$20 (SC/PR) or S$530 (international) plus 9% GST. Read through a reader-proxy copy (r.jina.ai) because suss.edu.sg blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Social Sciences",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 20143.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "pr": { "annualTuition": 20143.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "international": { "annualTuition": 24171.84, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_78",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Whole-programme fee from SUSS's 'Year 2026/2027 Non-Subsidised Programme Fees (Graduate Programmes)' (updated Sept 2026): Social Sciences Master's Programme S$36,960 for Singapore Citizens/PRs and S$44,352 for other residents, excluding GST; with 9% GST S$40,286.40 / S$48,343.68, divided by 2 years. Not MOE-subsidised. SUSS states 60 cu plus a 10-cu applied research project within a 4-year maximum candidature; 2 years assumes the regular graduate load of 15-20 cu per semester. Compulsory fees = annual miscellaneous fee S$20 (SC/PR) or S$530 (international) plus 9% GST. Read through a reader-proxy copy (r.jina.ai) because suss.edu.sg blocks automated access.",
+      "feeHistory": []
+    }
+  ]
+}

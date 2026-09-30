@@ -1,0 +1,18 @@
+# Singapore University of Social Sciences. www.suss.edu.sg (pages and PDFs) sits behind a
+# Cloudflare JavaScript challenge that returns 403 to requests, WebFetch and headless
+# Chromium alike, so the figures were read from reader-proxy copies and must be re-checked
+# by hand. Undergraduate fees are per course; the data uses SUSS's own 4-year programme
+# totals divided by 4. Graduate fees are whole-programme, excluding GST (9% added in data/).
+sources:
+  # site blocks automated access (Cloudflare bot check)
+  - university: suss
+    country: sg
+    url: https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate
+    parser: html
+    manual: true
+  # site blocks automated access (Cloudflare bot check); yearly document, URL changes each year
+  - university: suss
+    country: sg
+    url: https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_78
+    parser: pdf
+    manual: true
