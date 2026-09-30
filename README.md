@@ -1,8 +1,10 @@
 # FinexisEdu
 
 A web calculator for the **total university fees**, in Singapore dollars, of a
-Bachelor's or Master's degree in Singapore, the UK, Australia, the US, Canada,
-New Zealand and Japan. It is built for Singaporean students and families.
+Bachelor's or Master's degree in Singapore and in the ten countries where
+Singaporeans most often study: Australia, the UK, the US, Germany, Malaysia,
+Canada, New Zealand, Switzerland, Japan and Ireland (ranked by UNESCO's counts
+of Singaporean students abroad). It is built for Singaporean students and families.
 
 It covers tuition plus compulsory university fees (student services fees,
 Japanese admission fees, and so on), and optionally living costs for studying
@@ -34,28 +36,39 @@ every scraped change goes through a pull request:
 - the website shows a "Data may be outdated" badge on entries older than a year,
   and an "Unofficial source" badge on figures not taken from the university itself.
 
-## Coverage (checked 23 Sep 2026)
+## Coverage (checked 30 Sep 2026)
 
-22 universities, 107 programmes. Every current figure was checked against the
-university's own fee page or PDF where the page is readable, and 2024/2025
-figures come from the universities' published fee tables for those years.
+55 universities, 388 programmes: five universities in each of the 11 countries.
+Every current figure was checked against the university's own fee page or PDF
+where the page is readable, and 2024/2025 figures come from the universities'
+published fee tables for those years.
 
 | Country | Universities | Scraped automatically |
 |---|---|---|
-| Singapore | NUS, NTU, SMU | NUS and NTU fully (except NUS MSc Finance / Economics); SMU is manual |
-| UK | Cambridge (MBA), Imperial, Oxford, UCL (School of Management) | Cambridge, Imperial, UCL; Oxford is manual |
-| Australia | ANU, Melbourne, UNSW, Sydney | ANU, UNSW, Sydney; Melbourne tuition is manual |
-| US | Berkeley, CMU, MIT, Stanford | All |
-| Canada | McGill, UBC, Toronto | All (UBC compulsory fees are manual) |
-| New Zealand | Auckland | Yes |
-| Japan | Kyoto, UTokyo, Waseda | All (Waseda's lab/health fee is manual) |
+| Singapore | NUS, NTU, SMU, SIT, SUSS | NUS, NTU, SIT; SMU and SUSS are manual |
+| Australia | ANU, Melbourne, Monash, UNSW, Sydney | ANU, UNSW, Sydney; Melbourne and Monash are manual (Cloudflare) |
+| UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL | Cambridge, Imperial, LSE, UCL; Oxford is manual |
+| US | Berkeley, CMU, Harvard, MIT, Stanford | All |
+| Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin | All (HU Berlin via DAAD's listing; its own site blocks bots) |
+| Malaysia | Universiti Malaya, Monash Malaysia, Nottingham Malaysia, Taylor's, Sunway | All (Monash Malaysia via StudyMalaysia; its own site blocks bots) |
+| Canada | McGill, McMaster, Toronto, UBC, Waterloo | All (McMaster's tuition spreadsheet and UBC compulsory fees are manual) |
+| New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington | All except Otago (bot-protected) |
+| Switzerland | ETH Zurich, EPFL, Zurich, Geneva, St. Gallen | All |
+| Japan | Keio, Kyoto, Osaka, UTokyo, Waseda | All (Waseda's lab/health fee is manual) |
+| Ireland | Trinity College Dublin, UCD, UCC, Galway, DCU | All (UCD's living-cost page is manual) |
 
-**Manual** sources are listed in `scrapers/registry.yaml` with the reason. They
-are pages that block automated access (SMU, Oxford, Melbourne, UCL's central
+Why these countries: Singapore's MOE does not track students who study
+overseas, so the list follows the host countries' own counts of Singaporean
+students as compiled by UNESCO UIS (2023–24): Australia ~6,800, UK ~6,100,
+US ~3,800, then Germany, Malaysia, Canada, New Zealand, Switzerland, Japan and
+Ireland at 250–650 each.
+
+**Manual** sources are listed in `scrapers/registry.yaml` and
+`scrapers/registry.d/*.yaml` with the reason. They are pages that block
+automated access (SMU, SUSS, Oxford, Melbourne, Monash, Otago, UCL's central
 site, some NUS programme sites) or that show a fee spread across rows. Figures
 from those sites carry an "Unofficial source" badge where the university's own
-page could not be read. Otago was left out because its whole site is
-bot-protected.
+page could not be read.
 
 A few earlier-year figures are an official per-credit or per-course rate
 multiplied by a standard full-time load (UNSW, UBC, Auckland), the same way the
@@ -63,7 +76,9 @@ current figures are built; their notes say so.
 
 ## Comparing two universities
 
-Pick up to two universities. The results show a headline tile for each (total
+Each of the two comparison slots has a country dropdown, then a dropdown of
+that country's universities (and of programmes, where a university has more
+than one for the chosen level and field). The results show a headline tile for each (total
 in SGD and the difference between them), then two vertical bars on a common
 baseline. "Compare" switches the bars between the total and one part of it
 (tuition, other fees, one-off fees, living costs); the total is stacked by part.
@@ -132,6 +147,7 @@ lib/                  fee engine, zod schema, data loader, exchange rates
 data/                 all fee data as JSON; format described in data/SCHEMA.md
 scrapers/             Python scraper pipeline
   registry.yaml       which page and regex feeds which fee figure
+  registry.d/         one more registry file per newer university, merged in by run.py
   run.py              runs the registry, validates, writes data/, writes the PR summary
 .github/workflows/    ci.yml (tests + build), refresh-data.yml (monthly scrape → PR)
 ```
