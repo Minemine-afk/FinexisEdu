@@ -251,6 +251,78 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 33000, "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2024/" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 33000, "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2024/" }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws (LLB)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 12750, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 17800, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 30450, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Annual tuition for the AY2026/27 intake, fixed for the cohort ('Law' row). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$27,750; non-subsidised S$44,450). History from the same PDF's cohort tables for students admitted in AY2025/26 and AY2024/25. Excludes Miscellaneous Student Fees, which are billed per semester.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 12700, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 17750, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 29300, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12700, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 17750, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 28350, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Laws (LLM, General)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 9600, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 17050, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 40250, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://law1a.nus.edu.sg/admissions/fees.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Tuition fees per annum for students matriculating in AY2026/27 from NUS Law's fee page ('LLM (General) / Corporate & Financial Services Law / International & Comparative Law / Intellectual Property & Technology Law' row). Citizen S$9,600 and PR S$17,050 are the MOE-subsidised rates, excl. GST (GST subsidised by MOE). International students are not MOE-subsidised: S$40,250 incl. 9% GST (a Singapore Citizen not taking the subsidy pays S$38,350). The specialist LLMs (Maritime Law, Asian Legal Studies, International Arbitration & Dispute Resolution, International Business Law) are self-funded at S$42,550 / S$38,940 incl. GST for all nationalities. A non-refundable acceptance fee of S$3,270 (incl. GST) is offset against tuition, so it is not a one-off fee. The page says fees are subject to change each AY; one-year programme. History (students admitted in August 2025) from the NUS Law 'Masters Programmes 2026' brochure PDF: S$9,600 / S$16,400 / S$37,100. No 2024 figure is published. Excludes Miscellaneous Student Fees.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 9600, "sourceUrl": "https://law.nus.edu.sg/wp-content/uploads/2025/08/LLM-Brochure_NUS-Law_2026.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 16400, "sourceUrl": "https://law.nus.edu.sg/wp-content/uploads/2025/08/LLM-Brochure_NUS-Law_2026.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 37100, "sourceUrl": "https://law.nus.edu.sg/wp-content/uploads/2025/08/LLM-Brochure_NUS-Law_2026.pdf" }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MBBS, Yong Loo Lin School of Medicine)",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 33200, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 48900, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 87800, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Annual tuition for the AY2026/27 intake, fixed for the cohort ('Medicine (except Nursing)' row; NUS charges the same rate in every year of the five-year MBBS, with no separate clinical-year rate). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$74,750; non-subsidised S$190,150). History from the same PDF's cohort tables for students admitted in AY2025/26 and AY2024/25. Excludes Miscellaneous Student Fees, which are billed per semester.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 32200, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 47900, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 83950, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 31200, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 46400, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 76450, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" }
+      ]
     }
   ]
 }

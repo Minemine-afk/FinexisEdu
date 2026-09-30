@@ -49,6 +49,18 @@ sources:
       field: business
       tier: international
       pattern: Business & Computer Engineering \$ ?[\d,]+ \$ ?[\d,]+ \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: medicine
+      tier: citizen
+      pattern: Medicine \$ ?([\d,]+) \$ ?[\d,]+ \$ ?[\d,]+ \$ ?[\d,]+
+    - level: bachelor
+      field: medicine
+      tier: pr
+      pattern: Medicine \$ ?[\d,]+ \$ ?([\d,]+) \$ ?[\d,]+ \$ ?[\d,]+
+    - level: bachelor
+      field: medicine
+      tier: international
+      pattern: Medicine \$ ?[\d,]+ \$ ?[\d,]+ \$ ?[\d,]+ \$ ?([\d,]+)
   - university: ntu
     country: sg
     url: https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters
@@ -141,6 +153,50 @@ sources:
       field: business
       tier: international
       pattern: Business[\d,]* [\d,]+ [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: law
+      tier: citizen
+      pattern: Law ([\d,]+) [\d,]+ [\d,]+ [\d,]+
+    - level: bachelor
+      field: law
+      tier: pr
+      pattern: Law [\d,]+ ([\d,]+) [\d,]+ [\d,]+
+    - level: bachelor
+      field: law
+      tier: international
+      pattern: Law [\d,]+ [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: medicine
+      tier: citizen
+      pattern: Medicine \(except Nursing\) ([\d,]+) [\d,]+ [\d,]+ [\d,]+
+    - level: bachelor
+      field: medicine
+      tier: pr
+      pattern: Medicine \(except Nursing\) [\d,]+ ([\d,]+) [\d,]+ [\d,]+
+    - level: bachelor
+      field: medicine
+      tier: international
+      pattern: Medicine \(except Nursing\) [\d,]+ [\d,]+ [\d,]+ ([\d,]+)
+  # NUS Law graduate fee page (law1a.nus.edu.sg): one row for the four MOE-subsidised LLMs,
+  # columns SC (subsidised), PR (subsidised), SC (unsubsidised), international (unsubsidised).
+  - university: nus
+    country: sg
+    url: https://law1a.nus.edu.sg/admissions/fees.html
+    parser: html
+    year_pattern: matriculating in Academic Year \(AY\) (\d{4})/\d{4}
+    targets:
+    - level: master
+      field: law
+      tier: citizen
+      pattern: Technology Law\) S\$([\d,]+) S\$[\d,]+ S\$[\d,]+ S\$[\d,]+
+    - level: master
+      field: law
+      tier: pr
+      pattern: Technology Law\) S\$[\d,]+ S\$([\d,]+) S\$[\d,]+ S\$[\d,]+
+    - level: master
+      field: law
+      tier: international
+      pattern: Technology Law\) S\$[\d,]+ S\$[\d,]+ S\$[\d,]+ S\$([\d,]+)
   - university: nus
     country: sg
     url: https://cde.nus.edu.sg/ece/wp-content/uploads/sites/3/2025/10/ECE_MScFees_appendix.pdf
@@ -222,6 +278,37 @@ sources:
       pattern: Monthly living costs \d{4}-\d{2} Food £ ?([\d,]+)
     - key: living.personal
       pattern: Personal items £ ?([\d,]+) Social activities £ ?([\d,]+) Study costs £ ?([\d,]+) Miscellaneous £ ?([\d,]+)
+  # Yearly undergraduate fee document (new URL each year). Rows read "<course> <Home> <Overseas>".
+  # The College fee (annualCompulsoryFees) is the median of the per-College list and is kept by hand.
+  - university: cambridge
+    country: uk
+    url: https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf
+    parser: pdf
+    year_pattern: Undergraduate tuition fees (\d{4})-\d{2}
+    targets:
+    - level: bachelor
+      field: law
+      pattern: \bLaw [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: medicine
+      pattern: \bMedicine [\d,]+ ([\d,]+)
+  # Postgraduate financial tracker behind the Course Directory's Finance tab; one page per entry year.
+  - university: cambridge
+    country: uk
+    url: https://2027.gaobase.admin.cam.ac.uk/api/courses/LWLWLLLL/financial_tracker.html?fee_status=O&children=0
+    parser: html
+    targets:
+    - level: master
+      field: law
+      pattern: University Composition Fee £ ?([\d,]+)
+  - university: imperial
+    country: uk
+    url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-medicine/
+    year_pattern: (\d{4}) Cohort
+    targets:
+    - level: bachelor
+      field: medicine
+      pattern: Non-clinical and Clinical Entry cohort Home and Ireland Overseas \d{4} Cohort £ ?[\d,.]+ £ ?([\d,.]+)
   - university: imperial
     country: uk
     url: https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/
@@ -316,6 +403,30 @@ sources:
       pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
   - university: anu
     country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/ALLB
+    parser: html
+    targets:
+    - level: bachelor
+      field: law
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/MJD
+    parser: html
+    targets:
+    - level: master
+      field: law
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/8950XMCHD
+    parser: html
+    targets:
+    - level: master
+      field: medicine
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
     url: https://www.anu.edu.au/students/program-administration/fees-payments/services-amenities-fee
     parser: html
     targets:
@@ -371,6 +482,36 @@ sources:
       pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
   - university: unsw
     country: au
+    url: https://www.unsw.edu.au/study/postgraduate/juris-doctor
+    parser: html
+    year_pattern: (\d{4}) Indicative first year full fee
+    targets:
+    - level: master
+      field: law
+      pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-medical-studies-doctor-of-medicine
+    parser: html
+    year_pattern: (\d{4}) Indicative first year full fee
+    targets:
+    - level: bachelor
+      field: medicine
+      pattern: to complete degree \$ ?[\d,]+\* Fees \d{4} Indicative first year full fee \$ ?([\d,]+)
+  # UNSW has no standalone LLB; the law programme uses the international undergraduate LAWS per-UOC
+  # rate x 48 UOC. The undergraduate table comes first on the page, so the first LAWS row is the one.
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/student/managing-your-studies/fees/international
+    parser: html
+    year_pattern: (\d{4}) tuition fees Personalise
+    targets:
+    - level: bachelor
+      field: law
+      pattern: LAWS Law \$ ?([\d,]+)
+      multiplier: 48
+  - university: unsw
+    country: au
     url: https://www.unsw.edu.au/student/managing-your-studies/fees/ssaf
     parser: html
     targets:
@@ -389,6 +530,30 @@ sources:
     - level: bachelor
       field: computing
       pattern: B Advanced Computing 093855E \d+ Feb/Aug ([\d,]+)
+    - level: bachelor
+      field: law
+      pattern: B Arts and B Laws 006441D \d+ Feb/Aug ([\d,]+)
+  # Sydney's course pages load their fee table from this JSON (the page itself has no figures). It
+  # lists 2026 and 2027 side by side, so the patterns are anchored on the 2026 block; when 2026 drops
+  # off, they stop matching and the figures are re-checked by hand.
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/pc/juris-doctor.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: master
+      field: law
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/pc/doctor-of-medicine0.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: master
+      field: medicine
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
   - university: usyd
     country: au
     url: https://www.sydney.edu.au/students/ssaf.html
@@ -874,6 +1039,25 @@ sources:
     - level: bachelor
       field: arts
       pattern: Bachelor of Arts NZ\$ ?([\d,]+)
+    - level: bachelor
+      field: law
+      pattern: Bachelor of Laws NZ\$ ?([\d,]+)
+    # MB ChB is recorded at its first-year rate, which the list gives as the Bachelor of Health
+    # Sciences figure ("Year 2 onwards NZ$86,561; for Year 1 see Bachelor of Health Sciences").
+    - level: bachelor
+      field: medicine
+      pattern: Bachelor of Health Sciences NZ\$ ?([\d,]+)
+  # LLM: 120 points of 700-level LAW courses, 8 x the 15-point LAW 760 fee
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2026-fees/2026-Fees-Law-International.pdf
+    parser: pdf
+    year_pattern: Tuition fees (\d{4}) - International students
+    targets:
+    - level: master
+      field: law
+      pattern: LAW 760 Directed Study 15 \$([\d,.]+)
+      multiplier: 8
   - university: auckland
     country: nz
     url: https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/cssf.html
@@ -960,7 +1144,12 @@ sources:
     parser: pdf
     targets:
     - level: bachelor
+      field: engineering
       pattern: 基幹理工学部 [\d,]+ [\d,]+ ([\d,]+)
+    # School of Law row: first-year total, admission + tuition, years 2-4 tuition (used, as for engineering)
+    - level: bachelor
+      field: law
+      pattern: 法学部 [\d,]+ [\d,]+ ([\d,]+)
   - university: waseda
     country: jp
     url: https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf
@@ -1002,6 +1191,54 @@ sources:
   - university: smu
     country: sg
     url: https://masters.smu.edu.sg/msfe
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai). JD whole-programme fee per admit year.
+  - university: smu
+    country: sg
+    url: https://law.smu.edu.sg/jd/admissions/finance-administrative-matters-jd-programme
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai). LLM fee per intake year.
+  - university: smu
+    country: sg
+    url: https://law.smu.edu.sg/llm/admissions/fees-scholarships
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai)
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/law-jurisprudence
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai)
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/graduate/courses/bachelor-civil-law
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai). Pre-clinical and clinical rates.
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai)
+  - university: ucl
+    country: uk
+    url: https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb
+    parser: html
+    manual: true
+  # secondary source; UCL's own LLM page shows the 2027/28 fee as "to be confirmed" and blocks automated access
+  - university: ucl
+    country: uk
+    url: https://www.mastersportal.com/studies/294183/law.html
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai). 2026-entry page; 2027 page shows N/A.
+  - university: ucl
+    country: uk
+    url: https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/medicine-mbbs-bsc-2026
     parser: html
     manual: true
   # secondary source; the university's own fee page is not machine-readable
@@ -1052,6 +1289,13 @@ sources:
     url: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
     parser: html
     manual: true
+  # official 2026 international course tuition fee table (JD, MD); unimelb.edu.au returns 403 to
+  # scripted requests, so it is read by hand (a text rendering via r.jina.ai works)
+  - university: unimelb
+    country: au
+    url: https://students.unimelb.edu.au/__data/assets/pdf_file/0020/5423033/2026-International-Course-Tuition-Fees-OF_20260807.pdf
+    parser: pdf
+    manual: true
   # fee is not a single figure on the page (per-credit, ranges or several rows)
   - university: unsw
     country: au
@@ -1080,5 +1324,23 @@ sources:
   - university: waseda
     country: jp
     url: https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
+    parser: html
+    manual: true
+  # 2024 and 2025 undergraduate fee tables (archived yearly documents), cited for fee history only
+  - university: waseda
+    country: jp
+    url: https://waseda.box.com/s/zpy44om3fcn5ob1lmdcvdma14qpklled
+    parser: html
+    manual: true
+  - university: waseda
+    country: jp
+    url: https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d
+    parser: html
+    manual: true
+  # secondary source for the Law School (JD) fees; Waseda's own 2026 guide PDF
+  # (waseda.jp/folaw/gwls/assets/uploads/2026/02/2026youkou.pdf) returns 403 to automated readers
+  - university: waseda
+    country: jp
+    url: https://agaroot-career.jp/shiho/waseda-law/
     parser: html
     manual: true

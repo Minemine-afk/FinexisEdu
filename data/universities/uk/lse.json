@@ -173,6 +173,44 @@
         { "feeYear": 2025, "tier": "international", "annualTuition": 39000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 36480, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "LLB Bachelor of Laws",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": { "annualTuition": 35700, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2026-27-and-PGR-structure-combined-28Nov2025.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas fee for 2026/27 new entrants from LSE's Table of Fees 2026/27 ('LLB in Laws' row; Home £9,790); fixed at the year-of-entry level for the whole programme. No separate compulsory fees. History: 2025/26 Table of Fees (£34,000) and 2024/25 Table of Fees (£28,176).",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "international", "annualTuition": 34000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 28176, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LLM Master of Laws",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": { "annualTuition": 39900, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2026-27-and-PGR-structure-combined-28Nov2025.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Full-time overseas fee for 2026/27 from LSE's Table of Fees 2026/27 ('Master of Laws' row; Home £24,500; part-time £19,950 a year). One-year programme; LSE says fees normally rise each year. No separate compulsory fees. History: 2025/26 (£38,000) and 2024/25 (£36,168) Tables of Fees, where the row is labelled 'LLM'.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "international", "annualTuition": 38000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 36168, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
+      ]
     }
   ]
 }

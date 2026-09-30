@@ -140,6 +140,31 @@
       "cohortLocked": true,
       "notes": "Self-financed programme, not MOE-subsidised. Programme fee for the 2026 intake on the programme page: S$89,380 incl. 9% GST (12- or 18-month programme), same for all nationalities. Citizen/PR: NBS's Fees & Funding page (ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding) states that SC/PRs admitted to the full-time Nanyang MBA get a study grant of 10% of the tuition fee, so the SC/PR figure is 90% of the published fee. That page's fee schedule totals S$92,955.20 incl. GST without saying which intake it is for (probably 2027). Excludes the one-time miscellaneous fee of S$620.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MBBS, Lee Kong Chian School of Medicine)",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 36100, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 51850, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 91250, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/undergraduate/fees-funding/tuition-fees",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Annual tuition for Academic Year 2026/2027 entrants, fixed for the whole degree ('Medicine' row of the 'Tuition fees & grants' page; one rate for all five years, no separate clinical-year rate). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$80,850; NTU lists no non-subsidised rate for Medicine). 2025 and 2024 history from NTU's per-year fee PDFs. Excludes miscellaneous fees, which are billed per semester.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 36100, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 51850, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 89100, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 35550, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 51050, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 83350, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" }
+      ]
     }
   ]
 }

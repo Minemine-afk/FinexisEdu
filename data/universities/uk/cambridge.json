@@ -54,6 +54,117 @@
           "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/BMJBMBMBA/financial_tracker.html"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "BA Law (Law Tripos)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 30798,
+          "annualCompulsoryFees": 14100,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Law' row; fee Group 1 on the international fees page), fixed at this rate for the duration of the course. Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the median of the published list, £14,100, so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £29,052 (College fees £11,500-£14,950, median £13,245), 2025-26 £27,024 (£10,017-£13,950, median £12,600), 2024-25 £25,734 (£9,275-£12,950, median £11,800).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25734,
+          "annualCompulsoryFees": 11800,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2024-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 27024,
+          "annualCompulsoryFees": 12600,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2025-26.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29052,
+          "annualCompulsoryFees": 13245,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2026-27.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Law (LLM)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48252,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://2027.gaobase.admin.cam.ac.uk/api/courses/LWLWLLLL/financial_tracker.html?fee_status=O&children=0",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas University Composition Fee for the 9-month LLM starting October 2027, from the University's postgraduate financial tracker for the course (the 'Finance' tab of the Course Directory entry lwlwllll loads this page; Home fee £27,666). The Composition Fee for postgraduates already includes the College fee, so no separate compulsory fee. History: 2026 entry £45,516 from the 2026 tracker; earlier trackers are not reachable. Application fee not included.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45516,
+          "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/LWLWLLLL/financial_tracker.html?fee_status=O&children=0"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine (MB BChir, A100)",
+      "durationYears": 6,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 70554,
+          "annualCompulsoryFees": 14100,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Medicine' row; fee Group 5, 'Medical and Veterinary Science including the Second M.B.', on the international fees page), fixed at this rate for the duration of the six-year course. Cambridge charges the same Group 5 rate in the pre-clinical and clinical years (the Year 3 fee follows the course taken that year). Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 to £15,950 across the 31 Colleges) and is recorded here as the median of the published list, £14,100. History from the earlier years' documents: 2026-27 £70,554 (College fee median £13,245), 2025-26 £70,554 (median £12,600), 2024-25 £67,194 (median £11,800).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 67194,
+          "annualCompulsoryFees": 11800,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2024-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 70554,
+          "annualCompulsoryFees": 12600,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2025-26.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 70554,
+          "annualCompulsoryFees": 13245,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2026-27.pdf"
+        }
+      ]
     }
   ]
 }
