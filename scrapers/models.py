@@ -7,7 +7,7 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl
 
-CountryCode = Literal["sg", "uk", "au", "us", "de", "my", "ca", "nz", "ch", "jp", "ie"]
+CountryCode = Literal["sg", "uk", "au", "us", "de", "ca", "nz", "ch", "jp", "ie"]
 LevelT = Literal["bachelor", "master"]
 FieldT = Literal["engineering", "computing", "business", "sciences", "arts"]
 TierT = Literal["citizen", "pr", "international"]
@@ -84,6 +84,8 @@ class University(_Model):
     city: str
     currency: str = Field(min_length=3, max_length=3)
     website: HttpUrl | None = None
+    description: str | None = None
+    whyIncluded: str | None = None
     livingCosts: LivingCosts | None = None
     programmes: list[Programme]
 

@@ -5,6 +5,8 @@
   "city": "Singapore",
   "currency": "SGD",
   "website": "https://www.nus.edu.sg",
+  "description": "The National University of Singapore is a public research university founded in 1905 as the Straits Settlements and Federated Malay States Government Medical School, making it Singapore's oldest university. It is a comprehensive university with faculties spanning medicine, law, engineering, computing, business, science and the arts.",
+  "whyIncluded": "One of Singapore's MOE-funded Autonomous Universities and the country's largest, so it is the primary local benchmark against which overseas fees are compared.",
   "programmes": [
     {
       "level": "bachelor",
@@ -18,7 +20,7 @@
         "international": { "annualTuition": 21400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Annual tuition for the AY2026/27 intake, fixed for the cohort ('Design and Engineering' row). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$18,050). Excludes Miscellaneous Student Fees, which are billed per semester.",
@@ -43,7 +45,7 @@
         "international": { "annualTuition": 21400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Annual tuition for the AY2026/27 intake, fixed for the cohort ('Computing' row). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$18,050). Excludes Miscellaneous Student Fees, which are billed per semester.",
@@ -68,7 +70,7 @@
         "international": { "annualTuition": 21400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Annual tuition for the AY2026/27 intake, fixed for the cohort ('Humanities and Sciences' row). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$18,050). Excludes Miscellaneous Student Fees, which are billed per semester.",
@@ -93,7 +95,7 @@
         "international": { "annualTuition": 21400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Annual tuition for the AY2026/27 intake, fixed for the cohort ('Humanities and Sciences' row). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$18,050). Excludes Miscellaneous Student Fees, which are billed per semester.",
@@ -118,7 +120,7 @@
         "international": { "annualTuition": 22200, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Annual tuition for the AY2026/27 intake, fixed for the cohort ('Business' row). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$21,150). Excludes Miscellaneous Student Fees, which are billed per semester.",
@@ -143,10 +145,10 @@
         "international": { "annualTuition": 57880, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://cde.nus.edu.sg/ece/wp-content/uploads/sites/3/2025/10/ECE_MScFees_appendix.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Whole-programme fee, full-time (2 semesters), same for the AY2024, AY2025 and AY2026 intakes: S$53,100 before GST = S$57,880 incl. 9% GST (Table 1). Citizen/PR: S$34,728 incl. GST after the 40% SC/PR rebate (Table 2b; AY2024 applicants who applied by 31 Dec 2023 paid S$34,698 under Table 2a). Excludes Miscellaneous Student Fees, which are billed per semester.",
+      "notes": "Whole-programme fee, full-time (2 semesters), same for the AY2024, AY2025 and AY2026 intakes: S$53,100 before GST = S$57,880 incl. 9% GST (Table 1). Citizen/PR: S$34,728 incl. GST after the 40% SC/PR rebate (Table 2b; AY2024 applicants who applied by 31 Dec 2023 paid S$34,698 under Table 2a); self-funded programme, not MOE Tuition Grant. Re-read on 2026-09-30 (PDF updated 1 Oct 2025). Excludes Miscellaneous Student Fees, which are billed per semester.",
       "feeHistory": [
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 34728, "sourceUrl": "https://cde.nus.edu.sg/ece/wp-content/uploads/sites/3/2025/10/ECE_MScFees_appendix.pdf" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 34728, "sourceUrl": "https://cde.nus.edu.sg/ece/wp-content/uploads/sites/3/2025/10/ECE_MScFees_appendix.pdf" },
@@ -163,13 +165,15 @@
       "durationYears": 1.5,
       "feeYear": 2027,
       "fees": {
+        "citizen": { "annualTuition": 27686, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 27686, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 46143.33, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcs/scholarships",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Total tuition of S$69,215 incl. 9% GST for the Aug 2027 intake (up to 40 Units), divided by the 1.5-year full-time candidature. No Citizen/PR rate yet for 2027: NUS's 40% SC/PR rebate covers only the AY2024-AY2026 intakes. The 2026 entries (total S$67,144; SC/PR with the 40% rebate) are secondary figures, not confirmed on the official page, which now shows only the 2027 intake. Excludes Miscellaneous Student Fees.",
+      "notes": "Self-funded (not MOE Tuition Grant) programme. Total tuition of S$69,215 incl. 9% GST for the Aug 2027 intake (up to 40 Units), divided by the 1.5-year full-time candidature; the same fee applies to all nationalities. Citizen/PR: the programme page does not print a figure, but it is on NUS's list for the Master's by Coursework Enhanced Tuition Fee Rebate (masters.nus.edu.sg; FAQ dated 3 Sep 2026), a 40% rebate for Singapore Citizens/PRs admitted in AY2024-AY2028, so the SC/PR figure is 60% of the published fee (S$41,529 incl. GST, /1.5). The 2026 history (total S$67,144) is a secondary figure, not confirmed on the official page, which now shows only the 2027 intake. Excludes Miscellaneous Student Fees.",
       "feeHistory": [
         { "feeYear": 2026, "tier": "international", "annualTuition": 44762.67, "sourceUrl": "https://collegedunia.com/singapore/university/767-national-university-of-singapore-singapore/master-of-computing-210838" },
         { "feeYear": 2026, "tier": "citizen", "annualTuition": 26857.6, "sourceUrl": "https://news.nus.edu.sg/adult-learning-made-more-affordable-nus-offers-40-rebate-on-fees-for-over-80-masters-degree-programmes/" },
@@ -181,18 +185,22 @@
       "field": "business",
       "name": "MSc in Finance",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
-        "citizen": { "annualTuition": 45126, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 45126, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 75210, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": { "annualTuition": 46434, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 46434, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 77390, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
-      "sourceUrl": "https://www.educatly.com/program/661841/nus-msc-in-finance",
-      "lastVerified": "2026-09-23",
+      "sourceUrl": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/",
+      "lastVerified": "2026-09-30",
       "sourceType": "secondary",
       "cohortLocked": true,
-      "notes": "Whole-programme fee for the Aug 2026 intake: S$69,000 before GST = S$75,210 incl. 9% GST. Not confirmed on the official page (mscfin.nus.edu.sg/fees-finances/programme-fees is behind bot protection). Citizen/PR: 40% SC/PR rebate applied (NUS rebate for AY2024-AY2026 intakes). Full-time takes about 12-16 months. Excludes Miscellaneous Student Fees.",
-      "feeHistory": []
+      "notes": "Self-funded (not MOE Tuition Grant) programme. Whole-programme fee for the Aug 2027 intake (AY2027/28) on the official page: S$71,000 before GST = S$77,390 incl. 9% GST, same for all nationalities (NUS alumni get a 20% rebate). Citizen/PR: the page prints no SC/PR figure, but MSc (Finance) is on NUS's list for the Master's by Coursework Enhanced Tuition Fee Rebate (40% for SC/PR admitted in AY2024-AY2028; masters.nus.edu.sg, FAQ dated 3 Sep 2026), so the SC/PR figure is 60% of the published fee. Full-time takes about 12-16 months. The official page (mscfin.nus.edu.sg) blocks bots, so it was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. The 2026 history (S$75,210 incl. GST) is from a secondary site (educatly) and the SC/PR entries apply the same 40% rebate; the official page now shows only the 2027 intake. Excludes Miscellaneous Student Fees.",
+      "feeHistory": [
+        { "feeYear": 2026, "tier": "international", "annualTuition": 75210, "sourceUrl": "https://www.educatly.com/program/661841/nus-msc-in-finance" },
+        { "feeYear": 2026, "tier": "citizen", "annualTuition": 45126, "sourceUrl": "https://www.educatly.com/program/661841/nus-msc-in-finance" },
+        { "feeYear": 2026, "tier": "pr", "annualTuition": 45126, "sourceUrl": "https://www.educatly.com/program/661841/nus-msc-in-finance" }
+      ]
     },
     {
       "level": "master",
@@ -206,7 +214,7 @@
         "international": { "annualTuition": 52320, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2025/05/MSc-Maths-Track-ONE-Tuition-Fee-AY2026.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Whole-programme fee, full-time (2 semesters), Aug 2026 intake. International: S$48,000 before GST = S$52,320 incl. 9% GST. Citizen/PR: S$28,800 after the 40% rebate = S$31,392 incl. GST. Excludes Miscellaneous Student Fees.",
@@ -226,14 +234,23 @@
       "durationYears": 1,
       "feeYear": 2026,
       "fees": {
+        "citizen": { "annualTuition": 35010, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 35010, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 58350, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
-      "sourceUrl": "https://leapscholar.com/blog/masters-in-economics-in-singapore/",
-      "lastVerified": "2026-09-23",
+      "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2026-and-2027/",
+      "lastVerified": "2026-09-30",
       "sourceType": "secondary",
       "cohortLocked": true,
-      "notes": "Whole-programme fee of S$58,350 incl. GST for the Aug 2026 intake. Not confirmed on the official page (fass.nus.edu.sg/ecs/me-fees-and-payment-2026-and-2027 is behind bot protection). No Citizen/PR tier: SC/PR rebate treatment not confirmed. Excludes Miscellaneous Student Fees.",
-      "feeHistory": []
+      "notes": "Self-funded (not MOE Tuition Grant) programme. Official FASS page: tuition fee for the August 2026 and January 2027 intakes is S$58,350 incl. GST for the entire programme 'for all students'. Citizen/PR: the page prints no SC/PR figure, but Master of Economics is on NUS's list for the Master's by Coursework Enhanced Tuition Fee Rebate (40% for SC/PR admitted in AY2024-AY2028; masters.nus.edu.sg, FAQ dated 3 Sep 2026), so the SC/PR figures (current and history) are 60% of the published fee. History from the FASS pages for earlier intakes: Aug 2025 S$56,650, Aug 2024 S$55,000 (both incl. GST, all students). fass.nus.edu.sg blocks bots, so the official pages were read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Excludes Miscellaneous Student Fees.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "international", "annualTuition": 56650, "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2025/" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 33990, "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2025/" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 33990, "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2025/" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 55000, "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2024/" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 33000, "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2024/" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 33000, "sourceUrl": "https://fass.nus.edu.sg/ecs/me-fees-and-payment-2024/" }
+      ]
     }
   ]
 }

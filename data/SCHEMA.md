@@ -1,7 +1,7 @@
 # Fee data schema
 
 One JSON file per university at `data/universities/<country>/<id>.json`.
-Country codes: `sg`, `uk`, `au`, `us`, `de`, `my`, `ca`, `nz`, `ch`, `jp`, `ie`.
+Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
 
 ```jsonc
 {
@@ -11,6 +11,8 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `my`, `ca`, `nz`, `ch`, `jp`, `ie`.
   "city": "Singapore",
   "currency": "SGD",                             // ISO 4217 code fees are quoted in
   "website": "https://www.nus.edu.sg",
+  "description": "Singapore's oldest and largest ...",   // 1–2 factual sentences, shown on hover over the name
+  "whyIncluded": "MOE-funded Autonomous University ...", // why it is in the calculator (evidence of Singaporean demand)
   "programmes": [
     {
       "level": "bachelor",                       // "bachelor" | "master"

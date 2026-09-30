@@ -14,6 +14,14 @@ describe("committed data", () => {
     expect(countries.map((c) => c.code).sort()).toEqual([...COUNTRY_CODES].sort());
   });
 
+  it("describes every university and why it is included", () => {
+    for (const u of universities) {
+      expect(u.website, u.id).toBeTruthy();
+      expect(u.description, u.id).toBeTruthy();
+      expect(u.whyIncluded, u.id).toBeTruthy();
+    }
+  });
+
   it("has unique university ids", () => {
     const ids = universities.map((u) => u.id);
     expect(new Set(ids).size).toBe(ids.length);

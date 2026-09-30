@@ -9,9 +9,9 @@ sources:
   # ---------------------------------------------------------------- automated
   - university: ntu
     country: sg
-    url: https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026
+    url: https://www.ntu.edu.sg/admissions/undergraduate/admissions/undergraduate/fees-funding/tuition-fees
     parser: html
-    year_pattern: fixed at the (\d{4}) rate
+    year_pattern: Tuition fees for Academic Year (\d{4})/\d{4}
     targets:
     - level: bachelor
       field: engineering
@@ -169,6 +169,18 @@ sources:
       tier: international
       pattern: MComp Programme \(with Specialisations\) Tuition Fees \(including prevailing GST 9%\) S\$([\d,]+)
       multiplier: 0.6666666666666666
+    # Singapore Citizens/PRs pay 60% under the NUS Master's by Coursework Enhanced Tuition
+    # Fee Rebate (AY2024-AY2028 intakes), spread over the 1.5-year candidature.
+    - level: master
+      field: computing
+      tier: citizen
+      pattern: MComp Programme \(with Specialisations\) Tuition Fees \(including prevailing GST 9%\) S\$([\d,]+)
+      multiplier: 0.4
+    - level: master
+      field: computing
+      tier: pr
+      pattern: MComp Programme \(with Specialisations\) Tuition Fees \(including prevailing GST 9%\) S\$([\d,]+)
+      multiplier: 0.4
   - university: nus
     country: sg
     url: https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2025/05/MSc-Maths-Track-ONE-Tuition-Fee-AY2026.pdf
@@ -873,28 +885,28 @@ sources:
       multiplier: 1000
 
   # ---------------------------------------------------------------- checked by hand
-  # secondary source; the university's own fee page is not machine-readable
+  # site blocks automated access (403 to requests); read through a reader proxy (r.jina.ai)
   - university: nus
     country: sg
-    url: https://leapscholar.com/blog/masters-in-economics-in-singapore/
+    url: https://fass.nus.edu.sg/ecs/me-fees-and-payment-2026-and-2027/
     parser: html
     manual: true
-  # secondary source; the university's own fee page is not machine-readable
+  # site blocks automated access; read through a reader proxy (r.jina.ai). Shows the newest intake only.
   - university: nus
     country: sg
-    url: https://www.educatly.com/program/661841/nus-msc-in-finance
+    url: https://mscfin.nus.edu.sg/fees-finances/programme-fees/
     parser: html
     manual: true
-  # secondary source; the university's own fee page is not machine-readable
+  # site blocks automated access; read through a reader proxy (r.jina.ai). One table for all non-Law degrees.
   - university: smu
     country: sg
-    url: https://leapscholar.com/blog/cost-of-studying-in-singapore/
+    url: https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant
     parser: html
     manual: true
-  # secondary source; the university's own fee page is not machine-readable
+  # site blocks automated access; read through a reader proxy (r.jina.ai)
   - university: smu
     country: sg
-    url: https://leapscholar.com/blog/masters-in-economics-in-singapore/
+    url: https://masters.smu.edu.sg/msfe
     parser: html
     manual: true
   # secondary source; the university's own fee page is not machine-readable

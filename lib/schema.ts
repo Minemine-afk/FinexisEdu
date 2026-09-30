@@ -2,7 +2,7 @@ import { z } from "zod";
 
 // Mirrors scrapers/models.py. Keep the two in sync; see data/SCHEMA.md.
 
-export const COUNTRY_CODES = ["sg", "uk", "au", "us", "de", "my", "ca", "nz", "ch", "jp", "ie"] as const;
+export const COUNTRY_CODES = ["sg", "uk", "au", "us", "de", "ca", "nz", "ch", "jp", "ie"] as const;
 export const LEVELS = ["bachelor", "master"] as const;
 export const FIELDS = ["engineering", "computing", "business", "sciences", "arts"] as const;
 export const TIERS = ["citizen", "pr", "international"] as const;
@@ -71,6 +71,10 @@ export const University = z.object({
   city: z.string().min(1),
   currency: z.string().length(3),
   website: z.url().optional(),
+  /** One or two sentences on what the university is (shown on hover over its name). */
+  description: z.string().min(1).optional(),
+  /** Why it is in the calculator, e.g. evidence of Singaporean enrolment or recognition. */
+  whyIncluded: z.string().min(1).optional(),
   livingCosts: LivingCosts.optional(),
   programmes: z.array(Programme),
 });

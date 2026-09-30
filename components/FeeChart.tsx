@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { formatCompactSgd, formatMoney } from "@/lib/format";
 import type { Selection } from "./Calculator";
+import UniversityName from "./UniversityName";
 
 export const SEGMENTS = [
   { key: "tuition", label: "Tuition", color: "bg-series-1" },
@@ -43,8 +44,8 @@ export default function FeeChart({
         : "Total fees in SGD"
       : `${segments[0]?.label ?? ""} in SGD`;
   const hovered = selections.find((s) => s.key === hover);
-  const column = "w-full max-w-44";
-  const row = "flex items-end justify-center gap-8 sm:gap-16";
+  const column = "w-full max-w-44 min-w-0";
+  const row = selections.length > 2 ? "flex items-end justify-center gap-3 sm:gap-10" : "flex items-end justify-center gap-8 sm:gap-16";
 
   return (
     <figure className="rounded-xl border border-border bg-surface p-5">
@@ -108,7 +109,7 @@ export default function FeeChart({
         <div className={`${row} mt-2`}>
           {selections.map((s) => (
             <p key={s.key} className={`text-center text-sm leading-snug ${column}`}>
-              {s.university.name}
+              <UniversityName university={s.university} />
               <span className="block truncate text-xs text-muted">{s.programme.name}</span>
             </p>
           ))}
