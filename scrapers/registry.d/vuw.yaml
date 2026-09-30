@@ -1,0 +1,54 @@
+# Victoria University of Wellington. The international fees page lists per-point rates and the
+# "average year of full-time study (120 points)" per subject area for two years side by side, so
+# the patterns are anchored on the 2027 tables; when 2027 drops off the page they stop matching
+# and the figures are re-checked by hand.
+sources:
+  - university: vuw
+    country: nz
+    url: https://www.wgtn.ac.nz/students/money/fees/international
+    parser: html
+    year_pattern: International tuition fees for (2027)
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: International tuition fees for 2027.*?Undergraduate-level study.*? Science [\d.]+ ([\d,.]+)
+    - level: bachelor
+      field: sciences
+      pattern: International tuition fees for 2027.*?Undergraduate-level study.*? Science [\d.]+ ([\d,.]+)
+    - level: bachelor
+      field: business
+      pattern: International tuition fees for 2027.*?Undergraduate-level study.*? Commerce [\d.]+ ([\d,.]+)
+    - level: bachelor
+      field: engineering
+      pattern: International tuition fees for 2027.*?Undergraduate-level study.*? Engineering [\d.]+ ([\d,.]+)
+    - level: bachelor
+      field: arts
+      pattern: International tuition fees for 2027.*?Undergraduate-level study.*? Humanities and Social Sciences [\d.]+ ([\d,.]+)
+    - level: master
+      field: computing
+      pattern: International tuition fees for 2027.*?Postgraduate \(most courses\).*? Science [\d.]+ ([\d,.]+)
+    - level: master
+      field: sciences
+      pattern: International tuition fees for 2027.*?Postgraduate \(most courses\).*? Science [\d.]+ ([\d,.]+)
+    - level: master
+      field: business
+      pattern: International tuition fees for 2027.*?Postgraduate \(most courses\).*? Commerce [\d.]+ ([\d,.]+)
+    - level: master
+      field: engineering
+      pattern: International tuition fees for 2027.*?Postgraduate \(most courses\).*? Engineering [\d.]+ ([\d,.]+)
+    - level: master
+      field: arts
+      pattern: International tuition fees for 2027.*?Postgraduate \(most courses\).*? Humanities and Social Sciences [\d.]+ ([\d,.]+)
+  # Student Services Fee ($/point x 120) plus the flat Student Hardship Fee; two rates that need
+  # different multipliers, so this page is checked by hand.
+  - university: vuw
+    country: nz
+    url: https://www.wgtn.ac.nz/students/money/fees/student-services-fee
+    parser: html
+    manual: true
+  # living costs: an example budget table inside the Money Matters PDF, checked by hand
+  - university: vuw
+    country: nz
+    url: https://www.wgtn.ac.nz/__data/assets/pdf_file/0006/2049180/money-matters.pdf
+    parser: pdf
+    manual: true
