@@ -95,6 +95,66 @@
           "sourceUrl": "https://www.sbs.ox.ac.uk/sites/default/files/2024-01/MSc_in_Financial_Economics_2024-25entry_5Dec2023.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "BA Jurisprudence (Law)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46210,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/law-jurisprudence",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for 2027 entry from the official Law (Jurisprudence) course page (Home £10,050). Oxford says fees will usually increase annually. No separate compulsory fees. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are no longer shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Bachelor of Civil Law (BCL)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 52630,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/bachelor-civil-law",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official BCL graduate course page (Home £34,850); the MJur, the equivalent for civil-law graduates, is priced the same. Nine-month taught master's for common-law graduates. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine (BM BCh, A100)",
+      "durationYears": 6,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 52360,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas pre-clinical annual course fee for 2027 entry from the official Medicine course page, charged in years 1-3 (Home £10,050). Clinical fees (years 4-6) are higher: as a guide, Overseas students progressing to the clinical years in 2027 pay £69,160 a year; the clinical fee for 2027 entrants has not been set. Oxford says fees will usually increase annually. No separate compulsory fees. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
     }
   ]
 }

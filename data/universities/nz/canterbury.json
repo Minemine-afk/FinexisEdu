@@ -301,6 +301,34 @@
           "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40270,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international tuition fee estimate per 120 points (LLB, 480 points = 4 years); actual fee depends on courses. UC also publishes 2028: $42,280. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. Canterbury's LLB is not on the Singapore Institute of Legal Education's approved list.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38570,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors"
+        }
+      ]
     }
   ]
 }

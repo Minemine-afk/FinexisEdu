@@ -58,6 +58,63 @@
           "sourceUrl": "https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "School of Law",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1240000,
+          "annualCompulsoryFees": 5700,
+          "oneOffFees": 5000
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "School of Law row of the 2026 undergraduate fee table. Admission fee ¥200,000 + first-year tuition ¥1,040,000 = ¥1,240,000, the same as tuition in years 2-4, so the admission fee is included in tuition (as for the engineering entry). Other fees per year = reading-room library fee ¥700 + academic society annual fee ¥2,000 + health mutual-aid ¥3,000; the ¥5,000 academic society entry fee is paid once. Japanese-taught 4-year degree. 2024 and 2025 tables show the same amounts.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1240000,
+          "annualCompulsoryFees": 5700,
+          "oneOffFees": 5000,
+          "sourceUrl": "https://waseda.box.com/s/zpy44om3fcn5ob1lmdcvdma14qpklled"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1240000,
+          "annualCompulsoryFees": 5700,
+          "oneOffFees": 5000,
+          "sourceUrl": "https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Waseda Law School (Juris Doctor, 法曹養成専攻)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160000,
+          "annualCompulsoryFees": 110000,
+          "oneOffFees": 300000
+        }
+      },
+      "sourceUrl": "https://agaroot-career.jp/shiho/waseda-law/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "2026 entrants: admission fee ¥300,000; first-year tuition ¥1,160,000 + practical-training fee ¥100,000 + membership fees ¥10,000 (total ¥1,570,000); years 2 and 3 tuition ¥1,360,000 + ¥100,000 + ¥5,000 (¥1,465,000 a year). First-year rates are recorded; later years are higher. Standard duration 3 years (2 years for students entering with a law degree). Japanese-taught professional degree preparing for the Japanese bar. The figures are published in Waseda's 2026 Law School guide (https://www.waseda.jp/folaw/gwls/assets/uploads/2026/02/2026youkou.pdf), which returns 403 to automated readers, so they were taken from a preparatory-school summary of that guide; hence sourceType secondary. No earlier-year table was read, so feeHistory is empty.",
+      "feeHistory": []
     }
   ]
 }

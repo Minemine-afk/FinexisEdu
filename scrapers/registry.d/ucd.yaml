@@ -22,6 +22,16 @@ sources:
     - level: bachelor
       field: arts
       pattern: BA Humanities DN530 - AYS1 School of Languages, Cultures and Linguistics Full Time Per Year ([\d,.]+)
+    - level: bachelor
+      field: law
+      pattern: Law DN600 - LWS6 School of Law Full Time Per Year ([\d,.]+)
+    - level: bachelor
+      field: medicine
+      pattern: Medicine - MDS2 School of Medicine Full Time Per Year ([\d,.]+)
+    # graduate entry medicine is listed in the undergraduate table
+    - level: master
+      field: medicine
+      pattern: Medicine \(Graduate Entry\) DN401 - MDS9 School of Medicine Full Time Per Year ([\d,.]+)
   - university: ucd
     country: ie
     url: https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026
@@ -42,6 +52,9 @@ sources:
     - level: master
       field: arts
       pattern: MA Literature & Culture FT\(Z251\) School of English, Drama and Film Full Time Per Year ([\d,.]+)
+    - level: master
+      field: law
+      pattern: LLM General FT\(B294\) School of Law Full Time Per Year ([\d,.]+)
   # site blocks automated access (403 to the scraper's user agent); read with a browser user agent
   - university: ucd
     country: ie

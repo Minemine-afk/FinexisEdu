@@ -54,6 +54,105 @@
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/AENGI"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws (Honours)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53110,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/ALLB",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program ALLB, 192 units over 4 years; CRICOS 085042J). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48033,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/ALLB"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 50500,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/ALLB"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Juris Doctor",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 62440,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/MJD",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program MJD, 144 units over 3 years; graduate entry for non-law graduates; CRICOS 061559M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 56470,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/MJD"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 59750,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MJD"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Doctor of Medicine and Surgery (MChD)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 99650,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/8950XMCHD",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program 8950XMCHD, 192 units over 4 years; graduate entry, AQF level 9 extended; CRICOS 077442D). ANU quotes one annual figure for all four years. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 90130,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/8950XMCHD"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 95360,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/8950XMCHD"
+        }
+      ]
     }
   ]
 }

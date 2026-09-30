@@ -351,6 +351,39 @@
           "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Doctor of Medicine (MD), Michael G. DeGroote School of Medicine",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 95000,
+          "annualCompulsoryFees": 1103.99,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "International 'Medicine 1' annual tuition C$95,000 (Appendix A, Table 2, 2026-27; 0% change and C$95,000 again for 2027-28; Levels 2 and 3 identical). The MD is a 3-year, graduate-entry programme. Fees = 2025/26 approved fees that the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf) labels for medical students: MSU Health and Dental Insurance - Medicine C$279.87 + Medical Students Society fees C$238.89 (society C$80.28, academic support C$46.88, career services C$48.64, UpToDate C$63.09) + Medical Students athletics and recreation C$146.91 + Medical Students Student Wellness Centre C$89.89 + Student Health Services - Medical C$73.84 + Medicine learning resources C$274.59. General MSU fees (HSR bus pass, organisation fee) are not listed against the MD programme in that schedule, so they are not included; UHIP and the C$1,000 admission deposit (credited to fees) excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 95000,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 95000,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+        }
+      ]
     }
   ]
 }

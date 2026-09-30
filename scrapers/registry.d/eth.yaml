@@ -1,5 +1,6 @@
 sources:
   # ETH Zurich fee PDF: group 2 (foreign students who move to Switzerland to study) rate, threefold since HS 2025.
+  # The untargeted patterns also cover the BSc Human Medicine entry.
   - university: eth
     country: ch
     url: https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf

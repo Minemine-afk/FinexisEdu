@@ -113,6 +113,24 @@ sources:
       key: annualCompulsoryFees
       pattern: 'Student Fees: ([\d.]+) €'
       multiplier: 2
+  # Medizin (Staatsexamen): state examination programmes are exempt from the non-EU tuition fee,
+  # so only the student-union semester fee is read from the programme page.
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/medicine-clinical-work-staatsexamen
+    parser: html
+    targets:
+    - level: bachelor
+      field: medicine
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  # Studierendenwerk basic-fee statute, cited for the 2025 medicine fee history only
+  - university: tum
+    country: de
+    url: https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf
+    parser: pdf
+    manual: true
   # TUM Graduate School cost-of-living page (one-person household minimums, Munich)
   - university: tum
     country: de

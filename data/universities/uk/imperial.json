@@ -285,6 +285,39 @@
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/imperial-business-school/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "MBBS/BSc Medicine",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 58600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-medicine/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Overseas fee for the 2026 entry cohort ('Medicine, Non-clinical and Clinical' row of the Faculty of Medicine page): Imperial charges one rate for both the non-clinical and clinical years of the six-year MBBS/BSc, so there is no separate clinical-year rate. Continuing students' fees rise each year by up to inflation, capped at the new-entrant fee. No separate compulsory fees. History from the 2025-26 and 2024-25 Faculty of Medicine pages (new-entrant rate for each cohort).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2024-25/faculty-of-medicine/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 55800,
+          "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-medicine/"
+        }
+      ]
     }
   ]
 }

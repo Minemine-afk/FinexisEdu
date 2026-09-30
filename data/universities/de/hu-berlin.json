@@ -181,6 +181,55 @@
       "cohortLocked": false,
       "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: English (about 75%) and German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Rechtswissenschaft (Staatsexamen)",
+      "durationYears": 5,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary; Charité's fee sheet for HU-enrolled students (campusnet.charite.de, summer 2026) shows the same EUR 355.80 with the same composition. Undergraduate-entry state examination degree (Erste juristische Prüfung); DAAD/Hochschulkompass list the standard period as 10 semesters (Hochschulkompass elsewhere shows 9). Language of instruction: German. Winter intake only. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medizin (Modellstudiengang, Staatsexamen) at Charité – Universitätsmedizin Berlin",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 763.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/alle_Immatrikulation/Erstsemester_Immatrikulationsgebuehren.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Medicine in Berlin is taught by Charité – Universitätsmedizin Berlin, the joint medical faculty of Humboldt-Universität and Freie Universität; students enrol at Charité and choose HU or FU for student-body representation. No tuition fees. Compulsory fees = Charité's enrolment (semester) fee for winter semester 2026/27 with HU membership, EUR 381.80 x2 (Charité admissions office sheet, June 2026; the FU variant is EUR 376.80; the sheet does not itemise it). 2025 history: Charité's re-registration sheet for summer semester 2026 (academic year 2025/26) gives EUR 355.80 per semester = student body 12 (raised from winter 2025/26) + studierendenWERK Berlin 85 + administration 50 + Deutschlandsemesterticket 208.80, so EUR 711.60 for 2025; no 2024 figure was found. Undergraduate-entry state examination degree, standard period 12 semesters (DAAD/Hochschulkompass entry for HU medicine); the practical year is included. Admission is nationally restricted; non-EU applicants apply through uni-assist and are ranked by grade. Language of instruction: German. Charité – Universitätsmedizin Berlin is on the Singapore Medical Council's list of registrable basic medical qualifications.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/250_D_Geb%C3%BChren_HU_SoSe_2026.pdf"
+        }
+      ]
     }
   ]
 }

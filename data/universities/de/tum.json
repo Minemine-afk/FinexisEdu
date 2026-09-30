@@ -253,6 +253,35 @@
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medizin (Staatsexamen; clinical section at TUM School of Medicine and Health)",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/medicine-clinical-work-staatsexamen",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "TUM's programme-specific tuition fee for non-EU/EEA students (from winter 2024/25) is charged only in bachelor's and master's programmes; TUM's fee page lists students 'enrolled in a state examination degree program' among those not required to pay, and the fee statute annex has no entry for Medizin, so tuition is 0. Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (the TUM programme page shows 'Student Fees: 97.00 €'; no semester ticket). Undergraduate-entry state examination degree: the pre-clinical first section is taken at LMU (joint MeCuM curriculum, dual enrolment) and only the clinical section at TUM; standard duration 12 semesters per the TUM page (6 years and 3 months under the federal licensing regulation). Admission restricted (NC). Language of instruction: German. Not on the Singapore Medical Council's list of registrable basic medical qualifications (1 Sep 2022 edition). 2025 history: Studierendenwerk basic-fee statute (EUR 85.00 in winter 2025/26; 97 only from summer 2026); no TUM-specific 2024 publication for this programme was found, so no 2024 entry.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
     }
   ]
 }

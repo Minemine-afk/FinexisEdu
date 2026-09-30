@@ -237,6 +237,78 @@
           "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "JD (Stanford Law School)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 79779,
+          "annualCompulsoryFees": 843,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Stanford Law School tuition $26,593 per quarter x 3 quarters (Autumn, Winter, Spring) = $79,779 for 2026-27. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee and Cardinal Care insurance (waivable) not included. JD is graduate-entry (3 years). 2024 = $24,825 x 3 and 2025 = $25,818 x 3 from those years' graduate and professional tuition pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 74475,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/2024-2025-graduate-and-professional-tuition-rates"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 77454,
+          "annualCompulsoryFees": 813,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "MD (Stanford School of Medicine)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72102,
+          "annualCompulsoryFees": 843,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "School of Medicine MD Program tuition $24,034 per quarter for 2026-27. MD students owe 12 quarters of full MD tuition (MD Student Handbook 7.2; tuition is payable Autumn, Winter, Spring and Summer quarters), so the four-year programme is shown as 12 x $24,034 / 4 = $72,102 per year; quarters beyond the 12th are charged the reduced research rate ($3,993 per quarter), not included. Other fees = Campus Health Service Fee (3 quarters); one-off = Document Fee. Disability insurance ($40), ASSU fee and Cardinal Care (waivable) not included. 2024 = $22,435 x 3 and 2025 = $23,221 x 3 from those years' graduate and professional tuition pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 67305,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/2024-2025-graduate-and-professional-tuition-rates"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69663,
+          "annualCompulsoryFees": 813,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
+        }
+      ]
     }
   ]
 }

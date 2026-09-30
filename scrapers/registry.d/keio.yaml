@@ -48,6 +48,21 @@ sources:
       field: arts
       key: annualCompulsoryFees
       pattern: Faculty of Letters \d{4} 1 [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) － － ([\d,]+) ([\d,]+)
+    - level: bachelor
+      field: law
+      pattern: Faculty of Law \d{4} 1 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: law
+      key: annualCompulsoryFees
+      pattern: Faculty of Law \d{4} 1 [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) － ([\d,]+) ([\d,]+) ([\d,]+)
+    - level: bachelor
+      field: medicine
+      pattern: School of Medicine \d{4} 1 [\d,]+ [\d,]+ ([\d,]+)
+    # registration + facilities + lab + student government + health (no materials fee)
+    - level: bachelor
+      field: medicine
+      key: annualCompulsoryFees
+      pattern: School of Medicine \d{4} 1 [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) ([\d,]+) － ([\d,]+) ([\d,]+)
   # AY 2026 master's fee table: 2026-entrants row per graduate school. Columns after the year:
   # registration, tuition, materials, thesis publication, student government, health.
   - university: keio
@@ -91,6 +106,32 @@ sources:
       field: arts
       key: annualCompulsoryFees
       pattern: Major in Philosophy and Ethics, \d{4} ([\d,]+) [\d,]+ ([\d,]+) － ([\d,]+) ([\d,]+)
+  # AY 2026 Law School (professional degree) fee table, 2026 entrants row of the Major in Legal
+  # Practice (JD). Columns after the year: admission, registration fee (－), registration (在籍料),
+  # tuition, facilities, journal subscription, health.
+  - university: keio
+    country: jp
+    url: https://www.keio.ac.jp/files/cfc02e52473045add5d32f128738db9eee08d2846146b15b5aa275b5c7a97efb
+    parser: pdf
+    year_pattern: AY (\d{4}) Law School Professional Degree Programs
+    targets:
+    - level: master
+      field: law
+      key: oneOffFees
+      pattern: Law School \d{4}\(1年.未修\) ([\d,]+)
+    - level: master
+      field: law
+      pattern: Law School \d{4}\(1年.未修\) [\d,]+ － [\d,]+ ([\d,]+)
+    - level: master
+      field: law
+      key: annualCompulsoryFees
+      pattern: Law School \d{4}\(1年.未修\) [\d,]+ － ([\d,]+) [\d,]+ ([\d,]+) ([\d,]+) ([\d,]+)
+  # AY 2025 Law School fee table (Japanese), cited for the 2025 JD fee history only
+  - university: keio
+    country: jp
+    url: https://www.keio.ac.jp/files/a3a76876a4d0a2f55f70ca7e918842b8c7a617c2074cbcd0ec2cb14260f249d0
+    parser: pdf
+    manual: true
   # SFC housing page, off-campus monthly example (insurance excluded)
   - university: keio
     country: jp

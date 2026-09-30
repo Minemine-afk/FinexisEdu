@@ -391,6 +391,117 @@
           "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Faculty of Law (Japanese-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Tuition ¥642,960/yr for entrants from 2025 (¥535,800 for earlier entrants); admission fee ¥282,000. The fee is set by entry year. 4-year undergraduate degree (students enter the Faculty of Law after the College of Arts and Sciences junior division); Japanese-taught.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Faculty of Medicine, School of Medicine (Japanese-taught)",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Tuition ¥642,960/yr for entrants from 2025 (¥535,800 for earlier entrants); admission fee ¥282,000. The fee is set by entry year. 6-year undergraduate medical degree (Igaku); Japanese-taught. The University of Tokyo, School of Medicine is on the Singapore Medical Council's list of registrable basic medical qualifications.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Graduate Schools for Law and Politics (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition ¥535,800/yr (standard graduate rate; the announced increase applies to entrants from 2029). Admission fee ¥282,000. 2-year master's, mainly Japanese-taught. The professional Law School (JD) has its own rate on the same page.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
+        }
+      ]
     }
   ]
 }

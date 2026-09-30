@@ -201,6 +201,26 @@
       "cohortLocked": false,
       "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (Faculty of Humanities and Social Sciences); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). No science master's is listed: DCU's Faculty of Science and Health taught MScs are priced per module.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Civil Law (BCL) (DC232)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17300,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (School of Law and Government); 3 years, or 4 with a year abroad or INTRA placement. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). Taught in English. DCU has no medical school.",
+      "feeHistory": []
     }
   ]
 }

@@ -70,3 +70,23 @@ sources:
       field: arts
       key: annualCompulsoryFees
       pattern: Master in Public Policy Expense Cost Tuition \$[\d,]+ Course materials fee \$([\d,]+) HKS student activity fee \$([\d,]+) HUHS Student Health Fee \(SHF\)\*? \$([\d,]+)
+  # Harvard Law School JD cost of attendance (standard 9-month student budget, latest year first)
+  - university: harvard
+    country: us
+    url: https://hls.harvard.edu/sfs/financial-aid/financial-aid-policy/cost-of-attendance/
+    parser: html
+    year_pattern: (\d{4})-\d{2} Standard Student Budget
+    targets:
+    - level: master
+      field: law
+      pattern: Standard Student Budget \(9-Month\) Tuition \$([\d,]+) Mandatory HUHS Student Health Fee
+    - level: master
+      field: law
+      key: annualCompulsoryFees
+      pattern: Standard Student Budget \(9-Month\) Tuition \$[\d,]+ Mandatory HUHS Student Health Fee \$([\d,]+)
+  # Harvard Medical School MD cost of attendance: site returns 403 to automated requests, so checked by hand
+  - university: harvard
+    country: us
+    url: https://hms.harvard.edu/education-admissions/md-program/cost-aid/cost-attendance
+    parser: html
+    manual: true

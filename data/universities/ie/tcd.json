@@ -351,6 +351,105 @@
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Law (LL.B.)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22580,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU tuition for new entrants in 2026/27 (UBLW-LAWS-2F, School of Law); first-year fee. Compulsory fee is the Student Levies and Charges (SLC) for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. 4-year LL.B.; taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21570,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22070,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine (M.B., B.Ch., B.A.O.)",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 60000,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU tuition for new entrants in 2026/27 (UBMD-MEDI-3F, School of Medicine), shown in the schedule as 'Max EUR 60,000' per year; first-year fee. Compulsory fee is the SLC full-time degree rate (EUR 212.75, the only full-time undergraduate degree row; EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. 5-year undergraduate-entry degree; taught in English. The University of Dublin, Trinity College Dublin, School of Medicine is on the Singapore Medical Council's list of registrable basic medical qualifications.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 56280,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 57000,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LL.M. (Masters in Law)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22430,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTLW-LAWS-1F, School of Law; the specialised LL.M. streams are the same price). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional). Taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21780,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21780,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        }
+      ]
     }
   ]
 }

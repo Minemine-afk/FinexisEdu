@@ -68,6 +68,66 @@
           "sourceUrl": "https://www.mgmt.ucl.ac.uk/management"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Law LLB",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 36800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "International fee for 2027 entry (2027/28) from UCL's official Law LLB prospectus page (UK £10,050). No separate compulsory fees. www.ucl.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. UCL's cohort fee guarantee for international undergraduates could not be confirmed on an official page, so fees are treated as rising yearly. The 2026 prospectus page shows only the UK fee, so no history.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Law LLM",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mastersportal.com/studies/294183/law.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas full-time fee for 2026/27 entry (UK £24,100); one-year programme. UCL's official Law LLM page (ucl.ac.uk/prospective-students/graduate/taught-degrees/law-llm) lists the 2027/28 fees as 'to be confirmed' and the 2026 version of the page could not be read (www.ucl.ac.uk blocks automated access), so the 2026/27 figure comes from a secondary aggregator and should be replaced with the official 2027/28 fee once published. No separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine MBBS BSc",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 57300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/medicine-mbbs-bsc-2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas fee for 2026/27 entrants from UCL's official 2026 Medicine MBBS BSc prospectus page (UK £9,790). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £57,300 (an averaged rate: 2 x £39,200 pre-clinical plus 3 x £69,367 clinical), subject to annual increases of no more than RPI-X, and states that fixed fees for Overseas students do not apply; durationYears 5 therefore reflects the number of fee years. The 2027 entry page shows the fee as N/A (not yet published). www.ucl.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Additional costs (DBS check, equipment, placement travel) excluded.",
+      "feeHistory": []
     }
   ]
 }

@@ -186,6 +186,39 @@
           "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Juris Doctor (JD), Peter A. Allard School of Law",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 48648,
+          "annualCompulsoryFees": 1082.27,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/undergraduate",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "International Law (J.D.) rate for students commencing in 2026S or later: C$1,520.25/credit x 32-credit first-year load (Allard: 30 credits in Years 2-3) = C$48,648 (2026/27 Calendar). Allard's own tuition page still shows C$1,505.63/credit (C$48,180.16) for 2026/27. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 2 terms and the Law (J.D.) student society fee C$151.11, per the 2026/27 Calendar; iMED insurance excluded. JD is graduate-entry (3 years). Rates are set by commencement year with capped increases, not fixed. 2024/2025 = that year's new-student per-credit rate x 32 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44549.76,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46776.96,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+        }
+      ]
     }
   ]
 }

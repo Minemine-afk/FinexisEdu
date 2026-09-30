@@ -221,6 +221,66 @@
       "cohortLocked": false,
       "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1MEN1); 1 year full-time. Figure includes the EUR 140 student levy.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Law (BCL) (GY251)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 19390,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "University of Galway undergraduate fee table, 'International (non-EU) fee' column, 2026/27, per annum; 4-year BCL. Figure includes the EUR 140 student levy. Continuing-year fees rise by an approved inflationary increase (5% a year for 2026/27 entrants). Taught in English.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medicine, Bachelor of Surgery, Bachelor of Obstetrics (MB BCh BAO) (GY501)",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 55000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "University of Galway undergraduate fee table, 'International (non-EU) fee' column, 2026/27, per annum. 5-year undergraduate-entry degree (a 6-year track exists for entrants without the science requirements). Figure includes the EUR 140 student levy. Continuing-year fees rise by an approved inflationary increase (5% a year for 2026/27 entrants). Taught in English. University of Galway's School of Medicine has been on the Singapore Medical Council's list of recognised overseas medical schools since 1 February 2026 (MOH, 'Eight more overseas medical schools recognised').",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LLM (General) (1ML28)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20540,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1ML28); 1 year full-time. Figure includes the EUR 140 student levy. Taught in English.",
+      "feeHistory": []
     }
   ]
 }

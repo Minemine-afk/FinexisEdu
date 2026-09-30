@@ -77,6 +77,60 @@
       "cohortLocked": true,
       "notes": "Self-funded programme. Official MSFE page: tuition fee S$54,500 inclusive of GST for the whole programme, divided by the 18-month full-time duration (flexible to 12 months). The page shows the fee next to the January 2027 and August 2027 application windows without naming the intake; feeYear 2026 covers the January 2027 (AY2026/27) intake. No Citizen/PR tier: SMU publishes no subsidised or SC/PR rate for this programme. masters.smu.edu.sg blocks bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws (LLB)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 12750, "annualCompulsoryFees": 281, "oneOffFees": 0 },
+        "pr": { "annualTuition": 17800, "annualCompulsoryFees": 281, "oneOffFees": 0 },
+        "international": { "annualTuition": 30450, "annualCompulsoryFees": 367, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": true,
+      "notes": "Annual tuition for AY2026/27 entering freshmen from SMU's official 'Tuition Fees & Grant' page ('Bachelor of Laws' row, the only degree with its own rate), fixed for the normal 4-year candidature. Citizen S$12,750 (Tier A Tuition Grant) and PR S$17,800 (Tier B), both excl. GST (GST subsidised by the Government). International S$30,450 = Tier C Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$27,750; non-subsidised S$56,150). Compulsory fees = 2026 annual miscellaneous student fees: S$281 (SC/PR) or S$367 (international), charged each Term 1. admissions.smu.edu.sg blocks bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. The page shows only the AY2026/27 cohort; no earlier years' figures are published there.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Juris Doctor (JD)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 27250, "annualCompulsoryFees": 0, "oneOffFees": 400 },
+        "pr": { "annualTuition": 27250, "annualCompulsoryFees": 0, "oneOffFees": 400 },
+        "international": { "annualTuition": 27250, "annualCompulsoryFees": 0, "oneOffFees": 500 }
+      },
+      "sourceUrl": "https://law.smu.edu.sg/jd/admissions/finance-administrative-matters-jd-programme",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": true,
+      "notes": "Self-funded graduate-entry law degree (no MOE Tuition Grant). Official Yong Pung How School of Law page 'Finance & Administrative Matters for JD Programme, Admit Year 2026': tuition fee for the entire programme S$81,750 incl. GST, the same for all nationalities, billed in four instalments over the first two years (S$5,000 advance deposit + S$15,437.50 + 3 x S$20,437.50); divided here by the 3-year full-time candidature. One-off fee = non-refundable registration fee on offer acceptance: S$400 for Singaporeans/PRs, S$500 for international students. Textbooks and course materials are extra. law.smu.edu.sg blocks bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Only the 2026 admit year is published.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Laws (LLM)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "citizen": { "annualTuition": 39240, "annualCompulsoryFees": 400, "oneOffFees": 0 },
+        "pr": { "annualTuition": 39240, "annualCompulsoryFees": 400, "oneOffFees": 0 },
+        "international": { "annualTuition": 39240, "annualCompulsoryFees": 480, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://law.smu.edu.sg/llm/admissions/fees-scholarships",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": true,
+      "notes": "Self-funded programme (no MOE subsidy). Official SMU LLM 'Fees & Scholarships' page: tuition fee for the August 2027 intake S$39,240 incl. GST for the whole one-year programme (Judicial Studies, Cross-Border Business and Finance Law in Asia, and Law and Technology tracks), the same for all nationalities; the page says the 2027 figure is indicative and subject to revision. It includes a non-refundable S$8,000 tuition deposit, which is not counted separately. Compulsory fees = annual miscellaneous fees from the 2027 intake: S$400 (Singaporeans/PRs) or S$480 (foreigners), excl. GST. Application fee S$100 excluded. The Dual LLM (Singapore & London) track costs S$37,605 to SMU plus GBP 22,975 to QMUL. law.smu.edu.sg blocks bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. No earlier intake's fee is published on the page.",
+      "feeHistory": []
     }
   ]
 }

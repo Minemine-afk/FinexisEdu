@@ -1,5 +1,6 @@
 sources:
   # UNIGE semester fees, identical for all students (CHF 65 fixed + CHF 435 supervision).
+  # The untargeted pattern also covers the droit and médecine humaine entries.
   - university: unige
     country: ch
     url: https://www.unige.ch/immatriculations/informations/taxes

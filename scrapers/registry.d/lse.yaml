@@ -33,6 +33,12 @@ sources:
     - level: master
       field: arts
       pattern: MSc in Economics £[\d,]+ £([\d,]+)
+    - level: bachelor
+      field: law
+      pattern: LLB in Laws £[\d,]+ £([\d,]+)
+    - level: master
+      field: law
+      pattern: Master of Laws £[\d,]+ £([\d,]+)
   # LSE gives one all-in monthly living estimate, recorded under housing (see data notes).
   - university: lse
     country: uk

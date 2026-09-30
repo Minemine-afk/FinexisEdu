@@ -301,6 +301,41 @@
           "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "BSc Human Medicine",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German (C1 required); graduates continue to a 3-year Master of Medicine at a partner university (Zurich, Basel or USI Lugano), where the registrable federal diploma is taken. Only 100 places a year, awarded through the aptitude test (EMS); ETH states the programme is open only to holders of a Swiss passport or Swiss settlement permit, so Singaporeans without one cannot normally enrol. ETH is not itself on the Singapore Medical Council's list of registrable basic medical qualifications (Universität Zürich is).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4380,
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+        }
+      ]
     }
   ]
 }

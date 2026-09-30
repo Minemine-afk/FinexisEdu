@@ -55,6 +55,73 @@
           "sourceUrl": "https://discover.engineering.utoronto.ca/finances/"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Juris Doctor (JD), Faculty of Law",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72790,
+          "annualCompulsoryFees": 2165.31,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=LAW-UG&program=21",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international JD program fee C$72,790 (charged per academic year, not per course) from the U of T Tuition Explorer fee schedule; compulsory = Year 1 incidental and system access fees C$2,165.31 (C$2,115.31 in Years 2-3). UHIP (C$948) excluded. JD is graduate-entry (3 years). International fee rises yearly (2026-27 Tuition Fee Report: C$76,430 for 2027-28). 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the 2024-25 Tuition Fee Report (Table D, international JD C$66,020; fees not found).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66020,
+          "sourceUrl": "https://planningandbudget.utoronto.ca/wp-content/uploads/2024/04/2024-25-Tuition-Fee-Report.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69320,
+          "annualCompulsoryFees": 2106.4,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=LAW-UG&program=21"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Doctor of Medicine (MD), Temerty Faculty of Medicine",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 100270,
+          "annualCompulsoryFees": 2535.05,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international Doctor of Medicine tuition C$100,270 from the Planning & Budget 2026-27 Tuition Fee Report (international fee schedule; C$103,280 approved for 2027-28). Compulsory = St. George campus incidental + ancillary fees C$2,535.05 for 2026-27 from the MD Program 'Current Fees' page (Mississauga Academy differs); UHIP excluded. MD is graduate-entry (4 years); international places are limited. 2024 and 2025 from the 2025-26 Tuition Fee Report (C$94,510 for 2024-25, C$97,350 for 2025-26); fees for those years not found.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 94510,
+          "sourceUrl": "https://planningandbudget.utoronto.ca/wp-content/uploads/2025/04/2025-26-Tuition-Fee-Report.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 97350,
+          "sourceUrl": "https://planningandbudget.utoronto.ca/wp-content/uploads/2025/04/2025-26-Tuition-Fee-Report.pdf"
+        }
+      ]
     }
   ]
 }
