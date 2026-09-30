@@ -494,6 +494,19 @@ sources:
       field: arts
       key: oneOffFees
       pattern: Master of Journalism \(M\.Journ\.\) Fee Description Residents Nonresidents .{0,500}?Document Management Fee (?:- Masters )?[\d,.]+ ([\d,.]+)
+    - level: master
+      field: law
+      multiplier: 2
+      pattern: Juris Doctor \(Law JD\) Fee Description Residents Nonresidents Tuition [\d,.]+ ([\d,.]+) .{0,160}?Nonresident Supplemental Tuition N/A ([\d,.]+) Professional Degree Supplemental Tuition [\d,.]+ ([\d,.]+)
+    - level: master
+      field: law
+      key: annualCompulsoryFees
+      multiplier: 2
+      pattern: Juris Doctor \(Law JD\) Fee Description Residents Nonresidents Tuition [\d,.]+ [\d,.]+ Student Services Fee [\d,.]+ ([\d,.]+) Berkeley Campus Fee [\d,.]+ ([\d,.]+) Transit Fee [\d,.]+ ([\d,.]+) .{0,120}?Law Instructional Materials [\d,.]+ ([\d,.]+) Instructional Resilience & Enhancement Fee [\d,.]+ ([\d,.]+)
+    - level: master
+      field: law
+      key: oneOffFees
+      pattern: Juris Doctor \(Law JD\) Fee Description Residents Nonresidents .{0,500}?Document Management Fee - Law [\d,.]+ ([\d,.]+)
   - university: berkeley
     country: us
     url: https://financialaid.berkeley.edu/cost-of-attendance/
@@ -664,7 +677,21 @@ sources:
     parser: html
     targets:
     - level: master
+      field: engineering
       pattern: Graduate School of Engineering Coterm billing details Total Units Quarterly Tuition 8-10 units \$ ?[\d,]+ 11-18 units \$ ?([\d,]+)
+      multiplier: 3
+    - level: master
+      field: computing
+      pattern: Graduate School of Engineering Coterm billing details Total Units Quarterly Tuition 8-10 units \$ ?[\d,]+ 11-18 units \$ ?([\d,]+)
+      multiplier: 3
+    - level: master
+      field: law
+      pattern: Stanford Law School \$ ?([\d,]+) per quarter
+      multiplier: 3
+    # MD students owe 12 quarters of full MD tuition over the 4-year programme (3 per year on average)
+    - level: master
+      field: medicine
+      pattern: School of Medicine \(SoM\) MD Program \$ ?([\d,]+) per quarter
       multiplier: 3
   - university: stanford
     country: us
@@ -717,6 +744,34 @@ sources:
       field: engineering
       key: annualCompulsoryFees
       pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  # BCL/JD international fee table (newest admission year first)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-0
+    parser: html
+    year_pattern: Annual fees for (\d{4})-\d{4}
+    targets:
+    - level: master
+      field: law
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: master
+      field: law
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  # International undergraduate tuition rates PDF (MDCM section; Year 1 = 63 credits)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf
+    parser: pdf
+    year_pattern: (\d{4})-\d{4} Tuition Rates - International
+    targets:
+    - level: master
+      field: medicine
+      pattern: Master of Surgery \(MDCM\) The tuition listed below.*?Tuition / ([\d,.]+) Droits de scolarit
+    - level: master
+      field: medicine
+      key: annualCompulsoryFees
+      pattern: Master of Surgery \(MDCM\) The tuition listed below.*?Society & other fees / ([\d,.]+) .*?Athletics & Recreation / ([\d,.]+) .*?General Administrative Charges / ([\d,.]+) .*?Copyright Fee / ([\d,.]+) .*?Information Technology Charges / ([\d,.]+) .*?SSMU Dental Insurance / ([\d,.]+)
   - university: ubc
     country: ca
     url: https://vancouver.calendar.ubc.ca/fees/tuition-fees/undergraduate
@@ -742,6 +797,46 @@ sources:
       field: business
       pattern: International Students - Program.*? Commerce \$ ?([\d,.]+)
       multiplier: 30
+    # JD: newest commencement-year rate x 32-credit first-year load
+    - level: master
+      field: law
+      pattern: Law \(J\.D\.\) commencing in \d{4}S or later \$ ?[\d,.]+ per credit \$ ?([\d,.]+) per credit
+      multiplier: 32
+  # International JD fee schedule (program fee per academic year + Year 1 incidental and system access fees)
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=LAW-UG&program=21
+    parser: html
+    year_pattern: (\d{4})/\d{2} Fall and Winter
+    targets:
+    - level: master
+      field: law
+      pattern: Juris Doctor - JD \(Full-time\) International .*?Year 1 \$([\d,.]+)
+    - level: master
+      field: law
+      key: annualCompulsoryFees
+      pattern: Juris Doctor - JD \(Full-time\) International .*?Year 1 \$[\d,.]+ \$([\d,.]+)
+  # Planning & Budget tuition fee report: international MD tuition (current year is the middle column)
+  - university: utoronto
+    country: ca
+    url: https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf
+    parser: pdf
+    year_pattern: Tuition Fee Schedules for Publicly-Funded Programs (\d{4})-\d{2}
+    targets:
+    - level: master
+      field: medicine
+      pattern: Doctor of Medicine \$[\d,]+ \$([\d,]+) \$[\d,]+ Bachelors, Radiation Sciences
+  # MD Program current fees: St. George incidental + ancillary fees
+  - university: utoronto
+    country: ca
+    url: https://md.utoronto.ca/current-fees
+    parser: html
+    year_pattern: fees for the (\d{4}) ?-\s?\d{4} academic year
+    targets:
+    - level: master
+      field: medicine
+      key: annualCompulsoryFees
+      pattern: Incidental fee \+ Ancillary Fees \$([\d,.]+)
   - university: utoronto
     country: ca
     url: https://firstyear.engineering.utoronto.ca/finances/

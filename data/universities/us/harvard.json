@@ -298,6 +298,77 @@
           "sourceUrl": "https://www.hks.harvard.edu/admissions-aid/funding-your-education/funding-your-masters-education/tuition-fees/tuition-fees"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "JD (Harvard Law School)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 84400,
+          "annualCompulsoryFees": 1944,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://hls.harvard.edu/sfs/financial-aid/financial-aid-policy/cost-of-attendance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "HLS 2026-27 Standard Student Budget (9-month): tuition $84,400; fees = Mandatory HUHS Student Health Fee $1,944 (waivers generally not available). Harvard University Student Health Insurance Plan ($4,954, waivable with comparable coverage), housing and food excluded. JD is graduate-entry (3 years). 2025 from the same page's 2025-2026 Cost of Attendance table; 2024 tuition from Harvard OIRA Fact Book (Law School, academic year 2025 = 2024-25); 2024 fees not found.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 77100,
+          "oneOffFees": 0,
+          "sourceUrl": "https://oira.harvard.edu/factbook/fact-book-grad-tuition/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 80760,
+          "annualCompulsoryFees": 1800,
+          "oneOffFees": 0,
+          "sourceUrl": "https://hls.harvard.edu/sfs/financial-aid/financial-aid-policy/cost-of-attendance/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "MD (Harvard Medical School)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 76828,
+          "annualCompulsoryFees": 3711,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://hms.harvard.edu/education-admissions/md-program/cost-aid/cost-attendance",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "HMS 2026-27 MD cost of attendance, Pathways curriculum Year 1 (10-month): tuition $76,828 (same for all four years and for the HST track); fees = university health service fee $1,944 + disability insurance fee $72 + student activities fee $150 + education materials fee $645 (Year 1 Pathways; $314-$907 in other years/tracks) + technology fee $900. Health insurance fee ($4,954, waivable), books, living expenses and board exam fees excluded. MD is graduate-entry (4 years). 2025 tuition from the same page's 2025-26 tables (fees not itemised there); 2024 tuition from Harvard OIRA Fact Book (Medical School, academic year 2025 = 2024-25). Page blocks automated fetches, so checked manually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 71032,
+          "oneOffFees": 0,
+          "sourceUrl": "https://oira.harvard.edu/factbook/fact-book-grad-tuition/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73874,
+          "oneOffFees": 0,
+          "sourceUrl": "https://hms.harvard.edu/education-admissions/md-program/cost-aid/cost-attendance"
+        }
+      ]
     }
   ]
 }

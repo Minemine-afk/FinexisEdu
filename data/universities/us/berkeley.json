@@ -391,6 +391,43 @@
           "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "JD (Berkeley Law)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 80537,
+          "annualCompulsoryFees": 3937.5,
+          "oneOffFees": 39
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Nonresident Juris Doctor (Law JD) rate: tuition $6,861 + Nonresident Supplemental Tuition $6,122.50 + Professional Degree Supplemental Tuition $27,285 per semester x 2 = $80,537 (2026-27 fee schedule). Other fees = Student Services, Berkeley Campus, Transit, Law Instructional Materials ($15) and Instructional Resilience & Enhancement fees per semester x 2; one-off = Document Management Fee - Law. Health insurance ($4,103/semester) excluded because it can be waived. JD is graduate-entry (3 years); the PDST is not covered by the Tuition Stability Plan, so fees are not fixed. 2024 and 2025 from the Registrar's 2024-25 and 2025-26 fee schedule PDFs (same components).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 72229,
+          "annualCompulsoryFees": 3394,
+          "oneOffFees": 37,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 76149,
+          "annualCompulsoryFees": 3803.5,
+          "oneOffFees": 38,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
     }
   ]
 }

@@ -106,6 +106,59 @@
           "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Bachelor of Civil Law and Juris Doctor (BCL/JD)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 65167.5,
+          "annualCompulsoryFees": 2631.3,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-0",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "2026-27 international fees, 30 credits, by admission year; tuition guaranteed for the programme. McGill classes the BCL/JD as an undergraduate programme (listed with its international undergraduate rates) although most entrants hold a prior degree, so it is filed as graduate-entry here. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Programme is 105 credits, typically 3-3.5 years.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62637,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-0"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63889.8,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-0"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Doctor of Medicine and Master of Surgery (MDCM)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 74678.31,
+          "annualCompulsoryFees": 2851.59,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Student Accounts '2026-2027 Tuition Rates - International Undergraduate Students' (updated December 2025): MDCM tuition C$74,678.31 for students admitted Fall 2026, based on 63 credits in Year 1 (the heaviest year; McGill lists 50.5, 51 and 35.5 credits for Years 2-4, so later years cost less). Per-credit rate guaranteed for the programme. Compulsory = society C$779.50 + student services/athletics C$774.60 + admin C$651.89 + copyright C$55.05 + IT C$440.55 + SSMU dental C$150 (estimated by McGill at +3%); international health insurance (C$1,155) excluded. Graduate-entry MDCM is 4 years. No 2024/2025 history: the 2025-26 MDCM page shows cohort figures that are inconsistent with this schedule, so none recorded.",
+      "feeHistory": []
     }
   ]
 }
