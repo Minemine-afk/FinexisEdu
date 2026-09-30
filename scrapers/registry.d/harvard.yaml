@@ -1,0 +1,72 @@
+sources:
+  # Harvard College cost of attendance: tuition, fees and the living-cost budget (latest year listed first)
+  - university: harvard
+    country: us
+    url: https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance
+    parser: html
+    year_pattern: (\d{4})-\d{4} Cost of Attendance
+    targets:
+    - level: bachelor
+      pattern: Cost of Attendance Tuition \$([\d,]+) Fees
+    - level: bachelor
+      key: annualCompulsoryFees
+      pattern: Cost of Attendance Tuition \$[\d,]+ Fees \$([\d,]+) Housing
+    - key: living.housing
+      pattern: Cost of Attendance Tuition \$[\d,]+ Fees \$[\d,]+ Housing \$([\d,]+) Food
+      multiplier: 0.1111111111111111
+    - key: living.food
+      pattern: Cost of Attendance Tuition \$[\d,]+ Fees \$[\d,]+ Housing \$[\d,]+ Food \$([\d,]+)
+      multiplier: 0.1111111111111111
+    - key: living.personal
+      pattern: Estimated personal expenses \$([\d,]+) Estimated books \$([\d,]+)
+      multiplier: 0.1111111111111111
+  # Harvard Griffin GSAS cost of attendance: SEAS master's tuition and health/council fees
+  - university: harvard
+    country: us
+    url: https://gsas.harvard.edu/apply/cost-attendance-2026-2027
+    parser: html
+    year_pattern: Tuition Fee (\d{4})[–-]\d{4}
+    targets:
+    - level: master
+      field: engineering
+      pattern: Computational Science and Engineering master of science \(SM\) \$([\d,]+)
+    - level: master
+      field: computing
+      pattern: Data Science master of science \(SM\) \$([\d,]+) \(first year\); \$([\d,]+) \(second year
+      multiplier: 0.6666666666666666
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: HUSHP Student Health Fee \(SHF\)[^$]*\$(?=([\d,]+))([\d,]+)/Term.*?charged a \$([\d,]+) Harvard Griffin GSAS Student Council fee
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: HUSHP Student Health Fee \(SHF\)[^$]*\$(?=([\d,]+))([\d,]+)/Term.*?charged a \$([\d,]+) Harvard Griffin GSAS Student Council fee
+  # Harvard Business School MBA cost of attendance
+  - university: harvard
+    country: us
+    url: https://www.hbs.edu/mba/financial-aid/tuition-assistance/cost-of-attendance
+    parser: html
+    year_pattern: MBA Program (\d{4})-\d{2}
+    targets:
+    - level: master
+      field: business
+      pattern: MBA Program \d{4}-\d{2} 9-Month Total Cost Single Tuition \$([\d,]+)
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: MBA Program \d{4}-\d{2} 9-Month Total Cost Single Tuition \$[\d,]+ HUHS Student Health Fee \(SHF\) \$([\d,]+)
+  # Harvard Kennedy School MPP tuition and fees
+  - university: harvard
+    country: us
+    url: https://www.hks.harvard.edu/admissions-aid/funding-your-education/funding-your-masters-education/tuition-fees
+    parser: html
+    year_pattern: (\d{4})-\d{4} Tuition and Fees by Program
+    targets:
+    - level: master
+      field: arts
+      pattern: Master in Public Policy Expense Cost Tuition \$([\d,]+)
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Master in Public Policy Expense Cost Tuition \$[\d,]+ Course materials fee \$([\d,]+) HKS student activity fee \$([\d,]+) HUHS Student Health Fee \(SHF\)\*? \$([\d,]+)
