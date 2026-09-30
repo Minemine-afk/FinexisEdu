@@ -1,0 +1,117 @@
+sources:
+  # Undergraduate international fee schedule for the fall term (per-term rates; academic year = 2 terms)
+  - university: waterloo
+    country: ca
+    url: https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026
+    parser: html
+    year_pattern: Fee Schedule for International Undergraduate Students Fall (\d{4})
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: Engineering programs .{0,400}?Co-op - Term 1A \$[\d,.]+ \$([\d,.]+) \$[\d,.]+ \$[\d,.]+ ?FT \$[\d,.]+ PT Co-op - Term 1B \$[\d,.]+ \$([\d,.]+)
+    - level: bachelor
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Engineering programs .{0,400}?Co-op - Term 1A \$[\d,.]+ \$[\d,.]+ \$([\d,.]+) \$([\d,.]+) ?FT
+      multiplier: 2
+    - level: bachelor
+      field: computing
+      pattern: Computer Science/Data[ -]+Science Regular Year 1 \$[\d,.]+ \$([\d,.]+)
+      multiplier: 2
+    - level: bachelor
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Computer Science/Data[ -]+Science Regular Year 1 \$[\d,.]+ \$[\d,.]+ - \$([\d,.]+) ?FT
+      multiplier: 2
+    - level: bachelor
+      field: business
+      pattern: Accounting & Financial Management - Co-op Term 1A \$[\d,.]+ \$([\d,.]+) - \$[\d,.]+ ?FT \$[\d,.]+ PT Accounting & Financial Management - Co-op Term 1B \$[\d,.]+ \$([\d,.]+)
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: Accounting & Financial Management - Co-op Term 1A \$[\d,.]+ \$[\d,.]+ - \$([\d,.]+) ?FT \$[\d,.]+ PT Accounting & Financial Management - Co-op Term 1B \$[\d,.]+ \$[\d,.]+ - \$([\d,.]+) ?FT
+    - level: bachelor
+      field: sciences
+      pattern: Science programs Faculty/ ?Program .{0,300}?Regular Year 1 \$[\d,.]+ \$([\d,.]+)
+      multiplier: 2
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Science programs Faculty/ ?Program .{0,300}?Regular Year 1 \$[\d,.]+ \$[\d,.]+ - - \$([\d,.]+) ?FT
+      multiplier: 2
+    - level: bachelor
+      field: arts
+      pattern: Arts programs Faculty/ ?Program .{0,300}?Regular Year 1 \$[\d,.]+ \$([\d,.]+)
+      multiplier: 2
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Arts programs Faculty/ ?Program .{0,300}?Regular Year 1 \$[\d,.]+ \$[\d,.]+ - \$([\d,.]+) ?FT
+      multiplier: 2
+  # Master's international fee schedule for the fall term (per-term rates; graduate year = 3 terms)
+  - university: waterloo
+    country: ca
+    url: https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0
+    parser: html
+    year_pattern: Master's and PhD program fees fall (\d{4})
+    targets:
+    - level: master
+      field: engineering
+      pattern: ENG Master of Engineering \(MEng\) \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: ENG Master of Engineering \(MEng\) \$[\d,.]+ \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: computing
+      pattern: Most Graduate Master's Research \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Most Graduate Master's Research \$[\d,.]+ \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: sciences
+      pattern: Most Graduate Master's Research \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Most Graduate Master's Research \$[\d,.]+ \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: arts
+      pattern: Most Graduate Master's Research \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Most Graduate Master's Research \$[\d,.]+ \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: business
+      pattern: Master of Business, Entrepreneurship and Technology \(MBET\) - \$([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: Master of Business, Entrepreneurship and Technology \(MBET\) - \$[\d,.]+ \$([\d,.]+)
+      multiplier: 3
+  # Graduate Studies estimated living costs (monthly, OSAP-based)
+  - university: waterloo
+    country: ca
+    url: https://uwaterloo.ca/future-graduate-students/funding/living-costs-and-housing
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Off campus housing \(shared\), including utilities\* \$([\d,]+)-\$([\d,]+)\*
+      multiplier: 0.5
+    - key: living.food
+      pattern: Food \(groceries\) \$([\d,]+)
+    - key: living.transport
+      pattern: Transportation \(additional costs over and above free UPass\) \$([\d,]+)
+    - key: living.personal
+      pattern: Telephone \$([\d,]+) .*?Entertainment / Recreation \(doing fun stuff!\) \$([\d,]+) .*?Personal care \(think hair cuts\) \$([\d,]+) .*?Clothing \$([\d,]+) .*?Laundry \(typically not part of housing costs\) \$([\d,]+) .*?Books and supplies \$([\d,]+)
