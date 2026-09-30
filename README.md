@@ -38,7 +38,15 @@ every scraped change goes through a pull request:
 
 ## Coverage (checked 30 Sep 2026)
 
-50 universities, 340 programmes: five universities in each of the 10 countries.
+50 universities, 441 programmes: five universities in each of the 10 countries,
+across seven fields (engineering, computing, business, sciences, arts and
+humanities, law, medicine). Law and medicine cover the universities on the
+Singapore Institute of Legal Education's approved list and the Singapore
+Medical Council's recognised list respectively, plus the local schools;
+undergraduate-entry degrees (LLB, MBBS) sit under Bachelor's and graduate-entry
+ones (JD, LLM, graduate-entry MD) under Master's. Where medicine fees rise in
+the clinical years, the first-year fee is used and the later rates are in the
+programme's notes.
 Every current figure was checked against the university's own fee page or PDF
 where the page is readable, and 2024/2025 figures come from the universities'
 published fee tables for those years.
