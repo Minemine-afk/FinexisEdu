@@ -6,6 +6,7 @@ sources:
     url: https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/
     parser: html
     targets:
+    # no level/field, so it also covers the Rechtswissenschaft and Medizin (Staatsexamen) entries
     - key: annualCompulsoryFees
       # first (most recent) semester listed under "Fee amount"
       pattern: 'Fee amount (?:Summer|Winter) Semester \d{4}(?:/\d{2})?: basic fee (\d+),\d{2}'

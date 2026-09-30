@@ -56,6 +56,111 @@
           "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Arts_International.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47218,
+          "annualCompulsoryFees": 1132.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 estimated international fee for 120 points (8 x 15-point LAW course at NZ$5,902.20; 480 points over 4 years). LLB Part I is 45 points of law plus 75 points from another degree, so the first year is a little lower. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point LAW course fee from that year's international Law fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43239.6,
+          "annualCompulsoryFees": 1065.6,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_Law_International.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44968.8,
+          "annualCompulsoryFees": 1108.8,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Law_International.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Laws",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 48595.2,
+          "annualCompulsoryFees": 1132.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2026-fees/2026-Fees-Law-International.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 international fee for 120 points of 700-level LAW courses (8 x 15-point LAW 760 at NZ$6,074.40, or 4 x 30-point LAW 701 at NZ$12,148.80); taught or research LLM, 1 year. Compulsory = Student Services Fee NZ$9.44/point x 120. 2024/2025 = 8 x 15-point 700-level LAW course fee from that year's schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44502,
+          "annualCompulsoryFees": 1065.6,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_Law_International.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46281.6,
+          "annualCompulsoryFees": 1108.8,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Law_International.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MB ChB)",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 42818,
+          "annualCompulsoryFees": 1132.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "First-year rate: the 2026 estimated international fee for the Year 1 (overlapping BHSc / Biomedical Science year, 120 points at NZ$5,352.30 per 15-point course), which the programme list quotes for MB ChB Year 1. Years 2 to 6 are NZ$86,561 a year (MBChB Part II-VI, 2 x 60-point halves at NZ$43,280.40 each; Part III is 105 points, NZ$75,740.70), so the six-year total is about NZ$475,600. 720 points over 6 years. Compulsory = Student Services Fee NZ$9.44/point x 120. 2024/2025 = 8 x 15-point Year 1 course fee (MEDSCI 142 / POPLHLTH) from that year's international Medical and Health Sciences schedule, with SSF NZ$8.88 / NZ$9.24 per point; MBChB Part II was NZ$83,232 in 2024 and NZ$86,560.80 in 2025.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39211.2,
+          "annualCompulsoryFees": 1065.6,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_MHS_International.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 40779.6,
+          "annualCompulsoryFees": 1108.8,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_MHS_International.pdf"
+        }
+      ]
     }
   ]
 }

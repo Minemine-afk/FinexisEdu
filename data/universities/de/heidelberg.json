@@ -219,6 +219,72 @@
           "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Rechtswissenschaft (Staatsexamen)",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3000,
+          "annualCompulsoryFees": 379.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Baden-Württemberg tuition fee for non-EU/EEA students with a foreign university entrance qualification: EUR 1,500 per semester x2 (in force since winter 2017/18; EU/EEA students and holders of a German entrance qualification are exempt; it applies to state examination programmes too). Compulsory fees = semester fee EUR 189.80 per semester x2 (administrative fee 80 + Studierendenwerk 95 + student body 10 + nextbike 2.30 + theatre flatrate 2.50), from https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees. 2024/2025 history: the tuition page states the EUR 1,500 fee has applied since 2017/18; the semester fee of those years was not found, so history entries carry tuition only (current compulsory fees are used). Undergraduate-entry state examination degree, standard period 10 semesters (Faculty of Law subject page, which also quotes the EUR 189.80 semester fee); an integrated LL.B. can be awarded on the way. Language of instruction: German. Winter intake only.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medizin, Studienort Heidelberg (Staatsexamen)",
+      "durationYears": 6.25,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3000,
+          "annualCompulsoryFees": 379.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Baden-Württemberg tuition fee for non-EU/EEA students with a foreign university entrance qualification: EUR 1,500 per semester x2 (in force since winter 2017/18; EU/EEA students and holders of a German entrance qualification are exempt; it applies to state examination programmes too). Compulsory fees = semester fee EUR 189.80 per semester x2 (administrative fee 80 + Studierendenwerk 95 + student body 10 + nextbike 2.30 + theatre flatrate 2.50), from https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees. 2024/2025 history: the tuition page states the EUR 1,500 fee has applied since 2017/18; the semester fee of those years was not found, so history entries carry tuition only (current compulsory fees are used). Undergraduate-entry state examination degree at the Medizinische Fakultät Heidelberg: standard period 12.5 semesters, 'at least six years and three months' (subject page, which also quotes the EUR 189.80 semester fee). Admission is nationally restricted; non-EU applicants with a foreign entrance qualification compete in a preliminary quota. Language of instruction: German. Ruprecht-Karls-Universität Heidelberg (Medizinische Fakultät Heidelberg) is on the Singapore Medical Council's list of registrable basic medical qualifications; the separate Mannheim faculty is not the listed body.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        }
+      ]
     }
   ]
 }

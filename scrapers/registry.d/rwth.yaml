@@ -7,6 +7,7 @@ sources:
     url: https://www.asta.rwth-aachen.de/en/about-us/finance/
     parser: html
     targets:
+    # no level/field, so it also covers the Medizin (Staatsexamen) entry
     - key: annualCompulsoryFees
       # first tab (most recent semester) of the "Semester contribution" section
       pattern: 'Semester contribution WS\d\d/\d\d.*?Total (\d+),\d{2} €'

@@ -120,6 +120,72 @@
           "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Arts HSG in Law (BLaw)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 6687,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 268
+        }
+      },
+      "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition for foreign nationals CHF 3,343.50 per semester x 2, from autumn semester 2026 (about 7% rise after fees were unchanged since 2014). Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 3-year (180 ECTS incl. the assessment year) Law School bachelor's, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 6258,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6258,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Arts HSG in Law (MLaw)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 7115,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 268
+        }
+      },
+      "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition for foreign nationals CHF 3,557.50 per semester x 2, from autumn semester 2026. Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 3-semester (90 ECTS) master's, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 6658,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6658,
+          "sourceUrl": "https://www.unisg.ch/en/newsdetail/news/accumulated-inflation-cantonal-council-approves-increase-in-tuition-fees-at-hsg/"
+        }
+      ]
     }
   ]
 }

@@ -5,6 +5,7 @@ sources:
     url: https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students
     parser: html
     targets:
+    # no level/field, so it also covers the Rechtswissenschaft and Medizin (Staatsexamen) entries
     - pattern: required to pay a tuition fee of EUR ([\d,]+) per semester
       multiplier: 2
   - university: heidelberg

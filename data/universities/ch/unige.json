@@ -181,6 +181,86 @@
       "cohortLocked": false,
       "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. No separate one-off fee. 3-semester (90 ECTS) general master's (MA90); the 120 ECTS MA with specialisation takes 4 semesters. Taught in French.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor en droit",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. The CHF 65 application fee for holders of foreign diplomas is credited against the first semester's fees, so no one-off fee. 3-year (6 semesters, 180 ECTS) Faculty of Law bachelor's taught in French (passive German recommended). Fee page undated; read September 2026.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Maîtrise universitaire en droit (Master en droit)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. The CHF 65 application fee for holders of foreign diplomas is credited against the first semester's fees, so no one-off fee. 3-semester (90 ECTS) master's (maximum 6 semesters), taught in French; specialised masters in economic law and in international and European law also exist.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor en médecine humaine",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. The CHF 65 application fee for holders of foreign diplomas is credited against the first semester's fees, so no one-off fee. 3-year (6 semesters, 180 ECTS) bachelor's taught in French; on its own it does not allow the practice of medicine but gives access to the master's. Places in medicine are capped across Switzerland (swissuniversities registration); the Faculty admits foreign applicants only within those restrictions, so check UNIGE's admission conditions before applying. Université de Genève (Faculté de médecine) is on the Singapore Medical Council's list of registrable basic medical qualifications; the registrable qualification is the federal diploma taken after the master's.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Master en médecine humaine",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed + CHF 435 supervision), the same for all students regardless of nationality. The CHF 65 application fee for holders of foreign diplomas is credited against the first semester's fees, so no one-off fee. 3-year (6 semesters, 180 ECTS) master's taught in French, ending with the federal examination. Places in medicine are capped across Switzerland (swissuniversities registration); the Faculty admits foreign applicants only within those restrictions, so check UNIGE's admission conditions before applying. Université de Genève (Faculté de médecine) is on the Singapore Medical Council's list of registrable basic medical qualifications; the registrable qualification is the federal diploma taken after the master's.",
+      "feeHistory": []
     }
   ]
 }

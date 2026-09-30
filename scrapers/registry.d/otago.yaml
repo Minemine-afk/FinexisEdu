@@ -19,6 +19,12 @@ sources:
     url: https://www.otago.ac.nz/study/fees/international-tuition-fees/humanities
     parser: html
     manual: true
+  # site blocks automated access (MB ChB: Health Sciences First Year and later-year rates)
+  - university: otago
+    country: nz
+    url: https://www.otago.ac.nz/study/fees/international-tuition-fees/health-sciences
+    parser: html
+    manual: true
   # site blocks automated access (Student Services Fee, feeds annualCompulsoryFees)
   - university: otago
     country: nz

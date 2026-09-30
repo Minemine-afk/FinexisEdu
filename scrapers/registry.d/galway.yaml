@@ -23,6 +23,12 @@ sources:
     - level: bachelor
       field: arts
       pattern: GY101 Bachelor of Arts \(Joint-Honours\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: bachelor
+      field: law
+      pattern: GY251 Law \(BCL\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: bachelor
+      field: medicine
+      pattern: GY501 Bachelor of Medicine \(MB\) of Surgery \(BCh\) and of Obstetrics \(BAO\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
   - university: galway
     country: ie
     url: https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/
@@ -44,6 +50,9 @@ sources:
     - level: master
       field: arts
       pattern: 1MEN1 English \(MA\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+    - level: master
+      field: law
+      pattern: 1ML28 \(LLM\) 1ML29 \(LLM PT\) General \(LLM\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
   # Monthly budget table (no transport line, so no living.transport target).
   - university: galway
     country: ie

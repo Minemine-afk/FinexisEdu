@@ -301,6 +301,62 @@
           "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43802.4,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international undergraduate Law rate $365.02 per point x 120 points (average full-time year). 480 points = 4 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Law rate $344.36 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 41323.2,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Laws",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46298.4,
+          "annualCompulsoryFees": 1309.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international postgraduate Law rate $385.82 per point x 120 points; the LLM is 120 points, 1 year full-time. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Law rate $363.99 x 120 with SSF $10.44 x 120 + $32. Excludes insurance. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43678.8,
+          "annualCompulsoryFees": 1284.8,
+          "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international"
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,9 @@ sources:
     - level: bachelor
       field: arts
       pattern: 'Arts: Joint Honours \(Humanities\) All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)'
+    - level: bachelor
+      field: law
+      pattern: Bachelor of Civil Law - BCL All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
   # PG rows: name, (scholarship blurb for Engineering & Computing), description, EU FT, [EU PT], non-EU FT, [non-EU PT].
   - university: dcu
     country: ie

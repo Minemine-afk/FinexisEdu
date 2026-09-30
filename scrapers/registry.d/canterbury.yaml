@@ -23,6 +23,9 @@ sources:
     - level: bachelor
       field: arts
       pattern: 'Bachelor of Arts \(BA\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
+    - level: bachelor
+      field: law
+      pattern: 'Bachelor of Laws \(LLB\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
   - university: canterbury
     country: nz
     url: https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters

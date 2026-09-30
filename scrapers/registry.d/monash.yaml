@@ -55,3 +55,22 @@ sources:
     url: https://www.monash.edu/study/why-choose-monash/our-locations/life-in-melbourne/cost-of-living
     parser: html
     manual: true
+  # site blocks automated access. Course pages default to the domestic view; the international fee
+  # only appears with the "?international=true" audience switch.
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/laws-l3001
+    parser: html
+    manual: true
+  # site blocks automated access (see laws-l3001)
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/juris-doctor-l6005
+    parser: html
+    manual: true
+  # site blocks automated access (see laws-l3001)
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/medical-science-and-medicine-direct-entry-m6011
+    parser: html
+    manual: true

@@ -181,6 +181,66 @@
       "cohortLocked": false,
       "notes": "E6011, Clayton campus. 2027 international full fee per 48 credit points. Duration 2 years (96 points) for holders of a 4-year engineering degree; 3 years (144 points) otherwise. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws (Honours)",
+      "durationYears": 4.25,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 58540,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/laws-l3001",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "L3001, Clayton campus. 2027 international fee per 48 credit points (standard full-time year); the domestic full-fee rate on the same page is A$52,840. Monash lists the course as equivalent to 4.25 years of full-time study, which may be accelerated to 4 years. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Juris Doctor",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 55840,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/juris-doctor-l6005",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "L6005, taught at Monash Law Chambers and the City campus (Melbourne CBD); trimester intakes in January, April and August. 2027 international fee per 48 credit points (the domestic full-fee rate is A$49,340); 3 years full time (6 part time). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medical Science and Doctor of Medicine",
+      "durationYears": 5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 107240,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/medical-science-and-medicine-direct-entry-m6011",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "M6011, direct (undergraduate) entry, Clayton campus; 5 years full time. 2027 international fee per 48 credit points (standard full-time year); Monash quotes one annual rate for the whole course. International applicants sit the ISAT and are admitted on a full-fee basis (the page shows only the domestic CSP contribution, A$14,046, unless the international view is selected). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually.",
+      "feeHistory": []
     }
   ]
 }

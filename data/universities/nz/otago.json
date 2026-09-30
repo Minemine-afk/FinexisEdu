@@ -201,6 +201,66 @@
       "cohortLocked": false,
       "notes": "2027 international thesis-only fee for the 120-point (1 year) MA(Thesis) in History; most MA subjects $43,785. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 45675,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/humanities",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international annual fee for a normal full-time year of the LLB (534 points over 4 years including the first-year preliminary courses; Honours may be available). Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Laws",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48825,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/humanities",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international fee for the 120-point (1 year) LLM; any-time start. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MB ChB)",
+      "durationYears": 6,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 45415,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/health-sciences",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "First-year rate: 2027 international fee for Health Sciences First Year (126 points), the competitive entry year of the 726-point, 6-year MB ChB. Otago quotes later years separately: Years 2-3 $101,567 a year (240 points) and Years 4-6 $116,080 a year (360 points), so the six-year total is about $596,800. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published); HSFY is 1.05 EFTS. Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
     }
   ]
 }

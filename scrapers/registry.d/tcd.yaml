@@ -22,6 +22,13 @@ sources:
     - level: bachelor
       field: arts
       pattern: School of English English Studies UBEN-ENGS-2F UF_\d+ €[\d,.]+ €[\d,.]+ €[\d,.]+ €([\d,.]+)
+    - level: bachelor
+      field: law
+      pattern: School of Law Law UBLW-LAWS-2F UF_\d+ €[\d,.]+ €[\d,.]+ €[\d,.]+ €([\d,.]+)
+    # the schedule quotes the medicine fee as a maximum
+    - level: bachelor
+      field: medicine
+      pattern: Medicine \(Year 5 is undergraduate\) UBMD-MEDI-3F UF_\d+ €[\d,.]+ €[\d,.]+ €[\d,.]+ Max €([\d,.]+)
   - university: tcd
     country: ie
     url: https://www.tcd.ie/courses/postgraduate/fees/
@@ -43,6 +50,9 @@ sources:
     - level: master
       field: arts
       pattern: Masters in Modern and Contemporary Literary Studies PTEN-MCLS-1F PTEN-MCLS-1F Full-Time 1 €[\d,.]+ €([\d,.]+)
+    - level: master
+      field: law
+      pattern: Masters in Law PTLW-LAWS-1F PTLW-LAWS-1F Full-Time 1 €[\d,.]+ €([\d,.]+)
   # Student Levies and Charges (SLC) table; full-time 4-year UG degree and 1-year PG degree rates.
   - university: tcd
     country: ie

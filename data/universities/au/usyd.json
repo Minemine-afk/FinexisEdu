@@ -59,6 +59,66 @@
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 093855E), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online."
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Arts and Bachelor of Laws",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56300,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 006441D), 2026 International Admission Guide; increases each year. Sydney offers the LLB only combined with another bachelor's degree; Commerce/Laws, Economics/Laws and Science/Laws are also A$56,300 (Engineering Honours/Laws is 6.5 years). Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Juris Doctor",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61100,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/juris-doctor.coredata.json",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/juris-doctor.html loads it from this JSON); 144 credit points over 3 years. The same data lists 2027 at A$64,200. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Not available to student visa holders part-time. Fees increase each year.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Doctor of Medicine",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 97000,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/doctor-of-medicine0.coredata.json",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/doctor-of-medicine.html loads it from this JSON); graduate entry, 4 years. The same data lists 2027 at A$100,500, and the 2026 International Admission Guide quotes the same A$97,000 for the MD years of the Science/Medicine and Arts/Medicine double degrees. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year.",
+      "feeHistory": []
     }
   ]
 }

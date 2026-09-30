@@ -351,6 +351,138 @@
           "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "BCL Law (DN600)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Law DN600 - LWS6, School of Law; the Law-with pathways are the same price). 4-year BCL. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme. Taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine MB BCh BAO (DN400, undergraduate entry)",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 63890,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Medicine - MDS2, School of Medicine). 6-year undergraduate-entry degree. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top; a healthcare-screening charge applies on registration. Non-EU fee is fixed at the entry-year rate for the programme. Taught in English. University College Dublin is not on the Singapore Medical Council's list of registrable basic medical qualifications (1 Sep 2022 edition, which names only Trinity College Dublin for Ireland).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 59070,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 61430,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Medicine (Graduate Entry) MB BCh BAO (DN401)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66360,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Medicine (Graduate Entry) DN401 - MDS9, School of Medicine; listed with the undergraduate degrees although entry requires a prior degree, so recorded here at master level). 4-year graduate-entry degree. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme. Taught in English. University College Dublin is not on the Singapore Medical Council's list of registrable basic medical qualifications (1 Sep 2022 edition, which names only Trinity College Dublin for Ireland).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61360,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63810,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LLM General (B294)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (LLM General FT(B294), School of Law, full-time 1 year; the specialised LLMs are the same price). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22600,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
+        }
+      ]
     }
   ]
 }

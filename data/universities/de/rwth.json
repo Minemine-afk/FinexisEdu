@@ -317,6 +317,43 @@
           "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medizin (Modellstudiengang, Staatsexamen)",
+      "durationYears": 6.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA, a statutory body of the university) on the page RWTH's own 'Costs' page refers to for the breakdown. History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Undergraduate-entry state examination degree (model curriculum), standard period 13 semesters per RWTH's programme page. Admission restricted (NC). Language of instruction: German. Not on the Singapore Medical Council's list of registrable basic medical qualifications (1 Sep 2022 edition).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
     }
   ]
 }

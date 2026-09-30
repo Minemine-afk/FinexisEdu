@@ -221,6 +221,86 @@
       "cohortLocked": false,
       "notes": "UCC Fees Office postgraduate EU and international schedule 2026/27; non-EU full-time fee, 1 year (College of Arts, Celtic Studies and Social Sciences). Compulsory fee is the Student Capitation Fee (EUR 210).",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "BCL (Hons) Law (Pathways) (CK301)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21700,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, full-time fee per academic year; the schedule lists the degree as 3 or 4 years (4 with a placement or year abroad). Compulsory fee is the Student Capitation Fee (EUR 210). Fees are subject to change from year to year. Taught in English.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine MB, BCh, BAO (CK701)",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 52100,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, full-time fee per academic year; 5-year undergraduate-entry degree. Compulsory fee is the Student Capitation Fee (EUR 210). Fees are subject to change from year to year. Taught in English. University College Cork is not on the Singapore Medical Council's list of registrable basic medical qualifications (1 Sep 2022 edition, which names only Trinity College Dublin for Ireland).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Medicine (Graduate Entry) MB, BCh, BAO (CK791)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56100,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, full-time fee per academic year; 4-year graduate-entry degree (listed with the undergraduate degrees, recorded here at master level because entry requires a prior degree). Compulsory fee is the Student Capitation Fee (EUR 210). Fees are subject to change from year to year. Taught in English. University College Cork is not on the Singapore Medical Council's list of registrable basic medical qualifications (1 Sep 2022 edition, which names only Trinity College Dublin for Ireland).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LLM (Law)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 19700,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "UCC Fees Office postgraduate EU and international schedule 2026/27; non-EU full-time fee for the 'Law - LLM' row, 1 year full-time (the specialised LLMs are the same price). Compulsory fee is the Student Capitation Fee (EUR 210). Taught in English.",
+      "feeHistory": []
     }
   ]
 }

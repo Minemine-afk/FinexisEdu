@@ -1,5 +1,6 @@
 sources:
   # HSG 'Costs of an HSG degree': per-semester tuition for foreign nationals, application fee and monthly living costs.
+  # The level-only targets also cover the BLaw and MLaw entries.
   - university: hsg
     country: ch
     url: https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/

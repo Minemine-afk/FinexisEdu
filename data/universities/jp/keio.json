@@ -311,6 +311,93 @@
           "sourceUrl": "https://www.keio.ac.jp/files/65110da085b419d2995998a47ae5b07f2d735f5b586d96e138f4cbc51622f0fa"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Faculty of Law",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 990000,
+          "annualCompulsoryFees": 323350,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.keio.ac.jp/files/74725a53d22ba2b1b26d1889f8567d82404785eb0003ebc298aa8ae44022f822",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "AY 2026 Academic Fees and Expenses for Undergraduate Faculties (first-year row). Tuition = 授業料. Compulsory fees = registration fee ¥70,000 + facilities fee ¥240,000 + materials/course-related fees ¥10,000 + student government fee ¥750 + health mutual-aid ¥2,600 (includes a ¥100 one-time registration). One-off = admission fee ¥200,000. Registration, tuition, facilities and lab fees rise yearly on a sliding scale, so not cohort-locked. 4-year degree (departments of law and of political science), Japanese-taught. 2025 figures from the AY 2025 undergraduate fee table (Japanese): tuition ¥960,000, facilities ¥230,000, other fees ¥13,350.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 960000,
+          "annualCompulsoryFees": 313350,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.keio.ac.jp/files/3c217fc9d84b2b8f96992aee3327580a6192a27324fe7bb128d12074a85807f2"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "School of Medicine",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3040000,
+          "annualCompulsoryFees": 713350,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.keio.ac.jp/files/74725a53d22ba2b1b26d1889f8567d82404785eb0003ebc298aa8ae44022f822",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "AY 2026 Academic Fees and Expenses for Undergraduate Faculties (first-year row). Tuition = 授業料 ¥3,040,000 (the same in years 2-6 for the 2026 cohort's row, subject to the sliding scale). Compulsory fees = registration fee ¥70,000 + facilities fee ¥420,000 + experiment/practical training fee ¥220,000 + student government fee ¥750 + health mutual-aid ¥2,600 (includes a ¥100 one-time registration). One-off = admission fee ¥200,000. Registration, tuition, facilities and lab fees rise yearly on a sliding scale, so not cohort-locked. 6-year undergraduate medical degree, Japanese-taught. Not on the Singapore Medical Council's list of registrable basic medical qualifications (1 Sep 2022 edition). 2025 figures from the AY 2025 undergraduate fee table (Japanese): tuition ¥3,040,000, facilities ¥410,000 + lab ¥220,000, other fees ¥3,350.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3040000,
+          "annualCompulsoryFees": 703350,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.keio.ac.jp/files/3c217fc9d84b2b8f96992aee3327580a6192a27324fe7bb128d12074a85807f2"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Law School, Major in Legal Practice (Juris Doctor)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1220000,
+          "annualCompulsoryFees": 550600,
+          "oneOffFees": 100000
+        }
+      },
+      "sourceUrl": "https://www.keio.ac.jp/files/cfc02e52473045add5d32f128738db9eee08d2846146b15b5aa275b5c7a97efb",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "AY 2026 Law School Professional Degree Programs fee table, 2026 entrants row (1年･未修; the 2-year track for law graduates has the same annual fees). Tuition = 授業料 ¥1,220,000. Compulsory fees = registration fee (在籍料) ¥330,000 + facilities fee ¥210,000 + Keio Law journal subscription ¥8,000 + health mutual-aid ¥2,600 (includes a ¥100 one-time registration). One-off = admission fee ¥100,000. Registration, tuition and facilities fees rise yearly on a sliding scale, so not cohort-locked. Standard duration 3 years (2 years for students entering with a law degree). Japanese-taught professional degree preparing for the Japanese bar; Keio also runs an English-taught LL.M. in Global Legal Practice at ¥1,790,000. 2025 figures from the AY 2025 Law School fee table (Japanese): tuition ¥1,180,000, registration ¥320,000, facilities ¥210,000, other fees ¥12,240, admission ¥100,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1180000,
+          "annualCompulsoryFees": 542240,
+          "oneOffFees": 100000,
+          "sourceUrl": "https://www.keio.ac.jp/files/a3a76876a4d0a2f55f70ca7e918842b8c7a617c2074cbcd0ec2cb14260f249d0"
+        }
+      ]
     }
   ]
 }

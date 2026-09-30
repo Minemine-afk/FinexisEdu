@@ -1,5 +1,6 @@
 sources:
   # UZH fees page: CHF 720 per semester plus the surcharge for foreign students (500 at bachelor, 100 at master level).
+  # The level-only targets also cover the Bachelor/Master of Law and of Medicine entries.
   - university: uzh
     country: ch
     url: https://www.uzh.ch/en/studies/application/fees.html

@@ -42,6 +42,28 @@ sources:
       field: arts
       key: annualCompulsoryFees
       pattern: Arts - BA \(Hons\) - CK101 €[\d,]+ N/A €([\d,]+)
+    - level: bachelor
+      field: law
+      pattern: Law \(Pathways\) - BCL \(Hons\) - CK301 €([\d,]+)
+    - level: bachelor
+      field: law
+      key: annualCompulsoryFees
+      pattern: Law \(Pathways\) - BCL \(Hons\) - CK301 €[\d,]+ N/A €([\d,]+)
+    - level: bachelor
+      field: medicine
+      pattern: Medicine - MB, BCh, BAO - CK701 €([\d,]+)
+    - level: bachelor
+      field: medicine
+      key: annualCompulsoryFees
+      pattern: Medicine - MB, BCh, BAO - CK701 €[\d,]+ N/A €([\d,]+)
+    # graduate entry medicine is listed in the undergraduate schedule
+    - level: master
+      field: medicine
+      pattern: Medicine \(Graduate Entry\) - MB, BCh, BAO - CK791 €([\d,]+)
+    - level: master
+      field: medicine
+      key: annualCompulsoryFees
+      pattern: Medicine \(Graduate Entry\) - MB, BCh, BAO - CK791 €[\d,]+ N/A €([\d,]+)
   - university: ucc
     country: ie
     url: https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/
@@ -84,6 +106,13 @@ sources:
       field: arts
       key: annualCompulsoryFees
       pattern: History - MA €[\d,]+ €[\d,]+ €[\d,]+ N/A €([\d,]+)
+    - level: master
+      field: law
+      pattern: Law - LLM €[\d,]+ €[\d,]+ €([\d,]+)
+    - level: master
+      field: law
+      key: annualCompulsoryFees
+      pattern: Law - LLM €[\d,]+ €[\d,]+ €[\d,]+ N/A €([\d,]+)
   # Monthly ranges at their midpoints; utilities and phone are captured twice through a lookahead
   # so that (a + b + c + c) / 2 = midpoint(a, b) + c.
   - university: ucc

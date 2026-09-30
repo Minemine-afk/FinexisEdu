@@ -67,6 +67,72 @@
           "sourceUrl": "https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Juris Doctor",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 57984,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0020/5423033/2026-International-Course-Tuition-Fees-OF_20260807.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 international fee place course tuition fee per EFTSL (MC-JURISD; 300 points over 3 years). 2024 and 2025 from the previous years' international fee tables. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-09-30 through a text rendering (r.jina.ai) of these URLs.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48928,
+          "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0017/440810/2024-International-Fee-Table.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52992,
+          "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Doctor of Medicine",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 122976,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0020/5423033/2026-International-Course-Tuition-Fees-OF_20260807.pdf",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 international fee place course tuition fee per EFTSL (MC-DMED; 4 years, graduate entry). One annual rate for all four years. 2024 and 2025 from the previous years' international fee tables. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-09-30 through a text rendering (r.jina.ai) of these URLs.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 101952,
+          "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0017/440810/2024-International-Fee-Table.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 112000,
+          "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf"
+        }
+      ]
     }
   ]
 }

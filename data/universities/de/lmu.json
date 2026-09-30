@@ -317,6 +317,80 @@
           "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Rechtswissenschaft (Erste Juristische Prüfung / Staatsexamen)",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026). Undergraduate-entry state examination degree (Erste Juristische Prüfung), standard period 10 subject semesters per LMU's programme page (5427); the university part of the exam is taken from the 8th semester. Language of instruction: German. Winter intake only.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medizin (Staatsexamen)",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026). Undergraduate-entry state examination degree: LMU lists 4 subject semesters for the first section (pre-clinical, taught jointly with TUM under MeCuM) and 8 for the second, i.e. 12 semesters; the federal licensing regulation puts the whole programme at 6 years and 3 months including the final exam. Admission is nationally restricted (hochschulstart). Language of instruction: German. Ludwig-Maximilians-Universität München (Medizinische Fakultät) is on the Singapore Medical Council's list of registrable basic medical qualifications.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
     }
   ]
 }

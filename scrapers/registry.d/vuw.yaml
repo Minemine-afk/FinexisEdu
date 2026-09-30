@@ -24,6 +24,9 @@ sources:
     - level: bachelor
       field: arts
       pattern: International tuition fees for 2027.*?Undergraduate-level study.*? Humanities and Social Sciences [\d.]+ ([\d,.]+)
+    - level: bachelor
+      field: law
+      pattern: International tuition fees for 2027.*?Undergraduate-level study.*? Law [\d.]+ ([\d,.]+)
     - level: master
       field: computing
       pattern: International tuition fees for 2027.*?Postgraduate \(most courses\).*? Science [\d.]+ ([\d,.]+)
@@ -39,6 +42,9 @@ sources:
     - level: master
       field: arts
       pattern: International tuition fees for 2027.*?Postgraduate \(most courses\).*? Humanities and Social Sciences [\d.]+ ([\d,.]+)
+    - level: master
+      field: law
+      pattern: International tuition fees for 2027.*?Postgraduate \(most courses\).*? Law [\d.]+ ([\d,.]+)
   # Student Services Fee ($/point x 120) plus the flat Student Hardship Fee; two rates that need
   # different multipliers, so this page is checked by hand.
   - university: vuw

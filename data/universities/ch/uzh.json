@@ -181,6 +181,86 @@
       "cohortLocked": false,
       "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Faculty of Arts 90 ECTS single-major master's (3 semesters), taught in English.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Law (Rechtswissenschaft, mono 180 ECTS)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) Faculty of Law bachelor's with an assessment level and an advanced level; taught in German. Fee page is undated; rates read September 2026.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Law (Rechtswissenschaft, 90 ECTS)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-semester (90 ECTS) master's taught in German; the parallel International and Comparative Law track is taught entirely in English, and a 120 ECTS variant with a Liberal Arts Option exists.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medicine (Humanmedizin, 180 ECTS)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) bachelor's taught in German, followed by the 3-year Master of Medicine. Admission to medicine is capped by the Canton of Zurich with an aptitude test (EMS) via swissuniversities, and UZH admits applicants of foreign nationality only if they hold a residence permit approved by UZH. Universität Zürich (Medizinische Fakultät) is on the Singapore Medical Council's list of registrable basic medical qualifications; the registrable qualification is the federal diploma taken after the master's, not the bachelor's alone.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Master of Medicine (Humanmedizin, 180 ECTS)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) master's taught in German; the degree qualifies for the Federal Examination in Human Medicine. Admission to medicine is capped by the Canton of Zurich with an aptitude test (EMS) via swissuniversities, and UZH admits applicants of foreign nationality only if they hold a residence permit approved by UZH. Universität Zürich (Medizinische Fakultät) is on the Singapore Medical Council's list of registrable basic medical qualifications; the registrable qualification is the federal diploma taken after the master's, not the bachelor's alone.",
+      "feeHistory": []
     }
   ]
 }

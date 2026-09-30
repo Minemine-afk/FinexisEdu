@@ -391,6 +391,117 @@
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Faculty of Law",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 4-year undergraduate degree, Japanese-taught. 2024-25 figures from the university-wide general-selection admission guides.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR6_all-8186ddca5a0c572852e76e77d07bf8a7.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Faculty of Medicine, School of Medicine",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 6-year undergraduate medical degree (Igaku), Japanese-taught. Kyoto University, Faculty of Medicine is on the Singapore Medical Council's list of registrable basic medical qualifications. 2024-25 figures from the university-wide general-selection admission guides.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR6_all-8186ddca5a0c572852e76e77d07bf8a7.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Graduate School of Law (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000 (the FAQ notes ¥804,000/yr for the professional Law School, which is not this programme). Fees may be revised during enrolment. 2-year master's, mainly Japanese-taught. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2024/100all"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
+        }
+      ]
     }
   ]
 }

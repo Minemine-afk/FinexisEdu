@@ -7,9 +7,50 @@ sources:
     url: https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/
     parser: html
     targets:
-    - key: annualCompulsoryFees
+    # no field, so it also covers the Rechtswissenschaft (Staatsexamen) entry; medicine is excluded below
+    - level: bachelor
+      field: law
+      key: annualCompulsoryFees
       pattern: 'Total amount: ([\d.]+) EUR'
       multiplier: 2
+    - level: bachelor
+      field: computing
+      key: annualCompulsoryFees
+      pattern: 'Total amount: ([\d.]+) EUR'
+      multiplier: 2
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: 'Total amount: ([\d.]+) EUR'
+      multiplier: 2
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: 'Total amount: ([\d.]+) EUR'
+      multiplier: 2
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: 'Total amount: ([\d.]+) EUR'
+      multiplier: 2
+    - level: master
+      key: annualCompulsoryFees
+      pattern: 'Total amount: ([\d.]+) EUR'
+      multiplier: 2
+  # Medicine is taught by Charité, whose admissions office publishes the enrolment fee for
+  # HU-enrolled students (381,80 € for winter 2026/27, written with a comma decimal that the
+  # extractor cannot read, and only the first-semester amount), so it is checked by hand.
+  - university: hu-berlin
+    country: de
+    url: https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/alle_Immatrikulation/Erstsemester_Immatrikulationsgebuehren.pdf
+    parser: pdf
+    manual: true
+  # Charité re-registration fee sheet for summer 2026 (355,80 €, itemised); cited for the 2025 medicine history only
+  - university: hu-berlin
+    country: de
+    url: https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/250_D_Geb%C3%BChren_HU_SoSe_2026.pdf
+    parser: pdf
+    manual: true
   # DAAD national average student expenses (HU publishes no breakdown we can read)
   - university: hu-berlin
     country: de
