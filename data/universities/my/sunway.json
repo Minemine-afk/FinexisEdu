@@ -1,0 +1,204 @@
+{
+  "id": "sunway",
+  "name": "Sunway University",
+  "country": "my",
+  "city": "Bandar Sunway",
+  "currency": "MYR",
+  "website": "https://sunwayuniversity.edu.my",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1360,
+      "food": 1200,
+      "transport": 0,
+      "personal": 150
+    },
+    "sourceUrl": "https://sunwayuniversity.edu.my/international/experience-sunway",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "Sunway 'Experience Sunway' living-expenses estimate for international students (undated, read 2026-09-30). Housing: Sunway hostels RM420-RM2,300 per month (midpoint), rental includes water, electricity and internet; off-campus rooms RM500-RM3,000. Food: RM1,200 per month (3 basic meals). Transport: no figure given (campus is walkable, BRT/LRT nearby). Personal: entertainment allowance RM100-RM200 (midpoint RM150); books and stationery RM200-RM500 'per course or semester' are listed but not budgeted here. Sunway's overall figure is 'around RM2,000' a month for food and accommodation. Monthly figures with no term basis, so 12 months."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (Honours) in Computer Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-computer-science",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Estimated annual course fee (Year 2026): RM39,800 for Malaysian students, USD9,779 for international students, which Sunway says is only an indicative conversion and must be paid 'in RM equivalent'. Sunway publishes no separate RM rate for international students; the RM figure on the page is recorded (USD9,779 x 4.07 = RM39,800), so treat the international figure as the same RM fee plus exchange-rate risk. One-off = international enrolment fee RM742 (incl. 6% SST) + EMGS student pass processing RM3,300 (Sunway 'Apply Today' page). 3-year programme (9 semesters). Excludes 6% SST on tuition for non-Malaysians. Not stated to be fixed for the cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc (Hons) Business Management",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-business-management",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Estimated annual course fee (Year 2026): RM39,600 (USD9,733 indicative for international students, payable in RM equivalent; no separate RM international rate is published). One-off = enrolment fee RM742 + EMGS student pass processing RM3,300. 3-year programme. Excludes 6% SST for non-Malaysians. Not stated to be fixed for the cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Mechanical Engineering with Honours",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-mechanical-engineering-honours",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Estimated annual course fee (Year 2026): RM38,300 (USD9,430 indicative for international students, payable in RM equivalent; no separate RM international rate is published). One-off = enrolment fee RM742 + EMGS student pass processing RM3,300. 4-year programme. Excludes 6% SST for non-Malaysians. Not stated to be fixed for the cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc (Hons) Biomedicine",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-biomedicine",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Estimated annual course fee (Year 2026): RM43,500 (USD10,640 indicative for international students, payable in RM equivalent; no separate RM international rate is published). One-off = enrolment fee RM742 + EMGS student pass processing RM3,300. 3-year programme. Excludes 6% SST for non-Malaysians. Not stated to be fixed for the cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA (Hons) Communication",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/faculty-of-arts-and-social-sciences/courses/ba-hons-communication",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Estimated annual course fee (Year 2026): RM38,500 (USD9,477 indicative for international students, payable in RM equivalent; no separate RM international rate is published). One-off = enrolment fee RM742 + EMGS student pass processing RM3,300. 3-year programme. Excludes 6% SST for non-Malaysians. Not stated to be fixed for the cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master in Advanced Computing",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 48500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/master-advanced-computing",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Estimated total course fee (Year 2026): RM48,500 (USD11,802 indicative for international students, payable in RM equivalent; no separate RM international rate is published); 1-year full-time programme so the annual figure equals the programme fee. One-off = enrolment fee RM742 + EMGS student pass processing RM3,300. Excludes 6% SST for non-Malaysians.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 40170,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/sunway-business-school/courses/master-of-business-administration",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Sunway Business School's only master's degree; offered part-time only (2 years, weekend classes). Estimated total course fee (Year 2026): RM80,340 (USD19,730 indicative for international students, payable in RM equivalent) divided by 2 years. One-off = enrolment fee RM742 + EMGS student pass processing RM3,300. Excludes 6% SST for non-Malaysians.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Life Sciences (by Research)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22850,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/master-of-science-life-sciences",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Estimated total course fee (Year 2026): RM45,700 (USD11,674 indicative for international students, payable in RM equivalent) divided by the 2-year full-time duration. One-off = enrolment fee RM742 + EMGS student pass processing RM3,300. Excludes 6% SST for non-Malaysians.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in Communication",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 48500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 4042
+        }
+      },
+      "sourceUrl": "https://sunwayuniversity.edu.my/faculty-of-arts-and-social-sciences/courses/master-of-arts-communication",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Estimated total course fee (Year 2026): RM48,500 (USD11,802 indicative for international students, payable in RM equivalent); 1-year minimum full-time duration (up to 3 years), so the annual figure equals the programme fee. One-off = enrolment fee RM742 + EMGS student pass processing RM3,300. Excludes 6% SST for non-Malaysians.",
+      "feeHistory": []
+    }
+  ]
+}
