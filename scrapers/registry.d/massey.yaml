@@ -1,0 +1,113 @@
+# Massey University. Each qualification page states the year's estimated international tuition
+# for 120 credits and the on-campus student services fee for 120 credits.
+sources:
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-information-sciences-UBINS/computer-science-UBINS1JCMSC1/
+    parser: html
+    year_pattern: (\d{4}) tuition fees Domestic students
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: 'International students: \$([\d,]+)'
+    - level: bachelor
+      field: computing
+      key: annualCompulsoryFees
+      pattern: This fee is \$([\d,]+) for on-campus students
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-business-UBBSS/
+    parser: html
+    year_pattern: (\d{4}) tuition fees Domestic students
+    targets:
+    - level: bachelor
+      field: business
+      pattern: 'International students: \$([\d,]+)'
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: This fee is \$([\d,]+) for on-campus students
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-UBSCN/
+    parser: html
+    year_pattern: (\d{4}) tuition fees Domestic students
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: 'International students: \$([\d,]+)'
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: This fee is \$([\d,]+) for on-campus students
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-arts-UBART/history-UBART2JHSTR1/
+    parser: html
+    year_pattern: (\d{4}) tuition fees Domestic students
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: 'International students: \$([\d,]+)'
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: This fee is \$([\d,]+) for on-campus students
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-information-sciences-PMINS/
+    parser: html
+    year_pattern: (\d{4}) tuition fees Domestic students
+    targets:
+    - level: master
+      field: computing
+      pattern: 'International students: \$([\d,]+)'
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: This fee is \$([\d,]+) for on-campus students
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-business-studies-PMBSS/
+    parser: html
+    year_pattern: (\d{4}) tuition fees Domestic students
+    targets:
+    - level: master
+      field: business
+      pattern: 'International students: \$([\d,]+)'
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: This fee is \$([\d,]+) for on-campus students
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-science-PMSCN/chemistry-PMSCN1SCHMS2/
+    parser: html
+    year_pattern: (\d{4}) tuition fees Domestic students
+    targets:
+    - level: master
+      field: sciences
+      pattern: 'International students: \$([\d,]+)'
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: This fee is \$([\d,]+) for on-campus students
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-arts-PMART/history-PMART1SHSTR2/
+    parser: html
+    year_pattern: (\d{4}) tuition fees Domestic students
+    targets:
+    - level: master
+      field: arts
+      pattern: 'International students: \$([\d,]+)'
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: This fee is \$([\d,]+) for on-campus students
+  # living costs: the page only quotes the Immigration NZ NZ$20,000-a-year requirement (fallback figure)
+  - university: massey
+    country: nz
+    url: https://www.massey.ac.nz/study/international-students/living-in-new-zealand/
+    parser: html
+    manual: true

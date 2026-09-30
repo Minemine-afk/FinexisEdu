@@ -10,19 +10,19 @@ sources:
     targets:
     - level: bachelor
       field: computing
-      pattern: Bachelor of Data Science \(BDataSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points
+      pattern: 'Bachelor of Data Science \(BDataSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: business
-      pattern: Bachelor of Commerce \(BCom\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points
+      pattern: 'Bachelor of Commerce \(BCom\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: engineering
-      pattern: Bachelor of Engineering with Honours \(BE\(Hons\)\).*?First Year.*?2027 tuition fee estimate: \$([\d,]+) per 120 points
+      pattern: 'Bachelor of Engineering with Honours \(BE\(Hons\)\).*?First Year.*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: sciences
-      pattern: Bachelor of Science \(BSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points
+      pattern: 'Bachelor of Science \(BSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: arts
-      pattern: Bachelor of Arts \(BA\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points
+      pattern: 'Bachelor of Arts \(BA\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
   - university: canterbury
     country: nz
     url: https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters
@@ -31,21 +31,21 @@ sources:
     targets:
     - level: master
       field: computing
-      pattern: Master of Computer Science \(PMCS\).*?2027 Special Programme Fee: \$([\d,]+) \(180 points\)
+      pattern: 'Master of Computer Science \(PMCS\).*?2027 Special Programme Fee: \$([\d,]+) \(180 points\)'
       multiplier: 0.6666666666666666
     - level: master
       field: business
-      pattern: Master of Business Administration \(MBA\).*?2027 Special Programme Fee: \$([\d,]+) \(180 points\)
+      pattern: 'Master of Business Administration \(MBA\).*?2027 Special Programme Fee: \$([\d,]+) \(180 points\)'
       multiplier: 0.6666666666666666
     - level: master
       field: engineering
-      pattern: Master of Engineering \(ME\).*?2027 Special Programme Fee: \$([\d,]+) \(120 points\)
+      pattern: 'Master of Engineering \(ME\).*?2027 Special Programme Fee: \$([\d,]+) \(120 points\)'
     - level: master
       field: sciences
-      pattern: Master of Science \(MSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points
+      pattern: 'Master of Science \(MSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: master
       field: arts
-      pattern: Master of Arts \(Thesis\) \(MA\(Thesis\)\).*?2027 Special Programme Fee: \$([\d,]+) \(120 points\)
+      pattern: 'Master of Arts \(Thesis\) \(MA\(Thesis\)\).*?2027 Special Programme Fee: \$([\d,]+) \(120 points\)'
   # Student Services Levy; the page only states the 2026 rate so far
   - university: canterbury
     country: nz
