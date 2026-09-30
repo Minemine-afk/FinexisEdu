@@ -1,0 +1,27 @@
+# RWTH Aachen University. No tuition; the semester contribution is published by the RWTH
+# student body (AStA), the page RWTH's own "Costs" page points to. Amounts are written
+# "375,19 €", so only the euro part is captured (the cents are below the change threshold).
+sources:
+  - university: rwth
+    country: de
+    url: https://www.asta.rwth-aachen.de/en/about-us/finance/
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      # first tab (most recent semester) of the "Semester contribution" section
+      pattern: 'Semester contribution WS\d\d/\d\d.*?Total (\d+),\d{2} €'
+      multiplier: 2
+  - university: rwth
+    country: de
+    url: https://www.rwth-aachen.de/go/id/bqmo/lidx/1
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Accommodation and associated costs between ([\d,]+) and ([\d,]+) euros
+      multiplier: 0.5
+    - key: living.food
+      pattern: Food between ([\d,]+) and ([\d,]+) euros
+      multiplier: 0.5
+    - key: living.personal
+      pattern: Study Materials \(including books, printing etc\) between ([\d,]+) and ([\d,]+) euros Internet and Mobile Phone between ([\d,]+) and ([\d,]+) euros Additional costs \(clothing, hygiene etc\.\) between ([\d,]+) and ([\d,]+) euros per month
+      multiplier: 0.5

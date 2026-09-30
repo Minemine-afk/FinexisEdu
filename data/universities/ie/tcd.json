@@ -1,0 +1,354 @@
+{
+  "id": "tcd",
+  "name": "Trinity College Dublin",
+  "country": "ie",
+  "city": "Dublin",
+  "currency": "EUR",
+  "website": "https://www.tcd.ie",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1254.28,
+      "food": 444.44,
+      "transport": 111.11,
+      "personal": 555.56
+    },
+    "sourceUrl": "https://www.tcd.ie/study/international/welcome/cost-of-living/",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "Trinity's 'Cost of Living' page for international students (updated 16 July 2026) gives annual ranges; each is taken at its midpoint and divided by 9 months. Housing = average of Trinity Hall (EUR 7,227, Sept-June) and Kavanagh Court (EUR 12,350) undergraduate accommodation plus utilities EUR 1,000-2,000; food = meals EUR 3,000-5,000; transport = commuting EUR 1,000; personal = miscellaneous EUR 2,500 (personal items, leisure, course materials) plus personal and social EUR 2,000-3,000. Excludes immigration fees, health insurance and airfares. Trinity's own total undergraduate estimate is EUR 19,937-29,050 a year."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science (BA, integrated MAI)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29570,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU tuition for new entrants in 2026/27 (course code UICS-ICSC-2F); the schedule says the fee is for the first year only. Compulsory fee is the Student Levies and Charges (SLC) for a full-time 4-year degree (EUR 212.75 in 2026/27, of which EUR 8 AMLE membership is optional). Year 5 of the integrated master's is charged at the postgraduate rate. Trinity's Fee Certainty policy sets the annual increase for the 2026/27 intake at 2.33% a year for 2027/28-2030/31, so fees are not fixed for the programme.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28250,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28900,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Business, Economic and Social Studies (B.E.S.S.)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22580,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU tuition for new entrants in 2026/27 (UBBE-BESS-2F); first-year fee. Compulsory fee is the Student Levies and Charges (SLC) for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE membership optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21570,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22070,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Engineering with Management (BAI, integrated MAI)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29570,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU tuition for new entrants in 2026/27 (UIEG-EMAN-2F); first-year fee. Year 5 of the integrated master's is charged at the postgraduate rate. Compulsory fee is the SLC for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28250,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28900,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Science (Common Entry)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29570,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU tuition for new entrants in 2026/27 (UBSC-SCIE-1F, School of Natural Sciences); first-year fee. Compulsory fee is the SLC for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28250,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28900,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English Studies",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22580,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU tuition for new entrants in 2026/27 (UBEN-ENGS-2F); first-year fee. Compulsory fee is the SLC for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21570,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22070,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "M.Sc. Computer Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 27790,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTCS-MCSC-1F). Compulsory fee is the Student Levies and Charges for a full-time 1-year PG degree (EUR 314 in 2026/27, incl. EUR 135 graduation fee; EUR 8 AMLE optional). Single-year courses get no in-course increase.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26989,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26989,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "M.Sc. Management",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 24000,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTBU-BMAN-2F, Trinity Business School). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22350,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23250,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "M.Sc. Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 27780,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTEG-ENGI-1F, School of Engineering). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26980,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26980,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "M.Sc. Environmental Sciences",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22520,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTNS-ENVS-1F, School of Natural Sciences). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 20153,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21873,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "M.Phil. Modern and Contemporary Literary Studies",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18180,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTEN-MCLS-1F, School of English). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 17660,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17660,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        }
+      ]
+    }
+  ]
+}

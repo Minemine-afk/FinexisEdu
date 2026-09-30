@@ -1,0 +1,107 @@
+# Keio University. Fee tables are yearly PDFs linked from keio.ac.jp/en/admissions/fees/ (the
+# hashed /files/ URL changes each November; update it here and in data/ when the AY 2027 table appears).
+sources:
+  # AY 2026 undergraduate fee table: first-year row per faculty. Columns after "2026 1":
+  # admission, registration, tuition, facilities, lab, materials, student government, health.
+  - university: keio
+    country: jp
+    url: https://www.keio.ac.jp/files/74725a53d22ba2b1b26d1889f8567d82404785eb0003ebc298aa8ae44022f822
+    parser: pdf
+    year_pattern: AY (\d{4}) Undergraduate Faculties
+    targets:
+    - level: bachelor
+      key: oneOffFees
+      pattern: Faculty of Science and Technology \d{4} 1 ([\d,]+)
+    - level: bachelor
+      field: engineering
+      pattern: Faculty of Science and Technology \d{4} 1 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Faculty of Science and Technology \d{4} 1 [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) ([\d,]+) － ([\d,]+) ([\d,]+)
+    - level: bachelor
+      field: sciences
+      pattern: Faculty of Science and Technology \d{4} 1 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Faculty of Science and Technology \d{4} 1 [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) ([\d,]+) － ([\d,]+) ([\d,]+)
+    # Faculty of Environment and Information Studies shares the Policy Management row
+    - level: bachelor
+      field: computing
+      pattern: Faculty of Policy Management \d{4} 1 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Faculty of Policy Management \d{4} 1 [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) － ([\d,]+) ([\d,]+) ([\d,]+)
+    - level: bachelor
+      field: business
+      pattern: Faculty of Economics \d{4} 1 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: Faculty of Economics \d{4} 1 [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) － ([\d,]+) ([\d,]+) ([\d,]+)
+    - level: bachelor
+      field: arts
+      pattern: Faculty of Letters \d{4} 1 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Faculty of Letters \d{4} 1 [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) － － ([\d,]+) ([\d,]+)
+  # AY 2026 master's fee table: 2026-entrants row per graduate school. Columns after the year:
+  # registration, tuition, materials, thesis publication, student government, health.
+  - university: keio
+    country: jp
+    url: https://www.keio.ac.jp/files/92446f38dc587a176fbe87b824d23c53619077cbfe934c78a675c4d4d0e0205c
+    parser: pdf
+    year_pattern: AY (\d{4}) Master’s Programs
+    targets:
+    - level: master
+      field: engineering
+      pattern: Graduate School of Science and Technology \d{4} [\d,]+ ([\d,]+)
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Graduate School of Science and Technology \d{4} ([\d,]+) [\d,]+ － － － ([\d,]+)
+    - level: master
+      field: sciences
+      pattern: Graduate School of Science and Technology \d{4} [\d,]+ ([\d,]+)
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Graduate School of Science and Technology \d{4} ([\d,]+) [\d,]+ － － － ([\d,]+)
+    - level: master
+      field: computing
+      pattern: Graduate School of Media and Governance \d{4} [\d,]+ ([\d,]+)
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Graduate School of Media and Governance \d{4} ([\d,]+) [\d,]+ ([\d,]+) － － ([\d,]+)
+    - level: master
+      field: business
+      pattern: Graduate School of Business Administration \d{4} [\d,]+ ([\d,]+)
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: Graduate School of Business Administration \d{4} ([\d,]+) [\d,]+ ([\d,]+) － － ([\d,]+)
+    - level: master
+      field: arts
+      pattern: Major in Philosophy and Ethics, \d{4} [\d,]+ ([\d,]+)
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Major in Philosophy and Ethics, \d{4} ([\d,]+) [\d,]+ ([\d,]+) － ([\d,]+) ([\d,]+)
+  # SFC housing page, off-campus monthly example (insurance excluded)
+  - university: keio
+    country: jp
+    url: https://www.sfc.keio.ac.jp/en/studentlife/housing.html
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Off-campus Housing Example \(per month\) Item Cost Rent ([\d,]+).*?Utilities, Internet ([\d,]+)
+    - key: living.food
+      pattern: Off-campus Housing Example \(per month\) Item Cost Rent [\d,]+.*?Food ([\d,]+)
+    - key: living.transport
+      pattern: Off-campus Housing Example \(per month\).*?Transport ([\d,]+)
+    - key: living.personal
+      pattern: Off-campus Housing Example \(per month\).*?Phone ([\d,]+).*?Books ([\d,]+).*?Hobbies ([\d,]+).*?Others ([\d,]+)

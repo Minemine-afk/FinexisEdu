@@ -1,0 +1,320 @@
+{
+  "id": "lmu",
+  "name": "Ludwig Maximilian University of Munich",
+  "country": "de",
+  "city": "Munich",
+  "currency": "EUR",
+  "website": "https://www.lmu.de",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 850,
+      "food": 500,
+      "transport": 43,
+      "personal": 0
+    },
+    "sourceUrl": "https://www.lmu.de/en/workspace-for-students/international-student-guide/living-costs/",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "LMU International Student Guide 'Living costs' (budget about EUR 1,500 a month in Munich): housing = midpoint of 'rooms in private housing including utilities 700-1,000' (university housing is 400-600); food = 'food, health insurance, leisure activities approx. 500' (the page does not split these, so the figure includes health insurance and leisure); transport = Deutschlandticket for students EUR 43/month; personal 0 because the page lists no separate personal/books figure (leisure is inside the food line). Semester fee (97) excluded."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Informatik B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Language of instruction: German. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Betriebswirtschaftslehre B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Language of instruction: German. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physik B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Language of instruction: German. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Anglistik B.A.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Language of instruction: German and English. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Informatik M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Language of instruction: German. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026). LMU's own English-taught computing master's (Software Engineering) is enrolled through the University of Augsburg, so the standard German-taught Informatik M.Sc. is used.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Management and Digital Technologies M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Language of instruction: English. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Language of instruction: English. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "English Studies M.A.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Language of instruction: English. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    }
+  ]
+}

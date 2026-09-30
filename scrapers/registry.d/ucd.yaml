@@ -1,0 +1,50 @@
+# University College Dublin. www.ucd.ie returns 403 to the scraper's user agent, but the fee
+# tables it embeds are served by sisweb.ucd.ie, which is readable. The URLs carry the academic
+# year (ACYR=2026 is 2026/27) and have no year text, so bump ACYR when a new year is published.
+sources:
+  - university: ucd
+    country: ie
+    url: https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: Computer Science DN201 - CSSA School of Computer Science Full Time Per Year ([\d,.]+)
+    - level: bachelor
+      field: business
+      pattern: Commerce DN650 - BSS1 School of Business Full Time Per Year ([\d,.]+)
+    - level: bachelor
+      field: engineering
+      pattern: Engineering DN150 - NUS1 College of Engineering and Architecture Administration Office Full Time Per Year ([\d,.]+)
+    - level: bachelor
+      field: sciences
+      pattern: Science DN200 - SCU1 College of Science Administration Office Full Time Per Year ([\d,.]+)
+    - level: bachelor
+      field: arts
+      pattern: BA Humanities DN530 - AYS1 School of Languages, Cultures and Linguistics Full Time Per Year ([\d,.]+)
+  - university: ucd
+    country: ie
+    url: https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      pattern: MSc Computer Science \(Negotiated Learning\) FT\(T150\) School of Computer Science Full Time Per Year ([\d,.]+)
+    - level: master
+      field: business
+      pattern: MSc Management FT\(B429\) School of Business Full Time Per Year ([\d,.]+)
+    - level: master
+      field: engineering
+      pattern: ME Energy Systems Engineering FT\(T164\) School of Mechanical and Materials Engineering Full Time Per Year ([\d,.]+)
+    - level: master
+      field: sciences
+      pattern: MSc Physics \(Negotiated Learning\) FT\(F012\) School of Physics Full Time Per Year ([\d,.]+)
+    - level: master
+      field: arts
+      pattern: MA Literature & Culture FT\(Z251\) School of English, Drama and Film Full Time Per Year ([\d,.]+)
+  # site blocks automated access (403 to the scraper's user agent); read with a browser user agent
+  - university: ucd
+    country: ie
+    url: https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/livingcosts/
+    parser: html
+    manual: true

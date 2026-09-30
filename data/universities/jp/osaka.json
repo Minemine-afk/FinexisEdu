@@ -1,0 +1,394 @@
+{
+  "id": "osaka",
+  "name": "The University of Osaka",
+  "country": "jp",
+  "city": "Osaka (Suita/Toyonaka)",
+  "currency": "JPY",
+  "website": "https://www.osaka-u.ac.jp",
+  "livingCosts": {
+    "year": 2023,
+    "months": 12,
+    "monthly": {
+      "housing": 47000,
+      "food": 32000,
+      "transport": 4000,
+      "personal": 15000
+    },
+    "sourceUrl": "https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "The University of Osaka publishes only a total (its prospective-student FAQ says about ¥100,000 a month for daily necessities, and about ¥100,000-120,000 including rent), not a breakdown. Figures are JASSO 2023 Lifestyle Survey of Privately-Financed International Students (令和5年度私費外国人留学生生活実態調査, table 7-4), Kinki region average monthly spending in ¥1,000s: housing 40 + utilities 7, food 32, commuting 4, personal = hobbies/leisure 7 + other daily costs 8. Excludes study/research costs (54, includes tuition) and insurance/medical (3)."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "School of Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. Japanese-taught. 2024 and 2025 figures from the university-wide undergraduate admission guides for April 2024 (令和6年度 総合型・学校推薦型選抜) and April 2025 (令和7年度 一般選抜) entry.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.nyusi.icho.osaka-u.ac.jp/assets/pdf/R6sougougakusuiboshuuyoukou.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/ou_yoko2025.pdf/@@download/file"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "School of Engineering Science, Department of Information and Computer Sciences",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. Japanese-taught. 2024 and 2025 figures from the university-wide undergraduate admission guides for April 2024 (令和6年度 総合型・学校推薦型選抜) and April 2025 (令和7年度 一般選抜) entry.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.nyusi.icho.osaka-u.ac.jp/assets/pdf/R6sougougakusuiboshuuyoukou.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/ou_yoko2025.pdf/@@download/file"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "School of Economics",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. Japanese-taught. 2024 and 2025 figures from the university-wide undergraduate admission guides for April 2024 (令和6年度 総合型・学校推薦型選抜) and April 2025 (令和7年度 一般選抜) entry.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.nyusi.icho.osaka-u.ac.jp/assets/pdf/R6sougougakusuiboshuuyoukou.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/ou_yoko2025.pdf/@@download/file"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "School of Science, Chemistry-Biology Combined Major Program (English-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the university-wide undergraduate admission guides for April 2024 (令和6年度 総合型・学校推薦型選抜) and April 2025 (令和7年度 一般選抜) entry.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.nyusi.icho.osaka-u.ac.jp/assets/pdf/R6sougougakusuiboshuuyoukou.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/ou_yoko2025.pdf/@@download/file"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "School of Human Sciences, Human Sciences International Undergraduate Degree Program (English-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the university-wide undergraduate admission guides for April 2024 (令和6年度 総合型・学校推薦型選抜) and April 2025 (令和7年度 一般選抜) entry.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.nyusi.icho.osaka-u.ac.jp/assets/pdf/R6sougougakusuiboshuuyoukou.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/ou_yoko2025.pdf/@@download/file"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Graduate School of Engineering (Master's; English-taught international programs available)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the Graduate School of Information Science and Technology master's admission guides for April 2024 and April 2025 entry; the rate is university-wide.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2024/13_a_JA.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2025/13_a_JA.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Graduate School of Information Science and Technology (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the Graduate School of Information Science and Technology master's admission guides for April 2024 and April 2025 entry; the rate is university-wide.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2024/13_a_JA.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2025/13_a_JA.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Graduate School of Economics (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the Graduate School of Information Science and Technology master's admission guides for April 2024 and April 2025 entry; the rate is university-wide.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2024/13_a_JA.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2025/13_a_JA.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Graduate School of Science (Master's; International Physics Course and other English programs)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the Graduate School of Information Science and Technology master's admission guides for April 2024 and April 2025 entry; the rate is university-wide.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2024/13_a_JA.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2025/13_a_JA.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Graduate School of Humanities (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the Graduate School of Information Science and Technology master's admission guides for April 2024 and April 2025 entry; the rate is university-wide.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2024/13_a_JA.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2025/13_a_JA.pdf"
+        }
+      ]
+    }
+  ]
+}

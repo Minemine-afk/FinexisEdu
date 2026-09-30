@@ -1,0 +1,33 @@
+# University of Otago. otago.ac.nz sits behind a Cloudflare bot challenge
+# ("Just a moment...", HTTP 403) for scripted requests, so every page is checked by hand.
+sources:
+  # site blocks automated access
+  - university: otago
+    country: nz
+    url: https://www.otago.ac.nz/study/fees/international-tuition-fees/sciences
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: otago
+    country: nz
+    url: https://www.otago.ac.nz/study/fees/international-tuition-fees/business-school
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: otago
+    country: nz
+    url: https://www.otago.ac.nz/study/fees/international-tuition-fees/humanities
+    parser: html
+    manual: true
+  # site blocks automated access (Student Services Fee, feeds annualCompulsoryFees)
+  - university: otago
+    country: nz
+    url: https://www.otago.ac.nz/study/fees/student-services-fee
+    parser: html
+    manual: true
+  # site blocks automated access (living costs)
+  - university: otago
+    country: nz
+    url: https://www.otago.ac.nz/international/future-students/accommodation-living/living-costs
+    parser: html
+    manual: true

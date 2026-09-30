@@ -1,0 +1,57 @@
+# Monash University (Clayton). monash.edu sits behind a Cloudflare bot challenge
+# ("Just a moment...", HTTP 403) for scripted requests, so every page is checked by hand.
+sources:
+  # site blocks automated access
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/computer-science-c2001
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/commerce-b2001
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/engineering-e3001
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/science-s2000
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/arts-a2000
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/information-technology-c6001
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/business-b6005
+    parser: html
+    manual: true
+  # site blocks automated access
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/professional-engineering-e6011
+    parser: html
+    manual: true
+  # site blocks automated access (living costs)
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/why-choose-monash/our-locations/life-in-melbourne/cost-of-living
+    parser: html
+    manual: true

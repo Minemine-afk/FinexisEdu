@@ -1,0 +1,119 @@
+# Sunway University. Programme pages show "Estimated Annual Course Fee (Year YYYY) RMx for
+# Malaysian students USDy for international students" (or "Estimated Total Course Fee" for
+# master's). International students pay the RM equivalent; the RM figure is captured and total
+# programme fees are divided by the duration.
+sources:
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-computer-science
+    parser: html
+    year_pattern: Estimated Annual Course Fee \(Year (\d{4})\)
+    targets:
+    - level: bachelor
+      field: computing
+      tier: international
+      pattern: Estimated Annual Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-business-management
+    parser: html
+    year_pattern: Estimated Annual Course Fee \(Year (\d{4})\)
+    targets:
+    - level: bachelor
+      field: business
+      tier: international
+      pattern: Estimated Annual Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-mechanical-engineering-honours
+    parser: html
+    year_pattern: Estimated Annual Course Fee \(Year (\d{4})\)
+    targets:
+    - level: bachelor
+      field: engineering
+      tier: international
+      pattern: Estimated Annual Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-biomedicine
+    parser: html
+    year_pattern: Estimated Annual Course Fee \(Year (\d{4})\)
+    targets:
+    - level: bachelor
+      field: sciences
+      tier: international
+      pattern: Estimated Annual Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/faculty-of-arts-and-social-sciences/courses/ba-hons-communication
+    parser: html
+    year_pattern: Estimated Annual Course Fee \(Year (\d{4})\)
+    targets:
+    - level: bachelor
+      field: arts
+      tier: international
+      pattern: Estimated Annual Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/master-advanced-computing
+    parser: html
+    year_pattern: Estimated Total Course Fee \(Year (\d{4})\)
+    targets:
+    - level: master
+      field: computing
+      tier: international
+      pattern: Estimated Total Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/sunway-business-school/courses/master-of-business-administration
+    parser: html
+    year_pattern: Estimated Total Course Fee \(Year (\d{4})\)
+    targets:
+    # total for the 2-year part-time programme
+    - level: master
+      field: business
+      tier: international
+      pattern: Estimated Total Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+      multiplier: 0.5
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/master-of-science-life-sciences
+    parser: html
+    year_pattern: Estimated Total Course Fee \(Year (\d{4})\)
+    targets:
+    # total for the 2-year full-time research master's
+    - level: master
+      field: sciences
+      tier: international
+      pattern: Estimated Total Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+      multiplier: 0.5
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/faculty-of-arts-and-social-sciences/courses/master-of-arts-communication
+    parser: html
+    year_pattern: Estimated Total Course Fee \(Year (\d{4})\)
+    targets:
+    - level: master
+      field: arts
+      tier: international
+      pattern: Estimated Total Course Fee \(Year \d{4}\) RM([\d,]+) for Malaysian students
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/international/experience-sunway
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Accommodation \(Sunway hostels\) . RM([\d,]+) . RM([\d,]+) per month
+      multiplier: 0.5
+    - key: living.food
+      pattern: Food \(3 basic meals\) RM([\d,]+) per month
+    - key: living.personal
+      pattern: Entertainment allowances RM ([\d,]+) . ([\d,]+) per month
+      multiplier: 0.5
+  # one-off fees (enrolment fee RM742 incl. SST, EMGS student pass processing RM3,300): prose
+  # page, checked by hand
+  - university: sunway
+    country: my
+    url: https://sunwayuniversity.edu.my/international/apply-today
+    parser: html
+    manual: true

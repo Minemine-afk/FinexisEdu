@@ -1,0 +1,23 @@
+sources:
+  # UNIGE semester fees, identical for all students (CHF 65 fixed + CHF 435 supervision).
+  - university: unige
+    country: ch
+    url: https://www.unige.ch/immatriculations/informations/taxes
+    parser: html
+    targets:
+    - pattern: Les taxes s’élèvent à CHF ([\d’']+)\.- par semestre
+      multiplier: 2
+  # Monthly cost-of-living estimate published for incoming students.
+  - university: unige
+    country: ch
+    url: https://www.unige.ch/exchange/incoming/pourquoi-venir-lunige/etudiants/mobilite-monde-etudiants/4-preparer-son-sejour/budget
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Loyer CHF ([\d’']+)\.- Electricité/téléphone CHF ([\d’']+)\.-
+    - key: living.food
+      pattern: Entretien \(alimentation, etc\.\) CHF ([\d’']+)\.-
+    - key: living.transport
+      pattern: Frais de déplacement CHF ([\d’']+)\.-
+    - key: living.personal
+      pattern: Frais d'études CHF ([\d’']+)\.-.*?Habillement/activités culturelles/ loisirs CHF ([\d’']+)\.-

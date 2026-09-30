@@ -1,0 +1,304 @@
+{
+  "id": "canterbury",
+  "name": "University of Canterbury",
+  "country": "nz",
+  "city": "Christchurch",
+  "currency": "NZD",
+  "website": "https://www.canterbury.ac.nz",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 988,
+      "food": 628.33,
+      "transport": 108.33,
+      "personal": 164.67
+    },
+    "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/living-costs/living-costs-estimate-flatting",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "UC 'Flatting - estimate of costs' (page dated 15 July 2026; single person sharing a 4-bedroom house in Ilam), weekly x 52/12. Housing: rent $200 + power $20 + internet $8/wk. Food: $145/wk. Transport: $25/wk. Personal: mobile phone $8 + contents and liability insurance $10 + other/incidentals $20/wk. UC's weekly total is $436. Excludes one-off and annual extras (bond $800, rent in advance $400, furnishings $750, books $750, parking $560, clothing $750). UC's halls estimate is $525/wk."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Data Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43930,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international tuition fee estimate per 120 points (BDataSc, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $46,125. Compulsory = Student Services Levy for on-campus study, $10.30/point x 120 = $1,236 in 2026 (2027 rate not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42080,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39590,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international tuition fee estimate per 120 points (BCom, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $41,570. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37920,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering with Honours",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 49540,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international tuition fee estimate per 120 points for the FIRST year of the BE(Hons) (480 points = 4 years); UC quotes second to fourth years higher at $54,180 (2026: $51,900; 2028: $56,890), which this single annual figure does not capture. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 47450,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44980,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international tuition fee estimate per 120 points (BSc, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $47,230. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43080,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 36410,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international tuition fee estimate per 120 points (BA, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $38,230. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 34880,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Computer Science",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47600,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 Special Programme Fee $71,400 for the whole 180-point PMCS (paid at the start, 12-18 months), divided by 1.5 years. 2026 = $67,950 / 1.5; 2028 published as $75,000. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45300,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43800,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 Special Programme Fee $65,700 for the whole 180-point MBA (paid at the start, 12-18 months), divided by 1.5 years. 2026 = $62,850 / 1.5; 2028 published as $70,350. The 180-point Master of Business Management / Master of Commerce are $59,400. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 41900,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 54600,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 Special Programme Fee $54,600 for the whole 120-point ME (research master's, paid at the start; 12-18 months). 2026 = $51,900; 2028 published as $57,300. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 51900,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47600,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international tuition fee estimate per 120 points for the 240-point MSc (2 years); actual fee depends on courses. 2026 = $45,300; 2028 published as $50,000. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45300,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (Thesis)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40200,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 Special Programme Fee $40,200 for the whole 120-point MA(Thesis) (paid at the start; 12-18 months). 2026 = $38,200; 2028 published as $42,200. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38200,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
+        }
+      ]
+    }
+  ]
+}

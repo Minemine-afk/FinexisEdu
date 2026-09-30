@@ -1,0 +1,184 @@
+{
+  "id": "monash",
+  "name": "Monash University",
+  "country": "au",
+  "city": "Melbourne",
+  "currency": "AUD",
+  "website": "https://www.monash.edu",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1679.17,
+      "food": 1408.33,
+      "transport": 162.5,
+      "personal": 1118
+    },
+    "sourceUrl": "https://www.monash.edu/study/why-choose-monash/our-locations/life-in-melbourne/cost-of-living",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "Monash 'Cost of living' page (no year given; 2026 is the year it was read), weekly range midpoints x 52/12. Housing: shared rental in the Clayton area $275-$380/wk + gas, water and electricity $40-$80/wk. Food: groceries and eating out $150-$500/wk. Transport: public transport $25-$50/wk. Personal: phone and internet $20-$46/wk + entertainment $150-$300/wk. Other columns: on campus $350-$450/wk, homestay $275-$430/wk, private rental $500-$750/wk. Monash's headline is A$30,000-$45,000 per year. monash.edu blocks automated access (Cloudflare challenge); the page was read on 2026-09-30 through a text rendering (r.jina.ai) of the official URL."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computer Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 45440,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/computer-science-c2001",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "C2001, Clayton campus. 2027 international full fee per 48 credit points (standard full-time year). Excludes the Student Services and Amenities Fee (Monash's SSAF page blocks automated access, so it could not be verified; the 2027 statutory cap is about A$386) and OSHC. Fees reviewed annually. monash.edu blocks automated access (Cloudflare challenge); the official page was read on 2026-09-30 through a text rendering (r.jina.ai) of this URL.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 38740,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/commerce-b2001",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "B2001, Clayton campus. 2027 international full fee per 48 credit points (standard full-time year). Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (Honours)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 51340,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/engineering-e3001",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "E3001, Clayton campus. 2027 international full fee per 48 credit points (standard full-time year). Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47940,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/science-s2000",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "S2000, Clayton campus. 2027 international full fee per 48 credit points (standard full-time year). Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34740,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/arts-a2000",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "A2000, Clayton and Caulfield campuses. 2027 international full fee per 48 credit points (standard full-time year). Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Information Technology",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44740,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/information-technology-c6001",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "C6001, Clayton campus. 2027 international full fee per 48 credit points. Duration 2 years (96 points, entry level 1); shorter with credit. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 38740,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/business-b6005",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "B6005, Caulfield campus (Melbourne). 2027 international full fee per 48 credit points. Duration 2 years (96 points, entry level 1); 1-1.5 years with credit. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Professional Engineering",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 51340,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/professional-engineering-e6011",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "E6011, Clayton campus. 2027 international full fee per 48 credit points. Duration 2 years (96 points) for holders of a 4-year engineering degree; 3 years (144 points) otherwise. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access.",
+      "feeHistory": []
+    }
+  ]
+}

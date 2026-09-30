@@ -1,7 +1,7 @@
 import fallback from "@/data/fx-fallback.json";
 import { FxRates } from "./schema";
 
-export const FX_CURRENCIES = ["GBP", "AUD", "USD", "CAD", "NZD", "JPY"];
+export const FX_CURRENCIES = ["GBP", "AUD", "USD", "EUR", "MYR", "CAD", "NZD", "CHF", "JPY"];
 const FRANKFURTER_URL = `https://api.frankfurter.dev/v1/latest?base=SGD&symbols=${FX_CURRENCIES.join(",")}`;
 const ONE_DAY = 60 * 60 * 24;
 

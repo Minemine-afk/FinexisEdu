@@ -29,14 +29,25 @@ from .models import FeeHistoryEntry, Programme, Registry, Source, University
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 REGISTRY_PATH = Path(__file__).resolve().parent / "registry.yaml"
+# Extra registry files, one per university or country, merged with registry.yaml.
+REGISTRY_DIR = Path(__file__).resolve().parent / "registry.d"
 SUMMARY_PATH = Path(__file__).resolve().parent / "out" / "summary.md"
 
 FLAG_THRESHOLD = 0.25  # changes bigger than this are called out for review
 MANUAL_CHECK_AFTER = timedelta(days=330)
-FX_CURRENCIES = ["GBP", "AUD", "USD", "CAD", "NZD", "JPY"]
+FX_CURRENCIES = ["GBP", "AUD", "USD", "EUR", "MYR", "CAD", "NZD", "CHF", "JPY"]
 FX_URL = "https://api.frankfurter.dev/v1/latest?base=SGD&symbols=" + ",".join(FX_CURRENCIES)
 
 Fetcher = Callable[[str, str], str]
+
+
+def load_registry(path: Path = REGISTRY_PATH, extra_dir: Path = REGISTRY_DIR) -> Registry:
+    """registry.yaml plus every `sources:` list in registry.d/*.yaml, in filename order."""
+    sources = list(yaml.safe_load(path.read_text())["sources"])
+    if extra_dir.is_dir():
+        for part in sorted(extra_dir.glob("*.yaml")):
+            sources.extend(yaml.safe_load(part.read_text()).get("sources") or [])
+    return Registry.model_validate({"sources": sources})
 
 
 @dataclass
@@ -361,7 +372,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--summary", type=Path, default=SUMMARY_PATH, help="where to write the PR summary")
     args = ap.parse_args(argv)
 
-    registry = Registry.model_validate(yaml.safe_load(REGISTRY_PATH.read_text()))
+    registry = load_registry()
     report = run(registry, DATA_DIR, date.today(), dry_run=args.dry_run, only=args.only)
     summary = summarise(report)
     if args.dry_run:

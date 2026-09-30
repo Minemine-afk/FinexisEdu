@@ -1,0 +1,28 @@
+sources:
+  # EPFL semester invoice: tripled tuition for foreign students from autumn 2025, plus compulsory sports and social-fund contributions.
+  - university: epfl
+    country: ch
+    url: https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees
+    parser: html
+    targets:
+    - pattern: CHF \d+ in tuition fee \(CHF (\d+) for some students from the fall semester, \d{4}
+      multiplier: 2
+    - key: annualCompulsoryFees
+      pattern: CHF (\d+) in contribution to the sports facilities CHF (\d+) in contribution to the social fund
+      multiplier: 2
+  # 'Financing your studies': approximate monthly budget for foreigners (12 months) and the one-off application fee.
+  - university: epfl
+    country: ch
+    url: https://www.epfl.ch/education/studies/en/financing-study/
+    parser: html
+    targets:
+    - key: oneOffFees
+      pattern: 'Approximate budget for foreigner .*?application fee when the application is submitted \(1x\): CHF (\d+)\.-'
+    - key: living.housing
+      pattern: Approximate budget for foreigner .*?Housing ([\d’']+)\.-
+    - key: living.food
+      pattern: Approximate budget for foreigner .*?Food ([\d’']+)\.-
+    - key: living.transport
+      pattern: Approximate budget for foreigner .*?Transports ([\d’']+)\.-
+    - key: living.personal
+      pattern: Approximate budget for foreigner .*?Supplies ([\d’']+)\.-.*?Radio and television fee ([\d’']+)\.-.*?Other expenses ([\d’']+)\.-

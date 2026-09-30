@@ -1,0 +1,26 @@
+sources:
+  # Board-approved tuition fee schedule (Appendix A) is published as an Excel workbook, which the
+  # scraper cannot parse (html/pdf only); the Registrar's fee pages only link to SharePoint copies.
+  - university: mcmaster
+    country: ca
+    url: https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx
+    parser: html
+    manual: true
+  # Residence fees (housing, 8-month academic year)
+  - university: mcmaster
+    country: ca
+    url: https://housing.mcmaster.ca/future-residents/residence-fees/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Double Room \$([\d,.]+) Brandon Hall
+      multiplier: 0.125
+  # Residence meal plans (food, full academic year)
+  - university: mcmaster
+    country: ca
+    url: https://hospitality.mcmaster.ca/meal-plans-and-cards/meal-plans/residence-meal-plans/
+    parser: html
+    targets:
+    - key: living.food
+      pattern: Trad A \$[\d,]+ \$[\d,]+ \$([\d,]+)
+      multiplier: 0.125

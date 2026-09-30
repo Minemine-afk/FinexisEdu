@@ -1,0 +1,30 @@
+# Ludwig Maximilian University of Munich. No tuition; only the Studierendenwerk basic fee
+# (per semester, amounts written "97,00", so only the euro part is captured).
+sources:
+  - university: lmu
+    country: de
+    url: https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/
+    parser: html
+    targets:
+    - key: annualCompulsoryFees
+      # first (most recent) semester listed under "Fee amount"
+      pattern: 'Fee amount (?:Summer|Winter) Semester \d{4}(?:/\d{2})?: basic fee (\d+),\d{2}'
+      multiplier: 2
+  # Studierendenwerk basic-fee statute, cited for the 2025 fee history only
+  - university: lmu
+    country: de
+    url: https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf
+    parser: pdf
+    manual: true
+  - university: lmu
+    country: de
+    url: https://www.lmu.de/en/workspace-for-students/international-student-guide/living-costs/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: 'Rooms in private housing including utilities: ([\d,]+) - ([\d,]+) euros'
+      multiplier: 0.5
+    - key: living.food
+      pattern: 'Food, health insurance, leisure activities: approx\. ([\d,]+) euros'
+    - key: living.transport
+      pattern: '\(public transportation\): ([\d,]+) euros'

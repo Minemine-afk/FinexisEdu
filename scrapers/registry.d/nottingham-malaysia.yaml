@@ -1,0 +1,79 @@
+# University of Nottingham Malaysia. Fees are fixed at the year of entry; the fee pages
+# list one year's intake (currently 2027) with a Malaysian and an International column.
+sources:
+  - university: nottingham-malaysia
+    country: my
+    url: https://www.nottingham.edu.my/study/undergraduate-courses/tuition-fees.aspx
+    parser: html
+    year_pattern: effective from January (\d{4})
+    targets:
+    - level: bachelor
+      field: computing
+      tier: international
+      pattern: BSc \(Hons\) Computer Science School of Computer and Mathematical Sciences RM[\d,]+ RM([\d,]+)
+    - level: bachelor
+      field: business
+      tier: international
+      pattern: BSc \(Hons\) International Business Management Nottingham University Business School \(NUBS\) RM[\d,]+ RM([\d,]+)
+    - level: bachelor
+      field: engineering
+      tier: international
+      pattern: MEng \(Hons\) Mechanical Engineering Department of Mechanical, Materials and Manufacturing Engineering RM[\d,]+ RM([\d,]+)
+    - level: bachelor
+      field: sciences
+      tier: international
+      pattern: BSc \(Hons\) Biotechnology School of Biological and Environmental Sciences RM[\d,]+ RM([\d,]+)
+    - level: bachelor
+      field: arts
+      tier: international
+      pattern: BA \(Hons\) English Language and Literature School of Humanities RM[\d,]+ RM([\d,]+)
+  - university: nottingham-malaysia
+    country: my
+    url: https://www.nottingham.edu.my/Study/Postgraduate-courses/Tuition-fees.aspx
+    parser: html
+    year_pattern: fees listed below are from January (\d{4})
+    targets:
+    # taught master's fees are per programme; all four are 1-year programmes
+    - level: master
+      field: business
+      tier: international
+      pattern: MSc Business \(International Management\) Nottingham University of Business School \(NUBS\) RM[\d,]+ RM([\d,]+)
+    - level: master
+      field: engineering
+      tier: international
+      pattern: MSc Environmental Engineering Department of Chemical and Environmental Engineering RM[\d,]+ RM([\d,]+)
+    - level: master
+      field: sciences
+      tier: international
+      pattern: MSc Developmental Disorders School of Psychology RM[\d,]+ RM([\d,]+)
+    - level: master
+      field: arts
+      tier: international
+      pattern: MA English Language and Literature School of Humanities RM[\d,]+ RM([\d,]+)
+  - university: nottingham-malaysia
+    country: my
+    url: https://www.nottingham.edu.my/International/LifeinMalaysia/Finance/Index.aspx
+    parser: html
+    targets:
+    # ranges: the two bounds are summed and halved
+    - key: living.housing
+      pattern: On-campus accommodation RM([\d,]+) - RM([\d,]+) per month
+      multiplier: 0.5
+    - key: living.food
+      pattern: Food RM([\d,]+) - RM([\d,]+) per month
+      multiplier: 0.5
+    - key: living.personal
+      pattern: phone bill . about RM([\d,]+)-RM([\d,]+) monthly
+      multiplier: 0.5
+  # one-off fees (international application fee RM424; visa processing RM3,900 UG / RM3,150 master's):
+  # prose pages, checked by hand
+  - university: nottingham-malaysia
+    country: my
+    url: https://www.nottingham.edu.my/Study/How-to-apply/how-to-apply.aspx
+    parser: html
+    manual: true
+  - university: nottingham-malaysia
+    country: my
+    url: https://www.nottingham.edu.my/International/Offerholders/Visasandimmigration/New-students.aspx
+    parser: html
+    manual: true

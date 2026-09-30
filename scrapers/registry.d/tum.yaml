@@ -1,0 +1,129 @@
+# Technical University of Munich. Programme pages carry both the programme-specific non-EU
+# tuition fee and the student-union semester fee (both per semester, so multiplier 2).
+sources:
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: for this degree program are ([\d,]+) euros per semester
+      multiplier: 2
+    - level: bachelor
+      field: computing
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      pattern: for this degree program are ([\d,]+) euros per semester
+      multiplier: 2
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-bachelor-of-science-bsc
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: for this degree program are ([\d,]+) euros per semester
+      multiplier: 2
+    - level: bachelor
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/physics-bachelor-of-science-bsc
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: for this degree program are ([\d,]+) euros per semester
+      multiplier: 2
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/informatics-master-of-science-msc
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      pattern: for this degree program are ([\d,]+) euros per semester
+      multiplier: 2
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-tum-bwl-master-of-science-msc
+    parser: html
+    targets:
+    - level: master
+      field: business
+      pattern: for this degree program are ([\d,]+) euros per semester
+      multiplier: 2
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-master-of-science-msc
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      pattern: for this degree program are ([\d,]+) euros per semester
+      multiplier: 2
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  - university: tum
+    country: de
+    url: https://www.tum.de/en/studies/degree-programs/detail/mathematics-master-of-science-msc
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      pattern: for this degree program are ([\d,]+) euros per semester
+      multiplier: 2
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: 'Student Fees: ([\d.]+) €'
+      multiplier: 2
+  # TUM Graduate School cost-of-living page (one-person household minimums, Munich)
+  - university: tum
+    country: de
+    url: https://www.gs.tum.de/en/gs/welcome-office/living-in-the-munich-metropolitan-region/cost-of-living/
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: Rent for shared living or studio apartment \(including utilities\) at least ([\d,]+) Euros
+    - key: living.food
+      pattern: Food at least ([\d,]+) Euros
+    - key: living.transport
+      pattern: Transportation/Local public transit ([\d,]+) Euros
+    - key: living.personal
+      pattern: 'Telecommunication: Phone/internet/radio and TV fees ([\d,]+)-[\d,]+ Euros'

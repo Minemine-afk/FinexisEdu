@@ -1,0 +1,43 @@
+# London School of Economics and Political Science. Fees come from the Planning
+# Division's yearly Table of Fees PDF (a new URL each year; the 2027/28 table is at
+# .../Tables-of-Fees-27-28-and-PGR-Structure-combined-29July2026.pdf). Each row reads
+# "<programme> £<Home> £<Overseas>"; the overseas figure is the second amount.
+sources:
+  - university: lse
+    country: uk
+    url: https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2026-27-and-PGR-structure-combined-28Nov2025.pdf
+    parser: pdf
+    year_pattern: (\d{4})/\d{2} Fee Levels
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: BSc in Data Science £[\d,]+ £([\d,]+)
+    - level: bachelor
+      field: business
+      pattern: BSc in Management £[\d,]+ £([\d,]+)
+    - level: bachelor
+      field: sciences
+      pattern: BSc in Mathematics and Economics £[\d,]+ £([\d,]+)
+    - level: bachelor
+      field: arts
+      pattern: BSc in Economics £[\d,]+ £([\d,]+)
+    - level: master
+      field: computing
+      pattern: MSc in Data Science £[\d,]+ £([\d,]+)
+    - level: master
+      field: business
+      pattern: MSc in Management \(12-Month Programme\) \d £[\d,]+ £([\d,]+)
+    - level: master
+      field: sciences
+      pattern: MSc in Statistics £[\d,]+ £([\d,]+)
+    - level: master
+      field: arts
+      pattern: MSc in Economics £[\d,]+ £([\d,]+)
+  # LSE gives one all-in monthly living estimate, recorded under housing (see data notes).
+  - university: lse
+    country: uk
+    url: https://www.lse.ac.uk/student-life/london-life/london-on-a-budget
+    parser: html
+    targets:
+    - key: living.housing
+      pattern: should allow £([\d,]+) per month for all living expenses

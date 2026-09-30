@@ -1,0 +1,184 @@
+{
+  "id": "hu-berlin",
+  "name": "Humboldt University of Berlin",
+  "country": "de",
+  "city": "Berlin",
+  "currency": "EUR",
+  "website": "https://www.hu-berlin.de",
+  "livingCosts": {
+    "year": 2023,
+    "months": 12,
+    "monthly": {
+      "housing": 410,
+      "food": 198,
+      "transport": 89,
+      "personal": 318
+    },
+    "sourceUrl": "https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/costs-of-education-and-living/",
+    "lastVerified": "2026-09-30",
+    "sourceType": "secondary",
+    "notes": "The university publishes no itemised cost-of-living estimate for Berlin, so this is DAAD's 'Average expenses of a German student' (national average, DZHW 22nd Social Survey 2023): rent incl. utilities EUR 410; food EUR 198; transportation EUR 89; personal = recreation/culture/sports 65 + clothing 46 + working materials 31 + telephone/internet/licence 32 + other 144 = EUR 318. Excludes health insurance (100), tuition (76) and semester contribution (36). DAAD is the German Academic Exchange Service, not the university, so marked secondary. DAAD's HU programme entries only give 'approx. 900 to 1,200 EUR' a month without a breakdown; hu-berlin.de blocks automated access."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Informatik B.Sc. (Monobachelor)",
+      "durationYears": 3,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Betriebswirtschaftslehre B.Sc. (Monobachelor)",
+      "durationYears": 3,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physik B.Sc. (Monobachelor)",
+      "durationYears": 3,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Englisch B.A. (Kombinationsbachelor, core subject)",
+      "durationYears": 3,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German and English. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Informatik M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty. HU has no English-taught computer science master's.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Economics and Management Science (MEMS) M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: English. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German or English. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "English Literatures M.A.",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: English (about 75%) and German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
+      "feeHistory": []
+    }
+  ]
+}

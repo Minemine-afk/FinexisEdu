@@ -7,7 +7,7 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl
 
-CountryCode = Literal["sg", "uk", "au", "us", "ca", "nz", "jp"]
+CountryCode = Literal["sg", "uk", "au", "us", "de", "my", "ca", "nz", "ch", "jp", "ie"]
 LevelT = Literal["bachelor", "master"]
 FieldT = Literal["engineering", "computing", "business", "sciences", "arts"]
 TierT = Literal["citizen", "pr", "international"]

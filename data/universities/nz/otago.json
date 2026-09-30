@@ -1,0 +1,204 @@
+{
+  "id": "otago",
+  "name": "University of Otago",
+  "country": "nz",
+  "city": "Dunedin",
+  "currency": "NZD",
+  "website": "https://www.otago.ac.nz",
+  "livingCosts": {
+    "year": 2025,
+    "months": 9,
+    "monthly": {
+      "housing": 1161.33,
+      "food": 520,
+      "transport": 0,
+      "personal": 641.33
+    },
+    "sourceUrl": "https://www.otago.ac.nz/international/future-students/accommodation-living/living-costs",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "University of Otago 'Standard living costs' table (based on 2025 costs, single student, 40 weeks = one academic year), 'UniFlats standard room' column. Housing: rent $268/wk (48-week contract, gas/electricity/internet included) x 52/12. Food: $4,800 for 40 weeks = $120/wk x 52/12. Transport: not itemised, 0. Personal: personal costs $3,200 + entertainment $2,200 + accommodation activity/other fees $520 over 40 weeks = $148/wk x 52/12. Excludes medical and travel insurance ($855). Otago's totals: UniFlats $24,439, residential college $27,192 for 40 weeks; it recommends NZ$22,000-$27,000. otago.ac.nz blocks automated access (Cloudflare challenge); the page was read on 2026-09-30 through a text rendering (r.jina.ai) of the official URL."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (Computer Science)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47145,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/sciences",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international annual fee for a normal full-time BSc (360 points, 3 years) in Computer Science; actual fee is the sum of paper fees. Compulsory = Student Services Fee, Dunedin campus, $11.93 per 0.01 EFTS = $1,193 for 1 EFTS (2026 rate from otago.ac.nz/study/fees/student-services-fee; 2027 not yet published). Excludes insurance. otago.ac.nz blocks automated access (Cloudflare challenge); the official page was read on 2026-09-30 through a text rendering (r.jina.ai) of this URL.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce (Accounting)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44520,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/business-school",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international annual fee for a normal full-time BCom (360 points, 3 years) majoring in Accounting; other majors $42,840-$46,200. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering with Honours (Software Engineering)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 49875,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/sciences",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international annual fee for the BE(Hons) in Software Engineering (Otago's only engineering degree; 4 years). Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (Chemistry)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46515,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/sciences",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international annual fee for a normal full-time BSc (360 points, 3 years) majoring in Chemistry; other science majors $44,520-$50,925. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (History)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44310,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/humanities",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international annual fee for a normal full-time BA (360 points, 3 years) majoring in History; other arts majors $39,690-$48,090. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science (Coursework) in Computer Science",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 49875,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/sciences",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international fee for the 120-point (1 year) MSc(Coursework) in Computer Science; the 180-point (1.5 year) option is $74,760 in total. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business (Finance)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 64785,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/business-school",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international fee for the 180-point MBus, Finance endorsement, completed in 12 months (higher than a normal full-time load; 18 months for S2 starts on the dissertation path). Most endorsements $64,785; Business Analytics $68,145. Compulsory = 2026 Dunedin Student Services Fee capped at 1.05 EFTS ($1,252.65); $1,193 for 1 EFTS used. Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (Coursework) in Geology",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 49875,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/sciences",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international fee for the 120-point (1 year) MSc(Coursework) in Geology; the 180-point option is $74,760 in total. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (Thesis) in History",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43785,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/humanities",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 international thesis-only fee for the 120-point (1 year) MA(Thesis) in History; most MA subjects $43,785. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access.",
+      "feeHistory": []
+    }
+  ]
+}

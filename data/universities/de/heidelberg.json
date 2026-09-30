@@ -1,0 +1,222 @@
+{
+  "id": "heidelberg",
+  "name": "Heidelberg University",
+  "country": "de",
+  "city": "Heidelberg",
+  "currency": "EUR",
+  "website": "https://www.uni-heidelberg.de",
+  "livingCosts": {
+    "year": 2023,
+    "months": 12,
+    "monthly": {
+      "housing": 410,
+      "food": 198,
+      "transport": 89,
+      "personal": 318
+    },
+    "sourceUrl": "https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/costs-of-education-and-living/",
+    "lastVerified": "2026-09-30",
+    "sourceType": "secondary",
+    "notes": "The university publishes no itemised cost-of-living estimate for Heidelberg, so this is DAAD's 'Average expenses of a German student' (national average, DZHW 22nd Social Survey 2023): rent incl. utilities EUR 410; food EUR 198; transportation EUR 89; personal = recreation/culture/sports 65 + clothing 46 + working materials 31 + telephone/internet/licence 32 + other 144 = EUR 318. Excludes health insurance (100), tuition (76) and semester contribution (36). DAAD is the German Academic Exchange Service, not the university, so marked secondary. Heidelberg's own page only gives a total of 'min. EUR 992 per month' (the residence-permit minimum) with no breakdown."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science (Informatik) B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3000,
+          "annualCompulsoryFees": 379.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Baden-Württemberg tuition fee for non-EU/EEA students with a foreign university entrance qualification: EUR 1,500 per semester x2 (in force since winter 2017/18; EU/EEA students and holders of a German entrance qualification are exempt). Compulsory fees = semester fee EUR 189.80 per semester x2 (administrative fee 80 + Studierendenwerk 95 + student body 10 + nextbike 2.30 + theatre flatrate 2.50), from https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees. Language of instruction: German, partly English. 2024/2025 history: the tuition page states the EUR 1,500 fee has applied since 2017/18; the semester fee of those years was not found, so history entries carry tuition only (current compulsory fees are used).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physics B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3000,
+          "annualCompulsoryFees": 379.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Baden-Württemberg tuition fee for non-EU/EEA students with a foreign university entrance qualification: EUR 1,500 per semester x2 (in force since winter 2017/18; EU/EEA students and holders of a German entrance qualification are exempt). Compulsory fees = semester fee EUR 189.80 per semester x2 (administrative fee 80 + Studierendenwerk 95 + student body 10 + nextbike 2.30 + theatre flatrate 2.50), from https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees. Language of instruction: German. 2024/2025 history: the tuition page states the EUR 1,500 fee has applied since 2017/18; the semester fee of those years was not found, so history entries carry tuition only (current compulsory fees are used).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English Studies B.A. (75%)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3000,
+          "annualCompulsoryFees": 379.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Baden-Württemberg tuition fee for non-EU/EEA students with a foreign university entrance qualification: EUR 1,500 per semester x2 (in force since winter 2017/18; EU/EEA students and holders of a German entrance qualification are exempt). Compulsory fees = semester fee EUR 189.80 per semester x2 (administrative fee 80 + Studierendenwerk 95 + student body 10 + nextbike 2.30 + theatre flatrate 2.50), from https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees. Language of instruction: English and German. 2024/2025 history: the tuition page states the EUR 1,500 fee has applied since 2017/18; the semester fee of those years was not found, so history entries carry tuition only (current compulsory fees are used).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Data and Computer Science M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3000,
+          "annualCompulsoryFees": 379.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Baden-Württemberg tuition fee for non-EU/EEA students with a foreign university entrance qualification: EUR 1,500 per semester x2 (in force since winter 2017/18; EU/EEA students and holders of a German entrance qualification are exempt). Compulsory fees = semester fee EUR 189.80 per semester x2 (administrative fee 80 + Studierendenwerk 95 + student body 10 + nextbike 2.30 + theatre flatrate 2.50), from https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees. Language of instruction: English. 2024/2025 history: the tuition page states the EUR 1,500 fee has applied since 2017/18; the semester fee of those years was not found, so history entries carry tuition only (current compulsory fees are used).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3000,
+          "annualCompulsoryFees": 379.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Baden-Württemberg tuition fee for non-EU/EEA students with a foreign university entrance qualification: EUR 1,500 per semester x2 (in force since winter 2017/18; EU/EEA students and holders of a German entrance qualification are exempt). Compulsory fees = semester fee EUR 189.80 per semester x2 (administrative fee 80 + Studierendenwerk 95 + student body 10 + nextbike 2.30 + theatre flatrate 2.50), from https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees. Language of instruction: English. 2024/2025 history: the tuition page states the EUR 1,500 fee has applied since 2017/18; the semester fee of those years was not found, so history entries carry tuition only (current compulsory fees are used).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "English Studies M.A.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 3000,
+          "annualCompulsoryFees": 379.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Baden-Württemberg tuition fee for non-EU/EEA students with a foreign university entrance qualification: EUR 1,500 per semester x2 (in force since winter 2017/18; EU/EEA students and holders of a German entrance qualification are exempt). Compulsory fees = semester fee EUR 189.80 per semester x2 (administrative fee 80 + Studierendenwerk 95 + student body 10 + nextbike 2.30 + theatre flatrate 2.50), from https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees. Language of instruction: English. 2024/2025 history: the tuition page states the EUR 1,500 fee has applied since 2017/18; the semester fee of those years was not found, so history entries carry tuition only (current compulsory fees are used).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 3000,
+          "sourceUrl": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees/tuition-fees-for-international-students"
+        }
+      ]
+    }
+  ]
+}

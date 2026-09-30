@@ -1,0 +1,394 @@
+{
+  "id": "waterloo",
+  "name": "University of Waterloo",
+  "country": "ca",
+  "city": "Waterloo, ON",
+  "currency": "CAD",
+  "website": "https://uwaterloo.ca",
+  "livingCosts": {
+    "year": 2026,
+    "months": 8,
+    "monthly": {
+      "housing": 1425,
+      "food": 385,
+      "transport": 28,
+      "personal": 758
+    },
+    "sourceUrl": "https://uwaterloo.ca/future-graduate-students/funding/living-costs-and-housing",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "Waterloo Graduate Studies 'Estimated living costs' (single person in Waterloo, OSAP-based, updated annually; monthly figures). Housing = off-campus shared housing incl. utilities $950-$1,900, midpoint $1,425. Food (groceries) $385. Transport $28 (over and above the free UPass). Personal = telephone $106 + entertainment $150 + personal care $80 + clothing $132 + laundry $43 + books and supplies $247 = $758. Months = 8 (fall + winter undergraduate academic year; the page gives monthly figures and a 3-term/12-month graduate year). One-time costs (computer, deposit, furniture) excluded."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Applied Science (BASc) in Mechanical Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 69539,
+          "annualCompulsoryFees": 4443.24,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: Engineering program fee (maximum tuition) term 1A $34,942 + term 1B $34,597 (all engineering programs are co-op). Fees = incidental fees $1,385.62 x 2 + co-op fee $836 x 2 (charged every academic term from 1A). Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 67513,
+          "annualCompulsoryFees": 3973.54,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 68852,
+          "annualCompulsoryFees": 4223.28,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computer Science (BCS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 69884,
+          "annualCompulsoryFees": 2343.82,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: Computer Science/Data Science regular stream maximum tuition $34,942 per term x 2. Fees = full-time incidental fees $1,171.91 x 2. Co-op stream adds an $836 co-op fee per academic term. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 68450,
+          "annualCompulsoryFees": 2042.96,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69194,
+          "annualCompulsoryFees": 2198.08,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Accounting and Financial Management (AFM)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 2682.42,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: Accounting & Financial Management co-op term 1A $27,010 + 1B $27,010 maximum tuition. Fees = incidental fees $1,341.21 x 2; the $836 co-op fee starts in term 2A and is excluded. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 52734,
+          "annualCompulsoryFees": 2329.02,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 2470.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (BSc) Honours Physics",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 50592,
+          "annualCompulsoryFees": 2381.18,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: Science regular Year 1 maximum tuition $25,296 per term x 2. Fees = incidental fees $1,190.59 x 2. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 49120,
+          "annualCompulsoryFees": 2081.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 49120,
+          "annualCompulsoryFees": 2235.44,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (BA) Honours Economics",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 2287.88,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: Arts regular Year 1 maximum tuition $27,010 per term x 2. Fees = incidental fees $1,143.94 x 2. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 1987.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 2142.14,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering (MEng) in Electrical and Computer Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 52200,
+          "annualCompulsoryFees": 3042.33,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: MEng full-time tuition $17,400 per term x 3 terms (one-year course-based programme). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47346,
+          "annualCompulsoryFees": 2656.62,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-program-tuition-fall-2024-international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 49716,
+          "annualCompulsoryFees": 2829,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Mathematics (MMath) in Computer Science",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 3042.33,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: research master's rate $7,696 per term x 3 terms; duration is the typical 2 years (6 terms). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 2656.62,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-program-tuition-fall-2024-international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 2829,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business, Entrepreneurship and Technology (MBET)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72774,
+          "annualCompulsoryFees": 3042.33,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: MBET full-time tuition $24,258 per term x 3 terms (12-month programme). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 68625,
+          "annualCompulsoryFees": 2656.62,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-program-tuition-fall-2024-international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69309,
+          "annualCompulsoryFees": 2829,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (MSc) in Physics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 3042.33,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: research master's rate $7,696 per term x 3 terms; duration is the typical 2 years (6 terms). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 2656.62,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-program-tuition-fall-2024-international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 2829,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (MA) in Economics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 3042.33,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Fall 2026 international schedule: research master's rate $7,696 per term x 3 terms (one-year programme). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 2656.62,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-program-tuition-fall-2024-international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 2829,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "massey",
+  "name": "Massey University",
+  "country": "nz",
+  "city": "Palmerston North",
+  "currency": "NZD",
+  "website": "https://www.massey.ac.nz",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1666.67,
+      "food": 0,
+      "transport": 0,
+      "personal": 0
+    },
+    "sourceUrl": "https://www.massey.ac.nz/study/international-students/living-in-new-zealand/",
+    "lastVerified": "2026-09-30",
+    "sourceType": "official",
+    "notes": "FALLBACK - visa minimum, not a Massey estimate: Massey's 'Living in New Zealand' page gives no cost-of-living breakdown, only that Immigration New Zealand requires NZ$20,000 per year of study for living costs on top of course fees (plus return airfares). NZ$20,000 / 12 is one combined figure for accommodation, food, transport and personal costs, so it is all in housing and the other categories are 0. Massey notes living costs vary considerably and may need to be more."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Information Sciences (Computer Science)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43570,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-information-sciences-UBINS/computer-science-UBINS1JCMSC1/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Computer Science major; 360 credits = 3 years. Other BInfSc majors $42,250-$46,950. Compulsory = 2027 student services fee for on-campus students, $10.30/credit x 120 = $1,236 (quoted on the page). Excludes Studentsafe insurance (~$999/yr). Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39230,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-business-UBBSS/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international tuition for full-time study (120 credits); 360 credits = 3 years. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43570,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-UBSCN/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international tuition for full-time study (120 credits); 360 credits = 3 years (Massey's fee table gives $35,250-$43,570 depending on major). Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (History)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 35250,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-arts-UBART/history-UBART2JHSTR1/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the History major; 360 credits = 3 years. Other BA majors up to $43,570. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Information Sciences",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47490,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-information-sciences-PMINS/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international tuition for full-time study (120 credits); 180 credits = 1.5 years (Auckland campus). Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Studies",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 41040,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-business-studies-PMBSS/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international tuition for full-time study (120 credits); 180 credits = 15-18 months. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (Chemistry)",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47990,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-science-PMSCN/chemistry-PMSCN1SCHMS2/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Chemistry subject; 180 credits = 1.5 years. Other MSc subjects $41,040-$52,720. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (History)",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40010,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-arts-PMART/history-PMART1SHSTR2/",
+      "lastVerified": "2026-09-30",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the History subject; 180 credits = 1.5 years. Other MA subjects up to $47,990. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually.",
+      "feeHistory": []
+    }
+  ]
+}
