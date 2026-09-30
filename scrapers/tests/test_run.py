@@ -161,10 +161,9 @@ def test_stale_entries_listed_for_manual_check(data_dir):
 def test_every_fee_source_is_registered():
     """Each programme's current source page is either scraped or listed for a manual check,
     so no university's fees silently stop being checked."""
-    from scrapers.run import DATA_DIR, REGISTRY_PATH, load_universities
-    import yaml
+    from scrapers.run import DATA_DIR, load_registry, load_universities
 
-    reg = Registry.model_validate(yaml.safe_load(REGISTRY_PATH.read_text()))
+    reg = load_registry()
     registered = {(s.university, str(s.url)) for s in reg.sources}
     for uni_id, (_, uni) in load_universities(DATA_DIR).items():
         for p in uni.programmes:
@@ -176,10 +175,9 @@ def test_every_fee_source_is_registered():
 
 
 def test_committed_registry_and_data_are_valid():
-    from scrapers.run import DATA_DIR, REGISTRY_PATH, load_universities
-    import yaml
+    from scrapers.run import DATA_DIR, load_registry, load_universities
 
-    reg = Registry.model_validate(yaml.safe_load(REGISTRY_PATH.read_text()))
+    reg = load_registry()
     unis = load_universities(DATA_DIR)
     for s in reg.sources:
         assert s.university in unis, s.university

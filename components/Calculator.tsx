@@ -75,7 +75,8 @@ const MAX_SELECTED = 2;
 const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
 // Start years offered. Earlier years use published fee history only.
 const START_YEARS = [2024, 2025, 2026, 2027, 2028];
-const COUNTRY_ORDER = ["sg", "uk", "au", "us", "ca", "nz", "jp"];
+// Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
+const COUNTRY_ORDER = ["sg", "au", "uk", "us", "de", "my", "ca", "nz", "ch", "jp", "ie"];
 const LIFESTYLE_LABELS: Record<Lifestyle, string> = { frugal: "Frugal", moderate: "Moderate", comfortable: "Comfortable" };
 export const LIVING_LABELS: Record<LivingCategory, string> = {
   housing: "Housing",
@@ -163,12 +164,13 @@ export default function Calculator({ universities, countries, fx, today }: Props
     setSelected((prev) => reselect(optionsFor(universities, nextLevel, nextField), prev, available));
   }
 
-  function toggle(key: string) {
+  /** Puts a programme in comparison slot `i`, or empties the slot. */
+  function setSlot(i: number, key: string | null) {
     setSelected((prev) => {
-      if (prev.includes(key)) return prev.filter((k) => k !== key);
-      // Selections hidden by the residency choice don't use up a slot.
-      const active = prev.filter((k) => options.some((o) => o.key === k && available(o)));
-      return active.length < MAX_SELECTED ? [...active, key] : prev;
+      const next = prev.slice(0, MAX_SELECTED);
+      if (key === null) next.splice(i, 1);
+      else next[i] = key;
+      return next;
     });
   }
 
@@ -364,47 +366,23 @@ export default function Calculator({ universities, countries, fx, today }: Props
           )}
         </fieldset>
 
-        <div>
+        <div className="space-y-4">
           <p className="text-sm font-medium">
-            Universities <span className="font-normal text-muted">(up to {MAX_SELECTED})</span>
+            Universities <span className="font-normal text-muted">(compare up to {MAX_SELECTED})</span>
           </p>
-          {grouped.length === 0 && <p className="mt-2 text-sm text-muted">No fee data for this course yet.</p>}
-          <div className="mt-2 space-y-3">
-            {grouped.map(({ country, options: opts }) => (
-              <div key={country?.code}>
-                <p className="text-xs font-medium uppercase tracking-wide text-muted">{country?.name}</p>
-                <ul className="mt-1 space-y-1">
-                  {opts.map((o) => {
-                    const reason = unavailableReason(o, residency, startYear);
-                    const hasRate = reason === null;
-                    const checked = hasRate && selected.includes(o.key);
-                    return (
-                      <li key={o.key}>
-                        <label
-                          className={`flex min-h-11 items-start gap-2 py-2.5 text-sm sm:min-h-0 sm:py-0.5 ${hasRate ? "cursor-pointer" : "text-muted"}`}
-                        >
-                          <input
-                            type="checkbox"
-                            className="mt-1"
-                            checked={checked}
-                            disabled={!hasRate || (!checked && selections.length >= MAX_SELECTED)}
-                            onChange={() => toggle(o.key)}
-                          />
-                          <span>
-                            {o.university.name}
-                            {opts.filter((x) => x.university.id === o.university.id).length > 1 && (
-                              <span className="block text-xs text-muted">{o.programme.name}</span>
-                            )}
-                            {reason && <span className="block text-xs">{reason}</span>}
-                          </span>
-                        </label>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
+          {grouped.length === 0 && <p className="text-sm text-muted">No fee data for this course yet.</p>}
+          {grouped.length > 0 &&
+            Array.from({ length: MAX_SELECTED }, (_, i) => (
+              <UniversityPicker
+                key={i}
+                index={i}
+                current={options.find((o) => o.key === selected[i])}
+                other={options.find((o) => o.key === selected[1 - i])}
+                grouped={grouped}
+                reasonFor={(o) => unavailableReason(o, residency, startYear)}
+                onChange={(key) => setSlot(i, key)}
+              />
             ))}
-          </div>
         </div>
       </aside>
 
@@ -490,6 +468,105 @@ export default function Calculator({ universities, countries, fx, today }: Props
         </div>
       )}
     </div>
+  );
+}
+
+interface CountryGroup {
+  country?: Country;
+  options: Option[];
+}
+
+/** One comparison slot: pick a country, then one of its universities (and programme, if several). */
+function UniversityPicker({
+  index,
+  current,
+  other,
+  grouped,
+  reasonFor,
+  onChange,
+}: {
+  index: number;
+  current?: Option;
+  /** What the other slot holds, so the same programme isn't offered twice. */
+  other?: Option;
+  grouped: CountryGroup[];
+  reasonFor: (o: Option) => string | null;
+  onChange: (key: string | null) => void;
+}) {
+  const select = `mt-1 w-full rounded-md border border-border bg-surface px-3 py-2${FOCUS}`;
+  const countryCode = current?.university.country ?? "";
+  const group = grouped.find((g) => g.country?.code === countryCode);
+  // One entry per university in the chosen country.
+  const universities = group
+    ? group.options.filter((o, i, arr) => arr.findIndex((x) => x.university.id === o.university.id) === i)
+    : [];
+  const programmes = current ? (group?.options ?? []).filter((o) => o.university.id === current.university.id) : [];
+  const reason = current ? reasonFor(current) : null;
+
+  // Prefer a programme that can be priced for this student; avoid duplicating the other slot.
+  const pick = (candidates: Option[]) =>
+    candidates.find((o) => reasonFor(o) === null && o.key !== other?.key) ?? candidates[0];
+
+  return (
+    <fieldset className="rounded-md border border-border bg-surface/60 p-3">
+      <legend className="px-1 text-xs font-medium uppercase tracking-wide text-muted">University {index + 1}</legend>
+      <label className="block">
+        <span className="text-sm">Country</span>
+        <select
+          className={select}
+          value={countryCode}
+          onChange={(e) => {
+            const g = grouped.find((x) => x.country?.code === e.target.value);
+            onChange(g ? pick(g.options).key : null);
+          }}
+        >
+          <option value="">{index === 0 ? "Choose a country" : "None (compare one university)"}</option>
+          {grouped.map((g) => (
+            <option key={g.country?.code} value={g.country?.code}>
+              {g.country?.name}
+            </option>
+          ))}
+        </select>
+      </label>
+      {current && (
+        <label className="mt-2 block">
+          <span className="text-sm">University</span>
+          <select
+            className={select}
+            value={current.university.id}
+            onChange={(e) => onChange(pick(group!.options.filter((o) => o.university.id === e.target.value)).key)}
+          >
+            {universities.map((u) => {
+              const priced = group!.options.some((o) => o.university.id === u.university.id && reasonFor(o) === null);
+              return (
+                <option key={u.university.id} value={u.university.id}>
+                  {u.university.name}
+                  {!priced ? " (no published fee)" : ""}
+                </option>
+              );
+            })}
+          </select>
+        </label>
+      )}
+      {current && programmes.length > 1 && (
+        <label className="mt-2 block">
+          <span className="text-sm">Programme</span>
+          <select className={select} value={current.key} onChange={(e) => onChange(e.target.value)}>
+            {programmes.map((o) => (
+              <option key={o.key} value={o.key}>
+                {o.programme.name}
+                {reasonFor(o) ? " (no published fee)" : ""}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
+      {current && programmes.length === 1 && <p className="mt-1 text-xs text-muted">{current.programme.name}</p>}
+      {reason && <p className="mt-1 text-xs text-warn-fg">{reason}. Change the start year or residency to price it.</p>}
+      {current && other && current.key === other.key && (
+        <p className="mt-1 text-xs text-warn-fg">Same programme in both slots; pick a different one to compare.</p>
+      )}
+    </fieldset>
   );
 }
 
