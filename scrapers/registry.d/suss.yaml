@@ -38,3 +38,10 @@ sources:
     url: https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1
     parser: pdf
     manual: true
+  # Year 2025 graduate non-subsidised fee sheet (updated 12 Nov 2024), still served from the
+  # old content_admissions folder; used only for the 2025 feeHistory rows of the self-funded master's
+  - university: suss
+    country: sg
+    url: https://www.suss.edu.sg/docs/default-source/content_admissions/grad-prog-tuition-fee-year-2025.pdf?sfvrsn=62ebd084_1
+    parser: pdf
+    manual: true
