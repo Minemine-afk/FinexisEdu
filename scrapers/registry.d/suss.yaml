@@ -4,7 +4,9 @@
 # by hand. Undergraduate fees are per course; the data uses SUSS's own 4-year programme
 # totals divided by 4. Graduate fees are whole-programme, excluding GST (9% added in data/).
 sources:
-  # site blocks automated access (Cloudflare bot check)
+  # site blocks automated access (Cloudflare bot check). feeHistory rows come from Wayback
+  # Machine copies of this page: 2025-05-15 (AY2025) and, at its old address
+  # /full-time-undergraduate/admissions/tuition-fees, 2024-01-14 (AY2024); not scraped.
   - university: suss
     country: sg
     url: https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate
