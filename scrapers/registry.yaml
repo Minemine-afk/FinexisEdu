@@ -356,6 +356,18 @@ sources:
     - level: bachelor
       field: medicine
       pattern: \bMedicine [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: arts
+      pattern: (?<!and )Economics [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: computing
+      pattern: Computer Science \[1\] [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: engineering
+      pattern: (?<!Manufacturing )Engineering \[1\] [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: sciences
+      pattern: Natural Sciences \[1\] [\d,]+ ([\d,]+)
   # Postgraduate financial tracker behind the Course Directory's Finance tab; one page per entry year.
   - university: cambridge
     country: uk
