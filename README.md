@@ -23,7 +23,7 @@ abroad. Visas, flights and health insurance are out of scope.
 |---|---|---|
 | Tuition and compulsory fees, per university, level and field | Each university's published fee page (HTML, PDF or JavaScript page) | `scrapers/` re-reads the pages monthly and opens a PR |
 | Exchange rates to SGD | [Frankfurter](https://frankfurter.dev) (European Central Bank reference rates, free, no key) | Fetched live and cached for a day; `data/fx-fallback.json` is used if the API is down |
-| Yearly fee increase used for future years | Per-country default in `data/countries/`; replaced with the median observed increase once 5+ years of history exist | Recomputed by the same monthly run |
+| Yearly fee increase used for future years | Per-country default in `data/countries/`; replaced with the median compound yearly rise across fee series once 5+ series have two or more years of history (per residency tier in Singapore) | Recomputed by the same monthly run |
 
 There is no public API for university tuition anywhere, so fees are scraped
 from each university's own pages. Pages change layout from time to time, so

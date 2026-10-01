@@ -240,11 +240,15 @@ def _median_rate(growth: list[float]) -> float:
 
 def update_fee_increase_defaults(data_dir: Path, unis: list[University], report: Report, dry_run: bool) -> None:
     """Sets each country's default yearly increase to the median observed increase,
-    once there are at least five year-on-year data points.
+    once there are at least five fee series with two or more years of history.
 
-    Rates are also kept per fee tier, since Singapore Citizen fees rise far more
-    slowly than international ones. Identical fee series within a university
-    (e.g. one national rate listed under ten faculties) count once.
+    Each series contributes one observation: its compound yearly growth from
+    the earliest to the latest published fee. Taking every year-on-year step
+    instead would bias the median towards zero where fees rise in steps every
+    other year, as Singapore Citizen fees do. Rates are also kept per fee tier,
+    since Singapore Citizen fees rise far more slowly than international ones.
+    Identical fee series within a university (e.g. one national rate listed
+    under ten faculties) count once.
     """
     for path in sorted((data_dir / "countries").glob("*.json")):
         country = json.loads(path.read_text())
@@ -259,9 +263,9 @@ def update_fee_increase_defaults(data_dir: Path, unis: list[University], report:
                     if len(series) < 2 or (tier, series) in seen:
                         continue
                     seen.add((tier, series))
-                    for (y0, a), (y1, b) in zip(series, series[1:]):
-                        if y1 > y0 and a > 0:
-                            growth.append((b / a) ** (1 / (y1 - y0)) - 1)
+                    (y0, a), (y1, b) = series[0], series[-1]
+                    if y1 > y0 and a > 0:
+                        growth.append((b / a) ** (1 / (y1 - y0)) - 1)
 
         updated = dict(country)
         all_growth = [g for gs in by_tier.values() for g in gs]
