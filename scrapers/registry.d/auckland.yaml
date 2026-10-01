@@ -1,0 +1,84 @@
+# University of Auckland. Each programme page has a "How much does ... cost per year?"
+# section with "2026 fees ... International students NZ$X" (the indicative fee for 120 points;
+# where a range is shown the first figure is the standard-course rate). Coursework fees
+# the pages do not give (MBA, MA) come from the faculty's international per-course PDF,
+# 8 x the 15-point course fee, like the LLM in registry.yaml. The Student Services Fee is
+# already scraped from the cssf page in registry.yaml.
+sources:
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-commerce-bcom.html
+    parser: html
+    year_pattern: (\d{4}) fees
+    targets:
+    - level: bachelor
+      field: business
+      pattern: International students NZ\$([\d,]+)
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-engineering-honours-behons.html
+    parser: html
+    year_pattern: (\d{4}) fees
+    targets:
+    - level: bachelor
+      field: engineering
+      pattern: International students NZ\$([\d,]+)
+  # BSc page shows a range (standard courses – laboratory-heavy majors); the first figure is recorded.
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html
+    parser: html
+    year_pattern: (\d{4}) fees
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: International students NZ\$([\d,]+)
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html
+    parser: html
+    year_pattern: (\d{4}) fees
+    targets:
+    - level: master
+      field: computing
+      pattern: International students NZ\$([\d,]+)
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-engineering-studies-mengst.html
+    parser: html
+    year_pattern: (\d{4}) fees
+    targets:
+    - level: master
+      field: engineering
+      pattern: International students NZ\$([\d,]+)
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-science-msc.html
+    parser: html
+    year_pattern: (\d{4}) fees
+    targets:
+    - level: master
+      field: sciences
+      pattern: International students NZ\$([\d,]+)
+  # MBA: 180 points of BUSMBA courses over 18 months; per year = 8 x the 15-point course fee
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2026-fees/2026-Fees-BE-International.pdf
+    parser: pdf
+    year_pattern: Tuition fees (\d{4}) - International students
+    targets:
+    - level: master
+      field: business
+      pattern: BUSMBA 720 Leading in Complexity 15 \$([\d,.]+)
+      multiplier: 8
+  # MA: 120 points of 700-level Arts courses, 8 x the 15-point ARTSGEN 740 fee
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2026%20Fees%20AEd%20International.pdf
+    parser: pdf
+    year_pattern: Tuition fees (\d{4}) - International students
+    targets:
+    - level: master
+      field: arts
+      pattern: ARTSGEN 740 Research Essay 15 \$([\d,.]+)
+      multiplier: 8
