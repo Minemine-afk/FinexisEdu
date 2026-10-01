@@ -31,6 +31,7 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
       "lastVerified": "2026-09-23",              // ISO date the figure was last checked
       "sourceType": "official",                  // "official" (university/government site) | "secondary" (aggregator, news)
       "cohortLocked": true,                      // true if the fee is fixed for the whole programme once you enrol
+      "internationalEligible": true,             // optional; false if the programme is closed to international students
       "notes": "Tuition Grant rates; excludes GST",   // optional
       "feeHistory": [                            // fees for EARLIER intakes/years; see below
         {

@@ -54,6 +54,7 @@ class Programme(_Model):
     lastVerified: date
     sourceType: Literal["official", "secondary"] = "official"
     cohortLocked: bool = False
+    internationalEligible: bool = True
     notes: str | None = None
     feeHistory: list[FeeHistoryEntry] = Field(default_factory=list)
 
