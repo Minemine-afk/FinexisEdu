@@ -1379,10 +1379,3 @@ sources:
     url: https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d
     parser: html
     manual: true
-  # secondary source for the Law School (JD) fees; Waseda's own 2026 guide PDF
-  # (waseda.jp/folaw/gwls/assets/uploads/2026/02/2026youkou.pdf) returns 403 to automated readers
-  - university: waseda
-    country: jp
-    url: https://agaroot-career.jp/shiho/waseda-law/
-    parser: html
-    manual: true

@@ -1,0 +1,115 @@
+# University of Toronto: Arts & Science and School of Graduate Studies international fee
+# schedules from the Registrar's Tuition Explorer (server-rendered; one page per programme and
+# year). Each page reads "<programme> International Full-time Program Fee ... <row label>
+# $<program fee> $<incidental and system access fee> $<UHIP> $<total>". Earlier years are
+# archived as PDFs under registrar.utoronto.ca/fees-payments/tuition-fee-schedules/.
+sources:
+  # Faculty of Arts & Science Year 1 admission streams (University College): one program fee for
+  # all streams, so it serves the HBA, HBSc, Computer Science and Rotman Commerce records.
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207
+    parser: html
+    year_pattern: (\d{4})/\d{2} Fall and Winter
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: Admission Streams Year 1:.*?International Full-time Program Fee .*?Students with fewer than 4\.0 credits completed \$([\d,.]+)
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Admission Streams Year 1:.*?International Full-time Program Fee .*?Students with fewer than 4\.0 credits completed \$[\d,.]+ \$([\d,.]+)
+    - level: bachelor
+      field: business
+      pattern: Admission Streams Year 1:.*?International Full-time Program Fee .*?Students with fewer than 4\.0 credits completed \$([\d,.]+)
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: Admission Streams Year 1:.*?International Full-time Program Fee .*?Students with fewer than 4\.0 credits completed \$[\d,.]+ \$([\d,.]+)
+    - level: bachelor
+      field: computing
+      pattern: Admission Streams Year 1:.*?International Full-time Program Fee .*?Students with fewer than 4\.0 credits completed \$([\d,.]+)
+    - level: bachelor
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Admission Streams Year 1:.*?International Full-time Program Fee .*?Students with fewer than 4\.0 credits completed \$[\d,.]+ \$([\d,.]+)
+    - level: bachelor
+      field: sciences
+      pattern: Admission Streams Year 1:.*?International Full-time Program Fee .*?Students with fewer than 4\.0 credits completed \$([\d,.]+)
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Admission Streams Year 1:.*?International Full-time Program Fee .*?Students with fewer than 4\.0 credits completed \$[\d,.]+ \$([\d,.]+)
+  # SGS doctoral-stream MA (St. George): the fee table used by the MA in Economics
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=4
+    parser: html
+    year_pattern: (\d{4})/\d{2} Fall and Winter
+    targets:
+    - level: master
+      field: arts
+      pattern: Master of Arts \(Doctoral Stream\) - MA International Full-time Program Fee .*?or earlier \$([\d,.]+)
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Master of Arts \(Doctoral Stream\) - MA International Full-time Program Fee .*?or earlier \$[\d,.]+ \$([\d,.]+)
+  # SGS doctoral-stream MSc (St. George): the fee table used by the MSc in Physics
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=63
+    parser: html
+    year_pattern: (\d{4})/\d{2} Fall and Winter
+    targets:
+    - level: master
+      field: sciences
+      pattern: Master of Science - MSc \(Doctoral Stream\) International Full-time Program Fee .*?or earlier \$([\d,.]+)
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Master of Science - MSc \(Doctoral Stream\) International Full-time Program Fee .*?or earlier \$[\d,.]+ \$([\d,.]+)
+  # Rotman Full-Time MBA (2-year): program fee per academic year for the newly admitted cohort
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=MGT-G&program=98
+    parser: html
+    year_pattern: (\d{4})/\d{2} Fall and Winter
+    targets:
+    - level: master
+      field: business
+      pattern: Master of Business Administration - MBA \(2-Year Degree Program\) International Full-time Program Fee .*?Admitted \d{4} Summer or \d{4}-\d{2} Fall & Winter Session \$([\d,.]+)
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: Master of Business Administration - MBA \(2-Year Degree Program\) International Full-time Program Fee .*?Admitted \d{4} Summer or \d{4}-\d{2} Fall & Winter Session \$[\d,.]+ \$([\d,.]+)
+  # MScAC (16 months): Fall-Winter fee covers the Summer session; the final Fall term is billed at
+  # half the Fall-Winter fee, so the programme costs 1.5 x the Fall-Winter fee over 1.3333 years
+  # (multiplier 1.5 / 1.3333 = 1.125).
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=139
+    parser: html
+    year_pattern: (\d{4})/\d{2} Fall and Winter
+    targets:
+    - level: master
+      field: computing
+      pattern: Master of Science Applied Computing - MScAC International Full-time Program Fee .*?or earlier \$([\d,.]+)
+      multiplier: 1.125
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Master of Science Applied Computing - MScAC International Full-time Program Fee .*?or earlier \$[\d,.]+ \$([\d,.]+)
+  # MEng (12 months, full-time): program fee per academic year
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=APSC-G&program=103
+    parser: html
+    year_pattern: (\d{4})/\d{2} Fall and Winter
+    targets:
+    - level: master
+      field: engineering
+      pattern: Master of Engineering - MEng International Full-time Program Fee .*?or earlier \$([\d,.]+)
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Master of Engineering - MEng International Full-time Program Fee .*?or earlier \$[\d,.]+ \$([\d,.]+)

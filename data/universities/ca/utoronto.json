@@ -122,6 +122,321 @@
           "sourceUrl": "https://planningandbudget.utoronto.ca/wp-content/uploads/2025/04/2025-26-Tuition-Fee-Report.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Honours Bachelor of Arts (Humanities / Social Sciences), Faculty of Arts & Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66110,
+          "annualCompulsoryFees": 2100.29,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Years 2-4 (Honours BA) are charged the same C$66,110 program fee in 2026-27. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61720,
+          "annualCompulsoryFees": 1924.46,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-FAS-UC-INT.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63570,
+          "annualCompulsoryFees": 2040.9,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce, Rotman Commerce (Faculty of Arts & Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66110,
+          "annualCompulsoryFees": 2100.29,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Students enter through the Commerce admission stream at the Year 1 fee; Rotman Commerce (Commerce Specialist) Years 2-4 are deregulated at a higher program fee: C$75,150 in 2026-27 (C$72,260 in 2025-26, C$70,160 in 2024-25), so the total over four years is higher than four times this figure. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61720,
+          "annualCompulsoryFees": 1924.46,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-FAS-UC-INT.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63570,
+          "annualCompulsoryFees": 2040.9,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Honours Bachelor of Science in Computer Science, Faculty of Arts & Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66110,
+          "annualCompulsoryFees": 2100.29,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Students enter through the Computer Science admission stream at the Year 1 fee; the Computer Science major/specialist Years 2-4 are deregulated at a higher program fee: C$69,030 in 2026-27 (C$65,740 in 2025-26, C$63,830 in 2024-25), so the total over four years is higher than four times this figure. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61720,
+          "annualCompulsoryFees": 1924.46,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-FAS-UC-INT.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63570,
+          "annualCompulsoryFees": 2040.9,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Honours Bachelor of Science (Life / Mathematical and Physical Sciences), Faculty of Arts & Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66110,
+          "annualCompulsoryFees": 2100.29,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Years 2-4 (Honours BSc) are charged the same C$66,110 program fee in 2026-27. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61720,
+          "annualCompulsoryFees": 1924.46,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-FAS-UC-INT.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63570,
+          "annualCompulsoryFees": 2040.9,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in Economics (MA), Faculty of Arts & Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 33460,
+          "annualCompulsoryFees": 2292.39,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=4",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international full-time Fall-Winter program fee C$33,460 for St. George doctoral-stream master's programs (SGS fee table 'MA, MSc'), which applies to the MA in Economics (an 8-month, two-session coursework programme; only Financial Economics has a separate fee), from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,292.39. UHIP (C$948) excluded. Not fixed: SGS international fees rise yearly. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 2).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30350,
+          "annualCompulsoryFees": 2141.53,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-SGS-INT-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31870,
+          "annualCompulsoryFees": 2238.48,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=4"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration (Full-Time MBA), Rotman School of Management",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71670,
+          "annualCompulsoryFees": 2392.69,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=MGT-G&program=98",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international program fee C$71,670 per academic year for the 2-year Full-Time MBA (students admitted 2026) from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,392.69 (Rotman's own ancillary fees, about C$650, are not in the schedule and are excluded). UHIP (C$948) excluded. Not fixed: Rotman estimates total international academic fees of C$144,770 for the programme, i.e. the second year is billed at that year's higher rate. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 20).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 68880,
+          "annualCompulsoryFees": 2239.77,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-SGS-INT-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 70260,
+          "annualCompulsoryFees": 2336.72,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=MGT-G&program=98"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science in Applied Computing (MScAC), Department of Computer Science",
+      "durationYears": 1.33,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56328.75,
+          "annualCompulsoryFees": 2292.39,
+          "oneOffFees": 2200
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=139",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "16-month programme (Sep-Dec of the second year). Total programme fee at 2026-27 rates = Fall-Winter full-time program fee C$50,070 (SGS fee regulations: students who pay the full-time Fall-Winter fee pay nothing for the following Summer session, and the MScAC page confirms no payment in semester 3) + final Fall term fee C$25,035 (the Tuition Explorer 'Fall or Winter' schedule, half the Fall-Winter fee) = C$75,105, divided by 1.33 years. Compulsory = Fall-Winter incidental and system access fees C$2,292.39 (C$1,177.09 for the final Fall term alone). One-off = C$2,200 mandatory pre-program activities fee quoted on the MScAC 'Apply' page (read via r.jina.ai on 2026-10-01; that page estimates about C$90,050 all-in for the September 2026 intake). UHIP (C$948) excluded. Not fixed. 2025 = 2025-26 Fall-Winter C$47,690 + Fall-only C$23,845 over 1.33 years (Tuition Explorer); 2024 = 2024-25 C$45,420 + C$22,710 over 1.33 years (archived 2024-25 SGS international fee schedule PDF, Table 55).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 51097.5,
+          "annualCompulsoryFees": 2141.53,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-SGS-INT-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53651.25,
+          "annualCompulsoryFees": 2238.48,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=139"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering (MEng), Faculty of Applied Science & Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72850,
+          "annualCompulsoryFees": 2292.39,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=APSC-G&program=103",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international full-time MEng program fee C$72,850 (12-month programme; the full-time Fall-Winter fee also covers the Summer session under SGS fee regulations) from the U of T Tuition Explorer, matching the Engineering Graduate Studies 'Money Matters' total of C$76,090.39 including incidental fees and UHIP; compulsory = incidental and system access fees C$2,292.39. UHIP (C$948) excluded. Not fixed: SGS international fees rise yearly. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 23).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 68670,
+          "annualCompulsoryFees": 2141.53,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-SGS-INT-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 70730,
+          "annualCompulsoryFees": 2238.48,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=APSC-G&program=103"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Physics (MSc), Faculty of Arts & Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 33460,
+          "annualCompulsoryFees": 2292.39,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=63",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international full-time Fall-Winter program fee C$33,460 for St. George doctoral-stream master's programs (SGS fee table 'MA, MSc'), which applies to the 12-month MSc in Physics (the full-time Fall-Winter fee also covers the Summer session under SGS fee regulations), from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,292.39. UHIP (C$948) excluded. Not fixed: SGS international fees rise yearly. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 2).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30350,
+          "annualCompulsoryFees": 2141.53,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-SGS-INT-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31870,
+          "annualCompulsoryFees": 2238.48,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=63"
+        }
+      ]
     }
   ]
 }
