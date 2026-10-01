@@ -219,6 +219,171 @@
           "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in Economics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32393.73,
+          "annualCompulsoryFees": 1203.05,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/graduate/masters",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Specialized master's rate for students entering 2026S/2026W: C$10,797.91 per instalment x 3 instalments (12-month programme, minimum 3 instalments) = C$32,393.73 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms (graduate students register year-round) and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. The Calendar lists a separate rate per entry year and continuing cohorts' rates rise each year (about 3%), so not cohort-locked. 2024/2025 = that year's new-entrant instalment x 3 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29664.6,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31147.83,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration (Full-time MBA), UBC Sauder School of Business",
+      "durationYears": 1.33,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 81519.37,
+          "annualCompulsoryFees": 1203.05,
+          "oneOffFees": 2599.77
+        }
+      },
+      "sourceUrl": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/graduate/masters",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "'Master of Business Administration (16 months)' international rate for students entering 2026S/2026W: C$27,105.19 per instalment x 4 instalments = C$108,420.76 for the programme, divided by 1.33 years (16 months) (2026/27 Calendar). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49 per year; one-off = Commerce and Business Administration (M.B.A.) society fee C$538.76 and M.B.A. Sauder Student Building Fee C$2,061.01, both collected with the first tuition instalment; iMED insurance excluded. The Calendar fixes each entry-year cohort's instalment for the programme (the 2024 and 2025 cohorts' rates are unchanged in the 2026/27 Calendar). 2024/2025 = that cohort's instalment x 4 / 1.33 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 74651.46,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 78384.03,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Data Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 59767.92,
+          "annualCompulsoryFees": 1203.05,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/graduate/masters",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Specialized master's rate for students entering 2026S/2026W: C$19,922.64 per instalment x 3 instalments = C$59,767.92 for the 10-month programme (2026/27 Calendar; grad.ubc.ca quotes the same programme fee). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. The Calendar fixes each entry-year cohort's instalment (the 2024 and 2025 cohorts' rates are unchanged in the 2026/27 Calendar). 2024/2025 = that cohort's instalment x 3 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54732.57,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 57469.17,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering in Electrical and Computer Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 27419.34,
+          "annualCompulsoryFees": 1203.05,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/graduate/masters",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "'Master of Engineering (full-time)' international rate for students entering 2026S/2026W: C$9,139.78 per instalment x 3 instalments per year = C$27,419.34 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure for the ECE MEng). Minimum programme fee is 3 instalments (12 months); students who take longer pay the same instalment as a continuing fee. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. Continuing cohorts' rates rise each year (about 2-3%), so not cohort-locked. 2024/2025 = that year's new-entrant instalment x 3 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25862.58,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26364.75,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Physics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 10081.65,
+          "annualCompulsoryFees": 1203.05,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/graduate/masters",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard master's Schedule A (full-time) international rate: C$3,360.55 per instalment x 3 instalments per year = C$10,081.65 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure for the MSc Physics). Applies to all standard (non-specialized) MSc/MA programmes; minimum 6 instalments, after which the continuing fee applies. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. Schedule A is reviewed annually (2% rises in recent years), so not cohort-locked. 2024/2025 = that year's Schedule A instalment x 3 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 9690.18,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 9883.98,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+        }
+      ]
     }
   ]
 }
