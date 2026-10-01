@@ -1254,7 +1254,19 @@ sources:
   # site blocks automated access; read through a reader proxy (r.jina.ai)
   - university: smu
     country: sg
-    url: https://masters.smu.edu.sg/msfe
+    url: https://economics.smu.edu.sg/msfe
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai). MAF whole-programme fee per intake year.
+  - university: smu
+    country: sg
+    url: https://business.smu.edu.sg/master-applied-finance
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai). MITB whole-programme fee; one figure for Jan and Aug intakes.
+  - university: smu
+    country: sg
+    url: https://masters.smu.edu.sg/programme/master-of-it-in-business
     parser: html
     manual: true
   # site blocks automated access; read through a reader proxy (r.jina.ai). JD whole-programme fee per admit year.
