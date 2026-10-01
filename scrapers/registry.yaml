@@ -453,22 +453,6 @@ sources:
       pattern: Travel \(zone 1-2\) £ ?\d+ £ ?([\d,]+)
     - key: living.personal
       pattern: Personal and leisure £ ?\d+ £ ?([\d,]+)
-  - university: ucl
-    country: uk
-    url: https://www.mgmt.ucl.ac.uk/management
-    year_pattern: Fees for September (\d{4}) intake
-    targets:
-    - level: master
-      field: business
-      pattern: Fees for September \d{4} intake:\s*Home students:\s*£ ?[\d,]+,\s*Overseas:\s*£ ?([\d,]+)
-  - university: ucl
-    country: uk
-    url: https://www.mgmt.ucl.ac.uk/international-management
-    year_pattern: Fees for (\d{4}) entry
-    targets:
-    - level: bachelor
-      field: business
-      pattern: Fees for \d{4} entry, UK tuition fees £ ?[\d,]+, International Students tuition fees £ ?([\d,]+)
   - university: anu
     country: au
     url: https://programsandcourses.anu.edu.au/2026/program/AENGI
@@ -1309,24 +1293,6 @@ sources:
   - university: oxford
     country: uk
     url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine
-    parser: html
-    manual: true
-  # site blocks automated access; read through a reader proxy (r.jina.ai)
-  - university: ucl
-    country: uk
-    url: https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb
-    parser: html
-    manual: true
-  # secondary source; UCL's own LLM page shows the 2027/28 fee as "to be confirmed" and blocks automated access
-  - university: ucl
-    country: uk
-    url: https://www.mastersportal.com/studies/294183/law.html
-    parser: html
-    manual: true
-  # site blocks automated access; read through a reader proxy (r.jina.ai). 2026-entry page; 2027 page shows N/A.
-  - university: ucl
-    country: uk
-    url: https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/medicine-mbbs-bsc-2026
     parser: html
     manual: true
   # secondary source; the university's own fee page is not machine-readable
