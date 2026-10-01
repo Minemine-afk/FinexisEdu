@@ -1,0 +1,76 @@
+# The Australian National University. Each programme page on programsandcourses.anu.edu.au
+# states the "Annual indicative fee for international students" (per 48 units) for the year
+# in the URL; the Services and Amenities Fee source is in ../registry.yaml.
+sources:
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/BARTS
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/BCOMM
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/AACOM
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/BSC
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/MINTR
+    parser: html
+    targets:
+    - level: master
+      field: arts
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/MBUSA
+    parser: html
+    targets:
+    - level: master
+      field: business
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/7706XMCOMP
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/NELENG
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
+  - university: anu
+    country: au
+    url: https://programsandcourses.anu.edu.au/2026/program/NSCBS
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)

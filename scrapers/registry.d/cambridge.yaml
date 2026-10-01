@@ -1,0 +1,37 @@
+# University of Cambridge, taught master's courses. Each Course Directory entry's "Finance"
+# tab loads a financial tracker page (one host per entry year, e.g. 2027.gaobase...); the
+# Overseas "University Composition Fee" on it already includes the College fee. The
+# undergraduate fee document and the LLM/MBA trackers are in ../registry.yaml.
+sources:
+  - university: cambridge
+    country: uk
+    url: https://2027.gaobase.admin.cam.ac.uk/api/courses/ECECMPMEC/financial_tracker.html?fee_status=O&children=0
+    parser: html
+    targets:
+    - level: master
+      field: arts
+      pattern: University Composition Fee £ ?([\d,]+)
+  - university: cambridge
+    country: uk
+    url: https://2027.gaobase.admin.cam.ac.uk/api/courses/CSCSMPACS/financial_tracker.html?fee_status=O&children=0
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      pattern: University Composition Fee £ ?([\d,]+)
+  - university: cambridge
+    country: uk
+    url: https://2027.gaobase.admin.cam.ac.uk/api/courses/EGEGMPMSL/financial_tracker.html?fee_status=O&children=0
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      pattern: University Composition Fee £ ?([\d,]+)
+  - university: cambridge
+    country: uk
+    url: https://2027.gaobase.admin.cam.ac.uk/api/courses/PCPHASPHY/financial_tracker.html?fee_status=O&children=0
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      pattern: University Composition Fee £ ?([\d,]+)

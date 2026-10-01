@@ -104,17 +104,324 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 1160000,
-          "annualCompulsoryFees": 110000,
-          "oneOffFees": 300000
+          "annualTuition": 1443000,
+          "annualCompulsoryFees": 125000,
+          "oneOffFees": 5000
         }
       },
-      "sourceUrl": "https://agaroot-career.jp/shiho/waseda-law/",
-      "lastVerified": "2026-09-30",
-      "sourceType": "secondary",
+      "sourceUrl": "https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 entrants: admission fee ¥300,000; first-year tuition ¥1,160,000 + practical-training fee ¥100,000 + membership fees ¥10,000 (total ¥1,570,000); years 2 and 3 tuition ¥1,360,000 + ¥100,000 + ¥5,000 (¥1,465,000 a year). First-year rates are recorded; later years are higher. Standard duration 3 years (2 years for students entering with a law degree). Japanese-taught professional degree preparing for the Japanese bar. The figures are published in Waseda's 2026 Law School guide (https://www.waseda.jp/folaw/gwls/assets/uploads/2026/02/2026youkou.pdf), which returns 403 to automated readers, so they were taken from a preparatory-school summary of that guide; hence sourceType secondary. No earlier-year table was read, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "法曹養成専攻 (Graduate School of Law, Legal Practice major) row of the 2026 master's and professional degree fee table. Admission fee ¥300,000 + first-year tuition ¥1,143,000 = ¥1,443,000, the same as tuition in years 2 and 3, so the admission fee is included in tuition (as for the other Waseda entries). Other fees per year = practical-training/seminar fee ¥120,000 + student association annual fee ¥2,000 + health mutual-aid ¥3,000 = ¥125,000; the ¥5,000 student association entry fee is paid once. Standard duration 3 years (2 years for students entering with a law degree). Japanese-taught professional degree preparing for the Japanese bar; the former Law School (法務研究科) was reorganised into the Graduate School of Law from April 2025. 2025 table shows the same amounts. 2024 entrants (法務研究科 row): ¥300,000 + ¥1,160,000 = ¥1,460,000 in year 1 and ¥1,360,000 in years 2-3 (not levelled), seminar fee ¥100,000; first-year figures recorded. Replaces an earlier entry taken from a preparatory-school summary, whose figures matched the 2024 table.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1460000,
+          "annualCompulsoryFees": 105000,
+          "oneOffFees": 5000,
+          "sourceUrl": "https://waseda.box.com/s/9aea3xcne9p3q48r136aw5ukz9hg0f5a"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1443000,
+          "annualCompulsoryFees": 125000,
+          "oneOffFees": 5000,
+          "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "School of Political Science and Economics (English-based Degree Program available)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1281000,
+          "annualCompulsoryFees": 8900,
+          "oneOffFees": 2000
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "School of Political Science and Economics row of the 2026 undergraduate fee table (入学金・学費・諸会費一覧). Admission fee ¥200,000 + first-year tuition ¥1,081,000 = ¥1,281,000, the same as tuition in years 2-4, so the admission fee is included in tuition (as for the engineering entry). Other fees per year (spring + autumn semester) = practical-training fee ¥1,950 x 2 + reading-room library fee ¥250 x 2 + academic society annual fee ¥750 x 2 + health mutual-aid ¥1,500 x 2 = ¥8,900; the ¥2,000 academic society entry fee is paid once. Offers English-based degree programmes in political science, economics and global political economy; the School of International Liberal Studies (SILS, English-taught) is dearer at ¥1,690,000 tuition. 2025 table shows the same amounts; the 2024 table (annual columns) gives practical-training fee ¥4,900, library ¥500, society entry ¥2,000 and annual ¥1,500, health ¥3,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1281000,
+          "annualCompulsoryFees": 9900,
+          "oneOffFees": 2000,
+          "sourceUrl": "https://waseda.box.com/s/zpy44om3fcn5ob1lmdcvdma14qpklled"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1281000,
+          "annualCompulsoryFees": 8900,
+          "oneOffFees": 2000,
+          "sourceUrl": "https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "School of Commerce",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1251000,
+          "annualCompulsoryFees": 14600,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "School of Commerce row of the 2026 undergraduate fee table (入学金・学費・諸会費一覧). Admission fee ¥200,000 + first-year tuition ¥1,051,000 = ¥1,251,000, the same as tuition in years 2-4, so the admission fee is included in tuition (as for the engineering entry). Other fees per year (spring + autumn) = practical-training fee ¥4,400 x 2 + reading-room library fee ¥400 x 2 + academic society annual fee ¥1,000 x 2 + health mutual-aid ¥1,500 x 2 = ¥14,600; no academic society entry fee. Japanese-taught 4-year degree. 2025 table shows the same amounts; the 2024 table (annual columns) gives practical-training ¥8,800, library ¥800, society ¥2,000, health ¥3,000 (its single society column is read as the annual fee, as in 2025-26).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1251000,
+          "annualCompulsoryFees": 14600,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/zpy44om3fcn5ob1lmdcvdma14qpklled"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1251000,
+          "annualCompulsoryFees": 14600,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "School of Advanced Science and Engineering (English-based Undergraduate Program available)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1784000,
+          "annualCompulsoryFees": 103000,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "School of Advanced Science and Engineering row of the 2026 undergraduate fee table (入学金・学費・諸会費一覧). Admission fee ¥200,000 + first-year tuition ¥1,584,000 = ¥1,784,000, the same as tuition in years 2-4, so the admission fee is included in tuition (as for the engineering entry). Other fees per year (spring + autumn) = lab fee ¥50,000 x 2 + health mutual-aid ¥1,500 x 2 = ¥103,000. Physics, applied physics, chemistry, life science and bioscience departments; English-based degree programme offered. Education: School of Education's Department of Science is cheaper (¥1,744,000 tuition). 2024 and 2025 tables show the same amounts (2024: lab ¥100,000 + health ¥3,000).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1784000,
+          "annualCompulsoryFees": 103000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/zpy44om3fcn5ob1lmdcvdma14qpklled"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1784000,
+          "annualCompulsoryFees": 103000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Graduate School of Asia-Pacific Studies (MA in International Relations, English-taught)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1706000,
+          "annualCompulsoryFees": 3000,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "アジア太平洋研究科 row of the 2026 master's and professional degree fee table. Admission fee ¥300,000 + first-year tuition ¥1,406,000 = ¥1,706,000, the same as tuition in year 2, so the admission fee is included in tuition (as for the undergraduate entries). Other fees = health mutual-aid ¥3,000 per year; no seminar fee. Fully English-taught 2-year MA; the Japanese-taught Graduate School of Political Science MA costs ¥922,000 a year. 2025 table shows the same amounts. 2024 entrants: admission ¥300,000 + tuition ¥1,373,000 = ¥1,673,000 in year 1 and tuition ¥1,573,000 in year 2 (the 2024 table was not levelled); the first-year figure is recorded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1673000,
+          "annualCompulsoryFees": 3000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/9aea3xcne9p3q48r136aw5ukz9hg0f5a"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1706000,
+          "annualCompulsoryFees": 3000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Waseda Business School MBA (Graduate School of Business and Finance, full-time 2-year course)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 2065000,
+          "annualCompulsoryFees": 3000,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "経営管理研究科 全日制2年制コース row of the 2026 master's and professional degree fee table. Admission fee ¥300,000 + first-year tuition ¥1,765,000 = ¥2,065,000, the same as tuition in year 2, so the admission fee is included in tuition. Other fees = health mutual-aid ¥3,000 per year. The full-time 2-year course includes the English-taught International MBA; the 1-year full-time MBA is ¥3,278,000 and the evening 2-year MBA ¥1,877,000. 2025 entrants: ¥300,000 + ¥1,665,000 = ¥1,965,000. 2024 entrants: ¥300,000 + ¥1,640,000 = ¥1,940,000 in year 1 and ¥1,840,000 in year 2 (not levelled); first-year figures are recorded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1940000,
+          "annualCompulsoryFees": 3000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/9aea3xcne9p3q48r136aw5ukz9hg0f5a"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1965000,
+          "annualCompulsoryFees": 3000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Graduate School of Fundamental Science and Engineering (Master's, Computer Science and Communications Engineering)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1291000,
+          "annualCompulsoryFees": 99000,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "基幹理工学研究科 情報理工・情報通信専攻 row (shared with mechanical science and aerospace, electronic and physical systems, intermedia studies) of the 2026 master's fee table. Admission fee ¥300,000 + first-year tuition ¥991,000 = ¥1,291,000, the same as tuition in year 2, so the admission fee is included in tuition. Other fees per year = seminar/lab fee ¥96,000 + health mutual-aid ¥3,000 = ¥99,000. English-based International Graduate Program available. 2025 table shows the same amounts. 2024 entrants: ¥300,000 + ¥962,000 = ¥1,262,000 (year 2 ¥1,162,000, not levelled); the 2024 table gives the lab fee only as a school-wide range ¥70,000-96,000, so the 2024 history entry carries only tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1262000,
+          "sourceUrl": "https://waseda.box.com/s/9aea3xcne9p3q48r136aw5ukz9hg0f5a"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1291000,
+          "annualCompulsoryFees": 99000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Graduate School of Creative Science and Engineering (Master's, Modern Mechanical Engineering)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1291000,
+          "annualCompulsoryFees": 97000,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "創造理工学研究科 総合機械工学専攻 row (shared with industrial and management systems engineering and business design) of the 2026 master's fee table. Admission fee ¥300,000 + first-year tuition ¥991,000 = ¥1,291,000, the same as tuition in year 2, so the admission fee is included in tuition. Other fees per year = seminar/lab fee ¥94,000 + health mutual-aid ¥3,000 = ¥97,000 (architecture ¥96,000, civil engineering ¥90,000). English-based International Graduate Program available. 2025 table shows the same amounts. 2024 entrants: ¥300,000 + ¥962,000 = ¥1,262,000 (year 2 ¥1,162,000, not levelled); the 2024 table gives the lab fee only as a school-wide range ¥90,000-120,000, so the 2024 history entry carries only tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1262000,
+          "sourceUrl": "https://waseda.box.com/s/9aea3xcne9p3q48r136aw5ukz9hg0f5a"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1291000,
+          "annualCompulsoryFees": 97000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Graduate School of Advanced Science and Engineering (Master's, Physics and Applied Physics)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1382000,
+          "annualCompulsoryFees": 82500,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "先進理工学研究科 物理学及応用物理学専攻 row (shared with nanoscience/nanoelectronics and cooperative nuclear energy) of the 2026 master's fee table. Admission fee ¥300,000 + first-year tuition ¥1,082,000 = ¥1,382,000, the same as tuition in year 2, so the admission fee is included in tuition. Other fees per year = seminar/lab fee ¥79,500 + health mutual-aid ¥3,000 = ¥82,500 (chemistry and life science departments ¥89,500-109,500). English-based International Graduate Program available. 2025 table shows the same amounts. 2024 entrants: ¥300,000 + ¥1,071,000 = ¥1,371,000 (year 2 ¥1,271,000, not levelled); the 2024 table gives the lab fee only as a school-wide range ¥40,000-109,500, so the 2024 history entry carries only tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1371000,
+          "sourceUrl": "https://waseda.box.com/s/9aea3xcne9p3q48r136aw5ukz9hg0f5a"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1382000,
+          "annualCompulsoryFees": 82500,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,61 @@
+# University College London. www.ucl.ac.uk returns 403 to plain HTTP clients, but the
+# fee-schedule table (a JavaScript-built page embedded in the Fee schedules pages at
+# ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules) loads fine in a headless
+# browser. Each entry reads "<programme>, <award> (<code>) UK Full-time: £<UK> Part-time:
+# <x> Overseas Full-time: £<Overseas> Part-time: <y>"; the overseas full-time figure is the
+# one captured. The page shows no year in its text, so the `year=` parameter in the URL
+# (one per academic year, e.g. 2027 for 2027/28) must be bumped by hand each year and the
+# previous figures moved into feeHistory. Programme codes change between years, so the
+# patterns match the name and any code.
+sources:
+  - university: ucl
+    country: uk
+    url: https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027
+    parser: browser
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: 'Department: Computer Science Computer Science, BSc \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
+    - level: bachelor
+      field: engineering
+      pattern: 'Mechanical Engineering, MEng \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
+    - level: bachelor
+      field: sciences
+      pattern: 'Natural Sciences, BSc \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
+    - level: bachelor
+      field: arts
+      pattern: 'Economics, BSc\(Econ\) \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
+    - level: bachelor
+      field: business
+      pattern: 'International Management, BSc \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
+    - level: bachelor
+      field: law
+      pattern: 'Department: Laws Law, LLB \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
+    - level: bachelor
+      field: medicine
+      pattern: 'Medicine, MBBS \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
+  - university: ucl
+    country: uk
+    url: https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027
+    parser: browser
+    targets:
+    # "Part-time: ..." before the name anchors the start of an entry, so that e.g.
+    # "People Analytics and Human-Centric Management, MSc" is not mistaken for Management, MSc.
+    - level: master
+      field: computing
+      pattern: 'Part-time: (?:N/A|£[\d,]+) Computer Science, MSc \(\w+\) UK Full-time: £[\d,]+ Part-time: (?:N/A|£[\d,]+) Overseas Full-time: £([\d,]+)'
+    - level: master
+      field: engineering
+      pattern: 'Part-time: (?:N/A|£[\d,]+) Civil Engineering, MSc \(\w+\) UK Full-time: £[\d,]+ Part-time: (?:N/A|£[\d,]+) Overseas Full-time: £([\d,]+)'
+    - level: master
+      field: sciences
+      pattern: 'Part-time: (?:N/A|£[\d,]+) Physics, MSc \(\w+\) UK Full-time: £[\d,]+ Part-time: (?:N/A|£[\d,]+) Overseas Full-time: £([\d,]+)'
+    - level: master
+      field: arts
+      pattern: 'Part-time: (?:N/A|£[\d,]+) Economics, MSc \(\w+\) UK Full-time: £[\d,]+ Part-time: (?:N/A|£[\d,]+) Overseas Full-time: £([\d,]+)'
+    - level: master
+      field: business
+      pattern: 'Part-time: (?:N/A|£[\d,]+) Management, MSc \(\w+\) UK Full-time: £[\d,]+ Part-time: (?:N/A|£[\d,]+) Overseas Full-time: £([\d,]+)'
+    - level: master
+      field: law
+      pattern: 'Department: Laws Law, LLM \(\w+\) UK Full-time: £[\d,]+ Part-time: (?:N/A|£[\d,]+) Overseas Full-time: £([\d,]+)'

@@ -1,0 +1,117 @@
+# Waseda University. Fee tables are yearly PDFs on Box, linked from
+# waseda.jp/top/about/disclosure/entrance-fee (a new /s/ link per year; the 2027 tables are
+# already listed there). Data cites the /s/ share link; the scraper fetches the same file
+# via /shared/static/. Waseda levels fees so that year-1 admission + tuition equals the
+# tuition of later years, so annualTuition is the "入学金と授業料の合計" column and the
+# admission fee is not recorded as a one-off. Rows of the undergraduate table read
+# "春(入学時) <admission> <tuition> <lab> <library> <society entry> <society annual> <health>
+# <total> <school> <year-1 total> <admission+tuition> <years 2-4 tuition> 秋 ― ..."; "―" marks
+# an empty cell. Master's rows read "<school/major> <admission> <tuition> <seminar/lab>
+# <student assoc. entry> <student assoc. annual> <society entry> <society annual> <health>
+# <total> <admission+tuition> <year-2 tuition>".
+sources:
+  # 2026 undergraduate table (engineering and law targets are in ../registry.yaml)
+  - university: waseda
+    country: jp
+    url: https://waseda.box.com/shared/static/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
+    parser: pdf
+    year_pattern: (\d{4})（令和\d+）年度 学部
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: 政治経済学部 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: arts
+      key: annualCompulsoryFees
+      pattern: '春\(入学時\) 200,000 [\d,]+ ([\d,]+) ([\d,]+) [\d,]+ ([\d,]+) ([\d,]+) [\d,]+ 政治経済学部 [\d,]+ [\d,]+ [\d,]+ 秋 ― [\d,]+ ([\d,]+) ([\d,]+) ― ([\d,]+) ([\d,]+)'
+    - level: bachelor
+      field: arts
+      key: oneOffFees
+      pattern: '春\(入学時\) 200,000 [\d,]+ [\d,]+ [\d,]+ ([\d,]+) [\d,]+ [\d,]+ [\d,]+ 政治経済学部'
+    - level: bachelor
+      field: business
+      pattern: 商学部 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: '春\(入学時\) 200,000 [\d,]+ ([\d,]+) ([\d,]+) ― ([\d,]+) ([\d,]+) [\d,]+ 商学部 [\d,]+ [\d,]+ [\d,]+ 秋 ― [\d,]+ ([\d,]+) ([\d,]+) ― ([\d,]+) ([\d,]+)'
+    - level: bachelor
+      field: sciences
+      pattern: 先進理工学部 [\d,]+ [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: '春\(入学時\) 200,000 [\d,]+ ([\d,]+) ― ― ― ([\d,]+) [\d,]+ 先進理工学部 [\d,]+ [\d,]+ [\d,]+ 秋 ― [\d,]+ ([\d,]+) ― ― ― ([\d,]+)'
+  # 2026 master's and professional degree table
+  - university: waseda
+    country: jp
+    url: https://waseda.box.com/shared/static/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8
+    parser: pdf
+    year_pattern: (\d{4})（令和\d+）年度 修士課程
+    targets:
+    - level: master
+      field: arts
+      pattern: アジア太平洋研究科 [\d,]+ [\d,]+ ― ― ― ― ― [\d,]+ [\d,]+ ([\d,]+)
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: アジア太平洋研究科 [\d,]+ [\d,]+ ― ― ― ― ― ([\d,]+)
+    - level: master
+      field: business
+      pattern: 全日制2年制コース [\d,]+ [\d,]+ ― ― ― ― ― [\d,]+ [\d,]+ ([\d,]+)
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: 全日制2年制コース [\d,]+ [\d,]+ ― ― ― ― ― ([\d,]+)
+    # Fundamental Science and Engineering: the CS and communications major shares a row
+    # whose label starts with the mechanical/aerospace and electronic systems majors
+    - level: master
+      field: computing
+      pattern: 機械科学・航空宇宙専攻、電子物理システム学専攻、 [\d,]+ [\d,]+ [\d,]+ ― ― ― ― [\d,]+ [\d,]+ ([\d,]+)
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: 機械科学・航空宇宙専攻、電子物理システム学専攻、 [\d,]+ [\d,]+ ([\d,]+) ― ― ― ― ([\d,]+)
+    - level: master
+      field: engineering
+      pattern: 総合機械工学専攻、経営システム工学専攻、 [\d,]+ [\d,]+ [\d,]+ ― ― ― ― [\d,]+ [\d,]+ ([\d,]+)
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: 総合機械工学専攻、経営システム工学専攻、 [\d,]+ [\d,]+ ([\d,]+) ― ― ― ― ([\d,]+)
+    - level: master
+      field: sciences
+      pattern: 物理学及応用物理学専攻、 ナノ理工学専攻＜ナノ基礎物性/ナノエレクトロニクス分野＞、 [\d,]+ [\d,]+ [\d,]+ ― ― ― ― [\d,]+ [\d,]+ ([\d,]+)
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: 物理学及応用物理学専攻、 ナノ理工学専攻＜ナノ基礎物性/ナノエレクトロニクス分野＞、 [\d,]+ [\d,]+ ([\d,]+) ― ― ― ― ([\d,]+)
+    # Law School JD: years 2-3 tuition (= admission + year-1 tuition); the "※3" footnote
+    # marker after the major's name is optional
+    - level: master
+      field: law
+      pattern: '法曹養成専攻 (?:※\d )?[\d,]+ [\d,]+ [\d,]+ [\d,]+ [\d,]+ ― ― [\d,]+ [\d,]+ ([\d,]+)'
+    - level: master
+      field: law
+      key: annualCompulsoryFees
+      pattern: '法曹養成専攻 (?:※\d )?[\d,]+ [\d,]+ ([\d,]+) [\d,]+ ([\d,]+) ― ― ([\d,]+)'
+    - level: master
+      field: law
+      key: oneOffFees
+      pattern: '法曹養成専攻 (?:※\d )?[\d,]+ [\d,]+ [\d,]+ ([\d,]+)'
+  # share links cited in data/ for the master's tables: 2026 (current), 2025 and 2024 (fee history)
+  - university: waseda
+    country: jp
+    url: https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8
+    parser: html
+    manual: true
+  - university: waseda
+    country: jp
+    url: https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh
+    parser: html
+    manual: true
+  - university: waseda
+    country: jp
+    url: https://waseda.box.com/s/9aea3xcne9p3q48r136aw5ukz9hg0f5a
+    parser: html
+    manual: true

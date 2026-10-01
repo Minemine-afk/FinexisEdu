@@ -1,0 +1,11 @@
+# The University of Melbourne. The yearly "Tuition fee tables for international students" PDF
+# (study.unimelb.edu.au, a new URL each year) carries undergraduate typical first-year fees
+# (Table 2, ranges) and graduate per-EFTSL course fees (Table 3). unimelb.edu.au returns
+# HTTP 403 to scripted requests, so the PDF is checked by hand (a text rendering via
+# r.jina.ai works).
+sources:
+  - university: unimelb
+    country: au
+    url: https://study.unimelb.edu.au/__data/assets/pdf_file/0018/493011/2026IntFeeMayUpdate.pdf
+    parser: pdf
+    manual: true

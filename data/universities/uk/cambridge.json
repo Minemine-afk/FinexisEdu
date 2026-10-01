@@ -165,6 +165,282 @@
           "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2026-27.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA Economics (Economics Tripos)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 30798,
+          "annualCompulsoryFees": 14100,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Economics' row; fee Group 1 on the international fees page), fixed at this rate for the duration of the course. Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the median of the published list, £14,100, so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £29,052 (College fee median £13,245), 2025-26 £27,024 (median £12,600), 2024-25 £25,734 (median £11,800).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25734,
+          "annualCompulsoryFees": 11800,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2024-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 27024,
+          "annualCompulsoryFees": 12600,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2025-26.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29052,
+          "annualCompulsoryFees": 13245,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2026-27.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BA Computer Science (Computer Science Tripos)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46872,
+          "annualCompulsoryFees": 14100,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Computer Science' row; fee Group 2 on the international fees page), fixed at this rate for the duration of the course. Three-year BA; students may continue to a fourth year for the MEng at the same annual fee (document footnote 1). Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the median of the published list, £14,100, so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £44,214 (College fee median £13,245), 2025-26 £41,124 (median £12,600), 2024-25 £39,162 (median £11,800).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39162,
+          "annualCompulsoryFees": 11800,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2024-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41124,
+          "annualCompulsoryFees": 12600,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2025-26.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44214,
+          "annualCompulsoryFees": 13245,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2026-27.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "MEng Engineering (Engineering Tripos)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46872,
+          "annualCompulsoryFees": 14100,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Engineering' row; fee Group 2 on the international fees page), fixed at this rate for the duration of the course. The Engineering Tripos is a four-year integrated course leading to the BA and MEng (the BA can be taken after three years); the same annual fee applies in every year (document footnote 1). Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the median of the published list, £14,100, so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £44,214 (College fee median £13,245), 2025-26 £41,124 (median £12,600), 2024-25 £39,162 (median £11,800).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39162,
+          "annualCompulsoryFees": 11800,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2024-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41124,
+          "annualCompulsoryFees": 12600,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2025-26.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44214,
+          "annualCompulsoryFees": 13245,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2026-27.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BA Natural Sciences (Natural Sciences Tripos)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46872,
+          "annualCompulsoryFees": 14100,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Natural Sciences' row; fee Group 2 on the international fees page), fixed at this rate for the duration of the course. Three-year BA; students may continue to a fourth year for the MSci at the same annual fee (document footnote 1). Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the median of the published list, £14,100, so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £44,214 (College fee median £13,245), 2025-26 £41,124 (median £12,600), 2024-25 £39,162 (median £11,800).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39162,
+          "annualCompulsoryFees": 11800,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2024-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41124,
+          "annualCompulsoryFees": 12600,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2025-26.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44214,
+          "annualCompulsoryFees": 13245,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2026-27.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MPhil in Economics",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46128,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://2027.gaobase.admin.cam.ac.uk/api/courses/ECECMPMEC/financial_tracker.html?fee_status=O&children=0",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas University Composition Fee for the 9-month MPhil in Economics starting October 2027, from the University's postgraduate financial tracker for the course (the 'Finance' tab of the Course Directory entry ececmpmec loads this page). The Composition Fee for postgraduates already includes the College fee, so no separate compulsory fee. History: 2026 entry £43,516 from the 2026 tracker; earlier trackers are not reachable. Application fee not included.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43516,
+          "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/ECECMPMEC/financial_tracker.html?fee_status=O&children=0"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MPhil in Advanced Computer Science",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 51084,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://2027.gaobase.admin.cam.ac.uk/api/courses/CSCSMPACS/financial_tracker.html?fee_status=O&children=0",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas University Composition Fee for the 9-month MPhil in Advanced Computer Science starting October 2027, from the University's postgraduate financial tracker for the course (the 'Finance' tab of the Course Directory entry cscsmpacs loads this page). The Composition Fee for postgraduates already includes the College fee, so no separate compulsory fee. History: 2026 entry £48,192 from the 2026 tracker; earlier trackers are not reachable. Application fee not included.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 48192,
+          "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/CSCSMPACS/financial_tracker.html?fee_status=O&children=0"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MPhil in Machine Learning and Machine Intelligence",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 51084,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://2027.gaobase.admin.cam.ac.uk/api/courses/EGEGMPMSL/financial_tracker.html?fee_status=O&children=0",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas University Composition Fee for the 11-month MPhil in Machine Learning and Machine Intelligence starting October 2027, from the University's postgraduate financial tracker for the course (the 'Finance' tab of the Course Directory entry egegmpmsl loads this page). The Composition Fee for postgraduates already includes the College fee, so no separate compulsory fee. History: 2026 entry £48,192 from the 2026 tracker; earlier trackers are not reachable. Application fee not included.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 48192,
+          "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/EGEGMPMSL/financial_tracker.html?fee_status=O&children=0"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MASt in Physics (Master of Advanced Study)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39162,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://2027.gaobase.admin.cam.ac.uk/api/courses/PCPHASPHY/financial_tracker.html?fee_status=O&children=0",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas University Composition Fee for the 9-month MASt in Physics (the taught Part III Physics course; Cambridge's MPhil in Physics is a 12-month research degree, so the taught MASt is recorded instead) starting October 2027, from the University's postgraduate financial tracker for the course (the 'Finance' tab of the Course Directory entry pcphasphy loads this page). The Composition Fee for postgraduates already includes the College fee, so no separate compulsory fee. History: 2026 entry £37,293 from the 2026 tracker; earlier trackers are not reachable. Application fee not included.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37293,
+          "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/PCPHASPHY/financial_tracker.html?fee_status=O&children=0"
+        }
+      ]
     }
   ]
 }

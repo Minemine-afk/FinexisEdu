@@ -1,0 +1,33 @@
+# University of British Columbia: master's tuition from the Vancouver Academic Calendar.
+# Specialized programmes list one row per entry year ("Program entry year 2026S or 2026W
+# $domestic $domestic-continuing $international ..."), newest first; the international
+# figure is the third amount. Standard programmes use Schedule A (3 instalments a year).
+# Undergraduate and JD fees are in ../registry.yaml.
+sources:
+  - university: ubc
+    country: ca
+    url: https://vancouver.calendar.ubc.ca/fees/tuition-fees/graduate/masters
+    parser: html
+    year_pattern: Program entry year (\d{4})S or \d{4}W
+    targets:
+    - level: master
+      field: arts
+      pattern: Master of Arts in Economics Domestic fee per instalment.*?Program entry year \d{4}S or \d{4}W \$ ?[\d,.]+ \$ ?[\d,.]+ \$ ?([\d,.]+)
+      multiplier: 3
+    # 16-month MBA: 4 instalments for the programme, spread over 1.33 years
+    - level: master
+      field: business
+      pattern: Master of Business Administration \(16 months\) Domestic fee per instalment.*?Program entry year \d{4}S or \d{4}W \$ ?[\d,.]+ \$ ?[\d,.]+ \$ ?([\d,.]+)
+      multiplier: 3.007518796992481
+    - level: master
+      field: computing
+      pattern: Master of Data Science Domestic fee per instalment.*?Program entry year \d{4}S or \d{4}W \$ ?[\d,.]+ \$ ?[\d,.]+ \$ ?([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: engineering
+      pattern: Master of Engineering \(full-time\) Domestic fee per instalment.*?Program entry year \d{4}S or \d{4}W \$ ?[\d,.]+ \$ ?[\d,.]+ \$ ?([\d,.]+)
+      multiplier: 3
+    - level: master
+      field: sciences
+      pattern: Full-time \(Schedule A\) 3 3 \$ ?[\d,.]+ \$ ?([\d,.]+)
+      multiplier: 3

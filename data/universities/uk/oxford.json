@@ -27,20 +27,26 @@
       "field": "computing",
       "name": "MSc in Advanced Computer Science",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 43730,
+          "annualTuition": 46350,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://courseoptions.com/uk/course/uni-of-oxford/msc-advanced-computer-science-uni-of-oxford",
-      "lastVerified": "2026-09-23",
+      "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science",
+      "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas course fee, 12-month course. Home fee £18,970. Not confirmed on an official page (ox.ac.uk blocks automated access); from secondary sources.",
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Advanced Computer Science graduate course page (Home £20,100). Full-time 12-month taught MSc in the Department of Computer Science. Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. The 2026 and 2025 figures in feeHistory come from secondary sources (courseoptions.com, gyandhan.com), recorded before the official page could be read.",
       "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43730,
+          "sourceUrl": "https://courseoptions.com/uk/course/uni-of-oxford/msc-advanced-computer-science-uni-of-oxford"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
@@ -154,6 +160,146 @@
       "sourceType": "secondary",
       "cohortLocked": false,
       "notes": "Overseas pre-clinical annual course fee for 2027 entry from the official Medicine course page, charged in years 1-3 (Home £10,050). Clinical fees (years 4-6) are higher: as a guide, Overseas students progressing to the clinical years in 2027 pay £69,160 a year; the clinical fee for 2027 entrants has not been set. Oxford says fees will usually increase annually. No separate compulsory fees. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Philosophy, Politics and Economics (BA, L0V0)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46210,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/philosophy-politics-and-economics",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for 2027 entry from the official Philosophy, Politics and Economics course page (Home £10,050). Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Economics and Management (BA, LN12)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46210,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/economics-and-management",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for 2027 entry from the official Economics and Management course page (Home £10,050). Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science (BA/MCompSci, G400)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 66580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for 2027 entry from the official Computer Science course page (Home £10,050). The course is 3 years for the BA or 4 years for the MCompSci (same annual fee); recorded as the 3-year BA. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Engineering Science (MEng)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 66580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/engineering-science",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for 2027 entry from the official Engineering Science course page (Home £10,050). Four-year integrated MEng. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physics (BA/MPhys, F303)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 66580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/physics",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for 2027 entry from the official Physics course page (Home £10,050). The course is 3 years for the BA or 4 years for the MPhys (same annual fee); recorded as the 3-year BA. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc in Energy Systems",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43150,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/msc-energy-systems",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Energy Systems graduate course page (Home £20,100). Full-time 12-month taught MSc in the Department of Engineering Science (part-time over 2 years £21,575 a year or 3 years £13,505 a year). Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc in Mathematical Sciences",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46350,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Mathematical Sciences graduate course page (Home £17,190). Nine-month taught MSc (Oxford Master's in Mathematical Sciences, OMMS) run by the Mathematical Institute and the Department of Statistics. Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
       "feeHistory": []
     }
   ]

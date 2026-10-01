@@ -57,6 +57,138 @@
     },
     {
       "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Advanced Computing (Honours)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/AACOM",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program AACOM, 192 units over 4 years; CRICOS 077939A). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50760,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/AACOM"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/AACOM"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BCOMM",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program BCOMM, 144 units over 3 years; CRICOS 002289F). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48035,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BCOMM"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BCOMM"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BSC",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program BSC, 144 units over 3 years; CRICOS 000335K). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50760,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BSC"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BSC"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 49820,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BARTS",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program BARTS, 144 units over 3 years; CRICOS 074016B). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 45060,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BARTS"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 47670,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BARTS"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
       "field": "law",
       "name": "Bachelor of Laws (Honours)",
       "durationYears": 4,
@@ -85,6 +217,171 @@
           "tier": "international",
           "annualTuition": 50500,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/ALLB"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering in Electrical Engineering",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/NELENG",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program NELENG, 96 units over 2 years; ANU offers the Master of Engineering only in named specialisations; CRICOS 077326G). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50760,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/NELENG"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/NELENG"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Computing",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/7706XMCOMP",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program 7706XMCOMP, 96 units over 2 years; CRICOS 078940M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50760,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/7706XMCOMP"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7706XMCOMP"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/MBUSA",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program MBUSA, 48 units over 1 year; CRICOS 114606M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48035,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/MBUSA"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MBUSA"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Biological Sciences",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/NSCBS",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program NSCBS, 96 units over 2 years; ANU offers the Master of Science only in named specialisations; CRICOS 096439G). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50760,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/NSCBS"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/NSCBS"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of International Relations",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/MINTR",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Annual indicative international fee for 48 units (program MINTR, 96 units over 2 years; CRICOS 082309M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50760,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/MINTR"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MINTR"
         }
       ]
     },

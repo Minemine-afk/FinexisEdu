@@ -356,6 +356,18 @@ sources:
     - level: bachelor
       field: medicine
       pattern: \bMedicine [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: arts
+      pattern: (?<!and )Economics [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: computing
+      pattern: Computer Science \[1\] [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: engineering
+      pattern: (?<!Manufacturing )Engineering \[1\] [\d,]+ ([\d,]+)
+    - level: bachelor
+      field: sciences
+      pattern: Natural Sciences \[1\] [\d,]+ ([\d,]+)
   # Postgraduate financial tracker behind the Course Directory's Finance tab; one page per entry year.
   - university: cambridge
     country: uk
@@ -441,22 +453,6 @@ sources:
       pattern: Travel \(zone 1-2\) £ ?\d+ £ ?([\d,]+)
     - key: living.personal
       pattern: Personal and leisure £ ?\d+ £ ?([\d,]+)
-  - university: ucl
-    country: uk
-    url: https://www.mgmt.ucl.ac.uk/management
-    year_pattern: Fees for September (\d{4}) intake
-    targets:
-    - level: master
-      field: business
-      pattern: Fees for September \d{4} intake:\s*Home students:\s*£ ?[\d,]+,\s*Overseas:\s*£ ?([\d,]+)
-  - university: ucl
-    country: uk
-    url: https://www.mgmt.ucl.ac.uk/international-management
-    year_pattern: Fees for (\d{4}) entry
-    targets:
-    - level: bachelor
-      field: business
-      pattern: Fees for \d{4} entry, UK tuition fees £ ?[\d,]+, International Students tuition fees £ ?([\d,]+)
   - university: anu
     country: au
     url: https://programsandcourses.anu.edu.au/2026/program/AENGI
@@ -1299,30 +1295,6 @@ sources:
     url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine
     parser: html
     manual: true
-  # site blocks automated access; read through a reader proxy (r.jina.ai)
-  - university: ucl
-    country: uk
-    url: https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb
-    parser: html
-    manual: true
-  # secondary source; UCL's own LLM page shows the 2027/28 fee as "to be confirmed" and blocks automated access
-  - university: ucl
-    country: uk
-    url: https://www.mastersportal.com/studies/294183/law.html
-    parser: html
-    manual: true
-  # site blocks automated access; read through a reader proxy (r.jina.ai). 2026-entry page; 2027 page shows N/A.
-  - university: ucl
-    country: uk
-    url: https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/medicine-mbbs-bsc-2026
-    parser: html
-    manual: true
-  # secondary source; the university's own fee page is not machine-readable
-  - university: oxford
-    country: uk
-    url: https://courseoptions.com/uk/course/uni-of-oxford/msc-advanced-computer-science-uni-of-oxford
-    parser: html
-    manual: true
   # secondary source; the university's own fee page is not machine-readable
   - university: oxford
     country: uk
@@ -1345,12 +1317,6 @@ sources:
   - university: ucl
     country: uk
     url: https://www.ucl.ac.uk/scholarships/us-student-financial-aid/us-loans-costs
-    parser: html
-    manual: true
-  # secondary source; the university's own fee page is not machine-readable
-  - university: unimelb
-    country: au
-    url: https://augstudy.com/courses/bachelor-science-the-university-of-melbourne/
     parser: html
     manual: true
   # secondary source; the university's own fee page is not machine-readable
@@ -1411,12 +1377,5 @@ sources:
   - university: waseda
     country: jp
     url: https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d
-    parser: html
-    manual: true
-  # secondary source for the Law School (JD) fees; Waseda's own 2026 guide PDF
-  # (waseda.jp/folaw/gwls/assets/uploads/2026/02/2026youkou.pdf) returns 403 to automated readers
-  - university: waseda
-    country: jp
-    url: https://agaroot-career.jp/shiho/waseda-law/
     parser: html
     manual: true
