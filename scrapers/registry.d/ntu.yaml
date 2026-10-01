@@ -1,0 +1,31 @@
+# Nanyang Technological University: sources added after the core registry.yaml entries.
+#
+# School of Civil and Environmental Engineering MSc (Civil Engineering). Self-financed from the
+# AY2025 intake; one fee for all nationalities. The page lists one block per intake year
+# ('Tuition fee for AY2026-2027 (based on minimum candidature) S$57,232 Tuition fee per semester
+# S$28,616 S$14,308'); only the newest block is followed by 'Important things to note', which the
+# pattern anchors on. year_pattern takes the largest year on the page.
+# The 2024-intake (MOE-subsidised) history rows come from the NTU Graduate Admissions AY2026-2027
+# coursework fee PDF, table B1.3a, which registry.yaml already scrapes for the RSIS M.Sc.
+sources:
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/cee/admissions/programmes/graduate-programmes/detail/master-of-science-in-civil-engineering
+    parser: html
+    year_pattern: Tuition fee for AY(\d{4})-\d{4}
+    targets:
+    - level: master
+      field: engineering
+      programme: Civil Engineering
+      tier: citizen
+      pattern: \(based on minimum candidature\) S\$([\d,.]+) Tuition fee per semester S\$[\d,.]+ S\$[\d,.]+ Important things to note
+    - level: master
+      field: engineering
+      programme: Civil Engineering
+      tier: pr
+      pattern: \(based on minimum candidature\) S\$([\d,.]+) Tuition fee per semester S\$[\d,.]+ S\$[\d,.]+ Important things to note
+    - level: master
+      field: engineering
+      programme: Civil Engineering
+      tier: international
+      pattern: \(based on minimum candidature\) S\$([\d,.]+) Tuition fee per semester S\$[\d,.]+ S\$[\d,.]+ Important things to note

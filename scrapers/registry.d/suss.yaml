@@ -4,7 +4,11 @@
 # by hand. Undergraduate fees are per course; the data uses SUSS's own 4-year programme
 # totals divided by 4. Graduate fees are whole-programme, excluding GST (9% added in data/).
 sources:
-  # site blocks automated access (Cloudflare bot check)
+  # site blocks automated access (Cloudflare bot check). feeHistory rows come from Wayback
+  # Machine copies of this page: 2025-05-15 (AY2025) and, at its old address
+  # /full-time-undergraduate/admissions/tuition-fees, 2024-07-14 and 2024-10-08 (AY2024); not scraped.
+  # LLB/JD 2024 rows: Wayback copies (2024-07-02, 2024-06-30) of the removed Year 2024 sheets
+  # /docs/default-source/contentdoc/sa/llb_programmefee.pdf and jd_programmefee.pdf.
   - university: suss
     country: sg
     url: https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate
@@ -28,5 +32,20 @@ sources:
   - university: suss
     country: sg
     url: https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2026-lawjd_final_070726.pdf?sfvrsn=acc92e18_1
+    parser: pdf
+    manual: true
+  # Government-subsidised graduate (coursework) fee sheet: Master of Psychology per-annum
+  # SC/PR rates and whole-programme non-subsidised rates for AY2026, AY2025 and AY2024;
+  # yearly document linked from https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate
+  - university: suss
+    country: sg
+    url: https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1
+    parser: pdf
+    manual: true
+  # Year 2025 graduate non-subsidised fee sheet (updated 12 Nov 2024), still served from the
+  # old content_admissions folder; used only for the 2025 feeHistory rows of the self-funded master's
+  - university: suss
+    country: sg
+    url: https://www.suss.edu.sg/docs/default-source/content_admissions/grad-prog-tuition-fee-year-2025.pdf?sfvrsn=62ebd084_1
     parser: pdf
     manual: true
