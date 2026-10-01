@@ -20,7 +20,7 @@
         "international": { "annualTuition": 19200, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
       "notes": "Academic Year 2026 full-time fees, charged per course (5-cu course: SC S$820, PR S$1,363, non-ASEAN international S$2,081 incl. GST). SUSS's 'Estimated Total Fees Per Programme (For 4 Years)' for non-Accountancy programmes: SC S$30,200, PR S$50,400, ASEAN international S$68,400, all other international S$76,800, unsubsidised S$134,966; annual figure = 4-year total / 4. SC/PR fees exclude GST (subsidised by MOE); international fees include 9% GST. Compulsory fees = annual miscellaneous fee S$240 (SC/PR) or S$530 (international) plus 9% GST. SUSS says fees are reviewed annually and does not state that they are fixed per cohort. suss.edu.sg is behind a Cloudflare bot check, so the official page was read through a reader-proxy copy (r.jina.ai) rather than directly; no earlier years' figures are published.",
@@ -38,7 +38,7 @@
         "international": { "annualTuition": 20500, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
       "notes": "Academic Year 2026 full-time fees, charged per course (Accountancy 5-cu course: SC S$862, PR S$1,371, non-ASEAN international S$2,089 incl. GST). SUSS's 'Estimated Total Fees Per Programme (For 4 Years)' for Accountancy: SC S$33,840, PR S$53,800, ASEAN international S$73,000, all other international S$82,000, unsubsidised S$138,157; annual figure = 4-year total / 4. SC/PR fees exclude GST; international fees include 9% GST. Compulsory fees = annual miscellaneous fee S$240 (SC/PR) or S$530 (international) plus 9% GST. Fees are reviewed annually; SUSS does not state they are fixed per cohort. Official page read through a reader-proxy copy (r.jina.ai) because suss.edu.sg blocks automated access; no earlier years' figures are published.",
@@ -56,11 +56,33 @@
         "international": { "annualTuition": 19200, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
       "notes": "Academic Year 2026 full-time fees ('Psychology' row of SUSS's 'Estimated Total Fees Per Programme (For 4 Years)': SC S$30,200, PR S$50,400, ASEAN international S$68,400, all other international S$76,800, unsubsidised S$134,966); annual figure = 4-year total / 4. Fees are charged per course (5-cu course: SC S$820, PR S$1,363, non-ASEAN international S$2,081 incl. GST). SC/PR fees exclude GST; international fees include 9% GST. Compulsory fees = annual miscellaneous fee S$240 (SC/PR) or S$530 (international) plus 9% GST. Fees are reviewed annually; SUSS does not state they are fixed per cohort. Official page read through a reader-proxy copy (r.jina.ai) because suss.edu.sg blocks automated access.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws (LLB)",
+      "durationYears": 4.5,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 10408.89, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 16577.78, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 44236.89, "annualCompulsoryFees": 261.6, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2025-law-llb_13032026.pdf?sfvrsn=a25fe983_3",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "notes": "SUSS School of Law 'Bachelor of Laws' Year 2026 programme fees (PDF updated 13 Mar 2026, linked as 'Year 2026 Bachelor of Laws' from the law tuition-fees page). Fees are charged per course (with MOE Tuition Grant, excluding GST: SC S$1,302 / PR S$2,072 per 5-cu course). SUSS's 'Estimated Total Programme Fee': SC S$46,840 and PR S$74,600 (with Tuition Grant, excl. GST, separately subsidised by the government); all students without Tuition Grant S$199,066 incl. 9% GST. Annual figure = whole-programme total / 4.5 years, SUSS's stated typical completion time (180 cu; 'about 4.5 years', maximum 6). The LLB is SUSS's only LLB and is a part-time programme for working adults (July intake; from 2026 the academic year starts in July). SUSS states the law programmes are open to Singaporeans and PRs only and cannot enrol international students, so the 'international' tier records the unsubsidised all-students rate. Compulsory fees = annual miscellaneous fee for law students S$240 plus 9% GST. Fees are reviewed annually; the LLB fee sheet does not say they are fixed per cohort. 2025 fee sheet (updated 14 Feb 2025): SC S$46,640, PR S$74,600, without grant S$199,065.60, miscellaneous fee S$200. Official PDFs read via a reader proxy (r.jina.ai) on 2026-10-01 because suss.edu.sg blocks automated access.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 10364.44, "annualCompulsoryFees": 218, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/content-academics/suss-tuition-fees-ay2025-law-llb.pdf?sfvrsn=b6654c79_7" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 16577.78, "annualCompulsoryFees": 218, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/content-academics/suss-tuition-fees-ay2025-law-llb.pdf?sfvrsn=b6654c79_7" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 44236.8, "annualCompulsoryFees": 218, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/content-academics/suss-tuition-fees-ay2025-law-llb.pdf?sfvrsn=b6654c79_7" }
+      ]
     },
     {
       "level": "master",
@@ -115,6 +137,28 @@
       "cohortLocked": false,
       "notes": "Whole-programme fee from SUSS's 'Year 2026/2027 Non-Subsidised Programme Fees (Graduate Programmes)' (updated Sept 2026): Social Sciences Master's Programme S$36,960 for Singapore Citizens/PRs and S$44,352 for other residents, excluding GST; with 9% GST S$40,286.40 / S$48,343.68, divided by 2 years. Not MOE-subsidised. SUSS states 60 cu plus a 10-cu applied research project within a 4-year maximum candidature; 2 years assumes the regular graduate load of 15-20 cu per semester. Compulsory fees = annual miscellaneous fee S$20 (SC/PR) or S$530 (international) plus 9% GST. The PDF's footnote still says 'Fees are accurate as of 15 Apr 2024' although it is headed Year 2026/2027 and dated September 2026. Re-read on 2026-09-30 through a reader-proxy copy (r.jina.ai) because suss.edu.sg blocks automated access.",
       "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Juris Doctor (JD)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 11710, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18650, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 41472, "annualCompulsoryFees": 261.6, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2026-lawjd_final_070726.pdf?sfvrsn=acc92e18_1",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": true,
+      "notes": "SUSS School of Law 'Juris Doctor Year 2026 Programme Fees' (PDF updated 9 Jun 2026, linked as 'Year 2026 Juris Doctor' from the law tuition-fees page). From the July 2026 intake JD students get MOE-subsidised fees instead of the Tuition Grant. Fees are charged per course (MOE-subsidised, excl. GST: SC below 40 S$1,561 / PR S$2,487 per 5-cu course; SC aged 40+ pay S$625). SUSS's 'Estimated Total Programme Fee' (150 cu): SC below 40 S$46,840, PR S$74,600 (excl. GST, separately subsidised by the government); all students without subsidy S$165,888 incl. 9% GST. Annual figure = whole-programme total / 4 years, SUSS's stated completion time ('about 4 years'; maximum candidature 6). The JD is a graduate-entry law degree taken part-time by working adults. SUSS states the law programmes are open to Singaporeans and PRs only and cannot enrol international students, so the 'international' tier records the unsubsidised all-students rate. Compulsory fees = annual miscellaneous fee for law students S$240 plus 9% GST. The 2026 fee sheet says course fees are cohort based, i.e. fixed at the year's fees when enrolled. 2025 fee sheet (updated 14 Feb 2025, Tuition Grant basis): SC S$38,880, PR S$62,160, without grant S$165,888, miscellaneous fee S$200. Official PDFs read via a reader proxy (r.jina.ai) on 2026-10-01 because suss.edu.sg blocks automated access.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 9720, "annualCompulsoryFees": 218, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2025-lawjd_final_070726.pdf?sfvrsn=aef3ab64_1" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 15540, "annualCompulsoryFees": 218, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2025-lawjd_final_070726.pdf?sfvrsn=aef3ab64_1" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 41472, "annualCompulsoryFees": 218, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2025-lawjd_final_070726.pdf?sfvrsn=aef3ab64_1" }
+      ]
     }
   ]
 }

@@ -69,6 +69,21 @@ sources:
       tier: international
       pattern: Bachelor of Food Technology with 240 S\$[\d.]+ S\$[\d.]+ S\$[\d.]+ S\$([\d.]+)
       multiplier: 60
+    - level: bachelor
+      field: arts
+      tier: citizen
+      pattern: Bachelor of Arts in User Experience 240 S\$([\d.]+) S\$[\d.]+ S\$[\d.]+ S\$[\d.]+
+      multiplier: 60
+    - level: bachelor
+      field: arts
+      tier: pr
+      pattern: Bachelor of Arts in User Experience 240 S\$[\d.]+ S\$([\d.]+) S\$[\d.]+ S\$[\d.]+
+      multiplier: 60
+    - level: bachelor
+      field: arts
+      tier: international
+      pattern: Bachelor of Arts in User Experience 240 S\$[\d.]+ S\$[\d.]+ S\$[\d.]+ S\$([\d.]+)
+      multiplier: 60
   - university: sit
     country: sg
     url: https://www.singaporetech.edu.sg/sites/default/files/2026-06/SIT_Postgraduate_Tuition%20Fees_AY2026.pdf
@@ -89,4 +104,19 @@ sources:
       field: engineering
       tier: international
       pattern: Master of Science in Electrical and Electronic 60 \$[\d.]+ \$[\d.]+ \$([\d.]+)
+      multiplier: 30
+    - level: master
+      field: sciences
+      tier: citizen
+      pattern: Master of Health Sciences 60 \$([\d.]+) \$[\d.]+ \$[\d.]+
+      multiplier: 30
+    - level: master
+      field: sciences
+      tier: pr
+      pattern: Master of Health Sciences 60 \$[\d.]+ \$([\d.]+) \$[\d.]+
+      multiplier: 30
+    - level: master
+      field: sciences
+      tier: international
+      pattern: Master of Health Sciences 60 \$[\d.]+ \$[\d.]+ \$([\d.]+)
       multiplier: 30

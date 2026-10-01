@@ -69,13 +69,51 @@
       "durationYears": 1.5,
       "feeYear": 2026,
       "fees": {
-        "international": { "annualTuition": 36333.33, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": { "annualTuition": 36333.33, "annualCompulsoryFees": 0, "oneOffFees": 400 },
+        "pr": { "annualTuition": 36333.33, "annualCompulsoryFees": 0, "oneOffFees": 400 },
+        "international": { "annualTuition": 36333.33, "annualCompulsoryFees": 0, "oneOffFees": 500 }
       },
-      "sourceUrl": "https://masters.smu.edu.sg/msfe",
-      "lastVerified": "2026-09-30",
+      "sourceUrl": "https://economics.smu.edu.sg/msfe",
+      "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": true,
-      "notes": "Self-funded programme. Official MSFE page: tuition fee S$54,500 inclusive of GST for the whole programme, divided by the 18-month full-time duration (flexible to 12 months). The page shows the fee next to the January 2027 and August 2027 application windows without naming the intake; feeYear 2026 covers the January 2027 (AY2026/27) intake. No Citizen/PR tier: SMU publishes no subsidised or SC/PR rate for this programme. masters.smu.edu.sg blocks bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary.",
+      "notes": "Self-funded programme (no MOE Tuition Grant or SC/PR-subsidised rate). Official School of Economics MSFE page, 'Programme Fees' table: 'Tuition Fee for January 2027 Intake' S$54,500 inclusive of GST for the whole programme, one figure for all nationalities (billed S$21,800 + S$16,350 + S$16,350), so the same tuition is recorded under citizen, pr and international; divided here by the 18-month full-time duration (flexible to 12 months). feeYear 2026 covers the January 2027 (AY2026/27) intake. One-off fee = non-refundable registration fee on acceptance: S$400 incl. GST for Singapore Citizens/PRs, S$500 for international students; the S$5,000 deposit contributes to tuition and is not counted separately. The page states the August 2027 intake fee rises to S$57,700 incl. GST (also shown on masters.smu.edu.sg/msfe as 'from August 2027 intake onwards') and that from AY2027 an annual miscellaneous fee of S$400 (SC/PR) or S$480 (international), excl. GST, replaces the registration fee. SMU's sites block bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. No earlier intake's fee is published.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Science in Applied Finance (MAF)",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "citizen": { "annualTuition": 42146.67, "annualCompulsoryFees": 400, "oneOffFees": 0 },
+        "pr": { "annualTuition": 42146.67, "annualCompulsoryFees": 400, "oneOffFees": 0 },
+        "international": { "annualTuition": 42146.67, "annualCompulsoryFees": 480, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://business.smu.edu.sg/master-applied-finance",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": true,
+      "notes": "Self-funded programme (no MOE subsidy; the page publishes no separate SC/PR rate). Official Lee Kong Chian School of Business MAF page: tuition fee S$63,220 inclusive of GST for the whole programme, one figure for all nationalities, so the same tuition is recorded under citizen, pr and international; divided here by the 18-month full-time duration (24 months part-time). The only intake shown is August 2027 (applications September 2026 to May 2027), hence feeYear 2027; the page says the August 2027 fees are indicative and subject to revision. Compulsory fees = annual Miscellaneous Fees for AY2027: S$400 (Singaporeans/PRs) or S$480 (international), excl. GST. The S$8,000 advance tuition fee contributes to the first tuition billing and is not counted separately; application fee S$100 excluded. SMU's sites block bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. No earlier intake's fee is published.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of IT in Business (MITB)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 56680, "annualCompulsoryFees": 0, "oneOffFees": 400 },
+        "pr": { "annualTuition": 56680, "annualCompulsoryFees": 0, "oneOffFees": 400 },
+        "international": { "annualTuition": 56680, "annualCompulsoryFees": 0, "oneOffFees": 500 }
+      },
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business",
+      "lastVerified": "2026-10-01",
+      "sourceType": "secondary",
+      "cohortLocked": true,
+      "notes": "Self-funded programme (no MOE subsidy; the page publishes no separate SC/PR rate). Official SMU MITB page, 'Programme Fees' section: total tuition S$56,680 inclusive of 9% GST for the whole programme, one figure for all nationalities, so the same tuition is recorded under citizen, pr and international. Full-time duration is 12 months (payment schedule 'Full-time (1 year)'; a 16-month full-time and a 24-month part-time option exist), so the whole-programme fee equals the annual figure. The payment schedule shows the same S$56,680 for both the January 2027 and August 2027 intakes; feeYear 2026 covers the January 2027 (AY2026/27) intake, and the page says the August 2027 figures are indicative. One-off fee = non-refundable registration fee: S$400 (Singapore Citizens/PRs) or S$500 (foreigners); from the August 2027 intake it is replaced by an annual miscellaneous fee of S$400 (SC/PR) or S$480 (foreigners), excl. GST. The S$10,000 deposit (S$8,000 from August 2027) forms part of the tuition fee and is not counted separately; application fee S$100 and textbooks excluded. SMU's sites block bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. No earlier intake's fee is published.",
       "feeHistory": []
     },
     {

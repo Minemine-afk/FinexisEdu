@@ -9,10 +9,34 @@ sources:
   # ---------------------------------------------------------------- automated
   - university: ntu
     country: sg
-    url: https://www.ntu.edu.sg/admissions/undergraduate/admissions/undergraduate/fees-funding/tuition-fees
+    url: https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees
     parser: html
     year_pattern: Tuition fees for Academic Year (\d{4})/\d{4}
     targets:
+    - level: bachelor
+      field: arts
+      tier: citizen
+      pattern: All Programmes \(except for those listed below\) \$ ?([\d,]+)
+    - level: bachelor
+      field: arts
+      tier: pr
+      pattern: All Programmes \(except for those listed below\) \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: arts
+      tier: international
+      pattern: All Programmes \(except for those listed below\) \$ ?[\d,]+ \$ ?[\d,]+ \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: sciences
+      tier: citizen
+      pattern: All Programmes \(except for those listed below\) \$ ?([\d,]+)
+    - level: bachelor
+      field: sciences
+      tier: pr
+      pattern: All Programmes \(except for those listed below\) \$ ?[\d,]+ \$ ?([\d,]+)
+    - level: bachelor
+      field: sciences
+      tier: international
+      pattern: All Programmes \(except for those listed below\) \$ ?[\d,]+ \$ ?[\d,]+ \$ ?[\d,]+ \$ ?([\d,]+)
     - level: bachelor
       field: engineering
       tier: citizen
@@ -100,6 +124,46 @@ sources:
       tier: pr
       pattern: Programme Fee \(\d{4} Intake\):\s*S\$([\d,.]+)
       multiplier: 0.9
+  # Official graduate (coursework) fee PDF; the RSIS row holds the four M.Sc. programmes.
+  # Columns: non-subsidised, Singapore Citizen, Singapore PR, international (subsidised).
+  # The first match is table B1.1a (full-time, newest intake).
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/media/docs/default-source/graduate-admissions/coursework/fees/ay2026-2027coursework-fees.pdf?sfvrsn=a85bcafb_1
+    parser: pdf
+    year_pattern: Students Admitted to NTU in AY(\d{4})-\d{4}
+    targets:
+    - level: master
+      field: arts
+      tier: citizen
+      pattern: M\.Sc\. \(International Political Economy\) [\d,]+ ([\d,]+) [\d,]+ [\d,]+ - M\.Sc\. \(International Relations\)
+    - level: master
+      field: arts
+      tier: pr
+      pattern: M\.Sc\. \(International Political Economy\) [\d,]+ [\d,]+ ([\d,]+) [\d,]+ - M\.Sc\. \(International Relations\)
+    - level: master
+      field: arts
+      tier: international
+      pattern: M\.Sc\. \(International Political Economy\) [\d,]+ [\d,]+ [\d,]+ ([\d,]+) - M\.Sc\. \(International Relations\)
+  # SPMS MSc in Analytics: one fee for all nationalities, three intake-year columns (last = newest).
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics
+    parser: html
+    year_pattern: Academic Year (\d{4})/\d{2}
+    targets:
+    - level: master
+      field: sciences
+      tier: citizen
+      pattern: Tuition Fee S?\$[\d,.]+ S?\$[\d,.]+ S?\$([\d,.]+) Payment Schedule
+    - level: master
+      field: sciences
+      tier: pr
+      pattern: Tuition Fee S?\$[\d,.]+ S?\$[\d,.]+ S?\$([\d,.]+) Payment Schedule
+    - level: master
+      field: sciences
+      tier: international
+      pattern: Tuition Fee S?\$[\d,.]+ S?\$[\d,.]+ S?\$([\d,.]+) Payment Schedule
   - university: nus
     country: sg
     url: https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf
@@ -1190,7 +1254,19 @@ sources:
   # site blocks automated access; read through a reader proxy (r.jina.ai)
   - university: smu
     country: sg
-    url: https://masters.smu.edu.sg/msfe
+    url: https://economics.smu.edu.sg/msfe
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai). MAF whole-programme fee per intake year.
+  - university: smu
+    country: sg
+    url: https://business.smu.edu.sg/master-applied-finance
+    parser: html
+    manual: true
+  # site blocks automated access; read through a reader proxy (r.jina.ai). MITB whole-programme fee; one figure for Jan and Aug intakes.
+  - university: smu
+    country: sg
+    url: https://masters.smu.edu.sg/programme/master-of-it-in-business
     parser: html
     manual: true
   # site blocks automated access; read through a reader proxy (r.jina.ai). JD whole-programme fee per admit year.
