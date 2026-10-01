@@ -89,11 +89,11 @@ export const LIVING_LABELS: Record<LivingCategory, string> = {
   personal: "Personal & books",
 };
 
-function optionsFor(universities: University[], level: Level, field: Field): Option[] {
+function optionsFor(universities: University[], level: Level): Option[] {
   return universities.flatMap((university) =>
     university.programmes
       .map((programme, i) => ({ key: `${university.id}:${i}`, university, programme }))
-      .filter((o) => o.programme.level === level && o.programme.field === field),
+      .filter((o) => o.programme.level === level),
   );
 }
 
@@ -120,22 +120,54 @@ function unavailableReason(o: Option, residency: Residency, startYear: number): 
   return `No published ${missingYears.join(", ")} fee on file`;
 }
 
-/** Keeps the chosen universities when level or field changes, else picks one from each of the first countries. */
-function reselect(allOptions: Option[], previous: string[], isAvailable: (o: Option) => boolean): string[] {
-  const options = allOptions.filter(isAvailable);
-  const prevUnis = new Set(previous.map((k) => k.split(":")[0]));
-  const kept: string[] = [];
-  for (const o of options) {
-    if (prevUnis.has(o.university.id) && !kept.some((k) => k.startsWith(`${o.university.id}:`))) kept.push(o.key);
+/**
+ * A sensible programme for a new slot: priced for this student, at a university not
+ * already chosen, in a country not already chosen where possible, in the same field
+ * as the slot before it (computing by default).
+ */
+function defaultPick(
+  options: Option[],
+  isAvailable: (o: Option) => boolean,
+  taken: Option[],
+  preferField: Field = "computing",
+): Option | undefined {
+  const takenKeys = new Set(taken.map((o) => o.key));
+  const takenUnis = new Set(taken.map((o) => o.university.id));
+  const takenCountries = new Set<string>(taken.map((o) => o.university.country));
+  const usable = options.filter((o) => isAvailable(o) && !takenKeys.has(o.key));
+  const byField = (list: Option[]) =>
+    list.find((o) => o.programme.field === preferField) ?? list.find((o) => o.programme.field === "computing") ?? list[0];
+  for (const skipTakenCountries of [true, false]) {
+    for (const country of COUNTRY_ORDER) {
+      if (skipTakenCountries && takenCountries.has(country)) continue;
+      const o = byField(usable.filter((x) => x.university.country === country && !takenUnis.has(x.university.id)));
+      if (o) return o;
+    }
   }
-  if (kept.length > 0) return kept.slice(0, MAX_SELECTED);
-  const picks: string[] = [];
-  for (const country of COUNTRY_ORDER) {
-    const o = options.find((opt) => opt.university.country === country);
-    if (o) picks.push(o.key);
-    if (picks.length === MAX_SELECTED) break;
+  return usable[0];
+}
+
+/** When the level changes, keep each slot's university and field where the new level offers them. */
+function reselect(
+  prevKeys: string[],
+  prevOptions: Option[],
+  nextOptions: Option[],
+  isAvailable: (o: Option) => boolean,
+): string[] {
+  const next: string[] = [];
+  for (const key of prevKeys) {
+    const prev = prevOptions.find((o) => o.key === key);
+    if (!prev) continue;
+    const same = nextOptions.filter((o) => o.university.id === prev.university.id && !next.includes(o.key));
+    const o =
+      same.find((x) => x.programme.field === prev.programme.field && isAvailable(x)) ?? same.find(isAvailable) ?? same[0];
+    if (o) next.push(o.key);
   }
-  return picks.length > 0 ? picks : options.slice(0, MAX_SELECTED).map((o) => o.key);
+  if (next.length === 0) {
+    const o = defaultPick(nextOptions, isAvailable, []);
+    if (o) next.push(o.key);
+  }
+  return next;
 }
 
 export default function Calculator({ universities, countries, fx, today }: Props) {
@@ -143,7 +175,6 @@ export default function Calculator({ universities, countries, fx, today }: Props
   const countryByCode = useMemo(() => new Map(countries.map((c) => [c.code, c])), [countries]);
 
   const [level, setLevel] = useState<Level>("bachelor");
-  const [field, setField] = useState<Field>("computing");
   const [residency, setResidency] = useState<Residency>("citizen");
   const [startYear, setStartYear] = useState(
     Math.min(Math.max(thisYear + 1, START_YEARS[0]), START_YEARS[START_YEARS.length - 1]),
@@ -155,27 +186,40 @@ export default function Calculator({ universities, countries, fx, today }: Props
   const [customLiving, setCustomLiving] = useState<Record<string, MonthlyLiving>>({});
   // Which part of the cost the bars compare.
   const [compare, setCompare] = useState<CompareCategory>("total");
-  const options = useMemo(() => optionsFor(universities, level, field), [universities, level, field]);
-  const [selected, setSelected] = useState<string[]>(() =>
-    reselect(options, [], (o) => unavailableReason(o, residency, startYear) === null),
-  );
-
+  const options = useMemo(() => optionsFor(universities, level), [universities, level]);
   const available = (o: Option) => unavailableReason(o, residency, startYear) === null;
+  // One university to start with; "Compare another university" adds up to two more.
+  const [selected, setSelected] = useState<string[]>(() => {
+    const o = defaultPick(options, (x) => unavailableReason(x, residency, startYear) === null, []);
+    return o ? [o.key] : [];
+  });
+  const chosen = selected.map((k) => options.find((o) => o.key === k)).filter((o): o is Option => !!o);
 
-  function changeCourse(nextLevel: Level, nextField: Field) {
+  function changeLevel(nextLevel: Level) {
     setLevel(nextLevel);
-    setField(nextField);
-    setSelected((prev) => reselect(optionsFor(universities, nextLevel, nextField), prev, available));
+    setSelected((prev) => reselect(prev, options, optionsFor(universities, nextLevel), available));
   }
 
-  /** Puts a programme in comparison slot `i`, or empties the slot. */
-  function setSlot(i: number, key: string | null) {
+  /** Puts a programme in comparison slot `i`. */
+  function setSlot(i: number, key: string) {
     setSelected((prev) => {
       const next = prev.slice(0, MAX_SELECTED);
-      if (key === null) next.splice(i, 1);
-      else next[i] = key;
+      next[i] = key;
       return next;
     });
+  }
+
+  function addSlot() {
+    setSelected((prev) => {
+      if (prev.length >= MAX_SELECTED) return prev;
+      const taken = prev.map((k) => options.find((o) => o.key === k)).filter((o): o is Option => !!o);
+      const o = defaultPick(options, available, taken, taken[taken.length - 1]?.programme.field);
+      return o ? [...prev, o.key] : prev;
+    });
+  }
+
+  function removeSlot(i: number) {
+    setSelected((prev) => prev.filter((_, j) => j !== i));
   }
 
   const selections: Selection[] = options
@@ -263,137 +307,130 @@ export default function Calculator({ universities, countries, fx, today }: Props
   const select = `mt-1 w-full rounded-md border border-border bg-surface px-3 py-2${FOCUS}`;
 
   return (
-    <div className="space-y-6">
-      {/* Options bar: the course and student settings in one row, the comparison slots in the next. */}
-      <section aria-label="Options" className="space-y-5 rounded-xl border border-border bg-sidebar p-5">
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <Segmented label="Level" value={level} options={LEVELS.map((l) => [l, LEVEL_LABELS[l]])} onChange={(l) => changeCourse(l, field)} />
+    <div className="grid gap-6 lg:grid-cols-[22rem_1fr]">
+      <aside className="space-y-5 rounded-xl border border-border bg-sidebar p-5 lg:self-start">
+        <Segmented label="Level" value={level} options={LEVELS.map((l) => [l, LEVEL_LABELS[l]])} onChange={changeLevel} />
 
-          <label className="block">
-            <span className="text-sm font-medium">Field of study</span>
-            <select className={select} value={field} onChange={(e) => changeCourse(level, e.target.value as Field)}>
-              {FIELDS.map((f) => (
-                <option key={f} value={f}>
-                  {FIELD_LABELS[f]}
-                </option>
-              ))}
-            </select>
-          </label>
+        <label className="block">
+          <span className="text-sm font-medium">
+            <InfoTip term="residency">Residency</InfoTip>
+          </span>
+          <select className={select} value={residency} onChange={(e) => setResidency(e.target.value as Residency)}>
+            {(Object.keys(RESIDENCY_LABELS) as Residency[]).map((r) => (
+              <option key={r} value={r}>
+                {RESIDENCY_LABELS[r]}
+              </option>
+            ))}
+          </select>
+          <span className="mt-1 block text-xs text-muted">Changes Singapore fees only; abroad you pay international rates.</span>
+        </label>
 
-          <label className="block">
-            <span className="text-sm font-medium">
-              <InfoTip term="residency">Residency</InfoTip>
-            </span>
-            <select className={select} value={residency} onChange={(e) => setResidency(e.target.value as Residency)}>
-              {(Object.keys(RESIDENCY_LABELS) as Residency[]).map((r) => (
-                <option key={r} value={r}>
-                  {RESIDENCY_LABELS[r]}
-                </option>
-              ))}
-            </select>
-            <span className="mt-1 block text-xs text-muted">Changes Singapore fees only; abroad you pay international rates.</span>
-          </label>
+        <label className="block">
+          <span className="text-sm font-medium">
+            <InfoTip term="startYear">Start year</InfoTip>
+          </span>
+          <select className={select} value={startYear} onChange={(e) => setStartYear(Number(e.target.value))}>
+            {START_YEARS.map((y) => (
+              <option key={y} value={y}>
+                {y}
+              </option>
+            ))}
+          </select>
+          {startYear <= thisYear && (
+            <span className="mt-1 block text-xs text-muted">Past intakes use published fees only.</span>
+          )}
+        </label>
 
-          <label className="block">
-            <span className="text-sm font-medium">
-              <InfoTip term="startYear">Start year</InfoTip>
-            </span>
-            <select className={select} value={startYear} onChange={(e) => setStartYear(Number(e.target.value))}>
-              {START_YEARS.map((y) => (
-                <option key={y} value={y}>
-                  {y}
-                </option>
-              ))}
-            </select>
-            {startYear <= thisYear && (
-              <span className="mt-1 block text-xs text-muted">Past intakes use published fees only.</span>
-            )}
-          </label>
-
-          <fieldset>
-            <legend className="text-sm font-medium">
-              <InfoTip term="feeIncrease">Yearly fee increase</InfoTip>
-            </legend>
-            <div className="mt-1 flex min-h-10 items-center gap-2 text-sm">
-              <input
-                id="custom-increase"
-                type="checkbox"
-                checked={customIncrease !== null}
-                onChange={(e) => setCustomIncrease(e.target.checked ? 0.03 : null)}
-              />
-              <label htmlFor="custom-increase">My own rate</label>
-              {customIncrease !== null && (
-                <span className="ml-auto flex items-center gap-1">
-                  <input
-                    type="number"
-                    min={0}
-                    max={20}
-                    step={0.5}
-                    aria-label="Yearly fee increase in percent"
-                    className={`w-16 rounded-md border border-border bg-surface px-2 py-1 text-right${FOCUS}`}
-                    value={+(customIncrease * 100).toFixed(1)}
-                    onChange={(e) => setCustomIncrease(Math.max(0, Number(e.target.value)) / 100)}
-                  />
-                  %
-                </span>
-              )}
-            </div>
-            <p className="mt-1 text-xs text-muted">
-              {customIncrease === null ? "Each country's typical increase" : "Applied to every university"}, for years
-              after the published fee year.
-            </p>
-          </fieldset>
-
-          <fieldset>
-            <legend className="text-sm font-medium">
-              <InfoTip term="livingCosts" align="right">Living costs</InfoTip>
-            </legend>
-            <label className="mt-1 flex min-h-10 cursor-pointer items-center gap-2 text-sm">
-              <input type="checkbox" checked={includeLiving} onChange={(e) => setIncludeLiving(e.target.checked)} />
-              Include living costs
-            </label>
-            {includeLiving ? (
-              <Segmented
-                label="Lifestyle"
-                value={lifestyle}
-                options={(Object.keys(LIFESTYLE_LABELS) as Lifestyle[]).map((l) => [l, LIFESTYLE_LABELS[l]])}
-                onChange={setLifestyle}
-                small
-                tip="lifestyle"
-              />
-            ) : (
-              <p className="mt-1 text-xs text-muted">Each university&apos;s own estimate; not for Singapore universities.</p>
-            )}
-          </fieldset>
-        </div>
-
-        <div>
-          <p className="text-sm font-medium">
-            Universities <span className="font-normal text-muted">(compare up to {MAX_SELECTED})</span>
-          </p>
-          {grouped.length === 0 && <p className="mt-2 text-sm text-muted">No fee data for this course yet.</p>}
-          {grouped.length > 0 && (
-            <div className="mt-2 grid gap-4 md:grid-cols-3">
-              {Array.from({ length: MAX_SELECTED }, (_, i) => (
-                <UniversityPicker
-                  key={i}
-                  index={i}
-                  current={options.find((o) => o.key === selected[i])}
-                  others={selected.filter((_, j) => j !== i).map((k) => options.find((o) => o.key === k)).filter((o): o is Option => !!o)}
-                  grouped={grouped}
-                  reasonFor={(o) => unavailableReason(o, residency, startYear)}
-                  onChange={(key) => setSlot(i, key)}
+        <fieldset>
+          <legend className="text-sm font-medium">
+            <InfoTip term="feeIncrease">Yearly fee increase</InfoTip>
+          </legend>
+          <div className="mt-1 flex min-h-10 items-center gap-2 text-sm">
+            <input
+              id="custom-increase"
+              type="checkbox"
+              checked={customIncrease !== null}
+              onChange={(e) => setCustomIncrease(e.target.checked ? 0.03 : null)}
+            />
+            <label htmlFor="custom-increase">My own rate</label>
+            {customIncrease !== null && (
+              <span className="ml-auto flex items-center gap-1">
+                <input
+                  type="number"
+                  min={0}
+                  max={20}
+                  step={0.5}
+                  aria-label="Yearly fee increase in percent"
+                  className={`w-16 rounded-md border border-border bg-surface px-2 py-1 text-right${FOCUS}`}
+                  value={+(customIncrease * 100).toFixed(1)}
+                  onChange={(e) => setCustomIncrease(Math.max(0, Number(e.target.value)) / 100)}
                 />
-              ))}
-            </div>
+                %
+              </span>
+            )}
+          </div>
+          <p className="mt-1 text-xs text-muted">
+            {customIncrease === null ? "Each country's typical increase" : "Applied to every university"}, for years
+            after the published fee year.
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend className="text-sm font-medium">
+            <InfoTip term="livingCosts">Living costs</InfoTip>
+          </legend>
+          <label className="mt-1 flex min-h-10 cursor-pointer items-center gap-2 text-sm">
+            <input type="checkbox" checked={includeLiving} onChange={(e) => setIncludeLiving(e.target.checked)} />
+            Include living costs
+          </label>
+          {includeLiving ? (
+            <Segmented
+              label="Lifestyle"
+              value={lifestyle}
+              options={(Object.keys(LIFESTYLE_LABELS) as Lifestyle[]).map((l) => [l, LIFESTYLE_LABELS[l]])}
+              onChange={setLifestyle}
+              small
+              tip="lifestyle"
+            />
+          ) : (
+            <p className="mt-1 text-xs text-muted">Each university&apos;s own estimate; not for Singapore universities.</p>
+          )}
+        </fieldset>
+
+        <div className="space-y-3">
+          <p className="text-sm font-medium">
+            {selected.length > 1 ? "Universities" : "University"}{" "}
+            <span className="font-normal text-muted">(compare up to {MAX_SELECTED})</span>
+          </p>
+          {grouped.length === 0 && <p className="text-sm text-muted">No fee data for this level yet.</p>}
+          {chosen.map((o, i) => (
+            <UniversityPicker
+              key={i}
+              index={i}
+              current={o}
+              others={chosen.filter((_, j) => j !== i)}
+              grouped={grouped}
+              reasonFor={(x) => unavailableReason(x, residency, startYear)}
+              onChange={(key) => setSlot(i, key)}
+              onRemove={i > 0 ? () => removeSlot(i) : undefined}
+            />
+          ))}
+          {grouped.length > 0 && selected.length < MAX_SELECTED && (
+            <button
+              type="button"
+              onClick={addSlot}
+              className={`flex w-full items-center justify-center gap-2 rounded-md border border-dashed border-accent px-3 py-2.5 text-sm font-medium text-accent hover:bg-chip${FOCUS}`}
+            >
+              <span aria-hidden>+</span> Compare {selected.length === 0 ? "a" : "another"} university
+            </button>
           )}
         </div>
-      </section>
+      </aside>
 
       <section id="results" ref={resultsRef} className="min-w-0 scroll-mt-4 space-y-6">
         {selections.length === 0 ? (
           <div className="rounded-xl border border-dashed border-border p-10 text-center text-muted">
-            Pick up to three universities to compare their total {includeLiving ? "cost" : "fees"}.
+            Pick a university to see its total {includeLiving ? "cost" : "fees"}.
           </div>
         ) : (
           <>
@@ -425,7 +462,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
             </div>
 
             <div className="rounded-xl border border-border bg-surface p-5">
-              <h2 className="text-xs font-medium uppercase tracking-wide text-muted">Details</h2>
+              <h2 className="text-xs font-medium uppercase tracking-wide text-muted">Details (in SGD)</h2>
               <div
                 className={`mt-3 grid gap-8 md:gap-0 md:divide-x md:divide-border ${selections.length === 3 ? "md:grid-cols-3" : selections.length === 2 ? "md:grid-cols-2" : ""}`}
               >
@@ -437,7 +474,9 @@ export default function Calculator({ universities, countries, fx, today }: Props
                     country={countryByCode.get(s.university.country)}
                     lifestyle={lifestyle}
                     residency={residency}
-                    className={i === 0 ? "md:pr-5" : i === selections.length - 1 ? "md:pl-5" : "md:px-5"}
+                    className={
+                      selections.length === 1 ? "" : i === 0 ? "md:pr-4" : i === selections.length - 1 ? "md:pl-4" : "md:px-4"
+                    }
                     onCustomLiving={(m) =>
                       setCustomLiving((prev) => {
                         const next = { ...prev };
@@ -483,7 +522,7 @@ interface CountryGroup {
   options: Option[];
 }
 
-/** One comparison slot: pick a country, then one of its universities (and programme, if several). */
+/** One comparison slot: country, university, field of study and (if several) programme. */
 function UniversityPicker({
   index,
   current,
@@ -491,44 +530,64 @@ function UniversityPicker({
   grouped,
   reasonFor,
   onChange,
+  onRemove,
 }: {
   index: number;
-  current?: Option;
+  current: Option;
   /** What the other slots hold, so the same programme isn't picked twice. */
   others: Option[];
   grouped: CountryGroup[];
   reasonFor: (o: Option) => string | null;
-  onChange: (key: string | null) => void;
+  onChange: (key: string) => void;
+  onRemove?: () => void;
 }) {
   const select = `mt-1 w-full rounded-md border border-border bg-surface px-3 py-2${FOCUS}`;
-  const countryCode = current?.university.country ?? "";
-  const group = grouped.find((g) => g.country?.code === countryCode);
+  const group = grouped.find((g) => g.country?.code === current.university.country);
+  const inCountry = group?.options ?? [];
   // One entry per university in the chosen country.
-  const universities = group
-    ? group.options.filter((o, i, arr) => arr.findIndex((x) => x.university.id === o.university.id) === i)
-    : [];
-  const programmes = current ? (group?.options ?? []).filter((o) => o.university.id === current.university.id) : [];
-  const reason = current ? reasonFor(current) : null;
+  const universities = inCountry.filter((o, i, arr) => arr.findIndex((x) => x.university.id === o.university.id) === i);
+  const atUniversity = inCountry.filter((o) => o.university.id === current.university.id);
+  const fields = FIELDS.filter((f) => atUniversity.some((o) => o.programme.field === f));
+  const programmes = atUniversity.filter((o) => o.programme.field === current.programme.field);
+  const reason = reasonFor(current);
 
-  // Prefer a programme that can be priced for this student; avoid duplicating another slot.
+  // Prefer a programme that can be priced for this student, in the same field as now; avoid duplicating another slot.
   const taken = new Set(others.map((o) => o.key));
-  const pick = (candidates: Option[]) =>
-    candidates.find((o) => reasonFor(o) === null && !taken.has(o.key)) ?? candidates[0];
+  const pick = (candidates: Option[], field: Field = current.programme.field) => {
+    const ok = candidates.filter((o) => reasonFor(o) === null && !taken.has(o.key));
+    return (
+      ok.find((o) => o.programme.field === field) ??
+      ok[0] ??
+      candidates.find((o) => o.programme.field === field) ??
+      candidates[0]
+    );
+  };
 
   return (
     <fieldset className="rounded-md border border-border bg-surface/60 p-3">
-      <legend className="px-1 text-xs font-medium uppercase tracking-wide text-muted">University {index + 1}</legend>
+      <legend className="flex items-center gap-2 px-1 text-xs font-medium uppercase tracking-wide text-muted">
+        University {index + 1}
+        {onRemove && (
+          <button
+            type="button"
+            onClick={onRemove}
+            aria-label={`Remove university ${index + 1} from the comparison`}
+            className={`rounded px-1 normal-case tracking-normal text-muted hover:text-accent${FOCUS}`}
+          >
+            remove
+          </button>
+        )}
+      </legend>
       <label className="block">
         <span className="text-sm">Country</span>
         <select
           className={select}
-          value={countryCode}
+          value={current.university.country}
           onChange={(e) => {
             const g = grouped.find((x) => x.country?.code === e.target.value);
-            onChange(g ? pick(g.options).key : null);
+            if (g) onChange(pick(g.options).key);
           }}
         >
-          <option value="">{index === 0 ? "Choose a country" : "None"}</option>
           {grouped.map((g) => (
             <option key={g.country?.code} value={g.country?.code}>
               {g.country?.name}
@@ -536,27 +595,42 @@ function UniversityPicker({
           ))}
         </select>
       </label>
-      {current && (
-        <label className="mt-2 block">
-          <span className="text-sm">University</span>
-          <select
-            className={select}
-            value={current.university.id}
-            onChange={(e) => onChange(pick(group!.options.filter((o) => o.university.id === e.target.value)).key)}
-          >
-            {universities.map((u) => {
-              const priced = group!.options.some((o) => o.university.id === u.university.id && reasonFor(o) === null);
-              return (
-                <option key={u.university.id} value={u.university.id}>
-                  {u.university.name}
-                  {!priced ? " (no published fee)" : ""}
-                </option>
-              );
-            })}
-          </select>
-        </label>
-      )}
-      {current && programmes.length > 1 && (
+      <label className="mt-2 block">
+        <span className="text-sm">University</span>
+        <select
+          className={select}
+          value={current.university.id}
+          onChange={(e) => onChange(pick(inCountry.filter((o) => o.university.id === e.target.value)).key)}
+        >
+          {universities.map((u) => {
+            const priced = inCountry.some((o) => o.university.id === u.university.id && reasonFor(o) === null);
+            return (
+              <option key={u.university.id} value={u.university.id}>
+                {u.university.name}
+                {!priced ? " (no published fee)" : ""}
+              </option>
+            );
+          })}
+        </select>
+      </label>
+      <label className="mt-2 block">
+        <span className="text-sm">Field of study</span>
+        <select
+          className={select}
+          value={current.programme.field}
+          onChange={(e) => {
+            const field = e.target.value as Field;
+            onChange(pick(atUniversity.filter((o) => o.programme.field === field), field).key);
+          }}
+        >
+          {fields.map((f) => (
+            <option key={f} value={f}>
+              {FIELD_LABELS[f]}
+            </option>
+          ))}
+        </select>
+      </label>
+      {programmes.length > 1 ? (
         <label className="mt-2 block">
           <span className="text-sm">Programme</span>
           <select className={select} value={current.key} onChange={(e) => onChange(e.target.value)}>
@@ -568,10 +642,11 @@ function UniversityPicker({
             ))}
           </select>
         </label>
+      ) : (
+        <p className="mt-1 text-xs text-muted">{current.programme.name}</p>
       )}
-      {current && programmes.length === 1 && <p className="mt-1 text-xs text-muted">{current.programme.name}</p>}
       {reason && <p className="mt-1 text-xs text-warn-fg">{reason}. Change the start year or residency to price it.</p>}
-      {current && taken.has(current.key) && (
+      {taken.has(current.key) && (
         <p className="mt-1 text-xs text-warn-fg">Same programme as another slot; pick a different one to compare.</p>
       )}
     </fieldset>
@@ -646,6 +721,7 @@ function StatTiles({
             <h2 className="mt-1 font-semibold leading-snug">
               <UniversityName university={s.university} />
             </h2>
+            <p className="mt-0.5 text-sm text-muted">{s.programme.name}</p>
             <p className="mt-2 text-3xl font-semibold text-accent tabular-nums">{formatMoney(s.grandTotalSgd, "SGD")}</p>
             <p className="mt-1 text-sm tabular-nums">
               <InfoTip term="perYear">
@@ -713,6 +789,8 @@ function ResultDetail({
 }) {
   const { university: u, programme: p, result } = s;
   const cur = u.currency;
+  // Units of the local currency per S$1, so local ÷ rate = SGD.
+  const sgd = (n: number) => n / s.fxRate;
   const stale = isStale(p.lastVerified, new Date(today));
   const hasCompulsory = result.years.some((y) => y.compulsoryFees > 0);
   const hasOneOff = result.years.some((y) => y.oneOffFees > 0);
@@ -767,8 +845,8 @@ function ResultDetail({
       </div>
 
       <div className="mt-4 overflow-x-auto">
-        <table className={`w-full tabular-nums ${hasCompulsory && hasOneOff ? "text-xs" : "text-sm"}`}>
-          <caption className="sr-only">University fees by year in {cur}</caption>
+        <table className={`w-full tabular-nums ${(hasCompulsory && hasOneOff) || className ? "text-xs" : "text-sm"}`}>
+          <caption className="sr-only">University fees by year in SGD</caption>
           <thead className="text-left text-xs text-muted">
             <tr>
               <th className="py-1 pr-2 font-medium">Year</th>
@@ -783,7 +861,7 @@ function ResultDetail({
                   <InfoTip term="oneOffFees" align="right">One-off</InfoTip>
                 </th>
               )}
-              <th className={num}>Fees ({cur})</th>
+              <th className={num}>Fees (SGD)</th>
             </tr>
           </thead>
           <tbody>
@@ -807,17 +885,19 @@ function ResultDetail({
                     </span>
                   )}
                 </td>
-                <td className={num}>{formatMoney(y.tuition, cur)}</td>
-                {hasCompulsory && <td className={num}>{formatMoney(y.compulsoryFees, cur)}</td>}
-                {hasOneOff && <td className={num}>{formatMoney(y.oneOffFees, cur)}</td>}
-                <td className={`${num} font-medium`}>{formatMoney(y.total, cur)}</td>
+                <td className={num}>{formatMoney(sgd(y.tuition), "SGD")}</td>
+                {hasCompulsory && <td className={num}>{formatMoney(sgd(y.compulsoryFees), "SGD")}</td>}
+                {hasOneOff && <td className={num}>{formatMoney(sgd(y.oneOffFees), "SGD")}</td>}
+                <td className={`${num} font-medium`}>{formatMoney(sgd(y.total), "SGD")}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
 
-      {s.living && <LivingSection living={s.living} currency={cur} lifestyle={lifestyle} today={today} onCustom={onCustomLiving} />}
+      {s.living && (
+        <LivingSection living={s.living} currency={cur} fxRate={s.fxRate} lifestyle={lifestyle} today={today} onCustom={onCustomLiving} />
+      )}
       {s.livingNote && <p className="mt-4 rounded-md bg-chip px-3 py-2 text-xs text-muted">{s.livingNote}</p>}
 
       {p.notes && <MoreNotes label="Show more about this fee">{p.notes}</MoreNotes>}
@@ -861,17 +941,21 @@ function Badge({ children, warn, term }: { children: React.ReactNode; warn?: boo
 function LivingSection({
   living,
   currency: cur,
+  fxRate,
   lifestyle,
   today,
   onCustom,
 }: {
   living: LivingResult;
   currency: string;
+  /** Units of `currency` per S$1. */
+  fxRate: number;
   lifestyle: Lifestyle;
   today: string;
   onCustom: (m: MonthlyLiving | null) => void;
 }) {
   const e = living.estimate;
+  const sgd = (n: number) => n / fxRate;
   const stale = isStale(e.lastVerified, new Date(today));
   const projected = living.years.some((y) => y.projected);
   // Some sources (e.g. a visa minimum) give one total, stored under housing.
@@ -883,19 +967,19 @@ function LivingSection({
           <span className="mr-1.5 inline-block h-2.5 w-2.5 rounded-sm bg-series-4" aria-hidden />
           Living costs
         </h3>
-        <span className="text-sm font-medium tabular-nums">{formatMoney(living.totalLocal, cur)}</span>
+        <span className="text-sm font-medium tabular-nums">{formatMoney(living.totalSgd, "SGD")}</span>
       </div>
       <p className="mt-0.5 text-xs text-muted">
         {living.customised ? "Your own budget" : `${lifestyle[0].toUpperCase()}${lifestyle.slice(1)} lifestyle`} ·{" "}
-        {formatMoney(monthlyTotal(living.monthly), cur)} a month × {e.months} months a year
+        {formatMoney(sgd(monthlyTotal(living.monthly)), "SGD")} a month ({formatMoney(monthlyTotal(living.monthly), cur)}) × {e.months} months a year
         {projected && ` · later years +${(living.increase * 100).toFixed(1)}%/yr inflation`}
       </p>
       {breakdown ? (
-        <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-0.5 text-xs tabular-nums">
+        <dl className="mt-2 grid gap-x-4 gap-y-0.5 text-xs tabular-nums sm:grid-cols-2 lg:grid-cols-1">
           {LIVING_CATEGORIES.map((c) => (
             <div key={c} className="flex justify-between gap-2">
               <dt className="text-muted">{LIVING_LABELS[c]}</dt>
-              <dd>{formatMoney(living.monthly[c], cur)}/mo</dd>
+              <dd>{formatMoney(sgd(living.monthly[c]), "SGD")}/mo</dd>
             </div>
           ))}
         </dl>
@@ -903,7 +987,7 @@ function LivingSection({
         <p className="mt-2 text-xs text-muted">This estimate is a single total, not split by category.</p>
       )}
       <p className="mt-2 text-xs text-muted tabular-nums">
-        {living.years.map((y) => `${y.academicYear}: ${formatMoney(y.amount, cur)}`).join(" · ")}
+        {living.years.map((y) => `${y.academicYear}: ${formatMoney(sgd(y.amount), "SGD")}`).join(" · ")}
       </p>
 
       <details className="mt-2 text-sm">
@@ -953,7 +1037,7 @@ function CustomLiving({
         {LIVING_CATEGORIES.map((c) => (
           <label key={c} className="text-xs">
             <span className="text-muted">
-              {LIVING_LABELS[c]} ({currency}/month)
+              {LIVING_LABELS[c]} ({currency} a month)
             </span>
             <input
               type="number"
