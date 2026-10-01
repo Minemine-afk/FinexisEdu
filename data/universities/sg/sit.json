@@ -4,7 +4,7 @@
   "country": "sg",
   "city": "Singapore",
   "currency": "SGD",
-  "website": "https://www.singaporetech.edu.sg",
+  "website": "https://www.singaporetech.edu.sg/",
   "description": "The Singapore Institute of Technology is a public university established in 2009 and granted Autonomous University status in 2014, with its main campus in Punggol. It offers applied, industry-focused degrees in engineering, health sciences, infocomm technology, business and design, including programmes run with overseas partner universities.",
   "whyIncluded": "One of Singapore's Ministry of Education (MOE)-funded Autonomous Universities, and the main local applied-degree pathway for polytechnic graduates who would otherwise consider overseas study.",
   "programmes": [
@@ -15,19 +15,46 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 7860, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 13500, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 22301.4, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": {
+          "annualTuition": 7860,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 22301.4,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
       },
       "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2026-03/SIT_Undergraduate_Tuition%20Fees_AY2026_1.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "SIT charges per credit, fixed for the AY2026 intake cohort: SC S$131.00, PR S$225.00, international (non-ASEAN, MOE Tuition Grant) S$371.69 per credit (ASEAN S$324.82; non-subsidised S$575.52). Annual figure = per-credit fee x 60 credits (240-credit, 4-year programme). SC/PR fees exclude GST (subsidised by MOE); international fees include 9% GST. No compulsory fees are listed in the fee schedule. 2025 history: AY2025 schedule (SC S$130.00, PR S$225.00, IS S$371.69 per credit).",
       "feeHistory": [
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 7800, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 13500, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 22301.4, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" }
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 7800,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 13500,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22301.4,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        }
       ]
     },
     {
@@ -37,19 +64,46 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 7860, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 13500, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 22301.4, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": {
+          "annualTuition": 7860,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 22301.4,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
       },
       "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2026-03/SIT_Undergraduate_Tuition%20Fees_AY2026_1.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Per-credit fees fixed for the AY2026 intake cohort: SC S$131.00, PR S$225.00, international (non-ASEAN, MOE Tuition Grant) S$371.69 per credit (ASEAN S$324.82; non-subsidised S$575.52). Annual figure = per-credit fee x 60 credits (180-credit, 3-year direct-honours programme per MOE CourseFinder). SC/PR fees exclude GST; international fees include 9% GST. No compulsory fees listed. 2025 history from the AY2025 schedule.",
       "feeHistory": [
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 7800, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 13500, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 22301.4, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" }
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 7800,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 13500,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22301.4,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        }
       ]
     },
     {
@@ -59,19 +113,46 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 9360, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 14160, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 24525, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": {
+          "annualTuition": 9360,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 14160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 24525,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
       },
       "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2026-03/SIT_Undergraduate_Tuition%20Fees_AY2026_1.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Per-credit fees fixed for the AY2026 intake cohort: SC S$156.00, PR S$236.00, international (non-ASEAN, MOE Tuition Grant) S$408.75 per credit (ASEAN S$364.06; non-subsidised S$653.46). Annual figure = per-credit fee x 60 credits (180-credit, 3-year direct-honours programme per MOE CourseFinder). SC/PR fees exclude GST; international fees include 9% GST. No compulsory fees listed. 2025 history from the AY2025 schedule (SC S$155.00, PR S$236.00, IS S$408.75 per credit).",
       "feeHistory": [
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 9300, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 14160, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 24525, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" }
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 9300,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 14160,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 24525,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        }
       ]
     },
     {
@@ -81,19 +162,46 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 7860, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 13500, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 22301.4, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": {
+          "annualTuition": 7860,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 22301.4,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
       },
       "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2026-03/SIT_Undergraduate_Tuition%20Fees_AY2026_1.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Per-credit fees fixed for the AY2026 intake cohort: SC S$131.00, PR S$225.00, international (non-ASEAN, MOE Tuition Grant) S$371.69 per credit (ASEAN S$324.82; non-subsidised S$575.52). Annual figure = per-credit fee x 60 credits (240-credit, 4-year direct-honours programme per MOE CourseFinder). SC/PR fees exclude GST; international fees include 9% GST. No compulsory fees listed. 2025 history from the AY2025 schedule.",
       "feeHistory": [
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 7800, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 13500, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 22301.4, "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf" }
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 7800,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 13500,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22301.4,
+          "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2025-05/SIT_Undergraduate_Tuition%20Fees_AY2025.pdf"
+        }
       ]
     },
     {
@@ -103,12 +211,24 @@
       "durationYears": 2,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 4695, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 9540, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 19244.1, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": {
+          "annualTuition": 4695,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 9540,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 19244.1,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
       },
       "sourceUrl": "https://www.singaporetech.edu.sg/sites/default/files/2026-06/SIT_Postgraduate_Tuition%20Fees_AY2026.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
       "notes": "Per-credit fees fixed for the AY2026 postgraduate intake cohort: SC S$156.50 and PR S$318.00 (MOE-subsidised, excl. GST); international students pay the non-subsidised rate of S$641.47 per credit incl. 9% GST. Annual figure = per-credit fee x 30 credits (60-credit programme, 2-year normal candidature per the SIT programme page; classes on weekday evenings). No compulsory fees listed. SIT has no computing, business, sciences or arts master's degree by coursework.",

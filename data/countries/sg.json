@@ -2,10 +2,10 @@
   "code": "sg",
   "name": "Singapore",
   "currency": "SGD",
-  "defaultFeeIncrease": 0.004,
+  "defaultFeeIncrease": 0.006,
   "feeIncreaseByTier": {
-    "citizen": 0.0,
-    "pr": 0.0,
+    "citizen": 0.005,
+    "pr": 0.004,
     "international": 0.031
   }
 }

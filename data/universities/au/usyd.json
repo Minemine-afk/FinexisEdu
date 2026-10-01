@@ -4,7 +4,7 @@
   "country": "au",
   "city": "Sydney",
   "currency": "AUD",
-  "website": "https://www.sydney.edu.au",
+  "website": "https://www.sydney.edu.au/",
   "description": "The University of Sydney is a public research university founded in 1850, the oldest university in Australia. It is a member of the Group of Eight and teaches across medicine and health, law, engineering, business, science and the arts.",
   "whyIncluded": "Among the most-searched overseas universities from Singapore in 2025 (KiasuParents, a Singapore parents' website), and a Group of Eight university on both the Singapore Medical Council and the Singapore Institute of Legal Education (SILE) recognition lists.",
   "livingCosts": {
@@ -17,7 +17,7 @@
       "personal": 650
     },
     "sourceUrl": "https://www.sydney.edu.au/study/fees-and-loans/other-costs/living-costs.html",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-10-01",
     "sourceType": "official",
     "notes": "University of Sydney 'General living costs' table (monthly AUD, figures from the Study Australia cost-of-living calculator; the page gives no year, 2026 is the year it was read), range midpoints. Housing: accommodation $980-$3,500. Food: food and groceries $1,000-$2,500. Transport: $130-$800. Personal: mobile phone $30-$100 + lifestyle $350-$650 + gym $70-$100. The page also cites the older Home Affairs visa minimum of $24,505/yr."
   },
@@ -36,10 +36,11 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 083109M), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online."
+      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 083109M), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online.",
+      "feeHistory": []
     },
     {
       "level": "bachelor",
@@ -55,10 +56,11 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 093855E), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online."
+      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 093855E), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online.",
+      "feeHistory": []
     },
     {
       "level": "bachelor",
@@ -74,7 +76,7 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 006441D), 2026 International Admission Guide; increases each year. Sydney offers the LLB only combined with another bachelor's degree; Commerce/Laws, Economics/Laws and Science/Laws are also A$56,300 (Engineering Honours/Laws is 6.5 years). Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online.",
@@ -94,7 +96,7 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/juris-doctor.coredata.json",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/juris-doctor.html loads it from this JSON); 144 credit points over 3 years. The same data lists 2027 at A$64,200. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Not available to student visa holders part-time. Fees increase each year.",
@@ -114,7 +116,7 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/doctor-of-medicine0.coredata.json",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/doctor-of-medicine.html loads it from this JSON); graduate entry, 4 years. The same data lists 2027 at A$100,500, and the 2026 International Admission Guide quotes the same A$97,000 for the MD years of the Science/Medicine and Arts/Medicine double degrees. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year.",

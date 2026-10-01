@@ -4,7 +4,7 @@
   "country": "au",
   "city": "Melbourne",
   "currency": "AUD",
-  "website": "https://www.unimelb.edu.au",
+  "website": "https://www.unimelb.edu.au/",
   "description": "The University of Melbourne is a public research university founded in 1853, the oldest in Victoria and second-oldest in Australia. It is a member of the Group of Eight and uses a graduate-entry model for professional degrees such as medicine and law.",
   "whyIncluded": "Melbourne reports over 500 enrolled students from Singapore, and is a Group of Eight university on both the Singapore Medical Council and the Singapore Institute of Legal Education (SILE) recognition lists.",
   "livingCosts": {
@@ -36,10 +36,11 @@
         }
       },
       "sourceUrl": "https://augstudy.com/courses/bachelor-science-the-university-of-melbourne/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Tuition not confirmed on official page (study.unimelb.edu.au blocks automated access); agent listing, lower end of a subject-dependent range. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570)."
+      "notes": "Tuition not confirmed on official page (study.unimelb.edu.au blocks automated access); agent listing, lower end of a subject-dependent range. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570).",
+      "feeHistory": []
     },
     {
       "level": "master",
@@ -55,7 +56,7 @@
         }
       },
       "sourceUrl": "https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
       "notes": "Tuition (2026 and 2025) not confirmed on official page (unimelb fee pages block automated access); aggregator figures. 300 points / 36 months full-time per the 2026 Handbook; up to 100 points credit for a cognate engineering degree. International students pay no SSAF.",
@@ -82,7 +83,7 @@
         }
       },
       "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0020/5423033/2026-International-Course-Tuition-Fees-OF_20260807.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "2026 international fee place course tuition fee per EFTSL (MC-JURISD; 300 points over 3 years). 2024 and 2025 from the previous years' international fee tables. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-09-30 through a text rendering (r.jina.ai) of these URLs.",
@@ -115,7 +116,7 @@
         }
       },
       "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0020/5423033/2026-International-Course-Tuition-Fees-OF_20260807.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "2026 international fee place course tuition fee per EFTSL (MC-DMED; 4 years, graduate entry). One annual rate for all four years. 2024 and 2025 from the previous years' international fee tables. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-09-30 through a text rendering (r.jina.ai) of these URLs.",
