@@ -84,15 +84,21 @@ current figures are built; their notes say so.
 
 ## Comparing up to three universities
 
-The options bar at the top holds the course and student settings, then three
-comparison slots. Each slot has a country dropdown, then a dropdown of that
-country's universities (and of programmes, where a university has more than one
-for the chosen level and field). The results show a headline tile for each
-university (total in SGD and how much more it costs than the cheapest), then
-vertical bars on a common baseline. "Compare" switches the bars between the
-total and one part of it (tuition, other fees, one-off fees, living costs); the
-total is stacked by part. The year-by-year fees, living-cost breakdown, badges
-and source links for each university sit in the details panel below the chart.
+The sidebar on the left holds the student settings (level, residency, start
+year, fee increase, living costs) and the comparison slots. One university is
+shown at first; "Compare another university" adds a second and a third slot,
+each with a "remove" link. Each slot has a country dropdown, then a dropdown of
+that country's universities, then the field of study offered at that
+university (and a programme dropdown where it has more than one in that field).
+Because the field is chosen per slot, the same university can be compared
+across two of its own courses, or two universities across different courses.
+The results show a headline tile for each selection (programme, total in SGD
+and how much more it costs than the cheapest), then vertical bars on a common
+baseline. "Compare" switches the bars between the total and one part of it
+(tuition, other fees, one-off fees, living costs); the total is stacked by
+part. The year-by-year fees, living-cost breakdown, badges and source links for
+each university sit in the details panel below the chart, all converted to
+SGD, with the local-currency figure shown once in the heading.
 
 Every university name is a link to its website; hovering (or tapping) it shows
 a short description and why the university is in the calculator (`description`
