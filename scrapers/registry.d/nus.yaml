@@ -1,0 +1,11 @@
+# National University of Singapore: sources added after the main registry entries.
+# Duke-NUS Medical School (duke-nus.edu.sg) sits behind Incapsula bot protection
+# (direct requests get a challenge page); the MD tuition page was read through a
+# reader proxy (r.jina.ai). It shows only the current intake's annual fees
+# ("For students admitted ... in Academic Year 2026-2027"), SC / PR / international.
+sources:
+  - university: nus
+    country: sg
+    url: https://www.duke-nus.edu.sg/admissions/why-duke-nus/tuition-scholarships
+    parser: html
+    manual: true
