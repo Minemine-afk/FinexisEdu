@@ -33,6 +33,8 @@ import {
 } from "@/lib/living";
 import FeeChart, { SEGMENTS, type CompareCategory } from "./FeeChart";
 import UniversityName from "./UniversityName";
+import InfoTip from "./InfoTip";
+import type { GlossaryTerm } from "@/lib/glossary";
 
 interface Props {
   universities: University[];
@@ -279,7 +281,9 @@ export default function Calculator({ universities, countries, fx, today }: Props
           </label>
 
           <label className="block">
-            <span className="text-sm font-medium">Residency</span>
+            <span className="text-sm font-medium">
+              <InfoTip term="residency">Residency</InfoTip>
+            </span>
             <select className={select} value={residency} onChange={(e) => setResidency(e.target.value as Residency)}>
               {(Object.keys(RESIDENCY_LABELS) as Residency[]).map((r) => (
                 <option key={r} value={r}>
@@ -291,7 +295,9 @@ export default function Calculator({ universities, countries, fx, today }: Props
           </label>
 
           <label className="block">
-            <span className="text-sm font-medium">Start year</span>
+            <span className="text-sm font-medium">
+              <InfoTip term="startYear">Start year</InfoTip>
+            </span>
             <select className={select} value={startYear} onChange={(e) => setStartYear(Number(e.target.value))}>
               {START_YEARS.map((y) => (
                 <option key={y} value={y}>
@@ -305,7 +311,9 @@ export default function Calculator({ universities, countries, fx, today }: Props
           </label>
 
           <fieldset>
-            <legend className="text-sm font-medium">Yearly fee increase</legend>
+            <legend className="text-sm font-medium">
+              <InfoTip term="feeIncrease">Yearly fee increase</InfoTip>
+            </legend>
             <div className="mt-1 flex min-h-10 items-center gap-2 text-sm">
               <input
                 id="custom-increase"
@@ -337,7 +345,9 @@ export default function Calculator({ universities, countries, fx, today }: Props
           </fieldset>
 
           <fieldset>
-            <legend className="text-sm font-medium">Living costs</legend>
+            <legend className="text-sm font-medium">
+              <InfoTip term="livingCosts" align="right">Living costs</InfoTip>
+            </legend>
             <label className="mt-1 flex min-h-10 cursor-pointer items-center gap-2 text-sm">
               <input type="checkbox" checked={includeLiving} onChange={(e) => setIncludeLiving(e.target.checked)} />
               Include living costs
@@ -349,6 +359,7 @@ export default function Calculator({ universities, countries, fx, today }: Props
                 options={(Object.keys(LIFESTYLE_LABELS) as Lifestyle[]).map((l) => [l, LIFESTYLE_LABELS[l]])}
                 onChange={setLifestyle}
                 small
+                tip="lifestyle"
               />
             ) : (
               <p className="mt-1 text-xs text-muted">Each university&apos;s own estimate; not for Singapore universities.</p>
@@ -573,6 +584,7 @@ function Segmented<T extends string>({
   options,
   onChange,
   small,
+  tip,
 }: {
   label: string;
   value: T;
@@ -580,10 +592,14 @@ function Segmented<T extends string>({
   onChange: (v: T) => void;
   /** Compact buttons for a secondary control. */
   small?: boolean;
+  /** Glossary entry explaining the control. */
+  tip?: GlossaryTerm;
 }) {
   return (
     <div>
-      <span className={small ? "text-xs text-muted" : "text-sm font-medium"}>{label}</span>
+      <span className={small ? "text-xs text-muted" : "text-sm font-medium"}>
+        {tip ? <InfoTip term={tip} align="right">{label}</InfoTip> : label}
+      </span>
       <div
         role="radiogroup"
         aria-label={label}
@@ -631,6 +647,12 @@ function StatTiles({
               <UniversityName university={s.university} />
             </h2>
             <p className="mt-2 text-3xl font-semibold text-accent tabular-nums">{formatMoney(s.grandTotalSgd, "SGD")}</p>
+            <p className="mt-1 text-sm tabular-nums">
+              <InfoTip term="perYear">
+                ≈ {formatMoney(s.grandTotalSgd / s.result.durationYears, "SGD")} a year ·{" "}
+                {formatMoney(s.grandTotalSgd / s.result.durationYears / 12, "SGD")} a month
+              </InfoTip>
+            </p>
             {s.living && (
               <p className="mt-1 text-sm text-muted tabular-nums">
                 Fees {formatMoney(s.totalSgd, "SGD")} + living {formatMoney(s.living.totalSgd, "SGD")}
@@ -658,7 +680,7 @@ function ResidencyFees({ p, residency }: { p: Programme; residency: Residency })
   if (tiers.length < 2) return null;
   return (
     <p className="mt-2 text-xs text-muted tabular-nums">
-      Per year by residency:{" "}
+      <InfoTip term="residency">Per year by residency</InfoTip>:{" "}
       {tiers.map((t, i) => (
         <span key={t}>
           {i > 0 && " · "}
@@ -729,17 +751,19 @@ function ResultDetail({
       {u.country === "sg" && <ResidencyFees p={p} residency={residency} />}
 
       <div className="mt-3 flex flex-wrap gap-1.5 text-xs">
-        <Badge>{result.tier === "international" ? "International rate" : `${result.tier === "citizen" ? "Citizen" : "PR"} rate`}</Badge>
-        {p.cohortLocked && <Badge>Fee fixed for your cohort</Badge>}
+        <Badge term={result.tier === "international" ? "internationalRate" : result.tier === "citizen" ? "citizenRate" : "prRate"}>
+          {result.tier === "international" ? "International rate" : `${result.tier === "citizen" ? "Citizen" : "PR"} rate`}
+        </Badge>
+        {p.cohortLocked && <Badge term="cohortLocked">Fee fixed for your cohort</Badge>}
         {result.projected &&
           (s.feeIncrease > 0 ? (
-            <Badge>Includes projected {(s.feeIncrease * 100).toFixed(1)}%/yr increase</Badge>
+            <Badge term="projected">Includes projected {(s.feeIncrease * 100).toFixed(1)}%/yr increase</Badge>
           ) : (
-            <Badge>Future years assume no increase</Badge>
+            <Badge term="projected">Future years assume no increase</Badge>
           ))}
-        {result.otherFeesFromCurrent && <Badge>Other fees use current rates</Badge>}
-        {p.sourceType === "secondary" && <Badge warn>Unofficial source</Badge>}
-        {stale && <Badge warn>Data may be outdated</Badge>}
+        {result.otherFeesFromCurrent && <Badge term="otherFeesCurrent">Other fees use current rates</Badge>}
+        {p.sourceType === "secondary" && <Badge warn term="unofficialSource">Unofficial source</Badge>}
+        {stale && <Badge warn term="outdated">Data may be outdated</Badge>}
       </div>
 
       <div className="mt-4 overflow-x-auto">
@@ -749,19 +773,38 @@ function ResultDetail({
             <tr>
               <th className="py-1 pr-2 font-medium">Year</th>
               <th className={num}>Tuition</th>
-              {hasCompulsory && <th className={num}>Other fees</th>}
-              {hasOneOff && <th className={num}>One-off</th>}
+              {hasCompulsory && (
+                <th className={num}>
+                  <InfoTip term="compulsoryFees" align="right">Other fees</InfoTip>
+                </th>
+              )}
+              {hasOneOff && (
+                <th className={num}>
+                  <InfoTip term="oneOffFees" align="right">One-off</InfoTip>
+                </th>
+              )}
               <th className={num}>Fees ({cur})</th>
             </tr>
           </thead>
           <tbody>
-            {result.years.map((y) => (
+            {result.years.map((y, i) => (
               <tr key={y.academicYear} className="border-t border-border align-top">
                 <td className="py-1 pr-2">
                   {y.academicYear}
                   {y.fraction < 1 && <span className="text-muted"> (½)</span>}
                   {y.basis !== "current" && (
-                    <span className="block text-xs text-muted">{y.basis === "history" ? "published" : "projected"}</span>
+                    <span className="block text-xs text-muted">
+                      {i === 0 || result.years[i - 1].basis !== y.basis ? (
+                        // Explain the term once per run of years, not on every row.
+                        <InfoTip term={y.basis === "history" ? "published" : "projected"}>
+                          {y.basis === "history" ? "published" : "projected"}
+                        </InfoTip>
+                      ) : y.basis === "history" ? (
+                        "published"
+                      ) : (
+                        "projected"
+                      )}
+                    </span>
                   )}
                 </td>
                 <td className={num}>{formatMoney(y.tuition, cur)}</td>
@@ -807,10 +850,10 @@ function MoreNotes({ label, children }: { label: string; children: React.ReactNo
   );
 }
 
-function Badge({ children, warn }: { children: React.ReactNode; warn?: boolean }) {
+function Badge({ children, warn, term }: { children: React.ReactNode; warn?: boolean; term?: GlossaryTerm }) {
   return (
     <span className={`rounded-full px-2 py-0.5 ${warn ? "bg-warn-bg text-warn-fg" : "bg-chip text-muted"}`}>
-      {children}
+      {term ? <InfoTip term={term}>{children}</InfoTip> : children}
     </span>
   );
 }
@@ -869,8 +912,8 @@ function LivingSection({
       </details>
 
       <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
-        {e.sourceType === "secondary" && <Badge warn>Unofficial source</Badge>}
-        {stale && <Badge warn>Estimate may be outdated</Badge>}
+        {e.sourceType === "secondary" && <Badge warn term="unofficialSource">Unofficial source</Badge>}
+        {stale && <Badge warn term="outdated">Estimate may be outdated</Badge>}
       </div>
       {e.notes && <MoreNotes label="Show more about this estimate">{e.notes}</MoreNotes>}
       <p className="mt-1 text-xs text-muted">
