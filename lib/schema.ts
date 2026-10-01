@@ -45,6 +45,8 @@ export const Programme = z.object({
   lastVerified: z.iso.date(),
   sourceType: z.enum(["official", "secondary"]).default("official"),
   cohortLocked: z.boolean().default(false),
+  /** False when the university does not admit international students to this programme. */
+  internationalEligible: z.boolean().default(true),
   notes: z.string().optional(),
   feeHistory: z.array(FeeHistoryEntry).default([]),
 });

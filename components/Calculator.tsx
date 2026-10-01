@@ -21,7 +21,6 @@ import {
   FIELDS,
   LEVELS,
   LIVING_CATEGORIES,
-  TIERS,
   type Country,
   type Field,
   type Level,
@@ -146,6 +145,9 @@ function unavailableReason(
     feeIncrease: 0,
     strictTier: o.university.country === "sg",
   });
+  if (residency === "international" && !o.programme.internationalEligible) {
+    return "Not open to international students";
+  }
   if (missingYears.length === 0) return null;
   // A Singapore programme with no rate for this tier in any year is missing the tier, not a year.
   const tierEverPublished = o.programme.feeHistory.some(
@@ -651,7 +653,6 @@ export default function Calculator({
                     today={today}
                     country={countryByCode.get(s.university.country)}
                     lifestyle={lifestyle}
-                    residency={residency}
                     className={
                       selections.length === 1
                         ? ""
@@ -1000,44 +1001,12 @@ function StatTiles({
   );
 }
 
-/** Citizen / PR / international annual fees for a Singapore programme, so the subsidy gap is visible. */
-function ResidencyFees({
-  p,
-  residency,
-}: {
-  p: Programme;
-  residency: Residency;
-}) {
-  const tiers = TIERS.filter((t) => p.fees[t]);
-  if (tiers.length < 2) return null;
-  return (
-    <p className="mt-2 text-xs text-muted tabular-nums">
-      <InfoTip term="residency">Per year by residency</InfoTip>:{" "}
-      {tiers.map((t, i) => (
-        <span key={t}>
-          {i > 0 && " · "}
-          <span
-            className={t === residency ? "font-semibold text-foreground" : ""}
-          >
-            {RESIDENCY_LABELS[t]}{" "}
-            {formatMoney(
-              p.fees[t]!.annualTuition + p.fees[t]!.annualCompulsoryFees,
-              "SGD",
-            )}
-          </span>
-        </span>
-      ))}
-    </p>
-  );
-}
-
 /** Year-by-year fees, living costs and sources for one university. */
 function ResultDetail({
   s,
   today,
   country,
   lifestyle,
-  residency,
   className,
   onCustomLiving,
 }: {
@@ -1045,7 +1014,6 @@ function ResultDetail({
   today: string;
   country?: Country;
   lifestyle: Lifestyle;
-  residency: Residency;
   className: string;
   onCustomLiving: (m: MonthlyLiving | null) => void;
 }) {
@@ -1106,8 +1074,7 @@ function ResultDetail({
             </span>
           )}
         </p>
-        {u.country === "sg" && <ResidencyFees p={p} residency={residency} />}
-
+  
         <div className="mt-3 flex flex-wrap gap-1.5 text-xs">
           <Badge
             term={
