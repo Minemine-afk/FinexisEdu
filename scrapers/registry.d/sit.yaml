@@ -1,7 +1,14 @@
 # Singapore Institute of Technology. The HTML fee pages sit behind Incapsula bot
 # protection, but the yearly fee-schedule PDFs are fetchable. Fees are quoted per
 # credit; the multiplier is the credits taken per year (60 for undergraduates,
-# 30 for the 60-credit, 2-year MSc).
+# 30 for the 60-credit, 2-year MSc). The yearly schedules are linked from
+# https://www.singaporetech.edu.sg/admissions/tuition-fees as /media/<level>-tuition-fees-ayNN
+# redirects; the AY2024/AY2025 PDFs used for feeHistory are
+# .../2025-05/SIT_Undergraduate_Tuition%20Fees_AY2024.pdf,
+# .../2025-05/SIT_Postgraduate_Tuition%20Fees_AY2024.pdf and
+# .../2025-05/SIT_Postgraduate_Tuition%20Fees_AY2025_0.pdf (not scraped: older cohorts).
+# Miscellaneous (compulsory) fees per trimester come from the HTML tuition-fees pages,
+# which are bot-protected; check them by hand.
 sources:
   - university: sit
     country: sg
