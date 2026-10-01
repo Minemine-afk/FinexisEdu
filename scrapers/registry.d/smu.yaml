@@ -1,0 +1,12 @@
+# Singapore Management University, extra sources. SMU's sites (admissions, masters, business,
+# economics, law subdomains) block automated access, so pages are read through a reader proxy
+# (r.jina.ai) and earlier intakes' fees come from Wayback Machine copies of the official pages.
+sources:
+  # Official MAF programme page on the masters.smu.edu.sg site; the archived July 2024 copy
+  # (web.archive.org capture 20240722135036) is the source of the August 2024 intake fee history.
+  # Site blocks automated access; read through a reader proxy.
+  - university: smu
+    country: sg
+    url: https://masters.smu.edu.sg/programme/msc-in-applied-finance
+    parser: html
+    manual: true
