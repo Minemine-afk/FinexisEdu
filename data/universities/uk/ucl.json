@@ -27,45 +27,70 @@
       "field": "business",
       "name": "International Management BSc",
       "durationYears": 3,
-      "feeYear": 2025,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 39800,
+          "annualTuition": 44400,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.mgmt.ucl.ac.uk/international-management",
-      "lastVerified": "2026-09-23",
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
-      "cohortLocked": false,
-      "notes": "International fee for 2025 entry, the latest the School of Management page shows; later years are projected. UCL's cohort fee guarantee could not be confirmed on an official page (ucl.ac.uk blocks automated access), so fees are treated as rising yearly.",
-      "feeHistory": []
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028); 3-year programme. The 2025 figure was read on the School of Management page in 2026-09 (that page now redirects to www.ucl.ac.uk and blocks automated access). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42700,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39800,
+          "sourceUrl": "https://www.mgmt.ucl.ac.uk/international-management"
+        }
+      ]
     },
     {
       "level": "master",
       "field": "business",
       "name": "MSc Management",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 42700,
+          "annualTuition": 44400,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.mgmt.ucl.ac.uk/management",
-      "lastVerified": "2026-09-23",
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
-      "cohortLocked": false,
-      "notes": "Same fee for Home and Overseas students; 1-year programme.",
+      "cohortLocked": true,
+      "notes": "Full-time fee for 2027/28 entrants, the same for UK and Overseas students, from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1-year programme. The 2025 and 2026 figures were read on the School of Management page in 2026-09 (that page now redirects to www.ucl.ac.uk and blocks automated access) and match the fee schedules for those years. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42700,
+          "sourceUrl": "https://www.mgmt.ucl.ac.uk/management"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 39800,
           "sourceUrl": "https://www.mgmt.ucl.ac.uk/management"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38300,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2024"
         }
       ]
     },
@@ -82,52 +107,409 @@
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb",
-      "lastVerified": "2026-09-30",
-      "sourceType": "secondary",
-      "cohortLocked": false,
-      "notes": "International fee for 2027 entry (2027/28) from UCL's official Law LLB prospectus page (UK £10,050). No separate compulsory fees. www.ucl.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. UCL's cohort fee guarantee for international undergraduates could not be confirmed on an official page, so fees are treated as rising yearly. The 2026 prospectus page shows only the UK fee, so no history.",
-      "feeHistory": []
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Law LLB prospectus page (ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb); 3-year programme. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35400,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33000,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31100,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2024"
+        }
+      ]
     },
     {
       "level": "master",
       "field": "law",
       "name": "Law LLM",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 39200,
+          "annualTuition": 40800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.mastersportal.com/studies/294183/law.html",
-      "lastVerified": "2026-09-30",
-      "sourceType": "secondary",
-      "cohortLocked": false,
-      "notes": "Overseas full-time fee for 2026/27 entry (UK £24,100); one-year programme. UCL's official Law LLM page (ucl.ac.uk/prospective-students/graduate/taught-degrees/law-llm) lists the 2027/28 fees as 'to be confirmed' and the 2026 version of the page could not be read (www.ucl.ac.uk blocks automated access), so the 2026/27 figure comes from a secondary aggregator and should be replaced with the official 2027/28 fee once published. No separate compulsory fees.",
-      "feeHistory": []
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £24,100) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1-year programme (also offered part-time at half the fee per year). Replaces the 2026/27 figure previously taken from a secondary aggregator, which matches the 2026/27 schedule. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 39200,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34400,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2024"
+        }
+      ]
     },
     {
       "level": "bachelor",
       "field": "medicine",
       "name": "Medicine MBBS BSc",
       "durationYears": 5,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 57300,
+          "annualTuition": 59600,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/medicine-mbbs-bsc-2026",
-      "lastVerified": "2026-09-30",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
       "cohortLocked": false,
-      "notes": "Overseas fee for 2026/27 entrants from UCL's official 2026 Medicine MBBS BSc prospectus page (UK £9,790). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £57,300 (an averaged rate: 2 x £39,200 pre-clinical plus 3 x £69,367 clinical), subject to annual increases of no more than RPI-X, and states that fixed fees for Overseas students do not apply; durationYears 5 therefore reflects the number of fee years. The 2027 entry page shows the fee as N/A (not yet published). www.ucl.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Additional costs (DBS check, equipment, placement travel) excluded.",
-      "feeHistory": []
+      "notes": "Overseas fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £59,600 (an averaged rate: 2 x £40,800 pre-clinical plus 3 x £72,134 clinical), so durationYears 5 reflects the number of fee years. The schedule states that Overseas Medicine fees are excluded from the cohort guarantee and are subject to annual increases of no more than RPI-X, hence cohortLocked false. The 2026 entry was read on the 2026 Medicine MBBS BSc prospectus page through a reader proxy (r.jina.ai) on 2026-09-30 and matches the 2026/27 schedule. No separate compulsory fees; additional costs (DBS check, equipment, placement travel) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 57300,
+          "sourceUrl": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/medicine-mbbs-bsc-2026"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Computer Science BSc prospectus page; 3 academic years (the MEng charges the same fee). A suitable laptop (UCL estimates £800-£1,500) is excluded. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 46700,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41000,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2024"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering MEng",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Mechanical Engineering MEng prospectus page; 4 academic years (the 3-year BEng charges the same annual fee). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42700,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39800,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2024"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Natural Sciences BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Natural Sciences BSc prospectus page; 3 academic years. Optional field-trip travel excluded. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42700,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39800,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2024"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Economics BSc (Econ)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028); 3 academic years. Students on an optional placement year pay 15% of the full-time fee for that year. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 39200,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34400,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2024"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £21,500) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year. The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42700,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39800,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2024"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Civil Engineering MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £21,500) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42700,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39800,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2024"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £16,800) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42700,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39800,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2024"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Economics MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £28,900) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). UCL's schedules list £39,800 for 2025/26 entrants and £39,200 for 2026/27 entrants, as published. The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 39200,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39800,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37500,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2024"
+        }
+      ]
     }
   ]
 }
