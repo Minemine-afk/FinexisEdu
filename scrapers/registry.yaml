@@ -1320,12 +1320,6 @@ sources:
   # secondary source; the university's own fee page is not machine-readable
   - university: oxford
     country: uk
-    url: https://courseoptions.com/uk/course/uni-of-oxford/msc-advanced-computer-science-uni-of-oxford
-    parser: html
-    manual: true
-  # secondary source; the university's own fee page is not machine-readable
-  - university: oxford
-    country: uk
     url: https://www.educatly.com/program/734267/mst-in-history-early-modern-history-1500-1700
     parser: html
     manual: true

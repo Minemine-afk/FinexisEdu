@@ -1,0 +1,45 @@
+# University of Oxford. Overseas course fees are published per course on each
+# undergraduate course page (2027 entry) and each graduate course page ("Annual
+# course fees", 2027-28). www.ox.ac.uk blocks automated access (Cloudflare), so the
+# pages are read by hand through a reader proxy (r.jina.ai).
+sources:
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/philosophy-politics-and-economics
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/economics-and-management
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/engineering-science
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/physics
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/graduate/courses/msc-energy-systems
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science
+    parser: html
+    manual: true
