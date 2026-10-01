@@ -92,6 +92,7 @@ sources:
     targets:
     - level: master
       field: engineering
+      programme: School of EEE
       tier: international
       pattern: AY ?\d{4} \(from Aug \d{4}\) S\$[\d,.]+ ?\* S\$[\d,.]+ ?\* S\$([\d,.]+) ?\* \*Inclusive
   - university: ntu
@@ -106,24 +107,28 @@ sources:
       pattern: The tuition fees for Academic Year \d{4}/\d{4} and after are as follows:\s*Tuition Fees S\$([\d,.]+)
   - university: ntu
     country: sg
-    url: https://www.ntu.edu.sg/education/graduate-programme/nanyang-mba
+    # Nanyang Business School admissions page: 'AY2027 (July 2027 intake) ... Nanyang MBA ... S$ 85,280*',
+    # quoted excl. 9% GST (multiplier 1.09); SC/PR get a 10% study grant (x 0.9). The NTU programme
+    # page (ntu.edu.sg/education/graduate-programme/nanyang-mba) lags a year and holds the 2026 intake.
+    url: https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions
     parser: html
-    year_pattern: Programme Fee \((\d{4}) Intake\)
+    year_pattern: AY(\d{4}) \(July \d{4} intake\)
     targets:
     - level: master
       field: business
       tier: international
-      pattern: Programme Fee \(\d{4} Intake\):\s*S\$([\d,.]+)
+      pattern: Tuition Fee Nanyang MBA 12 months 3 \W{0,3}trimesters Singapore S\$ ?([\d,]+)
+      multiplier: 1.09
     - level: master
       field: business
       tier: citizen
-      pattern: Programme Fee \(\d{4} Intake\):\s*S\$([\d,.]+)
-      multiplier: 0.9
+      pattern: Tuition Fee Nanyang MBA 12 months 3 \W{0,3}trimesters Singapore S\$ ?([\d,]+)
+      multiplier: 0.981
     - level: master
       field: business
       tier: pr
-      pattern: Programme Fee \(\d{4} Intake\):\s*S\$([\d,.]+)
-      multiplier: 0.9
+      pattern: Tuition Fee Nanyang MBA 12 months 3 \W{0,3}trimesters Singapore S\$ ?([\d,]+)
+      multiplier: 0.981
   # Official graduate (coursework) fee PDF; the RSIS row holds the four M.Sc. programmes.
   # Columns: non-subsidised, Singapore Citizen, Singapore PR, international (subsidised).
   # The first match is table B1.1a (full-time, newest intake).
@@ -146,20 +151,14 @@ sources:
       tier: international
       pattern: M\.Sc\. \(International Political Economy\) [\d,]+ [\d,]+ [\d,]+ ([\d,]+) - M\.Sc\. \(International Relations\)
   # SPMS MSc in Analytics: one fee for all nationalities, three intake-year columns (last = newest).
+  # Only the international tier is scraped: the citizen/PR tiers in data/ are that fee minus the
+  # SC (S$10,900) / PR (S$5,450) study grants stated on the page, so re-check them by hand.
   - university: ntu
     country: sg
     url: https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics
     parser: html
     year_pattern: Academic Year (\d{4})/\d{2}
     targets:
-    - level: master
-      field: sciences
-      tier: citizen
-      pattern: Tuition Fee S?\$[\d,.]+ S?\$[\d,.]+ S?\$([\d,.]+) Payment Schedule
-    - level: master
-      field: sciences
-      tier: pr
-      pattern: Tuition Fee S?\$[\d,.]+ S?\$[\d,.]+ S?\$([\d,.]+) Payment Schedule
     - level: master
       field: sciences
       tier: international

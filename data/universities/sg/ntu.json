@@ -96,9 +96,34 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Self-financed programme; the page states students are not eligible for MOE subsidies. Minimum total tuition (30 AUs) incl. 9% GST for admission in AY2027 (from Aug 2027): S$58,403.07; AY2026: S$56,156.80. Published as one figure for all nationalities. No Citizen/PR tier (checked 2026-10-01): the page's 'MSc Programme Financial Support' section and the NTU Graduate Admissions financial-matters page it links to state the S$5,000 NTU SC/PR subsidy only 'from the academic year starting in 2024' and 'for academic year starting in 2025', not for AY2026 or AY2027 intakes, and the page no longer publishes AY2024/AY2025 totals; the NTU Graduate Admissions AY2026-27 coursework fee PDF lists only MOE-subsidised programmes. So no net SC/PR fee is stated and none can be derived without assuming the subsidy continues. Excludes miscellaneous fees (S$610 full-time for AY2025).",
+      "notes": "Self-financed programme; the page states students are not eligible for MOE subsidies. Minimum total tuition (30 AUs) incl. 9% GST for admission in AY2027 (from Aug 2027): S$58,403.07; AY2026: S$56,156.80. Published as one figure for all nationalities, so the international tier is the fee everyone pays (incl. 9% GST). No Citizen/PR tier (re-checked 2026-10-01): the page's 'MSc Programme Financial Support' section, the NTU Graduate Admissions financial-matters page (/admissions/graduate/financialmatters/ntupgi) it links to, and the School's MSc programme brochure PDF (which repeats only the AY2027 fee) state the S$5,000 NTU SC/PR subsidy only 'from the academic year starting in 2024' and 'for academic year starting in 2025'; there is no statement at all for the AY2026/27 or AY2027/28 intakes, so no SC/PR fee can be derived for the two intakes whose totals are published. For the AY2024 and AY2025 intakes the subsidy is stated but NTU no longer publishes those intakes' EEE totals anywhere reachable (the EEE page, brochure, FAQ, the NTU Graduate Admissions AY2024-25/AY2025-26/AY2026-27 coursework fee PDFs, which list only MOE-subsidised programmes, and the 'non-subsidised programmes' PDF, which lists the EEE MScs without amounts), so no 2024/2025 rows are recorded. Excludes miscellaneous fees (S$610 full-time for AY2025).",
       "feeHistory": [
         { "feeYear": 2026, "tier": "international", "annualTuition": 56156.8, "sourceUrl": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters" }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc (Civil Engineering) (School of Civil and Environmental Engineering)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 57232, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 57232, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 57232, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/cee/admissions/programmes/graduate-programmes/detail/master-of-science-in-civil-engineering",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Full-time normal candidature 1 year (2 semesters), 30 AUs; a part-time track also exists. This was NTU's MOE-subsidised engineering master's by coursework: the CEE programme page states MOE subsidy remains available to Singaporeans/PRs in the AY2024 intake but 'will not be available from AY2025 onwards', so all students admitted from AY2025 pay the non-subsidised fee. Current figures: 'Tuition fee for AY2026-2027 (based on minimum candidature)' S$57,232 full-time, incl. prevailing 9% GST, one fee for all nationalities, so the same figure is recorded under all three tiers; no SC/PR subsidy is stated for the AY2026 intake (the NTU Graduate Admissions financial-matters page states the S$5,000 self-financed-master's subsidy only for the academic years starting in 2024 and 2025). History: 2025 intake from the same page, 'Tuition fee for AY2025-2026' S$55,030.78 incl. GST for all nationalities (international row); the 2025 citizen and PR rows are DERIVED as S$55,030.78 minus the S$5,000 NTU subsidy for Singaporeans and PRs enrolling in self-financed master's by coursework programmes, which the NTU Graduate Admissions financial-matters page states applies 'for academic year starting in 2025' = S$50,030.78 (deducted from the GST-inclusive total; the page does not say whether it is applied before GST). 2024 intake (MOE-subsidised) from the NTU Graduate Admissions 'Tuition Fees for Graduate (Coursework)' AY2026-2027 PDF, table B1.3a (Full-Time Students Admitted in AY2024-2025, School of Civil and Environmental Engineering, M.Sc. (Civil Eng.)): Singapore Citizen S$9,750 and PR S$17,400 per academic year, subsidised, excl. GST (GST borne by MOE); the subsidised international fee is 'N.A.', so the 2024 international row is the non-subsidised fee S$48,940 incl. 9% GST. Excludes miscellaneous fees.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 50030.78, "sourceUrl": "https://www.ntu.edu.sg/cee/admissions/programmes/graduate-programmes/detail/master-of-science-in-civil-engineering" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 50030.78, "sourceUrl": "https://www.ntu.edu.sg/cee/admissions/programmes/graduate-programmes/detail/master-of-science-in-civil-engineering" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 55030.78, "sourceUrl": "https://www.ntu.edu.sg/cee/admissions/programmes/graduate-programmes/detail/master-of-science-in-civil-engineering" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 9750, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/graduate-admissions/coursework/fees/ay2026-2027coursework-fees.pdf?sfvrsn=a85bcafb_1" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 17400, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/graduate-admissions/coursework/fees/ay2026-2027coursework-fees.pdf?sfvrsn=a85bcafb_1" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 48940, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/graduate-admissions/coursework/fees/ay2026-2027coursework-fees.pdf?sfvrsn=a85bcafb_1" }
       ]
     },
     {
@@ -134,18 +159,22 @@
       "field": "business",
       "name": "Nanyang MBA (full-time)",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
-        "citizen": { "annualTuition": 80442, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 80442, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 89380, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": { "annualTuition": 83659.68, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 83659.68, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 92955.2, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
-      "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-mba",
-      "lastVerified": "2026-09-30",
+      "sourceUrl": "https://www.ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions",
+      "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Self-financed programme, not MOE-subsidised. Programme fee for the 2026 intake on the programme page: S$89,380 incl. 9% GST (12- or 18-month programme), same for all nationalities. Citizen/PR: NBS's Fees & Funding page (ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding) states that SC/PRs admitted to the full-time Nanyang MBA get a study grant of 10% of the tuition fee, so the SC/PR figure is 90% of the published fee. That page's fee schedule totals S$92,955.20 incl. GST without saying which intake it is for (probably 2027). Excludes the one-time miscellaneous fee of S$620.",
-      "feeHistory": []
+      "notes": "Self-financed programme, not MOE-subsidised. 12-month (3-trimester) full-time programme, so the programme fee is the annual fee. Current figures are for the AY2027 (July 2027) intake from the Nanyang Business School admissions page's 'Fees & Funding' table: Nanyang MBA tuition S$85,280, which the page says excludes the prevailing 9% GST; S$85,280 x 1.09 = S$92,955.20 incl. GST, the total also shown on NBS's Fees & Funding fee schedule (ntu.edu.sg/business/admissions/graduate-studies/nanyang-mba/admissions/fees-funding: enrolment fee S$21,800 + instalments S$9,184.34 + S$30,985.43 + S$30,985.43). One fee for all nationalities, so the international tier is that figure. Citizen/PR DERIVED: the NBS Fees & Funding page states that Singapore Citizens and PRs admitted to the full-time Nanyang MBA get a study grant of 10% of the tuition fee, so the SC/PR figure is 90% of the published fee: S$92,955.20 x 0.9 = S$83,659.68 incl. GST (equivalently S$85,280 - S$8,528, plus 9% GST). History: 2026 intake from NTU's programme page (ntu.edu.sg/education/graduate-programme/nanyang-mba), 'Programme Fee (2026 Intake): S$89,380.00 (inclusive of 9% GST)', SC/PR 90% = S$80,442. No 2024 or 2025 intake fee is published on any NTU/NBS page found (programme page, NBS admissions, Fees & Funding and FAQ pages, and the NTU Graduate Admissions non-subsidised programmes PDF, which lists the MBA without amounts; checked 2026-10-01), so those years have no rows. Excludes the 10% NTU alumni grant, the S$100 application fee and the one-time miscellaneous fee of S$620 incl. GST.",
+      "feeHistory": [
+        { "feeYear": 2026, "tier": "citizen", "annualTuition": 80442, "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-mba" },
+        { "feeYear": 2026, "tier": "pr", "annualTuition": 80442, "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-mba" },
+        { "feeYear": 2026, "tier": "international", "annualTuition": 89380, "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-mba" }
+      ]
     },
     {
       "level": "bachelor",
@@ -254,15 +283,15 @@
       "durationYears": 1,
       "feeYear": 2027,
       "fees": {
-        "citizen": { "annualTuition": 64841.92, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 64841.92, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 53941.92, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 59391.92, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 64841.92, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics",
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Self-financed programme (listed under NTU's non-subsidised coursework programmes). One-year full-time programme taught over three trimesters, so the total programme fee is the annual fee (divided by durationYears 1). The SPMS programme page publishes one tuition fee for all nationalities per intake, incl. 9% GST: AY2027/28 S$64,841.92; AY2026/27 S$62,348.00; AY2025/26 S$59,950.00. The same figure is therefore recorded under the citizen, PR and international tiers. The page separately states that Singapore Citizens get a study grant of S$10,000 + GST (S$10,900) and PRs S$5,000 + GST (S$5,450), with up to S$10,900 more financial aid for needy SC/PRs and a 10% grant for NTU alumni; no net SC/PR fee is published, so none is recorded. Excludes the S$50 application fee and the yearly one-time miscellaneous fee.",
+      "notes": "Self-financed programme (listed under NTU's non-subsidised coursework programmes). One-year full-time programme taught over three trimesters, so the total programme fee is the annual fee (divided by durationYears 1). The SPMS programme page publishes one tuition fee for all nationalities per intake, incl. 9% GST: AY2027/28 S$64,841.92; AY2026/27 S$62,348.00; AY2025/26 S$59,950.00; the international tier is that figure. Citizen/PR DERIVED (re-verified 2026-10-01): the same page's 'Financial Assistance' section states that Singapore Citizens enjoy a study grant of S$10,000 + prevailing GST (S$10,900) and Singapore PRs S$5,000 + prevailing GST (S$5,450), applied evenly across the trimesters, so the current (AY2027/28) tiers are S$64,841.92 - S$10,900 = S$53,941.92 for citizens and S$64,841.92 - S$5,450 = S$59,391.92 for PRs (both incl. GST). The grant statement carries no intake year and the page says grants are reviewed annually, so it is applied only to the current published fee; the 2026 and 2025 history rows for citizens and PRs record the published total for everyone, not a derived net fee. Excludes the means-tested financial aid (up to S$10,900 more for needy SC/PRs), the 10% NTU alumni grant, the S$50 application fee and the yearly one-time miscellaneous fee.",
       "feeHistory": [
         { "feeYear": 2026, "tier": "citizen", "annualTuition": 62348, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
         { "feeYear": 2026, "tier": "pr", "annualTuition": 62348, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
