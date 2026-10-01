@@ -1,0 +1,20 @@
+# MIT: master's programmes charged the standard graduate tuition (the registrar's
+# per-term "Full regular tuition", doubled for fall + spring). The engineering and
+# computing master's targets for this same page live in ../registry.yaml; the
+# student life fee comes from the miscellaneous-fees source there (no level/field,
+# so it applies to every programme).
+sources:
+  - university: mit
+    country: us
+    url: https://registrar.mit.edu/registration-academics/tuition-fees/graduate
+    parser: html
+    year_pattern: Fall and spring (\d{4})-\d{4}
+    targets:
+    - level: master
+      field: sciences
+      pattern: Full regular tuition \$ ?([\d,]+)
+      multiplier: 2
+    - level: master
+      field: arts
+      pattern: Full regular tuition \$ ?([\d,]+)
+      multiplier: 2

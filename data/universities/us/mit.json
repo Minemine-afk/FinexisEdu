@@ -301,6 +301,76 @@
           "sourceUrl": "https://registrar.mit.edu/sites/default/files/2025-04/tuition_25-26.pdf"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "SM in Earth, Atmospheric and Planetary Sciences",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 420,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/graduate",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Full-time graduate tuition $33,360 per term x 2 (standard rate; EAPS is not on the registrar's non-standard tuition list). Other fees = student life fee ($210 per term). EAPS admits external applicants to a self-funded 'traditional' SM designed to be completed in two years (eaps.mit.edu/education/graduate-program/); most EAPS graduate students are PhD candidates.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61990,
+          "annualCompulsoryFees": 406,
+          "sourceUrl": "https://registrar.mit.edu/sites/default/files/2024-03/tuition_24-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 64310,
+          "annualCompulsoryFees": 420,
+          "sourceUrl": "https://registrar.mit.edu/sites/default/files/2025-04/tuition_25-26.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master in City Planning (MCP)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 420,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/graduate",
+      "lastVerified": "2026-10-01",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Full-time graduate tuition $33,360 per term x 2 (standard rate; DUSP is not on the registrar's non-standard tuition list). Other fees = student life fee ($210 per term). Two-year professional degree (four semesters) in the Department of Urban Studies and Planning; DUSP states admitted MCP students are offered a financial aid package of 80% tuition plus student health insurance (dusp.mit.edu/admissions), not reflected here.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61990,
+          "annualCompulsoryFees": 406,
+          "sourceUrl": "https://registrar.mit.edu/sites/default/files/2024-03/tuition_24-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 64310,
+          "annualCompulsoryFees": 420,
+          "sourceUrl": "https://registrar.mit.edu/sites/default/files/2025-04/tuition_25-26.pdf"
+        }
+      ]
     }
   ]
 }
