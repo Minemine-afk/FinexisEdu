@@ -30,3 +30,11 @@ sources:
     url: https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2026-lawjd_final_070726.pdf?sfvrsn=acc92e18_1
     parser: pdf
     manual: true
+  # Government-subsidised graduate (coursework) fee sheet: Master of Psychology per-annum
+  # SC/PR rates and whole-programme non-subsidised rates for AY2026, AY2025 and AY2024;
+  # yearly document linked from https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate
+  - university: suss
+    country: sg
+    url: https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1
+    parser: pdf
+    manual: true
