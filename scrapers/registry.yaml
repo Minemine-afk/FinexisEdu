@@ -1356,12 +1356,6 @@ sources:
   # secondary source; the university's own fee page is not machine-readable
   - university: unimelb
     country: au
-    url: https://augstudy.com/courses/bachelor-science-the-university-of-melbourne/
-    parser: html
-    manual: true
-  # secondary source; the university's own fee page is not machine-readable
-  - university: unimelb
-    country: au
     url: https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953
     parser: html
     manual: true
