@@ -16,3 +16,17 @@ sources:
     url: https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_78
     parser: pdf
     manual: true
+  # School of Law LLB fee sheet (Year 2026, whole-programme totals divided by 4.5 years);
+  # yearly document linked from https://www.suss.edu.sg/law-programmes/admissions/tuition-fees
+  - university: suss
+    country: sg
+    url: https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2025-law-llb_13032026.pdf?sfvrsn=a25fe983_3
+    parser: pdf
+    manual: true
+  # School of Law JD fee sheet (Year 2026, whole-programme totals divided by 4 years);
+  # yearly document linked from the same law tuition-fees page
+  - university: suss
+    country: sg
+    url: https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2026-lawjd_final_070726.pdf?sfvrsn=acc92e18_1
+    parser: pdf
+    manual: true
