@@ -98,7 +98,10 @@
       "cohortLocked": true,
       "notes": "Self-financed programme; the page states students are not eligible for MOE subsidies. Minimum total tuition (30 AUs) incl. 9% GST for admission in AY2027 (from Aug 2027): S$58,403.07; AY2026: S$56,156.80. Published as one figure for all nationalities, so the international tier is the fee everyone pays (incl. 9% GST). No Citizen/PR tier (re-checked 2026-10-01): the page's 'MSc Programme Financial Support' section, the NTU Graduate Admissions financial-matters page (/admissions/graduate/financialmatters/ntupgi) it links to, and the School's MSc programme brochure PDF (which repeats only the AY2027 fee) state the S$5,000 NTU SC/PR subsidy only 'from the academic year starting in 2024' and 'for academic year starting in 2025'; there is no statement at all for the AY2026/27 or AY2027/28 intakes, so no SC/PR fee can be derived for the two intakes whose totals are published. For the AY2024 and AY2025 intakes the subsidy is stated but NTU no longer publishes those intakes' EEE totals anywhere reachable (the EEE page, brochure, FAQ, the NTU Graduate Admissions AY2024-25/AY2025-26/AY2026-27 coursework fee PDFs, which list only MOE-subsidised programmes, and the 'non-subsidised programmes' PDF, which lists the EEE MScs without amounts), so no 2024/2025 rows are recorded. Excludes miscellaneous fees (S$610 full-time for AY2025).",
       "feeHistory": [
-        { "feeYear": 2026, "tier": "international", "annualTuition": 56156.8, "sourceUrl": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters" }
+        { "feeYear": 2026, "tier": "international", "annualTuition": 56156.8, "sourceUrl": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 51156.8, "sourceUrl": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 51156.8, "sourceUrl": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 56156.8, "sourceUrl": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters" }
       ]
     },
     {
@@ -298,7 +301,10 @@
         { "feeYear": 2026, "tier": "international", "annualTuition": 62348, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 59950, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 59950, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 59950, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" }
+        { "feeYear": 2025, "tier": "international", "annualTuition": 59950, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 49050, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 54500, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 59950, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" }
       ]
     }
   ]
