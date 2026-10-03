@@ -9,7 +9,7 @@ export const GLOSSARY = {
   internationalRate:
     "The fee charged to students who are not citizens or permanent residents of the host country. Singaporeans studying abroad pay this rate.",
   startYear:
-    "The year the first academic year begins. For 2024 and 2025 intakes the calculator uses the fees the university actually published for those years; for later years it projects from the latest published fee.",
+    "The year the first academic year begins, from 2026 onwards. The fee tables are the universities' latest published ones (2026, or 2027 where already announced); for a start year after that the calculator projects from the latest published fee using the university's own rate of increase.",
   published:
     "A fee the university published for that academic year. No estimate is involved.",
   projected:
