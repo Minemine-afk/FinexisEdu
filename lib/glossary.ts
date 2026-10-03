@@ -15,7 +15,9 @@ export const GLOSSARY = {
   projected:
     "An estimate: the latest published fee grown by the yearly increase for each year after the published fee year. Universities have not announced these figures yet.",
   feeIncrease:
-    "How much fees are assumed to rise each year after the last published fee year. By default each country's typical increase, the median compound yearly rise across its universities' published fee histories (per residency tier in Singapore); you can set your own rate instead. Where a fee is fixed for your cohort, the increase only sets the entry-year fee when you start after the latest published year.",
+    "Fees are taken from each university's latest published fee table. For years after that, the calculator grows the fee by that university's own historical rate of increase (see % inflation below); you can set your own rate instead. Where a fee is fixed for your cohort, the increase only sets the entry-year fee when you start after the latest published year.",
+  universityIncrease:
+    "This university's yearly fee increase, worked out from its own published fees: for every programme with two or more years on file, the compound yearly rise from the earliest to the latest published fee, then the median across programmes (per residency tier in Singapore). Where a university has fewer than two such programmes, its country's typical rate is used instead.",
   cohortLocked:
     "The university fixes the fee for the whole degree at the rate of the year you enrol, so later years do not rise. Common at Singapore universities and many UK universities.",
   compulsoryFees:
