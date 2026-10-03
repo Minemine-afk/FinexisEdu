@@ -92,7 +92,9 @@ export interface Selection extends Option {
 const MAX_SELECTED = 3;
 const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
 // Start years offered. Earlier years use published fee history only.
-const START_YEARS = [2024, 2025, 2026, 2027, 2028];
+/** Start years the calculator accepts: typed in, from the first year the current fee tables cover. */
+const MIN_START_YEAR = 2026;
+const MAX_START_YEAR = 2040;
 // Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
 const COUNTRY_ORDER = [
   "sg",
@@ -245,11 +247,21 @@ export default function Calculator({
   const [level, setLevel] = useState<Level>("bachelor");
   const [residency, setResidency] = useState<Residency>("citizen");
   const [startYear, setStartYear] = useState(
-    Math.min(
-      Math.max(thisYear + 1, START_YEARS[0]),
-      START_YEARS[START_YEARS.length - 1],
-    ),
+    Math.min(Math.max(thisYear + 1, MIN_START_YEAR), MAX_START_YEAR),
   );
+  // What the user has typed; only a year in range is applied.
+  const [startYearInput, setStartYearInput] = useState(String(startYear));
+  const startYearError = (() => {
+    const t = startYearInput.trim();
+    if (!/^\d{4}$/.test(t))
+      return `Enter a year from ${MIN_START_YEAR} to ${MAX_START_YEAR}.`;
+    const y = Number(t);
+    if (y < MIN_START_YEAR)
+      return `Rates are based on ${MIN_START_YEAR} figures. Enter a year from ${MIN_START_YEAR} to ${MAX_START_YEAR}.`;
+    if (y > MAX_START_YEAR)
+      return `Enter a year from ${MIN_START_YEAR} to ${MAX_START_YEAR}.`;
+    return null;
+  })();
   const [customIncrease, setCustomIncrease] = useState<number | null>(null);
   const [includeLiving, setIncludeLiving] = useState(false);
   const [lifestyle, setLifestyle] = useState<Lifestyle>("moderate");
@@ -484,22 +496,35 @@ export default function Calculator({
             <span className="text-sm">
               <InfoTip term="startYear">Start year</InfoTip>
             </span>
-            <select
-              className={select}
-              value={startYear}
-              onChange={(e) => setStartYear(Number(e.target.value))}
+            <input
+              type="text"
+              inputMode="numeric"
+              pattern="[0-9]*"
+              maxLength={4}
+              placeholder={String(MIN_START_YEAR)}
+              aria-invalid={startYearError !== null}
+              aria-describedby="start-year-hint"
+              className={`${select} tabular-nums${startYearError ? " border-warn-fg" : ""}`}
+              value={startYearInput}
+              onChange={(e) => {
+                const t = e.target.value.replace(/[^0-9]/g, "").slice(0, 4);
+                setStartYearInput(t);
+                const y = Number(t);
+                if (
+                  /^\d{4}$/.test(t) &&
+                  y >= MIN_START_YEAR &&
+                  y <= MAX_START_YEAR
+                )
+                  setStartYear(y);
+              }}
+            />
+            <span
+              id="start-year-hint"
+              className={`mt-1 block text-xs ${startYearError ? "text-warn-fg" : "text-muted"}`}
             >
-              {START_YEARS.map((y) => (
-                <option key={y} value={y}>
-                  {y}
-                </option>
-              ))}
-            </select>
-            {startYear <= thisYear && (
-              <span className="mt-1 block text-xs text-muted">
-                Past intakes use published fees only.
-              </span>
-            )}
+              {startYearError ??
+                `Type the year the degree starts (${MIN_START_YEAR}–${MAX_START_YEAR}).`}
+            </span>
           </label>
           <div className="mt-3 text-sm">
             <span>% inflation</span>

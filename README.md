@@ -135,12 +135,13 @@ iOS doesn't zoom in.
 
 ## The calculation
 
-Start years 2024–2028 are offered. For each year of study:
+The start year is typed in and must be 2026 or later (up to 2040); earlier years are refused with a prompt giving the valid range. For each year of study:
 
 - **Years up to the latest published fee year** use published figures only: the
-  current fee, or for earlier years the programme's `feeHistory`. If an earlier
+  current fee, or for earlier years the programme's `feeHistory`. If a needed
   year has no published figure, the programme is shown as "No published fee on
-  file"; the past is never estimated.
+  file"; the past is never estimated. Earlier years' fees (2024, 2025) stay in
+  the data because the per-university increase is computed from them.
 - **Later years** are projected:
 
   ```
