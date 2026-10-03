@@ -23,7 +23,7 @@ abroad. Visas, flights and health insurance are out of scope.
 |---|---|---|
 | Tuition and compulsory fees, per university, level and field | Each university's published fee page (HTML, PDF or JavaScript page) | `scrapers/` re-reads the pages monthly and opens a PR |
 | Exchange rates to SGD | [Frankfurter](https://frankfurter.dev) (European Central Bank reference rates, free, no key) | Fetched live and cached for a day; `data/fx-fallback.json` is used if the API is down |
-| Yearly fee increase used for future years | Per-country default in `data/countries/`; replaced with the median compound yearly rise across fee series once 5+ series have two or more years of history (per residency tier in Singapore) | Recomputed by the same monthly run |
+| Yearly fee increase used for future years | Each university's own rate: the median compound yearly rise across its programmes' published fee histories (per residency tier in Singapore), computed in `lib/increase.ts`. A per-country default in `data/countries/` is used where a university has fewer than two programmes with history | Country defaults recomputed by the same monthly run; university rates follow the data |
 
 There is no public API for university tuition anywhere, so fees are scraped
 from each university's own pages. Pages change layout from time to time, so
@@ -149,6 +149,15 @@ Start years 2024–2028 are offered. For each year of study:
 
 One-off fees are added in the first year, and everything is converted to SGD at
 the latest rate.
+
+The yearly increase is automatic and specific to the university chosen. The
+sidebar box "Rates based on … figures" names the published fee year the
+projections start from, takes the start year, and lists each selected
+university's "% inflation": the median compound rise across that university's
+programmes between their earliest and latest published fees, per residency tier
+in Singapore. A university with fewer than two programmes carrying history falls
+back to its country's typical rate, and the box says so. "Use my own rate
+instead" applies one rate to every university.
 
 - **Cohort-locked** programmes (NUS, NTU, SMU and many UK universities) keep the
   fee you start with for the whole degree, so only the gap between the

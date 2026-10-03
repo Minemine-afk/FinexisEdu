@@ -41,6 +41,7 @@ import FeeChart, { SEGMENTS, type CompareCategory } from "./FeeChart";
 import UniversityName from "./UniversityName";
 import InfoTip from "./InfoTip";
 import type { GlossaryTerm } from "@/lib/glossary";
+import { universityIncrease, type IncreaseEstimate } from "@/lib/increase";
 
 interface Props {
   universities: University[];
@@ -68,6 +69,8 @@ export interface LivingResult {
 export interface Selection extends Option {
   result: CalcResult;
   feeIncrease: number;
+  /** Where the yearly increase came from (the university's own history or the country). */
+  increase: IncreaseEstimate;
   fxRate: number;
   /** University fees only. */
   totalSgd: number;
@@ -316,11 +319,8 @@ export default function Calculator({
     .map((o) => {
       const country = countryByCode.get(o.university.country);
       const tier = o.university.country === "sg" ? residency : "international";
-      const feeIncrease =
-        customIncrease ??
-        country?.feeIncreaseByTier?.[tier] ??
-        country?.defaultFeeIncrease ??
-        0.03;
+      const increase = universityIncrease(o.university, tier, country);
+      const feeIncrease = customIncrease ?? increase.rate;
       const result = calculate({
         programme: o.programme,
         currency: o.university.currency,
@@ -376,6 +376,7 @@ export default function Calculator({
         ...o,
         result,
         feeIncrease,
+        increase,
         fxRate:
           o.university.currency === "SGD" ? 1 : fx.rates[o.university.currency],
         totalSgd,
@@ -432,6 +433,17 @@ export default function Calculator({
 
   const select = `mt-1 w-full rounded-md border border-border bg-surface px-3 py-2${FOCUS}`;
 
+  // The published fee year(s) the projections start from.
+  const baseYears = [
+    ...new Set(selections.map((s) => s.programme.feeYear)),
+  ].sort();
+  const baseYearLabel =
+    baseYears.length === 0
+      ? String(thisYear)
+      : baseYears.length === 1
+        ? String(baseYears[0])
+        : `${baseYears[0]}–${baseYears[baseYears.length - 1]}`;
+
   return (
     <div className="grid gap-6 lg:grid-cols-[22rem_1fr]">
       <aside className="space-y-5 rounded-xl border border-border bg-sidebar p-5 lg:self-start">
@@ -462,33 +474,72 @@ export default function Calculator({
           </span>
         </label>
 
-        <label className="block">
-          <span className="text-sm font-medium">
-            <InfoTip term="startYear">Start year</InfoTip>
-          </span>
-          <select
-            className={select}
-            value={startYear}
-            onChange={(e) => setStartYear(Number(e.target.value))}
-          >
-            {START_YEARS.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
-          {startYear <= thisYear && (
-            <span className="mt-1 block text-xs text-muted">
-              Past intakes use published fees only.
-            </span>
-          )}
-        </label>
-
-        <fieldset>
-          <legend className="text-sm font-medium">
-            <InfoTip term="feeIncrease">Yearly fee increase</InfoTip>
+        <fieldset className="rounded-md border border-border bg-surface/60 p-3">
+          <legend className="px-1 text-sm font-medium">
+            <InfoTip term="feeIncrease">
+              Rates based on {baseYearLabel} figures
+            </InfoTip>
           </legend>
-          <div className="mt-1 flex min-h-10 items-center gap-2 text-sm">
+          <label className="block">
+            <span className="text-sm">
+              <InfoTip term="startYear">Start year</InfoTip>
+            </span>
+            <select
+              className={select}
+              value={startYear}
+              onChange={(e) => setStartYear(Number(e.target.value))}
+            >
+              {START_YEARS.map((y) => (
+                <option key={y} value={y}>
+                  {y}
+                </option>
+              ))}
+            </select>
+            {startYear <= thisYear && (
+              <span className="mt-1 block text-xs text-muted">
+                Past intakes use published fees only.
+              </span>
+            )}
+          </label>
+          <div className="mt-3 text-sm">
+            <span>% inflation</span>
+            <ul className="mt-1 space-y-1 text-xs">
+              {selections.length === 0 && (
+                <li className="text-muted">
+                  Pick a university to see its rate.
+                </li>
+              )}
+              {selections.map((s) => (
+                <li
+                  key={s.key}
+                  className="flex items-baseline justify-between gap-2"
+                >
+                  <span className="min-w-0 truncate text-muted">
+                    {s.university.name}
+                  </span>
+                  <span className="shrink-0 tabular-nums">
+                    <InfoTip term="universityIncrease" align="right">
+                      {customIncrease !== null ? (
+                        <span className="text-muted line-through">
+                          {(s.increase.rate * 100).toFixed(1)}%
+                        </span>
+                      ) : null}{" "}
+                      <span className="font-medium">
+                        {(s.feeIncrease * 100).toFixed(1)}%
+                      </span>
+                      <span className="text-muted">/yr</span>
+                    </InfoTip>
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-1 text-xs text-muted">
+              {customIncrease === null
+                ? increaseBasisNote(selections)
+                : "Your rate, applied to every university."}
+            </p>
+          </div>
+          <div className="mt-2 flex min-h-8 items-center gap-2 text-xs">
             <input
               id="custom-increase"
               type="checkbox"
@@ -497,7 +548,7 @@ export default function Calculator({
                 setCustomIncrease(e.target.checked ? 0.03 : null)
               }
             />
-            <label htmlFor="custom-increase">My own rate</label>
+            <label htmlFor="custom-increase">Use my own rate instead</label>
             {customIncrease !== null && (
               <span className="ml-auto flex items-center gap-1">
                 <input
@@ -516,12 +567,6 @@ export default function Calculator({
               </span>
             )}
           </div>
-          <p className="mt-1 text-xs text-muted">
-            {customIncrease === null
-              ? "Each country's typical increase"
-              : "Applied to every university"}
-            , for years after the published fee year.
-          </p>
         </fieldset>
 
         <fieldset>
@@ -879,6 +924,26 @@ function UniversityPicker({
   );
 }
 
+/** One line saying where the automatic rates come from. */
+function increaseBasisNote(selections: Selection[]): string {
+  if (selections.length === 0)
+    return "Each university's own past fee rises, applied after its published fee year.";
+  const own = selections.filter((s) => s.increase.basis === "university");
+  const years = own.flatMap((s) => [s.increase.from!, s.increase.to!]);
+  const span = years.length
+    ? `${Math.min(...years)}–${Math.max(...years)}`
+    : "";
+  if (own.length === selections.length) {
+    return `From each university's published fees, ${span}; applied to years after the published fee year.`;
+  }
+  const fallback = selections
+    .filter((s) => s.increase.basis === "country")
+    .map((s) => s.university.name);
+  return own.length
+    ? `From published fees ${span}; ${fallback.join(", ")} has too little history, so its country's typical rate is used.`
+    : `${fallback.join(", ")} has too little fee history, so the country's typical rate is used.`;
+}
+
 function Segmented<T extends string>({
   label,
   value,
@@ -1074,7 +1139,7 @@ function ResultDetail({
             </span>
           )}
         </p>
-  
+
         <div className="mt-3 flex flex-wrap gap-1.5 text-xs">
           <Badge
             term={
