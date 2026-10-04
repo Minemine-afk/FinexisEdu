@@ -19,6 +19,7 @@
     "sourceUrl": "https://www.otago.ac.nz/international/future-students/accommodation-living/living-costs",
     "lastVerified": "2026-09-30",
     "sourceType": "official",
+    "summary": "The university's own estimate for a single student in a university flat over a 40-week academic year: rent with utilities, food, personal costs and entertainment. Excludes medical and travel insurance.",
     "notes": "University of Otago 'Standard living costs' table (based on 2025 costs, single student, 40 weeks = one academic year), 'UniFlats standard room' column. Housing: rent $268/wk (48-week contract, gas/electricity/internet included) x 52/12. Food: $4,800 for 40 weeks = $120/wk x 52/12. Transport: not itemised, 0. Personal: personal costs $3,200 + entertainment $2,200 + accommodation activity/other fees $520 over 40 weeks = $148/wk x 52/12. Excludes medical and travel insurance ($855). Otago's totals: UniFlats $24,439, residential college $27,192 for 40 weeks; it recommends NZ$22,000-$27,000. otago.ac.nz blocks automated access (Cloudflare challenge); the page was read on 2026-09-30 through a text rendering (r.jina.ai) of the official URL."
   },
   "programmes": [
@@ -39,6 +40,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students for 2027; the actual fee depends on the papers taken. Student services fee included; insurance is extra.",
       "notes": "2027 estimated international annual fee for a normal full-time BSc (360 points, 3 years) in Computer Science; actual fee is the sum of paper fees. Compulsory = Student Services Fee, Dunedin campus, $11.93 per 0.01 EFTS = $1,193 for 1 EFTS (2026 rate from otago.ac.nz/study/fees/student-services-fee; 2027 not yet published). Excludes insurance. otago.ac.nz blocks automated access (Cloudflare challenge); the official page was read on 2026-09-30 through a text rendering (r.jina.ai) of this URL. 2026 feeHistory row (from Otago's '2026 domestic and international tuition fees' spreadsheet, sheet '2026 Papers'): the spreadsheet states per-paper fees, not a programme fee; 1 EFTS (120 points) = the international fee of an 18-point (0.15 EFTS) COSC paper, e.g. COSC345 $6,860.10, x 120/18 (100-300 level science, fee category IN04 rate). This is a single-subject 1-EFTS rate, whereas the 2027 figure is Otago's estimated annual fee for the programme's normal paper mix, so the two are not like-for-like. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -68,6 +70,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students majoring in Accounting for 2027; other majors differ. Student services fee included; insurance is extra.",
       "notes": "2027 estimated international annual fee for a normal full-time BCom (360 points, 3 years) majoring in Accounting; other majors $42,840-$46,200. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (from Otago's '2026 domestic and international tuition fees' spreadsheet, sheet '2026 Papers'): the spreadsheet states per-paper fees, not a programme fee; 1 EFTS (120 points) = the international fee of an 18-point (0.15 EFTS) ACCT paper, e.g. ACCT102 $6,040.80, x 120/18 (undergraduate commerce, fee category IN02 rate). This is a single-subject 1-EFTS rate, whereas the 2027 figure is Otago's estimated annual fee for the programme's normal paper mix, so the two are not like-for-like. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -97,6 +100,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students for 2027. Student services fee included; insurance is extra.",
       "notes": "2027 estimated international annual fee for the BE(Hons) in Software Engineering (Otago's only engineering degree; 4 years). Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (from Otago's '2026 domestic and international tuition fees' spreadsheet, sheet '2026 Papers'): the spreadsheet states per-paper fees, not a programme fee; 1 EFTS (120 points) = the international fee of an 18-point (0.15 EFTS) science/engineering paper, e.g. ENRG201 or COSC345 $6,860.10, x 120/18 (fee category IN04 rate). This is a single-subject 1-EFTS rate, whereas the 2027 figure is Otago's estimated annual fee for the programme's normal paper mix, so the two are not like-for-like. The spreadsheet has no BE(Hons)- or software-engineering-specific paper codes, so this is the IN04 rate shared by COSC and ENRG papers; 400-level ENRG papers are charged at the higher IN07 rate (ENRG401 $7,827.57 per 20 points). Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -126,6 +130,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students majoring in Chemistry for 2027; other majors differ. Student services fee included; insurance is extra.",
       "notes": "2027 estimated international annual fee for a normal full-time BSc (360 points, 3 years) majoring in Chemistry; other science majors $44,520-$50,925. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (from Otago's '2026 domestic and international tuition fees' spreadsheet, sheet '2026 Papers'): the spreadsheet states per-paper fees, not a programme fee; 1 EFTS (120 points) = the international fee of an 18-point (0.15 EFTS) CHEM paper, e.g. CHEM111 $6,860.10, x 120/18 (fee category IN04 rate). This is a single-subject 1-EFTS rate, whereas the 2027 figure is Otago's estimated annual fee for the programme's normal paper mix, so the two are not like-for-like. CHEM191 (health sciences) is charged at the lower IN49 rate, $5,968.05. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -155,6 +160,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students majoring in History for 2027; other majors differ. Student services fee included; insurance is extra.",
       "notes": "2027 estimated international annual fee for a normal full-time BA (360 points, 3 years) majoring in History; other arts majors $39,690-$48,090. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (from Otago's '2026 domestic and international tuition fees' spreadsheet, sheet '2026 Papers'): the spreadsheet states per-paper fees, not a programme fee; 1 EFTS (120 points) = the international fee of an 18-point (0.15 EFTS) HIST paper, e.g. HIST102 $5,343.15, x 120/18 (humanities, fee category IN01 rate). This is a single-subject 1-EFTS rate, whereas the 2027 figure is Otago's estimated annual fee for the programme's normal paper mix, so the two are not like-for-like. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -184,6 +190,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for the one-year option; a 1.5-year option costs NZ$74,760 in total. Student services fee included; insurance is extra.",
       "notes": "2027 international fee for the 120-point (1 year) MSc(Coursework) in Computer Science; the 180-point (1.5 year) option is $74,760 in total. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (spreadsheet sheet '2026 Papers'): per-paper basis, 120 points = 6 x 20-point (0.1667 EFTS) postgraduate COSC papers at $7,827.57 each (e.g. COSC402; fee category IN07). Rounding in the stated per-paper fees means other 120-point mixes of IN07 papers differ by a few dollars. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -213,6 +220,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Whole programme fee for international students, completed in 12 months (a heavier than normal load). Business Analytics costs more. Student services fee included; insurance is extra.",
       "notes": "2027 international fee for the 180-point MBus, Finance endorsement, completed in 12 months (higher than a normal full-time load; 18 months for S2 starts on the dissertation path). Most endorsements $64,785; Business Analytics $68,145. Compulsory = 2026 Dunedin Student Services Fee capped at 1.05 EFTS ($1,252.65); $1,193 for 1 EFTS used. Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (spreadsheet sheet '2026 Papers'): per-paper basis, 180 points of fee category IN33 papers = 6 x 20-point FINC/ACFI papers at $6,790.52 + BSNS590 Dissertation (60 points) $20,367.50, or equivalently 7 x $6,790.52 + BSNS580 Applied Project (40 points) $13,576.98; both give $61,110.62. The spreadsheet does not list MBus endorsements, so the Business Analytics premium is not shown. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -242,6 +250,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for the one-year option; a 1.5-year option costs NZ$74,760 in total. Student services fee included; insurance is extra.",
       "notes": "2027 international fee for the 120-point (1 year) MSc(Coursework) in Geology; the 180-point option is $74,760 in total. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (spreadsheet sheet '2026 Papers'): per-paper basis, 120 points = 6 x 20-point (0.1667 EFTS) IN07 papers at $7,827.57 (e.g. GEOL401); a mix including GEOL490 Dissertation (60 points, $23,478.00) and 10-point papers ($3,911.43) comes to within a few dollars. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -271,6 +280,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for this one-year thesis master's. Student services fee included; insurance is extra.",
       "notes": "2027 international thesis-only fee for the 120-point (1 year) MA(Thesis) in History; most MA subjects $43,785. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row: HIST5F 'History MA Thesis Full-time, Full-year' (120 points, 1 EFTS) international fee $41,219.00, stated directly on the spreadsheet's '2026 Thesis' sheet. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -300,6 +310,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students for a normal full-time year of the 4-year law degree. Student services fee included; insurance is extra.",
       "notes": "2027 estimated international annual fee for a normal full-time year of the LLB (534 points over 4 years including the first-year preliminary courses; Honours may be available). Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (spreadsheet sheet '2026 Papers'): per-paper basis, 1 EFTS (120 points) = the four compulsory second-year LLB papers LAWS201-LAWS204 at $10,533.75 each (30 points, 0.25 EFTS); LAWS101 (36 points) is $12,640.50, the same rate. This is a law-paper rate for 1 EFTS, whereas the 2027 figure is Otago's estimated normal full-time year (534 points over 4 years), so the two are not like-for-like. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -329,6 +340,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for this one-year master's. Student services fee included; insurance is extra.",
       "notes": "2027 international fee for the 120-point (1 year) LLM; any-time start. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (spreadsheet sheet '2026 Papers'): per-paper basis, 120 points = 8 x 15-point (0.125 EFTS) LLM papers at $5,746.00 each (e.g. LAWS512; fee category IN21). The '2026 Thesis' sheet states the same $45,968.00 for LAWS5F Master of Laws Thesis, full-time full-year. Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {
@@ -358,6 +370,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "First-year fee only. Later years cost about NZ$101,567 to NZ$116,080 a year, so the six-year total is about NZ$596,800. Student services fee included; insurance is extra.",
       "notes": "First-year rate: 2027 international fee for Health Sciences First Year (126 points), the competitive entry year of the 726-point, 6-year MB ChB. Otago quotes later years separately: Years 2-3 $101,567 a year (240 points) and Years 4-6 $116,080 a year (360 points), so the six-year total is about $596,800. Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published); HSFY is 1.05 EFTS. Excludes insurance. Official page read on 2026-09-30 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (spreadsheet sheet '2026 Papers'): per-paper basis, Health Sciences First Year (126 points) = the seven 18-point HSFY papers BIOC192, HUBS191, HUBS192 and POPH192 at $6,337.35 each plus CELS191, CHEM191 and PHSI191 at $5,968.05 each = $43,253.55. The spreadsheet has no rows for later MB ChB years (charged separately; not found). Compulsory $1,193 = 2026 Dunedin Student Services Fee. Last verified 2026-10-04. otago.ac.nz blocks automated access, so the xlsx was read on 2026-10-04 through the reader proxy (r.jina.ai) of this URL.",
       "feeHistory": [
         {

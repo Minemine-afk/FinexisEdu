@@ -19,6 +19,7 @@
     "sourceUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
     "lastVerified": "2026-09-23",
     "sourceType": "official",
+    "summary": "Not a University of Melbourne estimate: the Australian government's minimum living cost for student visas, one combined figure for 12 months, used because no university breakdown could be verified.",
     "notes": "FALLBACK - visa minimum, not a University of Melbourne estimate: the Department of Home Affairs student visa living-cost requirement for a single student, AU$29,710 per year (from 10 May 2024) / 12. It is one combined figure for accommodation, food, transport and personal costs, so it is all in housing and the other categories are 0. Melbourne's own cost-of-living pages (study.unimelb.edu.au) block automated access and no breakdown could be verified; the amount was read from UNSW's page citing Home Affairs because the Home Affairs page also blocks scripts."
   },
   "programmes": [
@@ -39,6 +40,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
+      "summary": "Typical first-year tuition for international students, the lower end of a range up to A$59,052 that depends on subjects chosen. Read from a third-party copy of the university's fee tables.",
       "notes": "2026 'typical first year course fee' from Table 2 of the 2026 international fee tables, lower end of the subject-dependent range $52,360 - $59,052 (fees are per subject and depend on the discipline band of the subjects taken; indicative only). 2024 and 2025 from the previous years' international fee tables (same basis). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-01 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
       "feeHistory": [
         {
@@ -72,6 +74,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
+      "summary": "Typical first-year tuition for international students, the lower end of a range up to A$62,208 that depends on subjects chosen. Read from a third-party copy of the university's fee tables.",
       "notes": "2026 'typical first year course fee' from Table 2 of the 2026 international fee tables, lower end of the subject-dependent range $52,944 - $62,208 (fees are per subject and depend on the discipline band of the subjects taken; indicative only). 2024 and 2025 from the previous years' international fee tables (same basis). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-01 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
       "feeHistory": [
         {
@@ -105,6 +108,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
+      "summary": "Typical first-year tuition for international students, the lower end of a range up to A$56,252 that depends on subjects chosen. Read from a third-party copy of the university's fee tables.",
       "notes": "2026 'typical first year course fee' from Table 2 of the 2026 international fee tables, lower end of the subject-dependent range $38,004 - $56,252 (fees are per subject and depend on the discipline band of the subjects taken; indicative only). 2024 and 2025 from the previous years' international fee tables (same basis). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-01 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
       "feeHistory": [
         {
@@ -138,6 +142,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "secondary",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students, taken from third-party course listings because the university's own figure could not be confirmed. A 3-year degree; engineering graduates may finish sooner.",
       "notes": "Tuition (2026 and 2025) not confirmed on official page (unimelb fee pages block automated access); aggregator figures. 300 points / 36 months full-time per the 2026 Handbook; up to 100 points credit for a cognate engineering degree. International students pay no SSAF.",
       "feeHistory": [
         {
@@ -165,6 +170,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students for one full-time year. International students pay no student services fee. Read from a third-party copy of the university's fee tables.",
       "notes": "2026 international course tuition fee per EFTSL (one year full-time) from Table 3 of the 2026 international fee tables (MC-CS; 200 points over 2 years). 2024 and 2025 from the previous years' international fee tables (same basis). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-01 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
       "feeHistory": [
         {
@@ -198,6 +204,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students for one full-time year. International students pay no student services fee. Read from a third-party copy of the university's fee tables.",
       "notes": "2026 international course tuition fee per EFTSL (one year full-time) from Table 3 of the 2026 international fee tables (MC-MGMT; 200 points over 2 years). 2024 and 2025 from the previous years' international fee tables (same basis). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-01 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
       "feeHistory": [
         {
@@ -231,6 +238,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students for one full-time year. International students pay no student services fee. Read from a third-party copy of the university's fee tables.",
       "notes": "2026 international course tuition fee per EFTSL (one year full-time) from Table 3 of the 2026 international fee tables (MC-SCIPHY; 200 points over 2 years). 2024 and 2025 from the previous years' international fee tables (same basis). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-01 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
       "feeHistory": [
         {
@@ -264,6 +272,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "secondary",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students for one full-time year. International students pay no student services fee. Read from a third-party copy of the university's fee tables.",
       "notes": "2026 international course tuition fee per EFTSL (one year full-time) from Table 3 of the 2026 international fee tables (MC-IR; 200 points over 2 years). 2024 and 2025 from the previous years' international fee tables (same basis). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-01 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
       "feeHistory": [
         {
@@ -297,6 +306,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students for one full-time year. International students pay no student services fee.",
       "notes": "2026 international fee place course tuition fee per EFTSL (MC-JURISD; 300 points over 3 years). 2024 and 2025 from the previous years' international fee tables. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-09-30 through a text rendering (r.jina.ai) of these URLs.",
       "feeHistory": [
         {
@@ -330,6 +340,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students, one rate for all four years. International students pay no student services fee.",
       "notes": "2026 international fee place course tuition fee per EFTSL (MC-DMED; 4 years, graduate entry). One annual rate for all four years. 2024 and 2025 from the previous years' international fee tables. International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-09-30 through a text rendering (r.jina.ai) of these URLs.",
       "feeHistory": [
         {

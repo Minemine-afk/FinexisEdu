@@ -22,6 +22,22 @@ describe("committed data", () => {
     }
   });
 
+  it("gives every fee and living-cost estimate a short plain-English summary", () => {
+    const banned = /https?:|capture|proxy|jina|wayback|crawl|CC-MAIN|—/i;
+    for (const u of universities) {
+      for (const p of u.programmes) {
+        const id = `${u.id}: ${p.name}`;
+        expect(p.summary, id).toBeTruthy();
+        expect(p.summary!.length, id).toBeLessThanOrEqual(240);
+        expect(p.summary, id).not.toMatch(banned);
+      }
+      if (u.livingCosts) {
+        expect(u.livingCosts.summary, u.id).toBeTruthy();
+        expect(u.livingCosts.summary, u.id).not.toMatch(banned);
+      }
+    }
+  });
+
   it("has unique university ids", () => {
     const ids = universities.map((u) => u.id);
     expect(new Set(ids).size).toBe(ids.length);

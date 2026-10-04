@@ -32,7 +32,8 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
       "sourceType": "official",                  // "official" (university/government site) | "secondary" (aggregator, news)
       "cohortLocked": true,                      // true if the fee is fixed for the whole programme once you enrol
       "internationalEligible": true,             // optional; false if the programme is closed to international students
-      "notes": "Tuition Grant rates; excludes GST",   // optional
+      "summary": "Yearly tuition after the MOE Tuition Grant, fixed for your whole degree.",  // shown on the site: 1-2 plain sentences for parents, max 280 chars
+      "notes": "Tuition Grant rates; excludes GST",   // optional; detailed source/method notes for maintainers, not shown
       "feeHistory": [                            // fees for EARLIER intakes/years; see below
         {
           "feeYear": 2024,
@@ -88,6 +89,7 @@ Living costs (optional, universities outside Singapore only):
   "sourceUrl": "https://...",   // the university's own cost-of-living / cost-of-attendance page
   "lastVerified": "2026-09-23",
   "sourceType": "official",
+  "summary": "The university's own estimate for a 9-month year; excludes flights and visas.",  // shown on the site
   "notes": "Undergraduate cost of attendance, off-campus; annual $X over 9 months"
 }
 ```

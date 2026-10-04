@@ -2,9 +2,28 @@ import { z } from "zod";
 
 // Mirrors scrapers/models.py. Keep the two in sync; see data/SCHEMA.md.
 
-export const COUNTRY_CODES = ["sg", "uk", "au", "us", "de", "ca", "nz", "ch", "jp", "ie"] as const;
+export const COUNTRY_CODES = [
+  "sg",
+  "uk",
+  "au",
+  "us",
+  "de",
+  "ca",
+  "nz",
+  "ch",
+  "jp",
+  "ie",
+] as const;
 export const LEVELS = ["bachelor", "master"] as const;
-export const FIELDS = ["engineering", "computing", "business", "sciences", "arts", "law", "medicine"] as const;
+export const FIELDS = [
+  "engineering",
+  "computing",
+  "business",
+  "sciences",
+  "arts",
+  "law",
+  "medicine",
+] as const;
 export const TIERS = ["citizen", "pr", "international"] as const;
 
 export const CountryCode = z.enum(COUNTRY_CODES);
@@ -47,11 +66,19 @@ export const Programme = z.object({
   cohortLocked: z.boolean().default(false),
   /** False when the university does not admit international students to this programme. */
   internationalEligible: z.boolean().default(true),
+  /** One or two plain-English sentences for parents: what the fee covers and any caveat. */
+  summary: z.string().max(280).optional(),
+  /** Detailed source and method notes for maintainers; not shown on the site. */
   notes: z.string().optional(),
   feeHistory: z.array(FeeHistoryEntry).default([]),
 });
 
-export const LIVING_CATEGORIES = ["housing", "food", "transport", "personal"] as const;
+export const LIVING_CATEGORIES = [
+  "housing",
+  "food",
+  "transport",
+  "personal",
+] as const;
 export const LivingCategory = z.enum(LIVING_CATEGORIES);
 
 // The university's own estimate of a student's living costs, in its currency.
@@ -59,10 +86,17 @@ export const LivingCosts = z.object({
   year: z.number().int().min(2015).max(2100),
   // Months per academic year the estimate covers (e.g. 9 for a US academic year).
   months: z.number().positive().max(12),
-  monthly: z.object({ housing: money, food: money, transport: money, personal: money }),
+  monthly: z.object({
+    housing: money,
+    food: money,
+    transport: money,
+    personal: money,
+  }),
   sourceUrl: z.url(),
   lastVerified: z.iso.date(),
   sourceType: z.enum(["official", "secondary"]).default("official"),
+  /** One or two plain-English sentences for parents about the estimate. */
+  summary: z.string().max(280).optional(),
   notes: z.string().optional(),
 });
 
@@ -87,7 +121,9 @@ export const Country = z.object({
   currency: z.string().length(3),
   defaultFeeIncrease: z.number().min(0).max(0.5),
   // Observed per-tier rates, where fee history allows (e.g. Singapore Citizen vs international).
-  feeIncreaseByTier: z.partialRecord(Tier, z.number().min(0).max(0.5)).optional(),
+  feeIncreaseByTier: z
+    .partialRecord(Tier, z.number().min(0).max(0.5))
+    .optional(),
   // Yearly growth applied to living costs after their estimate year (latest official CPI inflation).
   livingCostIncrease: z.number().min(0).max(0.5).optional(),
 });
