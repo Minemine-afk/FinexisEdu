@@ -8,6 +8,20 @@ sources:
     targets:
     - pattern: Les taxes s’élèvent à CHF ([\d’']+)\.- par semestre
       multiplier: 2
+  # Fee-history sources: UNIGE's annual budgets (Division comptabilité et gestion
+  # financière) state the year's taxes universitaires (CHF 500 per semester = CHF 65 fixed
+  # + CHF 435 encadrement). Budget 2024 p. 11 backs the 2024 rows, Budget 2025 p. 9 the
+  # 2025 rows. Fixed-year documents, so checked by hand rather than scraped.
+  - university: unige
+    country: ch
+    url: https://www.unige.ch/difin/download_file/view/144/367
+    parser: pdf
+    manual: true
+  - university: unige
+    country: ch
+    url: https://www.unige.ch/difin/download_file/view/161/367
+    parser: pdf
+    manual: true
   # Monthly cost-of-living estimate published for incoming students.
   - university: unige
     country: ch
