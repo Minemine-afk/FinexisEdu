@@ -1,0 +1,98 @@
+# McGill University: Student Accounts fee tables added for the field-coverage pass. Undergraduate
+# programme pages (one per residency and year) list fees by admission year, newest first, as
+# "Tuition / Droits de scolarité <2026> <2025> <2024> <2023>"; graduate tables list the newly
+# admitted cohort first, per term ("Fall / Automne" then "Winter / Hiver"), so term figures are
+# doubled for the 30-credit year. Compulsory fees are the line items summed (international health
+# insurance excluded, matching the data notes).
+sources:
+  # BSc (Computer Science) is billed at the Faculty of Science rate: same page as the BSc record.
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: bachelor
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  # BCom international table (2026-27 page)
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-4
+    parser: html
+    year_pattern: Annual fees for (\d{4})-\d{4}
+    targets:
+    - level: bachelor
+      field: business
+      pattern: Tuition / Droits de scolarit. ([\d,.]+)
+    - level: bachelor
+      field: business
+      key: annualCompulsoryFees
+      pattern: Frais d.associations et autres ([\d,.]+) .*?sports et loisirs ([\d,.]+) .*?diplômes ([\d,.]+) .*?droits d.auteur ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) .*?SSMU [^/]+/ Assurance [^0-9]+([\d,.]+)
+  # Master's Non-Thesis international table (2026-27 page): MEng, MSc CS, MSc Math & Stats, MA
+  # Economics. First tuition figure = Fall term for the newly admitted cohort; x2 for the year.
+  # MEng adds the Computing Lab fee listed under "additional annual fees".
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-7
+    parser: html
+    year_pattern: Annual fees for (\d{4})-\d{4}
+    targets:
+    - level: master
+      field: engineering
+      pattern: inscription à temps plein ([\d,.]+)
+      multiplier: 2
+    - level: master
+      field: engineering
+      key: annualCompulsoryFees
+      pattern: Student Society Fees\*\* / Frais d.association étudiante\*\* ([\d,.]+) ([\d,.]+) .*?sports et loisirs ([\d,.]+) ([\d,.]+) .*?diplômes ([\d,.]+) ([\d,.]+) .*?droits d.auteur ([\d,.]+) ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) ([\d,.]+) .*?PGSS Dental Insurance International Students.*?conditions\)\. ([\d,.]+).*?Master.s of Engineering \(non-thesis\) and Urban Planning \$([\d,.]+)
+    - level: master
+      field: computing
+      pattern: inscription à temps plein ([\d,.]+)
+      multiplier: 2
+    - level: master
+      field: computing
+      key: annualCompulsoryFees
+      pattern: Student Society Fees\*\* / Frais d.association étudiante\*\* ([\d,.]+) ([\d,.]+) .*?sports et loisirs ([\d,.]+) ([\d,.]+) .*?diplômes ([\d,.]+) ([\d,.]+) .*?droits d.auteur ([\d,.]+) ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) ([\d,.]+) .*?PGSS Dental Insurance International Students.*?conditions\)\. ([\d,.]+)
+    - level: master
+      field: sciences
+      pattern: inscription à temps plein ([\d,.]+)
+      multiplier: 2
+    - level: master
+      field: sciences
+      key: annualCompulsoryFees
+      pattern: Student Society Fees\*\* / Frais d.association étudiante\*\* ([\d,.]+) ([\d,.]+) .*?sports et loisirs ([\d,.]+) ([\d,.]+) .*?diplômes ([\d,.]+) ([\d,.]+) .*?droits d.auteur ([\d,.]+) ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) ([\d,.]+) .*?PGSS Dental Insurance International Students.*?conditions\)\. ([\d,.]+)
+    - level: master
+      field: arts
+      pattern: inscription à temps plein ([\d,.]+)
+      multiplier: 2
+    - level: master
+      field: arts
+      key: annualCompulsoryFees
+      pattern: Student Society Fees\*\* / Frais d.association étudiante\*\* ([\d,.]+) ([\d,.]+) .*?sports et loisirs ([\d,.]+) ([\d,.]+) .*?diplômes ([\d,.]+) ([\d,.]+) .*?droits d.auteur ([\d,.]+) ([\d,.]+) .*?Frais de technologie de l.information ([\d,.]+) ([\d,.]+) .*?PGSS Dental Insurance International Students.*?conditions\)\. ([\d,.]+)
+  # MBA international table (2026-27 page): 3-credit tuition for the newly admitted cohort, x16
+  # for the 48 billable credits, /1.5 years (multiplier 16/1.5 = 10.6667). Compulsory fees are
+  # the 15-credit column (fifth figure of each line); the Study Trip is the one-off fee.
+  - university: mcgill
+    country: ca
+    url: https://www.mcgill.ca/student-accounts/masters-business-administration-3
+    parser: html
+    year_pattern: Annual fees for (\d{4})-\d{4}
+    targets:
+    - level: master
+      field: business
+      pattern: Tuition / Droits de scolarité ([\d,.]+)
+      multiplier: 10.666667
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      # services, copyright and IT are charged in both terms: a lookahead captures each of those
+      # figures twice so the sum covers the year.
+      pattern: Society Fees Fall/Frais d.association automne (?:[\d,.]+ ){4}([\d,.]+) Society Fees Winter/Frais d.association hiver (?:[\d,.]+ ){4}([\d,.]+) Student Services / Athletics / Services aux étudiants, sports et loisirs (?=(?:[\d,.]+ ){4}([\d,.]+))(?:[\d,.]+ ){4}([\d,.]+) .*?diplômes automne (?:[\d,.]+ ){4}([\d,.]+) .*?diplômes hiver (?:[\d,.]+ ){4}([\d,.]+) Copyright Fee / Redevances de droits d.auteur (?=(?:[\d,.]+ ){4}([\d,.]+))(?:[\d,.]+ ){4}([\d,.]+) Information Technology Charge / Frais de technologie de l.information (?=(?:[\d,.]+ ){4}([\d,.]+))(?:[\d,.]+ ){4}([\d,.]+) PGSS Dental Insurance .*?\(PGSS\) ([\d,.]+)
+    - level: master
+      field: business
+      key: oneOffFees
+      pattern: International Study Trip .*? is \$([\d,]+)

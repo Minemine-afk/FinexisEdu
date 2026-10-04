@@ -36,7 +36,7 @@
         }
       },
       "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables.",
@@ -73,7 +73,7 @@
         }
       },
       "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables.",
@@ -110,7 +110,7 @@
         }
       },
       "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables.",
@@ -147,7 +147,7 @@
         }
       },
       "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables.",
@@ -184,10 +184,10 @@
         }
       },
       "sourceUrl": "https://gsas.harvard.edu/apply/cost-attendance-2026-2027",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "SEAS CSE master of science: full-year tuition $67,504 for the one-year programme (2026-27 GSAS cost of attendance). Fees = HUSHP Student Health Fee $972/term x 2 terms + $35 Harvard Griffin GSAS Student Council fee; Student Health Insurance Plan ($2,477/term, waivable) excluded. 2024 from the 2024-2025 GSAS page (SHF $796/term); no archived 2025-26 SEAS rate found, so no 2025 entry.",
+      "notes": "SEAS CSE master of science: full-year tuition $67,504 for the one-year programme (2026-27 GSAS cost of attendance; same figure on the FAS Registrar's tuition-and-fees page). Fees = HUSHP Student Health Fee $972/term x 2 terms + $35 Harvard Griffin GSAS Student Council fee; Student Health Insurance Plan ($2,477/term, waivable) excluded. 2024 from the 2024-2025 GSAS page (SHF $796/term). No 2025 entry: the 2025-26 GSAS cost-of-attendance page has been removed (404 at /apply/ and root paths), the FAS Registrar and GSAS tuition pages show only 2026-27, and the OIRA Fact Book lists only the standard GSAS tuition ($57,328 for 2025-26), not the SEAS SM rate.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -213,10 +213,10 @@
         }
       },
       "sourceUrl": "https://gsas.harvard.edu/apply/cost-attendance-2026-2027",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "SEAS Data Science SM: $67,504 first year + $33,752 second year (one term only) = $101,256 over 1.5 years, divided by 1.5. Fees = HUSHP Student Health Fee $972/term x 2 terms + $35 Harvard Griffin GSAS Student Council fee; Student Health Insurance Plan ($2,477/term, waivable) excluded. 2024 from the 2024-2025 GSAS page (SHF $796/term); no archived 2025-26 SEAS rate found, so no 2025 entry.",
+      "notes": "SEAS Data Science SM: $67,504 first year + $33,752 second year (one term only) = $101,256 over 1.5 years, divided by 1.5 (2026-27 GSAS cost of attendance; same figure on the FAS Registrar's tuition-and-fees page). Fees = HUSHP Student Health Fee $972/term x 2 terms + $35 Harvard Griffin GSAS Student Council fee; Student Health Insurance Plan ($2,477/term, waivable) excluded. 2024 from the 2024-2025 GSAS page (SHF $796/term). No 2025 entry: the 2025-26 GSAS cost-of-attendance page has been removed (404), the FAS Registrar and GSAS tuition pages show only 2026-27, and the OIRA Fact Book lists only the standard GSAS tuition, not the SEAS SM rate.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -227,6 +227,26 @@
           "sourceUrl": "https://gsas.harvard.edu/cost-attendance-2024-2025"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "SM in Epidemiology, 80-credit (Harvard T.H. Chan School of Public Health)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 58272,
+          "annualCompulsoryFees": 1944,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://hsph.harvard.edu/tuition-and-financial-aid/tuition-fees-and-annual-cost-of-attendance/",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Harvard Chan School 2026-2027 academic year (June 2026 - May 2027) 'Tuition, Fees, and Annual Cost of Attendance' page, Master of Science table, 80-credit 2-year full-time column: tuition $58,272 per year; fees = Student Health Fee $1,944 per year. Student Health Insurance Plan ($4,954, waivable), books, housing, food and the Extended Enrollment Fee excluded. The same per-year rate applies to all 80-credit SM fields; the 42.5-credit one-year SM (for applicants with a doctorate) is $72,936. Page states 'tuition increases annually' and lists only the current year; OIRA Fact Book covers only the 1-year MPH, so no 2024/2025 history.",
+      "feeHistory": []
     },
     {
       "level": "master",
@@ -242,7 +262,7 @@
         }
       },
       "sourceUrl": "https://www.hbs.edu/mba/financial-aid/tuition-assistance/cost-of-attendance",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "HBS 2026-27 cost of attendance, single student, 9-month academic year: tuition $84,760; fees = HUHS Student Health Fee $1,944. Student Health Insurance Plan ($4,954, waivable), housing and food excluded. 2024 and 2025 tuition from Harvard OIRA Fact Book (FY2025 = 2024-25 $76,410, FY2026 = 2025-26 $78,700); fees for those years not found so current value applies.",
@@ -277,7 +297,7 @@
         }
       },
       "sourceUrl": "https://www.hks.harvard.edu/admissions-aid/funding-your-education/funding-your-masters-education/tuition-fees",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "HKS 2026-27 MPP: tuition $64,340; fees = course materials fee $618 + HKS student activity fee $250 + HUHS Student Health Fee $1,944. SHIP ($4,954, waivable) excluded. 2025 from the HKS 'Tuition & Fees From Previous Year' page (tuition $61,926; fees $618 + $250 + $1,800). 2024 tuition from Harvard OIRA Fact Book (Government, FY2025 $59,316); fees not found.",
@@ -313,7 +333,7 @@
         }
       },
       "sourceUrl": "https://hls.harvard.edu/sfs/financial-aid/financial-aid-policy/cost-of-attendance/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
       "notes": "HLS 2026-27 Standard Student Budget (9-month): tuition $84,400; fees = Mandatory HUHS Student Health Fee $1,944 (waivers generally not available). Harvard University Student Health Insurance Plan ($4,954, waivable with comparable coverage), housing and food excluded. JD is graduate-entry (3 years). 2025 from the same page's 2025-2026 Cost of Attendance table; 2024 tuition from Harvard OIRA Fact Book (Law School, academic year 2025 = 2024-25); 2024 fees not found.",
