@@ -37,3 +37,10 @@ sources:
     url: https://www.otago.ac.nz/international/future-students/accommodation-living/living-costs
     parser: html
     manual: true
+  # site blocks automated access (2026 per-paper and thesis fee spreadsheet, feeds the
+  # 2026 feeHistory rows; read via the r.jina.ai reader proxy; sheets "2026 Papers" and "2026 Thesis")
+  - university: otago
+    country: nz
+    url: https://www.otago.ac.nz/__data/assets/excel_doc/0031/508756/2026-domestic-and-international-tuition-fees-web-version.xlsx
+    parser: html
+    manual: true

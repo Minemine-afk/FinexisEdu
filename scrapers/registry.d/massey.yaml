@@ -111,6 +111,11 @@ sources:
     url: https://www.massey.ac.nz/study/international-students/living-in-new-zealand/
     parser: html
     manual: true
+  # 2026 feeHistory rows (all 8 programmes): read 2026-10-04 from Common Crawl captures
+  # (CC-MAIN-2025-51 .. CC-MAIN-2026-34) of the qualification pages above, which showed
+  # "2026 tuition fees" before Massey switched them to 2027; sourceUrl = the page URL.
+  # Massey's own 2026 International Qualification Guide was not found (agency mirrors located
+  # are the 2027 edition, the 2022 guide, or a 2025 "Coming to New Zealand guide").
   # 2024 feeHistory rows: Massey's own 2024 International Qualification Guide (PDF, Massey-authored),
   # no longer hosted by Massey; read from a mirror copy on an agency site, so manual.
   - university: massey
