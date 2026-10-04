@@ -36,11 +36,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -56,11 +65,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -76,11 +94,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -96,11 +123,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German and English. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German and English. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -116,11 +152,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty. HU has no English-taught computer science master's.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80). HU has no English-taught computer science master's.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -136,11 +181,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: English. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: English. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -156,11 +210,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German or English. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: German or English. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -176,11 +239,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: English (about 75%) and German. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary. Language of instruction: English (about 75%) and German. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -196,11 +268,20 @@
         }
       },
       "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary; Charité's fee sheet for HU-enrolled students (campusnet.charite.de, summer 2026) shows the same EUR 355.80 with the same composition. Undergraduate-entry state examination degree (Erste juristische Prüfung); DAAD/Hochschulkompass list the standard period as 10 semesters (Hochschulkompass elsewhere shows 9). Language of instruction: German. Winter intake only. No published figure for winter 2024/25 or 2026/27 was found, so feeHistory is empty.",
-      "feeHistory": []
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de (all subdomains) blocks automated access with an Anubis bot challenge and the Wayback Machine is unreachable from here, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary; Charité's fee sheet for HU-enrolled students (campusnet.charite.de, summer 2026) shows the same EUR 355.80 with the same composition. Undergraduate-entry state examination degree (Erste juristische Prüfung); DAAD/Hochschulkompass list the standard period as 10 semesters (Hochschulkompass elsewhere shows 9). Language of instruction: German. Winter intake only. 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (PDF at the sourceUrl of the 2024 row) states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; the PDF itself sits behind the Anubis challenge, so the figure was taken from search-engine indexes of that document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024) and AMB 09/2025 on edoc.hu-berlin.de (student body fee raised to EUR 12 from winter 2025/26). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -216,11 +297,19 @@
         }
       },
       "sourceUrl": "https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/alle_Immatrikulation/Erstsemester_Immatrikulationsgebuehren.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "Medicine in Berlin is taught by Charité – Universitätsmedizin Berlin, the joint medical faculty of Humboldt-Universität and Freie Universität; students enrol at Charité and choose HU or FU for student-body representation. No tuition fees. Compulsory fees = Charité's enrolment (semester) fee for winter semester 2026/27 with HU membership, EUR 381.80 x2 (Charité admissions office sheet, June 2026; the FU variant is EUR 376.80; the sheet does not itemise it). 2025 history: Charité's re-registration sheet for summer semester 2026 (academic year 2025/26) gives EUR 355.80 per semester = student body 12 (raised from winter 2025/26) + studierendenWERK Berlin 85 + administration 50 + Deutschlandsemesterticket 208.80, so EUR 711.60 for 2025; no 2024 figure was found. Undergraduate-entry state examination degree, standard period 12 semesters (DAAD/Hochschulkompass entry for HU medicine); the practical year is included. Admission is nationally restricted; non-EU applicants apply through uni-assist and are ranked by grade. Language of instruction: German. Charité – Universitätsmedizin Berlin is on the Singapore Medical Council's list of registrable basic medical qualifications.",
+      "notes": "Medicine in Berlin is taught by Charité – Universitätsmedizin Berlin, the joint medical faculty of Humboldt-Universität and Freie Universität; students enrol at Charité and choose HU or FU for student-body representation. No tuition fees. Compulsory fees = Charité's enrolment (semester) fee for winter semester 2026/27 with HU membership, EUR 381.80 x2 (Charité admissions office sheet, June 2026; the FU variant is EUR 376.80; the sheet does not itemise it). 2025 history: Charité's re-registration sheet for summer semester 2026 (academic year 2025/26) gives EUR 355.80 per semester = student body 12 (raised from winter 2025/26) + studierendenWERK Berlin 85 + administration 50 + Deutschlandsemesterticket 208.80, so EUR 711.60 for 2025. 2024 history: Charité no longer publishes its 2024/25 sheet, so the row uses HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' (the HU-membership contribution Charité collects is the same amount): EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024; that PDF sits behind hu-berlin.de's Anubis challenge, so the figure was taken from search-engine indexes of the document (two independent queries, same itemisation) and cross-checked against RefRat's semester-ticket pages (EUR 176.40 for 2024). Undergraduate-entry state examination degree, standard period 12 semesters (DAAD/Hochschulkompass entry for HU medicine); the practical year is included. Admission is nationally restricted; non-EU applicants apply through uni-assist and are ranked by grade. Language of instruction: German. Charité – Universitätsmedizin Berlin is on the Singapore Medical Council's list of registrable basic medical qualifications.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",

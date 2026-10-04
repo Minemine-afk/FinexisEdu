@@ -1,7 +1,11 @@
 # University of Oxford. Overseas course fees are published per course on each
 # undergraduate course page (2027 entry) and each graduate course page ("Annual
 # course fees", 2027-28). www.ox.ac.uk blocks automated access (Cloudflare), so the
-# pages are read by hand through a reader proxy (r.jina.ai).
+# pages are read by hand through a reader proxy (r.jina.ai). Earlier years' fees (feeHistory)
+# come from the per-entry-year Course Information Sheet PDFs listed by the JSON endpoint
+# https://www.ox.ac.uk/api/listing/<id> behind www.ox.ac.uk/students/new/contract/
+# {graduate,undergraduate}-course-information-sheets/<year>-entry (ids 14465/14467 UG
+# 2024-25/2025-26, 14471/14473/14475 graduate 2024-25/2025-26/2026-27).
 sources:
   - university: oxford
     country: uk
@@ -41,5 +45,10 @@ sources:
   - university: oxford
     country: uk
     url: https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science
+    parser: html
+    manual: true
+  - university: oxford
+    country: uk
+    url: https://www.ox.ac.uk/admissions/graduate/courses/mst-history-early-modern
     parser: html
     manual: true

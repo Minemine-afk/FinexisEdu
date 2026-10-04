@@ -51,6 +51,17 @@ sources:
     url: https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/250_D_Geb%C3%BChren_HU_SoSe_2026.pdf
     parser: pdf
     manual: true
+  # HU's own fee sheet for winter 2024/25 (299,90 € per semester, itemised); cited for the 2024
+  # history on every record. Re-tested 2026-10-04: www.hu-berlin.de and every subdomain tried
+  # (international., informatik., physik., wiwi., rewi., beauftragte., gremien.) still answer the
+  # scraper's user agent, requests, headless Chromium (90 s), r.jina.ai and WebFetch with the
+  # Anubis proof-of-work page, PDFs included, so nothing on hu-berlin.de can be a scrape target.
+  # Only edoc.hu-berlin.de (the publications repository, AMB fee regulations) serves files.
+  - university: hu-berlin
+    country: de
+    url: https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf
+    parser: pdf
+    manual: true
   # DAAD national average student expenses (HU publishes no breakdown we can read)
   - university: hu-berlin
     country: de
