@@ -85,11 +85,12 @@ sources:
       key: annualCompulsoryFees
       pattern: Standard Student Budget \(9-Month\) Tuition \$[\d,]+ Mandatory HUHS Student Health Fee \$([\d,]+)
   # Harvard T.H. Chan School of Public Health tuition, fees and cost of attendance: Master of Science
-  # table, 80-credit two-year full-time column (fourth amount in the Tuition / Student Health Fee rows)
+  # table, 80-credit two-year full-time column (fourth amount in the Tuition / Student Health Fee rows).
+  # The site returns 403 to plain requests but serves a browser, hence parser: browser.
   - university: harvard
     country: us
     url: https://hsph.harvard.edu/tuition-and-financial-aid/tuition-fees-and-annual-cost-of-attendance/
-    parser: html
+    parser: browser
     year_pattern: (\d{4}) [–-] \d{4} Academic Year
     targets:
     - level: master
