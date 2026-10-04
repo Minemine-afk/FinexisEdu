@@ -36,22 +36,28 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Advanced Computer Science graduate course page (Home £20,100). Full-time 12-month taught MSc in the Department of Computer Science. Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. The 2026 and 2025 figures in feeHistory come from secondary sources (courseoptions.com, gyandhan.com), recorded before the official page could be read.",
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Advanced Computer Science graduate course page (Home £20,100). Full-time 12-month taught MSc in the Department of Computer Science. Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. The 2026, 2025 and 2024 feeHistory rows are the Overseas annual course fees stated in Oxford's official Course Information Sheets for 2026-27, 2025-26 and 2024-25 entry (PDFs linked from www.ox.ac.uk/students/new/contract/graduate-course-information-sheets/<year>-entry; each row's sourceUrl), read through the reader proxy on 2026-10-04; they replace the aggregator figures recorded earlier.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 43730,
-          "sourceUrl": "https://courseoptions.com/uk/course/uni-of-oxford/msc-advanced-computer-science-uni-of-oxford"
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2026-27/TM_MF1%20-%20MSc%20in%20Advanced%20Computer%20Science%20-%202026-27%20entry%20-%2028Oct2025_3.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 41250,
-          "sourceUrl": "https://www.gyandhan.com/study-abroad/uk/universities/university-of-oxford/courses/msc-in-computer-science"
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/TM_MF1%20-%20MSc%20in%20Advanced%20Computer%20Science%20-%202025-26%20entry%20-%2025Oct2024.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36000,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/MSc%20in%20Advanced%20Computer%20Science_2024-25entry_19Oct23.pdf"
         }
       ]
     },
@@ -60,20 +66,39 @@
       "field": "arts",
       "name": "MSt in History",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 43730,
+          "annualTuition": 46350,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.educatly.com/program/734267/mst-in-history-early-modern-history-1500-1700",
-      "lastVerified": "2026-09-23",
+      "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/mst-history-early-modern",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas course fee, 9-month course (Early Modern History strand). Not confirmed on an official page (ox.ac.uk blocks automated access); from a secondary source.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSt in History (Early Modern History 1500-1700) graduate course page (Home £18,980); all MSt in History strands are priced the same (University fee-rates table 2027/28). Nine-month full-time taught master's in the Faculty of History (part-time over 21 months £23,175 a year). Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-04, hence sourceType secondary. Earlier years' fees are not shown on the page. The 2026, 2025 and 2024 feeHistory rows are the Overseas full-time annual course fees stated in Oxford's official Course Information Sheets for 2026-27 and 2025-26 entry (Early Modern History strand) and 2024-25 entry (single MSt in History sheet covering all strands), PDFs linked from www.ox.ac.uk/students/new/contract/graduate-course-information-sheets/<year>-entry (each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43730,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2026-27/TS_HY6B3%2C%20TS_HY6B9P3%20-%20MSt%20in%20History%20%28Early%20Modern%20History%201500-1700%29%20-%202026-27%20entry%20-%2029Oct2025.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41250,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/TS_HY6B3%2C%20TS_HY6B9P3%20-%20MSt%20in%20History%20%28Early%20Modern%20History%201500-1700%29%20-%202025-26%20entry%20-%2025Oct2024.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 33970,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/MSt%20in%20History%20_2024-25entry_19Oct23.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -116,11 +141,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/law-jurisprudence",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for 2027 entry from the official Law (Jurisprudence) course page (Home £10,050). Oxford says fees will usually increase annually. No separate compulsory fees. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are no longer shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for 2027 entry from the official Law (Jurisprudence) course page (Home £10,050). Oxford says fees will usually increase annually. No separate compulsory fees. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are no longer shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/undergraduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41130,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/Law%20%28Jurisprudence%29%20CIS%202025.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38550,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Law%20%28Jurisprudence%29%20CIS%202024.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -136,11 +174,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/bachelor-civil-law",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for the 2027-28 academic year from the official BCL graduate course page (Home £34,850); the MJur, the equivalent for civil-law graduates, is priced the same. Nine-month taught master's for common-law graduates. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official BCL graduate course page (Home £34,850); the MJur, the equivalent for civil-law graduates, is priced the same. Nine-month taught master's for common-law graduates. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/graduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46850,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/TB_JU1%20-%20Bachelor%20of%20Civil%20Law%20-%202025-26%20entry%20-%2025Oct2024.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 45590,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Bachelor%20of%20Civil%20Law_2024-25entry_19Oct23.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -156,11 +207,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas pre-clinical annual course fee for 2027 entry from the official Medicine course page, charged in years 1-3 (Home £10,050). Clinical fees (years 4-6) are higher: as a guide, Overseas students progressing to the clinical years in 2027 pay £69,160 a year; the clinical fee for 2027 entrants has not been set. Oxford says fees will usually increase annually. No separate compulsory fees. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas pre-clinical annual course fee for 2027 entry from the official Medicine course page, charged in years 1-3 (Home £10,050). Clinical fees (years 4-6) are higher: as a guide, Overseas students progressing to the clinical years in 2027 pay £69,160 a year; the clinical fee for 2027 entrants has not been set. Oxford says fees will usually increase annually. No separate compulsory fees. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-09-30, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/undergraduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04. Those rows are the pre-clinical fee (years 1-3); the sheets give the clinical-year guide fee for Overseas students progressing to clinical years as £57,690 (2024) and £61,560 (2025).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46600,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/Medicine%20CIS%202025_0.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43670,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Medicine%20CIS%202024.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -176,11 +240,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/philosophy-politics-and-economics",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for 2027 entry from the official Philosophy, Politics and Economics course page (Home £10,050). Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for 2027 entry from the official Philosophy, Politics and Economics course page (Home £10,050). Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/undergraduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41130,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/PPE%20CIS%202025.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38550,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/PPE%20CIS%202024.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -196,11 +273,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/economics-and-management",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for 2027 entry from the official Economics and Management course page (Home £10,050). Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for 2027 entry from the official Economics and Management course page (Home £10,050). Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/undergraduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41130,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/Economics%20and%20Management%20CIS%202025.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38550,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Economics%20and%20Management%20CIS%202024.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -216,11 +306,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for 2027 entry from the official Computer Science course page (Home £10,050). The course is 3 years for the BA or 4 years for the MCompSci (same annual fee); recorded as the 3-year BA. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for 2027 entry from the official Computer Science course page (Home £10,050). The course is 3 years for the BA or 4 years for the MCompSci (same annual fee); recorded as the 3-year BA. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/undergraduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 59260,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/Computer%20Science%20CIS%202025.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48620,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Computer%20Science%20CIS%202024.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -236,11 +339,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/engineering-science",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for 2027 entry from the official Engineering Science course page (Home £10,050). Four-year integrated MEng. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for 2027 entry from the official Engineering Science course page (Home £10,050). Four-year integrated MEng. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/undergraduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 59260,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/Engineering%20Science%20CIS%202025_1.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48620,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Engineering%20Science%20CIS%202024.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -256,11 +372,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/physics",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for 2027 entry from the official Physics course page (Home £10,050). The course is 3 years for the BA or 4 years for the MPhys (same annual fee); recorded as the 3-year BA. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for 2027 entry from the official Physics course page (Home £10,050). The course is 3 years for the BA or 4 years for the MPhys (same annual fee); recorded as the 3-year BA. Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/undergraduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 59260,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/Physics%20CIS%202025.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48620,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Physics%20CIS%202024.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -276,11 +405,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/msc-energy-systems",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Energy Systems graduate course page (Home £20,100). Full-time 12-month taught MSc in the Department of Engineering Science (part-time over 2 years £21,575 a year or 3 years £13,505 a year). Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Energy Systems graduate course page (Home £20,100). Full-time 12-month taught MSc in the Department of Engineering Science (part-time over 2 years £21,575 a year or 3 years £13,505 a year). Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/graduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 38410,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/TM_GP1%2C%20TM_GP6A9P1%2C%20TM_GP6B9P1%20-%20MSc%20in%20Energy%20Systems%20-%202025-26%20entry%20-%2025Oct2024.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 33970,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/MSc%20in%20Energy%20Systems_2024-25entry_19Oct23.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -296,11 +438,24 @@
         }
       },
       "sourceUrl": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sourceType": "secondary",
       "cohortLocked": false,
-      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Mathematical Sciences graduate course page (Home £17,190). Nine-month taught MSc (Oxford Master's in Mathematical Sciences, OMMS) run by the Mathematical Institute and the Department of Statistics. Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page.",
-      "feeHistory": []
+      "notes": "Overseas annual course fee for the 2027-28 academic year from the official MSc in Mathematical Sciences graduate course page (Home £17,190). Nine-month taught MSc (Oxford Master's in Mathematical Sciences, OMMS) run by the Mathematical Institute and the Department of Statistics. Course fees cover teaching, academic services and college membership; no separate compulsory fees. Application fee £75 not included. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-01, hence sourceType secondary. Earlier years' fees are not shown on the page. 2024 and 2025 feeHistory rows are the Overseas annual course fees for 2024 entry and 2025 entry stated in Oxford's official per-entry-year Course Information Sheets (PDFs linked from www.ox.ac.uk/students/new/contract/graduate-course-information-sheets/<year>-entry; the sheet URL is each row's sourceUrl), read through the reader proxy on 2026-10-04.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41250,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/TM_FJ1%20-%20MSc%20in%20Mathematical%20Sciences%20-%202025-26%20entry%20-%2025Oct2024.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36000,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/MSc%20in%20Mathematical%20Sciences_2024-25entry_19Oct23.pdf"
+        }
+      ]
     }
   ]
 }
