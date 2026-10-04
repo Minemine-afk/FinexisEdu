@@ -94,7 +94,6 @@ const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
 // Start years offered. Earlier years use published fee history only.
 /** Start years the calculator accepts: typed in, from the first year the current fee tables cover. */
 const MIN_START_YEAR = 2026;
-const MAX_START_YEAR = 2040;
 // Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
 const COUNTRY_ORDER = [
   "sg",
@@ -247,19 +246,17 @@ export default function Calculator({
   const [level, setLevel] = useState<Level>("bachelor");
   const [residency, setResidency] = useState<Residency>("citizen");
   const [startYear, setStartYear] = useState(
-    Math.min(Math.max(thisYear + 1, MIN_START_YEAR), MAX_START_YEAR),
+    Math.max(thisYear + 1, MIN_START_YEAR),
   );
   // What the user has typed; only a year in range is applied.
   const [startYearInput, setStartYearInput] = useState(String(startYear));
   const startYearError = (() => {
     const t = startYearInput.trim();
     if (!/^\d{4}$/.test(t))
-      return `Enter a year from ${MIN_START_YEAR} to ${MAX_START_YEAR}.`;
+      return `Enter a four-digit year, ${MIN_START_YEAR} or later.`;
     const y = Number(t);
     if (y < MIN_START_YEAR)
-      return `Rates are based on ${MIN_START_YEAR} figures. Enter a year from ${MIN_START_YEAR} to ${MAX_START_YEAR}.`;
-    if (y > MAX_START_YEAR)
-      return `Enter a year from ${MIN_START_YEAR} to ${MAX_START_YEAR}.`;
+      return `Rates are based on ${MIN_START_YEAR} figures. Enter ${MIN_START_YEAR} or a later year.`;
     return null;
   })();
   const [customIncrease, setCustomIncrease] = useState<number | null>(null);
@@ -510,12 +507,7 @@ export default function Calculator({
                 const t = e.target.value.replace(/[^0-9]/g, "").slice(0, 4);
                 setStartYearInput(t);
                 const y = Number(t);
-                if (
-                  /^\d{4}$/.test(t) &&
-                  y >= MIN_START_YEAR &&
-                  y <= MAX_START_YEAR
-                )
-                  setStartYear(y);
+                if (/^\d{4}$/.test(t) && y >= MIN_START_YEAR) setStartYear(y);
               }}
             />
             <span
@@ -523,7 +515,7 @@ export default function Calculator({
               className={`mt-1 block text-xs ${startYearError ? "text-warn-fg" : "text-muted"}`}
             >
               {startYearError ??
-                `Type the year the degree starts (${MIN_START_YEAR}–${MAX_START_YEAR}).`}
+                `Enter the year the degree starts, ${MIN_START_YEAR} or later.`}
             </span>
           </label>
           <div className="mt-3 text-sm">
