@@ -1,0 +1,70 @@
+# UNSW Sydney. Each degree page states the "<year> Indicative First Year Fee" for international
+# students in its fees section (the header block above it repeats domestic and international
+# figures, so the body phrasing is matched). The SSAF source and the original programmes are in
+# ../registry.yaml. Fee history comes from the per-UOC archive tables at
+# https://www.unsw.edu.au/student/managing-your-studies/fees/archive/<year> (international
+# undergraduate / postgraduate tables, x 48 UOC).
+sources:
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-computer-science
+    parser: html
+    year_pattern: (\d{4}) Indicative First Year Fee
+    targets:
+    - level: bachelor
+      field: computing
+      pattern: \d{4} Indicative First Year Fee \$ ?([\d,]+)\*
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce
+    parser: html
+    year_pattern: (\d{4}) Indicative First Year Fee
+    targets:
+    - level: bachelor
+      field: business
+      pattern: \d{4} Indicative First Year Fee \$ ?([\d,]+)\*
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-science
+    parser: html
+    year_pattern: (\d{4}) Indicative First Year Fee
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: \d{4} Indicative First Year Fee \$ ?([\d,]+)\*
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts
+    parser: html
+    year_pattern: (\d{4}) Indicative First Year Fee
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: \d{4} Indicative First Year Fee \$ ?([\d,]+)\*
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-engineering
+    parser: html
+    year_pattern: (\d{4}) Indicative First Year Fee
+    targets:
+    - level: master
+      field: engineering
+      pattern: \d{4} Indicative First Year Fee \$ ?([\d,]+)\*
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-data-science-and-decisions
+    parser: html
+    year_pattern: (\d{4}) Indicative First Year Fee
+    targets:
+    - level: master
+      field: sciences
+      pattern: \d{4} Indicative First Year Fee \$ ?([\d,]+)\*
+  - university: unsw
+    country: au
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-international-relations
+    parser: html
+    year_pattern: (\d{4}) Indicative First Year Fee
+    targets:
+    - level: master
+      field: arts
+      pattern: \d{4} Indicative First Year Fee \$ ?([\d,]+)\*

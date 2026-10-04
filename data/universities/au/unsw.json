@@ -219,6 +219,237 @@
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computer Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61000,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-computer-science",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative first-year international fee (program 3778, CRICOS 015784F; 144 UOC, 3 years; total to complete A$192,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate COMP per-UOC rate (A$1,140 / A$1,220) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54720,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58560,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56500,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative first-year international fee (program 3502, CRICOS 001919M; 144 UOC, 3 years; total to complete A$180,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Business School (COMM/ACCT/ECON etc.) per-UOC rate (A$1,070 / A$1,125) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 51360,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 54000,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61000,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative first-year international fee (program 3970, CRICOS 015780K; 144 UOC, 3 years; total to complete A$194,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Faculty of Science (SCIF/MATH/PHYS/CHEM/BIOS) per-UOC rate (A$1,140 / A$1,220) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54720,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58560,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 51000,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative first-year international fee (program 3409, CRICOS 001916C; 144 UOC, 3 years; total to complete A$160,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate ARTS per-UOC rate (A$880 / A$940) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42240,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 45120,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61000,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/postgraduate/master-of-engineering",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative first-year international fee (program 8621, CRICOS 067604G; 96 UOC, 2 years; total to complete A$127,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Engineering (ENGG/CVEN/ELEC/MECH) per-UOC rate (A$1,130 / A$1,210) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54240,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58080,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Data Science and Decisions",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 62000,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/postgraduate/master-of-data-science-and-decisions",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative first-year international fee (program 8959, CRICOS 0101866; 96 UOC, 2 years; total to complete A$128,000). Faculty of Science program with MATH/DATA, COMP and ECON courses. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Faculty of Science (MATH/DATA) per-UOC rate (A$1,090 / A$1,165) x 48 UOC (UNSW fee archive); COMP courses were charged at A$1,130 / A$1,210 per UOC. Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 52320,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 55920,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of International Relations",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47000,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/postgraduate/master-of-international-relations",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative first-year international fee (program 8233, CRICOS 083232G; 96 UOC, 2 years; total to complete A$98,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Arts & Social Sciences (ARTS/POLS/SRAP, same rate) per-UOC rate (A$870 / A$930) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41760,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44640,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
     }
   ]
 }
