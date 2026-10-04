@@ -36,10 +36,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. No separate 2025 publication was found, so no 2025 entry.",
+      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-11-17 (CC-MAIN-2025-47; read from the archived capture, not the live page), stating EUR 3,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 6,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -48,6 +48,14 @@
           "annualCompulsoryFees": 170,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6000,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc"
         }
       ]
     },
@@ -65,10 +73,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 2,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German or English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. No separate 2025 publication was found, so no 2025 entry.",
+      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 2,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German or English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-12-11 (CC-MAIN-2025-51; read from the archived capture, not the live page), stating EUR 2,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 4,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -77,6 +85,14 @@
           "annualCompulsoryFees": 170,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 4000,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc"
         }
       ]
     },
@@ -94,10 +110,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-bachelor-of-science-bsc",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. No separate 2025 publication was found, so no 2025 entry.",
+      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-10-11 (CC-MAIN-2025-43; read from the archived capture, not the live page), stating EUR 3,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 6,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -106,6 +122,14 @@
           "annualCompulsoryFees": 170,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6000,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-bachelor-of-science-bsc"
         }
       ]
     },
@@ -123,10 +147,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/physics-bachelor-of-science-bsc",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. No separate 2025 publication was found, so no 2025 entry.",
+      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-12-11 (CC-MAIN-2025-51; read from the archived capture, not the live page), stating EUR 3,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 6,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -135,6 +159,14 @@
           "annualCompulsoryFees": 170,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6000,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/physics-bachelor-of-science-bsc"
         }
       ]
     },
@@ -152,10 +184,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-master-of-science-msc",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. No separate 2025 publication was found, so no 2025 entry.",
+      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-10-09 (CC-MAIN-2025-43; read from the archived capture, not the live page), stating EUR 6,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 12,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -164,6 +196,14 @@
           "annualCompulsoryFees": 170,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 12000,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-master-of-science-msc"
         }
       ]
     },
@@ -181,10 +221,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-tum-bwl-master-of-science-msc",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 4,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. No separate 2025 publication was found, so no 2025 entry.",
+      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 4,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-10-15 (CC-MAIN-2025-43; read from the archived capture, not the live page), stating EUR 4,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 8,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -193,6 +233,14 @@
           "annualCompulsoryFees": 170,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-tum-bwl-master-of-science-msc"
         }
       ]
     },
@@ -210,10 +258,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-master-of-science-msc",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German or English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. No separate 2025 publication was found, so no 2025 entry.",
+      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German or English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-11-12 (CC-MAIN-2025-47; read from the archived capture, not the live page), stating EUR 6,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 12,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -222,6 +270,14 @@
           "annualCompulsoryFees": 170,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 12000,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-master-of-science-msc"
         }
       ]
     },
@@ -239,10 +295,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mathematics-master-of-science-msc",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. No separate 2025 publication was found, so no 2025 entry.",
+      "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-10-05 (CC-MAIN-2025-43; read from the archived capture, not the live page), stating EUR 6,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 12,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -251,6 +307,14 @@
           "annualCompulsoryFees": 170,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ed.tum.de/fileadmin/w00byg/ed/03_Studium/Ingenieurwissenschaften_B._Sc/Dokumente/2024-012__AES_TUM_Hochschulgebuehren_und_Entgeltsatzung_12.02.24.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 12000,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mathematics-master-of-science-msc"
         }
       ]
     },

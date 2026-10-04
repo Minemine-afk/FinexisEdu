@@ -1,5 +1,10 @@
 # Technical University of Munich. Programme pages carry both the programme-specific non-EU
 # tuition fee and the student-union semester fee (both per semester, so multiplier 2).
+# The 2025 feeHistory rows were read from Common Crawl's Oct-Dec 2025 captures of the same
+# programme pages (crawls CC-MAIN-2025-43/-47/-51, via data.commoncrawl.org cluster.idx ->
+# cdx -> WARC range requests; the index API host resets connections from this sandbox).
+# TUM's own statutes database (tum.de/satzungen) was offline for maintenance; the only fee
+# statute reachable is the 12 Feb 2024 amendment (2024 history), hosted by the School of Engineering.
 sources:
   - university: tum
     country: de
