@@ -309,6 +309,114 @@
           "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MBA (Stanford Graduate School of Business)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 89187,
+          "annualCompulsoryFees": 843,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.gsb.stanford.edu/programs/mba/tuition-financial-aid/cost-attendance",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "GSB 'Cost of Attendance Breakdown: First-Year MBA 2026-2027' tuition $89,187 = GSB MBA first-year rate $29,729 per quarter x 3 (Autumn, Winter, Spring) on the 2026-27 graduate and professional tuition page; second-year rate is $28,585 per quarter ($85,755), not averaged in. Other fees = Campus Health Service Fee ($843, also on the GSB page); one-off = Document Fee. Cardinal Care insurance ($8,808, waivable), living and housing allowances not included. 2024 = $27,485 x 3 and 2025 = $28,585 x 3 (first-year rates) from those years' graduate and professional tuition pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 82455,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/2024-2025-graduate-and-professional-tuition-rates"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 85755,
+          "annualCompulsoryFees": 813,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MS in Statistics",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 65445,
+          "annualCompulsoryFees": 843,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard Graduate School (Master's / Doctorate) rate for Humanities & Sciences departments, 11-18 units $21,815 per quarter x 3 for 2026-27. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee and Cardinal Care (waivable) not included. The Statistics department admits terminal MS students; the 45-unit degree takes 5-6 quarters on average (statistics.stanford.edu), shown as 1.5 years. 2024 = $20,365 x 3 and 2025 = $21,180 x 3 from those years' graduate and professional tuition pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61095,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/2024-2025-graduate-and-professional-tuition-rates"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63540,
+          "annualCompulsoryFees": 813,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA in International Policy (Ford Dorsey Master's in International Policy)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 65445,
+          "annualCompulsoryFees": 843,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "Standard Graduate School (Master's / Doctorate) rate, 11-18 units $21,815 per quarter x 3 for 2026-27; FSI's MIP funding page (fsi.stanford.edu/masters-degree/admissions/funding-financial-aid) points to this standard graduate tuition table. Two-year terminal MA admitting students directly (Freeman Spogli Institute, School of Humanities & Sciences degree). Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee and Cardinal Care (waivable) not included. 2024 = $20,365 x 3 and 2025 = $21,180 x 3 from those years' graduate and professional tuition pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61095,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/2024-2025-graduate-and-professional-tuition-rates"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63540,
+          "annualCompulsoryFees": 813,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
+        }
+      ]
     }
   ]
 }

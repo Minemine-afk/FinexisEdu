@@ -36,11 +36,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column; 4-year degree. All programme fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43), which non-EU and postgraduate students pay with their tuition; the EUR 2,500 Student Contribution applies to Free Fees (EU) students only.",
-      "feeHistory": []
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column; 4-year degree. All programme fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43), which non-EU and postgraduate students pay with their tuition; the EUR 2,500 Student Contribution applies to Free Fees (EU) students only. 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16400,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -56,11 +63,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column; 3 years (4 with the optional INTRA placement year). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43).",
-      "feeHistory": []
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column; 3 years (4 with the optional INTRA placement year). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16500,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -76,11 +90,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' for years 1-4 (an optional year 5 integrated master's is EUR 19,400). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43).",
-      "feeHistory": []
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' for years 1-4 (an optional year 5 integrated master's is EUR 19,400). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16400,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -96,11 +117,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (Faculty of Science and Health); 4-year degree. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43).",
-      "feeHistory": []
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (Faculty of Science and Health); 4-year degree. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16400,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -116,11 +144,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (Faculty of Humanities and Social Sciences); 3 years (4 with a language or placement option). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43).",
-      "feeHistory": []
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (Faculty of Humanities and Social Sciences); 3 years (4 with a language or placement option). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16400,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+        }
+      ]
     },
     {
       "level": "master",
@@ -136,11 +171,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee'; 1 year full-time. Fees are per annum and subject to an annual increase. A EUR 5,000 Faculty of Engineering and Computing international scholarship may reduce it. Compulsory fee is the Student Centre levy (EUR 43) paid with tuition.",
-      "feeHistory": []
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee'; 1 year full-time. Fees are per annum and subject to an annual increase. A EUR 5,000 Faculty of Engineering and Computing international scholarship may reduce it. Compulsory fee is the Student Centre levy (EUR 43) paid with tuition. 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 25000,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+        }
+      ]
     },
     {
       "level": "master",
@@ -156,11 +198,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (DCU Business School); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43).",
-      "feeHistory": []
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (DCU Business School); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19500,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+        }
+      ]
     },
     {
       "level": "master",
@@ -176,11 +225,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee'; 1 year full-time (12 months). Fees are per annum and subject to an annual increase. A EUR 5,000 Faculty of Engineering and Computing international scholarship may reduce it. Compulsory fee is the Student Centre levy (EUR 43).",
-      "feeHistory": []
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee'; 1 year full-time (12 months). Fees are per annum and subject to an annual increase. A EUR 5,000 Faculty of Engineering and Computing international scholarship may reduce it. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 25000,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+        }
+      ]
     },
     {
       "level": "master",
@@ -196,11 +252,18 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (Faculty of Humanities and Social Sciences); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). No science master's is listed: DCU's Faculty of Science and Health taught MScs are priced per module.",
-      "feeHistory": []
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (Faculty of Humanities and Social Sciences); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17000,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -216,11 +279,72 @@
         }
       },
       "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (School of Law and Government); 3 years, or 4 with a year abroad or INTRA placement. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). Taught in English. DCU has no medical school.",
-      "feeHistory": []
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (School of Law and Government); 3 years, or 4 with a year abroad or INTRA placement. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). Taught in English. DCU has no medical school. 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16400,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LLM (Master of Laws) (DC662)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16700,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, 'LLM' row, full-time 'Non EU Fee' (Faculty of Humanities and Social Sciences, School of Law and Government); the one LLM fee covers the general pathway and the named strands (European Law, International Human Rights Law, Public Law, Policing, Crime and Security, Business and Trade Law and Market Regulation). 1 year full-time (six taught modules plus dissertation); part-time non-EU is EUR 8,500 a year over 2 years. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule; the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15500,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc in Diagnostics and Precision Medicine (DC739)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23000,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, Faculty of Science and Health, full-time 'Non EU Fee' (EUR 23,000 per annum); School of Biotechnology, 1 year full-time (2-4 years part-time, priced per module: EUR 1,000 per 5-credit module, EUR 5,940 dissertation). The schedule says Science and Health programmes 'are subject to the fixed registration charge of EUR 130 plus levy of EUR 40', which applies to the modular (part-time) route; the full-time figure is used here and the compulsory fee kept as the Student Centre levy (EUR 43) per the other DCU records. Fees are per annum and subject to an annual increase. Chosen because DCU's physics, chemistry and biotechnology MScs are research or modular only. 2025/26 history: non-EU fee (EUR 17,000 per annum) from DCU's 'Postgraduate Fees 2025-26' schedule; the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17000,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+        }
+      ]
     }
   ]
 }

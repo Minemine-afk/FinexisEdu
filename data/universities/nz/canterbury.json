@@ -36,10 +36,10 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 international tuition fee estimate per 120 points (BDataSc, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $46,125. Compulsory = Student Services Levy for on-campus study, $10.30/point x 120 = $1,236 in 2026 (2027 rate not yet published). Excludes insurance.",
+      "notes": "2027 international tuition fee estimate per 120 points (BDataSc, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $46,125. Compulsory = Student Services Levy for on-campus study, $10.30/point x 120 = $1,236 in 2026 (2027 rate not yet published). Excludes insurance. No 2024/2025 history: the BDataSc estimate blends Science and Business fee bands and UC no longer publishes earlier years' per-qualification estimates; the UC Calendar fee bands give no single BDataSc figure.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -64,11 +64,25 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 international tuition fee estimate per 120 points (BCom, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $41,570. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 international tuition fee estimate per 120 points (BCom, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $41,570. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 2 (Accountancy, Business) for undergraduate courses per 120 points, not a blended BCom estimate (UC no longer publishes earlier years' per-qualification estimates); SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 33600,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34900,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
@@ -92,10 +106,10 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 international tuition fee estimate per 120 points for the FIRST year of the BE(Hons) (480 points = 4 years); UC quotes second to fourth years higher at $54,180 (2026: $51,900; 2028: $56,890), which this single annual figure does not capture. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 international tuition fee estimate per 120 points for the FIRST year of the BE(Hons) (480 points = 4 years); UC quotes second to fourth years higher at $54,180 (2026: $51,900; 2028: $56,890), which this single annual figure does not capture. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. No 2024/2025 history: the first-year BE(Hons) estimate blends fee bands (the Calendar's Engineering band, $48,000 in 2024 and $49,900 in 2025, is the second-to-fourth-year rate) and UC no longer publishes earlier years' per-qualification estimates.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -120,11 +134,25 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 international tuition fee estimate per 120 points (BSc, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $47,230. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 international tuition fee estimate per 120 points (BSc, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $47,230. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 4 (Science, Health Sciences) for undergraduate courses per 120 points, not a blended BSc estimate (UC no longer publishes earlier years' per-qualification estimates); SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39900,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41500,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
@@ -148,11 +176,25 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 international tuition fee estimate per 120 points (BA, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $38,230. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 international tuition fee estimate per 120 points (BA, 360 points = 3 years); actual fee depends on courses. UC also publishes 2028: $38,230. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 1 (Arts, Criminal Justice, Education, Social Sciences) for undergraduate courses per 120 points, not a blended BA estimate (UC no longer publishes earlier years' per-qualification estimates); SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31600,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32800,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
@@ -176,11 +218,25 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 Special Programme Fee $71,400 for the whole 180-point PMCS (paid at the start, 12-18 months), divided by 1.5 years. 2026 = $67,950 / 1.5; 2028 published as $75,000. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 Special Programme Fee $71,400 for the whole 180-point PMCS (paid at the start, 12-18 months), divided by 1.5 years. 2026 = $67,950 / 1.5; 2028 published as $75,000. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 4 (Science) postgraduate rate per 120 points; the PMCS is not in the Calendar's special-programme list and its 2026 web fee equals band 4 x 1.5 (180 points: 2024 $63,300, 2025 $65,700 in total). SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42200,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43800,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
@@ -204,11 +260,25 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 Special Programme Fee $65,700 for the whole 180-point MBA (paid at the start, 12-18 months), divided by 1.5 years. 2026 = $62,850 / 1.5; 2028 published as $70,350. The 180-point Master of Business Management / Master of Commerce are $59,400. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 Special Programme Fee $65,700 for the whole 180-point MBA (paid at the start, 12-18 months), divided by 1.5 years. 2026 = $62,850 / 1.5; 2028 published as $70,350. The 180-point Master of Business Management / Master of Commerce are $59,400. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part D special programme fee for the 180-point MBA ($52,500 in 2024, $61,350 in 2025) divided by 1.5 years; SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35000,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 40900,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
@@ -232,11 +302,25 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 Special Programme Fee $54,600 for the whole 120-point ME (research master's, paid at the start; 12-18 months). 2026 = $51,900; 2028 published as $57,300. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 Special Programme Fee $54,600 for the whole 120-point ME (research master's, paid at the start; 12-18 months). 2026 = $51,900; 2028 published as $57,300. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 5 (Engineering) per 120 points, which is what the ME's 2026 web fee equals; SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48000,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 49900,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
@@ -260,11 +344,25 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 international tuition fee estimate per 120 points for the 240-point MSc (2 years); actual fee depends on courses. 2026 = $45,300; 2028 published as $50,000. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 international tuition fee estimate per 120 points for the 240-point MSc (2 years); actual fee depends on courses. 2026 = $45,300; 2028 published as $50,000. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 4 (Science, Health Sciences) postgraduate rate per 120 points; SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42200,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43800,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
@@ -288,11 +386,25 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 Special Programme Fee $40,200 for the whole 120-point MA(Thesis) (paid at the start; 12-18 months). 2026 = $38,200; 2028 published as $42,200. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance.",
+      "notes": "2027 Special Programme Fee $40,200 for the whole 120-point MA(Thesis) (paid at the start; 12-18 months). 2026 = $38,200; 2028 published as $42,200. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 1 (Arts) postgraduate rate per 120 points, which is what the MA(Thesis)'s 2026 web fee equals; SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35400,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36800,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
@@ -316,17 +428,73 @@
         }
       },
       "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2027 international tuition fee estimate per 120 points (LLB, 480 points = 4 years); actual fee depends on courses. UC also publishes 2028: $42,280. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. Canterbury's LLB is not on the Singapore Institute of Legal Education's approved list.",
+      "notes": "2027 international tuition fee estimate per 120 points (LLB, 480 points = 4 years); actual fee depends on courses. UC also publishes 2028: $42,280. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. Canterbury's LLB is not on the Singapore Institute of Legal Education's approved list. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 3 (Fine Arts, Law) for undergraduate courses per 120 points, not a blended LLB estimate (UC no longer publishes earlier years' per-qualification estimates); SSL then $9.17/point x 120 = $1,100.40.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37300,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 38800,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 38570,
           "annualCompulsoryFees": 1236,
           "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Laws",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 45800,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2027 Special Programme Fee $45,800 for the whole 120-point LLM (90-point thesis plus two 15-point courses; paid at the start; 1-2 years full-time, recorded as 1 year). 2026 = $43,850; 2028 published as $48,100. The 120-point LLM (International Law and Politics) is $39,600 in 2027. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows are the UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 3 (Fine Arts, Law) postgraduate rate per 120 points, which is what the LLM's 2026 web fee equals; SSL then $9.17/point x 120 = $1,100.40.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40600,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42200,
+          "annualCompulsoryFees": 1100.4,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43850,
+          "annualCompulsoryFees": 1236,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
         }
       ]
     }

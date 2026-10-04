@@ -1,6 +1,11 @@
 # University of Galway. Fee tables quote the non-EU fee per annum including the EUR 140 student
 # levy; each cell is followed by its academic year. The pages also keep a few stale rows from
 # earlier years, so year_pattern takes the largest year present.
+# Fee history (2025/26 rows) comes from sources that are not re-scraped: the Postgraduate
+# Prospectus 2025 PDF (/media/courses/downloads/Postgraduate-Prospectus-2025.pdf, non-EU
+# tuition + EUR 140 levy) and the Cairnes School legacy Commerce page
+# (/business-public-policy-law/cairnes/courses/undergrad/commerce.html). No 2024/25 table
+# remains on the university's site (the old /student-fees/fees202425ay page is gone).
 sources:
   - university: galway
     country: ie

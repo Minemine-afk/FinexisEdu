@@ -36,10 +36,11 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 083109M), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online."
+      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 083109M), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No 2024/2025 fee history: Sydney publishes indicative fees only on the current course pages (2026 and 2027) and the current admission guide; earlier years' guides and course-page fee data are no longer online.",
+      "feeHistory": []
     },
     {
       "level": "bachelor",
@@ -55,10 +56,71 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 093855E), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online."
+      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 093855E), 2026 International Admission Guide; increases each year. Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No 2024/2025 fee history: Sydney publishes indicative fees only on the current course pages (2026 and 2027) and the current admission guide; earlier years' guides and course-page fee data are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56300,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-commerce.coredata.json",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the 2026-entry course page's fee data (sydney.edu.au/courses/courses/uc/bachelor-of-commerce.html loads it from this JSON; course 012849G, 144 credit points over 3 years). The 2027-entry page (bachelor-of-commerce0) lists 2027 at A$59,100, as does the 2027 International Admission Guide. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 60600,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science.coredata.json",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/uc/bachelor-of-science.html loads it from this JSON; course 000719E, 144 credit points over 3 years). The same data lists 2027 at A$63,600. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 52500,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts.coredata.json",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/uc/bachelor-of-arts.html loads it from this JSON; course 000705M, 144 credit points over 3 years). The same data lists 2027 at A$55,100. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
     },
     {
       "level": "bachelor",
@@ -74,10 +136,110 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/content/dam/corporate/documents/study/how-to-apply/international-admission-guide-2026.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 006441D), 2026 International Admission Guide; increases each year. Sydney offers the LLB only combined with another bachelor's degree; Commerce/Laws, Economics/Laws and Science/Laws are also A$56,300 (Engineering Honours/Laws is 6.5 years). Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No official 2024/2025 fee list found online.",
+      "notes": "2026 indicative Year 1 fee per 1.0 EFTSL (course 006441D), 2026 International Admission Guide; increases each year. Sydney offers the LLB only combined with another bachelor's degree; Commerce/Laws, Economics/Laws and Science/Laws are also A$56,300 (Engineering Honours/Laws is 6.5 years). Compulsory = 2026 SSAF A$186.50/semester full-time x 2. No 2024/2025 fee history: Sydney publishes indicative fees only on the current course pages (2026 and 2027) and the current admission guide; earlier years' guides and course-page fee data are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Professional Engineering (Civil Engineering)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 57900,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-civil-engineering.coredata.json",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/master-of-professional-engineering-civil-engineering.html loads it from this JSON; course 077470M, 144 credit points over 3 years). All MPE specialisations (aerospace, biomedical, chemical, electrical, mechanical, software) carry the same rate, as does the 2-year 96-credit-point MPE (Accelerated) for engineering graduates (course 098247M). The same data lists 2027 at A$60,800. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Computer Science",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 57900,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/master-of-computer-science.coredata.json",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/master-of-computer-science.html loads it from this JSON; course 111671D, 96 credit points over 2 years). The Master of Information Technology course page now redirects to this course. The same data lists 2027 at A$60,800. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Commerce",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61700,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/master-of-commerce0.coredata.json",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/master-of-commerce0.html loads it from this JSON; course 019181A). 72 credit points = 1.5 years full-time, so 1.5 years is used for the total; the JSON's lengthInYear is 2. The same data lists 2027 at A$64,800. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Data Science",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 57900,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/master-of-data-science0.coredata.json",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/master-of-data-science0.html loads it from this JSON; course 108764C). 72 credit points = 1.5 years full-time, so 1.5 years is used for the total; the JSON's lengthInYear is 2. Sydney has no generic Master of Science; its MSc awards are medicine specialisations. The same data lists 2027 at A$60,800. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of International Relations",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54100,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/master-of-international-relations.coredata.json",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/master-of-international-relations.html loads it from this JSON; course 079205A, 96 credit points over 2 years). The same data lists 2027 at A$56,800. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
       "feeHistory": []
     },
     {
@@ -94,10 +256,10 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/juris-doctor.coredata.json",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/juris-doctor.html loads it from this JSON); 144 credit points over 3 years. The same data lists 2027 at A$64,200. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Not available to student visa holders part-time. Fees increase each year.",
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/juris-doctor.html loads it from this JSON); 144 credit points over 3 years. The same data lists 2027 at A$64,200. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Not available to student visa holders part-time. Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
       "feeHistory": []
     },
     {
@@ -114,10 +276,10 @@
         }
       },
       "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/doctor-of-medicine0.coredata.json",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/doctor-of-medicine.html loads it from this JSON); graduate entry, 4 years. The same data lists 2027 at A$100,500, and the 2026 International Admission Guide quotes the same A$97,000 for the MD years of the Science/Medicine and Arts/Medicine double degrees. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year.",
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/doctor-of-medicine.html loads it from this JSON); graduate entry, 4 years. The same data lists 2027 at A$100,500, and the 2026 International Admission Guide quotes the same A$97,000 for the MD years of the Science/Medicine and Arts/Medicine double degrees. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
       "feeHistory": []
     }
   ]

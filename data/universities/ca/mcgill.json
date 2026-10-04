@@ -108,6 +108,257 @@
       ]
     },
     {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (Computer Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 64785.9,
+          "annualCompulsoryFees": 2380.84,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "Computer Science major is a BSc in the Faculty of Science, billed at the BSc international rate (McGill bills by faculty). 2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61066.8,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 62898.9,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce (Desautels)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71687.4,
+          "annualCompulsoryFees": 2496.34,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-4",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "BCom international table (Student Accounts). 2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. 2024 and 2025 rows are the 'admitted and enrolled as of Fall 2024/2025' columns of the same table.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 67572.3,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-4"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69599.4,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-4"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering (MEng, non-thesis)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32832.6,
+          "annualCompulsoryFees": 2362.29,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-7",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international Master's Non-Thesis table (Student Accounts), 'newly admitted and enrolled as of Fall 2026' column: C$16,416.30 per term x 2 terms = 30 credits (C$1,094.42 per credit; 45-credit programme = 1.5 years at this rate). Not guaranteed: the same cohort's rate is raised each year (Fall 2025 entrants C$15,634.50 per term in the 2025-26 table, C$16,103.55 in the 2026-27 table), so cohortLocked is false and history rows are each year's own new-entrant figure. Compulsory = student society (Fall C$198.78 + Winter C$113.78) + student services/athletics (C$376.49 x 2) + admin (C$243.75 + C$182.40) + copyright (C$17.55 x 2) + IT (C$151.20 x 2) + PGSS dental C$276.52 + Computing Lab fee for MEng non-thesis C$256.58 (2024: C$244.22; 2025: C$249.10); international health insurance (C$1,212) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29780.1,
+          "annualCompulsoryFees": 2217.14,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31269.0,
+          "annualCompulsoryFees": 2280.32,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-4"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science in Computer Science (non-thesis)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32832.6,
+          "annualCompulsoryFees": 2105.71,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-7",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international Master's Non-Thesis table (Student Accounts), 'newly admitted and enrolled as of Fall 2026' column: C$16,416.30 per term x 2 terms = 30 credits (C$1,094.42 per credit; 45-credit programme = 1.5 years at this rate). Not guaranteed: the same cohort's rate is raised each year (Fall 2025 entrants C$15,634.50 per term in the 2025-26 table, C$16,103.55 in the 2026-27 table), so cohortLocked is false and history rows are each year's own new-entrant figure. Compulsory = student society (Fall C$198.78 + Winter C$113.78) + student services/athletics (C$376.49 x 2) + admin (C$243.75 + C$182.40) + copyright (C$17.55 x 2) + IT (C$151.20 x 2) + PGSS dental C$276.52; international health insurance (C$1,212) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29780.1,
+          "annualCompulsoryFees": 1972.92,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31269.0,
+          "annualCompulsoryFees": 2031.22,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-4"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Mathematics and Statistics (non-thesis)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32832.6,
+          "annualCompulsoryFees": 2105.71,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-7",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international Master's Non-Thesis table (Student Accounts), 'newly admitted and enrolled as of Fall 2026' column: C$16,416.30 per term x 2 terms = 30 credits (C$1,094.42 per credit; 45-credit programme = 1.5 years at this rate). Not guaranteed: the same cohort's rate is raised each year (Fall 2025 entrants C$15,634.50 per term in the 2025-26 table, C$16,103.55 in the 2026-27 table), so cohortLocked is false and history rows are each year's own new-entrant figure. Compulsory = student society (Fall C$198.78 + Winter C$113.78) + student services/athletics (C$376.49 x 2) + admin (C$243.75 + C$182.40) + copyright (C$17.55 x 2) + IT (C$151.20 x 2) + PGSS dental C$276.52; international health insurance (C$1,212) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29780.1,
+          "annualCompulsoryFees": 1972.92,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31269.0,
+          "annualCompulsoryFees": 2031.22,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-4"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in Economics (non-thesis)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32832.6,
+          "annualCompulsoryFees": 2105.71,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-7",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "notes": "2026-27 international Master's Non-Thesis table (Student Accounts), 'newly admitted and enrolled as of Fall 2026' column: C$16,416.30 per term x 2 terms = 30 credits (C$1,094.42 per credit; 45-credit programme = 1.5 years at this rate). Not guaranteed: the same cohort's rate is raised each year (Fall 2025 entrants C$15,634.50 per term in the 2025-26 table, C$16,103.55 in the 2026-27 table), so cohortLocked is false and history rows are each year's own new-entrant figure. Compulsory = student society (Fall C$198.78 + Winter C$113.78) + student services/athletics (C$376.49 x 2) + admin (C$243.75 + C$182.40) + copyright (C$17.55 x 2) + IT (C$151.20 x 2) + PGSS dental C$276.52; international health insurance (C$1,212) excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29780.1,
+          "annualCompulsoryFees": 1972.92,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31269.0,
+          "annualCompulsoryFees": 2031.22,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-4"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration (Desautels)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72333.44,
+          "annualCompulsoryFees": 2105.71,
+          "oneOffFees": 3000
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-business-administration-3",
+      "lastVerified": "2026-10-04",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "notes": "2026-27 MBA international table (Student Accounts), 'admitted and enrolled as of Fall 2026': C$6,781.26 per 3 credits = C$2,260.42 per credit, charged on a maximum of 48 credits (54-credit programme; 6-credit internship not billed) = C$108,500.16 total, divided by 1.5 years (McGill quotes the full-time MBA at up to 16 months). Per-credit rate fixed by admission cohort (the Fall 2025 column is unchanged between the 2025-26 and 2026-27 tables). Compulsory = 15-credit-term column: student society (C$198.78 + C$113.78) + student services/athletics (C$376.49 x 2) + admin (C$243.75 + C$182.40) + copyright (C$17.55 x 2) + IT (C$151.20 x 2) + PGSS dental C$276.52; international health insurance (C$1,212) excluded. One-off = International Study Trip in Year 1 (C$3,000, as stated on the table). 2024/2025 rows: that cohort's own table (C$6,406.26 and C$6,593.76 per 3 credits, same 48-credit basis).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 68333.44,
+          "annualCompulsoryFees": 1972.92,
+          "oneOffFees": 3000,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-business-administration-6"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 70333.44,
+          "annualCompulsoryFees": 2031.22,
+          "oneOffFees": 3000,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-business-administration-0"
+        }
+      ]
+    },
+    {
       "level": "master",
       "field": "law",
       "name": "Bachelor of Civil Law and Juris Doctor (BCL/JD)",
@@ -154,11 +405,20 @@
         }
       },
       "sourceUrl": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": true,
-      "notes": "Student Accounts '2026-2027 Tuition Rates - International Undergraduate Students' (updated December 2025): MDCM tuition C$74,678.31 for students admitted Fall 2026, based on 63 credits in Year 1 (the heaviest year; McGill lists 50.5, 51 and 35.5 credits for Years 2-4, so later years cost less). Per-credit rate guaranteed for the programme. Compulsory = society C$779.50 + student services/athletics C$774.60 + admin C$651.89 + copyright C$55.05 + IT C$440.55 + SSMU dental C$150 (estimated by McGill at +3%); international health insurance (C$1,155) excluded. Graduate-entry MDCM is 4 years. No 2024/2025 history: the 2025-26 MDCM page shows cohort figures that are inconsistent with this schedule, so none recorded.",
-      "feeHistory": []
+      "notes": "Student Accounts '2026-2027 Tuition Rates - International Undergraduate Students' (updated December 2025): MDCM tuition C$74,678.31 for students admitted Fall 2026, based on 63 credits in Year 1 (the heaviest year; McGill lists 50.5, 51 and 35.5 credits for Years 2-4, so later years cost less). Per-credit rate guaranteed for the programme. Compulsory = society C$779.50 + student services/athletics C$774.60 + admin C$651.89 + copyright C$55.05 + IT C$440.55 + SSMU dental C$150 (estimated by McGill at +3%); international health insurance (C$1,155) excluded. Graduate-entry MDCM is 4 years. 2025 history from the '2025-2026 Tuition Rates - International Undergraduate Students' PDF (updated November 2024): MDCM tuition C$69,339.06 for students admitted Fall 2025 (63 credits), compulsory C$2,823.52 on the same basis. No 2024 row: the 2024-25 rates PDF is no longer online and the MDCM web tables show each cohort at its current year of study (not Year 1), so no source states the Fall 2024 cohort's Year-1 figure.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69339.06,
+          "annualCompulsoryFees": 2823.52,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2025-26.pdf"
+        }
+      ]
     }
   ]
 }

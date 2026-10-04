@@ -52,6 +52,21 @@ sources:
     url: https://www.wgtn.ac.nz/students/money/fees/student-services-fee
     parser: html
     manual: true
+  # Fee history: the yearly University Calendar PDF reproduces that year's Fees Schedule
+  # (Part B international $/point by subject band, Part C Student Services Fee and Student
+  # Hardship Fee). Archived editions are listed at
+  # wgtn.ac.nz/about/governance/university-publications/calendar (and /past); the figures are
+  # fixed once published, so these are checked by hand.
+  - university: vuw
+    country: nz
+    url: https://www.wgtn.ac.nz/__data/assets/pdf_file/0010/2259307/te-herenga-waka-calendar-2025.pdf
+    parser: pdf
+    manual: true
+  - university: vuw
+    country: nz
+    url: https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf
+    parser: pdf
+    manual: true
   # living costs: an example budget table inside the Money Matters PDF, checked by hand
   - university: vuw
     country: nz

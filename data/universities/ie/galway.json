@@ -56,11 +56,20 @@
         }
       },
       "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "University of Galway undergraduate fee table, 'International (non-EU) fee' column, 2026/27, per annum; 3 years (4-year option). Figure includes the EUR 140 student levy. Continuing-year fees rise by an approved inflationary increase (5% a year for 2026/27 entrants).",
-      "feeHistory": []
+      "notes": "University of Galway undergraduate fee table, 'International (non-EU) fee' column, 2026/27, per annum; 3 years (4-year option). Figure includes the EUR 140 student levy. Continuing-year fees rise by an approved inflationary increase (5% a year for 2026/27 entrants). 2025/26 history row: the J.E. Cairnes School of Business course page still carries the previous year's fees line, 'Fees: Non EU EUR 19,000 p.a. (EUR 19,140 p.a. including levy) 2025/26'; the levy-inclusive figure is recorded. No 2024/25 figure is published on the university's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/business-public-policy-law/cairnes/courses/undergrad/commerce.html"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -136,11 +145,20 @@
         }
       },
       "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1CSD1); 1 year full-time. Figure includes the EUR 140 student levy (Galway quotes fees levy-inclusive; rows that exclude it say so).",
-      "feeHistory": []
+      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1CSD1); 1 year full-time. Figure includes the EUR 140 student levy (Galway quotes fees levy-inclusive; rows that exclude it say so). 2025/26 history row: University of Galway Postgraduate Prospectus 2025 (PDF) course table, 'Non-EU Fees' column, EUR 28,000 p.a. tuition; the prospectus states a student levy of EUR 140 for 2025/26 is payable in addition, so EUR 28,140 is recorded to match the levy-inclusive convention of the current row. No 2024/25 figure is published on the university's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -156,11 +174,20 @@
         }
       },
       "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1MBY1); 1 year full-time. Figure includes the EUR 140 student levy.",
-      "feeHistory": []
+      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1MBY1); 1 year full-time. Figure includes the EUR 140 student levy. 2025/26 history row: University of Galway Postgraduate Prospectus 2025 (PDF) course table, 'Non-EU Fees' column, EUR 21,000 p.a. tuition; the prospectus states a student levy of EUR 140 for 2025/26 is payable in addition, so EUR 21,140 is recorded to match the levy-inclusive convention of the current row. No 2024/25 figure is published on the university's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -176,11 +203,20 @@
         }
       },
       "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1MEC1); 1 year full-time. Figure includes the EUR 140 student levy.",
-      "feeHistory": []
+      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1MEC1); 1 year full-time. Figure includes the EUR 140 student levy. 2025/26 history row: University of Galway Postgraduate Prospectus 2025 (PDF) course table, 'Non-EU Fees' column, EUR 28,000 p.a. tuition; the prospectus states a student levy of EUR 140 for 2025/26 is payable in addition, so EUR 28,140 is recorded to match the levy-inclusive convention of the current row. No 2024/25 figure is published on the university's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -196,11 +232,20 @@
         }
       },
       "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course MSC-BMG); 1 year full-time. Figure includes the EUR 140 student levy.",
-      "feeHistory": []
+      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course MSC-BMG); 1 year full-time. Figure includes the EUR 140 student levy. 2025/26 history row: University of Galway Postgraduate Prospectus 2025 (PDF) course table, 'Non-EU Fees' column, EUR 28,000 p.a. tuition; the prospectus states a student levy of EUR 140 for 2025/26 is payable in addition, so EUR 28,140 is recorded to match the levy-inclusive convention of the current row. No 2024/25 figure is published on the university's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -216,11 +261,20 @@
         }
       },
       "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1MEN1); 1 year full-time. Figure includes the EUR 140 student levy.",
-      "feeHistory": []
+      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1MEN1); 1 year full-time. Figure includes the EUR 140 student levy. 2025/26 history row: University of Galway Postgraduate Prospectus 2025 (PDF) course table, 'Non-EU Fees' column, EUR 19,000 p.a. tuition; the prospectus states a student levy of EUR 140 for 2025/26 is payable in addition, so EUR 19,140 is recorded to match the levy-inclusive convention of the current row. No 2024/25 figure is published on the university's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -276,11 +330,20 @@
         }
       },
       "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1ML28); 1 year full-time. Figure includes the EUR 140 student levy. Taught in English.",
-      "feeHistory": []
+      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1ML28); 1 year full-time. Figure includes the EUR 140 student levy. Taught in English. 2025/26 history row: University of Galway Postgraduate Prospectus 2025 (PDF) course table, 'Non-EU Fees' column, EUR 20,000 p.a. tuition; the prospectus states a student levy of EUR 140 for 2025/26 is payable in addition, so EUR 20,140 is recorded to match the levy-inclusive convention of the current row. No 2024/25 figure is published on the university's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
+        }
+      ]
     }
   ]
 }

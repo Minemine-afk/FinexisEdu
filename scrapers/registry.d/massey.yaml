@@ -111,3 +111,10 @@ sources:
     url: https://www.massey.ac.nz/study/international-students/living-in-new-zealand/
     parser: html
     manual: true
+  # 2024 feeHistory rows: Massey's own 2024 International Qualification Guide (PDF, Massey-authored),
+  # no longer hosted by Massey; read from a mirror copy on an agency site, so manual.
+  - university: massey
+    country: nz
+    url: https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf
+    parser: pdf
+    manual: true

@@ -1,0 +1,79 @@
+# The University of Sydney. Each course page on sydney.edu.au/courses loads its fee table from a
+# sibling `.coredata.json` (the HTML itself has no figures). The JSON lists the current and next
+# year side by side ("feesByYear"), so every pattern is anchored on the 2026 block; when 2026 drops
+# off, the patterns stop matching and the figures are re-checked by hand. The 2026 International
+# Admission Guide, the SSAF and living-cost sources are in ../registry.yaml.
+sources:
+  # 2026-entry page; the 2027-entry page is uc/bachelor-of-commerce0.
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/uc/bachelor-of-commerce.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: bachelor
+      field: business
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: bachelor
+      field: sciences
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-civil-engineering.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: master
+      field: engineering
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/pc/master-of-computer-science.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: master
+      field: computing
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/pc/master-of-commerce0.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: master
+      field: business
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/pc/master-of-data-science0.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: master
+      field: sciences
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/pc/master-of-international-relations.coredata.json
+    parser: html
+    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    targets:
+    - level: master
+      field: arts
+      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'

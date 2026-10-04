@@ -74,3 +74,54 @@ sources:
     url: https://www.monash.edu/study/courses/find-a-course/medical-science-and-medicine-direct-entry-m6011
     parser: html
     manual: true
+  # site blocks automated access (see laws-l3001)
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/data-science-c6004
+    parser: html
+    manual: true
+  # site blocks automated access (see laws-l3001)
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/international-relations-a6010
+    parser: html
+    manual: true
+  # site blocks automated access (see laws-l3001)
+  - university: monash
+    country: au
+    url: https://www.monash.edu/study/courses/find-a-course/medical-science-and-medicine-graduate-entry-m6018
+    parser: html
+    manual: true
+  # Fee-history sources: Monash course-guide PDFs. Each guide's footnote reads "<year> quoted fees",
+  # and that year is the fee year (the 2027 guides carry the 2026 fees). Same Cloudflare block as the
+  # HTML pages (HTTP 403 for scripted downloads), so they are checked by hand.
+  - university: monash
+    country: au
+    url: https://www.monash.edu/__data/assets/pdf_file/0008/3636044/2025-PG-Interational-course-guide.pdf
+    parser: pdf
+    manual: true
+  - university: monash
+    country: au
+    url: https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf
+    parser: pdf
+    manual: true
+  - university: monash
+    country: au
+    url: https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf
+    parser: pdf
+    manual: true
+  - university: monash
+    country: au
+    url: https://www.monash.edu/__data/assets/pdf_file/0020/3651122/2025-Engineering-undergraduate-faculty-course-guide.pdf
+    parser: pdf
+    manual: true
+  - university: monash
+    country: au
+    url: https://www.monash.edu/__data/assets/pdf_file/0005/3649721/2026-Monash-Engineering-UG-Course-Guide.pdf
+    parser: pdf
+    manual: true
+  - university: monash
+    country: au
+    url: https://www.monash.edu/__data/assets/pdf_file/0004/4116451/2026-Engineering-Postgraduate-Guide.pdf
+    parser: pdf
+    manual: true

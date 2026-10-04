@@ -1,0 +1,34 @@
+# Stanford: master's programmes added after the main registry entries. The sciences
+# and arts master's (MS Statistics, MA International Policy) bill the standard
+# "Graduate School (Master's / Doctorate)" rate on the same graduate tuition page
+# that ../registry.yaml already scrapes for engineering, computing, law and
+# medicine; the MBA comes from the GSB cost-of-attendance page (first-year tuition
+# = GSB first-year quarterly rate x 3). Health fee and document fee come from the
+# university-wide sources in ../registry.yaml.
+sources:
+  - university: stanford
+    country: us
+    url: https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      pattern: Quarterly Tuition \(unless otherwise specified\) 8-10 units \$ ?[\d,]+ 11-18 units \$ ?([\d,]+)
+      multiplier: 3
+    - level: master
+      field: arts
+      pattern: Quarterly Tuition \(unless otherwise specified\) 8-10 units \$ ?[\d,]+ 11-18 units \$ ?([\d,]+)
+      multiplier: 3
+  - university: stanford
+    country: us
+    url: https://www.gsb.stanford.edu/programs/mba/tuition-financial-aid/cost-attendance
+    parser: html
+    year_pattern: First-Year MBA (\d{4})[–-]\d{4}
+    targets:
+    - level: master
+      field: business
+      pattern: First-Year MBA \d{4}[–-]\d{4} Cost Single Student Married Student Tuition \$ ?([\d,]+)
+    - level: master
+      field: business
+      key: annualCompulsoryFees
+      pattern: First-Year MBA \d{4}[–-]\d{4} Cost Single Student Married Student Tuition \$ ?[\d,]+ \$ ?[\d,]+.*?Health Fee \$ ?([\d,]+)

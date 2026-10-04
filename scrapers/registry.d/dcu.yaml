@@ -1,5 +1,6 @@
 # Dublin City University. Fee schedules are one page per academic year (…2026-2027 / …2026-27);
-# earlier years' URLs redirect to the current page, so bump the URL when a new year is published.
+# earlier years' URLs redirect to the current page, so bump the URL when a new year is published
+# (the 2025-26 feeHistory rows were read from Common Crawl's September 2025 capture of the old URLs).
 # UG rows: name, description, student contribution (EU only), EU fee, non-EU fee.
 sources:
   - university: dcu
@@ -45,6 +46,13 @@ sources:
     - level: master
       field: arts
       pattern: MA in History All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
+    - level: master
+      field: law
+      pattern: LLM All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
+    # Science & Health rows carry modular prices before the full-time totals: EU modular, EU FT, non-EU modular, non-EU FT.
+    - level: master
+      field: sciences
+      pattern: MSc in Diagnostics and Precision Medicine .*?subject to an annual increase\. 5 Credit Module €[\d,]+/Dissertation \(30 credits\) €[\d,]+ €[\d,]+ 5 Credit Module €[\d,]+ ?/Dissertation \(30 credits\) €[\d,]+ €([\d,]+)
   # Student Centre levy (paid by non-EU and postgraduate students with their tuition).
   - university: dcu
     country: ie

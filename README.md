@@ -38,7 +38,7 @@ every scraped change goes through a pull request:
 
 ## Coverage (checked 30 Sep 2026)
 
-50 universities, 525 programmes: five universities in each of the 10 countries,
+50 universities, 557 programmes: five universities in each of the 10 countries,
 across seven fields (engineering, computing, business, sciences, arts and
 humanities, law, medicine). Law and medicine cover the universities on the
 Singapore Institute of Legal Education's approved list and the Singapore
