@@ -19,6 +19,7 @@
     "sourceUrl": "https://you.ubc.ca/financial-planning/cost/",
     "lastVerified": "2026-09-23",
     "sourceType": "official",
+    "summary": "The university's own estimate for first-year students in residence over an 8-month year: housing, meal plan, groceries, and books. Transport pass is in student fees; phone, clothing and social costs excluded.",
     "notes": "UBC first-year cost estimator defaults (Vancouver campus, standard on-campus residence), totalled over 8 months. Housing: residence $6,376-$8,996 for the year depending on room type, midpoint $7,686. Food: meal plan $7,712 for the year (964/month) + groceries $450/month. Transport 0: the U-Pass ($43.35/month) is included in student fees. Personal: books and supplies vary by programme ($800 Applied Science to $2,500 Computer Science for this file's programmes), midpoint $1,650/year; the estimator has no default for clothing, phone or social spending, so these are not included."
   },
   "programmes": [
@@ -39,6 +40,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for new international students; yearly increases are capped at 3% for 4 years, so later years cost a little more. Compulsory fees included; health insurance is extra.",
       "notes": "C$1,717.68/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Arts undergraduate society fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -72,6 +74,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for new international students; yearly increases are capped at 3% for 4 years, so later years cost a little more. Compulsory fees included; health insurance is extra.",
       "notes": "C$1,769.40/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -105,6 +108,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for new international students, charged at the Science rate. Yearly increases are capped at 3% for 4 years. Compulsory fees included; health insurance is extra.",
       "notes": "Computer Science is charged the Science rate: C$1,769.40/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -138,6 +142,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "First-year tuition for new international students, based on the heavier first-year course load. Yearly increases capped at 3% for 4 years. Compulsory fees included; health insurance is extra.",
       "notes": "Engineering C$1,789.18/credit x 37-credit first-year load (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Applied Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 37 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -171,6 +176,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for new international students; yearly increases are capped at 3% for 4 years, so later years cost a little more. Compulsory fees included; health insurance is extra.",
       "notes": "Sauder C$2,222.61/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Commerce society and renovation fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -204,6 +210,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "First-year tuition for international students in the 3-year graduate-entry law degree; later years carry a slightly lighter load. Increases are capped, not fixed. Compulsory fees included; health insurance extra.",
       "notes": "International Law (J.D.) rate for students commencing in 2026S or later: C$1,520.25/credit x 32-credit first-year load (Allard: 30 credits in Years 2-3) = C$48,648 (2026/27 Calendar). Allard's own tuition page still shows C$1,505.63/credit (C$48,180.16) for 2026/27. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 2 terms and the Law (J.D.) student society fee C$151.11, per the 2026/27 Calendar; iMED insurance excluded. JD is graduate-entry (3 years). Rates are set by commencement year with capped increases, not fixed. 2024/2025 = that year's new-student per-credit rate x 32 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -237,6 +244,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for this 12-month master's. Compulsory student fees included; health insurance is extra.",
       "notes": "Specialized master's rate for students entering 2026S/2026W: C$10,797.91 per instalment x 3 instalments (12-month programme, minimum 3 instalments) = C$32,393.73 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms (graduate students register year-round) and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. The Calendar lists a separate rate per entry year and continuing cohorts' rates rise each year (about 3%), so not cohort-locked. 2024/2025 = that year's new-entrant instalment x 3 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -270,6 +278,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Programme total for the 16-month MBA spread over 1.33 years, fixed for your intake. Includes compulsory fees and one-off MBA society and building fees; health insurance is extra.",
       "notes": "'Master of Business Administration (16 months)' international rate for students entering 2026S/2026W: C$27,105.19 per instalment x 4 instalments = C$108,420.76 for the programme, divided by 1.33 years (16 months) (2026/27 Calendar). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49 per year; one-off = Commerce and Business Administration (M.B.A.) society fee C$538.76 and M.B.A. Sauder Student Building Fee C$2,061.01, both collected with the first tuition instalment; iMED insurance excluded. The Calendar fixes each entry-year cohort's instalment for the programme (the 2024 and 2025 cohorts' rates are unchanged in the 2026/27 Calendar). 2024/2025 = that cohort's instalment x 4 / 1.33 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -303,6 +312,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for international students for this 10-month programme, fixed for your intake. Compulsory student fees included; health insurance is extra.",
       "notes": "Specialized master's rate for students entering 2026S/2026W: C$19,922.64 per instalment x 3 instalments = C$59,767.92 for the 10-month programme (2026/27 Calendar; grad.ubc.ca quotes the same programme fee). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. The Calendar fixes each entry-year cohort's instalment (the 2024 and 2025 cohorts' rates are unchanged in the 2026/27 Calendar). 2024/2025 = that cohort's instalment x 3 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -336,6 +346,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for this 12-month programme; students who take longer keep paying each term. Compulsory student fees included; health insurance is extra.",
       "notes": "'Master of Engineering (full-time)' international rate for students entering 2026S/2026W: C$9,139.78 per instalment x 3 instalments per year = C$27,419.34 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure for the ECE MEng). Minimum programme fee is 3 instalments (12 months); students who take longer pay the same instalment as a continuing fee. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. Continuing cohorts' rates rise each year (about 2-3%), so not cohort-locked. 2024/2025 = that year's new-entrant instalment x 3 (UBC Calendar archive).",
       "feeHistory": [
         {
@@ -369,6 +380,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students in a standard 2-year master's. Reviewed each year, so it may rise. Compulsory student fees included; health insurance is extra.",
       "notes": "Standard master's Schedule A (full-time) international rate: C$3,360.55 per instalment x 3 instalments per year = C$10,081.65 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure for the MSc Physics). Applies to all standard (non-specialized) MSc/MA programmes; minimum 6 instalments, after which the continuing fee applies. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. Schedule A is reviewed annually (2% rises in recent years), so not cohort-locked. 2024/2025 = that year's Schedule A instalment x 3 (UBC Calendar archive).",
       "feeHistory": [
         {

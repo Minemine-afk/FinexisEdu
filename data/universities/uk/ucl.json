@@ -19,6 +19,7 @@
     "sourceUrl": "https://www.ucl.ac.uk/scholarships/us-student-financial-aid/us-loans-costs",
     "lastVerified": "2026-09-23",
     "sourceType": "secondary",
+    "summary": "UCL's own student budget (prepared for US student loans) for rent, food, transport, personal and course costs over a 9-month academic year. Excludes flights, visa and health surcharge.",
     "notes": "UCL publishes no itemised general cost-of-living estimate we could read (only 'around £20,000' a year for graduate study). This is UCL's itemised 2025-26 Cost of Attendance budget (maximum amounts for US federal loans), weekly figures x 39 weeks / 9 months (undergraduate year): housing = midpoint of on-campus £309 and off-campus £257/week; food £94/week; transportation £45/week; personal = personal £60 + course materials £22 + computing supplies £11 per week. Flights, visa and health surcharge excluded. www.ucl.ac.uk blocks automated access; read from the Wayback Machine copy dated 2026-05-16, so marked secondary."
   },
   "programmes": [
@@ -39,6 +40,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028); 3-year programme. The 2025 figure was read on the School of Management page in 2026-09 (that page now redirects to www.ucl.ac.uk and blocks automated access). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -72,6 +74,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the one-year programme, the same for UK and international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Full-time fee for 2027/28 entrants, the same for UK and Overseas students, from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1-year programme. The 2025 and 2026 figures were read on the School of Management page in 2026-09 (that page now redirects to www.ucl.ac.uk and blocks automated access) and match the fee schedules for those years. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -111,6 +114,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Law LLB prospectus page (ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb); 3-year programme. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -150,6 +154,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £24,100) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1-year programme (also offered part-time at half the fee per year). Replaces the 2026/27 figure previously taken from a secondary aggregator, which matches the 2026/27 schedule. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -189,6 +194,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Yearly fee for international students, paid in 5 instalments across the 6-year course. Not fixed: it can rise each year by up to inflation. Excludes extra costs such as equipment and placement travel.",
       "notes": "Overseas fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £59,600 (an averaged rate: 2 x £40,800 pre-clinical plus 3 x £72,134 clinical), so durationYears 5 reflects the number of fee years. The schedule states that Overseas Medicine fees are excluded from the cohort guarantee and are subject to annual increases of no more than RPI-X, hence cohortLocked false. The 2026 entry was read on the 2026 Medicine MBBS BSc prospectus page through a reader proxy (r.jina.ai) on 2026-09-30 and matches the 2026/27 schedule. No separate compulsory fees; additional costs (DBS check, equipment, placement travel) excluded.",
       "feeHistory": [
         {
@@ -216,6 +222,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. A suitable laptop is not included.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Computer Science BSc prospectus page; 3 academic years (the MEng charges the same fee). A suitable laptop (UCL estimates £800-£1,500) is excluded. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -255,6 +262,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Mechanical Engineering MEng prospectus page; 4 academic years (the 3-year BEng charges the same annual fee). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -294,6 +302,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Natural Sciences BSc prospectus page; 3 academic years. Optional field-trip travel excluded. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -333,6 +342,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees. An optional placement year costs 15% of the fee.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028); 3 academic years. Students on an optional placement year pay 15% of the full-time fee for that year. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -372,6 +382,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £21,500) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year. The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -411,6 +422,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £21,500) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -450,6 +462,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £16,800) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {
@@ -489,6 +502,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £28,900) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). UCL's schedules list £39,800 for 2025/26 entrants and £39,200 for 2026/27 entrants, as published. The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
         {

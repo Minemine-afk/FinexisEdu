@@ -1292,8 +1292,10 @@ function ResultDetail({
           </p>
         )}
 
-        {p.notes && (
-          <MoreNotes label="Show more about this fee">{p.notes}</MoreNotes>
+        {p.summary && (
+          <MoreNotes label="Show more about this fee" href={p.sourceUrl}>
+            {p.summary}
+          </MoreNotes>
         )}
         <p className="mt-3 text-xs text-muted">
           {p.feeYear}/{String((p.feeYear + 1) % 100).padStart(2, "0")} fees ·{" "}
@@ -1325,12 +1327,14 @@ function ResultDetail({
   );
 }
 
-/** Long source notes, collapsed behind a "Show more" toggle. */
+/** A short plain-English explanation behind a "Show more" toggle, with a link to the source for detail. */
 function MoreNotes({
   label,
+  href,
   children,
 }: {
   label: string;
+  href: string;
   children: React.ReactNode;
 }) {
   return (
@@ -1341,6 +1345,14 @@ function MoreNotes({
         {label}
       </summary>
       <p className="mt-1 text-muted">{children}</p>
+      <a
+        className={`mt-1 inline-flex items-center gap-1 rounded font-medium text-accent hover:text-foreground${FOCUS}`}
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+      >
+        Read more at source <span aria-hidden="true">↗</span>
+      </a>
     </details>
   );
 }
@@ -1456,8 +1468,10 @@ function LivingSection({
           </Badge>
         )}
       </div>
-      {e.notes && (
-        <MoreNotes label="Show more about this estimate">{e.notes}</MoreNotes>
+      {e.summary && (
+        <MoreNotes label="Show more about this estimate" href={e.sourceUrl}>
+          {e.summary}
+        </MoreNotes>
       )}
       <p className="mt-1 text-xs text-muted">
         {e.year} estimate ·{" "}

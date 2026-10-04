@@ -19,6 +19,7 @@
     "sourceUrl": "https://www.lse.ac.uk/student-life/london-life/london-on-a-budget",
     "lastVerified": "2026-09-30",
     "sourceType": "official",
+    "summary": "The university's own single estimate for all living costs, including rent, food, travel, study and personal expenses, for a 9-month academic year.",
     "notes": "LSE publishes a single all-in estimate: 'students should allow £1,550 per month for all living expenses, including accommodation, travel, food, laundry, study costs, and other personal expenses'. It is not itemised, so the whole amount is recorded under housing (food, transport and personal are included in it, not additional). The same page indicates food alone at £150-£300 a month and private housing from about £650 a month. 9 months = the undergraduate academic year (October-June); the visa maintenance requirement also counts 9 months."
   },
   "programmes": [
@@ -35,6 +36,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. Covers registration, exams and Students' Union membership; no separate compulsory fees.",
       "notes": "Overseas fee for 2026/27 new entrants from LSE's Table of Fees 2026/27. LSE fixes overseas undergraduate fees at the year-of-entry level for the whole programme. The tuition fee covers registration, examination and Students' Union membership; no separate compulsory fees. LSE has no computer science degree; Data Science is the closest programme. History: 2025/26 Table of Fees (£29,200) and 2024/25 Table of Fees (£27,192).",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 29200, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -54,6 +56,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. Covers registration, exams and Students' Union membership; no separate compulsory fees.",
       "notes": "Overseas fee for 2026/27 new entrants from LSE's Table of Fees 2026/27; fixed at the year-of-entry level for the whole programme. No separate compulsory fees. History: 2025/26 Table of Fees (£34,000) and 2024/25 Table of Fees (£27,192).",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 34000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -73,6 +76,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. Covers registration, exams and Students' Union membership; no separate compulsory fees.",
       "notes": "Overseas fee for 2026/27 new entrants from LSE's Table of Fees 2026/27; fixed at the year-of-entry level for the whole programme. No separate compulsory fees. LSE offers no physics or biology; mathematics is its science programme. History: 2025/26 Table of Fees (£34,000) and 2024/25 Table of Fees (£27,192).",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 34000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -92,6 +96,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. Covers registration, exams and Students' Union membership; no separate compulsory fees.",
       "notes": "Overseas fee for 2026/27 new entrants from LSE's Table of Fees 2026/27; fixed at the year-of-entry level for the whole programme. No separate compulsory fees. History: 2025/26 Table of Fees (£34,000) and 2024/25 Table of Fees (£28,176).",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 34000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -111,6 +116,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students, the same as for UK students. No separate compulsory fees.",
       "notes": "Full-time overseas fee for 2026/27 from LSE's Table of Fees 2026/27 (same as the Home fee). One-year programme; LSE says fees normally rise each year. No separate compulsory fees. History: 2025/26 (£38,000) and 2024/25 (£36,168) Tables of Fees.",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 38000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -130,6 +136,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students, the same as for UK students. Includes the compulsory international study trip. No separate compulsory fees.",
       "notes": "Full-time overseas fee for 2026/27 from LSE's Table of Fees 2026/27 (same as the Home fee); includes the compulsory international study trip. One-year programme; LSE says fees normally rise each year. No separate compulsory fees. History: 2025/26 (£41,000) and 2024/25 (£38,472) Tables of Fees.",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 41000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -149,6 +156,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students. The Financial Statistics streams cost more. No separate compulsory fees.",
       "notes": "Full-time overseas fee for 2026/27 from LSE's Table of Fees 2026/27 (Home fee £18,300). Financial Statistics streams cost more (£39,900). One-year programme; LSE says fees normally rise each year. No separate compulsory fees. History: 2025/26 (£28,900, 'all streams except Financial Statistics') and 2024/25 (£27,480) Tables of Fees.",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 28900, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -168,6 +176,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students, the same as for UK students. No separate compulsory fees.",
       "notes": "Full-time overseas fee for the one-year MSc Economics for 2026/27 from LSE's Table of Fees 2026/27 (same as the Home fee; the two-year MSc Economics is listed separately at £39,900 + £43,100). LSE says fees normally rise each year. No separate compulsory fees. History: 2025/26 (£39,000) and 2024/25 (£36,480) Tables of Fees.",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 39000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -187,6 +196,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. Covers registration, exams and Students' Union membership; no separate compulsory fees.",
       "notes": "Overseas fee for 2026/27 new entrants from LSE's Table of Fees 2026/27 ('LLB in Laws' row; Home £9,790); fixed at the year-of-entry level for the whole programme. No separate compulsory fees. History: 2025/26 Table of Fees (£34,000) and 2024/25 Table of Fees (£28,176).",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 34000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
@@ -206,6 +216,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Full-time tuition for the one-year programme for international students. No separate compulsory fees.",
       "notes": "Full-time overseas fee for 2026/27 from LSE's Table of Fees 2026/27 ('Master of Laws' row; Home £24,500; part-time £19,950 a year). One-year programme; LSE says fees normally rise each year. No separate compulsory fees. History: 2025/26 (£38,000) and 2024/25 (£36,168) Tables of Fees, where the row is labelled 'LLM'.",
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 38000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },

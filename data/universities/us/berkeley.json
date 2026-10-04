@@ -19,6 +19,7 @@
     "sourceUrl": "https://financialaid.berkeley.edu/cost-of-attendance/",
     "lastVerified": "2026-09-23",
     "sourceType": "official",
+    "summary": "Berkeley's own budget for a campus residence hall over a 9-month year: housing, meal plan, transport, books and personal costs. Excludes tuition, fees and health insurance.",
     "notes": "2026-27 undergraduate student budget, living in a campus residence hall, 9 months. Yearly: housing $16,640; food $9,388 (meal plan $7,000 + additional food $2,388); transportation $754; personal $4,612 (books, course materials, supplies and equipment $1,342 + miscellaneous and personal $3,270). Excludes tuition, fees and health insurance (SHIP)."
   },
   "programmes": [
@@ -39,6 +40,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international undergraduates, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
       "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
       "feeHistory": [
         {
@@ -76,6 +78,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international undergraduates, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
       "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
       "feeHistory": [
         {
@@ -113,6 +116,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international undergraduates, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
       "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
       "feeHistory": [
         {
@@ -150,6 +154,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international undergraduates, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
       "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
       "feeHistory": [
         {
@@ -187,6 +192,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international undergraduates, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
       "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived.",
       "feeHistory": [
         {
@@ -224,6 +230,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international graduate students, plus campus fees and a one-off document fee. Health insurance not included. Programme length shown is typical.",
       "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable). Duration is typical.",
       "feeHistory": [
         {
@@ -261,6 +268,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international graduate students, plus campus fees and a one-off document fee. Health insurance not included. Programme length shown is typical.",
       "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable). Duration is typical.",
       "feeHistory": [
         {
@@ -298,6 +306,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual MBA tuition for international students, plus campus fees and a one-off document fee. Health insurance not included.",
       "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable).",
       "feeHistory": [
         {
@@ -335,6 +344,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international graduate students, plus campus fees and a one-off document fee. Health insurance not included. Programme length shown is typical.",
       "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable). Duration is typical.",
       "feeHistory": [
         {
@@ -372,6 +382,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international graduate students, plus campus fees and a one-off document fee. Health insurance not included. Programme length shown is typical.",
       "notes": "Nonresident graduate rate: tuition + Nonresident Supplemental Tuition + Professional Degree Supplemental Tuition, per semester x 2. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance excluded (waivable). Duration is typical.",
       "feeHistory": [
         {
@@ -409,6 +420,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual law school tuition for international students, plus campus fees. Unlike undergraduate tuition, it is not fixed and can rise each year. Health insurance not included.",
       "notes": "Nonresident Juris Doctor (Law JD) rate: tuition $6,861 + Nonresident Supplemental Tuition $6,122.50 + Professional Degree Supplemental Tuition $27,285 per semester x 2 = $80,537 (2026-27 fee schedule). Other fees = Student Services, Berkeley Campus, Transit, Law Instructional Materials ($15) and Instructional Resilience & Enhancement fees per semester x 2; one-off = Document Management Fee - Law. Health insurance ($4,103/semester) excluded because it can be waived. JD is graduate-entry (3 years); the PDST is not covered by the Tuition Stability Plan, so fees are not fixed. 2024 and 2025 from the Registrar's 2024-25 and 2025-26 fee schedule PDFs (same components).",
       "feeHistory": [
         {

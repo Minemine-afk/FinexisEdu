@@ -19,6 +19,7 @@
     "sourceUrl": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/livingcosts/",
     "lastVerified": "2026-09-30",
     "sourceType": "official",
+    "summary": "UCD's own median monthly estimate of rent, bills, food, local travel and personal costs, for 9 months. Excludes residence permit, health insurance, flights and set-up costs.",
     "notes": "UCD Global 'Estimated Monthly Living Costs (Per Student)', median column, last updated April 2026: accommodation EUR 1,200 + utilities EUR 135 = housing; food EUR 490; local travel (Leap Card) EUR 75; personal = books and copying EUR 120 + clothing and hygiene EUR 150 + internet and mobile EUR 45 + personal/social EUR 120 + miscellaneous EUR 110. UCD's median total is EUR 2,445 a month (range EUR 1,735-4,035). Excludes residence permit, health insurance, flights and one-off set-up costs. www.ucd.ie returns 403 to the scraper's user agent; read with a browser user agent."
   },
   "programmes": [
@@ -39,6 +40,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international (non-EU) students, fixed for the whole degree at your entry-year rate. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
       "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (the table embedded in ucd.ie/students/fees/noneucoursefees/internationalnon-euundergraduatefees202627/). Published fees include the Student Centre Levy; the EUR 5 AMLE (students' union) levy is charged on top. UCD states that a student who starts a multi-year programme on a non-EU rate keeps that fee for the programme, so the fee is cohort-locked.",
       "feeHistory": [
         {
@@ -72,6 +74,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international (non-EU) students, fixed at your entry-year rate. 3 years (optional internship year). Includes the Student Centre levy; EUR 5 union levy extra.",
       "notes": "UCD Registry non-EU undergraduate fee table for 2026/27. 3-year degree (optional 4th year with internship). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
       "feeHistory": [
         {
@@ -105,6 +108,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international (non-EU) students, fixed for the whole degree at your entry-year rate. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
       "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Engineering common entry, College of Engineering and Architecture). 4-year BE (Hons); a 3-year BSc exit exists. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
       "feeHistory": [
         {
@@ -138,6 +142,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international (non-EU) students, fixed for the whole degree at your entry-year rate. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
       "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Science common entry, College of Science). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
       "feeHistory": [
         {
@@ -171,6 +176,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international (non-EU) students, fixed for the whole degree at your entry-year rate. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
       "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (BA Humanities, School of Languages, Cultures and Linguistics row; all DN530 rows are EUR 22,600). 3-year degree. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
       "feeHistory": [
         {
@@ -204,6 +210,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
       "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (T150, full-time, 1 year; the table embedded in ucd.ie/students/fees/noneucoursefees/non-eugraduatetaughtfees202627/). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top.",
       "feeHistory": [
         {
@@ -237,6 +244,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
       "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (B429, full-time, 1 year, UCD Smurfit Graduate Business School). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top.",
       "feeHistory": [
         {
@@ -270,6 +278,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for the 2-year master's for international (non-EU) students, fixed at your entry-year rate. Includes the Student Centre levy; a EUR 5 union levy is extra.",
       "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (T164, full-time, quoted per year for the 2-year ME). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme.",
       "feeHistory": [
         {
@@ -303,6 +312,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
       "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (F012, full-time, 1 year). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top.",
       "feeHistory": [
         {
@@ -336,6 +346,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
       "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (Z251, full-time, 1 year, School of English, Drama and Film). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top.",
       "feeHistory": [
         {
@@ -369,6 +380,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed at your entry-year rate for the 4-year law degree. Includes the Student Centre levy; EUR 5 union levy extra. Taught in English.",
       "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Law DN600 - LWS6, School of Law; the Law-with pathways are the same price). 4-year BCL. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme. Taught in English.",
       "feeHistory": [
         {
@@ -402,6 +414,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed at your entry-year rate for the 6-year degree. A health-screening charge applies on registration. Recognised by the Singapore Medical Council.",
       "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Medicine - MDS2, School of Medicine). 6-year undergraduate-entry degree. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top; a healthcare-screening charge applies on registration. Non-EU fee is fixed at the entry-year rate for the programme. Taught in English. University College Dublin has been on the Singapore Medical Council's list of recognised overseas medical schools since 1 January 2025 (MOH, 'Nine more overseas medical schools recognised').",
       "feeHistory": [
         {
@@ -435,6 +448,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed at your entry-year rate for the 4-year graduate-entry degree. Recognised by the Singapore Medical Council.",
       "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 (Medicine (Graduate Entry) DN401 - MDS9, School of Medicine; listed with the undergraduate degrees although entry requires a prior degree, so recorded here at master level). 4-year graduate-entry degree. Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme. Taught in English. University College Dublin has been on the Singapore Medical Council's list of recognised overseas medical schools since 1 January 2025 (MOH, 'Nine more overseas medical schools recognised').",
       "feeHistory": [
         {
@@ -468,6 +482,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": true,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students. Includes the Student Centre levy; a EUR 5 students' union levy is extra. Taught in English.",
       "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 (LLM General FT(B294), School of Law, full-time 1 year; the specialised LLMs are the same price). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Taught in English.",
       "feeHistory": [
         {

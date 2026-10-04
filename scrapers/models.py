@@ -55,6 +55,7 @@ class Programme(_Model):
     sourceType: Literal["official", "secondary"] = "official"
     cohortLocked: bool = False
     internationalEligible: bool = True
+    summary: str | None = Field(default=None, max_length=280)
     notes: str | None = None
     feeHistory: list[FeeHistoryEntry] = Field(default_factory=list)
 
@@ -75,6 +76,7 @@ class LivingCosts(_Model):
     sourceUrl: HttpUrl
     lastVerified: date
     sourceType: Literal["official", "secondary"] = "official"
+    summary: str | None = Field(default=None, max_length=280)
     notes: str | None = None
 
 

@@ -19,6 +19,7 @@
     "sourceUrl": "https://www.studentlife.utoronto.ca/task/living-costs-in-toronto/",
     "lastVerified": "2026-09-23",
     "sourceType": "official",
+    "summary": "The university's own monthly estimate for a student renting off campus, over an 8-month academic year: rent and utilities, food, transport, phone, clothing, entertainment and books.",
     "notes": "U of T Student Life 'Living costs in Toronto' 2026 monthly estimates for a student renting off campus (not specific to international students); ranges taken at their midpoint. Housing = rent $1,220-$2,700 (1,960) + hydro $65+ (65) + internet $60-$115 (87.50) + tenant's insurance $30-$50 (40). Food & grocery $350+ (350). Transportation $0-$150 (75). Personal = phone $50-$100 (75) + clothing & shoes $50-$100 (75) + entertainment & other $200 + books & supplies $550/semester (2 semesters over 8 months = 137.50). Months = 8-month academic year (Sep-Apr, two semesters; the page gives monthly figures only). One-off $550 emergency fund excluded."
   },
   "programmes": [
@@ -39,6 +40,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students. Not fixed: fees also rise for continuing students. Compulsory incidental fees included; health insurance is extra.",
       "notes": "2026-27 full-time international tuition; compulsory = incidental fees C$2,266.83 (UHIP C$948 excluded). Not fixed: fee reports raise engineering international fees for continuing students too. 2024 from 2024-25 Tuition Fee Report (Entering 2024).",
       "feeHistory": [
         {
@@ -73,6 +75,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students in the 3-year graduate-entry law degree. Rises each year. Compulsory fees included; health insurance is extra.",
       "notes": "2026-27 international JD program fee C$72,790 (charged per academic year, not per course) from the U of T Tuition Explorer fee schedule; compulsory = Year 1 incidental and system access fees C$2,165.31 (C$2,115.31 in Years 2-3). UHIP (C$948) excluded. JD is graduate-entry (3 years). International fee rises yearly (2026-27 Tuition Fee Report: C$76,430 for 2027-28). 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the 2024-25 Tuition Fee Report (Table D, international JD C$66,020; fees not found).",
       "feeHistory": [
         {
@@ -107,6 +110,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students in the 4-year graduate-entry Doctor of Medicine; international places are limited. Rises each year. Compulsory fees included; health insurance is extra.",
       "notes": "2026-27 international Doctor of Medicine tuition C$100,270 from the Planning & Budget 2026-27 Tuition Fee Report (international fee schedule; C$103,280 approved for 2027-28). Compulsory = St. George campus incidental + ancillary fees C$2,535.05 for 2026-27 from the MD Program 'Current Fees' page (Mississauga Academy differs); UHIP excluded. MD is graduate-entry (4 years); international places are limited. 2024 and 2025 from the 2025-26 Tuition Fee Report (C$94,510 for 2024-25, C$97,350 for 2025-26); fees for those years not found.",
       "feeHistory": [
         {
@@ -140,6 +144,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students; Years 2 to 4 are charged the same rate, but fees rise each year. Compulsory fees included (they vary slightly by college); health insurance is extra.",
       "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Years 2-4 (Honours BA) are charged the same C$66,110 program fee in 2026-27. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
       "feeHistory": [
         {
@@ -175,6 +180,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "First-year tuition only. Rotman Commerce charges a higher rate from Year 2, so the four-year total will be above this estimate. Compulsory fees included; health insurance is extra.",
       "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Students enter through the Commerce admission stream at the Year 1 fee; Rotman Commerce (Commerce Specialist) Years 2-4 are deregulated at a higher program fee: C$75,150 in 2026-27 (C$72,260 in 2025-26, C$70,160 in 2024-25), so the total over four years is higher than four times this figure. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
       "feeHistory": [
         {
@@ -210,6 +216,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "First-year tuition only. Computer Science charges a higher rate from Year 2, so the four-year total will be above this estimate. Compulsory fees included; health insurance is extra.",
       "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Students enter through the Computer Science admission stream at the Year 1 fee; the Computer Science major/specialist Years 2-4 are deregulated at a higher program fee: C$69,030 in 2026-27 (C$65,740 in 2025-26, C$63,830 in 2024-25), so the total over four years is higher than four times this figure. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
       "feeHistory": [
         {
@@ -245,6 +252,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for international students; Years 2 to 4 are charged the same rate, but fees rise each year. Compulsory fees included (they vary slightly by college); health insurance is extra.",
       "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Years 2-4 (Honours BSc) are charged the same C$66,110 program fee in 2026-27. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
       "feeHistory": [
         {
@@ -280,6 +288,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for this 8-month master's. Compulsory fees included; health insurance is extra.",
       "notes": "2026-27 international full-time Fall-Winter program fee C$33,460 for St. George doctoral-stream master's programs (SGS fee table 'MA, MSc'), which applies to the MA in Economics (an 8-month, two-session coursework programme; only Financial Economics has a separate fee), from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,292.39. UHIP (C$948) excluded. Not fixed: SGS international fees rise yearly. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 2).",
       "feeHistory": [
         {
@@ -315,6 +324,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "First-year tuition for the 2-year MBA; the second year is charged at that year's higher rate. Compulsory university fees included; the business school's own fees and health insurance are extra.",
       "notes": "2026-27 international program fee C$71,670 per academic year for the 2-year Full-Time MBA (students admitted 2026) from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,392.69 (Rotman's own ancillary fees, about C$650, are not in the schedule and are excluded). UHIP (C$948) excluded. Not fixed: Rotman estimates total international academic fees of C$144,770 for the programme, i.e. the second year is billed at that year's higher rate. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 20).",
       "feeHistory": [
         {
@@ -350,6 +360,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Programme total for this 16-month master's spread over 1.33 years, plus a one-off C$2,200 pre-programme fee. Compulsory fees included; health insurance is extra.",
       "notes": "16-month programme (Sep-Dec of the second year). Total programme fee at 2026-27 rates = Fall-Winter full-time program fee C$50,070 (SGS fee regulations: students who pay the full-time Fall-Winter fee pay nothing for the following Summer session, and the MScAC page confirms no payment in semester 3) + final Fall term fee C$25,035 (the Tuition Explorer 'Fall or Winter' schedule, half the Fall-Winter fee) = C$75,105, divided by 1.33 years. Compulsory = Fall-Winter incidental and system access fees C$2,292.39 (C$1,177.09 for the final Fall term alone). One-off = C$2,200 mandatory pre-program activities fee quoted on the MScAC 'Apply' page (read via r.jina.ai on 2026-10-01; that page estimates about C$90,050 all-in for the September 2026 intake). UHIP (C$948) excluded. Not fixed. 2025 = 2025-26 Fall-Winter C$47,690 + Fall-only C$23,845 over 1.33 years (Tuition Explorer); 2024 = 2024-25 C$45,420 + C$22,710 over 1.33 years (archived 2024-25 SGS international fee schedule PDF, Table 55).",
       "feeHistory": [
         {
@@ -385,6 +396,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for this 12-month programme. Compulsory fees included; health insurance is extra.",
       "notes": "2026-27 international full-time MEng program fee C$72,850 (12-month programme; the full-time Fall-Winter fee also covers the Summer session under SGS fee regulations) from the U of T Tuition Explorer, matching the Engineering Graduate Studies 'Money Matters' total of C$76,090.39 including incidental fees and UHIP; compulsory = incidental and system access fees C$2,292.39. UHIP (C$948) excluded. Not fixed: SGS international fees rise yearly. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 23).",
       "feeHistory": [
         {
@@ -420,6 +432,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Tuition for international students for this 12-month master's. Compulsory fees included; health insurance is extra.",
       "notes": "2026-27 international full-time Fall-Winter program fee C$33,460 for St. George doctoral-stream master's programs (SGS fee table 'MA, MSc'), which applies to the 12-month MSc in Physics (the full-time Fall-Winter fee also covers the Summer session under SGS fee regulations), from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,292.39. UHIP (C$948) excluded. Not fixed: SGS international fees rise yearly. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 2).",
       "feeHistory": [
         {

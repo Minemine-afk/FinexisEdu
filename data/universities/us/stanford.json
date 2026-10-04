@@ -19,6 +19,7 @@
     "sourceUrl": "https://financialaid.stanford.edu/undergrad/budget/",
     "lastVerified": "2026-09-23",
     "sourceType": "official",
+    "summary": "Stanford's own budget for residence-hall housing and food, books and personal costs over a 9-month year. Excludes travel, tuition, fees and health insurance.",
     "notes": "2026-2027 standard undergraduate student budget (residence hall, Autumn/Winter/Spring quarters = 9 months). Yearly: housing and food $22,944, published as one figure so stored under housing with food 0; personal $4,260 (books and supplies allowance $855 + personal expenses allowance $3,405). Transport 0: travel is listed as 'Varies'. Excludes tuition, the student fees allowance and health insurance."
   },
   "programmes": [
@@ -39,6 +40,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for three quarters, same for all majors, plus the campus health fee and a one-off document fee. Student activities fee not included.",
       "notes": "Full-time tuition $22,577 per quarter x 3; same for all majors. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee not included.",
       "feeHistory": [
         {
@@ -75,6 +77,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for three quarters, same for all majors, plus the campus health fee and a one-off document fee. Student activities fee not included.",
       "notes": "Full-time tuition $22,577 per quarter x 3; same for all majors. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee not included.",
       "feeHistory": [
         {
@@ -111,6 +114,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for three quarters, same for all majors, plus the campus health fee and a one-off document fee. Student activities fee not included.",
       "notes": "Full-time tuition $22,577 per quarter x 3; same for all majors. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee not included.",
       "feeHistory": [
         {
@@ -147,6 +151,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual tuition for three quarters, same for all majors, plus the campus health fee and a one-off document fee. Student activities fee not included.",
       "notes": "Full-time tuition $22,577 per quarter x 3; same for all majors. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee not included.",
       "feeHistory": [
         {
@@ -183,6 +188,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual Graduate School of Engineering tuition for three quarters, plus the campus health fee and a one-off document fee. Programme length shown is typical.",
       "notes": "Graduate School of Engineering rate (11-18 units) $23,239 per quarter x 3. Other fees = Campus Health Service Fee; one-off = Document Fee. Programme length is typical.",
       "feeHistory": [
         {
@@ -219,6 +225,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual Graduate School of Engineering tuition for three quarters, plus the campus health fee and a one-off document fee. Programme length shown is typical.",
       "notes": "Graduate School of Engineering rate (11-18 units) $23,239 per quarter x 3. Other fees = Campus Health Service Fee; one-off = Document Fee. Programme length is typical.",
       "feeHistory": [
         {
@@ -255,6 +262,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual law school tuition for three quarters, plus the campus health fee and a one-off document fee. Student activities fee and health insurance not included.",
       "notes": "Stanford Law School tuition $26,593 per quarter x 3 quarters (Autumn, Winter, Spring) = $79,779 for 2026-27. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee and Cardinal Care insurance (waivable) not included. JD is graduate-entry (3 years). 2024 = $24,825 x 3 and 2025 = $25,818 x 3 from those years' graduate and professional tuition pages.",
       "feeHistory": [
         {
@@ -291,6 +299,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Average yearly tuition: MD students pay 12 quarters of tuition, spread over four years. Any extra quarters cost a lower rate, not included. Health insurance not included.",
       "notes": "School of Medicine MD Program tuition $24,034 per quarter for 2026-27. MD students owe 12 quarters of full MD tuition (MD Student Handbook 7.2; tuition is payable Autumn, Winter, Spring and Summer quarters), so the four-year programme is shown as 12 x $24,034 / 4 = $72,102 per year; quarters beyond the 12th are charged the reduced research rate ($3,993 per quarter), not included. Other fees = Campus Health Service Fee (3 quarters); one-off = Document Fee. Disability insurance ($40), ASSU fee and Cardinal Care (waivable) not included. 2024 = $22,435 x 3 and 2025 = $23,221 x 3 from those years' graduate and professional tuition pages.",
       "feeHistory": [
         {
@@ -327,6 +336,7 @@
       "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "First-year MBA tuition plus the campus health fee and a one-off document fee; second-year tuition is lower. Health insurance and living costs not included.",
       "notes": "GSB 'Cost of Attendance Breakdown: First-Year MBA 2026-2027' tuition $89,187 = GSB MBA first-year rate $29,729 per quarter x 3 (Autumn, Winter, Spring) on the 2026-27 graduate and professional tuition page; second-year rate is $28,585 per quarter ($85,755), not averaged in. Other fees = Campus Health Service Fee ($843, also on the GSB page); one-off = Document Fee. Cardinal Care insurance ($8,808, waivable), living and housing allowances not included. 2024 = $27,485 x 3 and 2025 = $28,585 x 3 (first-year rates) from those years' graduate and professional tuition pages.",
       "feeHistory": [
         {
@@ -363,6 +373,7 @@
       "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual graduate tuition for three quarters, plus the campus health fee and a one-off document fee. The degree usually takes 5 to 6 quarters, shown as 1.5 years.",
       "notes": "Standard Graduate School (Master's / Doctorate) rate for Humanities & Sciences departments, 11-18 units $21,815 per quarter x 3 for 2026-27. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee and Cardinal Care (waivable) not included. The Statistics department admits terminal MS students; the 45-unit degree takes 5-6 quarters on average (statistics.stanford.edu), shown as 1.5 years. 2024 = $20,365 x 3 and 2025 = $21,180 x 3 from those years' graduate and professional tuition pages.",
       "feeHistory": [
         {
@@ -399,6 +410,7 @@
       "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
+      "summary": "Annual graduate tuition for three quarters of this 2-year master's, plus the campus health fee and a one-off document fee. Health insurance not included.",
       "notes": "Standard Graduate School (Master's / Doctorate) rate, 11-18 units $21,815 per quarter x 3 for 2026-27; FSI's MIP funding page (fsi.stanford.edu/masters-degree/admissions/funding-financial-aid) points to this standard graduate tuition table. Two-year terminal MA admitting students directly (Freeman Spogli Institute, School of Humanities & Sciences degree). Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee and Cardinal Care (waivable) not included. 2024 = $20,365 x 3 and 2025 = $21,180 x 3 from those years' graduate and professional tuition pages.",
       "feeHistory": [
         {
