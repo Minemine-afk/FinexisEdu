@@ -38,9 +38,10 @@ every scraped change goes through a pull request:
 
 ## Coverage (checked 30 Sep 2026)
 
-50 universities, 557 programmes: five universities in each of the 10 countries,
-across seven fields (engineering, computing, business, sciences, arts and
-humanities, law, medicine). Law and medicine cover the universities on the
+51 universities, 643 programmes: five universities in each of the 10 countries,
+plus SIM Global Education in Singapore, across nine fields (engineering,
+computing, business, sciences, arts and humanities, law, medicine, psychology,
+nursing). Law and medicine cover the universities on the
 Singapore Institute of Legal Education's approved list and the Singapore
 Medical Council's recognised list respectively, plus the local schools;
 undergraduate-entry degrees (LLB, MBBS) sit under Bachelor's and graduate-entry
@@ -53,7 +54,7 @@ published fee tables for those years.
 
 | Country | Universities | Scraped automatically |
 |---|---|---|
-| Singapore | NUS, NTU, SMU, SIT, SUSS | NUS, NTU, SIT; SMU and SUSS are manual |
+| Singapore | NUS, NTU, SMU, SIT, SUSS, SIM (9 partner universities) | NUS, NTU, SIT; SMU, SUSS and SIM are manual |
 | Australia | ANU, Melbourne, Monash, UNSW, Sydney | ANU, UNSW, Sydney; Melbourne and Monash are manual (Cloudflare) |
 | UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL | Cambridge, Imperial, LSE, UCL; Oxford is manual |
 | US | Berkeley, CMU, Harvard, MIT, Stanford | All |
@@ -77,6 +78,13 @@ automated access (SMU, SUSS, Oxford, Melbourne, Monash, Otago, UCL's central
 site, some NUS programme sites) or that show a fee spread across rows. Figures
 from those sites carry an "Unofficial source" badge where the university's own
 page could not be read.
+
+SIM Global Education teaches 86 bachelor's and master's degrees awarded by
+University of London, University at Buffalo, Birmingham, Wollongong, RMIT,
+Stirling, Cardiff, Sydney and Alberta. Its fees appear only on each programme
+page (GST-inclusive, Singaporeans & PRs vs international), so every page is a
+manual source; 2024 to 2026 figures come from archived copies of those pages,
+and programmes with no archived copy say so in their notes.
 
 A few earlier-year figures are an official per-credit or per-course rate
 multiplied by a standard full-time load (UNSW, UBC, Auckland), the same way the

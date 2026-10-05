@@ -548,7 +548,9 @@ export default function Calculator({
                   className="flex items-baseline justify-between gap-2"
                 >
                   <span className="min-w-0 truncate text-muted">
-                    {s.university.name}
+                    {partnerOf(s.university, s.programme)
+                      ? `${partnerOf(s.university, s.programme)!.name} · ${s.university.name}`
+                      : s.university.name}
                   </span>
                   <span className="shrink-0 tabular-nums">
                     <InfoTip term="universityIncrease" align="right">
