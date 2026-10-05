@@ -66,6 +66,8 @@ export const Programme = z.object({
   level: Level,
   field: Field,
   name: z.string().min(1),
+  /** Majors (or major combinations) offered within this one degree at the same fee. */
+  majors: z.array(z.string().min(1)).optional(),
   durationYears: z.number().positive().max(8),
   feeYear: z.number().int().min(2015).max(2100),
   fees: z.object({

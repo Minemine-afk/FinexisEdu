@@ -1740,6 +1740,7 @@
       "level": "bachelor",
       "field": "computing",
       "name": "Bachelor of Computer Science (Double Major)",
+      "majors": ["Artificial Intelligence and Big Data + Cyber Security", "Digital Systems Security + Artificial Intelligence and Big Data", "Digital Systems Security + Cyber Security"],
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
@@ -1929,6 +1930,7 @@
       "level": "bachelor",
       "field": "business",
       "name": "Bachelor of Business",
+      "majors": ["Business and Technology", "Economics", "Finance", "Global Business", "Logistics and Supply Chain", "Management and Change", "Marketing"],
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {

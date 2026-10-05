@@ -60,6 +60,7 @@ class Programme(_Model):
     level: LevelT
     field: FieldT
     name: str = Field(min_length=1)
+    majors: list[str] | None = None  # majors offered within this one degree at the same fee
     durationYears: float = Field(gt=0, le=8)
     feeYear: int = Field(ge=2015, le=2100)
     fees: Fees
