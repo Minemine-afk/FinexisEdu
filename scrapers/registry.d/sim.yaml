@@ -1,0 +1,350 @@
+# SIM Global Education (degrees awarded by partner universities). Fees are published
+# only on each programme page, GST-inclusive, in several layouts (per module, per
+# credit point, per year or as a programme total) and labelled with the intake, so
+# every page is listed for a manual check. Programme index:
+# https://www.sim.edu.sg/sitemap.xml (paths under /degrees-diplomas/programmes/programme-listing/).
+sources:
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-applied-science-aviation-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-economics
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-international-trade
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-business-management
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business-information-systems
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-double-major
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-construction-management-honours-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-graphic-design-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-post-registration
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-professional-communication
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-and-management
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-communications-and-year-in-industry-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-communications-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-with-year-in-industry-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-machine-learning-and-artificial-intelligence
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-physical-computing-internet-of-things
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-user-experience
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-virtual-reality
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-web-and-mobile-development
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-data-science-and-business-analytics
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-finance
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-management
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-politics
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-finance
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-accounting-and-finance
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-with-security-and-forensics-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-business-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-relations
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-management-and-digital-innovation
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-innovation-and-business-transformation
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-international-business-and-strategy
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-marketing
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-energy-efficient-and-sustainable-building-top-up
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-financial-management
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-ai-and-statistical-analytics
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-professional-accountancy
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-sustainable-supply-chain-management
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/uofa/bachelor-of-commerce
+    manual: true
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/uofa/master-of-business-administration
+    manual: true

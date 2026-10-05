@@ -1,3 +1,5 @@
+import type { Partner, Programme, University } from "./schema";
+
 // en-SG writes SGD as a bare "$"; spell it S$ so it can't be mistaken for USD.
 function withSgdPrefix(formatted: string, currency: string): string {
   return currency === "SGD" ? formatted.replace("$", "S$") : formatted;
@@ -40,6 +42,8 @@ export const FIELD_LABELS = {
   arts: "Arts & Humanities",
   law: "Law",
   medicine: "Medicine",
+  psychology: "Psychology",
+  nursing: "Nursing",
 } as const;
 
 export const RESIDENCY_LABELS = {
@@ -47,3 +51,14 @@ export const RESIDENCY_LABELS = {
   pr: "Singapore PR",
   international: "International student",
 } as const;
+
+/** The awarding partner of a programme taught by an institution such as SIM. */
+export function partnerOf(u: University, p: Programme): Partner | undefined {
+  return p.partner ? u.partners?.find((x) => x.id === p.partner) : undefined;
+}
+
+/** The programme name, led by its awarding partner where there is one. */
+export function programmeLabel(u: University, p: Programme): string {
+  const partner = partnerOf(u, p);
+  return partner ? `${partner.name} · ${p.name}` : p.name;
+}

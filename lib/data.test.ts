@@ -38,6 +38,21 @@ describe("committed data", () => {
     }
   });
 
+  it("names a known partner on every programme of a university with partners", () => {
+    for (const u of universities) {
+      const ids = new Set((u.partners ?? []).map((p) => p.id));
+      expect(ids.size, u.id).toBe((u.partners ?? []).length);
+      for (const p of u.programmes) {
+        const id = `${u.id}: ${p.name}`;
+        if (u.partners) expect(ids.has(p.partner ?? ""), id).toBe(true);
+        else expect(p.partner, id).toBeUndefined();
+      }
+      for (const partner of u.partners ?? []) {
+        expect(u.programmes.some((p) => p.partner === partner.id), `${u.id}: ${partner.id} has no programmes`).toBe(true);
+      }
+    }
+  });
+
   it("has unique university ids", () => {
     const ids = universities.map((u) => u.id);
     expect(new Set(ids).size).toBe(ids.length);
