@@ -41,18 +41,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. Fees are reviewed each year, so later years may cost more.",
-      "notes": "2026 indicative first-year international fee (48 UOC). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Engineering per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (48 UOC). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Engineering per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 54720,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 58560,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -75,18 +79,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. Fees are reviewed each year, so later years may cost more.",
-      "notes": "2026 indicative first-year international fee; 96 UOC. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate COMP per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee; 96 UOC. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate COMP per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 54240,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 58080,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -109,18 +117,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The 1.5-year degree costs A$96,000 in total, so the remaining half year costs a little more.",
-      "notes": "2026 indicative first-year international fee (total to complete A$96,000). 72 UOC = 1.5 full-time years; UNSW lists 1.7 calendar years. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Business School per-UOC rate x 48 UOC (UNSW fee archive).",
+      "notes": "2026 indicative first-year international fee (total to complete A$96,000). 72 UOC = 1.5 full-time years; UNSW lists 1.7 calendar years. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Business School per-UOC rate x 48 UOC (UNSW fee archive). Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 56160,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 59280,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -143,18 +155,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual law-subject tuition for international students, plus the A$372 student services fee. Law is only offered as a 5-year double degree; Year 1 costs less (A$52,500) as it is mostly Arts.",
-      "notes": "UNSW offers the LLB only as a double degree (Arts/Law 4782 is 240 UOC over 5 years, CRICOS 005947G). Figure = 2026 international undergraduate LAWS per-UOC rate A$1,185 x 48 UOC (1.0 EFTSL), i.e. the law fee band; UNSW's own 2026 indicative first-year fee for Arts/Law is A$52,500 because year 1 is mostly Arts courses. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate LAWS per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "UNSW offers the LLB only as a double degree (Arts/Law 4782 is 240 UOC over 5 years, CRICOS 005947G). Figure = 2026 international undergraduate LAWS per-UOC rate A$1,185 x 48 UOC (1.0 EFTSL), i.e. the law fee band; UNSW's own 2026 indicative first-year fee for Arts/Law is A$52,500 because year 1 is mostly Arts courses. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate LAWS per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 51360,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53760,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -177,18 +193,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$193,500 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 9150, CRICOS 068850G; total to complete A$193,500); 3 years full time. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate JURD per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 9150, CRICOS 068850G; total to complete A$193,500); 3 years full time. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate JURD per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 55200,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 57600,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -211,18 +231,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$647,000 in total, so later years cost more. Undergraduate entry, 6 years.",
-      "notes": "2026 indicative first-year international fee (program 3805, CRICOS 077423G; undergraduate entry, 6 years; total to complete A$647,000, so later years cost more). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate MFAC (Medicine) per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 3805, CRICOS 077423G; undergraduate entry, 6 years; total to complete A$647,000, so later years cost more). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate MFAC (Medicine) per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 87360,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 95280,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -245,18 +269,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$192,500 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 3778, CRICOS 015784F; 144 UOC, 3 years; total to complete A$192,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate COMP per-UOC rate (A$1,140 / A$1,220) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 3778, CRICOS 015784F; 144 UOC, 3 years; total to complete A$192,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate COMP per-UOC rate (A$1,140 / A$1,220) x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 54720,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 58560,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -279,18 +307,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$180,500 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 3502, CRICOS 001919M; 144 UOC, 3 years; total to complete A$180,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Business School (COMM/ACCT/ECON etc.) per-UOC rate (A$1,070 / A$1,125) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 3502, CRICOS 001919M; 144 UOC, 3 years; total to complete A$180,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Business School (COMM/ACCT/ECON etc.) per-UOC rate (A$1,070 / A$1,125) x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 51360,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 54000,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -313,18 +345,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$194,000 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 3970, CRICOS 015780K; 144 UOC, 3 years; total to complete A$194,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Faculty of Science (SCIF/MATH/PHYS/CHEM/BIOS) per-UOC rate (A$1,140 / A$1,220) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 3970, CRICOS 015780K; 144 UOC, 3 years; total to complete A$194,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate Faculty of Science (SCIF/MATH/PHYS/CHEM/BIOS) per-UOC rate (A$1,140 / A$1,220) x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 54720,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 58560,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -347,18 +383,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$160,000 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 3409, CRICOS 001916C; 144 UOC, 3 years; total to complete A$160,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate ARTS per-UOC rate (A$880 / A$940) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 3409, CRICOS 001916C; 144 UOC, 3 years; total to complete A$160,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate ARTS per-UOC rate (A$880 / A$940) x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 42240,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 45120,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -381,18 +421,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$127,000 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 8621, CRICOS 067604G; 96 UOC, 2 years; total to complete A$127,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Engineering (ENGG/CVEN/ELEC/MECH) per-UOC rate (A$1,130 / A$1,210) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 8621, CRICOS 067604G; 96 UOC, 2 years; total to complete A$127,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Engineering (ENGG/CVEN/ELEC/MECH) per-UOC rate (A$1,130 / A$1,210) x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 54240,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 58080,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -415,18 +459,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$128,000 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 8959, CRICOS 0101866; 96 UOC, 2 years; total to complete A$128,000). Faculty of Science program with MATH/DATA, COMP and ECON courses. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Faculty of Science (MATH/DATA) per-UOC rate (A$1,090 / A$1,165) x 48 UOC (UNSW fee archive); COMP courses were charged at A$1,130 / A$1,210 per UOC. Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 8959, CRICOS 0101866; 96 UOC, 2 years; total to complete A$128,000). Faculty of Science program with MATH/DATA, COMP and ECON courses. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Faculty of Science (MATH/DATA) per-UOC rate (A$1,090 / A$1,165) x 48 UOC (UNSW fee archive); COMP courses were charged at A$1,130 / A$1,210 per UOC. Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 52320,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 55920,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -449,18 +497,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$98,500 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 8233, CRICOS 083232G; 96 UOC, 2 years; total to complete A$98,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Arts & Social Sciences (ARTS/POLS/SRAP, same rate) per-UOC rate (A$870 / A$930) x 48 UOC (UNSW fee archive). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 8233, CRICOS 083232G; 96 UOC, 2 years; total to complete A$98,500). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Arts & Social Sciences (ARTS/POLS/SRAP, same rate) per-UOC rate (A$870 / A$930) x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 41760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 44640,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -483,18 +535,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$267,500 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 3632, CRICOS 088874M; 192 UOC, 4 years with embedded honours; total to complete A$267,500). UNSW's 3-year Bachelor of Psychological Science (3435) is A$58,500 first year (A$189,500 total). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate PSYC Psychology per-UOC rate (A$1,140 / A$1,220, same as the Faculty of Science rate) x 48 UOC (UNSW fee archive, International tuition fees, Undergraduate, Science). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 3632, CRICOS 088874M; 192 UOC, 4 years with embedded honours; total to complete A$267,500). UNSW's 3-year Bachelor of Psychological Science (3435) is A$58,500 first year (A$189,500 total). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate PSYC Psychology per-UOC rate (A$1,140 / A$1,220, same as the Faculty of Science rate) x 48 UOC (UNSW fee archive, International tuition fees, Undergraduate, Science). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 54720,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 58560,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
@@ -517,18 +573,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$122,000 in total, so later years cost more.",
-      "notes": "2026 indicative first-year international fee (program 8256, CRICOS 001934A; 96 UOC, 2 years; total to complete A$122,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate PSYC Psychology per-UOC rate (A$1,090 / A$1,155) x 48 UOC (UNSW fee archive, International tuition fees, Postgraduate, Science). Fees reviewed annually.",
+      "notes": "2026 indicative first-year international fee (program 8256, CRICOS 001934A; 96 UOC, 2 years; total to complete A$122,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate PSYC Psychology per-UOC rate (A$1,090 / A$1,155) x 48 UOC (UNSW fee archive, International tuition fees, Postgraduate, Science). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 52320,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 55440,
+          "annualCompulsoryFees": 364.5,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]

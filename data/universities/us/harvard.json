@@ -193,7 +193,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for this one-year master's, plus the student health and council fees. Health insurance (can be waived) not included.",
-      "notes": "SEAS CSE master of science: full-year tuition $67,504 for the one-year programme (2026-27 GSAS cost of attendance; same figure on the FAS Registrar's tuition-and-fees page). Fees = HUSHP Student Health Fee $972/term x 2 terms + $35 Harvard Griffin GSAS Student Council fee; Student Health Insurance Plan ($2,477/term, waivable) excluded. 2024 from the 2024-2025 GSAS page (SHF $796/term). No 2025 entry: the 2025-26 GSAS cost-of-attendance page has been removed (404 at /apply/ and root paths), the FAS Registrar and GSAS tuition pages show only 2026-27, and the OIRA Fact Book lists only the standard GSAS tuition ($57,328 for 2025-26), not the SEAS SM rate.",
+      "notes": "SEAS CSE master of science: full-year tuition $67,504 for the one-year programme (2026-27 GSAS cost of attendance; same figure on the FAS Registrar's tuition-and-fees page). Fees = HUSHP Student Health Fee $972/term x 2 terms + $35 Harvard Griffin GSAS Student Council fee; Student Health Insurance Plan ($2,477/term, waivable) excluded. 2024 from the 2024-2025 GSAS page (SHF $796/term). No 2025 entry: the 2025-26 GSAS cost-of-attendance page has been removed (404 at /apply/ and root paths), the FAS Registrar and GSAS tuition pages show only 2026-27, and the OIRA Fact Book lists only the standard GSAS tuition ($57,328 for 2025-26), not the SEAS SM rate. 2025 row: the 2025-26 GSAS cost-of-attendance page lived at /financial-support/cost-attendance-2025-2026 (not /apply/...); read from Common Crawl CC-MAIN-2025-47 capture 20251107181936. 'Computational Science and Engineering (CSE) and Data Science Master's Programs' table: CSE SM 'Full Year Cost' $65,536 (one-year program). Fees = HUSHP Student Health Fee $900/term x 2 + $35 Harvard Griffin GSAS Student Council fee = $1,835; SHIP ($2,154/term, waivable) excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -202,6 +202,14 @@
           "annualCompulsoryFees": 1627,
           "oneOffFees": 0,
           "sourceUrl": "https://gsas.harvard.edu/cost-attendance-2024-2025"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 65536,
+          "annualCompulsoryFees": 1835.0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://gsas.harvard.edu/financial-support/cost-attendance-2025-2026"
         }
       ]
     },
@@ -223,7 +231,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Average yearly tuition over the 1.5-year programme (a full first year plus one term), plus student health fees. Health insurance not included.",
-      "notes": "SEAS Data Science SM: $67,504 first year + $33,752 second year (one term only) = $101,256 over 1.5 years, divided by 1.5 (2026-27 GSAS cost of attendance; same figure on the FAS Registrar's tuition-and-fees page). Fees = HUSHP Student Health Fee $972/term x 2 terms + $35 Harvard Griffin GSAS Student Council fee; Student Health Insurance Plan ($2,477/term, waivable) excluded. 2024 from the 2024-2025 GSAS page (SHF $796/term). No 2025 entry: the 2025-26 GSAS cost-of-attendance page has been removed (404), the FAS Registrar and GSAS tuition pages show only 2026-27, and the OIRA Fact Book lists only the standard GSAS tuition, not the SEAS SM rate.",
+      "notes": "SEAS Data Science SM: $67,504 first year + $33,752 second year (one term only) = $101,256 over 1.5 years, divided by 1.5 (2026-27 GSAS cost of attendance; same figure on the FAS Registrar's tuition-and-fees page). Fees = HUSHP Student Health Fee $972/term x 2 terms + $35 Harvard Griffin GSAS Student Council fee; Student Health Insurance Plan ($2,477/term, waivable) excluded. 2024 from the 2024-2025 GSAS page (SHF $796/term). No 2025 entry: the 2025-26 GSAS cost-of-attendance page has been removed (404), the FAS Registrar and GSAS tuition pages show only 2026-27, and the OIRA Fact Book lists only the standard GSAS tuition, not the SEAS SM rate. 2025 row: 2025-26 GSAS cost-of-attendance page (https://gsas.harvard.edu/financial-support/cost-attendance-2025-2026, Common Crawl CC-MAIN-2025-47 capture 20251107181936): Data Science SM $65,536 (first year) + $32,768 (second year: one term only) = $98,304 over 1.5 years / 1.5 = $65,536. Fees = Student Health Fee $900/term x 2 + $35 GSAS Student Council fee = $1,835; SHIP ($2,154/term, waivable) excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -232,6 +240,14 @@
           "annualCompulsoryFees": 1627,
           "oneOffFees": 0,
           "sourceUrl": "https://gsas.harvard.edu/cost-attendance-2024-2025"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 65536,
+          "annualCompulsoryFees": 1835.0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://gsas.harvard.edu/financial-support/cost-attendance-2025-2026"
         }
       ]
     },
@@ -253,8 +269,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for the 2-year master's, plus the student health fee. Tuition rises each year. Health insurance (can be waived), books, housing and food not included.",
-      "notes": "Harvard Chan School 2026-2027 academic year (June 2026 - May 2027) 'Tuition, Fees, and Annual Cost of Attendance' page, Master of Science table, 80-credit 2-year full-time column: tuition $58,272 per year; fees = Student Health Fee $1,944 per year. Student Health Insurance Plan ($4,954, waivable), books, housing, food and the Extended Enrollment Fee excluded. The same per-year rate applies to all 80-credit SM fields; the 42.5-credit one-year SM (for applicants with a doctorate) is $72,936. Page states 'tuition increases annually' and lists only the current year; OIRA Fact Book covers only the 1-year MPH, so no 2024/2025 history.",
-      "feeHistory": []
+      "notes": "Harvard Chan School 2026-2027 academic year (June 2026 - May 2027) 'Tuition, Fees, and Annual Cost of Attendance' page, Master of Science table, 80-credit 2-year full-time column: tuition $58,272 per year; fees = Student Health Fee $1,944 per year. Student Health Insurance Plan ($4,954, waivable), books, housing, food and the Extended Enrollment Fee excluded. The same per-year rate applies to all 80-credit SM fields; the 42.5-credit one-year SM (for applicants with a doctorate) is $72,936. Page states 'tuition increases annually' and lists only the current year; OIRA Fact Book covers only the 1-year MPH, so no 2024/2025 history. History from earlier versions of the same Harvard Chan 'Tuition, Fees, and Annual Cost of Attendance' page, Master of Science (SM-42.5, SM-60, SM-80) table, 'Master of Science 80-credit, 2 years full-time' column. 2024: '2024 - 2025 Academic Year (June 2024 - May 2025)' version, Common Crawl capture 20250114173917: tuition $54,096 per year, Student Health Fee $1,592 (SHIP $4,202 excluded). 2025: '2025 - 2026 Academic Year (June 2025 - May 2026)' version, Common Crawl captures 20250515231223 and 20250907184801: tuition $56,016 per year, Student Health Fee $1,800 (SHIP $4,308 excluded).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54096,
+          "annualCompulsoryFees": 1592.0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://hsph.harvard.edu/tuition-and-financial-aid/tuition-fees-and-annual-cost-of-attendance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 56016,
+          "annualCompulsoryFees": 1800.0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://hsph.harvard.edu/tuition-and-financial-aid/tuition-fees-and-annual-cost-of-attendance/"
+        }
+      ]
     },
     {
       "level": "master",
@@ -274,21 +307,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual MBA tuition plus the student health fee. Health insurance (can be waived), housing and food not included.",
-      "notes": "HBS 2026-27 cost of attendance, single student, 9-month academic year: tuition $84,760; fees = HUHS Student Health Fee $1,944. Student Health Insurance Plan ($4,954, waivable), housing and food excluded. 2024 and 2025 tuition from Harvard OIRA Fact Book (FY2025 = 2024-25 $76,410, FY2026 = 2025-26 $78,700); fees for those years not found so current value applies.",
+      "notes": "HBS 2026-27 cost of attendance, single student, 9-month academic year: tuition $84,760; fees = HUHS Student Health Fee $1,944. Student Health Insurance Plan ($4,954, waivable), housing and food excluded. 2024 and 2025 tuition from Harvard OIRA Fact Book (FY2025 = 2024-25 $76,410, FY2026 = 2025-26 $78,700); fees for those years not found so current value applies. Fee history from earlier versions of the HBS cost-of-attendance page (Wayback captures 20250324041548 'MBA Program: Cost of Attendance for the 2024-2025 Academic Year' and 20250903085624 '... 2025-2026 Academic Year', single student). 2024: tuition $76,410 (matches OIRA), Course & Program Materials Fee $2,650 + HUHS Student Health Fee $1,592 = $4,242. 2025: tuition $78,700, Course & Program Materials Fee $2,800 + SHF $1,800 = $4,600. SHIP ($4,202 / $4,308, waivable) excluded. The billed Course & Program Materials Fee is a compulsory charge in those years and is counted as such; the 2026-27 table (capture 20260723163836) no longer lists it, only tuition $84,760 and SHF $1,944, so the current record's SHF-only fees are consistent with that year.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 76410,
+          "annualCompulsoryFees": 4242.0,
           "oneOffFees": 0,
-          "sourceUrl": "https://oira.harvard.edu/factbook/fact-book-grad-tuition/"
+          "sourceUrl": "https://www.hbs.edu/mba/financial-aid/tuition-assistance/cost-of-attendance"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 78700,
+          "annualCompulsoryFees": 4600.0,
           "oneOffFees": 0,
-          "sourceUrl": "https://oira.harvard.edu/factbook/fact-book-grad-tuition/"
+          "sourceUrl": "https://www.hbs.edu/mba/financial-aid/tuition-assistance/cost-of-attendance"
         }
       ]
     },
@@ -310,14 +345,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition plus course materials, student activity and health fees. Health insurance (can be waived) not included.",
-      "notes": "HKS 2026-27 MPP: tuition $64,340; fees = course materials fee $618 + HKS student activity fee $250 + HUHS Student Health Fee $1,944. SHIP ($4,954, waivable) excluded. 2025 from the HKS 'Tuition & Fees From Previous Year' page (tuition $61,926; fees $618 + $250 + $1,800). 2024 tuition from Harvard OIRA Fact Book (Government, FY2025 $59,316); fees not found.",
+      "notes": "HKS 2026-27 MPP: tuition $64,340; fees = course materials fee $618 + HKS student activity fee $250 + HUHS Student Health Fee $1,944. SHIP ($4,954, waivable) excluded. 2025 from the HKS 'Tuition & Fees From Previous Year' page (tuition $61,926; fees $618 + $250 + $1,800). 2024 tuition from Harvard OIRA Fact Book (Government, FY2025 $59,316); fees not found. 2024 row from the HKS Tuition & Fees page, '2024-2025 Tuition and Fees by Program' (Common Crawl captures 20241103095452 and 20250208063953): MPP tuition $59,316 (matches OIRA); fees = course materials fee $574 + HKS student activity fee $220 + HUHS Student Health Fee $1,592 = $2,386; SHIP ($4,202, waivable) excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 59316,
+          "annualCompulsoryFees": 2386.0,
           "oneOffFees": 0,
-          "sourceUrl": "https://oira.harvard.edu/factbook/fact-book-grad-tuition/"
+          "sourceUrl": "https://www.hks.harvard.edu/admissions-aid/funding-your-education/funding-your-masters-education/tuition-fees"
         },
         {
           "feeYear": 2025,
@@ -347,14 +383,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual law school tuition plus the compulsory student health fee. Health insurance (can be waived), housing and food not included.",
-      "notes": "HLS 2026-27 Standard Student Budget (9-month): tuition $84,400; fees = Mandatory HUHS Student Health Fee $1,944 (waivers generally not available). Harvard University Student Health Insurance Plan ($4,954, waivable with comparable coverage), housing and food excluded. JD is graduate-entry (3 years). 2025 from the same page's 2025-2026 Cost of Attendance table; 2024 tuition from Harvard OIRA Fact Book (Law School, academic year 2025 = 2024-25); 2024 fees not found.",
+      "notes": "HLS 2026-27 Standard Student Budget (9-month): tuition $84,400; fees = Mandatory HUHS Student Health Fee $1,944 (waivers generally not available). Harvard University Student Health Insurance Plan ($4,954, waivable with comparable coverage), housing and food excluded. JD is graduate-entry (3 years). 2025 from the same page's 2025-2026 Cost of Attendance table; 2024 tuition from Harvard OIRA Fact Book (Law School, academic year 2025 = 2024-25); 2024 fees not found. 2024 row from the HLS Cost of Attendance page, '2024-25 Standard Student Budget (9-Month)' (Common Crawl capture 20241006094256): tuition $77,100 (matches OIRA); Mandatory HUHS Student Health Fee $1,592. HUSHP insurance ($4,202, waivable) excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 77100,
+          "annualCompulsoryFees": 1592.0,
           "oneOffFees": 0,
-          "sourceUrl": "https://oira.harvard.edu/factbook/fact-book-grad-tuition/"
+          "sourceUrl": "https://hls.harvard.edu/sfs/financial-aid/financial-aid-policy/cost-of-attendance/"
         },
         {
           "feeYear": 2025,
@@ -384,7 +421,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year medical school tuition (same for all four years) plus health, technology, materials and activity fees. Health insurance, books and living costs not included.",
-      "notes": "HMS 2026-27 MD cost of attendance, Pathways curriculum Year 1 (10-month): tuition $76,828 (same for all four years and for the HST track); fees = university health service fee $1,944 + disability insurance fee $72 + student activities fee $150 + education materials fee $645 (Year 1 Pathways; $314-$907 in other years/tracks) + technology fee $900. Health insurance fee ($4,954, waivable), books, living expenses and board exam fees excluded. MD is graduate-entry (4 years). 2025 tuition from the same page's 2025-26 tables (fees not itemised there); 2024 tuition from Harvard OIRA Fact Book (Medical School, academic year 2025 = 2024-25). Page blocks automated fetches, so checked manually.",
+      "notes": "HMS 2026-27 MD cost of attendance, Pathways curriculum Year 1 (10-month): tuition $76,828 (same for all four years and for the HST track); fees = university health service fee $1,944 + disability insurance fee $72 + student activities fee $150 + education materials fee $645 (Year 1 Pathways; $314-$907 in other years/tracks) + technology fee $900. Health insurance fee ($4,954, waivable), books, living expenses and board exam fees excluded. MD is graduate-entry (4 years). 2025 tuition from the same page's 2025-26 tables (fees not itemised there); 2024 tuition from Harvard OIRA Fact Book (Medical School, academic year 2025 = 2024-25). Page blocks automated fetches, so checked manually. 2025 fees from the HMS 'Cost of Attendance 2025-26' page, Pathways Year 1 itemised budget (Common Crawl CC-MAIN-2025-43 capture 20251006234408): tuition $73,874; university health service fee $1,800 + disability insurance fee $72 + education materials fee $425 + student activities fee $150 = $2,447 annual; matriculation fee $100 is listed in Year 1 only, so it is entered as one-off (mandatory fees total $2,547). Health insurance fee ($4,308) excluded. 2024 left without fees: the md-program cost pages only exist from 2025 (Wayback/CDX shows no earlier capture of /md-program/cost-aid/cost-attendance), and the 2024 Wayback captures of the older HMS financial-aid section (/departments/financial-aid-harvard-medical-school, 20241102150027) are Incapsula bot-block pages; Common Crawl has no 2024 capture with the budget.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -397,7 +434,8 @@
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 73874,
-          "oneOffFees": 0,
+          "annualCompulsoryFees": 2447.0,
+          "oneOffFees": 100,
           "sourceUrl": "https://hms.harvard.edu/education-admissions/md-program/cost-aid/cost-attendance"
         }
       ]

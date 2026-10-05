@@ -41,13 +41,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus compulsory semester fees for sport and student services. A one-off CHF 150 application fee is extra. Tuition is inflation-adjusted every four years from 2029.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. Exam fees included. 3-year (180 ECTS) bachelor's taught in German.",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. Exam fees included. 3-year (180 ECTS) bachelor's taught in German. 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. oneOffFees deliberately left out of the 2024 row (calculator falls back to current CHF 150): the 2024 bachelor 'How to apply (non-Swiss matriculation certificate)' captures (2023-11-29, 2024-02-22, 2024-03-06) say only that 'an application fee is charged' without the amount, and the tuition-fees PDF captures (2024-03-12, 2024-05-07, 2024-11-23) could not be fetched (the relay cannot pass PDFs; r.jina.ai and WebFetch are blocked from web.archive.org; the PDF is not in Common Crawl).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,
@@ -77,13 +78,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus compulsory semester fees for sport and student services. A one-off CHF 150 application fee is extra. Tuition is inflation-adjusted every four years from 2029.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German.",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German. 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. oneOffFees deliberately left out of the 2024 row (calculator falls back to current CHF 150): the 2024 bachelor 'How to apply (non-Swiss matriculation certificate)' captures (2023-11-29, 2024-02-22, 2024-03-06) say only that 'an application fee is charged' without the amount, and the tuition-fees PDF captures (2024-03-12, 2024-05-07, 2024-11-23) could not be fetched (the relay cannot pass PDFs; r.jina.ai and WebFetch are blocked from web.archive.org; the PDF is not in Common Crawl).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,
@@ -113,13 +115,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus compulsory semester fees for sport and student services. A one-off CHF 150 application fee is extra. Tuition is inflation-adjusted every four years from 2029.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German. ETH has no bachelor's in business or arts.",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German. ETH has no bachelor's in business or arts. 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. oneOffFees deliberately left out of the 2024 row (calculator falls back to current CHF 150): the 2024 bachelor 'How to apply (non-Swiss matriculation certificate)' captures (2023-11-29, 2024-02-22, 2024-03-06) say only that 'an application fee is charged' without the amount, and the tuition-fees PDF captures (2024-03-12, 2024-05-07, 2024-11-23) could not be fetched (the relay cannot pass PDFs; r.jina.ai and WebFetch are blocked from web.archive.org; the PDF is not in Common Crawl).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,
@@ -149,13 +152,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus compulsory semester fees for sport and student services. A one-off CHF 150 application fee is extra.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 2-year (120 ECTS) master's taught in English.",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 2-year (120 ECTS) master's taught in English. 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. Application fee 2024: master 'How to apply (international Bachelor's)' page capture 2024-02-22: 'We charge an application fee of CHF 150 per degree programme applied for'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,
@@ -185,13 +190,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus compulsory semester fees for sport and student services. A one-off CHF 150 application fee is extra.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 2-year (120 ECTS) master's taught in English.",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 2-year (120 ECTS) master's taught in English. 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. Application fee 2024: master 'How to apply (international Bachelor's)' page capture 2024-02-22: 'We charge an application fee of CHF 150 per degree programme applied for'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,
@@ -221,13 +228,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus compulsory semester fees for sport and student services. A one-off CHF 150 application fee is extra.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 4-semester (120 ECTS) master's incl. industrial internship, taught in English.",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 4-semester (120 ECTS) master's incl. industrial internship, taught in English. 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. Application fee 2024: master 'How to apply (international Bachelor's)' page capture 2024-02-22: 'We charge an application fee of CHF 150 per degree programme applied for'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,
@@ -257,13 +266,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus compulsory semester fees for sport and student services. A one-off CHF 150 application fee is extra.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 3-semester (90 ECTS) master's taught in English.",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 3-semester (90 ECTS) master's taught in English. 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. Application fee 2024: master 'How to apply (international Bachelor's)' page capture 2024-02-22: 'We charge an application fee of CHF 150 per degree programme applied for'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,
@@ -293,13 +304,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus compulsory semester fees for sport and student services. A one-off CHF 150 application fee is extra.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 4-semester (120 ECTS) humanities master's (D-GESS), taught mainly in German with some English courses.",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025. Compulsory semester fees ASVZ 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 (non-Swiss degree). 4-semester (120 ECTS) humanities master's (D-GESS), taught mainly in German with some English courses. 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. Application fee 2024: master 'How to apply (international Bachelor's)' page capture 2024-02-22: 'We charge an application fee of CHF 150 per degree programme applied for'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "oneOffFees": 150,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,
@@ -329,13 +342,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students plus compulsory semester fees. The university states this programme is open only to Swiss passport or settlement permit holders, so it is normally not open to Singaporeans.",
-      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German (C1 required); graduates continue to a 3-year Master of Medicine at a partner university (Zurich, Basel or USI Lugano), where the registrable federal diploma is taken. Only 100 places a year, awarded through the aptitude test (EMS); ETH states the programme is open only to holders of a Swiss passport or Swiss settlement permit, so Singaporeans without one cannot normally enrol. ETH is not itself on the Singapore Medical Council's list of registrable basic medical qualifications (Universität Zürich is).",
+      "notes": "Fee group 2 (students who move to Switzerland to study): threefold tuition CHF 2,190 per semester x 2, in force since autumn 2025 and indexed to the CPI every four years (first in 2029). Compulsory semester fees ASVZ sports 35 + scholarship fund 7 + VSETH 32 = CHF 74 x 2. One-off application fee CHF 150 for a non-Swiss matriculation certificate. 3-year (180 ECTS) bachelor's taught in German (C1 required); graduates continue to a 3-year Master of Medicine at a partner university (Zurich, Basel or USI Lugano), where the registrable federal diploma is taken. Only 100 places a year, awarded through the aptitude test (EMS); ETH states the programme is open only to holders of a Swiss passport or Swiss settlement permit, so Singaporeans without one cannot normally enrol. ETH is not itself on the Singapore Medical Council's list of registrable basic medical qualifications (Universität Zürich is). 2024 compulsory fees from the Wayback Machine (via translate relay): ETH 'Tuition fees' page capture 2024-09-17 ('Tuition fee: CHF 730/Semester'; tripling 'from autumn semester 2025') and its compulsory-fees table JSON (/en/studies/financial/tuition-fees/_jcr_content/par/table.tableComp.json, capture 2024-09-29): 'Total compulsory semester fee CHF 74.00' = ASVZ 35 + Scholarship fund 7 + VSETH 32, so 74 x 2 = CHF 148. oneOffFees deliberately left out of the 2024 row (calculator falls back to current CHF 150): the 2024 bachelor 'How to apply (non-Swiss matriculation certificate)' captures (2023-11-29, 2024-02-22, 2024-03-06) say only that 'an application fee is charged' without the amount, and the tuition-fees PDF captures (2024-03-12, 2024-05-07, 2024-11-23) could not be fetched (the relay cannot pass PDFs; r.jina.ai and WebFetch are blocked from web.archive.org; the PDF is not in Common Crawl).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
-          "sourceUrl": "https://ethz.ch/content/dam/ethz/main/education/finanzielles/files-en/tuition-fees.pdf"
+          "annualCompulsoryFees": 148,
+          "sourceUrl": "https://ethz.ch/en/studies/financial/tuition-fees.html"
         },
         {
           "feeYear": 2025,

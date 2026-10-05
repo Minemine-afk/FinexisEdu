@@ -41,18 +41,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/AENGI"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/AENGI"
         }
       ]
@@ -75,18 +79,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program AACOM, 192 units over 4 years; CRICOS 077939A). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program AACOM, 192 units over 4 years; CRICOS 077939A). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/AACOM"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/AACOM"
         }
       ]
@@ -109,18 +117,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program BCOMM, 144 units over 3 years; CRICOS 002289F). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program BCOMM, 144 units over 3 years; CRICOS 002289F). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 48035,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BCOMM"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BCOMM"
         }
       ]
@@ -143,18 +155,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program BSC, 144 units over 3 years; CRICOS 000335K). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program BSC, 144 units over 3 years; CRICOS 000335K). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BSC"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BSC"
         }
       ]
@@ -177,18 +193,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program BARTS, 144 units over 3 years; CRICOS 074016B). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program BARTS, 144 units over 3 years; CRICOS 074016B). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 45060,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BARTS"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 47670,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BARTS"
         }
       ]
@@ -211,18 +231,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program ALLB, 192 units over 4 years; CRICOS 085042J). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program ALLB, 192 units over 4 years; CRICOS 085042J). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 48033,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/ALLB"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 50500,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/ALLB"
         }
       ]
@@ -245,18 +269,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program NELENG, 96 units over 2 years; ANU offers the Master of Engineering only in named specialisations; CRICOS 077326G). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program NELENG, 96 units over 2 years; ANU offers the Master of Engineering only in named specialisations; CRICOS 077326G). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/NELENG"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/NELENG"
         }
       ]
@@ -279,18 +307,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program 7706XMCOMP, 96 units over 2 years; CRICOS 078940M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program 7706XMCOMP, 96 units over 2 years; CRICOS 078940M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/7706XMCOMP"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7706XMCOMP"
         }
       ]
@@ -313,18 +345,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program MBUSA, 48 units over 1 year; CRICOS 114606M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program MBUSA, 48 units over 1 year; CRICOS 114606M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 48035,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/MBUSA"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MBUSA"
         }
       ]
@@ -347,18 +383,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program NSCBS, 96 units over 2 years; ANU offers the Master of Science only in named specialisations; CRICOS 096439G). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program NSCBS, 96 units over 2 years; ANU offers the Master of Science only in named specialisations; CRICOS 096439G). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/NSCBS"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/NSCBS"
         }
       ]
@@ -381,18 +421,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program MINTR, 96 units over 2 years; CRICOS 082309M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program MINTR, 96 units over 2 years; CRICOS 082309M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/MINTR"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MINTR"
         }
       ]
@@ -415,18 +459,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units (program MJD, 144 units over 3 years; graduate entry for non-law graduates; CRICOS 061559M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program MJD, 144 units over 3 years; graduate entry for non-law graduates; CRICOS 061559M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 56470,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/MJD"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 59750,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MJD"
         }
       ]
@@ -449,18 +497,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU quotes one figure for all four years, but reviews fees each year.",
-      "notes": "Annual indicative international fee for 48 units (program 8950XMCHD, 192 units over 4 years; graduate entry, AQF level 9 extended; CRICOS 077442D). ANU quotes one annual figure for all four years. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units (program 8950XMCHD, 192 units over 4 years; graduate entry, AQF level 9 extended; CRICOS 077442D). ANU quotes one annual figure for all four years. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 90130,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/8950XMCHD"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 95360,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/8950XMCHD"
         }
       ]
@@ -483,18 +535,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units ('Annual indicative fee for international students $56,120.00'; program BSPSY, 144 units over 3 years; CRICOS 047423M; APAC-accredited psychology sequence). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). Same fee as the Bachelor of Science. 2024/2025 from the same program page for those academic years (A$50,760 / A$53,700), read 2026-10-05. ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units ('Annual indicative fee for international students $56,120.00'; program BSPSY, 144 units over 3 years; CRICOS 047423M; APAC-accredited psychology sequence). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). Same fee as the Bachelor of Science. 2024/2025 from the same program page for those academic years (A$50,760 / A$53,700), read 2026-10-05. ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50760,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BSPSY"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BSPSY"
         }
       ]
@@ -517,18 +573,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
-      "notes": "Annual indicative international fee for 48 units ('Annual indicative fee for international students $59,270.00'; program 7601XMCPSY, 96 units over 2 years; CRICOS 003116G; coursework plus clinical placements and a research thesis component; entry needs an APAC-accredited 4-year psychology sequence). ANU's other taught psychology master's, the Master of Professional Psychology (MPPSY, 2 years), shows the same 2026 fee. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). 2024/2025 from the same program page for those academic years (A$53,610 / A$56,720), read 2026-10-05. ANU fees are reviewed and indexed each year.",
+      "notes": "Annual indicative international fee for 48 units ('Annual indicative fee for international students $59,270.00'; program 7601XMCPSY, 96 units over 2 years; CRICOS 003116G; coursework plus clinical placements and a research thesis component; entry needs an APAC-accredited 4-year psychology sequence). ANU's other taught psychology master's, the Master of Professional Psychology (MPPSY, 2 years), shows the same 2026 fee. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). 2024/2025 from the same program page for those academic years (A$53,610 / A$56,720), read 2026-10-05. ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 53610,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/7601XMCPSY"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 56720,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7601XMCPSY"
         }
       ]

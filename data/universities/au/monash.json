@@ -41,12 +41,28 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
-      "notes": "C2001, Clayton campus. 2027 international fee per 48 credit points (standard full-time year), from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$45,440, which was recorded here by mistake before this correction. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) of this URL because monash.edu blocks automated access (Cloudflare challenge). Excludes the Student Services and Amenities Fee (Monash's SSAF page blocks automated access, so it could not be verified; the 2027 statutory cap is about A$386) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$55,500 (2027 International Undergraduate Course Guide ('2026 quoted fees')).",
+      "notes": "C2001, Clayton campus. 2027 international fee per 48 credit points (standard full-time year), from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$45,440, which was recorded here by mistake before this correction. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) of this URL because monash.edu blocks automated access (Cloudflare challenge). Excludes the Student Services and Amenities Fee (Monash's SSAF page blocks automated access, so it could not be verified; the 2027 statutory cap is about A$386) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$55,500 (2027 International Undergraduate Course Guide ('2026 quoted fees')). Sources (added 2026-10-06): 2024 from Monash's 2025 International Undergraduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf, Wayback capture 2025-09-06, PDF read through the Google Docs viewer); every fee footnote in that guide reads '2024 quoted fees, in Australian dollars ... Fees are per 48 credit points'. 2025 from the 2026 International Undergraduate Course Guide (same asset URL as the current 2027 guide, https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Undergraduate Course Guide 2026'); its footnotes read '2025 quoted fees ... per 48 credit points'. Bachelor of Computer Science C2001: 2025 guide 'FEES A$49,500'; 2026 guide p.15 'FEES A$52,400'.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 55500,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 49500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
         }
       ]
@@ -69,12 +85,28 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
-      "notes": "B2001, Clayton campus. 2027 international fee per 48 credit points (standard full-time year), from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$38,740, which was recorded here by mistake before this correction. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$55,900 (2027 International Undergraduate Course Guide ('2026 quoted fees')).",
+      "notes": "B2001, Clayton campus. 2027 international fee per 48 credit points (standard full-time year), from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$38,740, which was recorded here by mistake before this correction. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$55,900 (2027 International Undergraduate Course Guide ('2026 quoted fees')). Sources (added 2026-10-06): 2024 from Monash's 2025 International Undergraduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf, Wayback capture 2025-09-06, PDF read through the Google Docs viewer); every fee footnote in that guide reads '2024 quoted fees, in Australian dollars ... Fees are per 48 credit points'. 2025 from the 2026 International Undergraduate Course Guide (same asset URL as the current 2027 guide, https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Undergraduate Course Guide 2026'); its footnotes read '2025 quoted fees ... per 48 credit points'. Bachelor of Commerce B2001: 2025 guide 'FEES A$52,200'; 2026 guide p.12 'FEES A$53,200'.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 55900,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 52200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
         }
       ]
@@ -137,12 +169,28 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
-      "notes": "S2000, Clayton campus. 2027 international fee per 48 credit points (standard full-time year), from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$47,940, which was recorded here by mistake before this correction. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$56,600 (2027 International Undergraduate Course Guide ('2026 quoted fees')).",
+      "notes": "S2000, Clayton campus. 2027 international fee per 48 credit points (standard full-time year), from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$47,940, which was recorded here by mistake before this correction. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$56,600 (2027 International Undergraduate Course Guide ('2026 quoted fees')). Sources (added 2026-10-06): 2024 from Monash's 2025 International Undergraduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf, Wayback capture 2025-09-06, PDF read through the Google Docs viewer); every fee footnote in that guide reads '2024 quoted fees, in Australian dollars ... Fees are per 48 credit points'. 2025 from the 2026 International Undergraduate Course Guide (same asset URL as the current 2027 guide, https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Undergraduate Course Guide 2026'); its footnotes read '2025 quoted fees ... per 48 credit points'. Bachelor of Science S2000: 2025 guide 'FEES A$50,400'; 2026 guide p.20 'FEES A$53,400'.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 56600,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
         }
       ]
@@ -165,12 +213,28 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
-      "notes": "A2000, Clayton and Caulfield campuses. 2027 international fee per 48 credit points (standard full-time year), from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$34,740, which was recorded here by mistake before this correction. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$44,600 (2027 International Undergraduate Course Guide ('2026 quoted fees')).",
+      "notes": "A2000, Clayton and Caulfield campuses. 2027 international fee per 48 credit points (standard full-time year), from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$34,740, which was recorded here by mistake before this correction. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$44,600 (2027 International Undergraduate Course Guide ('2026 quoted fees')). Sources (added 2026-10-06): 2024 from Monash's 2025 International Undergraduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf, Wayback capture 2025-09-06, PDF read through the Google Docs viewer); every fee footnote in that guide reads '2024 quoted fees, in Australian dollars ... Fees are per 48 credit points'. 2025 from the 2026 International Undergraduate Course Guide (same asset URL as the current 2027 guide, https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Undergraduate Course Guide 2026'); its footnotes read '2025 quoted fees ... per 48 credit points'. Bachelor of Arts A2000: 2025 guide 'FEES A$39,000'; 2026 guide p.9 'FEES A$42,100'.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 44600,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
         }
       ]
@@ -193,7 +257,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year. Takes 2 years, shorter with credit.",
-      "notes": "C6001, Clayton campus. 2027 international fee per 48 credit points, from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$44,740, which was recorded here by mistake before this correction. Duration 2 years (96 points, entry level 1); shorter with credit. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$49,500 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$55,500 (2027 International Graduate Course Guide ('2026 quoted fees')).",
+      "notes": "C6001, Clayton campus. 2027 international fee per 48 credit points, from the international view of the page; the default (domestic) view shows the domestic full-fee rate of A$44,740, which was recorded here by mistake before this correction. Duration 2 years (96 points, entry level 1); shorter with credit. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$49,500 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$55,500 (2027 International Graduate Course Guide ('2026 quoted fees')). 2025 row (added 2026-10-06): Monash 2026 International Graduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Graduate Course Guide 2026', PDF read through the Google Docs viewer), C6001 p.16 'FEES A$53,900'; footnote '2025 quoted fees, in Australian dollars ... per 48 credit points'.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -205,6 +269,14 @@
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 55500,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
         }
       ]
@@ -227,7 +299,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year. Takes 2 years, shorter with credit.",
-      "notes": "B6005, Caulfield campus (Melbourne). 2027 international fee per 48 credit points, from the international view of the page (the figure previously recorded here, A$38,740, was the domestic full-fee rate from the default view). Duration 2 years (96 points, entry level 1); 1-1.5 years with credit. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$53,000 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$59,900 (2027 International Graduate Course Guide ('2026 quoted fees')).",
+      "notes": "B6005, Caulfield campus (Melbourne). 2027 international fee per 48 credit points, from the international view of the page (the figure previously recorded here, A$38,740, was the domestic full-fee rate from the default view). Duration 2 years (96 points, entry level 1); 1-1.5 years with credit. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$53,000 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$59,900 (2027 International Graduate Course Guide ('2026 quoted fees')). 2025 row (added 2026-10-06): Monash 2026 International Graduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Graduate Course Guide 2026', PDF read through the Google Docs viewer), B6005 p.11 'FEES A$56,800'; footnote '2025 quoted fees, in Australian dollars ... per 48 credit points'.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -239,6 +311,14 @@
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 59900,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 56800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
         }
       ]
@@ -301,12 +381,28 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year, over 4.25 years (can be done in 4). Excludes student services fee and overseas student health cover.",
-      "notes": "L3001, Clayton campus. 2027 international fee per 48 credit points (standard full-time year); the domestic full-fee rate on the same page is A$52,840. Monash lists the course as equivalent to 4.25 years of full-time study, which may be accelerated to 4 years. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$55,700 (2027 International Undergraduate Course Guide ('2026 quoted fees')).",
+      "notes": "L3001, Clayton campus. 2027 international fee per 48 credit points (standard full-time year); the domestic full-fee rate on the same page is A$52,840. Monash lists the course as equivalent to 4.25 years of full-time study, which may be accelerated to 4 years. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$55,700 (2027 International Undergraduate Course Guide ('2026 quoted fees')). Sources (added 2026-10-06): 2024 from Monash's 2025 International Undergraduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf, Wayback capture 2025-09-06, PDF read through the Google Docs viewer); every fee footnote in that guide reads '2024 quoted fees, in Australian dollars ... Fees are per 48 credit points'. 2025 from the 2026 International Undergraduate Course Guide (same asset URL as the current 2027 guide, https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Undergraduate Course Guide 2026'); its footnotes read '2025 quoted fees ... per 48 credit points'. Bachelor of Laws (Honours) L3001: 2025 guide 'FEES A$48,700'; 2026 guide p.16 'FEES A$51,600'. Caution: the 2026 guide's footnote on the Law page (p.16) reads '2024 quoted fees' rather than '2025'. A$51,600 is not the 2024 figure (the 2025 guide gives A$48,700 for 2024), and the guide's Engineering page (p.14) has the same '2024' footnote on E3001's A$56,300, which Monash's 2026 Engineering faculty guide states is the 2025 fee. So the footnote looks like a misprint and A$51,600 is recorded as the 2025 fee. Drop the 2025 row if a stricter reading is wanted.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 55700,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
         }
       ]
@@ -329,7 +425,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
-      "notes": "L6005, taught at Monash Law Chambers and the City campus (Melbourne CBD); trimester intakes in January, April and August. 2027 international fee per 48 credit points (the domestic full-fee rate is A$49,340); 3 years full time (6 part time). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$46,500 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$54,100 (2027 International Graduate Course Guide ('2026 quoted fees')).",
+      "notes": "L6005, taught at Monash Law Chambers and the City campus (Melbourne CBD); trimester intakes in January, April and August. 2027 international fee per 48 credit points (the domestic full-fee rate is A$49,340); 3 years full time (6 part time). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$46,500 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$54,100 (2027 International Graduate Course Guide ('2026 quoted fees')). 2025 row (added 2026-10-06): Monash 2026 International Graduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Graduate Course Guide 2026', PDF read through the Google Docs viewer), L6005 p.17 'FEES A$49,200'; footnote '2025 quoted fees, in Australian dollars ... per 48 credit points'.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -341,6 +437,14 @@
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 54100,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 49200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
         }
       ]
@@ -363,12 +467,28 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students; Monash quotes one rate for the whole 5-year course. Excludes student services fee and overseas student health cover.",
-      "notes": "M6011, direct (undergraduate) entry, Clayton campus; 5 years full time. 2027 international fee per 48 credit points (standard full-time year); Monash quotes one annual rate for the whole course. International applicants sit the ISAT and are admitted on a full-fee basis (the page shows only the domestic CSP contribution, A$14,046, unless the international view is selected). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$101,600 (2027 International Undergraduate Course Guide ('2026 quoted fees')).",
+      "notes": "M6011, direct (undergraduate) entry, Clayton campus; 5 years full time. 2027 international fee per 48 credit points (standard full-time year); Monash quotes one annual rate for the whole course. International applicants sit the ISAT and are admitted on a full-fee basis (the page shows only the domestic CSP contribution, A$14,046, unless the international view is selected). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-09-30 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2026: A$101,600 (2027 International Undergraduate Course Guide ('2026 quoted fees')). Sources (added 2026-10-06): 2024 from Monash's 2025 International Undergraduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf, Wayback capture 2025-09-06, PDF read through the Google Docs viewer); every fee footnote in that guide reads '2024 quoted fees, in Australian dollars ... Fees are per 48 credit points'. 2025 from the 2026 International Undergraduate Course Guide (same asset URL as the current 2027 guide, https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Undergraduate Course Guide 2026'); its footnotes read '2025 quoted fees ... per 48 credit points'. Bachelor of Medical Science and Doctor of Medicine M6011: 2025 guide 'FEES A$92,200'; 2026 guide p.17 'FEES A$97,700'. The M6011 page (p.17) has no footnote of its own; the facing p.16 footnote reads '2024 quoted fees' (see the Bachelor of Laws note; it looks like a misprint). A$97,700 is not the 2024 figure (2025 guide: A$92,200 for 2024), and the 2026 International Graduate Course Guide (footnotes '2025 quoted fees') lists the same A$97,700 for the graduate-entry M6018, which Monash charges at the same annual rate. So A$97,700 is the 2025 fee.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 101600,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 92200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 97700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
         }
       ]
@@ -387,11 +507,11 @@
         }
       },
       "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/data-science-c6004",
-      "lastVerified": "2026-10-04",
-      "sourceType": "secondary",
+      "lastVerified": "2026-10-06",
+      "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year. Read from a third-party copy of the university's page.",
-      "notes": "C6004, Clayton campus (also offered at Monash Malaysia). 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page; the default (domestic) view shows the domestic full-fee rate of A$44,740. Duration 2 years (96 points, entry level 1, any bachelor's degree); 1.5 years with a related degree. ACS accredited; CRICOS 085349A. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-04 through a text rendering (r.jina.ai) of this URL because monash.edu blocks automated access (Cloudflare challenge). Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$49,500 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$55,700 (2027 International Graduate Course Guide ('2026 quoted fees')).",
+      "notes": "C6004, Clayton campus (also offered at Monash Malaysia). 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page; the default (domestic) view shows the domestic full-fee rate of A$44,740. Duration 2 years (96 points, entry level 1, any bachelor's degree); 1.5 years with a related degree. ACS accredited; CRICOS 085349A. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-04 through a text rendering (r.jina.ai) of this URL because monash.edu blocks automated access (Cloudflare challenge). Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$49,500 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$55,700 (2027 International Graduate Course Guide ('2026 quoted fees')). 2025 row (added 2026-10-06): Monash 2026 International Graduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Graduate Course Guide 2026', PDF read through the Google Docs viewer), C6004 p.16 'FEES A$52,900'; footnote '2025 quoted fees, in Australian dollars ... per 48 credit points'. Current record re-verified 2026-10-06 on the official course page (international view, read via r.jina.ai because monash.edu blocks scripts): 'International fee ... The fees for 2027 are: A$57,540'. Unchanged figure; sourceType set to official like the other Monash entries read the same way.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -403,6 +523,14 @@
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 55700,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
         }
       ]
@@ -421,11 +549,11 @@
         }
       },
       "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/international-relations-a6010",
-      "lastVerified": "2026-10-04",
-      "sourceType": "secondary",
+      "lastVerified": "2026-10-06",
+      "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year. Read from a third-party copy of the university's page.",
-      "notes": "A6010, Caulfield and Clayton campuses; February and July intakes. 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page. Duration 2 years (96 points, entry level 1, any bachelor's degree); 1.5 years with a cognate degree, 1 year with a cognate honours degree. CRICOS 082659M. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-04 through a text rendering (r.jina.ai) of this URL because monash.edu blocks automated access (Cloudflare challenge). Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$40,200 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$46,400 (2027 International Graduate Course Guide ('2026 quoted fees')).",
+      "notes": "A6010, Caulfield and Clayton campuses; February and July intakes. 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page. Duration 2 years (96 points, entry level 1, any bachelor's degree); 1.5 years with a cognate degree, 1 year with a cognate honours degree. CRICOS 082659M. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-04 through a text rendering (r.jina.ai) of this URL because monash.edu blocks automated access (Cloudflare challenge). Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$40,200 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$46,400 (2027 International Graduate Course Guide ('2026 quoted fees')). 2025 row (added 2026-10-06): Monash 2026 International Graduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Graduate Course Guide 2026', PDF read through the Google Docs viewer), A6010 p.9 'FEES A$43,400'; footnote '2025 quoted fees, in Australian dollars ... per 48 credit points'. Current record re-verified 2026-10-06 on the official course page (international view, read via r.jina.ai because monash.edu blocks scripts): 'International fee ... The fees for 2027 are: A$47,840'. Unchanged figure; sourceType set to official like the other Monash entries read the same way.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -437,6 +565,14 @@
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 46400,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
         }
       ]
@@ -455,11 +591,11 @@
         }
       },
       "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/medical-science-and-medicine-graduate-entry-m6018",
-      "lastVerified": "2026-10-04",
-      "sourceType": "secondary",
+      "lastVerified": "2026-10-06",
+      "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students; one rate for the whole 4-year course. Excludes student services fee and health cover. Read from a third-party copy of the university's page.",
-      "notes": "M6018, Monash's graduate-entry MD (requires a completed bachelor's degree with biomedical science content; GPA and Multiple Mini Interview selection, about 30 international places), taught at the Gippsland (Churchill) and Mildura campuses; 4 years full time, February intake. 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page; Monash quotes the same annual rate as the direct-entry M6011 course, and the default (domestic) view shows only the CSP contribution of A$14,046. The medical school's 'Applications and fees' page states that international applicants are admitted on a full-fee basis and points to the course fees pages. CRICOS 0101541. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-04 through a text rendering (r.jina.ai) of this URL because monash.edu blocks automated access (Cloudflare challenge). Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$92,900 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$101,600 (2027 International Graduate Course Guide ('2026 quoted fees')).",
+      "notes": "M6018, Monash's graduate-entry MD (requires a completed bachelor's degree with biomedical science content; GPA and Multiple Mini Interview selection, about 30 international places), taught at the Gippsland (Churchill) and Mildura campuses; 4 years full time, February intake. 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page; Monash quotes the same annual rate as the direct-entry M6011 course, and the default (domestic) view shows only the CSP contribution of A$14,046. The medical school's 'Applications and fees' page states that international applicants are admitted on a full-fee basis and points to the course fees pages. CRICOS 0101541. Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-04 through a text rendering (r.jina.ai) of this URL because monash.edu blocks automated access (Cloudflare challenge). Excludes SSAF (not verifiable, see computer science entry) and OSHC. Fees reviewed annually. Fee history (added 2026-10-04) comes from Monash's own course-guide PDFs, read through a text rendering (r.jina.ai) of the official monash.edu URL because monash.edu blocks automated access; each guide's fee footnote reads '<year> quoted fees ... per 48 credit points', and the year named is the fee year (the 2027 guides' '2026 quoted' figures differ from the 2027 figures on the course pages). Monash's per-year course pages (/find-a-course/2024/..., /2025/...) render the current 2027 fee, so they cannot supply history. Rows: 2024: A$92,900 (2025 International Graduate Course Guide ('2024 quoted fees')); 2026: A$101,600 (2027 International Graduate Course Guide ('2026 quoted fees')). 2025 row (added 2026-10-06): Monash 2026 International Graduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Graduate Course Guide 2026', PDF read through the Google Docs viewer), M6018 p.18 'FEES A$97,700'; footnote '2025 quoted fees, in Australian dollars ... per 48 credit points'. Current record re-verified 2026-10-06 on the official course page (international view, read via r.jina.ai because monash.edu blocks scripts): 'International fee ... The fees for 2027 are: A$107,240'. Unchanged figure; sourceType set to official like the other Monash entries read the same way.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -471,6 +607,14 @@
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 101600,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 97700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
         }
       ]
@@ -493,12 +637,28 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
-      "notes": "M2018, Clayton campus (also Monash Malaysia); qualification 'Bachelor of Psychology', 3 years, APAC-accredited sequence; CRICOS 108900M. 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page ('The fees for 2027 are: A$51,140'). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-05 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history from Monash's own course-guide PDF, read through a text rendering (r.jina.ai) of the official monash.edu URL: 2026: A$48,600 (2027 International Undergraduate Course Guide, Bachelor of Psychology M2018, footnote '2026 quoted fees ... per 48 credit points'). No 2024/2025 rows: no earlier Monash undergraduate guide was found (as for the other Monash undergraduate entries), and the per-year course pages render the current fee.",
+      "notes": "M2018, Clayton campus (also Monash Malaysia); qualification 'Bachelor of Psychology', 3 years, APAC-accredited sequence; CRICOS 108900M. 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page ('The fees for 2027 are: A$51,140'). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-05 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history from Monash's own course-guide PDF, read through a text rendering (r.jina.ai) of the official monash.edu URL: 2026: A$48,600 (2027 International Undergraduate Course Guide, Bachelor of Psychology M2018, footnote '2026 quoted fees ... per 48 credit points'). No 2024/2025 rows: no earlier Monash undergraduate guide was found (as for the other Monash undergraduate entries), and the per-year course pages render the current fee. Sources (added 2026-10-06): 2024 from Monash's 2025 International Undergraduate Course Guide (official URL https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf, Wayback capture 2025-09-06, PDF read through the Google Docs viewer); every fee footnote in that guide reads '2024 quoted fees, in Australian dollars ... Fees are per 48 credit points'. 2025 from the 2026 International Undergraduate Course Guide (same asset URL as the current 2027 guide, https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf, Wayback capture 2025-08-04 whose cover reads 'International Undergraduate Course Guide 2026'); its footnotes read '2025 quoted fees ... per 48 credit points'. Bachelor of Psychology M2018: 2025 guide 'FEES A$44,200'; 2026 guide p.18 'FEES A$44,200'. Both guides print A$44,200 (2024 quoted and 2025 quoted), so it was unchanged as published. M2018 was already offered for 2024 entry (it is in the 2024 International Undergraduate Course Guide).",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 48600,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0009/3250647/2025-UG-International-course-guide.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
         }
       ]
@@ -521,7 +681,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
-      "notes": "M6046, Clayton campus; professional-entry coursework master's (fifth and sixth years of psychology), 2 years full-time, February intake; entry needs an APAC-accredited 4-year psychology sequence; CRICOS 118465J. 2027 fee per 48 credit points from the fees section of the international view of the page ('The fees for 2027 are: A$59,440'; this page labels it 'Full fee'), read 2026-10-05 through a text rendering (r.jina.ai) because monash.edu blocks automated access. The course is listed in the 2027 International Graduate Course Guide, confirming it is open to international students. Monash's other psychology master's (Professional Psychology D6008, Educational and Developmental Psychology D6007) are 1-year programmes. Excludes SSAF and OSHC. Fees reviewed annually. Fee history: 2026: A$56,500 (2027 International Graduate Course Guide, Master of Clinical Psychology M6046, footnote '2026 quoted fees ... per 48 credit points'; read through r.jina.ai of the official URL). No 2024/2025 rows: the course (new CRICOS code) is not in the 2025 International Graduate Course Guide.",
+      "notes": "M6046, Clayton campus; professional-entry coursework master's (fifth and sixth years of psychology), 2 years full-time, February intake; entry needs an APAC-accredited 4-year psychology sequence; CRICOS 118465J. 2027 fee per 48 credit points from the fees section of the international view of the page ('The fees for 2027 are: A$59,440'; this page labels it 'Full fee'), read 2026-10-05 through a text rendering (r.jina.ai) because monash.edu blocks automated access. The course is listed in the 2027 International Graduate Course Guide, confirming it is open to international students. Monash's other psychology master's (Professional Psychology D6008, Educational and Developmental Psychology D6007) are 1-year programmes. Excludes SSAF and OSHC. Fees reviewed annually. Fee history: 2026: A$56,500 (2027 International Graduate Course Guide, Master of Clinical Psychology M6046, footnote '2026 quoted fees ... per 48 credit points'; read through r.jina.ai of the official URL). No 2024/2025 rows: the course (new CRICOS code) is not in the 2025 International Graduate Course Guide. No 2024/2025 rows (checked 2026-10-06): M6046 is not in the 2026 International Graduate Course Guide (Wayback capture 2025-08-04 of https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf; no 'M6046' or 'Clinical Psychology' entry) and, per the earlier note, not in the 2025 guide either. It first appears in the 2027 guide, so there was no published international fee for 2024 or 2025 entry.",
       "feeHistory": [
         {
           "feeYear": 2026,

@@ -41,19 +41,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for new international students; yearly increases are capped at 3% for 4 years, so later years cost a little more. Compulsory fees included; health insurance is extra.",
-      "notes": "C$1,717.68/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Arts undergraduate society fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
+      "notes": "C$1,717.68/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Arts undergraduate society fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages (2024/25 and 2025/26 'Student Fees Established and Approved by a Student Society' and '...by the UBC Board of Governors'). 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 2 + Arts (B.A. non-Econ) society fee 13.00 + Arts Student Centre Building Fee 30.35 43.35 = C$925.88; 2025: athletics 254.70 + AMS 272.91 + U-Pass 187.60 x 2 + Arts (B.A. non-Econ) society fee 13.00 + Arts Student Centre Building Fee 31.12 44.12 = C$946.93. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 47189.4,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 925.88,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 49548.6,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 946.93,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -75,19 +79,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for new international students; yearly increases are capped at 3% for 4 years, so later years cost a little more. Compulsory fees included; health insurance is extra.",
-      "notes": "C$1,769.40/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
+      "notes": "C$1,769.40/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages (2024/25 and 2025/26 'Student Fees Established and Approved by a Student Society' and '...by the UBC Board of Governors'). 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 2 + Science (B.Sc.) society fee 31.64 = C$914.17; 2025: athletics 254.70 + AMS 272.91 + U-Pass 187.60 x 2 + Science (B.Sc.) society fee 32.19 = C$935.00. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 48610.2,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 914.17,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 51040.5,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 935.0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -109,19 +117,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for new international students, charged at the Science rate. Yearly increases are capped at 3% for 4 years. Compulsory fees included; health insurance is extra.",
-      "notes": "Computer Science is charged the Science rate: C$1,769.40/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
+      "notes": "Computer Science is charged the Science rate: C$1,769.40/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages (2024/25 and 2025/26 'Student Fees Established and Approved by a Student Society' and '...by the UBC Board of Governors'). 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 2 + Science (B.Sc.) society fee 31.64 = C$914.17; 2025: athletics 254.70 + AMS 272.91 + U-Pass 187.60 x 2 + Science (B.Sc.) society fee 32.19 = C$935.00. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 48610.2,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 914.17,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 51040.5,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 935.0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -143,19 +155,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for new international students, based on the heavier first-year course load. Yearly increases capped at 3% for 4 years. Compulsory fees included; health insurance is extra.",
-      "notes": "Engineering C$1,789.18/credit x 37-credit first-year load (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Applied Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 37 (UBC Calendar archive).",
+      "notes": "Engineering C$1,789.18/credit x 37-credit first-year load (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Applied Science undergraduate society fee, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 37 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages (2024/25 and 2025/26 'Student Fees Established and Approved by a Student Society' and '...by the UBC Board of Governors'). 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 2 + Applied Science (B.A.Sc.) society fee 50.87 = C$933.40; 2025: athletics 254.70 + AMS 272.91 + U-Pass 187.60 x 2 + Applied Science (B.A.Sc.) society fee 52.19 = C$955.00. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 60622.65,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 933.4,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 63653.69,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 955.0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -177,19 +193,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for new international students; yearly increases are capped at 3% for 4 years, so later years cost a little more. Compulsory fees included; health insurance is extra.",
-      "notes": "Sauder C$2,222.61/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Commerce society and renovation fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive).",
+      "notes": "Sauder C$2,222.61/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Commerce society and renovation fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages (2024/25 and 2025/26 'Student Fees Established and Approved by a Student Society' and '...by the UBC Board of Governors'). 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 2 + Commerce (B.Com.) society fee 291.52 + Commerce Student Building Fee (B.Com.) 658.40, listed in the 2024/25 Calendar's per-year undergraduate society table (it no longer appears in 2025/26; 2026/27 instead has a C$40 Commerce Renovation Fee) 949.92 = C$1,832.45; 2025: athletics 254.70 + AMS 272.91 + U-Pass 187.60 x 2 + Commerce (B.Com.) society fee 291.52 291.52 = C$1,194.33. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 61061.1,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 1832.45,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 64113.9,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 1194.33,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -211,19 +231,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students in the 3-year graduate-entry law degree; later years carry a slightly lighter load. Increases are capped, not fixed. Compulsory fees included; health insurance extra.",
-      "notes": "International Law (J.D.) rate for students commencing in 2026S or later: C$1,520.25/credit x 32-credit first-year load (Allard: 30 credits in Years 2-3) = C$48,648 (2026/27 Calendar). Allard's own tuition page still shows C$1,505.63/credit (C$48,180.16) for 2026/27. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 2 terms and the Law (J.D.) student society fee C$151.11, per the 2026/27 Calendar; iMED insurance excluded. JD is graduate-entry (3 years). Rates are set by commencement year with capped increases, not fixed. 2024/2025 = that year's new-student per-credit rate x 32 (UBC Calendar archive).",
+      "notes": "International Law (J.D.) rate for students commencing in 2026S or later: C$1,520.25/credit x 32-credit first-year load (Allard: 30 credits in Years 2-3) = C$48,648 (2026/27 Calendar). Allard's own tuition page still shows C$1,505.63/credit (C$48,180.16) for 2026/27. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 2 terms and the Law (J.D.) student society fee C$151.11, per the 2026/27 Calendar; iMED insurance excluded. JD is graduate-entry (3 years). Rates are set by commencement year with capped increases, not fixed. 2024/2025 = that year's new-student per-credit rate x 32 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages (2024/25 and 2025/26 'Student Fees Established and Approved by a Student Society' and '...by the UBC Board of Governors'). 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 2 + Law (J.D.) society fee 148.00 = C$1,030.53; 2025: athletics 254.70 + AMS 272.91 + U-Pass 187.60 x 2 + Law (J.D.) society fee 148.00 = C$1,050.81. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 44549.76,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 1030.53,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 46776.96,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 1050.81,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -245,19 +269,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students for this 12-month master's. Compulsory student fees included; health insurance is extra.",
-      "notes": "Specialized master's rate for students entering 2026S/2026W: C$10,797.91 per instalment x 3 instalments (12-month programme, minimum 3 instalments) = C$32,393.73 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms (graduate students register year-round) and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. The Calendar lists a separate rate per entry year and continuing cohorts' rates rise each year (about 3%), so not cohort-locked. 2024/2025 = that year's new-entrant instalment x 3 (UBC Calendar archive).",
+      "notes": "Specialized master's rate for students entering 2026S/2026W: C$10,797.91 per instalment x 3 instalments (12-month programme, minimum 3 instalments) = C$32,393.73 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms (graduate students register year-round) and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. The Calendar lists a separate rate per entry year and continuing cohorts' rates rise each year (about 3%), so not cohort-locked. 2024/2025 = that year's new-entrant instalment x 3 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages. 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 3 terms + GSS fees 77.57 (capital improvement 7.67, society 67.60, financial aid 2.30) = C$1,144.10; 2025: 254.70 + 272.91 + 187.60 x 3 + GSS 78.94 (7.79 + 68.81 + 2.34) = C$1,169.35. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 29664.6,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1144.1,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 31147.83,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1169.35,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -279,19 +307,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Programme total for the 16-month MBA spread over 1.33 years, fixed for your intake. Includes compulsory fees and one-off MBA society and building fees; health insurance is extra.",
-      "notes": "'Master of Business Administration (16 months)' international rate for students entering 2026S/2026W: C$27,105.19 per instalment x 4 instalments = C$108,420.76 for the programme, divided by 1.33 years (16 months) (2026/27 Calendar). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49 per year; one-off = Commerce and Business Administration (M.B.A.) society fee C$538.76 and M.B.A. Sauder Student Building Fee C$2,061.01, both collected with the first tuition instalment; iMED insurance excluded. The Calendar fixes each entry-year cohort's instalment for the programme (the 2024 and 2025 cohorts' rates are unchanged in the 2026/27 Calendar). 2024/2025 = that cohort's instalment x 4 / 1.33 (UBC Calendar archive).",
+      "notes": "'Master of Business Administration (16 months)' international rate for students entering 2026S/2026W: C$27,105.19 per instalment x 4 instalments = C$108,420.76 for the programme, divided by 1.33 years (16 months) (2026/27 Calendar). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49 per year; one-off = Commerce and Business Administration (M.B.A.) society fee C$538.76 and M.B.A. Sauder Student Building Fee C$2,061.01, both collected with the first tuition instalment; iMED insurance excluded. The Calendar fixes each entry-year cohort's instalment for the programme (the 2024 and 2025 cohorts' rates are unchanged in the 2026/27 Calendar). 2024/2025 = that cohort's instalment x 4 / 1.33 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages. 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 3 terms + GSS fees 77.57 (capital improvement 7.67, society 67.60, financial aid 2.30) = C$1,144.10; 2025: 254.70 + 272.91 + 187.60 x 3 + GSS 78.94 (7.79 + 68.81 + 2.34) = C$1,169.35. One-off (collected with the first MBA tuition instalment): Commerce and Business Administration (M.B.A.) society fee + M.B.A. Sauder Student Building Fee = 514.31 + 1,975.21 = C$2,489.52 (2024/25) and 527.68 + 2,026.56 = C$2,554.24 (2025/26). AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 74651.46,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1144.1,
+          "oneOffFees": 2489.52,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 78384.03,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1169.35,
+          "oneOffFees": 2554.24,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -313,19 +345,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Tuition for international students for this 10-month programme, fixed for your intake. Compulsory student fees included; health insurance is extra.",
-      "notes": "Specialized master's rate for students entering 2026S/2026W: C$19,922.64 per instalment x 3 instalments = C$59,767.92 for the 10-month programme (2026/27 Calendar; grad.ubc.ca quotes the same programme fee). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. The Calendar fixes each entry-year cohort's instalment (the 2024 and 2025 cohorts' rates are unchanged in the 2026/27 Calendar). 2024/2025 = that cohort's instalment x 3 (UBC Calendar archive).",
+      "notes": "Specialized master's rate for students entering 2026S/2026W: C$19,922.64 per instalment x 3 instalments = C$59,767.92 for the 10-month programme (2026/27 Calendar; grad.ubc.ca quotes the same programme fee). Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. The Calendar fixes each entry-year cohort's instalment (the 2024 and 2025 cohorts' rates are unchanged in the 2026/27 Calendar). 2024/2025 = that cohort's instalment x 3 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages. 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 3 terms + GSS fees 77.57 (capital improvement 7.67, society 67.60, financial aid 2.30) = C$1,144.10; 2025: 254.70 + 272.91 + 187.60 x 3 + GSS 78.94 (7.79 + 68.81 + 2.34) = C$1,169.35. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 54732.57,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1144.1,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 57469.17,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1169.35,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -347,19 +383,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students for this 12-month programme; students who take longer keep paying each term. Compulsory student fees included; health insurance is extra.",
-      "notes": "'Master of Engineering (full-time)' international rate for students entering 2026S/2026W: C$9,139.78 per instalment x 3 instalments per year = C$27,419.34 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure for the ECE MEng). Minimum programme fee is 3 instalments (12 months); students who take longer pay the same instalment as a continuing fee. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. Continuing cohorts' rates rise each year (about 2-3%), so not cohort-locked. 2024/2025 = that year's new-entrant instalment x 3 (UBC Calendar archive).",
+      "notes": "'Master of Engineering (full-time)' international rate for students entering 2026S/2026W: C$9,139.78 per instalment x 3 instalments per year = C$27,419.34 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure for the ECE MEng). Minimum programme fee is 3 instalments (12 months); students who take longer pay the same instalment as a continuing fee. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. Continuing cohorts' rates rise each year (about 2-3%), so not cohort-locked. 2024/2025 = that year's new-entrant instalment x 3 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages. 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 3 terms + GSS fees 77.57 (capital improvement 7.67, society 67.60, financial aid 2.30) = C$1,144.10; 2025: 254.70 + 272.91 + 187.60 x 3 + GSS 78.94 (7.79 + 68.81 + 2.34) = C$1,169.35. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 25862.58,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1144.1,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 26364.75,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1169.35,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -381,19 +421,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students in a standard 2-year master's. Reviewed each year, so it may rise. Compulsory student fees included; health insurance is extra.",
-      "notes": "Standard master's Schedule A (full-time) international rate: C$3,360.55 per instalment x 3 instalments per year = C$10,081.65 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure for the MSc Physics). Applies to all standard (non-specialized) MSc/MA programmes; minimum 6 instalments, after which the continuing fee applies. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. Schedule A is reviewed annually (2% rises in recent years), so not cohort-locked. 2024/2025 = that year's Schedule A instalment x 3 (UBC Calendar archive).",
+      "notes": "Standard master's Schedule A (full-time) international rate: C$3,360.55 per instalment x 3 instalments per year = C$10,081.65 (2026/27 Calendar; grad.ubc.ca quotes the same per-year figure for the MSc Physics). Applies to all standard (non-specialized) MSc/MA programmes; minimum 6 instalments, after which the continuing fee applies. Compulsory = UBC Athletics & Recreation fee C$259.74, AMS fees excl. the opt-out Health & Dental Plan C$288.62, U-Pass C$191.40 x 3 terms and Graduate Student Society fees C$80.49, per the 2026/27 Calendar; iMED insurance excluded. Schedule A is reviewed annually (2% rises in recent years), so not cohort-locked. 2024/2025 = that year's Schedule A instalment x 3 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages. 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 3 terms + GSS fees 77.57 (capital improvement 7.67, society 67.60, financial aid 2.30) = C$1,144.10; 2025: 254.70 + 272.91 + 187.60 x 3 + GSS 78.94 (7.79 + 68.81 + 2.34) = C$1,169.35. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 9690.18,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1144.1,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 9883.98,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1169.35,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -415,19 +459,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for new international students; yearly increases are capped at 3% for 4 years, so later years cost a little more. Compulsory fees included; health insurance is extra.",
-      "notes": "C$1,717.68/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Arts undergraduate society fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive). Psychology is a Faculty of Arts major (BA); Arts per-credit tuition and fees apply, so figures and 2024/2025 history are copied from the existing Bachelor of Arts record.",
+      "notes": "C$1,717.68/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Arts undergraduate society fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive). Psychology is a Faculty of Arts major (BA); Arts per-credit tuition and fees apply, so figures and 2024/2025 history are copied from the existing Bachelor of Arts record. Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages (2024/25 and 2025/26 'Student Fees Established and Approved by a Student Society' and '...by the UBC Board of Governors'). 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 2 + Arts (B.A. non-Econ) society fee 13.00 + Arts Student Centre Building Fee 30.35 43.35 = C$925.88; 2025: athletics 254.70 + AMS 272.91 + U-Pass 187.60 x 2 + Arts (B.A. non-Econ) society fee 13.00 + Arts Student Centre Building Fee 31.12 44.12 = C$946.93. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 47189.4,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 925.88,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 49548.6,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+          "annualCompulsoryFees": 946.93,
+          "oneOffFees": 0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     },
@@ -449,19 +497,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students in this coursework master's, usually about 2 years. Not fixed: the rate rises each year. Compulsory student fees included; health insurance is extra.",
-      "notes": "2026/27 UBC Calendar, Master's Tuition Fees, 'Master of Education (Counselling Psychology) (program on-campus)': international fee per instalment C$5,905.24 for students entering 2026S or 2026W x 3 instalments per year = C$17,715.72 (grad.ubc.ca programme page quotes the same 'Tuition per year' C$17,715.72 and says coursework only). The international continuing fee equals the full instalment, so each further year is charged again (about 2 years full-time; average completion 2.7 years per grad.ubc.ca), and the Calendar lists a separate, higher rate per entry year, so not cohort-locked. Compulsory = UBC Athletics & Recreation, AMS fees excl. the opt-out Health & Dental Plan, U-Pass x 3 terms and Graduate Student Society fees, C$1,203.05 for 2026/27 as in the existing graduate records; iMED insurance excluded. The MA in Counselling Psychology and the Department of Psychology's MA are thesis-based. 2024 = 2024/25 new-entrant instalment C$5,407.74 x 3 = C$16,223.22; 2025 = 2025/26 new-entrant instalment C$5,678.12 x 3 = C$17,034.36 (UBC Calendar archive).",
+      "notes": "2026/27 UBC Calendar, Master's Tuition Fees, 'Master of Education (Counselling Psychology) (program on-campus)': international fee per instalment C$5,905.24 for students entering 2026S or 2026W x 3 instalments per year = C$17,715.72 (grad.ubc.ca programme page quotes the same 'Tuition per year' C$17,715.72 and says coursework only). The international continuing fee equals the full instalment, so each further year is charged again (about 2 years full-time; average completion 2.7 years per grad.ubc.ca), and the Calendar lists a separate, higher rate per entry year, so not cohort-locked. Compulsory = UBC Athletics & Recreation, AMS fees excl. the opt-out Health & Dental Plan, U-Pass x 3 terms and Graduate Student Society fees, C$1,203.05 for 2026/27 as in the existing graduate records; iMED insurance excluded. The MA in Counselling Psychology and the Department of Psychology's MA are thesis-based. 2024 = 2024/25 new-entrant instalment C$5,407.74 x 3 = C$16,223.22; 2025 = 2025/26 new-entrant instalment C$5,678.12 x 3 = C$17,034.36 (UBC Calendar archive). Compulsory-fee history from the archived UBC Vancouver Calendar student-fee pages. 2024: athletics 249.84 + AMS 264.69 + U-Pass 184.00 x 3 terms + GSS fees 77.57 (capital improvement 7.67, society 67.60, financial aid 2.30) = C$1,144.10; 2025: 254.70 + 272.91 + 187.60 x 3 + GSS 78.94 (7.79 + 68.81 + 2.34) = C$1,169.35. AMS fees excl. the opt-out Health & Dental Plan = every per-year AMS fee in the Calendar table except Health & Dental, U-Pass and the final-year Graduating Class Fee (2024/25: membership 50.01, bursary 12.00, athletics & intramurals 21.00, international 0.34, ombudsperson 1.31, SASC 17.73, clubs 0.83, food access 0.45, legal fund 1.00, WUSC 6.64, capital projects 9.69, SUB renewal 100.00, climate action 1.66, Indigenous fund 1.13, new rec centre 15.00, thrift shop 1.13, resource groups 2.05, bike kitchen 4.32, CiTR 6.79, culture & performance 3.46, Ubyssey 8.15 = 264.69; 2025/26: 51.34, 12.00, 21.00, 0.35, 1.34, 18.20, 0.85, 0.46, 1.00, 6.82, 9.95, 100.00, 1.70, 1.16, 20.00, 1.16, 2.10, 4.43, 6.97, 3.71, 8.37 = 272.91). The same rule applied to the 2026/27 Calendar gives exactly the current record's C$288.62, so the components match. Athletics & Recreation fee from the Board-of-Governors student-fees page of each archived Calendar (2024/25 C$249.84, 2025/26 C$254.70); U-Pass C$184.00 (2024/25) and C$187.60 (2025/26) per term. iMED excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 16223.22,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1144.1,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 17034.36,
-          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+          "annualCompulsoryFees": 1169.35,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/student-fees/student-fees-established-and-approved-student-society/index.html"
         }
       ]
     }

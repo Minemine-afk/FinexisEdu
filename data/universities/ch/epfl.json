@@ -41,12 +41,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus small compulsory sports and social fund fees. A one-off CHF 150 application fee is extra. Tuition is adjusted for inflation every four years from 2029.",
-      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025 (CPI-indexed every four years from 2029). Compulsory semester contributions: sports CHF 16 + social fund CHF 9 = CHF 25 x 2; the CHF 25 AGEPoly membership is refundable on request so excluded. One-off application fee CHF 150 for foreign certificates (from EPFL's 'Financing your studies' page). 3-year (180 ECTS) bachelor's taught in French.",
+      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025 (CPI-indexed every four years from 2029). Compulsory semester contributions: sports CHF 16 + social fund CHF 9 = CHF 25 x 2; the CHF 25 AGEPoly membership is refundable on request so excluded. One-off application fee CHF 150 for foreign certificates (from EPFL's 'Financing your studies' page). 3-year (180 ECTS) bachelor's taught in French. 2024 row completed from Common Crawl captures of EPFL's 'Tuition fee and other fees' page, 2024-07-14 (CC-MAIN-2024-30) and 2024-10-12 (CC-MAIN-2024-42): 'The total amount due per semester invoice is CHF 780: CHF 730 in tuition fee, CHF 25 in AGEPoly membership, CHF 16 in contribution to the sports facilities, CHF 9 in contribution to the social fund' (AGEPoly refundable, so excluded): tuition 730 x 2 = 1,460, compulsory (16+9) x 2 = 50. Application fee: EPFL 'Financing your studies' page captures 2024-04-21 (CC-MAIN-2024-18) and 2024-08-03 (CC-MAIN-2024-33), budget for foreigners: 'application fee when the application is submitted (1x): CHF 150.- for foreign certificates'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
+          "annualCompulsoryFees": 50,
+          "oneOffFees": 150,
           "sourceUrl": "https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees"
         },
         {
@@ -77,12 +79,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus small compulsory sports and social fund fees. A one-off CHF 150 application fee is extra. Tuition is adjusted for inflation every four years from 2029.",
-      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025 (CPI-indexed every four years from 2029). Compulsory semester contributions: sports CHF 16 + social fund CHF 9 = CHF 25 x 2; the CHF 25 AGEPoly membership is refundable on request so excluded. One-off application fee CHF 150 for foreign certificates (from EPFL's 'Financing your studies' page). 3-year (180 ECTS) bachelor's taught in French.",
+      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025 (CPI-indexed every four years from 2029). Compulsory semester contributions: sports CHF 16 + social fund CHF 9 = CHF 25 x 2; the CHF 25 AGEPoly membership is refundable on request so excluded. One-off application fee CHF 150 for foreign certificates (from EPFL's 'Financing your studies' page). 3-year (180 ECTS) bachelor's taught in French. 2024 row completed from Common Crawl captures of EPFL's 'Tuition fee and other fees' page, 2024-07-14 (CC-MAIN-2024-30) and 2024-10-12 (CC-MAIN-2024-42): 'The total amount due per semester invoice is CHF 780: CHF 730 in tuition fee, CHF 25 in AGEPoly membership, CHF 16 in contribution to the sports facilities, CHF 9 in contribution to the social fund' (AGEPoly refundable, so excluded): tuition 730 x 2 = 1,460, compulsory (16+9) x 2 = 50. Application fee: EPFL 'Financing your studies' page captures 2024-04-21 (CC-MAIN-2024-18) and 2024-08-03 (CC-MAIN-2024-33), budget for foreigners: 'application fee when the application is submitted (1x): CHF 150.- for foreign certificates'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
+          "annualCompulsoryFees": 50,
+          "oneOffFees": 150,
           "sourceUrl": "https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees"
         },
         {
@@ -113,12 +117,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus small compulsory sports and social fund fees. A one-off CHF 150 application fee is extra. Tuition is adjusted for inflation every four years from 2029.",
-      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025 (CPI-indexed every four years from 2029). Compulsory semester contributions: sports CHF 16 + social fund CHF 9 = CHF 25 x 2; the CHF 25 AGEPoly membership is refundable on request so excluded. One-off application fee CHF 150 for foreign certificates (from EPFL's 'Financing your studies' page). 3-year (180 ECTS) bachelor's taught in French. EPFL has no bachelor's in business or arts.",
+      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025 (CPI-indexed every four years from 2029). Compulsory semester contributions: sports CHF 16 + social fund CHF 9 = CHF 25 x 2; the CHF 25 AGEPoly membership is refundable on request so excluded. One-off application fee CHF 150 for foreign certificates (from EPFL's 'Financing your studies' page). 3-year (180 ECTS) bachelor's taught in French. EPFL has no bachelor's in business or arts. 2024 row completed from Common Crawl captures of EPFL's 'Tuition fee and other fees' page, 2024-07-14 (CC-MAIN-2024-30) and 2024-10-12 (CC-MAIN-2024-42): 'The total amount due per semester invoice is CHF 780: CHF 730 in tuition fee, CHF 25 in AGEPoly membership, CHF 16 in contribution to the sports facilities, CHF 9 in contribution to the social fund' (AGEPoly refundable, so excluded): tuition 730 x 2 = 1,460, compulsory (16+9) x 2 = 50. Application fee: EPFL 'Financing your studies' page captures 2024-04-21 (CC-MAIN-2024-18) and 2024-08-03 (CC-MAIN-2024-33), budget for foreigners: 'application fee when the application is submitted (1x): CHF 150.- for foreign certificates'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
+          "annualCompulsoryFees": 50,
+          "oneOffFees": 150,
           "sourceUrl": "https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees"
         },
         {
@@ -149,12 +155,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus small compulsory sports and social fund fees. A one-off CHF 150 application fee is extra. Tuition is adjusted for inflation every four years from 2029.",
-      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025. Compulsory semester contributions sports CHF 16 + social fund CHF 9 = CHF 25 x 2 (AGEPoly CHF 25 refundable, excluded). One-off application fee CHF 150 for foreign degrees. 120 ECTS over 3 course semesters plus a 6-month master's project, taught in English.",
+      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025. Compulsory semester contributions sports CHF 16 + social fund CHF 9 = CHF 25 x 2 (AGEPoly CHF 25 refundable, excluded). One-off application fee CHF 150 for foreign degrees. 120 ECTS over 3 course semesters plus a 6-month master's project, taught in English. 2024 row completed from Common Crawl captures of EPFL's 'Tuition fee and other fees' page, 2024-07-14 (CC-MAIN-2024-30) and 2024-10-12 (CC-MAIN-2024-42): 'The total amount due per semester invoice is CHF 780: CHF 730 in tuition fee, CHF 25 in AGEPoly membership, CHF 16 in contribution to the sports facilities, CHF 9 in contribution to the social fund' (AGEPoly refundable, so excluded): tuition 730 x 2 = 1,460, compulsory (16+9) x 2 = 50. Application fee: EPFL 'Financing your studies' page captures 2024-04-21 (CC-MAIN-2024-18) and 2024-08-03 (CC-MAIN-2024-33), budget for foreigners: 'application fee when the application is submitted (1x): CHF 150.- for foreign certificates'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
+          "annualCompulsoryFees": 50,
+          "oneOffFees": 150,
           "sourceUrl": "https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees"
         },
         {
@@ -185,12 +193,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus small compulsory sports and social fund fees. A one-off CHF 150 application fee is extra. Tuition is adjusted for inflation every four years from 2029.",
-      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025. Compulsory semester contributions sports CHF 16 + social fund CHF 9 = CHF 25 x 2 (AGEPoly CHF 25 refundable, excluded). One-off application fee CHF 150 for foreign degrees. 120 ECTS over 3 course semesters plus a 6-month master's project, taught in English.",
+      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025. Compulsory semester contributions sports CHF 16 + social fund CHF 9 = CHF 25 x 2 (AGEPoly CHF 25 refundable, excluded). One-off application fee CHF 150 for foreign degrees. 120 ECTS over 3 course semesters plus a 6-month master's project, taught in English. 2024 row completed from Common Crawl captures of EPFL's 'Tuition fee and other fees' page, 2024-07-14 (CC-MAIN-2024-30) and 2024-10-12 (CC-MAIN-2024-42): 'The total amount due per semester invoice is CHF 780: CHF 730 in tuition fee, CHF 25 in AGEPoly membership, CHF 16 in contribution to the sports facilities, CHF 9 in contribution to the social fund' (AGEPoly refundable, so excluded): tuition 730 x 2 = 1,460, compulsory (16+9) x 2 = 50. Application fee: EPFL 'Financing your studies' page captures 2024-04-21 (CC-MAIN-2024-18) and 2024-08-03 (CC-MAIN-2024-33), budget for foreigners: 'application fee when the application is submitted (1x): CHF 150.- for foreign certificates'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
+          "annualCompulsoryFees": 50,
+          "oneOffFees": 150,
           "sourceUrl": "https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees"
         },
         {
@@ -221,12 +231,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus small compulsory sports and social fund fees. A one-off CHF 150 application fee is extra. Tuition is adjusted for inflation every four years from 2029.",
-      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025. Compulsory semester contributions sports CHF 16 + social fund CHF 9 = CHF 25 x 2 (AGEPoly CHF 25 refundable, excluded). One-off application fee CHF 150 for foreign degrees. 120 ECTS (90 coursework over 3 semesters + 30 for a 6-month master's project in industry), College of Management of Technology, taught in English.",
+      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025. Compulsory semester contributions sports CHF 16 + social fund CHF 9 = CHF 25 x 2 (AGEPoly CHF 25 refundable, excluded). One-off application fee CHF 150 for foreign degrees. 120 ECTS (90 coursework over 3 semesters + 30 for a 6-month master's project in industry), College of Management of Technology, taught in English. 2024 row completed from Common Crawl captures of EPFL's 'Tuition fee and other fees' page, 2024-07-14 (CC-MAIN-2024-30) and 2024-10-12 (CC-MAIN-2024-42): 'The total amount due per semester invoice is CHF 780: CHF 730 in tuition fee, CHF 25 in AGEPoly membership, CHF 16 in contribution to the sports facilities, CHF 9 in contribution to the social fund' (AGEPoly refundable, so excluded): tuition 730 x 2 = 1,460, compulsory (16+9) x 2 = 50. Application fee: EPFL 'Financing your studies' page captures 2024-04-21 (CC-MAIN-2024-18) and 2024-08-03 (CC-MAIN-2024-33), budget for foreigners: 'application fee when the application is submitted (1x): CHF 150.- for foreign certificates'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
+          "annualCompulsoryFees": 50,
+          "oneOffFees": 150,
           "sourceUrl": "https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees"
         },
         {
@@ -257,12 +269,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students who move to Switzerland to study, plus small compulsory sports and social fund fees. A one-off CHF 150 application fee is extra. Tuition is adjusted for inflation every four years from 2029.",
-      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025. Compulsory semester contributions sports CHF 16 + social fund CHF 9 = CHF 25 x 2 (AGEPoly CHF 25 refundable, excluded). One-off application fee CHF 150 for foreign degrees. 2-year (120 ECTS) master's taught in English.",
+      "notes": "Tripled tuition CHF 2,190 per semester x 2 for foreign students who move to Switzerland to study, from autumn 2025. Compulsory semester contributions sports CHF 16 + social fund CHF 9 = CHF 25 x 2 (AGEPoly CHF 25 refundable, excluded). One-off application fee CHF 150 for foreign degrees. 2-year (120 ECTS) master's taught in English. 2024 row completed from Common Crawl captures of EPFL's 'Tuition fee and other fees' page, 2024-07-14 (CC-MAIN-2024-30) and 2024-10-12 (CC-MAIN-2024-42): 'The total amount due per semester invoice is CHF 780: CHF 730 in tuition fee, CHF 25 in AGEPoly membership, CHF 16 in contribution to the sports facilities, CHF 9 in contribution to the social fund' (AGEPoly refundable, so excluded): tuition 730 x 2 = 1,460, compulsory (16+9) x 2 = 50. Application fee: EPFL 'Financing your studies' page captures 2024-04-21 (CC-MAIN-2024-18) and 2024-08-03 (CC-MAIN-2024-33), budget for foreigners: 'application fee when the application is submitted (1x): CHF 150.- for foreign certificates'.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1460,
+          "annualCompulsoryFees": 50,
+          "oneOffFees": 150,
           "sourceUrl": "https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees"
         },
         {

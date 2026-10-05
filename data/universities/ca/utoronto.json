@@ -41,13 +41,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students. Not fixed: fees also rise for continuing students. Compulsory incidental fees included; health insurance is extra.",
-      "notes": "2026-27 full-time international tuition; compulsory = incidental fees C$2,266.83 (UHIP C$948 excluded). Not fixed: fee reports raise engineering international fees for continuing students too. 2024 from 2024-25 Tuition Fee Report (Entering 2024).",
+      "notes": "2026-27 full-time international tuition; compulsory = incidental fees C$2,266.83 (UHIP C$948 excluded). Not fixed: fee reports raise engineering international fees for continuing students too. 2024 from 2024-25 Tuition Fee Report (Entering 2024). 2024 row from U of T Student Accounts 'Faculty of Applied Science and Engineering 2024 - 2025 Fall-Winter Session Fee Schedules, International Fees' PDF (https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-APSC-INT_____.pdf, live, fetched 2026-10-05), Table 1A full-time BASc: program fee C$67,370.00 (matches the existing row), mandatory incidental, system access & ancillary fees C$2,080.72, UHIP C$756 excluded. Same basis as the 2025 row (the 2025-26 APSC-INT PDF gives C$2,203.84, matching the existing 2025 figure).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 67370,
-          "sourceUrl": "https://planningandbudget.utoronto.ca/wp-content/uploads/2024/04/2024-25-Tuition-Fee-Report.pdf"
+          "annualCompulsoryFees": 2080.72,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-APSC-INT_____.pdf"
         },
         {
           "feeYear": 2025,
@@ -76,13 +78,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students in the 3-year graduate-entry law degree. Rises each year. Compulsory fees included; health insurance is extra.",
-      "notes": "2026-27 international JD program fee C$72,790 (charged per academic year, not per course) from the U of T Tuition Explorer fee schedule; compulsory = Year 1 incidental and system access fees C$2,165.31 (C$2,115.31 in Years 2-3). UHIP (C$948) excluded. JD is graduate-entry (3 years). International fee rises yearly (2026-27 Tuition Fee Report: C$76,430 for 2027-28). 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the 2024-25 Tuition Fee Report (Table D, international JD C$66,020; fees not found).",
+      "notes": "2026-27 international JD program fee C$72,790 (charged per academic year, not per course) from the U of T Tuition Explorer fee schedule; compulsory = Year 1 incidental and system access fees C$2,165.31 (C$2,115.31 in Years 2-3). UHIP (C$948) excluded. JD is graduate-entry (3 years). International fee rises yearly (2026-27 Tuition Fee Report: C$76,430 for 2027-28). 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the 2024-25 Tuition Fee Report (Table D, international JD C$66,020; fees not found). 2024 row from U of T Student Accounts 'Faculty of Law 2024 - 2025 Fall-Winter Session Fee Schedules, International Fees' PDF (https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-Law-INT.pdf, live, fetched 2026-10-05): JD full-time international Year 1 program fee C$66,020.00 (matches the existing row), mandatory incidental, system access & ancillary fees C$1,990.34 (C$1,940.34 Years 2-3), UHIP C$756 excluded. Same basis as the 2025 row (the 2025-26 Law-INT PDF gives Year 1 C$2,106.40, matching the existing 2025 figure).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 66020,
-          "sourceUrl": "https://planningandbudget.utoronto.ca/wp-content/uploads/2024/04/2024-25-Tuition-Fee-Report.pdf"
+          "annualCompulsoryFees": 1990.34,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-Law-INT.pdf"
         },
         {
           "feeYear": 2025,
@@ -111,13 +115,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students in the 4-year graduate-entry Doctor of Medicine; international places are limited. Rises each year. Compulsory fees included; health insurance is extra.",
-      "notes": "2026-27 international Doctor of Medicine tuition C$100,270 from the Planning & Budget 2026-27 Tuition Fee Report (international fee schedule; C$103,280 approved for 2027-28). Compulsory = St. George campus incidental + ancillary fees C$2,535.05 for 2026-27 from the MD Program 'Current Fees' page (Mississauga Academy differs); UHIP excluded. MD is graduate-entry (4 years); international places are limited. 2024 and 2025 from the 2025-26 Tuition Fee Report (C$94,510 for 2024-25, C$97,350 for 2025-26); fees for those years not found.",
+      "notes": "2026-27 international Doctor of Medicine tuition C$100,270 from the Planning & Budget 2026-27 Tuition Fee Report (international fee schedule; C$103,280 approved for 2027-28). Compulsory = St. George campus incidental + ancillary fees C$2,535.05 for 2026-27 from the MD Program 'Current Fees' page (Mississauga Academy differs); UHIP excluded. MD is graduate-entry (4 years); international places are limited. 2024 and 2025 from the 2025-26 Tuition Fee Report (C$94,510 for 2024-25, C$97,350 for 2025-26); fees for those years not found. 2024 compulsory fees from the MD Program 'Current Fees' page (same page and line as the current record's 'Incidental fee + Ancillary Fees' C$2,535.05), Wayback capture 20241007164403, which links the 'Md_program_tuition_deferral_information_page_2024-25.pdf': St. George 'Incidental fee' C$2,326.88 with the 2024-25 UHIP premium C$756 (the 2023-24 version of the page, captured 20240130 and 20240624, showed C$2,157.17 with UHIP C$720). That capture's international tuition line (C$91,760) was not updated, so tuition stays at the Tuition Fee Report's C$94,510. 2025 left without fees: every 2025-26 capture of the MD page (20250917, 20251206, 20260312) still shows C$2,326.88 next to the 2024-25 UHIP C$756, i.e. that line was not updated for 2025-26, so it is not a 2025 figure. For reference, Student Accounts' narrower 'mandatory incidental, system access & ancillary' figure for MD (St. George) is C$1,948.88 for 2024-25 (24-25-Med-INT.pdf) and C$2,064.94 for 2025-26 (https://www.registrar.utoronto.ca/wp-content/uploads/2025/07/25-26-Med-INT.pdf); it is a different basis from the current record's C$2,535.05, so not used.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 94510,
-          "sourceUrl": "https://planningandbudget.utoronto.ca/wp-content/uploads/2025/04/2025-26-Tuition-Fee-Report.pdf"
+          "annualCompulsoryFees": 2326.88,
+          "oneOffFees": 0,
+          "sourceUrl": "https://md.utoronto.ca/current-fees"
         },
         {
           "feeYear": 2025,
@@ -361,7 +367,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Programme total for this 16-month master's spread over 1.33 years, plus a one-off C$2,200 pre-programme fee. Compulsory fees included; health insurance is extra.",
-      "notes": "16-month programme (Sep-Dec of the second year). Total programme fee at 2026-27 rates = Fall-Winter full-time program fee C$50,070 (SGS fee regulations: students who pay the full-time Fall-Winter fee pay nothing for the following Summer session, and the MScAC page confirms no payment in semester 3) + final Fall term fee C$25,035 (the Tuition Explorer 'Fall or Winter' schedule, half the Fall-Winter fee) = C$75,105, divided by 1.33 years. Compulsory = Fall-Winter incidental and system access fees C$2,292.39 (C$1,177.09 for the final Fall term alone). One-off = C$2,200 mandatory pre-program activities fee quoted on the MScAC 'Apply' page (read via r.jina.ai on 2026-10-01; that page estimates about C$90,050 all-in for the September 2026 intake). UHIP (C$948) excluded. Not fixed. 2025 = 2025-26 Fall-Winter C$47,690 + Fall-only C$23,845 over 1.33 years (Tuition Explorer); 2024 = 2024-25 C$45,420 + C$22,710 over 1.33 years (archived 2024-25 SGS international fee schedule PDF, Table 55).",
+      "notes": "16-month programme (Sep-Dec of the second year). Total programme fee at 2026-27 rates = Fall-Winter full-time program fee C$50,070 (SGS fee regulations: students who pay the full-time Fall-Winter fee pay nothing for the following Summer session, and the MScAC page confirms no payment in semester 3) + final Fall term fee C$25,035 (the Tuition Explorer 'Fall or Winter' schedule, half the Fall-Winter fee) = C$75,105, divided by 1.33 years. Compulsory = Fall-Winter incidental and system access fees C$2,292.39 (C$1,177.09 for the final Fall term alone). One-off = C$2,200 mandatory pre-program activities fee quoted on the MScAC 'Apply' page (read via r.jina.ai on 2026-10-01; that page estimates about C$90,050 all-in for the September 2026 intake). UHIP (C$948) excluded. Not fixed. 2025 = 2025-26 Fall-Winter C$47,690 + Fall-only C$23,845 over 1.33 years (Tuition Explorer); 2024 = 2024-25 C$45,420 + C$22,710 over 1.33 years (archived 2024-25 SGS international fee schedule PDF, Table 55). 2025 one-off: MScAC 'Apply' page, Program Fees section, Wayback capture 20250802073459: 'Starting in September 2025, tuition and fees for the entire 16-month MScAC program are estimated at approximately ... $87,500 CAD for international students. This fee includes a $2,200 mandatory fee for pre-program activities'. 2025 row otherwise unchanged (tuition C$53,651.25 and fees C$2,238.48 from Tuition Explorer 2025-26). 2024 one-off not filled: the same page's September 2024 wording (captures 20240530125435 and 20240812142134) gives only 'approximately $77,800 CAD for international students' and names no pre-program fee; the C$2,200 fee first appears in the August 2025 capture (it is absent from the February 2025 capture). No source states a 2024 amount or that it was nil.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -375,7 +381,8 @@
           "tier": "international",
           "annualTuition": 53651.25,
           "annualCompulsoryFees": 2238.48,
-          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=139"
+          "oneOffFees": 2200,
+          "sourceUrl": "https://mscac.utoronto.ca/apply/"
         }
       ]
     },
