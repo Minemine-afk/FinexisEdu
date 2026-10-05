@@ -23,6 +23,8 @@ export const FIELDS = [
   "arts",
   "law",
   "medicine",
+  "psychology",
+  "nursing",
 ] as const;
 export const TIERS = ["citizen", "pr", "international"] as const;
 
@@ -49,7 +51,18 @@ export const FeeHistoryEntry = z.object({
   sourceUrl: z.url().optional(),
 });
 
+// A university whose degree another institution teaches (e.g. SIM Global Education's partners).
+export const Partner = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  name: z.string().min(1),
+  country: z.string().min(1),
+  website: z.url().optional(),
+  description: z.string().min(1).optional(),
+});
+
 export const Programme = z.object({
+  /** Id of the awarding partner in the university's `partners`, where it has any. */
+  partner: z.string().optional(),
   level: Level,
   field: Field,
   name: z.string().min(1),
@@ -112,6 +125,8 @@ export const University = z.object({
   /** Why it is in the calculator, e.g. evidence of Singaporean enrolment or recognition. */
   whyIncluded: z.string().min(1).optional(),
   livingCosts: LivingCosts.optional(),
+  /** Awarding universities, when this institution teaches other universities' degrees. */
+  partners: z.array(Partner).optional(),
   programmes: z.array(Programme),
 });
 
@@ -141,6 +156,7 @@ export type Field = z.infer<typeof Field>;
 export type Tier = z.infer<typeof Tier>;
 export type FeeTier = z.infer<typeof FeeTier>;
 export type FeeHistoryEntry = z.infer<typeof FeeHistoryEntry>;
+export type Partner = z.infer<typeof Partner>;
 export type Programme = z.infer<typeof Programme>;
 export type LivingCategory = z.infer<typeof LivingCategory>;
 export type LivingCosts = z.infer<typeof LivingCosts>;

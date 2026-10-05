@@ -13,10 +13,14 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
   "website": "https://www.nus.edu.sg",
   "description": "Singapore's oldest and largest ...",   // 1–2 factual sentences, shown on hover over the name
   "whyIncluded": "MOE-funded Autonomous University ...", // why it is in the calculator (evidence of Singaporean demand)
+  "partners": [                                  // optional; only for institutions that teach other universities' degrees (SIM)
+    { "id": "uol", "name": "University of London", "country": "United Kingdom", "website": "https://www.london.ac.uk", "description": "..." }
+  ],
   "programmes": [
     {
+      "partner": "uol",                          // required when the university has "partners": id of the awarding partner
       "level": "bachelor",                       // "bachelor" | "master"
-      "field": "computing",                      // "engineering" | "computing" | "business" | "sciences" | "arts" | "law" | "medicine"
+      "field": "computing",                      // "engineering" | "computing" | "business" | "sciences" | "arts" | "law" | "medicine" | "psychology" | "nursing"
       "name": "Bachelor of Computing (Computer Science)",
       "durationYears": 4,                        // may be fractional, e.g. 1.5
       "feeYear": 2025,                           // calendar year the academic year STARTS in
@@ -60,6 +64,10 @@ Definitions:
 - `cohortLocked` — NUS/NTU/SMU and most UK universities fix fees for an intake
   cohort; many US/AU/CA universities raise them every year. When it is true the
   calculator does not apply yearly increases after the start year.
+- `partners` / `partner` — for an institution such as SIM Global Education whose
+  degrees are awarded by partner universities. The calculator then asks for the
+  partner after the university, and the yearly increase is estimated from that
+  partner's programmes first.
 - US public universities: use the non-resident (out-of-state/international) rate.
 - Singaporeans studying abroad are international students, so only `international`
   matters outside Singapore.

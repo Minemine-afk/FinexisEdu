@@ -126,6 +126,39 @@ describe("universityIncrease", () => {
     expect(e).toEqual({ rate: 0.05, basis: "country", series: 0 });
   });
 
+  it("uses the partner's own series first, then the whole institution", () => {
+    const mk = (name: string, partner: string, now: number, then: number) => ({
+      ...base,
+      name,
+      partner,
+      feeYear: 2026,
+      fees: {
+        international: {
+          annualTuition: now,
+          annualCompulsoryFees: 0,
+          oneOffFees: 0,
+        },
+      },
+      feeHistory: [
+        { feeYear: 2025, tier: "international" as const, annualTuition: then },
+      ],
+    });
+    const u = uni([
+      mk("A1", "a", 110, 100),
+      mk("A2", "a", 112, 100),
+      mk("B1", "b", 102, 100),
+      mk("B2", "b", 104, 100),
+      mk("C1", "c", 101, 100),
+    ]);
+    const a = universityIncrease(u, "international", country, "a");
+    expect(a.basis).toBe("partner");
+    expect(a.rate).toBeCloseTo(0.11, 3);
+    // Partner "c" has one series, so the whole institution's median is used.
+    const c = universityIncrease(u, "international", country, "c");
+    expect(c.basis).toBe("university");
+    expect(c.rate).toBeCloseTo(0.04, 3);
+  });
+
   it("produces a sane rate for every university in the data", () => {
     const countries = new Map(loadCountries().map((c) => [c.code, c]));
     for (const u of loadUniversities()) {

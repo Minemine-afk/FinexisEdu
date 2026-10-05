@@ -16,6 +16,8 @@ import {
   RESIDENCY_LABELS,
   formatCompactSgd,
   formatMoney,
+  partnerOf,
+  programmeLabel,
 } from "@/lib/format";
 import {
   FIELDS,
@@ -216,7 +218,16 @@ function reselect(
     const same = nextOptions.filter(
       (o) => o.university.id === prev.university.id && !next.includes(o.key),
     );
+    const samePartner = (x: Option) =>
+      x.programme.partner === prev.programme.partner;
     const o =
+      same.find(
+        (x) =>
+          samePartner(x) &&
+          x.programme.field === prev.programme.field &&
+          isAvailable(x),
+      ) ??
+      same.find((x) => samePartner(x) && isAvailable(x)) ??
       same.find(
         (x) => x.programme.field === prev.programme.field && isAvailable(x),
       ) ??
@@ -328,7 +339,12 @@ export default function Calculator({
     .map((o) => {
       const country = countryByCode.get(o.university.country);
       const tier = o.university.country === "sg" ? residency : "international";
-      const increase = universityIncrease(o.university, tier, country);
+      const increase = universityIncrease(
+        o.university,
+        tier,
+        country,
+        o.programme.partner,
+      );
       const feeIncrease = customIncrease ?? increase.rate;
       const result = calculate({
         programme: o.programme,
@@ -803,10 +819,17 @@ function UniversityPicker({
   const atUniversity = inCountry.filter(
     (o) => o.university.id === current.university.id,
   );
-  const fields = FIELDS.filter((f) =>
-    atUniversity.some((o) => o.programme.field === f),
+  // Institutions such as SIM teach other universities' degrees: pick the awarding partner next.
+  const partners = (current.university.partners ?? []).filter((p) =>
+    atUniversity.some((o) => o.programme.partner === p.id),
   );
-  const programmes = atUniversity.filter(
+  const atPartner = partners.length
+    ? atUniversity.filter((o) => o.programme.partner === current.programme.partner)
+    : atUniversity;
+  const fields = FIELDS.filter((f) =>
+    atPartner.some((o) => o.programme.field === f),
+  );
+  const programmes = atPartner.filter(
     (o) => o.programme.field === current.programme.field,
   );
   const reason = reasonFor(current);
@@ -886,6 +909,30 @@ function UniversityPicker({
           })}
         </select>
       </label>
+      {partners.length > 0 && (
+        <label className="mt-2 block">
+          <span className="text-sm">Partner university</span>
+          <select
+            className={select}
+            value={current.programme.partner}
+            onChange={(e) =>
+              onChange(
+                pick(
+                  atUniversity.filter(
+                    (o) => o.programme.partner === e.target.value,
+                  ),
+                ).key,
+              )
+            }
+          >
+            {partners.map((p) => (
+              <option key={p.id} value={p.id}>
+                {p.name}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
       <label className="mt-2 block">
         <span className="text-sm">Field of study</span>
         <select
@@ -895,7 +942,7 @@ function UniversityPicker({
             const field = e.target.value as Field;
             onChange(
               pick(
-                atUniversity.filter((o) => o.programme.field === field),
+                atPartner.filter((o) => o.programme.field === field),
                 field,
               ).key,
             );
@@ -945,7 +992,7 @@ function UniversityPicker({
 function increaseBasisNote(selections: Selection[]): string {
   if (selections.length === 0)
     return "Each university's own past fee rises, applied after its published fee year.";
-  const own = selections.filter((s) => s.increase.basis === "university");
+  const own = selections.filter((s) => s.increase.basis !== "country");
   const years = own.flatMap((s) => [s.increase.from!, s.increase.to!]);
   const span = years.length
     ? `${Math.min(...years)}–${Math.max(...years)}`
@@ -1046,7 +1093,9 @@ function StatTiles({
             <h2 className="mt-1 font-semibold leading-snug">
               <UniversityName university={s.university} />
             </h2>
-            <p className="mt-0.5 text-sm text-muted">{s.programme.name}</p>
+            <p className="mt-0.5 text-sm text-muted">
+              {programmeLabel(s.university, s.programme)}
+            </p>
             <p className="mt-2 text-3xl font-semibold text-accent tabular-nums">
               {formatMoney(s.grandTotalSgd, "SGD")}
             </p>
@@ -1100,6 +1149,7 @@ function ResultDetail({
   onCustomLiving: (m: MonthlyLiving | null) => void;
 }) {
   const { university: u, programme: p, result } = s;
+  const partner = partnerOf(u, p);
   const cur = u.currency;
   // Units of the local currency per S$1, so local ÷ rate = SGD.
   const sgd = (n: number) => n / s.fxRate;
@@ -1137,9 +1187,12 @@ function ResultDetail({
           <UniversityName university={u} />
         </h3>
         <p className="text-sm text-muted">
-          {p.name} · {result.durationYears}{" "}
+          {programmeLabel(u, p)} · {result.durationYears}{" "}
           {result.durationYears === 1 ? "year" : "years"}
         </p>
+        {partner?.description && (
+          <p className="mt-1 text-xs text-muted">{partner.description}</p>
+        )}
         <p className="mt-2 text-sm tabular-nums">
           {formatMoney(s.grandTotalSgd, "SGD")}
           {cur !== "SGD" && (

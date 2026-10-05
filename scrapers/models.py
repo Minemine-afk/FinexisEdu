@@ -9,7 +9,9 @@ from pydantic import BaseModel, ConfigDict, Field, HttpUrl
 
 CountryCode = Literal["sg", "uk", "au", "us", "de", "ca", "nz", "ch", "jp", "ie"]
 LevelT = Literal["bachelor", "master"]
-FieldT = Literal["engineering", "computing", "business", "sciences", "arts", "law", "medicine"]
+FieldT = Literal[
+    "engineering", "computing", "business", "sciences", "arts", "law", "medicine", "psychology", "nursing"
+]
 TierT = Literal["citizen", "pr", "international"]
 FeeKey = Literal["annualTuition", "annualCompulsoryFees", "oneOffFees"]
 # Monthly living-cost categories on the university's `livingCosts` estimate.
@@ -43,7 +45,18 @@ class FeeHistoryEntry(_Model):
     sourceUrl: HttpUrl | None = None
 
 
+class Partner(_Model):
+    """A university whose degree another institution teaches (e.g. SIM's partners)."""
+
+    id: str = Field(pattern=r"^[a-z0-9-]+$")
+    name: str
+    country: str
+    website: HttpUrl | None = None
+    description: str | None = None
+
+
 class Programme(_Model):
+    partner: str | None = None  # id in the university's `partners`
     level: LevelT
     field: FieldT
     name: str = Field(min_length=1)
@@ -90,6 +103,7 @@ class University(_Model):
     description: str | None = None
     whyIncluded: str | None = None
     livingCosts: LivingCosts | None = None
+    partners: list[Partner] | None = None
     programmes: list[Programme]
 
 

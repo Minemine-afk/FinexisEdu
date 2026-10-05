@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { formatCompactSgd, formatMoney } from "@/lib/format";
+import { formatCompactSgd, formatMoney, programmeLabel } from "@/lib/format";
 import type { Selection } from "./Calculator";
 import UniversityName from "./UniversityName";
 
@@ -110,7 +110,9 @@ export default function FeeChart({
           {selections.map((s) => (
             <p key={s.key} className={`text-center text-sm leading-snug ${column}`}>
               <UniversityName university={s.university} />
-              <span className="block truncate text-xs text-muted">{s.programme.name}</span>
+              <span className="block truncate text-xs text-muted">
+                {programmeLabel(s.university, s.programme)}
+              </span>
             </p>
           ))}
         </div>
@@ -121,7 +123,9 @@ export default function FeeChart({
             className="absolute left-0 top-0 z-10 w-60 rounded-lg border border-border bg-surface p-3 text-xs shadow-lg"
           >
             <p className="font-medium">{hovered.university.name}</p>
-            <p className="text-muted">{hovered.programme.name}</p>
+            <p className="text-muted">
+              {programmeLabel(hovered.university, hovered.programme)}
+            </p>
             <dl className="mt-2 space-y-0.5 tabular-nums">
               {used.map((seg) => (
                 <div key={seg.key} className="flex justify-between gap-2">

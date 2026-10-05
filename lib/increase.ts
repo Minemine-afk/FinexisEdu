@@ -5,7 +5,7 @@ export interface IncreaseEstimate {
   /** Yearly compound increase, e.g. 0.045 for 4.5%. */
   rate: number;
   /** Where the rate came from. */
-  basis: "university" | "country";
+  basis: "partner" | "university" | "country";
   /** Number of distinct fee series the university figure rests on. */
   series: number;
   /** Earliest and latest published fee years used. */
@@ -42,17 +42,40 @@ function tuitionSeries(p: Programme, tier: Tier): [number, number][] {
  * Falls back to the country's typical rate when the university has fewer than
  * two distinct series with two or more years for that tier, so a single
  * one-off change (a policy jump at one programme) cannot set the rate.
+ *
+ * For an institution that teaches partner universities' degrees (SIM), pass the
+ * partner id: that partner's programmes are tried first, then the whole
+ * institution, then the country.
  */
 export function universityIncrease(
   university: University,
   tier: Tier,
   country: Country | undefined,
+  partner?: string,
 ): IncreaseEstimate {
+  if (partner) {
+    const own = programmeIncrease(
+      university.programmes.filter((p) => p.partner === partner),
+      tier,
+    );
+    if (own) return { ...own, basis: "partner" };
+  }
+  const all = programmeIncrease(university.programmes, tier);
+  if (all) return all;
+  const rate =
+    country?.feeIncreaseByTier?.[tier] ?? country?.defaultFeeIncrease ?? 0.03;
+  return { rate, basis: "country", series: 0 };
+}
+
+function programmeIncrease(
+  programmes: Programme[],
+  tier: Tier,
+): IncreaseEstimate | undefined {
   const seen = new Set<string>();
   const growth: number[] = [];
   let from = Infinity;
   let to = -Infinity;
-  for (const p of university.programmes) {
+  for (const p of programmes) {
     const series = tuitionSeries(p, tier);
     if (series.length < 2) continue;
     const key = JSON.stringify(series);
@@ -75,7 +98,5 @@ export function universityIncrease(
       to,
     };
   }
-  const rate =
-    country?.feeIncreaseByTier?.[tier] ?? country?.defaultFeeIncrease ?? 0.03;
-  return { rate, basis: "country", series: 0 };
+  return undefined;
 }

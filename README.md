@@ -90,6 +90,10 @@ shown at first; "Compare another university" adds a second and a third slot,
 each with a "remove" link. Each slot has a country dropdown, then a dropdown of
 that country's universities, then the field of study offered at that
 university (and a programme dropdown where it has more than one in that field).
+SIM Global Education teaches degrees awarded by partner universities, so for
+SIM a "Partner university" dropdown (University of London, Buffalo,
+Birmingham and so on) comes between the university and the field, and the
+partner is named on the tile, chart and details.
 Because the field is chosen per slot, the same university can be compared
 across two of its own courses, or two universities across different courses.
 The results show a headline tile for each selection (programme, total in SGD
