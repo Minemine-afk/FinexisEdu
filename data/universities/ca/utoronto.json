@@ -450,6 +450,78 @@
           "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=ARTSC-G&program=63"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Honours Bachelor of Science (Psychology), Faculty of Arts & Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66110,
+          "annualCompulsoryFees": 2100.29,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students; Years 2 to 4 are charged the same rate, but fees rise each year. Compulsory fees included (they vary slightly by college); health insurance is extra.",
+      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Years 2-4 (Honours BSc) are charged the same C$66,110 program fee in 2026-27. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A). Psychology (HBSc specialist/major) at St. George is in the Faculty of Arts & Science, which charges one international program fee for every admission stream, so figures and history are copied from the existing Honours BSc record.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61720,
+          "annualCompulsoryFees": 1924.46,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-FAS-UC-INT.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63570,
+          "annualCompulsoryFees": 2040.9,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Education (MEd) in Counselling Psychology, Counselling and Psychotherapy field, OISE",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 51040,
+          "annualCompulsoryFees": 2292.39,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=OISET-G&program=100",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for international students; the programme runs over two academic years and the second year is charged at that year's rate. Compulsory fees included; health insurance is extra.",
+      "notes": "2026-27 international full-time program fee for the OISE Master of Education (MEd), 'Admitted 2026-27 Fall & Winter Session' C$51,040 per academic year, from the U of T Tuition Explorer (one MEd fee for all OISE MEd programmes; continuing students admitted 2025-26 or earlier pay C$50,560 in 2026-27, so not cohort-locked). Compulsory = incidental and system access fees C$2,292.39; UHIP (C$948) excluded. Programme: Counselling Psychology MEd, field Counselling and Psychotherapy (Department of Applied Psychology and Human Development), coursework with practicum; SGS Calendar programme length 5 sessions full-time (FWS-FW), so fees are charged for two academic years (the Fall-Winter fee covers the Summer session under SGS fee regulations); durationYears 2 and the figure is the first-year fee. The Counselling and Clinical Psychology MA and Developmental Psychology MA are thesis/research programmes. 2025 = Tuition Explorer 2025-26 MEd fee C$48,150 + C$2,238.48; 2024 = archived 2024-25 SGS international fee schedule PDF, Table 22 (M. Education) C$45,860 + C$2,141.53.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 45860,
+          "annualCompulsoryFees": 2141.53,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-SGS-INT-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 48150,
+          "annualCompulsoryFees": 2238.48,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=OISET-G&program=100"
+        }
+      ]
     }
   ]
 }

@@ -382,6 +382,42 @@
           "sourceUrl": "https://registrar.mit.edu/sites/default/files/2025-04/tuition_25-26.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "SB in Brain and Cognitive Sciences (Course 9)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 66720,
+          "annualCompulsoryFees": 420,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.mit.edu/registration-academics/tuition-fees/undergraduate",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for two terms, same for all majors, plus the US$420 student life fee. MIT has no separate psychology major; Course 9 covers cognitive science and psychology.",
+      "notes": "Full-time tuition $33,360 per term x 2 (fall, spring); same for all majors. Other fees = student life fee ($210 per term). MIT has no psychology major: the Department of Brain and Cognitive Sciences' SB in Brain and Cognitive Sciences (Course 9) is its psychology/cognitive science degree (catalog.mit.edu degree chart 'Bachelor of Science in Brain and Cognitive Sciences'). Same undergraduate tuition for all majors, so fees and 2024/2025 history copied from the existing Course 21 record.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61990,
+          "annualCompulsoryFees": 406,
+          "sourceUrl": "https://registrar.mit.edu/sites/default/files/2024-03/tuition_24-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 64310,
+          "annualCompulsoryFees": 420,
+          "sourceUrl": "https://registrar.mit.edu/sites/default/files/2025-04/tuition_25-26.pdf"
+        }
+      ]
     }
   ]
 }

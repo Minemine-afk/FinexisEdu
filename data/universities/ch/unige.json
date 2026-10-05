@@ -478,6 +478,82 @@
           "sourceUrl": "https://www.unige.ch/difin/download_file/view/161/367"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Baccalauréat universitaire (Bachelor) en psychologie",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly university fees, the same for all students whatever their nationality. No other compulsory fees. Taught in French.",
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed fees + CHF 435 supervision fees), the same for all students regardless of nationality. The CHF 65 application fee for holders of foreign diplomas is credited against the first semester's fees, so no one-off fee. Same fee page, figures and history as UNIGE's existing programmes (copied). Fee history: UNIGE's Budget 2024 (p. 11), Budget 2025 (p. 9) and Budget 2026 (p. 32) each state 'Les taxes universitaires sont fixées à CHF 500 par semestre et par étudiant-e' (CHF 65 taxes fixes + CHF 435 taxes d'encadrement), so 2024-25 and 2025-26 were also CHF 500 x 2 with no other compulsory fee; the Grand Conseil rejected PL 13411 (CHF 1,500 per semester for foreign students) on 23 May 2025. Programme: Baccalauréat universitaire (Bachelor) en psychologie, Faculté de psychologie et des sciences de l'éducation, https://www.unige.ch/fapse/lesetudes/baccalaureat/psychologie/presentation: 3 years (180 ECTS, max 5), 'Langue d'enseignement: Français (connaissance passive de l'anglais obligatoire)'; admission on UNIGE's general matriculation conditions (no numerus clausus listed on the admission page). First stage of the 5-year route to the Swiss title of psychologist (with the master's).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.unige.ch/difin/download_file/view/144/367"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.unige.ch/difin/download_file/view/161/367"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Maîtrise universitaire (Master of Science) en psychologie",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unige.ch/immatriculations/informations/taxes",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly university fees, the same for all students whatever their nationality. No other compulsory fees. Taught in French and needs a psychology bachelor's.",
+      "notes": "Semester fees CHF 500 x 2 (CHF 65 fixed fees + CHF 435 supervision fees), the same for all students regardless of nationality. The CHF 65 application fee for holders of foreign diplomas is credited against the first semester's fees, so no one-off fee. Same fee page, figures and history as UNIGE's existing programmes (copied). Fee history: UNIGE's Budget 2024 (p. 11), Budget 2025 (p. 9) and Budget 2026 (p. 32) each state 'Les taxes universitaires sont fixées à CHF 500 par semestre et par étudiant-e' (CHF 65 taxes fixes + CHF 435 taxes d'encadrement), so 2024-25 and 2025-26 were also CHF 500 x 2 with no other compulsory fee; the Grand Conseil rejected PL 13411 (CHF 1,500 per semester for foreign students) on 23 May 2025. Programme: Maîtrise universitaire en psychologie, https://www.unige.ch/fapse/lesetudes/maitrises/psycho/presentation: 120 ECTS, 2 years (max 3), autumn start only, five study plans (clinique intégrative, santé, développement durable, appliquée, recherche approfondie), 'Langue d'enseignement: Français (une bonne connaissance passive de l'anglais est obligatoire)'. Admission requires a Swiss BSc in Psychology or a degree judged equivalent by the Dean (article 5 of the regulations, admission page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.unige.ch/difin/download_file/view/144/367"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.unige.ch/difin/download_file/view/161/367"
+        }
+      ]
     }
   ]
 }

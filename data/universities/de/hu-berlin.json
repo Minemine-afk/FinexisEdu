@@ -330,6 +330,66 @@
           "sourceUrl": "https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/250_D_Geb%C3%BChren_HU_SoSe_2026.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychologie B.Sc. (Monobachelor)",
+      "durationYears": 3,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester contribution (administration, student services and a Germany-wide transport ticket). Taught in German, with places limited by grade.",
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de blocks automated access with an Anubis bot challenge, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary (same source, feeYear and history as HU's existing programmes, copied). 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024 (figure taken from search-engine indexes of that PDF, as in HU's existing records). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80). Programme: Psychologie - Bachelor of Science (Monobachelor), https://www.hu-berlin.de/studium/studienangebot/details/psychologie-bachelor-of-science-monobachelor (read through the r.jina.ai reader because of the bot challenge): Regelstudienzeit 6 Semester, Lehrsprache Deutsch, polyvalent (can lead to the clinical master's and psychotherapist licensure). Admission restricted (NC via hochschulstart DoSV; institute page https://www.psychologie.hu-berlin.de/de/studium/bachelor/bewerbung/zulassung_bsc gives last admission at grade 1.0 in the grade quota for winter 2025/26); foreign applicants apply via uni-assist.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychology M.Sc. (Master of Psychology)",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 711.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester contribution (administration, student services and a Germany-wide transport ticket). Needs a psychology bachelor's; places are limited.",
+      "notes": "No tuition fees at Humboldt-Universität (Berlin public university). Compulsory fees = semester contribution EUR 355.80 per semester x2: re-registration/administration fee 50 + student body fee 12 (rate from winter 2025/26) + studierendenWERK Berlin 85 + Deutschlandsemesterticket 208.80 (the 2025/26 ticket rate). hu-berlin.de blocks automated access with an Anubis bot challenge, so the breakdown is taken from DAAD's International Programmes entry for HU's MEMS master's, hence sourceType secondary (same source, feeYear and history as HU's existing programmes, copied). 2024 history: HU's own fee sheet 'Semesterbeiträge und -gebühren Wintersemester 2024/25' states EUR 299.90 per semester = semester fee 50 + student body 10.50 + studierendenWERK 63 + Deutschlandsemesterticket 176.40, so EUR 599.80 for 2024 (figure taken from search-engine indexes of that PDF, as in HU's existing records). No 2026/27 figure for HU itself was readable (Charité's sheet for HU-enrolled students gives EUR 381.80). Programme: Psychology (Master of Science, M.Sc.), Hauptfach, https://www.hu-berlin.de/studium/studienangebot/details/psychology-master-of-science-hauptfach (read through the r.jina.ai reader): Regelstudienzeit 4 Semester, Lehrsprache Englisch (as listed by HU; the institute's module pages are partly German), winter start, NC; requires a degree with at least 100 ECTS of psychology. Institute page (M.Sc. Psychology 'MOP', focus areas Neurocognition, Psychology and Society, Work-Technology-Organisation): https://www.psychologie.hu-berlin.de/de/studium/master/master-of-psychology. Chosen over HU's clinical psychology and psychotherapy master's (licensure track).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 599.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.hu-berlin.de/de/studium/bewerbung/imma/semesterbeitrage/semesterbeitraege_und_gebuehren_2024_wise.pdf"
+        }
+      ]
     }
   ]
 }

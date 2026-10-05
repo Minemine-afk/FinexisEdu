@@ -402,6 +402,82 @@
           "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (BA) Honours Psychology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 2287.88,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for international students (two terms). Not fixed, so later years may cost more. Compulsory fees included; health insurance is extra.",
+      "notes": "Fall 2026 international schedule: Arts regular Year 1 maximum tuition $27,010 per term x 2. Fees = incidental fees $1,143.94 x 2. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules. Honours Psychology (regular, Faculty of Arts) is charged the Arts Regular rate, so figures and history are copied from the existing BA Honours Economics record (same schedules); co-op adds a per-term co-op fee from 2A.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 1987.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 2142.14,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Applied Science (MASc) in Psychology (Industrial and Organizational Psychology)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 3074.76,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students in this 2-year coursework and research-paper master's. Not fixed and may rise; international places are limited. Compulsory fees included; health insurance is extra.",
+      "notes": "Fall 2026 international schedule: Graduate Master's Research rate $7,696 per term x 3 terms = $23,088; Psychology has its own full-time incidental fee, $1,024.92 per term x 3 = $3,074.76 ('Programs with different incidental fees' table). Graduate year = 3 terms. UHIP excluded. Programme: MASc in Psychology (Industrial and Organizational Psychology), 24 months full-time, coursework plus a master's research paper (no thesis) with an optional internship; Waterloo lists it as 'Master's, Research' and notes the Faculty of Arts is currently limiting the number of international students it admits (future-graduate-students programme page). The Psychology MA is thesis-only on admission. 2024 = Fall 2024 international master's schedule row 'Psychology - MASc (Industrial and Organizational Psychology)' $7,696 x 3 + incidental $891.19 x 3; 2025 = Fall 2025 schedule research master's $7,696 x 3 + Psychology incidental $948.65 x 3.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 2673.57,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-program-tuition-fall-2024-international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23088,
+          "annualCompulsoryFees": 2845.95,
+          "oneOffFees": 0,
+          "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
+        }
+      ]
     }
   ]
 }

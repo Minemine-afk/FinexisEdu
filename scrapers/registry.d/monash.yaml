@@ -125,3 +125,13 @@ sources:
     url: https://www.monash.edu/__data/assets/pdf_file/0004/4116451/2026-Engineering-Postgraduate-Guide.pdf
     parser: pdf
     manual: true
+  # Bachelor of Psychology: psychology programme added Oct 2026; fee read by hand
+  - university: monash
+    country: au
+    url: "https://www.monash.edu/study/courses/find-a-course/psychology-m2018"
+    manual: true
+  # Master of Clinical Psychology: psychology programme added Oct 2026; fee read by hand
+  - university: monash
+    country: au
+    url: "https://www.monash.edu/study/courses/find-a-course/clinical-psychology-m6046"
+    manual: true

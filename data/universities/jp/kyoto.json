@@ -516,6 +516,82 @@
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Faculty of Letters (Psychology)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
+      "notes": "Psychology (心理学専修, Behavioural Culture Studies division) is a specialisation of the Faculty of Letters (https://www.bun.kyoto-u.ac.jp/); students choose it after entering the Faculty. Kyoto charges the standard national-university rate to all undergraduates, so the figures and 2024/2025 history rows are copied from the existing 'Faculty of Letters' entry. Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR6_all-8186ddca5a0c572852e76e77d07bf8a7.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Graduate School of Letters, Psychology (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised.",
+      "notes": "Psychology (心理学専修) master's course of the Graduate School of Letters. Kyoto charges the standard national-university rate to all graduate students, so the figures and 2024/2025 history rows are copied from the existing 'Graduate School of Letters (Master's)' entry. Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2024/100all"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
+        }
+      ]
     }
   ]
 }

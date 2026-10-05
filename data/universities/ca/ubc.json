@@ -396,6 +396,74 @@
           "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (Psychology major)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 51530.4,
+          "annualCompulsoryFees": 985.87,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for new international students; yearly increases are capped at 3% for 4 years, so later years cost a little more. Compulsory fees included; health insurance is extra.",
+      "notes": "C$1,717.68/credit x 30 credits (2026/27). Compulsory = UBC Athletics & Recreation fee, AMS fees (excl. opt-out health & dental plan) and U-Pass x 2 terms, plus Arts undergraduate society fees, per the 2026/27 Calendar; iMED insurance excluded. New international students: increases capped at 3%/yr for 4 years. 2024/2025 = that year's new-student per-credit rate x 30 (UBC Calendar archive). Psychology is a Faculty of Arts major (BA); Arts per-credit tuition and fees apply, so figures and 2024/2025 history are copied from the existing Bachelor of Arts record.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47189.4,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/undergraduate/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 49548.6,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/undergraduate/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Education in Counselling Psychology (MEd)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17715.72,
+          "annualCompulsoryFees": 1203.05,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/graduate/masters",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students in this coursework master's, usually about 2 years. Not fixed: the rate rises each year. Compulsory student fees included; health insurance is extra.",
+      "notes": "2026/27 UBC Calendar, Master's Tuition Fees, 'Master of Education (Counselling Psychology) (program on-campus)': international fee per instalment C$5,905.24 for students entering 2026S or 2026W x 3 instalments per year = C$17,715.72 (grad.ubc.ca programme page quotes the same 'Tuition per year' C$17,715.72 and says coursework only). The international continuing fee equals the full instalment, so each further year is charged again (about 2 years full-time; average completion 2.7 years per grad.ubc.ca), and the Calendar lists a separate, higher rate per entry year, so not cohort-locked. Compulsory = UBC Athletics & Recreation, AMS fees excl. the opt-out Health & Dental Plan, U-Pass x 3 terms and Graduate Student Society fees, C$1,203.05 for 2026/27 as in the existing graduate records; iMED insurance excluded. The MA in Counselling Psychology and the Department of Psychology's MA are thesis-based. 2024 = 2024/25 new-entrant instalment C$5,407.74 x 3 = C$16,223.22; 2025 = 2025/26 new-entrant instalment C$5,678.12 x 3 = C$17,034.36 (UBC Calendar archive).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16223.22,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2425/fees/tuition-fees/graduate/masters/index.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17034.36,
+          "sourceUrl": "https://archive.calendar.ubc.ca/vancouver/2526/fees/tuition-fees/graduate/masters/index.html"
+        }
+      ]
     }
   ]
 }

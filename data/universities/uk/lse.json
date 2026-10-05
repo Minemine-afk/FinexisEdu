@@ -222,6 +222,46 @@
         { "feeYear": 2025, "tier": "international", "annualTuition": 38000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 36168, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BSc Psychological and Behavioural Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": { "annualTuition": 30700, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2026-27-and-PGR-structure-combined-28Nov2025.pdf",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. Covers registration, exams and Students' Union membership; no separate compulsory fees.",
+      "notes": "Overseas fee for 2026/27 new entrants from LSE's Table of Fees 2026/27 ('BSc in Psychological and Behavioural Science', Home GBP 9,790, Overseas GBP 30,700); fixed at the year-of-entry level for the whole programme. Three-year degree run by the Department of Psychological and Behavioural Science. No separate compulsory fees. History: 2025/26 Table of Fees (GBP 29,200) and 2024/25 Table of Fees (GBP 26,184), same row.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "international", "annualTuition": 29200, "annualCompulsoryFees": 0, "oneOffFees": 0, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26184, "annualCompulsoryFees": 0, "oneOffFees": 0, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MSc Social and Cultural Psychology",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": { "annualTuition": 30400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2026-27-and-PGR-structure-combined-28Nov2025.pdf",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students. No separate compulsory fees.",
+      "notes": "Full-time overseas fee for 2026/27 from LSE's Table of Fees 2026/27 ('MSc in Social and Cultural Psychology', Home GBP 18,300, Overseas GBP 30,400; part-time GBP 15,200 a year). One-year taught MSc in the Department of Psychological and Behavioural Science, chosen as the department's long-running general psychology MSc (other options in the same table: Organisational and Social Psychology GBP 32,500, Societal and Environmental Psychology GBP 30,400, Behavioural Science GBP 30,400). LSE says fees normally rise each year. No separate compulsory fees. History: 2025/26 (GBP 28,900) and 2024/25 (GBP 27,480) Tables of Fees, same row (full-time Overseas column).",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "international", "annualTuition": 28900, "annualCompulsoryFees": 0, "oneOffFees": 0, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 27480, "annualCompulsoryFees": 0, "oneOffFees": 0, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
+      ]
     }
   ]
 }

@@ -402,6 +402,44 @@
           "sourceUrl": "https://www.cmu.edu/sfs/tuition/graduate/archive/2526-archive/full-accel-mba-2526.html"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BS Psychology (Dietrich College)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 69702,
+          "annualCompulsoryFees": 1114,
+          "oneOffFees": 748
+        }
+      },
+      "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/index.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual undergraduate tuition, same for all majors, plus technology, activities and transport fees and a one-off first-year fee. Health insurance not included.",
+      "notes": "Undergraduate tuition, same for all majors. Other fees = technology, student activities and transportation fees; one-off = First-Year Experience Fee. Health insurance excluded (waivable). The Department of Psychology (Dietrich College) offers the major as a BS or BA with identical core requirements; undergraduate tuition is the same for all majors, so fees and 2024/2025 history are copied from the existing BA English record (same Student Financial Services pages).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64596,
+          "annualCompulsoryFees": 1040,
+          "oneOffFees": 610,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2425.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67020,
+          "annualCompulsoryFees": 1076,
+          "oneOffFees": 680,
+          "sourceUrl": "https://www.cmu.edu/sfs/tuition/undergraduate/2526.html"
+        }
+      ]
     }
   ]
 }

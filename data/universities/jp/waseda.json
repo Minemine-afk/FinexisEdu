@@ -434,6 +434,80 @@
           "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "School of Humanities and Social Sciences (Psychology course)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1291000,
+          "annualCompulsoryFees": 4000,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition, the same each year. The ¥200,000 admission fee is spread into this yearly figure, so there is no separate entrance fee. Course-specific lab fees may be added from year 2. Taught in Japanese.",
+      "notes": "Psychology course (心理学コース) of the School of Humanities and Social Sciences (文学部), chosen from year 2 (https://www.waseda.jp/flas/hss/). 文学部 row of the 2026 undergraduate fee table: spring (entry) admission fee ¥200,000 + tuition ¥545,500 + reading-room library fee ¥500 + health mutual-aid ¥1,500 = ¥747,500; autumn tuition ¥545,500 + ¥500 + ¥1,500 = ¥547,500; first-year total ¥1,295,000. Admission fee + first-year tuition = ¥1,291,000, the same as tuition in years 2-4, so the admission fee is included in tuition (as for the other Waseda entries). Compulsory fees per year = library ¥1,000 + health mutual-aid ¥3,000 = ¥4,000; no first-year lab fee, but note 2 of the table says lab/practical fees may be charged from year 2 depending on the course. Japanese-taught 4-year degree. 2025 table: identical 文学部 amounts (¥1,295,000 first year, tuition ¥1,291,000). 2024 table: admission ¥200,000 + tuition ¥1,091,000 + library ¥1,000 + other fees ¥3,000 = ¥1,295,000; tuition years 2-4 ¥1,291,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1291000,
+          "annualCompulsoryFees": 4000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/zpy44om3fcn5ob1lmdcvdma14qpklled"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1291000,
+          "annualCompulsoryFees": 4000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Graduate School of Letters, Arts and Sciences (Master's, Psychology course)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 922000,
+          "annualCompulsoryFees": 33000,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for the 2-year master's, the same each year. The ¥300,000 admission fee is spread into this yearly figure. Compulsory fees include a ¥30,000 seminar fee. Taught in Japanese.",
+      "notes": "文学研究科 心理学コース row of the 2026 master's and professional degree fee table: admission fee ¥300,000 + first-year tuition ¥622,000 = ¥922,000, the same as tuition in year 2, so the admission fee is included in tuition (as for the other Waseda entries). Compulsory fees per year = seminar fee (演習料) ¥30,000 + health mutual-aid ¥3,000 = ¥33,000; first-year total ¥955,000. Japanese-taught. 2025 table shows the same 心理学コース amounts. 2024 table gives one 文学研究科 row: admission ¥300,000 + tuition ¥624,000 = ¥924,000 in year 1 and tuition ¥824,000 in year 2 (not levelled); the first-year figure is recorded. Its seminar fee is shown only as a range (¥0-60,000) without a per-course figure, so the 2024 row carries tuition only. Waseda's other psychology master's, the clinical psychology field of the Graduate School of Human Sciences, costs ¥1,210,000 a year plus ¥93,000 in fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 924000,
+          "sourceUrl": "https://waseda.box.com/s/9aea3xcne9p3q48r136aw5ukz9hg0f5a"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 922000,
+          "annualCompulsoryFees": 33000,
+          "oneOffFees": 0,
+          "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
+        }
+      ]
     }
   ]
 }

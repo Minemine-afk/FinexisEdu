@@ -396,6 +396,40 @@
           "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science (BSc), Honours Psychology, Neuroscience & Behaviour",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47535.3,
+          "annualCompulsoryFees": 1669.18,
+          "oneOffFees": 114.83
+        }
+      },
+      "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for international students. Not fixed, so later years may cost more. Compulsory student fees (including a bus pass) and a one-off orientation fee included; health insurance is extra.",
+      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $86.10 (Science Students Society incl. careers & experience fee). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually. Psychology, Neuroscience & Behaviour (PNB) is a Faculty of Science honours programme entered through Level 1 Science, so the Level 1 BSc tuition, Science fees and history are copied from the existing BSc record.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47535.3,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 47535.3,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+        }
+      ]
     }
   ]
 }

@@ -464,6 +464,74 @@
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/8950XMCHD"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science (Psychology)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BSPSY",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
+      "notes": "Annual indicative international fee for 48 units ('Annual indicative fee for international students $56,120.00'; program BSPSY, 144 units over 3 years; CRICOS 047423M; APAC-accredited psychology sequence). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). Same fee as the Bachelor of Science. 2024/2025 from the same program page for those academic years (A$50,760 / A$53,700), read 2026-10-05. ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50760,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BSPSY"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BSPSY"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Clinical Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 59270,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/7601XMCPSY",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
+      "notes": "Annual indicative international fee for 48 units ('Annual indicative fee for international students $59,270.00'; program 7601XMCPSY, 96 units over 2 years; CRICOS 003116G; coursework plus clinical placements and a research thesis component; entry needs an APAC-accredited 4-year psychology sequence). ANU's other taught psychology master's, the Master of Professional Psychology (MPPSY, 2 years), shows the same 2026 fee. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). 2024/2025 from the same program page for those academic years (A$53,610 / A$56,720), read 2026-10-05. ANU fees are reviewed and indexed each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 53610,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/7601XMCPSY"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 56720,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7601XMCPSY"
+        }
+      ]
     }
   ]
 }

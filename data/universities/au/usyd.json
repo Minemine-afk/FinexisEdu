@@ -295,6 +295,48 @@
       "summary": "Year 1 tuition for international students, plus the A$373 student services fee. Fees rise each year (A$100,500 in 2027), so later years cost more.",
       "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/doctor-of-medicine.html loads it from this JSON); graduate entry, 4 years. The same data lists 2027 at A$100,500, and the 2026 International Admission Guide quotes the same A$97,000 for the MD years of the Science/Medicine and Arts/Medicine double degrees. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
       "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Psychology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 60600,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-psychology.coredata.json",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Year 1 tuition for international students, plus the A$373 student services fee. Fees rise each year (A$63,600 in 2027), so later years cost more.",
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/uc/bachelor-of-psychology.html loads it from this JSON; course 107969J, 144 credit points over 3 years). The same data lists 2027 at A$63,600. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Clinical Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61700,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.sydney.edu.au/courses/courses/pc/master-of-clinical-psychology.coredata.json",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Year 1 tuition for international students, plus the A$373 student services fee. Fees rise each year (A$64,800 in 2027), so later years cost more.",
+      "notes": "2026 indicative international full fee paying rate for Year 1 (48 credit points, 1.0 EFTSL) from the course page's fee data (sydney.edu.au/courses/courses/pc/master-of-clinical-psychology.html loads it from this JSON; course 082878M, 96 credit points over 2 years). The same data lists 2027 at A$64,800. Compulsory = 2026 SSAF A$186.50/semester full-time x 2 (2027: A$193.00 x 2). Fees increase each year. No 2024/2025 fee history: the course page's fee data lists only 2026 and 2027, and earlier years' admission guides are no longer online.",
+      "feeHistory": []
     }
   ]
 }

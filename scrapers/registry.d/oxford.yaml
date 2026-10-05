@@ -52,3 +52,8 @@ sources:
     url: https://www.ox.ac.uk/admissions/graduate/courses/mst-history-early-modern
     parser: html
     manual: true
+  # Psychology (Experimental) (BA/MSci, C830): psychology programme added Oct 2026; fee read by hand
+  - university: oxford
+    country: uk
+    url: "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/psychology-experimental"
+    manual: true

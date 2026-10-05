@@ -474,6 +474,62 @@
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Psychology",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 51140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/psychology-m2018",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
+      "notes": "M2018, Clayton campus (also Monash Malaysia); qualification 'Bachelor of Psychology', 3 years, APAC-accredited sequence; CRICOS 108900M. 2027 international fee per 48 credit points (standard full-time year) from the 'International fee' section of the page ('The fees for 2027 are: A$51,140'). Monash's course pages default to the domestic view; the international fee is shown with the '?international=true' audience switch, which is how this figure was read on 2026-10-05 through a text rendering (r.jina.ai) because monash.edu blocks automated access. Excludes SSAF (not verifiable) and OSHC. Fees reviewed annually. Fee history from Monash's own course-guide PDF, read through a text rendering (r.jina.ai) of the official monash.edu URL: 2026: A$48,600 (2027 International Undergraduate Course Guide, Bachelor of Psychology M2018, footnote '2026 quoted fees ... per 48 credit points'). No 2024/2025 rows: no earlier Monash undergraduate guide was found (as for the other Monash undergraduate entries), and the per-year course pages render the current fee.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 48600,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Clinical Psychology",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 59440,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/clinical-psychology-m6046",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year.",
+      "notes": "M6046, Clayton campus; professional-entry coursework master's (fifth and sixth years of psychology), 2 years full-time, February intake; entry needs an APAC-accredited 4-year psychology sequence; CRICOS 118465J. 2027 fee per 48 credit points from the fees section of the international view of the page ('The fees for 2027 are: A$59,440'; this page labels it 'Full fee'), read 2026-10-05 through a text rendering (r.jina.ai) because monash.edu blocks automated access. The course is listed in the 2027 International Graduate Course Guide, confirming it is open to international students. Monash's other psychology master's (Professional Psychology D6008, Educational and Developmental Psychology D6007) are 1-year programmes. Excludes SSAF and OSHC. Fees reviewed annually. Fee history: 2026: A$56,500 (2027 International Graduate Course Guide, Master of Clinical Psychology M6046, footnote '2026 quoted fees ... per 48 credit points'; read through r.jina.ai of the official URL). No 2024/2025 rows: the course (new CRICOS code) is not in the 2025 International Graduate Course Guide.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 56500,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
+        }
+      ]
     }
   ]
 }

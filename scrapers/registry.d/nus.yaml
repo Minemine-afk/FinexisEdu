@@ -9,3 +9,8 @@ sources:
     url: https://www.duke-nus.edu.sg/admissions/why-duke-nus/tuition-scholarships
     parser: html
     manual: true
+  # Master of Psychology (Clinical): psychology programme added Oct 2026; fee read by hand
+  - university: nus
+    country: sg
+    url: "https://fass.nus.edu.sg/fees-gradcoursework/"
+    manual: true

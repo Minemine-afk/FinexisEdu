@@ -401,6 +401,44 @@
           "sourceUrl": "https://hms.harvard.edu/education-admissions/md-program/cost-aid/cost-attendance"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "AB in Psychology (Harvard College)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 62226,
+          "annualCompulsoryFees": 6216,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual Harvard College tuition, same for every subject, plus student services, activities and health fees. Health insurance (can be waived), housing and food not included.",
+      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables. Psychology is a Harvard College concentration (AB) charged the same tuition and fees as every other concentration; figures and history copied from the existing AB in History record.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 56550,
+          "annualCompulsoryFees": 5126,
+          "oneOffFees": 0,
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 59320,
+          "annualCompulsoryFees": 5476,
+          "oneOffFees": 0,
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+        }
+      ]
     }
   ]
 }

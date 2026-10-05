@@ -454,6 +454,82 @@
           "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/PCPHASPHY/financial_tracker.html?fee_status=O&children=0"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA Psychological and Behavioural Sciences (PBS Tripos)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46872,
+          "annualCompulsoryFees": 14100,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee (a typical figure; the actual amount depends on your College).",
+      "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Psychological and Behavioural Sciences' row, GBP 46,872, the same fee as Natural Sciences on the same document), fixed at this rate for the duration of the course. Three-year BA. Compulsory fee = the annual College fee all international students pay on top of tuition, set by each College; recorded as the median of the published 2027-28 list (GBP 14,100), the same figure used for the University's other undergraduate records, so the real amount depends on the College. History from the earlier years' documents ('Psychological and Behavioural Sciences' row in each): 2026-27 GBP 44,214 (College fee median GBP 13,245), 2025-26 GBP 41,124 (median GBP 12,600), 2024-25 GBP 39,162 (median GBP 11,800); the College-fee medians are copied from the Natural Sciences record, which used the same documents.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39162,
+          "annualCompulsoryFees": 11800,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2024-25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41124,
+          "annualCompulsoryFees": 12600,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2025-26.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44214,
+          "annualCompulsoryFees": 13245,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/publications/undergraduate_tuition_fees_2026-27.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MPhil in Foundations of Clinical Psychology",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47784,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://2027.gaobase.admin.cam.ac.uk/api/courses/CVPCMPCPS/financial_tracker.html?fee_status=O&children=0",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Total fee for the 10-month taught course for international students. The College fee is already included. Application fee and a small DBS check cost not included.",
+      "notes": "Overseas University Composition Fee (GBP 47,784) for the MPhil in Foundations of Clinical Psychology (Department of Psychiatry; course code CVPCMPCPS) starting October 2027, from the University's postgraduate financial tracker for the course (the 'Finance' tab of the Course Directory entry cvpcmpcps). Course Directory 'Key Information': '10 months full-time', 'Study Mode: Taught Master of Philosophy (MPhil)'; taught modules, an extended research project and clinically relevant placements. Chosen as Cambridge's taught psychology master's: the Department of Psychology's only MPhil is 'MPhil in Biological Science (Psychology) by thesis' (research), and the Faculty of Education's MPhil in Education (Psychology and Education) is an education route. The Composition Fee for postgraduates already includes the College fee, so no separate compulsory fee. The tracker notes students pay for a Disclosure and Barring Service check (about GBP 66), not included. History: 2026 entry GBP 45,078 from the 2026 tracker; the 2025 and 2024 trackers are not reachable (2025 host refuses connections, no archived copy of the 2024 tracker), so no earlier rows. Application fee not included.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45078,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://2026.gaobase.admin.cam.ac.uk/api/courses/CVPCMPCPS/financial_tracker.html?fee_status=O&children=0"
+        }
+      ]
     }
   ]
 }

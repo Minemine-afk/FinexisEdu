@@ -498,6 +498,82 @@
           "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BSc Psychology (DN720)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international (non-EU) students, fixed for the whole degree at your entry-year rate. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
+      "notes": "UCD Registry non-EU undergraduate fee table for 2026/27 ('BSc Psychology DN720 - PCS2', School of Psychology, full time, per year EUR 22,600). 3-year degree (CAO DN720). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. Non-EU fee is fixed at the entry-year rate for the programme. History: same row in the 2025/26 and 2024/25 tables, EUR 22,600 each year (those years also list a BA Psychology DN519 at the same fee, which no longer appears for 2026/27).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Psychological Science (W241)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 24870,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students. Includes the Student Centre levy; a EUR 5 students' union levy is extra.",
+      "notes": "UCD Registry non-EU graduate taught fee table for 2026/27 ('Master of Psychological Science FT(W241)', School of Psychology, full time, per year EUR 24,870); 1 year full-time, 90 credits. Chosen as UCD School of Psychology's general taught master's (the other taught MSc options are Behavioural Neuroscience, same fee, and Disability; the HDip Psychology is a conversion diploma). Published fee includes the Student Centre Levy; EUR 5 AMLE levy charged on top. History: same row in the 2025/26 and 2024/25 tables, EUR 24,870 each year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 24870,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 24870,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
+        }
+      ]
     }
   ]
 }

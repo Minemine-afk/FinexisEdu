@@ -38,10 +38,14 @@ every scraped change goes through a pull request:
 
 ## Coverage (checked 30 Sep 2026)
 
-51 universities, 643 programmes: five universities in each of the 10 countries,
+51 universities, 719 programmes: five universities in each of the 10 countries,
 plus SIM Global Education in Singapore, across nine fields (engineering,
 computing, business, sciences, arts and humanities, law, medicine, psychology,
-nursing). Law and medicine cover the universities on the
+nursing). Psychology covers the main bachelor's and one taught master's at
+every university that offers them (Imperial, SIT, TUM, ETH, EPFL and St. Gallen
+have none; most US universities and several others teach psychology master's
+only as research degrees, so they have the bachelor's only). MIT is listed with
+Brain and Cognitive Sciences, its nearest equivalent. Law and medicine cover the universities on the
 Singapore Institute of Legal Education's approved list and the Singapore
 Medical Council's recognised list respectively, plus the local schools;
 undergraduate-entry degrees (LLB, MBBS) sit under Bachelor's and graduate-entry

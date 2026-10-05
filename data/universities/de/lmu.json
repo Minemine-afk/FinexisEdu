@@ -402,6 +402,82 @@
           "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychologie B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for non-EU students. The figure is only the student services contribution of EUR 97 per semester. Taught in German, with places limited by grade.",
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Same page and figures as LMU's existing programmes, whose history rows are copied. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026). Programme: Psychologie (Bachelor/Hauptfach), https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/psychologie-bachelor-hauptfach-2991.html: B.Sc., single-subject 180 ECTS, Regelstudienzeit 6 Fachsemester, winter start only, Studiensprache Deutsch; Zulassungsmodus 'Örtliche Zulassungsbeschränkung' (local NC; the BaPsy-DGPs aptitude test is taken into account).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychologie: Wirtschafts-, Organisations- und Sozialpsychologie M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 194,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for non-EU students. The figure is only the student services contribution of EUR 97 per semester. Taught in German and needs a psychology bachelor's.",
+      "notes": "LMU charges no tuition fees (none since winter 2013/14, also for non-EU students). Compulsory fees = Studierendenwerk München Oberbayern basic fee EUR 97.00 per semester x2 (from summer semester 2026; the semester-ticket surcharge has been suspended since winter 2023/24, so no transport ticket is included). Same page and figures as LMU's existing programmes, whose history rows are copied. History: winter 2024/25 basic fee EUR 85.00 (LMU fee page); winter 2025/26 EUR 85.00 (Studierendenwerk basic-fee statute, 97 only from summer 2026). Programme: Psychologie: Wirtschafts-, Organisations- und Sozialpsychologie (Master/Hauptfach), https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/psychologie-wirtschafts-organisations-und-sozialpsychologie-master-hauptfach-4548.html: M.Sc., 120 ECTS, 4 Fachsemester, winter start, Studiensprache Deutsch, local selection by the faculty. LMU has no general M.Sc. Psychologie; its four psychology master's are this one, Klinische Psychologie und Psychotherapie (German, licensure track), and the English-taught Psychology: Learning Sciences and Human Development and Neuro-Cognitive Psychology. This broad applied (work, organisational, social) programme was chosen; all four carry the same fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 170,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
+        }
+      ]
     }
   ]
 }

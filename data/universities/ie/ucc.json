@@ -442,6 +442,82 @@
           "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/pastfeeschedules/postgraduateeuandinternationalfees2025-26/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA (Hons) Applied Psychology (CK120)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 24000,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international (non-EU) students plus a EUR 210 capitation fee. UCC says fees on multi-year degrees may change from year to year.",
+      "notes": "UCC Fees Office international (non-EU) undergraduate schedule 2026/27, 'Applied Psychology - BA (Hons) - CK120' row, full-time fee EUR 24,000 per academic year; 3 Yr FT. Compulsory fee is the Student Capitation Fee (EUR 210). Fees are subject to change from year to year. History: 2025/26 EUR 23,500 and capitation EUR 207 from the Fees Office 'Past Fee Schedules' page for 2025-26 (same row). 2024/25: the official 'Fee schedule 2024-2025' page has been removed from ucc.ie; a Wayback Machine capture of 7 November 2024 shows 'Applied Psychology - BA (Hons) CK120 EUR 23,500' with capitation fee EUR 207.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23500,
+          "annualCompulsoryFees": 207,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/pastfeeschedules/internationalundergraduatefees2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 23500,
+          "annualCompulsoryFees": 207,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202425/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MA Applied Psychology",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23500,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 210 capitation fee.",
+      "notes": "UCC Fees Office postgraduate EU and international schedule 2026/27, 'Applied Psychology - MA' row, Non-EU Fee (Full Time) EUR 23,500 (EU EUR 8,400); 1 Yr FT (College of Arts, Celtic Studies and Social Sciences). Chosen as UCC's general taught psychology master's (the Mental Health and Positive and Coaching Psychology strands and the MA in Work and Organisational Psychology are the same non-EU fee in 2026/27). Compulsory fee is the Student Capitation Fee (EUR 210). History: 2025/26 non-EU full-time fee EUR 22,600 and capitation EUR 207 from the Fees Office 'Past Fee Schedules' page for 2025-26 (same row). 2024/25: the official schedule page has been removed from ucc.ie; a Wayback Machine capture of 5 October 2024 shows 'Applied Psychology - MA' Non-EU (FT) EUR 19,200, and that page states its fees are inclusive of the EUR 207 Student Capitation Fee, so the 2024 row records EUR 19,200 with no separate compulsory fee.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 207,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/pastfeeschedules/postgraduateeuandinternationalfees2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 19200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202425/"
+        }
+      ]
     }
   ]
 }

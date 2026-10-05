@@ -516,6 +516,82 @@
           "sourceUrl": "https://www.keio.ac.jp/files/e84e7e1bd9ed76414492c1ddcf3fad04b7559ddbde7cd6d0b5bb45efb764fbe5"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Faculty of Letters (Psychology major)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 990000,
+          "annualCompulsoryFees": 313350,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.keio.ac.jp/files/74725a53d22ba2b1b26d1889f8567d82404785eb0003ebc298aa8ae44022f822",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year fees for all students. Compulsory fees cover registration and facilities. The one-off ¥200,000 is the admission fee, paid once in year 1. Fees rise yearly. Taught in Japanese.",
+      "notes": "Psychology (心理学専攻) is a major of the Faculty of Letters (https://www.keio.ac.jp/ja/flet/department/psychology/); students enter the Faculty and choose the major at the end of year 1. First-year fees are the Faculty of Letters row, so the figures and 2024/2025 history rows are copied from the existing 'Faculty of Letters' entry. AY 2026 Academic Fees and Expenses for Undergraduate Faculties (first-year row). Tuition = 授業料. Compulsory fees = registration fee ¥70,000 + facilities fee ¥240,000 + student government fee ¥750 + health mutual-aid ¥2,600 (includes a ¥100 one-time registration). One-off = admission fee ¥200,000. Registration, tuition, facilities and lab fees rise yearly on a sliding scale, so not cohort-locked. Japanese-taught. From year 2 a ¥2,500 departmental research/journal fee is added. 2025 figures from the AY 2025 undergraduate fee table (Japanese): tuition ¥960,000, facilities ¥230,000, other fees ¥3,350. 2024 figures from the AY 2024 undergraduate fee table (English, Nov 2023 announcement): tuition ¥920,000, registration ¥60,000, facilities ¥220,000, other fees ¥3,350, admission ¥200,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 960000,
+          "annualCompulsoryFees": 303350,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.keio.ac.jp/files/3c217fc9d84b2b8f96992aee3327580a6192a27324fe7bb128d12074a85807f2"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 920000,
+          "annualCompulsoryFees": 283350,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.keio.ac.jp/files/3b180a71ead57f025ff1cd92e0cedc7852f6a73645736f7d649bdce1fdbb51a3"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Graduate School of Human Relations, Psychology (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1070000,
+          "annualCompulsoryFees": 74200,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.keio.ac.jp/files/92446f38dc587a176fbe87b824d23c53619077cbfe934c78a675c4d4d0e0205c",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for the 2-year master's, plus about ¥74,000 in registration and other fees. No admission fee for master's students. Tuition and registration rise yearly. Taught in Japanese.",
+      "notes": "Psychology major (心理学専攻) of the Graduate School of Human Relations (社会学研究科), degree Master of Psychology (https://www.keio.ac.jp/ja/gshr/about/policy/psychology/). AY 2026 Academic Fees and Expenses for Master's Programs, 社会学研究科 / Graduate School of Human Relations row for 2026 entrants: registration fee ¥70,000, tuition ¥1,070,000, no materials/course-related fee, student government fee ¥1,600, health mutual-aid ¥2,600 (includes ¥100 one-time registration), total ¥1,144,200. Compulsory fees = 70,000 + 1,600 + 2,600 = ¥74,200. No admission fee for master's programmes. Registration and tuition rise yearly on a sliding scale, so not cohort-locked. Japanese-taught. 2025 figures from the AY 2025 master's fee table (Japanese, entrants from AY 2019): registration ¥70,000, tuition ¥1,030,000, first-year total ¥1,104,200 (other fees ¥4,200). 2024 figures from the AY 2024 master's fee table (English, students admitted in or after AY 2019): registration ¥60,000, tuition ¥1,000,000, first-year total ¥1,064,200 (other fees ¥4,200).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1030000,
+          "annualCompulsoryFees": 74200,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.keio.ac.jp/files/65110da085b419d2995998a47ae5b07f2d735f5b586d96e138f4cbc51622f0fa"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1000000,
+          "annualCompulsoryFees": 64200,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.keio.ac.jp/files/366148dcf0998663ff505c3de69c3ed0ca4f8703a2bb30f76afcf0fd3a2c473c"
+        }
+      ]
     }
   ]
 }
