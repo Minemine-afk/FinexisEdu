@@ -53,6 +53,17 @@ describe("committed data", () => {
     }
   });
 
+  it("lists majors as a non-empty set of distinct names", () => {
+    for (const u of universities) {
+      for (const p of u.programmes) {
+        if (!p.majors) continue;
+        const id = `${u.id}: ${p.name}`;
+        expect(p.majors.length, id).toBeGreaterThan(0);
+        expect(new Set(p.majors).size, id).toBe(p.majors.length);
+      }
+    }
+  });
+
   it("has unique university ids", () => {
     const ids = universities.map((u) => u.id);
     expect(new Set(ids).size).toBe(ids.length);

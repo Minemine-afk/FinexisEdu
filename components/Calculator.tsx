@@ -968,6 +968,9 @@ function UniversityPicker({
             {programmes.map((o) => (
               <option key={o.key} value={o.key}>
                 {o.programme.name}
+                {o.programme.majors
+                  ? ` (${o.programme.majors.length} majors)`
+                  : ""}
                 {reasonFor(o) ? " (no published fee)" : ""}
               </option>
             ))}
@@ -975,6 +978,11 @@ function UniversityPicker({
         </label>
       ) : (
         <p className="mt-1 text-xs text-muted">{current.programme.name}</p>
+      )}
+      {current.programme.majors && (
+        <p className="mt-1 text-xs text-muted">
+          Majors: {current.programme.majors.join(", ")}
+        </p>
       )}
       {reason && (
         <p className="mt-1 text-xs text-warn-fg">
@@ -1192,6 +1200,11 @@ function ResultDetail({
           {programmeLabel(u, p)} · {result.durationYears}{" "}
           {result.durationYears === 1 ? "year" : "years"}
         </p>
+        {p.majors && (
+          <p className="mt-1 text-xs text-muted">
+            Majors: {p.majors.join(", ")}
+          </p>
+        )}
         {partner?.description && (
           <p className="mt-1 text-xs text-muted">{partner.description}</p>
         )}

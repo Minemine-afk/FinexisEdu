@@ -22,6 +22,7 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
       "level": "bachelor",                       // "bachelor" | "master"
       "field": "computing",                      // "engineering" | "computing" | "business" | "sciences" | "arts" | "law" | "medicine" | "psychology" | "nursing"
       "name": "Bachelor of Computing (Computer Science)",
+      "majors": ["Finance", "Marketing"],         // optional; majors offered within this one degree at the same fee
       "durationYears": 4,                        // may be fractional, e.g. 1.5
       "feeYear": 2025,                           // calendar year the academic year STARTS in
       "fees": {
