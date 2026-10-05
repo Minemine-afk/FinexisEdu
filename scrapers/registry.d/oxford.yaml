@@ -57,3 +57,8 @@ sources:
     country: uk
     url: "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/psychology-experimental"
     manual: true
+  # MSc in Financial Economics: official current fee source confirmed Oct 2026; read by hand
+  - university: oxford
+    country: uk
+    url: "https://www.sbs.ox.ac.uk/programmes/degrees/msc-financial-economics"
+    manual: true

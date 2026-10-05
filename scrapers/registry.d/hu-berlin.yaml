@@ -76,3 +76,8 @@ sources:
       pattern: 'Transportation costs \(car/public transport\): EUR ([\d,]+)'
     - key: living.personal
       pattern: 'Recreation, culture and sports: EUR ([\d,]+) Clothing: EUR ([\d,]+) Semester contribution: EUR [\d,]+ Working materials \(books etc\.\): EUR ([\d,]+) Telephone/Internet/radio and TV licence, postage: EUR ([\d,]+) Other expenses: EUR ([\d,]+)'
+  # 11 programmes: official current fee source confirmed Oct 2026; read by hand
+  - university: hu-berlin
+    country: de
+    url: "https://www.hu-berlin.de/studium/im-studium/studienorganisation/rueckmeldung"
+    manual: true

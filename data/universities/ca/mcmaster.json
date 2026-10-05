@@ -41,19 +41,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students. Not fixed, so later years may cost more. Compulsory student fees (including a bus pass) and a one-off orientation fee included; health insurance is extra.",
-      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $153.75 (McMaster Engineering Society incl. macLAB and career/co-op fees). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually.",
+      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $153.75 (McMaster Engineering Society incl. macLAB and career/co-op fees). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually. Fee history from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf), which lists each item's 'Approved 2024/25' and '2025/26' amounts side by side (2024/25 column cross-checked against the 2024-06-25 'Miscellaneous Fees 2024-25 and Draft 2025-26' PDF, e.g. HSR 250.63, organization 157.98, orientation 112.92). 2025 = the 2025/26 column, which is exactly what the current record already uses (C$1,736.83 + orientation C$114.83). 2024 = same items at 2024/25 rates: MSU fees 729.08 (HSR 250.63, MUSC 0.79 x 30, health 110.00, dental 136.00, CFMU 16.26, WUSC 1.94, Incite 1.21, band 1.17, organization 157.98, bike share 24.50, OPIRG 5.69) + university fees 825.08 (Sports Complex 8.97 x 30, transcripts 1.50 x 30, Student Wellness Centre 124.59, Career Services 90.43, Athletics & Recreation 295.96) + faculty society 152.76 (Engineering Society 56.46 + wellness 0.28 + tutor/mentor 1.02 + macLAB 50.00 + career & co-op 45.00) = C$1,706.92; one-off First Year Orientation Fee C$112.92. UHIP excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 69353.54,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1706.92,
+          "oneOffFees": 112.92,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 69353.54,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1736.83,
+          "oneOffFees": 114.83,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -75,19 +79,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students. Not fixed, so later years may cost more. Compulsory student fees (including a bus pass) and a one-off orientation fee included; health insurance is extra.",
-      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $153.75 (McMaster Engineering Society incl. macLAB and career/co-op fees). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually.",
+      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $153.75 (McMaster Engineering Society incl. macLAB and career/co-op fees). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually. Fee history from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf), which lists each item's 'Approved 2024/25' and '2025/26' amounts side by side (2024/25 column cross-checked against the 2024-06-25 'Miscellaneous Fees 2024-25 and Draft 2025-26' PDF, e.g. HSR 250.63, organization 157.98, orientation 112.92). 2025 = the 2025/26 column, which is exactly what the current record already uses (C$1,736.83 + orientation C$114.83). 2024 = same items at 2024/25 rates: MSU fees 729.08 (HSR 250.63, MUSC 0.79 x 30, health 110.00, dental 136.00, CFMU 16.26, WUSC 1.94, Incite 1.21, band 1.17, organization 157.98, bike share 24.50, OPIRG 5.69) + university fees 825.08 (Sports Complex 8.97 x 30, transcripts 1.50 x 30, Student Wellness Centre 124.59, Career Services 90.43, Athletics & Recreation 295.96) + faculty society 152.76 (Engineering Society 56.46 + wellness 0.28 + tutor/mentor 1.02 + macLAB 50.00 + career & co-op 45.00) = C$1,706.92; one-off First Year Orientation Fee C$112.92. UHIP excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 56232.6,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1706.92,
+          "oneOffFees": 112.92,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 56232.6,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1736.83,
+          "oneOffFees": 114.83,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -109,19 +117,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students. Not fixed, so later years may cost more. Compulsory student fees (including a bus pass) and a one-off orientation fee included; health insurance is extra.",
-      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $221.94 (Commerce Students Society incl. career development and trading floor fees). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually.",
+      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $221.94 (Commerce Students Society incl. career development and trading floor fees). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually. Fee history from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf), which lists each item's 'Approved 2024/25' and '2025/26' amounts side by side (2024/25 column cross-checked against the 2024-06-25 'Miscellaneous Fees 2024-25 and Draft 2025-26' PDF, e.g. HSR 250.63, organization 157.98, orientation 112.92). 2025 = the 2025/26 column, which is exactly what the current record already uses (C$1,805.02 + orientation C$114.83). 2024 = same items at 2024/25 rates: MSU fees 729.08 (HSR 250.63, MUSC 0.79 x 30, health 110.00, dental 136.00, CFMU 16.26, WUSC 1.94, Incite 1.21, band 1.17, organization 157.98, bike share 24.50, OPIRG 5.69) + university fees 825.08 (Sports Complex 8.97 x 30, transcripts 1.50 x 30, Student Wellness Centre 124.59, Career Services 90.43, Athletics & Recreation 295.96) + faculty society 221.06 (Commerce Students Society 52.11 + academic development 2.07 + Centre for Business Career Development 151.88 + trading floor 15.00) = C$1,775.22; one-off First Year Orientation Fee C$112.92. UHIP excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50003.4,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1775.22,
+          "oneOffFees": 112.92,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 50003.4,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1805.02,
+          "oneOffFees": 114.83,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -143,19 +155,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students. Not fixed, so later years may cost more. Compulsory student fees (including a bus pass) and a one-off orientation fee included; health insurance is extra.",
-      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $86.10 (Science Students Society incl. careers & experience fee). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually.",
+      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $86.10 (Science Students Society incl. careers & experience fee). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually. Fee history from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf), which lists each item's 'Approved 2024/25' and '2025/26' amounts side by side (2024/25 column cross-checked against the 2024-06-25 'Miscellaneous Fees 2024-25 and Draft 2025-26' PDF, e.g. HSR 250.63, organization 157.98, orientation 112.92). 2025 = the 2025/26 column, which is exactly what the current record already uses (C$1,669.18 + orientation C$114.83). 2024 = same items at 2024/25 rates: MSU fees 729.08 (HSR 250.63, MUSC 0.79 x 30, health 110.00, dental 136.00, CFMU 16.26, WUSC 1.94, Incite 1.21, band 1.17, organization 157.98, bike share 24.50, OPIRG 5.69) + university fees 825.08 (Sports Complex 8.97 x 30, transcripts 1.50 x 30, Student Wellness Centre 124.59, Career Services 90.43, Athletics & Recreation 295.96) + faculty society 57.64 (Science Students Society 26.03 + academic support 0.93 + Science Careers & Experience 30.68) = C$1,611.80; one-off First Year Orientation Fee C$112.92. UHIP excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 47535.3,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1611.8,
+          "oneOffFees": 112.92,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 47535.3,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1669.18,
+          "oneOffFees": 114.83,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -177,19 +193,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students. Not fixed, so later years may cost more. Compulsory student fees (including a bus pass) and a one-off orientation fee included; health insurance is extra.",
-      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $66.76 (Humanities Students Society incl. career services fee). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually.",
+      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $66.76 (Humanities Students Society incl. career services fee). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually. Fee history from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf), which lists each item's 'Approved 2024/25' and '2025/26' amounts side by side (2024/25 column cross-checked against the 2024-06-25 'Miscellaneous Fees 2024-25 and Draft 2025-26' PDF, e.g. HSR 250.63, organization 157.98, orientation 112.92). 2025 = the 2025/26 column, which is exactly what the current record already uses (C$1,649.84 + orientation C$114.83). 2024 = same items at 2024/25 rates: MSU fees 729.08 (HSR 250.63, MUSC 0.79 x 30, health 110.00, dental 136.00, CFMU 16.26, WUSC 1.94, Incite 1.21, band 1.17, organization 157.98, bike share 24.50, OPIRG 5.69) + university fees 825.08 (Sports Complex 8.97 x 30, transcripts 1.50 x 30, Student Wellness Centre 124.59, Career Services 90.43, Athletics & Recreation 295.96) + faculty society 65.64 (Humanities Students Society 25.00 + career services & academic support 40.64) = C$1,619.80; one-off First Year Orientation Fee C$112.92. UHIP excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 45158.4,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1619.8,
+          "oneOffFees": 112.92,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 45158.4,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1649.84,
+          "oneOffFees": 114.83,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -211,19 +231,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students; most finish in 16 months. Not fixed and may rise. Compulsory student fees included; health insurance is extra.",
-      "notes": "International 'M Eng Design - Master of Engineering Design Level 1 (Full-Time, per year)' $51,745.50 (Appendix A, Table 4, 2026-27; +2% on 2025-26 $50,730.90). Full-time students normally complete the programme in 16 months (1.33 years); a second year is billed at the identical Level 2 rate. Fees as for research master's (GSA/university fees $1,289.37; UHIP excluded). 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25 Tuition Fee Schedule PDF. Spreadsheet checked manually.",
+      "notes": "International 'M Eng Design - Master of Engineering Design Level 1 (Full-Time, per year)' $51,745.50 (Appendix A, Table 4, 2026-27; +2% on 2025-26 $50,730.90). Full-time students normally complete the programme in 16 months (1.33 years); a second year is billed at the identical Level 2 rate. Fees as for research master's (GSA/university fees $1,289.37; UHIP excluded). 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25 Tuition Fee Schedule PDF. Spreadsheet checked manually. Fee history from the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf; columns 'Approved 2024/25' and '2025/26'). 2025 = 2025/26 column, identical to the current record's C$1,289.37. 2024 = GSA organization 73.41 + dental 225.00 + health 265.00 + student assistance 6.48 + HSR bus pass 307.95 + project fee 30.00 + Sports Complex 14.99 x 3 + Wellness Centre 125.13 + Athletics 110.21 + transcripts 8.92 x 3 = C$1,214.91. The graduate Hamilton Bike Share fee (C$24.50) is marked NEW for 2025/26 with no 2024/25 amount, so it is not in 2024. UHIP excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 50730.9,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1214.91,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 50730.9,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1289.37,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -245,19 +269,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students in a research master's, typically 2 years. Not fixed and may rise. Compulsory student fees included; health insurance is extra.",
-      "notes": "International research master's rate: 'Graduate Programs Level 1 - Research Programs - Master' $5,698.74 per term x 3 terms (Appendix A, Table 4 of the 2026-27/2027-28 Tuition Fee Schedule; 0% change). Fees = 2025/26 approved graduate supplementary fees (Sept start, full-time) from the Miscellaneous Fees schedule: GSA organization $74.81 + dental $230 + health $292 + student assistance $6.61 + HSR bus pass $319.14 + bike share $24.50 + project fee $30 + Sports Complex $15.25 x 3 + Wellness Centre $127.26 + Athletics $112.09 + transcripts $9.07 x 3 = $1,289.37. UHIP excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually.",
+      "notes": "International research master's rate: 'Graduate Programs Level 1 - Research Programs - Master' $5,698.74 per term x 3 terms (Appendix A, Table 4 of the 2026-27/2027-28 Tuition Fee Schedule; 0% change). Fees = 2025/26 approved graduate supplementary fees (Sept start, full-time) from the Miscellaneous Fees schedule: GSA organization $74.81 + dental $230 + health $292 + student assistance $6.61 + HSR bus pass $319.14 + bike share $24.50 + project fee $30 + Sports Complex $15.25 x 3 + Wellness Centre $127.26 + Athletics $112.09 + transcripts $9.07 x 3 = $1,289.37. UHIP excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually. Fee history from the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf; columns 'Approved 2024/25' and '2025/26'). 2025 = 2025/26 column, identical to the current record's C$1,289.37. 2024 = GSA organization 73.41 + dental 225.00 + health 265.00 + student assistance 6.48 + HSR bus pass 307.95 + project fee 30.00 + Sports Complex 14.99 x 3 + Wellness Centre 125.13 + Athletics 110.21 + transcripts 8.92 x 3 = C$1,214.91. The graduate Hamilton Bike Share fee (C$24.50) is marked NEW for 2025/26 with no 2024/25 amount, so it is not in 2024. UHIP excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 17096.22,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1214.91,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 17096.22,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1289.37,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -279,19 +307,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students in the 2-year full-time MBA. Not fixed and may rise. Compulsory MBA fees included; bus pass and health insurance are extra.",
-      "notes": "International 'MBA - Full-time - Level 1 (per term)' $25,556.04 x 2 academic terms per year (Appendix A, Table 4, 2026-27; 0% change); the full-time MBA is 2 academic years (Levels 1 and 2, 4 terms). Fees = 2025/26 approved MBA fees from the Miscellaneous Fees schedule: MBA/GSA organization $74.81 + student assistance $6.61 + dental $230 + health $292 + per term x 2 (MBA Association $100, trading floor $15, career & professional development $302.63, Sports Complex $15.25, Athletics $48.98) = $1,567.14. HSR bus pass and UHIP excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25 Tuition Fee Schedule PDF. Spreadsheet checked manually.",
+      "notes": "International 'MBA - Full-time - Level 1 (per term)' $25,556.04 x 2 academic terms per year (Appendix A, Table 4, 2026-27; 0% change); the full-time MBA is 2 academic years (Levels 1 and 2, 4 terms). Fees = 2025/26 approved MBA fees from the Miscellaneous Fees schedule: MBA/GSA organization $74.81 + student assistance $6.61 + dental $230 + health $292 + per term x 2 (MBA Association $100, trading floor $15, career & professional development $302.63, Sports Complex $15.25, Athletics $48.98) = $1,567.14. HSR bus pass and UHIP excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25 Tuition Fee Schedule PDF. Spreadsheet checked manually. Fee history from the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf; 'Approved 2024/25' and '2025/26' columns). 2025 = 2025/26 column, identical to the current C$1,567.14. 2024 = MBA/GSA organization 73.41 + student assistance 6.48 + dental 225.00 + health 265.00 + per term x 2 (MBA Association 100.00, trading floor 15.00, career & professional development 302.63, Sports Complex 14.99, Athletics 48.16) = C$1,531.45. HSR and UHIP excluded as in the current record.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 51112.08,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1531.45,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 51112.08,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1567.14,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -313,19 +345,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students in a research master's, typically 2 years. Not fixed and may rise. Compulsory student fees included; health insurance is extra.",
-      "notes": "International research master's rate: 'Graduate Programs Level 1 - Research Programs - Master' $5,698.74 per term x 3 terms (Appendix A, Table 4 of the 2026-27/2027-28 Tuition Fee Schedule; 0% change). Fees = 2025/26 approved graduate supplementary fees (Sept start, full-time) from the Miscellaneous Fees schedule: GSA organization $74.81 + dental $230 + health $292 + student assistance $6.61 + HSR bus pass $319.14 + bike share $24.50 + project fee $30 + Sports Complex $15.25 x 3 + Wellness Centre $127.26 + Athletics $112.09 + transcripts $9.07 x 3 = $1,289.37. UHIP excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually.",
+      "notes": "International research master's rate: 'Graduate Programs Level 1 - Research Programs - Master' $5,698.74 per term x 3 terms (Appendix A, Table 4 of the 2026-27/2027-28 Tuition Fee Schedule; 0% change). Fees = 2025/26 approved graduate supplementary fees (Sept start, full-time) from the Miscellaneous Fees schedule: GSA organization $74.81 + dental $230 + health $292 + student assistance $6.61 + HSR bus pass $319.14 + bike share $24.50 + project fee $30 + Sports Complex $15.25 x 3 + Wellness Centre $127.26 + Athletics $112.09 + transcripts $9.07 x 3 = $1,289.37. UHIP excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually. Fee history from the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf; columns 'Approved 2024/25' and '2025/26'). 2025 = 2025/26 column, identical to the current record's C$1,289.37. 2024 = GSA organization 73.41 + dental 225.00 + health 265.00 + student assistance 6.48 + HSR bus pass 307.95 + project fee 30.00 + Sports Complex 14.99 x 3 + Wellness Centre 125.13 + Athletics 110.21 + transcripts 8.92 x 3 = C$1,214.91. The graduate Hamilton Bike Share fee (C$24.50) is marked NEW for 2025/26 with no 2024/25 amount, so it is not in 2024. UHIP excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 17096.22,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1214.91,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 17096.22,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1289.37,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -347,19 +383,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students for this one-year research master's. Compulsory student fees included; health insurance is extra.",
-      "notes": "International research master's rate: 'Graduate Programs Level 1 - Research Programs - Master' $5,698.74 per term x 3 terms, one-year programme (Appendix A, Table 4 of the 2026-27/2027-28 Tuition Fee Schedule; 0% change). Fees = 2025/26 approved graduate supplementary fees (Sept start, full-time) from the Miscellaneous Fees schedule: GSA organization $74.81 + dental $230 + health $292 + student assistance $6.61 + HSR bus pass $319.14 + bike share $24.50 + project fee $30 + Sports Complex $15.25 x 3 + Wellness Centre $127.26 + Athletics $112.09 + transcripts $9.07 x 3 = $1,289.37. UHIP excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually.",
+      "notes": "International research master's rate: 'Graduate Programs Level 1 - Research Programs - Master' $5,698.74 per term x 3 terms, one-year programme (Appendix A, Table 4 of the 2026-27/2027-28 Tuition Fee Schedule; 0% change). Fees = 2025/26 approved graduate supplementary fees (Sept start, full-time) from the Miscellaneous Fees schedule: GSA organization $74.81 + dental $230 + health $292 + student assistance $6.61 + HSR bus pass $319.14 + bike share $24.50 + project fee $30 + Sports Complex $15.25 x 3 + Wellness Centre $127.26 + Athletics $112.09 + transcripts $9.07 x 3 = $1,289.37. UHIP excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually. Fee history from the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf; columns 'Approved 2024/25' and '2025/26'). 2025 = 2025/26 column, identical to the current record's C$1,289.37. 2024 = GSA organization 73.41 + dental 225.00 + health 265.00 + student assistance 6.48 + HSR bus pass 307.95 + project fee 30.00 + Sports Complex 14.99 x 3 + Wellness Centre 125.13 + Athletics 110.21 + transcripts 8.92 x 3 = C$1,214.91. The graduate Hamilton Bike Share fee (C$24.50) is marked NEW for 2025/26 with no 2024/25 amount, so it is not in 2024. UHIP excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 17096.22,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1214.91,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 17096.22,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1289.37,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -381,19 +421,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students in the 3-year graduate-entry Doctor of Medicine; all three years are charged the same. Medical student fees included; health insurance is extra.",
-      "notes": "International 'Medicine 1' annual tuition C$95,000 (Appendix A, Table 2, 2026-27; 0% change and C$95,000 again for 2027-28; Levels 2 and 3 identical). The MD is a 3-year, graduate-entry programme. Fees = 2025/26 approved fees that the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf) labels for medical students: MSU Health and Dental Insurance - Medicine C$279.87 + Medical Students Society fees C$238.89 (society C$80.28, academic support C$46.88, career services C$48.64, UpToDate C$63.09) + Medical Students athletics and recreation C$146.91 + Medical Students Student Wellness Centre C$89.89 + Student Health Services - Medical C$73.84 + Medicine learning resources C$274.59. General MSU fees (HSR bus pass, organisation fee) are not listed against the MD programme in that schedule, so they are not included; UHIP and the C$1,000 admission deposit (credited to fees) excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually.",
+      "notes": "International 'Medicine 1' annual tuition C$95,000 (Appendix A, Table 2, 2026-27; 0% change and C$95,000 again for 2027-28; Levels 2 and 3 identical). The MD is a 3-year, graduate-entry programme. Fees = 2025/26 approved fees that the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf) labels for medical students: MSU Health and Dental Insurance - Medicine C$279.87 + Medical Students Society fees C$238.89 (society C$80.28, academic support C$46.88, career services C$48.64, UpToDate C$63.09) + Medical Students athletics and recreation C$146.91 + Medical Students Student Wellness Centre C$89.89 + Student Health Services - Medical C$73.84 + Medicine learning resources C$274.59. General MSU fees (HSR bus pass, organisation fee) are not listed against the MD programme in that schedule, so they are not included; UHIP and the C$1,000 admission deposit (credited to fees) excluded. 2025 from the spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet checked manually. Fee history from the Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf; 'Approved 2024/25' and '2025/26' columns). 2025 = 2025/26 column, identical to the current C$1,103.99. 2024 = MSU Health & Dental - Medicine 276.00 + Medical Students Society 234.89 (society 78.94, academic support 46.09, career services 47.82, UpToDate 62.04) + Medical Students athletics 144.46 + Medical Students Wellness Centre 88.39 + Student Health Services - Medical 72.60 + Medicine learning resources 270.00 = C$1,086.34. UHIP excluded.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 95000,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1086.34,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 95000,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1103.99,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     },
@@ -415,19 +459,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year tuition for international students. Not fixed, so later years may cost more. Compulsory student fees (including a bus pass) and a one-off orientation fee included; health insurance is extra.",
-      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $86.10 (Science Students Society incl. careers & experience fee). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually. Psychology, Neuroscience & Behaviour (PNB) is a Faculty of Science honours programme entered through Level 1 Science, so the Level 1 BSc tuition, Science fees and history are copied from the existing BSc record.",
+      "notes": "Level 1 annual international tuition from the board-approved 2026-27/2027-28 Tuition Fee Schedule (Appendix A, Table 2; 30 units, 0% change from 2025-26). Fees = 2025/26 approved supplementary fees for a full-time undergraduate (30 units) from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf): MSU fees $744.21 (HSR bus pass $252.05, MUSC $0.80 x 30, health $111.87, dental $138, CFMU $16.54, WUSC $1.97, Incite $1.23, band $1.19, organization $167.17, bike share $24.50, OPIRG $5.69) + university fees $838.87 (Sports Complex $9.12 x 30, transcripts $1.52 x 30, Student Wellness Centre $126.71, Career Services $91.97, Athletics and Recreation $300.99) + faculty society fees $86.10 (Science Students Society incl. careers & experience fee). One-off = First Year Orientation Fee $114.83. UHIP excluded. 2025 from the same spreadsheet's 2025-26 column; 2024 from the 2024-25/2025-26 Tuition Fee Schedule PDF. Spreadsheet is not machine-readable by the scraper, so checked manually. Psychology, Neuroscience & Behaviour (PNB) is a Faculty of Science honours programme entered through Level 1 Science, so the Level 1 BSc tuition, Science fees and history are copied from the existing BSc record. Fee history from the Financial Affairs Miscellaneous Fees schedule (https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf), which lists each item's 'Approved 2024/25' and '2025/26' amounts side by side (2024/25 column cross-checked against the 2024-06-25 'Miscellaneous Fees 2024-25 and Draft 2025-26' PDF, e.g. HSR 250.63, organization 157.98, orientation 112.92). 2025 = the 2025/26 column, which is exactly what the current record already uses (C$1,669.18 + orientation C$114.83). 2024 = same items at 2024/25 rates: MSU fees 729.08 (HSR 250.63, MUSC 0.79 x 30, health 110.00, dental 136.00, CFMU 16.26, WUSC 1.94, Incite 1.21, band 1.17, organization 157.98, bike share 24.50, OPIRG 5.69) + university fees 825.08 (Sports Complex 8.97 x 30, transcripts 1.50 x 30, Student Wellness Centre 124.59, Career Services 90.43, Athletics & Recreation 295.96) + faculty society 57.64 (Science Students Society 26.03 + academic support 0.93 + Science Careers & Experience 30.68) = C$1,611.80; one-off First Year Orientation Fee C$112.92. UHIP excluded. Tuition unchanged from the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 47535.3,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/Final-Appendix-A-2024-25-2025-26-Tuition-Fee-Schedule.pdf"
+          "annualCompulsoryFees": 1611.8,
+          "oneOffFees": 112.92,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 47535.3,
-          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2026-27-Tuition-Fee-Schedule.xlsx"
+          "annualCompulsoryFees": 1669.18,
+          "oneOffFees": 114.83,
+          "sourceUrl": "https://financial-affairs.mcmaster.ca/app/uploads/2019/02/2025-05-23-Miscellaneous-Fees-2025-26-and-Draft-2026-27-v2.pdf"
         }
       ]
     }

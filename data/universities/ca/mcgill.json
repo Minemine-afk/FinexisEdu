@@ -26,19 +26,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international students, fixed for the whole degree at your entry-year rate. Compulsory student fees included; international health insurance is extra.",
-      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded.",
+      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Compulsory-fee history (same components as the current record: society & other + student services/athletics + registration/admin + copyright + IT + SSMU dental; international health insurance excluded). 2024: Student Accounts 'International / Bachelor of Arts / Fall 2024/Winter 2025' table, 30 credits, column 'Admitted and enrolled as of Fall 2024' (page https://www.mcgill.ca/student-accounts/bachelor-arts-ba-6, now 404; read from Wayback capture 20260513105048): society 703.90 + student services 737.30 + admin 405.79 + copyright 33.60 + IT 288.00 + SSMU dental 150.00 = C$2,318.59; tuition 44,000.10 confirms the existing row (intl health insurance 1,047 excluded). 2025: live 2025-26 international table (https://www.mcgill.ca/student-accounts/bachelor-arts-ba-0, Fall 2025/Winter 2026, column 'Admitted and enrolled as of Fall 2025', fetched 2026-10-05): society 704.28 + 752.04 + 413.86 + 34.20 + 293.70 + 150.00 = C$2,348.08; tuition 48,999.90 confirms the existing row (intl health insurance 1,155 excluded).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 44000.1,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3"
+          "annualCompulsoryFees": 2318.59,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-6"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 48999.9,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3"
+          "annualCompulsoryFees": 2348.08,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-0"
         }
       ]
     },
@@ -60,19 +64,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international students, fixed for the whole degree at your entry-year rate. Compulsory student fees included; international health insurance is extra.",
-      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded.",
+      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Compulsory-fee history (same components as the current record: society & other + student services/athletics + registration/admin + copyright + IT + SSMU dental; international health insurance excluded). 2024: Student Accounts 'International / Bachelor of Science / Fall 2024/Winter 2025' table, 30 credits, column 'Admitted and enrolled as of Fall 2024' (page https://www.mcgill.ca/student-accounts/bachelor-science-bsc-7, now 404; read from Wayback capture 20260513105048): society 673.20 + student services 737.30 + admin 405.79 + copyright 33.60 + IT 288.00 + SSMU dental 150.00 = C$2,287.89; tuition 61,066.80 confirms the existing row (intl health insurance 1,047 excluded). 2025: live 2025-26 international table (https://www.mcgill.ca/student-accounts/bachelor-science-bsc-1, Fall 2025/Winter 2026, column 'Admitted and enrolled as of Fall 2025', fetched 2026-10-05): society 652.68 + 752.04 + 413.86 + 34.20 + 293.70 + 150.00 = C$2,296.48; tuition 62,898.90 confirms the existing row (intl health insurance 1,155 excluded).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 61066.8,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4"
+          "annualCompulsoryFees": 2287.89,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-7"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 62898.9,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4"
+          "annualCompulsoryFees": 2296.48,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-1"
         }
       ]
     },
@@ -94,19 +102,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international students, fixed for the whole degree at your entry-year rate. Compulsory student fees included; international health insurance is extra.",
-      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded.",
+      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Compulsory-fee history (same components as the current record: society & other + student services/athletics + registration/admin + copyright + IT + SSMU dental; international health insurance excluded). 2024: Student Accounts 'International / Bachelor of Engineering / Fall 2024/Winter 2025' table, 30 credits, column 'Admitted and enrolled as of Fall 2024' (page https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-5, now 404; read from Wayback capture 20250908043654): society 1,125.92 + student services 737.30 + admin 405.79 + copyright 33.60 + IT 288.00 + SSMU dental 150.00 = C$2,740.61; tuition 62,637.00 confirms the existing row (intl health insurance 1,047 excluded). 2025: live 2025-26 international table (https://www.mcgill.ca/student-accounts/bachelor-engineering-beng, Fall 2025/Winter 2026, column 'Admitted and enrolled as of Fall 2025', fetched 2026-10-05): society 1,151.28 + 752.04 + 413.86 + 34.20 + 293.70 + 150.00 = C$2,795.08; tuition 63,889.80 confirms the existing row (intl health insurance 1,155 excluded).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 62637,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2"
+          "annualCompulsoryFees": 2740.61,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-5"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 63889.8,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng-2"
+          "annualCompulsoryFees": 2795.08,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-engineering-beng"
         }
       ]
     },
@@ -128,19 +140,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international students, charged at the Bachelor of Science rate and fixed for the whole degree at your entry-year rate. Compulsory fees included; health insurance is extra.",
-      "notes": "Computer Science major is a BSc in the Faculty of Science, billed at the BSc international rate (McGill bills by faculty). 2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded.",
+      "notes": "Computer Science major is a BSc in the Faculty of Science, billed at the BSc international rate (McGill bills by faculty). 2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Compulsory-fee history (same components as the current record: society & other + student services/athletics + registration/admin + copyright + IT + SSMU dental; international health insurance excluded). 2024: Student Accounts 'International / Bachelor of Science (BSc) / Fall 2024/Winter 2025' table, 30 credits, column 'Admitted and enrolled as of Fall 2024' (page https://www.mcgill.ca/student-accounts/bachelor-science-bsc-7, now 404; read from Wayback capture 20260513105048): society 673.20 + student services 737.30 + admin 405.79 + copyright 33.60 + IT 288.00 + SSMU dental 150.00 = C$2,287.89; tuition 61,066.80 confirms the existing row (intl health insurance 1,047 excluded). 2025: live 2025-26 international table (https://www.mcgill.ca/student-accounts/bachelor-science-bsc-1, Fall 2025/Winter 2026, column 'Admitted and enrolled as of Fall 2025', fetched 2026-10-05): society 652.68 + 752.04 + 413.86 + 34.20 + 293.70 + 150.00 = C$2,296.48; tuition 62,898.90 confirms the existing row (intl health insurance 1,155 excluded).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 61066.8,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4"
+          "annualCompulsoryFees": 2287.89,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-7"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 62898.9,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-4"
+          "annualCompulsoryFees": 2296.48,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-science-bsc-1"
         }
       ]
     },
@@ -162,19 +178,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international students, fixed for the whole degree at your entry-year rate. Compulsory student fees included; international health insurance is extra.",
-      "notes": "BCom international table (Student Accounts). 2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. 2024 and 2025 rows are the 'admitted and enrolled as of Fall 2024/2025' columns of the same table.",
+      "notes": "BCom international table (Student Accounts). 2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. 2024 and 2025 rows are the 'admitted and enrolled as of Fall 2024/2025' columns of the same table. Compulsory-fee history (same components as the current record: society & other + student services/athletics + registration/admin + copyright + IT + SSMU dental; international health insurance excluded). 2024: Student Accounts 'International / Bachelor of Commerce (Desautels) / Fall 2024/Winter 2025' table, 30 credits, column 'Admitted and enrolled as of Fall 2024' (page https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-7, now 404; read from Wayback capture 20250908223536): society 741.70 + student services 737.30 + admin 405.79 + copyright 33.60 + IT 288.00 + SSMU dental 150.00 = C$2,356.39; tuition 67,572.30 confirms the existing row (intl health insurance 1,047 excluded). 2025: live 2025-26 international table (https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-1, Fall 2025/Winter 2026, column 'Admitted and enrolled as of Fall 2025', fetched 2026-10-05): society 767.18 + 752.04 + 413.86 + 34.20 + 293.70 + 150.00 = C$2,410.98; tuition 69,599.40 confirms the existing row (intl health insurance 1,155 excluded).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 67572.3,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-4"
+          "annualCompulsoryFees": 2356.39,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-7"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 69599.4,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-4"
+          "annualCompulsoryFees": 2410.98,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-commerce-bcom-1"
         }
       ]
     },
@@ -386,19 +406,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international students, fixed for the whole programme at your entry-year rate. Programme is 3 to 3.5 years. Compulsory fees included; health insurance is extra.",
-      "notes": "2026-27 international fees, 30 credits, by admission year; tuition guaranteed for the programme. McGill classes the BCL/JD as an undergraduate programme (listed with its international undergraduate rates) although most entrants hold a prior degree, so it is filed as graduate-entry here. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Programme is 105 credits, typically 3-3.5 years.",
+      "notes": "2026-27 international fees, 30 credits, by admission year; tuition guaranteed for the programme. McGill classes the BCL/JD as an undergraduate programme (listed with its international undergraduate rates) although most entrants hold a prior degree, so it is filed as graduate-entry here. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Programme is 105 credits, typically 3-3.5 years. Compulsory-fee history (same components as the current record: society & other + student services/athletics + registration/admin + copyright + IT + SSMU dental; international health insurance excluded). 2024: Student Accounts 'International / Bachelor of Civil Law and Juris Doctor (BCL/JD) / Fall 2024/Winter 2025' table, 30 credits, column 'Admitted and enrolled as of Fall 2024' (page https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-3, now 404; read from Wayback capture 20260513105039): society 877.68 + student services 737.30 + admin 405.79 + copyright 33.60 + IT 288.00 + SSMU dental 150.00 = C$2,492.37; tuition 62,637.00 confirms the existing row (intl health insurance 1,047 excluded). 2025: live 2025-26 international table (https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-6, Fall 2025/Winter 2026, column 'Admitted and enrolled as of Fall 2025', fetched 2026-10-05): society 894.82 + 752.04 + 413.86 + 34.20 + 293.70 + 150.00 = C$2,538.62; tuition 63,889.80 confirms the existing row (intl health insurance 1,155 excluded).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 62637,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-0"
+          "annualCompulsoryFees": 2492.37,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-3"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 63889.8,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-0"
+          "annualCompulsoryFees": 2538.62,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-civil-law-bcl-and-juris-doctor-jd-6"
         }
       ]
     },
@@ -420,7 +444,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "First-year tuition for international students, the heaviest year; Years 2 to 4 cost less. Rate fixed for the programme. Compulsory fees included; health insurance is extra.",
-      "notes": "Student Accounts '2026-2027 Tuition Rates - International Undergraduate Students' (updated December 2025): MDCM tuition C$74,678.31 for students admitted Fall 2026, based on 63 credits in Year 1 (the heaviest year; McGill lists 50.5, 51 and 35.5 credits for Years 2-4, so later years cost less). Per-credit rate guaranteed for the programme. Compulsory = society C$779.50 + student services/athletics C$774.60 + admin C$651.89 + copyright C$55.05 + IT C$440.55 + SSMU dental C$150 (estimated by McGill at +3%); international health insurance (C$1,155) excluded. Graduate-entry MDCM is 4 years. 2025 history from the '2025-2026 Tuition Rates - International Undergraduate Students' PDF (updated November 2024): MDCM tuition C$69,339.06 for students admitted Fall 2025 (63 credits), compulsory C$2,823.52 on the same basis. No 2024 row: the 2024-25 rates PDF is no longer online and the MDCM web tables show each cohort at its current year of study (not Year 1), so no source states the Fall 2024 cohort's Year-1 figure.",
+      "notes": "Student Accounts '2026-2027 Tuition Rates - International Undergraduate Students' (updated December 2025): MDCM tuition C$74,678.31 for students admitted Fall 2026, based on 63 credits in Year 1 (the heaviest year; McGill lists 50.5, 51 and 35.5 credits for Years 2-4, so later years cost less). Per-credit rate guaranteed for the programme. Compulsory = society C$779.50 + student services/athletics C$774.60 + admin C$651.89 + copyright C$55.05 + IT C$440.55 + SSMU dental C$150 (estimated by McGill at +3%); international health insurance (C$1,155) excluded. Graduate-entry MDCM is 4 years. 2025 history from the '2025-2026 Tuition Rates - International Undergraduate Students' PDF (updated November 2024): MDCM tuition C$69,339.06 for students admitted Fall 2025 (63 credits), compulsory C$2,823.52 on the same basis. No 2024 row: the 2024-25 rates PDF is no longer online and the MDCM web tables show each cohort at its current year of study (not Year 1), so no source states the Fall 2024 cohort's Year-1 figure. 2024 row from Student Accounts 'International / Doctor of Medicine and Master of Surgery (MDCM) / Fall 2024/Winter 2025' web table (https://www.mcgill.ca/student-accounts/doctor-medicine-and-master-surgery-mdcm-5, now 404; Wayback capture 20250916143940; 'Tuition rates shown below are established for 2024-25'). Column 'Admitted and enrolled as of Fall 2024 (Yr 1)', 63.00 average credits: tuition C$64,381.59; compulsory = society 748.04 + student services/athletics 737.30 + registration/admin 620.56 + IT 432.00 + copyright 68.67 + SSMU dental 150.00 = C$2,756.57; international health insurance C$1,047 excluded (column total C$68,185.16 checks). In the 2024-25 version of this table the Fall 2024 cohort is shown in Year 1, so it states that cohort's Year-1 figure on the same 63-credit basis as the 2025 and 2026 rows.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -429,6 +453,14 @@
           "annualCompulsoryFees": 2823.52,
           "oneOffFees": 0,
           "sourceUrl": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64381.59,
+          "annualCompulsoryFees": 2756.57,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/doctor-medicine-and-master-surgery-mdcm-5"
         }
       ]
     },
@@ -450,19 +482,23 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international students, fixed for the whole degree at your entry-year rate. Compulsory student fees included; international health insurance is extra.",
-      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Psychology is offered as a BA major (Faculty of Arts) and also within the Bachelor of Science, which is charged the higher BSc rate (C$64,785.90 for Fall 2026 entrants, see the existing BSc record). BA figures and 2024/2025 history are copied from the existing Bachelor of Arts record (same Student Accounts page).",
+      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Psychology is offered as a BA major (Faculty of Arts) and also within the Bachelor of Science, which is charged the higher BSc rate (C$64,785.90 for Fall 2026 entrants, see the existing BSc record). BA figures and 2024/2025 history are copied from the existing Bachelor of Arts record (same Student Accounts page). Compulsory-fee history (same components as the current record: society & other + student services/athletics + registration/admin + copyright + IT + SSMU dental; international health insurance excluded). 2024: Student Accounts 'International / Bachelor of Arts (BA) / Fall 2024/Winter 2025' table, 30 credits, column 'Admitted and enrolled as of Fall 2024' (page https://www.mcgill.ca/student-accounts/bachelor-arts-ba-6, now 404; read from Wayback capture 20260513105048): society 703.90 + student services 737.30 + admin 405.79 + copyright 33.60 + IT 288.00 + SSMU dental 150.00 = C$2,318.59; tuition 44,000.10 confirms the existing row (intl health insurance 1,047 excluded). 2025: live 2025-26 international table (https://www.mcgill.ca/student-accounts/bachelor-arts-ba-0, Fall 2025/Winter 2026, column 'Admitted and enrolled as of Fall 2025', fetched 2026-10-05): society 704.28 + 752.04 + 413.86 + 34.20 + 293.70 + 150.00 = C$2,348.08; tuition 48,999.90 confirms the existing row (intl health insurance 1,155 excluded).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 44000.1,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3"
+          "annualCompulsoryFees": 2318.59,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-6"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 48999.9,
-          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3"
+          "annualCompulsoryFees": 2348.08,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-0"
         }
       ]
     },

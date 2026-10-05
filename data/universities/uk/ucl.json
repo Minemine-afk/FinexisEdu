@@ -41,7 +41,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
-      "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028); 3-year programme. The 2025 figure was read on the School of Management page in 2026-09 (that page now redirects to www.ucl.ac.uk and blocks automated access). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028); 3-year programme. The 2025 figure was read on the School of Management page in 2026-09 (that page now redirects to www.ucl.ac.uk and blocks automated access). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt. No 2024 row: the programme had no 2024 intake. UCL's 2024 undergraduate fee schedule (degree-fees-drupal index.php?coursetype=undergraduate&year=2024, fetched 2026-10-05) lists 'International Management, BSc (UBSINTSING18)' with UK and Overseas full-time fees 'TBC'. The Wayback capture 20240715185103 of the UCL prospectus page (ucl.ac.uk/prospective-students/undergraduate/degrees/international-management-bsc) reads 'Overseas tuition fees (2024/25) Fees to be confirmed ... Programme starts September 2025'. The 2025 schedule gives Overseas £39,800, matching the existing 2025 row, whose source could be moved to that schedule (year=2025) since the School of Management page now redirects.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -195,13 +195,29 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students, paid in 5 instalments across the 6-year course. Not fixed: it can rise each year by up to inflation. Excludes extra costs such as equipment and placement travel.",
-      "notes": "Overseas fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £59,600 (an averaged rate: 2 x £40,800 pre-clinical plus 3 x £72,134 clinical), so durationYears 5 reflects the number of fee years. The schedule states that Overseas Medicine fees are excluded from the cohort guarantee and are subject to annual increases of no more than RPI-X, hence cohortLocked false. The 2026 entry was read on the 2026 Medicine MBBS BSc prospectus page through a reader proxy (r.jina.ai) on 2026-09-30 and matches the 2026/27 schedule. No separate compulsory fees; additional costs (DBS check, equipment, placement travel) excluded.",
+      "notes": "Overseas fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £59,600 (an averaged rate: 2 x £40,800 pre-clinical plus 3 x £72,134 clinical), so durationYears 5 reflects the number of fee years. The schedule states that Overseas Medicine fees are excluded from the cohort guarantee and are subject to annual increases of no more than RPI-X, hence cohortLocked false. The 2026 entry was read on the 2026 Medicine MBBS BSc prospectus page through a reader proxy (r.jina.ai) on 2026-09-30 and matches the 2026/27 schedule. No separate compulsory fees; additional costs (DBS check, equipment, placement travel) excluded. 2024/2025 rows from UCL's official undergraduate fee schedule tool for those years (same source as the current record, year=2024 and year=2025, fetched directly 2026-10-05), row 'Medicine: Medicine, MB,BS (UBMMEDSING01)': 2024 Overseas full-time £50,300, note 'Overseas students pay the fees in 5 annual instalments of £50,300 (2x £34,400 plus 3x £60,900), subject to annual increases of no more than RPI-X'; 2025 Overseas £53,400, '5 annual instalments of £53,400 (2x £36,500 plus 3x £64,667)'. Same five-instalment averaged rate as the current record.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 57300,
           "sourceUrl": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/medicine-mbbs-bsc-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2025"
         }
       ]
     },

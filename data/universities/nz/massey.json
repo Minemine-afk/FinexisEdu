@@ -41,12 +41,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students in the Computer Science major for 2027; other majors differ. Student services fee included; health insurance is extra. Fees reviewed yearly.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Computer Science major; 360 credits = 3 years. Other BInfSc majors $42,250-$46,950. Compulsory = 2027 student services fee for on-campus students, $10.30/credit x 120 = $1,236 (quoted on the page). Excludes Studentsafe insurance (~$999/yr). Fees reviewed annually. 2024 history: NZ$37,460 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', Computer Science major), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$42,300 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2025-51 (2025-12-12) and CC-MAIN-2026-17 (2026-04-23), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Computer Science major; 360 credits = 3 years. Other BInfSc majors $42,250-$46,950. Compulsory = 2027 student services fee for on-campus students, $10.30/credit x 120 = $1,236 (quoted on the page). Excludes Studentsafe insurance (~$999/yr). Fees reviewed annually. 2024 history: NZ$37,460 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', Computer Science major), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$42,300 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2025-51 (2025-12-12) and CC-MAIN-2026-17 (2026-04-23), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: tuition unchanged (2024 International Qualification Guide, Computer Science major $37,460), now with the 2024 SSF. 2025 row: undergraduate subject area 'Computer Science ... Estimate of tuition fees for each year $38,680' (per course $4,840) from the 2025 table. Caveat: the 2024 subject table gives Computer Science $36,490, not the guide's $37,460, and from 2026 the CS major is priced at the top science rate ($42,300 in 2026), so the 2025 subject-area figure may understate a CS-major year if it was already charged at the science rate ($39,900 in 2025). Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 37460,
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
           "sourceUrl": "https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf"
         },
         {
@@ -56,6 +58,14 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-information-sciences-UBINS/computer-science-UBINS1JCMSC1/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 38680,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     },
@@ -77,13 +87,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students for 2027. Student services fee included; health insurance is extra. Fees reviewed yearly.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits); 360 credits = 3 years. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$33,880 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', same for every BBus major), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$38,080 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-08 (2026-02-06, 2026-02-12), CC-MAIN-2026-21 (2026-05-21) and CC-MAIN-2026-34 (2026-08-14), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits); 360 credits = 3 years. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$33,880 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', same for every BBus major), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$38,080 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-08 (2026-02-06, 2026-02-12), CC-MAIN-2026-21 (2026-05-21) and CC-MAIN-2026-34 (2026-08-14), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: undergraduate subject area 'Business ... each year $33,880.00' (per course $4,234.10), the same figure as the 2024 guide; 2025 row: 'Business ... each year $35,920' (per course $4,490). Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 33880,
-          "sourceUrl": "https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf"
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240425003646/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         },
         {
           "feeYear": 2026,
@@ -92,6 +104,14 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-business-UBBSS/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35920,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     },
@@ -113,13 +133,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students for 2027, the top of the range; some majors cost less. Student services fee included; health insurance is extra.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits); 360 credits = 3 years (Massey's fee table gives $35,250-$43,570 depending on major). Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$37,640 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', Chemistry and most BSc majors; BSc range NZ$30,450-37,640), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$42,300 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-04 (2026-01-21, 2026-01-23), CC-MAIN-2026-17 (2026-04-19), CC-MAIN-2026-21 (2026-05-09) and CC-MAIN-2026-34 (2026-08-10), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The page gave a range, International students: $34,220 - $42,300; the upper figure is recorded, consistent with the 2027 current figure (upper end of $35,250-$43,570). The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits); 360 credits = 3 years (Massey's fee table gives $35,250-$43,570 depending on major). Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$37,640 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', Chemistry and most BSc majors; BSc range NZ$30,450-37,640), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$42,300 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-04 (2026-01-21, 2026-01-23), CC-MAIN-2026-17 (2026-04-19), CC-MAIN-2026-21 (2026-05-09) and CC-MAIN-2026-34 (2026-08-10), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The page gave a range, International students: $34,220 - $42,300; the upper figure is recorded, consistent with the 2027 current figure (upper end of $35,250-$43,570). The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: undergraduate subject area 'Science ... each year $37,640.00' (per course $4,704.00), the same as the 2024 guide figure; 2025 row: 'Science ... each year $39,900' (per course $4,990). Single science rate, comparable with the upper-end figures recorded for 2026/2027. Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 37640,
-          "sourceUrl": "https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf"
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240425003646/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         },
         {
           "feeYear": 2026,
@@ -128,6 +150,14 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-UBSCN/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39900,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     },
@@ -149,7 +179,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students in the History major for 2027; other majors can cost more. Student services fee included; health insurance is extra.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits) in the History major; 360 credits = 3 years. Other BA majors up to $43,570. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. No 2024 history row: Massey's 2024 International Qualification Guide (mirror copy on college-contact.com, Massey-authored PDF) lists on-campus BA majors at NZ$30,450-37,640 but no History major, so no single figure is recorded. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$34,220 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-08 (2026-02-16) and CC-MAIN-2026-25 (2026-06-08), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the History major; 360 credits = 3 years. Other BA majors up to $43,570. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. No 2024 history row: Massey's 2024 International Qualification Guide (mirror copy on college-contact.com, Massey-authored PDF) lists on-campus BA majors at NZ$30,450-37,640 but no History major, so no single figure is recorded. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$34,220 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-08 (2026-02-16) and CC-MAIN-2026-25 (2026-06-08), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: undergraduate subject area 'Arts ... each year $30,450.00' (per course $3,806.20); 2025 row: 'Arts ... each year $32,280' (per course $4,040). History is an arts subject; the Arts rate is the bottom of the BA range, consistent with History being the lowest-priced BA major in 2026 ($34,220) and 2027 ($35,250). The 2024 guide's BA range (NZ$30,450-37,640) starts at the same Arts figure. Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -158,6 +188,22 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-arts-UBART/history-UBART2JHSTR1/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30450,
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240425003646/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32280,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     },
@@ -179,13 +225,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students for 2027; the programme takes 1.5 years. Student services fee included; health insurance is extra.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits); 180 credits = 1.5 years (Auckland campus). Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$41,020 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024'), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$46,090 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-12 (2026-03-10) and CC-MAIN-2026-30 (2026-07-16), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. An earlier capture (CC-MAIN-2025-51, 2025-12-05) showed $46,100; the later figure the page showed from March 2026 onward is recorded. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits); 180 credits = 1.5 years (Auckland campus). Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$41,020 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024'), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$46,090 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-12 (2026-03-10) and CC-MAIN-2026-30 (2026-07-16), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. An earlier capture (CC-MAIN-2025-51, 2025-12-05) showed $46,100; the later figure the page showed from March 2026 onward is recorded. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: postgraduate subject area 'Computer Science ... each year $41,020', the same as the 2024 guide; 2025 row: 'Computer Science ... each year $43,490'. Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 41020,
-          "sourceUrl": "https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf"
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240425003646/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         },
         {
           "feeYear": 2026,
@@ -194,6 +242,14 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-information-sciences-PMINS/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43490,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     },
@@ -215,13 +271,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students for 2027; the programme takes 15 to 18 months. Student services fee included; health insurance is extra.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits); 180 credits = 15-18 months. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$35,450 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', same for every MBS subject), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$39,840 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2025-51 (2025-12-07), CC-MAIN-2026-12 (2026-03-12) and CC-MAIN-2026-30 (2026-07-10), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits); 180 credits = 15-18 months. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$35,450 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', same for every MBS subject), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$39,840 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2025-51 (2025-12-07), CC-MAIN-2026-12 (2026-03-12) and CC-MAIN-2026-30 (2026-07-10), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: postgraduate subject area 'Business ... each year $35,450', the same as the 2024 guide; 2025 row: 'Business ... each year $37,580'. (MBA and some business programmes are priced separately, not MBS.) Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 35450,
-          "sourceUrl": "https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf"
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240425003646/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         },
         {
           "feeYear": 2026,
@@ -230,6 +288,14 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-business-studies-PMBSS/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37580,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     },
@@ -251,13 +317,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students in Chemistry for 2027; other subjects differ. Takes 1.5 years. Student services fee included; health insurance is extra.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Chemistry subject; 180 credits = 1.5 years. Other MSc subjects $41,040-$52,720. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$41,460 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', Chemistry subject; MSc range NZ$41,460-45,540), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$46,590 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-04 (2026-01-21) and CC-MAIN-2026-21 (2026-05-10), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Chemistry subject; 180 credits = 1.5 years. Other MSc subjects $41,040-$52,720. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2024 history: NZ$41,460 is Massey's own 2024 International Qualification Guide figure (per 120 credits, incl. GST, 'correct for 2024', Chemistry subject; MSc range NZ$41,460-45,540), read 2026-10-04 from a mirror copy on college-contact.com (an agency site) because Massey no longer hosts it (its /documents/797/ prospectus slot is overwritten each year and now serves the 2027 edition); PDF metadata: Author 'Massey University', Title 'International Prospectus 2024', Subject 'January 2024'. The guide states no student services fee, so the 2024 row carries tuition only. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$46,590 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-04 (2026-01-21) and CC-MAIN-2026-21 (2026-05-10), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: postgraduate subject area 'Science ... each year $41,460', the same as the 2024 guide's Chemistry figure; 2025 row: 'Science ... each year $43,950'. Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 41460,
-          "sourceUrl": "https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf"
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240425003646/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         },
         {
           "feeYear": 2026,
@@ -266,6 +334,14 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-science-PMSCN/chemistry-PMSCN1SCHMS2/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43950,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     },
@@ -287,7 +363,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students in History for 2027; other subjects can cost more. Takes 1.5 years. Student services fee included; health insurance is extra.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits) in the History subject; 180 credits = 1.5 years. Other MA subjects up to $47,990. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. No 2024 history row: Massey's 2024 International Qualification Guide (mirror copy on college-contact.com, Massey-authored PDF) lists on-campus MA subjects at NZ$34,560-41,460 but no History subject, so no single figure is recorded. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$38,840 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-08 (2026-02-12) and CC-MAIN-2026-30 (2026-07-14), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the History subject; 180 credits = 1.5 years. Other MA subjects up to $47,990. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. No 2024 history row: Massey's 2024 International Qualification Guide (mirror copy on college-contact.com, Massey-authored PDF) lists on-campus MA subjects at NZ$34,560-41,460 but no History subject, so no single figure is recorded. No 2025 figures on file: every Massey fee URL now serves 2027 figures, the 2024/2025 University Calendars contain no fee amounts, and no Massey-hosted 2025 guide was found. Massey no longer offers engineering (school closed after the Oct 2023 College of Sciences change proposal). 2026 history: NZ$38,840 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) this qualification page stated before Massey switched it to 2027 figures, read 2026-10-04 from Common Crawl captures of the same URL in CC-MAIN-2026-08 (2026-02-12) and CC-MAIN-2026-30 (2026-07-14), all showing the same 2026 figure; compulsory = the 2026 on-campus student services fee $1,164 (120 credits) stated on the same captured page and on Massey's non-tuition fees page. The Massey-authored 2026 International Qualification Guide was not found (the agency mirrors located are the 2027 edition or older guides). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: postgraduate subject area 'Arts ... each year $34,560' (the bottom of the guide's MA range NZ$34,560-41,460); 2025 row: 'Arts ... each year $36,640'. History is an arts subject; the 2026 page figure for MA History ($38,840) follows the same progression. Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -296,6 +372,22 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-arts-PMART/history-PMART1SHSTR2/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34560,
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240425003646/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36640,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     },
@@ -317,13 +409,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students in the Psychology major for 2027. Student services fee included; health insurance is extra.",
-      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Psychology major of the BSc ('2027 tuition fees ... International students: $43,570'); 360 credits = 3 years. The BA Psychology major page shows the same figure. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2026 history: NZ$42,300 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) on this same page in the Common Crawl capture of CC-MAIN-2026-34 (2026-08-19), read 2026-10-05; compulsory = 2026 on-campus student services fee $1,164 stated on the captured page. 2024 history: NZ$37,640 is the Bachelor of Science, Psychology, on-campus figure in Massey's own 2024 International Qualification Guide (per 120 credits, incl. GST), read 2026-10-05 from a mirror copy on college-contact.com (an agency site; PDF metadata Author 'Massey University', Title 'International Prospectus 2024') because Massey no longer hosts it; the guide states no student services fee, so the row carries tuition only. No 2025 figures found (see the Bachelor of Science entry).",
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Psychology major of the BSc ('2027 tuition fees ... International students: $43,570'); 360 credits = 3 years. The BA Psychology major page shows the same figure. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2026 history: NZ$42,300 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) on this same page in the Common Crawl capture of CC-MAIN-2026-34 (2026-08-19), read 2026-10-05; compulsory = 2026 on-campus student services fee $1,164 stated on the captured page. 2024 history: NZ$37,640 is the Bachelor of Science, Psychology, on-campus figure in Massey's own 2024 International Qualification Guide (per 120 credits, incl. GST), read 2026-10-05 from a mirror copy on college-contact.com (an agency site; PDF metadata Author 'Massey University', Title 'International Prospectus 2024') because Massey no longer hosts it; the guide states no student services fee, so the row carries tuition only. No 2025 figures found (see the Bachelor of Science entry). Massey's own 'Tuition fees for international students' page (https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/) carried yearly subject-area tables 'based on taking eight courses of 15 credits each over one year to reach the standard 120 credits' (undergraduate) and 'estimated tuition fees for one year for different postgraduate subject areas' (postgraduate), incl. GST: Wayback capture 20240425003646 holds the '2024 fees' tables, capture 20250323174301 the '2025 fees' tables. 2024 row: undergraduate subject area 'Science ... each year $37,640.00', the same as the 2024 guide's BSc Psychology figure; 2025 row: 'Science ... each year $39,900'. Massey's subject tables have no separate psychology area; BSc Psychology was priced as Science in 2024 (guide) and 2026/2027 (same figure as the BSc). Compulsory: on-campus student services fee per credit x 120 (max 120 credits charged a year) from Massey's Non-tuition fees page (https://www.massey.ac.nz/study/fees-and-funding/non-tuition-fees/): Wayback capture 20240521125623, '2024 non-tuition fees ... On-campus and block students Fee per credit $9.00' = $1,080; capture 20250328093947, '2025 non-tuition fees ... On-campus and block students Fee per credit $9.40' = $1,128. Corrects the earlier notes that no 2025 figures exist.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 37640,
-          "sourceUrl": "https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf"
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240425003646/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         },
         {
           "feeYear": 2026,
@@ -332,6 +426,14 @@
           "annualCompulsoryFees": 1164,
           "oneOffFees": 0,
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-UBSCN/psychology-UBSCN2JPSYC1/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39900,
+          "annualCompulsoryFees": 1128,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
     }

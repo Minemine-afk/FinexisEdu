@@ -41,21 +41,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 500 per semester surcharge for foreign bachelor's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2 (scholarship fund, libraries, ASVZ sports, student concerns). One-off application fee CHF 150 for applicants with foreign qualifications (non-refundable). 3-year (180 ECTS) bachelor's taught in German. Fee page is undated; rates read September 2026. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2 (scholarship fund, libraries, ASVZ sports, student concerns). One-off application fee CHF 150 for applicants with foreign qualifications (non-refundable). 3-year (180 ECTS) bachelor's taught in German. Fee page is undated; rates read September 2026. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -77,21 +79,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 500 per semester surcharge for foreign bachelor's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) bachelor's taught in German. Fee page is undated; rates read September 2026. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) bachelor's taught in German. Fee page is undated; rates read September 2026. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -113,21 +117,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 500 per semester surcharge for foreign bachelor's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) bachelor's taught in German. UZH has no engineering programmes. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) bachelor's taught in German. UZH has no engineering programmes. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -149,21 +155,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 500 per semester surcharge for foreign bachelor's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) Faculty of Arts bachelor's; the major is taught in English but the university's working language is German. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) Faculty of Arts bachelor's; the major is taught in English but the university's working language is German. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -185,21 +193,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 100 per semester surcharge for foreign master's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 4-semester (120 ECTS: 90 major + 30 minor) master's taught in English. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 4-semester (120 ECTS: 90 major + 30 minor) master's taught in English. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -221,21 +231,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 100 per semester surcharge for foreign master's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 4-semester (120 ECTS: 90 major + 30 minor) master's, taught largely in English. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 4-semester (120 ECTS: 90 major + 30 minor) master's, taught largely in English. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -257,21 +269,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 100 per semester surcharge for foreign master's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-semester (90 ECTS) master's taught in English. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-semester (90 ECTS) master's taught in English. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -293,21 +307,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 100 per semester surcharge for foreign master's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Faculty of Arts 90 ECTS single-major master's (3 semesters), taught in English. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Faculty of Arts 90 ECTS single-major master's (3 semesters), taught in English. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -329,21 +345,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 500 per semester surcharge for foreign bachelor's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) Faculty of Law bachelor's with an assessment level and an advanced level; taught in German. Fee page is undated; rates read September 2026. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) Faculty of Law bachelor's with an assessment level and an advanced level; taught in German. Fee page is undated; rates read September 2026. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -365,21 +383,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 100 per semester surcharge for foreign master's students, plus compulsory semester contributions. A one-off CHF 150 application fee is extra.",
-      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-semester (90 ECTS) master's taught in German; the parallel International and Comparative Law track is taught entirely in English, and a 120 ECTS variant with a Liberal Arts Option exists. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-semester (90 ECTS) master's taught in German; the parallel International and Comparative Law track is taught entirely in English, and a 120 ECTS variant with a Liberal Arts Option exists. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -401,21 +421,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a foreign-student surcharge, plus semester contributions. A CHF 150 application fee is extra. Medicine admits foreign nationals only with a residence permit approved by the university.",
-      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) bachelor's taught in German, followed by the 3-year Master of Medicine. Admission to medicine is capped by the Canton of Zurich with an aptitude test (EMS) via swissuniversities, and UZH admits applicants of foreign nationality only if they hold a residence permit approved by UZH. Universität Zürich (Medizinische Fakultät) is on the Singapore Medical Council's list of registrable basic medical qualifications; the registrable qualification is the federal diploma taken after the master's, not the bachelor's alone. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) bachelor's taught in German, followed by the 3-year Master of Medicine. Admission to medicine is capped by the Canton of Zurich with an aptitude test (EMS) via swissuniversities, and UZH admits applicants of foreign nationality only if they hold a residence permit approved by UZH. Universität Zürich (Medizinische Fakultät) is on the Singapore Medical Council's list of registrable basic medical qualifications; the registrable qualification is the federal diploma taken after the master's, not the bachelor's alone. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -437,21 +459,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a foreign-student surcharge, plus semester contributions. A CHF 150 application fee is extra. Medicine admits foreign nationals only with a residence permit approved by the university.",
-      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) master's taught in German; the degree qualifies for the Federal Examination in Human Medicine. Admission to medicine is capped by the Canton of Zurich with an aptitude test (EMS) via swissuniversities, and UZH admits applicants of foreign nationality only if they hold a residence permit approved by UZH. Universität Zürich (Medizinische Fakultät) is on the Singapore Medical Council's list of registrable basic medical qualifications; the registrable qualification is the federal diploma taken after the master's, not the bachelor's alone. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts.",
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. 3-year (180 ECTS) master's taught in German; the degree qualifies for the Federal Examination in Human Medicine. Admission to medicine is capped by the Canton of Zurich with an aptitude test (EMS) via swissuniversities, and UZH admits applicants of foreign nationality only if they hold a residence permit approved by UZH. Universität Zürich (Medizinische Fakultät) is on the Singapore Medical Council's list of registrable basic medical qualifications; the registrable qualification is the federal diploma taken after the master's, not the bachelor's alone. Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester), both on the Canton of Zurich's ZH-Lex (zh.ch) site. Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025 (amendment of 3 June 2024). Mandatory semester contributions are omitted from the history rows because the Zulassungsreglement annex only publishes the current (1 Jan 2026) amounts. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -473,21 +497,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 500 per semester surcharge for foreign bachelor's students, plus semester contributions. A CHF 150 application fee is extra. Taught in German.",
-      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Programme: Bachelor of Science in Psychology (RVO19), https://www.degrees.uzh.ch/en/bachelor/50000007/50890577/50893138: 120 ECTS major plus a 60 ECTS minor, 6 semesters, autumn start only, main language German (further language English). The Department of Psychology states both psychology programmes are 'only offered in German' and require German at C1 level (https://www.psychology.uzh.ch/en/studying/general.html). Same fee page, figures and history as UZH's existing programmes (copied). Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester). Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025. Mandatory semester contributions are omitted from the history rows because only the current (1 Jan 2026) amounts are published.",
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Programme: Bachelor of Science in Psychology (RVO19), https://www.degrees.uzh.ch/en/bachelor/50000007/50890577/50893138: 120 ECTS major plus a 60 ECTS minor, 6 semesters, autumn start only, main language German (further language English). The Department of Psychology states both psychology programmes are 'only offered in German' and require German at C1 level (https://www.psychology.uzh.ch/en/studying/general.html). Same fee page, figures and history as UZH's existing programmes (copied). Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester). Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025. Mandatory semester contributions are omitted from the history rows because only the current (1 Jan 2026) amounts are published. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     },
@@ -509,21 +535,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for international students, including a CHF 100 per semester surcharge for foreign master's students, plus semester contributions. A CHF 150 application fee is extra. Taught in German.",
-      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Programme: Master of Science in Psychology (RVO19), https://www.degrees.uzh.ch/en/master/50000007/50896641/50905819: 120 ECTS, 4 semesters, start in autumn or spring, main language German; requires a bachelor's in psychology; qualifies for the Swiss professional title 'psychologist'. The Department of Psychology states both psychology programmes are 'only offered in German' and require German at C1 level (https://www.psychology.uzh.ch/en/studying/general.html). Same fee page, figures and history as UZH's existing programmes (copied). Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester). Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025. Mandatory semester contributions are omitted from the history rows because only the current (1 Jan 2026) amounts are published.",
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Programme: Master of Science in Psychology (RVO19), https://www.degrees.uzh.ch/en/master/50000007/50896641/50905819: 120 ECTS, 4 semesters, start in autumn or spring, main language German; requires a bachelor's in psychology; qualifies for the Swiss professional title 'psychologist'. The Department of Psychology states both psychology programmes are 'only offered in German' and require German at C1 level (https://www.psychology.uzh.ch/en/studying/general.html). Same fee page, figures and history as UZH's existing programmes (copied). Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester). Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025. Mandatory semester contributions are omitted from the history rows because only the current (1 Jan 2026) amounts are published. Mandatory semester contributions for 2024 and 2025 from Common Crawl captures of UZH's 'Fees and Contributions' page (URL above): 2024-09-14 (CC-MAIN-2024-38) and 2025-10-16 (CC-MAIN-2025-43), also 2024-12-07 and 2025-05-24, all list Scholarship Fund 6.50 + Libraries and collections 15 + ASVZ 35 + Student concerns 2.50 = 'Total Mandatory Semester Contributions 59.-', so CHF 59 x 2 = 118 for both years. Same captures confirm tuition CHF 720 + surcharge 500 (bachelor) / 100 (master) per semester, and application fee CHF 100 (Sept 2024 capture) and CHF 150 for foreign qualifications 'from 1 January 2025' (Dec 2024 onward).",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 100,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
           "oneOffFees": 150,
-          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+          "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html"
         }
       ]
     }

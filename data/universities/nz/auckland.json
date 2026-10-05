@@ -185,7 +185,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students, including 15% GST and the student services fee. Books, insurance and living costs are extra. Not fixed.",
-      "notes": "2026 indicative international fee for 120 points from the programme page's Fees section (8 x 15-point Business School course at NZ$6,016.65, e.g. BUSINESS 111; 360 points over 3 years); inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2025 = 8 x 15-point BUSINESS 111 fee from the 2025 international Business and Economics fee schedule, with SSF NZ$9.24 per point; no 2024 Business and Economics schedule is published.",
+      "notes": "2026 indicative international fee for 120 points from the programme page's Fees section (8 x 15-point Business School course at NZ$6,016.65, e.g. BUSINESS 111; 360 points over 3 years); inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2025 = 8 x 15-point BUSINESS 111 fee from the 2025 international Business and Economics fee schedule, with SSF NZ$9.24 per point; no 2024 Business and Economics schedule is published. 2024 row: 'Tuition fees 2024 - International students: Business and Economics' schedule (2024fees/Website_Fees_B&E_International.pdf, still live; Wayback capture 20240620223241), BUSINESS 111 Understanding Business 15 points $5,509.80 x 8 = NZ$44,078.40; schedule header: Student Services Fee NZ$8.88 per point x 120 = NZ$1,065.60. Corrects the earlier note that no 2024 B&E schedule is published (it was filed as B&E, not BE).",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -193,6 +193,14 @@
           "annualTuition": 45841.2,
           "annualCompulsoryFees": 1108.8,
           "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_BE_International.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44078.4,
+          "annualCompulsoryFees": 1065.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_B&E_International.pdf"
         }
       ]
     },
@@ -322,7 +330,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual share of the 18-month MBA total for international students, including 15% GST and the student services fee. Travel for intensives and the study tour is extra.",
-      "notes": "180-point MBA over 18 months (6 quarters of 30 points): 2026 international fee NZ$7,536.00 per 15-point BUSMBA course from the 2026 international Business and Economics fee schedule, so NZ$90,432 for the programme; recorded per year as 8 x 15 points (120 points). The programme page only publishes the domestic fee (NZ$51,898 for 180 points). Inclusive of 15% GST; travel for intensives and the study tour is extra. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2025 = 8 x 15-point BUSMBA course fee (NZ$7,177.20) from the 2025 schedule, with SSF NZ$9.24 per point; no 2024 Business and Economics schedule is published.",
+      "notes": "180-point MBA over 18 months (6 quarters of 30 points): 2026 international fee NZ$7,536.00 per 15-point BUSMBA course from the 2026 international Business and Economics fee schedule, so NZ$90,432 for the programme; recorded per year as 8 x 15 points (120 points). The programme page only publishes the domestic fee (NZ$51,898 for 180 points). Inclusive of 15% GST; travel for intensives and the study tour is extra. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2025 = 8 x 15-point BUSMBA course fee (NZ$7,177.20) from the 2025 schedule, with SSF NZ$9.24 per point; no 2024 Business and Economics schedule is published. 2024 row: 2024 international Business and Economics schedule (2024fees/Website_Fees_B&E_International.pdf, still live; Wayback 20240620223241), 15-point BUSMBA course (e.g. BUSMBA 720/750) $6,901.20 x 8 = NZ$55,209.60 per 120 points; SSF NZ$8.88 per point x 120 = NZ$1,065.60. Corrects the earlier note that no 2024 B&E schedule is published.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -330,6 +338,14 @@
           "annualTuition": 57417.6,
           "annualCompulsoryFees": 1108.8,
           "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_BE_International.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 55209.6,
+          "annualCompulsoryFees": 1065.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_B&E_International.pdf"
         }
       ]
     },
@@ -351,8 +367,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated yearly tuition for international students in this 1.5-year programme with an industry internship. Includes 15% GST and the student services fee. Books and insurance extra.",
-      "notes": "2026 indicative international fee per year (120 points) from the programme page's Fees section; 180-point MInfoTech (1.5 years) for entry from a bachelor's degree, awarded jointly with the University of Waikato, including a 60-point industry internship; inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). Earlier years' page figures are not published.",
-      "feeHistory": []
+      "notes": "2026 indicative international fee per year (120 points) from the programme page's Fees section; 180-point MInfoTech (1.5 years) for entry from a bachelor's degree, awarded jointly with the University of Waikato, including a 60-point industry internship; inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). Earlier years' page figures are not published. 2024/2025 rows from Wayback captures of the programme page, 'How much does a Master of Information Technology cost per year?': capture 20240926150029 '2024 fees ... International students NZ$50,564' (the 20240223 capture shows only the domestic figure); captures 20250209144743 and 20250801161347 '2025 fees ... International students NZ$52,585'; both inclusive of GST, excluding SSF. SSF per year: 2024 NZ$8.88/point x 120 = NZ$1,065.60 (2024 B&E schedule header), 2025 NZ$9.24/point x 120 = NZ$1,108.80 (as used for other 2025 rows).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50564,
+          "annualCompulsoryFees": 1065.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20240926150029/https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52585,
+          "annualCompulsoryFees": 1108.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://web.archive.org/web/20250209144743/https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html"
+        }
+      ]
     },
     {
       "level": "master",
