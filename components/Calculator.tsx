@@ -1071,6 +1071,11 @@ function Segmented<T extends string>({
   );
 }
 
+/** True when the university charges no tuition at all for this programme (e.g. most German public universities). */
+function noTuition(result: CalcResult): boolean {
+  return result.years.length > 0 && result.years.every((y) => y.tuition === 0);
+}
+
 /** One headline tile per university: the total, and how it compares with the cheapest. */
 function StatTiles({
   selections,
@@ -1120,6 +1125,11 @@ function StatTiles({
                 a month
               </InfoTip>
             </p>
+            {noTuition(s.result) && (
+              <p className="mt-1 text-sm text-muted">
+                No tuition: semester contribution only
+              </p>
+            )}
             {s.living && (
               <p className="mt-1 text-sm text-muted tabular-nums">
                 Fees {formatMoney(s.totalSgd, "SGD")} + living{" "}
@@ -1239,6 +1249,9 @@ function ResultDetail({
               ? "International rate"
               : `${result.tier === "citizen" ? "Citizen" : "PR"} rate`}
           </Badge>
+          {noTuition(result) && (
+            <Badge term="noTuition">No tuition fees</Badge>
+          )}
           {p.cohortLocked && (
             <Badge term="cohortLocked">Fee fixed for your cohort</Badge>
           )}
@@ -1323,7 +1336,13 @@ function ResultDetail({
                     </span>
                   )}
                 </td>
-                <td className={num}>{formatMoney(sgd(y.tuition), "SGD")}</td>
+                <td className={num}>
+                  {y.tuition === 0 ? (
+                    <span className="text-muted">None</span>
+                  ) : (
+                    formatMoney(sgd(y.tuition), "SGD")
+                  )}
+                </td>
                 {hasCompulsory && (
                   <td className={num}>
                     {formatMoney(sgd(y.compulsoryFees), "SGD")}

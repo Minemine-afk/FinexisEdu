@@ -86,7 +86,9 @@ export default function FeeChart({
                   style={{ height: `${(value / max) * 100}%` }}
                 >
                   <span className="absolute inset-x-0 bottom-full mb-1.5 whitespace-nowrap text-center text-sm font-semibold tabular-nums">
-                    {formatCompactSgd(value)}
+                    {category === "tuition" && value === 0
+                      ? "No tuition"
+                      : formatCompactSgd(value)}
                   </span>
                   {segments.map((seg, i) => {
                     const part = s.yearsSgd[seg.key];
@@ -133,7 +135,11 @@ export default function FeeChart({
                     <span className={`inline-block h-2 w-2 rounded-sm ${seg.color}`} />
                     {seg.label}
                   </dt>
-                  <dd>{formatMoney(hovered.yearsSgd[seg.key], "SGD")}</dd>
+                  <dd>
+                    {seg.key === "tuition" && hovered.yearsSgd.tuition === 0
+                      ? "None"
+                      : formatMoney(hovered.yearsSgd[seg.key], "SGD")}
+                  </dd>
                 </div>
               ))}
               <div className="flex justify-between gap-2 border-t border-border pt-1 font-medium">
