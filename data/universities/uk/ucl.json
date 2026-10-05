@@ -524,6 +524,98 @@
           "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2024"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK GBP 10,050) from UCL's official undergraduate fee schedule ('Psychology, BSc (UBSBRN000518)', Faculty of Brain Sciences; the table embedded in UCL's fee-schedules-2027-2028 undergraduate page); 3 academic years (the 4-year Psychology MSci is the same annual fee). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year ('Psychology, BSc (UBSPSYSING18)'): 2026 GBP 42,700, 2025 GBP 39,800, 2024 GBP 37,500. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2024"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychological Sciences MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
+      "notes": "Overseas full-time fee for 2027/28 entrants (UK GBP 16,800; part-time GBP 20,400 a year) from UCL's official postgraduate taught fee schedule ('Psychological Sciences, MSc (TMSBRN002318)', Faculty of Brain Sciences); 1 calendar year full-time. Chosen as UCL's broad taught psychology MSc (a conversion-style programme covering the core areas of psychology); specialist MScs such as Health Psychology and Developmental Psychology and Clinical Practice are priced separately. UCL states that postgraduate taught students benefit from a cohort guarantee; earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year ('Psychological Sciences, MSc (TMSPSYSSCI01)'): 2026 GBP 39,200, 2025 GBP 36,500, 2024 GBP 34,400. No separate compulsory fees; fees are VAT-exempt.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 39200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2026"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2025"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2024"
+        }
+      ]
     }
   ]
 }

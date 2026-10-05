@@ -298,6 +298,42 @@
           "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-arts-PMART/history-PMART1SHSTR2/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science (Psychology)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43570,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-UBSCN/psychology-UBSCN2JPSYC1/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students in the Psychology major for 2027. Student services fee included; health insurance is extra.",
+      "notes": "2027 estimated international tuition for full-time study (120 credits) in the Psychology major of the BSc ('2027 tuition fees ... International students: $43,570'); 360 credits = 3 years. The BA Psychology major page shows the same figure. Compulsory = 2027 on-campus student services fee $1,236 (120 credits). Excludes Studentsafe insurance. Fees reviewed annually. 2026 history: NZ$42,300 is the '2026 tuition fees' international figure (full-time, 120 credits, incl. GST) on this same page in the Common Crawl capture of CC-MAIN-2026-34 (2026-08-19), read 2026-10-05; compulsory = 2026 on-campus student services fee $1,164 stated on the captured page. 2024 history: NZ$37,640 is the Bachelor of Science, Psychology, on-campus figure in Massey's own 2024 International Qualification Guide (per 120 credits, incl. GST), read 2026-10-05 from a mirror copy on college-contact.com (an agency site; PDF metadata Author 'Massey University', Title 'International Prospectus 2024') because Massey no longer hosts it; the guide states no student services fee, so the row carries tuition only. No 2025 figures found (see the Bachelor of Science entry).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37640,
+          "sourceUrl": "https://www.college-contact.com/wp-content/uploads/2025/03/massey_bro_international_prospectus-1.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42300,
+          "annualCompulsoryFees": 1164,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-UBSCN/psychology-UBSCN2JPSYC1/"
+        }
+      ]
     }
   ]
 }

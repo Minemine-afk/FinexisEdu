@@ -429,6 +429,43 @@
           "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA in Psychology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 67731,
+          "annualCompulsoryFees": 843,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2026-2027-undergraduate-tuition-rates",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for three quarters, same for all majors, plus the campus health fee and a one-off document fee. Student activities fee not included.",
+      "notes": "Full-time tuition $22,577 per quarter x 3; same for all majors. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee not included. Stanford's Department of Psychology offers the major as a Bachelor of Arts (Stanford Bulletin PSYCH-BA). Same undergraduate tuition for all majors, so fees and 2024/2025 history copied from the existing BA in History record.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 65127,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/2024-2025-undergraduate-tuition-rates"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67731,
+          "annualCompulsoryFees": 813,
+          "oneOffFees": 250,
+          "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-undergraduate-tuition-rates"
+        }
+      ]
     }
   ]
 }

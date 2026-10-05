@@ -328,6 +328,55 @@
         { "feeYear": 2024, "tier": "pr", "annualTuition": 54500, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 59950, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-analytics" }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Social Sciences in Psychology (Hons)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 8300, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 11600, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 21400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition, fixed for the whole degree at your entry-year rate. Citizens and PRs pay the Ministry of Education (MOE) Tuition Grant rate; the international rate includes 9% GST. Miscellaneous fees are extra.",
+      "notes": "Offered by the School of Social Sciences (NTU news release of 27 Jan 2026 names it the 'Bachelor of Social Sciences in Psychology' programme). Same fee as the existing 'Bachelor of Arts (Hons) (School of Humanities / School of Social Sciences)' entry, so the figures and 2024/2025 history rows are copied from it. Annual tuition for Academic Year 2026/2027 entrants, fixed for the whole degree. Arts, humanities and social-science degrees are not listed separately on NTU's 'Tuition fees & grants' page, so they fall under its 'All Programmes (except for those listed below)' row (only Accountancy/Business, Medicine and the Renaissance Engineering Programme are listed separately). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$18,050; non-subsidised S$36,350 non-lab / S$40,600 lab-based). 2025 and 2024 history from the same 'All Programmes' row of NTU's per-year fee PDFs. Excludes miscellaneous fees, which are billed per semester.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 8250, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 11550, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20000, "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 8250, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 11550, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 18900, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science in Psychology (MScP)",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "citizen": { "annualTuition": 43936.67, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 43936.67, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 47270, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Total fee for the 18-month programme, split per year, including GST. Citizen/PR figure is the fee less NTU's S$5,000 subsidy for Singaporeans and PRs. New programme from August 2026. Miscellaneous fees extra.",
+      "notes": "New self-financed full-time coursework master's from the School of Social Sciences, first intake August 2026 (NTU news release 27 Jan 2026: 1.5 years, 5 trimesters incl. 500 practicum hours; tracks Community Health Psychology, Neuropsychology, Thanatology, Forensic Psychology). MScP 'Tuition Fees & Scholarships' page (read directly 2026-10-05): tuition for all students irrespective of nationality S$68,175 (AY2026) and S$70,905 (AY2027), covering the entire 18-month programme, incl. GST, payable in five equal trimester instalments. feeYear 2027 uses the AY2027 figure: S$70,905 / 1.5 = S$47,270 (international tier); AY2026 history row S$68,175 / 1.5 = S$45,450. Citizen/PR: the same page states 'All Singapore Citizens (SC) and Singapore Permanent Residents (SPR) are eligible for a tuition fee subsidy of up to S$5,000', so the SC/PR tiers are DERIVED as total minus S$5,000, deducted from the GST-inclusive total as for NTU's other self-financed master's entries, then divided by 1.5: AY2027 (70,905 - 5,000) / 1.5 = S$43,936.67; AY2026 (68,175 - 5,000) / 1.5 = S$42,116.67. Excludes the 10% NTU alumni subsidy, means-tested financial aid (up to S$15,000), the S$50 application fee, the S$5,000 deposit (offsets the first tuition payment) and miscellaneous fees. No 2024 or 2025 rows: the programme did not exist before the August 2026 intake.",
+      "feeHistory": [
+        { "feeYear": 2026, "tier": "international", "annualTuition": 45450, "sourceUrl": "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees" },
+        { "feeYear": 2026, "tier": "citizen", "annualTuition": 42116.67, "sourceUrl": "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees" },
+        { "feeYear": 2026, "tier": "pr", "annualTuition": 42116.67, "sourceUrl": "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees" }
+      ]
     }
   ]
 }

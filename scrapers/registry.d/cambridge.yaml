@@ -35,3 +35,8 @@ sources:
     - level: master
       field: sciences
       pattern: University Composition Fee £ ?([\d,]+)
+  # MPhil in Foundations of Clinical Psychology: psychology programme added Oct 2026; fee read by hand
+  - university: cambridge
+    country: uk
+    url: "https://2027.gaobase.admin.cam.ac.uk/api/courses/CVPCMPCPS/financial_tracker.html?fee_status=O&children=0"
+    manual: true

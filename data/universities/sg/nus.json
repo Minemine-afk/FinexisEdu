@@ -371,6 +371,58 @@
         { "feeYear": 2024, "tier": "pr", "annualTuition": 63600, "sourceUrl": "https://www.duke-nus.edu.sg/admissions/why-duke-nus/tuition-scholarships" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 85700, "sourceUrl": "https://www.duke-nus.edu.sg/admissions/why-duke-nus/tuition-scholarships" }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Social Sciences (Psychology major)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 8300, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 11600, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 21400, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition, fixed for the whole degree at your entry-year rate. Citizens and PRs pay the Ministry of Education (MOE) Tuition Grant rate; the international rate includes 9% GST. Miscellaneous fees are extra.",
+      "notes": "Psychology is a major within the Bachelor of Social Sciences (Hons) in the NUS College of Humanities and Sciences (Department of Psychology, FASS). Same fee as the existing 'Bachelor of Arts / Social Sciences (College of Humanities and Sciences)' entry: the registrar's undergraduate tuition PDF has one 'Humanities and Sciences' row for all CHS degrees, so the figures and the 2024/2025 history rows are copied from that entry. Annual tuition for the AY2026/27 intake, fixed for the cohort ('Humanities and Sciences' row). Citizen/PR: MOE Tuition Grant rates, excl. GST (GST subsidised by MOE). International: Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$18,050). Excludes Miscellaneous Student Fees, which are billed per semester.",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 8250, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 11550, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20000, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 8250, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 11550, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 18900, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Psychology (Clinical)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 37732.5, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 37732.5, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 41925, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://fass.nus.edu.sg/fees-gradcoursework/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "secondary",
+      "cohortLocked": true,
+      "summary": "Total fee for the 2-year programme, split per year, including GST. Citizens and PRs get a 10% NUS rebate. Figure read from a third-party copy of the university's page. Miscellaneous fees are extra.",
+      "notes": "Self-funded (not MOE-subsidised) 2-year (24-month) full-time coursework programme, annual August intake (NUS Graduate School programme page). FASS 'Fees' page for graduate coursework programmes, 'Self-funded Programmes' table: tuition for students 'regardless of nationality, admitted in AY2026-2027', Master of Psychology (Clinical) S$83,850 per programme, incl. 9% GST. Annual figure = S$83,850 / 2 = S$41,925 (international tier). Citizen/PR: note 5 on the same page says this programme is excluded from the 40% Enhanced Tuition Fee Rebate but gets the NUS Master's Degree by Coursework Tuition Fee Rebate of 10% for Singaporeans and PRs (20% for NUS alumni of any nationality, not applied), so SC/PR = S$83,850 x 0.9 / 2 = S$37,732.50; the programme FAQ also says the 40% rebate does not apply and the 10% one does. Cohort-based fee system (fees fixed for the intake cohort). fass.nus.edu.sg blocks bots, so the current page was read through a reader proxy (r.jina.ai) on 2026-10-05, hence sourceType secondary; the Wayback Machine capture of the programme page dated 1 Nov 2025 (20251101230951) also states 'AY2026/27 SGD 83,850' for the 2-year programme. History from Wayback Machine captures of the department's programme page (fass.nus.edu.sg/psy/master-of-psychology-clinical/), read 2026-10-05: capture 20250220105417 'Tuition Fees (inclusive of prevailing GST): AY2025/26 SGD 83,850' (also in captures 20250726073806) and capture 20240310015121 'AY2024/25 SGD 81,400', both for the 2-year programme, with the 10% SC/PR rebate stated on both captures; annual = total / 2 (2025: 41,925 international, 37,732.50 SC/PR; 2024: 40,700 international, 36,630 SC/PR). Excludes Miscellaneous Student Fees and the S$5,000 acceptance deposit (credited to fees).",
+      "feeHistory": [
+        { "feeYear": 2025, "tier": "international", "annualTuition": 41925, "sourceUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 37732.5, "sourceUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 37732.5, "sourceUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 40700, "sourceUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 36630, "sourceUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 36630, "sourceUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/" }
+      ]
     }
   ]
 }

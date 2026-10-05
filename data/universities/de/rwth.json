@@ -364,6 +364,82 @@
           "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychologie (polyvalent) B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a transport ticket. Taught in German, with places limited by grade.",
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA). History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Same page and figures as RWTH's existing programmes, whose history rows are copied. Programme: Psychology (polyvalent) B.Sc., https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bohu/psychologie-polyvalent-b-sc/?lidx=1 (read through the r.jina.ai reader as direct requests to rwth-aachen.de were reset): 6 semesters, 180 ECTS, winter start, language German (proof of German required at enrolment), admission restricted (NC for WS 2026; BaPsy-DGPs test counts from 2025/26); includes the internships required for psychotherapist licensure.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychologie M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 750.38,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a transport ticket. Taught in German, with about 37 places a year.",
+      "notes": "No tuition fees at RWTH Aachen (also for international students; RWTH International Student Center FAQ). Compulsory fees = semester contribution for winter semester 2026/27 EUR 375.19 x2 (student body 12.62 + mobility 234.57 incl. Deutschlandsemesterticket 226.80 and Zuid-Limburg add-on + Studierendenwerk social contribution 128.00), published by the RWTH student body (AStA). History: winter 2025/26 EUR 338.05, winter 2024/25 EUR 304.47 per semester (same page). Same page and figures as RWTH's existing programmes, whose history rows are copied. Programme: Master Psychology (M.Sc. Psychologie), Institute of Psychology, https://www.psych.rwth-aachen.de/cms/psy/studium/~ijeb/master/?lidx=1: 'all courses in the Master's program are held in German'; four semesters (three lecture semesters plus master's thesis), research-oriented with cognitive, work, personnel, organisational and health psychology; 37 places each winter semester, requires a psychology B.Sc.; application deadline 15 July (institute pages, via search index and reader).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 608.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.1,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
+        }
+      ]
     }
   ]
 }

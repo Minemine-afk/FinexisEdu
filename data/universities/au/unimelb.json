@@ -356,6 +356,74 @@
           "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (Psychology major)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38004,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0018/493011/2026IntFeeMayUpdate.pdf",
+      "lastVerified": "2026-10-05",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "summary": "Typical first-year tuition for international students, the lower end of a range up to A$56,252; psychology subjects are in a dearer fee band. Read from a third-party copy of the university's fee tables.",
+      "notes": "Melbourne teaches psychology as a major within the Bachelor of Arts (also the Bachelor of Science), so this is the Bachelor of Arts figure: 2026 'typical first year course fee' from Table 2 of the 2026 international fee tables, lower end of the subject-dependent range $38,004 - $56,252 (same figure and basis as the Bachelor of Arts entry). Psychology subjects are charged in the 'Behavioural Science' subject fee band, A$56,960 per EFTSL in 2026 (Table 1), above the Arts band (A$44,832), so a first year with more psychology subjects costs more than the lower end. History rows copied from the Bachelor of Arts entry (Table 2 of the 2024 and 2025 international fee tables, lower ends A$39,080 and A$37,884). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-05 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39080,
+          "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0017/440810/2024-International-Fee-Table.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37884,
+          "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0028/341893/2025_International-Fee-Tables_September.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Psychology (Clinical Psychology)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 62976,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0018/493011/2026IntFeeMayUpdate.pdf",
+      "lastVerified": "2026-10-05",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students for one full-time year. International students pay no student services fee. Read from a third-party copy of the university's fee tables.",
+      "notes": "2026 international course tuition fee per EFTSL (one year full-time) from Table 3 of the 2026 international fee tables (527CL, Masters (Coursework), 2.00 years, CRICOS 009681G; $62,976 per EFTSL, $7,872 per 12.5 points, typical total course fee $132,250). The Master of Applied Psychology (MC-AP, 1.5 years) has the same 2026 rate. 2024 ($55,712) and 2025 ($57,984) from the 527CL rows of the previous years' international fee tables (same basis). International students pay no SSAF (ask.unimelb.edu.au FAQ 5570). The fee tables are on study.unimelb.edu.au, which blocks automated access (HTTP 403); the official PDFs were read on 2026-10-05 through a text rendering (r.jina.ai) of these URLs, hence sourceType secondary.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 55712,
+          "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0017/440810/2024-International-Fee-Table.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 57984,
+          "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0028/341893/2025_International-Fee-Tables_September.pdf"
+        }
+      ]
     }
   ]
 }

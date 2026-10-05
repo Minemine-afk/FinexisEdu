@@ -382,6 +382,36 @@
           "sourceUrl": "https://www.otago.ac.nz/__data/assets/excel_doc/0031/508756/2026-domestic-and-international-tuition-fees-web-version.xlsx"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science (Psychology)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 46200,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.otago.ac.nz/study/fees/international-tuition-fees/sciences",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students majoring in Psychology for 2027. Student services fee included; insurance is extra.",
+      "notes": "2027 estimated international annual fee for a normal full-time BSc (360 points, 3 years) majoring in Psychology ($46,200; the BA Psychology major on the humanities page is $45,360). Compulsory = 2026 Dunedin Student Services Fee $1,193 for 1 EFTS (2027 not yet published). Excludes insurance. Official page read on 2026-10-05 through a text rendering (r.jina.ai) because otago.ac.nz blocks automated access. 2026 feeHistory row (from Otago's '2026 domestic and international tuition fees' spreadsheet, sheet '2026 Papers', read through r.jina.ai): per-paper fees, not a programme fee; 1 EFTS (120 points) = the international fee of an 18-point (0.15 EFTS) PSYC paper, PSYC111 / PSYC112 $6,860.10, x 120/18 = $45,734.00 (fee category IN04). This is a single-subject 1-EFTS rate, whereas the 2027 figure is Otago's estimated annual fee for the programme's normal paper mix, so the two are not like-for-like. No 2024/2025 rows found (as for the other Otago entries).",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45734.0,
+          "annualCompulsoryFees": 1193,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.otago.ac.nz/__data/assets/excel_doc/0031/508756/2026-domestic-and-international-tuition-fees-web-version.xlsx"
+        }
+      ]
     }
   ]
 }

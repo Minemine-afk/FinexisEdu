@@ -425,6 +425,82 @@
           "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Science_International.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science (Psychology major)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47221,
+          "annualCompulsoryFees": 1132.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 120 points of standard science courses, including 15% GST and the student services fee. Books and insurance are extra.",
+      "notes": "Psychology is a major in the BSc (also the BA); the new Bachelor of Psychology (BPsych) takes its first students in 2027 and its page quotes the same 2026 international figure (NZ$47,221). 2026 figure = lower end of the BSc page's indicative international range NZ$47,221 - $58,009; PSYCH courses are standard Science courses (2026 international Science fee schedule: PSYCH 108 / PSYCH 109, 15 points, NZ$5,902.65 each; 8 x 15 points = NZ$47,221.20). 360 points over 3 years; inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point PSYCH 108/109 fee from that year's international Science fee schedule (NZ$5,405.40 / NZ$5,621.55), with SSF NZ$8.88 / NZ$9.24 per point.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43243.2,
+          "annualCompulsoryFees": 1065.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_Science_International.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44972.4,
+          "annualCompulsoryFees": 1108.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Science_International.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science (Psychology)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 55484,
+          "annualCompulsoryFees": 1132.8,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-science-msc.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students in the 2-year master's (1 year after an honours degree). Includes 15% GST and the student services fee. Books and insurance extra.",
+      "notes": "MSc specialisation in Psychology, 240 points over 2 years from a bachelor's degree (taught courses plus a thesis; 120 points / 1 year after honours). 2026 fee per year = 8 x 15-point 700-level PSYCH course at NZ$6,935.55 (e.g. PSYCH 714, PSYCH 723; 2026 international Science fee schedule) = NZ$55,484.40, the same as the Master of Science entry's figure from the programme page. Auckland's other taught option is the Master of Organisational Psychology. Inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point 700-level PSYCH course fee from that year's international Science fee schedule (NZ$6,351.15 / NZ$6,605.25), with SSF NZ$8.88 / NZ$9.24 per point.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 50809.2,
+          "annualCompulsoryFees": 1065.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_Science_International.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52842,
+          "annualCompulsoryFees": 1108.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Science_International.pdf"
+        }
+      ]
     }
   ]
 }

@@ -358,6 +358,66 @@
           "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BSc in Psychology (DC208)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16900,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international (non-EU) students plus a EUR 43 Student Centre levy. 4-year degree including a work placement. Fees rise each year.",
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Psychology' row, 'Non EU Fee' column EUR 16,900 (Faculty of Science and Health table); course page lists CAO code DC208, duration four years, with placement. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43), as for DCU's other records. 2025/26 history: non-EU fee EUR 16,400 per annum from DCU's 'Undergraduate Fees 2025-2026' schedule ('Psychology' row); the live URL now redirects to the 2026-27 page, so the figure was read from Common Crawl's 11 September 2025 capture of that page (secondary read of the official schedule). No 2024/25 schedule was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16400,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MSc in Psychology (Conversion) (DC767)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16800,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy.",
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, 'MSc in Psychology (Conversion)' row, full-time 'Non EU Fee' EUR 16,800 (EU EUR 9,100); course page: course code DC767, NFQ level 9, full-time, duration 1 year. Chosen as DCU's broad taught psychology master's (the other taught options are MSc in Psychology and Wellbeing, same fee, and MSc in Work and Organisational Psychology/Behaviour, part-time). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee EUR 16,500 per annum from DCU's 'Postgraduate Fees 2025-26' schedule (same row); the live URL now redirects to the 2026-27 page, so the figure was read from Common Crawl's 15 September 2025 capture of that page (secondary read of the official schedule). No 2024/25 schedule was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+        }
+      ]
     }
   ]
 }

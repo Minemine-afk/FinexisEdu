@@ -516,6 +516,82 @@
           "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2025/13_a_JA.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "School of Human Sciences (Psychology, Behavioral Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in Japanese.",
+      "notes": "Osaka's psychology is taught in the School of Human Sciences (人間科学部), mainly in the Behavioral Sciences department (行動学: basic, cognitive and social psychology), with clinical and educational psychology in the Education department; the School runs the certified psychologist (公認心理師) programme (https://www.hus.osaka-u.ac.jp/ja/). Japanese-taught. Osaka charges the standard national-university rate to all undergraduates, so the figures and 2024/2025 history rows are copied from the existing School of Human Sciences (English-taught programme) entry. Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the university-wide undergraduate admission guides for April 2024 (令和6年度 総合型・学校推薦型選抜) and April 2025 (令和7年度 一般選抜) entry.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.nyusi.icho.osaka-u.ac.jp/assets/pdf/R6sougougakusuiboshuuyoukou.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/ou_yoko2025.pdf/@@download/file"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Graduate School of Human Sciences (Master's, psychology fields)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised.",
+      "notes": "Psychology master's study at Osaka is in the Graduate School of Human Sciences (人間科学研究科), which hosts the behavioural-science and clinical-psychology fields and the graduate part of the certified psychologist programme (https://www.hus.osaka-u.ac.jp/ja/). Osaka charges the standard national-university rate to all graduate students, so the figures and 2024/2025 history rows are copied from the existing 'Graduate School of Humanities (Master's)' entry. Standard national-university (MEXT) rate: tuition ¥535,800/yr (¥267,900 per half year), matriculation (admission) fee ¥282,000, same for undergraduate and graduate students. Entrance examination fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Admission guides say the amounts are provisional and a revised rate applies if fees are changed during enrolment, so not cohort-locked. 2024 and 2025 figures from the Graduate School of Information Science and Technology master's admission guides for April 2024 and April 2025 entry; the rate is university-wide.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2024/13_a_JA.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.ist.osaka-u.ac.jp/files/examinees/admission/2025/13_a_JA.pdf"
+        }
+      ]
     }
   ]
 }

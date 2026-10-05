@@ -464,6 +464,82 @@
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology (B.A.)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22580,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for international (non-EU) students plus about EUR 213 in student levies. Fees rise 2.33% a year for later years, so the total will be higher.",
+      "notes": "Non-EU tuition for new entrants in 2026/27 ('Psychology', School of Psychology, course code UBPS-PSYC-2F, 'Non-EU Student Total Fee - Year 1' EUR 22,580); first-year fee; 4-year single-honours degree. Compulsory fee is the SLC for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional), as for Trinity's other undergraduate records. Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. History from the same official table (it lists earlier academic years): 2025/26 EUR 22,070, 2024/25 EUR 21,570.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21570,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22070,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "M.Sc. Applied Psychology",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23100,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus EUR 314 in student levies including the graduation fee.",
+      "notes": "Non-EU fee for 2026/27 entry, full-time 1 year ('Masters in Applied Psychology', School of Psychology, PTPS-APSY-1F, Non-EU Student Fee - Year 1 EUR 23,100; EU EUR 10,094). Chosen as Trinity's broad taught psychology master's (other taught options: Applied Behaviour Analysis, 2 years; Global Mental Health; Psychoanalytic Studies; the Higher Diploma conversion course is not a master's). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional). History from the same official table: 2025/26 EUR 22,430, 2024/25 EUR 22,430.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22430,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22430,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        }
+      ]
     }
   ]
 }

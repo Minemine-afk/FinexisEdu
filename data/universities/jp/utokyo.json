@@ -516,6 +516,82 @@
           "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Faculty of Letters, Psychology (Japanese-taught)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for students entering from 2025, fixed at your entry-year rate. The one-off ¥282,000 is the admission fee, paid once in year 1. Taught in Japanese.",
+      "notes": "Psychology (心理学専修課程) is a course of the Faculty of Letters (https://www.l.u-tokyo.ac.jp/psy/); students enter the College of Arts and Sciences junior division and move to the Faculty of Letters from year 3. All Japanese-taught undergraduate programmes pay the same rate, so the figures and 2024/2025 history rows are copied from the existing 'Faculty of Law (Japanese-taught)' entry. Tuition ¥642,960/yr for entrants from 2025 (¥535,800 for earlier entrants); admission fee ¥282,000. The fee is set by entry year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 642960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Graduate School of Humanities and Sociology, Psychology (Master's)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000
+        }
+      },
+      "sourceUrl": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Standard tuition for the 2-year master's. The one-off ¥282,000 is the admission fee, paid once in year 1. An announced fee increase applies only to students entering from 2029.",
+      "notes": "Psychology master's course (心理学専門分野) of the Graduate School of Humanities and Sociology. Same rate as all UTokyo master's programmes, so the figures and 2024/2025 history rows are copied from the existing 'Graduate School of Humanities and Sociology (Master's)' entry. Tuition ¥535,800/yr; the announced increase applies to entrants from 2029. Admission fee ¥282,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.u-tokyo.ac.jp/content/400247772.pdf"
+        }
+      ]
     }
   ]
 }

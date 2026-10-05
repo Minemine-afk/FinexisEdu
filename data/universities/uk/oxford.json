@@ -530,6 +530,52 @@
           "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/MSc%20in%20Mathematical%20Sciences_2024-25entry_19Oct23.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology (Experimental) (BA/MSci, C830)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 58280,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/psychology-experimental",
+      "lastVerified": "2026-10-05",
+      "sourceType": "secondary",
+      "cohortLocked": false,
+      "summary": "Annual fee for international students, covering university and college tuition and services. Oxford says fees usually rise each year. Read from a third-party copy of Oxford's page.",
+      "notes": "Overseas annual course fee for 2027 entry from the official Psychology (Experimental) course page ('Please note the fees and funding information for 2027 entry', Home GBP 10,050, Overseas GBP 58,280; UCAS code C830; course duration 3 or 4 years, BA after three years or an optional fourth MSci year). Course fees cover University and college tuition and services as a single figure; no separate compulsory fees. Oxford says fees will usually increase annually. www.ox.ac.uk blocks automated access, so the page was read through a reader proxy (r.jina.ai) on 2026-10-05, hence sourceType secondary. History rows are the Overseas annual course fees in Oxford's official per-entry-year Psychology (Experimental) Course Information Sheets (each row's sourceUrl), read through the reader proxy on 2026-10-05: 2026 entry GBP 54,990 ('Annual Course fees in 2026/27'), 2025 entry GBP 51,880, 2024 entry GBP 48,620.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 54990,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets-oxweb.admin.ox.ac.uk/2026-02/Psychology%20(Experimental)%20CIS%202026-entry.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51880,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2025-26/Experimental%20Psychology%20CIS%202025.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48620,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Experimental%20Psychology%20CIS%202024_0.pdf"
+        }
+      ]
     }
   ]
 }

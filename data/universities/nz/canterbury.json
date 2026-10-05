@@ -510,6 +510,82 @@
           "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Psychological Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43140,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students for the 2027 intake; the actual fee depends on courses chosen and rises yearly. Student services levy included; insurance is extra.",
+      "notes": "Bachelor of Psychological Science (BPsycSc), 360 points = 3 years: '2027 tuition fee estimate: $43,140 per 120 points'; actual fee depends on courses. UC also publishes 2026: $41,320 and 2028: $45,300. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2026 row from the same page. No 2024/2025 rows: UC no longer publishes earlier years' per-qualification estimates, no archived copy of this page was found (Common Crawl CC-MAIN-2024-46, 2025-08, 2025-30 hold none), and the UC Calendar fee bands do not say which band psychology courses fall in.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 41320,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science in Psychology",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47600,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students in the 2-year master's; the actual fee depends on courses chosen. Student services levy included; insurance is extra.",
+      "notes": "Psychology is a major of UC's Master of Science (240 points, 2 years: coursework then thesis; major list on canterbury.ac.nz/study/academic-study/qualifications/master-of-science). 2027 international tuition fee estimate per 120 points for the MSc ($47,600); same fee and history as the Master of Science entry. 2026 = $45,300; 2028 published as $50,000. UC's Master of Organisational Psychology is offered only online through UC Online, so it is not used. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. 2024 and 2025 rows copied from the Master of Science entry: UC Calendar Fees and Fines Regulations Schedule 1 Part C international fee band 4 (Science, Health Sciences) postgraduate rate per 120 points; SSL then $9.17/point x 120 = $1,100.40.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42200,
+          "annualCompulsoryFees": 1100.4,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43800,
+          "annualCompulsoryFees": 1100.4,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45300,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
+        }
+      ]
     }
   ]
 }

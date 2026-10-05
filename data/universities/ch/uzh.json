@@ -454,6 +454,78 @@
           "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science in Psychology (major 120 ECTS + minor 60 ECTS)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 2440,
+          "annualCompulsoryFees": 118,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students, including a CHF 500 per semester surcharge for foreign bachelor's students, plus semester contributions. A CHF 150 application fee is extra. Taught in German.",
+      "notes": "Tuition CHF 720 per semester + CHF 500 surcharge for foreign students at bachelor level = CHF 1,220 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Programme: Bachelor of Science in Psychology (RVO19), https://www.degrees.uzh.ch/en/bachelor/50000007/50890577/50893138: 120 ECTS major plus a 60 ECTS minor, 6 semesters, autumn start only, main language German (further language English). The Department of Psychology states both psychology programmes are 'only offered in German' and require German at C1 level (https://www.psychology.uzh.ch/en/studying/general.html). Same fee page, figures and history as UZH's existing programmes (copied). Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester). Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025. Mandatory semester contributions are omitted from the history rows because only the current (1 Jan 2026) amounts are published.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 2440,
+          "oneOffFees": 100,
+          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 2440,
+          "oneOffFees": 150,
+          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science in Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1640,
+          "annualCompulsoryFees": 118,
+          "oneOffFees": 150
+        }
+      },
+      "sourceUrl": "https://www.uzh.ch/en/studies/application/fees.html",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students, including a CHF 100 per semester surcharge for foreign master's students, plus semester contributions. A CHF 150 application fee is extra. Taught in German.",
+      "notes": "Tuition CHF 720 per semester + CHF 100 surcharge for foreign students at master level = CHF 820 x 2. Mandatory semester contributions CHF 59 x 2. One-off application fee CHF 150 for foreign qualifications. Programme: Master of Science in Psychology (RVO19), https://www.degrees.uzh.ch/en/master/50000007/50896641/50905819: 120 ECTS, 4 semesters, start in autumn or spring, main language German; requires a bachelor's in psychology; qualifies for the Swiss professional title 'psychologist'. The Department of Psychology states both psychology programmes are 'only offered in German' and require German at C1 level (https://www.psychology.uzh.ch/en/studying/general.html). Same fee page, figures and history as UZH's existing programmes (copied). Fee history: tuition for 2024 (HS 2024 + FS 2025) and 2025 (HS 2025 + FS 2026) from the cantonal Verordnung über die Studiengebühren an der Universität Zürich (LS 415.321: CHF 720 per semester in both the version in force 1 Aug 2022 - 1 Jan 2025 and the version in force from 1 Jan 2025) plus the Verordnung über die zusätzliche Studiengebühr von ausländischen Studierenden (LS 415.322, in force since 1 May 2012: CHF 500 bachelor, CHF 100 master per semester). Application fee was CHF 100 until 31 Dec 2024 and CHF 150 for foreign qualifications from 1 Jan 2025. Mandatory semester contributions are omitted from the history rows because only the current (1 Jan 2026) amounts are published.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1640,
+          "oneOffFees": 100,
+          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-117.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1640,
+          "oneOffFees": 150,
+          "sourceUrl": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-415_321-2022_02_28-2022_08_01-127.html"
+        }
+      ]
     }
   ]
 }

@@ -464,6 +464,74 @@
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Psychology (Honours)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 61000,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychology-honours",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$267,500 in total, so later years cost more.",
+      "notes": "2026 indicative first-year international fee (program 3632, CRICOS 088874M; 192 UOC, 4 years with embedded honours; total to complete A$267,500). UNSW's 3-year Bachelor of Psychological Science (3435) is A$58,500 first year (A$189,500 total). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate PSYC Psychology per-UOC rate (A$1,140 / A$1,220, same as the Faculty of Science rate) x 48 UOC (UNSW fee archive, International tuition fees, Undergraduate, Science). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54720,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58560,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Psychology (Clinical)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 58500,
+          "annualCompulsoryFees": 372,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unsw.edu.au/study/postgraduate/master-of-psychology-clinical",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$122,000 in total, so later years cost more.",
+      "notes": "2026 indicative first-year international fee (program 8256, CRICOS 001934A; 96 UOC, 2 years; total to complete A$122,000). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate PSYC Psychology per-UOC rate (A$1,090 / A$1,155) x 48 UOC (UNSW fee archive, International tuition fees, Postgraduate, Science). Fees reviewed annually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 52320,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 55440,
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ]
     }
   ]
 }

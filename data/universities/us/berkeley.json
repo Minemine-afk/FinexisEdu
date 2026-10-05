@@ -440,6 +440,44 @@
           "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA Psychology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53472,
+          "annualCompulsoryFees": 4012,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international undergraduates, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
+      "notes": "Nonresident undergraduate rate: tuition + Nonresident Supplemental Tuition, per semester x 2; same for all majors. Tuition and the supplement are fixed for your entering cohort (Tuition Stability Plan); campus fees can still change. Other fees = Student Services, Berkeley Campus, Transit and Instructional Resilience fees; one-off = Document Management Fee. Health insurance (SHIP) excluded because it can be waived. Psychology (BA, College of Letters and Science) is charged the same undergraduate rate as every other major, so fees and 2024/2025 history are copied from the existing BA English record (same registrar fee schedules).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 47346,
+          "annualCompulsoryFees": 3461,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee_Schedule_2024-25_a11y.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51204,
+          "annualCompulsoryFees": 3877.5,
+          "oneOffFees": 250,
+          "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
+        }
+      ]
     }
   ]
 }

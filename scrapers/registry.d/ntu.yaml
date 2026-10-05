@@ -29,3 +29,8 @@ sources:
       programme: Civil Engineering
       tier: international
       pattern: \(based on minimum candidature\) S\$([\d,.]+) Tuition fee per semester S\$[\d,.]+ S\$[\d,.]+ Important things to note
+  # Master of Science in Psychology (MScP): psychology programme added Oct 2026; fee read by hand
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees"
+    manual: true

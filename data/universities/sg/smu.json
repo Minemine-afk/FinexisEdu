@@ -267,6 +267,32 @@
         { "feeYear": 2026, "tier": "pr", "annualTuition": 33150, "annualCompulsoryFees": 0, "oneOffFees": 400, "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws" },
         { "feeYear": 2026, "tier": "international", "annualTuition": 38150, "annualCompulsoryFees": 0, "oneOffFees": 500, "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws" }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Social Science (Psychology major)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 11550, "annualCompulsoryFees": 281, "oneOffFees": 0 },
+        "pr": { "annualTuition": 16100, "annualCompulsoryFees": 281, "oneOffFees": 0 },
+        "international": { "annualTuition": 26200, "annualCompulsoryFees": 367, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant",
+      "lastVerified": "2026-10-05",
+      "sourceType": "secondary",
+      "cohortLocked": true,
+      "summary": "Yearly tuition, fixed for the 4-year degree, plus annual compulsory fees. Citizens and PRs pay the Tuition Grant rate; the international rate includes 9% GST. Read from a third-party copy of SMU's page.",
+      "notes": "Psychology is one of the majors of the Bachelor of Social Science offered by the SMU School of Social Sciences. SMU charges one tuition rate for all non-Law undergraduate degrees, so the figures and 2024/2025 history rows are copied from the existing 'Bachelor of Science (Economics)' entry. Annual tuition for AY2026/27 entering freshmen from SMU's official 'Tuition Fees & Grant' page, fixed for the normal 4-year candidature (one rate for all non-Law degrees). Citizen S$11,550 (Tier A Tuition Grant) and PR S$16,100 (Tier B), both excl. GST (GST subsidised by the Government). International S$26,200 = Tier C Tuition Grant rate for non-ASEAN students, incl. 9% GST (ASEAN S$25,150; non-subsidised S$47,700). Compulsory fees = 2026 annual miscellaneous student fees: S$281 (SC/PR) or S$367 (international), charged each Term 1. admissions.smu.edu.sg blocks bots, so the official page was read through a reader proxy (r.jina.ai) on 2026-10-01 (figures re-verified unchanged), hence sourceType secondary. Fee history: the live page shows only the AY2026/27 cohort, so the 2024 and 2025 rows come from Wayback Machine (web.archive.org) copies of this same official page: capture 20240521110411 ('Annual Tuition Fees for AY 2024/25 Entering Freshmen' and '2024 Annual Miscellaneous Student Fees', SC/PR S$226, international S$290) and capture 20250530061035 ('AY 2025/26 Entering Freshmen' and '2025 Annual Miscellaneous Student Fees', SC/PR S$227, international S$291), both read on 2026-10-01; the 2024 figures agree with SMU's matriculation site (matriculation.smu.edu.sg/undergraduate/2024, S$5,750 per term for SC, annual fees S$226). Same GST treatment as above (SC/PR excl. GST; international Tier C rate incl. 9% GST). Non-Law AY2024/25: SC S$11,500, PR S$16,050, ASEAN S$25,100, other international S$26,100, non-subsidised S$47,050; AY2025/26: SC S$11,500, PR S$16,050, ASEAN S$25,100, other international S$26,100, non-subsidised S$47,700.",
+      "feeHistory": [
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 11500, "annualCompulsoryFees": 226, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 16050, "annualCompulsoryFees": 226, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26100, "annualCompulsoryFees": 290, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 11500, "annualCompulsoryFees": 227, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 16050, "annualCompulsoryFees": 227, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 26100, "annualCompulsoryFees": 291, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" }
+      ]
     }
   ]
 }

@@ -358,6 +358,82 @@
           "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science (Psychology) (GY104)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 19890,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international (non-EU) students, including the EUR 140 levy. 4-year degree. Later years rise by about 5% a year.",
+      "notes": "University of Galway undergraduate fee table, 'International (non-EU) fee' column, 2026/27, per annum: GY104 Bachelor of Science (Psychology) EUR 19,890 p.a.; 4-year degree. Figure includes the EUR 140 student levy. Continuing-year fees rise by an approved inflationary increase (5% a year for 2026/27 entrants). History from Wayback Machine copies of the same official fee table: capture of 5 August 2025 shows 'EUR 19,140 p.a. 2025/2026' (levy-inclusive, as the EU total in the same row is stated 'including levy'); capture of 3 September 2024 shows 'EUR 19,000 p.a. (EUR 19,140 p.a. including levy) 2024/25'. The levy-inclusive figure is recorded for both.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 19140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MSc Health Psychology",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20540,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, including the EUR 140 student levy.",
+      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum: 'Health Psychology (MSc)' (course 1MHP1) EUR 20,540 (EU EUR 8,790); 1 year full-time (2 years part-time). Chosen as Galway's taught psychology master's: the School of Psychology's other postgraduate options are a Higher Diploma conversion (not a master's), MSc Applied Behaviour Analysis (2 years), MSc Clinical Neuroscience, and research or doctoral degrees. Figure includes the EUR 140 student levy. 2025/26 history: University of Galway Postgraduate Prospectus 2025 (PDF), School of Psychology table, 'Health Psychology MSc' Non-EU EUR 20,000 per annum; the prospectus states a student levy (EUR 140 for 2025/26) is payable in addition, so EUR 20,140 is recorded to match the levy-inclusive convention. 2024/25 history: Wayback Machine capture of 9 August 2024 of the official postgraduate fee table, 'Health Psychology (MSc)' (MSC-HPSY) 'EUR 19,500 p.a. (EUR 19,640 including levy) 2024/25'; levy-inclusive figure recorded.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 19640,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/"
+        }
+      ]
     }
   ]
 }

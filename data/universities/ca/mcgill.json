@@ -431,6 +431,78 @@
           "sourceUrl": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2025-26.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (Psychology major)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54000,
+          "annualCompulsoryFees": 2434.94,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at your entry-year rate. Compulsory student fees included; international health insurance is extra.",
+      "notes": "2026-27 fees, 30 credits, by admission year; tuition guaranteed for the programme. Compulsory = society, student services, admin, copyright, IT and SSMU dental fees; international health insurance (C$1,212) excluded. Psychology is offered as a BA major (Faculty of Arts) and also within the Bachelor of Science, which is charged the higher BSc rate (C$64,785.90 for Fall 2026 entrants, see the existing BSc record). BA figures and 2024/2025 history are copied from the existing Bachelor of Arts record (same Student Accounts page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44000.1,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 48999.9,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/bachelor-arts-ba-3"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Education in Educational Psychology (non-thesis): General Educational Psychology",
+      "durationYears": 1.6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32832.6,
+          "annualCompulsoryFees": 2105.71,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-7",
+      "lastVerified": "2026-10-05",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students; the 48-credit programme takes about 1.6 years. Not fixed: the rate rises each year. Compulsory fees included; health insurance is extra.",
+      "notes": "2026-27 international Master's Non-Thesis table (Student Accounts), 'newly admitted and enrolled as of Fall 2026' column: C$16,416.30 per term x 2 terms = 30 credits (C$1,094.42 per credit; 48-credit programme = 1.6 years at this rate). Not guaranteed: the same cohort's rate is raised each year (Fall 2025 entrants C$15,634.50 per term in the 2025-26 table, C$16,103.55 in the 2026-27 table), so cohortLocked is false and history rows are each year's own new-entrant figure. Compulsory = student society (Fall C$198.78 + Winter C$113.78) + student services/athletics (C$376.49 x 2) + admin (C$243.75 + C$182.40) + copyright (C$17.55 x 2) + IT (C$151.20 x 2) + PGSS dental C$276.52; international health insurance (C$1,212) excluded. Programme: M.Ed. Educational Psychology (Non-Thesis): General Educational Psychology, 48 credits, Department of Educational and Counselling Psychology, Faculty of Education (2026-27 Course Catalogue, coursecatalogue.mcgill.ca/en/graduate/education/ecp/psychology-non-thesis-med-general/). McGill's Psychology department offers only thesis MSc/PhD degrees, the M.A. Counselling Psychology (Non-Thesis) Professional/Internship is 'currently closed to admissions' and the M.A. Educational Psychology (Non-Thesis) is 'currently not offered' in the 2026-27 catalogue, so this M.Ed. is the taught psychology master's open to new students. The general Master's Non-Thesis table applies (only MBA/IMPM programmes have separate tables), so fees and 2024/2025 history are copied from the existing MA Economics (non-thesis) record.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29780.1,
+          "annualCompulsoryFees": 1972.92,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31269.0,
+          "annualCompulsoryFees": 2031.22,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.mcgill.ca/student-accounts/masters-non-thesis-programs-4"
+        }
+      ]
     }
   ]
 }
