@@ -65,7 +65,7 @@ published fee tables for those years.
 | Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin | All except HU Berlin, whose semester-fee page blocks bots and is checked by hand |
 | Canada | McGill, McMaster, Toronto, UBC, Waterloo | All (McMaster's tuition spreadsheet and UBC compulsory fees are manual) |
 | New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington | All except Otago (bot-protected) |
-| Switzerland | ETH Zurich, EPFL, Zurich, Geneva, St. Gallen | All |
+| Switzerland | ETH Zurich, EPFL, Zurich, Geneva, St. Gallen, Lausanne, Basel, Bern, Neuchâtel, Fribourg, USI | All of the first five; Lausanne, Basel, Bern, Neuchâtel, Fribourg and USI are manual |
 | Japan | Keio, Kyoto, Osaka, UTokyo, Waseda | All (Waseda's lab/health fee is manual) |
 | Ireland | Trinity College Dublin, UCD, UCC, Galway, DCU | All (UCD's living-cost page is manual) |
 

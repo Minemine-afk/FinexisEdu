@@ -1,0 +1,445 @@
+{
+  "id": "unine",
+  "name": "University of Neuchâtel",
+  "country": "ch",
+  "city": "Neuchâtel",
+  "currency": "CHF",
+  "website": "https://www.unine.ch",
+  "description": "The University of Neuchâtel (UniNE) is a public French-speaking university founded as an academy in 1838 and a university since 1909. It has four faculties: humanities and social sciences, science, law, and economics and business.",
+  "whyIncluded": "The University of Neuchâtel is among the 10 universities in Switzerland most chosen by international students (about 23% of its 4,365 students are international, per Times Higher Education World University Rankings data), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 565,
+      "food": 450,
+      "transport": 115,
+      "personal": 360
+    },
+    "sourceUrl": "https://www.unine.ch/etudier/en/a-good-start/managing-your-finances/",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own monthly budget for a student renting a room, using the middle of its ranges, for 12 months a year. Excludes fees, health insurance and taxes.",
+    "notes": "UniNE 'Managing your finances' page (monthly, ranges; midpoints used): housing = rent incl. bills 370-700 (535) + cleaning 20-40 (30) = 565; food = meals (canteen) 400-500 (450); transport = travel 10-220 (115); personal = clothes 70-100 (85) + hairdresser/hygiene 30-50 (40) + pocket money/phone 150-200 (175) + doctor/dentist/optician 60 = 360. Excluded: registration/tuition/materials 200-400, sickness/accident insurance 350-380, taxes/AHV 40-80. UniNE total for independent students CHF 1,700-2,780. Page undated, read 2026-10-07."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Science in Economics and Business",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 3-year (180 ECTS) Faculty of Economics and Business bachelor, taught mainly in French.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science in Biology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 3-year (180 ECTS) Faculty of Science bachelor, taught in French.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts in Humanities and Social Sciences (Lettres et sciences humaines)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 3-year (180 ECTS) bachelor combining subject pillars, taught in French.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Law (Bachelor en droit)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 3-year (180 ECTS) law bachelor, taught in French.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts in Humanities and Social Sciences, Psychology and Education pillar",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 3-year (180 ECTS) bachelor in which psychology and education is the main pillar, taught in French. UniNE has no stand-alone psychology bachelor.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Swiss Joint Master of Science in Computer Science",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 1.5-year (90 ECTS) master run with Bern and Fribourg (BeNeFri), taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Science in Finance",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 1.5-year (90 ECTS) master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Hydrogeology and Geothermics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 2-year (120 ECTS) Centre for Hydrogeology and Geothermics master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in Humanities and Social Sciences (Lettres et sciences humaines)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 2-year (120 ECTS) master, taught in French.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Law (Master en droit)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 1.5-year (90 ECTS) law master, taught in French.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Arts in Social Sciences, Psychology and Education pillar",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course fee for foreign students whose parents live abroad, plus fixed and exam fees. A one-off CHF 100 fee applies to applicants with foreign qualifications.",
+      "notes": "Neuchatel cantonal Arrete concernant le montant de la finance d'inscription percue par l'Universite de Neuchatel (18 Feb 2004, status 1 March 2024), published by UniNE: art. 3 course and laboratory fees per year CHF 1,400 for students of foreign nationality whose parents live abroad (CHF 850 for Swiss); art. 2 fixed fees CHF 120 a year; art. 5 exam fees CHF 30 a year; compulsory = 150. Art. 5bis (since 1 Aug 2014): CHF 100 processing fee for applicants with a foreign entrance qualification. The optional FEN student federation fee (CHF 15 a semester) is excluded. Fee history: the amounts have been unchanged since 2004 (later amendments only renamed the department and added art. 5bis in 2014), and the version in force from 1 March 2024 covers 2024-25 and 2025-26, so those rows use the same figures. 2-year (120 ECTS) master, taught in French.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1400,
+          "annualCompulsoryFees": 150,
+          "oneOffFees": 100,
+          "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+        }
+      ]
+    }
+  ]
+}

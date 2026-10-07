@@ -1,0 +1,279 @@
+{
+  "id": "unil",
+  "name": "University of Lausanne",
+  "country": "ch",
+  "city": "Lausanne",
+  "currency": "CHF",
+  "website": "https://www.unil.ch",
+  "description": "The University of Lausanne (UNIL) is a public university in Lausanne, founded as an academy in 1537 and a university since 1890. It has seven faculties, including HEC Lausanne, law, biology and medicine, and teaches mainly in French.",
+  "whyIncluded": "The University of Lausanne is among the 10 universities in Switzerland most chosen by international students (about 23% of its 14,645 students are international, per Times Higher Education World University Rankings 2027 data), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 800,
+      "food": 875,
+      "transport": 0,
+      "personal": 125
+    },
+    "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own basic student budget per month, using the middle of its ranges. Day-to-day costs such as transport are inside its living and food figure. Excludes health insurance and fees.",
+    "notes": "UNIL 'Taxes d'etudes et cout de la vie' page: basic student budget about CHF 2,050 a month = living and food CHF 850-900, accommodation CHF 700-900, health and accident insurance CHF 150-300, books and course material CHF 100-150. Midpoints used: housing 800; food 875 (UNIL's combined 'living and food' line, which also covers everyday costs such as local transport, so transport is 0 rather than double counted); personal 125 (books and course material). Insurance excluded. Months = 12 because the budget is monthly with no academic-year length. Page undated, read 2026-10-07."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Science in Management (HEC Lausanne)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) HEC Lausanne bachelor, taught mainly in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science in Biology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Biology and Medicine bachelor, taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (Baccalauréat universitaire ès Lettres)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Arts bachelor combining two disciplines, taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Law (Baccalauréat universitaire en Droit)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) law bachelor, taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science in Psychology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Social and Political Sciences bachelor, taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science in Information Systems and Digital Innovation",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) HEC Lausanne master, taught in English.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Science in Management",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) HEC Lausanne master, taught in English.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Molecular Life Sciences",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) Faculty of Biology and Medicine master, taught in English.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (Maîtrise universitaire ès Lettres)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) Faculty of Arts master, taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Law (Maîtrise universitaire en Droit)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) law master, taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science in Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) master, taught in French.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "nursing",
+      "name": "Master of Science in Nursing (Maîtrise universitaire ès Sciences en sciences infirmières)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) master run jointly by UNIL and HES-SO, taught in French; needs a nursing bachelor. Students enrol at UNIL, so UNIL's semester fee is used.",
+      "feeHistory": []
+    }
+  ]
+}

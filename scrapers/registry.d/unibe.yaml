@@ -1,0 +1,7 @@
+# University of Bern. Fee sheet PDF per fee period (new rates from autumn 2026).
+sources:
+  # Fees-from-fall-2026 PDF: tuition, surcharge and semester fees read by hand; URL changes with each new sheet
+  - university: unibe
+    country: ch
+    url: "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf"
+    manual: true

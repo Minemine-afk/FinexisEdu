@@ -1,0 +1,7 @@
+# University of Lausanne. Flat semester fee for all levels and nationalities; living costs on the same page.
+sources:
+  # Fee and cost-of-living page: one flat rate for every programme; checked by hand (added Oct 2026)
+  - university: unil
+    country: ch
+    url: "https://unil.ch/immat/en/home/menuguid/faq--infos-utiles/informations-utiles/taxes-detudes-et-cout-de-la.html"
+    manual: true

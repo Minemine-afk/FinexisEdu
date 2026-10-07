@@ -1,0 +1,544 @@
+{
+  "id": "unibe",
+  "name": "University of Bern",
+  "country": "ch",
+  "city": "Bern",
+  "currency": "CHF",
+  "website": "https://www.unibe.ch",
+  "description": "The University of Bern is a public university in Switzerland's federal capital, founded in 1834. It has eight faculties including medicine, law, science and business, economics and social sciences, and teaches mainly in German.",
+  "whyIncluded": "The University of Bern is among the 10 universities in Switzerland most chosen by international students (about 18% of its students are international, per Times Higher Education World University Rankings data, with 8,014 bachelor's and 5,213 master's students in autumn 2025), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science in Computer Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 3-year (180 ECTS) bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Science in Business Administration",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 3-year (180 ECTS) bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science in Biology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 3-year (180 ECTS) bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts in English Languages and Literatures",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 3-year (180 ECTS) bachelor, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Law",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 3-year (180 ECTS) law bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medicine (Human Medicine)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, plus semester fees and CHF 250 one-off fees. Medicine places are capped and foreign applicants are normally admitted only with Swiss residence.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 3-year (180 ECTS) bachelor taught in German, followed by the 3-year Master of Medicine. Places are capped (aptitude test EMS via swissuniversities) and foreign nationals are normally admitted only with Swiss residence. Universitat Bern (Medizinische Fakultat) is on the Singapore Medical Council's list of registrable basic medical qualifications (federal diploma, added 2006).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science in Psychology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 3-year (180 ECTS) bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science in Computer Science",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 1.5-year (90 ECTS) Swiss Joint Master run with Fribourg and Neuchatel (BeNeFri), taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Science in Business Administration",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 2-year (120 ECTS) master, taught in German and English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Climate Sciences",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 2-year (120 ECTS) Oeschger Centre master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in English Languages and Literatures",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 2-year (120 ECTS) master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Law",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 1.5-year (90 ECTS) law master, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Master of Medicine (Human Medicine)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, plus semester fees and CHF 250 one-off fees. Medicine places are capped and foreign applicants are normally admitted only with Swiss residence.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 3-year (180 ECTS) master taught in German, ending with the federal examination; entry normally via the Bern bachelor. Universitat Bern (Medizinische Fakultat) is on the Singapore Medical Council's list of registrable basic medical qualifications.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science in Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 5100,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 250
+        }
+      },
+      "sourceUrl": "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for non-Swiss students from autumn 2026, including a CHF 1,700 per semester surcharge, plus semester fees. One-off application and registration fees of CHF 250 are extra.",
+      "notes": "University of Bern 'Fees from the fall semester 2026' (PDF, valid as of Nov 2025): tuition CHF 850 + CHF 1,700 additional fee per semester for students who did not have civil-law residence in Switzerland or Liechtenstein when they obtained their entrance qualification = CHF 2,550 x 2 = 5,100. Semester fee CHF 34 x 2 = 68 (occupational accident insurance 3, university sports 17, social and cultural institutions 14); SUB student union CHF 25 per semester is for members only and excluded. One-off: application fee CHF 150 + registration fee CHF 100. Decided by the Bern cantonal government on 19 Nov 2025. Transitional rule (unibe fees page): non-Swiss students enrolled before fall 2026 keep the old CHF 200 surcharge until they finish their degree level, so a 2024 or 2025 starter keeps CHF 1,900 a year. Fee history: unibe 'Gebuhren ab FS 25' sheet (legal basis UniV of 12.09.2012, Stand 01.08.2024): Studiengebuhr CHF 750 + CHF 200 for foreign students per semester = 950 x 2 = 1,900; semester fee 34 x 2 = 68; Anmeldegebuhr 100 + Einschreibegebuhr 100 = 200. The same UniV version (from 1 Aug 2024) covered autumn 2024, and BFH's news on the canton's decision confirms the international rate was CHF 950 per semester until the autumn 2026 rise. 2-year (120 ECTS) master, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1900,
+          "annualCompulsoryFees": 68,
+          "oneOffFees": 200,
+          "sourceUrl": "https://unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e175074/Gebuehren_abFS25_ger.pdf"
+        }
+      ]
+    }
+  ]
+}
