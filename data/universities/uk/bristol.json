@@ -1,0 +1,627 @@
+{
+  "id": "bristol",
+  "name": "University of Bristol",
+  "country": "uk",
+  "city": "Bristol",
+  "currency": "GBP",
+  "website": "https://www.bristol.ac.uk",
+  "description": "The University of Bristol is a public research university in south-west England that received its royal charter in 1909, growing out of University College Bristol (1876). It is a member of the Russell Group.",
+  "whyIncluded": "The University of Bristol is among the 10 universities in the United Kingdom most chosen by international students (10,900 non-UK students in 2024-25, including 305 from Singapore, per HESA), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2025,
+    "months": 9,
+    "monthly": {
+      "housing": 816,
+      "food": 214,
+      "transport": 57,
+      "personal": 141
+    },
+    "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/advice/set-up-finances/living-expenses/",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The University of Bristol's own average monthly living costs for undergraduates in 2025/26, shown over a 9-month academic year. Excludes tuition, flights and visa costs.",
+    "notes": "Bristol 'Living costs for students' page, average monthly costs 2025/26, undergraduate column: rent 775.78, utilities 40.64, communications 16.73, groceries 173.85, public transport 34.82, private transport 22.38, medical 10.58, laundry/cleaning 7.69, home entertainment 12.98, dining out 40.43, nights out 49.92, clothing/grooming 28.33, exercise/wellbeing 15.24. Mapped: housing = rent + utilities (816.42); food = groceries + dining out (214.28); transport = public + private (57.20); personal = the rest (141.47). The page headline is GBP 1,401 a month for undergraduates (GBP 1,862 postgraduate); the listed rows sum to about GBP 1,229, so some smaller categories were not itemised in the read. The page does not state how many months it covers; 9 months (UK academic year) assumed."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BEng Mechanical Engineering (H305)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/mechanical-engineering/beng-mechanical-engineering/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (first-year rate). Bristol reviews fees each year and says international fees rise with expected inflation. No separate compulsory fees.",
+      "notes": "Course page for 2027 entry (BEng Mechanical Engineering (H305)): 'International students, £X for the first year. Fees are subject to annual review and are liable to rise each year'; 'international fees increase annually in line with expected inflation rises', so cohortLocked is false. Fee history = Bristol's overseas undergraduate fee tables by academic year and starting cohort (students/support/finances/tuition-fees/ug/overseas/<year>/<cohort>-starters/), row 4MECH010U 'Mechanical Engineering (BEng)': 2026 starters GBP 31,300, 2025 starters GBP 30,400, 2024 starters GBP 29,300. The 2026/27 table also shows 2025 starters' CS fee rising from GBP 32,500 to 33,400 in their second year, confirming yearly increases. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 31300,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29300,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BSc Computer Science (G400)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (first-year rate). Bristol reviews fees each year and says international fees rise with expected inflation. No separate compulsory fees.",
+      "notes": "Course page for 2027 entry (BSc Computer Science (G400)): 'International students, £X for the first year. Fees are subject to annual review and are liable to rise each year'; 'international fees increase annually in line with expected inflation rises', so cohortLocked is false. Fee history = Bristol's overseas undergraduate fee tables by academic year and starting cohort (students/support/finances/tuition-fees/ug/overseas/<year>/<cohort>-starters/), row 4COSC006U 'Computer Science (BSc)': 2026 starters GBP 33,400, 2025 starters GBP 32,500, 2024 starters GBP 31,300. The 2026/27 table also shows 2025 starters' CS fee rising from GBP 32,500 to 33,400 in their second year, confirming yearly increases. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31300,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc Business and Management (N200)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 29300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/business-and-management/bsc-business-and-management/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (first-year rate). Bristol reviews fees each year and says international fees rise with expected inflation. No separate compulsory fees.",
+      "notes": "Course page for 2027 entry (BSc Business and Management (N200)): 'International students, £X for the first year. Fees are subject to annual review and are liable to rise each year'; 'international fees increase annually in line with expected inflation rises', so cohortLocked is false. Fee history = Bristol's overseas undergraduate fee tables by academic year and starting cohort (students/support/finances/tuition-fees/ug/overseas/<year>/<cohort>-starters/), row 9MGRC004U 'Business and Management (BSc)': 2026 starters GBP 28,200, 2025 starters GBP 27,400, 2024 starters GBP 26,400. The 2026/27 table also shows 2025 starters' CS fee rising from GBP 32,500 to 33,400 in their second year, confirming yearly increases. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 28200,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 27400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc Physics (F300)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 32500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/physics/bsc-physics/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (first-year rate). Bristol reviews fees each year and says international fees rise with expected inflation. No separate compulsory fees.",
+      "notes": "Course page for 2027 entry (BSc Physics (F300)): 'International students, £X for the first year. Fees are subject to annual review and are liable to rise each year'; 'international fees increase annually in line with expected inflation rises', so cohortLocked is false. Fee history = Bristol's overseas undergraduate fee tables by academic year and starting cohort (students/support/finances/tuition-fees/ug/overseas/<year>/<cohort>-starters/), row 2PHYS001U 'Physics (BSc)': 2026 starters GBP 31,300, 2025 starters GBP 30,400, 2024 starters GBP 29,300. The 2026/27 table also shows 2025 starters' CS fee rising from GBP 32,500 to 33,400 in their second year, confirming yearly increases. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 31300,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29300,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BSc Economics (L100)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 29300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (first-year rate). Bristol reviews fees each year and says international fees rise with expected inflation. No separate compulsory fees.",
+      "notes": "Course page for 2027 entry (BSc Economics (L100)): 'International students, £X for the first year. Fees are subject to annual review and are liable to rise each year'; 'international fees increase annually in line with expected inflation rises', so cohortLocked is false. Fee history = Bristol's overseas undergraduate fee tables by academic year and starting cohort (students/support/finances/tuition-fees/ug/overseas/<year>/<cohort>-starters/), row 9ECON001U 'Economics (BSc)': 2026 starters GBP 28,200, 2025 starters GBP 27,400, 2024 starters GBP 26,400. The 2026/27 table also shows 2025 starters' CS fee rising from GBP 32,500 to 33,400 in their second year, confirming yearly increases. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 28200,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 27400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "LLB Law (M100)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 26500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/law/llb-law/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (first-year rate). Bristol reviews fees each year and says international fees rise with expected inflation. No separate compulsory fees.",
+      "notes": "Course page for 2027 entry (LLB Law (M100)): 'International students, £X for the first year. Fees are subject to annual review and are liable to rise each year'; 'international fees increase annually in line with expected inflation rises', so cohortLocked is false. Fee history = Bristol's overseas undergraduate fee tables by academic year and starting cohort (students/support/finances/tuition-fees/ug/overseas/<year>/<cohort>-starters/), row 9LAWD001U 'Honours Law (LLB)': 2026 starters GBP 25,500, 2025 starters GBP 24,800, 2024 starters GBP 23,900. The 2026/27 table also shows 2025 starters' CS fee rising from GBP 32,500 to 33,400 in their second year, confirming yearly increases. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 25500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 24800,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 23900,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "MB ChB Medicine (A100)",
+      "durationYears": 5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/medicine/mb-chb-medicine/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027. Bristol charges the same medicine fee in every year of the course, pre-clinical and clinical. No separate compulsory fees.",
+      "notes": "Course page for 2027 entry (MB ChB Medicine (A100)): 'International students, £X for the first year. Fees are subject to annual review and are liable to rise each year'; 'international fees increase annually in line with expected inflation rises', so cohortLocked is false. Fee history = Bristol's overseas undergraduate fee tables by academic year and starting cohort (students/support/finances/tuition-fees/ug/overseas/<year>/<cohort>-starters/), row 8MDYF001U 'Medicine (MBChB)': 2026 starters GBP 45,800, 2025 starters GBP 44,500, 2024 starters GBP 42,800. The 2026/27 table also shows 2025 starters' CS fee rising from GBP 32,500 to 33,400 in their second year, confirming yearly increases. No compulsory fees besides tuition. Medicine exception: the fee tables footnote that 'Tuition fees for Dentistry (BDS), Medicine (MBChB), and Veterinary Sciences (BVSc) will be the same for each year of your programme, covering both pre-clinical and clinical years of study', and 2025 starters pay GBP 44,500 in both the 2025/26 and 2026/27 tables, so cohortLocked is true (the course page's generic 'liable to rise' wording notwithstanding).",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45800,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42800,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BSc Psychology (C801)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/psychology/bsc-psychology/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (first-year rate). Bristol reviews fees each year and says international fees rise with expected inflation. No separate compulsory fees.",
+      "notes": "Course page for 2027 entry (BSc Psychology (C801)): 'International students, £X for the first year. Fees are subject to annual review and are liable to rise each year'; 'international fees increase annually in line with expected inflation rises', so cohortLocked is false. Fee history = Bristol's overseas undergraduate fee tables by academic year and starting cohort (students/support/finances/tuition-fees/ug/overseas/<year>/<cohort>-starters/), row 7PSYC001U 'Psychology (BSc)': 2026 starters GBP 33,400, 2025 starters GBP 32,500, 2024 starters GBP 31,300. The 2026/27 table also shows 2025 starters' CS fee rising from GBP 32,500 to 33,400 in their second year, confirming yearly increases. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31300,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc Robotics",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-robotics/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "Programme page for 2027 entry (MSc Robotics), 'Overseas: full-time £X per year'; one-year full-time. Fee history = Bristol's overseas postgraduate taught fee tables (students/support/finances/tuition-fees/pgt/overseas/<year>/<cohort>-starters/), row 4EMAT002T 'Robotics (MSc)': 2026 starters GBP 36,500, 2025 starters GBP 35,400, 2024 starters GBP 32,900. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 36500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32900,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Computer Science (Conversion)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-computer-science-conversion/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "Programme page for 2027 entry (MSc Computer Science (Conversion)), 'Overseas: full-time £X per year'; one-year full-time. Fee history = Bristol's overseas postgraduate taught fee tables (students/support/finances/tuition-fees/pgt/overseas/<year>/<cohort>-starters/), row 4COSC005T 'Computer Science (MSc)': 2026 starters GBP 36,600, 2025 starters GBP 35,500, 2024 starters GBP 34,200. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 36600,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34200,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Management (International Business)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-international-business/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "Programme page for 2027 entry (MSc Management (International Business)), 'Overseas: full-time £X per year'; one-year full-time. Fee history = Bristol's overseas postgraduate taught fee tables (students/support/finances/tuition-fees/pgt/overseas/<year>/<cohort>-starters/), row 9MGRC003T 'MSc Management (International Business)': 2026 starters GBP 33,900, 2025 starters GBP 33,000, 2024 starters GBP 31,500. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33900,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33000,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Data Science",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-data-science/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "Programme page for 2027 entry (MSc Data Science), 'Overseas: full-time £X per year'; one-year full-time. Fee history = Bristol's overseas postgraduate taught fee tables (students/support/finances/tuition-fees/pgt/overseas/<year>/<cohort>-starters/), row 4MVEN001T 'Data Science (MSc)': 2026 starters GBP 36,500, 2025 starters GBP 35,500, 2024 starters GBP 34,200. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 36500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35500,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34200,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MSc Economics",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 30500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "Programme page for 2027 entry (MSc Economics), 'Overseas: full-time £X per year'; one-year full-time. Fee history = Bristol's overseas postgraduate taught fee tables (students/support/finances/tuition-fees/pgt/overseas/<year>/<cohort>-starters/), row 9ECON006T 'Economics (MSc)': 2026 starters GBP 29,400, 2025 starters GBP 29,400, 2024 starters GBP 28,300. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28300,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LLM Law - Commercial Law",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 29800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/taught/llm-law---commercial-law/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "Programme page for 2027 entry (LLM Law - Commercial Law), 'Overseas: full-time £X per year'; one-year full-time. Fee history = Bristol's overseas postgraduate taught fee tables (students/support/finances/tuition-fees/pgt/overseas/<year>/<cohort>-starters/), row 9LAWD007T 'Commercial Law (LLM)': 2026 starters GBP 29,400, 2025 starters GBP 28,600, 2024 starters GBP 26,700. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28600,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26700,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MSc Psychology (Conversion)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "Programme page for 2027 entry (MSc Psychology (Conversion)), 'Overseas: full-time £X per year'; one-year full-time. Fee history = Bristol's overseas postgraduate taught fee tables (students/support/finances/tuition-fees/pgt/overseas/<year>/<cohort>-starters/), row 7PSYC002T 'Psychology (Conversion) (MSc)': 2026 starters GBP 33,000, 2025 starters GBP 32,100, 2024 starters GBP 30,900. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33000,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/26-27/2026-starters/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32100,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/25-26/2025-starters/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30900,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/"
+        }
+      ]
+    }
+  ]
+}
