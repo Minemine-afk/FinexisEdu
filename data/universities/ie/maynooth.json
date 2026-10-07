@@ -1,0 +1,559 @@
+{
+  "id": "maynooth",
+  "name": "Maynooth University",
+  "country": "ie",
+  "city": "Maynooth",
+  "currency": "EUR",
+  "website": "https://www.maynoothuniversity.ie",
+  "description": "Maynooth University is a public university in Maynooth, County Kildare, about 25 km west of Dublin. It became an independent university in 1997 and shares its campus with St Patrick's College, founded in 1795.",
+  "whyIncluded": "Maynooth University is among the 10 universities in Ireland most chosen by international students (about 15% of its 12,263 full-time-equivalent students are international, THE World University Rankings 2026 data), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 835,
+      "food": 400,
+      "transport": 100,
+      "personal": 324
+    },
+    "sourceUrl": "https://www.maynoothuniversity.ie/campus-life/student-budgeting-advice-service/college-costs/living-expenses-planner",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "Maynooth University's own estimate for a student renting off campus, for the 9-month academic year. Excludes tuition, flights, visas and insurance.",
+    "notes": "Maynooth Student Budgeting Advice Service 'Living Expenses' planner, Off Campus table (monthly; yearly column = 9 months): housing = rent EUR 755 + utilities EUR 80; food EUR 400; transport = travel EUR 100; personal = books, materials & printing EUR 69 + clothes & medical EUR 75 + mobile phone EUR 30 + social life/misc EUR 150. Total EUR 1,604/month, EUR 14,435/year. On-campus alternative: rent EUR 720 + utilities EUR 77, total EUR 1,675/month. The page is undated; taken as the current (2026/27) guidance when read on 2026-10-07."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BSc Computer Science & Software Engineering (MH602)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) students for 2026/27. Maynooth has charged this same rate since 2024/25, but fees can be revised each year.",
+      "notes": "Maynooth University 'International Undergraduate Courses Tuition Fee Schedule 2026/27' (dated 24.04.26): 'BSc - Computer Science & Software Eng (CSS)' EUR 18,000 per year ('All fees quoted above are for one academic year only'). The schedule lists no separate levy for non-EU undergraduates, so compulsory fees are 0. History: same course at EUR 18,000 in the 2025/26 schedule (dated 02.12.24) and the 2024/25 schedule (dated 14.12.23).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202025.26%20(02.12.24)%20V1%20CHR_0.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business Studies, Business & Management (MH404)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) students for 2026/27. Maynooth has charged this same rate since 2024/25, but fees can be revised each year.",
+      "notes": "Maynooth University 'International Undergraduate Courses Tuition Fee Schedule 2026/27' (dated 24.04.26): 'BBS - Business & Management' EUR 17,000 per year ('All fees quoted above are for one academic year only'). 3 years, or 4 with an optional placement or study-abroad year. The schedule lists no separate levy for non-EU undergraduates, so compulsory fees are 0. History: same course at EUR 17,000 in the 2025/26 schedule (dated 02.12.24) and the 2024/25 schedule (dated 14.12.23).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202025.26%20(02.12.24)%20V1%20CHR_0.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (MH304)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) students for 2026/27. Maynooth has charged this same rate since 2024/25, but fees can be revised each year.",
+      "notes": "Maynooth University 'International Undergraduate Courses Tuition Fee Schedule 2026/27' (dated 24.04.26): 'BSc - Bachelor of Engineering' EUR 18,000 per year ('All fees quoted above are for one academic year only'). MH304 leads to the BE in Electronic Engineering (4 years). The schedule lists no separate levy for non-EU undergraduates, so compulsory fees are 0. History: same course at EUR 18,000 in the 2025/26 schedule (dated 02.12.24) and the 2024/25 schedule (dated 14.12.23).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202025.26%20(02.12.24)%20V1%20CHR_0.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (MH201)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) students for 2026/27. Maynooth has charged this same rate since 2024/25, but fees can be revised each year.",
+      "notes": "Maynooth University 'International Undergraduate Courses Tuition Fee Schedule 2026/27' (dated 24.04.26): 'BSc - Bachelor of Science' EUR 18,000 per year ('All fees quoted above are for one academic year only'). The schedule lists no separate levy for non-EU undergraduates, so compulsory fees are 0. History: same course at EUR 18,000 in the 2025/26 schedule (dated 02.12.24) and the 2024/25 schedule (dated 14.12.23).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202025.26%20(02.12.24)%20V1%20CHR_0.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (MH101)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) students for 2026/27. Maynooth has charged this same rate since 2024/25, but fees can be revised each year.",
+      "notes": "Maynooth University 'International Undergraduate Courses Tuition Fee Schedule 2026/27' (dated 24.04.26): 'BA - Bachelor of Arts' EUR 16,500 per year ('All fees quoted above are for one academic year only'). 3 years, or 4 for the international route. The schedule lists no separate levy for non-EU undergraduates, so compulsory fees are 0. History: same course at EUR 16,500 in the 2025/26 schedule (dated 02.12.24) and the 2024/25 schedule (dated 14.12.23).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202025.26%20(02.12.24)%20V1%20CHR_0.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws (LLB) (MH501)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) students for 2026/27. Maynooth has charged this same rate since 2024/25, but fees can be revised each year.",
+      "notes": "Maynooth University 'International Undergraduate Courses Tuition Fee Schedule 2026/27' (dated 24.04.26): 'Bachelor of Laws (LLB)' EUR 17,000 per year ('All fees quoted above are for one academic year only'). The schedule lists no separate levy for non-EU undergraduates, so compulsory fees are 0. History: same course at EUR 17,000 in the 2025/26 schedule (dated 02.12.24) and the 2024/25 schedule (dated 14.12.23).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202025.26%20(02.12.24)%20V1%20CHR_0.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA Psychology (MH106)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) students for 2026/27. Maynooth has charged this same rate since 2024/25, but fees can be revised each year.",
+      "notes": "Maynooth University 'International Undergraduate Courses Tuition Fee Schedule 2026/27' (dated 24.04.26): 'BA - Psychology' EUR 16,500 per year ('All fees quoted above are for one academic year only'). PSI-accredited; 3 years, or 4 for BA International. The BSc Psychology (MH209) is EUR 18,000. The schedule lists no separate levy for non-EU undergraduates, so compulsory fees are 0. History: same course at EUR 16,500 in the 2025/26 schedule (dated 02.12.24) and the 2024/25 schedule (dated 14.12.23).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202025.26%20(02.12.24)%20V1%20CHR_0.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Computer Science (Software Engineering) (MHG50)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international (non-EU) students for 2026/27 for this 1-year full-time master's. Maynooth has charged the same rate since 2024/25.",
+      "notes": "Maynooth 'Postgraduate Courses 2026/27 EU & International Tuition Fee Schedule' (10 August 2026), non-EU fee per annum: 'MSC (COMPUTER SCIENCE) IN SOFTWARE ENG. full-time MHG50 ... 18,000'. The schedule shows a EUR 150 student levy column added to the EU fee and states that all programmes include the EUR 150 levy; it is taken as included in the non-EU figure, so compulsory fees are 0. History: same row at EUR 18,000 non-EU in the 2025/26 schedule (24.02.25) and the 2024/25 schedule (issued 2 November 2023).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2025.26%20Postgraduate%20EU%20&%20International%20Fees%20List%20(24.02.25)%20V.4%20CHR.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Business Management (MH52D)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international (non-EU) students for 2026/27 for this 1-year full-time master's. Maynooth has charged the same rate since 2024/25.",
+      "notes": "Maynooth 'Postgraduate Courses 2026/27 EU & International Tuition Fee Schedule' (10 August 2026), non-EU fee per annum: 'MSc BUSINESS MANAGEMENT full-time MH52D ... 18,000'. The schedule shows a EUR 150 student levy column added to the EU fee and states that all programmes include the EUR 150 levy; it is taken as included in the non-EU figure, so compulsory fees are 0. History: same row at EUR 18,000 non-EU in the 2025/26 schedule (24.02.25) and the 2024/25 schedule (issued 2 November 2023).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2025.26%20Postgraduate%20EU%20&%20International%20Fees%20List%20(24.02.25)%20V.4%20CHR.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc Robotics and Embedded AI (MHJ20)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international (non-EU) students for 2026/27 for this 1-year full-time master's. Maynooth has charged the same rate since 2024/25.",
+      "notes": "Maynooth 'Postgraduate Courses 2026/27 EU & International Tuition Fee Schedule' (10 August 2026), non-EU fee per annum: 'MSC ROBOTICS AND EMBEDDED AI full-time MHJ20 ... 18,000'. The schedule shows a EUR 150 student levy column added to the EU fee and states that all programmes include the EUR 150 levy; it is taken as included in the non-EU figure, so compulsory fees are 0. History: same row at EUR 18,000 non-EU in the 2025/26 schedule (24.02.25) and the 2024/25 schedule (issued 2 November 2023).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2025.26%20Postgraduate%20EU%20&%20International%20Fees%20List%20(24.02.25)%20V.4%20CHR.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Immunology and Global Health (MHD50)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international (non-EU) students for 2026/27 for this 1-year full-time master's. Maynooth has charged the same rate since 2024/25.",
+      "notes": "Maynooth 'Postgraduate Courses 2026/27 EU & International Tuition Fee Schedule' (10 August 2026), non-EU fee per annum: 'MSc IMMUNOLOGY & GLOBAL HEALTH full-time MHD50 ... 17,000'. The schedule shows a EUR 150 student levy column added to the EU fee and states that all programmes include the EUR 150 levy; it is taken as included in the non-EU figure, so compulsory fees are 0. History: same row at EUR 17,000 non-EU in the 2025/26 schedule (24.02.25) and the 2024/25 schedule (issued 2 November 2023).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2025.26%20Postgraduate%20EU%20&%20International%20Fees%20List%20(24.02.25)%20V.4%20CHR.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA Creative Writing (MHK84)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international (non-EU) students for 2026/27 for this 1-year full-time master's. Maynooth has charged the same rate since 2024/25.",
+      "notes": "Maynooth 'Postgraduate Courses 2026/27 EU & International Tuition Fee Schedule' (10 August 2026), non-EU fee per annum: 'MA IN CREATIVE WRITING Full-time MHK84 ... 16,000'. The schedule shows a EUR 150 student levy column added to the EU fee and states that all programmes include the EUR 150 levy; it is taken as included in the non-EU figure, so compulsory fees are 0. History: same row at EUR 16,000 non-EU in the 2025/26 schedule (24.02.25) and the 2024/25 schedule (issued 2 November 2023).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2025.26%20Postgraduate%20EU%20&%20International%20Fees%20List%20(24.02.25)%20V.4%20CHR.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LLM International Business Law (MH52J)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international (non-EU) students for 2026/27 for this 1-year full-time master's. Maynooth has charged the same rate since 2024/25.",
+      "notes": "Maynooth 'Postgraduate Courses 2026/27 EU & International Tuition Fee Schedule' (10 August 2026), non-EU fee per annum: 'LLM (INTERNATIONAL BUSINESS LAW) full-time MH52J ... 18,000'. The schedule shows a EUR 150 student levy column added to the EU fee and states that all programmes include the EUR 150 levy; it is taken as included in the non-EU figure, so compulsory fees are 0. History: same row at EUR 18,000 non-EU in the 2025/26 schedule (24.02.25) and the 2024/25 schedule (issued 2 November 2023).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2025.26%20Postgraduate%20EU%20&%20International%20Fees%20List%20(24.02.25)%20V.4%20CHR.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MSc Psychology (MHW54)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international (non-EU) students for 2026/27 for this 1-year full-time master's. Maynooth has charged the same rate since 2024/25.",
+      "notes": "Maynooth 'Postgraduate Courses 2026/27 EU & International Tuition Fee Schedule' (10 August 2026), non-EU fee per annum: 'MSc PSYCHOLOGY full-time MHW54 ... 17,000'. Maynooth's taught MSc in Psychology for graduates of other disciplines. The schedule shows a EUR 150 student levy column added to the EU fee and states that all programmes include the EUR 150 levy; it is taken as included in the non-EU figure, so compulsory fees are 0. History: same row at EUR 17,000 non-EU in the 2025/26 schedule (24.02.25) and the 2024/25 schedule (issued 2 November 2023).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2025.26%20Postgraduate%20EU%20&%20International%20Fees%20List%20(24.02.25)%20V.4%20CHR.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
+        }
+      ]
+    }
+  ]
+}

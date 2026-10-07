@@ -1,0 +1,13 @@
+# University of Limerick. One fee page per academic year (undergraduate-fees-YYYY-YYYY, postgraduate-taught-fees-YYYY-YYYY);
+# bump the URLs when a new year is published. Listed non-EU fees include the student levy.
+sources:
+  # fee table rows read by hand (added Oct 2026; no automated pattern verified because the page could not be fetched from the build environment)
+  - university: ul
+    country: ie
+    url: "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027"
+    manual: true
+  # fee table rows read by hand (added Oct 2026; no automated pattern verified because the page could not be fetched from the build environment)
+  - university: ul
+    country: ie
+    url: "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027"
+    manual: true
