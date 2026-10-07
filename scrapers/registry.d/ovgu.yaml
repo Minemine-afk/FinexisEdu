@@ -1,0 +1,8 @@
+# Otto von Guericke University Magdeburg. No tuition; the international students' 'Finance' page
+# gives the semester fee and OVGU's own cost-of-living estimate.
+sources:
+  # Finance page: semester fee 329.30 EUR plus living-cost ranges; read by hand
+  - university: ovgu
+    country: de
+    url: "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html"
+    manual: true
