@@ -60,7 +60,7 @@ published fee tables for those years.
 |---|---|---|
 | Singapore | NUS, NTU, SMU, SIT, SUSS, SIM (9 partner universities) | NUS, NTU, SIT; SMU, SUSS and SIM are manual |
 | Australia | ANU, Melbourne, Monash, UNSW, Sydney | ANU, UNSW, Sydney; Melbourne and Monash are manual (Cloudflare) |
-| UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL | Cambridge, Imperial, LSE, UCL; Oxford is manual |
+| UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL, Glasgow, Manchester, Warwick, Hertfordshire, Coventry, East London | Cambridge, Imperial, LSE, UCL; Oxford is manual; the last six are manual |
 | US | Berkeley, CMU, Harvard, MIT, Stanford | All |
 | Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin | All except HU Berlin, whose semester-fee page blocks bots and is checked by hand |
 | Canada | McGill, McMaster, Toronto, UBC, Waterloo | All (McMaster's tuition spreadsheet and UBC compulsory fees are manual) |

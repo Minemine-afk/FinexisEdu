@@ -1,0 +1,457 @@
+{
+  "id": "herts",
+  "name": "University of Hertfordshire",
+  "country": "uk",
+  "city": "Hatfield",
+  "currency": "GBP",
+  "website": "https://www.herts.ac.uk",
+  "description": "The University of Hertfordshire is a public university in Hatfield, just north of London, which gained university status in 1992 after starting as Hatfield Technical College in 1952. It has a large international student body and is known for engineering, health and creative arts.",
+  "whyIncluded": "The University of Hertfordshire is among the 10 universities in the United Kingdom most chosen by international students (19,310 non-UK students in 2024-25, the second most of any UK provider, HESA), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 810,
+      "food": 200,
+      "transport": 140,
+      "personal": 215
+    },
+    "sourceUrl": "https://www.herts.ac.uk/international/coming-to-the-uk/cost-of-living",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "Based on the University of Hertfordshire's own table of average monthly costs for international students, for a 9-month academic year; excludes flights and visas.",
+    "notes": "Herts International 'Cost of living' page (fetched 2026-10-07, undated; treated as current for 2026/27). Average monthly costs: rent £500-£1,120 (housing = midpoint £810; off-campus utilities £80/month extra, included on campus, not added); food £200; travel £80-£200 (transport = midpoint £140); personal = laundry £40 + telephone £20 + entertainment £60 + TV licence £15 + miscellaneous £80 = £215. Childcare (£592) and one-off costs (laptop £1,000, warm clothing £400-£450, trips £500) excluded. The page's headline estimate is 'up to £1,600 a month' for accommodation, bills, food and other living costs; 9 months used as for UK visa maintenance outside London (undergraduate courses run 37 weeks, postgraduate 50)."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BSc (Hons) Computer Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 17970,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/computer-science",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Herts may raise fees for continuing students, so later years could cost more.",
+      "notes": "Herts course page 'BSc (Hons) Computer Science' (fetched 2026-10-07): international full-time fee £17,970 for the 2027/2028 academic year (2026/2027: £17,450); 3-year full-time route (placement/study-abroad years not costed). Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. History: the Herts 'Tuition fees' page lists the standard international undergraduate fee for new students as £17,450 (2026/27), £15,965 (2025/26) and £15,500 (2024/25), with some courses on non-standard fees. This course is on the standard fee in 2026/27 and 2027/28, so the standard rates are used for 2025 and 2024; no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17450,
+          "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/computer-science"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15965,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15500,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BEng (Hons) Mechanical Engineering",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 17970,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/mechanical-engineering3",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Herts may raise fees for continuing students, so later years could cost more.",
+      "notes": "Herts course page 'BEng (Hons) Mechanical Engineering' (fetched 2026-10-07): international full-time fee £17,970 for the 2027/2028 academic year (2026/2027: £17,450); 3-year full-time route (placement/study-abroad years not costed). Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. History: the Herts 'Tuition fees' page lists the standard international undergraduate fee for new students as £17,450 (2026/27), £15,965 (2025/26) and £15,500 (2024/25), with some courses on non-standard fees. This course is on the standard fee in 2026/27 and 2027/28, so the standard rates are used for 2025 and 2024; no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17450,
+          "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/mechanical-engineering3"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15965,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15500,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc (Hons) Biomedical Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 17970,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/biomedical-science",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Herts may raise fees for continuing students, so later years could cost more.",
+      "notes": "Herts course page 'BSc (Hons) Biomedical Science' (fetched 2026-10-07): international full-time fee £17,970 for the 2027/2028 academic year (2026/2027: £17,450); 3-year full-time route (placement/study-abroad years not costed). Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. History: the Herts 'Tuition fees' page lists the standard international undergraduate fee for new students as £17,450 (2026/27), £15,965 (2025/26) and £15,500 (2024/25), with some courses on non-standard fees. This course is on the standard fee in 2026/27 and 2027/28, so the standard rates are used for 2025 and 2024; no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17450,
+          "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/biomedical-science"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15965,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15500,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BA (Hons) Business Management",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17450,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/ba-hons-business-management",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. Herts may raise fees for continuing students, so later years could cost more.",
+      "notes": "Herts course page 'BA (Hons) Business Management' (fetched 2026-10-07): international full-time fee £17,450 for the 2026/2027 academic year (no 2027/28 fee shown on the page yet); 3-year full-time route (placement/study-abroad years not costed). Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. History: the Herts 'Tuition fees' page lists the standard international undergraduate fee for new students as £17,450 (2026/27), £15,965 (2025/26) and £15,500 (2024/25), with some courses on non-standard fees. This course is on the standard fee in 2026/27 and 2027/28, so the standard rates are used for 2025 and 2024; no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15965,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15500,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA (Hons) Graphic Design",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 17970,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/graphic-design",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Herts may raise fees for continuing students, so later years could cost more.",
+      "notes": "Herts course page 'BA (Hons) Graphic Design' (fetched 2026-10-07): international full-time fee £17,970 for the 2027/2028 academic year (2026/2027: £17,450); 3-year full-time route (placement/study-abroad years not costed). Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. History: the Herts 'Tuition fees' page lists the standard international undergraduate fee for new students as £17,450 (2026/27), £15,965 (2025/26) and £15,500 (2024/25), with some courses on non-standard fees. This course is on the standard fee in 2026/27 and 2027/28, so the standard rates are used for 2025 and 2024; no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17450,
+          "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/graphic-design"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15965,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15500,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BSc (Hons) Psychology",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 17970,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/psychology",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Herts may raise fees for continuing students, so later years could cost more.",
+      "notes": "Herts course page 'BSc (Hons) Psychology' (fetched 2026-10-07): international full-time fee £17,970 for the 2027/2028 academic year (2026/2027: £17,450); 3-year full-time route (placement/study-abroad years not costed). Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. History: the Herts 'Tuition fees' page lists the standard international undergraduate fee for new students as £17,450 (2026/27), £15,965 (2025/26) and £15,500 (2024/25), with some courses on non-standard fees. This course is on the standard fee in 2026/27 and 2027/28, so the standard rates are used for 2025 and 2024; no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17450,
+          "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/psychology"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15965,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15500,
+          "sourceUrl": "https://www.herts.ac.uk/study/fees-and-funding/tuition-fees"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "BSc (Hons) Nursing (Adult)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 20030,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/adult-nursing",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Herts may raise fees for continuing students, so later years could cost more.",
+      "notes": "Herts course page 'BSc (Hons) Nursing (Adult)' (fetched 2026-10-07): international full-time fee £20,030 for the 2027/2028 academic year (2026/2027: £19,450); 3-year full-time route (placement/study-abroad years not costed). Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. Nursing is on a non-standard international fee (above the standard undergraduate rate), so no 2025 or 2024 row was added; the page says applications are open to international and EU students.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 19450,
+          "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/adult-nursing"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Computer Science",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 21580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-computer-science2",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2027. No separate compulsory fees.",
+      "notes": "Herts course page 'MSc Computer Science' (fetched 2026-10-07): international full-time fee £21,580 for 2027/2028 and £19,950 for 2026/2027; one-year full-time route. Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. No 2025 or 2024 row: Herts postgraduate fees differ by course and no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 19950,
+          "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-computer-science2"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc Mechanical Engineering",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 19025,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-mechanical-engineering",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2027. No separate compulsory fees.",
+      "notes": "Herts course page 'MSc Mechanical Engineering' (fetched 2026-10-07): international full-time fee £19,025 for 2027/2028 and £17,950 for 2026/2027; one-year full-time route. Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. No 2025 or 2024 row: Herts postgraduate fees differ by course and no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17950,
+          "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-mechanical-engineering"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc International Business",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 21580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-international-business",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2027. No separate compulsory fees.",
+      "notes": "Herts course page 'MSc International Business' (fetched 2026-10-07): international full-time fee £21,580 for 2027/2028 and £19,950 for 2026/2027; one-year full-time route. Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. No 2025 or 2024 row: Herts postgraduate fees differ by course and no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 19950,
+          "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-international-business"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Molecular Biotechnology",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 19025,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-molecular-biotechnology",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2027. No separate compulsory fees.",
+      "notes": "Herts course page 'MSc Molecular Biotechnology' (fetched 2026-10-07): international full-time fee £19,025 for 2027/2028 and £17,950 for 2026/2027; one-year full-time route. Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. No 2025 or 2024 row: Herts postgraduate fees differ by course and no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17950,
+          "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-molecular-biotechnology"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MSc Psychology",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 19025,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-psychology",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2027. No separate compulsory fees.",
+      "notes": "Herts course page 'MSc Psychology' (fetched 2026-10-07): international full-time fee £19,025 for 2027/2028 and £17,950 for 2026/2027; one-year full-time route. Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. No 2025 or 2024 row: Herts postgraduate fees differ by course and no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17950,
+          "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-psychology"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "nursing",
+      "name": "MSc Nursing (Adult)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 21580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-adult-nursing",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students on the two-year pre-registration nursing master's starting in 2027. Herts may raise fees for continuing students, so year 2 could cost more.",
+      "notes": "Herts course page 'MSc Nursing (Adult)' (fetched 2026-10-07): international full-time fee £21,580 for 2027/2028 and £20,950 for 2026/2027; two-year full-time route (fee charged per year); the page says the course is open to international applicants. Herts course pages say tuition fees are charged annually, quoted for the specified year only, and 'may be higher in future years, for both new and continuing students' (Fees and Finance Policy), so cohortLocked is false. No separate compulsory fees. Herts offers a discount (£1,000 in recent years) for paying the full fee upfront; not applied here. No 2025 or 2024 row: Herts postgraduate fees differ by course and no course-specific earlier figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 20950,
+          "sourceUrl": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-adult-nursing"
+        }
+      ]
+    }
+  ]
+}
