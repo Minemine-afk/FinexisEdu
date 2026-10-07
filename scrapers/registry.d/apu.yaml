@@ -1,0 +1,12 @@
+# Ritsumeikan Asia Pacific University (APU). Fees read by hand from the admissions site.
+sources:
+  # Undergraduate tuition page: table spread over semesters and scholarship levels; read by hand
+  - university: apu
+    country: jp
+    url: "https://admissions.apu.ac.jp/costs_scholarships/tuition_fees/?&lang=en"
+    manual: true
+  # Graduate tuition page: programme totals divided by duration; read by hand
+  - university: apu
+    country: jp
+    url: "https://admissions.apu.ac.jp/graduate/cost/enrollment_fee/"
+    manual: true

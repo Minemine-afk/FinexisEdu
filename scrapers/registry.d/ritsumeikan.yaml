@@ -1,0 +1,12 @@
+# Ritsumeikan University. Fees read by hand.
+sources:
+  # English-taught undergraduate fee table, split across semesters and intakes; read by hand
+  - university: ritsumeikan
+    country: jp
+    url: "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/"
+    manual: true
+  # AY 2027 fee policy council document listing all colleges and graduate schools; read by hand
+  - university: ritsumeikan
+    country: jp
+    url: "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html"
+    manual: true

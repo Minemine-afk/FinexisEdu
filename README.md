@@ -66,7 +66,7 @@ published fee tables for those years.
 | Canada | McGill, McMaster, Toronto, UBC, Waterloo | All (McMaster's tuition spreadsheet and UBC compulsory fees are manual) |
 | New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington | All except Otago (bot-protected) |
 | Switzerland | ETH Zurich, EPFL, Zurich, Geneva, St. Gallen | All |
-| Japan | Keio, Kyoto, Osaka, UTokyo, Waseda | All (Waseda's lab/health fee is manual) |
+| Japan | Keio, Kyoto, Osaka, UTokyo, Waseda, APU, Ritsumeikan, Sophia, Kyushu, Nagoya, Tohoku, Institute of Science Tokyo, Tsukuba | First five: all (Waseda's lab/health fee is manual); the other eight are manual |
 | Ireland | Trinity College Dublin, UCD, UCC, Galway, DCU | All (UCD's living-cost page is manual) |
 
 Why these countries: Singapore's MOE does not track students who study

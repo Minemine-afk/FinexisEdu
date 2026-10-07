@@ -1,0 +1,96 @@
+{
+  "id": "apu",
+  "name": "Ritsumeikan Asia Pacific University",
+  "country": "jp",
+  "city": "Beppu",
+  "currency": "JPY",
+  "website": "https://www.apu.ac.jp",
+  "description": "Ritsumeikan Asia Pacific University (APU) is a private university in Beppu, Oita, opened in 2000 by the Ritsumeikan Trust. About half of its students are international, and most courses are offered in both English and Japanese.",
+  "whyIncluded": "Ritsumeikan Asia Pacific University is among the 10 universities in Japan most chosen by international students (2,927 international students in May 2025, per JASSO), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "College of International Management (APM), English-basis",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1605000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://admissions.apu.ac.jp/costs_scholarships/tuition_fees/?&lang=en",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Average yearly tuition before scholarships for 2027 entrants (lower in year 1). The one-off ¥200,000 is the admission fee. Taught in English (a Japanese-basis option exists).",
+      "notes": "Areas of study: Strategic Management and Leadership; Marketing; Accounting and Finance; Entrepreneurship and Operations Management (AACSB and AMBA accredited). 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. No 2026-entry fee table found, so no history.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "College of Asia Pacific Studies (APS), English-basis",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1605000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://admissions.apu.ac.jp/costs_scholarships/tuition_fees/?&lang=en",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Average yearly tuition before scholarships for 2027 entrants (lower in year 1). The one-off ¥200,000 is the admission fee. Taught in English (a Japanese-basis option exists).",
+      "notes": "Areas of study: Culture, Society and Media; Global Economy; International Relations. 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. No 2026-entry fee table found, so no history.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Graduate School of Management, MBA",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 2100000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://admissions.apu.ac.jp/graduate/cost/enrollment_fee/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants before scholarships, from the ¥4,200,000 programme total over 2 years. The one-off ¥200,000 is the admission fee. Taught in English.",
+      "notes": "Graduate Tuition and Fees page (from AY2027): MBA total tuition ¥4,200,000 for completion, divided by a 2-year standard duration = ¥2,100,000/yr. Admission fee ¥200,000. Insurance ¥6,850 excluded. Tuition may change and varies with the APU Tuition Reduction Scholarship. Fully English-based.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Graduate School of Asia Pacific Studies, Master's in Asia Pacific Studies",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1555000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://admissions.apu.ac.jp/graduate/cost/enrollment_fee/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants before scholarships, from the ¥3,110,000 programme total over 2 years. The one-off ¥200,000 is the admission fee. Taught in English.",
+      "notes": "Graduate Tuition and Fees page (from AY2027): Master's in Asia Pacific Studies total tuition ¥3,110,000 for completion, divided by a 2-year standard duration = ¥1,555,000/yr. Admission fee ¥200,000. Insurance ¥6,850 excluded. Fields include International Relations, Society and Culture, Development Economics, International Public Administration, Sustainability Science, Tourism and Hospitality. Fully English-based.",
+      "feeHistory": []
+    }
+  ]
+}

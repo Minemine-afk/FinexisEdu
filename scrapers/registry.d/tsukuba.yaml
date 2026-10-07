@@ -1,0 +1,7 @@
+# University of Tsukuba (national university, standard rate until the April 2027 international revision). Read by hand.
+sources:
+  # Admission and tuition fee page; the 2027 international rate is only in a robots-blocked PDF; read by hand
+  - university: tsukuba
+    country: jp
+    url: "https://www.tsukuba.ac.jp/en/admissions/fees-tuition/"
+    manual: true

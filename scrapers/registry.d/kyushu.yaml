@@ -1,0 +1,7 @@
+# Kyushu University (national university, standard rate). One fee page covers every programme.
+sources:
+  # Expenses page: one flat schedule for all programmes; read by hand
+  - university: kyushu
+    country: jp
+    url: "https://www.kyushu-u.ac.jp/en/admission/fees/expenses/"
+    manual: true

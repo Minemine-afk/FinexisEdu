@@ -1,0 +1,327 @@
+{
+  "id": "ritsumeikan",
+  "name": "Ritsumeikan University",
+  "country": "jp",
+  "city": "Kyoto",
+  "currency": "JPY",
+  "website": "https://www.ritsumei.ac.jp",
+  "description": "Ritsumeikan University is a private university founded in 1900, with campuses in Kyoto, Shiga (Biwako-Kusatsu) and Osaka (Ibaraki). It is one of Japan's largest universities and teaches several undergraduate majors fully in English.",
+  "whyIncluded": "Ritsumeikan University is among the 10 universities in Japan most chosen by international students (3,386 international students in May 2025, third in Japan, per JASSO), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "College of International Relations, Global Studies Major (English-taught)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1469200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for students entering in 2027. The one-off ¥200,000 is the admission fee, paid once in year 1. Taught in English. Fees may be revised for inflation.",
+      "notes": "English-taught undergraduate fees page, 'Tuition and Fee Figures for Students Enrolled in 2027': GS Major, April and September enrollment: first year ¥1,669,200 including the admission fee (¥734,600 per semester); 2nd year and beyond ¥734,600 per semester, ¥1,469,200 a year. Admission fee ¥200,000. Same tuition in years 2-4. The page says changes may be proposed if social factors such as rapid inflation have a significant impact, so not cohort-locked. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "College of Information Science and Engineering, Information Systems Science and Engineering Course (English-taught)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1801600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for students entering in 2027. The one-off ¥200,000 is the admission fee, paid once in year 1. Taught in English. Fees may be revised for inflation.",
+      "notes": "English-taught undergraduate fees page, 'Tuition and Fee Figures for Students Enrolled in 2027': ISSE Course: first year ¥2,001,600 including the admission fee (¥900,800 per semester); 2nd year and beyond ¥900,800 per semester, ¥1,801,600 a year. Admission fee ¥200,000. Same tuition in years 2-4. The page says changes may be proposed if social factors such as rapid inflation have a significant impact, so not cohort-locked. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "College of Policy Science, Community and Regional Policy Studies Major (English-taught)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1361600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for students entering in 2027. The one-off ¥200,000 is the admission fee, paid once in year 1. Taught in English. Fees may be revised for inflation.",
+      "notes": "English-taught undergraduate fees page, 'Tuition and Fee Figures for Students Enrolled in 2027': CRPS Major (September enrollment): first year ¥1,561,600 including the admission fee (¥680,800 per semester); 2nd year and beyond ¥680,800 per semester, ¥1,361,600 a year. Admission fee ¥200,000. Same tuition in years 2-4. The page says changes may be proposed if social factors such as rapid inflation have a significant impact, so not cohort-locked. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "College of Global Liberal Arts, RU-ANU Dual Degree (English-taught)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 2751000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Average yearly tuition for 2027 entrants to the dual degree with the Australian National University (higher after year 1). The one-off ¥200,000 is the admission fee. Taught in English.",
+      "notes": "English-taught undergraduate fees page, 2027 enrollment, GLA RU-ANU Major: first year ¥2,600,000 including the ¥200,000 admission fee (¥1,200,000 per semester, i.e. tuition ¥2,400,000), 2nd year and beyond ¥1,434,000 per semester, ¥2,868,000 a year. 4-year total tuition ¥11,004,000, recorded as the 4-year average ¥2,751,000/yr. The council fee document lists Global Liberal Arts at ¥2,400,000-¥2,868,000. Not cohort-locked (fees may change with inflation). No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "College of Business Administration",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1147200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Taught in Japanese. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (university council document, English): undergraduate AY 2027 tuition spring ¥573,600 + fall ¥573,600 = ¥1,147,200. Entrance fee ¥200,000 (unchanged). The policy applies a price-index adjustment in later years, so not cohort-locked. Japanese-taught; international students enter through the international student entrance examination and pay the same tuition. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "College of Science and Engineering (physics and engineering departments)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1801600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Taught in Japanese. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (university council document, English): undergraduate AY 2027 tuition spring ¥900,800 + fall ¥900,800 = ¥1,801,600. Entrance fee ¥200,000 (unchanged). The policy applies a price-index adjustment in later years, so not cohort-locked. Japanese-taught; international students enter through the international student entrance examination and pay the same tuition. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "College of Life Sciences",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1835600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Taught in Japanese. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (university council document, English): undergraduate AY 2027 tuition spring ¥917,800 + fall ¥917,800 = ¥1,835,600. Entrance fee ¥200,000 (unchanged). The policy applies a price-index adjustment in later years, so not cohort-locked. Japanese-taught; international students enter through the international student entrance examination and pay the same tuition. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "College of Law",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1147200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Taught in Japanese. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (university council document, English): undergraduate AY 2027 tuition spring ¥573,600 + fall ¥573,600 = ¥1,147,200. Entrance fee ¥200,000 (unchanged). The policy applies a price-index adjustment in later years, so not cohort-locked. Japanese-taught; international students enter through the international student entrance examination and pay the same tuition. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "College of Comprehensive Psychology",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1402400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Taught in Japanese. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (university council document, English): undergraduate AY 2027 tuition spring ¥701,200 + fall ¥701,200 = ¥1,402,400. Entrance fee ¥200,000 (unchanged). The policy applies a price-index adjustment in later years, so not cohort-locked. Japanese-taught; international students enter through the international student entrance examination and pay the same tuition. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Graduate School of International Relations (Master's)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 898800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Graduate School of Information Science and Engineering (Master's)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1337600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥668,800 + fall ¥668,800 = ¥1,337,600 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Graduate School of Science and Engineering (Master's)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1351800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥675,900 + fall ¥675,900 = ¥1,351,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Standard science and engineering rate. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Graduate School of Business Administration (Master's)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 898800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Mainly Japanese-taught. No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Graduate School of Law (Master's)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 898800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Mainly Japanese-taught research master's (not the professional law school). No earlier-year table found.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Graduate School of Human Science (Master's)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 1013000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000
+        }
+      },
+      "sourceUrl": "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥506,500 + fall ¥506,500 = ¥1,013,000 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Psychology graduate school; mainly Japanese-taught. No earlier-year table found.",
+      "feeHistory": []
+    }
+  ]
+}
