@@ -1,0 +1,249 @@
+{
+  "id": "ucla",
+  "name": "University of California, Los Angeles",
+  "country": "us",
+  "city": "Los Angeles, CA",
+  "currency": "USD",
+  "website": "https://www.ucla.edu",
+  "description": "The University of California, Los Angeles is a public research university in Los Angeles, founded in 1919 as part of the University of California. It is known for the sciences, engineering, psychology and the arts.",
+  "whyIncluded": "The University of California, Los Angeles is among the 15 universities in the United States most chosen by international students (10,769 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1366.56,
+      "food": 840.89,
+      "transport": 107.67,
+      "personal": 483.22
+    },
+    "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "UCLA's own budget for an undergraduate living on campus for the academic year: housing, food, transport, books and personal costs. Excludes tuition, fees and health insurance.",
+    "notes": "2026-27 undergraduate cost of attendance, on campus: housing $12,299; food $7,568; transportation $969; books, course materials, supplies and equipment $1,588 + personal $2,761 = personal. Months not stated; academic year (three quarters) taken as 9 months."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54858,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international (nonresident) undergraduates at UCLA, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
+      "notes": "UCLA Financial Aid cost of attendance, 2026-27 undergraduate (new students), nonresident: University Fees $16,430 = UC Systemwide Tuition $15,588 + campus fees $842; Nonresident Supplemental Tuition $39,270. Tuition here = UC systemwide tuition (which UCLA's figure combines with the Student Services Fee) + NRST = $54,858; other fees = campus fees $842. Health insurance $3,885 excluded (waivable). Under the UC Tuition Stability Plan, UC tuition, NRST and the Student Services Fee stay flat for each entering undergraduate class for up to six years (registrar fee descriptions), so cohort-locked; campus fees can change. 2025 history: the same page's table for 'Continuing Students Who Started in the 2025-26 Academic Year': UC Systemwide Tuition $14,934 + NRST $37,602 = $52,536, campus fees $842. Same rate for all majors. Figures may be proposed, not final. Document fee for new students not shown, so 0. Samueli School of Engineering.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52536,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financialaid.ucla.edu/go/coa"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54858,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international (nonresident) undergraduates at UCLA, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
+      "notes": "UCLA Financial Aid cost of attendance, 2026-27 undergraduate (new students), nonresident: University Fees $16,430 = UC Systemwide Tuition $15,588 + campus fees $842; Nonresident Supplemental Tuition $39,270. Tuition here = UC systemwide tuition (which UCLA's figure combines with the Student Services Fee) + NRST = $54,858; other fees = campus fees $842. Health insurance $3,885 excluded (waivable). Under the UC Tuition Stability Plan, UC tuition, NRST and the Student Services Fee stay flat for each entering undergraduate class for up to six years (registrar fee descriptions), so cohort-locked; campus fees can change. 2025 history: the same page's table for 'Continuing Students Who Started in the 2025-26 Academic Year': UC Systemwide Tuition $14,934 + NRST $37,602 = $52,536, campus fees $842. Same rate for all majors. Figures may be proposed, not final. Document fee for new students not shown, so 0. Samueli School of Engineering.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52536,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financialaid.ucla.edu/go/coa"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Business Economics BA",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54858,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international (nonresident) undergraduates at UCLA, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
+      "notes": "UCLA Financial Aid cost of attendance, 2026-27 undergraduate (new students), nonresident: University Fees $16,430 = UC Systemwide Tuition $15,588 + campus fees $842; Nonresident Supplemental Tuition $39,270. Tuition here = UC systemwide tuition (which UCLA's figure combines with the Student Services Fee) + NRST = $54,858; other fees = campus fees $842. Health insurance $3,885 excluded (waivable). Under the UC Tuition Stability Plan, UC tuition, NRST and the Student Services Fee stay flat for each entering undergraduate class for up to six years (registrar fee descriptions), so cohort-locked; campus fees can change. 2025 history: the same page's table for 'Continuing Students Who Started in the 2025-26 Academic Year': UC Systemwide Tuition $14,934 + NRST $37,602 = $52,536, campus fees $842. Same rate for all majors. Figures may be proposed, not final. Document fee for new students not shown, so 0. UCLA has no undergraduate business school; Business Economics (Department of Economics, College of Letters and Science) is its business-focused major.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52536,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financialaid.ucla.edu/go/coa"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Molecular, Cell, and Developmental Biology BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54858,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international (nonresident) undergraduates at UCLA, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
+      "notes": "UCLA Financial Aid cost of attendance, 2026-27 undergraduate (new students), nonresident: University Fees $16,430 = UC Systemwide Tuition $15,588 + campus fees $842; Nonresident Supplemental Tuition $39,270. Tuition here = UC systemwide tuition (which UCLA's figure combines with the Student Services Fee) + NRST = $54,858; other fees = campus fees $842. Health insurance $3,885 excluded (waivable). Under the UC Tuition Stability Plan, UC tuition, NRST and the Student Services Fee stay flat for each entering undergraduate class for up to six years (registrar fee descriptions), so cohort-locked; campus fees can change. 2025 history: the same page's table for 'Continuing Students Who Started in the 2025-26 Academic Year': UC Systemwide Tuition $14,934 + NRST $37,602 = $52,536, campus fees $842. Same rate for all majors. Figures may be proposed, not final. Document fee for new students not shown, so 0. College of Letters and Science.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52536,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financialaid.ucla.edu/go/coa"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English BA",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54858,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international (nonresident) undergraduates at UCLA, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
+      "notes": "UCLA Financial Aid cost of attendance, 2026-27 undergraduate (new students), nonresident: University Fees $16,430 = UC Systemwide Tuition $15,588 + campus fees $842; Nonresident Supplemental Tuition $39,270. Tuition here = UC systemwide tuition (which UCLA's figure combines with the Student Services Fee) + NRST = $54,858; other fees = campus fees $842. Health insurance $3,885 excluded (waivable). Under the UC Tuition Stability Plan, UC tuition, NRST and the Student Services Fee stay flat for each entering undergraduate class for up to six years (registrar fee descriptions), so cohort-locked; campus fees can change. 2025 history: the same page's table for 'Continuing Students Who Started in the 2025-26 Academic Year': UC Systemwide Tuition $14,934 + NRST $37,602 = $52,536, campus fees $842. Same rate for all majors. Figures may be proposed, not final. Document fee for new students not shown, so 0. College of Letters and Science.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52536,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financialaid.ucla.edu/go/coa"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology BA",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54858,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international (nonresident) undergraduates at UCLA, same for all majors, plus campus fees. Tuition is fixed for your entering class; campus fees can change. Health insurance not included.",
+      "notes": "UCLA Financial Aid cost of attendance, 2026-27 undergraduate (new students), nonresident: University Fees $16,430 = UC Systemwide Tuition $15,588 + campus fees $842; Nonresident Supplemental Tuition $39,270. Tuition here = UC systemwide tuition (which UCLA's figure combines with the Student Services Fee) + NRST = $54,858; other fees = campus fees $842. Health insurance $3,885 excluded (waivable). Under the UC Tuition Stability Plan, UC tuition, NRST and the Student Services Fee stay flat for each entering undergraduate class for up to six years (registrar fee descriptions), so cohort-locked; campus fees can change. 2025 history: the same page's table for 'Continuing Students Who Started in the 2025-26 Academic Year': UC Systemwide Tuition $14,934 + NRST $37,602 = $52,536, campus fees $842. Same rate for all majors. Figures may be proposed, not final. Document fee for new students not shown, so 0. College of Letters and Science.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52536,
+          "annualCompulsoryFees": 842,
+          "oneOffFees": 0,
+          "sourceUrl": "https://financialaid.ucla.edu/go/coa"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Mechanical Engineering MS",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 30168,
+          "annualCompulsoryFees": 542,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (nonresident) graduate students at UCLA, plus campus fees. Graduate tuition is set each year; health insurance not included.",
+      "notes": "Samueli School of Engineering. UCLA Financial Aid cost of attendance, 2026-27 graduate, nonresident: University Fees $15,608 = UC Systemwide Tuition $15,066 + campus fees $542; Nonresident Supplemental Tuition $15,102. Tuition here = $15,066 + $15,102 = $30,168; other fees = campus fees $542. Health insurance $7,515 excluded. Graduate tuition is set each year (not cohort-locked). This is the academic graduate rate; no Professional Degree Supplemental Tuition is shown for it. Duration typical. 2024/2025 graduate rates not found.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science MS",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 30168,
+          "annualCompulsoryFees": 542,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://financialaid.ucla.edu/go/coa",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (nonresident) graduate students at UCLA, plus campus fees. Graduate tuition is set each year; health insurance not included.",
+      "notes": "Samueli School of Engineering. UCLA Financial Aid cost of attendance, 2026-27 graduate, nonresident: University Fees $15,608 = UC Systemwide Tuition $15,066 + campus fees $542; Nonresident Supplemental Tuition $15,102. Tuition here = $15,066 + $15,102 = $30,168; other fees = campus fees $542. Health insurance $7,515 excluded. Graduate tuition is set each year (not cohort-locked). This is the academic graduate rate; no Professional Degree Supplemental Tuition is shown for it. Duration typical. 2024/2025 graduate rates not found.",
+      "feeHistory": []
+    }
+  ]
+}

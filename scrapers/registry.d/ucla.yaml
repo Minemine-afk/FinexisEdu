@@ -1,0 +1,6 @@
+sources:
+  # UCLA Financial Aid cost-of-attendance page: fee read by hand
+  - university: ucla
+    country: us
+    url: "https://financialaid.ucla.edu/go/coa"
+    manual: true

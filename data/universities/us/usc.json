@@ -1,0 +1,261 @@
+{
+  "id": "usc",
+  "name": "University of Southern California",
+  "country": "us",
+  "city": "Los Angeles, CA",
+  "currency": "USD",
+  "website": "https://www.usc.edu",
+  "description": "The University of Southern California is a private research university in Los Angeles, California, founded in 1880. It is known for engineering, business, film and communication.",
+  "whyIncluded": "The University of Southern California is among the 10 universities in the United States most chosen by international students (17,884 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1501.11,
+      "food": 938.0,
+      "transport": 132.0,
+      "personal": 298.44
+    },
+    "sourceUrl": "https://financialaid.usc.edu/cost/",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "USC's own budget for an undergraduate living on campus for two semesters: housing, food, transport, books and personal costs. Excludes tuition and fees.",
+    "notes": "2026-27 undergraduate cost of attendance, living on campus, two semesters: housing $13,510; food $8,442; transportation $1,188; books and supplies $670 + personal and miscellaneous $2,016 = personal. Two semesters taken as 9 months (the page does not state months)."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 75384,
+          "annualCompulsoryFees": 1952,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://financialaid.usc.edu/cost/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Viterbi School of Engineering.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73260,
+          "annualCompulsoryFees": 1902,
+          "sourceUrl": "https://financialaid.usc.edu/cost/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 75384,
+          "annualCompulsoryFees": 1952,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://financialaid.usc.edu/cost/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Viterbi School of Engineering.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73260,
+          "annualCompulsoryFees": 1902,
+          "sourceUrl": "https://financialaid.usc.edu/cost/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Business Administration (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 75384,
+          "annualCompulsoryFees": 1952,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://financialaid.usc.edu/cost/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Marshall School of Business.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73260,
+          "annualCompulsoryFees": 1902,
+          "sourceUrl": "https://financialaid.usc.edu/cost/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Biological Sciences (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 75384,
+          "annualCompulsoryFees": 1952,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://financialaid.usc.edu/cost/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Dornsife College of Letters, Arts and Sciences.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73260,
+          "annualCompulsoryFees": 1902,
+          "sourceUrl": "https://financialaid.usc.edu/cost/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English (BA)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 75384,
+          "annualCompulsoryFees": 1952,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://financialaid.usc.edu/cost/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Dornsife College of Letters, Arts and Sciences.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73260,
+          "annualCompulsoryFees": 1902,
+          "sourceUrl": "https://financialaid.usc.edu/cost/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology (BA)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 75384,
+          "annualCompulsoryFees": 1952,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://financialaid.usc.edu/cost/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Dornsife College of Letters, Arts and Sciences. Programme names from USC's catalogue major list.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73260,
+          "annualCompulsoryFees": 1902,
+          "sourceUrl": "https://financialaid.usc.edu/cost/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MS in Mechanical Engineering",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 49356,
+          "annualCompulsoryFees": 1844,
+          "oneOffFees": 55
+        }
+      },
+      "sourceUrl": "https://viterbigradadmission.usc.edu/wp-content/uploads/2026/03/2026-2027-Tuition-and-Fees-33.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for an international Viterbi master's student taking 9 units a semester (charged per unit), plus mandatory fees and a one-time orientation fee. Health insurance not included.",
+      "notes": "USC Viterbi 2026-27 cost-of-attendance sheet (33-unit master's): graduate engineering tuition $2,742 per unit; the sheet assumes 9 units in each of the first two semesters, so annual = 18 x $2,742 = $49,356. Other fees = mandatory fees $922 per semester x2 (student health service, programming, transportation, Topping Student Aid Fund); one-off = $55 orientation fee. Health insurance (2025-26 rates $1,224 fall, $2,298 spring/summer) excluded. 2025 history from the 2025-26 sheet: $2,665 per unit x 18 = $47,970; fees $897 per semester x2 = $1,794; orientation $55. All Viterbi master's programmes are charged the same per-unit rate; total cost depends on the programme's unit count (27-33 units, typically four semesters). Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 47970,
+          "annualCompulsoryFees": 1794,
+          "oneOffFees": 55,
+          "sourceUrl": "https://viterbigradadmission.usc.edu/wp-content/uploads/2025/04/2025-2026-Tuition-and-Fees-32.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MS in Computer Science",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 49356,
+          "annualCompulsoryFees": 1844,
+          "oneOffFees": 55
+        }
+      },
+      "sourceUrl": "https://viterbigradadmission.usc.edu/wp-content/uploads/2026/03/2026-2027-Tuition-and-Fees-33.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for an international Viterbi master's student taking 9 units a semester (charged per unit), plus mandatory fees and a one-time orientation fee. Health insurance not included.",
+      "notes": "USC Viterbi 2026-27 cost-of-attendance sheet (33-unit master's): graduate engineering tuition $2,742 per unit; the sheet assumes 9 units in each of the first two semesters, so annual = 18 x $2,742 = $49,356. Other fees = mandatory fees $922 per semester x2 (student health service, programming, transportation, Topping Student Aid Fund); one-off = $55 orientation fee. Health insurance (2025-26 rates $1,224 fall, $2,298 spring/summer) excluded. 2025 history from the 2025-26 sheet: $2,665 per unit x 18 = $47,970; fees $897 per semester x2 = $1,794; orientation $55. All Viterbi master's programmes are charged the same per-unit rate; total cost depends on the programme's unit count (27-33 units, typically four semesters). Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 47970,
+          "annualCompulsoryFees": 1794,
+          "oneOffFees": 55,
+          "sourceUrl": "https://viterbigradadmission.usc.edu/wp-content/uploads/2025/04/2025-2026-Tuition-and-Fees-32.pdf"
+        }
+      ]
+    }
+  ]
+}
