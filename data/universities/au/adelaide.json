@@ -1,0 +1,419 @@
+{
+  "id": "adelaide",
+  "name": "Adelaide University",
+  "country": "au",
+  "city": "Adelaide",
+  "currency": "AUD",
+  "website": "https://adelaide.edu.au",
+  "description": "Adelaide University is a public university in Adelaide formed by merging the University of Adelaide and the University of South Australia. It began teaching under its new name in 2026.",
+  "whyIncluded": "Adelaide University is among the 10 universities in Australia most chosen by international students (7,350 new overseas student commencements allocated for 2026 by the Australian Department of Education), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1850,
+      "food": 563.33,
+      "transport": 30.12,
+      "personal": 273.33
+    },
+    "sourceUrl": "https://adelaideuni.edu.au/about/faqs/answer/4258",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "Adelaide University's own guide to student living costs in Adelaide (rent, utilities, groceries, transport, phone, personal items, clothing and study materials), using the middle of its ranges.",
+    "notes": "Adelaide University FAQ 'What is the cost of living in Adelaide?' (no year given; 2026 is the year it was read), range midpoints converted to monthly (weekly x 52/12): accommodation AUD$150-$600+ per week (375/wk = 1,625) + utilities (private rental) $150-$300 per month (225) = housing 1,850; groceries $60-$200 a week (130/wk = 563.33); public transport 28-day pass $27.80 (x 13/12 = 30.12); personal = mobile phone $25-$110 a month (67.50) + personal care $25-$70 a month (47.50) + clothing $50-$100 a month (75) + study materials $500-$1,500 a year (83.33) = 273.33. Excluded: dining out ($15-$30 a meal), car ownership ($50-$100 a week), OSHC ($580-$4,000 a year). The accommodation range is open-ended ('$600+')."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (Mechanical) (Honours)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 57100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-engineering-mechanical-honours/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and Mawson Lakes.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 54900,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-engineering-mechanical-honours/int/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computer Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 55400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-computer-science/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and Mawson Lakes.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 53300,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-computer-science/int/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 52500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-business/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus; 13 majors.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 50500,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-business/int/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 55400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-science/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City, Mawson Lakes, Roseworthy and Waite campuses.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 53300,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-science/int/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 45100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-arts/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and Magill.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43400,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-arts/int/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Psychology",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-psychology/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and Magill.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 46700,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-psychology/int/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Nursing",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-nursing/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus, Mt Gambier and Whyalla.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 46700,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-nursing/int/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medical Studies and Doctor of Medicine",
+      "durationYears": 6,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 103000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-medical-studies/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students in the first part (Bachelor of Medical Studies) of the 6-year medicine programme. Later-year fees may differ; excludes other fees.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Fee is for the Bachelor of Medical Studies (3 years, full-time only, open to international students), the first half of a six-year integrated programme; graduates go directly into the 3-year Doctor of Medicine, whose fee is not shown on this page. Recorded as a 6-year undergraduate-entry medical programme using the first-year fee. Singapore Medical Council recognition of the new Adelaide University degree was not checked in this pass.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 99000,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-medical-studies/int/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Professional Engineering (Civil)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 57100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/master-of-professional-engineering-civil/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and Mawson Lakes.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 54900,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/master-of-professional-engineering-civil/int/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Information Technology (Computing and Innovation)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 55400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/master-of-information-technology-computing-and-innovation/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and Mawson Lakes.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 53300,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/master-of-information-technology-computing-and-innovation/int/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 57100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/master-of-business-administration/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus; 1.5 years full-time.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 54900,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/master-of-business-administration/int/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Data Science",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 57100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/master-of-data-science/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and Mawson Lakes.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 54900,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/master-of-data-science/int/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Psychology (Clinical)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 54300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/master-of-psychology-clinical/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and Magill; open to international applicants.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 52200,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/master-of-psychology-clinical/int/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "nursing",
+      "name": "Master of Nursing",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 54900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/master-of-nursing/int/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students in this master's for registered nurses. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page, 2027 international view (/study/degrees/2027/<degree>/int/), read on 2026-10-07: 'Indicative annual fees ... Fees are subject to change annually. Fees are based on the total number of units studied in this program on a full-time annual basis.' The 2026 feeHistory row is the same page's 2026 view (/2026/). Adelaide University, formed from the University of Adelaide and the University of South Australia, began teaching in 2026, so there are no 2024 or 2025 rows (those years belong to the predecessor universities). Excludes SSAF and OSHC. Adelaide City Campus and online. Post-registration degree: applicants must 'Hold or be eligible to hold registration with the Nursing and Midwifery Board of Australia'.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 54900,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/master-of-nursing/int/"
+        }
+      ]
+    }
+  ]
+}

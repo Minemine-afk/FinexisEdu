@@ -59,7 +59,7 @@ published fee tables for those years.
 | Country | Universities | Scraped automatically |
 |---|---|---|
 | Singapore | NUS, NTU, SMU, SIT, SUSS, SIM (9 partner universities) | NUS, NTU, SIT; SMU, SUSS and SIM are manual |
-| Australia | ANU, Melbourne, Monash, UNSW, Sydney | ANU, UNSW, Sydney; Melbourne and Monash are manual (Cloudflare) |
+| Australia | ANU, Melbourne, Monash, UNSW, Sydney, RMIT, Deakin, Queensland, Adelaide University | ANU, UNSW, Sydney; Melbourne and Monash are manual (Cloudflare); RMIT, Deakin, Queensland and Adelaide University are manual |
 | UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL | Cambridge, Imperial, LSE, UCL; Oxford is manual |
 | US | Berkeley, CMU, Harvard, MIT, Stanford | All |
 | Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin | All except HU Berlin, whose semester-fee page blocks bots and is checked by hand |
