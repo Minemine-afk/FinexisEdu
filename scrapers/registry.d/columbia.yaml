@@ -1,0 +1,42 @@
+# Columbia University: added Oct 2026. All sources are checked by hand (Columbia fee pages are per school and partly PDF; checked by hand).
+sources:
+  # Columbia fee pages are per school and partly PDF; checked by hand
+  - university: columbia
+    country: us
+    url: "https://cc-seas.financialaid.columbia.edu/eligibility/facts"
+    manual: true
+  # Columbia fee pages are per school and partly PDF; checked by hand
+  - university: columbia
+    country: us
+    url: "https://sfs.columbia.edu/content/graduate-engineering-cost-attendance"
+    manual: true
+  # Columbia fee pages are per school and partly PDF; checked by hand
+  - university: columbia
+    country: us
+    url: "https://business.columbia.edu/financial-aid/costs/full-time"
+    manual: true
+  # Columbia fee pages are per school and partly PDF; checked by hand
+  - university: columbia
+    country: us
+    url: "https://www.law.columbia.edu/financial-aid/costs-and-billing/costs-budgeting"
+    manual: true
+  # Columbia fee pages are per school and partly PDF; checked by hand
+  - university: columbia
+    country: us
+    url: "https://www.vagelos.columbia.edu/education/academic-programs/md-program/md-student-resources/student-financial-aid-and-planning-19"
+    manual: true
+  # Columbia fee pages are per school and partly PDF; checked by hand
+  - university: columbia
+    country: us
+    url: "https://www.gsas.columbia.edu/content/cost-attendance"
+    manual: true
+  # Columbia fee pages are per school and partly PDF; checked by hand
+  - university: columbia
+    country: us
+    url: "https://www.sipa.columbia.edu/office-financial-aid/tuition-and-fees"
+    manual: true
+  # Columbia fee pages are per school and partly PDF; checked by hand
+  - university: columbia
+    country: us
+    url: "https://www.nursing.columbia.edu/academics/financial-aid/tuition-and-fees"
+    manual: true

@@ -1,0 +1,300 @@
+{
+  "id": "columbia",
+  "name": "Columbia University",
+  "country": "us",
+  "city": "New York, NY",
+  "currency": "USD",
+  "website": "https://www.columbia.edu",
+  "description": "Columbia University is a private Ivy League research university in Manhattan, New York City, founded in 1754 as King's College. It comprises Columbia College, Columbia Engineering and graduate and professional schools including law, business, medicine and international affairs.",
+  "whyIncluded": "Columbia University is among the 10 universities in the United States most chosen by international students (20,733 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026; its JD is on the Singapore Institute of Legal Education's approved list and its MD on the Singapore Medical Council's list.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1900.0,
+      "food": 932.0,
+      "transport": 151.0,
+      "personal": 547.33
+    },
+    "sourceUrl": "https://www.gsas.columbia.edu/content/cost-attendance",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "Columbia's own 9-month estimate for graduate students of housing, food, transport, books and personal costs. Tuition, fees and health insurance are extra.",
+    "notes": "Columbia GSAS Cost of Attendance 2026-27, 9-month estimate: housing US$17,100; food US$8,388; transportation US$1,359; personal = personal expenses US$3,636 + books and supplies US$1,290 = US$4,926. Undergraduate on-campus budget (cc-seas Facts page) is lower: housing US$13,904, food US$7,586, books US$1,320, personal US$1,844, travel varies."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BS in Mechanical Engineering (Columbia Engineering)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72800,
+          "annualCompulsoryFees": 3780,
+          "oneOffFees": 730
+        }
+      },
+      "sourceUrl": "https://cc-seas.financialaid.columbia.edu/eligibility/facts",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for Columbia College and Columbia Engineering undergraduates plus university fees and the international services charge. Health insurance not included; fees rise each year.",
+      "notes": "Columbia College and Columbia Engineering Financial Aid 'Facts' cost of attendance, 2026-2027: tuition US$72,800; fees US$4,160 (first year on campus) or US$3,430 (continuing). Compulsory = continuing-year fees US$3,430 + International Services Charge US$175/semester x 2 = US$3,780; one-off = first-year fee difference US$730 (new-student fees). Columbia Health Insurance (US$2,218 fall / US$3,605 spring) excluded as waivable with qualifying coverage. Course fees extra. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. Columbia does not fix fees for a cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BA in Computer Science (Columbia College)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72800,
+          "annualCompulsoryFees": 3780,
+          "oneOffFees": 730
+        }
+      },
+      "sourceUrl": "https://cc-seas.financialaid.columbia.edu/eligibility/facts",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for Columbia College and Columbia Engineering undergraduates plus university fees and the international services charge. Health insurance not included; fees rise each year.",
+      "notes": "Columbia College and Columbia Engineering Financial Aid 'Facts' cost of attendance, 2026-2027: tuition US$72,800; fees US$4,160 (first year on campus) or US$3,430 (continuing). Compulsory = continuing-year fees US$3,430 + International Services Charge US$175/semester x 2 = US$3,780; one-off = first-year fee difference US$730 (new-student fees). Columbia Health Insurance (US$2,218 fall / US$3,605 spring) excluded as waivable with qualifying coverage. Course fees extra. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. Columbia does not fix fees for a cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BA in Physics (Columbia College)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72800,
+          "annualCompulsoryFees": 3780,
+          "oneOffFees": 730
+        }
+      },
+      "sourceUrl": "https://cc-seas.financialaid.columbia.edu/eligibility/facts",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for Columbia College and Columbia Engineering undergraduates plus university fees and the international services charge. Health insurance not included; fees rise each year.",
+      "notes": "Columbia College and Columbia Engineering Financial Aid 'Facts' cost of attendance, 2026-2027: tuition US$72,800; fees US$4,160 (first year on campus) or US$3,430 (continuing). Compulsory = continuing-year fees US$3,430 + International Services Charge US$175/semester x 2 = US$3,780; one-off = first-year fee difference US$730 (new-student fees). Columbia Health Insurance (US$2,218 fall / US$3,605 spring) excluded as waivable with qualifying coverage. Course fees extra. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. Columbia does not fix fees for a cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA in History (Columbia College)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72800,
+          "annualCompulsoryFees": 3780,
+          "oneOffFees": 730
+        }
+      },
+      "sourceUrl": "https://cc-seas.financialaid.columbia.edu/eligibility/facts",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for Columbia College and Columbia Engineering undergraduates plus university fees and the international services charge. Health insurance not included; fees rise each year.",
+      "notes": "Columbia College and Columbia Engineering Financial Aid 'Facts' cost of attendance, 2026-2027: tuition US$72,800; fees US$4,160 (first year on campus) or US$3,430 (continuing). Compulsory = continuing-year fees US$3,430 + International Services Charge US$175/semester x 2 = US$3,780; one-off = first-year fee difference US$730 (new-student fees). Columbia Health Insurance (US$2,218 fall / US$3,605 spring) excluded as waivable with qualifying coverage. Course fees extra. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. Columbia does not fix fees for a cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA in Psychology (Columbia College)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 72800,
+          "annualCompulsoryFees": 3780,
+          "oneOffFees": 730
+        }
+      },
+      "sourceUrl": "https://cc-seas.financialaid.columbia.edu/eligibility/facts",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for Columbia College and Columbia Engineering undergraduates plus university fees and the international services charge. Health insurance not included; fees rise each year.",
+      "notes": "Columbia College and Columbia Engineering Financial Aid 'Facts' cost of attendance, 2026-2027: tuition US$72,800; fees US$4,160 (first year on campus) or US$3,430 (continuing). Compulsory = continuing-year fees US$3,430 + International Services Charge US$175/semester x 2 = US$3,780; one-off = first-year fee difference US$730 (new-student fees). Columbia Health Insurance (US$2,218 fall / US$3,605 spring) excluded as waivable with qualifying coverage. Course fees extra. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. Columbia does not fix fees for a cohort.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MS in Mechanical Engineering (Columbia Engineering)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 67728,
+          "annualCompulsoryFees": 4118,
+          "oneOffFees": 105
+        }
+      },
+      "sourceUrl": "https://sfs.columbia.edu/content/graduate-engineering-cost-attendance",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for a full-time year of 24 points (US$2,822 a point) plus university and engineering fees. Charged per point, so the final term costs extra. Health insurance not included.",
+      "notes": "Student Financial Services 'Graduate Engineering Cost of Attendance' 2026-2027: US$2,822 per point, 12 points per semester; full-time MS tuition US$67,728 for fall + spring (24 points). Compulsory = International Student Fee US$350 + Health Service Fee US$1,518 + University Services and Support Fee US$1,290 + SEAS Graduate Student Activities Fee US$960 = US$4,118 a year; one-off Document Fee US$105 (first semester). Health insurance (Columbia Student Health Insurance Plan, US$5,823 a year in 2026-27) is excluded: Columbia Health says non-J visa international students may waive it with a plan meeting university requirements. The MS needs 30 points, so a third term is charged per point (typical length 1.5 years). No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MS in Computer Science (Columbia Engineering)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 67728,
+          "annualCompulsoryFees": 4118,
+          "oneOffFees": 105
+        }
+      },
+      "sourceUrl": "https://sfs.columbia.edu/content/graduate-engineering-cost-attendance",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for a full-time year of 24 points (US$2,822 a point) plus university and engineering fees. Charged per point, so the final term costs extra. Health insurance not included.",
+      "notes": "Student Financial Services 'Graduate Engineering Cost of Attendance' 2026-2027: US$2,822 per point, 12 points per semester; full-time MS tuition US$67,728 for fall + spring (24 points). Compulsory = International Student Fee US$350 + Health Service Fee US$1,518 + University Services and Support Fee US$1,290 + SEAS Graduate Student Activities Fee US$960 = US$4,118 a year; one-off Document Fee US$105 (first semester). Health insurance (Columbia Student Health Insurance Plan, US$5,823 a year in 2026-27) is excluded: Columbia Health says non-J visa international students may waive it with a plan meeting university requirements. The MS needs 30 points, so a third term is charged per point (typical length 1.5 years). No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Full-Time MBA (Columbia Business School)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 93908,
+          "annualCompulsoryFees": 7028,
+          "oneOffFees": 105
+        }
+      },
+      "sourceUrl": "https://business.columbia.edu/financial-aid/costs/full-time",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year MBA tuition plus mandatory university and programme fees and the international services charge. The school expects tuition to rise 2-7% for year two. Health insurance not included.",
+      "notes": "Columbia Business School 'Full-Time MBA and MBAxMS' cost of attendance 2026-2027 (August entry): tuition US$93,908; mandatory fees US$6,783 first year / US$6,678 continuing. Fee breakdown from CBS 'University Fees' page (business.columbia.edu/financial-aid/policies/university-fees): Health Service Fee US$759/term, University Services and Support Fee US$645/term, MBA Program Fee US$1,935/term = US$6,678/yr; plus International Service Charge US$175/term = US$7,028; Document Fee US$105 one-off. The CBS page says international students cannot waive Columbia medical insurance (US$5,823), but Columbia Health allows non-J international students a waiver with a qualifying plan, so insurance is excluded here as elsewhere. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "JD (Columbia Law School)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 88996,
+          "annualCompulsoryFees": 3548,
+          "oneOffFees": 105
+        }
+      },
+      "sourceUrl": "https://www.law.columbia.edu/financial-aid/costs-and-billing/costs-budgeting",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly JD tuition plus university fees and the international services charge. Health insurance not included. Fees rise each year.",
+      "notes": "Columbia Law School Standard Cost of Attendance 2026-2027 (J.D.): tuition US$88,996; Student Activity Fee US$390; University Services & Support Fee US$1,290; Health & Related Services Fee US$1,518; plus International Services Charge US$175/term x 2 (university-wide, from the ISSO/SFS schedules) = US$3,548. Document Fee US$105 one-off for new students. Health insurance (Columbia Student Health Insurance Plan, US$5,823 a year in 2026-27) is excluded: Columbia Health says non-J visa international students may waive it with a plan meeting university requirements. Columbia's JD is on the Singapore Institute of Legal Education's approved list (Fifth Schedule, Legal Profession (Qualified Persons) Rules; graduates in the top 70% of their batch). No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "MD (Vagelos College of Physicians and Surgeons)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 76336,
+          "annualCompulsoryFees": 3099,
+          "oneOffFees": 105
+        }
+      },
+      "sourceUrl": "https://www.vagelos.columbia.edu/education/academic-programs/md-program/md-student-resources/student-financial-aid-and-planning-19",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year MD tuition plus compulsory school fees and the international services charge. Health insurance not included. Fees rise each year.",
+      "notes": "VP&S MD Program Student Budget 2026-27 ('VP&S - Standard' PDF linked from the budget page; file 41692): tuition US$76,336 each year. First-year compulsory = Student Health Service US$1,788 + Supplemental Insurance US$10 + Disability Insurance US$78 + CUIMC Network Fee US$480 + P&S IT Fee US$148 + Program Fee US$100 + Student Activity Fee US$145 = US$2,749, plus International Services Charge US$350 = US$3,099. Document Fee US$105 one-off. Later years: Program Fee US$500 in MS2, no activity fee after MS1. Medical Insurance Premium US$5,823 excluded (waivable). The Vagelos Scholarship Program meets need with grants; eligibility of international students not confirmed. Columbia's MD (Vagelos College of Physicians and Surgeons) is on the Second Schedule of Singapore's Medical Registration Act. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MA in Statistics (Graduate School of Arts and Sciences)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 97928,
+          "annualCompulsoryFees": 3370,
+          "oneOffFees": 105
+        }
+      },
+      "sourceUrl": "https://www.gsas.columbia.edu/content/cost-attendance",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the two-term MA in Statistics plus university fees and the international services charge. Health insurance not included.",
+      "notes": "Columbia GSAS Cost of Attendance 2026-27: MA in Statistics full Residence Unit US$48,964 per term x 2 = US$97,928 (2 RUs required to graduate, so one year full-time). Compulsory per semester: Health Services Fee US$759 + University Services and Support Fee US$703 + Student Activity Fee US$48 + International Service Charge US$175 = US$1,685 x 2 = US$3,370; Document Fee US$105 (fall only). Health insurance US$2,218 fall / US$3,605 spring excluded ('may be waived if student has comparable coverage'). No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of International Affairs (SIPA)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 74220,
+          "annualCompulsoryFees": 3708,
+          "oneOffFees": 226
+        }
+      },
+      "sourceUrl": "https://www.sipa.columbia.edu/office-financial-aid/tuition-and-fees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly flat-rate tuition for the two-year Master of International Affairs plus school and university fees. Health insurance not included. Figures are provisional estimates.",
+      "notes": "SIPA Office of Financial Aid 'Tuition and Fees' 2026-2027 (provisional, dated 13 Feb 2026): MIA/MPA flat rate US$37,110 per term (12-16.5 credits) x 2 = US$74,220. Compulsory per term: Health & Related Services US$759 + SIPA Computer Lab US$200 + University Services & Support US$645 + Student Activity US$75 + International Student Fee US$175 = US$1,854 x 2 = US$3,708. One-off: Document Fee US$105 + I-20 fee US$121 = US$226. Medical insurance (waivable) excluded. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "nursing",
+      "name": "Master's Direct Entry (MDE) Program for Non-Nurses (Columbia Nursing)",
+      "durationYears": 1.25,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 106222,
+          "annualCompulsoryFees": 3632,
+          "oneOffFees": 105
+        }
+      },
+      "sourceUrl": "https://www.nursing.columbia.edu/academics/financial-aid/tuition-and-fees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the first three terms (summer, fall, spring) of the 15-month nursing master's for non-nurses, plus university fees. A final summer term is extra. Health insurance not included.",
+      "notes": "Columbia Nursing Tuition and Fees 2026-27, Master's Direct Entry full-time traditional track: tuition US$106,222 for the first three terms (Summer, Fall, Spring); University Fees US$3,387 (listed components: Simulation US$25, Technology US$50, CUIMC Network US$240 and Student Activity US$35 per term, Transcript Fee US$105 one-time; the remainder is presumably the health service fee). Compulsory = US$3,387 - US$105 = US$3,282 + International Services Charge US$175 x 2 (fall, spring) = US$3,632; one-off US$105. Health insurance (Summer US$1,356, Fall US$2,218, Spring US$3,605) excluded as waivable. Programme is 15 months (four terms); the fourth term's tuition is not included in this annual figure. Columbia Nursing has a page for MDE international applicants. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
+      "feeHistory": []
+    }
+  ]
+}

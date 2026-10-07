@@ -1,0 +1,394 @@
+{
+  "id": "bu",
+  "name": "Boston University",
+  "country": "us",
+  "city": "Boston, MA",
+  "currency": "USD",
+  "website": "https://www.bu.edu",
+  "description": "Boston University is a private research university on the Charles River in Boston, Massachusetts, founded in 1839. It has 17 schools and colleges, including the Questrom School of Business, the College of Engineering and the Chobanian & Avedisian School of Medicine.",
+  "whyIncluded": "Boston University is among the 10 universities in the United States most chosen by international students (12,845 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026; its MD is on the Singapore Medical Council's list.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 2329.89,
+      "food": 0.0,
+      "transport": 0.0,
+      "personal": 700.56
+    },
+    "sourceUrl": "https://www.bu.edu/isso/getting-started/documents-procedures/requiredfinancialdocumentation/expenses-crc/",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "BU's own 9-month estimate for graduate students of room and board (shown together), books and incidentals. Tuition, fees and health insurance are extra.",
+    "notes": "BU ISSO 'Graduate Estimate of Expenses - Charles River Campus' 2026/2027 (9-month I-20 estimate): Room and Board US$20,969 (combined, all under housing; food 0); personal = Books and Supplies US$1,313 + Incidentals US$4,992 = US$6,305; transport not listed separately (in incidentals). Financial Assistance's graduate cost of attendance uses Housing & Food US$16,250 and Incidentals US$4,412."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BS in Mechanical Engineering (College of Engineering)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1570,
+          "oneOffFees": 370
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for BU undergraduates (one rate for all programmes) plus student services, community service and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Student Financials 'Tuition & Fees' 2026-2027: undergraduate full-time (fall & spring) tuition US$73,024. Compulsory = (Student Services Fee US$410 + Community Service Fee US$80 + Health & Wellness Fee US$295) per semester x 2 = US$1,570; Orientation Program Fee US$370 one-time. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. History from the same page's earlier-year tables: 2025-2026 tuition US$69,870, fees (US$392 + US$77 + US$282) x 2 = US$1,502, orientation US$355; 2024-2025 tuition US$66,670, fees (US$374 + US$73 + US$269) x 2 = US$1,432, orientation US$345. BU charges one undergraduate rate for all programmes. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 1432,
+          "oneOffFees": 345,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1502,
+          "oneOffFees": 355,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BA in Computer Science (College of Arts & Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1570,
+          "oneOffFees": 370
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for BU undergraduates (one rate for all programmes) plus student services, community service and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Student Financials 'Tuition & Fees' 2026-2027: undergraduate full-time (fall & spring) tuition US$73,024. Compulsory = (Student Services Fee US$410 + Community Service Fee US$80 + Health & Wellness Fee US$295) per semester x 2 = US$1,570; Orientation Program Fee US$370 one-time. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. History from the same page's earlier-year tables: 2025-2026 tuition US$69,870, fees (US$392 + US$77 + US$282) x 2 = US$1,502, orientation US$355; 2024-2025 tuition US$66,670, fees (US$374 + US$73 + US$269) x 2 = US$1,432, orientation US$345. BU charges one undergraduate rate for all programmes. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 1432,
+          "oneOffFees": 345,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1502,
+          "oneOffFees": 355,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BS in Business Administration and Management (Questrom School of Business)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1570,
+          "oneOffFees": 370
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for BU undergraduates (one rate for all programmes) plus student services, community service and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Student Financials 'Tuition & Fees' 2026-2027: undergraduate full-time (fall & spring) tuition US$73,024. Compulsory = (Student Services Fee US$410 + Community Service Fee US$80 + Health & Wellness Fee US$295) per semester x 2 = US$1,570; Orientation Program Fee US$370 one-time. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. History from the same page's earlier-year tables: 2025-2026 tuition US$69,870, fees (US$392 + US$77 + US$282) x 2 = US$1,502, orientation US$355; 2024-2025 tuition US$66,670, fees (US$374 + US$73 + US$269) x 2 = US$1,432, orientation US$345. BU charges one undergraduate rate for all programmes. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 1432,
+          "oneOffFees": 345,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1502,
+          "oneOffFees": 355,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BA in Physics (College of Arts & Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1570,
+          "oneOffFees": 370
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for BU undergraduates (one rate for all programmes) plus student services, community service and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Student Financials 'Tuition & Fees' 2026-2027: undergraduate full-time (fall & spring) tuition US$73,024. Compulsory = (Student Services Fee US$410 + Community Service Fee US$80 + Health & Wellness Fee US$295) per semester x 2 = US$1,570; Orientation Program Fee US$370 one-time. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. History from the same page's earlier-year tables: 2025-2026 tuition US$69,870, fees (US$392 + US$77 + US$282) x 2 = US$1,502, orientation US$355; 2024-2025 tuition US$66,670, fees (US$374 + US$73 + US$269) x 2 = US$1,432, orientation US$345. BU charges one undergraduate rate for all programmes. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 1432,
+          "oneOffFees": 345,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1502,
+          "oneOffFees": 355,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA in History (College of Arts & Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1570,
+          "oneOffFees": 370
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for BU undergraduates (one rate for all programmes) plus student services, community service and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Student Financials 'Tuition & Fees' 2026-2027: undergraduate full-time (fall & spring) tuition US$73,024. Compulsory = (Student Services Fee US$410 + Community Service Fee US$80 + Health & Wellness Fee US$295) per semester x 2 = US$1,570; Orientation Program Fee US$370 one-time. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. History from the same page's earlier-year tables: 2025-2026 tuition US$69,870, fees (US$392 + US$77 + US$282) x 2 = US$1,502, orientation US$355; 2024-2025 tuition US$66,670, fees (US$374 + US$73 + US$269) x 2 = US$1,432, orientation US$345. BU charges one undergraduate rate for all programmes. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 1432,
+          "oneOffFees": 345,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1502,
+          "oneOffFees": 355,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA in Psychology (College of Arts & Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1570,
+          "oneOffFees": 370
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for BU undergraduates (one rate for all programmes) plus student services, community service and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Student Financials 'Tuition & Fees' 2026-2027: undergraduate full-time (fall & spring) tuition US$73,024. Compulsory = (Student Services Fee US$410 + Community Service Fee US$80 + Health & Wellness Fee US$295) per semester x 2 = US$1,570; Orientation Program Fee US$370 one-time. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. History from the same page's earlier-year tables: 2025-2026 tuition US$69,870, fees (US$392 + US$77 + US$282) x 2 = US$1,502, orientation US$355; 2024-2025 tuition US$66,670, fees (US$374 + US$73 + US$269) x 2 = US$1,432, orientation US$345. BU charges one undergraduate rate for all programmes. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 1432,
+          "oneOffFees": 345,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1502,
+          "oneOffFees": 355,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MS in Mechanical Engineering (College of Engineering)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1148,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/finaid/graduate-students/graduate-coa/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "BU charges engineering master's per credit: shown for the 32-credit MS taken over two full-time semesters, plus mandatory fees. Health insurance not included.",
+      "notes": "BU Financial Assistance 'Cost of Attendance for Graduate/Professional Schools' 2026/2027, College of Engineering (graduate): Tuition US$2,282/credit; Fees US$1,148. The Student Financials page confirms ENG on-campus master's students are billed per credit regardless of enrolment status. Annual figure = 16 credits per semester (four 4-credit courses) x 2 semesters = 32 credits x US$2,282 = US$73,024, i.e. the whole 32-credit MS in one academic year; students taking 12 credits a term pay less per year but study longer. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year figure read, so no feeHistory.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MS in Computer Science (Graduate School of Arts & Sciences)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1048,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/cas/admissions/ma-ms/tuition-mandatory-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly full-time tuition for BU Arts & Sciences master's students plus student services and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year master's rate was read, so no feeHistory. The MS is 32 credits, which fits two full-time semesters at the flat rate; some students take three.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MS in Statistical Practice (Graduate School of Arts & Sciences)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1048,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/cas/admissions/ma-ms/tuition-mandatory-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly full-time tuition for BU Arts & Sciences master's students plus student services and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year master's rate was read, so no feeHistory. Duration typical.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA in Economics (Graduate School of Arts & Sciences)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1048,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/cas/admissions/ma-ms/tuition-mandatory-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly full-time tuition for BU Arts & Sciences master's students plus student services and health and wellness fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year master's rate was read, so no feeHistory. Duration typical (32 credits).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Full-Time MBA (Questrom School of Business)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 73024,
+          "annualCompulsoryFees": 1448,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/finaid/graduate-students/graduate-coa/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for Questrom's full-time MBA plus mandatory fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Financial Assistance graduate cost of attendance 2026/2027, Questrom School of Business: Tuition US$73,024; Fees US$1,448 (the page does not name the programme, but the full-time MBA pays the standard BU graduate full-time rate). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year figure read, so no feeHistory.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "MD (Chobanian & Avedisian School of Medicine)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 74078,
+          "annualCompulsoryFees": 1390,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bu.edu/finaid/graduate-students/graduate-coa/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year MD tuition plus mandatory fees. Health insurance not included; fees rise each year.",
+      "notes": "BU Financial Assistance graduate cost of attendance 2026/2027, Chobanian & Avedisian School of Medicine Year 1: Tuition US$74,078; Fees US$1,390. Tuition confirmed on Student Financials 'Tuition & Fees' ('MD Program US$74,078 per year'). History (tuition only, Student Financials earlier-year tables): 2025-2026 US$72,626; 2024-2025 US$71,202. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. BU's MD (Chobanian & Avedisian School of Medicine) is on the Second Schedule of Singapore's Medical Registration Act. International applicants' eligibility not separately checked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 71202,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 72626,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
+    }
+  ]
+}

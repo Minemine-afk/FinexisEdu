@@ -1,0 +1,342 @@
+{
+  "id": "unt",
+  "name": "University of North Texas",
+  "country": "us",
+  "city": "Denton, TX",
+  "currency": "USD",
+  "website": "https://www.unt.edu",
+  "description": "The University of North Texas is a public research university in Denton, Texas, north of Dallas, founded in 1890. It is one of the largest universities in Texas, with colleges of engineering, business, information and music.",
+  "whyIncluded": "The University of North Texas is among the 10 universities in the United States most chosen by international students (12,982 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BS in Mechanical and Energy Engineering (College of Engineering)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21730.8,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident tuition at 15 credits a semester plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, non-resident (international students pay the non-resident rate): statutory tuition US$478/credit + Board Designated Tuition (Traditional Plan) US$230.11/credit + Engineering differential US$16.25/credit. Annual = 15 credits a semester x 2 = 30 credits: US$21,730.80. Compulsory fees (15 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$43/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students) per semester; x 2 = US$3,220.06 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: non-resident statutory tuition US$455/credit with the same designated, differential and fee rates (UNT Tuition & Fees Administrative Manual 2025-2026) = US$21,040.80 tuition. UNT's own I-20 estimate assumes 12 credits a semester (minimum full-time), so it is lower. UNT also offers a fixed-rate 'Save and Soar' plan (US$234.71/credit designated tuition); the Traditional Plan is used here. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21040.8,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BS in Computer Science (College of Engineering)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21730.8,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident tuition at 15 credits a semester plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, non-resident (international students pay the non-resident rate): statutory tuition US$478/credit + Board Designated Tuition (Traditional Plan) US$230.11/credit + Engineering differential US$16.25/credit. Annual = 15 credits a semester x 2 = 30 credits: US$21,730.80. Compulsory fees (15 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$43/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students) per semester; x 2 = US$3,220.06 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: non-resident statutory tuition US$455/credit with the same designated, differential and fee rates (UNT Tuition & Fees Administrative Manual 2025-2026) = US$21,040.80 tuition. UNT's own I-20 estimate assumes 12 credits a semester (minimum full-time), so it is lower. UNT also offers a fixed-rate 'Save and Soar' plan (US$234.71/credit designated tuition); the Traditional Plan is used here. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21040.8,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BBA in Finance (G. Brint Ryan College of Business)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21693.3,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident tuition at 15 credits a semester plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, non-resident (international students pay the non-resident rate): statutory tuition US$478/credit + Board Designated Tuition (Traditional Plan) US$230.11/credit + Business differential US$15/credit. Annual = 15 credits a semester x 2 = 30 credits: US$21,693.30. Compulsory fees (15 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$43/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students) per semester; x 2 = US$3,220.06 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: non-resident statutory tuition US$455/credit with the same designated, differential and fee rates (UNT Tuition & Fees Administrative Manual 2025-2026) = US$21,003.30 tuition. UNT's own I-20 estimate assumes 12 credits a semester (minimum full-time), so it is lower. UNT also offers a fixed-rate 'Save and Soar' plan (US$234.71/credit designated tuition); the Traditional Plan is used here. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21003.3,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BS in Physics (College of Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21963.3,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident tuition at 15 credits a semester plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, non-resident (international students pay the non-resident rate): statutory tuition US$478/credit + Board Designated Tuition (Traditional Plan) US$230.11/credit + Science differential US$24/credit. Annual = 15 credits a semester x 2 = 30 credits: US$21,963.30. Compulsory fees (15 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$43/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students) per semester; x 2 = US$3,220.06 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: non-resident statutory tuition US$455/credit with the same designated, differential and fee rates (UNT Tuition & Fees Administrative Manual 2025-2026) = US$21,273.30 tuition. UNT's own I-20 estimate assumes 12 credits a semester (minimum full-time), so it is lower. UNT also offers a fixed-rate 'Save and Soar' plan (US$234.71/credit designated tuition); the Traditional Plan is used here. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21273.3,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA in History (College of Liberal Arts and Social Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21243.3,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident tuition at 15 credits a semester plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, non-resident (international students pay the non-resident rate): statutory tuition US$478/credit + Board Designated Tuition (Traditional Plan) US$230.11/credit. Annual = 15 credits a semester x 2 = 30 credits: US$21,243.30. Compulsory fees (15 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$43/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students) per semester; x 2 = US$3,220.06 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: non-resident statutory tuition US$455/credit with the same designated, differential and fee rates (UNT Tuition & Fees Administrative Manual 2025-2026) = US$20,553.30 tuition. UNT's own I-20 estimate assumes 12 credits a semester (minimum full-time), so it is lower. UNT also offers a fixed-rate 'Save and Soar' plan (US$234.71/credit designated tuition); the Traditional Plan is used here. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20553.3,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA in Psychology (College of Liberal Arts and Social Sciences)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21243.3,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident tuition at 15 credits a semester plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, non-resident (international students pay the non-resident rate): statutory tuition US$478/credit + Board Designated Tuition (Traditional Plan) US$230.11/credit. Annual = 15 credits a semester x 2 = 30 credits: US$21,243.30. Compulsory fees (15 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$43/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students) per semester; x 2 = US$3,220.06 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: non-resident statutory tuition US$455/credit with the same designated, differential and fee rates (UNT Tuition & Fees Administrative Manual 2025-2026) = US$20,553.30 tuition. UNT's own I-20 estimate assumes 12 credits a semester (minimum full-time), so it is lower. UNT also offers a fixed-rate 'Save and Soar' plan (US$234.71/credit designated tuition); the Traditional Plan is used here. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20553.3,
+          "annualCompulsoryFees": 3220.06,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MS in Mechanical and Energy Engineering (College of Engineering)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 15134.22,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident graduate tuition at 9 credits a semester, plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, graduate non-resident: statutory tuition US$478/credit + Board Designated Tuition (graduate) US$227.79 + Board Authorized Tuition US$50 + Board Designated Graduate Tuition US$25 + graduate Engineering differential US$60/credit. Annual = 9 credits a semester (UNT's full-time graduate load, as used in its I-20 estimate) x 2 = 18 credits: US$15,134.22. Compulsory fees (9 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$36/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students), Master's Advising US$49.50 per semester; x 2 = US$2,259.94 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: statutory US$455/credit, other rates unchanged (UNT Tuition & Fees Administrative Manual 2025-2026) = US$14,720.22. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 14720.22,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MS in Computer Science (College of Engineering)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 15134.22,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident graduate tuition at 9 credits a semester, plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, graduate non-resident: statutory tuition US$478/credit + Board Designated Tuition (graduate) US$227.79 + Board Authorized Tuition US$50 + Board Designated Graduate Tuition US$25 + graduate Engineering differential US$60/credit. Annual = 9 credits a semester (UNT's full-time graduate load, as used in its I-20 estimate) x 2 = 18 credits: US$15,134.22. Compulsory fees (9 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$36/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students), Master's Advising US$49.50 per semester; x 2 = US$2,259.94 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: statutory US$455/credit, other rates unchanged (UNT Tuition & Fees Administrative Manual 2025-2026) = US$14,720.22. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 14720.22,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MBA (G. Brint Ryan College of Business)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16304.22,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident graduate tuition at 9 credits a semester, plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, graduate non-resident: statutory tuition US$478/credit + Board Designated Tuition (graduate) US$227.79 + Board Authorized Tuition US$50 + Board Designated Graduate Tuition US$25 + graduate Business (standard) differential US$125/credit. Annual = 9 credits a semester (UNT's full-time graduate load, as used in its I-20 estimate) x 2 = 18 credits: US$16,304.22. Compulsory fees (9 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$36/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students), Master's Advising US$49.50 per semester; x 2 = US$2,259.94 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: statutory US$455/credit, other rates unchanged (UNT Tuition & Fees Administrative Manual 2025-2026) = US$15,890.22. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15890.22,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MS in Data Science (College of Information)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 14193.72,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident graduate tuition at 9 credits a semester, plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, graduate non-resident: statutory tuition US$478/credit + Board Designated Tuition (graduate) US$227.79 + Board Authorized Tuition US$50 + Board Designated Graduate Tuition US$25 + graduate Information, Data Science differential US$7.75/credit. Annual = 9 credits a semester (UNT's full-time graduate load, as used in its I-20 estimate) x 2 = 18 credits: US$14,193.72. Compulsory fees (9 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$36/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students), Master's Advising US$49.50 per semester; x 2 = US$2,259.94 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: statutory US$455/credit, other rates unchanged (UNT Tuition & Fees Administrative Manual 2025-2026) = US$13,779.72. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 13779.72,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA in History (College of Liberal Arts and Social Sciences)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 14054.22,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentaccounting.unt.edu/tuition-and-fees.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly non-resident graduate tuition at 9 credits a semester, plus UNT's mandatory fees. International students pay the out-of-state rate. Course fees and health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, graduate non-resident: statutory tuition US$478/credit + Board Designated Tuition (graduate) US$227.79 + Board Authorized Tuition US$50 + Board Designated Graduate Tuition US$25. Annual = 9 credits a semester (UNT's full-time graduate load, as used in its I-20 estimate) x 2 = 18 credits: US$14,054.22. Compulsory fees (9 credits a semester, explanation-fees page, Fall 2026-Spring 2027; same rates in the 2025-2026 manual): Student Service US$13.41/hr, Intercollegiate Athletics US$17.85/hr (capped at 15 hrs), Transportation US$3.50/hr, Learning Support US$36/hr, Recreational Facility US$85.78, Environmental Services US$5, Student Union US$167, Medical Services US$66.85, International Education US$4, International Student Fee US$115 (non-immigrant visa students), Master's Advising US$49.50 per semester; x 2 = US$2,259.94 a year. Course-specific instructional fees (vary by course) and health insurance are excluded. 2025-26 row: statutory US$455/credit, other rates unchanged (UNT Tuition & Fees Administrative Manual 2025-2026) = US$13,640.22. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 13640.22,
+          "annualCompulsoryFees": 2259.94,
+          "oneOffFees": 0,
+          "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"
+        }
+      ]
+    }
+  ]
+}
