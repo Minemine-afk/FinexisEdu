@@ -1,0 +1,488 @@
+{
+  "id": "western",
+  "name": "Western University",
+  "country": "ca",
+  "city": "London, Ontario",
+  "currency": "CAD",
+  "website": "https://www.uwo.ca",
+  "description": "Western University is a public research university in London, Ontario, founded in 1878. It is home to the Ivey Business School and the Schulich School of Medicine & Dentistry.",
+  "whyIncluded": "Western University is among the 10 universities in Canada most chosen by international students (2,437 full-time international undergraduates and 1,270 full-time international master's students in 2024-25), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering Science (BESc)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 64310.0,
+          "annualCompulsoryFees": 2126.46,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition and compulsory fees for new international students. Western raises international fees most years, so later years may cost more. Health insurance (UHIP) is extra.",
+      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'Engineering' Year 1 row: total single payment C$67,384.46 = tuition C$64,310.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,126.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). First year is common to all engineering programmes (e.g. Software, Mechanical, Electrical).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 60618.0,
+          "annualCompulsoryFees": 2011.21,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024-2025%20Fall%20Winter%20UGRD%20FT%20fee%20schedule_International_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 62437.0,
+          "annualCompulsoryFees": 2067.02,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-FW-UGRD-FT-Fee-Schedule-INTL4.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (BSc) in Computer Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 55167.0,
+          "annualCompulsoryFees": 2051.46,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition and compulsory fees for new international students; the fourth year is charged at the lower general Science rate. Fees rise most years. Health insurance (UHIP) is extra.",
+      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'Computer Science' Year 1 row: total single payment C$58,166.46 = tuition C$55,167.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,051.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). Computer Science Years 1-3 are charged a higher rate; Year 4 drops to the general Science rate (C$46,597 in 2026-27).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 52000.0,
+          "annualCompulsoryFees": 1936.21,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024-2025%20Fall%20Winter%20UGRD%20FT%20fee%20schedule_International_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53560.0,
+          "annualCompulsoryFees": 1992.02,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-FW-UGRD-FT-Fee-Schedule-INTL4.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Management and Organizational Studies (BMOS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 60105.0,
+          "annualCompulsoryFees": 2051.46,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition and compulsory fees for new international students. Western raises international fees most years, so later years may cost more. Health insurance (UHIP) is extra.",
+      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'MOS' Year 1 row: total single payment C$63,104.46 = tuition C$60,105.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,051.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). Ivey's HBA is a second-entry programme (charged C$70,040 in 2026-27 for its two years) and is not used here.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 56654.0,
+          "annualCompulsoryFees": 1911.21,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024-2025%20Fall%20Winter%20UGRD%20FT%20fee%20schedule_International_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58354.0,
+          "annualCompulsoryFees": 1967.02,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-FW-UGRD-FT-Fee-Schedule-INTL4.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (BSc)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47493.0,
+          "annualCompulsoryFees": 2051.46,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition and compulsory fees for new international students. Western raises international fees most years, so later years may cost more. Health insurance (UHIP) is extra.",
+      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'Social Science, Science (exclud. Computer Science)' Year 1 row: total single payment C$50,492.46 = tuition C$47,493.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,051.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). 2024/2025 rows: 'Bio/Med Sci, Science (excl. Computer Science)' Year 1.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44767.0,
+          "annualCompulsoryFees": 1936.21,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024-2025%20Fall%20Winter%20UGRD%20FT%20fee%20schedule_International_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46110.0,
+          "annualCompulsoryFees": 1992.02,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-FW-UGRD-FT-Fee-Schedule-INTL4.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (BA), Arts and Humanities",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47493.0,
+          "annualCompulsoryFees": 2026.46,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition and compulsory fees for new international students. Western raises international fees most years, so later years may cost more. Health insurance (UHIP) is extra.",
+      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'Arts & Humanity' Year 1 row: total single payment C$50,467.46 = tuition C$47,493.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,026.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). 2024/2025 rows: 'Arts, Social Science, Media & Communication Studies' Year 1.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44767.0,
+          "annualCompulsoryFees": 1911.21,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024-2025%20Fall%20Winter%20UGRD%20FT%20fee%20schedule_International_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46110.0,
+          "annualCompulsoryFees": 1967.02,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-FW-UGRD-FT-Fee-Schedule-INTL4.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (BA) in Psychology, Faculty of Social Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47493.0,
+          "annualCompulsoryFees": 2051.46,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition and compulsory fees for new international students. Western raises international fees most years, so later years may cost more. Health insurance (UHIP) is extra.",
+      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'Social Science, Science (exclud. Computer Science)' Year 1 row: total single payment C$50,492.46 = tuition C$47,493.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,051.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). Psychology is in the Faculty of Social Science; in 2024/2025 Social Science shared the 'Arts, Social Science, Media & Communication Studies' Year 1 row.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44767.0,
+          "annualCompulsoryFees": 1911.21,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024-2025%20Fall%20Winter%20UGRD%20FT%20fee%20schedule_International_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46110.0,
+          "annualCompulsoryFees": 1967.02,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-FW-UGRD-FT-Fee-Schedule-INTL4.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Science in Nursing (BScN)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 59798.0,
+          "annualCompulsoryFees": 2076.46,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition and compulsory fees for new international students. Western raises international fees most years, so later years may cost more. Health insurance (UHIP) is extra.",
+      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'Nursing (Not Including Compressed Nursing)' Year 1 row: total single payment C$62,822.46 = tuition C$59,798.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,076.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). Western's programme page also lists a compressed-time-frame BScN; the fee schedule charges Nursing for Years 1-4.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 56365.0,
+          "annualCompulsoryFees": 2001.21,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024-2025%20Fall%20Winter%20UGRD%20FT%20fee%20schedule_International_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58056.0,
+          "annualCompulsoryFees": 2057.02,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-FW-UGRD-FT-Fee-Schedule-INTL4.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering (MEng) in Electrical and Computer Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47151.99,
+          "annualCompulsoryFees": 2009.84,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students over three terms (fall, winter, summer), plus compulsory student fees. Fees rise most years. Health insurance (UHIP) is extra.",
+      "notes": "Western Fall 2026 graduate full-time international schedule, row 'Faculty of Engineering Electrical & Computer Engineering MEng Program Specific Per Term', per term: tuition C$15,717.33, student organization C$130.55, UWO ancillary C$199.48, transit pass C$105.68, UHIP C$316.00, health and dental plan C$702.71. Annual = 3 terms: tuition C$15,717.33 x 3; compulsory = (organization + ancillary + transit) x 3 + health and dental plan once (the schedule says the plan covers September to August) = C$2,009.84; UHIP excluded. History: same row and method from the Fall 2025 schedule (tuition C$15,259.67/term; fees 126.89, 195.56, 103.81 per term + plan 641.31 = C$1,920.09) and Fall 2024 schedule (tuition C$14,815.33/term; fees 94.68, 191.73, 96.77 + plan 608.45 = C$1,757.99). Other MEng programmes (chemical, civil, mechanical) have the same fee.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44445.99,
+          "annualCompulsoryFees": 1757.99,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024%20Fall%20-%20Grad%20Fee%20Schedules%20FT%20INTL_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 45779.01,
+          "annualCompulsoryFees": 1920.09,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-Fall-Grad-Fee-Schedule-FT-INTL2.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science (MSc) in Computer Science",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20960.01,
+          "annualCompulsoryFees": 2009.84,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students over three terms (fall, winter, summer), plus compulsory student fees. Fees rise most years. Health insurance (UHIP) is extra.",
+      "notes": "Western Fall 2026 graduate full-time international schedule, row 'Faculty of Science Computer Science MSc Regular Per Term', per term: tuition C$6,986.67, student organization C$130.55, UWO ancillary C$199.48, transit pass C$105.68, UHIP C$316.00, health and dental plan C$702.71. Annual = 3 terms: tuition C$6,986.67 x 3; compulsory = (organization + ancillary + transit) x 3 + health and dental plan once (the schedule says the plan covers September to August) = C$2,009.84; UHIP excluded. History: same row and method from the Fall 2025 schedule (tuition C$6,849.67/term; fees 126.89, 195.56, 103.81 per term + plan 641.31 = C$1,920.09) and Fall 2024 schedule (tuition C$6,715.33/term; fees 94.68, 191.73, 96.77 + plan 608.45 = C$1,757.99). Research master's at the 'Regular' graduate tuition rate.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 20145.99,
+          "annualCompulsoryFees": 1757.99,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024%20Fall%20-%20Grad%20Fee%20Schedules%20FT%20INTL_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20549.01,
+          "annualCompulsoryFees": 1920.09,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-Fall-Grad-Fee-Schedule-FT-INTL2.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (MSc) in Physics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20960.01,
+          "annualCompulsoryFees": 2009.84,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students over three terms (fall, winter, summer), plus compulsory student fees. Fees rise most years. Health insurance (UHIP) is extra.",
+      "notes": "Western Fall 2026 graduate full-time international schedule, row 'Faculty of Science Physics MSc Regular Per Term', per term: tuition C$6,986.67, student organization C$130.55, UWO ancillary C$199.48, transit pass C$105.68, UHIP C$316.00, health and dental plan C$702.71. Annual = 3 terms: tuition C$6,986.67 x 3; compulsory = (organization + ancillary + transit) x 3 + health and dental plan once (the schedule says the plan covers September to August) = C$2,009.84; UHIP excluded. History: same row and method from the Fall 2025 schedule (tuition C$6,849.67/term; fees 126.89, 195.56, 103.81 per term + plan 641.31 = C$1,920.09) and Fall 2024 schedule (tuition C$6,715.33/term; fees 94.68, 191.73, 96.77 + plan 608.45 = C$1,757.99). Research master's at the 'Regular' graduate tuition rate.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 20145.99,
+          "annualCompulsoryFees": 1757.99,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024%20Fall%20-%20Grad%20Fee%20Schedules%20FT%20INTL_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20549.01,
+          "annualCompulsoryFees": 1920.09,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-Fall-Grad-Fee-Schedule-FT-INTL2.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (MA) in Economics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20960.01,
+          "annualCompulsoryFees": 2009.84,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students over three terms (fall, winter, summer), plus compulsory student fees. Fees rise most years. Health insurance (UHIP) is extra.",
+      "notes": "Western Fall 2026 graduate full-time international schedule, row 'Faculty of Social Science Economics MA Regular Per Term', per term: tuition C$6,986.67, student organization C$130.55, UWO ancillary C$199.48, transit pass C$105.68, UHIP C$316.00, health and dental plan C$702.71. Annual = 3 terms: tuition C$6,986.67 x 3; compulsory = (organization + ancillary + transit) x 3 + health and dental plan once (the schedule says the plan covers September to August) = C$2,009.84; UHIP excluded. History: same row and method from the Fall 2025 schedule (tuition C$6,849.67/term; fees 126.89, 195.56, 103.81 per term + plan 641.31 = C$1,920.09) and Fall 2024 schedule (tuition C$6,715.33/term; fees 94.68, 191.73, 96.77 + plan 608.45 = C$1,757.99). 'Regular' graduate tuition rate.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 20145.99,
+          "annualCompulsoryFees": 1757.99,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024%20Fall%20-%20Grad%20Fee%20Schedules%20FT%20INTL_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20549.01,
+          "annualCompulsoryFees": 1920.09,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-Fall-Grad-Fee-Schedule-FT-INTL2.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science (MSc) in Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20960.01,
+          "annualCompulsoryFees": 2009.84,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students over three terms (fall, winter, summer), plus compulsory student fees. Fees rise most years. Health insurance (UHIP) is extra.",
+      "notes": "Western Fall 2026 graduate full-time international schedule, row 'Faculty of Social Science Psychology MSc Regular Per Term', per term: tuition C$6,986.67, student organization C$130.55, UWO ancillary C$199.48, transit pass C$105.68, UHIP C$316.00, health and dental plan C$702.71. Annual = 3 terms: tuition C$6,986.67 x 3; compulsory = (organization + ancillary + transit) x 3 + health and dental plan once (the schedule says the plan covers September to August) = C$2,009.84; UHIP excluded. History: same row and method from the Fall 2025 schedule (tuition C$6,849.67/term; fees 126.89, 195.56, 103.81 per term + plan 641.31 = C$1,920.09) and Fall 2024 schedule (tuition C$6,715.33/term; fees 94.68, 191.73, 96.77 + plan 608.45 = C$1,757.99). Research master's at the 'Regular' graduate tuition rate.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 20145.99,
+          "annualCompulsoryFees": 1757.99,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/pdfsfeeschedule/2024%20Fall%20-%20Grad%20Fee%20Schedules%20FT%20INTL_2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20549.01,
+          "annualCompulsoryFees": 1920.09,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-Fall-Grad-Fee-Schedule-FT-INTL2.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration (MBA), Ivey Business School",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 136310.0,
+          "annualCompulsoryFees": 5000.0,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.ivey.uwo.ca/mba/admissions/tuition-living-expenses/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year Ivey MBA starting January 2027, plus student, ancillary and case-book fees. Health insurance (UHIP) is extra.",
+      "notes": "Ivey MBA tuition and living expenses page: international tuition C$136,310 for the programme year beginning January 2027 (paid in January, May and September 2027 instalments). Compulsory = Western student organization and ancillary fees incl. MBA Association fee C$2,300 + Ivey course material fees (case books) C$2,700; UHIP C$820 excluded. C$5,000 deposit is credited to tuition so not counted. No earlier-year figure on the page."
+    }
+  ]
+}

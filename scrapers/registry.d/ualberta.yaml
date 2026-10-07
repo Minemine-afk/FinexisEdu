@@ -1,0 +1,13 @@
+# University of Alberta: Board-approved international cohort tuition (2026-27) and the Graduate Studies international instructional-fee page.
+# All entries manual: the Board motion is a one-off PDF; thesis rate read by hand (Oct 2026).
+sources:
+  # University of Alberta tuition source read by hand (Oct 2026)
+  - university: ualberta
+    country: ca
+    url: "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+    manual: true
+  # University of Alberta tuition source read by hand (Oct 2026)
+  - university: ualberta
+    country: ca
+    url: "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/instructional-fees-international.html"
+    manual: true

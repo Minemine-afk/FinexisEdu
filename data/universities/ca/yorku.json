@@ -1,0 +1,317 @@
+{
+  "id": "yorku",
+  "name": "York University",
+  "country": "ca",
+  "city": "Toronto",
+  "currency": "CAD",
+  "website": "https://www.yorku.ca",
+  "description": "York University is a public research university in Toronto, Ontario, founded in 1959 and one of Canada's largest. It includes the Schulich School of Business, the Lassonde School of Engineering and Osgoode Hall Law School.",
+  "whyIncluded": "York University is among the 10 universities in Canada most chosen by international students (more than 9,600 international students from 175+ countries in 2025-26), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 8,
+    "monthly": {
+      "housing": 1375.0,
+      "food": 771.88,
+      "transport": 0,
+      "personal": 350
+    },
+    "sourceUrl": "https://futurestudents.yorku.ca/tuition",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own estimate for a student in residence with a meal plan over an 8-month year (midpoints of its ranges); local transport not included.",
+    "notes": "York Future Students tuition page, 'Estimated Living Expenses' 2026-27, residence column: residence C$9,000-13,000 (midpoint 11,000) and meal plan C$4,350-8,000 (midpoint 6,175) for 8 months; personal expenses C$4,200 (about C$350/month). Off-campus: apartment C$12,000+, food C$4,800, personal C$5,400. Health/dental C$359 excluded. No transport figure is given."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (BEng), Lassonde School of Engineering",
+      "durationYears": 4,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 44495.64,
+          "annualCompulsoryFees": 1568.16,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/lassonde/engineering",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition and supplementary fees for international students who started in 2025-26 (the latest year with a published programme fee table). Fees usually rise each year; health insurance extra.",
+      "notes": "York Student Financial Services 'Course and Program Fees / FW25 / Lassonde School of Engineering - Bachelor of Engineering', for students entering on or after 3 Sept 2025: international tuition C$1,235.99/credit + supplementary fees C$43.56/credit (centrally collected ancillary and student levies, e.g. athletics and recreation, health and counselling, York Federation of Students) x 36 credits. The 2026-27 per-programme tables on the same site are not yet readable; York's Future Students tuition page gives only rounded 2026-27 estimates (most programmes about C$40,000, Computer Science C$38,000, Engineering C$47,000 for 36 credits, tuition only), so 2025-26 is the current row. UHIP and the opt-out YFS health plan excluded. 2024 row: 'Course and Program Fees / FW24 / Lassonde School of Engineering-BEng' (entering on or after 4 Sept 2024): C$1,166.03/credit tuition + C$40.18/credit supplementary x 36. 36 credits: York's tuition page bases Engineering estimates on 36 credits a year.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41977.08,
+          "annualCompulsoryFees": 1446.48,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/lassonde/engineering"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (BSc) in Computer Science, Lassonde School of Engineering",
+      "durationYears": 4,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 35684.1,
+          "annualCompulsoryFees": 1270.8,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/lassonde/computer-science",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition and supplementary fees for international students who started in 2025-26 (the latest year with a published programme fee table). Fees usually rise each year; health insurance extra.",
+      "notes": "York Student Financial Services 'Course and Program Fees / FW25 / Lassonde School of Engineering - Computer Science', for students entering on or after 3 Sept 2025: international tuition C$1,189.47/credit + supplementary fees C$42.36/credit (centrally collected ancillary and student levies, e.g. athletics and recreation, health and counselling, York Federation of Students) x 30 credits. The 2026-27 per-programme tables on the same site are not yet readable; York's Future Students tuition page gives only rounded 2026-27 estimates (most programmes about C$40,000, Computer Science C$38,000, Engineering C$47,000 for 36 credits, tuition only), so 2025-26 is the current row. UHIP and the opt-out YFS health plan excluded. No 2024-25 table found for this programme."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (BSc), Faculty of Science",
+      "durationYears": 4,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 39368.1,
+          "annualCompulsoryFees": 1270.8,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/science",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition and supplementary fees for international students who started in 2025-26 (the latest year with a published programme fee table). Fees usually rise each year; health insurance extra.",
+      "notes": "York Student Financial Services 'Course and Program Fees / FW25 / Faculty of Science', for students entering on or after 3 Sept 2025: international tuition C$1,312.27/credit + supplementary fees C$42.36/credit (centrally collected ancillary and student levies, e.g. athletics and recreation, health and counselling, York Federation of Students) x 30 credits. The 2026-27 per-programme tables on the same site are not yet readable; York's Future Students tuition page gives only rounded 2026-27 estimates (most programmes about C$40,000, Computer Science C$38,000, Engineering C$47,000 for 36 credits, tuition only), so 2025-26 is the current row. UHIP and the opt-out YFS health plan excluded. 2024 row: 'Course and Program Fees / FW24 / Faculty of Science' (entering on or after 4 Sept 2024): C$1,220.71/credit tuition + C$39.02/credit supplementary x 30.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36621.3,
+          "annualCompulsoryFees": 1170.6,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/science"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (BA), Faculty of Liberal Arts and Professional Studies",
+      "durationYears": 4,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 37193.7,
+          "annualCompulsoryFees": 1270.8,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/laps",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition and supplementary fees for international students who started in 2025-26 (the latest year with a published programme fee table). Fees usually rise each year; health insurance extra.",
+      "notes": "York Student Financial Services 'Course and Program Fees / FW25 / Faculty of Liberal Arts and Professional Studies - all other programs', for students entering on or after 3 Sept 2025: international tuition C$1,239.79/credit + supplementary fees C$42.36/credit (centrally collected ancillary and student levies, e.g. athletics and recreation, health and counselling, York Federation of Students) x 30 credits. The 2026-27 per-programme tables on the same site are not yet readable; York's Future Students tuition page gives only rounded 2026-27 estimates (most programmes about C$40,000, Computer Science C$38,000, Engineering C$47,000 for 36 credits, tuition only), so 2025-26 is the current row. UHIP and the opt-out YFS health plan excluded. 2024 row: 'Course and Program Fees / FW24 / Faculty of Liberal Arts and Professional Studies, regular programs excluding Economics and Bachelor of Human Resources' (entering on or after 4 Sept 2024): C$1,203.68/credit tuition + C$39.02/credit supplementary x 30.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36110.4,
+          "annualCompulsoryFees": 1170.6,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/laps"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (BA) in Psychology, Faculty of Health",
+      "durationYears": 4,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 39368.1,
+          "annualCompulsoryFees": 1270.8,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/health/psychology",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition and supplementary fees for international students who started in 2025-26 (the latest year with a published programme fee table). Fees usually rise each year; health insurance extra.",
+      "notes": "York Student Financial Services 'Course and Program Fees / FW25 / Faculty of Health - Psychology', for students entering on or after 3 Sept 2025: international tuition C$1,312.27/credit + supplementary fees C$42.36/credit (centrally collected ancillary and student levies, e.g. athletics and recreation, health and counselling, York Federation of Students) x 30 credits. The 2026-27 per-programme tables on the same site are not yet readable; York's Future Students tuition page gives only rounded 2026-27 estimates (most programmes about C$40,000, Computer Science C$38,000, Engineering C$47,000 for 36 credits, tuition only), so 2025-26 is the current row. UHIP and the opt-out YFS health plan excluded. 2024 row: 'Course and Program Fees / FW24 / Faculty of Health, Psychology' (entering on or after 4 Sept 2024): C$1,220.72/credit tuition + C$39.02/credit supplementary x 30.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36621.6,
+          "annualCompulsoryFees": 1170.6,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/health/psychology"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science (MSc) in Computer Science",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 18825.0,
+          "annualCompulsoryFees": 898.89,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/graduate-studies/masters",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and supplementary fees for a full-time international master's student at York's standard graduate rate (three terms a year), for 2025-26 entrants. Health insurance extra.",
+      "notes": "York SFS 'Course and Program Fees / FW25 / Faculty of Graduate Studies - Masters' (entering on or after 3 Sept 2025): international full-time C$6,275.00 tuition + C$299.63 supplementary per term; x 3 terms (graduate students register Fall, Winter and Summer). Charged at the Faculty of Graduate Studies standard master's rate; a programme with its own fee page would differ. 2024 row: FW24 Masters page, C$6,275.00 + C$297.12 per term x 3. UHIP excluded. 2026-27 tables not yet readable.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18825.0,
+          "annualCompulsoryFees": 891.36,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/graduate-studies/masters"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (MSc) in Physics and Astronomy",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 18825.0,
+          "annualCompulsoryFees": 898.89,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/graduate-studies/masters",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and supplementary fees for a full-time international master's student at York's standard graduate rate (three terms a year), for 2025-26 entrants. Health insurance extra.",
+      "notes": "York SFS 'Course and Program Fees / FW25 / Faculty of Graduate Studies - Masters' (entering on or after 3 Sept 2025): international full-time C$6,275.00 tuition + C$299.63 supplementary per term; x 3 terms (graduate students register Fall, Winter and Summer). Charged at the Faculty of Graduate Studies standard master's rate; a programme with its own fee page would differ. 2024 row: FW24 Masters page, C$6,275.00 + C$297.12 per term x 3. UHIP excluded. 2026-27 tables not yet readable.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18825.0,
+          "annualCompulsoryFees": 891.36,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/graduate-studies/masters"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (MA) in English",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 18825.0,
+          "annualCompulsoryFees": 898.89,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/graduate-studies/masters",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and supplementary fees for a full-time international master's student at York's standard graduate rate (three terms a year), for 2025-26 entrants. Health insurance extra.",
+      "notes": "York SFS 'Course and Program Fees / FW25 / Faculty of Graduate Studies - Masters' (entering on or after 3 Sept 2025): international full-time C$6,275.00 tuition + C$299.63 supplementary per term; x 3 terms (graduate students register Fall, Winter and Summer). Charged at the Faculty of Graduate Studies standard master's rate; a programme with its own fee page would differ. 2024 row: FW24 Masters page, C$6,275.00 + C$297.12 per term x 3. UHIP excluded. 2026-27 tables not yet readable.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18825.0,
+          "annualCompulsoryFees": 891.36,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/graduate-studies/masters"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Arts (MA) in Psychology",
+      "durationYears": 2,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 18825.0,
+          "annualCompulsoryFees": 898.89,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/graduate-studies/masters",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and supplementary fees for a full-time international master's student at York's standard graduate rate (three terms a year), for 2025-26 entrants. Health insurance extra.",
+      "notes": "York SFS 'Course and Program Fees / FW25 / Faculty of Graduate Studies - Masters' (entering on or after 3 Sept 2025): international full-time C$6,275.00 tuition + C$299.63 supplementary per term; x 3 terms (graduate students register Fall, Winter and Summer). Charged at the Faculty of Graduate Studies standard master's rate; a programme with its own fee page would differ. 2024 row: FW24 Masters page, C$6,275.00 + C$297.12 per term x 3. UHIP excluded. 2026-27 tables not yet readable.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18825.0,
+          "annualCompulsoryFees": 891.36,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/graduate-studies/masters"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration (MBA), Schulich School of Business",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 62010.0,
+          "annualCompulsoryFees": 0.0,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://schulich.yorku.ca/admissions/tuition-fees-costs",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the full-time Schulich MBA starting Fall 2026: four terms, shown as two terms a year over two years. Supplementary fees are included in the tuition figure; health insurance extra.",
+      "notes": "Schulich 'Tuition Fees & Costs' page, Fall 2026 fee framework: international full-time MBA C$31,005 per term including supplementary fees (rounded), four terms (average completion), total C$124,019. Annual = 2 terms. Compulsory 0 because supplementary fees are inside the tuition figure. 2025 row: SFS 'Course and Program Fees / FW25 / Schulich School of Business - MBA, IMBA, PDAM' international full-time C$30,407.23 tuition + C$575.08 supplementary per term, x 2.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 60814.46,
+          "annualCompulsoryFees": 1150.16,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/schulich/mba-imba-pdam"
+        }
+      ]
+    }
+  ]
+}

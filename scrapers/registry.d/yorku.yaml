@@ -1,0 +1,43 @@
+# York University: Student Financial Services 'Course and Program Fees' pages, the Schulich MBA tuition page and the Future Students cost page.
+# All entries manual: SFS pages are per programme per year (bump the year in the URL); read by hand Oct 2026.
+sources:
+  # York fee page read by hand (Oct 2026)
+  - university: yorku
+    country: ca
+    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/lassonde/engineering"
+    manual: true
+  # York fee page read by hand (Oct 2026)
+  - university: yorku
+    country: ca
+    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/lassonde/computer-science"
+    manual: true
+  # York fee page read by hand (Oct 2026)
+  - university: yorku
+    country: ca
+    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/science"
+    manual: true
+  # York fee page read by hand (Oct 2026)
+  - university: yorku
+    country: ca
+    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/laps"
+    manual: true
+  # York fee page read by hand (Oct 2026)
+  - university: yorku
+    country: ca
+    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/health/psychology"
+    manual: true
+  # York fee page read by hand (Oct 2026)
+  - university: yorku
+    country: ca
+    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/graduate-studies/masters"
+    manual: true
+  # York fee page read by hand (Oct 2026)
+  - university: yorku
+    country: ca
+    url: "https://schulich.yorku.ca/admissions/tuition-fees-costs"
+    manual: true
+  # York living-cost estimate read by hand (Oct 2026)
+  - university: yorku
+    country: ca
+    url: "https://futurestudents.yorku.ca/tuition"
+    manual: true
