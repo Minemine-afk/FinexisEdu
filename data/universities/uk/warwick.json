@@ -501,14 +501,20 @@
       "lastVerified": "2026-10-07",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition for international students starting in 2026. Years 2 to 4 cost much more (£56,660 a year at 2026-27 rates), and fees may rise each year with inflation.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), rows 'Bachelor of Medicine & Bachelor of Surgery (Year 1)' A101 and '(Years 2-4)': 2025-26 £30,670 / £53,460; 2026-27 £32,510 / £56,660; 2027-28 TBA, so the latest published year (2026) is used. Warwick's MBChB is a four-year graduate-entry degree, so it is listed under Master's per the README rule; first-year fee recorded, later-year rate here. Warwick Medical School was added to the Singapore Medical Council's list of registrable qualifications from 1 January 2025 (news reports of the SMC update). Continuing-student fees may rise with an inflationary uplift.",
+      "summary": "Year 1 of this 4-year graduate-entry medical degree costs £32,510 at 2026-27 rates; years 2 to 4 cost £56,660 a year, and fees may rise each year with inflation. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), rows 'Bachelor of Medicine & Bachelor of Surgery (Year 1)' A101 and '(Years 2-4)': 2025-26 £30,670 / £53,460; 2026-27 £32,510 / £56,660; 2027-28 TBA, so the latest published year (2026) is used. Warwick's MBChB is a four-year graduate-entry degree, so it is listed under Master's per the README rule; first-year fee recorded, later-year rate here. Warwick Medical School was added to the Singapore Medical Council's list of registrable qualifications from 1 January 2025 (news reports of the SMC update). Continuing-student fees may rise with an inflationary uplift. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 30670,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 56660
         }
       ]
     }

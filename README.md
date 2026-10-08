@@ -36,10 +36,10 @@ every scraped change goes through a pull request:
 - the website shows a "Data may be outdated" badge on entries older than a year,
   and an "Unofficial source" badge on figures not taken from the university itself.
 
-## Coverage (checked 30 Sep 2026)
+## Coverage (checked 8 Oct 2026)
 
-51 universities, 719 programmes: five universities in each of the 10 countries,
-plus SIM Global Education in Singapore, across nine fields (engineering,
+109 universities, 1,388 programmes: five to sixteen universities in each of the
+10 countries, plus SIM Global Education in Singapore, across nine fields (engineering,
 computing, business, sciences, arts and humanities, law, medicine, psychology,
 nursing). Psychology covers the main bachelor's and one taught master's at
 every university that offers them (Imperial, SIT, TUM, ETH, EPFL and St. Gallen
@@ -49,9 +49,9 @@ Brain and Cognitive Sciences, its nearest equivalent. Law and medicine cover the
 Singapore Institute of Legal Education's approved list and the Singapore
 Medical Council's recognised list respectively, plus the local schools;
 undergraduate-entry degrees (LLB, MBBS) sit under Bachelor's and graduate-entry
-ones (JD, LLM, graduate-entry MD) under Master's. Where medicine fees rise in
-the clinical years, the first-year fee is used and the later rates are in the
-programme's notes.
+ones (JD, LLM, graduate-entry MD) under Master's. Where later years of a
+programme cost more (the clinical years of medicine, say), each year is priced
+at its own published fee (`laterYears` in the data; see `data/SCHEMA.md`).
 Every current figure was checked against the university's own fee page or PDF
 where the page is readable, and 2024/2025 figures come from the universities'
 published fee tables for those years.
@@ -60,8 +60,8 @@ published fee tables for those years.
 |---|---|---|
 | Singapore | NUS, NTU, SMU, SIT, SUSS, SIM (9 partner universities) | NUS, NTU, SIT; SMU, SUSS and SIM are manual |
 | Australia | ANU, Melbourne, Monash, UNSW, Sydney, RMIT, Deakin, Queensland, Adelaide University | ANU, UNSW, Sydney; Melbourne and Monash are manual (Cloudflare); RMIT, Deakin, Queensland and Adelaide University are manual |
-| UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL, Glasgow, Manchester, Warwick, Hertfordshire, Coventry, East London | Cambridge, Imperial, LSE, UCL; Oxford is manual; the last six are manual |
-| US | Berkeley, CMU, Harvard, MIT, Stanford | All |
+| UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL, Glasgow, Manchester, Warwick, Hertfordshire, Coventry, East London, King's College London, Bristol, Birmingham | Cambridge, Imperial, LSE, UCL; Oxford is manual; the last nine are manual |
+| US | Berkeley, CMU, Harvard, MIT, Stanford, ASU, UIUC, Purdue, Northeastern, USC, UCLA, Columbia, NYU, Boston University, Johns Hopkins, North Texas | First five: all; the other eleven are manual |
 | Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin, TU Darmstadt, Duisburg-Essen, Bonn, Goethe Frankfurt, FU Berlin, OVGU Magdeburg | TUM, LMU Munich, Heidelberg and RWTH Aachen; HU Berlin (semester-fee page blocks bots) and the six newer universities are checked by hand |
 | Canada | McGill, McMaster, Toronto, UBC, Waterloo, York, Concordia, Simon Fraser, Alberta, Western | First five: all (McMaster's tuition spreadsheet and UBC compulsory fees are manual); the other five are manual |
 | New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington, Waikato, Lincoln, EIT, Unitec | All except Otago (bot-protected); Waikato, Lincoln, EIT and Unitec are manual |

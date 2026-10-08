@@ -48,6 +48,9 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
           "oneOffFees": 0,                       // optional; current value is used if omitted
           "sourceUrl": "https://..."             // optional but strongly preferred
         }
+      ],
+      "laterYears": [                            // optional; years of study charged a different fee, see below
+        { "fromYear": 2, "annualTuition": 86561, "estimate": false }
       ]
     }
   ]
@@ -65,6 +68,16 @@ Definitions:
 - `cohortLocked` — NUS/NTU/SMU and most UK universities fix fees for an intake
   cohort; many US/AU/CA universities raise them every year. When it is true the
   calculator does not apply yearly increases after the start year.
+- `laterYears` — for programmes where later years of study cost a different
+  amount from the first year (clinical years of medicine, a JD with a lighter
+  credit load after year 1). `fromYear` is the 1-based year of study the figure
+  applies from, until the next entry; `tier` limits an entry to one residency
+  tier (omit for all); `annualCompulsoryFees` defaults to the current value;
+  `estimate: true` marks a figure derived from a published programme total
+  rather than quoted per year. The calculator charges each year its own fee
+  and projects later years from the same `feeYear` as `fees`. Without this,
+  the first-year fee is charged every year, so always add it where the
+  university publishes higher later-year fees, and say so in `summary`.
 - `partners` / `partner` — for an institution such as SIM Global Education whose
   degrees are awarded by partner universities. The calculator then asks for the
   partner after the university, and the yearly increase is estimated from that

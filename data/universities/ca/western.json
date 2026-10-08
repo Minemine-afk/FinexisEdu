@@ -63,8 +63,8 @@
       "lastVerified": "2026-10-07",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition and compulsory fees for new international students; the fourth year is charged at the lower general Science rate. Fees rise most years. Health insurance (UHIP) is extra.",
-      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'Computer Science' Year 1 row: total single payment C$58,166.46 = tuition C$55,167.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,051.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). Computer Science Years 1-3 are charged a higher rate; Year 4 drops to the general Science rate (C$46,597 in 2026-27).",
+      "summary": "Years 1 to 3 cost C$55,167 a year in tuition; year 4 drops to the general Science rate of C$46,597 (2026-27 rates). Fees rise most years. Compulsory fees of about C$2,050 included; health insurance (UHIP) is extra.",
+      "notes": "Western 2026-27 Fall/Winter undergraduate full-time international fee schedule, 'Computer Science' Year 1 row: total single payment C$58,166.46 = tuition C$55,167.00 + student organization, orientation (Year 1 only), USC health and dental plan, transit pass, faculty donation and faculty society fees, + UHIP C$948.00. Compulsory = total - tuition - UHIP = C$2,051.46. The C$948 UHIP column matches the 12-month UHIP rate (C$316/term on the Fall 2026 grad schedule; the schedule's footnote still quotes C$792, the 2025-26 rate). One-time C$50 Western One Card fee for new students excluded. History: same Year 1 row and method on the 2025-26 schedule (UHIP C$792) and 2024-25 schedule (UHIP C$756). Computer Science Years 1-3 are charged a higher rate; Year 4 drops to the general Science rate (C$46,597 in 2026-27). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -81,6 +81,12 @@
           "annualCompulsoryFees": 1992.02,
           "oneOffFees": 0.0,
           "sourceUrl": "https://registrar.uwo.ca/Student_Finances/fees_refunds/2025-FW-UGRD-FT-Fee-Schedule-INTL4.pdf"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 4,
+          "annualTuition": 46597
         }
       ]
     },

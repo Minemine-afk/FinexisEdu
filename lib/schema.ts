@@ -52,6 +52,17 @@ export const FeeHistoryEntry = z.object({
 });
 
 // A university whose degree another institution teaches (e.g. SIM Global Education's partners).
+export const LaterYearFee = z.object({
+  fromYear: z.number().int().min(2).max(8),
+  /** Omit when the figure applies to every tier. */
+  tier: Tier.optional(),
+  annualTuition: money,
+  /** The current value is used if omitted. */
+  annualCompulsoryFees: money.optional(),
+  /** True when derived from a published programme total rather than quoted per year. */
+  estimate: z.boolean().default(false),
+});
+
 export const Partner = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   name: z.string().min(1),
@@ -86,6 +97,13 @@ export const Programme = z.object({
   /** Detailed source and method notes for maintainers; not shown on the site. */
   notes: z.string().optional(),
   feeHistory: z.array(FeeHistoryEntry).default([]),
+  /**
+   * Years of study charged a different fee from `fees`, e.g. the clinical
+   * years of a medicine degree. Each entry applies from `fromYear` (1-based
+   * year of study) until the next entry. Later years are projected from the
+   * same fee year as `fees`.
+   */
+  laterYears: z.array(LaterYearFee).default([]),
 });
 
 export const LIVING_CATEGORIES = [
@@ -158,6 +176,7 @@ export type Field = z.infer<typeof Field>;
 export type Tier = z.infer<typeof Tier>;
 export type FeeTier = z.infer<typeof FeeTier>;
 export type FeeHistoryEntry = z.infer<typeof FeeHistoryEntry>;
+export type LaterYearFee = z.infer<typeof LaterYearFee>;
 export type Partner = z.infer<typeof Partner>;
 export type Programme = z.infer<typeof Programme>;
 export type LivingCategory = z.infer<typeof LivingCategory>;

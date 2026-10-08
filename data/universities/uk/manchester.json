@@ -214,9 +214,15 @@
       "lastVerified": "2026-10-07",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition for international students (2026-27 rate). Fees rise to a higher clinical rate from Year 3 and may increase by up to 7% a year. No separate compulsory fees.",
-      "notes": "The 2027-entry course page quotes the 2026/27 rates: pre-clinical (Years 1-2) GBP 39,900 per year for students starting in September 2026; clinical (Years 3-5) GBP 60,900 for students entering the clinical part in 2026, set at the rate applicable when entering Year 3. First-year (pre-clinical) fee used per the calculator's medicine rule. 5-year programme, open to overseas applicants. Read 2026-10-07. The 2025-entry URL redirects to the 2027 page, so no earlier figure. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
-      "feeHistory": []
+      "summary": "Years 1 and 2 (pre-clinical) cost £39,900 a year at 2026-27 rates; years 3 to 5 (clinical) cost £60,900 a year at the rate set when you enter year 3. Manchester may raise fees by up to 7% a year. No separate compulsory fees.",
+      "notes": "The 2027-entry course page quotes the 2026/27 rates: pre-clinical (Years 1-2) GBP 39,900 per year for students starting in September 2026; clinical (Years 3-5) GBP 60,900 for students entering the clinical part in 2026, set at the rate applicable when entering Year 3. First-year (pre-clinical) fee used per the calculator's medicine rule. 5-year programme, open to overseas applicants. Read 2026-10-07. The 2025-entry URL redirects to the 2027 page, so no earlier figure. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
+      "feeHistory": [],
+      "laterYears": [
+        {
+          "fromYear": 3,
+          "annualTuition": 60900
+        }
+      ]
     },
     {
       "level": "master",

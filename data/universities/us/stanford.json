@@ -344,8 +344,8 @@
       "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year MBA tuition plus the campus health fee and a one-off document fee; second-year tuition is lower. Health insurance and living costs not included.",
-      "notes": "GSB 'Cost of Attendance Breakdown: First-Year MBA 2026-2027' tuition $89,187 = GSB MBA first-year rate $29,729 per quarter x 3 (Autumn, Winter, Spring) on the 2026-27 graduate and professional tuition page; second-year rate is $28,585 per quarter ($85,755), not averaged in. Other fees = Campus Health Service Fee ($843, also on the GSB page); one-off = Document Fee. Cardinal Care insurance ($8,808, waivable), living and housing allowances not included. 2024 = $27,485 x 3 and 2025 = $28,585 x 3 (first-year rates) from those years' graduate and professional tuition pages. 2024 Campus Health Service Fee: the 2024-25 Student Services non-tuition fees page lists the fee without an amount (live and Common Crawl captures), and Vaden's health-fee page has no 2024 capture. The 2024-25 figure is stated as $783 per year (3 quarters x $261) in two official Stanford 2024-25 budgets: GSB 'Cost of Attendance Breakdown: First-Year MBA 2024-2025', 'Health Fee $783' (gsb.stanford.edu, Common Crawl capture 20241102043701), and Stanford Law School '2024-2025' standard budget, 'Health Services Fee 783' (law.stanford.edu/apply/tuition-financial-aid/cost-of-attendance/, Common Crawl capture 20240909040612). It is one university-wide fee (2025-26 $271/quarter, 2026-27 $281/quarter on the Student Services pages). Document Fee $250 one-off unchanged (2024-25 non-tuition page). Tuition unchanged from the existing row.",
+      "summary": "Year 1 tuition is US$89,187 (three quarters at the first-year rate); year 2 is about US$85,755 at the lower second-year rate. Plus the US$843 campus health fee and a one-off US$250 document fee. Health insurance and living costs are extra.",
+      "notes": "GSB 'Cost of Attendance Breakdown: First-Year MBA 2026-2027' tuition $89,187 = GSB MBA first-year rate $29,729 per quarter x 3 (Autumn, Winter, Spring) on the 2026-27 graduate and professional tuition page; second-year rate is $28,585 per quarter ($85,755), not averaged in. Other fees = Campus Health Service Fee ($843, also on the GSB page); one-off = Document Fee. Cardinal Care insurance ($8,808, waivable), living and housing allowances not included. 2024 = $27,485 x 3 and 2025 = $28,585 x 3 (first-year rates) from those years' graduate and professional tuition pages. 2024 Campus Health Service Fee: the 2024-25 Student Services non-tuition fees page lists the fee without an amount (live and Common Crawl captures), and Vaden's health-fee page has no 2024 capture. The 2024-25 figure is stated as $783 per year (3 quarters x $261) in two official Stanford 2024-25 budgets: GSB 'Cost of Attendance Breakdown: First-Year MBA 2024-2025', 'Health Fee $783' (gsb.stanford.edu, Common Crawl capture 20241102043701), and Stanford Law School '2024-2025' standard budget, 'Health Services Fee 783' (law.stanford.edu/apply/tuition-financial-aid/cost-of-attendance/, Common Crawl capture 20240909040612). It is one university-wide fee (2025-26 $271/quarter, 2026-27 $281/quarter on the Student Services pages). Document Fee $250 one-off unchanged (2024-25 non-tuition page). Tuition unchanged from the existing row. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -362,6 +362,12 @@
           "annualCompulsoryFees": 813,
           "oneOffFees": 250,
           "sourceUrl": "https://studentservices.stanford.edu/tuition-rates/2025-2026-graduate-and-professional-tuition-rates"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 85755
         }
       ]
     },
