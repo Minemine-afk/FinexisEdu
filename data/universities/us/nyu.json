@@ -1,0 +1,258 @@
+{
+  "id": "nyu",
+  "name": "New York University",
+  "country": "us",
+  "city": "New York, NY",
+  "currency": "USD",
+  "website": "https://www.nyu.edu",
+  "description": "New York University is a private research university founded in 1831, centred on Washington Square in Manhattan, with degree-granting campuses in Abu Dhabi and Shanghai. Its schools include the Stern School of Business, Tandon School of Engineering and the School of Law.",
+  "whyIncluded": "New York University is among the 10 universities in the United States most chosen by international students (27,532 international students in 2024-25, the most of any US university, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026; its JD is on the Singapore Institute of Legal Education's approved list and its MD on the Singapore Medical Council's list.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 2937.56,
+      "food": 0.0,
+      "transport": 270.89,
+      "personal": 394.0
+    },
+    "sourceUrl": "https://www.nyu.edu/admissions/financial-aid-and-scholarships/cost-of-attendance.html",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "NYU's own estimate for a New York undergraduate's 9-month academic year: food and housing (shown together), transport, books and personal costs. Tuition and health insurance are extra.",
+    "notes": "NYU Admissions 'Cost of Attendance' 2026-2027, New York campus, fall + spring: Food and Housing US$26,438 (combined, so all under housing; food 0); Transportation US$2,438; personal = Books and Supplies US$1,492 + Personal Expenses US$2,054 = US$3,546. Tandon's graduate estimate (9 credits) is higher: food US$6,910, housing US$24,414."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BS in Mechanical Engineering (Tandon School of Engineering)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 68576,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://bulletins.nyu.edu/nyu/cost-attendance/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and mandatory registration fees for NYU undergraduates in New York, quoted as one figure. Health insurance not included; fees rise each year.",
+      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BA in Computer Science (College of Arts and Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 68576,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://bulletins.nyu.edu/nyu/cost-attendance/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and mandatory registration fees for NYU undergraduates in New York, quoted as one figure. Health insurance not included; fees rise each year.",
+      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BS in Business (Stern School of Business)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 70464,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://bulletins.nyu.edu/nyu/cost-attendance/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and mandatory registration fees for NYU undergraduates in New York, quoted as one figure. Health insurance not included; fees rise each year.",
+      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$70,464 for the Leonard N. Stern School of Business (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BS in Physics (College of Arts and Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 68576,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://bulletins.nyu.edu/nyu/cost-attendance/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and mandatory registration fees for NYU undergraduates in New York, quoted as one figure. Health insurance not included; fees rise each year.",
+      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA in History (College of Arts and Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 68576,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://bulletins.nyu.edu/nyu/cost-attendance/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and mandatory registration fees for NYU undergraduates in New York, quoted as one figure. Health insurance not included; fees rise each year.",
+      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BA in Psychology (College of Arts and Science)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 68576,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://bulletins.nyu.edu/nyu/cost-attendance/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and mandatory registration fees for NYU undergraduates in New York, quoted as one figure. Health insurance not included; fees rise each year.",
+      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "BS in Nursing (Rory Meyers College of Nursing)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 68576,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://bulletins.nyu.edu/nyu/cost-attendance/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition and mandatory registration fees for NYU undergraduates in New York, quoted as one figure. Health insurance not included; fees rise each year.",
+      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Full-time MBA (Stern School of Business)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 92658,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 2040
+        }
+      },
+      "sourceUrl": "https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/full-time/mba1",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for the two-year Stern MBA, plus a one-off orientation fee. Health insurance not included; fees rise each year.",
+      "notes": "NYU Stern 'Cost of Attendance for Full-time MBA Students' MBA1 budget, 2026-2027 (fall + spring, 9 months): Tuition US$92,658; Orientation Fee (LAUNCH) US$2,040 (first year, recorded as one-off). The budget lists no separate registration fee, so compulsory fees are 0 (assumed included in the tuition line). Health insurance US$5,100 excluded. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "JD (NYU School of Law)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 87312,
+          "annualCompulsoryFees": 3326,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.law.nyu.edu/financialaid/budgetandbudgeting/studentexpensebudget",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly JD tuition plus NYU's health, registration, service and technology fees. Health insurance not included. Fees rise each year.",
+      "notes": "NYU Law 'Student Expense Budget' 2026-27, JD: Tuition US$87,312; Health, Registration, Service, and Tech Fees US$3,326. Health Insurance (basic) US$4,952 excluded. NYU's JD is on the Singapore Institute of Legal Education's approved list (Fifth Schedule, Legal Profession (Qualified Persons) Rules; graduates in the top 70% of their batch). NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "MD (NYU Grossman School of Medicine)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 4550,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://med.nyu.edu/education/md-degree/affordability-financial-aid/cost-attendance",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "NYU Grossman gives every MD student a full-tuition scholarship, so only fees are charged (US$65,500 tuition is covered). Health insurance is subsidised. Living costs are extra.",
+      "notes": "NYU Grossman School of Medicine Cost of Attendance 2026-27, four-year MD: Tuition US$65,500 less Full-Tuition Scholarship US$65,500 each year; Fees US$4,550 each year; Student Health Insurance US$9,325 less Health Insurance Subsidy US$9,325. annualTuition recorded as 0 because the page applies the scholarship to all current and entering MD students; the page does not mention international students specifically, so confirm eligibility with the school. NYU Grossman's MD is on the Second Schedule of Singapore's Medical Registration Act. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. ",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA in Media, Culture, and Communication (Steinhardt)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56712,
+          "annualCompulsoryFees": 2950,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://steinhardt.nyu.edu/admissions/tuition-and-student-charges/graduate-study-tuition-and-fees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "NYU charges this master's per credit: shown for a full-time year of 24 credits plus registration and services fees. The 36-credit degree takes three terms. Health insurance not included.",
+      "notes": "NYU Steinhardt 'Graduate Study Tuition and Fees' 2026-2027: tuition US$2,363 per credit; registration/service fee US$584 for the first credit each term + US$81 per additional credit. Annual figure = 12 credits per term x 2 terms = 24 credits x US$2,363 = US$56,712; fees = (US$584 + 11 x US$81) x 2 = US$2,950. The MA is 36 credits over three terms of 12 credits (NYU Bulletins sample plan), so the third term adds about half a year's cost. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. ",
+      "feeHistory": []
+    }
+  ]
+}

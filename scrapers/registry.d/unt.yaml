@@ -1,0 +1,7 @@
+# University of North Texas: added Oct 2026. All sources are checked by hand (UNT tuition is built from per-credit rates on the Student Accounting pages; checked by hand).
+sources:
+  # UNT tuition is built from per-credit rates on the Student Accounting pages; checked by hand
+  - university: unt
+    country: us
+    url: "https://studentaccounting.unt.edu/tuition-and-fees.html"
+    manual: true
