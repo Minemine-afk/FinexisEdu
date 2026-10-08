@@ -1,0 +1,267 @@
+{
+  "id": "ovgu",
+  "name": "Otto von Guericke University Magdeburg",
+  "country": "de",
+  "city": "Magdeburg",
+  "currency": "EUR",
+  "website": "https://www.ovgu.de",
+  "description": "Otto von Guericke University Magdeburg is a public university in Magdeburg, Saxony-Anhalt, founded in 1993. It has about 13,000 students and is strongest in engineering, computer science, medicine and economics.",
+  "whyIncluded": "Otto von Guericke University Magdeburg is among the 10 universities in Germany most chosen by international students (about 5,400 international students, 41% of 13,121, per a 2026 aggregator figure), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 400,
+      "food": 250,
+      "transport": 0,
+      "personal": 348
+    },
+    "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own estimate of rent, food and personal costs in Magdeburg for 12 months a year. Transport is covered by the semester fee. Excludes health insurance.",
+    "notes": "OVGU 'Finance' page for international students: accommodation EUR 300-500 -> midpoint 400; food and beverages 150-350 -> 250; public transportation free for enrolled students (ticket in the semester fee) -> 0; personal = phone/internet 30 + broadcasting fee 18.36 + miscellaneous 'up to 300' (upper bound used) = 348.36, rounded to 348. Health insurance (from 140) excluded. OVGU's own total: approx. EUR 992-1,200 a month (11,904-14,400 a year)."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Informatik (Computer Science) B.Sc.",
+      "durationYears": 3.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 7 semesters (OVGU bachelor's overview, ovgu.de/unimagdeburg/en/bachelor-p-48818.html). OVGU also offers a Bilingual Computer Science B.Sc. Language not read from the programme page; OVGU's bachelor's degrees are mostly German-taught."
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Maschinenbau (Mechanical Engineering) B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 6 semesters (OVGU bachelor's overview). Language not read from the programme page; OVGU's bachelor's degrees are mostly German-taught."
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Betriebswirtschaftslehre (Business Management) B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 6 semesters (OVGU bachelor's overview). Language not read from the programme page; OVGU's bachelor's degrees are mostly German-taught."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physik (Physics) B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 6 semesters (OVGU bachelor's overview). Language not read from the programme page; OVGU's bachelor's degrees are mostly German-taught."
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Europäische Studien (European Studies) B.A.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 6 semesters (OVGU bachelor's overview); OVGU's humanities and social sciences faculty's main interdisciplinary B.A. Language not read from the programme page; OVGU's bachelor's degrees are mostly German-taught."
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychologie (Psychology) B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 6 semesters (OVGU bachelor's overview). Admission restricted. Language not read from the programme page; OVGU's bachelor's degrees are mostly German-taught."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Data and Knowledge Engineering M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket. Taught in English.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 4 semesters (OVGU master's overview, ovgu.de/unimagdeburg/en/master-p-48820.html). OVGU's best-known international computing master's; taught in English per the Faculty of Computer Science's programme pages (not re-read here)."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Electrical Engineering and Information Technology M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 4 semesters (OVGU master's overview). Language not read from the programme page."
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "International Management, Marketing, Entrepreneurship M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 4 semesters (OVGU master's overview). Consecutive master's at the Faculty of Economics and Management. Language not read from the programme page."
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 4 semesters (OVGU master's overview). Language not read from the programme page."
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "European Studies M.A.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 4 semesters (OVGU master's overview). Language not read from the programme page."
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychology M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 658.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ovgu.de/unimagdeburg/en/International/Incoming+_+Ways+to+the+University/International+Students/Organizing+Your+Stay/Finance-p-48630.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester fee, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: OVGU's 'Finance' page for international students states 'There are no tuition fees'. Compulsory fees = semester fee EUR 329.30 per semester x2 = 658.60 (stated on the same page, not itemised there). OVGU's 'Semester Fee' page (ovgu.de/en/-p-48762.html) still shows the earlier EUR 311.30 = Studentenwerk 90.00 + Deutschlandsemesterticket 208.80 + student body 12.50 without naming the semester; 329.30 matches the same items with the ticket at its 2026/27 price of 226.80. No 2024/2025 history: no page found that dates an earlier semester fee. Standard period 4 semesters (OVGU master's overview). Language not read from the programme page."
+    }
+  ]
+}

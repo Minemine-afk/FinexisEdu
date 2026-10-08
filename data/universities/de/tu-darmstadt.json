@@ -1,0 +1,468 @@
+{
+  "id": "tu-darmstadt",
+  "name": "Technical University of Darmstadt",
+  "country": "de",
+  "city": "Darmstadt",
+  "currency": "EUR",
+  "website": "https://www.tu-darmstadt.de",
+  "description": "TU Darmstadt is a public technical university in Darmstadt, Hesse, with about 24,000 students. It is best known for engineering, computer science and the natural sciences.",
+  "whyIncluded": "TU Darmstadt is among the 10 universities in Germany most chosen by international students (about 7,800 international students, 32% of 24,465, per a 2026 aggregator figure), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Informatik B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in German.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: German. Programme name and language from TU Darmstadt's bachelor's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/bachelor_studiengaenge_4/), which lists every bachelor's as German-taught and says bachelor's 'typically' take six semesters; the per-programme standard period was not checked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Maschinenbau - Sustainable Engineering B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in German.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: German. Mechanical engineering bachelor's. Programme name and language from TU Darmstadt's bachelor's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/bachelor_studiengaenge_4/), which lists every bachelor's as German-taught and says bachelor's 'typically' take six semesters; the per-programme standard period was not checked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Wirtschaftsingenieurwesen B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in German.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: German. Industrial engineering and management, offered with four technical specialisations. Programme name and language from TU Darmstadt's bachelor's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/bachelor_studiengaenge_4/), which lists every bachelor's as German-taught and says bachelor's 'typically' take six semesters; the per-programme standard period was not checked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physik B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in German.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: German. Programme name and language from TU Darmstadt's bachelor's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/bachelor_studiengaenge_4/), which lists every bachelor's as German-taught and says bachelor's 'typically' take six semesters; the per-programme standard period was not checked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Geschichte B.A.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in German.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: German. History. Programme name and language from TU Darmstadt's bachelor's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/bachelor_studiengaenge_4/), which lists every bachelor's as German-taught and says bachelor's 'typically' take six semesters; the per-programme standard period was not checked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychologie B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in German.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: German. Programme name and language from TU Darmstadt's bachelor's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/bachelor_studiengaenge_4/), which lists every bachelor's as German-taught and says bachelor's 'typically' take six semesters; the per-programme standard period was not checked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in English.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: English (listed among TU Darmstadt's English-taught master's). Programme name and language from TU Darmstadt's master's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/master_studiengaenge/), which says master's typically take four semesters.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Aerospace Engineering M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in English.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: English (listed among TU Darmstadt's English-taught master's). The German-taught Maschinenbau M.Sc. is the alternative for German speakers. Programme name and language from TU Darmstadt's master's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/master_studiengaenge/), which says master's typically take four semesters.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Entrepreneurship and Innovation Management M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in English.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: English (listed among TU Darmstadt's English-taught master's). Programme name and language from TU Darmstadt's master's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/master_studiengaenge/), which says master's typically take four semesters.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in English.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: English (listed among TU Darmstadt's English-taught master's; a German-taught Physik M.Sc. is also listed). Programme name and language from TU Darmstadt's master's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/master_studiengaenge/), which says master's typically take four semesters.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Data and Discourse Studies M.A.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in English.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: English (listed among TU Darmstadt's English-taught master's). Linguistics and digital humanities. Programme name and language from TU Darmstadt's master's overview (tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/master_studiengaenge/), which says master's typically take four semesters.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychologie: Arbeit, Technik, Organisation M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 805.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu-darmstadt.de/semesterbeitrag",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in German.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and TU Darmstadt's fee page lists only the semester contribution. Compulsory fees = semester contribution for regular (degree-seeking) students, winter semester 2026/27, EUR 402.68 x2 (early-payment rate; EUR 30 more if paid late): Deutschlandsemesterticket 226.80 + Studierendenwerk 103.00 + student council/AStA 16.00 + hardship fund 0.40 + Call-a-Bike 2.98 + theatre 0.75 + museum 0.10 + student union membership 0.40 + legal protection insurance 2.00 + Studierendenwerk building 0.25 = 352.68, plus the Hesse administration fee (Verwaltungskostenbeitrag) 50.00; exchange students pay 352.68. History from TU Darmstadt's 'Liste der Semesterbeitraege der letzten Jahre' PDF (regular students, incl. administration fee 50): winter 2024/25 EUR 338.18 (incl. ticket 176.40, Studierendenwerk 93) -> 676.36; winter 2025/26 EUR 381.18 (ticket 208.80, Studierendenwerk 103) -> 762.36; summer terms not used. Language of instruction: German (the programme is presented only in German on tu-darmstadt.de/studieren/abschluesse/master/psychologie-msc.de.jsp; language not stated in what was read). Work, engineering and organisational psychology; needs a psychology bachelor's. Standard four semesters assumed from the master's overview.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 676.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.36,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+        }
+      ]
+    }
+  ]
+}

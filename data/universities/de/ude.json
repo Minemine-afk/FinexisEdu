@@ -1,0 +1,468 @@
+{
+  "id": "ude",
+  "name": "University of Duisburg-Essen",
+  "country": "de",
+  "city": "Duisburg and Essen",
+  "currency": "EUR",
+  "website": "https://www.uni-due.de",
+  "description": "The University of Duisburg-Essen is a public university in the Ruhr area of North Rhine-Westphalia, formed in 2003 from the universities of Duisburg and Essen. It has more than 37,000 students on its two campuses and a university hospital in Essen.",
+  "whyIncluded": "The University of Duisburg-Essen is among the 10 universities in Germany most chosen by international students (about 7,800 international students, 21% of more than 37,000, per an aggregator figure), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Angewandte Informatik - Schwerpunkte Ingenieur- oder Medieninformatik B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: German. Duisburg campus. Applied computer science (engineering or media informatics). 6 semesters, 180 ECTS (programme page studiengang.php?id=1). Programme name and language from UDE's bachelor's overview (uni-due.de/de/studium/bachelor.php). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Maschinenbau B.Sc.",
+      "durationYears": 3.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German. The standard length is three and a half years.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: German (some English electives). Duisburg campus. 7 semesters, 210 ECTS incl. industrial internship, admission-free (programme page studiengang.php?id=64). Programme name and language from UDE's bachelor's overview (uni-due.de/de/studium/bachelor.php). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Betriebswirtschaftslehre B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: German. Offered on both campuses (Essen: studiengang.php?id=16; Duisburg: id=15). Standard six semesters assumed, not checked per programme. Programme name and language from UDE's bachelor's overview (uni-due.de/de/studium/bachelor.php). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physik B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: German. Duisburg campus (studiengang.php?id=85). Standard six semesters assumed, not checked per programme. Programme name and language from UDE's bachelor's overview (uni-due.de/de/studium/bachelor.php). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Anglophone Studies (2-Fach-B.A.)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English and German, studied with a second subject.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: bilingual (German and English), per the overview. Essen campus, two-subject bachelor's (studiengang.php?id=8). Standard six semesters assumed, not checked per programme. Programme name and language from UDE's bachelor's overview (uni-due.de/de/studium/bachelor.php). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychologie B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: German. Essen campus (studiengang.php?id=165). Standard six semesters assumed, not checked per programme. Programme name and language from UDE's bachelor's overview (uni-due.de/de/studium/bachelor.php). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Engineering (ISE) M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English and German.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: bilingual (German and English), per the overview. Duisburg campus, part of the International Studies in Engineering (ISE) programmes aimed at international students. Programme name and language from UDE's master's overview (uni-due.de/de/studium/master.php); standard four semesters assumed (not checked per programme). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Mechanical Engineering (ISE) M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English and German.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: bilingual (German and English), per the overview. Duisburg campus, International Studies in Engineering (ISE). The German-taught Maschinenbau M.Sc. is the alternative. Programme name and language from UDE's master's overview (uni-due.de/de/studium/master.php); standard four semesters assumed (not checked per programme). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Betriebswirtschaftslehre M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: German. Duisburg campus. Programme name and language from UDE's master's overview (uni-due.de/de/studium/master.php); standard four semesters assumed (not checked per programme). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physik M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: German. Duisburg campus. Programme name and language from UDE's master's overview (uni-due.de/de/studium/master.php); standard four semesters assumed (not checked per programme). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Anglophone Studies (2-Fach-M.A.)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English and German, studied with a second subject.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: bilingual (German and English), per the overview. Essen campus, two-subject master's. Programme name and language from UDE's master's overview (uni-due.de/de/studium/master.php); standard four semesters assumed (not checked per programme). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychologie Schwerpunkt Arbeit, Gesundheit und Bildung M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 735.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German. Needs a psychology bachelor's.",
+      "notes": "No tuition fees: North Rhine-Westphalia's public universities charge none, including for non-EU students, and UDE's fee page lists only the social and student-body contribution. Compulsory fees = Sozial- und Studierendenschaftsbeitrag for winter semester 2026/27, EUR 367.80 x2: mobility contribution (Deutschlandsemesterticket) 226.80 + social contribution (Studierendenwerk) 125.00 + student body 16.00. History (same page): winter 2024/25 EUR 302.40 (ticket 176.40 + 110.00 + 16.00) -> 604.80; winter 2025/26 EUR 349.80 (208.80 + 125.00 + 16.00) -> 699.60. Language of instruction: German. Essen campus. Work, health and educational psychology; a clinical psychology and psychotherapy track is offered separately. Programme name and language from UDE's master's overview (uni-due.de/de/studium/master.php); standard four semesters assumed (not checked per programme). ",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 604.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 699.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+        }
+      ]
+    }
+  ]
+}
