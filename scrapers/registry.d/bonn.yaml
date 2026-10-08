@@ -1,0 +1,8 @@
+# University of Bonn. No tuition (North Rhine-Westphalia); one 'Costs' page lists the semester
+# contribution for every programme, current and previous semester.
+sources:
+  # Costs page: WiSe 2026/27 EUR 363.07, SoSe 2026 EUR 345.07; comma decimals and itemised table, read by hand
+  - university: bonn
+    country: de
+    url: "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+    manual: true

@@ -1,0 +1,8 @@
+# University of Duisburg-Essen. No tuition (North Rhine-Westphalia); one page lists the social and
+# student-body contribution for every programme, current and past semesters.
+sources:
+  # Sozial- und Studierendenschaftsbeitrag: WiSe 2026/27 EUR 367.80; several semesters on one page, read by hand
+  - university: ude
+    country: de
+    url: "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
+    manual: true

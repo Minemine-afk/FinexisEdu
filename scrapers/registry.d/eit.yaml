@@ -1,0 +1,7 @@
+# Eastern Institute of Technology (added Oct 2026).
+sources:
+  # international fee table: page layout not yet parsed automatically; figures read by hand
+  - university: eit
+    country: nz
+    url: "https://www.eit.ac.nz/wp-content/uploads/programme-app-packs/int%20Programme%20Matrix.pdf"
+    manual: true

@@ -60,14 +60,14 @@ published fee tables for those years.
 |---|---|---|
 | Singapore | NUS, NTU, SMU, SIT, SUSS, SIM (9 partner universities) | NUS, NTU, SIT; SMU, SUSS and SIM are manual |
 | Australia | ANU, Melbourne, Monash, UNSW, Sydney | ANU, UNSW, Sydney; Melbourne and Monash are manual (Cloudflare) |
-| UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL | Cambridge, Imperial, LSE, UCL; Oxford is manual |
+| UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL, Glasgow, Manchester, Warwick, Hertfordshire, Coventry, East London | Cambridge, Imperial, LSE, UCL; Oxford is manual; the last six are manual |
 | US | Berkeley, CMU, Harvard, MIT, Stanford | All |
-| Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin | All except HU Berlin, whose semester-fee page blocks bots and is checked by hand |
+| Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin, TU Darmstadt, Duisburg-Essen, Bonn, Goethe Frankfurt, FU Berlin, OVGU Magdeburg | TUM, LMU Munich, Heidelberg and RWTH Aachen; HU Berlin (semester-fee page blocks bots) and the six newer universities are checked by hand |
 | Canada | McGill, McMaster, Toronto, UBC, Waterloo | All (McMaster's tuition spreadsheet and UBC compulsory fees are manual) |
-| New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington | All except Otago (bot-protected) |
+| New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington, Waikato, Lincoln, EIT, Unitec | All except Otago (bot-protected); Waikato, Lincoln, EIT and Unitec are manual |
 | Switzerland | ETH Zurich, EPFL, Zurich, Geneva, St. Gallen, Lausanne, Basel, Bern, Neuchâtel, Fribourg, USI | All of the first five; Lausanne, Basel, Bern, Neuchâtel, Fribourg and USI are manual |
 | Japan | Keio, Kyoto, Osaka, UTokyo, Waseda | All (Waseda's lab/health fee is manual) |
-| Ireland | Trinity College Dublin, UCD, UCC, Galway, DCU | All (UCD's living-cost page is manual) |
+| Ireland | Trinity College Dublin, UCD, UCC, Galway, DCU, TU Dublin, Limerick, Maynooth, RCSI, Griffith College | First five: all (UCD's living-cost page is manual); TU Dublin, Limerick, Maynooth, RCSI and Griffith are manual |
 
 Why these countries: Singapore's MOE does not track students who study
 overseas, so the list follows the host countries' own counts of Singaporean

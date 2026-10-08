@@ -1,0 +1,16 @@
+sources:
+  # Arizona State University catalog / cost page: table rendered for people; fee read by hand
+  - university: asu
+    country: us
+    url: "https://catalog.asu.edu/tuitionandfees/fall26international"
+    manual: true
+  # Arizona State University catalog / cost page: table rendered for people; fee read by hand
+  - university: asu
+    country: us
+    url: "https://catalog.asu.edu/tuitionandfees/fall26graduate"
+    manual: true
+  # Arizona State University catalog / cost page: table rendered for people; fee read by hand
+  - university: asu
+    country: us
+    url: "https://admission.asu.edu/aid/international"
+    manual: true

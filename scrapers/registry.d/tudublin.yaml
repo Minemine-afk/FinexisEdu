@@ -1,0 +1,18 @@
+# Technological University Dublin. Fees come from PDF booklets (international UG summary booklet, international PG prospectus)
+# and a cost-of-living page; all are read by hand.
+sources:
+  # fee table in a designed PDF booklet whose layout changes each edition; read by hand
+  - university: tudublin
+    country: ie
+    url: "https://www.tudublin.ie/media/website/study/international-students/fees-amp-funding/documents/TU-Dublin-International-Undergraduate-Summary-Booklet.pdf"
+    manual: true
+  # fee table in a designed PDF booklet whose layout changes each edition; read by hand
+  - university: tudublin
+    country: ie
+    url: "https://www.tudublin.ie/media/website/study/international-students/find-a-course/documents/International-Postgraduate-Booklet_Nov-26.pdf"
+    manual: true
+  # cost-of-living estimate read by hand
+  - university: tudublin
+    country: ie
+    url: "https://www.tudublin.ie/for-students/student-services-and-support/financial-support/cost-of-living-guide/"
+    manual: true
