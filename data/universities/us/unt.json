@@ -7,6 +7,21 @@
   "website": "https://www.unt.edu",
   "description": "The University of North Texas is a public research university in Denton, Texas, north of Dallas, founded in 1890. It is one of the largest universities in Texas, with colleges of engineering, business, information and music.",
   "whyIncluded": "The University of North Texas is among the 10 universities in the United States most chosen by international students (12,982 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1326.85,
+      "food": 421.22,
+      "transport": 42.12,
+      "personal": 315.92
+    },
+    "sourceUrl": "https://international.unt.edu/international-students/newly-admitted-international-students/estimated-undergraduate-26-27.html",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "UNT's official 2026-27 living-expenses estimate for international undergraduates in Denton (US$18,955 for the 9-month academic year), split into rent, food, transport and personal using typical US shares. Books and health insurance are a separate line and are excluded.",
+    "notes": "Rung B. UNT International Affairs 'Undergraduate Estimated Cost of Attendance for 2026-27' (same figures in the 2026-27 I-20 expense worksheet PDF): 'Academic Year -- 9 months', 12 credits per semester; Living Expenses 18,955 for every college, Other (Books, Insurance) 3,926, tuition/fees by college (e.g. Engineering 22,521). Living Expenses is a single figure with no breakdown, so monthly = 18,955 / 9 = 2,106.11 split with the US average shares .63/.20/.02/.15: housing 1,326.85, food 421.22, transport 42.12, personal 315.92. The 'Other' line (3,926) combines books with mandatory health insurance and cannot be separated, so it is excluded; tuition/fees and the optional 3-month summer (living 6,824) excluded. The general financialaid.unt.edu COA pages list categories without amounts."
+  },
   "programmes": [
     {
       "level": "bachelor",

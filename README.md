@@ -129,6 +129,11 @@ also list the Citizen, PR and international fee per year side by side.
 Switch on "Include living costs" to add each overseas university's own
 published estimate of a student's living costs (housing, food, transport and
 personal/books), stored as monthly amounts in `livingCosts` in its data file.
+Every university outside Singapore has one. Where the university publishes no
+itemised budget, the entry uses its single stated total, or failing that the
+national visa authority's living-cost requirement (marked as an unofficial
+source), split into the four categories using the average shares of that
+country's other universities; each entry's notes say which.
 
 - **Lifestyle:** Moderate is the university's estimate; Frugal is 20% less and
   Comfortable 30% more. Each university's details section also has "Customise
@@ -137,7 +142,7 @@ personal/books), stored as monthly amounts in `livingCosts` in its data file.
   a US academic year, 12 for Australia), charged pro rata for part years.
 - **Later years** grow by the country's latest official CPI inflation
   (`livingCostIncrease` in `data/countries/`).
-- **Not included for Singapore universities.** McGill publishes no estimate.
+- **Not included for Singapore universities.**
   Melbourne's figure is the Australian student-visa minimum (its own pages
   block automated access). Kyoto and Waseda use JASSO's official student
   survey. UCL's figure is its US-loan budget. The details say which source is used.

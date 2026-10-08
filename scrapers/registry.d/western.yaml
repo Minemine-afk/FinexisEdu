@@ -16,3 +16,9 @@ sources:
     country: ca
     url: "https://www.ivey.uwo.ca/mba/admissions/tuition-living-expenses/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: western
+    country: ca
+    url: https://welcome.uwo.ca/next-steps/finances/index.html
+    parser: html
+    manual: true

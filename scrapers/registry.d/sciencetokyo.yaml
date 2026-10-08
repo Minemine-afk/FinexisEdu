@@ -15,3 +15,9 @@ sources:
     country: jp
     url: "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: sciencetokyo
+    country: jp
+    url: https://www.u-tokyo.ac.jp/adm/inbound/en/finance-living.html
+    parser: html
+    manual: true

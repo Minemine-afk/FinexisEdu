@@ -12,3 +12,9 @@ sources:
     url: "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
     parser: pdf
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: goethe
+    country: de
+    url: https://www.uni-frankfurt.de/79190902/Incomings
+    parser: html
+    manual: true

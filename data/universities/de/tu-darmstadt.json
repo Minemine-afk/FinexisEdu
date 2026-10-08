@@ -7,6 +7,21 @@
   "website": "https://www.tu-darmstadt.de",
   "description": "TU Darmstadt is a public technical university in Darmstadt, Hesse, with about 24,000 students. It is best known for engineering, computer science and the natural sciences.",
   "whyIncluded": "TU Darmstadt is among the 10 universities in Germany most chosen by international students (about 7,800 international students, 32% of 24,465, per a 2026 aggregator figure), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2025,
+    "months": 12,
+    "monthly": {
+      "housing": 500,
+      "food": 210,
+      "transport": 0,
+      "personal": 233.36
+    },
+    "sourceUrl": "https://www.tu-darmstadt.de/studieren/studieninteressierte/internationale_studieninteressierte/austauschprogramme_inbound/artikel_details_de_en_56836.en.jsp",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "TU Darmstadt's own 'Costs and Budgeting' page for international students: a room in a shared flat, food, and a personal line covering health insurance, internet, phone, licence fee and study materials. Public transport is in the semester fee, which is excluded with one-off costs.",
+    "notes": "Rung A. TU Darmstadt 'Costs and Budgeting' page (International Prospective Students), table of monthly costs. Page lines: Accommodation (room in a shared apartment) EUR 350-650; Food EUR 120-300; Internet EUR 10-50; Phone contract/prepaid SIM EUR 10-40; Radio licence fee EUR 18.36; statutory health insurance incl. long-term care 'around EUR 130'; Learning materials EUR 10-50; semester fees linked, no amount. Derivation: housing = midpoint 500; food = midpoint 210; transport = 0 because the registration fee includes the Semesterticket (TU's exchange 'Costs and Budget' page: the fee 'includes ... the Semesterticket, which provides free public transportation around the region', approx. EUR 220/semester) and the fee is excluded; personal = internet 30 + phone 25 + radio licence 18.36 + health insurance 130 + learning materials 30 = 233.36. Monthly total 943.36; the page itself quotes the BAfoeG-office cost-of-living estimate of approximately EUR 992/month as a cross-check. The page lists no leisure or clothing line. Excluded: semester fee, deposit (1-3 months' rent), hostel on arrival, furnishing. Page undated (last modified 13 Aug 2025); recorded as 2025/26."
+  },
   "programmes": [
     {
       "level": "bachelor",

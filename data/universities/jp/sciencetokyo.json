@@ -7,6 +7,21 @@
   "website": "https://www.isct.ac.jp",
   "description": "Institute of Science Tokyo is a national university formed in October 2024 by merging Tokyo Institute of Technology and Tokyo Medical and Dental University. Its science and engineering campuses are at Ookayama, Suzukakedai and Tamachi.",
   "whyIncluded": "Institute of Science Tokyo is among the 10 universities in Japan most chosen by international students (2,334 international students in May 2025 per JASSO), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 90000,
+      "food": 55000,
+      "transport": 6000,
+      "personal": 20000
+    },
+    "sourceUrl": "https://www.u-tokyo.ac.jp/adm/inbound/en/finance-living.html",
+    "lastVerified": "2026-10-08",
+    "sourceType": "secondary",
+    "summary": "Science Tokyo publishes no living-cost estimate, so this uses the University of Tokyo's figures for a one-room apartment and food in Tokyo, with transport and personal costs from the national survey average for Tokyo, 12 months a year. Science Tokyo's own dormitories are cheaper.",
+    "notes": "Rung D (sister university in the same city). Institute of Science Tokyo's admissions and student-support sites (isct.ac.jp, students.isct.ac.jp, and the legacy titech.ac.jp admissions pages, searched and read 2026-10-08) give no cost-of-living or monthly budget page; the only priced page is 'Science Tokyo Dormitories for Students' (students.isct.ac.jp/en/012/student-life-and-support/dormitories-and-accommodation/dormitories, fees as of October 2024), where single rooms cost 27,500-65,000/month (e.g. Komaba Dormitory 39,500, Ookayama House and Midorigaoka House 50,000 for graduate students, Senzokuike House 65,000, most including utilities in the common charge). Figures here are the repo's rung-A University of Tokyo entry (Tokyo): housing = one-room apartment 80,000-100,000 midpoint 90,000 (rent only, utilities not included); food 50,000-60,000 midpoint 55,000; transport and personal from the JASSO 2023 Lifestyle Survey of Privately Financed International Students Tokyo averages: commuting 6,000; personal = hobbies/leisure 10,000 + other daily costs 10,000. National Health Insurance (roughly 2,000-3,000/month in Tokyo) is not included. A student in a Science Tokyo dormitory would spend roughly 40,000-60,000 less on housing than this estimate."
+  },
   "programmes": [
     {
       "level": "bachelor",

@@ -5,3 +5,9 @@ sources:
     country: nz
     url: "https://www.eit.ac.nz/wp-content/uploads/programme-app-packs/int%20Programme%20Matrix.pdf"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: eit
+    country: nz
+    url: https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/
+    parser: html
+    manual: true

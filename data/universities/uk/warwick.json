@@ -7,6 +7,21 @@
   "website": "https://warwick.ac.uk",
   "description": "The University of Warwick is a public research university founded in 1965, with its main campus on the southern edge of Coventry in the English Midlands. It is a member of the Russell Group and is known for economics, mathematics, business and computer science.",
   "whyIncluded": "The University of Warwick is among the 10 universities in the United Kingdom most chosen by international students (9,475 non-UK students in 2024-25, HESA), per the FinexisEdu shortlist research of October 2026; its LLB is on the Singapore Institute of Legal Education's list of overseas scheduled universities and its MBChB on the Singapore Medical Council's list.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 10,
+    "monthly": {
+      "housing": 931.67,
+      "food": 153.0,
+      "transport": 53.0,
+      "personal": 236.0
+    },
+    "sourceUrl": "https://warwick.ac.uk/services/wss/funding/moneymatters/managingmoney/living/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Warwick's own monthly living-cost figures for its students (groceries, transport, socialising, phone, clothes, health) plus a mid-priced en-suite room on campus for 2026/27 with bills included. The visa minimum is 1,171 a month outside London.",
+    "notes": "Rung A (two Warwick pages). Food, transport and personal from Warwick Student Funding 'Living & Course Costs' ('Monthly Living Costs for a Student at Warwick University', Save the Student survey updated Oct 2025): groceries 153; transport 53; personal = socialising 129 + holidays/events 29 + clothes/shopping 35 + phone 15 + health/wellbeing 28 = 236. Housing from the Warwick Accommodation 'Accommodation list' (Campus Residences 2026, revised Aug 2026): undergraduate weekly rents run from 128 (Rootes, shared bathroom) to 255 (Bluebell, en suite); the median listed rent of GBP 215/week (Sherbourne en suite, 42-week contract) x 52/12 = 931.67; campus rent includes bills (the funding page's 49/month bills figure applies only to off-campus non-Warwick housing). Months = 10 (campus contracts are 40-42 weeks). Warwick's international 'Living costs' page gives only the Home Office figure of 1,171/month (9 months) and ~13,632 for a 12-month master's. Laundry (5.50 a load), parking, course materials (no amounts given) and one-off costs excluded."
+  },
   "programmes": [
     {
       "level": "bachelor",

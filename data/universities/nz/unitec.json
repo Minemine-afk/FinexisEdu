@@ -7,6 +7,21 @@
   "website": "https://www.unitec.ac.nz",
   "description": "Unitec is a polytechnic, not a university, in Mount Albert, Auckland, that awards its own bachelor's and master's degrees. It was part of Te Pūkenga, the national polytechnic network, from 2020, and since 1 January 2026 it has been run together with Manukau Institute of Technology as one stand-alone polytechnic.",
   "whyIncluded": "Unitec Institute of Technology is among the 10 institutions in New Zealand most chosen by international students (1,700 international students enrolled in 2025, Ministry of Education provider data; New Zealand has only eight universities, so the two largest degree-granting polytechnics were added), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1183.33,
+      "food": 233.33,
+      "transport": 66.67,
+      "personal": 183.33
+    },
+    "sourceUrl": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "secondary",
+    "summary": "Unitec's cost-of-living page is no longer online, so this is Immigration New Zealand's student-visa living-cost minimum of NZ$20,000 a year (about NZ$1,667 a month), split into rent, food, transport and personal using the pattern of other NZ universities.",
+    "notes": "Rung C. Tried for rung A/B: unitec.ac.nz 'Cost of living in Auckland, New Zealand' (both indexed URLs, /why-choose-unitec/about-auckland/cost-of-living-in-auckland/ and /why-choose-unitec/accommodation/living-costs, now return 'Page not found'), /international/living-in-auckland/cost-of-living (404), International fees 2027 page (tuition only; links to a cost-of-living page that no longer exists), 'About Auckland', International Support and current-students Accommodation page. The Accommodation page (last modified 24 March 2025) gives flatting at 'NZ$130 to NZ$200 per week' for a room in a shared house and a whole rented apartment or house at 'NZ$280 - NZ$560 per week', but no food, transport or personal figures, so no itemised budget exists. Figure used: Immigration New Zealand 'Student fund requirements' page, read 2026-10-08: 'NZD $20,000 for each year, if you are studying for 1 year or more'. Monthly = 20,000 / 12 = 1,666.67, split with the brief's New Zealand average shares housing .71 / food .14 / transport .04 / personal .11. Cross-check: University of Auckland (rung A) totals about NZ$1,912/month, and Unitec's own flatting range (NZ$563-867/month) is below the housing figure here, so the entry is a reasonable minimum. Excludes tuition, compulsory insurance, bond (up to four weeks' rent) and letting fees."
+  },
   "programmes": [
     {
       "level": "bachelor",

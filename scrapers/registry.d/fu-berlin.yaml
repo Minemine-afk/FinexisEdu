@@ -12,3 +12,9 @@ sources:
     url: "https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/alle_Immatrikulation/Erstsemester_Immatrikulationsgebuehren.pdf"
     parser: pdf
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: fu-berlin
+    country: de
+    url: https://www.fu-berlin.de/en/sites/cairo/FAQ/General-FAQs/Lebenshaltungskosten.html
+    parser: html
+    manual: true

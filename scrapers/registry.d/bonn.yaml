@@ -6,3 +6,9 @@ sources:
     country: de
     url: "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: bonn
+    country: de
+    url: https://uni-bonn.de/en/studying/application-admission-and-enrollment/costs
+    parser: html
+    manual: true

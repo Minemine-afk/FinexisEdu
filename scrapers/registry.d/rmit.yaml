@@ -67,3 +67,9 @@ sources:
     country: au
     url: "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-clinical-psychology-mc002"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: rmit
+    country: au
+    url: https://www.rmit.edu.au/study-with-us/moving-to-melbourne/costs-of-living
+    parser: html
+    manual: true

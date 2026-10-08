@@ -10,3 +10,9 @@ sources:
     country: jp
     url: "https://admissions.tohoku.ac.jp/en/adcms/wp-content/uploads/2026/03/gwc-pamphlet.pdf"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: tohoku
+    country: jp
+    url: https://sup.bureau.tohoku.ac.jp/en/pre-arrival-e/expenses-e/
+    parser: html
+    manual: true

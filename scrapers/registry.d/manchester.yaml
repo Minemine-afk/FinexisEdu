@@ -76,3 +76,9 @@ sources:
     country: uk
     url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/18749/msc-adult-nursing/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/student-finance/cost-of-living/
+    parser: html
+    manual: true

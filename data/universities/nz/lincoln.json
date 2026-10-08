@@ -7,6 +7,21 @@
   "website": "https://www.lincoln.ac.nz",
   "description": "Lincoln University, near Christchurch, began as a school of agriculture in 1878 and is New Zealand's smallest university. It specialises in agriculture, agribusiness, commerce, environment, land and food.",
   "whyIncluded": "Lincoln University is among the 10 universities in New Zealand most chosen by international students (1,430 international students enrolled in 2025, Ministry of Education provider data), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1183.33,
+      "food": 233.33,
+      "transport": 66.67,
+      "personal": 183.33
+    },
+    "sourceUrl": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "secondary",
+    "summary": "Lincoln publishes no living-cost budget, so this is Immigration New Zealand's student-visa living-cost minimum of NZ$20,000 a year (about NZ$1,667 a month), split into rent, food, transport and personal using the pattern of other NZ universities. Campus flats: NZ$245-320 a week.",
+    "notes": "Rung C. Tried for rung A/B: lincoln.ac.nz 'Money and Banking' page (only item prices: campus lunch NZ$15, coffee from NZ$3.50, 'allow up to NZ$1,000 for course related costs'; no rent or totals), international fees page (tuition, Student Services Fee and insurance only), Study Abroad page, international 'Accommodation options' page and the 2023 Accommodation Guide PDF (no prices); the /study/international-students/cost-of-living/ URL returns 403. 'Living on Campus' gives 2026 accommodation prices: fully catered single-room halls NZ$17,490-22,220 per year and self-catered campus flats NZ$245-320 per week (Crescent Flats 245, Farm Road 290, The Junction 310), which exclude food, transport and personal costs; these were not used because there is no itemised budget around them. Figure used: Immigration New Zealand 'Student fund requirements' page, read 2026-10-08: 'NZD $20,000 for each year, if you are studying for 1 year or more'. Monthly = 20,000 / 12 = 1,666.67, split with the brief's New Zealand average shares housing .71 / food .14 / transport .04 / personal .11. The resulting housing figure (NZ$1,183/month, about NZ$273/week) sits inside Lincoln's campus-flat range. Cross-check: University of Canterbury (Christchurch, rung A, flatting estimate) totals about NZ$1,889/month. Excludes tuition, compulsory insurance, bond, Res Life and processing fees."
+  },
   "programmes": [
     {
       "level": "bachelor",

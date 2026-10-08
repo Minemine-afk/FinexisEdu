@@ -7,6 +7,21 @@
   "website": "https://www.coventry.ac.uk",
   "description": "Coventry University is a public university in the centre of Coventry in the English Midlands, which gained university status in 1992 and traces its origins to the Coventry School of Design founded in 1843. It has one of the largest international student populations in the UK.",
   "whyIncluded": "Coventry University is among the 10 universities in the United Kingdom most chosen by international students (13,300 non-UK students in 2024-25, the seventh most of any UK provider, HESA), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 10,
+    "monthly": {
+      "housing": 702.0,
+      "food": 175.0,
+      "transport": 32.0,
+      "personal": 205.0
+    },
+    "sourceUrl": "https://www.coventry.ac.uk/cuc/international/living-in-the-uk_84843/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Coventry University's minimum monthly guide for one international student (food, phone, clothes, leisure, books, going out, travel) combined with its 2026/27 en-suite hall rent, bills included. Childcare and the TV licence are left out.",
+    "notes": "Rung A (two Coventry University pages). Food, transport and personal from the international 'Living in the UK' page ('approximate guide to the minimum amount you should expect for living expenses in the UK per month'): food 150-200 -> midpoint 175; travel/transport 32 (96 per term); personal = mobile 30 + clothes/shoes 30 + leisure/sport 25 + books/stationery 20 + socialising 100 = 205. That page is undated and its private rent (300-400 + bills 30-50) and TV licence (145.50) look several years old, so housing is taken instead from the university's 'Accommodation fees' page for 2026/27: Bishop Gate / Godiva Place undergraduate en-suite GBP 162/week on a 43-week contract, bills included, converted at 52/12 = 702.00/month; months = 10 (43 weeks is 9.9 months). Excluded: childcare (500), TV licence (12/month), one-off costs. No monthly or yearly total is stated by the university."
+  },
   "programmes": [
     {
       "level": "bachelor",

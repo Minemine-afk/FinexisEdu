@@ -5,3 +5,9 @@ sources:
     country: jp
     url: "https://admissions.g30.nagoya-u.ac.jp/studentlife/tuition/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: nagoya
+    country: jp
+    url: https://en.nagoya-u.ac.jp/admissions/financial/costs/
+    parser: html
+    manual: true

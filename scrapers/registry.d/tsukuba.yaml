@@ -5,3 +5,9 @@ sources:
     country: jp
     url: "https://www.tsukuba.ac.jp/en/admissions/fees-tuition/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: tsukuba
+    country: jp
+    url: https://www.tsukuba.ac.jp/en/admissions/fees-living-expenses/
+    parser: html
+    manual: true

@@ -7,6 +7,21 @@
   "website": "https://www.deakin.edu.au",
   "description": "Deakin University is a public university founded in 1974, with campuses in Melbourne (Burwood), Geelong and Warrnambool. It teaches across business, engineering, health, law and the arts.",
   "whyIncluded": "Deakin University is among the 10 universities in Australia most chosen by international students (6,550 new overseas student commencements allocated for 2026 by the Australian Department of Education), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1584.53,
+      "food": 544.68,
+      "transport": 99.03,
+      "personal": 272.34
+    },
+    "sourceUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "lastVerified": "2026-10-08",
+    "sourceType": "secondary",
+    "summary": "Deakin publishes no dollar figures, so this is the Australian Government's student-visa living-cost minimum of A$29,710 a year (about A$2,476 a month), split into rent, food, transport and personal using the pattern of other Australian universities. Geelong is cheaper.",
+    "notes": "Rung C. Tried for rung A/B: deakin.edu.au 'Cost of living and studying in Melbourne' and '...in Geelong' story pages (no dollar amounts; only percentages such as Geelong rent '20-30% lower than Melbourne' and overall living costs 'approximately 12% less'; both point to the Study Australia calculator and cite Numbeo for comparisons), 'Living in Australia' and 'Living costs' international pages (qualitative only), and the international 'Fees and scholarships' page (no living-cost total). The university cost-of-living URL under /study/study-at-deakin/ returns 404. Figure used: Department of Home Affairs Student visa (subclass 500) financial capacity requirement for the primary applicant, A$29,710 for 12 months of living costs, in force since 10 May 2024 and still current as at 2026-10-08 (the Home Affairs page itself rendered only navigation in the fetch; the amount and date were confirmed from two 2026 secondary summaries of the Home Affairs requirement). Monthly = 29,710 / 12 = 2,475.83, split with the brief's Australian average shares housing .64 / food .22 / transport .04 / personal .11 (these shares sum to 1.01, so the four categories total A$2,500.58). Excludes tuition, OSHC, travel and the separate visa amounts for dependants. Cross-check: Monash (Melbourne, rung A) is higher at about A$4,368/month; the Home Affairs figure is the visa minimum, and Deakin's own page says Melbourne rents are higher than Geelong."
+  },
   "programmes": [
     {
       "level": "bachelor",

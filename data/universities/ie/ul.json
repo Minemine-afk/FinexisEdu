@@ -7,6 +7,21 @@
   "website": "https://www.ul.ie",
   "description": "The University of Limerick is a public university on a riverside campus outside Limerick city, founded in 1972 as the National Institute for Higher Education, Limerick and granted university status in 1989. It is known for its cooperative education programme, which places most undergraduates in paid work placements.",
   "whyIncluded": "The University of Limerick is among the 10 universities in Ireland most chosen by international students (about 20% of its 14,897 full-time-equivalent students are international, THE World University Rankings 2027 data), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2025,
+    "months": 9,
+    "monthly": {
+      "housing": 900.0,
+      "food": 300.0,
+      "transport": 45.0,
+      "personal": 290.5
+    },
+    "sourceUrl": "https://www.ul.ie/media/cost-of-living-2025-26/download?inline=",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "The University of Limerick's 2025/26 cost-of-living sheet for international students: an on-campus room with utilities included, groceries, a monthly student bus ticket, phone, books and recreation. Residence permit, bedding and health insurance are one-off and left out.",
+    "notes": "Rung A. UL 'Cost of Living 2025/26' (Global/International Education Division sheet, monthly figures). Housing = midpoint of 'On Campus Student Accommodation (including utilities)' EUR 700-1,100 = 900 (off-campus complexes 750-850 incl. utilities; private house share 600-1,000 plus utilities 100-150). Food = groceries 200-400 -> 300. Transport = Leap Card monthly student bus ticket 45. Personal = mobile 11-20 -> 15.50 + books/study materials/printing 75 + recreation 100-300 -> 200 = 290.50; gym (295/year) excluded because it is free for on-campus residents; laundry (7 a load) not budgeted. Months = 9 (Irish academic year; sheet gives monthly figures with no total). Excluded one-off: Irish Residence Permit 300, bedding/utensils 150-200, health insurance (variable), flights. UL's separate 'Budget Planner 2026/27' for incoming exchange students gives lower per-semester estimates (accommodation 2,600-3,900, food 1,000, clothes 300, books 200) but no transport line and no semester length, so it was not used."
+  },
   "programmes": [
     {
       "level": "bachelor",

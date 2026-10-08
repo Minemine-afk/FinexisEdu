@@ -7,6 +7,21 @@
   "website": "https://www.birmingham.ac.uk",
   "description": "The University of Birmingham received its royal charter in 1900, growing out of Mason Science College, and was England's first civic 'red brick' university. It is a member of the Russell Group, with its main campus at Edgbaston.",
   "whyIncluded": "The University of Birmingham is among the 10 universities in the United Kingdom most chosen by international students (12,485 non-UK students in 2024-25, per HESA), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 10,
+    "monthly": {
+      "housing": 650.0,
+      "food": 260.0,
+      "transport": 108.33,
+      "personal": 346.67
+    },
+    "sourceUrl": "https://www.birmingham.ac.uk/study/support/moneyadvice/living",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "The university's own weekly budget for a 42-week year: a self-catered university room with bills included, food and toiletries, travel, course costs and social spending. Deposits, insurance and the TV licence are left out.",
+    "notes": "Rung A. University of Birmingham Money Advice 'Living costs' page, 'Essential weekly costs (based on a 42-week academic session)' and 'Variable weekly costs (average)'. Weekly figures converted to monthly at 52/12 (x4.3333); months = 10 because 42 weeks is 9.7 months. Housing = 'Self Catered (Univ.)' rent GBP 150/week with gas, electric, water and Wi-Fi included (meal-plan halls are 175 incl. food; a private house is 100 rent + 11 gas/electric + 3 water). Food = food 50 + toiletries 5 + laundry 5 = 60/week. Transport = 'Travel' 25/week. Personal = course costs 18 + social/memberships 50 + clothing 10 + mobile 2 = 80/week (internet 5 excluded because the page says it is not needed in university accommodation). Excluded: one-off initial costs (deposit up to 550, bedding, possessions insurance 80, TV licence 154.50, police registration 34). The page states no academic year; some one-off items (police registration, TV licence 154.50) are pre-2022 rates, so the page may not have been refreshed recently; year set to the current 2026/27 page."
+  },
   "programmes": [
     {
       "level": "bachelor",

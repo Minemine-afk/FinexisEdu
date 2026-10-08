@@ -7,6 +7,21 @@
   "website": "https://www.rcsi.com",
   "description": "RCSI University of Medicine and Health Sciences is a specialist health sciences university on St Stephen's Green in Dublin, founded in 1784 as the Royal College of Surgeons in Ireland. It teaches medicine, pharmacy, physiotherapy, nursing and other health programmes only, and its undergraduate degrees are awarded by the National University of Ireland.",
   "whyIncluded": "RCSI is among the 10 universities in Ireland most chosen by international students (over 60% of its students are international, with about 4,000 students from 90 countries in Dublin, per RCSI), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 924.08,
+      "food": 297.03,
+      "transport": 120.0,
+      "personal": 270.0
+    },
+    "sourceUrl": "https://www.rcsi.com/dublin/student-life/undergraduate-essentials/budgeting-and-banking",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "RCSI says a student in Dublin spends about 12,000 to 17,000 euro a year; the midpoint over a 9-month year, with RCSI's own monthly figures for transport, books, clothes, phone and social life, and the rest split between rent and food.",
+    "notes": "Rung B (official total with partial breakdown). RCSI 'Budgeting and banking' page: 'Recent figures for the cost of living for a student in Dublin have ranged between EUR 12,000 and 17,000 per year' depending on accommodation, excluding tuition; midpoint 14,500 / 9 months = 1,611.11 per month. The page itemises monthly: utilities 43, transport (Leap card) 120, books and materials 70, clothes 45, mobile 25, social life 130; it gives no rent or food figure. Transport = 120; personal = 70 + 45 + 25 + 130 = 270; the remainder 1,221.11 (which includes the 43 utilities) is split between housing and food in the Irish share ratio 0.56:0.18 -> housing 924.08, food 297.03. For reference RCSI's own Mercer Court single room is EUR 322/week (13,202 for 41 weeks in 2026/27), well above this average, so the range assumes cheaper shared or private rooms. The non-EU 'Fees and Funding FAQs' PDF repeats the 12,000-17,000 range. No academic year is stated; months = 9 (Irish academic year). Excluded: tuition, flights, one-off costs."
+  },
   "programmes": [
     {
       "level": "bachelor",

@@ -15,3 +15,9 @@ sources:
     country: jp
     url: "https://piloti.sophia.ac.jp/assets/uploads/2024/11/27140913/undergraduate_2025.pdf"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: sophia
+    country: jp
+    url: https://piloti.sophia.ac.jp/eng/studyabroad/exchangeprograms/housinginfo_costs/living_expenses/
+    parser: html
+    manual: true

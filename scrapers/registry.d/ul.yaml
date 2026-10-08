@@ -11,3 +11,9 @@ sources:
     country: ie
     url: "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: ul
+    country: ie
+    url: https://www.ul.ie/media/cost-of-living-2025-26/download?inline=
+    parser: pdf
+    manual: true

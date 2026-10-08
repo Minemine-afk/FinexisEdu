@@ -49,6 +49,28 @@ describe("committed data", () => {
     }
   });
 
+  it("gives every university outside Singapore a living-cost estimate in a sane range", () => {
+    const totals = new Map<string, number[]>();
+    for (const u of universities) {
+      if (u.country === "sg") continue;
+      expect(u.livingCosts, u.id).toBeDefined();
+      const m = u.livingCosts!.monthly;
+      const total = m.housing + m.food + m.transport + m.personal;
+      expect(total, u.id).toBeGreaterThan(0);
+      totals.set(u.country, [...(totals.get(u.country) ?? []), total]);
+    }
+    // A yearly figure entered as monthly (or vice versa) lands far outside this band.
+    for (const u of universities) {
+      if (u.country === "sg") continue;
+      const sorted = [...totals.get(u.country)!].sort((a, b) => a - b);
+      const median = sorted[Math.floor(sorted.length / 2)];
+      const m = u.livingCosts!.monthly;
+      const total = m.housing + m.food + m.transport + m.personal;
+      expect(total / median, u.id).toBeGreaterThanOrEqual(0.5);
+      expect(total / median, u.id).toBeLessThanOrEqual(2);
+    }
+  });
+
   it("names a known partner on every programme of a university with partners", () => {
     for (const u of universities) {
       const ids = new Set((u.partners ?? []).map((p) => p.id));

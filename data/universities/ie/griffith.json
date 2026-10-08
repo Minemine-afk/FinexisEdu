@@ -7,6 +7,21 @@
   "website": "https://www.griffith.ie",
   "description": "Griffith College is Ireland's largest private higher education college, founded in 1974 with its main campus on South Circular Road in Dublin and further campuses in Cork and Limerick. It is not a university: its degrees are validated by QQI (Quality and Qualifications Ireland), the state agency for qualifications.",
   "whyIncluded": "Griffith College Dublin is among the 10 universities in Ireland most chosen by international students (students of more than 100 nationalities across its three campuses, per Griffith; as a private college it is not in Higher Education Authority enrolment statistics), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 800.0,
+      "food": 325.0,
+      "transport": 55.0,
+      "personal": 240.0
+    },
+    "sourceUrl": "https://www.griffith.ie/sites/default/files/2026-07/cost-of-living-v3.1-clickable.pdf",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Griffith College's July 2026 cost-of-living guide for international students in Dublin: a single room in a shared apartment, groceries, a monthly Leap card, social activities and books, over a 9-month academic year.",
+    "notes": "Rung A. Griffith College 'Cost of Living for International Students at Griffith College: What to Expect' PDF (v3.1, published July 2026), which budgets over a 9-month academic year. Midpoints of the guide's monthly ranges: housing = 'Single room in a shared apartment: EUR 600-1,000+ per month' -> 800 (shared house 500-900+, studio 1,200+); food = 'Monthly food/grocery costs: 250-400' -> 325; transport = 'Monthly transport costs: 50-60' -> 55 (Leap card registration 5 excluded); personal = social activities 80-150 -> 115 plus stationery and books 100-150 -> 125 = 240. The PDF's summary table is mis-set (every 'average monthly' cell shows 600) so the prose ranges were used; its 'Maximum Cost (9 months)' total is 15,300 (1,700/month) and average yearly total 12,960, consistent with this 1,420/month estimate. Utilities are not mentioned separately. Tuition, flights, visa/IRP excluded."
+  },
   "programmes": [
     {
       "level": "bachelor",

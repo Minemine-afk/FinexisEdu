@@ -7,6 +7,21 @@
   "website": "https://www.northeastern.edu",
   "description": "Northeastern University is a private research university in Boston, Massachusetts, founded in 1898. It is known for its cooperative education (co-op) programme, in which students alternate study with full-time work placements.",
   "whyIncluded": "Northeastern University is among the 10 universities in the United States most chosen by international students (22,465 international students in 2024-25, second in the US, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1512.44,
+      "food": 1023.33,
+      "transport": 100,
+      "personal": 211.11
+    },
+    "sourceUrl": "https://admissions.northeastern.edu/cost",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Northeastern's official 2026-27 cost of attendance for Boston: housing, food, transportation, and personal expenses plus books, spread over a 9-month academic year. Housing and food vary with the housing and dining plan chosen.",
+    "notes": "Rung A. Northeastern Admissions 'Cost & Financial Aid', 'Estimated Cost of Attendance, 2026-2027' for Boston first-year students (subject to Board of Trustees approval): tuition 71,050, fees 1,650, housing 13,612, food 9,210, books and course materials 1,000, personal expenses 900, transportation 900, total 98,322. The page gives annual academic-year figures and does not state months or separate on-/off-campus allowances; 9 months recorded per the standard US academic-year convention. housing = 13,612 / 9 = 1,512.44; food = 9,210 / 9 = 1,023.33; transport = 900 / 9 = 100; personal = (900 personal + 1,000 books) / 9 = 211.11. Tuition and fees excluded; the page does not list health insurance (NUSHP) in the COA."
+  },
   "programmes": [
     {
       "level": "bachelor",

@@ -21,3 +21,9 @@ sources:
     country: ie
     url: "https://rcsi.com/dublin/postgraduate/taught-courses/technologies-and-analytics-in-precision-medicine-msc/fees-and-funding"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: rcsi
+    country: ie
+    url: https://www.rcsi.com/dublin/student-life/undergraduate-essentials/budgeting-and-banking
+    parser: html
+    manual: true
