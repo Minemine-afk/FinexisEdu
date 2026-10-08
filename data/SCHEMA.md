@@ -50,6 +50,7 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
         }
       ],
       "laterYears": [                            // optional; years of study charged a different fee, see below
+      "sgRecognition": { "body": "SILE", "listed": true, "note": "LLB only", "sourceUrl": "https://..." }, // required for law and medicine, see below
         { "fromYear": 2, "annualTuition": 86561, "estimate": false }
       ]
     }
@@ -121,3 +122,11 @@ Living costs (optional, universities outside Singapore only):
 - Map its categories onto the four above (e.g. "housing and food" split only if the
   page splits it; otherwise put the combined figure in housing and say so).
 - Exclude tuition, fees, health insurance, visa costs and flights.
+- `sgRecognition` — required on every `law` and `medicine` programme. `body` is
+  `"SILE"` (Singapore Institute of Legal Education approved universities, from
+  the Legal Profession (Qualified Persons) Rules) for law or `"SMC"` (Singapore
+  Medical Council registrable basic medical qualifications, Medical Registration
+  Act Second Schedule) for medicine; `listed` says whether the school is on that
+  list; `note` carries a short condition such as `"JD only"` or
+  `"entrants before 2015"`. The site shows "SILE listed" / "Not on SMC list" on
+  the result and in the programme picker.
