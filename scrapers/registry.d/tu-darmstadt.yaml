@@ -13,3 +13,9 @@ sources:
     url: "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
     parser: pdf
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: tu-darmstadt
+    country: de
+    url: https://www.tu-darmstadt.de/studieren/studieninteressierte/internationale_studieninteressierte/austauschprogramme_inbound/artikel_details_de_en_56836.en.jsp
+    parser: html
+    manual: true

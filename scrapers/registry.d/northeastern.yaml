@@ -4,3 +4,9 @@ sources:
     country: us
     url: "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: northeastern
+    country: us
+    url: https://admissions.northeastern.edu/cost
+    parser: html
+    manual: true

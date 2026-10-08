@@ -5,3 +5,9 @@ sources:
     country: us
     url: "https://studentaccounting.unt.edu/tuition-and-fees.html"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: unt
+    country: us
+    url: https://international.unt.edu/international-students/newly-admitted-international-students/estimated-undergraduate-26-27.html
+    parser: html
+    manual: true

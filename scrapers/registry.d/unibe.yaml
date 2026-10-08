@@ -5,3 +5,9 @@ sources:
     country: ch
     url: "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: unibe
+    country: ch
+    url: https://sub.unibe.ch/wp-content/uploads/2025/06/budget-studierende.pdf
+    parser: pdf
+    manual: true

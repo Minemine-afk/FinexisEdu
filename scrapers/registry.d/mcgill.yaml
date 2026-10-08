@@ -96,3 +96,9 @@ sources:
       field: business
       key: oneOffFees
       pattern: International Study Trip .*? is \$([\d,]+)
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: mcgill
+    country: ca
+    url: https://www.quebec.ca/en/education/study-quebec/required-conditions/costs-studies
+    parser: html
+    manual: true

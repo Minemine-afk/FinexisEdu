@@ -11,3 +11,9 @@ sources:
     country: ca
     url: "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/instructional-fees-international.html"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: ualberta
+    country: ca
+    url: https://www.ualberta.ca/en/business/international/incoming-exchange/estimated-expenses.html
+    parser: html
+    manual: true

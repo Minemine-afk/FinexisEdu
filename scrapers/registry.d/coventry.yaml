@@ -56,3 +56,9 @@ sources:
     country: uk
     url: "https://www.coventry.ac.uk/course-structure/pg/cas/psychology-msc/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/cuc/international/living-in-the-uk_84843/
+    parser: html
+    manual: true

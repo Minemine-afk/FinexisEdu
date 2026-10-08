@@ -7,3 +7,9 @@ sources:
     country: uk
     url: "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: uel
+    country: uk
+    url: https://www.uel.ac.uk/blog/real-cost-living-east-london-what-uel-students-need-know
+    parser: html
+    manual: true

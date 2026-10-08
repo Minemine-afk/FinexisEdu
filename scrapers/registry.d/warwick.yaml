@@ -12,3 +12,9 @@ sources:
     country: uk
     url: "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: warwick
+    country: uk
+    url: https://warwick.ac.uk/services/wss/funding/moneymatters/managingmoney/living/
+    parser: html
+    manual: true

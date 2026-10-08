@@ -5,3 +5,9 @@ sources:
     country: jp
     url: "https://www.kyushu-u.ac.jp/en/admission/fees/expenses/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: kyushu
+    country: jp
+    url: https://www.isc.kyushu-u.ac.jp/invitation/cost/
+    parser: html
+    manual: true

@@ -5,3 +5,9 @@ sources:
     country: nz
     url: "https://www.lincoln.ac.nz/study/fees/international-fees/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: lincoln
+    country: nz
+    url: https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/
+    parser: html
+    manual: true

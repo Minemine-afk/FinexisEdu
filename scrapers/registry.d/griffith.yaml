@@ -11,3 +11,9 @@ sources:
     country: ie
     url: "https://www.griffith.ie/sites/default/files/2025-06/gop-nef-m-19.06.v1-compressed.pdf"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: griffith
+    country: ie
+    url: https://www.griffith.ie/sites/default/files/2026-07/cost-of-living-v3.1-clickable.pdf
+    parser: pdf
+    manual: true

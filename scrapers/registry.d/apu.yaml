@@ -10,3 +10,9 @@ sources:
     country: jp
     url: "https://admissions.apu.ac.jp/graduate/cost/enrollment_fee/"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: apu
+    country: jp
+    url: https://admissions.apu.ac.jp/student_life/money_matters/
+    parser: html
+    manual: true

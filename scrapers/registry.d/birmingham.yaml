@@ -65,3 +65,9 @@ sources:
     country: uk
     url: "https://www.mastersportal.com/studies/271453/general-law.html"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: birmingham
+    country: uk
+    url: https://www.birmingham.ac.uk/study/support/moneyadvice/living
+    parser: html
+    manual: true

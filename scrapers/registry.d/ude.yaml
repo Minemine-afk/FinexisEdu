@@ -6,3 +6,9 @@ sources:
     country: de
     url: "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: ude
+    country: de
+    url: https://www.study-in-germany.de/en/plan-your-studies/requirements/proof-of-financial-resources/
+    parser: html
+    manual: true

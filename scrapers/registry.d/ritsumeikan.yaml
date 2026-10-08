@@ -10,3 +10,9 @@ sources:
     country: jp
     url: "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html"
     manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: ritsumeikan
+    country: jp
+    url: https://en.ritsumei.ac.jp/e-ug/financial_info/cost_of_living.html
+    parser: html
+    manual: true
