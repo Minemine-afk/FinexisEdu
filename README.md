@@ -49,9 +49,9 @@ Brain and Cognitive Sciences, its nearest equivalent. Law and medicine cover the
 Singapore Institute of Legal Education's approved list and the Singapore
 Medical Council's recognised list respectively, plus the local schools;
 undergraduate-entry degrees (LLB, MBBS) sit under Bachelor's and graduate-entry
-ones (JD, LLM, graduate-entry MD) under Master's. Where medicine fees rise in
-the clinical years, the first-year fee is used and the later rates are in the
-programme's notes.
+ones (JD, LLM, graduate-entry MD) under Master's. Where later years of a
+programme cost more (the clinical years of medicine, say), each year is priced
+at its own published fee (`laterYears` in the data; see `data/SCHEMA.md`).
 Every current figure was checked against the university's own fee page or PDF
 where the page is readable, and 2024/2025 figures come from the universities'
 published fee tables for those years.

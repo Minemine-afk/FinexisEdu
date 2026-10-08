@@ -26,6 +26,10 @@ export const GLOSSARY = {
     "Fees every student must pay each year on top of tuition, such as student services, amenities, laboratory, registration or student-union fees. Deposits and optional charges are excluded.",
   oneOffFees:
     "Compulsory fees paid once, usually at admission, such as a Japanese entrance fee, an enrolment or orientation fee, or an application fee. Refundable deposits are excluded.",
+  laterYears:
+    "Later years of this programme have their own published fee, usually higher (for example the clinical years of a medicine degree), so each year is priced at its own rate rather than the first year's.",
+  laterYearsEstimated:
+    "The university publishes a total for the whole programme rather than a fee for each later year, so the later-year figure is the amount that makes the years add up to that total.",
   otherFeesCurrent:
     "The published fee table for the earlier year listed tuition only, so this year's compulsory and one-off fees are taken from the current rates.",
   unofficialSource:

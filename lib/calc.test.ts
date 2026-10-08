@@ -97,6 +97,54 @@ describe("calculate", () => {
   });
 });
 
+describe("later years of study with their own fee", () => {
+  const mbchb = Programme.parse({
+    ...ucl,
+    name: "MBChB",
+    durationYears: 6,
+    feeYear: 2026,
+    cohortLocked: false,
+    fees: { international: { annualTuition: 32100, annualCompulsoryFees: 849 } },
+    laterYears: [{ fromYear: 2, annualTuition: 86561 }],
+  });
+
+  it("charges each year of study its own published fee", () => {
+    const r = calculate({ programme: mbchb, currency: "NZD", residency: "international", startYear: 2026, feeIncrease: 0 });
+    expect(r.years.map((y) => y.tuition)).toEqual([32100, 86561, 86561, 86561, 86561, 86561]);
+    expect(r.years.map((y) => y.compulsoryFees)).toEqual([849, 849, 849, 849, 849, 849]);
+    expect(r.years.map((y) => y.laterYear)).toEqual([false, true, true, true, true, true]);
+    expect(r.laterYearFees).toBe(true);
+    expect(r.laterYearsEstimated).toBe(false);
+  });
+
+  it("projects later-year fees from the same fee year as the first year", () => {
+    const r = calculate({ programme: mbchb, currency: "NZD", residency: "international", startYear: 2027, feeIncrease: 0.1 });
+    expect(r.years[0].tuition).toBeCloseTo(32100 * 1.1);
+    expect(r.years[1].tuition).toBeCloseTo(86561 * 1.21);
+  });
+
+  it("takes the latest entry at or before the year of study, per tier", () => {
+    const p = Programme.parse({
+      ...mbchb,
+      laterYears: [
+        { fromYear: 2, annualTuition: 40000 },
+        { fromYear: 4, annualTuition: 60000, annualCompulsoryFees: 1000, estimate: true },
+        { fromYear: 3, tier: "citizen", annualTuition: 1 },
+      ],
+    });
+    const r = calculate({ programme: p, currency: "NZD", residency: "international", startYear: 2026, feeIncrease: 0 });
+    expect(r.years.map((y) => y.tuition)).toEqual([32100, 40000, 40000, 60000, 60000, 60000]);
+    expect(r.years[3].compulsoryFees).toBe(1000);
+    expect(r.laterYearsEstimated).toBe(true);
+  });
+
+  it("reports no later-year fees for an ordinary programme", () => {
+    const r = calculate({ programme: ucl, currency: "GBP", residency: "international", startYear: 2026, feeIncrease: 0 });
+    expect(r.laterYearFees).toBe(false);
+    expect(r.years.every((y) => !y.laterYear)).toBe(true);
+  });
+});
+
 describe("past start years", () => {
   const nusWithHistory = Programme.parse({
     ...nus,
