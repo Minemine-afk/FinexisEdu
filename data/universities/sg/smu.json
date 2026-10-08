@@ -214,7 +214,14 @@
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 12700, "annualCompulsoryFees": 227, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 17750, "annualCompulsoryFees": 227, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 29300, "annualCompulsoryFees": 291, "oneOffFees": 0, "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "LLB GPA 3.00 or JD, Singapore university",
+        "sourceUrl": "https://www.sile.edu.sg/the-singapore-bar-admission-local-graduates/qualified-person-local-universities/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -237,7 +244,14 @@
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 25433.33, "annualCompulsoryFees": 0, "oneOffFees": 400, "sourceUrl": "https://law.smu.edu.sg/jd/admissions/finance-administrative-matters-jd-programme" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 25433.33, "annualCompulsoryFees": 0, "oneOffFees": 400, "sourceUrl": "https://law.smu.edu.sg/jd/admissions/finance-administrative-matters-jd-programme" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25433.33, "annualCompulsoryFees": 0, "oneOffFees": 500, "sourceUrl": "https://law.smu.edu.sg/jd/admissions/finance-administrative-matters-jd-programme" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "LLB GPA 3.00 or JD, Singapore university",
+        "sourceUrl": "https://www.sile.edu.sg/the-singapore-bar-admission-local-graduates/qualified-person-local-universities/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -266,7 +280,14 @@
         { "feeYear": 2026, "tier": "citizen", "annualTuition": 33150, "annualCompulsoryFees": 0, "oneOffFees": 400, "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws" },
         { "feeYear": 2026, "tier": "pr", "annualTuition": 33150, "annualCompulsoryFees": 0, "oneOffFees": 400, "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws" },
         { "feeYear": 2026, "tier": "international", "annualTuition": 38150, "annualCompulsoryFees": 0, "oneOffFees": 500, "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "SILE lists this university's first law degree, not the LLM",
+        "sourceUrl": "https://www.sile.edu.sg/the-singapore-bar-admission-local-graduates/qualified-person-local-universities/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

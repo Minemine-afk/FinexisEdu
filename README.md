@@ -45,10 +45,13 @@ nursing). Psychology covers the main bachelor's and one taught master's at
 every university that offers them (Imperial, SIT, TUM, ETH, EPFL and St. Gallen
 have none; most US universities and several others teach psychology master's
 only as research degrees, so they have the bachelor's only). MIT is listed with
-Brain and Cognitive Sciences, its nearest equivalent. Law and medicine cover the universities on the
-Singapore Institute of Legal Education's approved list and the Singapore
-Medical Council's recognised list respectively, plus the local schools;
-undergraduate-entry degrees (LLB, MBBS) sit under Bachelor's and graduate-entry
+Brain and Cognitive Sciences, its nearest equivalent. Law and medicine are
+included wherever a shortlisted university teaches them; every law or medicine
+programme is labelled "SILE listed" or "Not on SILE list" (Singapore Institute
+of Legal Education approved universities) and "SMC listed" or "Not on SMC list"
+(Singapore Medical Council registrable qualifications), from `sgRecognition` in
+the data, so a reader can see at once whether the degree leads to practice in
+Singapore. Undergraduate-entry degrees (LLB, MBBS) sit under Bachelor's and graduate-entry
 ones (JD, LLM, graduate-entry MD) under Master's. Where later years of a
 programme cost more (the clinical years of medicine, say), each year is priced
 at its own published fee (`laterYears` in the data; see `data/SCHEMA.md`).

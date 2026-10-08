@@ -126,7 +126,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.griffith.ie/sites/default/files/2025-11/gop-nef-b-25.11.v1-compressed.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -270,7 +277,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.griffith.ie/sites/default/files/2024-02/non-eu-postgraduate-fee-15022024-compressed.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

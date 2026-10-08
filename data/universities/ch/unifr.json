@@ -191,7 +191,14 @@
           "annualTuition": 1740,
           "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -395,7 +402,14 @@
           "annualTuition": 1740,
           "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

@@ -132,7 +132,14 @@
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in Japanese.",
       "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024 or 2025 fee publication read, so no history. ",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -153,7 +160,14 @@
       "cohortLocked": false,
       "summary": "Standard national tuition for the 6-year Japanese-taught medical degree. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
       "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination. 6-year undergraduate medical degree. Not checked against the Singapore Medical Council's list of registrable qualifications. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024 or 2025 fee publication read, so no history. ",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": false,
+        "note": "medical school not on the SMC Second Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -300,7 +314,14 @@
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
       "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Standard graduate rate; the ¥804,000 professional graduate school rate applies to the Law School (JD), not this programme. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024 or 2025 fee publication read, so no history. ",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     }
   ]
 }

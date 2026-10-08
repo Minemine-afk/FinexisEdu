@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { isStale, type CalcResult } from "@/lib/calc";
 import { formatMoney, partnerOf, programmeLabel } from "@/lib/format";
-import { LIVING_CATEGORIES, type Country } from "@/lib/schema";
+import { LIVING_CATEGORIES, type Country, type SgRecognition } from "@/lib/schema";
 import { monthlyTotal, type Lifestyle, type MonthlyLiving } from "@/lib/living";
 import UniversityName from "./UniversityName";
 import InfoTip from "./InfoTip";
@@ -141,6 +141,7 @@ export default function ResultDetail({
           {result.otherFeesFromCurrent && (
             <Badge term="otherFeesCurrent">Other fees use current rates</Badge>
           )}
+          {p.sgRecognition && <RecognitionBadge r={p.sgRecognition} />}
           {p.sourceType === "secondary" && (
             <Badge warn term="unofficialSource">
               Unofficial source
@@ -318,6 +319,24 @@ function MoreNotes({
         Read more at source <span aria-hidden="true">↗</span>
       </a>
     </details>
+  );
+}
+
+/** "SILE listed" / "Not on SMC list" label for law and medicine degrees. */
+export function RecognitionBadge({ r }: { r: SgRecognition }) {
+  const term: GlossaryTerm =
+    r.body === "SILE"
+      ? r.listed
+        ? "sileListed"
+        : "sileNotListed"
+      : r.listed
+        ? "smcListed"
+        : "smcNotListed";
+  return (
+    <Badge warn={!r.listed} term={term}>
+      {r.listed ? `${r.body} listed` : `Not on ${r.body} list`}
+      {r.note ? ` (${r.note})` : ""}
+    </Badge>
   );
 }
 

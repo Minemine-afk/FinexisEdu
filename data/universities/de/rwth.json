@@ -363,7 +363,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.asta.rwth-aachen.de/en/about-us/finance/"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": false,
+        "note": "medical school not on the SMC Second Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

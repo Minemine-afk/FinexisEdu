@@ -15,9 +15,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 7550, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "pr": { "annualTuition": 12600, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "international": { "annualTuition": 19200, "annualCompulsoryFees": 577.7, "oneOffFees": 0}
+        "citizen": { "annualTuition": 7550, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 12600, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 19200, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
       "lastVerified": "2026-10-01",
@@ -41,9 +41,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 8460, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "pr": { "annualTuition": 13450, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "international": { "annualTuition": 20500, "annualCompulsoryFees": 577.7, "oneOffFees": 0}
+        "citizen": { "annualTuition": 8460, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 13450, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 20500, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
       "lastVerified": "2026-10-01",
@@ -67,9 +67,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 7550, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "pr": { "annualTuition": 12600, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "international": { "annualTuition": 19200, "annualCompulsoryFees": 577.7, "oneOffFees": 0}
+        "citizen": { "annualTuition": 7550, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 12600, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 19200, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/full-time-undergraduate",
       "lastVerified": "2026-10-01",
@@ -93,9 +93,9 @@
       "durationYears": 4.5,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 10408.89, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "pr": { "annualTuition": 16577.78, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "international": { "annualTuition": 44236.89, "annualCompulsoryFees": 261.6, "oneOffFees": 0}
+        "citizen": { "annualTuition": 10408.89, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 16577.78, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 44236.89, "annualCompulsoryFees": 261.6, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2025-law-llb_13032026.pdf?sfvrsn=a25fe983_3",
       "lastVerified": "2026-10-01",
@@ -111,7 +111,14 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 10364.44, "annualCompulsoryFees": 179.85, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/contentdoc/sa/llb_programmefee.pdf" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 20720, "annualCompulsoryFees": 179.85, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/contentdoc/sa/llb_programmefee.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 44236.8, "annualCompulsoryFees": 179.85, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/contentdoc/sa/llb_programmefee.pdf" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "LLB GPA 3.50 or JD, Singapore university",
+        "sourceUrl": "https://www.sile.edu.sg/the-singapore-bar-admission-local-graduates/qualified-person-local-universities/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -120,9 +127,9 @@
       "durationYears": 1,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0},
-        "pr": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0},
-        "international": { "annualTuition": 41437.44, "annualCompulsoryFees": 577.7, "oneOffFees": 0}
+        "citizen": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "pr": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "international": { "annualTuition": 41437.44, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_78",
       "lastVerified": "2026-10-02",
@@ -143,9 +150,9 @@
       "durationYears": 1,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0},
-        "pr": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0},
-        "international": { "annualTuition": 41437.44, "annualCompulsoryFees": 577.7, "oneOffFees": 0}
+        "citizen": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "pr": { "annualTuition": 34531.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "international": { "annualTuition": 41437.44, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_78",
       "lastVerified": "2026-10-02",
@@ -166,9 +173,9 @@
       "durationYears": 2,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 20143.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0},
-        "pr": { "annualTuition": 20143.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0},
-        "international": { "annualTuition": 24171.84, "annualCompulsoryFees": 577.7, "oneOffFees": 0}
+        "citizen": { "annualTuition": 20143.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "pr": { "annualTuition": 20143.2, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "international": { "annualTuition": 24171.84, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_78",
       "lastVerified": "2026-10-02",
@@ -189,9 +196,9 @@
       "durationYears": 2,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 6950, "annualCompulsoryFees": 21.8, "oneOffFees": 0},
-        "pr": { "annualTuition": 14100, "annualCompulsoryFees": 21.8, "oneOffFees": 0},
-        "international": { "annualTuition": 33592.71, "annualCompulsoryFees": 577.7, "oneOffFees": 0}
+        "citizen": { "annualTuition": 6950, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "pr": { "annualTuition": 14100, "annualCompulsoryFees": 21.8, "oneOffFees": 0 },
+        "international": { "annualTuition": 33592.71, "annualCompulsoryFees": 577.7, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1",
       "lastVerified": "2026-10-01",
@@ -215,9 +222,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 11710, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "pr": { "annualTuition": 18650, "annualCompulsoryFees": 261.6, "oneOffFees": 0},
-        "international": { "annualTuition": 41472, "annualCompulsoryFees": 261.6, "oneOffFees": 0}
+        "citizen": { "annualTuition": 11710, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18650, "annualCompulsoryFees": 261.6, "oneOffFees": 0 },
+        "international": { "annualTuition": 41472, "annualCompulsoryFees": 261.6, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-tuition-fees-ay2026-lawjd_final_070726.pdf?sfvrsn=acc92e18_1",
       "lastVerified": "2026-10-01",
@@ -233,7 +240,14 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 9720, "annualCompulsoryFees": 179.85, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/contentdoc/sa/jd_programmefee.pdf" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 19425, "annualCompulsoryFees": 179.85, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/contentdoc/sa/jd_programmefee.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 41472, "annualCompulsoryFees": 179.85, "oneOffFees": 0, "sourceUrl": "https://www.suss.edu.sg/docs/default-source/contentdoc/sa/jd_programmefee.pdf" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "LLB GPA 3.50 or JD, Singapore university",
+        "sourceUrl": "https://www.sile.edu.sg/the-singapore-bar-admission-local-graduates/qualified-person-local-universities/",
+        "lastVerified": "2026-10-08"
+      }
     }
   ]
 }

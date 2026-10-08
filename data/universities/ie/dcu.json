@@ -401,7 +401,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -439,7 +446,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

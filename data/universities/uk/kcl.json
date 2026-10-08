@@ -141,7 +141,14 @@
       "sourceType": "secondary",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '33850 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition."
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '33850 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition.",
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "First Schedule, at least a 2:2",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -161,7 +168,14 @@
       "sourceType": "secondary",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting the 5-year MBBS in 2027, as listed by a course directory (King's own page could not be read). Fees can rise by up to 7% a year.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '56800 GBP / year'. Replace with the official figure when it can be read. Studyportals lists the 'MBBS On Campus' (60 months) at 56,800 GBP / year; whether King's charges a different rate in the clinical years was not confirmed. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition."
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '56800 GBP / year'. Replace with the official figure when it can be read. Studyportals lists the 'MBBS On Campus' (60 months) at 56,800 GBP / year; whether King's charges a different rate in the clinical years was not confirmed. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition.",
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, MB BS",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -321,7 +335,14 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. No separate compulsory fees.",
-      "notes": "King's course fees page: 'Full time tuition fees International: £38,300 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition."
+      "notes": "King's course fees page: 'Full time tuition fees International: £38,300 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition.",
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "SILE lists this university's first law degree, not the LLM",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

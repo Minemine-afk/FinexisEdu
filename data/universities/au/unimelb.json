@@ -331,7 +331,14 @@
           "annualTuition": 52992,
           "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "First Schedule, JD, top 70% of class",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -365,7 +372,14 @@
           "annualTuition": 112000,
           "sourceUrl": "https://students.unimelb.edu.au/__data/assets/pdf_file/0008/5236028/International-Course-Tuition-Fees-OF_20250415.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, MB BS, MD",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

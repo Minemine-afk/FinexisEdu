@@ -177,7 +177,14 @@
           "annualTuition": 38550,
           "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Law%20%28Jurisprudence%29%20CIS%202024.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "First Schedule, at least a 2:2",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -217,7 +224,14 @@
           "annualTuition": 45590,
           "sourceUrl": "https://www.ox.ac.uk/sites/default/files/course-information-sheets/2024-25/Bachelor%20of%20Civil%20Law_2024-25entry_19Oct23.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "SILE lists the BA Jurisprudence, not the BCL",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -264,7 +278,14 @@
           "annualTuition": 69160,
           "estimate": true
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, BM BCh",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

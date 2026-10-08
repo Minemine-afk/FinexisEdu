@@ -8,6 +8,7 @@ import {
   RESIDENCY_LABELS,
   formatCompactSgd,
   partnerOf,
+  recognitionTag,
 } from "@/lib/format";
 import { FIELDS, LEVELS, type Field } from "@/lib/schema";
 import type { Lifestyle } from "@/lib/living";
@@ -575,6 +576,7 @@ function UniversityPicker({
                   ? ` (${o.programme.majors.length} majors)`
                   : ""}
                 {reasonFor(o) ? " (no published fee)" : ""}
+                {recognitionTag(o.programme)}
               </option>
             ))}
           </select>

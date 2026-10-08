@@ -38,6 +38,17 @@ describe("committed data", () => {
     }
   });
 
+  it("says whether every law and medicine degree is on the SILE or SMC list", () => {
+    for (const u of universities) {
+      for (const p of u.programmes) {
+        const id = `${u.id}: ${p.name}`;
+        if (p.field === "law") expect(p.sgRecognition?.body, id).toBe("SILE");
+        else if (p.field === "medicine") expect(p.sgRecognition?.body, id).toBe("SMC");
+        else expect(p.sgRecognition, id).toBeUndefined();
+      }
+    }
+  });
+
   it("names a known partner on every programme of a university with partners", () => {
     for (const u of universities) {
       const ids = new Set((u.partners ?? []).map((p) => p.id));

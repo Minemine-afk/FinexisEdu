@@ -90,7 +90,14 @@
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in English.",
       "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -153,7 +160,14 @@
       "cohortLocked": false,
       "summary": "Standard national tuition for the 6-year Japanese-taught medical degree. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
       "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination; fee is the same university-wide national rate. 6-year undergraduate medical degree. Not checked against the Singapore Medical Council's list of registrable qualifications. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": false,
+        "note": "medical school not on the SMC Second Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
