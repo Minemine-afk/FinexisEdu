@@ -130,7 +130,7 @@ function DesktopCalculator({
           </span>
         </label>
 
-        <fieldset className="rounded-md border border-border bg-surface/60 p-3">
+        <fieldset className="min-w-0 rounded-md border border-border bg-surface/60 p-3">
           <legend className="px-1 text-sm font-medium">
             <InfoTip term="feeIncrease">
               Rates based on {baseYearLabel} figures
@@ -230,7 +230,7 @@ function DesktopCalculator({
           </div>
         </fieldset>
 
-        <fieldset>
+        <fieldset className="min-w-0">
           <legend className="text-sm font-medium">
             <InfoTip term="livingCosts">Living costs</InfoTip>
           </legend>
@@ -458,7 +458,7 @@ function UniversityPicker({
     pickProgramme(candidates, field, reasonFor, taken);
 
   return (
-    <fieldset className="rounded-md border border-border bg-surface/60 p-3">
+    <fieldset className="min-w-0 rounded-md border border-border bg-surface/60 p-3">
       <legend className="flex items-center gap-2 px-1 text-xs font-medium uppercase tracking-wide text-muted">
         University {index + 1}
         {onRemove && (
