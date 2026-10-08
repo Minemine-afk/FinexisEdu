@@ -1,0 +1,7 @@
+# Universita della Svizzera italiana. One semester fee for all bachelor/master programmes (new rate from 2027/28).
+sources:
+  # Organising-your-studies page: fee and living-cost ranges read by hand
+  - university: usi
+    country: ch
+    url: "https://www.usi.ch/en/organising-bachelor-master-studies"
+    manual: true

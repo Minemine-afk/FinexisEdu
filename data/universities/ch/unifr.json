@@ -1,0 +1,435 @@
+{
+  "id": "unifr",
+  "name": "University of Fribourg",
+  "country": "ch",
+  "city": "Fribourg",
+  "currency": "CHF",
+  "website": "https://www.unifr.ch",
+  "description": "The University of Fribourg is a public university founded in 1889 and Switzerland's only bilingual university, teaching in French and German. It has five faculties including law, management and economics, and science and medicine.",
+  "whyIncluded": "The University of Fribourg is among the 10 universities in Switzerland most chosen by international students (about 18% of its 6,838 students are international, per Times Higher Education World University Rankings 2027 data), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 400,
+      "food": 450,
+      "transport": 60,
+      "personal": 575
+    },
+    "sourceUrl": "https://unifr.ch/studies/en/mobility/incoming/practical-information/preparer-sejour/budget.html",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own approximate monthly budget for students in shared housing, using the middle of its ranges, for 12 months a year. Excludes health insurance and fees.",
+    "notes": "unifr incoming-students budget page (monthly; midpoints): rental in shared accommodation 350-450 (400); food 450; transport TPF season pass 60; personal = phone/internet 100 + clothes/toiletries 100 + course materials/exam fees 150-250 (200) + recreation/culture 150-200 (175) = 575. Health/accident insurance 250-330 excluded. unifr's total CHF 1,600-1,900 a month without insurance. Page undated, read 2026-10-07."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science in Computer Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 3-year (180 ECTS) bachelor, taught in French and German (bilingual option).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Arts in Management",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 3-year (180 ECTS) bachelor taught in French, German or both, with some courses in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science in Biology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 3-year (180 ECTS) bachelor, taught in French and German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts in English Language and Literature",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 3-year (180 ECTS) bachelor (main subject, with a minor), taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Law",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 3-year (180 ECTS) law bachelor, taught in French, German or bilingually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science in Psychology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 3-year (180 ECTS) bachelor, taught in French or German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Swiss Joint Master of Science in Computer Science",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 1.5-year (90 ECTS) master run with Bern and Neuchatel (BeNeFri), taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Arts in Management",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 2-year (120 ECTS) master, taught in French, German and English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Biology",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 1.5-year (90 ECTS) master, taught in English, French and German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in English Language and Literature",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 2-year (120 ECTS) master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Law",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 1.5-year (90 ECTS) law master, taught in French, German or bilingually.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science in Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the rate for foreign students, plus the basic semester fee that covers sport, library and the student association. A one-off CHF 100 application fee is extra.",
+      "notes": "University of Fribourg 'University fees' page: foreign students CHF 115 basic registration + CHF 870 tuition = CHF 985 per semester (Swiss CHF 720 tuition); tuition 870 x 2 = 1,740; basic fee 115 x 2 = 230 (general costs 28, library 12, AGEF student association 20, Uni-Social fund 30, sports 15, copyright 5, campus card 5). One-off: CHF 100 non-refundable application fee for holders of foreign diplomas (unifr admission pages for bachelor and master with foreign qualifications; +CHF 50 for late applications, excluded). Fee history: cantonal Ordonnance concernant la taxe d'inscription (RSF 431.0.16, adopted 7 Nov 2017), art. 3: CHF 870 per semester for foreign students; unifr's 2018 factsheet shows 870 from autumn 2018 and the version in force since 15 Nov 2024 still says 870, so 2024-25 and 2025-26 tuition was CHF 1,740. The basic fee is set by the Rectorate and was also CHF 115 in 2018, but no 2024/2025 figure was found, so history rows carry tuition only. 2-year (120 ECTS) master, taught in French or German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
+    }
+  ]
+}

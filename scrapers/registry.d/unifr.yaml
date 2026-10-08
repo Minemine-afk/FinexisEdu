@@ -1,0 +1,12 @@
+# University of Fribourg. One semester-fee table for all programmes.
+sources:
+  # University fees table: basic fee + foreign tuition read by hand
+  - university: unifr
+    country: ch
+    url: "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/"
+    manual: true
+  # Incoming-student budget page: ranged monthly budget, midpoints computed by hand
+  - university: unifr
+    country: ch
+    url: "https://unifr.ch/studies/en/mobility/incoming/practical-information/preparer-sejour/budget.html"
+    manual: true
