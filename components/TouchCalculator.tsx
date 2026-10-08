@@ -398,6 +398,9 @@ function Assumptions({ state }: { state: CalculatorState }) {
     residency,
     setResidency,
     startYear,
+    startYearInput,
+    startYearError,
+    typeStartYear,
     stepStartYear,
     customIncrease,
     setCustomIncrease,
@@ -443,32 +446,50 @@ function Assumptions({ state }: { state: CalculatorState }) {
         <p className="text-sm font-medium">
           <InfoTip term="startYear">Start year</InfoTip>
         </p>
-        <div className="mt-2 flex items-center justify-between rounded-xl border border-border bg-surface p-1.5">
+        <div
+          className={`mt-2 flex items-center gap-1.5 rounded-xl border bg-surface p-1.5 ${startYearError ? "border-warn-fg" : "border-border"}`}
+        >
           <button
             type="button"
             aria-label="One year earlier"
             disabled={startYear <= MIN_START_YEAR}
             onClick={() => stepStartYear(-1)}
-            className={`h-11 w-14 rounded-lg bg-chip text-2xl text-accent disabled:opacity-40${FOCUS}`}
+            className={`h-11 w-14 shrink-0 rounded-lg bg-chip text-2xl text-accent disabled:opacity-40${FOCUS}`}
           >
             −
           </button>
-          <span className="text-2xl font-semibold tabular-nums" aria-live="polite">
-            {startYear}
-          </span>
+          <input
+            id="touch-start-year"
+            type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
+            maxLength={4}
+            placeholder={String(MIN_START_YEAR)}
+            aria-label="Start year"
+            aria-invalid={startYearError !== null}
+            aria-describedby="touch-start-year-hint"
+            className={`h-11 min-w-0 flex-1 rounded-lg bg-transparent text-center text-2xl font-semibold tabular-nums${FOCUS}`}
+            value={startYearInput}
+            onChange={(e) => typeStartYear(e.target.value)}
+          />
           <button
             type="button"
             aria-label="One year later"
             onClick={() => stepStartYear(1)}
-            className={`h-11 w-14 rounded-lg bg-chip text-2xl text-accent${FOCUS}`}
+            className={`h-11 w-14 shrink-0 rounded-lg bg-chip text-2xl text-accent${FOCUS}`}
           >
             +
           </button>
         </div>
-        <p className="mt-1 text-xs text-muted">
-          <InfoTip term="feeIncrease">
-            Rates based on {baseYearLabel} figures
-          </InfoTip>
+        <p
+          id="touch-start-year-hint"
+          className={`mt-1 text-xs ${startYearError ? "text-warn-fg" : "text-muted"}`}
+        >
+          {startYearError ?? (
+            <InfoTip term="feeIncrease">
+              Rates based on {baseYearLabel} figures
+            </InfoTip>
+          )}
         </p>
       </div>
 
