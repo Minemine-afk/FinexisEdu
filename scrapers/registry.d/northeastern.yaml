@@ -1,0 +1,6 @@
+sources:
+  # Northeastern Student Financial Services tuition and fees page: multi-table page; fee read by hand
+  - university: northeastern
+    country: us
+    url: "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+    manual: true

@@ -1,0 +1,87 @@
+# King's College London. All sources are checked by hand (manual).
+sources:
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/81646/electronic-engineering.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/81582/computer-science.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/80635/business-management.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/82181/physics.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/81639/economics.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/82024/law.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/318542/medicine.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/82268/psychology.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.bachelorsportal.com/studies/82122/nursing-with-registration-as-an-adult-nurse.html"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/robotics-msc/fees"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/advanced-computing-msc/fees"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/international-management-msc/fees"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/data-science-msc/fees"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/international-relations-ma/fees"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/master-of-laws-llm/fees"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/mental-health-studies-msc/fees"
+    manual: true
+  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/student-experience/living-expenses"
+    manual: true

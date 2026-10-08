@@ -218,29 +218,21 @@
       "field": "computing",
       "name": "MSc Computer Science - Data Analytics",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2025,
       "fees": {
         "international": {
-          "annualTuition": 28640,
+          "annualTuition": 28140,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-10-07",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, including the EUR 140 student levy.",
-      "notes": "University of Galway postgraduate fee table, non-EU column, 2026/27, per annum (course 1CSD1); 1 year full-time. Figure includes the EUR 140 student levy (Galway quotes fees levy-inclusive; rows that exclude it say so). 2025/26 history row: University of Galway Postgraduate Prospectus 2025 (PDF) course table, 'Non-EU Fees' column, EUR 28,000 p.a. tuition; the prospectus states a student levy of EUR 140 for 2025/26 is payable in addition, so EUR 28,140 is recorded to match the levy-inclusive convention of the current row. No 2024/25 figure is published on the university's site. 2024/25 row: Wayback Machine capture of 9 Aug 2024 of the official postgraduate fee table, International (non-EU) fee column: MSC-CSD 'Computer Science—Data Analytics (MSc)' 'EUR 27,000 p.a. (EUR 27,140 p.a. including levy) 2024/25'; levy-inclusive figure recorded, matching the current row's convention.",
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, including the EUR 140 student levy. The 2026/27 fee is not yet published.",
+      "notes": "University of Galway postgraduate fee table, non-EU column, re-checked 2026-10-07: 'Computer Science - Data Analytics (MSc)' (PAC MSC-CSD) is still listed only at EUR 28,140 p.a. 2025/2026, levy-inclusive; 1 year full-time. No 2026/27 figure is published yet. The EUR 28,640 previously recorded here as 2026/27 is the 2026/27 fee of the separate Computer Science-Artificial Intelligence MSc (MSC-MAI). The 2025/26 figure matches the Postgraduate Prospectus 2025 (PDF), 'Non-EU Fees' column, EUR 28,000 p.a. plus the EUR 140 student levy. 2024/25 row: Wayback Machine capture of 9 Aug 2024 of the official postgraduate fee table, International (non-EU) fee column: MSC-CSD 'Computer Science—Data Analytics (MSc)' 'EUR 27,000 p.a. (EUR 27,140 p.a. including levy) 2024/25'; levy-inclusive figure recorded.",
       "feeHistory": [
-        {
-          "feeYear": 2025,
-          "tier": "international",
-          "annualTuition": 28140,
-          "annualCompulsoryFees": 0,
-          "oneOffFees": 0,
-          "sourceUrl": "https://www.universityofgalway.ie/media/courses/downloads/Postgraduate-Prospectus-2025.pdf"
-        },
         {
           "feeYear": 2024,
           "tier": "international",

@@ -1,0 +1,363 @@
+{
+  "id": "uiuc",
+  "name": "University of Illinois Urbana-Champaign",
+  "country": "us",
+  "city": "Champaign-Urbana, IL",
+  "currency": "USD",
+  "website": "https://illinois.edu",
+  "description": "The University of Illinois Urbana-Champaign is the flagship public research university of the State of Illinois, founded in 1867. It is known for its Grainger College of Engineering, computer science and Gies College of Business.",
+  "whyIncluded": "The University of Illinois Urbana-Champaign is among the 10 universities in the United States most chosen by international students (16,144 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1762.0,
+      "food": 0,
+      "transport": 0,
+      "personal": 448.89
+    },
+    "sourceUrl": "https://registrar.illinois.edu/tuition-fees/tuition-fee-rates/tf-rates-academic-year/ug-additional-expenses-2627/",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "Illinois's own estimate for an international undergraduate in a campus residence hall with a meal plan, over the academic year: housing, food, books and other costs. Excludes tuition, fees and insurance.",
+    "notes": "2026-27 undergraduate estimated additional expenses, non-resident/international column: food & housing $15,858 (traditional double room with air, Classic meal plan; combined, so all in housing, food 0); books & supplies $1,200 + other $2,840 (transportation, clothing, recreation and miscellaneous; transport not split out, so in personal). Months not stated; academic year taken as 9 months."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47800,
+          "annualCompulsoryFees": 3430,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international undergraduates in this programme, guaranteed for four years if you stay in the same major, plus campus fees. Campus fees can rise; health insurance not included.",
+      "notes": "Illinois Cost Calculator, 2026-2027 undergrad tuition rates, Grainger Engineering & Engineering Related table: international rate for entry Summer 2026-Spring 2027 $47,800; the same table lists the guaranteed rates of earlier entry cohorts, used for history (entry 2025 $44,688, entry 2024 $42,868). Tuition is guaranteed for 4 years under the Undergraduate Guaranteed Tuition Program (registrar tuition and fee rates page), so cohort-locked; fees are not. Other fees = campus fees from the registrar's estimated additional expenses page minus waivable student health insurance: 2026-27 $5,182 - $1,752 = $3,430; 2025-26 $5,054 - $1,692 = $3,362; 2024-25 $4,928 - $1,636 = $3,292. Grainger College of Engineering.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42868,
+          "annualCompulsoryFees": 3292,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44688,
+          "annualCompulsoryFees": 3362,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47800,
+          "annualCompulsoryFees": 3430,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international undergraduates in this programme, guaranteed for four years if you stay in the same major, plus campus fees. Campus fees can rise; health insurance not included.",
+      "notes": "Illinois Cost Calculator, 2026-2027 undergrad tuition rates, Grainger Engineering & Engineering Related table: international rate for entry Summer 2026-Spring 2027 $47,800; the same table lists the guaranteed rates of earlier entry cohorts, used for history (entry 2025 $44,688, entry 2024 $42,868). Tuition is guaranteed for 4 years under the Undergraduate Guaranteed Tuition Program (registrar tuition and fee rates page), so cohort-locked; fees are not. Other fees = campus fees from the registrar's estimated additional expenses page minus waivable student health insurance: 2026-27 $5,182 - $1,752 = $3,430; 2025-26 $5,054 - $1,692 = $3,362; 2024-25 $4,928 - $1,636 = $3,292. Computer Science (Siebel School, Grainger College of Engineering) is charged the engineering rate.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42868,
+          "annualCompulsoryFees": 3292,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44688,
+          "annualCompulsoryFees": 3362,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Finance, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47800,
+          "annualCompulsoryFees": 3430,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international undergraduates in this programme, guaranteed for four years if you stay in the same major, plus campus fees. Campus fees can rise; health insurance not included.",
+      "notes": "Illinois Cost Calculator, 2026-2027 undergrad tuition rates, Gies College of Business table: international rate for entry Summer 2026-Spring 2027 $47,800; the same table lists the guaranteed rates of earlier entry cohorts, used for history (entry 2025 $44,688, entry 2024 $42,868). Tuition is guaranteed for 4 years under the Undergraduate Guaranteed Tuition Program (registrar tuition and fee rates page), so cohort-locked; fees are not. Other fees = campus fees from the registrar's estimated additional expenses page minus waivable student health insurance: 2026-27 $5,182 - $1,752 = $3,430; 2025-26 $5,054 - $1,692 = $3,362; 2024-25 $4,928 - $1,636 = $3,292. Gies rate applies to all Gies majors.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42868,
+          "annualCompulsoryFees": 3292,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44688,
+          "annualCompulsoryFees": 3362,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Molecular & Cellular Biology, BSLAS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43950,
+          "annualCompulsoryFees": 3430,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=CHEML&TermCode=120268&TableType=1",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international undergraduates in this programme, guaranteed for four years if you stay in the same major, plus campus fees. Campus fees can rise; health insurance not included.",
+      "notes": "Illinois Cost Calculator, 2026-2027 undergrad tuition rates, Chemistry & Life Sciences table: international rate for entry Summer 2026-Spring 2027 $43,950; the same table lists the guaranteed rates of earlier entry cohorts, used for history (entry 2025 $41,140, entry 2024 $39,434). Tuition is guaranteed for 4 years under the Undergraduate Guaranteed Tuition Program (registrar tuition and fee rates page), so cohort-locked; fees are not. Other fees = campus fees from the registrar's estimated additional expenses page minus waivable student health insurance: 2026-27 $5,182 - $1,752 = $3,430; 2025-26 $5,054 - $1,692 = $3,362; 2024-25 $4,928 - $1,636 = $3,292. The Chemistry & Life Sciences rate lists Molecular & Cellular Biology among its majors.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39434,
+          "annualCompulsoryFees": 3292,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=CHEML&TermCode=120268&TableType=1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41140,
+          "annualCompulsoryFees": 3362,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=CHEML&TermCode=120268&TableType=1"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English, BALAS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38576,
+          "annualCompulsoryFees": 3430,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international undergraduates in this programme, guaranteed for four years if you stay in the same major, plus campus fees. Campus fees can rise; health insurance not included.",
+      "notes": "Illinois Cost Calculator, 2026-2027 undergrad tuition rates, Base (column 'LAS International Rate') table: international rate for entry Summer 2026-Spring 2027 $38,576; the same table lists the guaranteed rates of earlier entry cohorts, used for history (entry 2025 $35,872, entry 2024 $34,280). Tuition is guaranteed for 4 years under the Undergraduate Guaranteed Tuition Program (registrar tuition and fee rates page), so cohort-locked; fees are not. Other fees = campus fees from the registrar's estimated additional expenses page minus waivable student health insurance: 2026-27 $5,182 - $1,752 = $3,430; 2025-26 $5,054 - $1,692 = $3,362; 2024-25 $4,928 - $1,636 = $3,292. College of Liberal Arts & Sciences majors without a differential pay the base rate; LAS international students pay the LAS international column ($38,576 vs $36,970 for other colleges).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34280,
+          "annualCompulsoryFees": 3292,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35872,
+          "annualCompulsoryFees": 3362,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology, BSLAS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38576,
+          "annualCompulsoryFees": 3430,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international undergraduates in this programme, guaranteed for four years if you stay in the same major, plus campus fees. Campus fees can rise; health insurance not included.",
+      "notes": "Illinois Cost Calculator, 2026-2027 undergrad tuition rates, Base (column 'LAS International Rate') table: international rate for entry Summer 2026-Spring 2027 $38,576; the same table lists the guaranteed rates of earlier entry cohorts, used for history (entry 2025 $35,872, entry 2024 $34,280). Tuition is guaranteed for 4 years under the Undergraduate Guaranteed Tuition Program (registrar tuition and fee rates page), so cohort-locked; fees are not. Other fees = campus fees from the registrar's estimated additional expenses page minus waivable student health insurance: 2026-27 $5,182 - $1,752 = $3,430; 2025-26 $5,054 - $1,692 = $3,362; 2024-25 $4,928 - $1,636 = $3,292. Psychology (LAS) is not listed under any differential rate (Chemistry & Life Sciences lists Neuroscience, not Psychology), so the LAS base international rate applies.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34280,
+          "annualCompulsoryFees": 3292,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35872,
+          "annualCompulsoryFees": 3362,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Mechanical Engineering, MS",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 40444,
+          "annualCompulsoryFees": 3590,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2627/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international graduate students in this programme, plus campus fees. Graduate tuition is not guaranteed and can rise each year; health insurance not included.",
+      "notes": "2026-27 graduate tuition rates (new and continuing), 'Grainger Engineering & Engineering Related' international annual $40,444; 2025-26 $39,344; 2024-25 $38,276. Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 (the 2025-26 graduate page was not found, so that history row has tuition only). Duration typical (thesis MS).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38276,
+          "annualCompulsoryFees": 3444,
+          "oneOffFees": 0,
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2425/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39344,
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science, MCS",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 40444,
+          "annualCompulsoryFees": 3590,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2627/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international graduate students in this programme, plus campus fees. Graduate tuition is not guaranteed and can rise each year; health insurance not included.",
+      "notes": "On-campus Master of Computer Science, charged the 'Grainger Engineering & Engineering Related' graduate rate: international annual $40,444 (2026-27), $39,344 (2025-26), $38,276 (2024-25). Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 (the 2025-26 graduate page was not found, so that history row has tuition only). Duration typical (non-thesis, about three semesters).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38276,
+          "annualCompulsoryFees": 3444,
+          "oneOffFees": 0,
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2425/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39344,
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Management, MS",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43026,
+          "annualCompulsoryFees": 3590,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2627/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students in Gies College of Business's one-year MS in Management, plus campus fees. Health insurance not included.",
+      "notes": "2026-27 graduate tuition rates, 'MS in Management (Fall 2026+)' international $43,026. History uses the rate for that year's new entrants: 2025-26 'entered Fall 2025 or after' $42,182; 2024-25 'entered Fall 2024 or after' $41,354. Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 (the 2025-26 graduate page was not found, so that history row has tuition only). Gies has no on-campus MBA in the rate table, so the MS in Management is the business master's.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41354,
+          "annualCompulsoryFees": 3444,
+          "oneOffFees": 0,
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2425/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42182,
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/"
+        }
+      ]
+    }
+  ]
+}

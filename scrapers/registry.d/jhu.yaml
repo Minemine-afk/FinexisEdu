@@ -1,0 +1,22 @@
+# Johns Hopkins University: added Oct 2026. All sources are checked by hand (JHU catalogue and school cost pages read by hand).
+sources:
+  # JHU catalogue and school cost pages read by hand
+  - university: jhu
+    country: us
+    url: "https://sfs.jhu.edu/cost-tuition/"
+    manual: true
+  # JHU catalogue and school cost pages read by hand
+  - university: jhu
+    country: us
+    url: "https://e-catalogue.jhu.edu/university-wide-policies-information/admission-aid/tuition-fees/"
+    manual: true
+  # JHU catalogue and school cost pages read by hand
+  - university: jhu
+    country: us
+    url: "https://nursing.jhu.edu/wp-content/uploads/2026/04/26-27-MEN-New-F26.pdf"
+    manual: true
+  # JHU catalogue and school cost pages read by hand
+  - university: jhu
+    country: us
+    url: "https://www.hopkinsmedicine.org/som/offices/finaid/cost"
+    manual: true

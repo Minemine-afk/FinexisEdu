@@ -1,0 +1,82 @@
+# University of Bristol. All sources are checked by hand (manual).
+sources:
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/mechanical-engineering/beng-mechanical-engineering/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/business-and-management/bsc-business-and-management/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/physics/bsc-physics/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/law/llb-law/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/medicine/mb-chb-medicine/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/psychology/bsc-psychology/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-robotics/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-computer-science-conversion/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-international-business/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-data-science/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/postgraduate/taught/llm-law---commercial-law/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/"
+    manual: true
+  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/students/support/finances/advice/set-up-finances/living-expenses/"
+    manual: true

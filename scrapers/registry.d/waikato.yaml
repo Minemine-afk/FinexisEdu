@@ -1,0 +1,12 @@
+# University of Waikato (added Oct 2026).
+sources:
+  # international fee table: page layout not yet parsed automatically; figures read by hand
+  - university: waikato
+    country: nz
+    url: "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+    manual: true
+  # living costs: page layout not yet parsed automatically; figures read by hand
+  - university: waikato
+    country: nz
+    url: "https://www.waikato.ac.nz/int/study/international/preparing-to-come-to-new-zealand/cost-of-living/"
+    manual: true

@@ -1,0 +1,18 @@
+# University of Glasgow. Undergraduate international fees are one band table (intlfees page, current and next year);
+# postgraduate fees are one table per year (feetable/live is the newest). Added Oct 2026; read by hand.
+sources:
+  # UG band table read by hand (bands mapped to programmes by award)
+  - university: glasgow
+    country: uk
+    url: "https://www.gla.ac.uk/undergraduate/fees/intlfees/"
+    manual: true
+  # PG fee table is a very long page of rows; read by hand
+  - university: glasgow
+    country: uk
+    url: "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/"
+    manual: true
+  # living-cost budget table read by hand
+  - university: glasgow
+    country: uk
+    url: "https://www.gla.ac.uk/myglasgow/registry/finance/federalloans/costofliving/"
+    manual: true

@@ -1,0 +1,15 @@
+# Technical University of Darmstadt. No tuition (Hesse); the semester contribution page covers
+# every programme. Checked by hand: amounts use comma decimals and the page lists early and
+# late payment rates for regular and exchange students side by side.
+sources:
+  # Semesterbeitraege und Rueckmeldung: WiSe 2026/27 EUR 402.68 regular incl. 50 admin fee; read by hand
+  - university: tu-darmstadt
+    country: de
+    url: "https://www.tu-darmstadt.de/semesterbeitrag"
+    manual: true
+  # List of past semester contributions (PDF); cited for the 2024 and 2025 history only
+  - university: tu-darmstadt
+    country: de
+    url: "https://www.tu-darmstadt.de/media/dezernat_ii/studierendensekretariat/einzelauflistung_beitraege.pdf"
+    parser: pdf
+    manual: true

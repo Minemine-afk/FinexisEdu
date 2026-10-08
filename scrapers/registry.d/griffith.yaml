@@ -1,0 +1,13 @@
+# Griffith College Dublin (private, QQI-validated). Non-EU fee packs are PDFs linked from
+# https://www.griffith.ie/admissions/fees/non-eu-tuition-fees; the filenames change with each new pack.
+sources:
+  # PDF fee pack whose filename changes with each new edition; read by hand
+  - university: griffith
+    country: ie
+    url: "https://www.griffith.ie/sites/default/files/2025-11/gop-nef-b-25.11.v1-compressed.pdf"
+    manual: true
+  # PDF fee pack whose filename changes with each new edition; read by hand
+  - university: griffith
+    country: ie
+    url: "https://www.griffith.ie/sites/default/files/2025-06/gop-nef-m-19.06.v1-compressed.pdf"
+    manual: true

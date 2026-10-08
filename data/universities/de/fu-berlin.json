@@ -1,0 +1,332 @@
+{
+  "id": "fu-berlin",
+  "name": "Freie Universität Berlin",
+  "country": "de",
+  "city": "Berlin",
+  "currency": "EUR",
+  "website": "https://www.fu-berlin.de",
+  "description": "Freie Universität Berlin is a public research university in Berlin-Dahlem, founded in 1948. It has about 34,000 students and is part of the Berlin University Alliance funded under Germany's Excellence Strategy.",
+  "whyIncluded": "Freie Universität Berlin is among the 10 universities in Germany most chosen by international students (international students are 13% of its bachelor's and 33% of its master's students, 34,400 students in winter semester 2024/25), per the FinexisEdu shortlist research of October 2026; its medical degree, taught by Charité, is on the Singapore Medical Council's list.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Informatik B.Sc. (Monobachelor)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. Not on FU's list of English-taught programmes (the only English-taught bachelor's is North American Studies), so taught in German. Listed as a mono-bachelor (B.Sc.) on FU's bachelor's overview. Standard period 6 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Betriebswirtschaftslehre B.Sc. (Monobachelor)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. Not on FU's list of English-taught programmes (the only English-taught bachelor's is North American Studies), so taught in German. Business administration mono-bachelor (B.Sc.). Standard period 6 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physik B.Sc. (Monobachelor)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. Not on FU's list of English-taught programmes (the only English-taught bachelor's is North American Studies), so taught in German. Standard period 6 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Englische Philologie B.A.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. Not on FU's list of English-taught programmes (the only English-taught bachelor's is North American Studies), so taught in German. English philology, offered as mono-bachelor and in the combined bachelor (fu-berlin.de/studium/studienangebot/grundstaendige). Standard period 6 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychologie B.Sc. (Monobachelor)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. Not on FU's list of English-taught programmes (the only English-taught bachelor's is North American Studies), so taught in German. Admission restricted. Standard period 6 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medizin (Modellstudiengang, Staatsexamen) at Charité – Universitätsmedizin Berlin",
+      "durationYears": 6,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/alle_Immatrikulation/Erstsemester_Immatrikulationsgebuehren.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee for students enrolled at Charité with Freie Universität membership, including a Germany-wide transport ticket. Taught in German. Places are nationally restricted.",
+      "notes": "Medicine in Berlin is taught by Charité – Universitätsmedizin Berlin, the joint medical faculty of Freie Universität and Humboldt-Universität; students enrol at Charité and choose FU or HU for student-body representation (FU's bachelor's overview lists Medizin under Staatsexamen 'via Charité'). No tuition fees. Compulsory fees = Charité's first-semester enrolment fee for winter semester 2026/27 'mit Wahlrecht an der FU' EUR 376.80 x2 (Charité admissions office sheet; not itemised there; HU variant 381.80). It equals FU's own winter 2026/27 semester contribution. No 2024/2025 figure found for FU-membership Charité students, so no history rows. Undergraduate-entry state examination degree, standard period 12 semesters incl. practical year (as recorded for HU). Admission nationally restricted; non-EU applicants apply via uni-assist. Language of instruction: German. Charité-Universitätsmedizin Berlin, Medizinische Fakultät is on the Singapore Medical Council's list of registrable basic medical qualifications (Medical Registration Act 1997, Second Schedule, Germany section, read on sso.agc.gov.sg 2026-10-07)."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Informatik M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. Not on FU's list of English-taught programmes, so taught mainly in German. Consecutive Computer Science master's (fu-berlin.de/studium/studienangebot/master/informatik). Standard period 4 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Management & Marketing M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. Not on FU's list of English-taught programmes, so taught mainly in German. School of Business & Economics (fu-berlin.de/studium/studienangebot/master/management_marketing). Standard period 4 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. FU's list of English-taught programmes (fu-berlin.de/en/studium/studienangebot/english) includes it. Standard period 4 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "English Studies: Literature, Language, Culture M.A.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. FU's list of English-taught programmes (fu-berlin.de/en/studium/studienangebot/english) includes it. Standard period 4 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychologie mit Schwerpunkt Arbeits-, Organisations- und Gesundheitspsychologie M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 753.6,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket.",
+      "notes": "No tuition fees: FU's 'Fees and Contributions' page states that Freie Universitaet Berlin does not charge any tuition fees (except for continuing education programs). Compulsory fees = semester contribution for winter semester 2026/27, EUR 376.80 x2: Studierendenwerk social contribution 85.00 + administration fee 50.00 + student government (AStA) 10.00 + Deutschlandsemesterticket 226.80 + social fund 5.00. 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 358.80 (administration 50 + Studierendenwerk 85 + student government 10 + ticket incl. social fund 213.80), so 717.60; the winter 2025/26 rate is not on the page, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found. Not on FU's list of English-taught programmes, so taught mainly in German. Work, organisational and health psychology master's (fu-berlin.de/studium/studienangebot/master/psychologie_arbeit_orga_gesundheit). Standard period 4 semesters assumed (not read).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 717.6,
+          "oneOffFees": 0,
+          "sourceUrl": "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+        }
+      ]
+    }
+  ]
+}

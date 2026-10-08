@@ -1,0 +1,14 @@
+# University of Warwick. Fees are read by hand from two Student Finance tables: the UG
+# overseas table (bands per course, three academic years) and the PG taught table (Home and
+# Overseas per course, three years). No automated pattern has been written yet.
+sources:
+  # UG overseas fees by band (Computer Science, Mechanical Engineering MEng, Mathematics, Management, Economics, Law, Psychology, MBChB): fee read by hand
+  - university: warwick
+    country: uk
+    url: "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+    manual: true
+  # PG taught fees per course (Computer Science, Advanced Mechanical Engineering, Mathematics, Management, Economics MSc, psychology MSc, LLM): fee read by hand
+  - university: warwick
+    country: uk
+    url: "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+    manual: true

@@ -1,0 +1,417 @@
+{
+  "id": "waikato",
+  "name": "University of Waikato",
+  "country": "nz",
+  "city": "Hamilton",
+  "currency": "NZD",
+  "website": "https://www.waikato.ac.nz",
+  "description": "The University of Waikato is a public university founded in 1964 in Hamilton, with a second campus in Tauranga. It teaches arts, business, computing, education, engineering, health, law, science and social sciences.",
+  "whyIncluded": "The University of Waikato is among the 10 universities in New Zealand most chosen by international students (5,220 international students enrolled in 2025, Ministry of Education provider data), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 2071.33,
+      "food": 0,
+      "transport": 65,
+      "personal": 343.33
+    },
+    "sourceUrl": "https://www.waikato.ac.nz/int/study/international/preparing-to-come-to-new-zealand/cost-of-living/",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own estimate for a student in a catered hall in Hamilton: room with meals, bus fares, phone, entertainment, textbooks and clothes. Excludes insurance, visa and flights.",
+    "notes": "Waikato 'Cost of living' page (no year stated; 2026 = year read), Hamilton halls of residence column, weekly x 52/12. Housing: fully catered hall $446-$510/wk, midpoint $478 (meals included, so food is 0). Transport: public transport $15+/wk. Personal: mobile phone $10+ + entertainment $50+ per week ($260/month) plus annual textbooks and printing $500+ and clothes and toiletries $500+ ($83.33/month). Page's Hamilton weekly total $351-$635; self-catered halls $276-$332/wk. Excludes bond $450-$680, insurance from $855/yr, visa $700-$850 and flights. Minimum ('+') figures used where the page gives only a floor."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering with Honours",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 50762,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee per year from Waikato's international tuition costs table (BE(Hons), 480 points = 4 years). Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 48345,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computer Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44006,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee per year (BCompSc, 360 points = 3 years). Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 41910,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40165,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee per year (BBus, 360 points = 3 years). Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38252,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44347,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee per year (BSc, 360 points = 3 years). The BSc qualification page shows $42,641-$44,342; the fee table figure is used. Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42235,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44342,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 at the top of the range; many arts majors cost less. Includes GST and the student services fee; insurance is extra.",
+      "notes": "2027 international BA fee range $34,020-$44,342 per year (2026: $32,400-$42,230); the upper figure is recorded (BA Anthropology is $34,062 in 2027). 360 points = 3 years. Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42230,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science (Psychology)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44347,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 for a BSc majoring in psychology, including GST. Student services fee included; insurance is extra.",
+      "notes": "Psychology is a major of the BA, BSc and BSocSc (Waikato psychology subject page); the fee table gives no separate psychology figure, so the BSc rate (2027 $44,347, 2026 $42,235) is recorded. 360 points = 3 years. Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42235,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Information Technology",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48510,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 per 120 points, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee $48,510 per 120 points; 180-point route $72,765 total (1.5 years), 240 points $97,020. 2026: $46,200 per 120 points. Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 46200,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 56322,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 per 120 points, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee $56,322 per 120 points; 180 points $84,483 total (1.5 years). 2026: $53,640 per 120 points (no 180-point figure listed). Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 53640,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43239,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 per 120 points, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee $43,239 per 120 points; 180 points $64,859 total (1.5 years). 2026: $41,180 / $61,770. (MBA 2027: $65,700.) Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 41180,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48216,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 per 120 points, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee $48,216 per 120 points; 180 points $72,324 total (1.5 years). 2026: $45,920 / $68,880. Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45920,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48216,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 per 120 points at the top of the range; some subjects cost less. Student services fee included; insurance is extra.",
+      "notes": "2027 international MA fee range $41,559-$48,216 per 120 points ($62,339-$72,324 for 180 points, 1.5 years); upper figure recorded. 2026: $39,580-$45,920. Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45920,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Applied Psychology",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48216,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 per 120 points, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee $48,216 per 120 points (also shown as 'International: $48,216' on the qualification page). 240 points = 2 years; specialisations Behaviour Analysis and Organisational Psychology. 2026: $45,920. Applications for 2027 entry have closed per the qualification page. Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45920,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "nursing",
+      "name": "Master of Nursing Practice",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47229,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027 per 120 points, including GST; the actual fee depends on papers chosen. Student services fee included; insurance is extra.",
+      "notes": "2027 international fee $47,229 per 120 points; 240 points $94,458 total (2 years). 2026: 240 points $89,960 total = $44,980 per year (no 120-point figure listed). Compulsory = 2026 Student Services Fee $9.25/point x 120 = $1,110 (https://www.waikato.ac.nz/study/fees-costs/student-services; 2027 rate not yet published). Excludes insurance. Fees incl. GST, charged per paper. 2026 history row = the 2026 column of the same fee table (read 2026-10-07), with the same SSF. No 2024/2025 international fee figures found on Waikato pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44980,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
+        }
+      ]
+    }
+  ]
+}

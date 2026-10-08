@@ -1,0 +1,392 @@
+{
+  "id": "goethe",
+  "name": "Goethe University Frankfurt",
+  "country": "de",
+  "city": "Frankfurt am Main",
+  "currency": "EUR",
+  "website": "https://www.uni-frankfurt.de",
+  "description": "Goethe University Frankfurt is a public research university in Frankfurt am Main, Hesse, founded in 1914 by local citizens. It has about 41,000 students across 16 faculties.",
+  "whyIncluded": "Goethe University Frankfurt is among the 10 universities in Germany most chosen by international students (6,544 international students, 16% of 41,508, in winter semester 2024/25), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Informatik B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. Programme page uni-frankfurt.de/en/studium/studiengaenge/informatik-bachelor. Language not read; Goethe's bachelor's degrees are German-taught (the only English-taught ones are listed separately). Standard period 6 semesters assumed for a Goethe bachelor's (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Wirtschaftswissenschaften B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. Economics and business administration B.Sc. at Faculty 02 (wiwi.uni-frankfurt.de), Goethe's main business degree. Language not read. Standard period 6 semesters assumed for a Goethe bachelor's (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physik B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. Physics B.Sc. (Faculty 13). Language not read. Standard period 6 semesters assumed for a Goethe bachelor's (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English Studies B.A. (Hauptfach)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. English Studies as major subject of a two-subject B.A. (uni-frankfurt.de/en/studium/studiengaenge/english-studies-bachelor-hauptfach). Standard period 6 semesters assumed for a Goethe bachelor's (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychologie B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. Psychology B.Sc. (psychologie.uni-frankfurt.de, Bachelor Psychologie). Admission restricted. Language not read. Standard period 6 semesters assumed for a Goethe bachelor's (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Informatik (Computer Science) M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in German.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. Computer Science M.Sc. (uni-frankfurt.de/35791983). Goethe's English-taught master's list (uni-frankfurt.de/36351994) puts Computer Science among the programmes taught in German or German with English components. Standard period 4 semesters assumed (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Management Science M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in English.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. Management Science M.Sc. at Faculty 02, on Goethe's list of English-taught master's programmes (uni-frankfurt.de/36351994). Standard period 4 semesters assumed (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physik M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. Physics M.Sc. (Faculty 13). Not on Goethe's English-taught master's list, so taught mainly in German. Standard period 4 semesters assumed (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Anglophone Literatures, Cultures and Media M.A.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee. Taught in English.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. On Goethe's list of English-taught master's programmes (uni-frankfurt.de/36351994). Standard period 4 semesters assumed (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychologie M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 816.56,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket and a 50 euro administration fee.",
+      "notes": "No tuition fees: Hesse charges no general tuition fees, including for non-EU students, and Goethe's re-registration page lists only the semester contribution. Compulsory fees = Semesterbeitrag for winter semester 2026/27, EUR 408.28 x2: Deutschlandsemesterticket 226.80 + Palmengarten/AStA ticket 1.10 + AStA hardship fund 1.60 + student body 17.10 + social/culture ticket 2.20 + campus bike 2.98 + Studierendenwerk 106.50 + Hesse administration fee (Verwaltungskostenbeitrag) 50.00. History from Goethe's 'Semesterbeitraege 2009-2026' PDF (linked from the same page): winter 2024/25 EUR 337.63 (ticket 176.40, Studierendenwerk 86.50) -> 675.26; winter 2025/26 EUR 381.28 (ticket 208.80, Studierendenwerk 96.50) -> 762.56; summer terms not used. Psychology M.Sc. (Faculty 05). Not on Goethe's English-taught master's list, so taught in German. Admission restricted. Standard period 4 semesters assumed (not read from the programme page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 675.26,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 762.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+        }
+      ]
+    }
+  ]
+}
