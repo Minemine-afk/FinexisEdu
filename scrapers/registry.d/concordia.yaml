@@ -1,0 +1,18 @@
+# Concordia University: tuition rate pages (undergrad, grad) and the cost-of-living page.
+# All entries manual: rates are per-credit tables multiplied by credit loads by hand (Oct 2026).
+sources:
+  # Concordia per-credit rate table read by hand (Oct 2026)
+  - university: concordia
+    country: ca
+    url: "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html"
+    manual: true
+  # Concordia per-credit rate table read by hand (Oct 2026)
+  - university: concordia
+    country: ca
+    url: "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html"
+    manual: true
+  # Concordia cost-of-living budget read by hand (Oct 2026)
+  - university: concordia
+    country: ca
+    url: "https://www.concordia.ca/students/financial/tuition-fees/costs.html"
+    manual: true

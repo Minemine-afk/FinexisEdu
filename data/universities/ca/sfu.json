@@ -1,0 +1,267 @@
+{
+  "id": "sfu",
+  "name": "Simon Fraser University",
+  "country": "ca",
+  "city": "Burnaby, British Columbia",
+  "currency": "CAD",
+  "website": "https://www.sfu.ca",
+  "description": "Simon Fraser University is a public research university founded in 1965, with campuses in Burnaby, Surrey and Vancouver, British Columbia. It includes the Beedie School of Business and the Faculty of Applied Sciences.",
+  "whyIncluded": "Simon Fraser University is among the 10 universities in Canada most chosen by international students (3,562 international undergraduate programme FTEs in 2024/25), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 8,
+    "monthly": {
+      "housing": 1876.75,
+      "food": 0,
+      "transport": 0,
+      "personal": 300
+    },
+    "sourceUrl": "https://www.sfu.ca/students/admission/fees-scholarships.html",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own estimate for an international first-year student in a residence room with meal plan over two terms (8 months); transit pass is in student fees.",
+    "notes": "SFU admission 'fees and scholarships' page, 2026/27 international estimate for one academic year (two terms, 30 units): single residence room (North Towers) with meal plan C$15,014 (combined housing and food, so all in housing), textbooks, technology and supplies C$2,400 (personal). Transport 0: U-Pass is in tuition and fees (C$38,944). Medical insurance C$945 excluded."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Applied Science (BASc) in Engineering Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 40445.7,
+          "annualCompulsoryFees": 1055.12,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/undergraduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for new international students taking 30 units (10 courses) a year, plus compulsory student fees incl. transit pass. Fees can rise each year. Health insurance is extra.",
+      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'Engineering Science, Mechatronic Systems, Sustainable Energy Engineering (premium - per unit)', for students who entered in 2024/2025 or later: C$1,348.19/unit x 30 units (full-time year). Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history."
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (BSc) in Computing Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39839.1,
+          "annualCompulsoryFees": 1055.12,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/undergraduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition at the Computing Science rate for 30 units a year (first-year courses are charged a lower basic rate), plus compulsory student fees incl. transit pass. Health insurance is extra.",
+      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'School of Computing Science (200/300/400 divisions) (premium - per unit)', for students who entered in 2024/2025 or later: C$1,327.97/unit x 30 units (full-time year). The premium rate applies to 200-400 division Computing Science courses; first-year (100-division) courses are charged the basic rate (C$1,262.88/unit), so year 1 costs less. Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history."
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business Administration (BBA), Beedie School of Business",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 44763.9,
+          "annualCompulsoryFees": 1055.12,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/undergraduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition at the Beedie business rate for 30 units a year (first-year courses are charged a lower basic rate), plus compulsory student fees incl. transit pass. Health insurance is extra.",
+      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'Beedie School of Business (200/300/400 divisions) (premium - per unit)', for students who entered in 2024/2025 or later: C$1,492.13/unit x 30 units (full-time year). The premium rate applies to 200-400 division business courses; first-year (100-division) courses are charged the basic rate (C$1,262.88/unit), so year 1 costs less. Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (BSc)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 37886.4,
+          "annualCompulsoryFees": 1055.12,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/undergraduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for new international students taking 30 units (10 courses) a year, plus compulsory student fees incl. transit pass. Fees can rise each year. Health insurance is extra.",
+      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'Normal and Course Challenge (basic - per unit)', for students who entered in 2024/2025 or later: C$1,262.88/unit x 30 units (full-time year). Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history."
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (BA)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 37886.4,
+          "annualCompulsoryFees": 1055.12,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/undergraduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for new international students taking 30 units (10 courses) a year, plus compulsory student fees incl. transit pass. Fees can rise each year. Health insurance is extra.",
+      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'Normal and Course Challenge (basic - per unit)', for students who entered in 2024/2025 or later: C$1,262.88/unit x 30 units (full-time year). Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history."
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (BA) in Psychology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 37886.4,
+          "annualCompulsoryFees": 1055.12,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/undergraduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for new international students taking 30 units (10 courses) a year, plus compulsory student fees incl. transit pass. Fees can rise each year. Health insurance is extra.",
+      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'Normal and Course Challenge (basic - per unit)', for students who entered in 2024/2025 or later: C$1,262.88/unit x 30 units (full-time year). Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering (MEng), School of Engineering Science",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 14097.9,
+          "annualCompulsoryFees": 1249.47,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/graduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for the 30-unit MEng, which takes six terms (2 years), charged per unit; plus compulsory student fees incl. transit pass. Health insurance extra.",
+      "notes": "SFU 2026 Fall Calendar graduate fees, 'Master of Engineering if entered in 2024/2025 or later', international C$939.86/unit. Programme: minimum 30 units, expected in six terms (Calendar programme page), so annual = 15 units x rate = C$14,097.90. Compulsory = graduate student fees per term from the same Calendar page: student activity 80.84 + U-Pass BC 191.40 + recreation-athletics (full-time) 90.14 + student services 54.11 = C$416.49 x 3 terms = C$1,249.47; health/dental and international medical insurance excluded. No history: earlier Calendars are not readable."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science in Big Data, School of Computing Science",
+      "durationYears": 1.33,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41568.48,
+          "annualCompulsoryFees": 1249.47,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/graduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition (three terms) for the professional Big Data master's, a four-term programme with co-op; plus compulsory student fees incl. transit pass. Health insurance extra.",
+      "notes": "SFU 2026 Fall Calendar graduate fees, Computing Science professional master's Big Data (2026/2027) international C$13,856.16 per term; x 3 terms/yr. Programme: 30 units, expected in four terms with one or two co-op terms (Calendar programme page); whether the programme fee is charged in co-op terms is not stated. Compulsory = graduate student fees per term from the same Calendar page: student activity 80.84 + U-Pass BC 191.40 + recreation-athletics (full-time) 90.14 + student services 54.11 = C$416.49 x 3 terms = C$1,249.47; health/dental and international medical insurance excluded. No history: earlier Calendars are not readable."
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration (MBA), Beedie School of Business",
+      "durationYears": 1.33,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 52912.97,
+          "annualCompulsoryFees": 1249.47,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/graduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for the full-time MBA (58 units over four terms), charged per unit; plus compulsory student fees incl. transit pass. Health insurance extra.",
+      "notes": "SFU 2026 Fall Calendar graduate fees, 'Master of Business Administration (MBA) if entered in 2024/2025 or later', international C$1,216.39/unit x 58 units = C$70,550.62 for the programme; full-time completion is four terms (Calendar MBA page), so annual = total x 3/4. Compulsory = graduate student fees per term from the same Calendar page: student activity 80.84 + U-Pass BC 191.40 + recreation-athletics (full-time) 90.14 + student services 54.11 = C$416.49 x 3 terms = C$1,249.47; health/dental and international medical insurance excluded. No history: earlier Calendars are not readable."
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (MSc) in Physics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 6577.71,
+          "annualCompulsoryFees": 1249.47,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/graduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition (three terms) at SFU's regular graduate rate for research master's programmes, which lists no separate international rate, plus compulsory student fees. Health insurance extra.",
+      "notes": "Research master's charged the regular graduate fee. SFU 2026 Fall Calendar graduate fees, Regular programs full-time fee C$2,192.57 per term (continuing fee C$1,096.29 after six full-time terms in a master's); the page shows no separate international rate for regular programmes. x 3 terms/yr. Compulsory = graduate student fees per term from the same Calendar page: student activity 80.84 + U-Pass BC 191.40 + recreation-athletics (full-time) 90.14 + student services 54.11 = C$416.49 x 3 terms = C$1,249.47; health/dental and international medical insurance excluded. No history: earlier Calendars are not readable."
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (MA) in Economics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 6577.71,
+          "annualCompulsoryFees": 1249.47,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/graduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition (three terms) at SFU's regular graduate rate for research master's programmes, which lists no separate international rate, plus compulsory student fees. Health insurance extra.",
+      "notes": "Research master's charged the regular graduate fee. SFU 2026 Fall Calendar graduate fees, Regular programs full-time fee C$2,192.57 per term (continuing fee C$1,096.29 after six full-time terms in a master's); the page shows no separate international rate for regular programmes. x 3 terms/yr. Compulsory = graduate student fees per term from the same Calendar page: student activity 80.84 + U-Pass BC 191.40 + recreation-athletics (full-time) 90.14 + student services 54.11 = C$416.49 x 3 terms = C$1,249.47; health/dental and international medical insurance excluded. No history: earlier Calendars are not readable."
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Arts (MA) in Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 6577.71,
+          "annualCompulsoryFees": 1249.47,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/graduate.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition (three terms) at SFU's regular graduate rate for research master's programmes, which lists no separate international rate, plus compulsory student fees. Health insurance extra.",
+      "notes": "Research master's charged the regular graduate fee. SFU 2026 Fall Calendar graduate fees, Regular programs full-time fee C$2,192.57 per term (continuing fee C$1,096.29 after six full-time terms in a master's); the page shows no separate international rate for regular programmes. x 3 terms/yr. Compulsory = graduate student fees per term from the same Calendar page: student activity 80.84 + U-Pass BC 191.40 + recreation-athletics (full-time) 90.14 + student services 54.11 = C$416.49 x 3 terms = C$1,249.47; health/dental and international medical insurance excluded. No history: earlier Calendars are not readable."
+    }
+  ]
+}

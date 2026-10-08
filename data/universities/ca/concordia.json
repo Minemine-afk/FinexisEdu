@@ -1,0 +1,275 @@
+{
+  "id": "concordia",
+  "name": "Concordia University",
+  "country": "ca",
+  "city": "Montreal",
+  "currency": "CAD",
+  "website": "https://www.concordia.ca",
+  "description": "Concordia University is a public English-language university in Montreal, Quebec, formed in 1974 from Loyola College and Sir George Williams University. It includes the Gina Cody School of Engineering and Computer Science and the John Molson School of Business.",
+  "whyIncluded": "Concordia University is among the 10 universities in Canada most chosen by international students (7,313 international undergraduates and 1,468 international graduate students in 2025-26), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 730,
+      "food": 558.17,
+      "transport": 107.08,
+      "personal": 648.17
+    },
+    "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/costs.html",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own yearly budget for an international student renting off campus, spread over 12 months; excludes tuition, health insurance and travel home.",
+    "notes": "Concordia cost-of-living page, U.S. & International students, renting in Montreal, based on 2026 data (yearly): housing 8,760 (= 730 x 12, so treated as 12 months), food 6,698, books and supplies 3,020, internet/cell phone 1,280, personal 1,978, miscellaneous 1,500, transport/travel 3,285. Transport uses the 1,285 transport figure from the Quebec-resident budget on the same page; the international budget's extra 2,000 is taken to be travel home and excluded. Personal = books + internet/phone + personal + miscellaneous. Residence option: rent 14,994, food 6,520, internet 800."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (BEng)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38550.0,
+          "annualCompulsoryFees": 1214.2,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students taking a full 30-credit year, plus university fees. Rates are set each year and usually rise. Health insurance and student union fees are extra.",
+      "notes": "Concordia undergraduate international tuition, 'Engineering and Computer Science' table: C$1,285.00/credit for Fall 2026 and Winter 2027 (Summer 2026 is lower) x 30 credits (full-time year). Compulsory = university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27 undergraduate rates: administrative 13.38 + student service 12.07 + recreation & athletics 4.19 + technology infrastructure 6.31 + copyright 0.45 = C$36.40/credit x 30, + registration C$31.10/term x 2 + Engineering & Computer Science program fee C$30/term x 2 = C$1,214.20. Per-credit student association (CSU and faculty association) fees, the one-time new-student fee and international health insurance are not included. Degree is 90 credits (3 years) for Quebec CEGEP graduates and up to 120 credits (4 years) for other applicants; 4 years used. No 2024-25 or 2025-26 international undergraduate rates are published on the page."
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computer Science (BCompSc)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38550.0,
+          "annualCompulsoryFees": 1214.2,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students taking a full 30-credit year, plus university fees. Rates are set each year and usually rise. Health insurance and student union fees are extra.",
+      "notes": "Concordia undergraduate international tuition, 'Engineering and Computer Science' table: C$1,285.00/credit for Fall 2026 and Winter 2027 (Summer 2026 is lower) x 30 credits (full-time year). Compulsory = university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27 undergraduate rates: administrative 13.38 + student service 12.07 + recreation & athletics 4.19 + technology infrastructure 6.31 + copyright 0.45 = C$36.40/credit x 30, + registration C$31.10/term x 2 + Engineering & Computer Science program fee C$30/term x 2 = C$1,214.20. Per-credit student association (CSU and faculty association) fees, the one-time new-student fee and international health insurance are not included. Degree is 90 credits (3 years) for Quebec CEGEP graduates and up to 120 credits (4 years) for other applicants; 4 years used. No 2024-25 or 2025-26 international undergraduate rates are published on the page. Degree name and 90-120 credit length from the Concordia BCompSc programme page (Gina Cody School of Engineering and Computer Science)."
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce (BComm), John Molson School of Business",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 42000.0,
+          "annualCompulsoryFees": 1154.2,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students taking a full 30-credit year, plus university fees. Rates are set each year and usually rise. Health insurance and student union fees are extra.",
+      "notes": "Concordia undergraduate international tuition, 'John Molson School of Business' table: C$1,400.00/credit for Fall 2026 and Winter 2027 (Summer 2026 is lower) x 30 credits (full-time year). Compulsory = university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27 undergraduate rates: administrative 13.38 + student service 12.07 + recreation & athletics 4.19 + technology infrastructure 6.31 + copyright 0.45 = C$36.40/credit x 30, + registration C$31.10/term x 2 = C$1,154.20. Per-credit student association (CSU and faculty association) fees, the one-time new-student fee and international health insurance are not included. Degree is 90 credits (3 years) for Quebec CEGEP graduates and up to 120 credits (4 years) for other applicants; 4 years used. No 2024-25 or 2025-26 international undergraduate rates are published on the page."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (BSc), Faculty of Arts and Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 34800.0,
+          "annualCompulsoryFees": 1154.2,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students taking a full 30-credit year, plus university fees. Rates are set each year and usually rise. Health insurance and student union fees are extra.",
+      "notes": "Concordia undergraduate international tuition, 'Art & Science' table: C$1,160.00/credit for Fall 2026 and Winter 2027 (Summer 2026 is lower) x 30 credits (full-time year). Compulsory = university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27 undergraduate rates: administrative 13.38 + student service 12.07 + recreation & athletics 4.19 + technology infrastructure 6.31 + copyright 0.45 = C$36.40/credit x 30, + registration C$31.10/term x 2 = C$1,154.20. Per-credit student association (CSU and faculty association) fees, the one-time new-student fee and international health insurance are not included. Degree is 90 credits (3 years) for Quebec CEGEP graduates and up to 120 credits (4 years) for other applicants; 4 years used. No 2024-25 or 2025-26 international undergraduate rates are published on the page."
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (BA), Faculty of Arts and Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 34800.0,
+          "annualCompulsoryFees": 1154.2,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students taking a full 30-credit year, plus university fees. Rates are set each year and usually rise. Health insurance and student union fees are extra.",
+      "notes": "Concordia undergraduate international tuition, 'Art & Science' table: C$1,160.00/credit for Fall 2026 and Winter 2027 (Summer 2026 is lower) x 30 credits (full-time year). Compulsory = university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27 undergraduate rates: administrative 13.38 + student service 12.07 + recreation & athletics 4.19 + technology infrastructure 6.31 + copyright 0.45 = C$36.40/credit x 30, + registration C$31.10/term x 2 = C$1,154.20. Per-credit student association (CSU and faculty association) fees, the one-time new-student fee and international health insurance are not included. Degree is 90 credits (3 years) for Quebec CEGEP graduates and up to 120 credits (4 years) for other applicants; 4 years used. No 2024-25 or 2025-26 international undergraduate rates are published on the page."
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (BA) in Psychology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 34800.0,
+          "annualCompulsoryFees": 1154.2,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students taking a full 30-credit year, plus university fees. Rates are set each year and usually rise. Health insurance and student union fees are extra.",
+      "notes": "Concordia undergraduate international tuition, 'Art & Science' table: C$1,160.00/credit for Fall 2026 and Winter 2027 (Summer 2026 is lower) x 30 credits (full-time year). Compulsory = university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27 undergraduate rates: administrative 13.38 + student service 12.07 + recreation & athletics 4.19 + technology infrastructure 6.31 + copyright 0.45 = C$36.40/credit x 30, + registration C$31.10/term x 2 = C$1,154.20. Per-credit student association (CSU and faculty association) fees, the one-time new-student fee and international health insurance are not included. Degree is 90 credits (3 years) for Quebec CEGEP graduates and up to 120 credits (4 years) for other applicants; 4 years used. No 2024-25 or 2025-26 international undergraduate rates are published on the page. Psychology is in the Faculty of Arts and Science."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering (MEng) in Electrical and Computer Engineering",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23850.0,
+          "annualCompulsoryFees": 1186.98,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition at a 30-credit full-time pace for the 45-credit course-based master's; the per-credit rate is fixed for your intake year. Compulsory university fees included; health insurance extra.",
+      "notes": "Concordia graduate international tuition, course-based master's (Arts & Science, Engineering, Computer Science and Fine Arts), 2026-2027 cohort: C$795/credit, fixed for the duration of the programme. 45-credit course-based MEng (programme page: 1-2 years full-time); annual figure = 30 credits/yr x rate, 1.5 years. History: 2025-2026 cohort C$760/credit, 2024-2025 cohort C$725/credit (same page). Compulsory = graduate university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27: administrative 13.38 + student service 11.44 + recreation & athletics 2.92 + technology infrastructure 6.31 + copyright 0.45 = C$34.50/credit x 30 credits, + registration C$31.10/term x 2 + Graduate Student Association C$57.28/yr + Engineering & CS faculty association C$32.50/yr = C$1,186.98. Small per-term student-group levies and international health insurance not included; history rows give tuition only (no earlier fee tables found), so the current fee amount applies.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21750.0,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22800.0,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Applied Computer Science (MApCompSc)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23850.0,
+          "annualCompulsoryFees": 1186.98,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition at a 30-credit full-time pace for the 45-credit course-based master's; the per-credit rate is fixed for your intake year. Compulsory university fees included; health insurance extra.",
+      "notes": "Concordia graduate international tuition, course-based master's (Arts & Science, Engineering, Computer Science and Fine Arts), 2026-2027 cohort: C$795/credit, fixed for the duration of the programme. 45-credit course-based programme (programme page: 1-2 years full-time); annual figure = 30 credits/yr x rate, 1.5 years. History: 2025-2026 cohort C$760/credit, 2024-2025 cohort C$725/credit (same page). Compulsory = graduate university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27: administrative 13.38 + student service 11.44 + recreation & athletics 2.92 + technology infrastructure 6.31 + copyright 0.45 = C$34.50/credit x 30 credits, + registration C$31.10/term x 2 + Graduate Student Association C$57.28/yr + Engineering & CS faculty association C$32.50/yr = C$1,186.98. Small per-term student-group levies and international health insurance not included; history rows give tuition only (no earlier fee tables found), so the current fee amount applies.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21750.0,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22800.0,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration (MBA), John Molson School of Business",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29025.0,
+          "annualCompulsoryFees": 997.98,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for the two-year, 45-credit MBA; the per-credit rate is fixed for your intake year. Compulsory university fees included; health insurance extra.",
+      "notes": "Concordia graduate international tuition, John Molson School of Business course-based master's, 2026-2027 cohort: C$1,290/credit, fixed for the programme. MBA is 45 credits over 2 years full-time (programme page), so annual = 22.5 credits x rate = C$29,025. History: 2025-2026 cohort C$1,195/credit, 2024-2025 cohort C$1,105/credit (same page), x 22.5. Compulsory = graduate university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27: administrative 13.38 + student service 11.44 + recreation & athletics 2.92 + technology infrastructure 6.31 + copyright 0.45 = C$34.50/credit + JMSB career management services C$2.90/credit x 22.5 credits, + registration C$31.10/term x 2 + Graduate Student Association C$57.28/yr + JMSB faculty association C$37.00/yr = C$997.98. Small per-term student-group levies and international health insurance not included; history rows give tuition only (no earlier fee tables found), so the current fee amount applies.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 24862.5,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26887.5,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (MSc) in Physics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16011.45,
+          "annualCompulsoryFees": 895.73,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for the two-year, 45-credit research master's, charged per credit at the thesis rate. Compulsory university fees included; health insurance extra. Rates usually rise each year.",
+      "notes": "Concordia graduate international tuition, master's thesis-based programmes (Arts & Science, Engineering, Computer Science and Fine Arts): C$711.62/credit Fall 2026 and Winter 2027 (Summer 2026 C$690.89). MSc Physics is 45 credits, 2 years full-time, thesis-based (programme page), so annual = 22.5 credits x C$711.62. Thesis rates are not cohort-fixed. Compulsory = graduate university fees from the University fees page (https://www.concordia.ca/students/financial/tuition-fees/university-fees.html), Fall/Winter 2026-27: administrative 13.38 + student service 11.44 + recreation & athletics 2.92 + technology infrastructure 6.31 + copyright 0.45 = C$34.50/credit x 22.5 credits, + registration C$31.10/term x 2 + Graduate Student Association C$57.28/yr = C$895.73. Small per-term student-group levies and international health insurance not included."
+    }
+  ]
+}

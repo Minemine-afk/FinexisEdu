@@ -1,0 +1,353 @@
+{
+  "id": "ualberta",
+  "name": "University of Alberta",
+  "country": "ca",
+  "city": "Edmonton",
+  "currency": "CAD",
+  "website": "https://www.ualberta.ca",
+  "description": "The University of Alberta is a public research university in Edmonton, Alberta, founded in 1908. It is one of Canada's largest universities, with faculties including engineering, business, science and nursing.",
+  "whyIncluded": "The University of Alberta is among the 10 universities in Canada most chosen by international students (5,457 international undergraduates and 3,090 international graduate students in 2023-24), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Science in Engineering (BSc Eng)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 49952.4,
+          "annualCompulsoryFees": 1660.6,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students starting in 2026, fixed by the university's tuition guarantee for the normal length of the degree plus one year. Compulsory fees (which rise yearly) included; health insurance extra.",
+      "notes": "University of Alberta Board of Governors approved motions, 28 March 2025, Attachment 1 'Fall 2026: Proposed Tuition Rates for Incoming International Student (Cohort Model)', undergraduate row 'Faculty of Engineering': 2026-27 programme total C$199,809.60 (2025-26 cohort C$191,025.60) for a 4-year degree, so annual = total / 4. International undergraduate tuition is guaranteed for the typical programme length plus one year (Registrar, international tuition page). Compulsory = 2026-27 full-time undergraduate non-instructional fees per term from the Registrar (https://www.ualberta.ca/registrar/costs-tuition-fees/noninstructional-fees.html): student health and wellness 70.24 + academic success 98.00 + student experience support 94.04 + enrolment support 98.36 + Students' Union membership 64.22 + SU dedicated 89.06 + PAW Centre 29.00 + U-Pass 182.50 + athletics and recreation 104.88 = C$830.30 x 2 terms = C$1,660.60; opt-out SU health plan (204.93), SU dental plan (199.84) and course material access (259.00) excluded. 2025 row: tuition from the 2025-26 cohort programme total / 4; no 2025-26 fee table read, so the current fee amount applies. No 2024 figure found. Engineering rose 4.6% for the 2026 cohort (10% for other faculties).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 47756.4,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce (BCom), Alberta School of Business",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 46546.8,
+          "annualCompulsoryFees": 1660.6,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students starting in 2026, fixed by the university's tuition guarantee for the normal length of the degree plus one year. Compulsory fees (which rise yearly) included; health insurance extra.",
+      "notes": "University of Alberta Board of Governors approved motions, 28 March 2025, Attachment 1 'Fall 2026: Proposed Tuition Rates for Incoming International Student (Cohort Model)', undergraduate row 'Faculty of Business': 2026-27 programme total C$186,187.20 (2025-26 cohort C$169,262.40) for a 4-year degree, so annual = total / 4. International undergraduate tuition is guaranteed for the typical programme length plus one year (Registrar, international tuition page). Compulsory = 2026-27 full-time undergraduate non-instructional fees per term from the Registrar (https://www.ualberta.ca/registrar/costs-tuition-fees/noninstructional-fees.html): student health and wellness 70.24 + academic success 98.00 + student experience support 94.04 + enrolment support 98.36 + Students' Union membership 64.22 + SU dedicated 89.06 + PAW Centre 29.00 + U-Pass 182.50 + athletics and recreation 104.88 = C$830.30 x 2 terms = C$1,660.60; opt-out SU health plan (204.93), SU dental plan (199.84) and course material access (259.00) excluded. 2025 row: tuition from the 2025-26 cohort programme total / 4; no 2025-26 fee table read, so the current fee amount applies. No 2024 figure found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42315.6,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science (BSc) in Computing Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39792.0,
+          "annualCompulsoryFees": 1660.6,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students starting in 2026, fixed by the university's tuition guarantee for the normal length of the degree plus one year. Compulsory fees (which rise yearly) included; health insurance extra.",
+      "notes": "University of Alberta Board of Governors approved motions, 28 March 2025, Attachment 1 'Fall 2026: Proposed Tuition Rates for Incoming International Student (Cohort Model)', undergraduate row 'Faculty of Science': 2026-27 programme total C$159,168.00 (2025-26 cohort C$144,700.80) for a 4-year degree, so annual = total / 4. International undergraduate tuition is guaranteed for the typical programme length plus one year (Registrar, international tuition page). Compulsory = 2026-27 full-time undergraduate non-instructional fees per term from the Registrar (https://www.ualberta.ca/registrar/costs-tuition-fees/noninstructional-fees.html): student health and wellness 70.24 + academic success 98.00 + student experience support 94.04 + enrolment support 98.36 + Students' Union membership 64.22 + SU dedicated 89.06 + PAW Centre 29.00 + U-Pass 182.50 + athletics and recreation 104.88 = C$830.30 x 2 terms = C$1,660.60; opt-out SU health plan (204.93), SU dental plan (199.84) and course material access (259.00) excluded. 2025 row: tuition from the 2025-26 cohort programme total / 4; no 2025-26 fee table read, so the current fee amount applies. No 2024 figure found. Computing Science is in the Faculty of Science.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36175.2,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (BSc), Faculty of Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39792.0,
+          "annualCompulsoryFees": 1660.6,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students starting in 2026, fixed by the university's tuition guarantee for the normal length of the degree plus one year. Compulsory fees (which rise yearly) included; health insurance extra.",
+      "notes": "University of Alberta Board of Governors approved motions, 28 March 2025, Attachment 1 'Fall 2026: Proposed Tuition Rates for Incoming International Student (Cohort Model)', undergraduate row 'Faculty of Science': 2026-27 programme total C$159,168.00 (2025-26 cohort C$144,700.80) for a 4-year degree, so annual = total / 4. International undergraduate tuition is guaranteed for the typical programme length plus one year (Registrar, international tuition page). Compulsory = 2026-27 full-time undergraduate non-instructional fees per term from the Registrar (https://www.ualberta.ca/registrar/costs-tuition-fees/noninstructional-fees.html): student health and wellness 70.24 + academic success 98.00 + student experience support 94.04 + enrolment support 98.36 + Students' Union membership 64.22 + SU dedicated 89.06 + PAW Centre 29.00 + U-Pass 182.50 + athletics and recreation 104.88 = C$830.30 x 2 terms = C$1,660.60; opt-out SU health plan (204.93), SU dental plan (199.84) and course material access (259.00) excluded. 2025 row: tuition from the 2025-26 cohort programme total / 4; no 2025-26 fee table read, so the current fee amount applies. No 2024 figure found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36175.2,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (BA), Faculty of Arts",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39232.8,
+          "annualCompulsoryFees": 1660.6,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students starting in 2026, fixed by the university's tuition guarantee for the normal length of the degree plus one year. Compulsory fees (which rise yearly) included; health insurance extra.",
+      "notes": "University of Alberta Board of Governors approved motions, 28 March 2025, Attachment 1 'Fall 2026: Proposed Tuition Rates for Incoming International Student (Cohort Model)', undergraduate row 'Faculty of Arts, Agricultural Life and Environmental Sciences, Kinesiology Sport and Recreation, Open Studies': 2026-27 programme total C$156,931.20 (2025-26 cohort C$142,665.60) for a 4-year degree, so annual = total / 4. International undergraduate tuition is guaranteed for the typical programme length plus one year (Registrar, international tuition page). Compulsory = 2026-27 full-time undergraduate non-instructional fees per term from the Registrar (https://www.ualberta.ca/registrar/costs-tuition-fees/noninstructional-fees.html): student health and wellness 70.24 + academic success 98.00 + student experience support 94.04 + enrolment support 98.36 + Students' Union membership 64.22 + SU dedicated 89.06 + PAW Centre 29.00 + U-Pass 182.50 + athletics and recreation 104.88 = C$830.30 x 2 terms = C$1,660.60; opt-out SU health plan (204.93), SU dental plan (199.84) and course material access (259.00) excluded. 2025 row: tuition from the 2025-26 cohort programme total / 4; no 2025-26 fee table read, so the current fee amount applies. No 2024 figure found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35666.4,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (BA) in Psychology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39232.8,
+          "annualCompulsoryFees": 1660.6,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students starting in 2026, fixed by the university's tuition guarantee for the normal length of the degree plus one year. Compulsory fees (which rise yearly) included; health insurance extra.",
+      "notes": "University of Alberta Board of Governors approved motions, 28 March 2025, Attachment 1 'Fall 2026: Proposed Tuition Rates for Incoming International Student (Cohort Model)', undergraduate row 'Faculty of Arts, Agricultural Life and Environmental Sciences, Kinesiology Sport and Recreation, Open Studies': 2026-27 programme total C$156,931.20 (2025-26 cohort C$142,665.60) for a 4-year degree, so annual = total / 4. International undergraduate tuition is guaranteed for the typical programme length plus one year (Registrar, international tuition page). Compulsory = 2026-27 full-time undergraduate non-instructional fees per term from the Registrar (https://www.ualberta.ca/registrar/costs-tuition-fees/noninstructional-fees.html): student health and wellness 70.24 + academic success 98.00 + student experience support 94.04 + enrolment support 98.36 + Students' Union membership 64.22 + SU dedicated 89.06 + PAW Centre 29.00 + U-Pass 182.50 + athletics and recreation 104.88 = C$830.30 x 2 terms = C$1,660.60; opt-out SU health plan (204.93), SU dental plan (199.84) and course material access (259.00) excluded. 2025 row: tuition from the 2025-26 cohort programme total / 4; no 2025-26 fee table read, so the current fee amount applies. No 2024 figure found. Psychology BA is in the Faculty of Arts (a BSc route via Science also exists).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35666.4,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Science in Nursing (BScN)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 35907.6,
+          "annualCompulsoryFees": 1660.6,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students starting in 2026, fixed by the university's tuition guarantee for the normal length of the degree plus one year. Compulsory fees (which rise yearly) included; health insurance extra.",
+      "notes": "University of Alberta Board of Governors approved motions, 28 March 2025, Attachment 1 'Fall 2026: Proposed Tuition Rates for Incoming International Student (Cohort Model)', undergraduate row 'Augustana, Faculte Saint Jean, Education, Native Studies, Nursing': 2026-27 programme total C$143,630.40 (2025-26 cohort C$130,574.40) for a 4-year degree, so annual = total / 4. International undergraduate tuition is guaranteed for the typical programme length plus one year (Registrar, international tuition page). Compulsory = 2026-27 full-time undergraduate non-instructional fees per term from the Registrar (https://www.ualberta.ca/registrar/costs-tuition-fees/noninstructional-fees.html): student health and wellness 70.24 + academic success 98.00 + student experience support 94.04 + enrolment support 98.36 + Students' Union membership 64.22 + SU dedicated 89.06 + PAW Centre 29.00 + U-Pass 182.50 + athletics and recreation 104.88 = C$830.30 x 2 terms = C$1,660.60; opt-out SU health plan (204.93), SU dental plan (199.84) and course material access (259.00) excluded. 2025 row: tuition from the 2025-26 cohort programme total / 4; no 2025-26 fee table read, so the current fee amount applies. No 2024 figure found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32643.6,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering (MEng)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 52533.2,
+          "annualCompulsoryFees": 1549.58,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Programme tuition for international students starting the course-based MEng in 2026, shown as one year (it takes 1 to 2 years; the tuition is a fixed programme total). Compulsory fees included; health insurance extra.",
+      "notes": "Board of Governors approved motions 28 March 2025, Attachment 1, graduate course-based row 'Master's in Engineering (All Specializations)': programme total C$52,533.20 for the 2026-27 cohort (2025-26: C$47,757.52), +10%. The Faculty of Engineering MEng page says 1-2 years, 8-9 courses and a capstone; it also shows an older 'International: $39,500 for new students' figure, which is superseded by the Board-approved rate. Recorded as durationYears 1 with the whole programme total, so the programme cost is right if finished in 12 months. Compulsory = 2026-27 full-time graduate non-instructional fees per Fall/Winter term (https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/non-instructional.html): academic success 98.00, student experience 94.04, enrolment support 98.36, health and wellness 70.24, athletics and recreation 104.88, PAW 29.00, GSA 81.37, GSA dedicated 1.00, graduate student assistance program 10.90, campus food bank 3.00, non-Indigenous 1.50, U-Pass 182.50 = C$774.79 x 2 = C$1,549.58; opt-out GSA health and dental plans and any spring/summer fees excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 47757.52,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Full-Time Master of Business Administration (MBA), Alberta School of Business",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 46200.0,
+          "annualCompulsoryFees": 1549.58,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting the two-year full-time MBA in 2026 (half the fixed programme total). Compulsory fees included; health insurance extra.",
+      "notes": "Board of Governors approved motions 28 March 2025, Attachment 1, 'Master of Business Administration' programme total C$92,400 for the 2026-27 cohort (2025-26: C$88,000), +5%. Full-time MBA is two years (about 20 months) per the Alberta School of Business MBA page; annual = total / 2. Compulsory = 2026-27 full-time graduate non-instructional fees per Fall/Winter term (https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/non-instructional.html): academic success 98.00, student experience 94.04, enrolment support 98.36, health and wellness 70.24, athletics and recreation 104.88, PAW 29.00, GSA 81.37, GSA dedicated 1.00, graduate student assistance program 10.90, campus food bank 3.00, non-Indigenous 1.50, U-Pass 182.50 = C$774.79 x 2 = C$1,549.58; opt-out GSA health and dental plans and any spring/summer fees excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44000.0,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.gsa.ualberta.ca/en/governance/media-library/2025-03-28-bg-approved-motions.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science (MSc) in Computing Science (thesis-based)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 10518.72,
+          "annualCompulsoryFees": 1549.58,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/instructional-fees-international.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for a full-time international student in a thesis-based master's admitted in 2026, plus compulsory fees. Typically two years; health insurance extra.",
+      "notes": "Faculty of Graduate Studies 'Instructional Fees for International Students', thesis-based programmes, students admitted Fall 2026-Summer 2027: full-time yearly fee C$10,518.72 (C$3,506.24 Fall and Winter, C$1,753.12 Spring and Summer). Course-based standard rate is C$826.36/credit (2025-26 cohort C$751.24). Compulsory = 2026-27 full-time graduate non-instructional fees per Fall/Winter term (https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/non-instructional.html): academic success 98.00, student experience 94.04, enrolment support 98.36, health and wellness 70.24, athletics and recreation 104.88, PAW 29.00, GSA 81.37, GSA dedicated 1.00, graduate student assistance program 10.90, campus food bank 3.00, non-Indigenous 1.50, U-Pass 182.50 = C$774.79 x 2 = C$1,549.58; opt-out GSA health and dental plans and any spring/summer fees excluded."
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (MSc) in Physics (thesis-based)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 10518.72,
+          "annualCompulsoryFees": 1549.58,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/instructional-fees-international.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for a full-time international student in a thesis-based master's admitted in 2026, plus compulsory fees. Typically two years; health insurance extra.",
+      "notes": "Faculty of Graduate Studies 'Instructional Fees for International Students', thesis-based programmes, students admitted Fall 2026-Summer 2027: full-time yearly fee C$10,518.72 (C$3,506.24 Fall and Winter, C$1,753.12 Spring and Summer). Course-based standard rate is C$826.36/credit (2025-26 cohort C$751.24). Compulsory = 2026-27 full-time graduate non-instructional fees per Fall/Winter term (https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/non-instructional.html): academic success 98.00, student experience 94.04, enrolment support 98.36, health and wellness 70.24, athletics and recreation 104.88, PAW 29.00, GSA 81.37, GSA dedicated 1.00, graduate student assistance program 10.90, campus food bank 3.00, non-Indigenous 1.50, U-Pass 182.50 = C$774.79 x 2 = C$1,549.58; opt-out GSA health and dental plans and any spring/summer fees excluded."
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (MA) in Economics (thesis-based)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 10518.72,
+          "annualCompulsoryFees": 1549.58,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/instructional-fees-international.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for a full-time international student in a thesis-based master's admitted in 2026, plus compulsory fees. Typically two years; health insurance extra.",
+      "notes": "Faculty of Graduate Studies 'Instructional Fees for International Students', thesis-based programmes, students admitted Fall 2026-Summer 2027: full-time yearly fee C$10,518.72 (C$3,506.24 Fall and Winter, C$1,753.12 Spring and Summer). Course-based standard rate is C$826.36/credit (2025-26 cohort C$751.24). Compulsory = 2026-27 full-time graduate non-instructional fees per Fall/Winter term (https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/non-instructional.html): academic success 98.00, student experience 94.04, enrolment support 98.36, health and wellness 70.24, athletics and recreation 104.88, PAW 29.00, GSA 81.37, GSA dedicated 1.00, graduate student assistance program 10.90, campus food bank 3.00, non-Indigenous 1.50, U-Pass 182.50 = C$774.79 x 2 = C$1,549.58; opt-out GSA health and dental plans and any spring/summer fees excluded."
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science (MSc) in Psychology (thesis-based)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 10518.72,
+          "annualCompulsoryFees": 1549.58,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/instructional-fees-international.html",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for a full-time international student in a thesis-based master's admitted in 2026, plus compulsory fees. Typically two years; health insurance extra.",
+      "notes": "Faculty of Graduate Studies 'Instructional Fees for International Students', thesis-based programmes, students admitted Fall 2026-Summer 2027: full-time yearly fee C$10,518.72 (C$3,506.24 Fall and Winter, C$1,753.12 Spring and Summer). Course-based standard rate is C$826.36/credit (2025-26 cohort C$751.24). Compulsory = 2026-27 full-time graduate non-instructional fees per Fall/Winter term (https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/non-instructional.html): academic success 98.00, student experience 94.04, enrolment support 98.36, health and wellness 70.24, athletics and recreation 104.88, PAW 29.00, GSA 81.37, GSA dedicated 1.00, graduate student assistance program 10.90, campus food bank 3.00, non-Indigenous 1.50, U-Pass 182.50 = C$774.79 x 2 = C$1,549.58; opt-out GSA health and dental plans and any spring/summer fees excluded."
+    }
+  ]
+}

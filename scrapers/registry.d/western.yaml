@@ -1,0 +1,18 @@
+# Western University: fee-schedule PDFs (registrar) and the Ivey MBA tuition page.
+# All entries manual: the PDF tables are multi-column and the Ivey page is a single figure; fees read by hand Oct 2026.
+sources:
+  # Western fee source read by hand (Oct 2026)
+  - university: western
+    country: ca
+    url: "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf"
+    manual: true
+  # Western fee source read by hand (Oct 2026)
+  - university: western
+    country: ca
+    url: "https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf"
+    manual: true
+  # Western fee source read by hand (Oct 2026)
+  - university: western
+    country: ca
+    url: "https://www.ivey.uwo.ca/mba/admissions/tuition-living-expenses/"
+    manual: true

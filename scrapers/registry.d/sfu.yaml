@@ -1,0 +1,18 @@
+# Simon Fraser University: SFU Calendar tuition-fee pages (2026 Fall) and the admission cost estimate.
+# All entries manual: per-unit and per-term rates multiplied by programme loads by hand (Oct 2026).
+sources:
+  # SFU Calendar fee table read by hand (Oct 2026)
+  - university: sfu
+    country: ca
+    url: "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/undergraduate.html"
+    manual: true
+  # SFU Calendar fee table read by hand (Oct 2026)
+  - university: sfu
+    country: ca
+    url: "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/tuition-fees/graduate.html"
+    manual: true
+  # SFU admission cost estimate read by hand (Oct 2026)
+  - university: sfu
+    country: ca
+    url: "https://www.sfu.ca/students/admission/fees-scholarships.html"
+    manual: true

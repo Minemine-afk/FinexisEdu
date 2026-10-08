@@ -63,7 +63,7 @@ published fee tables for those years.
 | UK | Cambridge (MBA), Imperial, LSE, Oxford, UCL, Glasgow, Manchester, Warwick, Hertfordshire, Coventry, East London | Cambridge, Imperial, LSE, UCL; Oxford is manual; the last six are manual |
 | US | Berkeley, CMU, Harvard, MIT, Stanford | All |
 | Germany | TUM, LMU Munich, Heidelberg, RWTH Aachen, HU Berlin, TU Darmstadt, Duisburg-Essen, Bonn, Goethe Frankfurt, FU Berlin, OVGU Magdeburg | TUM, LMU Munich, Heidelberg and RWTH Aachen; HU Berlin (semester-fee page blocks bots) and the six newer universities are checked by hand |
-| Canada | McGill, McMaster, Toronto, UBC, Waterloo | All (McMaster's tuition spreadsheet and UBC compulsory fees are manual) |
+| Canada | McGill, McMaster, Toronto, UBC, Waterloo, York, Concordia, Simon Fraser, Alberta, Western | First five: all (McMaster's tuition spreadsheet and UBC compulsory fees are manual); the other five are manual |
 | New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington, Waikato, Lincoln, EIT, Unitec | All except Otago (bot-protected); Waikato, Lincoln, EIT and Unitec are manual |
 | Switzerland | ETH Zurich, EPFL, Zurich, Geneva, St. Gallen, Lausanne, Basel, Bern, Neuchâtel, Fribourg, USI | All of the first five; Lausanne, Basel, Bern, Neuchâtel, Fribourg and USI are manual |
 | Japan | Keio, Kyoto, Osaka, UTokyo, Waseda, APU, Ritsumeikan, Sophia, Kyushu, Nagoya, Tohoku, Institute of Science Tokyo, Tsukuba | First five: all (Waseda's lab/health fee is manual); the other eight are manual |
