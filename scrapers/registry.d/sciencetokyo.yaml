@@ -1,0 +1,17 @@
+# Institute of Science Tokyo (national university; science and engineering rate ¥635,400). Read by hand.
+sources:
+  # GSEP programme page with fees; read by hand
+  - university: sciencetokyo
+    country: jp
+    url: "https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep"
+    manual: true
+  # Science and engineering tuition page (former Tokyo Tech site); read by hand
+  - university: sciencetokyo
+    country: jp
+    url: "https://www.titech.ac.jp/english/graduate_school/admissions/tuition.html"
+    manual: true
+  # International Graduate Program page with fees; read by hand
+  - university: sciencetokyo
+    country: jp
+    url: "https://admissions.isct.ac.jp/en/013/graduate/programs/science-and-engineering"
+    manual: true

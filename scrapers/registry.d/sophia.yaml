@@ -1,0 +1,17 @@
+# Sophia University. Yearly fee-table PDFs (piloti.sophia.ac.jp); read by hand.
+sources:
+  # AY 2026 undergraduate fee table PDF: per-semester columns by entrance year; read by hand
+  - university: sophia
+    country: jp
+    url: "https://piloti.sophia.ac.jp/assets/uploads/2025/12/undergraduate_2026.pdf"
+    manual: true
+  # AY 2026 graduate fee table PDF; read by hand
+  - university: sophia
+    country: jp
+    url: "https://piloti.sophia.ac.jp/assets/uploads/2025/12/graduate_2026.pdf"
+    manual: true
+  # AY 2025 undergraduate fee table PDF (history rows); read by hand
+  - university: sophia
+    country: jp
+    url: "https://piloti.sophia.ac.jp/assets/uploads/2024/11/27140913/undergraduate_2025.pdf"
+    manual: true

@@ -1,0 +1,7 @@
+# Nagoya University (national university, standard rate). One G30 tuition page covers every programme.
+sources:
+  # G30 tuition page: one flat rate for all programmes; read by hand
+  - university: nagoya
+    country: jp
+    url: "https://admissions.g30.nagoya-u.ac.jp/studentlife/tuition/"
+    manual: true

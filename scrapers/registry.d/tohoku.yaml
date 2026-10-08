@@ -1,0 +1,12 @@
+# Tohoku University (national university; ¥900,000 international rate from April 2027). Read by hand.
+sources:
+  # University guide leaflet PDF with the 2027 international tuition; read by hand
+  - university: tohoku
+    country: jp
+    url: "https://www.insc.tohoku.ac.jp/japanese/wp-content/uploads/2026/06/TU-Leaflet-2026.06.10.pdf"
+    manual: true
+  # Gateway College pamphlet PDF; read by hand
+  - university: tohoku
+    country: jp
+    url: "https://admissions.tohoku.ac.jp/en/adcms/wp-content/uploads/2026/03/gwc-pamphlet.pdf"
+    manual: true
