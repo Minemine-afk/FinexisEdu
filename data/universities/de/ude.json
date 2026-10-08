@@ -7,6 +7,21 @@
   "website": "https://www.uni-due.de",
   "description": "The University of Duisburg-Essen is a public university in the Ruhr area of North Rhine-Westphalia, formed in 2003 from the universities of Duisburg and Essen. It has more than 37,000 students on its two campuses and a university hospital in Essen.",
   "whyIncluded": "The University of Duisburg-Essen is among the 10 universities in Germany most chosen by international students (about 7,800 international students, 21% of more than 37,000, per an aggregator figure), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 555.52,
+      "food": 277.76,
+      "transport": 9.92,
+      "personal": 148.8
+    },
+    "sourceUrl": "https://www.study-in-germany.de/en/plan-your-studies/requirements/proof-of-financial-resources/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "secondary",
+    "summary": "The University of Duisburg-Essen quotes only an older average budget, so this is the German blocked-account requirement of 992 euros a month (11,904 a year), split into rent, food, transport and personal using the average shares of other German universities' budgets.",
+    "notes": "Rung C. Rung B. UDE International Office 'Key information for incomings' (2024/25) PDF: 'According to the DAAD, a German student has average expenses of EUR 867/month including rent, travel expenses, food, clothing, learning materials, health insurance, telephone, Internet, radio and TV licence fees and recreational activities.' The same page: visa proof of funds EUR 934/month; social contribution 'around EUR 305 each semester' which 'includes a semester ticket for free use of all local public transport'. No itemised figures anywhere on uni-due.de (the 'after admission' page refers to DAAD; the SCIES 'Lebenshaltungskosten' page returns 404), and no Duisburg/Essen sister university in the repo, so the 867 total was split with the Germany shares .56/.28/.01/.15: housing 485.52, food 242.76, transport 8.67, personal 130.05 (health insurance sits inside personal). Excluded: social contribution ~305/semester (semester ticket included in it). Caution: 867 is DAAD's older average; DAAD now quotes EUR 992/month (the blocked-account amount from Sept 2024), so parents should expect roughly 15% more; the rung-C fallback would be 992 split as 555.52/277.76/9.92/148.80. Because the 867 figure is explicitly DAAD's older average, the entry uses the current proof-of-funds amount of EUR 992/month (EUR 11,904/year for 2026, study-in-germany.de and expatrio.com read 2026-10-08) split with the Germany shares .56/.28/.01/.15; UDE's own 867 figure is kept here for reference."
+  },
   "programmes": [
     {
       "level": "bachelor",

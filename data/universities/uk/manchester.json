@@ -7,6 +7,21 @@
   "website": "https://www.manchester.ac.uk",
   "description": "The University of Manchester is a public research university and Russell Group member, formed in 2004 by the merger of the Victoria University of Manchester and UMIST. It has one of the largest student populations in the United Kingdom.",
   "whyIncluded": "The University of Manchester is among the 10 universities in the United Kingdom most chosen by international students (18,515 non-UK students in 2024-25, per HESA), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 10,
+    "monthly": {
+      "housing": 773.5,
+      "food": 301.0,
+      "transport": 70.0,
+      "personal": 303.0
+    },
+    "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/student-finance/cost-of-living/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "The university's 2026/27 cost-of-living guide for a single student over a 41-week year: a self-catered university room (bills included), groceries and takeaways, transport, and personal spending such as socialising, phone, clothes and course materials.",
+    "notes": "Rung A. University of Manchester 'Cost of living' (undergraduate student finance) page. Living-cost table is 'based on 41 weeks' with annual and monthly columns where monthly = annual / 10, so months = 10. Housing = midpoint of 'University of Manchester halls of residence (self-catered)' GBP 487-1,060 per month = 773.50; halls include utilities, contents insurance and internet; contracts 41/42 weeks (alternatives: private halls 860-1,010, private house share 645-710 with bills). Food = groceries 250 + takeaways 51 = 301 (groceries based on an April 2026 shop). Transport = 'local and travelling elsewhere' 70. Personal = going out 110 + mobile 35 + clothes 42 + health and wellbeing 25 + course materials 21 + holidays/events 34 + gifts/charity 18 + supporting relatives 18 = 303. Page total for non-housing items is 6,740/year (674/month). Non-grocery costs are from the Save the Student survey adjusted for inflation as of Feb 2026. Tuition, visa and IHS excluded."
+  },
   "programmes": [
     {
       "level": "bachelor",

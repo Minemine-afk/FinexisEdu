@@ -7,6 +7,21 @@
   "website": "https://www.fu-berlin.de",
   "description": "Freie Universität Berlin is a public research university in Berlin-Dahlem, founded in 1948. It has about 34,000 students and is part of the Berlin University Alliance funded under Germany's Excellence Strategy.",
   "whyIncluded": "Freie Universität Berlin is among the 10 universities in Germany most chosen by international students (international students are 13% of its bachelor's and 33% of its master's students, 34,400 students in winter semester 2024/25), per the FinexisEdu shortlist research of October 2026; its medical degree, taught by Charité, is on the Singapore Medical Council's list.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 523.04,
+      "food": 261.52,
+      "transport": 9.34,
+      "personal": 140.1
+    },
+    "sourceUrl": "https://www.fu-berlin.de/en/sites/cairo/FAQ/General-FAQs/Lebenshaltungskosten.html",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Freie Universitaet Berlin says to budget at least 934 euros a month for rent, groceries and leisure in Berlin. The university gives no breakdown, so the split into rent, food, transport and personal uses the average shares of other German universities' budgets.",
+    "notes": "Rung B. FU Berlin page 'How high are the living costs in Berlin?' (published by FU's Cairo Liaison Office on fu-berlin.de): 'You should count on spending a minimum of 934 Euro (rental fees, grocery, leisure time etc.)' per month, tied to the visa proof-of-funds amount. No breakdown is given anywhere on FU's international pages ('Fees & Funding', 'Entry & Residence'), so the 934 was split with the Germany shares .56/.28/.01/.15: housing 523.04, food 261.52, transport 9.34, personal 140.10. Corroboration from FU's own 'Living in Berlin' page: student-housing rent EUR 311-491, average Berlin rent 2024 EUR 678; FU 'Health Insurance' page: statutory student insurance about EUR 120/month (inside the personal share here). Note the 934 figure is the former blocked-account amount; the current German requirement is EUR 992/month. Excluded: semester fee (which includes the semester ticket), deposits, one-off set-up. The repo's hu-berlin entry is a rung-C DAAD entry, not rung A, so it could not serve as a rung-D sister source."
+  },
   "programmes": [
     {
       "level": "bachelor",

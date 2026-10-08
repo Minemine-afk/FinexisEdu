@@ -7,6 +7,21 @@
   "website": "https://www.tohoku.ac.jp",
   "description": "Tohoku University is a national research university in Sendai, founded in 1907 as the third of Japan's imperial universities. In 2024 it became the first university designated a University for International Research Excellence by the Japanese government.",
   "whyIncluded": "Tohoku University is among the 10 universities in Japan most chosen by international students (2,274 international students in May 2025 per JASSO), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 60000,
+      "food": 40000,
+      "transport": 2000,
+      "personal": 30000
+    },
+    "sourceUrl": "https://sup.bureau.tohoku.ac.jp/en/pre-arrival-e/expenses-e/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Tohoku University's own monthly expense model for international students in Sendai: private apartment rent, utilities, food, phone and other spending, 12 months a year. Tohoku gives no transport figure, so that is the national survey average for the Tohoku region.",
+    "notes": "Rung A. Tohoku University International Support Center 'International Student Expenses' page (undated, read 2026-10-08; model 'per-month expenses = housing + living expenses + tuition'): housing = apartment (1 bedroom) '40,000 and over', refined with the same office's 'Living cost' page (sup.bureau.tohoku.ac.jp/en/life-e/cost-e/) which gives international students' monthly rent excluding utilities as 40,000-60,000 (midpoint 50,000) + utilities (electricity/gas/water) 10,000 = 60,000 (dormitory single rooms are 13,000-33,900 plus a maintenance fee); food 40,000; personal = phone 10,000 + other 20,000 = 30,000 (the page's living-expenses subtotal is 80,000 excluding rent). Neither page prices transport, so transport = JASSO Lifestyle Survey of Privately Financed International Students, Tohoku region average commuting cost 2,000/month (table 7-4 of the FY2021 report, studyinjapan.go.jp/ja/_mt/2023/12/Seikatsu2021.pdf; the FY2023 report's regional breakdown could not be read in this session, only its Tohoku housing average of 26,000). The resulting 132,000 sits inside Tohoku's stated range of 80,000-150,000 a month. National Health Insurance and National Pension are required but unpriced on the page, so they are not included; tuition (44,650-67,000/month) excluded."
+  },
   "programmes": [
     {
       "level": "bachelor",

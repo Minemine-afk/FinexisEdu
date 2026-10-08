@@ -7,6 +7,21 @@
   "website": "https://www.uni-frankfurt.de",
   "description": "Goethe University Frankfurt is a public research university in Frankfurt am Main, Hesse, founded in 1914 by local citizens. It has about 41,000 students across 16 faculties.",
   "whyIncluded": "Goethe University Frankfurt is among the 10 universities in Germany most chosen by international students (6,544 international students, 16% of 41,508, in winter semester 2024/25), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 650,
+      "food": 400,
+      "transport": 0,
+      "personal": 75
+    },
+    "sourceUrl": "https://www.uni-frankfurt.de/79190902/Incomings",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Goethe University's own 'Living in Frankfurt' guidance: a private room, a 'cost of living' line for food and daily expenses, and student health insurance. Local public transport is covered by the semester fee, which is excluded, as are tuition and one-off costs.",
+    "notes": "Rung A. Goethe University Frankfurt 'Incomings' page, section 'Living in Frankfurt' / 'Expenses'. Page lines: Rent (monthly) 'In dormitories: 300 - 350 euros', 'Private rooms: 500 - 800 euros'; 'Other expenses (monthly)': 'Cost of living: 300 - 500 euros', 'Health insurance: approx. 75 euros'; 'Study costs (per semester)': semester fee 'around 370 euros (including local public transport)' plus 'around 50 euros per semester for further expenses'. Derivation: housing = midpoint of private rooms 500-800 = 650 (dormitory would be 325); food = midpoint of 'cost of living' 300-500 = 400 (the page does not split this line, so it covers food plus everyday personal spending); transport = 0 because local public transport is inside the semester fee, which is excluded; personal = health insurance 75. Monthly total 1,125. Excluded: semester fee ~370/semester and the ~50/semester further study costs. The faculty-level WiWi exchange page gives a similar picture (dorm 300-350, private 400-600, insurance 75, other 300, total ~850-1,000). The page states no academic year; recorded as 2026/27 as the current page."
+  },
   "programmes": [
     {
       "level": "bachelor",

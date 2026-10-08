@@ -7,6 +7,21 @@
   "website": "https://www.tsukuba.ac.jp",
   "description": "The University of Tsukuba is a national university in Tsukuba Science City, Ibaraki, established in 1973 from the former Tokyo University of Education. It teaches several undergraduate courses fully in English.",
   "whyIncluded": "The University of Tsukuba is among the 10 universities in Japan most chosen by international students (2,298 international students in May 2025 per JASSO), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 40000,
+      "food": 48000,
+      "transport": 8000,
+      "personal": 24000
+    },
+    "sourceUrl": "https://www.tsukuba.ac.jp/en/admissions/fees-living-expenses/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "The University of Tsukuba's own figures: about 80,000 a month for food, clothing and study materials, split here into food, transport and personal, plus its 30,000-50,000 estimate for a private room in Tsukuba, 12 months a year.",
+    "notes": "Rung B (university's own total, no breakdown). University of Tsukuba admissions 'Fees & Living Expenses' page (undated, read 2026-10-08): 'average living expenses including food, clothing and study materials are approximately 80,000 per month', excluding dormitory fees. Housing is from the university's 'Accommodation' page (tsukuba.ac.jp/en/students/campus-life/accommodation): off-campus 6-tatami room with kitchen, bath and toilet 30,000-50,000 per month, midpoint 40,000 (utilities not stated; the student residence fee schedule is in a linked PDF not read here). The 80,000 is split with the Japan average shares for the non-housing categories (food .30, transport .05, personal .15, renormalised to .60/.10/.30): food 48,000, transport 8,000, personal 24,000. The page lists no insurance figure, so National Health Insurance is not separately included; tuition excluded."
+  },
   "programmes": [
     {
       "level": "bachelor",

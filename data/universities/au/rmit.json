@@ -7,6 +7,21 @@
   "website": "https://www.rmit.edu.au",
   "description": "RMIT University is a public university in Melbourne, founded in 1887 as the Working Men's College, with its main campus in the city centre. It is known for technology, design, engineering and business programmes.",
   "whyIncluded": "RMIT University is among the 10 universities in Australia most chosen by international students (7,700 new overseas student commencements allocated for 2026 by the Australian Department of Education), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1191.67,
+      "food": 866.67,
+      "transport": 195.0,
+      "personal": 552.5
+    },
+    "sourceUrl": "https://www.rmit.edu.au/study-with-us/moving-to-melbourne/costs-of-living",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "RMIT's own Melbourne cost-of-living page: a private room, food, public transport, phone/internet, power and entertainment for 12 months, using the middle of each weekly range RMIT quotes. Excludes OSHC, tuition and one-off set-up costs.",
+    "notes": "Rung A: RMIT 'Cost of living in Melbourne' page (study-with-us/moving-to-melbourne/costs-of-living), read 2026-10-08. The page has (1) a 'Cost per person per week' table attributed to Study Australia (November 2023): food and eating out AU$150-250, phone and internet AU$15-30, public transport AU$30-60, gas and/or electricity AU$10-20, entertainment AU$30-150, car AU$150-260; (2) a median weekly rent table from the Victorian Home Victoria rental report (September 2025) for whole flats/houses (1-bed flat metropolitan Melbourne AU$500); and (3) RMIT's 'Cost of living in Melbourne for international students' video transcript on the same page: accommodation AU$150-400/week, food AU$80-120, transport AU$35-45, phone and internet AU$15-30, entertainment and miscellaneous AU$30-100. Housing = midpoint of the transcript's accommodation range (AU$275/week), taken as the page's figure for a single student in a single room; the rent table was not used because it prices whole dwellings. Food = midpoint of the per-person table (AU$200/week); transport = midpoint AU$45/week (international students are not eligible for the Victorian concession fare, so the full-fare range is used); personal = phone/internet midpoint 22.50 + gas/electricity midpoint 15 + entertainment midpoint 90 = AU$127.50/week. Weekly figures converted to monthly x 52/12. Excluded: car running costs, AU$3,000-5,000 one-off home set-up, OSHC, tuition. The page gives no total; the categories above sum to about AU$2,806/month (AU$33,670/year), which is above the Home Affairs visa minimum of A$29,710."
+  },
   "programmes": [
     {
       "level": "bachelor",

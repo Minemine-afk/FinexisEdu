@@ -7,6 +7,21 @@
   "website": "https://www.uel.ac.uk",
   "description": "The University of East London is a public university with campuses at Stratford and Docklands in east London, which gained university status in 1992 and traces its roots to the West Ham Technical Institute of 1898. It has a large and fast-growing international postgraduate intake.",
   "whyIncluded": "The University of East London is among the 10 universities in the United Kingdom most chosen by international students (13,230 non-UK students in 2024-25, HESA), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2025,
+    "months": 9,
+    "monthly": {
+      "housing": 866.67,
+      "food": 173.33,
+      "transport": 115.0,
+      "personal": 155.0
+    },
+    "sourceUrl": "https://www.uel.ac.uk/blog/real-cost-living-east-london-what-uel-students-need-know",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "UEL's own guide to living in East London (August 2025): a room in university halls with bills included, weekly groceries, a Zones 1-3 travelcard, entertainment and study materials. Deposits, visa and flights are not included.",
+    "notes": "Rung A. UEL blog 'The real cost of living in East London: what UEL students need to know' (university site, 1 Aug 2025), cross-checked against UEL's 'Cost of living support' page which says international students should budget 'around GBP 1,300 to 1,800 per month' with on-campus rooms 'from 165 a week'. Housing = midpoint of university halls (Docklands/Stratford) 170-230/week = 200/week x 52/12 = 866.67, bills usually included (a private shared room 600-900 + utilities 70-120 + broadband 20-30 gives a similar 870). Food = 30-50/week -> 40 x 52/12 = 173.33. Transport = monthly Zones 1-3 travelcard 100-130 -> 115. Personal = entertainment 100-150 -> 125 plus study materials/extras 20-40 -> 30 = 155. Total 1,310/month sits at the low end of UEL's stated 1,300-1,800 range. Months = 9 (UK academic year; the post states no period). Excluded: deposit (one month's rent), one-off costs."
+  },
   "programmes": [
     {
       "level": "bachelor",

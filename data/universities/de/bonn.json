@@ -7,6 +7,21 @@
   "website": "https://www.uni-bonn.de",
   "description": "The Rheinische Friedrich-Wilhelms-Universität Bonn is a public research university in Bonn, North Rhine-Westphalia, founded in 1818. It has around 35,000 students and is one of Germany's universities of excellence.",
   "whyIncluded": "The University of Bonn is among the 10 universities in Germany most chosen by international students (about 6,600 international students, 19% of 34,652, per a 2026 aggregator figure), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 410,
+      "food": 198,
+      "transport": 89,
+      "personal": 273
+    },
+    "sourceUrl": "https://uni-bonn.de/en/studying/application-admission-and-enrollment/costs",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "The University of Bonn's own 'Costs' page lists average monthly student spending in Bonn: rent, food, transport, and a personal line covering health costs, phone, leisure, study materials and clothing. Excludes the semester fee, which includes the Deutschland semester ticket.",
+    "notes": "Rung A. University of Bonn 'Costs' page, table 'Living expenses' ('Average monthly living expenses in Bonn total:'), which the page attributes to the 22nd DSW/DZHW Social Survey (2023). Lines used verbatim: Rent 410, Food 198, Transportation (car) 89, Health care costs 100, Communication 31, Leisure 65, Learning material 31, Clothing 46. Derivation: housing = 410; food = 198; transport = 89 (the page's own transport line; note most students actually travel on the Deutschlandsemesterticket inside the semester fee); personal = 100 + 31 + 65 + 31 + 46 = 273. Monthly total 970. Excluded: semester fee / social contribution EUR 363.07 for winter 2026/27 (of which Deutschlandsemesterticket 226.80) and 345.07 for summer 2026. The page gives no separate health-insurance premium; the 'Health care costs' line is the only health item. The international-students page ('Costs and Financing for International Students') gives only a single total of roughly EUR 1,000/month and the EUR 992/month visa proof-of-funds figure, consistent with this table."
+  },
   "programmes": [
     {
       "level": "bachelor",

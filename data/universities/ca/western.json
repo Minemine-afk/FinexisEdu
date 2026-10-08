@@ -7,6 +7,21 @@
   "website": "https://www.uwo.ca",
   "description": "Western University is a public research university in London, Ontario, founded in 1878. It is home to the Ivey Business School and the Schulich School of Medicine & Dentistry.",
   "whyIncluded": "Western University is among the 10 universities in Canada most chosen by international students (2,437 full-time international undergraduates and 1,270 full-time international master's students in 2024-25), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2024,
+    "months": 8,
+    "monthly": {
+      "housing": 1592.5,
+      "food": 475,
+      "transport": 0,
+      "personal": 841.25
+    },
+    "sourceUrl": "https://welcome.uwo.ca/next-steps/finances/index.html",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Western's own off-campus budget for London, Ontario (September to April, 8 months): rent with utilities and internet, groceries, and personal items, clothing, entertainment, laundry and books, using the midpoint of each range. The local bus pass is already in the student fees.",
+    "notes": "Rung A. Western 'Tuition & Expenses' page, table 'approximate fees' for the 2024-2025 academic year, off-campus living, September to April (8 months), ranges given; midpoints used. housing = rent 6,000-16,000 (mid 11,000) + utilities 400-2,400 (mid 1,400) + internet 120-560 (mid 340) = 12,740 / 8 = 1,592.50; food = 'food (without meal plan) 2,800-4,800' mid 3,800 / 8 = 475; transport = 0 because 'local transportation: bus pass included in tuition and fees'; personal = phone 400-640 (mid 520) + personal items 800 + clothing 800-2,000 (mid 1,400) + entertainment 1,600 + laundry 160 + books & supplies 1,500-3,000 (mid 2,250) = 6,730 / 8 = 841.25. Residence option (room and meal plan C$16,510-19,140 for 8 months) not used. Insurance (UHIP), trips home, visa and study-permit costs are listed by the page as not itemised and are excluded. The page says the table applies to all students and international students should add visa/permit costs separately."
+  },
   "programmes": [
     {
       "level": "bachelor",

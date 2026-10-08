@@ -7,6 +7,21 @@
   "website": "https://www.nagoya-u.ac.jp",
   "description": "Nagoya University is a national research university in Nagoya, founded in 1939 as the last of Japan's imperial universities. It runs English-taught Global 30 (G30) undergraduate and graduate programmes.",
   "whyIncluded": "Nagoya University is among the 10 universities in Japan most chosen by international students (2,034 international students in May 2025 per JASSO, with English-taught G30 programmes), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 50000,
+      "food": 30000,
+      "transport": 3000,
+      "personal": 16500
+    },
+    "sourceUrl": "https://en.nagoya-u.ac.jp/admissions/financial/costs/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Nagoya University's own estimated monthly budget for an off-campus apartment in Nagoya: rent, utilities, food, phone, insurance and personal spending, 12 months a year. Nagoya gives no transport figure, so that is the national survey average for the Chubu region.",
+    "notes": "Rung A. Nagoya University 'Living costs' admissions page, 'Monthly living expenses' estimate (undated, read 2026-10-08; page says 'for reference only'): housing = off-campus apartment 30,000-50,000 (midpoint 40,000) + utilities 10,000 = 50,000 (university accommodation is 42,000 including utilities); food 30,000; personal = telecommunications 5,000 + insurance 1,500 (National Health Insurance) + other personal expenses 10,000 = 16,500. The page's own total is 86,500-106,500. Nagoya lists no commuting/transport line, so transport = JASSO Lifestyle Survey of Privately Financed International Students, Chubu region average commuting cost 3,000/month (table 7-4 of the FY2021 report, studyinjapan.go.jp/ja/_mt/2023/12/Seikatsu2021.pdf; the FY2023 report's regional breakdown table could not be read in this session, only its regional housing average, Chubu 30,000, which is consistent with Nagoya's rent range). Tuition (535,800/yr) excluded."
+  },
   "programmes": [
     {
       "level": "bachelor",

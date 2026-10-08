@@ -7,6 +7,21 @@
   "website": "https://www.unibe.ch",
   "description": "The University of Bern is a public university in Switzerland's federal capital, founded in 1834. It has eight faculties including medicine, law, science and business, economics and social sciences, and teaches mainly in German.",
   "whyIncluded": "The University of Bern is among the 10 universities in Switzerland most chosen by international students (about 18% of its students are international, per Times Higher Education World University Rankings data, with 8,014 bachelor's and 5,213 master's students in autumn 2025), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2025,
+    "months": 12,
+    "monthly": {
+      "housing": 660,
+      "food": 360,
+      "transport": 180,
+      "personal": 1160
+    },
+    "sourceUrl": "https://sub.unibe.ch/wp-content/uploads/2025/06/budget-studierende.pdf",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Budget published by the University of Bern's student body (SUB) for a single student in Bern: rent and utilities, groceries and meals out, public transport, and a large personal line that includes Swiss health insurance, clothing and leisure. Excludes tuition.",
+    "notes": "Rung A. Source: 'Budgetvorschlag' (budget proposal for students) PDF of the Studierendenschaft der Universitaet Bern (SUB), the university's statutory student body; the university's own cost-of-living page (bst.bkd.be.ch 'Lebenshaltungskosten', the counselling service of the Bern universities) gives no figures itself and refers readers to this SUB budget and to the cantonal BKD norm values. All figures are CHF per month ('CHF/Mt.'); the PDF total is 2,495.00. Derivation: housing = Miete 600 + Wohn-Nebenkosten 60 = 660; food = Nahrungsmittel 200 + Auswaertige Verpflegung 160 = 360; transport = Fahrkosten 180; personal = Krankenkassepraemie 300 + Jahresfranchise/Gesundheitskosten 100 + AHV/IV 40 + Kleider/Schuhe 100 + Freizeit/Kultur/Genuss 300 + Telefon/Internet/TV/Radio 80 + Lehrmittel 80 + Steuern 40 + Ferien 80 + Haushalts-Nebenkosten 40 = 1,160. Excluded: Studiengebuehren 135/month (tuition). Resulting monthly total 2,360. The PDF carries no date; file uploaded June 2025, so recorded as academic year 2025/26. The Welcome Center 'Budget planning' page separately quotes health insurance CHF 200-400/month and a Bern monthly transport pass CHF 79 (not used)."
+  },
   "programmes": [
     {
       "level": "bachelor",

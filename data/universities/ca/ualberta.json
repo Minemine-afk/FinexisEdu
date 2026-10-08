@@ -7,6 +7,21 @@
   "website": "https://www.ualberta.ca",
   "description": "The University of Alberta is a public research university in Edmonton, Alberta, founded in 1908. It is one of Canada's largest universities, with faculties including engineering, business, science and nursing.",
   "whyIncluded": "The University of Alberta is among the 10 universities in Canada most chosen by international students (5,457 international undergraduates and 3,090 international graduate students in 2023-24), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2025,
+    "months": 8,
+    "monthly": {
+      "housing": 1550,
+      "food": 600,
+      "transport": 45.63,
+      "personal": 517.75
+    },
+    "sourceUrl": "https://www.ualberta.ca/en/business/international/incoming-exchange/estimated-expenses.html",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "University of Alberta's own monthly estimate for Edmonton: a room in a shared off-campus flat, groceries, the mandatory U-Pass transit pass, health insurance (UAHIP), course-materials fee and personal spending, for an 8-month (two-semester) year.",
+    "notes": "Rung A. U of A 'Estimated Expenses' page for incoming students (Alberta School of Business international office), figures per month / per 4-month semester, page undated (U-Pass C$182.50/semester and UAHIP C$53/month are the 2025-26 rates), so year recorded as 2025 and months as 8 (two semesters). housing = midpoint of 'off-campus, shared, unfurnished, no meals C$1,100-2,000/month' (on-campus single room is 1,400-2,000, shared room 1,100-1,500); food = midpoint of 'groceries/meals off campus C$400-800' (voluntary on-campus meal plan is 800); transport = mandatory U-Pass C$182.50 per 4-month semester = 45.63/month; personal = activities midpoint 200 + personal expenses (phone, laundry) midpoint 200 + mandatory UAHIP health insurance 53 + undergraduate course-materials access fee C$259/semester = 64.75/month, total 517.75. Tuition, travel, visa fees and entertainment beyond 'activities' excluded. Other U of A pages checked gave no undergraduate itemisation: ISS Budgeting (only a C$2,000 first-month settling-in figure), exchange 'Tuition and Cost of Living' (calculator only), graduate cost-of-living estimate (one-bedroom budget based on 2016-17 data) and MBA 2025-26 estimate (one-bedroom flat)."
+  },
   "programmes": [
     {
       "level": "bachelor",

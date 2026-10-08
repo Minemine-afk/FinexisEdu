@@ -7,6 +7,21 @@
   "website": "https://www.ritsumei.ac.jp",
   "description": "Ritsumeikan University is a private university founded in 1900, with campuses in Kyoto, Shiga (Biwako-Kusatsu) and Osaka (Ibaraki). It is one of Japan's largest universities and teaches several undergraduate majors fully in English.",
   "whyIncluded": "Ritsumeikan University is among the 10 universities in Japan most chosen by international students (3,386 international students in May 2025, third in Japan, per JASSO), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2025,
+    "months": 12,
+    "monthly": {
+      "housing": 52000,
+      "food": 30850,
+      "transport": 5250,
+      "personal": 23000
+    },
+    "sourceUrl": "https://en.ritsumei.ac.jp/e-ug/financial_info/cost_of_living.html",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Ritsumeikan's own monthly cost-of-living table for international students (from its co-op's 2025 student survey): university accommodation, food, transport, books, entertainment, phone and sundries, 12 months a year. Excludes tuition and insurance.",
+    "notes": "Rung A. Ritsumeikan University English-medium undergraduate admissions 'Cost of Living' page, figures attributed to the FY2025 Student Life Survey Report by Ritsumeikan Co-op (ranges across its Kyoto, Osaka Ibaraki and Biwako-Kusatsu campuses; midpoints used): housing = 'University Accommodations' 39,000-65,000 (midpoint 52,000; the page does not say whether utilities are included); food 29,500-32,200 (midpoint 30,850); transport 4,700-5,800 (midpoint 5,250); personal = books & supplies 600-2,100 (1,350) + entertainment 13,000-16,500 (14,750) + telecommunications 3,700-4,200 (3,950) + miscellaneous 1,100-4,800 (2,950) = 23,000. The page's own total is 133,600-144,700. Health insurance is not listed on the page (National Health Insurance, roughly 2,000/month elsewhere, is therefore not included); tuition excluded. USD conversions on the page ignored."
+  },
   "programmes": [
     {
       "level": "bachelor",

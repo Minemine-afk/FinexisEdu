@@ -7,6 +7,21 @@
   "website": "https://www.purdue.edu",
   "description": "Purdue University is a public research university in West Lafayette, Indiana, founded in 1869 as Indiana's land-grant university. It is known for engineering, aeronautics, computer science and agriculture.",
   "whyIncluded": "Purdue University is among the 10 universities in the United States most chosen by international students (12,874 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 1411.23,
+      "food": 448.1,
+      "transport": 63.33,
+      "personal": 365.56
+    },
+    "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027",
+    "lastVerified": "2026-10-08",
+    "sourceType": "official",
+    "summary": "Purdue's official 2026-27 cost estimate for international undergraduates at West Lafayette: a combined housing-and-food allowance (split here into rent and food), transportation, and miscellaneous plus books, over a 9-month academic year.",
+    "notes": "Rung A (housing and food combined). Purdue Bursar 'Undergraduate Tuition and Fees 2026-2027', Fall/Spring flat rate (8+ credit hours), 'Academic Year Cost' column, International: Housing/Food 16,734 (footnote: 'Estimated On-Campus Housing/Food is a billed expense estimated at $16,734 for the academic year; Off-Campus Housing/Food is not a billed expense and is estimated at $16,734'), Books/Course Materials/Supplies/Equipment 1,090, Transportation 570, Miscellaneous/Federal Student Loan Fees 2,200 ('costs vary; loan fees apply if the student is receiving federal loans'). The page does not state months; 9 recorded for the fall+spring academic year. Housing/Food is not split by the page, so 16,734 was divided using the US housing:food share ratio .63:.20 -> housing 12,701.11 / 9 = 1,411.23, food 4,032.89 / 9 = 448.10; transport = 570 / 9 = 63.33; personal = (2,200 misc + 1,090 books) / 9 = 365.56. Tuition and fees (international sub-total 32,104) excluded. The Division of Financial Aid COA page (purdue.edu/dfa/cost) describes the categories but gives no amounts; admissions.purdue.edu cost page was blocked ('requested URL was rejected')."
+  },
   "programmes": [
     {
       "level": "bachelor",

@@ -7,6 +7,21 @@
   "website": "https://www.eit.ac.nz",
   "description": "Eastern Institute of Technology (EIT) is a polytechnic, not a university, based in Napier with campuses in Gisborne and Auckland, and it awards its own bachelor's and master's degrees. It was part of Te Pūkenga, the national polytechnic network, from 2020 until it became a stand-alone polytechnic again on 1 January 2026.",
   "whyIncluded": "Eastern Institute of Technology is among the 10 institutions in New Zealand most chosen by international students (2,050 international students enrolled in 2025, Ministry of Education provider data; New Zealand has only eight universities, so the two largest degree-granting polytechnics were added), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1183.33,
+      "food": 233.33,
+      "transport": 66.67,
+      "personal": 183.33
+    },
+    "sourceUrl": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/",
+    "lastVerified": "2026-10-08",
+    "sourceType": "secondary",
+    "summary": "EIT publishes no living-cost budget, so this is Immigration New Zealand's student-visa living-cost minimum of NZ$20,000 a year (about NZ$1,667 a month), split into rent, food, transport and personal using the pattern of other New Zealand universities.",
+    "notes": "Rung C. Tried for rung A/B: eit.ac.nz International FAQs (no amounts; refers to Immigration NZ), Application Guide, 'Life in Napier' page, Student Handbook, 2027 international Programme Matrix PDF and a programme information PDF (tuition only; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'); the /international/living-in-new-zealand/ URL returns 404. The only EIT price found is the Napier Student Village single furnished room at NZ$190/week including electricity and internet (about NZ$823/month), which is below the housing figure below and supports it as a conservative budget. Figure used: Immigration New Zealand 'Student fund requirements' page, read 2026-10-08: 'NZD $20,000 for each year, if you are studying for 1 year or more' (NZD $1,667 per month for shorter courses). Monthly = 20,000 / 12 = 1,666.67, split with the brief's New Zealand average shares housing .71 / food .14 / transport .04 / personal .11. Excludes tuition, the compulsory medical and travel insurance, flights and visa fees."
+  },
   "programmes": [
     {
       "level": "bachelor",
