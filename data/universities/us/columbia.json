@@ -210,7 +210,14 @@
       "cohortLocked": false,
       "summary": "Yearly JD tuition plus university fees and the international services charge. Health insurance not included. Fees rise each year.",
       "notes": "Columbia Law School Standard Cost of Attendance 2026-2027 (J.D.): tuition US$88,996; Student Activity Fee US$390; University Services & Support Fee US$1,290; Health & Related Services Fee US$1,518; plus International Services Charge US$175/term x 2 (university-wide, from the ISSO/SFS schedules) = US$3,548. Document Fee US$105 one-off for new students. Health insurance (Columbia Student Health Insurance Plan, US$5,823 a year in 2026-27) is excluded: Columbia Health says non-J visa international students may waive it with a plan meeting university requirements. Columbia's JD is on the Singapore Institute of Legal Education's approved list (Fifth Schedule, Legal Profession (Qualified Persons) Rules; graduates in the top 70% of their batch). No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "Fifth Schedule, JD, top 70% of class",
+        "sourceUrl": "https://www.sile.edu.sg/united-states-of-america-approved-universities",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -231,7 +238,14 @@
       "cohortLocked": false,
       "summary": "First-year MD tuition plus compulsory school fees and the international services charge. Health insurance not included. Fees rise each year.",
       "notes": "VP&S MD Program Student Budget 2026-27 ('VP&S - Standard' PDF linked from the budget page; file 41692): tuition US$76,336 each year. First-year compulsory = Student Health Service US$1,788 + Supplemental Insurance US$10 + Disability Insurance US$78 + CUIMC Network Fee US$480 + P&S IT Fee US$148 + Program Fee US$100 + Student Activity Fee US$145 = US$2,749, plus International Services Charge US$350 = US$3,099. Document Fee US$105 one-off. Later years: Program Fee US$500 in MS2, no activity fee after MS1. Medical Insurance Premium US$5,823 excluded (waivable). The Vagelos Scholarship Program meets need with grants; eligibility of international students not confirmed. Columbia's MD (Vagelos College of Physicians and Surgeons) is on the Second Schedule of Singapore's Medical Registration Act. No 2024-25 or 2025-26 international figure was found on a live official page (Columbia's archived bulletins are blocked to automated reading), so no feeHistory. ",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, MD, USMLE also required",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

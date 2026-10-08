@@ -494,7 +494,14 @@
           "annualCompulsoryFees": 1134.0,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "First Schedule, LLB, top 70% of class",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -537,7 +544,14 @@
           "annualCompulsoryFees": 1134.0,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "SILE lists this university's first law degree, not the LLM",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

@@ -292,7 +292,14 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 12700, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 17750, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 28350, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "LLB with 2:2 or JD with Merit, Singapore university",
+        "sourceUrl": "https://www.sile.edu.sg/the-singapore-bar-admission-local-graduates/qualified-person-local-universities/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -318,7 +325,14 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 9600, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/gdtuitioncurrent.pdf" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 15750, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/gdtuitioncurrent.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 37100, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/gdtuitioncurrent.pdf" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "SILE lists this university's first law degree, not the LLM",
+        "sourceUrl": "https://www.sile.edu.sg/the-singapore-bar-admission-local-graduates/qualified-person-local-universities/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -344,7 +358,14 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 31200, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 46400, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 76450, "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Singapore degree, MRA First Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc1-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -370,7 +391,14 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 49050, "sourceUrl": "https://www.duke-nus.edu.sg/admissions/why-duke-nus/tuition-scholarships" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 63600, "sourceUrl": "https://www.duke-nus.edu.sg/admissions/why-duke-nus/tuition-scholarships" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 85700, "sourceUrl": "https://www.duke-nus.edu.sg/admissions/why-duke-nus/tuition-scholarships" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Singapore degree, MRA First Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc1-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

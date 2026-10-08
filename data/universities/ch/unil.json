@@ -105,7 +105,14 @@
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
       "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) law bachelor, taught in French.",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -231,7 +238,14 @@
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
       "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) law master, taught in French.",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

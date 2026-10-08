@@ -173,7 +173,14 @@
           "oneOffFees": 100,
           "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -401,7 +408,14 @@
           "oneOffFees": 100,
           "sourceUrl": "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

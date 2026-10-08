@@ -327,7 +327,14 @@
           "annualTuition": 55800,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-medicine/"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, MB BS",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     }
   ]
 }

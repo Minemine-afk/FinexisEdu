@@ -249,7 +249,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -515,7 +522,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

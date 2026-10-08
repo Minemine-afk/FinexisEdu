@@ -439,7 +439,14 @@
           "oneOffFees": 200000,
           "sourceUrl": "https://www.keio.ac.jp/files/3b180a71ead57f025ff1cd92e0cedc7852f6a73645736f7d649bdce1fdbb51a3"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -477,7 +484,14 @@
           "oneOffFees": 200000,
           "sourceUrl": "https://www.keio.ac.jp/files/3b180a71ead57f025ff1cd92e0cedc7852f6a73645736f7d649bdce1fdbb51a3"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": false,
+        "note": "medical school not on the SMC Second Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -515,7 +529,14 @@
           "oneOffFees": 100000,
           "sourceUrl": "https://www.keio.ac.jp/files/e84e7e1bd9ed76414492c1ddcf3fad04b7559ddbde7cd6d0b5bb45efb764fbe5"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

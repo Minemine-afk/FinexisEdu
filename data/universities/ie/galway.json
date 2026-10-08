@@ -431,7 +431,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -469,7 +476,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": false,
+        "note": "medical school not on the SMC Second Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -507,7 +521,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

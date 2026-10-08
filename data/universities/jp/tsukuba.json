@@ -132,7 +132,14 @@
       "cohortLocked": false,
       "summary": "Standard national tuition for 2026 entrants to the 6-year Japanese-taught medical degree; international entrants from April 2027 pay a higher revised rate. The one-off ¥282,000 is the admission fee.",
       "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination. 6-year undergraduate medical degree. Not checked against the Singapore Medical Council's list of registrable qualifications. 'Admission & Tuition Fees' page: admission fee ¥282,000 and annual tuition ¥535,800 (¥267,900 per term, as of 1 April 2026) for undergraduate and graduate students. The page says tuition will be revised for international students enrolling on or after 1 April 2027; the detailed notice (PDF) could not be read (robots-blocked). Times Higher Education reports the new international rate as ¥608,800 a year (+¥73,000), unconfirmed on the university's own pages, so the 2026 rate is recorded and the calculator's yearly increase applies to later starts. National-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": false,
+        "note": "medical school not on the SMC Second Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

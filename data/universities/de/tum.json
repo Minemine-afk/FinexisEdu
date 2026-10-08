@@ -363,7 +363,14 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": false,
+        "note": "medical school not on the SMC Second Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     }
   ]
 }
