@@ -1,0 +1,18 @@
+# Maynooth University. Fee schedules are dated PDFs whose filenames change with each revision; find the current one
+# from the Student Fees and Grants Office international page.
+sources:
+  # dated PDF fee schedule whose filename changes with each revision; read by hand
+  - university: maynooth
+    country: ie
+    url: "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf"
+    manual: true
+  # dated PDF fee schedule whose filename changes with each revision; read by hand
+  - university: maynooth
+    country: ie
+    url: "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf"
+    manual: true
+  # cost-of-living estimate read by hand
+  - university: maynooth
+    country: ie
+    url: "https://www.maynoothuniversity.ie/campus-life/student-budgeting-advice-service/college-costs/living-expenses-planner"
+    manual: true

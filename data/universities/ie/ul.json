@@ -1,0 +1,582 @@
+{
+  "id": "ul",
+  "name": "University of Limerick",
+  "country": "ie",
+  "city": "Limerick",
+  "currency": "EUR",
+  "website": "https://www.ul.ie",
+  "description": "The University of Limerick is a public university on a riverside campus outside Limerick city, founded in 1972 as the National Institute for Higher Education, Limerick and granted university status in 1989. It is known for its cooperative education programme, which places most undergraduates in paid work placements.",
+  "whyIncluded": "The University of Limerick is among the 10 universities in Ireland most chosen by international students (about 20% of its 14,897 full-time-equivalent students are international, THE World University Rankings 2027 data), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science in Computer Science (LM121)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international (non-EU) students for 2026/27, including UL's small student levy. Fees are reviewed every year, so later years may cost more.",
+      "notes": "UL Student Fees Office 'Undergraduate fees 2026-2027' page, full-time table, non-EU column: 'Bachelor of Science in Computer Science' LM121 EUR 22,700. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Undergraduate fees 2025-2026' page, non-EU EUR 21,900; 'Undergraduate fees 2024-2025' page, non-EU EUR 21,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business Studies (LM050)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international (non-EU) students for 2026/27, including UL's small student levy. Fees are reviewed every year, so later years may cost more.",
+      "notes": "UL Student Fees Office 'Undergraduate fees 2026-2027' page, full-time table, non-EU column: 'Bachelor of Business Studies' LM050 EUR 17,500. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Undergraduate fees 2025-2026' page, non-EU EUR 16,900; 'Undergraduate fees 2024-2025' page, non-EU EUR 16,400.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (LM116)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international (non-EU) students for 2026/27, including UL's small student levy. Fees are reviewed every year, so later years may cost more.",
+      "notes": "UL Student Fees Office 'Undergraduate fees 2026-2027' page, full-time table, non-EU column: 'Bachelor of Engineering' LM116 EUR 22,700. LM116 is UL's common-entry engineering route. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Undergraduate fees 2025-2026' page, non-EU EUR 21,900; 'Undergraduate fees 2024-2025' page, non-EU EUR 21,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science in Biological and Chemical Sciences (LM123)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international (non-EU) students for 2026/27, including UL's small student levy. Fees are reviewed every year, so later years may cost more.",
+      "notes": "UL Student Fees Office 'Undergraduate fees 2026-2027' page, full-time table, non-EU column: 'Bachelor of Science in Biological and Chemical Sciences' LM123 EUR 22,700. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Undergraduate fees 2025-2026' page, non-EU EUR 21,900; 'Undergraduate fees 2024-2025' page, non-EU EUR 21,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (LM002)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international (non-EU) students for 2026/27, including UL's small student levy. Fees are reviewed every year, so later years may cost more.",
+      "notes": "UL Student Fees Office 'Undergraduate fees 2026-2027' page, full-time table, non-EU column: 'Bachelor of Arts' LM002 EUR 17,500. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Undergraduate fees 2025-2026' page, non-EU EUR 16,900; 'Undergraduate fees 2024-2025' page, non-EU EUR 16,400.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Laws (Law Plus) (LM029)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international (non-EU) students for 2026/27, including UL's small student levy. Fees are reviewed every year, so later years may cost more.",
+      "notes": "UL Student Fees Office 'Undergraduate fees 2026-2027' page, full-time table, non-EU column: 'Bachelor of Laws (Law Plus)' LM029 EUR 17,500. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Undergraduate fees 2025-2026' page, non-EU EUR 16,900; 'Undergraduate fees 2024-2025' page, non-EU EUR 16,400. Medicine is not included: UL's medical degree is graduate-entry only and is not on the Singapore Medical Council's list of registrable qualifications.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Science Nursing (General) (LM150)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international (non-EU) students for 2026/27, including UL's small student levy. Fees are reviewed every year, so later years may cost more.",
+      "notes": "UL Student Fees Office 'Undergraduate fees 2026-2027' page, full-time table, non-EU column: 'Bachelor of Science Nursing (General)' LM150 EUR 29,000. UL publishes a non-EU fee for this programme; Mental Health (LM152) and Intellectual Disability (LM154) nursing carry the same fee. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Undergraduate fees 2025-2026' page, non-EU EUR 28,000; 'Undergraduate fees 2024-2025' page, non-EU EUR 26,900.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science in Psychology (LM102)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 22700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international (non-EU) students for 2026/27, including UL's small student levy. Fees are reviewed every year, so later years may cost more.",
+      "notes": "UL Student Fees Office 'Undergraduate fees 2026-2027' page, full-time table, non-EU column: 'Bachelor of Science in Psychology' LM102 EUR 22,700. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Undergraduate fees 2025-2026' page, non-EU EUR 21,900; 'Undergraduate fees 2024-2025' page, non-EU EUR 21,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Software Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Fee for international (non-EU) students for the 2026/27 academic year of this 1-year full-time taught master's, including UL's small student levy.",
+      "notes": "UL 'Postgraduate taught fees 2026-2027' page, full-time taught programmes, non-EU column: 'MSc Software Engineering' EUR 20,800 (fees are for the academic year unless otherwise indicated). UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Postgraduate taught fees 2025-2026' page EUR 20,100; 'Postgraduate taught fees 2024-2025' page EUR 19,300 (non-EU, full-time).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 19300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Business Analytics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Fee for international (non-EU) students for the 2026/27 academic year of this 1-year full-time taught master's, including UL's small student levy.",
+      "notes": "UL 'Postgraduate taught fees 2026-2027' page, full-time taught programmes, non-EU column: 'MSc Business Analytics' EUR 20,400 (fees are for the academic year unless otherwise indicated). UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Postgraduate taught fees 2025-2026' page EUR 20,000; 'Postgraduate taught fees 2024-2025' page EUR 19,578 (non-EU, full-time).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 19578,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "ME Mechatronics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Fee for international (non-EU) students for the 2026/27 academic year of this 1-year full-time taught master's, including UL's small student levy.",
+      "notes": "UL 'Postgraduate taught fees 2026-2027' page, full-time taught programmes, non-EU column: 'ME Mechatronics' EUR 20,800 (fees are for the academic year unless otherwise indicated). Listed as 'Master of Engineering in Mechatronics'. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Postgraduate taught fees 2025-2026' page EUR 20,100; 'Postgraduate taught fees 2024-2025' page EUR 19,300 (non-EU, full-time).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 19300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Biomolecular Sciences",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 19500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Fee for international (non-EU) students for the 2026/27 academic year of this 1-year full-time taught master's, including UL's small student levy.",
+      "notes": "UL 'Postgraduate taught fees 2026-2027' page, full-time taught programmes, non-EU column: 'MSc Biomolecular Sciences' EUR 19,500 (fees are for the academic year unless otherwise indicated). UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Postgraduate taught fees 2025-2026' page EUR 18,800; 'Postgraduate taught fees 2024-2025' page EUR 18,000 (non-EU, full-time).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MA English",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Fee for international (non-EU) students for the 2026/27 academic year of this 1-year full-time taught master's, including UL's small student levy.",
+      "notes": "UL 'Postgraduate taught fees 2026-2027' page, full-time taught programmes, non-EU column: 'MA English' EUR 18,600 (fees are for the academic year unless otherwise indicated). UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Postgraduate taught fees 2025-2026' page EUR 18,000; 'Postgraduate taught fees 2024-2025' page EUR 18,000 (non-EU, full-time).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "LLM (General)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Fee for international (non-EU) students for the 2026/27 academic year of this 1-year full-time taught master's, including UL's small student levy.",
+      "notes": "UL 'Postgraduate taught fees 2026-2027' page, full-time taught programmes, non-EU column: 'LLM (General)' EUR 18,600 (fees are for the academic year unless otherwise indicated). Listed as 'Master of Laws (General)'. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Postgraduate taught fees 2025-2026' page EUR 17,600; 'Postgraduate taught fees 2024-2025' page EUR 16,902 (non-EU, full-time).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16902,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2024-2025"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MA Psychology (conversion)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Fee for international (non-EU) students for the 2026/27 academic year of this 1-year full-time taught master's, including UL's small student levy.",
+      "notes": "UL 'Postgraduate taught fees 2026-2027' page, full-time taught programmes, non-EU column: 'MA Psychology (conversion)' EUR 16,600 (fees are for the academic year unless otherwise indicated). Listed as 'Master of Arts in Psychology', UL's 1-year conversion master's for graduates of other disciplines. UL's fee pages state that the listed fees cover tuition, student contribution where applicable and the student levy (EUR 104 in 2026/27, EUR 102 in 2025/26, EUR 100 in 2024/25), so compulsory fees are 0 to avoid double counting. Fees are subject to annual review. History: 'Postgraduate taught fees 2025-2026' page EUR 16,000; 'Postgraduate taught fees 2024-2025' page EUR 16,000 (non-EU, full-time).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2025-2026"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2024-2025"
+        }
+      ]
+    }
+  ]
+}

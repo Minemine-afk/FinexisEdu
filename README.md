@@ -67,7 +67,7 @@ published fee tables for those years.
 | New Zealand | Auckland, Canterbury, Massey, Otago, Victoria Wellington, Waikato, Lincoln, EIT, Unitec | All except Otago (bot-protected); Waikato, Lincoln, EIT and Unitec are manual |
 | Switzerland | ETH Zurich, EPFL, Zurich, Geneva, St. Gallen | All |
 | Japan | Keio, Kyoto, Osaka, UTokyo, Waseda | All (Waseda's lab/health fee is manual) |
-| Ireland | Trinity College Dublin, UCD, UCC, Galway, DCU | All (UCD's living-cost page is manual) |
+| Ireland | Trinity College Dublin, UCD, UCC, Galway, DCU, TU Dublin, Limerick, Maynooth, RCSI, Griffith College | First five: all (UCD's living-cost page is manual); TU Dublin, Limerick, Maynooth, RCSI and Griffith are manual |
 
 Why these countries: Singapore's MOE does not track students who study
 overseas, so the list follows the host countries' own counts of Singaporean
