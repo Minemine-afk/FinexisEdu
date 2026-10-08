@@ -1,0 +1,395 @@
+{
+  "id": "usi",
+  "name": "Università della Svizzera italiana",
+  "country": "ch",
+  "city": "Lugano",
+  "currency": "CHF",
+  "website": "https://www.usi.ch",
+  "description": "The Università della Svizzera italiana (USI) is a public university founded in 1996 in Lugano, in Switzerland's Italian-speaking canton of Ticino. It has faculties of architecture, biomedical sciences, communication, economics, informatics and theology.",
+  "whyIncluded": "USI is among the 10 universities in Switzerland most chosen by international students (69% of its 4,750 students in 2025-26 came from outside Switzerland), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 625,
+      "food": 450,
+      "transport": 75,
+      "personal": 250
+    },
+    "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own estimate of monthly costs in Lugano or Mendrisio, using the middle of its ranges, for 12 months a year. Excludes health insurance and tuition.",
+    "notes": "USI 'Organising your studies' page, monthly expenses in Lugano or Mendrisio CHF 1,300-1,900 (midpoints used): accommodation (shared/single room) 450-800 (625); food and household 450; public transport 50-100 (75); personal = books/study materials 50 + miscellaneous 200 = 250. Health insurance 160-280 (when required) excluded. Page undated, read 2026-10-07."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor in Informatics",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 10000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for non-Swiss students starting in 2027/28 or later, fixed for the whole degree. Students who started earlier keep the old rate of CHF 8,000 a year.",
+      "notes": "USI 'Organising your studies' page: from academic year 2027/28 the semester fee is CHF 5,000 for bachelor and master programmes (CHF 2,000 for Swiss nationals and foreign nationals resident in Switzerland or Liechtenstein when they got their secondary diploma), so 5,000 x 2 = 10,000. Students enrolled before 2027/28 keep their original fee until they finish the degree (USI news of 24 Aug 2026: fees 'set since 1996', currently enrolled students keep the semester fee in effect at first enrolment), hence cohortLocked. No separate compulsory fees are listed. The CHF 100 application fee is deducted from the first semester's tuition when admitted, so oneOffFees = 0. Fee history: USI Faculty of Economics 'Tuition and scholarships' page: 'Tuition fees amount to CHF 4'000.- per semester' (CHF 2,000 for students resident in Switzerland or Liechtenstein at the Maturita), unchanged since 1996 per USI, so 8,000 a year for 2024, 2025 and 2026 starters. 3-year (180 ECTS) Faculty of Informatics bachelor, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor in Economics",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 10000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for non-Swiss students starting in 2027/28 or later, fixed for the whole degree. Students who started earlier keep the old rate of CHF 8,000 a year.",
+      "notes": "USI 'Organising your studies' page: from academic year 2027/28 the semester fee is CHF 5,000 for bachelor and master programmes (CHF 2,000 for Swiss nationals and foreign nationals resident in Switzerland or Liechtenstein when they got their secondary diploma), so 5,000 x 2 = 10,000. Students enrolled before 2027/28 keep their original fee until they finish the degree (USI news of 24 Aug 2026: fees 'set since 1996', currently enrolled students keep the semester fee in effect at first enrolment), hence cohortLocked. No separate compulsory fees are listed. The CHF 100 application fee is deducted from the first semester's tuition when admitted, so oneOffFees = 0. Fee history: USI Faculty of Economics 'Tuition and scholarships' page: 'Tuition fees amount to CHF 4'000.- per semester' (CHF 2,000 for students resident in Switzerland or Liechtenstein at the Maturita), unchanged since 1996 per USI, so 8,000 a year for 2024, 2025 and 2026 starters. 3-year (180 ECTS) Faculty of Economics bachelor, taught in Italian and English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor in Italian Language, Literature and Culture",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 10000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for non-Swiss students starting in 2027/28 or later, fixed for the whole degree. Students who started earlier keep the old rate of CHF 8,000 a year.",
+      "notes": "USI 'Organising your studies' page: from academic year 2027/28 the semester fee is CHF 5,000 for bachelor and master programmes (CHF 2,000 for Swiss nationals and foreign nationals resident in Switzerland or Liechtenstein when they got their secondary diploma), so 5,000 x 2 = 10,000. Students enrolled before 2027/28 keep their original fee until they finish the degree (USI news of 24 Aug 2026: fees 'set since 1996', currently enrolled students keep the semester fee in effect at first enrolment), hence cohortLocked. No separate compulsory fees are listed. The CHF 100 application fee is deducted from the first semester's tuition when admitted, so oneOffFees = 0. Fee history: USI Faculty of Economics 'Tuition and scholarships' page: 'Tuition fees amount to CHF 4'000.- per semester' (CHF 2,000 for students resident in Switzerland or Liechtenstein at the Maturita), unchanged since 1996 per USI, so 8,000 a year for 2024, 2025 and 2026 starters. 3-year (180 ECTS) bachelor, taught in Italian.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master in Informatics",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 10000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for non-Swiss students starting in 2027/28 or later, fixed for the whole degree. Students who started earlier keep the old rate of CHF 8,000 a year.",
+      "notes": "USI 'Organising your studies' page: from academic year 2027/28 the semester fee is CHF 5,000 for bachelor and master programmes (CHF 2,000 for Swiss nationals and foreign nationals resident in Switzerland or Liechtenstein when they got their secondary diploma), so 5,000 x 2 = 10,000. Students enrolled before 2027/28 keep their original fee until they finish the degree (USI news of 24 Aug 2026: fees 'set since 1996', currently enrolled students keep the semester fee in effect at first enrolment), hence cohortLocked. No separate compulsory fees are listed. The CHF 100 application fee is deducted from the first semester's tuition when admitted, so oneOffFees = 0. Fee history: USI Faculty of Economics 'Tuition and scholarships' page: 'Tuition fees amount to CHF 4'000.- per semester' (CHF 2,000 for students resident in Switzerland or Liechtenstein at the Maturita), unchanged since 1996 per USI, so 8,000 a year for 2024, 2025 and 2026 starters. 2-year (120 ECTS) master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master in Finance",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 10000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for non-Swiss students starting in 2027/28 or later, fixed for the whole degree. Students who started earlier keep the old rate of CHF 8,000 a year.",
+      "notes": "USI 'Organising your studies' page: from academic year 2027/28 the semester fee is CHF 5,000 for bachelor and master programmes (CHF 2,000 for Swiss nationals and foreign nationals resident in Switzerland or Liechtenstein when they got their secondary diploma), so 5,000 x 2 = 10,000. Students enrolled before 2027/28 keep their original fee until they finish the degree (USI news of 24 Aug 2026: fees 'set since 1996', currently enrolled students keep the semester fee in effect at first enrolment), hence cohortLocked. No separate compulsory fees are listed. The CHF 100 application fee is deducted from the first semester's tuition when admitted, so oneOffFees = 0. Fee history: USI Faculty of Economics 'Tuition and scholarships' page: 'Tuition fees amount to CHF 4'000.- per semester' (CHF 2,000 for students resident in Switzerland or Liechtenstein at the Maturita), unchanged since 1996 per USI, so 8,000 a year for 2024, 2025 and 2026 starters. 2-year (120 ECTS) master, taught in English (B2+ English required).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master in Oncology, Translational Immunology and Aging",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 10000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for non-Swiss students starting in 2027/28 or later, fixed for the whole degree. Students who started earlier keep the old rate of CHF 8,000 a year.",
+      "notes": "USI 'Organising your studies' page: from academic year 2027/28 the semester fee is CHF 5,000 for bachelor and master programmes (CHF 2,000 for Swiss nationals and foreign nationals resident in Switzerland or Liechtenstein when they got their secondary diploma), so 5,000 x 2 = 10,000. Students enrolled before 2027/28 keep their original fee until they finish the degree (USI news of 24 Aug 2026: fees 'set since 1996', currently enrolled students keep the semester fee in effect at first enrolment), hence cohortLocked. No separate compulsory fees are listed. The CHF 100 application fee is deducted from the first semester's tuition when admitted, so oneOffFees = 0. Fee history: USI Faculty of Economics 'Tuition and scholarships' page: 'Tuition fees amount to CHF 4'000.- per semester' (CHF 2,000 for students resident in Switzerland or Liechtenstein at the Maturita), unchanged since 1996 per USI, so 8,000 a year for 2024, 2025 and 2026 starters. 2-year (120 ECTS) Faculty of Biomedical Sciences master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master in Lingua, letteratura e civiltà italiana",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 10000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for non-Swiss students starting in 2027/28 or later, fixed for the whole degree. Students who started earlier keep the old rate of CHF 8,000 a year.",
+      "notes": "USI 'Organising your studies' page: from academic year 2027/28 the semester fee is CHF 5,000 for bachelor and master programmes (CHF 2,000 for Swiss nationals and foreign nationals resident in Switzerland or Liechtenstein when they got their secondary diploma), so 5,000 x 2 = 10,000. Students enrolled before 2027/28 keep their original fee until they finish the degree (USI news of 24 Aug 2026: fees 'set since 1996', currently enrolled students keep the semester fee in effect at first enrolment), hence cohortLocked. No separate compulsory fees are listed. The CHF 100 application fee is deducted from the first semester's tuition when admitted, so oneOffFees = 0. Fee history: USI Faculty of Economics 'Tuition and scholarships' page: 'Tuition fees amount to CHF 4'000.- per semester' (CHF 2,000 for students resident in Switzerland or Liechtenstein at the Maturita), unchanged since 1996 per USI, so 8,000 a year for 2024, 2025 and 2026 starters. 2-year (120 ECTS) master, taught in Italian.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master in Cognitive Psychology in Health Communication",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 10000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.usi.ch/en/organising-bachelor-master-studies",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for non-Swiss students starting in 2027/28 or later, fixed for the whole degree. Students who started earlier keep the old rate of CHF 8,000 a year.",
+      "notes": "USI 'Organising your studies' page: from academic year 2027/28 the semester fee is CHF 5,000 for bachelor and master programmes (CHF 2,000 for Swiss nationals and foreign nationals resident in Switzerland or Liechtenstein when they got their secondary diploma), so 5,000 x 2 = 10,000. Students enrolled before 2027/28 keep their original fee until they finish the degree (USI news of 24 Aug 2026: fees 'set since 1996', currently enrolled students keep the semester fee in effect at first enrolment), hence cohortLocked. No separate compulsory fees are listed. The CHF 100 application fee is deducted from the first semester's tuition when admitted, so oneOffFees = 0. Fee history: USI Faculty of Economics 'Tuition and scholarships' page: 'Tuition fees amount to CHF 4'000.- per semester' (CHF 2,000 for students resident in Switzerland or Liechtenstein at the Maturita), unchanged since 1996 per USI, so 8,000 a year for 2024, 2025 and 2026 starters. 2-year (120 ECTS) Faculty of Biomedical Sciences master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 8000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eco.usi.ch/en/originalnode/7185"
+        }
+      ]
+    }
+  ]
+}

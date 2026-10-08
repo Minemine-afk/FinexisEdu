@@ -1,0 +1,537 @@
+{
+  "id": "unibas",
+  "name": "University of Basel",
+  "country": "ch",
+  "city": "Basel",
+  "currency": "CHF",
+  "website": "https://www.unibas.ch",
+  "description": "The University of Basel, founded in 1460, is Switzerland's oldest university. It has seven faculties including medicine, science, law, business and economics, and psychology, and teaches mainly in German.",
+  "whyIncluded": "The University of Basel is among the 10 universities in Switzerland most chosen by international students (about 32% of its 8,938 students are international, per Times Higher Education World University Rankings 2027 data), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 600,
+      "food": 450,
+      "transport": 100,
+      "personal": 550
+    },
+    "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The university's own guideline budget for a student living away from home, per month for 12 months a year. Excludes tuition and health insurance.",
+    "notes": "UniBas 'Musterbudget fur Studierende' version 1.2026, students living away from home (per month): Unterkunft inkl. NK CHF 600 (housing); Verpflegung 450 (food); Transport 100; personal = Ausbildungskosten 100 (lower of 100/200) + Kleidung 100 + Freizeit/Kultur 150 + div. Nebenkosten 200 = 550. Excluded: Semestergebuhren 140 (tuition) and Gesundheit 200 (health insurance). UniBas total CHF 2,050/2,150 a month."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science in Computer Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 3-year (180 ECTS) bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Science in Business and Economics",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 3-year (180 ECTS) Faculty of Business and Economics bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science in Biology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 3-year (180 ECTS) bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts in English",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 3-year (180 ECTS) bachelor (English as one of two subjects), taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Bachelor of Law",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 3-year (180 ECTS) law bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Bachelor of Medicine (Humanmedizin)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all students. Swiss medicine places are capped and foreign applicants are normally admitted only with Swiss residence, so check eligibility before applying.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 3-year (180 ECTS) bachelor taught in German, followed by the 3-year Master of Medicine. Places are capped (aptitude test EMS via swissuniversities) and foreign nationals are normally admitted only with Swiss residence. Universitat Basel (Medizinische Fakultat) is on the Singapore Medical Council's list of registrable basic medical qualifications (federal diploma, added 2006).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Science in Psychology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 3-year (180 ECTS) bachelor, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science in Computer Science",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 2-year (120 ECTS) master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Science in Business and Economics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 2-year (120 ECTS) master, taught in German and English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Molecular Biology",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 1.5-year (90 ECTS) Biozentrum master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in English",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 2-year (120 ECTS) master, taught in English.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Master of Law",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 1.5-year (90 ECTS) law master, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Master of Medicine (Humanmedizin)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all students. Swiss medicine places are capped and foreign applicants are normally admitted only with Swiss residence, so check eligibility before applying.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 3-year (180 ECTS) master taught in German, ending with the federal examination; entry normally via the Basel bachelor. Universitat Basel (Medizinische Fakultat) is on the Singapore Medical Council's list of registrable basic medical qualifications.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Science in Psychology",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 2-year (120 ECTS) master, taught in German.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "nursing",
+      "name": "Master of Science in Nursing",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition, the same for all faculties and for Swiss and international students.",
+      "notes": "University of Basel 'Musterbudget fur Studierende' (version 1.2026): 'Die Studiengebuhren betragen fur alle Fakultaten Fr. 850.-- /Semester', no foreign surcharge, so CHF 850 x 2 = 1,700. No compulsory semester contribution or application fee amount could be read (UniBas fee web pages render by script and did not load), so annualCompulsoryFees and oneOffFees are 0 = unknown. Fee history: Gebuhrenordnung der Universitat Basel (SG 442.600, of 19 Dec 2013, in force 1 Aug 2014), para 5: ordinary students Fr. 850 per semester; the only later amendment (para 5bis, decided 26 May 2025, from 1 Feb 2026) adds a CHF 1,700 fee for students beyond 12 bachelor semesters, so CHF 1,700 a year applied in 2024-25 and 2025-26 as well. 2-year (120 ECTS) Institute of Nursing Science master, taught in German and English; needs a nursing bachelor.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1700,
+          "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
+        }
+      ]
+    }
+  ]
+}

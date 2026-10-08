@@ -1,0 +1,12 @@
+# University of Neuchatel. Fees are fixed in a cantonal decree (annual amounts).
+sources:
+  # Cantonal fee decree PDF: amounts read by hand
+  - university: unine
+    country: ch
+    url: "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+    manual: true
+  # Managing-your-finances page: ranged monthly budget, midpoints computed by hand
+  - university: unine
+    country: ch
+    url: "https://www.unine.ch/etudier/en/a-good-start/managing-your-finances/"
+    manual: true

@@ -1,0 +1,7 @@
+# University of Basel. Fee pages render by script, so the dated budget PDF is the source.
+sources:
+  # Musterbudget PDF (URL changes with each version): tuition and living costs read by hand
+  - university: unibas
+    country: ch
+    url: "https://www.unibas.ch/dam/jcr:f5650a4d-6e2e-4c06-bf98-aa8128ef5d11/FRM_gh_Lebenskostenbudget_aktuelle_Version_D_20260101.2026-01-21-10-58-14.pdf"
+    manual: true
