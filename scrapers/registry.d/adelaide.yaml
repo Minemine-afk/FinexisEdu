@@ -1,0 +1,79 @@
+# Adelaide University. Added Oct 2026; fees read by hand from the official pages below.
+sources:
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-engineering-mechanical-honours/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-computer-science/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-business/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-science/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-arts/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-psychology/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-nursing/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-medical-studies/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/master-of-professional-engineering-civil/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/master-of-information-technology-computing-and-innovation/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/master-of-business-administration/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/master-of-data-science/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/master-of-psychology-clinical/int/"
+    manual: true
+  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/master-of-nursing/int/"
+    manual: true
+  # living-cost page: added Oct 2026, fee read by hand (no automated pattern written yet)
+  - university: adelaide
+    country: au
+    url: "https://adelaideuni.edu.au/about/faqs/answer/4258"
+    manual: true
