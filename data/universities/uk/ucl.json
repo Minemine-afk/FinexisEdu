@@ -185,7 +185,7 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 59600,
+          "annualTuition": 40800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
@@ -194,8 +194,8 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly fee for international students, paid in 5 instalments across the 6-year course. Not fixed: it can rise each year by up to inflation. Excludes extra costs such as equipment and placement travel.",
-      "notes": "Overseas fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £59,600 (an averaged rate: 2 x £40,800 pre-clinical plus 3 x £72,134 clinical), so durationYears 5 reflects the number of fee years. The schedule states that Overseas Medicine fees are excluded from the cohort guarantee and are subject to annual increases of no more than RPI-X, hence cohortLocked false. The 2026 entry was read on the 2026 Medicine MBBS BSc prospectus page through a reader proxy (r.jina.ai) on 2026-09-30 and matches the 2026/27 schedule. No separate compulsory fees; additional costs (DBS check, equipment, placement travel) excluded. 2024/2025 rows from UCL's official undergraduate fee schedule tool for those years (same source as the current record, year=2024 and year=2025, fetched directly 2026-10-05), row 'Medicine: Medicine, MB,BS (UBMMEDSING01)': 2024 Overseas full-time £50,300, note 'Overseas students pay the fees in 5 annual instalments of £50,300 (2x £34,400 plus 3x £60,900), subject to annual increases of no more than RPI-X'; 2025 Overseas £53,400, '5 annual instalments of £53,400 (2x £36,500 plus 3x £64,667)'. Same five-instalment averaged rate as the current record.",
+      "summary": "International fee billed in 5 instalments over the 6-year course: £40,800 for each of 2 pre-clinical years, then £72,134 for each of 3 clinical years. Can rise yearly by up to inflation; the intercalated BSc year is billed separately.",
+      "notes": "Overseas fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £59,600 (an averaged rate: 2 x £40,800 pre-clinical plus 3 x £72,134 clinical), so durationYears 5 reflects the number of fee years. The schedule states that Overseas Medicine fees are excluded from the cohort guarantee and are subject to annual increases of no more than RPI-X, hence cohortLocked false. The 2026 entry was read on the 2026 Medicine MBBS BSc prospectus page through a reader proxy (r.jina.ai) on 2026-09-30 and matches the 2026/27 schedule. No separate compulsory fees; additional costs (DBS check, equipment, placement travel) excluded. 2024/2025 rows from UCL's official undergraduate fee schedule tool for those years (same source as the current record, year=2024 and year=2025, fetched directly 2026-10-05), row 'Medicine: Medicine, MB,BS (UBMMEDSING01)': 2024 Overseas full-time £50,300, note 'Overseas students pay the fees in 5 annual instalments of £50,300 (2x £34,400 plus 3x £60,900), subject to annual increases of no more than RPI-X'; 2025 Overseas £53,400, '5 annual instalments of £53,400 (2x £36,500 plus 3x £64,667)'. Same five-instalment averaged rate as the current record. Later-year check 2026-10-08: year-1 fee changed from the averaged £59,600 to the pre-clinical rate £40,800 with laterYears from fee-year 3 at the clinical rate £72,134 (2 x 40,800 + 3 x 72,134 = £298,002, matching the averaged total). The 2026/27 prospectus page confirms the same pattern (5 instalments of £57,300 = 2 x £39,200 + 3 x £69,367); the 2027/28 split is the 2026-10-01 reading of the fee-schedule tool (could not be re-read because the tool page truncates before Medical Sciences). The intercalated BSc (year 3 of 6) is not one of the five MBBS instalments and UCL publishes no fee for it. feeHistory rows remain the averaged instalment (2026: 2 x 39,200 + 3 x 69,367; 2025: 36,500 / 64,667; 2024: 34,400 / 60,900).",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -218,6 +218,14 @@
           "annualCompulsoryFees": 0,
           "oneOffFees": 0,
           "sourceUrl": "https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2025"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 3,
+          "tier": "international",
+          "annualTuition": 72134,
+          "estimate": false
         }
       ]
     },
