@@ -201,7 +201,14 @@
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 34000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 28176, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "First Schedule, at least a 2:2",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -221,7 +228,14 @@
       "feeHistory": [
         { "feeYear": 2025, "tier": "international", "annualTuition": 38000, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 36168, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "SILE lists this university's first law degree, not the LLM",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

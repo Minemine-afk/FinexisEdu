@@ -126,7 +126,14 @@
       "sourceType": "secondary",
       "cohortLocked": true,
       "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (Birmingham shows it only by country). Birmingham keeps the first-year fee for the whole course.",
-      "notes": "Secondary source: Birmingham's course pages show only the UK fee as text and put the international fee behind a country selector that is not readable without JavaScript; the international fees pages (study/international/fees, study/undergraduate/fees-funding/tuition, study/postgraduate/taught/fees-funding/taught-fees) give no figures, the UCAS entry lists the UK fee only, and no official fee table or PDF could be found (checked 2026-10-07). Figure read from the Studyportals listing for University of Birmingham (Birmingham, UK campus, not Dubai), start date 27 September 2027, '25,320 GBP / year'. Replace with the official figure when it can be read. Fee policy (official, birmingham.ac.uk/study/undergraduate/fees-funding/tuition, read 2026-10-07): 'The fee paid in your first year will remain constant with no inflationary increase for the duration of your course, with the exception of the International Foundation Programme and clinical courses', so cohortLocked is true. No compulsory fees besides tuition."
+      "notes": "Secondary source: Birmingham's course pages show only the UK fee as text and put the international fee behind a country selector that is not readable without JavaScript; the international fees pages (study/international/fees, study/undergraduate/fees-funding/tuition, study/postgraduate/taught/fees-funding/taught-fees) give no figures, the UCAS entry lists the UK fee only, and no official fee table or PDF could be found (checked 2026-10-07). Figure read from the Studyportals listing for University of Birmingham (Birmingham, UK campus, not Dubai), start date 27 September 2027, '25,320 GBP / year'. Replace with the official figure when it can be read. Fee policy (official, birmingham.ac.uk/study/undergraduate/fees-funding/tuition, read 2026-10-07): 'The fee paid in your first year will remain constant with no inflationary increase for the duration of your course, with the exception of the International Foundation Programme and clinical courses', so cohortLocked is true. No compulsory fees besides tuition.",
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "First Schedule, at least a 2:2",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -266,7 +273,14 @@
       "sourceType": "secondary",
       "cohortLocked": true,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2027, as listed by a course directory. No separate compulsory fees.",
-      "notes": "Secondary source: Birmingham's course pages show only the UK fee as text and put the international fee behind a country selector that is not readable without JavaScript; the international fees pages (study/international/fees, study/undergraduate/fees-funding/tuition, study/postgraduate/taught/fees-funding/taught-fees) give no figures, the UCAS entry lists the UK fee only, and no official fee table or PDF could be found (checked 2026-10-07). Figure read from the Studyportals listing for University of Birmingham (Birmingham, UK campus, not Dubai), start date 27 September 2027, '28,080 GBP / year'. Replace with the official figure when it can be read. 12 months full-time. Fee policy (official, birmingham.ac.uk/study/undergraduate/fees-funding/tuition, read 2026-10-07): 'The fee paid in your first year will remain constant with no inflationary increase for the duration of your course, with the exception of the International Foundation Programme and clinical courses', so cohortLocked is true. No compulsory fees besides tuition."
+      "notes": "Secondary source: Birmingham's course pages show only the UK fee as text and put the international fee behind a country selector that is not readable without JavaScript; the international fees pages (study/international/fees, study/undergraduate/fees-funding/tuition, study/postgraduate/taught/fees-funding/taught-fees) give no figures, the UCAS entry lists the UK fee only, and no official fee table or PDF could be found (checked 2026-10-07). Figure read from the Studyportals listing for University of Birmingham (Birmingham, UK campus, not Dubai), start date 27 September 2027, '28,080 GBP / year'. Replace with the official figure when it can be read. 12 months full-time. Fee policy (official, birmingham.ac.uk/study/undergraduate/fees-funding/tuition, read 2026-10-07): 'The fee paid in your first year will remain constant with no inflationary increase for the duration of your course, with the exception of the International Foundation Programme and clinical courses', so cohortLocked is true. No compulsory fees besides tuition.",
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "SILE lists this university's first law degree, not the LLM",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     }
   ]
 }

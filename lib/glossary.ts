@@ -30,6 +30,14 @@ export const GLOSSARY = {
     "Later years of this programme have their own published fee, usually higher (for example the clinical years of a medicine degree), so each year is priced at its own rate rather than the first year's.",
   laterYearsEstimated:
     "The university publishes a total for the whole programme rather than a fee for each later year, so the later-year figure is the amount that makes the years add up to that total.",
+  sileListed:
+    "This university's law degree is on the Singapore Institute of Legal Education's list of approved universities, so graduates can qualify to practise law in Singapore (subject to SILE's other conditions, such as class of degree).",
+  sileNotListed:
+    "This law degree is not on the Singapore Institute of Legal Education's approved list, so it does not on its own lead to admission as a lawyer in Singapore.",
+  smcListed:
+    "This medical school is on the Singapore Medical Council's list of registrable basic medical qualifications, so graduates can apply to register as doctors in Singapore.",
+  smcNotListed:
+    "This medical school is not on the Singapore Medical Council's list of registrable basic medical qualifications, so graduates cannot register to practise in Singapore on this degree alone.",
   otherFeesCurrent:
     "The published fee table for the earlier year listed tuition only, so this year's compulsory and one-off fees are taken from the current rates.",
   unofficialSource:

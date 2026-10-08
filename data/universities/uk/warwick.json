@@ -210,7 +210,14 @@
           "annualTuition": 26290,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": true,
+        "note": "First Schedule, at least a 2:2",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -482,7 +489,14 @@
           "annualTuition": 22560,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "SILE lists this university's first law degree, not the LLM",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -516,7 +530,14 @@
           "fromYear": 2,
           "annualTuition": 56660
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, MB ChB, listed since 1 Jan 2025",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     }
   ]
 }

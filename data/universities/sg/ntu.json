@@ -223,7 +223,14 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 35550, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 51050, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 83350, "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf" }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Singapore degree, MRA First Schedule",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc1-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

@@ -71,6 +71,22 @@ export const Partner = z.object({
   description: z.string().min(1).optional(),
 });
 
+/**
+ * Whether a law or medicine degree is on the Singapore list that lets its
+ * graduates practise there: the Singapore Institute of Legal Education's
+ * approved universities (law) or the Singapore Medical Council's
+ * registrable basic medical qualifications (medicine).
+ */
+export const SgRecognition = z.object({
+  body: z.enum(["SILE", "SMC"]),
+  listed: z.boolean(),
+  /** Short condition shown with the label, e.g. "JD only" or "entrants before 2015". */
+  note: z.string().max(120).optional(),
+  sourceUrl: z.url().optional(),
+  lastVerified: z.iso.date().optional(),
+});
+export type SgRecognition = z.infer<typeof SgRecognition>;
+
 export const Programme = z.object({
   /** Id of the awarding partner in the university's `partners`, where it has any. */
   partner: z.string().optional(),
@@ -104,6 +120,8 @@ export const Programme = z.object({
    * same fee year as `fees`.
    */
   laterYears: z.array(LaterYearFee).default([]),
+  /** Required for law and medicine programmes; see SgRecognition. */
+  sgRecognition: SgRecognition.optional(),
 });
 
 export const LIVING_CATEGORIES = [

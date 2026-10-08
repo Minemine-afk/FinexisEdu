@@ -62,3 +62,10 @@ export function programmeLabel(u: University, p: Programme): string {
   const partner = partnerOf(u, p);
   return partner ? `${partner.name} · ${p.name}` : p.name;
 }
+
+/** Short suffix for programme lists: " · SILE listed" or " · not on SMC list". */
+export function recognitionTag(p: Programme): string {
+  const r = p.sgRecognition;
+  if (!r) return "";
+  return r.listed ? ` · ${r.body} listed` : ` · not on ${r.body} list`;
+}

@@ -191,7 +191,14 @@
           "annualTuition": 1700,
           "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -225,7 +232,14 @@
           "annualTuition": 1700,
           "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, federal diploma after the master",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -429,7 +443,14 @@
           "annualTuition": 1700,
           "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -463,7 +484,14 @@
           "annualTuition": 1700,
           "sourceUrl": "https://UniBas.CH/dam/jcr:ffbe9073-5d53-44d3-b64e-dc3fd26d6973/442_600_06.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, federal diploma after the master",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

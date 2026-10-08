@@ -439,7 +439,14 @@
           "oneOffFees": 38,
           "sourceUrl": "https://registrar.berkeley.edu/wp-content/uploads/Fee-Schedule-2025-2026-v.3.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/united-states-of-america-approved-universities",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

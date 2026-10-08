@@ -97,7 +97,14 @@
           "oneOffFees": 5000,
           "sourceUrl": "https://waseda.box.com/s/le8yppyzehe0rwjxrfv6qc0h28c75j7d"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -135,7 +142,14 @@
           "oneOffFees": 5000,
           "sourceUrl": "https://waseda.box.com/s/tiqgwt0xu8eubtcpa4rigjchlzdb1xvh"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",

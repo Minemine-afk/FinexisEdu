@@ -186,7 +186,14 @@
           "oneOffFees": 200000,
           "sourceUrl": "https://piloti.sophia.ac.jp/assets/uploads/2024/11/27140913/undergraduate_2025.pdf"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "bachelor",
@@ -309,7 +316,14 @@
       "cohortLocked": false,
       "summary": "Yearly tuition for 2026 entrants to the 2-year master's; compulsory fees are enrollment and education enhancement fees. The one-off ¥200,000 is the entrance fee (waived for Sophia graduates).",
       "notes": "AY 2026 graduate fee table, 2026 master's entrants: semester enrollment fee ¥30,000 + tuition ¥252,000 + education enhancement ¥90,000 per semester = tuition ¥504,000/yr and compulsory fees ¥240,000/yr; entrance fee ¥200,000 (Sophia graduates exempt). Not cohort-locked (undergraduate tables show continuing students paying revised rates). Same fee block as Global Studies; mainly Japanese-taught research master's. No 2024/2025 master's table read.",
-      "feeHistory": []
+      "feeHistory": [],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",

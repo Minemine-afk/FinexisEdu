@@ -173,7 +173,14 @@
           "oneOffFees": 250,
           "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     },
     {
       "level": "master",
@@ -211,7 +218,14 @@
           "oneOffFees": 250,
           "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
         }
-      ]
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "university not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-08"
+      }
     }
   ]
 }
