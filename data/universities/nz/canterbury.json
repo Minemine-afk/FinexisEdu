@@ -128,8 +128,8 @@
       "lastVerified": "2026-10-04",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition only. Years 2 to 4 cost more (about NZ$54,180 a year in 2027), so the total will be above this estimate. Student services levy included; insurance is extra.",
-      "notes": "2027 international tuition fee estimate per 120 points for the FIRST year of the BE(Hons) (480 points = 4 years); UC quotes second to fourth years higher at $54,180 (2026: $51,900; 2028: $56,890), which this single annual figure does not capture. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. No 2024/2025 history: the first-year BE(Hons) estimate blends fee bands (the Calendar's Engineering band, $48,000 in 2024 and $49,900 in 2025, is the second-to-fourth-year rate) and UC no longer publishes earlier years' per-qualification estimates. Rows from Wayback captures of UC's International tuition fees page (https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees), which then listed per-qualification estimates: capture 20240806165814 lists 2024 and 2025 estimates, capture 20250401065822 repeats them unchanged and adds 2026 ('Bachelor of Engineering with Honours (BE(Hons)) - 480 points First Year 2024 tuition fee estimate: $43,950 per 120 points 2025 tuition fee estimate: $45,665 per 120 points 2026 tuition fee estimate: $47,450 per 120 points; Second-Fourth Years 2024 $48,000 ...'; first-year figures recorded, as for the current record; the 2026 figure matches the existing 2026 row). Compulsory = Student Services Levy $9.17/point x 120 = $1,100.40 for both 2024 and 2025 (UC Calendar 2024/2025 Fees and Fines Regulations, as used for UC's other 2024/2025 rows). Corrects the earlier note that no earlier per-qualification estimates are available.",
+      "summary": "Year 1 costs about NZ$49,540 in 2027; years 2 to 4 cost about NZ$54,180 a year at 2027 rates (rising to about NZ$56,890 in 2028). Student services levy included; insurance is extra.",
+      "notes": "2027 international tuition fee estimate per 120 points for the FIRST year of the BE(Hons) (480 points = 4 years); UC quotes second to fourth years higher at $54,180 (2026: $51,900; 2028: $56,890), which this single annual figure does not capture. Compulsory = 2026 Student Services Levy $10.30/point x 120 = $1,236 (2027 not yet published). Excludes insurance. No 2024/2025 history: the first-year BE(Hons) estimate blends fee bands (the Calendar's Engineering band, $48,000 in 2024 and $49,900 in 2025, is the second-to-fourth-year rate) and UC no longer publishes earlier years' per-qualification estimates. Rows from Wayback captures of UC's International tuition fees page (https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees), which then listed per-qualification estimates: capture 20240806165814 lists 2024 and 2025 estimates, capture 20250401065822 repeats them unchanged and adds 2026 ('Bachelor of Engineering with Honours (BE(Hons)) - 480 points First Year 2024 tuition fee estimate: $43,950 per 120 points 2025 tuition fee estimate: $45,665 per 120 points 2026 tuition fee estimate: $47,450 per 120 points; Second-Fourth Years 2024 $48,000 ...'; first-year figures recorded, as for the current record; the 2026 figure matches the existing 2026 row). Compulsory = Student Services Levy $9.17/point x 120 = $1,100.40 for both 2024 and 2025 (UC Calendar 2024/2025 Fees and Fines Regulations, as used for UC's other 2024/2025 rows). Corrects the earlier note that no earlier per-qualification estimates are available. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -153,6 +153,12 @@
           "annualCompulsoryFees": 1100.4,
           "oneOffFees": 0,
           "sourceUrl": "https://web.archive.org/web/20250401065822/https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 54180
         }
       ]
     },

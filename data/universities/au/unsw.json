@@ -145,7 +145,7 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 56880,
+          "annualTuition": 52500,
           "annualCompulsoryFees": 372,
           "oneOffFees": 0
         }
@@ -154,8 +154,8 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Annual law-subject tuition for international students, plus the A$372 student services fee. Law is only offered as a 5-year double degree; Year 1 costs less (A$52,500) as it is mostly Arts.",
-      "notes": "UNSW offers the LLB only as a double degree (Arts/Law 4782 is 240 UOC over 5 years, CRICOS 005947G). Figure = 2026 international undergraduate LAWS per-UOC rate A$1,185 x 48 UOC (1.0 EFTSL), i.e. the law fee band; UNSW's own 2026 indicative first-year fee for Arts/Law is A$52,500 because year 1 is mostly Arts courses. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate LAWS per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
+      "summary": "Year 1 of the 5-year Arts/Law double degree costs about A$52,500 (mostly Arts courses); years 2 to 5 cost about A$56,880 a year at the law rate, plus the A$372 student services fee. Fees are reviewed yearly.",
+      "notes": "UNSW offers the LLB only as a double degree (Arts/Law 4782 is 240 UOC over 5 years, CRICOS 005947G). Figure = 2026 international undergraduate LAWS per-UOC rate A$1,185 x 48 UOC (1.0 EFTSL), i.e. the law fee band; UNSW's own 2026 indicative first-year fee for Arts/Law is A$52,500 because year 1 is mostly Arts courses. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate LAWS per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -172,6 +172,12 @@
           "annualCompulsoryFees": 364.5,
           "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 56880
         }
       ]
     },
@@ -230,8 +236,8 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition for international students, plus the A$372 student services fee. The whole degree costs A$647,000 in total, so later years cost more. Undergraduate entry, 6 years.",
-      "notes": "2026 indicative first-year international fee (program 3805, CRICOS 077423G; undergraduate entry, 6 years; total to complete A$647,000, so later years cost more). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate MFAC (Medicine) per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
+      "summary": "Year 1 costs A$95,500; UNSW quotes A$647,000 to complete the 6-year degree, so years 2 to 6 average about A$110,300 a year. Plus the A$372 student services fee. Fees are reviewed yearly.",
+      "notes": "2026 indicative first-year international fee (program 3805, CRICOS 077423G; undergraduate entry, 6 years; total to complete A$647,000, so later years cost more). Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international undergraduate MFAC (Medicine) per-UOC rate x 48 UOC (UNSW fee archive). Fees reviewed annually. Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -248,6 +254,13 @@
           "annualCompulsoryFees": 364.5,
           "oneOffFees": 0,
           "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 110300,
+          "estimate": true
         }
       ]
     },

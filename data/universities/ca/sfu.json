@@ -51,7 +51,7 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 39839.1,
+          "annualTuition": 37886.4,
           "annualCompulsoryFees": 1055.12,
           "oneOffFees": 0.0
         }
@@ -60,8 +60,14 @@
       "lastVerified": "2026-10-07",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Annual tuition at the Computing Science rate for 30 units a year (first-year courses are charged a lower basic rate), plus compulsory student fees incl. transit pass. Health insurance is extra.",
-      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'School of Computing Science (200/300/400 divisions) (premium - per unit)', for students who entered in 2024/2025 or later: C$1,327.97/unit x 30 units (full-time year). The premium rate applies to 200-400 division Computing Science courses; first-year (100-division) courses are charged the basic rate (C$1,262.88/unit), so year 1 costs less. Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history."
+      "summary": "Year 1 costs about C$37,900 (30 units at the basic rate); years 2 to 4 cost about C$39,839 a year at the Computing Science rate. Compulsory student fees of about C$1,055 a year included; health insurance is extra. Not fixed.",
+      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'School of Computing Science (200/300/400 divisions) (premium - per unit)', for students who entered in 2024/2025 or later: C$1,327.97/unit x 30 units (full-time year). The premium rate applies to 200-400 division Computing Science courses; first-year (100-division) courses are charged the basic rate (C$1,262.88/unit), so year 1 costs less. Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 39839.1
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -71,7 +77,7 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 44763.9,
+          "annualTuition": 37886.4,
           "annualCompulsoryFees": 1055.12,
           "oneOffFees": 0.0
         }
@@ -80,8 +86,14 @@
       "lastVerified": "2026-10-07",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Annual tuition at the Beedie business rate for 30 units a year (first-year courses are charged a lower basic rate), plus compulsory student fees incl. transit pass. Health insurance is extra.",
-      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'Beedie School of Business (200/300/400 divisions) (premium - per unit)', for students who entered in 2024/2025 or later: C$1,492.13/unit x 30 units (full-time year). The premium rate applies to 200-400 division business courses; first-year (100-division) courses are charged the basic rate (C$1,262.88/unit), so year 1 costs less. Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history."
+      "summary": "Year 1 costs about C$37,900 (30 units at the basic rate); years 2 to 4 cost about C$44,764 a year at the business rate. Compulsory student fees of about C$1,055 a year included; health insurance is extra. Not fixed.",
+      "notes": "SFU 2026 Fall Calendar, undergraduate international tuition, 'Beedie School of Business (200/300/400 divisions) (premium - per unit)', for students who entered in 2024/2025 or later: C$1,492.13/unit x 30 units (full-time year). The premium rate applies to 200-400 division business courses; first-year (100-division) courses are charged the basic rate (C$1,262.88/unit), so year 1 costs less. Compulsory = full-time student fees per term from the same Calendar page: student services 54.11 + recreation-athletics 90.14 + student activity 191.91 + U-Pass BC 191.40 = C$527.56 x 2 terms = C$1,055.12; opt-out extended health and dental and the international medical insurance (C$281/term) excluded. Cross-check: SFU's admission page estimates C$38,944 tuition and fees for an international student taking 30 units in 2026/27 (basic rate x 30 + these fees = C$38,941.52). Rates are per entry cohort but the Calendar notes they can change; earlier Calendars (2024, 2025) are not readable, so no history. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 44763.9
+        }
+      ]
     },
     {
       "level": "bachelor",

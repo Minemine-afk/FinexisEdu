@@ -567,9 +567,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology",
       "lastVerified": "2026-10-05",
@@ -578,12 +578,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2025-01-22 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-18 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (2 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology" }
       ]
     },
     {
@@ -594,9 +594,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology",
       "lastVerified": "2026-10-05",
@@ -605,12 +605,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-11-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-18 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology" }
       ]
     },
     {
@@ -621,9 +621,9 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 27468.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 27468, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication",
       "lastVerified": "2026-10-05",
@@ -632,12 +632,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 3 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) single major bachelor's taught at SIM; page states 'Full-time, 3 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 3 years: local 120 x 621.30 = S$74,556.00 / 3 = S$24,852.00; international 120 x 686.70 = S$82,404.00 / 3 = S$27,468.00. The fee table row for students without advanced standing or transfer credits shows 120 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$41,627.10 - S$74,556.00 (Singaporean & PR) / S$46,008.90 - S$82,404.00 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-12-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 26160.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 27468.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26160, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 27468, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication" }
       ]
     },
     {
@@ -648,9 +648,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade",
       "lastVerified": "2026-10-05",
@@ -659,12 +659,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-12-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates); 2025: Common Crawl capture of 2025-12-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 15 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade" }
       ]
     },
     {
@@ -675,9 +675,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology",
       "lastVerified": "2026-10-05",
@@ -686,12 +686,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-11-11 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-18 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology" }
       ]
     },
     {
@@ -702,9 +702,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology",
       "lastVerified": "2026-10-05",
@@ -713,12 +713,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2025-01-14 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-12-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 15 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology" }
       ]
     },
     {
@@ -729,9 +729,9 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 27468.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 27468, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics",
       "lastVerified": "2026-10-05",
@@ -740,12 +740,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 3 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) single major bachelor's taught at SIM; page states 'Full-time, 3 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 3 years: local 120 x 621.30 = S$74,556.00 / 3 = S$24,852.00; international 120 x 686.70 = S$82,404.00 / 3 = S$27,468.00. The fee table row for students without advanced standing or transfer credits shows 120 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$41,627.10 - S$74,556.00 (Singaporean & PR) / S$46,008.90 - S$82,404.00 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-12-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 26160.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 27468.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26160, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 27468, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics" }
       ]
     },
     {
@@ -756,9 +756,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology",
       "lastVerified": "2026-10-05",
@@ -767,12 +767,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2025-01-22 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-18 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology" }
       ]
     },
     {
@@ -783,9 +783,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology",
       "lastVerified": "2026-10-05",
@@ -794,12 +794,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-10-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-18 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology" }
       ]
     },
     {
@@ -810,9 +810,9 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 27468.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 27468, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade",
       "lastVerified": "2026-10-05",
@@ -821,12 +821,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 3 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) single major bachelor's taught at SIM; page states 'Full-time, 3 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 3 years: local 120 x 621.30 = S$74,556.00 / 3 = S$24,852.00; international 120 x 686.70 = S$82,404.00 / 3 = S$27,468.00. The fee table row for students without advanced standing or transfer credits shows 120 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$41,627.10 - S$74,556.00 (Singaporean & PR) / S$46,008.90 - S$82,404.00 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-11-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-12-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 15 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (4 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 26160.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 27468.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26160, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 27468, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade" }
       ]
     },
     {
@@ -837,9 +837,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology",
       "lastVerified": "2026-10-05",
@@ -848,12 +848,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-12-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology" }
       ]
     },
     {
@@ -864,9 +864,9 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 27468.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 27468, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology",
       "lastVerified": "2026-10-05",
@@ -875,12 +875,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 3 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) single major bachelor's taught at SIM; page states 'Full-time, 3 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 3 years: local 120 x 621.30 = S$74,556.00 / 3 = S$24,852.00; international 120 x 686.70 = S$82,404.00 / 3 = S$27,468.00. The fee table row for students without advanced standing or transfer credits shows 120 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$41,627.10 - S$74,556.00 (Singaporean & PR) / S$46,008.90 - S$82,404.00 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2025-01-19 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (3 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 26160.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 27468.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26160, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 27468, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology" }
       ]
     },
     {
@@ -891,9 +891,9 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 27468.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 27468, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology",
       "lastVerified": "2026-10-05",
@@ -902,12 +902,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 3 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) single major bachelor's taught at SIM; page states 'Full-time, 3 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 3 years: local 120 x 621.30 = S$74,556.00 / 3 = S$24,852.00; international 120 x 686.70 = S$82,404.00 / 3 = S$27,468.00. The fee table row for students without advanced standing or transfer credits shows 120 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$41,627.10 - S$74,556.00 (Singaporean & PR) / S$46,008.90 - S$82,404.00 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-11-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 26160.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 27468.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26160, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 27468, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology" }
       ]
     },
     {
@@ -918,9 +918,9 @@
       "durationYears": 4,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18639.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 20601.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18639, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 20601, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science",
       "lastVerified": "2026-10-05",
@@ -929,12 +929,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 4 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) double major bachelor's taught at SIM; page states 'Full-time, 4 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 4 years: local 120 x 621.30 = S$74,556.00 / 4 = S$18,639.00; international 120 x 686.70 = S$82,404.00 / 4 = S$20,601.00. The fee table row for students without advanced standing or transfer credits shows 120 - 136 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$60,887.40 - S$84,496.80 (Singaporean & PR) / S$67,296.60 - S$93,391.20 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-12-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-12-15 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 15 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 4 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 19620.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 20601.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 19620, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 18639, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 20601, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science" }
       ]
     },
     {
@@ -945,9 +945,9 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 27468.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 27468, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration",
       "lastVerified": "2026-10-05",
@@ -956,12 +956,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 3 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) single major bachelor's taught at SIM; page states 'Full-time, 3 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 3 years: local 120 x 621.30 = S$74,556.00 / 3 = S$24,852.00; international 120 x 686.70 = S$82,404.00 / 3 = S$27,468.00. The fee table row for students without advanced standing or transfer credits shows 120 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$41,627.10 - S$74,556.00 (Singaporean & PR) / S$46,008.90 - S$82,404.00 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-11-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-11-13 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 1 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (3 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 26160.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 27468.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26160, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 27468, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration" }
       ]
     },
     {
@@ -985,7 +985,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication" }
@@ -1012,7 +1012,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics" }
@@ -1039,7 +1039,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade" }
@@ -1066,7 +1066,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology" }
@@ -1093,7 +1093,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology" }
@@ -1107,9 +1107,9 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 24852.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 27468.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 24852, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 27468, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science",
       "lastVerified": "2026-10-05",
@@ -1118,12 +1118,12 @@
       "summary": "Yearly tuition at SIM for a University at Buffalo degree, charged per credit and including GST, based on 120 credits over 3 years. International students pay more per credit; credit exemptions for A-Level or diploma holders cut the total.",
       "notes": "University at Buffalo (SUNY) single major bachelor's taught at SIM; page states 'Full-time, 3 years' and 'Completion of min. of 120 credits' to graduate. Fees are charged per credit, inclusive of 9% GST: Local students (Singaporeans & PRs) S$621.30 / International students S$686.70 per credit, under the heading 'Programme Fees (2025 Summer intake onwards)'. annualTuition = 120 credits x per-credit rate / 3 years: local 120 x 621.30 = S$74,556.00 / 3 = S$24,852.00; international 120 x 686.70 = S$82,404.00 / 3 = S$27,468.00. The fee table row for students without advanced standing or transfer credits shows 120 credits; the programme-specific minimum of 120 credits is used. Header estimate: S$41,627.10 - S$74,556.00 (Singaporean & PR) / S$46,008.90 - S$82,404.00 (international), the range reflecting credit exemptions. Advanced standing or transfer credits for A-Level, polytechnic, SIM diploma or IB holders lower the total and can shorten the programme. oneOffFees (international only) = International Student Induction Fee S$588.60 (one-time, new full-time international students). Not included: Student Development Fee S$730.30 (one-time, all full-time students, payable with the first instalment) and application fee (S$109 local / S$545 international). Application dates: 'Open Now for Spring 2027 (Jan) Intake and Fall 2027 (Aug) Intake'; feeYear 2026 is taken from the earliest open intake (January 2027), though the per-credit rate has applied since the Summer 2025 intake. No statement that fees are fixed for the cohort. Fee history: 2024: Common Crawl capture of 2024-10-13 (heading 'Programme Fees (2024 Summer intake onwards)') states S$621.30 local / S$654.00 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (2 capture(s) with the same rates); 2025: Common Crawl capture of 2025-12-15 (heading 'Programme Fees (2025 Summer intake onwards)', application dates: 'Now till 15 December (January (Spring) 2026 Intake)') states S$621.30 local / S$686.70 international per credit and an International Student Induction Fee of S$436.00; history tuition = 120 credits x that rate / 3 years (4 capture(s) with the same rates).",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 26160.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 27468.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 26160, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 24852, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 27468, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science" }
       ]
     },
     {
@@ -1147,7 +1147,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication" }
@@ -1174,7 +1174,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics" }
@@ -1201,7 +1201,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade" }
@@ -1228,7 +1228,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology" }
@@ -1255,7 +1255,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 24525.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 24525, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 23298.75, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 25751.25, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology" }
@@ -1285,7 +1285,7 @@
         { "feeYear": 2024, "tier": "international", "annualTuition": 20797.2, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 19685.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 19685.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 21909.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 21909, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up" },
         { "feeYear": 2026, "tier": "citizen", "annualTuition": 20535.6, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up" },
         { "feeYear": 2026, "tier": "pr", "annualTuition": 20535.6, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up" },
         { "feeYear": 2026, "tier": "international", "annualTuition": 22759.2, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up" }
@@ -1301,7 +1301,7 @@
       "fees": {
         "citizen": { "annualTuition": 21189.6, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "pr": { "annualTuition": 21189.6, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 23544.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "international": { "annualTuition": 23544, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up",
       "lastVerified": "2026-10-05",
@@ -1315,7 +1315,7 @@
         { "feeYear": 2024, "tier": "international", "annualTuition": 20797.2, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 19685.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 19685.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 21909.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 21909, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up" },
         { "feeYear": 2026, "tier": "citizen", "annualTuition": 20535.6, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up" },
         { "feeYear": 2026, "tier": "pr", "annualTuition": 20535.6, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up" },
         { "feeYear": 2026, "tier": "international", "annualTuition": 22759.2, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up" }
@@ -1331,7 +1331,7 @@
       "fees": {
         "citizen": { "annualTuition": 24557.7, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "pr": { "annualTuition": 24557.7, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 26814.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "international": { "annualTuition": 26814, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-communications-top-up",
       "lastVerified": "2026-10-05",
@@ -1433,8 +1433,8 @@
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 18684.38, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 18684.38, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 20593.05, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 19620.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 19620.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 19620, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 19620, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 21622.23, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up" }
       ]
     },
@@ -1446,8 +1446,8 @@
       "durationYears": 2,
       "feeYear": 2027,
       "fees": {
-        "citizen": { "annualTuition": 26923.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 26923.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 26923, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 26923, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 29517.2, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-business-top-up",
@@ -1476,8 +1476,8 @@
       "durationYears": 1,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 47088.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 47088.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 47088, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 47088, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 49638.6, "annualCompulsoryFees": 0, "oneOffFees": 436.0 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-financial-management",
@@ -1516,7 +1516,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 36689.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 36689.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 38259.0, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 38259, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 41005.8, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 41005.8, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 42771.6, "oneOffFees": 436.0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business" }
@@ -1676,9 +1676,9 @@
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 13603.2, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data" },
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 13080.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 13080, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data" }
       ]
     },
     {
@@ -1700,9 +1700,9 @@
       "summary": "Yearly tuition at SIM for a University of Wollongong degree, including GST; international students pay more. Credit exemptions shorten the course and lower the total.",
       "notes": "Page states full programme fees (no credit exemption, 23 modules payable over 12 terms, standard entry 3 years full-time): international S$41,638.00, Singaporeans & PRs S$38,847.60, GST-inclusive. Annual = total / 3 (S$13,879.33 international, S$12,949.20 local). Per-module rates: local academics S$1,422.45 (intl) / S$1,248.05 (local); UOW academics S$2,359.85; Final Year Project S$4,719.70. Exemption routes: 0.5/1/1.5 years exemption cost S$35,948.20/S$30,258.40/S$24,568.60 (intl) and S$33,855.40/S$28,863.20/S$23,871.00 (local). Page says fees are 'valid for the intake for the current application'; applications open on the page are for the January 2027 and April 2027 intakes, so feeYear 2026. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. Part-time mode not open for applications. History: Common Crawl capture 2025-01-22 (April 2025 intake, feeYear 2024) states S$39,240.00 intl / S$36,624.00 local; capture 2025-11-18 (April 2026 intake, feeYear 2025) states S$40,809.60 / S$38,088.96 (annual /3); induction fee S$436 in both. A 2025-06-20 capture (July 2025 intake) still showed S$39,240.00 / S$36,624.00; the later intake in the same academic year was used for the 2025 row.",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 13080.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 13080, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 13603.2, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security" }
@@ -1727,9 +1727,9 @@
       "summary": "Yearly tuition at SIM for a University of Wollongong degree, including GST; international students pay more. Credit exemptions shorten the course and lower the total.",
       "notes": "Page states full programme fees (no credit exemption, 23 modules payable over 12 terms, standard entry 3 years full-time): international S$41,638.00, Singaporeans & PRs S$38,847.60, GST-inclusive. Annual = total / 3 (S$13,879.33 international, S$12,949.20 local). Per-module rates: local academics S$1,422.45 (intl) / S$1,248.05 (local); UOW academics S$2,359.85; Final Year Project S$4,719.70. Exemption routes: 0.5/1/1.5 years exemption cost S$35,948.20/S$30,258.40/S$24,568.60 (intl) and S$33,855.40/S$28,863.20/S$23,871.00 (local). Page says fees are 'valid for the intake for the current application'; applications open on the page are for the January 2027 and April 2027 intakes, so feeYear 2026. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. History: Common Crawl capture 2025-01-15 (April 2025 intake, feeYear 2024) states S$39,240.00 intl / S$36,624.00 local; capture 2025-09-06 (January 2026 intake, feeYear 2025) states S$40,809.60 / S$38,088.96 (annual /3); induction fee S$436 in both. A 2025-05-22 capture (July 2025 intake) still showed the 2024 figures; the later intake in the same academic year was used for the 2025 row.",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 13080.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 13080, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 13603.2, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security" }
@@ -1740,12 +1740,16 @@
       "level": "bachelor",
       "field": "computing",
       "name": "Bachelor of Computer Science (Double Major)",
-      "majors": ["Artificial Intelligence and Big Data + Cyber Security", "Digital Systems Security + Artificial Intelligence and Big Data", "Digital Systems Security + Cyber Security"],
+      "majors": [
+        "Artificial Intelligence and Big Data + Cyber Security",
+        "Digital Systems Security + Artificial Intelligence and Big Data",
+        "Digital Systems Security + Cyber Security"
+      ],
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 14061.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 14061.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 14061, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 14061, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 14816.73, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-double-major",
@@ -1782,9 +1786,9 @@
       "summary": "Yearly tuition at SIM for a University of Wollongong degree, including GST; international students pay more. Credit exemptions shorten the course and lower the total.",
       "notes": "Page states full programme fees (no credit exemption, 23 modules payable over 12 terms, standard entry 3 years full-time): international S$41,638.00, Singaporeans & PRs S$38,847.60, GST-inclusive. Annual = total / 3 (S$13,879.33 international, S$12,949.20 local). Per-module rates: local academics S$1,422.45 (intl) / S$1,248.05 (local); UOW academics S$2,359.85; Final Year Project S$4,719.70. Exemption routes: 0.5/1/1.5 years exemption cost S$35,948.20/S$30,258.40/S$24,568.60 (intl) and S$33,855.40/S$28,863.20/S$23,871.00 (local). Page says fees are 'valid for the intake for the current application'; applications open on the page are for the January 2027 and April 2027 intakes, so feeYear 2026. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. Full-time only. History: Common Crawl capture 2024-11-11 (April 2025 intake, feeYear 2024) states S$39,240.00 intl / S$36,624.00 local; capture 2025-11-13 (April 2026 intake, feeYear 2025) states S$40,809.60 / S$38,088.96 (annual /3); induction fee S$436 in both. Captures 2025-03-15 and 2025-07-09 (July 2025 intake) still showed the 2024 figures; the later intake in the same academic year was used for the 2025 row.",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 13080.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 13080, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 13603.2, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development" }
@@ -1809,9 +1813,9 @@
       "summary": "Yearly tuition at SIM for a part-time University of Wollongong degree, including GST; one rate applies to everyone. Credit exemptions shorten the course and lower the total.",
       "notes": "Part-time only: page gives 'Part-time, 3 years' and no full-time duration, so durationYears = 3. The page gives a single fee schedule (no separate Singaporean/PR and international rates), so the same figure is used for all three tiers. Full programme fee (no credit exemption): S$38,847.60 for 23 modules payable over 12 terms; annual = S$38,847.60 / 3 = S$12,949.20. Per-module rates: local academics S$1,248.05, UOW academics S$2,359.85, Final Year Project S$4,719.70. Exemption routes 0.5/1/1.5 years: S$33,855.40/S$28,863.20/S$23,871.00. Page says fees are 'valid for the intake for the current application'; applications open on the page are for the January 2027 and April 2027 intakes, so feeYear 2026. No International Student Induction Fee or Student Development Fee is listed (part-time programme), so oneOffFees = 0 for all tiers. No cohort fee lock stated. History: Common Crawl capture 2024-11-11 (April 2025 intake, feeYear 2024) states S$36,624.00 full programme; capture 2025-11-13 (April 2026 intake, feeYear 2025) states S$38,088.96 (annual /3, all tiers). Captures 2025-02-08 and 2025-06-21 (July 2025 intake) showed S$36,624.00; the later intake in the same academic year was used for the 2025 row.",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 12208.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" },
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 12208, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 12696.32, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology" }
@@ -1838,7 +1842,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 15405.33, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 15405.33, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 16568.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 16568, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 15713.44, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 15713.44, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 16899.36, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science" }
@@ -1852,9 +1856,9 @@
       "durationYears": 1,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 30520.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 30520.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 30520.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "citizen": { "annualTuition": 30520, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 30520, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 30520, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)",
       "lastVerified": "2026-10-05",
@@ -1863,12 +1867,12 @@
       "summary": "Tuition at SIM for a one-year University of Wollongong master's, including GST; local and international students pay the same rate. International students also pay a one-time induction fee.",
       "notes": "Page lists the same rates for international students and Singaporeans & PRs: UOW-taught modules S$3,815.00 each, Capstone Project S$7,630.00; full programme fee (1 year) S$30,520.00 for 7 modules (6 modules + 1 Capstone), payable over 4 terms, GST-inclusive. Full-time 1 year. Page says fees are 'valid for the intake for the current application'; applications open on the page are for the January 2027 and April 2027 intakes, so feeYear 2026. International Student Induction Fee S$588.60 (one-time, international only). No Student Development Fee listed for this master's. No cohort fee lock stated. History: Common Crawl captures 2024-08-03 (fees 'valid for Jul 2024 intake'), 2024-10-13 (January 2025 intake) and 2025-01-15 (April 2025 intake), all feeYear 2024, state estimated fees S$30,520.00 for everyone; capture 2025-08-15 (January 2026 intake, feeYear 2025) states full programme fee S$30,520.00 for both groups; induction fee S$436 in all.",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 30520.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 30520.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 30520.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 30520.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 30520.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 30520.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 30520, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 30520, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 30520, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 30520, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 30520, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 30520, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)" }
       ]
     },
     {
@@ -1892,7 +1896,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 16533.12, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 16533.12, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 18312.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 18312, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 16742.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 16742.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 19044.48, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting" }
@@ -1930,7 +1934,15 @@
       "level": "bachelor",
       "field": "business",
       "name": "Bachelor of Business",
-      "majors": ["Business and Technology", "Economics", "Finance", "Global Business", "Logistics and Supply Chain", "Management and Change", "Marketing"],
+      "majors": [
+        "Business and Technology",
+        "Economics",
+        "Finance",
+        "Global Business",
+        "Logistics and Supply Chain",
+        "Management and Change",
+        "Marketing"
+      ],
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
@@ -1947,7 +1959,7 @@
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 16533.12, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 16533.12, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 18312.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 18312, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business" },
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 16742.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 16742.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business" },
         { "feeYear": 2025, "tier": "international", "annualTuition": 19044.48, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business" }
@@ -1961,8 +1973,8 @@
       "durationYears": 2,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 18312.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 18312.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 18312, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18312, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 20090.88, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-construction-management-honours-top-up",
@@ -2050,7 +2062,7 @@
       "fees": {
         "citizen": { "annualTuition": 28841.4, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "pr": { "annualTuition": 28841.4, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 32373.0, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
+        "international": { "annualTuition": 32373, "annualCompulsoryFees": 0, "oneOffFees": 588.6 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-energy-efficient-and-sustainable-building-top-up",
       "lastVerified": "2026-10-05",
@@ -2061,7 +2073,7 @@
       "feeHistory": [
         { "feeYear": 2025, "tier": "citizen", "annualTuition": 28841.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-energy-efficient-and-sustainable-building-top-up" },
         { "feeYear": 2025, "tier": "pr", "annualTuition": 28841.4, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-energy-efficient-and-sustainable-building-top-up" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 32373.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-energy-efficient-and-sustainable-building-top-up" }
+        { "feeYear": 2025, "tier": "international", "annualTuition": 32373, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-energy-efficient-and-sustainable-building-top-up" }
       ]
     },
     {
@@ -2072,20 +2084,25 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 17658.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 17658.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 18748.0, "annualCompulsoryFees": 0, "oneOffFees": 436 }
+        "citizen": { "annualTuition": 9810, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 9810, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 10202.4, "annualCompulsoryFees": 0, "oneOffFees": 436 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media",
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition at SIM for a University of Stirling degree, averaged over the 3-year route and including GST; international students pay more. Diploma holders entering Year 2 finish in 2 years and pay less in total.",
-      "notes": "Awarded by the University of Stirling, UK; taught at SIM Campus. Page states 'Full-time, 2 to 3 years': a 3-year pathway entering at Year 1 and a 2-year direct-entry pathway into Year 2 for relevant diploma holders. Bachelor's Programme Fees (incl. 9% GST, payable before each semester): Local students Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = Total S$52,974.00; International students Year 1 S$10,202.40 + Year 2 & 3 S$46,041.60 = Total S$56,244.00. Years differ, so annualTuition = 3-year total / 3: local 52,974.00 / 3 = S$17,658.00; international 56,244.00 / 3 = S$18,748.00. durationYears = 3 (Year 1 entry pathway). Direct-entry students into Year 2 pay only the Year 2 & 3 amount (local S$43,164.00, intl S$46,041.60 over 2 years, i.e. S$21,582.00 / S$23,020.80 a year). Fee note says 'Valid for 2026 intake only', so feeYear = 2026 (Aug 2026 intake), although the page's intake section now advertises the Aug 2027 intake with the same figures; re-check when SIM updates the fee note. Excludes textbooks, repeat fees and expenses of the optional exchange semester at Stirling; optional Preparatory Course S$708.50 per module excluded. oneOffFees (international only) = International Student Induction Fee S$436.00. Not included: one-time Student Development Fee S$621.30 payable by all full-time undergraduates with the first instalment (excluded per brief's oneOffFees rule), application fee S$109 local / S$545 intl. No statement that fees are fixed for the cohort, so cohortLocked = false. Fee note also excludes design software subscriptions. The page prints the international total as 'S$56,244,00' (typo for S$56,244.00; Year 1 + Year 2 & 3 sum to 56,244.00). History (Common Crawl captures of the same URL): 2025 rows: captures 2024-11-11 (CC-MAIN-2024-46) and 2025-03-25 (CC-MAIN-2025-13) state 'Valid for 2025 intake only' (Aug 2025 intake) with Local Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = S$52,974.00 and International S$10,202.40 + S$46,041.60 = S$56,244.00 (identical to 2026), so S$17,658.00 / S$18,748.00 a year; Induction Fee S$436.00 (Student Development Fee was then S$512.30). No 2024-intake capture found in Common Crawl (CC-MAIN-2024-10 to 2025-51) or the Wayback Machine (earliest Wayback capture 2024-11-11), so no 2024 row. No 2024 row. In 2024 SIM offered this award only as a 2-year top-up (slug bachelor-of-arts-honours-digital-media-top-up, Common Crawl 2024-07-14: 'Valid for 2024 intake only', Aug 2024 intake, Bachelor's Programme Fees local S$41,332.80 / international S$43,948.80 for 2 years, induction fee S$436). It is the same Stirling BA (Hons) Digital Media, restructured: the top-up's 2025 fee (Oct 2024 capture, S$43,164.00 / S$46,041.60) equals the 'Year 2 & 3' amount of this page, and the top-up URL returns 404 from May 2025. But the 2024 figure covers only Years 2 and 3, with no Year 1, so it is not comparable with this record's 3-year total (Year 1 + Years 2 & 3) divided by 3, and no 2024 row is recorded. Final sweep 2026-10-06: no 2024 row. The 3-year (Year 1 entry) structure this record models did not exist for the 2024 intake: SIM offered the Stirling BA (Hons) Digital Media only as a 2-year top-up then (see above), and the domain-wide Wayback listing of sim.edu.sg PDFs (2024-2025) has no Stirling fee schedule, only module synopses and graduation booklets. Not estimated.",
+      "summary": "Stirling degree taught at SIM, incl. GST: year 1 costs S$10,202 (S$9,810 for Singaporeans and PRs), years 2 and 3 S$23,021 a year (S$21,582 local), S$56,244 in total. Diploma holders entering year 2 pay only the last two years.",
+      "notes": "Awarded by the University of Stirling, UK; taught at SIM Campus. Page states 'Full-time, 2 to 3 years': a 3-year pathway entering at Year 1 and a 2-year direct-entry pathway into Year 2 for relevant diploma holders. Bachelor's Programme Fees (incl. 9% GST, payable before each semester): Local students Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = Total S$52,974.00; International students Year 1 S$10,202.40 + Year 2 & 3 S$46,041.60 = Total S$56,244.00. Years differ, so annualTuition = 3-year total / 3: local 52,974.00 / 3 = S$17,658.00; international 56,244.00 / 3 = S$18,748.00. durationYears = 3 (Year 1 entry pathway). Direct-entry students into Year 2 pay only the Year 2 & 3 amount (local S$43,164.00, intl S$46,041.60 over 2 years, i.e. S$21,582.00 / S$23,020.80 a year). Fee note says 'Valid for 2026 intake only', so feeYear = 2026 (Aug 2026 intake), although the page's intake section now advertises the Aug 2027 intake with the same figures; re-check when SIM updates the fee note. Excludes textbooks, repeat fees and expenses of the optional exchange semester at Stirling; optional Preparatory Course S$708.50 per module excluded. oneOffFees (international only) = International Student Induction Fee S$436.00. Not included: one-time Student Development Fee S$621.30 payable by all full-time undergraduates with the first instalment (excluded per brief's oneOffFees rule), application fee S$109 local / S$545 intl. No statement that fees are fixed for the cohort, so cohortLocked = false. Fee note also excludes design software subscriptions. The page prints the international total as 'S$56,244,00' (typo for S$56,244.00; Year 1 + Year 2 & 3 sum to 56,244.00). History (Common Crawl captures of the same URL): 2025 rows: captures 2024-11-11 (CC-MAIN-2024-46) and 2025-03-25 (CC-MAIN-2025-13) state 'Valid for 2025 intake only' (Aug 2025 intake) with Local Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = S$52,974.00 and International S$10,202.40 + S$46,041.60 = S$56,244.00 (identical to 2026), so S$17,658.00 / S$18,748.00 a year; Induction Fee S$436.00 (Student Development Fee was then S$512.30). No 2024-intake capture found in Common Crawl (CC-MAIN-2024-10 to 2025-51) or the Wayback Machine (earliest Wayback capture 2024-11-11), so no 2024 row. No 2024 row. In 2024 SIM offered this award only as a 2-year top-up (slug bachelor-of-arts-honours-digital-media-top-up, Common Crawl 2024-07-14: 'Valid for 2024 intake only', Aug 2024 intake, Bachelor's Programme Fees local S$41,332.80 / international S$43,948.80 for 2 years, induction fee S$436). It is the same Stirling BA (Hons) Digital Media, restructured: the top-up's 2025 fee (Oct 2024 capture, S$43,164.00 / S$46,041.60) equals the 'Year 2 & 3' amount of this page, and the top-up URL returns 404 from May 2025. But the 2024 figure covers only Years 2 and 3, with no Year 1, so it is not comparable with this record's 3-year total (Year 1 + Years 2 & 3) divided by 3, and no 2024 row is recorded. Final sweep 2026-10-06: no 2024 row. The 3-year (Year 1 entry) structure this record models did not exist for the 2024 intake: SIM offered the Stirling BA (Hons) Digital Media only as a 2-year top-up then (see above), and the domain-wide Wayback listing of sim.edu.sg PDFs (2024-2025) has no Stirling fee schedule, only module synopses and graduation booklets. Not estimated. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 17658.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 17658.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 18748.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media" }
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 17658, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 17658, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 18748, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media" }
+      ],
+      "laterYears": [
+        { "fromYear": 2, "annualTuition": 23020.8 },
+        { "fromYear": 2, "tier": "citizen", "annualTuition": 21582 },
+        { "fromYear": 2, "tier": "pr", "annualTuition": 21582 }
       ]
     },
     {
@@ -2096,23 +2113,28 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 17658.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 17658.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 18748.0, "annualCompulsoryFees": 0, "oneOffFees": 436 }
+        "citizen": { "annualTuition": 9810, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 9810, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 10202.4, "annualCompulsoryFees": 0, "oneOffFees": 436 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing",
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition at SIM for a University of Stirling degree, averaged over the 3-year route and including GST; international students pay more. Diploma holders entering Year 2 finish in 2 years and pay less in total.",
-      "notes": "Awarded by the University of Stirling, UK; taught at SIM Campus. Page states 'Full-time, 2 to 3 years': a 3-year pathway entering at Year 1 and a 2-year direct-entry pathway into Year 2 for relevant diploma holders. Bachelor's Programme Fees (incl. 9% GST, payable before each semester): Local students Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = Total S$52,974.00; International students Year 1 S$10,202.40 + Year 2 & 3 S$46,041.60 = Total S$56,244.00. Years differ, so annualTuition = 3-year total / 3: local 52,974.00 / 3 = S$17,658.00; international 56,244.00 / 3 = S$18,748.00. durationYears = 3 (Year 1 entry pathway). Direct-entry students into Year 2 pay only the Year 2 & 3 amount (local S$43,164.00, intl S$46,041.60 over 2 years, i.e. S$21,582.00 / S$23,020.80 a year). Fee note says 'Valid for 2026 intake only', so feeYear = 2026 (Aug 2026 intake), although the page's intake section now advertises the Aug 2027 intake with the same figures; re-check when SIM updates the fee note. Excludes textbooks, repeat fees and expenses of the optional exchange semester at Stirling; optional Preparatory Course S$708.50 per module excluded. oneOffFees (international only) = International Student Induction Fee S$436.00. Not included: one-time Student Development Fee S$621.30 payable by all full-time undergraduates with the first instalment (excluded per brief's oneOffFees rule), application fee S$109 local / S$545 intl. No statement that fees are fixed for the cohort, so cohortLocked = false. Page also lists a part-time route; figures above are the full-time fees. History (Common Crawl captures of the same URL): 2025 rows: captures 2024-11-11 (CC-MAIN-2024-46) and 2025-03-15 (CC-MAIN-2025-13) state 'Valid for 2025 intake only' (Aug 2025 intake) with Local Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = S$52,974.00 and International S$10,202.40 + S$46,041.60 = S$56,244.00 (identical to 2026), so S$17,658.00 / S$18,748.00 a year; Induction Fee S$436.00 (Student Development Fee was then S$512.30). 2024 rows: capture 2024-07-14 (CC-MAIN-2024-30) states 'Valid for 2024 intake only' (Aug 2024 intake): Local Year 1 S$9,417.60 + Year 2 & 3 S$41,332.80 = S$50,750.40; International Year 1 S$9,810.00 + Year 2 & 3 S$43,948.80 = S$53,758.80; annual = total / 3 = S$16,916.80 local / S$17,919.60 intl; Induction Fee S$436.00.",
+      "summary": "Stirling degree taught at SIM, incl. GST: year 1 costs S$10,202 (S$9,810 for Singaporeans and PRs), years 2 and 3 S$23,021 a year (S$21,582 local), S$56,244 in total. Diploma holders entering year 2 pay only the last two years.",
+      "notes": "Awarded by the University of Stirling, UK; taught at SIM Campus. Page states 'Full-time, 2 to 3 years': a 3-year pathway entering at Year 1 and a 2-year direct-entry pathway into Year 2 for relevant diploma holders. Bachelor's Programme Fees (incl. 9% GST, payable before each semester): Local students Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = Total S$52,974.00; International students Year 1 S$10,202.40 + Year 2 & 3 S$46,041.60 = Total S$56,244.00. Years differ, so annualTuition = 3-year total / 3: local 52,974.00 / 3 = S$17,658.00; international 56,244.00 / 3 = S$18,748.00. durationYears = 3 (Year 1 entry pathway). Direct-entry students into Year 2 pay only the Year 2 & 3 amount (local S$43,164.00, intl S$46,041.60 over 2 years, i.e. S$21,582.00 / S$23,020.80 a year). Fee note says 'Valid for 2026 intake only', so feeYear = 2026 (Aug 2026 intake), although the page's intake section now advertises the Aug 2027 intake with the same figures; re-check when SIM updates the fee note. Excludes textbooks, repeat fees and expenses of the optional exchange semester at Stirling; optional Preparatory Course S$708.50 per module excluded. oneOffFees (international only) = International Student Induction Fee S$436.00. Not included: one-time Student Development Fee S$621.30 payable by all full-time undergraduates with the first instalment (excluded per brief's oneOffFees rule), application fee S$109 local / S$545 intl. No statement that fees are fixed for the cohort, so cohortLocked = false. Page also lists a part-time route; figures above are the full-time fees. History (Common Crawl captures of the same URL): 2025 rows: captures 2024-11-11 (CC-MAIN-2024-46) and 2025-03-15 (CC-MAIN-2025-13) state 'Valid for 2025 intake only' (Aug 2025 intake) with Local Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = S$52,974.00 and International S$10,202.40 + S$46,041.60 = S$56,244.00 (identical to 2026), so S$17,658.00 / S$18,748.00 a year; Induction Fee S$436.00 (Student Development Fee was then S$512.30). 2024 rows: capture 2024-07-14 (CC-MAIN-2024-30) states 'Valid for 2024 intake only' (Aug 2024 intake): Local Year 1 S$9,417.60 + Year 2 & 3 S$41,332.80 = S$50,750.40; International Year 1 S$9,810.00 + Year 2 & 3 S$43,948.80 = S$53,758.80; annual = total / 3 = S$16,916.80 local / S$17,919.60 intl; Induction Fee S$436.00. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 16916.8, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 16916.8, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 17919.6, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 17658.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 17658.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 18748.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" }
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 17658, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 17658, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 18748, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing" }
+      ],
+      "laterYears": [
+        { "fromYear": 2, "annualTuition": 23020.8 },
+        { "fromYear": 2, "tier": "citizen", "annualTuition": 21582 },
+        { "fromYear": 2, "tier": "pr", "annualTuition": 21582 }
       ]
     },
     {
@@ -2123,17 +2145,22 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 17658.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 17658.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 18748.0, "annualCompulsoryFees": 0, "oneOffFees": 436 }
+        "citizen": { "annualTuition": 9810, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 9810, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 10202.4, "annualCompulsoryFees": 0, "oneOffFees": 436 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-business-management",
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition at SIM for a University of Stirling degree, averaged over the 3-year route and including GST; international students pay more. Diploma holders entering Year 2 finish in 2 years and pay less in total.",
-      "notes": "Awarded by the University of Stirling, UK; taught at SIM Campus. Page states 'Full-time, 2 to 3 years': a 3-year pathway entering at Year 1 and a 2-year direct-entry pathway into Year 2 for relevant diploma holders. Bachelor's Programme Fees (incl. 9% GST, payable before each semester): Local students Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = Total S$52,974.00; International students Year 1 S$10,202.40 + Year 2 & 3 S$46,041.60 = Total S$56,244.00. Years differ, so annualTuition = 3-year total / 3: local 52,974.00 / 3 = S$17,658.00; international 56,244.00 / 3 = S$18,748.00. durationYears = 3 (Year 1 entry pathway). Direct-entry students into Year 2 pay only the Year 2 & 3 amount (local S$43,164.00, intl S$46,041.60 over 2 years, i.e. S$21,582.00 / S$23,020.80 a year). Fee note says 'Valid for 2026 intake only', so feeYear = 2026 (Aug 2026 intake), although the page's intake section now advertises the Aug 2027 intake with the same figures; re-check when SIM updates the fee note. Excludes textbooks, repeat fees and expenses of the optional exchange semester at Stirling; optional Preparatory Course S$708.50 per module excluded. oneOffFees (international only) = International Student Induction Fee S$436.00. Not included: one-time Student Development Fee S$621.30 payable by all full-time undergraduates with the first instalment (excluded per brief's oneOffFees rule), application fee S$109 local / S$545 intl. No statement that fees are fixed for the cohort, so cohortLocked = false. Page lists 'Full-time & Part-time'; part-time intake marked 'Not open for applications'. Its fee block is headed 'Mandatory Fees - Not Applicable' but still lists the Student Development Fee and International Student Induction Fee; the induction fee is kept for the international tier as on sibling Stirling pages. History: no capture of this URL in Common Crawl CC-MAIN-2024-10 to CC-MAIN-2025-51, and the Wayback CDX query via the translate relay returned no capture list (two attempts, while the same query worked for Digital Media); no 2024 or 2025 fee found, so no feeHistory rows. No 2024 or 2025 rows: the programme is new. Its URL first appears in Common Crawl on 2026-02-12 (CC-MAIN-2026-08; the only Wayback capture is the same date), showing 'Not Open for Applications' and fees 'Valid for 2026 intake only'. It is not a renamed version of SIM's BA (Honours) Sport and Marketing (itself renamed from Sports Studies and Marketing for 2024 intakes), which is still offered alongside it in July 2026 with a different curriculum (marketing modules instead of Foundations of Sport Management, Research Methods in Sports Studies and others).",
-      "feeHistory": []
+      "summary": "Stirling degree taught at SIM, incl. GST: year 1 costs S$10,202 (S$9,810 for Singaporeans and PRs), years 2 and 3 S$23,021 a year (S$21,582 local), S$56,244 in total. Diploma holders entering year 2 pay only the last two years.",
+      "notes": "Awarded by the University of Stirling, UK; taught at SIM Campus. Page states 'Full-time, 2 to 3 years': a 3-year pathway entering at Year 1 and a 2-year direct-entry pathway into Year 2 for relevant diploma holders. Bachelor's Programme Fees (incl. 9% GST, payable before each semester): Local students Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = Total S$52,974.00; International students Year 1 S$10,202.40 + Year 2 & 3 S$46,041.60 = Total S$56,244.00. Years differ, so annualTuition = 3-year total / 3: local 52,974.00 / 3 = S$17,658.00; international 56,244.00 / 3 = S$18,748.00. durationYears = 3 (Year 1 entry pathway). Direct-entry students into Year 2 pay only the Year 2 & 3 amount (local S$43,164.00, intl S$46,041.60 over 2 years, i.e. S$21,582.00 / S$23,020.80 a year). Fee note says 'Valid for 2026 intake only', so feeYear = 2026 (Aug 2026 intake), although the page's intake section now advertises the Aug 2027 intake with the same figures; re-check when SIM updates the fee note. Excludes textbooks, repeat fees and expenses of the optional exchange semester at Stirling; optional Preparatory Course S$708.50 per module excluded. oneOffFees (international only) = International Student Induction Fee S$436.00. Not included: one-time Student Development Fee S$621.30 payable by all full-time undergraduates with the first instalment (excluded per brief's oneOffFees rule), application fee S$109 local / S$545 intl. No statement that fees are fixed for the cohort, so cohortLocked = false. Page lists 'Full-time & Part-time'; part-time intake marked 'Not open for applications'. Its fee block is headed 'Mandatory Fees - Not Applicable' but still lists the Student Development Fee and International Student Induction Fee; the induction fee is kept for the international tier as on sibling Stirling pages. History: no capture of this URL in Common Crawl CC-MAIN-2024-10 to CC-MAIN-2025-51, and the Wayback CDX query via the translate relay returned no capture list (two attempts, while the same query worked for Digital Media); no 2024 or 2025 fee found, so no feeHistory rows. No 2024 or 2025 rows: the programme is new. Its URL first appears in Common Crawl on 2026-02-12 (CC-MAIN-2026-08; the only Wayback capture is the same date), showing 'Not Open for Applications' and fees 'Valid for 2026 intake only'. It is not a renamed version of SIM's BA (Honours) Sport and Marketing (itself renamed from Sports Studies and Marketing for 2024 intakes), which is still offered alongside it in July 2026 with a different curriculum (marketing modules instead of Foundations of Sport Management, Research Methods in Sports Studies and others). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
+      "feeHistory": [],
+      "laterYears": [
+        { "fromYear": 2, "annualTuition": 23020.8 },
+        { "fromYear": 2, "tier": "citizen", "annualTuition": 21582 },
+        { "fromYear": 2, "tier": "pr", "annualTuition": 21582 }
+      ]
     },
     {
       "partner": "stirling",
@@ -2143,23 +2170,28 @@
       "durationYears": 3,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 17658.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 17658.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 18748.0, "annualCompulsoryFees": 0, "oneOffFees": 436 }
+        "citizen": { "annualTuition": 9810, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 9810, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 10202.4, "annualCompulsoryFees": 0, "oneOffFees": 436 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing",
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition at SIM for a University of Stirling degree, averaged over the 3-year route and including GST; international students pay more. Diploma holders entering Year 2 finish in 2 years and pay less in total.",
-      "notes": "Awarded by the University of Stirling, UK; taught at SIM Campus. Page states 'Full-time, 2 to 3 years': a 3-year pathway entering at Year 1 and a 2-year direct-entry pathway into Year 2 for relevant diploma holders. Bachelor's Programme Fees (incl. 9% GST, payable before each semester): Local students Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = Total S$52,974.00; International students Year 1 S$10,202.40 + Year 2 & 3 S$46,041.60 = Total S$56,244.00. Years differ, so annualTuition = 3-year total / 3: local 52,974.00 / 3 = S$17,658.00; international 56,244.00 / 3 = S$18,748.00. durationYears = 3 (Year 1 entry pathway). Direct-entry students into Year 2 pay only the Year 2 & 3 amount (local S$43,164.00, intl S$46,041.60 over 2 years, i.e. S$21,582.00 / S$23,020.80 a year). Fee note says 'Valid for 2026 intake only', so feeYear = 2026 (Aug 2026 intake), although the page's intake section now advertises the Aug 2027 intake with the same figures; re-check when SIM updates the fee note. Excludes textbooks, repeat fees and expenses of the optional exchange semester at Stirling; optional Preparatory Course S$708.50 per module excluded. oneOffFees (international only) = International Student Induction Fee S$436.00. Not included: one-time Student Development Fee S$621.30 payable by all full-time undergraduates with the first instalment (excluded per brief's oneOffFees rule), application fee S$109 local / S$545 intl. No statement that fees are fixed for the cohort, so cohortLocked = false. Single major; mapped to business because its marketing content is business-focused. History (Common Crawl captures of the same URL): 2025 rows: captures 2024-12-13 (CC-MAIN-2024-51) and 2025-03-25 (CC-MAIN-2025-13) state 'Valid for 2025 intake only' (Aug 2025 intake) with Local Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = S$52,974.00 and International S$10,202.40 + S$46,041.60 = S$56,244.00 (identical to 2026), so S$17,658.00 / S$18,748.00 a year; Induction Fee S$436.00 (Student Development Fee was then S$512.30). 2024 rows: capture 2024-07-14 (CC-MAIN-2024-30) states 'Valid for 2024 intake only' (Aug 2024 intake): Local Year 1 S$9,417.60 + Year 2 & 3 S$41,332.80 = S$50,750.40; International Year 1 S$9,810.00 + Year 2 & 3 S$43,948.80 = S$53,758.80; annual = total / 3 = S$16,916.80 local / S$17,919.60 intl; Induction Fee S$436.00.",
+      "summary": "Stirling degree taught at SIM, incl. GST: year 1 costs S$10,202 (S$9,810 for Singaporeans and PRs), years 2 and 3 S$23,021 a year (S$21,582 local), S$56,244 in total. Diploma holders entering year 2 pay only the last two years.",
+      "notes": "Awarded by the University of Stirling, UK; taught at SIM Campus. Page states 'Full-time, 2 to 3 years': a 3-year pathway entering at Year 1 and a 2-year direct-entry pathway into Year 2 for relevant diploma holders. Bachelor's Programme Fees (incl. 9% GST, payable before each semester): Local students Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = Total S$52,974.00; International students Year 1 S$10,202.40 + Year 2 & 3 S$46,041.60 = Total S$56,244.00. Years differ, so annualTuition = 3-year total / 3: local 52,974.00 / 3 = S$17,658.00; international 56,244.00 / 3 = S$18,748.00. durationYears = 3 (Year 1 entry pathway). Direct-entry students into Year 2 pay only the Year 2 & 3 amount (local S$43,164.00, intl S$46,041.60 over 2 years, i.e. S$21,582.00 / S$23,020.80 a year). Fee note says 'Valid for 2026 intake only', so feeYear = 2026 (Aug 2026 intake), although the page's intake section now advertises the Aug 2027 intake with the same figures; re-check when SIM updates the fee note. Excludes textbooks, repeat fees and expenses of the optional exchange semester at Stirling; optional Preparatory Course S$708.50 per module excluded. oneOffFees (international only) = International Student Induction Fee S$436.00. Not included: one-time Student Development Fee S$621.30 payable by all full-time undergraduates with the first instalment (excluded per brief's oneOffFees rule), application fee S$109 local / S$545 intl. No statement that fees are fixed for the cohort, so cohortLocked = false. Single major; mapped to business because its marketing content is business-focused. History (Common Crawl captures of the same URL): 2025 rows: captures 2024-12-13 (CC-MAIN-2024-51) and 2025-03-25 (CC-MAIN-2025-13) state 'Valid for 2025 intake only' (Aug 2025 intake) with Local Year 1 S$9,810.00 + Year 2 & 3 S$43,164.00 = S$52,974.00 and International S$10,202.40 + S$46,041.60 = S$56,244.00 (identical to 2026), so S$17,658.00 / S$18,748.00 a year; Induction Fee S$436.00 (Student Development Fee was then S$512.30). 2024 rows: capture 2024-07-14 (CC-MAIN-2024-30) states 'Valid for 2024 intake only' (Aug 2024 intake): Local Year 1 S$9,417.60 + Year 2 & 3 S$41,332.80 = S$50,750.40; International Year 1 S$9,810.00 + Year 2 & 3 S$43,948.80 = S$53,758.80; annual = total / 3 = S$16,916.80 local / S$17,919.60 intl; Induction Fee S$436.00. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         { "feeYear": 2024, "tier": "citizen", "annualTuition": 16916.8, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" },
         { "feeYear": 2024, "tier": "pr", "annualTuition": 16916.8, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 17919.6, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 17658.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 17658.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 18748.0, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" }
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 17658, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 17658, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 18748, "oneOffFees": 436, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing" }
+      ],
+      "laterYears": [
+        { "fromYear": 2, "annualTuition": 23020.8 },
+        { "fromYear": 2, "tier": "citizen", "annualTuition": 21582 },
+        { "fromYear": 2, "tier": "pr", "annualTuition": 21582 }
       ]
     },
     {
@@ -2170,8 +2202,8 @@
       "durationYears": 2,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 19620.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 19620.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 19620, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 19620, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 20797.2, "annualCompulsoryFees": 0, "oneOffFees": 436 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-top-up",
@@ -2190,8 +2222,8 @@
       "durationYears": 2,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 19620.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 19620.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 19620, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 19620, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 20797.2, "annualCompulsoryFees": 0, "oneOffFees": 436 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-with-security-and-forensics-top-up",
@@ -2210,8 +2242,8 @@
       "durationYears": 1,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 39240.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 39240.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 39240, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 39240, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 41594.4, "annualCompulsoryFees": 0, "oneOffFees": 436 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-ai-and-statistical-analytics",
@@ -2230,8 +2262,8 @@
       "durationYears": 1,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 39240.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 39240.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "citizen": { "annualTuition": 39240, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 39240, "annualCompulsoryFees": 0, "oneOffFees": 0 },
         "international": { "annualTuition": 41594.4, "annualCompulsoryFees": 0, "oneOffFees": 436 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-sustainable-supply-chain-management",
@@ -2250,9 +2282,9 @@
       "durationYears": 2,
       "feeYear": 2026,
       "fees": {
-        "citizen": { "annualTuition": 11990.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "pr": { "annualTuition": 11990.0, "annualCompulsoryFees": 0, "oneOffFees": 0 },
-        "international": { "annualTuition": 11990.0, "annualCompulsoryFees": 0, "oneOffFees": 0 }
+        "citizen": { "annualTuition": 11990, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "pr": { "annualTuition": 11990, "annualCompulsoryFees": 0, "oneOffFees": 0 },
+        "international": { "annualTuition": 11990, "annualCompulsoryFees": 0, "oneOffFees": 0 }
       },
       "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours",
       "lastVerified": "2026-10-05",
@@ -2261,12 +2293,12 @@
       "summary": "Yearly fee at SIM for a part-time University of Sydney nursing honours degree for registered nurses, including GST. One fee applies to everyone; a 10% fee discount is offered for 2027 intakes.",
       "notes": "Awarded by The University of Sydney, Australia; accredited by the Singapore Nursing Board. Page states 'Part-time, 2 years' only (no full-time option: offshore students may only enrol part-time), so durationYears = 2 (part-time). Programme Fees: 'Fee per module: S$5,995; Total programme fee: S$23,980 payable for 4 modules, over 4 semesters', all fees inclusive of prevailing GST; annualTuition = 23,980 / 2 = S$11,990.00. The page gives one fee for all students (no local/international split), so the same figure is used for all three tiers; no International Student Induction Fee is listed (part-time programme), so oneOffFees = 0. Application fee S$109 excluded. Fees 'valid for the intake for the current application'; the open application is the Jan 2027 intake (04 Jul 2026 to 15 Jan 2027), so feeYear = 2026. Excludes textbooks, repeat fees, airfare and accommodation. Not reflected: '2027 University of Sydney Nursing Talent Development Fund' 10% off total programme fees for new applicants in Jan and Jul 2027 intakes. No cohort fee lock stated. History (Common Crawl captures of the same URL): 2024 rows: captures 2024-05-22 (CC-MAIN-2024-22) and 2024-09-19 (CC-MAIN-2024-38) state 'Fees quoted are valid for Jan 2025 intake only', S$5,995 per module, total S$23,980 (Jan 2025 intake belongs to feeYear 2024 under the January-intake rule), so S$11,990.00 a year. 2025 rows: capture 2025-08-15 (CC-MAIN-2025-33) shows the Jan 2026 intake (applications 12 Jul 2025 to 11 Jan 2026) with total S$23,980, 'valid for the intake for the current application', so S$11,990.00 a year. Fee unchanged across 2024 to 2026.",
       "feeHistory": [
-        { "feeYear": 2024, "tier": "citizen", "annualTuition": 11990.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
-        { "feeYear": 2024, "tier": "pr", "annualTuition": 11990.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
-        { "feeYear": 2024, "tier": "international", "annualTuition": 11990.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
-        { "feeYear": 2025, "tier": "citizen", "annualTuition": 11990.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
-        { "feeYear": 2025, "tier": "pr", "annualTuition": 11990.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
-        { "feeYear": 2025, "tier": "international", "annualTuition": 11990.0, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" }
+        { "feeYear": 2024, "tier": "citizen", "annualTuition": 11990, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
+        { "feeYear": 2024, "tier": "pr", "annualTuition": 11990, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
+        { "feeYear": 2024, "tier": "international", "annualTuition": 11990, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
+        { "feeYear": 2025, "tier": "citizen", "annualTuition": 11990, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
+        { "feeYear": 2025, "tier": "pr", "annualTuition": 11990, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" },
+        { "feeYear": 2025, "tier": "international", "annualTuition": 11990, "oneOffFees": 0, "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours" }
       ]
     },
     {

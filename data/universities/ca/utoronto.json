@@ -188,8 +188,8 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition only. Rotman Commerce charges a higher rate from Year 2, so the four-year total will be above this estimate. Compulsory fees included; health insurance is extra.",
-      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Students enter through the Commerce admission stream at the Year 1 fee; Rotman Commerce (Commerce Specialist) Years 2-4 are deregulated at a higher program fee: C$75,150 in 2026-27 (C$72,260 in 2025-26, C$70,160 in 2024-25), so the total over four years is higher than four times this figure. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
+      "summary": "Year 1 costs C$66,110; years 2 to 4 in Rotman Commerce cost C$75,150 a year at 2026-27 rates, and fees rise every year. Compulsory fees of about C$2,100 included; health insurance is extra.",
+      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Students enter through the Commerce admission stream at the Year 1 fee; Rotman Commerce (Commerce Specialist) Years 2-4 are deregulated at a higher program fee: C$75,150 in 2026-27 (C$72,260 in 2025-26, C$70,160 in 2024-25), so the total over four years is higher than four times this figure. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -204,6 +204,12 @@
           "annualTuition": 63570,
           "annualCompulsoryFees": 2040.9,
           "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 75150
         }
       ]
     },
@@ -224,8 +230,8 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition only. Computer Science charges a higher rate from Year 2, so the four-year total will be above this estimate. Compulsory fees included; health insurance is extra.",
-      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Students enter through the Computer Science admission stream at the Year 1 fee; the Computer Science major/specialist Years 2-4 are deregulated at a higher program fee: C$69,030 in 2026-27 (C$65,740 in 2025-26, C$63,830 in 2024-25), so the total over four years is higher than four times this figure. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A).",
+      "summary": "Year 1 costs C$66,110; years 2 to 4 in Computer Science cost C$69,030 a year at 2026-27 rates, and fees rise every year. Compulsory fees of about C$2,100 included; health insurance is extra.",
+      "notes": "2026-27 Faculty of Arts & Science international Year 1 program fee C$66,110 (one fee for every admission stream, charged per academic year) from the U of T Tuition Explorer; compulsory = Year 1 incidental and system access fees C$2,100.29 for a University College student (the fee varies by college: Woodsworth C$2,053.13 to Trinity C$2,842.93 in 2026-27). UHIP (C$948) excluded. Not fixed: international fees rise yearly for continuing students too. Students enter through the Computer Science admission stream at the Year 1 fee; the Computer Science major/specialist Years 2-4 are deregulated at a higher program fee: C$69,030 in 2026-27 (C$65,740 in 2025-26, C$63,830 in 2024-25), so the total over four years is higher than four times this figure. 2025 from the Tuition Explorer 2025-26 schedule (University College); 2024 from the archived 2024-25 Arts & Science University College international fee schedule PDF (Table 1A). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -240,6 +246,12 @@
           "annualTuition": 63570,
           "annualCompulsoryFees": 2040.9,
           "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=UG&residency=INT&campus=UTSG&faculty=ARTSC-UG&college=UC&program=207"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 69030
         }
       ]
     },
@@ -332,8 +344,8 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition for the 2-year MBA; the second year is charged at that year's higher rate. Compulsory university fees included; the business school's own fees and health insurance are extra.",
-      "notes": "2026-27 international program fee C$71,670 per academic year for the 2-year Full-Time MBA (students admitted 2026) from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,392.69 (Rotman's own ancillary fees, about C$650, are not in the schedule and are excluded). UHIP (C$948) excluded. Not fixed: Rotman estimates total international academic fees of C$144,770 for the programme, i.e. the second year is billed at that year's higher rate. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 20).",
+      "summary": "Year 1 tuition is C$71,670; Rotman estimates C$144,770 for the whole 2-year MBA, so year 2 is about C$73,100. Compulsory university fees of about C$2,390 a year included; the school's own fees and health insurance are extra.",
+      "notes": "2026-27 international program fee C$71,670 per academic year for the 2-year Full-Time MBA (students admitted 2026) from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,392.69 (Rotman's own ancillary fees, about C$650, are not in the schedule and are excluded). UHIP (C$948) excluded. Not fixed: Rotman estimates total international academic fees of C$144,770 for the programme, i.e. the second year is billed at that year's higher rate. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 20). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -348,6 +360,13 @@
           "annualTuition": 70260,
           "annualCompulsoryFees": 2336.72,
           "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=MGT-G&program=98"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 73100,
+          "estimate": true
         }
       ]
     },

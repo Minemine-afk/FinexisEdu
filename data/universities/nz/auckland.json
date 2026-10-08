@@ -148,8 +148,8 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year fee only. Years 2 to 6 cost about NZ$86,561 a year, so the six-year total is about NZ$475,600. Student services fee included.",
-      "notes": "First-year rate: the 2026 estimated international fee for the Year 1 (overlapping BHSc / Biomedical Science year, 120 points at NZ$5,352.30 per 15-point course), which the programme list quotes for MB ChB Year 1. Years 2 to 6 are NZ$86,561 a year (MBChB Part II-VI, 2 x 60-point halves at NZ$43,280.40 each; Part III is 105 points, NZ$75,740.70), so the six-year total is about NZ$475,600. 720 points over 6 years. Compulsory = Student Services Fee NZ$9.44/point x 120. 2024/2025 = 8 x 15-point Year 1 course fee (MEDSCI 142 / POPLHLTH) from that year's international Medical and Health Sciences schedule, with SSF NZ$8.88 / NZ$9.24 per point; MBChB Part II was NZ$83,232 in 2024 and NZ$86,560.80 in 2025.",
+      "summary": "Year 1 costs about NZ$42,800. Years 2 to 6 cost about NZ$86,561 a year (year 3 is 105 points, about NZ$75,740), so the six-year total is roughly NZ$465,000 to NZ$475,600. Student services fee included. Not fixed.",
+      "notes": "First-year rate: the 2026 estimated international fee for the Year 1 (overlapping BHSc / Biomedical Science year, 120 points at NZ$5,352.30 per 15-point course), which the programme list quotes for MB ChB Year 1. Years 2 to 6 are NZ$86,561 a year (MBChB Part II-VI, 2 x 60-point halves at NZ$43,280.40 each; Part III is 105 points, NZ$75,740.70), so the six-year total is about NZ$475,600. 720 points over 6 years. Compulsory = Student Services Fee NZ$9.44/point x 120. 2024/2025 = 8 x 15-point Year 1 course fee (MEDSCI 142 / POPLHLTH) from that year's international Medical and Health Sciences schedule, with SSF NZ$8.88 / NZ$9.24 per point; MBChB Part II was NZ$83,232 in 2024 and NZ$86,560.80 in 2025. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -164,6 +164,20 @@
           "annualTuition": 40779.6,
           "annualCompulsoryFees": 1108.8,
           "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_MHS_International.pdf"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 86561
+        },
+        {
+          "fromYear": 3,
+          "annualTuition": 75740.7
+        },
+        {
+          "fromYear": 4,
+          "annualTuition": 86561
         }
       ]
     },
