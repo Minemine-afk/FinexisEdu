@@ -1,0 +1,369 @@
+{
+  "id": "manchester",
+  "name": "University of Manchester",
+  "country": "uk",
+  "city": "Manchester",
+  "currency": "GBP",
+  "website": "https://www.manchester.ac.uk",
+  "description": "The University of Manchester is a public research university and Russell Group member, formed in 2004 by the merger of the Victoria University of Manchester and UMIST. It has one of the largest student populations in the United Kingdom.",
+  "whyIncluded": "The University of Manchester is among the 10 universities in the United Kingdom most chosen by international students (18,515 non-UK students in 2024-25, per HESA), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BSc Computer Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 39,700 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 37,800 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37800,
+          "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/00560/bsc-computer-science/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "MEng Mechanical Engineering",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/03921/meng-mechanical-engineering/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 37,500 per annum'), 2026-10-07; 4-year programme. The 2026-entry course page gives 35,700 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35700,
+          "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/03921/meng-mechanical-engineering/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc Management",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 35300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/03519/bsc-management/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,300 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 33,100 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33100,
+          "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/03519/bsc-management/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc Physics",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00638/bsc-physics/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 40,300 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 38,400 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38400,
+          "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/00638/bsc-physics/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BAEcon Economics",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/05134/baecon-economics/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 33,100 per annum'), 2026-10-07; 3-year programme. No earlier figure found: the 2025 and 2026 course page URLs now redirect to the 2027 page. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BSc Psychology",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 35800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00653/bsc-psychology/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,800 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 34,100 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 34100,
+          "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/00653/bsc-psychology/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "BNurs Adult Nursing",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 35300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10971/bnurs-adult-nursing/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,300 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 33,600 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33600,
+          "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/10971/bnurs-adult-nursing/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "MBChB Medicine",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/01428/mbchb-medicine/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for international students (2026-27 rate). Fees rise to a higher clinical rate from Year 3 and may increase by up to 7% a year. No separate compulsory fees.",
+      "notes": "The 2027-entry course page quotes the 2026/27 rates: pre-clinical (Years 1-2) GBP 39,900 per year for students starting in September 2026; clinical (Years 3-5) GBP 60,900 for students entering the clinical part in 2026, set at the rate applicable when entering Year 3. First-year (pre-clinical) fee used per the calculator's medicine rule. 5-year programme, open to overseas applicants. Read 2026-10-07. The 2025-entry URL redirects to the 2027 page, so no earlier figure. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Advanced Computer Science",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 41400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc Mechanical Engineering Design",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc International Business and Management",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/masters/courses/list/12805/msc-international-business-and-management/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Applied Mathematics",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 36300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/masters/courses/list/09128/msc-applied-mathematics/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2026. No separate compulsory fees.",
+      "notes": "International (including EU) full-time fee per annum from the course page, the page says fees for 2027 entry have not yet been set and gives, for reference, the fees for the academic year beginning September 2026 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "MSc Economics",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 35300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MSc Clinical and Health Psychology",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 35300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/masters/courses/list/08070/msc-clinical-and-health-psychology/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "nursing",
+      "name": "MSc Adult Nursing (pre-registration)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 28900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/18749/msc-adult-nursing/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026 on this two-year pre-registration nursing master's; Manchester may raise it by up to 7% in the second year.",
+      "notes": "International (including EU) full-time fee per annum. The 2027-entry course page says fees for 2027 entry have not yet been set and gives, for reference, the fees for the academic year beginning September 2026 (UK GBP 9,790; international GBP 28,900). 2-year programme for graduates leading to NMC registration; international applicants accepted. Read 2026-10-07. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees.",
+      "feeHistory": []
+    }
+  ]
+}

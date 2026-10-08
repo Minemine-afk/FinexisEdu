@@ -1,0 +1,74 @@
+# University of Hertfordshire. Each course page shows the UK, EU and international fee for the
+# current and next academic year; the figures were read by hand. No automated pattern yet
+# (pages are one per course and the fee lines change year to year).
+sources:
+  # BSc (Hons) Computer Science: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/undergraduate/computer-science"
+    manual: true
+  # BEng (Hons) Mechanical Engineering: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/undergraduate/mechanical-engineering3"
+    manual: true
+  # BSc (Hons) Biomedical Science: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/undergraduate/biomedical-science"
+    manual: true
+  # BA (Hons) Business Management: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/undergraduate/ba-hons-business-management"
+    manual: true
+  # BA (Hons) Graphic Design: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/undergraduate/graphic-design"
+    manual: true
+  # BSc (Hons) Psychology: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/undergraduate/psychology"
+    manual: true
+  # BSc (Hons) Nursing (Adult): fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/undergraduate/adult-nursing"
+    manual: true
+  # MSc Computer Science: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/postgraduate-masters/msc-computer-science2"
+    manual: true
+  # MSc Mechanical Engineering: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/postgraduate-masters/msc-mechanical-engineering"
+    manual: true
+  # MSc International Business: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/postgraduate-masters/msc-international-business"
+    manual: true
+  # MSc Molecular Biotechnology: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/postgraduate-masters/msc-molecular-biotechnology"
+    manual: true
+  # MSc Psychology: fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/postgraduate-masters/msc-psychology"
+    manual: true
+  # MSc Nursing (Adult): fee read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/courses/postgraduate-masters/msc-adult-nursing"
+    manual: true
+  # living costs: living-cost estimate read by hand
+  - university: herts
+    country: uk
+    url: "https://www.herts.ac.uk/international/coming-to-the-uk/cost-of-living"
+    manual: true

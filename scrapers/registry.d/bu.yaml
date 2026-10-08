@@ -1,0 +1,22 @@
+# Boston University: added Oct 2026. All sources are checked by hand (BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand).
+sources:
+  # BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand
+  - university: bu
+    country: us
+    url: "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+    manual: true
+  # BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand
+  - university: bu
+    country: us
+    url: "https://www.bu.edu/finaid/graduate-students/graduate-coa/"
+    manual: true
+  # BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand
+  - university: bu
+    country: us
+    url: "https://www.bu.edu/cas/admissions/ma-ms/tuition-mandatory-fees/"
+    manual: true
+  # BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand
+  - university: bu
+    country: us
+    url: "https://www.bu.edu/isso/getting-started/documents-procedures/requiredfinancialdocumentation/expenses-crc/"
+    manual: true

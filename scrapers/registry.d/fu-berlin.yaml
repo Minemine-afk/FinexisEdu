@@ -1,0 +1,14 @@
+# Freie Universitaet Berlin. No tuition (Berlin); the 'Fees and Contributions' page lists the
+# semester contribution for every programme. Medicine is enrolled at Charite, which publishes its own fee sheet.
+sources:
+  # Fees and Contributions: WiSe 2026/27 EUR 376.80, SoSe 2026 EUR 358.80; comma decimals, itemised, read by hand
+  - university: fu-berlin
+    country: de
+    url: "https://fu-berlin.de/en/studium/studieren/studienorganisation/gebuehren/index.html"
+    manual: true
+  # Charite first-semester enrolment fee sheet (376,80 EUR with FU membership); comma decimals, read by hand
+  - university: fu-berlin
+    country: de
+    url: "https://campusnet.charite.de/fileadmin/user_upload/microsites/ohne_AZ/sonstige/campusnet/downloads/alle_Immatrikulation/Erstsemester_Immatrikulationsgebuehren.pdf"
+    parser: pdf
+    manual: true

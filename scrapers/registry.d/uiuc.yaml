@@ -1,0 +1,31 @@
+sources:
+  # University of Illinois registrar / cost calculator rate table: fee read by hand
+  - university: uiuc
+    country: us
+    url: "https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1"
+    manual: true
+  # University of Illinois registrar / cost calculator rate table: fee read by hand
+  - university: uiuc
+    country: us
+    url: "https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1"
+    manual: true
+  # University of Illinois registrar / cost calculator rate table: fee read by hand
+  - university: uiuc
+    country: us
+    url: "https://cost.illinois.edu/Home/UgradBase?DiffCode=CHEML&TermCode=120268&TableType=1"
+    manual: true
+  # University of Illinois registrar / cost calculator rate table: fee read by hand
+  - university: uiuc
+    country: us
+    url: "https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1"
+    manual: true
+  # University of Illinois registrar / cost calculator rate table: fee read by hand
+  - university: uiuc
+    country: us
+    url: "https://registrar.illinois.edu/g-tuition-rates-2627/"
+    manual: true
+  # University of Illinois registrar / cost calculator rate table: fee read by hand
+  - university: uiuc
+    country: us
+    url: "https://registrar.illinois.edu/tuition-fees/tuition-fee-rates/tf-rates-academic-year/ug-additional-expenses-2627/"
+    manual: true
