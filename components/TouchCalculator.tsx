@@ -32,7 +32,7 @@ import type { Layout } from "./useLayout";
 
 /**
  * The calculator for touch screens. Phones get two tabs behind a bottom tab
- * bar: Settings (the assumptions, then the universities to compare) first and
+ * bar: Details (the assumptions, then the universities to compare) first and
  * Compare second; tablets keep the settings in a sidebar beside the results. Both pick a
  * university from a sheet instead of a stack of dropdowns, and every control
  * is at least 44px tall.
@@ -146,7 +146,7 @@ type Tab = "settings" | "compare";
 
 const BIG_BUTTON = `min-h-11 rounded-lg px-3 text-sm${FOCUS}`;
 
-/** The current settings as a row of chips above the results; tapping one opens the Settings tab. */
+/** The current settings as a row of chips above the results; tapping one opens the Details tab. */
 function SettingsChips({
   state,
   onOpen,
@@ -1129,7 +1129,7 @@ function TabBar({
   const tabs: [Tab, string, React.ReactNode][] = [
     [
       "settings",
-      "Settings",
+      "Details",
       <svg key="s" viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
         <path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" />
         <circle cx="16" cy="6" r="2" />
