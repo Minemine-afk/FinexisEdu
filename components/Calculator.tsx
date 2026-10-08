@@ -1,441 +1,87 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import {
-  calculate,
-  hasRateFor,
-  isStale,
-  toSgd,
-  type CalcResult,
-  type Residency,
-} from "@/lib/calc";
-import type { FxResult } from "@/lib/fx";
+import { useEffect, useRef, useState } from "react";
+import type { Residency } from "@/lib/calc";
 import {
   FIELD_LABELS,
   LEVEL_LABELS,
   RESIDENCY_LABELS,
   formatCompactSgd,
-  formatMoney,
   partnerOf,
-  programmeLabel,
 } from "@/lib/format";
-import {
-  FIELDS,
-  LEVELS,
-  LIVING_CATEGORIES,
-  type Country,
-  type Field,
-  type Level,
-  type LivingCategory,
-  type LivingCosts,
-  type Programme,
-  type University,
-} from "@/lib/schema";
-import {
-  LIFESTYLE_MULTIPLIER,
-  livingCostsByYear,
-  monthlyTotal,
-  type Lifestyle,
-  type LivingYear,
-  type MonthlyLiving,
-} from "@/lib/living";
-import FeeChart, { SEGMENTS, type CompareCategory } from "./FeeChart";
-import UniversityName from "./UniversityName";
+import { FIELDS, LEVELS, type Field } from "@/lib/schema";
+import type { Lifestyle } from "@/lib/living";
+import FeeChart from "./FeeChart";
 import InfoTip from "./InfoTip";
 import type { GlossaryTerm } from "@/lib/glossary";
-import { universityIncrease, type IncreaseEstimate } from "@/lib/increase";
+import ResultDetail, { FOCUS } from "./ResultDetail";
+import StatTiles from "./StatTiles";
+import TouchCalculator from "./TouchCalculator";
+import { useLayout } from "./useLayout";
+import {
+  increaseBasisNote,
+  LIFESTYLE_LABELS,
+  MAX_SELECTED,
+  MIN_START_YEAR,
+  pickProgramme,
+  useCalculator,
+  type CalculatorProps,
+  type CountryGroup,
+  type Option,
+} from "./useCalculator";
 
-interface Props {
-  universities: University[];
-  countries: Country[];
-  fx: FxResult;
-  today: string;
-}
-
-interface Option {
-  key: string;
-  university: University;
-  programme: Programme;
-}
-
-export interface LivingResult {
-  estimate: LivingCosts;
-  monthly: MonthlyLiving;
-  customised: boolean;
-  increase: number;
-  years: LivingYear[];
-  totalLocal: number;
-  totalSgd: number;
-}
-
-export interface Selection extends Option {
-  result: CalcResult;
-  feeIncrease: number;
-  /** Where the yearly increase came from (the university's own history or the country). */
-  increase: IncreaseEstimate;
-  fxRate: number;
-  /** University fees only. */
-  totalSgd: number;
-  /** Fees plus living costs when they are included. */
-  grandTotalSgd: number;
-  yearsSgd: {
-    tuition: number;
-    compulsoryFees: number;
-    oneOffFees: number;
-    living: number;
-  };
-  /** Living costs, when included and the university has an estimate. */
-  living: LivingResult | null;
-  /** Why living costs are missing when they were asked for. */
-  livingNote: string | null;
-}
-
-// Up to three universities compare as bars side by side.
-const MAX_SELECTED = 3;
-const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
-// Start years offered. Earlier years use published fee history only.
-/** Start years the calculator accepts: typed in, from the first year the current fee tables cover. */
-const MIN_START_YEAR = 2026;
-// Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
-const COUNTRY_ORDER = [
-  "sg",
-  "au",
-  "uk",
-  "us",
-  "de",
-  "ca",
-  "nz",
-  "ch",
-  "jp",
-  "ie",
-];
-const LIFESTYLE_LABELS: Record<Lifestyle, string> = {
-  frugal: "Frugal",
-  moderate: "Moderate",
-  comfortable: "Comfortable",
-};
-export const LIVING_LABELS: Record<LivingCategory, string> = {
-  housing: "Housing",
-  food: "Food",
-  transport: "Transport",
-  personal: "Personal & books",
-};
-
-function optionsFor(universities: University[], level: Level): Option[] {
-  return universities.flatMap((university) =>
-    university.programmes
-      .map((programme, i) => ({
-        key: `${university.id}:${i}`,
-        university,
-        programme,
-      }))
-      .filter((o) => o.programme.level === level),
-  );
-}
+export type { Selection } from "./useCalculator";
 
 /**
- * Why a programme can't be priced for this student, or null if it can: Singapore
- * universities need the student's own Citizen/PR rate, and past start years need
- * published fees for every year charged.
+ * Picks the layout for the screen: the phone and tablet layouts below `lg`
+ * (and on large touch screens such as an iPad in landscape), the desktop
+ * layout otherwise. The server renders the desktop layout.
  */
-function unavailableReason(
-  o: Option,
-  residency: Residency,
-  startYear: number,
-): string | null {
-  const { missingYears } = calculate({
-    programme: o.programme,
-    currency: o.university.currency,
-    residency,
-    startYear,
-    feeIncrease: 0,
-    strictTier: o.university.country === "sg",
-  });
-  if (residency === "international" && !o.programme.internationalEligible) {
-    return "Not open to international students";
+export default function Calculator(props: CalculatorProps) {
+  const layout = useLayout();
+  const state = useCalculator(props);
+  if (layout !== "desktop") {
+    return <TouchCalculator state={state} layout={layout} today={props.today} />;
   }
-  if (missingYears.length === 0) return null;
-  // A Singapore programme with no rate for this tier in any year is missing the tier, not a year.
-  const tierEverPublished = o.programme.feeHistory.some(
-    (h) => h.tier === residency,
-  );
-  if (
-    !hasRateFor(o.university.country, o.programme, residency) &&
-    !tierEverPublished
-  ) {
-    return `No ${RESIDENCY_LABELS[residency]} rate on file yet`;
-  }
-  return `No published ${missingYears.join(", ")} fee on file`;
+  return <DesktopCalculator state={state} today={props.today} />;
 }
 
-/**
- * A sensible programme for a new slot: priced for this student, at a university not
- * already chosen, in a country not already chosen where possible, in the same field
- * as the slot before it (computing by default).
- */
-function defaultPick(
-  options: Option[],
-  isAvailable: (o: Option) => boolean,
-  taken: Option[],
-  preferField: Field = "computing",
-): Option | undefined {
-  const takenKeys = new Set(taken.map((o) => o.key));
-  const takenUnis = new Set(taken.map((o) => o.university.id));
-  const takenCountries = new Set<string>(
-    taken.map((o) => o.university.country),
-  );
-  const usable = options.filter((o) => isAvailable(o) && !takenKeys.has(o.key));
-  const byField = (list: Option[]) =>
-    list.find((o) => o.programme.field === preferField) ??
-    list.find((o) => o.programme.field === "computing") ??
-    list[0];
-  for (const skipTakenCountries of [true, false]) {
-    for (const country of COUNTRY_ORDER) {
-      if (skipTakenCountries && takenCountries.has(country)) continue;
-      const o = byField(
-        usable.filter(
-          (x) =>
-            x.university.country === country && !takenUnis.has(x.university.id),
-        ),
-      );
-      if (o) return o;
-    }
-  }
-  return usable[0];
-}
-
-/** When the level changes, keep each slot's university and field where the new level offers them. */
-function reselect(
-  prevKeys: string[],
-  prevOptions: Option[],
-  nextOptions: Option[],
-  isAvailable: (o: Option) => boolean,
-): string[] {
-  const next: string[] = [];
-  for (const key of prevKeys) {
-    const prev = prevOptions.find((o) => o.key === key);
-    if (!prev) continue;
-    const same = nextOptions.filter(
-      (o) => o.university.id === prev.university.id && !next.includes(o.key),
-    );
-    const samePartner = (x: Option) =>
-      x.programme.partner === prev.programme.partner;
-    const o =
-      same.find(
-        (x) =>
-          samePartner(x) &&
-          x.programme.field === prev.programme.field &&
-          isAvailable(x),
-      ) ??
-      same.find((x) => samePartner(x) && isAvailable(x)) ??
-      same.find(
-        (x) => x.programme.field === prev.programme.field && isAvailable(x),
-      ) ??
-      same.find(isAvailable) ??
-      same[0];
-    if (o) next.push(o.key);
-  }
-  if (next.length === 0) {
-    const o = defaultPick(nextOptions, isAvailable, []);
-    if (o) next.push(o.key);
-  }
-  return next;
-}
-
-export default function Calculator({
-  universities,
-  countries,
-  fx,
+function DesktopCalculator({
+  state,
   today,
-}: Props) {
-  const thisYear = Number(today.slice(0, 4));
-  const countryByCode = useMemo(
-    () => new Map(countries.map((c) => [c.code, c])),
-    [countries],
-  );
-
-  const [level, setLevel] = useState<Level>("bachelor");
-  const [residency, setResidency] = useState<Residency>("citizen");
-  const [startYear, setStartYear] = useState(
-    Math.max(thisYear + 1, MIN_START_YEAR),
-  );
-  // What the user has typed; only a year in range is applied.
-  const [startYearInput, setStartYearInput] = useState(String(startYear));
-  const startYearError = (() => {
-    const t = startYearInput.trim();
-    if (!/^\d{4}$/.test(t))
-      return `Enter a four-digit year, ${MIN_START_YEAR} or later.`;
-    const y = Number(t);
-    if (y < MIN_START_YEAR)
-      return `Rates are based on ${MIN_START_YEAR} figures. Enter ${MIN_START_YEAR} or a later year.`;
-    return null;
-  })();
-  const [customIncrease, setCustomIncrease] = useState<number | null>(null);
-  const [includeLiving, setIncludeLiving] = useState(false);
-  const [lifestyle, setLifestyle] = useState<Lifestyle>("moderate");
-  // The student's own monthly living budget, per university.
-  const [customLiving, setCustomLiving] = useState<
-    Record<string, MonthlyLiving>
-  >({});
-  // Which part of the cost the bars compare.
-  const [compare, setCompare] = useState<CompareCategory>("total");
-  const options = useMemo(
-    () => optionsFor(universities, level),
-    [universities, level],
-  );
-  const available = (o: Option) =>
-    unavailableReason(o, residency, startYear) === null;
-  // One university to start with; "Compare another university" adds up to two more.
-  const [selected, setSelected] = useState<string[]>(() => {
-    const o = defaultPick(
-      options,
-      (x) => unavailableReason(x, residency, startYear) === null,
-      [],
-    );
-    return o ? [o.key] : [];
-  });
-  const chosen = selected
-    .map((k) => options.find((o) => o.key === k))
-    .filter((o): o is Option => !!o);
-
-  function changeLevel(nextLevel: Level) {
-    setLevel(nextLevel);
-    setSelected((prev) =>
-      reselect(prev, options, optionsFor(universities, nextLevel), available),
-    );
-  }
-
-  /** Puts a programme in comparison slot `i`. */
-  function setSlot(i: number, key: string) {
-    setSelected((prev) => {
-      const next = prev.slice(0, MAX_SELECTED);
-      next[i] = key;
-      return next;
-    });
-  }
-
-  function addSlot() {
-    setSelected((prev) => {
-      if (prev.length >= MAX_SELECTED) return prev;
-      const taken = prev
-        .map((k) => options.find((o) => o.key === k))
-        .filter((o): o is Option => !!o);
-      const o = defaultPick(
-        options,
-        available,
-        taken,
-        taken[taken.length - 1]?.programme.field,
-      );
-      return o ? [...prev, o.key] : prev;
-    });
-  }
-
-  function removeSlot(i: number) {
-    setSelected((prev) => prev.filter((_, j) => j !== i));
-  }
-
-  const selections: Selection[] = options
-    .filter((o) => selected.includes(o.key) && available(o))
-    .map((o) => {
-      const country = countryByCode.get(o.university.country);
-      const tier = o.university.country === "sg" ? residency : "international";
-      const increase = universityIncrease(
-        o.university,
-        tier,
-        country,
-        o.programme.partner,
-      );
-      const feeIncrease = customIncrease ?? increase.rate;
-      const result = calculate({
-        programme: o.programme,
-        currency: o.university.currency,
-        residency,
-        startYear,
-        feeIncrease,
-        strictTier: o.university.country === "sg",
-      });
-      const sgd = (n: number) => toSgd(n, o.university.currency, fx);
-      const sum = (pick: (y: CalcResult["years"][number]) => number) =>
-        sgd(result.years.reduce((s, y) => s + pick(y), 0));
-
-      let living: LivingResult | null = null;
-      let livingNote: string | null = null;
-      const estimate = o.university.livingCosts;
-      if (includeLiving) {
-        if (o.university.country === "sg")
-          livingNote =
-            "Living costs are not included for Singapore universities.";
-        else if (!estimate)
-          livingNote = "No living-cost estimate from this university yet.";
-        else {
-          const custom = customLiving[o.university.id];
-          const increase = country?.livingCostIncrease ?? 0.03;
-          const years = livingCostsByYear({
-            living: estimate,
-            years: result.years,
-            lifestyle,
-            increase,
-            custom,
-          });
-          const totalLocal = years.reduce((t, y) => t + y.amount, 0);
-          const scale = custom ? 1 : LIFESTYLE_MULTIPLIER[lifestyle];
-          const monthly =
-            custom ??
-            (Object.fromEntries(
-              LIVING_CATEGORIES.map((c) => [c, estimate.monthly[c] * scale]),
-            ) as MonthlyLiving);
-          living = {
-            estimate,
-            monthly,
-            customised: !!custom,
-            increase,
-            years,
-            totalLocal,
-            totalSgd: sgd(totalLocal),
-          };
-        }
-      }
-
-      const totalSgd = sgd(result.totalLocal);
-      return {
-        ...o,
-        result,
-        feeIncrease,
-        increase,
-        fxRate:
-          o.university.currency === "SGD" ? 1 : fx.rates[o.university.currency],
-        totalSgd,
-        grandTotalSgd: totalSgd + (living?.totalSgd ?? 0),
-        yearsSgd: {
-          tuition: sum((y) => y.tuition),
-          compulsoryFees: sum((y) => y.compulsoryFees),
-          oneOffFees: sum((y) => y.oneOffFees),
-          living: living?.totalSgd ?? 0,
-        },
-        living,
-        livingNote,
-      };
-    })
-    .sort((a, b) => a.grandTotalSgd - b.grandTotalSgd);
-
-  // Only cost parts that are present can be compared on their own.
-  const categories: [CompareCategory, string][] = [
-    ["total", "Total"],
-    ...SEGMENTS.filter((seg) =>
-      selections.some((s) => s.yearsSgd[seg.key] > 0),
-    ).map(
-      (seg) =>
-        [
-          seg.key,
-          seg.key === "compulsoryFees"
-            ? "Other fees"
-            : seg.key === "oneOffFees"
-              ? "One-off"
-              : seg.label,
-        ] as [CompareCategory, string],
-    ),
-  ];
-  const category = categories.some(([c]) => c === compare) ? compare : "total";
+}: {
+  state: ReturnType<typeof useCalculator>;
+  today: string;
+}) {
+  const {
+    countryByCode,
+    level,
+    changeLevel,
+    residency,
+    setResidency,
+    startYearInput,
+    startYearError,
+    typeStartYear,
+    customIncrease,
+    setCustomIncrease,
+    includeLiving,
+    setIncludeLiving,
+    lifestyle,
+    setLifestyle,
+    setCustomLivingFor,
+    category,
+    categories,
+    setCompare,
+    reasonFor,
+    selected,
+    chosen,
+    setSlot,
+    addSlot,
+    removeSlot,
+    selections,
+    grouped,
+    baseYearLabel,
+  } = state;
 
   // On phones the options panel comes first, so a bottom bar links to the results.
   const resultsRef = useRef<HTMLElement>(null);
@@ -451,23 +97,7 @@ export default function Calculator({
     return () => io.disconnect();
   }, []);
 
-  const grouped = COUNTRY_ORDER.map((code) => ({
-    country: countryByCode.get(code as Country["code"]),
-    options: options.filter((o) => o.university.country === code),
-  })).filter((g) => g.options.length > 0);
-
   const select = `mt-1 w-full rounded-md border border-border bg-surface px-3 py-2${FOCUS}`;
-
-  // The published fee year(s) the projections start from.
-  const baseYears = [
-    ...new Set(selections.map((s) => s.programme.feeYear)),
-  ].sort();
-  const baseYearLabel =
-    baseYears.length === 0
-      ? String(thisYear)
-      : baseYears.length === 1
-        ? String(baseYears[0])
-        : `${baseYears[0]}–${baseYears[baseYears.length - 1]}`;
 
   return (
     <div className="grid gap-6 lg:grid-cols-[22rem_1fr]">
@@ -519,12 +149,7 @@ export default function Calculator({
               aria-describedby="start-year-hint"
               className={`${select} tabular-nums${startYearError ? " border-warn-fg" : ""}`}
               value={startYearInput}
-              onChange={(e) => {
-                const t = e.target.value.replace(/[^0-9]/g, "").slice(0, 4);
-                setStartYearInput(t);
-                const y = Number(t);
-                if (/^\d{4}$/.test(t) && y >= MIN_START_YEAR) setStartYear(y);
-              }}
+              onChange={(e) => typeStartYear(e.target.value)}
             />
             <span
               id="start-year-hint"
@@ -654,7 +279,7 @@ export default function Calculator({
               current={o}
               others={chosen.filter((_, j) => j !== i)}
               grouped={grouped}
-              reasonFor={(x) => unavailableReason(x, residency, startYear)}
+              reasonFor={reasonFor}
               onChange={(key) => setSlot(i, key)}
               onRemove={i > 0 ? () => removeSlot(i) : undefined}
             />
@@ -743,12 +368,7 @@ export default function Calculator({
                             : "md:px-4"
                     }
                     onCustomLiving={(m) =>
-                      setCustomLiving((prev) => {
-                        const next = { ...prev };
-                        if (m) next[s.university.id] = m;
-                        else delete next[s.university.id];
-                        return next;
-                      })
+                      setCustomLivingFor(s.university.id, m)
                     }
                   />
                 ))}
@@ -782,11 +402,6 @@ export default function Calculator({
       )}
     </div>
   );
-}
-
-interface CountryGroup {
-  country?: Country;
-  options: Option[];
 }
 
 /** One comparison slot: country, university, field of study and (if several) programme. */
@@ -838,20 +453,8 @@ function UniversityPicker({
 
   // Prefer a programme that can be priced for this student, in the same field as now; avoid duplicating another slot.
   const taken = new Set(others.map((o) => o.key));
-  const pick = (
-    candidates: Option[],
-    field: Field = current.programme.field,
-  ) => {
-    const ok = candidates.filter(
-      (o) => reasonFor(o) === null && !taken.has(o.key),
-    );
-    return (
-      ok.find((o) => o.programme.field === field) ??
-      ok[0] ??
-      candidates.find((o) => o.programme.field === field) ??
-      candidates[0]
-    );
-  };
+  const pick = (candidates: Option[], field: Field = current.programme.field) =>
+    pickProgramme(candidates, field, reasonFor, taken);
 
   return (
     <fieldset className="rounded-md border border-border bg-surface/60 p-3">
@@ -998,26 +601,6 @@ function UniversityPicker({
   );
 }
 
-/** One line saying where the automatic rates come from. */
-function increaseBasisNote(selections: Selection[]): string {
-  if (selections.length === 0)
-    return "Each university's own past fee rises, applied after its published fee year.";
-  const own = selections.filter((s) => s.increase.basis !== "country");
-  const years = own.flatMap((s) => [s.increase.from!, s.increase.to!]);
-  const span = years.length
-    ? `${Math.min(...years)}–${Math.max(...years)}`
-    : "";
-  if (own.length === selections.length) {
-    return `From each university's published fees, ${span}; applied to years after the published fee year.`;
-  }
-  const fallback = selections
-    .filter((s) => s.increase.basis === "country")
-    .map((s) => s.university.name);
-  return own.length
-    ? `From published fees ${span}; ${fallback.join(", ")} has too little history, so its country's typical rate is used.`
-    : `${fallback.join(", ")} has too little fee history, so the country's typical rate is used.`;
-}
-
 function Segmented<T extends string>({
   label,
   value,
@@ -1068,590 +651,5 @@ function Segmented<T extends string>({
         ))}
       </div>
     </div>
-  );
-}
-
-/** True when the university charges no tuition at all for this programme (e.g. most German public universities). */
-function noTuition(result: CalcResult): boolean {
-  return result.years.length > 0 && result.years.every((y) => y.tuition === 0);
-}
-
-/** One headline tile per university: the total, and how it compares with the cheapest. */
-function StatTiles({
-  selections,
-  countryByCode,
-}: {
-  selections: Selection[];
-  countryByCode: Map<string, Country>;
-}) {
-  // Selections are sorted by total, so the first is the cheapest.
-  const cheapest = selections[0];
-  const cols =
-    selections.length === 3
-      ? "sm:grid-cols-3"
-      : selections.length === 2
-        ? "sm:grid-cols-2"
-        : "";
-  return (
-    <div className={`grid gap-4 ${cols}`}>
-      {selections.map((s, i) => {
-        const diff = s.grandTotalSgd - cheapest.grandTotalSgd;
-        return (
-          <div
-            key={s.key}
-            className="rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5"
-          >
-            <p className="text-xs font-medium uppercase tracking-wide text-muted">
-              {countryByCode.get(s.university.country)?.name} ·{" "}
-              {s.university.city}
-            </p>
-            <h2 className="mt-1 font-semibold leading-snug">
-              <UniversityName university={s.university} />
-            </h2>
-            <p className="mt-0.5 text-sm text-muted">
-              {programmeLabel(s.university, s.programme)}
-            </p>
-            <p className="mt-2 text-3xl font-semibold text-accent tabular-nums">
-              {formatMoney(s.grandTotalSgd, "SGD")}
-            </p>
-            <p className="mt-1 text-sm tabular-nums">
-              <InfoTip term="perYear">
-                ≈ {formatMoney(s.grandTotalSgd / s.result.durationYears, "SGD")}{" "}
-                a year ·{" "}
-                {formatMoney(
-                  s.grandTotalSgd / s.result.durationYears / 12,
-                  "SGD",
-                )}{" "}
-                a month
-              </InfoTip>
-            </p>
-            {noTuition(s.result) && (
-              <p className="mt-1 text-sm text-muted">
-                No tuition: semester contribution only
-              </p>
-            )}
-            {s.living && (
-              <p className="mt-1 text-sm text-muted tabular-nums">
-                Fees {formatMoney(s.totalSgd, "SGD")} + living{" "}
-                {formatMoney(s.living.totalSgd, "SGD")}
-              </p>
-            )}
-            {selections.length > 1 && (
-              <p className="mt-1 text-sm tabular-nums">
-                {i === 0
-                  ? `Cheapest of the ${selections.length === 3 ? "three" : "two"}`
-                  : diff === 0
-                    ? `Same as ${cheapest.university.name}`
-                    : `${formatMoney(diff, "SGD")} more than ${cheapest.university.name}`}
-              </p>
-            )}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
-/** Year-by-year fees, living costs and sources for one university. */
-function ResultDetail({
-  s,
-  today,
-  country,
-  lifestyle,
-  className,
-  onCustomLiving,
-}: {
-  s: Selection;
-  today: string;
-  country?: Country;
-  lifestyle: Lifestyle;
-  className: string;
-  onCustomLiving: (m: MonthlyLiving | null) => void;
-}) {
-  const { university: u, programme: p, result } = s;
-  const partner = partnerOf(u, p);
-  const cur = u.currency;
-  // Units of the local currency per S$1, so local ÷ rate = SGD.
-  const sgd = (n: number) => n / s.fxRate;
-  const stale = isStale(p.lastVerified, new Date(today));
-  const hasCompulsory = result.years.some((y) => y.compulsoryFees > 0);
-  const hasOneOff = result.years.some((y) => y.oneOffFees > 0);
-  const num = `whitespace-nowrap py-1 text-right font-normal ${hasCompulsory && hasOneOff ? "pl-2" : "pl-3"}`;
-  // Cohort-locked programmes are priced at the start year's fee throughout.
-  const historyYears = new Set(
-    result.years
-      .filter((y) => y.basis === "history")
-      .map((y) =>
-        p.cohortLocked ? result.years[0].academicYear : y.academicYear,
-      ),
-  );
-  const historySources = p.feeHistory
-    .filter(
-      (h) =>
-        h.tier === result.tier &&
-        historyYears.has(h.feeYear) &&
-        h.sourceUrl &&
-        h.sourceUrl !== p.sourceUrl,
-    )
-    .map((h) => ({ year: h.feeYear, url: h.sourceUrl! }));
-
-  return (
-    <article
-      className={`min-w-0 ${className}${className ? " md:row-span-3 md:grid md:grid-rows-subgrid" : ""}`}
-    >
-      <div>
-        <p className="text-xs font-medium uppercase tracking-wide text-muted">
-          {country?.name} · {u.city}
-        </p>
-        <h3 className="mt-1 font-semibold leading-snug">
-          <UniversityName university={u} />
-        </h3>
-        <p className="text-sm text-muted">
-          {programmeLabel(u, p)} · {result.durationYears}{" "}
-          {result.durationYears === 1 ? "year" : "years"}
-        </p>
-        {p.majors && (
-          <p className="mt-1 text-xs text-muted">
-            Majors: {p.majors.join(", ")}
-          </p>
-        )}
-        {partner?.description && (
-          <p className="mt-1 text-xs text-muted">{partner.description}</p>
-        )}
-        <p className="mt-2 text-sm tabular-nums">
-          {formatMoney(s.grandTotalSgd, "SGD")}
-          {cur !== "SGD" && (
-            <span className="text-muted">
-              {" "}
-              ={" "}
-              {formatMoney(
-                result.totalLocal + (s.living?.totalLocal ?? 0),
-                cur,
-              )}{" "}
-              at S$1 ={" "}
-              {s.fxRate.toLocaleString("en-SG", { maximumFractionDigits: 4 })}{" "}
-              {cur}
-            </span>
-          )}
-        </p>
-
-        <div className="mt-3 flex flex-wrap gap-1.5 text-xs">
-          <Badge
-            term={
-              result.tier === "international"
-                ? "internationalRate"
-                : result.tier === "citizen"
-                  ? "citizenRate"
-                  : "prRate"
-            }
-          >
-            {result.tier === "international"
-              ? "International rate"
-              : `${result.tier === "citizen" ? "Citizen" : "PR"} rate`}
-          </Badge>
-          {noTuition(result) && (
-            <Badge term="noTuition">No tuition fees</Badge>
-          )}
-          {p.cohortLocked && (
-            <Badge term="cohortLocked">Fee fixed for your cohort</Badge>
-          )}
-          {result.projected &&
-            (s.feeIncrease > 0 ? (
-              <Badge term="projected">
-                {p.cohortLocked
-                  ? "Entry-year fee projected at"
-                  : "Includes projected"}{" "}
-                +{(s.feeIncrease * 100).toFixed(1)}%/yr
-              </Badge>
-            ) : (
-              <Badge term="projected">Future years assume no increase</Badge>
-            ))}
-          {result.laterYearFees && (
-            <Badge term={result.laterYearsEstimated ? "laterYearsEstimated" : "laterYears"}>
-              {result.laterYearsEstimated
-                ? "Later years estimated from programme total"
-                : "Later years priced at their own fee"}
-            </Badge>
-          )}
-          {result.otherFeesFromCurrent && (
-            <Badge term="otherFeesCurrent">Other fees use current rates</Badge>
-          )}
-          {p.sourceType === "secondary" && (
-            <Badge warn term="unofficialSource">
-              Unofficial source
-            </Badge>
-          )}
-          {stale && (
-            <Badge warn term="outdated">
-              Data may be outdated
-            </Badge>
-          )}
-        </div>
-      </div>
-
-      <div className="mt-4 overflow-x-auto">
-        <table
-          className={`w-full tabular-nums ${(hasCompulsory && hasOneOff) || className ? "text-xs" : "text-sm"}`}
-        >
-          <caption className="sr-only">University fees by year in SGD</caption>
-          <thead className="text-left text-xs text-muted">
-            <tr>
-              <th className="py-1 pr-2 font-medium">Year</th>
-              <th className={num}>Tuition</th>
-              {hasCompulsory && (
-                <th className={num}>
-                  <InfoTip term="compulsoryFees" align="right">
-                    Other fees
-                  </InfoTip>
-                </th>
-              )}
-              {hasOneOff && (
-                <th className={num}>
-                  <InfoTip term="oneOffFees" align="right">
-                    One-off
-                  </InfoTip>
-                </th>
-              )}
-              <th className={num}>Fees (SGD)</th>
-            </tr>
-          </thead>
-          <tbody>
-            {result.years.map((y, i) => (
-              <tr
-                key={y.academicYear}
-                className="border-t border-border align-top"
-              >
-                <td className="py-1 pr-2">
-                  {y.academicYear}
-                  {y.fraction < 1 && <span className="text-muted"> (½)</span>}
-                  {y.laterYear && (
-                    <span className="block text-xs text-muted">
-                      year {i + 1} fee
-                    </span>
-                  )}
-                  {y.basis !== "current" && (
-                    <span className="block text-xs text-muted">
-                      {i === 0 || result.years[i - 1].basis !== y.basis ? (
-                        // Explain the term once per run of years, not on every row.
-                        <InfoTip
-                          term={
-                            y.basis === "history" ? "published" : "projected"
-                          }
-                        >
-                          {y.basis === "history" ? "published" : "projected"}
-                        </InfoTip>
-                      ) : y.basis === "history" ? (
-                        "published"
-                      ) : (
-                        "projected"
-                      )}
-                    </span>
-                  )}
-                </td>
-                <td className={num}>
-                  {y.tuition === 0 ? (
-                    <span className="text-muted">None</span>
-                  ) : (
-                    formatMoney(sgd(y.tuition), "SGD")
-                  )}
-                </td>
-                {hasCompulsory && (
-                  <td className={num}>
-                    {formatMoney(sgd(y.compulsoryFees), "SGD")}
-                  </td>
-                )}
-                {hasOneOff && (
-                  <td className={num}>
-                    {formatMoney(sgd(y.oneOffFees), "SGD")}
-                  </td>
-                )}
-                <td className={`${num} font-medium`}>
-                  {formatMoney(sgd(y.total), "SGD")}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div>
-        {s.living && (
-          <LivingSection
-            living={s.living}
-            currency={cur}
-            fxRate={s.fxRate}
-            lifestyle={lifestyle}
-            today={today}
-            onCustom={onCustomLiving}
-          />
-        )}
-        {s.livingNote && (
-          <p className="mt-4 rounded-md bg-chip px-3 py-2 text-xs text-muted">
-            {s.livingNote}
-          </p>
-        )}
-
-        {p.summary && (
-          <MoreNotes label="Show more about this fee" href={p.sourceUrl}>
-            {p.summary}
-          </MoreNotes>
-        )}
-        <p className="mt-3 text-xs text-muted">
-          {p.feeYear}/{String((p.feeYear + 1) % 100).padStart(2, "0")} fees ·{" "}
-          <a
-            className="text-accent underline hover:text-foreground"
-            href={p.sourceUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            source
-          </a>{" "}
-          · checked {p.lastVerified}
-          {historySources.map((h) => (
-            <span key={h.year}>
-              {" · "}
-              <a
-                className="text-accent underline hover:text-foreground"
-                href={h.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {h.year} source
-              </a>
-            </span>
-          ))}
-        </p>
-      </div>
-    </article>
-  );
-}
-
-/** A short plain-English explanation behind a "Show more" toggle, with a link to the source for detail. */
-function MoreNotes({
-  label,
-  href,
-  children,
-}: {
-  label: string;
-  href: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <details className="mt-2 text-xs">
-      <summary
-        className={`cursor-pointer py-1.5 font-medium text-accent sm:py-0.5${FOCUS} rounded`}
-      >
-        {label}
-      </summary>
-      <p className="mt-1 text-muted">{children}</p>
-      <a
-        className={`mt-1 inline-flex items-center gap-1 rounded font-medium text-accent hover:text-foreground${FOCUS}`}
-        href={href}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Read more at source <span aria-hidden="true">↗</span>
-      </a>
-    </details>
-  );
-}
-
-function Badge({
-  children,
-  warn,
-  term,
-}: {
-  children: React.ReactNode;
-  warn?: boolean;
-  term?: GlossaryTerm;
-}) {
-  return (
-    <span
-      className={`rounded-full px-2 py-0.5 ${warn ? "bg-warn-bg text-warn-fg" : "bg-chip text-muted"}`}
-    >
-      {term ? <InfoTip term={term}>{children}</InfoTip> : children}
-    </span>
-  );
-}
-
-function LivingSection({
-  living,
-  currency: cur,
-  fxRate,
-  lifestyle,
-  today,
-  onCustom,
-}: {
-  living: LivingResult;
-  currency: string;
-  /** Units of `currency` per S$1. */
-  fxRate: number;
-  lifestyle: Lifestyle;
-  today: string;
-  onCustom: (m: MonthlyLiving | null) => void;
-}) {
-  const e = living.estimate;
-  const sgd = (n: number) => n / fxRate;
-  const stale = isStale(e.lastVerified, new Date(today));
-  const projected = living.years.some((y) => y.projected);
-  // Some sources (e.g. a visa minimum) give one total, stored under housing.
-  const breakdown =
-    living.customised ||
-    e.monthly.food + e.monthly.transport + e.monthly.personal > 0;
-  return (
-    <section className="mt-5 border-t border-border pt-4">
-      <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h3 className="text-sm font-semibold">
-          <span
-            className="mr-1.5 inline-block h-2.5 w-2.5 rounded-sm bg-series-4"
-            aria-hidden
-          />
-          Living costs
-        </h3>
-        <span className="text-sm font-medium tabular-nums">
-          {formatMoney(living.totalSgd, "SGD")}
-        </span>
-      </div>
-      <p className="mt-0.5 text-xs text-muted">
-        {living.customised
-          ? "Your own budget"
-          : `${lifestyle[0].toUpperCase()}${lifestyle.slice(1)} lifestyle`}{" "}
-        · {formatMoney(sgd(monthlyTotal(living.monthly)), "SGD")} a month (
-        {formatMoney(monthlyTotal(living.monthly), cur)}) × {e.months} months a
-        year
-        {projected &&
-          ` · later years +${(living.increase * 100).toFixed(1)}%/yr inflation`}
-      </p>
-      {breakdown ? (
-        <dl className="mt-2 grid gap-x-4 gap-y-0.5 text-xs tabular-nums sm:grid-cols-2 lg:grid-cols-1">
-          {LIVING_CATEGORIES.map((c) => (
-            <div key={c} className="flex justify-between gap-2">
-              <dt className="text-muted">{LIVING_LABELS[c]}</dt>
-              <dd>{formatMoney(sgd(living.monthly[c]), "SGD")}/mo</dd>
-            </div>
-          ))}
-        </dl>
-      ) : (
-        <p className="mt-2 text-xs text-muted">
-          This estimate is a single total, not split by category.
-        </p>
-      )}
-      <p className="mt-2 text-xs text-muted tabular-nums">
-        {living.years
-          .map((y) => `${y.academicYear}: ${formatMoney(sgd(y.amount), "SGD")}`)
-          .join(" · ")}
-      </p>
-
-      <details className="mt-2 text-sm">
-        <summary className="cursor-pointer py-2 text-xs font-medium text-accent sm:py-0">
-          Customise this budget
-        </summary>
-        <CustomLiving
-          key={JSON.stringify(living.monthly)}
-          initial={living.monthly}
-          currency={cur}
-          onSave={onCustom}
-          customised={living.customised}
-        />
-      </details>
-
-      <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
-        {e.sourceType === "secondary" && (
-          <Badge warn term="unofficialSource">
-            Unofficial source
-          </Badge>
-        )}
-        {stale && (
-          <Badge warn term="outdated">
-            Estimate may be outdated
-          </Badge>
-        )}
-      </div>
-      {e.summary && (
-        <MoreNotes label="Show more about this estimate" href={e.sourceUrl}>
-          {e.summary}
-        </MoreNotes>
-      )}
-      <p className="mt-1 text-xs text-muted">
-        {e.year} estimate ·{" "}
-        <a
-          className="text-accent underline hover:text-foreground"
-          href={e.sourceUrl}
-          target="_blank"
-          rel="noreferrer"
-        >
-          source
-        </a>{" "}
-        · checked {e.lastVerified}
-      </p>
-    </section>
-  );
-}
-
-function CustomLiving({
-  initial,
-  currency,
-  customised,
-  onSave,
-}: {
-  initial: MonthlyLiving;
-  currency: string;
-  customised: boolean;
-  onSave: (m: MonthlyLiving | null) => void;
-}) {
-  const [draft, setDraft] = useState<MonthlyLiving>(
-    () =>
-      Object.fromEntries(
-        LIVING_CATEGORIES.map((c) => [c, Math.round(initial[c])]),
-      ) as MonthlyLiving,
-  );
-  return (
-    <form
-      className="mt-2 space-y-2"
-      onSubmit={(ev) => {
-        ev.preventDefault();
-        onSave(draft);
-      }}
-    >
-      <div className="grid grid-cols-2 gap-2">
-        {LIVING_CATEGORIES.map((c) => (
-          <label key={c} className="text-xs">
-            <span className="text-muted">
-              {LIVING_LABELS[c]} ({currency} a month)
-            </span>
-            <input
-              type="number"
-              min={0}
-              step="any"
-              className={`mt-0.5 w-full rounded-md border border-border bg-surface px-2 py-1 text-right tabular-nums${FOCUS}`}
-              value={draft[c]}
-              onChange={(ev) =>
-                setDraft({
-                  ...draft,
-                  [c]: Math.max(0, Number(ev.target.value)),
-                })
-              }
-            />
-          </label>
-        ))}
-      </div>
-      <div className="flex gap-2">
-        <button
-          type="submit"
-          className={`rounded-md bg-accent-fill px-3 py-1 text-xs font-medium text-on-accent${FOCUS}`}
-        >
-          Use my budget
-        </button>
-        {customised && (
-          <button
-            type="button"
-            className={`rounded-md border border-border px-3 py-1 text-xs${FOCUS}`}
-            onClick={() => onSave(null)}
-          >
-            Reset to university estimate
-          </button>
-        )}
-      </div>
-    </form>
   );
 }

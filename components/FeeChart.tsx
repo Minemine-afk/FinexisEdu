@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { formatCompactSgd, formatMoney, programmeLabel } from "@/lib/format";
-import type { Selection } from "./Calculator";
+import type { Selection } from "./useCalculator";
 import UniversityName from "./UniversityName";
 
 export const SEGMENTS = [
