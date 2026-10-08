@@ -33,6 +33,7 @@ const base = {
   sourceType: "official" as const,
   cohortLocked: false,
   internationalEligible: true,
+  laterYears: [],
 };
 
 describe("universityIncrease", () => {

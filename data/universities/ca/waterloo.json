@@ -116,8 +116,8 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "First-year tuition for international students (two terms). A co-op fee starting in Year 2 is not included. Compulsory fees included; not fixed; health insurance is extra.",
-      "notes": "Fall 2026 international schedule: Accounting & Financial Management co-op term 1A $27,010 + 1B $27,010 maximum tuition. Fees = incidental fees $1,341.21 x 2; the $836 co-op fee starts in term 2A and is excluded. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
+      "summary": "Year 1 tuition is C$54,020 plus about C$2,680 in fees. From year 2 a co-op fee of C$836 a term (about C$1,670 a year) is added. Fees rise each year; health insurance is extra.",
+      "notes": "Fall 2026 international schedule: Accounting & Financial Management co-op term 1A $27,010 + 1B $27,010 maximum tuition. Fees = incidental fees $1,341.21 x 2; the $836 co-op fee starts in term 2A and is excluded. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -134,6 +134,14 @@
           "annualCompulsoryFees": 2470.6,
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 54020,
+          "annualCompulsoryFees": 4354.42,
+          "estimate": true
         }
       ]
     },

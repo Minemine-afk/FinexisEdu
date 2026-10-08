@@ -1,4 +1,4 @@
-import type { FeeTier, FxRates, Programme, Tier } from "./schema";
+import type { FeeTier, FxRates, LaterYearFee, Programme, Tier } from "./schema";
 
 export type Residency = "citizen" | "pr" | "international";
 
@@ -24,6 +24,8 @@ export interface YearBreakdown {
   fraction: number;
   /** "history": an earlier year's published fee; "current": the latest published fee; "projected": grown from it. */
   basis: "history" | "current" | "projected";
+  /** True when this year of study has its own published fee (see `Programme.laterYears`). */
+  laterYear: boolean;
   tuition: number;
   compulsoryFees: number;
   oneOffFees: number;
@@ -37,6 +39,10 @@ export interface CalcResult {
   projected: boolean;
   /** True when an earlier year's tuition was published without its other fees, so current ones were used. */
   otherFeesFromCurrent: boolean;
+  /** True when later years of study are priced from their own published fee rather than the first year's. */
+  laterYearFees: boolean;
+  /** True when a later-year fee was derived from a programme total rather than quoted per year. */
+  laterYearsEstimated: boolean;
   /**
    * Fee years needed but not on file: the start year for cohort-locked
    * programmes, else each missing academic year. When non-empty, `years` and `totalLocal` are incomplete and must
@@ -105,13 +111,22 @@ export function feesForYear(programme: Programme, tier: Tier, year: number): Yea
   };
 }
 
+/** The fee published for `yearOfStudy` (1-based) when it differs from the first year's, or undefined. */
+export function laterYearFee(programme: Programme, tier: Tier, yearOfStudy: number): LaterYearFee | undefined {
+  return programme.laterYears
+    .filter((l) => l.fromYear <= yearOfStudy && (!l.tier || l.tier === tier))
+    .sort((a, b) => b.fromYear - a.fromYear)[0];
+}
+
 /**
  * Total university fees for a programme, in the university's own currency.
  *
  * Cohort-locked programmes charge the start year's fee for the whole degree;
  * others charge each academic year's fee. Years up to the latest published fee
  * year use published figures (current or `feeHistory`); later years grow the
- * latest fee by `feeIncrease` per year.
+ * latest fee by `feeIncrease` per year. Years of study with their own published
+ * fee (`laterYears`, e.g. clinical years of medicine) use that fee instead of
+ * the first year's, grown the same way.
  */
 export function calculate(input: CalcInput): CalcResult {
   const { programme, residency, startYear, feeIncrease } = input;
@@ -122,6 +137,8 @@ export function calculate(input: CalcInput): CalcResult {
   const missingYears: number[] = [];
   let projected = false;
   let otherFeesFromCurrent = false;
+  let laterYearFees = false;
+  let laterYearsEstimated = false;
   for (let y = 0; y < Math.ceil(durationYears); y++) {
     const academicYear = startYear + y;
     const pricedYear = programme.cohortLocked ? startYear : academicYear;
@@ -136,14 +153,21 @@ export function calculate(input: CalcInput): CalcResult {
       otherFeesFromCurrent = true;
     }
 
+    const later = laterYearFee(programme, tier, y + 1);
+    if (later) {
+      laterYearFees = true;
+      if (later.estimate) laterYearsEstimated = true;
+    }
     const fraction = Math.min(1, durationYears - y);
-    const tuition = yf.fees.annualTuition * fraction * growth;
-    const compulsoryFees = yf.fees.annualCompulsoryFees * fraction * growth;
+    const tuition = (later?.annualTuition ?? yf.fees.annualTuition) * fraction * growth;
+    const compulsoryFees =
+      (later?.annualCompulsoryFees ?? yf.fees.annualCompulsoryFees) * fraction * growth;
     const oneOffFees = y === 0 ? yf.fees.oneOffFees * growth : 0;
     years.push({
       academicYear,
       fraction,
       basis: yf.fromHistory ? "history" : yf.yearsAhead > 0 ? "projected" : "current",
+      laterYear: later !== undefined,
       tuition,
       compulsoryFees,
       oneOffFees,
@@ -156,6 +180,8 @@ export function calculate(input: CalcInput): CalcResult {
     durationYears,
     projected,
     otherFeesFromCurrent,
+    laterYearFees,
+    laterYearsEstimated,
     missingYears,
     years,
     totalLocal: years.reduce((sum, y) => sum + y.total, 0),

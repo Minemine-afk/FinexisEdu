@@ -1266,6 +1266,13 @@ function ResultDetail({
             ) : (
               <Badge term="projected">Future years assume no increase</Badge>
             ))}
+          {result.laterYearFees && (
+            <Badge term={result.laterYearsEstimated ? "laterYearsEstimated" : "laterYears"}>
+              {result.laterYearsEstimated
+                ? "Later years estimated from programme total"
+                : "Later years priced at their own fee"}
+            </Badge>
+          )}
           {result.otherFeesFromCurrent && (
             <Badge term="otherFeesCurrent">Other fees use current rates</Badge>
           )}
@@ -1317,6 +1324,11 @@ function ResultDetail({
                 <td className="py-1 pr-2">
                   {y.academicYear}
                   {y.fraction < 1 && <span className="text-muted"> (½)</span>}
+                  {y.laterYear && (
+                    <span className="block text-xs text-muted">
+                      year {i + 1} fee
+                    </span>
+                  )}
                   {y.basis !== "current" && (
                     <span className="block text-xs text-muted">
                       {i === 0 || result.years[i - 1].basis !== y.basis ? (

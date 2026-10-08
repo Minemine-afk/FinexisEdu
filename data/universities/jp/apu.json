@@ -16,7 +16,7 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 1605000,
+          "annualTuition": 1455000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000
         }
@@ -25,9 +25,15 @@
       "lastVerified": "2026-10-07",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Average yearly tuition before scholarships for 2027 entrants (lower in year 1). The one-off ¥200,000 is the admission fee. Taught in English (a Japanese-basis option exists).",
-      "notes": "Areas of study: Strategic Management and Leadership; Marketing; Accounting and Finance; Entrepreneurship and Operations Management (AACSB and AMBA accredited). 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. No 2026-entry fee table found, so no history.",
-      "feeHistory": []
+      "summary": "Before scholarships, 2027 entrants pay ¥1,455,000 in year 1 and ¥1,655,000 a year in years 2 to 4 (¥6,420,000 over 4 years), plus a one-off ¥200,000 admission fee. Most students get a 30-100% tuition reduction. Taught in English.",
+      "notes": "Areas of study: Strategic Management and Leadership; Marketing; Accounting and Finance; Entrepreneurship and Operations Management (AACSB and AMBA accredited). 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. No 2026-entry fee table found, so no history. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
+      "feeHistory": [],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 1655000
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -37,7 +43,7 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 1605000,
+          "annualTuition": 1455000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000
         }
@@ -46,9 +52,15 @@
       "lastVerified": "2026-10-07",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Average yearly tuition before scholarships for 2027 entrants (lower in year 1). The one-off ¥200,000 is the admission fee. Taught in English (a Japanese-basis option exists).",
-      "notes": "Areas of study: Culture, Society and Media; Global Economy; International Relations. 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. No 2026-entry fee table found, so no history.",
-      "feeHistory": []
+      "summary": "Before scholarships, 2027 entrants pay ¥1,455,000 in year 1 and ¥1,655,000 a year in years 2 to 4 (¥6,420,000 over 4 years), plus a one-off ¥200,000 admission fee. Most students get a 30-100% tuition reduction. Taught in English.",
+      "notes": "Areas of study: Culture, Society and Media; Global Economy; International Relations. 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. No 2026-entry fee table found, so no history. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
+      "feeHistory": [],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 1655000
+        }
+      ]
     },
     {
       "level": "master",
