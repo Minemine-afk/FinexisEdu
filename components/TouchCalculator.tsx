@@ -31,9 +31,9 @@ import {
 import type { Layout } from "./useLayout";
 
 /**
- * The calculator for touch screens. Phones get three tabs (Compare,
- * Universities, Assumptions) behind a bottom tab bar, with the results first;
- * tablets keep the settings in a sidebar beside the results. Both pick a
+ * The calculator for touch screens. Phones get two tabs behind a bottom tab
+ * bar: Settings (the assumptions, then the universities to compare) first and
+ * Compare second; tablets keep the settings in a sidebar beside the results. Both pick a
  * university from a sheet instead of a stack of dropdowns, and every control
  * is at least 44px tall.
  */
@@ -47,7 +47,7 @@ export default function TouchCalculator({
   today: string;
 }) {
   const { selections, chosen, selected, addSlot, grouped } = state;
-  const [tab, setTab] = useState<Tab>("compare");
+  const [tab, setTab] = useState<Tab>("settings");
   // The comparison slot open in the picker sheet, if any.
   const [editing, setEditing] = useState<number | null>(null);
 
@@ -118,14 +118,18 @@ export default function TouchCalculator({
 
   return (
     <div>
+      {tab === "settings" && (
+        <div className="space-y-6">
+          <Assumptions state={state} />
+          <div className="border-t border-border pt-6">{universities}</div>
+        </div>
+      )}
       {tab === "compare" && (
         <div className="space-y-4">
-          <SettingsChips state={state} onOpen={() => setTab("assumptions")} />
+          <SettingsChips state={state} onOpen={() => setTab("settings")} />
           <Results state={state} today={today} layout="phone" />
         </div>
       )}
-      {tab === "universities" && universities}
-      {tab === "assumptions" && <Assumptions state={state} />}
       <TabBar
         tab={tab}
         onChange={setTab}
@@ -138,11 +142,11 @@ export default function TouchCalculator({
   );
 }
 
-type Tab = "compare" | "universities" | "assumptions";
+type Tab = "settings" | "compare";
 
 const BIG_BUTTON = `min-h-11 rounded-lg px-3 text-sm${FOCUS}`;
 
-/** The current settings as a row of chips above the results; tapping one opens Assumptions. */
+/** The current settings as a row of chips above the results; tapping one opens the Settings tab. */
 function SettingsChips({
   state,
   onOpen,
@@ -1124,30 +1128,22 @@ function TabBar({
 }) {
   const tabs: [Tab, string, React.ReactNode][] = [
     [
+      "settings",
+      "Settings",
+      <svg key="s" viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+        <path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" />
+        <circle cx="16" cy="6" r="2" />
+        <circle cx="10" cy="12" r="2" />
+        <circle cx="18" cy="18" r="2" />
+      </svg>,
+    ],
+    [
       "compare",
       "Compare",
       <svg key="c" viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden>
         <rect x="3" y="12" width="4" height="8" rx="1" />
         <rect x="10" y="7" width="4" height="13" rx="1" />
         <rect x="17" y="3" width="4" height="17" rx="1" />
-      </svg>,
-    ],
-    [
-      "universities",
-      "Universities",
-      <svg key="u" viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" aria-hidden>
-        <path d="M3 9l9-5 9 5-9 5-9-5z" />
-        <path d="M7 11.5V16c0 1.5 2.5 3 5 3s5-1.5 5-3v-4.5" />
-      </svg>,
-    ],
-    [
-      "assumptions",
-      "Assumptions",
-      <svg key="a" viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
-        <path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" />
-        <circle cx="16" cy="6" r="2" />
-        <circle cx="10" cy="12" r="2" />
-        <circle cx="18" cy="18" r="2" />
       </svg>,
     ],
   ];
@@ -1172,7 +1168,7 @@ function TabBar({
           <span className="font-medium text-accent">View results</span>
         </button>
       )}
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-2">
         {tabs.map(([t, text, icon]) => (
           <button
             key={t}
