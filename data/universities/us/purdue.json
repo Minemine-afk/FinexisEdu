@@ -1,0 +1,392 @@
+{
+  "id": "purdue",
+  "name": "Purdue University",
+  "country": "us",
+  "city": "West Lafayette, IN",
+  "currency": "USD",
+  "website": "https://www.purdue.edu",
+  "description": "Purdue University is a public research university in West Lafayette, Indiana, founded in 1869 as Indiana's land-grant university. It is known for engineering, aeronautics, computer science and agriculture.",
+  "whyIncluded": "Purdue University is among the 10 universities in the United States most chosen by international students (12,874 international students in 2024-25, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering (BSME)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 35880,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Purdue West Lafayette, including this programme's extra differential charge, plus student fees. Health insurance not included.",
+      "notes": "Bursar's West Lafayette undergraduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Student Tuition $1,655 (2026-27 and 2025-26; $1,155 in 2024-25) = $31,830 a year ($30,830 in 2024-25). Other fees = Student Fitness & Wellness Fee $117 + Student Activity Fee $20 per semester x2 = $274 (same in all three years). No international one-time fee is listed. Purdue does not guarantee nonresident/international rates, so not cohort-locked. Differential general service for 'Computer Science/Data Science & Engineering UG': $4,050 a year in 2026-27, $2,050 in 2025-26, $2,050 in 2024-25 (per semester x2). Per the Board of Trustees' June 2025 tuition memo, the engineering and computer science/data science/AI differential rose by $1,000 a semester for nonresident and international undergraduates enrolling for the first time in fall 2026 or after ($1,025 -> $2,025 per semester); continuing students pay the old rate. The table's footnotes do not say whether First-Year Engineering students pay it, so the full differential is assumed for all four years. Students enter through First-Year Engineering before the Mechanical Engineering major.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32880,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/undergraduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33880,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/undergraduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 35880,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Purdue West Lafayette, including this programme's extra differential charge, plus student fees. Health insurance not included.",
+      "notes": "Bursar's West Lafayette undergraduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Student Tuition $1,655 (2026-27 and 2025-26; $1,155 in 2024-25) = $31,830 a year ($30,830 in 2024-25). Other fees = Student Fitness & Wellness Fee $117 + Student Activity Fee $20 per semester x2 = $274 (same in all three years). No international one-time fee is listed. Purdue does not guarantee nonresident/international rates, so not cohort-locked. Differential general service for 'Computer Science/Data Science & Engineering UG': $4,050 a year in 2026-27, $2,050 in 2025-26, $2,050 in 2024-25 (per semester x2). Per the Board of Trustees' June 2025 tuition memo, the engineering and computer science/data science/AI differential rose by $1,000 a semester for nonresident and international undergraduates enrolling for the first time in fall 2026 or after ($1,025 -> $2,025 per semester); continuing students pay the old rate. The table's footnotes do not say whether First-Year Engineering students pay it, so the full differential is assumed for all four years.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32880,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/undergraduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33880,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/undergraduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Finance (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 35266,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Purdue West Lafayette, including this programme's extra differential charge, plus student fees. Health insurance not included.",
+      "notes": "Bursar's West Lafayette undergraduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Student Tuition $1,655 (2026-27 and 2025-26; $1,155 in 2024-25) = $31,830 a year ($30,830 in 2024-25). Other fees = Student Fitness & Wellness Fee $117 + Student Activity Fee $20 per semester x2 = $274 (same in all three years). No international one-time fee is listed. Purdue does not guarantee nonresident/international rates, so not cohort-locked. Differential general service for 'Daniels School of Business UG & BA in Economics': $3,436 a year in 2026-27, $1,436 in 2025-26, $1,436 in 2024-25 (per semester x2). The Daniels differential also rose by $1,000 a semester for international undergraduates first enrolling in fall 2026 or after (BoT June 2025 memo).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32266,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/undergraduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33266,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/undergraduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Biology (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 31830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Purdue West Lafayette, plus student fees. Not fixed for your entering class. Health insurance not included.",
+      "notes": "Bursar's West Lafayette undergraduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Student Tuition $1,655 (2026-27 and 2025-26; $1,155 in 2024-25) = $31,830 a year ($30,830 in 2024-25). Other fees = Student Fitness & Wellness Fee $117 + Student Activity Fee $20 per semester x2 = $274 (same in all three years). No international one-time fee is listed. Purdue does not guarantee nonresident/international rates, so not cohort-locked. No differential applies to this programme. College of Science; only Computer Science/Data Science carry a differential there.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/undergraduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/undergraduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English (BA)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 31830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Purdue West Lafayette, plus student fees. Not fixed for your entering class. Health insurance not included.",
+      "notes": "Bursar's West Lafayette undergraduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Student Tuition $1,655 (2026-27 and 2025-26; $1,155 in 2024-25) = $31,830 a year ($30,830 in 2024-25). Other fees = Student Fitness & Wellness Fee $117 + Student Activity Fee $20 per semester x2 = $274 (same in all three years). No international one-time fee is listed. Purdue does not guarantee nonresident/international rates, so not cohort-locked. No differential applies to this programme. College of Liberal Arts.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/undergraduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/undergraduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychological Sciences (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 31830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Purdue West Lafayette, plus student fees. Not fixed for your entering class. Health insurance not included.",
+      "notes": "Bursar's West Lafayette undergraduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Student Tuition $1,655 (2026-27 and 2025-26; $1,155 in 2024-25) = $31,830 a year ($30,830 in 2024-25). Other fees = Student Fitness & Wellness Fee $117 + Student Activity Fee $20 per semester x2 = $274 (same in all three years). No international one-time fee is listed. Purdue does not guarantee nonresident/international rates, so not cohort-locked. No differential applies to this programme. College of Health and Human Sciences.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/undergraduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31830,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/undergraduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Science in Nursing (BSN)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32828,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Purdue West Lafayette, including this programme's extra differential charge, plus student fees. Health insurance not included.",
+      "notes": "Bursar's West Lafayette undergraduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Student Tuition $1,655 (2026-27 and 2025-26; $1,155 in 2024-25) = $31,830 a year ($30,830 in 2024-25). Other fees = Student Fitness & Wellness Fee $117 + Student Activity Fee $20 per semester x2 = $274 (same in all three years). No international one-time fee is listed. Purdue does not guarantee nonresident/international rates, so not cohort-locked. Differential general service for 'Nursing-BSN': $998 a year in 2026-27, $998 in 2025-26, $998 in 2024-25 (per semester x2). College of Health and Human Sciences. The admissions page has no statement restricting international applicants.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31828,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/undergraduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32828,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/undergraduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Mechanical Engineering (MSME)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 30044,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/graduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international graduate students at Purdue West Lafayette, including this programme's differential charge, plus student fees. Health insurance not included.",
+      "notes": "Bursar's West Lafayette graduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Fee $200 (2026-27 and 2025-26; $155 in 2024-25) = $28,920 a year ($28,830 in 2024-25). Other fees = Student Fitness and Wellness $117 + Student Activity $20 per semester x2 = $274. Not cohort-locked. Differential general service 'Computer Science & Engineering' $562 per semester x2 = $1,124 (same in 2024-25, 2025-26 and 2026-27). Duration typical (thesis MS).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29954,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/graduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30044,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/graduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science (MS)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 30044,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/graduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international graduate students at Purdue West Lafayette, including this programme's differential charge, plus student fees. Health insurance not included.",
+      "notes": "Bursar's West Lafayette graduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Fee $200 (2026-27 and 2025-26; $155 in 2024-25) = $28,920 a year ($28,830 in 2024-25). Other fees = Student Fitness and Wellness $117 + Student Activity $20 per semester x2 = $274. Not cohort-locked. Differential general service 'Computer Science & Engineering' $562 per semester x2 = $1,124 (same in 2024-25, 2025-26 and 2026-27). Duration typical.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29954,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/graduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30044,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/graduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "One-Year MBA (Daniels School of Business)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41336,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/graduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the Daniels School's One-Year MBA for two semesters, including the business differential, plus student fees. Any summer term is extra. Health insurance not included.",
+      "notes": "Bursar's West Lafayette graduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Fee $200 (2026-27 and 2025-26; $155 in 2024-25) = $28,920 a year ($28,830 in 2024-25). Other fees = Student Fitness and Wellness $117 + Student Activity $20 per semester x2 = $274. Not cohort-locked. Differential general service 'Daniels School of Business Management (MBA, MSIA, MSHR, MS ACCT)' $6,208 per semester x2 = $12,416 (same in 2024-25, 2025-26 and 2026-27). Annual figure covers fall + spring; the One-Year MBA may include a summer term charged separately (not checked).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41246,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/graduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41336,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/graduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    }
+  ]
+}
