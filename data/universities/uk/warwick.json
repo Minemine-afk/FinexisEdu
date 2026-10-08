@@ -1,0 +1,516 @@
+{
+  "id": "warwick",
+  "name": "University of Warwick",
+  "country": "uk",
+  "city": "Coventry",
+  "currency": "GBP",
+  "website": "https://warwick.ac.uk",
+  "description": "The University of Warwick is a public research university founded in 1965, with its main campus on the southern edge of Coventry in the English Midlands. It is a member of the Russell Group and is known for economics, mathematics, business and computer science.",
+  "whyIncluded": "The University of Warwick is among the 10 universities in the United Kingdom most chosen by international students (9,475 non-UK students in 2024-25, HESA), per the FinexisEdu shortlist research of October 2026; its LLB is on the Singapore Institute of Legal Education's list of overseas scheduled universities and its MBChB on the Singapore Medical Council's list.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37310,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Computer Science (BSc) G400', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35530,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33520,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering MEng",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37310,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Mechanical Engineering (MEng) H302', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35530,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33520,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Mathematics BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37310,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Mathematics (BSc)', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35530,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33520,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Management BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37310,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Management (BSc) N200', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35530,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33520,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Economics BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37310,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Economics (3 years) (BSc) L100', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35530,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33520,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Law LLB",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 29260,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Law (3 years) (LLB) M100', Band 1: 2025-26 £26,290, 2026-27 £27,870, 2027-28 £29,260. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 27870,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26290,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37310,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Psychology (BSc) C800', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35530,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33520,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science MSc",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 37460,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (fetched 2026-10-07), row 'Computer Science (MSc)' (P-G5PD), Full Time, Overseas: 2024-25 £33,340, 2025-26 £35,340, 2026-27 £37,460. No 2027-28 figures were published when checked. The page says fees for each subsequent year of a programme rise annually by inflation; this is a one-year course. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35340,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 33340,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Advanced Mechanical Engineering MSc",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 31670,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (fetched 2026-10-07), row 'Advanced Mechanical Engineering (MSc)' (P-H341), Full Time, Overseas: 2024-25 £28,190, 2025-26 £29,880, 2026-27 £31,670. No 2027-28 figures were published when checked. The page says fees for each subsequent year of a programme rise annually by inflation; this is a one-year course. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29880,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28190,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Mathematics MSc",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 37460,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (fetched 2026-10-07), row 'Mathematics (MSc)' (P-G1P0), Full Time, Overseas: 2024-25 £33,340, 2025-26 £35,340, 2026-27 £37,460. No 2027-28 figures were published when checked. The page says fees for each subsequent year of a programme rise annually by inflation; this is a one-year course. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35340,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 33340,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Management MSc",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38570,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (fetched 2026-10-07), row 'Management (MSc)' (P-N2N3), Full Time, Overseas: 2024-25 £36,250, 2025-26 £37,270, 2026-27 £38,570. No 2027-28 figures were published when checked. The page says fees for each subsequent year of a programme rise annually by inflation; this is a one-year course. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37270,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36250,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Economics MSc",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (fetched 2026-10-07), row 'Economics (MSc)' (P-L1P6), Full Time, Overseas: 2024-25 £31,090, 2025-26 £32,960, 2026-27 £32,960. No 2027-28 figures were published when checked. The page says fees for each subsequent year of a programme rise annually by inflation; this is a one-year course. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32960,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31090,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Clinical Applications of Psychology MSc",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29340,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (fetched 2026-10-07), row 'Clinical Applications of Psychology (MSc)' (P-C8P5), Full Time, Overseas: 2024-25 £26,110, 2025-26 £27,680, 2026-27 £29,340. No 2027-28 figures were published when checked. The page says fees for each subsequent year of a programme rise annually by inflation; this is a one-year course. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 27680,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26110,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Advanced Legal Studies LLM",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 25340,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (fetched 2026-10-07), row 'Advanced Legal Studies (LLM)' (P-M3PJ), Full Time, Overseas: 2024-25 £22,560, 2025-26 £23,910, 2026-27 £25,340. No 2027-28 figures were published when checked. The page says fees for each subsequent year of a programme rise annually by inflation; this is a one-year course. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23910,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22560,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MBChB, graduate entry)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32510,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "First-year tuition for international students starting in 2026. Years 2 to 4 cost much more (£56,660 a year at 2026-27 rates), and fees may rise each year with inflation.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), rows 'Bachelor of Medicine & Bachelor of Surgery (Year 1)' A101 and '(Years 2-4)': 2025-26 £30,670 / £53,460; 2026-27 £32,510 / £56,660; 2027-28 TBA, so the latest published year (2026) is used. Warwick's MBChB is a four-year graduate-entry degree, so it is listed under Master's per the README rule; first-year fee recorded, later-year rate here. Warwick Medical School was added to the Singapore Medical Council's list of registrable qualifications from 1 January 2025 (news reports of the SMC update). Continuing-student fees may rise with an inflationary uplift.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30670,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        }
+      ]
+    }
+  ]
+}

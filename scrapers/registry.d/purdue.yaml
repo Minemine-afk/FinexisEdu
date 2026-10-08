@@ -1,0 +1,11 @@
+sources:
+  # Purdue Bursar fee-rate table: long multi-campus page; fee read by hand
+  - university: purdue
+    country: us
+    url: "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/"
+    manual: true
+  # Purdue Bursar fee-rate table: long multi-campus page; fee read by hand
+  - university: purdue
+    country: us
+    url: "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/graduate-tuition-and-fees-2026-2027/"
+    manual: true

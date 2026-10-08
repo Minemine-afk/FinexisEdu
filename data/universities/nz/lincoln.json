@@ -1,0 +1,162 @@
+{
+  "id": "lincoln",
+  "name": "Lincoln University",
+  "country": "nz",
+  "city": "Lincoln",
+  "currency": "NZD",
+  "website": "https://www.lincoln.ac.nz",
+  "description": "Lincoln University, near Christchurch, began as a school of agriculture in 1878 and is New Zealand's smallest university. It specialises in agriculture, agribusiness, commerce, environment, land and food.",
+  "whyIncluded": "Lincoln University is among the 10 universities in New Zealand most chosen by international students (1,430 international students enrolled in 2025, Ministry of Education provider data), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 35000,
+          "annualCompulsoryFees": 1038,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027, including GST. Student services fee included; insurance is extra.",
+      "notes": "2027: tuition $35,000 + student services fee $1,038 (+ insurance $999). The page's 2027 total shows $36,875, which does not add up (it equals the 2026 total); tuition and SSF lines are used. 2026: $35,000 + SSF $976. 3 years. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35000,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37000,
+          "annualCompulsoryFees": 1038,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027, including GST. Student services fee included; insurance is extra.",
+      "notes": "2027: tuition $37,000 + student services fee $1,038 (+ insurance $999). 2026: $37,000 + SSF $976. 3 years. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37000,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Applied Computing",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 44000,
+          "annualCompulsoryFees": 1038,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST. Student services fee included; insurance is extra.",
+      "notes": "2027: 180 credits, total tuition $66,000 + SSF $1,557 (+ insurance $1,498.50); divided by 1.5 years = $44,000 + $1,038 a year. 2026: $63,000 + $1,464 total = $42,000 + $976 a year. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42000,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business (Global Management and Marketing)",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39333.33,
+          "annualCompulsoryFees": 1038,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST. Student services fee included; insurance is extra.",
+      "notes": "2027: 180 credits, total tuition $59,000 + SSF $1,557 (+ insurance $1,498.50); divided by 1.5 years. Same fee for Master of Business (Finance) and Master of Professional Accounting (CPA). 2026: $57,000 + $1,464 total = $38,000 + $976 a year. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38000,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39000,
+          "annualCompulsoryFees": 1038,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students for a 120-credit year starting in 2027, including GST. Student services fee included; insurance is extra.",
+      "notes": "2027: 120 credits, tuition $39,000 + SSF $1,038 (+ insurance $999). 2026: $37,000 + $976. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37000,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        }
+      ]
+    }
+  ]
+}

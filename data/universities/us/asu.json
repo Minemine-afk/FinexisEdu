@@ -1,0 +1,333 @@
+{
+  "id": "asu",
+  "name": "Arizona State University",
+  "country": "us",
+  "city": "Tempe, AZ",
+  "currency": "USD",
+  "website": "https://www.asu.edu",
+  "description": "Arizona State University is a public research university whose largest campus is in Tempe, Arizona. It is one of the largest universities in the United States by enrolment, known for engineering, business and sustainability.",
+  "whyIncluded": "Arizona State University is among the 10 universities in the United States most chosen by international students (20,368 international students in 2024-25, the most of any US public university, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 2091.0,
+      "food": 0,
+      "transport": 183.33,
+      "personal": 407.0
+    },
+    "sourceUrl": "https://admission.asu.edu/aid/international",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "ASU's own budget for an international undergraduate living on campus for the academic year: housing and meals, travel, books and personal costs. Excludes tuition, fees and health insurance.",
+    "notes": "2026-27 international undergraduate cost of attendance: on-campus housing and meals $18,819 (combined, so all in housing, food 0); travel $1,650; books, course materials, supplies and equipment $1,320 + personal $2,343 = personal. The page does not state months; an academic year (fall + spring) is taken as 9 months."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering, BSE",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41602,
+          "annualCompulsoryFees": 1408,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26international",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at ASU, including the college fee for this programme, plus campus and international student fees. Rises most years; health insurance not included.",
+      "notes": "Fall 2026 international undergraduate table, 12+ credit hours: base international tuition $19,531 + tuition surcharge $175 + Undergraduate College Fee 5 per semester x2 ($1,095; Fee 5 covers Engineering, Business and Nursing). Other fees = Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 (fall 2026 catalog table) + International Student Fee $400 a year (ASU international cost-of-attendance page, 2026-27). Health insurance (about $2,765 a year) excluded. ASU states tuition is subject to change and gives no guarantee to international students, so not cohort-locked. History rows carry tuition only (base + surcharge + college fee x2, from the fall 2025 and fall 2024 catalog tables); the international student fee for those years was not found, so current fees are used. 2025: College Fee 5 level; 2024: College Fee 4 level (the 2024 table had four levels). Ira A. Fulton Schools of Engineering, Tempe.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37370,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39682,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41602,
+          "annualCompulsoryFees": 1408,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26international",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at ASU, including the college fee for this programme, plus campus and international student fees. Rises most years; health insurance not included.",
+      "notes": "Fall 2026 international undergraduate table, 12+ credit hours: base international tuition $19,531 + tuition surcharge $175 + Undergraduate College Fee 5 per semester x2 ($1,095; Fee 5 covers Engineering, Business and Nursing). Other fees = Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 (fall 2026 catalog table) + International Student Fee $400 a year (ASU international cost-of-attendance page, 2026-27). Health insurance (about $2,765 a year) excluded. ASU states tuition is subject to change and gives no guarantee to international students, so not cohort-locked. History rows carry tuition only (base + surcharge + college fee x2, from the fall 2025 and fall 2024 catalog tables); the international student fee for those years was not found, so current fees are used. 2025: College Fee 5 level; 2024: College Fee 4 level (the 2024 table had four levels). Computer Science is in the Ira A. Fulton Schools of Engineering, Tempe.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37370,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39682,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Finance, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41602,
+          "annualCompulsoryFees": 1408,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26international",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at ASU, including the college fee for this programme, plus campus and international student fees. Rises most years; health insurance not included.",
+      "notes": "Fall 2026 international undergraduate table, 12+ credit hours: base international tuition $19,531 + tuition surcharge $175 + Undergraduate College Fee 5 per semester x2 ($1,095; Fee 5 covers Engineering, Business and Nursing). Other fees = Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 (fall 2026 catalog table) + International Student Fee $400 a year (ASU international cost-of-attendance page, 2026-27). Health insurance (about $2,765 a year) excluded. ASU states tuition is subject to change and gives no guarantee to international students, so not cohort-locked. History rows carry tuition only (base + surcharge + college fee x2, from the fall 2025 and fall 2024 catalog tables); the international student fee for those years was not found, so current fees are used. 2025: College Fee 5 level; 2024: College Fee 4 level (the 2024 table had four levels). W. P. Carey School of Business, Tempe.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37370,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39682,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Biological Sciences, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41472,
+          "annualCompulsoryFees": 1408,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26international",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at ASU, including the college fee for this programme, plus campus and international student fees. Rises most years; health insurance not included.",
+      "notes": "Fall 2026 international undergraduate table, 12+ credit hours: base international tuition $19,531 + tuition surcharge $175 + Undergraduate College Fee 4 per semester x2 ($1,030; Fee 4 covers The College sciences, Journalism, Thunderbird, Design and the Arts). Other fees = Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 (fall 2026 catalog table) + International Student Fee $400 a year (ASU international cost-of-attendance page, 2026-27). Health insurance (about $2,765 a year) excluded. ASU states tuition is subject to change and gives no guarantee to international students, so not cohort-locked. History rows carry tuition only (base + surcharge + college fee x2, from the fall 2025 and fall 2024 catalog tables); the international student fee for those years was not found, so current fees are used. 2025: College Fee 4 level; 2024: College Fee 4 level (the 2024 table had four levels). School of Life Sciences, The College of Liberal Arts and Sciences (natural sciences), Tempe.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37370,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39552,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English, BA",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39822,
+          "annualCompulsoryFees": 1408,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26international",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at ASU, including the college fee for this programme, plus campus and international student fees. Rises most years; health insurance not included.",
+      "notes": "Fall 2026 international undergraduate table, 12+ credit hours: base international tuition $19,531 + tuition surcharge $175 + Undergraduate College Fee 2 per semester x2 ($205; Fee 2 covers The College humanities and social sciences). Other fees = Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 (fall 2026 catalog table) + International Student Fee $400 a year (ASU international cost-of-attendance page, 2026-27). Health insurance (about $2,765 a year) excluded. ASU states tuition is subject to change and gives no guarantee to international students, so not cohort-locked. History rows carry tuition only (base + surcharge + college fee x2, from the fall 2025 and fall 2024 catalog tables); the international student fee for those years was not found, so current fees are used. 2025: College Fee 2 level; 2024: College Fee 2 level (the 2024 table had four levels). Department of English, The College of Liberal Arts and Sciences, Tempe.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35820,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37952,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 39822,
+          "annualCompulsoryFees": 1408,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26international",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at ASU, including the college fee for this programme, plus campus and international student fees. Rises most years; health insurance not included.",
+      "notes": "Fall 2026 international undergraduate table, 12+ credit hours: base international tuition $19,531 + tuition surcharge $175 + Undergraduate College Fee 2 per semester x2 ($205; Fee 2 covers The College humanities and social sciences). Other fees = Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 (fall 2026 catalog table) + International Student Fee $400 a year (ASU international cost-of-attendance page, 2026-27). Health insurance (about $2,765 a year) excluded. ASU states tuition is subject to change and gives no guarantee to international students, so not cohort-locked. History rows carry tuition only (base + surcharge + college fee x2, from the fall 2025 and fall 2024 catalog tables); the international student fee for those years was not found, so current fees are used. 2025: College Fee 2 level; 2024: College Fee 2 level (the 2024 table had four levels). Department of Psychology sits in The College's Social Sciences division (degree page), Tempe.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35820,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37952,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25international"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Nursing, BSN",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41602,
+          "annualCompulsoryFees": 1408,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26international",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at ASU, including the college fee for this programme, plus campus and international student fees. Rises most years; health insurance not included.",
+      "notes": "Fall 2026 international undergraduate table, 12+ credit hours: base international tuition $19,531 + tuition surcharge $175 + Undergraduate College Fee 5 per semester x2 ($1,095; Fee 5 covers Engineering, Business and Nursing). Other fees = Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 (fall 2026 catalog table) + International Student Fee $400 a year (ASU international cost-of-attendance page, 2026-27). Health insurance (about $2,765 a year) excluded. ASU states tuition is subject to change and gives no guarantee to international students, so not cohort-locked. History rows carry tuition only (base + surcharge + college fee x2, from the fall 2025 and fall 2024 catalog tables); the international student fee for those years was not found, so current fees are used. 2025: College Fee 5 level; 2024: College Fee 3 level (the 2024 table had four levels). Edson College of Nursing and Health Innovation; taught at Downtown Phoenix and other campuses, not Tempe (the international table applies to all campuses' degree programmes). In 2024 Nursing was in College Fee 3 ($705). ASU directs students to its estimator for programme-specific fees; none is itemised in the catalog table, so clinical/programme fees may be extra.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36840,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24international"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39682,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25international"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Mechanical Engineering, MS",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32210,
+          "annualCompulsoryFees": 1708,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26graduate",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly base tuition for international graduate students at ASU (9 credits a semester), plus campus and international student fees. Some programmes add a programme fee. Health insurance not included.",
+      "notes": "Fall 2026 graduate table, international, 9 credit hours (full time): graduate international tuition $15,930 + tuition surcharge $175 per semester x2. Other fees = Graduate Student Support Fee $150 + Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 + International Student Fee $400 a year (ASU international cost-of-attendance page). Health insurance excluded. ASU says some graduate programmes add differential or programme-specific tuition shown only in its online estimator (not readable here); none is included, so the true cost may be higher. History (tuition only, 9 credits x2): fall 2025 $15,174 + $175; fall 2024 $14,445 (no surcharge line). 30 credit hours; ASU's degree page gives 2 years as typical full-time completion.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28890,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24graduate"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30698,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25graduate"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science, MS",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 32210,
+          "annualCompulsoryFees": 1708,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26graduate",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly base tuition for international graduate students at ASU (9 credits a semester), plus campus and international student fees. Some programmes add a programme fee. Health insurance not included.",
+      "notes": "Fall 2026 graduate table, international, 9 credit hours (full time): graduate international tuition $15,930 + tuition surcharge $175 per semester x2. Other fees = Graduate Student Support Fee $150 + Student-initiated Fee $404 + Advanced Technology Fee $100 per semester x2 + International Student Fee $400 a year (ASU international cost-of-attendance page). Health insurance excluded. ASU says some graduate programmes add differential or programme-specific tuition shown only in its online estimator (not readable here); none is included, so the true cost may be higher. History (tuition only, 9 credits x2): fall 2025 $15,174 + $175; fall 2024 $14,445 (no surcharge line). 30 credit hours; ASU's degree page gives 2 years as typical full-time completion.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28890,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24graduate"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30698,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25graduate"
+        }
+      ]
+    }
+  ]
+}

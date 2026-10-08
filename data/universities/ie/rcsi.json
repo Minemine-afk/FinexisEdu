@@ -1,0 +1,92 @@
+{
+  "id": "rcsi",
+  "name": "RCSI University of Medicine and Health Sciences",
+  "country": "ie",
+  "city": "Dublin",
+  "currency": "EUR",
+  "website": "https://www.rcsi.com",
+  "description": "RCSI University of Medicine and Health Sciences is a specialist health sciences university on St Stephen's Green in Dublin, founded in 1784 as the Royal College of Surgeons in Ireland. It teaches medicine, pharmacy, physiotherapy, nursing and other health programmes only, and its undergraduate degrees are awarded by the National University of Ireland.",
+  "whyIncluded": "RCSI is among the 10 universities in Ireland most chosen by international students (over 60% of its students are international, with about 4,000 students from 90 countries in Dublin, per RCSI), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine MB BCh BAO (school-leaver entry)",
+      "durationYears": 6,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 62000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 135
+        }
+      },
+      "sourceUrl": "https://www.rcsi.com/dublin/undergraduate/medicine/fees-and-funding",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) students entering in 2027/28, plus a one-off EUR 135 NUI registration fee. RCSI says fees rise about 2% a year.",
+      "notes": "RCSI Undergraduate Medicine 'Fees and funding' page, School Leaver Non-EU fees for academic year 2027/28: 'Non-EU Medicine tuition fees EUR 62,000', 'NUI fee (once-off charge) EUR 135', total EUR 62,135. The page says 2026/27 fees will be published once available, so 2027/28 is the latest published year. Programme is 5 or 6 years (6 including the foundation year for school leavers; 6 used here). 'The Non-EU fees for Undergraduate Medicine are subject to annual increases. The inflationary increase has been in the order of 2% per annum for the past number of years.' RCSI's MB BCh BAO is on the Singapore Medical Council's list of registrable basic medical qualifications. No 2024/25 or 2025/26 non-EU figures were found."
+    },
+    {
+      "level": "master",
+      "field": "medicine",
+      "name": "Medicine MB BCh BAO (Graduate Entry)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 63500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 135
+        }
+      },
+      "sourceUrl": "https://www.rcsi.com/dublin/undergraduate/gem/fees-and-funding",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international (non-EU) graduates entering in 2027/28, plus a one-off EUR 135 NUI registration fee. RCSI says fees rise about 2% a year.",
+      "notes": "RCSI Graduate Entry Medicine (GEM) 'Fees and funding' page, Non-EU fees for academic year 2027/28: tuition EUR 63,500 + NUI fee EUR 135 (once-off) = EUR 63,635. 4-year programme. 'Non-EU fees for GEM are subject to annual increases. The inflationary increase has been in the order of 2% per annum.' Graduate-entry medicine sits under Master's per the calculator's convention. No 2024/25 or 2025/26 non-EU figures were found."
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Pharmacy BSc (Hons) / MPharm",
+      "durationYears": 5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 25000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 515
+        }
+      },
+      "sourceUrl": "https://www.rcsi.com/dublin/undergraduate/pharmacy/fees-and-funding",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly list tuition for international students, plus EUR 515 of one-off charges. RCSI currently gives self-funded students a EUR 7,000 yearly scholarship off this fee.",
+      "notes": "RCSI School of Pharmacy and Biomolecular Sciences 'Fees and funding' page, Non-EU fees for the 2026/27 academic year: 'Non-EU Pharmacy tuition fees EUR 25,000', 'RCSI Development Initiative Scholarship (EUR 7,000)', 'Health screening charge (once off charge) EUR 380', 'NUI fee (once off charge) EUR 135', 'Total fees (for academic year 2026/27) EUR 18,515'. RCSI's ATT fees page explains the Development Initiative scholarship is EUR 7,000 per annum to all privately funded students, reducing tuition to EUR 18,000 per annum, so EUR 18,000 is used as annual tuition and EUR 515 (380 + 135) as one-off fees. 5-year programme (BSc Hons after 4, MPharm after year 5). An additional International Pharmacy and Biomolecular Sciences Scholarship may reduce year 1 further; not applied. No 2024/25 or 2025/26 non-EU figures were found. Recorded at the EUR 25,000 list fee (not the EUR 18,000 net of RCSI's automatic EUR 7,000 scholarship) to match how other universities' fees are recorded before scholarships."
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Technologies and Analytics in Precision Medicine",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 25000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://rcsi.com/dublin/postgraduate/taught-courses/technologies-and-analytics-in-precision-medicine-msc/fees-and-funding",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international (non-EU) students for this 1-year full-time master's starting September 2027.",
+      "notes": "RCSI 'Fees and funding' page for the MSc in Technologies and Analytics in Precision Medicine: in person, full-time, 1 year, start September 2027, Non-EU fees EUR 25,000. No other compulsory fees listed. No earlier-year non-EU figures were found."
+    }
+  ]
+}

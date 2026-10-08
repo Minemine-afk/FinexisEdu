@@ -1,0 +1,32 @@
+# New York University: added Oct 2026. All sources are checked by hand (NYU Bursar PDFs refuse automated reading; school pages checked by hand).
+sources:
+  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
+  - university: nyu
+    country: us
+    url: "https://bulletins.nyu.edu/nyu/cost-attendance/"
+    manual: true
+  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
+  - university: nyu
+    country: us
+    url: "https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/full-time/mba1"
+    manual: true
+  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
+  - university: nyu
+    country: us
+    url: "https://www.law.nyu.edu/financialaid/budgetandbudgeting/studentexpensebudget"
+    manual: true
+  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
+  - university: nyu
+    country: us
+    url: "https://med.nyu.edu/education/md-degree/affordability-financial-aid/cost-attendance"
+    manual: true
+  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
+  - university: nyu
+    country: us
+    url: "https://steinhardt.nyu.edu/admissions/tuition-and-student-charges/graduate-study-tuition-and-fees"
+    manual: true
+  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
+  - university: nyu
+    country: us
+    url: "https://www.nyu.edu/admissions/financial-aid-and-scholarships/cost-of-attendance.html"
+    manual: true

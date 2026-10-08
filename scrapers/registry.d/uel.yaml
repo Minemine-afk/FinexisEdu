@@ -1,0 +1,9 @@
+# University of East London. Fees come from the UEL Fees Schedule (Schedule 1 to the Tuition Fees
+# Policy), one PDF per academic year linked from uel.ac.uk/about/governance/tuition-fee-policy. Read by hand;
+# bump the PDF URL when the next year's schedule is published.
+sources:
+  # BSc (Hons) Computer Science, BEng (Hons) Mechanical Engineering, BSc (Hons) Biomedical Science, BSc (Hons) Business Management, BA (Hons) Graphic Design, BSc (Hons) Psychology, BSc (Hons) Nursing (Adult), MSc Computer Science, MSc Mechanical Engineering, MSc Biomedical Science, MBA, MSc Psychology: fee read by hand
+  - university: uel
+    country: uk
+    url: "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf"
+    manual: true

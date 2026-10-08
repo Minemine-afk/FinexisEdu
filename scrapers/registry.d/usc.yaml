@@ -1,0 +1,11 @@
+sources:
+  # USC cost-of-attendance page / Viterbi COA PDF: fee read by hand
+  - university: usc
+    country: us
+    url: "https://financialaid.usc.edu/cost/"
+    manual: true
+  # USC cost-of-attendance page / Viterbi COA PDF: fee read by hand
+  - university: usc
+    country: us
+    url: "https://viterbigradadmission.usc.edu/wp-content/uploads/2026/03/2026-2027-Tuition-and-Fees-33.pdf"
+    manual: true

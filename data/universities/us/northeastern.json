@@ -1,0 +1,278 @@
+{
+  "id": "northeastern",
+  "name": "Northeastern University",
+  "country": "us",
+  "city": "Boston, MA",
+  "currency": "USD",
+  "website": "https://www.northeastern.edu",
+  "description": "Northeastern University is a private research university in Boston, Massachusetts, founded in 1898. It is known for its cooperative education (co-op) programme, in which students alternate study with full-time work placements.",
+  "whyIncluded": "Northeastern University is among the 10 universities in the United States most chosen by international students (22,465 international students in 2024-25, second in the US, per IIE Open Doors), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering, BSME (Boston)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71050,
+          "annualCompulsoryFees": 1576,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Northeastern, same for all majors, plus the comprehensive fee. Rises most years; health insurance and housing fees not included.",
+      "notes": "Student Financial Services tuition and fees page, Boston undergraduate: full-time tuition $35,525 per term x2 = $71,050 (2026-27); $33,995 x2 = $67,990 (2025-26, same page). Other fees 2026-27 = Comprehensive Fee $788 per semester (maximum $1,576 a year), which replaced the 2025-26 student activity ($180/yr), student center ($85/sem), recreation ($75/sem) and undergraduate student ($362.50/sem) fees = $1,225; 2025-26 also had a one-time International Student Fee $450, which the 2026-27 undergraduate table no longer lists. Residential Student Fee ($37/sem, campus residents only), course lab fees and the Student Health Plan ($3,049, waivable) excluded. Same tuition for all majors. Not cohort-locked. Four academic years of tuition; co-op periods (many students take 5 years) are not charged tuition. 2024-25 rates not found (prior-year page not published at the usual address). College of Engineering.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67990,
+          "annualCompulsoryFees": 1225,
+          "oneOffFees": 450,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science, BSCS (Boston)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71050,
+          "annualCompulsoryFees": 1576,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Northeastern, same for all majors, plus the comprehensive fee. Rises most years; health insurance and housing fees not included.",
+      "notes": "Student Financial Services tuition and fees page, Boston undergraduate: full-time tuition $35,525 per term x2 = $71,050 (2026-27); $33,995 x2 = $67,990 (2025-26, same page). Other fees 2026-27 = Comprehensive Fee $788 per semester (maximum $1,576 a year), which replaced the 2025-26 student activity ($180/yr), student center ($85/sem), recreation ($75/sem) and undergraduate student ($362.50/sem) fees = $1,225; 2025-26 also had a one-time International Student Fee $450, which the 2026-27 undergraduate table no longer lists. Residential Student Fee ($37/sem, campus residents only), course lab fees and the Student Health Plan ($3,049, waivable) excluded. Same tuition for all majors. Not cohort-locked. Four academic years of tuition; co-op periods (many students take 5 years) are not charged tuition. 2024-25 rates not found (prior-year page not published at the usual address). Khoury College of Computer Sciences.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67990,
+          "annualCompulsoryFees": 1225,
+          "oneOffFees": 450,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Business Administration, BSBA (Boston)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71050,
+          "annualCompulsoryFees": 1576,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Northeastern, same for all majors, plus the comprehensive fee. Rises most years; health insurance and housing fees not included.",
+      "notes": "Student Financial Services tuition and fees page, Boston undergraduate: full-time tuition $35,525 per term x2 = $71,050 (2026-27); $33,995 x2 = $67,990 (2025-26, same page). Other fees 2026-27 = Comprehensive Fee $788 per semester (maximum $1,576 a year), which replaced the 2025-26 student activity ($180/yr), student center ($85/sem), recreation ($75/sem) and undergraduate student ($362.50/sem) fees = $1,225; 2025-26 also had a one-time International Student Fee $450, which the 2026-27 undergraduate table no longer lists. Residential Student Fee ($37/sem, campus residents only), course lab fees and the Student Health Plan ($3,049, waivable) excluded. Same tuition for all majors. Not cohort-locked. Four academic years of tuition; co-op periods (many students take 5 years) are not charged tuition. 2024-25 rates not found (prior-year page not published at the usual address). D'Amore-McKim School of Business.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67990,
+          "annualCompulsoryFees": 1225,
+          "oneOffFees": 450,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Biology, BS (Boston)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71050,
+          "annualCompulsoryFees": 1576,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Northeastern, same for all majors, plus the comprehensive fee. Rises most years; health insurance and housing fees not included.",
+      "notes": "Student Financial Services tuition and fees page, Boston undergraduate: full-time tuition $35,525 per term x2 = $71,050 (2026-27); $33,995 x2 = $67,990 (2025-26, same page). Other fees 2026-27 = Comprehensive Fee $788 per semester (maximum $1,576 a year), which replaced the 2025-26 student activity ($180/yr), student center ($85/sem), recreation ($75/sem) and undergraduate student ($362.50/sem) fees = $1,225; 2025-26 also had a one-time International Student Fee $450, which the 2026-27 undergraduate table no longer lists. Residential Student Fee ($37/sem, campus residents only), course lab fees and the Student Health Plan ($3,049, waivable) excluded. Same tuition for all majors. Not cohort-locked. Four academic years of tuition; co-op periods (many students take 5 years) are not charged tuition. 2024-25 rates not found (prior-year page not published at the usual address). College of Science.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67990,
+          "annualCompulsoryFees": 1225,
+          "oneOffFees": 450,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English, BA (Boston)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71050,
+          "annualCompulsoryFees": 1576,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Northeastern, same for all majors, plus the comprehensive fee. Rises most years; health insurance and housing fees not included.",
+      "notes": "Student Financial Services tuition and fees page, Boston undergraduate: full-time tuition $35,525 per term x2 = $71,050 (2026-27); $33,995 x2 = $67,990 (2025-26, same page). Other fees 2026-27 = Comprehensive Fee $788 per semester (maximum $1,576 a year), which replaced the 2025-26 student activity ($180/yr), student center ($85/sem), recreation ($75/sem) and undergraduate student ($362.50/sem) fees = $1,225; 2025-26 also had a one-time International Student Fee $450, which the 2026-27 undergraduate table no longer lists. Residential Student Fee ($37/sem, campus residents only), course lab fees and the Student Health Plan ($3,049, waivable) excluded. Same tuition for all majors. Not cohort-locked. Four academic years of tuition; co-op periods (many students take 5 years) are not charged tuition. 2024-25 rates not found (prior-year page not published at the usual address). College of Social Sciences and Humanities.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67990,
+          "annualCompulsoryFees": 1225,
+          "oneOffFees": 450,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology, BS (Boston)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71050,
+          "annualCompulsoryFees": 1576,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Northeastern, same for all majors, plus the comprehensive fee. Rises most years; health insurance and housing fees not included.",
+      "notes": "Student Financial Services tuition and fees page, Boston undergraduate: full-time tuition $35,525 per term x2 = $71,050 (2026-27); $33,995 x2 = $67,990 (2025-26, same page). Other fees 2026-27 = Comprehensive Fee $788 per semester (maximum $1,576 a year), which replaced the 2025-26 student activity ($180/yr), student center ($85/sem), recreation ($75/sem) and undergraduate student ($362.50/sem) fees = $1,225; 2025-26 also had a one-time International Student Fee $450, which the 2026-27 undergraduate table no longer lists. Residential Student Fee ($37/sem, campus residents only), course lab fees and the Student Health Plan ($3,049, waivable) excluded. Same tuition for all majors. Not cohort-locked. Four academic years of tuition; co-op periods (many students take 5 years) are not charged tuition. 2024-25 rates not found (prior-year page not published at the usual address). College of Science.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67990,
+          "annualCompulsoryFees": 1225,
+          "oneOffFees": 450,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Science in Nursing (Boston)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 71050,
+          "annualCompulsoryFees": 1576,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates at Northeastern, same for all majors, plus the comprehensive fee. Rises most years; health insurance and housing fees not included.",
+      "notes": "Student Financial Services tuition and fees page, Boston undergraduate: full-time tuition $35,525 per term x2 = $71,050 (2026-27); $33,995 x2 = $67,990 (2025-26, same page). Other fees 2026-27 = Comprehensive Fee $788 per semester (maximum $1,576 a year), which replaced the 2025-26 student activity ($180/yr), student center ($85/sem), recreation ($75/sem) and undergraduate student ($362.50/sem) fees = $1,225; 2025-26 also had a one-time International Student Fee $450, which the 2026-27 undergraduate table no longer lists. Residential Student Fee ($37/sem, campus residents only), course lab fees and the Student Health Plan ($3,049, waivable) excluded. Same tuition for all majors. Not cohort-locked. Four academic years of tuition; co-op periods (many students take 5 years) are not charged tuition. 2024-25 rates not found (prior-year page not published at the usual address). Bouvé College of Health Sciences.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 67990,
+          "annualCompulsoryFees": 1225,
+          "oneOffFees": 450,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Mechanical Engineering, MSME (Boston)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 31632,
+          "annualCompulsoryFees": 625,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for an international full-time master's student at Northeastern (charged per credit, about 16 credits a year), plus campus fees and a one-time international fee. Health insurance not included.",
+      "notes": "College of Engineering rate $1,977 per credit hour (2026-27); $1,929 (2025-26). Graduate tuition is charged per credit hour. The programme needs 32 semester hours (catalog), taken here as 16 a year over 2 years, so annual = 16 x rate. Other fees 2026-27 = full-time master's Comprehensive Fee $200 per term (maximum $400 a year) + Health and Counseling Fee $225 a year; one-off = International Student Fee $450. Student health plan ($3,049, waivable) excluded. 2025-26 history row carries tuition only (the 2025-26 fee rows were itemised differently; current fees used). 2024-25 rates not found. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30864,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science, MSCS (Boston)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 30752,
+          "annualCompulsoryFees": 625,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for an international full-time master's student at Northeastern (charged per credit, about 16 credits a year), plus campus fees and a one-time international fee. Health insurance not included.",
+      "notes": "Khoury College of Computer Sciences rate $1,922 per credit hour (2026-27); $1,875 (2025-26). Graduate tuition is charged per credit hour. The programme needs 32 semester hours (catalog), taken here as 16 a year over 2 years, so annual = 16 x rate. Other fees 2026-27 = full-time master's Comprehensive Fee $200 per term (maximum $400 a year) + Health and Counseling Fee $225 a year; one-off = International Student Fee $450. Student health plan ($3,049, waivable) excluded. 2025-26 history row carries tuition only (the 2025-26 fee rows were itemised differently; current fees used). 2024-25 rates not found. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30000,
+          "sourceUrl": "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
+        }
+      ]
+    }
+  ]
+}

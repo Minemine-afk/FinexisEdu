@@ -1,0 +1,23 @@
+# RCSI University of Medicine and Health Sciences. One 'fees-and-funding' page per programme; non-EU fees are
+# published for the next intake (2027/28 for medicine).
+sources:
+  # per-programme fee page read by hand (added Oct 2026)
+  - university: rcsi
+    country: ie
+    url: "https://www.rcsi.com/dublin/undergraduate/medicine/fees-and-funding"
+    manual: true
+  # per-programme fee page read by hand (added Oct 2026)
+  - university: rcsi
+    country: ie
+    url: "https://www.rcsi.com/dublin/undergraduate/gem/fees-and-funding"
+    manual: true
+  # per-programme fee page read by hand (added Oct 2026)
+  - university: rcsi
+    country: ie
+    url: "https://www.rcsi.com/dublin/undergraduate/pharmacy/fees-and-funding"
+    manual: true
+  # per-programme fee page read by hand (added Oct 2026)
+  - university: rcsi
+    country: ie
+    url: "https://rcsi.com/dublin/postgraduate/taught-courses/technologies-and-analytics-in-precision-medicine-msc/fees-and-funding"
+    manual: true

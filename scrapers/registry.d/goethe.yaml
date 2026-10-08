@@ -1,0 +1,14 @@
+# Goethe University Frankfurt. No tuition (Hesse); the re-registration page lists the semester
+# contribution for every programme and links a PDF of past semesters' contributions.
+sources:
+  # Studium weiterfuehren/beenden: WiSe 2026/27 Semesterbeitrag EUR 408.28; comma decimals, itemised, read by hand
+  - university: goethe
+    country: de
+    url: "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden"
+    manual: true
+  # Semesterbeitraege 2009-2026 (PDF table); cited for the 2024 and 2025 history only
+  - university: goethe
+    country: de
+    url: "https://assets.uni-frankfurt.de/de/dam/jcr:3364e4de-2c54-4f33-bb50-878e04108ca2/Semesterbeitr%C3%A4ge_2009-2026.52980b04d553f43bf275dd1b6d6414a9.pdf"
+    parser: pdf
+    manual: true

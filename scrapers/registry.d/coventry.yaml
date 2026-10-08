@@ -1,0 +1,58 @@
+# Coventry University. Each course page shows the fee for the current year of entry (UK, EU and
+# international); figures were read by hand. No automated pattern yet.
+sources:
+  # BSc (Hons) Computer Science: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/ug/eec/computer-science-mscibsc-hons/"
+    manual: true
+  # BEng (Hons) Mechanical Engineering: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/ug/eec/mechanical-engineering-mengbeng-hons/"
+    manual: true
+  # BSc (Hons) Biomedical Science: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/ug/hls/biomedical-science-applied-biomedical-science-bsc/"
+    manual: true
+  # BA (Hons) Business Management: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/"
+    manual: true
+  # BA (Hons) Graphic Design: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/ug/fah/graphic-design-ba-hons/"
+    manual: true
+  # BSc (Hons) Psychology: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/ug/hls/psychology-bsc-hons/"
+    manual: true
+  # MSc Computer Science: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/pg/ees/computer-science-msc/"
+    manual: true
+  # MSc Advanced Mechanical Engineering: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/pg/ees/advanced-mechanical-engineering-msc/"
+    manual: true
+  # MSc International Business Management: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/pg/cbl/international-business-management-msc/"
+    manual: true
+  # MSc Biotechnology: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/pg/ees/biotechnology-msc/"
+    manual: true
+  # MSc Psychology: fee read by hand
+  - university: coventry
+    country: uk
+    url: "https://www.coventry.ac.uk/course-structure/pg/cas/psychology-msc/"
+    manual: true
