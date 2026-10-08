@@ -1,0 +1,7 @@
+# Unitec Institute of Technology (added Oct 2026).
+sources:
+  # international fee table: page layout not yet parsed automatically; figures read by hand
+  - university: unitec
+    country: nz
+    url: "https://www.unitec.ac.nz/international/study-with-us/international-fees/"
+    manual: true

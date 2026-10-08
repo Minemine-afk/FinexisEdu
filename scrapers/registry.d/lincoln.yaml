@@ -1,0 +1,7 @@
+# Lincoln University (added Oct 2026).
+sources:
+  # international fee table: page layout not yet parsed automatically; figures read by hand
+  - university: lincoln
+    country: nz
+    url: "https://www.lincoln.ac.nz/study/fees/international-fees/"
+    manual: true
