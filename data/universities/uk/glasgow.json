@@ -1,0 +1,581 @@
+{
+  "id": "glasgow",
+  "name": "University of Glasgow",
+  "country": "uk",
+  "city": "Glasgow",
+  "currency": "GBP",
+  "website": "https://www.gla.ac.uk",
+  "description": "The University of Glasgow, founded in 1451, is the fourth-oldest university in the English-speaking world and a member of the Russell Group of research universities. It teaches across arts, social sciences, science and engineering, and medical, veterinary and life sciences.",
+  "whyIncluded": "The University of Glasgow is among the 10 universities in the United Kingdom most chosen by international students (13,880 non-UK students in 2024-25, per HESA), per the FinexisEdu shortlist research of October 2026.",
+  "livingCosts": {
+    "year": 2023,
+    "months": 9,
+    "monthly": {
+      "housing": 940,
+      "food": 260,
+      "transport": 120,
+      "personal": 380
+    },
+    "sourceUrl": "https://www.gla.ac.uk/myglasgow/registry/finance/federalloans/costofliving/",
+    "lastVerified": "2026-10-07",
+    "sourceType": "official",
+    "summary": "The University of Glasgow's own undergraduate budget for a 36-week academic year (2023-24 figures), spread over 9 months. Excludes tuition, flights, visa and health surcharge.",
+    "notes": "Glasgow's US Federal Loans cost of living page, undergraduate 36-week budget 2023/24: rent GBP 180/wk (6,480), utilities 55/wk (1,980), food 65/wk (2,340), travel 30/wk (1,080), books/computer 25/wk (900), personal 70/wk (2,520). Housing = rent + utilities (8,460/9); food 2,340/9; transport 1,080/9; personal = books + personal (3,420/9). Flights, loan origination fees, visa and IHS excluded. The general cost-of-living page (gla.ac.uk/study/studentlife/costofliving, August 2026) gives only a range of GBP 1,100 to 1,700 a month with no breakdown."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering BEng",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33708,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow sets a new rate each year, so later years of the degree may cost more. No separate compulsory fees.",
+      "notes": "International undergraduate fee for 2027/28 entrants, band 'Science, Engineering, Nursing, Medical/Veterinary/Life Sciences', from the University of Glasgow international fees page (read 2026-10-07; 2026/27 rate on the same page 33210). Programme band inferred from the award/college as listed on that page; 4-year Scottish honours degree. Glasgow publishes one international rate per academic year and states that fees quoted are for new entrants and that different fees may apply to some continuing students; it does not guarantee a fixed fee for the duration, so cohortLocked is false. feeHistory rows are the international rate in the MyGlasgow fee table for that academic year. Only charge besides tuition is a GBP 170 registration fee for students re-sitting exams, not applicable to normal progression, so annualCompulsoryFees 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33210,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31800,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30240,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computing Science BSc",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33708,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow sets a new rate each year, so later years of the degree may cost more. No separate compulsory fees.",
+      "notes": "International undergraduate fee for 2027/28 entrants, band 'Science, Engineering, Nursing, Medical/Veterinary/Life Sciences', from the University of Glasgow international fees page (read 2026-10-07; 2026/27 rate on the same page 33210). Programme band inferred from the award/college as listed on that page; 4-year Scottish honours degree. Glasgow publishes one international rate per academic year and states that fees quoted are for new entrants and that different fees may apply to some continuing students; it does not guarantee a fixed fee for the duration, so cohortLocked is false. feeHistory rows are the international rate in the MyGlasgow fee table for that academic year. Only charge besides tuition is a GBP 170 registration fee for students re-sitting exams, not applicable to normal progression, so annualCompulsoryFees 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33210,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31800,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30240,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Business & Management MA (SocSci)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 28275,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow sets a new rate each year, so later years of the degree may cost more. No separate compulsory fees.",
+      "notes": "International undergraduate fee for 2027/28 entrants, band 'Arts and Social Sciences', from the University of Glasgow international fees page (read 2026-10-07; 2026/27 rate on the same page 27720). Programme band inferred from the award/college as listed on that page; 4-year Scottish honours degree. The BSc route into Business & Management is charged at the science band. Glasgow publishes one international rate per academic year and states that fees quoted are for new entrants and that different fees may apply to some continuing students; it does not guarantee a fixed fee for the duration, so cohortLocked is false. feeHistory rows are the international rate in the MyGlasgow fee table for that academic year. Only charge besides tuition is a GBP 170 registration fee for students re-sitting exams, not applicable to normal progression, so annualCompulsoryFees 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 27720,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26580,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25290,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physics BSc",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33708,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow sets a new rate each year, so later years of the degree may cost more. No separate compulsory fees.",
+      "notes": "International undergraduate fee for 2027/28 entrants, band 'Science, Engineering, Nursing, Medical/Veterinary/Life Sciences', from the University of Glasgow international fees page (read 2026-10-07; 2026/27 rate on the same page 33210). Programme band inferred from the award/college as listed on that page; 4-year Scottish honours degree. Glasgow publishes one international rate per academic year and states that fees quoted are for new entrants and that different fees may apply to some continuing students; it does not guarantee a fixed fee for the duration, so cohortLocked is false. feeHistory rows are the international rate in the MyGlasgow fee table for that academic year. Only charge besides tuition is a GBP 170 registration fee for students re-sitting exams, not applicable to normal progression, so annualCompulsoryFees 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33210,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31800,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30240,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Economics MA (SocSci)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 28275,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow sets a new rate each year, so later years of the degree may cost more. No separate compulsory fees.",
+      "notes": "International undergraduate fee for 2027/28 entrants, band 'Arts and Social Sciences', from the University of Glasgow international fees page (read 2026-10-07; 2026/27 rate on the same page 27720). Programme band inferred from the award/college as listed on that page; 4-year Scottish honours degree. Glasgow publishes one international rate per academic year and states that fees quoted are for new entrants and that different fees may apply to some continuing students; it does not guarantee a fixed fee for the duration, so cohortLocked is false. feeHistory rows are the international rate in the MyGlasgow fee table for that academic year. Only charge besides tuition is a GBP 170 registration fee for students re-sitting exams, not applicable to normal progression, so annualCompulsoryFees 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 27720,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26580,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25290,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology MA (SocSci)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 28275,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow sets a new rate each year, so later years of the degree may cost more. No separate compulsory fees.",
+      "notes": "International undergraduate fee for 2027/28 entrants, band 'Arts and Social Sciences', from the University of Glasgow international fees page (read 2026-10-07; 2026/27 rate on the same page 27720). Programme band inferred from the award/college as listed on that page; 4-year Scottish honours degree. Psychology is also offered as a BSc, which is charged at the science band (2027/28: 33,708). Glasgow publishes one international rate per academic year and states that fees quoted are for new entrants and that different fees may apply to some continuing students; it does not guarantee a fixed fee for the duration, so cohortLocked is false. feeHistory rows are the international rate in the MyGlasgow fee table for that academic year. Only charge besides tuition is a GBP 170 registration fee for students re-sitting exams, not applicable to normal progression, so annualCompulsoryFees 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 27720,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26580,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25290,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Nursing BN",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33708,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow sets a new rate each year, so later years of the degree may cost more. No separate compulsory fees.",
+      "notes": "International undergraduate fee for 2027/28 entrants, band 'Science, Engineering, Nursing, Medical/Veterinary/Life Sciences (Nursing row)', from the University of Glasgow international fees page (read 2026-10-07; 2026/27 rate on the same page 33210). Programme band inferred from the award/college as listed on that page; 4-year Scottish honours degree. Glasgow publishes one international rate per academic year and states that fees quoted are for new entrants and that different fees may apply to some continuing students; it does not guarantee a fixed fee for the duration, so cohortLocked is false. feeHistory rows are the international rate in the MyGlasgow fee table for that academic year. Only charge besides tuition is a GBP 170 registration fee for students re-sitting exams, not applicable to normal progression, so annualCompulsoryFees 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33210,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31800,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30240,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine MBChB",
+      "durationYears": 5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 67112,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow sets a new rate each year, so later years of the degree may cost more. No separate compulsory fees.",
+      "notes": "International undergraduate fee for 2027/28 entrants, band 'Medicine (MBChB) and clinical programmes', from the University of Glasgow international fees page (read 2026-10-07; 2026/27 rate on the same page 62730). Programme band inferred from the award/college as listed on that page; 5-year Scottish honours degree. The MBChB rate applies to every year and includes the overseas NHS levy. Glasgow publishes one international rate per academic year and states that fees quoted are for new entrants and that different fees may apply to some continuing students; it does not guarantee a fixed fee for the duration, so cohortLocked is false. feeHistory rows are the international rate in the MyGlasgow fee table for that academic year. Only charge besides tuition is a GBP 170 registration fee for students re-sitting exams, not applicable to normal progression, so annualCompulsoryFees 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 62730,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 58890,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 56520,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computing Science MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34815,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International full-time fee from the University of Glasgow postgraduate fee table (the 'live' table, which is 2027-28; read 2026-10-07); 12-month programme. Earlier rows from the 2026-27, 2025-26 and 2024-25 fee tables (same row). The 2027-28 figure also appears on the programme page gla.ac.uk/postgraduate/taught/computingscience. Taught MSc lasts one year, so cohort locking does not matter; set false to match Glasgow's undergraduate policy.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 34470,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33450,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31860,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Mechanical Engineering MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34815,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International full-time fee from the University of Glasgow postgraduate fee table (the 'live' table, which is 2027-28; read 2026-10-07); 12-month programme. Earlier rows from the 2026-27, 2025-26 and 2024-25 fee tables (same row). Taught MSc lasts one year, so cohort locking does not matter; set false to match Glasgow's undergraduate policy.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 34470,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33450,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31860,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Management MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37089,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International full-time fee from the University of Glasgow postgraduate fee table (the 'live' table, which is 2027-28; read 2026-10-07); 12-month programme. Earlier rows from the 2026-27, 2025-26 and 2024-25 fee tables (same row). The 2027-28 figure also appears on the programme page gla.ac.uk/postgraduate/taught/management. The 2024-25 and 2025-26 tables both list 35,640. Taught MSc lasts one year, so cohort locking does not matter; set false to match Glasgow's undergraduate policy.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 36720,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35640,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35640,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Data Analytics MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34815,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International full-time fee from the University of Glasgow postgraduate fee table (the 'live' table, which is 2027-28; read 2026-10-07); 12-month programme. Earlier rows from the 2026-27, 2025-26 and 2024-25 fee tables (same row). The 2027-28 figure also appears on the programme page gla.ac.uk/postgraduate/taught/dataanalytics. Taught MSc lasts one year, so cohort locking does not matter; set false to match Glasgow's undergraduate policy.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 34470,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33450,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31860,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2024-25/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Economics MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33708,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International full-time fee from the University of Glasgow postgraduate fee table (the 'live' table, which is 2027-28; read 2026-10-07); 12-month programme. Earlier rows from the 2026-27, 2025-26 and 2024-25 fee tables (same row). No 2024 row: the 2024-25 table lists no plain Economics MSc. Taught MSc lasts one year, so cohort locking does not matter; set false to match Glasgow's undergraduate policy.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33210,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31800,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2025-26/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychological Science (conversion) MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33708,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International full-time fee from the University of Glasgow postgraduate fee table (the 'live' table, which is 2027-28; read 2026-10-07); 12-month programme. Earlier rows from the 2026-27, 2025-26 and 2024-25 fee tables (same row). Taught MSc lasts one year, so cohort locking does not matter; set false to match Glasgow's undergraduate policy.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33210,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2026-27/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31800,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2025-26/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30240,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2024-25/"
+        }
+      ]
+    }
+  ]
+}

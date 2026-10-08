@@ -1,0 +1,78 @@
+# University of Manchester. One course page per programme (UG URLs carry the entry year: bump to 2028 when published).
+# Added Oct 2026; read by hand.
+sources:
+  # BSc Computer Science: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/"
+    manual: true
+  # MEng Mechanical Engineering: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/03921/meng-mechanical-engineering/"
+    manual: true
+  # BSc Management: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/03519/bsc-management/"
+    manual: true
+  # BSc Physics: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00638/bsc-physics/"
+    manual: true
+  # BAEcon Economics: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/05134/baecon-economics/"
+    manual: true
+  # BSc Psychology: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00653/bsc-psychology/"
+    manual: true
+  # BNurs Adult Nursing: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10971/bnurs-adult-nursing/"
+    manual: true
+  # MBChB Medicine: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/01428/mbchb-medicine/"
+    manual: true
+  # MSc Advanced Computer Science: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/"
+    manual: true
+  # MSc Mechanical Engineering Design: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/"
+    manual: true
+  # MSc International Business and Management: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/masters/courses/list/12805/msc-international-business-and-management/"
+    manual: true
+  # MSc Applied Mathematics: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/masters/courses/list/09128/msc-applied-mathematics/"
+    manual: true
+  # MSc Economics: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/"
+    manual: true
+  # MSc Clinical and Health Psychology: fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/masters/courses/list/08070/msc-clinical-and-health-psychology/"
+    manual: true
+  # MSc Adult Nursing (pre-registration): fee read by hand from the course page
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/18749/msc-adult-nursing/"
+    manual: true

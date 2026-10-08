@@ -1,0 +1,420 @@
+{
+  "id": "uel",
+  "name": "University of East London",
+  "country": "uk",
+  "city": "London",
+  "currency": "GBP",
+  "website": "https://www.uel.ac.uk",
+  "description": "The University of East London is a public university with campuses at Stratford and Docklands in east London, which gained university status in 1992 and traces its roots to the West Ham Technical Institute of 1898. It has a large and fast-growing international postgraduate intake.",
+  "whyIncluded": "The University of East London is among the 10 universities in the United Kingdom most chosen by international students (13,230 non-UK students in 2024-25, HESA), per the FinexisEdu shortlist research of October 2026.",
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "BSc (Hons) Computer Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16020,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. UEL may raise fees each year (capped at 5%), so later years could cost a little more.",
+      "notes": "UEL Fees Schedule 2026-27 (Schedule 1 to the Tuition Fees Policy, fetched 2026-10-07), section 1.2 International Students, undergraduate full-time: Architecture, Computing and Engineering (ACE) school: 'All Schools' rate £16,020 for 2026/27 entry (footnote: ACE pre-2026/27 entry £15,720). 2025-26 schedule: all schools £15,560 but footnote 'Updated November 2025: fee of £15,300 also applies to ACE Undergraduate International 2025/26 entry', so £15,300 is used for 2025. 2024-25 schedule: School of Architecture, Computing & Engineering £14,580 (all other schools £14,820). History from the same section of the 2025-26 schedule (£15,300) and the 2024-25 schedule (£14,580). 3-year full-time route; an optional placement year costs £1,500. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition. ",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15300,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 14580,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "BEng (Hons) Mechanical Engineering",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16020,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. UEL may raise fees each year (capped at 5%), so later years could cost a little more.",
+      "notes": "UEL Fees Schedule 2026-27 (Schedule 1 to the Tuition Fees Policy, fetched 2026-10-07), section 1.2 International Students, undergraduate full-time: Architecture, Computing and Engineering (ACE) school: 'All Schools' rate £16,020 for 2026/27 entry (footnote: ACE pre-2026/27 entry £15,720). 2025-26 schedule: all schools £15,560 but footnote 'Updated November 2025: fee of £15,300 also applies to ACE Undergraduate International 2025/26 entry', so £15,300 is used for 2025. 2024-25 schedule: School of Architecture, Computing & Engineering £14,580 (all other schools £14,820). History from the same section of the 2025-26 schedule (£15,300) and the 2024-25 schedule (£14,580). 3-year full-time route; an optional placement year costs £1,500. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition. ",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15300,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 14580,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "BSc (Hons) Biomedical Science",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16020,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. UEL may raise fees each year (capped at 5%), so later years could cost a little more.",
+      "notes": "UEL Fees Schedule 2026-27 (Schedule 1 to the Tuition Fees Policy, fetched 2026-10-07), section 1.2 International Students, undergraduate full-time: 'All Schools' rate £16,020 for 2026/27 entry; 2025-26 all-schools rate £15,560; 2024-25 'All other Schools' rate £14,820 (ACE was £14,580). History from the same section of the 2025-26 schedule (£15,560) and the 2024-25 schedule (£14,820). 3-year full-time route; an optional placement year costs £1,500. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition. ",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15560,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 14820,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc (Hons) Business Management",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16020,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. UEL may raise fees each year (capped at 5%), so later years could cost a little more.",
+      "notes": "UEL Fees Schedule 2026-27 (Schedule 1 to the Tuition Fees Policy, fetched 2026-10-07), section 1.2 International Students, undergraduate full-time: 'All Schools' rate £16,020 for 2026/27 entry; 2025-26 all-schools rate £15,560; 2024-25 'All other Schools' rate £14,820 (ACE was £14,580). History from the same section of the 2025-26 schedule (£15,560) and the 2024-25 schedule (£14,820). 3-year full-time route; an optional placement year costs £1,500. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition. ",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15560,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 14820,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "BA (Hons) Graphic Design",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16020,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. UEL may raise fees each year (capped at 5%), so later years could cost a little more.",
+      "notes": "UEL Fees Schedule 2026-27 (Schedule 1 to the Tuition Fees Policy, fetched 2026-10-07), section 1.2 International Students, undergraduate full-time: 'All Schools' rate £16,020 for 2026/27 entry; 2025-26 all-schools rate £15,560; 2024-25 'All other Schools' rate £14,820 (ACE was £14,580). History from the same section of the 2025-26 schedule (£15,560) and the 2024-25 schedule (£14,820). 3-year full-time route; an optional placement year costs £1,500. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition. ",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15560,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 14820,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "BSc (Hons) Psychology",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16020,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. UEL may raise fees each year (capped at 5%), so later years could cost a little more.",
+      "notes": "UEL Fees Schedule 2026-27 (Schedule 1 to the Tuition Fees Policy, fetched 2026-10-07), section 1.2 International Students, undergraduate full-time: 'All Schools' rate £16,020 for 2026/27 entry; 2025-26 all-schools rate £15,560; 2024-25 'All other Schools' rate £14,820 (ACE was £14,580). History from the same section of the 2025-26 schedule (£15,560) and the 2024-25 schedule (£14,820). 3-year full-time route; an optional placement year costs £1,500. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition. ",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15560,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 14820,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "BSc (Hons) Nursing (Adult)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. UEL may raise fees each year (capped at 5%), so later years could cost a little more.",
+      "notes": "UEL Fees Schedule 2026-27 (Schedule 1 to the Tuition Fees Policy, fetched 2026-10-07), section 1.2 International Students, undergraduate full-time: footnote '*£17,300 - BSc (Hons) Nursing (Adult) and Foundation Degree (FdSc) Nursing Associate'. History from the same section of the 2025-26 schedule (£16,800) and the 2024-25 schedule (£16,000). 3-year full-time route; an optional placement year costs £1,500. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition. 2025-26 footnote £16,800; 2024-25 footnote '*£16,000 - BSc (Hons) Nursing (Adult)'. The UEL course page for this degree was out of date when checked (showing 2018 intakes), so international availability rests on the schedule listing an international fee.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16800,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16000,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "MSc Computer Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "UEL Fees Schedule 2026-27 (fetched 2026-10-07), taught postgraduate row 'MSc Computer Science' (ACE), FT Int column: £17,700. History: same row in the 2025-26 schedule (£16,740) and 2024-25 schedule (£16,440). One year full time; the placement version adds a £3,500 year-2 placement fee. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition. Note: the UEL MSc Computer Science course page (fetched the same day) still showed £17,220 (and the 2025-26 Home fee), which matches the 2025-26 schedule's placement-route row; the 2026-27 schedule figure is used.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16740,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16440,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "MSc Mechanical Engineering",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17220,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "UEL Fees Schedule 2026-27 (fetched 2026-10-07), taught postgraduate row 'MSc Mechanical Engineering' (ACE), FT Int column: £17,220. History: same row in the 2025-26 schedule (£16,740) and 2024-25 schedule (£15,960). One year full time; the placement version adds a £3,500 year-2 placement fee. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16740,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15960,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "MSc Biomedical Science",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17220,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "UEL Fees Schedule 2026-27 (fetched 2026-10-07), taught postgraduate row 'MSc Biomedical Science' (HSB), FT Int column: £17,220. History: same row in the 2025-26 schedule (£16,740) and 2024-25 schedule (£15,960). One year full time; the placement version adds a £3,500 year-2 placement fee. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16740,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15960,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MBA",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 19500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "UEL Fees Schedule 2026-27 (fetched 2026-10-07), taught postgraduate row 'MBA' (Royal Docks School of Business and Law), FT Int column: £19,500. History: same row in the 2025-26 schedule (£18,960) and 2024-25 schedule (£18,060). One year full time; the placement version adds a £3,500 year-2 placement fee. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18960,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18060,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "MSc Psychology",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17220,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-07",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "UEL Fees Schedule 2026-27 (fetched 2026-10-07), taught postgraduate row 'MSc Psychology' (CSC in 2025-26 and 2026-27, PSY in 2024-25), FT Int column: £17,220. History: same row in the 2025-26 schedule (£16,740) and 2024-25 schedule (£15,960). One year full time; the placement version adds a £3,500 year-2 placement fee. UEL's Tuition Fees Policy says international fees may increase each year in line with inflation by no more than RPI-X plus 3%, for new and continuing students, and its course pages say any annual increase is capped at 5% of the previous year's fee, so cohortLocked is false. No separate compulsory fees; the international deposit is credited to tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16740,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15960,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    }
+  ]
+}
