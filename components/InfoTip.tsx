@@ -30,7 +30,7 @@ export default function InfoTip({
         onClick={() => setOpen((o) => !o)}
         onFocus={() => setOpen(true)}
         onBlur={() => setOpen(false)}
-        className="ml-1 inline-flex h-4 w-4 items-center justify-center rounded-full border border-current align-text-top text-[10px] font-semibold leading-none text-muted outline-none hover:text-accent focus-visible:ring-2 focus-visible:ring-accent"
+        className="relative ml-1 inline-flex h-4 w-4 items-center justify-center rounded-full border border-current align-text-top text-[10px] font-semibold leading-none text-muted outline-none after:absolute after:-inset-3 after:content-[''] hover:text-accent focus-visible:ring-2 focus-visible:ring-accent"
       >
         i
       </button>

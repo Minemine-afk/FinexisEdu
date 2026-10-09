@@ -12,6 +12,19 @@ import { LIVING_LABELS, type LivingResult, type Selection } from "./useCalculato
 
 export const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
 
+/** A partial final year as a fraction people recognise, e.g. "½ year" or "40% of a year". */
+export function yearShare(fraction: number): string {
+  const named: [number, string][] = [
+    [0.5, "½"],
+    [1 / 3, "⅓"],
+    [0.25, "¼"],
+    [2 / 3, "⅔"],
+    [0.75, "¾"],
+  ];
+  const hit = named.find(([f]) => Math.abs(f - fraction) < 0.02);
+  return hit ? `${hit[1]} year` : `${Math.round(fraction * 100)}% of a year`;
+}
+
 /** True when the university charges no tuition at all for this programme (e.g. most German public universities). */
 export function noTuition(result: CalcResult): boolean {
   return result.years.length > 0 && result.years.every((y) => y.tuition === 0);
@@ -189,7 +202,9 @@ export default function ResultDetail({
               >
                 <td className="py-1 pr-2">
                   {y.academicYear}
-                  {y.fraction < 1 && <span className="text-muted"> (½)</span>}
+                  {y.fraction < 1 && (
+                    <span className="text-muted"> ({yearShare(y.fraction)})</span>
+                  )}
                   {y.laterYear && (
                     <span className="block text-xs text-muted">
                       year {i + 1} fee
@@ -305,7 +320,7 @@ function MoreNotes({
   return (
     <details className="mt-2 text-xs">
       <summary
-        className={`cursor-pointer py-1.5 font-medium text-accent sm:py-0.5${FOCUS} rounded`}
+        className={`cursor-pointer py-1.5 font-medium text-accent${FOCUS} rounded`}
       >
         {label}
       </summary>
@@ -427,7 +442,7 @@ function LivingSection({
       </p>
 
       <details className="mt-2 text-sm">
-        <summary className="cursor-pointer py-2 text-xs font-medium text-accent sm:py-0">
+        <summary className={`cursor-pointer py-2 text-xs font-medium text-accent${FOCUS} rounded`}>
           Customise this budget
         </summary>
         <CustomLiving
@@ -507,7 +522,8 @@ function CustomLiving({
               type="number"
               min={0}
               step="any"
-              className={`mt-0.5 w-full rounded-md border border-border bg-surface px-2 py-1 text-right tabular-nums${FOCUS}`}
+              inputMode="decimal"
+              className={`mt-0.5 h-10 w-full rounded-md border border-border bg-surface px-2 text-right tabular-nums${FOCUS}`}
               value={draft[c]}
               onChange={(ev) =>
                 setDraft({
@@ -522,14 +538,14 @@ function CustomLiving({
       <div className="flex gap-2">
         <button
           type="submit"
-          className={`rounded-md bg-accent-fill px-3 py-1 text-xs font-medium text-on-accent${FOCUS}`}
+          className={`min-h-10 rounded-md bg-accent-fill px-3 py-1 text-xs font-medium text-on-accent${FOCUS}`}
         >
           Use my budget
         </button>
         {customised && (
           <button
             type="button"
-            className={`rounded-md border border-border px-3 py-1 text-xs${FOCUS}`}
+            className={`min-h-10 rounded-md border border-border px-3 py-1 text-xs${FOCUS}`}
             onClick={() => onSave(null)}
           >
             Reset to university estimate

@@ -9,13 +9,13 @@ export const GLOSSARY = {
   internationalRate:
     "The fee charged to students who are not citizens or permanent residents of the host country. Singaporeans studying abroad pay this rate.",
   startYear:
-    "The year the first academic year begins, from 2026 onwards. The fee tables are the universities' latest published ones (2026, or 2027 where already announced); for a start year after that the calculator projects from the latest published fee using the university's own rate of increase.",
+    "The year the first academic year begins, from 2026 onwards. The fee tables are the universities' latest published ones (2025 or 2026 for most, 2027 where already announced); for a start year after that the calculator projects from the latest published fee using the university's own rate of increase.",
   published:
     "A fee the university published for that academic year. No estimate is involved.",
   projected:
     "An estimate: the latest published fee grown by the yearly increase for each year after the published fee year. Universities have not announced these figures yet.",
   feeIncrease:
-    "Fees are taken from each university's latest published fee table. For years after that, the calculator grows the fee by that university's own historical rate of increase (see % inflation below); you can set your own rate instead. Where a fee is fixed for your cohort, the increase only sets the entry-year fee when you start after the latest published year.",
+    "Fees are taken from each university's latest published fee table. For years after that, the calculator grows the fee by that university's own historical rate of increase (the yearly rate shown next to each university); you can set your own rate instead. Where a fee is fixed for your cohort, the increase only sets the entry-year fee when you start after the latest published year.",
   universityIncrease:
     "This university's yearly fee increase, worked out from its own published fees: for every programme with two or more years on file, the compound yearly rise from the earliest to the latest published fee, then the median across programmes (per residency tier in Singapore). Where a university has fewer than two such programmes, its country's typical rate is used instead.",
   noTuition:

@@ -1,18 +1,17 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
 import type { Residency } from "@/lib/calc";
 import {
   FIELD_LABELS,
   LEVEL_LABELS,
   RESIDENCY_LABELS,
-  formatCompactSgd,
   partnerOf,
   recognitionTag,
 } from "@/lib/format";
 import { FIELDS, LEVELS, type Field } from "@/lib/schema";
 import type { Lifestyle } from "@/lib/living";
 import FeeChart from "./FeeChart";
+import RateInput from "./RateInput";
 import InfoTip from "./InfoTip";
 import type { GlossaryTerm } from "@/lib/glossary";
 import ResultDetail, { FOCUS } from "./ResultDetail";
@@ -36,15 +35,41 @@ export type { Selection } from "./useCalculator";
 /**
  * Picks the layout for the screen: the phone and tablet layouts below `lg`
  * (and on large touch screens such as an iPad in landscape), the desktop
- * layout otherwise. The server renders the desktop layout.
+ * layout otherwise. Until the browser has measured the screen (the server
+ * render and the first client render) a neutral placeholder is shown, so a
+ * phone never flashes the desktop layout.
  */
 export default function Calculator(props: CalculatorProps) {
   const layout = useLayout();
   const state = useCalculator(props);
+  if (layout === "pending") return <Placeholder />;
   if (layout !== "desktop") {
     return <TouchCalculator state={state} layout={layout} today={props.today} />;
   }
   return <DesktopCalculator state={state} today={props.today} />;
+}
+
+/** Grey blocks roughly where the controls and results will appear. */
+function Placeholder() {
+  const block = "animate-pulse rounded-xl bg-chip";
+  return (
+    <div
+      className="grid gap-6 lg:grid-cols-[22rem_1fr]"
+      aria-busy="true"
+      aria-label="Loading the calculator"
+    >
+      <div className="space-y-4">
+        <div className={`${block} h-12`} />
+        <div className={`${block} h-40`} />
+        <div className={`${block} h-24`} />
+        <div className={`${block} h-16`} />
+      </div>
+      <div className="space-y-4">
+        <div className={`${block} h-40`} />
+        <div className={`${block} h-64`} />
+      </div>
+    </div>
+  );
 }
 
 function DesktopCalculator({
@@ -60,6 +85,7 @@ function DesktopCalculator({
     changeLevel,
     residency,
     setResidency,
+    maxStartYear,
     startYearInput,
     startYearError,
     typeStartYear,
@@ -83,20 +109,6 @@ function DesktopCalculator({
     grouped,
     baseYearLabel,
   } = state;
-
-  // On phones the options panel comes first, so a bottom bar links to the results.
-  const resultsRef = useRef<HTMLElement>(null);
-  const [resultsInView, setResultsInView] = useState(false);
-  useEffect(() => {
-    const el = resultsRef.current;
-    if (!el || typeof IntersectionObserver === "undefined") return;
-    const io = new IntersectionObserver(
-      ([entry]) => setResultsInView(entry.isIntersecting),
-      { threshold: 0.05 },
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
 
   const select = `mt-1 w-full rounded-md border border-border bg-surface px-3 py-2${FOCUS}`;
 
@@ -157,7 +169,7 @@ function DesktopCalculator({
               className={`mt-1 block text-xs ${startYearError ? "text-warn-fg" : "text-muted"}`}
             >
               {startYearError ??
-                `Enter the year the degree starts, ${MIN_START_YEAR} or later.`}
+                `Enter the year the degree starts, ${MIN_START_YEAR} to ${maxStartYear}.`}
             </span>
           </label>
           <div className="mt-3 text-sm">
@@ -212,17 +224,10 @@ function DesktopCalculator({
             <label htmlFor="custom-increase">Use my own rate instead</label>
             {customIncrease !== null && (
               <span className="ml-auto flex items-center gap-1">
-                <input
-                  type="number"
-                  min={0}
-                  max={20}
-                  step={0.5}
-                  aria-label="Yearly fee increase in percent"
-                  className={`w-16 rounded-md border border-border bg-surface px-2 py-1 text-right${FOCUS}`}
-                  value={+(customIncrease * 100).toFixed(1)}
-                  onChange={(e) =>
-                    setCustomIncrease(Math.max(0, Number(e.target.value)) / 100)
-                  }
+                <RateInput
+                  value={customIncrease}
+                  onChange={setCustomIncrease}
+                  className="w-16 py-1"
                 />
                 %
               </span>
@@ -298,11 +303,7 @@ function DesktopCalculator({
         </div>
       </aside>
 
-      <section
-        id="results"
-        ref={resultsRef}
-        className="min-w-0 scroll-mt-4 space-y-6"
-      >
+      <section id="results" className="min-w-0 scroll-mt-4 space-y-6">
         {selections.length === 0 ? (
           <div className="rounded-xl border border-dashed border-border p-10 text-center text-muted">
             Pick a university to see its total {includeLiving ? "cost" : "fees"}
@@ -379,28 +380,6 @@ function DesktopCalculator({
         )}
       </section>
 
-      {selections.length > 0 && !resultsInView && (
-        <div className="fixed inset-x-0 bottom-0 z-20 border-t border-border bg-surface/95 pb-[env(safe-area-inset-bottom)] shadow-[0_-4px_16px_rgba(0,0,0,0.08)] backdrop-blur lg:hidden">
-          <div className="safe-x mx-auto flex max-w-6xl items-center justify-between gap-3 py-2.5">
-            <p className="min-w-0 text-sm">
-              <span className="font-medium">
-                {selections.length}{" "}
-                {selections.length === 1 ? "university" : "universities"}
-              </span>
-              <span className="block truncate text-xs text-muted">
-                From {formatCompactSgd(selections[0].grandTotalSgd)}{" "}
-                {includeLiving ? "incl. living costs" : "in fees"}
-              </span>
-            </p>
-            <a
-              href="#results"
-              className={`shrink-0 rounded-md bg-accent-fill px-4 py-2.5 text-sm font-medium text-on-accent${FOCUS}`}
-            >
-              View results ↓
-            </a>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

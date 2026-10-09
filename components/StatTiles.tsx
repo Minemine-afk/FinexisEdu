@@ -20,9 +20,10 @@ export default function StatTiles({
 }) {
   // Selections are sorted by total, so the first is the cheapest.
   const cheapest = selections[0];
+  // Three tiles only fit side by side from lg up; a tablet in portrait gets two columns.
   const cols =
     selections.length === 3
-      ? "sm:grid-cols-3"
+      ? "sm:grid-cols-2 lg:grid-cols-3"
       : selections.length === 2
         ? "sm:grid-cols-2"
         : "";
@@ -34,7 +35,7 @@ export default function StatTiles({
         return (
           <div
             key={s.key}
-            className="rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5"
+            className="min-w-0 rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5"
           >
             <p className="text-xs font-medium uppercase tracking-wide text-muted">
               {countryByCode.get(s.university.country)?.name} ·{" "}
