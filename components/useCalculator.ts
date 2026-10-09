@@ -89,6 +89,8 @@ export interface CountryGroup {
 export const MAX_SELECTED = 3;
 /** Start years the calculator accepts: typed in, from the first year the current fee tables cover. */
 export const MIN_START_YEAR = 2026;
+/** How far ahead a start year may be: projections beyond this are guesswork. */
+export const MAX_YEARS_AHEAD = 10;
 // Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
 export const COUNTRY_ORDER = [
   "sg",
@@ -273,8 +275,8 @@ export function increaseBasisNote(selections: Selection[]): string {
     .filter((s) => s.increase.basis === "country")
     .map((s) => s.university.name);
   return own.length
-    ? `From published fees ${span}; ${fallback.join(", ")} has too little history, so its country's typical rate is used.`
-    : `${fallback.join(", ")} has too little fee history, so the country's typical rate is used.`;
+    ? `From published fees ${span}; ${fallback.join(", ")} ${fallback.length > 1 ? "have" : "has"} too little history, so the country's typical rate is used.`
+    : `${fallback.join(", ")} ${fallback.length > 1 ? "have" : "has"} too little fee history, so the country's typical rate is used.`;
 }
 
 export function useCalculator({
@@ -296,13 +298,16 @@ export function useCalculator({
   );
   // What the user has typed; only a year in range is applied.
   const [startYearInput, setStartYearInput] = useState(String(startYear));
+  const maxStartYear = Math.max(thisYear, MIN_START_YEAR) + MAX_YEARS_AHEAD;
   const startYearError = (() => {
     const t = startYearInput.trim();
     if (!/^\d{4}$/.test(t))
-      return `Enter a four-digit year, ${MIN_START_YEAR} or later.`;
+      return `Enter a four-digit year, ${MIN_START_YEAR} to ${maxStartYear}.`;
     const y = Number(t);
     if (y < MIN_START_YEAR)
-      return `Rates are based on ${MIN_START_YEAR} figures. Enter ${MIN_START_YEAR} or a later year.`;
+      return `Fee tables start at ${MIN_START_YEAR}. Enter ${MIN_START_YEAR} or a later year.`;
+    if (y > maxStartYear)
+      return `Projections stop ${MAX_YEARS_AHEAD} years out. Enter ${maxStartYear} or earlier.`;
     return null;
   })();
   /** Applies what the user typed in the start-year box when it is a usable year. */
@@ -310,11 +315,15 @@ export function useCalculator({
     const t = text.replace(/[^0-9]/g, "").slice(0, 4);
     setStartYearInput(t);
     const y = Number(t);
-    if (/^\d{4}$/.test(t) && y >= MIN_START_YEAR) setStartYear(y);
+    if (/^\d{4}$/.test(t) && y >= MIN_START_YEAR && y <= maxStartYear)
+      setStartYear(y);
   }
   /** Moves the start year by whole years (the − / + stepper on touch screens). */
   function stepStartYear(delta: number) {
-    const y = Math.max(MIN_START_YEAR, startYear + delta);
+    const y = Math.min(
+      maxStartYear,
+      Math.max(MIN_START_YEAR, startYear + delta),
+    );
     setStartYear(y);
     setStartYearInput(String(y));
   }
@@ -518,6 +527,7 @@ export function useCalculator({
     residency,
     setResidency,
     startYear,
+    maxStartYear,
     startYearInput,
     startYearError,
     typeStartYear,

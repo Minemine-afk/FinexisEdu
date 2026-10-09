@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useState } from "react";
+import { useCallback, useEffect, useId, useRef, useState } from "react";
 import type { Residency } from "@/lib/calc";
 import {
   FIELD_LABELS,
@@ -16,6 +16,7 @@ import { FIELDS, LEVELS, type Field } from "@/lib/schema";
 import type { Lifestyle } from "@/lib/living";
 import { SEGMENTS, valueFor, type CompareCategory } from "./FeeChart";
 import InfoTip from "./InfoTip";
+import RateInput from "./RateInput";
 import ResultDetail, { FOCUS } from "./ResultDetail";
 import StatTiles from "./StatTiles";
 import {
@@ -50,6 +51,7 @@ export default function TouchCalculator({
   const [tab, setTab] = useState<Tab>("settings");
   // The comparison slot open in the picker sheet, if any.
   const [editing, setEditing] = useState<number | null>(null);
+  const closeSheet = useCallback(() => setEditing(null), []);
 
   function addAndEdit() {
     const i = selected.length;
@@ -99,7 +101,7 @@ export default function TouchCalculator({
       others={chosen.filter((_, j) => j !== editing)}
       state={state}
       centered={layout === "tablet"}
-      onClose={() => setEditing(null)}
+      onClose={closeSheet}
     />
   );
 
@@ -116,20 +118,18 @@ export default function TouchCalculator({
     );
   }
 
+  // Both tabs stay mounted so an expanded detail or a half-typed budget
+  // survives a trip to the other tab.
   return (
     <div>
-      {tab === "settings" && (
-        <div className="space-y-6">
-          <Assumptions state={state} />
-          <div className="border-t border-border pt-6">{universities}</div>
-        </div>
-      )}
-      {tab === "compare" && (
-        <div className="space-y-4">
-          <SettingsChips state={state} onOpen={() => setTab("settings")} />
-          <Results state={state} today={today} layout="phone" />
-        </div>
-      )}
+      <div className={tab === "settings" ? "space-y-6" : "hidden"}>
+        <Assumptions state={state} />
+        <div className="border-t border-border pt-6">{universities}</div>
+      </div>
+      <div className={tab === "compare" ? "space-y-4" : "hidden"}>
+        <SettingsChips state={state} onOpen={() => setTab("settings")} />
+        <Results state={state} today={today} layout="phone" />
+      </div>
       <TabBar
         tab={tab}
         onChange={setTab}
@@ -158,7 +158,12 @@ function SettingsChips({
     LEVEL_LABELS[state.level],
     RESIDENCY_LABELS[state.residency].replace(" student", ""),
     `Starts ${state.startYear}`,
-    state.includeLiving ? "With living costs" : "Fees only",
+    ...(state.customIncrease !== null
+      ? [`Your rate ${(state.customIncrease * 100).toFixed(1)}%/yr`]
+      : []),
+    state.includeLiving
+      ? `${LIFESTYLE_LABELS[state.lifestyle]} living costs`
+      : "Fees only",
   ];
   return (
     <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
@@ -167,7 +172,7 @@ function SettingsChips({
           key={text}
           type="button"
           onClick={onOpen}
-          className={`shrink-0 whitespace-nowrap rounded-full border border-border bg-surface px-3.5 font-medium ${BIG_BUTTON} min-h-9`}
+          className={`shrink-0 whitespace-nowrap rounded-full border border-border bg-surface px-3.5 font-medium ${BIG_BUTTON}`}
         >
           {text} <span aria-hidden className="text-xs text-muted">▾</span>
         </button>
@@ -230,7 +235,14 @@ function Results({
             <TouchSegmented
               label="University"
               value={detail.key}
-              options={selections.map((s) => [s.key, s.university.name])}
+              options={selections.map((s) => [
+                s.key,
+                selections.some(
+                  (x) => x.key !== s.key && x.university.id === s.university.id,
+                )
+                  ? `${s.university.name} · ${programmeLabel(s.university, s.programme)}`
+                  : s.university.name,
+              ])}
               onChange={setDetailKey}
             />
             <ResultDetail
@@ -289,7 +301,8 @@ function Carousel({
   selections: Selection[];
   countryByCode: CalculatorState["countryByCode"];
 }) {
-  const [page, setPage] = useState(0);
+  const [rawPage, setPage] = useState(0);
+  const page = Math.min(rawPage, selections.length - 1);
   return (
     <div>
       <div
@@ -343,13 +356,22 @@ function Bars({
       ? used
       : SEGMENTS.filter((seg) => seg.key === category);
   const max = Math.max(...selections.map((s) => valueFor(s, category)), 1);
+  // Tapping a bar shows what it is made of, as hovering does on desktop.
+  const [open, setOpen] = useState<string | null>(null);
   return (
     <div className="mt-4 space-y-3">
       {selections.map((s) => {
         const value = valueFor(s, category);
+        const breakdownId = `bar-${s.key.replace(/[^a-z0-9]/gi, "-")}`;
         return (
           <div key={s.key}>
-            <div className="flex items-baseline justify-between gap-3 text-sm">
+            <button
+              type="button"
+              aria-expanded={open === s.key}
+              aria-controls={breakdownId}
+              onClick={() => setOpen(open === s.key ? null : s.key)}
+              className={`flex min-h-11 w-full items-baseline justify-between gap-3 text-left text-sm${FOCUS} rounded`}
+            >
               <span className="min-w-0 truncate font-medium">
                 {s.university.name}
               </span>
@@ -358,7 +380,7 @@ function Bars({
                   ? "No tuition"
                   : formatMoney(value, "SGD")}
               </span>
-            </div>
+            </button>
             <div
               className="mt-1 flex h-4 overflow-hidden rounded bg-chip"
               role="img"
@@ -376,6 +398,28 @@ function Bars({
                 );
               })}
             </div>
+            <dl
+              id={breakdownId}
+              className={`mt-2 space-y-0.5 rounded-lg bg-chip/60 px-3 py-2 text-xs tabular-nums ${open === s.key ? "" : "hidden"}`}
+            >
+              {used.map((seg) => (
+                <div key={seg.key} className="flex justify-between gap-2">
+                  <dt className="flex items-center gap-1.5 text-muted">
+                    <span className={`inline-block h-2 w-2 rounded-sm ${seg.color}`} />
+                    {seg.label}
+                  </dt>
+                  <dd>
+                    {seg.key === "tuition" && s.yearsSgd.tuition === 0
+                      ? "None"
+                      : formatMoney(s.yearsSgd[seg.key], "SGD")}
+                  </dd>
+                </div>
+              ))}
+              <div className="flex justify-between gap-2 border-t border-border pt-1 font-medium">
+                <dt>Total</dt>
+                <dd>{formatMoney(s.grandTotalSgd, "SGD")}</dd>
+              </div>
+            </dl>
           </div>
         );
       })}
@@ -403,6 +447,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
     residency,
     setResidency,
     startYear,
+    maxStartYear,
     startYearInput,
     startYearError,
     typeStartYear,
@@ -435,16 +480,14 @@ function Assumptions({ state }: { state: CalculatorState }) {
               key={r}
               checked={residency === r}
               onClick={() => setResidency(r)}
-              hint={
-                r === "international"
-                  ? "Changes Singapore fees only; abroad you pay international rates."
-                  : undefined
-              }
             >
               {RESIDENCY_LABELS[r]}
             </ChoiceRow>
           ))}
         </div>
+        <p className="mt-1 text-xs text-muted">
+          Changes Singapore fees only; abroad you pay international rates.
+        </p>
       </fieldset>
 
       <div>
@@ -480,8 +523,9 @@ function Assumptions({ state }: { state: CalculatorState }) {
           <button
             type="button"
             aria-label="One year later"
+            disabled={startYear >= maxStartYear}
             onClick={() => stepStartYear(1)}
-            className={`h-11 w-14 shrink-0 rounded-lg bg-chip text-2xl text-accent${FOCUS}`}
+            className={`h-11 w-14 shrink-0 rounded-lg bg-chip text-2xl text-accent disabled:opacity-40${FOCUS}`}
           >
             +
           </button>
@@ -548,18 +592,10 @@ function Assumptions({ state }: { state: CalculatorState }) {
           <label className="mt-2 flex min-h-11 items-center justify-between gap-3 rounded-xl border border-border bg-surface px-3 text-sm">
             <span>Yearly increase</span>
             <span className="flex items-center gap-1">
-              <input
-                type="number"
-                inputMode="decimal"
-                min={0}
-                max={20}
-                step={0.5}
-                aria-label="Yearly fee increase in percent"
-                className={`h-9 w-20 rounded-md border border-border bg-surface px-2 text-right${FOCUS}`}
-                value={+(customIncrease * 100).toFixed(1)}
-                onChange={(e) =>
-                  setCustomIncrease(Math.max(0, Number(e.target.value)) / 100)
-                }
+              <RateInput
+                value={customIncrease}
+                onChange={setCustomIncrease}
+                className="h-10 w-20"
               />
               %
             </span>
@@ -687,15 +723,48 @@ function PickerSheet({
   const titleId = useId();
   const [query, setQuery] = useState("");
 
-  // Keep the page behind the sheet still, and let Escape close it.
+  const dialogRef = useRef<HTMLDivElement>(null);
+  // Keep the page behind the sheet still (position: fixed also holds on iOS
+  // Safari, where overflow: hidden alone does not), move focus into the sheet
+  // and keep Tab inside it, give focus back on close, and let Escape close it.
   useEffect(() => {
-    const prev = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    const opener = document.activeElement as HTMLElement | null;
+    const scrollY = window.scrollY;
+    const body = document.body.style;
+    const prev = { position: body.position, top: body.top, width: body.width };
+    body.position = "fixed";
+    body.top = `-${scrollY}px`;
+    body.width = "100%";
+    const focusable = () =>
+      Array.from(
+        dialogRef.current?.querySelectorAll<HTMLElement>(
+          'button, input, [tabindex]:not([tabindex="-1"])',
+        ) ?? [],
+      ).filter((el) => !el.hasAttribute("disabled"));
+    focusable()[0]?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+      if (e.key !== "Tab") return;
+      const els = focusable();
+      if (els.length === 0) return;
+      const first = els[0];
+      const last = els[els.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
     window.addEventListener("keydown", onKey);
     return () => {
-      document.body.style.overflow = prev;
       window.removeEventListener("keydown", onKey);
+      body.position = prev.position;
+      body.top = prev.top;
+      body.width = prev.width;
+      window.scrollTo(0, scrollY);
+      opener?.focus();
     };
   }, [onClose]);
 
@@ -759,6 +828,7 @@ function PickerSheet({
         className="absolute inset-0 bg-foreground/50"
       />
       <div
+        ref={dialogRef}
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
@@ -986,7 +1056,7 @@ function Chip({
       role="radio"
       aria-checked={on}
       onClick={onClick}
-      className={`min-h-10 shrink-0 whitespace-nowrap rounded-full border px-3.5 text-sm font-medium${FOCUS} ${on ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface"}`}
+      className={`min-h-11 shrink-0 whitespace-nowrap rounded-full border px-3.5 text-sm font-medium${FOCUS} ${on ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface"}`}
     >
       {children}
     </button>

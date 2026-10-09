@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { calculate, feesForYear, hasRateFor, isStale, pickTier, toSgd } from "./calc";
+import { calculate, feesForYear, hasRateFor, isStale, laterYearFee, pickTier, toSgd } from "./calc";
 import { Programme } from "./schema";
 
 const nus = Programme.parse({
@@ -136,6 +136,20 @@ describe("later years of study with their own fee", () => {
     expect(r.years.map((y) => y.tuition)).toEqual([32100, 40000, 40000, 60000, 60000, 60000]);
     expect(r.years[3].compulsoryFees).toBe(1000);
     expect(r.laterYearsEstimated).toBe(true);
+  });
+
+  it("prefers an entry for the student's tier over one for every tier in the same year", () => {
+    const p = Programme.parse({
+      ...mbchb,
+      laterYears: [
+        { fromYear: 2, annualTuition: 23020.8 },
+        { fromYear: 2, tier: "citizen", annualTuition: 21582 },
+        { fromYear: 2, tier: "pr", annualTuition: 21582 },
+      ],
+    });
+    expect(laterYearFee(p, "citizen", 2)?.annualTuition).toBe(21582);
+    expect(laterYearFee(p, "pr", 3)?.annualTuition).toBe(21582);
+    expect(laterYearFee(p, "international", 2)?.annualTuition).toBe(23020.8);
   });
 
   it("reports no later-year fees for an ordinary programme", () => {

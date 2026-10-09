@@ -113,9 +113,14 @@ export function feesForYear(programme: Programme, tier: Tier, year: number): Yea
 
 /** The fee published for `yearOfStudy` (1-based) when it differs from the first year's, or undefined. */
 export function laterYearFee(programme: Programme, tier: Tier, yearOfStudy: number): LaterYearFee | undefined {
+  // The latest applicable year wins; at the same year an entry for this tier
+  // beats one that applies to every tier.
   return programme.laterYears
     .filter((l) => l.fromYear <= yearOfStudy && (!l.tier || l.tier === tier))
-    .sort((a, b) => b.fromYear - a.fromYear)[0];
+    .sort(
+      (a, b) =>
+        b.fromYear - a.fromYear || Number(b.tier === tier) - Number(a.tier === tier),
+    )[0];
 }
 
 /**

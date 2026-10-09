@@ -3,6 +3,8 @@
 import { useSyncExternalStore } from "react";
 
 export type Layout = "phone" | "tablet" | "desktop";
+/** The layout before the client has measured the screen (server render and first client render). */
+export type MaybeLayout = Layout | "pending";
 
 // Phones get the tabbed layout; tablets get a sidebar with touch-sized
 // controls; everything else gets the desktop layout. A wide touch screen up to
@@ -32,7 +34,7 @@ function subscribe(onChange: () => void) {
   };
 }
 
-/** Which layout fits the screen. The server (and the first client render) assume desktop. */
-export function useLayout(): Layout {
-  return useSyncExternalStore(subscribe, current, () => "desktop");
+/** Which layout fits the screen; "pending" until the client has measured it. */
+export function useLayout(): MaybeLayout {
+  return useSyncExternalStore<MaybeLayout>(subscribe, current, () => "pending");
 }
