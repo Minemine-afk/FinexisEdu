@@ -128,13 +128,16 @@ describe("committed data", () => {
     }
   });
 
-  it("keys every shortlist rationale to a university and keeps research notes out", () => {
+  it("keys every shortlist rationale to a university", () => {
     const ids = new Set(universities.map((u) => `${u.country}/${u.id}`));
-    const banned = /judgement|not verified|budget|retrieved|repo\b|estimate\)|unverified|—/i;
-    for (const [key, r] of Object.entries(loadRationale())) {
-      expect(ids.has(key), key).toBe(true);
-      const text = [r.popularity, ...Object.values(r.entry), ...Object.values(r.fee)].join(" ");
-      expect(text, key).not.toMatch(banned);
+    for (const key of Object.keys(loadRationale())) expect(ids.has(key), key).toBe(true);
+  });
+
+  it("keeps the reasons short and free of research notes", () => {
+    const banned = /judgement|not verified|budget|retrieved|shortlist research|—/i;
+    for (const u of universities) {
+      expect(u.whyIncluded, u.id).not.toMatch(banned);
+      expect(u.whyIncluded!.length, u.id).toBeLessThanOrEqual(400);
     }
   });
 

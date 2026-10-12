@@ -6,9 +6,8 @@ const LEVEL_LABEL: Record<Level, string> = { bachelor: "Bachelor's", master: "Ma
 
 /**
  * A collapsed section at the foot of the page listing, country by country, why
- * each university is in the calculator: its place on the October 2026 shortlist
- * with the evidence behind it, or the `whyIncluded` note for universities that
- * were added before the shortlist (and the Singapore ones, the local benchmark).
+ * each university is in the calculator (its `whyIncluded` note, written for a
+ * Singaporean reader) and its place on the October 2026 shortlist, if any.
  */
 export default function UniversityRationale({
   universities,
@@ -48,17 +47,15 @@ export default function UniversityRationale({
 
         <div className="space-y-3 border-t border-border px-5 pt-4 pb-5 text-sm">
           <p>
-            {shortlisted} universities come from a shortlist researched in October 2026: the top 10 for
-            bachelor&apos;s and for master&apos;s degrees in each overseas country, scored on popularity with
-            international students (50%), ease of entry (25%) and affordability (25%). The figures below are the
-            evidence behind each place, as found then; fees here are for one representative programme in the local
-            currency, so check the calculator for the programme you want.
+            The overseas countries are the nine where Singaporeans most often study, by UNESCO&apos;s counts of
+            Singaporean students abroad. Within them, {shortlisted} universities come from an October 2026 shortlist
+            of the top 10 for bachelor&apos;s and for master&apos;s degrees, chosen for popularity with international
+            students, ease of entry and affordability. Each reason below says what links the university to
+            Singapore.
           </p>
           <p className="text-muted">
             The other {universities.length - shortlisted} were in the calculator before the shortlist: the Singapore
-            universities as the local benchmark, and overseas universities with strong links to Singapore, such as
-            many Singaporean students or degrees recognised by the Singapore Medical Council or the Singapore
-            Institute of Legal Education.
+            universities as the local benchmark, and overseas universities with strong Singapore links.
           </p>
 
           <div className="divide-y divide-border rounded-md border border-border">
@@ -106,7 +103,6 @@ function Row({ u, r }: { u: University; r?: ShortlistRationale }) {
     : u.country === "sg"
       ? "Local benchmark"
       : "Added before the shortlist";
-  const levels = r ? r.ranks.map((x) => x.level) : [];
 
   return (
     <tr>
@@ -116,31 +112,19 @@ function Row({ u, r }: { u: University; r?: ShortlistRationale }) {
       </td>
       <td className="hidden w-1/6 py-2.5 pr-3 text-muted sm:table-cell">{rank}</td>
       <td className="py-2.5">
-        {r ? (
+        {u.whyIncluded}
+        {r?.source && (
           <>
-            {r.popularity && <p>{r.popularity}</p>}
-            {levels.map((level) => {
-              const parts = [r.entry[level], r.fee[level] && `Tuition ${r.fee[level]}`].filter(Boolean);
-              return parts.length > 0 ? (
-                <p key={level} className="mt-1 text-xs text-muted">
-                  <span className="font-medium text-foreground">{LEVEL_LABEL[level]}: </span>
-                  {parts.join(". ")}
-                </p>
-              ) : null;
-            })}
-            {r.source && (
-              <a
-                href={r.source}
-                target="_blank"
-                rel="noreferrer"
-                className={`mt-1 inline-block text-xs text-accent underline-offset-4 hover:underline${FOCUS}`}
-              >
-                Source ↗
-              </a>
-            )}
+            {" "}
+            <a
+              href={r.source}
+              target="_blank"
+              rel="noreferrer"
+              className={`whitespace-nowrap text-xs text-accent underline-offset-4 hover:underline${FOCUS}`}
+            >
+              Source ↗
+            </a>
           </>
-        ) : (
-          <p>{u.whyIncluded}</p>
         )}
       </td>
     </tr>
