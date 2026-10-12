@@ -14,6 +14,20 @@ export const COUNTRY_CODES = [
   "jp",
   "ie",
 ] as const;
+// Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
+export const COUNTRY_ORDER: CountryCode[] = [
+  "sg",
+  "au",
+  "uk",
+  "us",
+  "de",
+  "ca",
+  "nz",
+  "ch",
+  "jp",
+  "ie",
+];
+
 export const LEVELS = ["bachelor", "master"] as const;
 export const FIELDS = [
   "engineering",
@@ -202,3 +216,17 @@ export type LivingCosts = z.infer<typeof LivingCosts>;
 export type University = z.infer<typeof University>;
 export type Country = z.infer<typeof Country>;
 export type FxRates = z.infer<typeof FxRates>;
+
+/** Why a university made the October 2026 shortlist (data/rationale.json, keyed "country/id"). */
+export const ShortlistRationale = z.object({
+  ranks: z.array(z.object({ level: Level, rank: z.number().int().min(1).max(10) })).min(1),
+  /** Evidence of popularity with international students. */
+  popularity: z.string().min(1).nullable(),
+  /** Entry requirements or admit rate, by level. */
+  entry: z.partialRecord(Level, z.string().min(1)),
+  /** Representative international tuition, by level, in local currency. */
+  fee: z.partialRecord(Level, z.string().min(1)),
+  source: z.url().nullable(),
+});
+export const RationaleFile = z.record(z.string().regex(/^[a-z]{2}\/[a-z0-9-]+$/), ShortlistRationale);
+export type ShortlistRationale = z.infer<typeof ShortlistRationale>;

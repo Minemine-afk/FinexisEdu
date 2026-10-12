@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import fallback from "@/data/fx-fallback.json";
-import { loadCountries, loadUniversities } from "./data";
+import { loadCountries, loadRationale, loadUniversities } from "./data";
 import { FX_CURRENCIES } from "./fx";
 import { COUNTRY_CODES, FxRates } from "./schema";
 
@@ -125,6 +125,16 @@ describe("committed data", () => {
           if (u.country !== "sg") expect(h.tier, `${u.id}: ${p.name}`).toBe("international");
         }
       }
+    }
+  });
+
+  it("keys every shortlist rationale to a university and keeps research notes out", () => {
+    const ids = new Set(universities.map((u) => `${u.country}/${u.id}`));
+    const banned = /judgement|not verified|budget|retrieved|repo\b|estimate\)|unverified|—/i;
+    for (const [key, r] of Object.entries(loadRationale())) {
+      expect(ids.has(key), key).toBe(true);
+      const text = [r.popularity, ...Object.values(r.entry), ...Object.values(r.fee)].join(" ");
+      expect(text, key).not.toMatch(banned);
     }
   });
 
