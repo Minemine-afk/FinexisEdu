@@ -27,6 +27,11 @@ export interface YearBreakdown {
   /** True when this year of study has its own published fee (see `Programme.laterYears`). */
   laterYear: boolean;
   tuition: number;
+  /**
+   * The same year's tuition at 2026 prices: `tuition` with the fee rises
+   * since 2026 (published or projected) taken out. Never above `tuition`.
+   */
+  tuitionAtBaseYear: number;
   compulsoryFees: number;
   oneOffFees: number;
   total: number;
@@ -72,6 +77,9 @@ export function pickTier(programme: Programme, residency: Residency): { tier: Ti
 export function hasRateFor(country: string, programme: Programme, residency: Residency): boolean {
   return country !== "sg" || residency === "international" || programme.fees[residency] !== undefined;
 }
+
+/** The year the Inflation comparison prices tuition at. */
+export const PRICE_BASE_YEAR = 2026;
 
 export interface YearFees {
   fees: FeeTier;
@@ -144,6 +152,7 @@ export function calculate(input: CalcInput): CalcResult {
   let otherFeesFromCurrent = false;
   let laterYearFees = false;
   let laterYearsEstimated = false;
+  const base = baseYearTuition(programme, tier, feeIncrease);
   for (let y = 0; y < Math.ceil(durationYears); y++) {
     const academicYear = startYear + y;
     const pricedYear = programme.cohortLocked ? startYear : academicYear;
@@ -165,6 +174,11 @@ export function calculate(input: CalcInput): CalcResult {
     }
     const fraction = Math.min(1, durationYears - y);
     const tuition = (later?.annualTuition ?? yf.fees.annualTuition) * fraction * growth;
+    // Scale by how the first-year fee moved between 2026 and the priced year,
+    // so a later year's own fee (e.g. clinical years) keeps its premium.
+    const priced = yf.fees.annualTuition * growth;
+    const tuitionAtBaseYear =
+      priced > 0 && base !== undefined ? Math.min(tuition, (tuition * base) / priced) : tuition;
     const compulsoryFees =
       (later?.annualCompulsoryFees ?? yf.fees.annualCompulsoryFees) * fraction * growth;
     const oneOffFees = y === 0 ? yf.fees.oneOffFees * growth : 0;
@@ -174,6 +188,7 @@ export function calculate(input: CalcInput): CalcResult {
       basis: yf.fromHistory ? "history" : yf.yearsAhead > 0 ? "projected" : "current",
       laterYear: later !== undefined,
       tuition,
+      tuitionAtBaseYear,
       compulsoryFees,
       oneOffFees,
       total: tuition + compulsoryFees + oneOffFees,
@@ -191,6 +206,19 @@ export function calculate(input: CalcInput): CalcResult {
     years,
     totalLocal: years.reduce((sum, y) => sum + y.total, 0),
   };
+}
+
+/**
+ * The first-year tuition for `PRICE_BASE_YEAR`: published for that year, else
+ * the nearest published fee moved by `feeIncrease` a year (forward from an
+ * older fee, backward from a newer one). Undefined when there is none.
+ */
+export function baseYearTuition(programme: Programme, tier: Tier, feeIncrease: number): number | undefined {
+  const yf = feesForYear(programme, tier, PRICE_BASE_YEAR);
+  if (yf) return yf.fees.annualTuition * Math.pow(1 + feeIncrease, yf.yearsAhead);
+  const current = programme.fees[tier];
+  if (!current) return undefined;
+  return current.annualTuition / Math.pow(1 + feeIncrease, programme.feeYear - PRICE_BASE_YEAR);
 }
 
 /** Converts an amount in `currency` to SGD. Rates are units of currency per 1 SGD. */
