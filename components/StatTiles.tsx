@@ -1,10 +1,12 @@
 "use client";
 
+import { useCallback, useState } from "react";
 import { formatMoney, programmeLabel } from "@/lib/format";
 import type { Country } from "@/lib/schema";
 import UniversityName from "./UniversityName";
 import InfoTip from "./InfoTip";
-import { noTuition } from "./ResultDetail";
+import { FOCUS, noTuition } from "./ResultDetail";
+import SavingsPlanner from "./SavingsPlanner";
 import type { Selection } from "./useCalculator";
 
 /** One headline tile per university: the total, and how it compares with the cheapest. */
@@ -12,12 +14,18 @@ export default function StatTiles({
   selections,
   countryByCode,
   only,
+  planner,
 }: {
   selections: Selection[];
   countryByCode: Map<string, Country>;
   /** Show just this one of the selections (for a swipeable carousel), still compared with the cheapest. */
   only?: number;
+  /** Adds a "Plan savings" button that opens the savings planner, as a bottom sheet when `sheet`. */
+  planner?: { today: string; sheet: boolean };
 }) {
+  const [planKey, setPlanKey] = useState<string | null>(null);
+  const closePlanner = useCallback(() => setPlanKey(null), []);
+  const planning = selections.find((s) => s.key === planKey);
   // Selections are sorted by total, so the first is the cheapest.
   const cheapest = selections[0];
   // Three tiles only fit side by side from lg up; a tablet in portrait gets two columns.
@@ -29,6 +37,15 @@ export default function StatTiles({
         : "";
   return (
     <div className={`grid gap-4 ${cols}`}>
+      {planning && planner && (
+        <SavingsPlanner
+          key={planning.key}
+          selection={planning}
+          today={planner.today}
+          sheet={planner.sheet}
+          onClose={closePlanner}
+        />
+      )}
       {selections.map((s, i) => {
         if (only !== undefined && i !== only) return null;
         const diff = s.grandTotalSgd - cheapest.grandTotalSgd;
@@ -80,6 +97,19 @@ export default function StatTiles({
                     ? `Same as ${cheapest.university.name}`
                     : `${formatMoney(diff, "SGD")} more than ${cheapest.university.name}`}
               </p>
+            )}
+            {planner && (
+              <button
+                type="button"
+                onClick={() => setPlanKey(s.key)}
+                className={`mt-3 inline-flex min-h-11 items-center justify-center gap-2 justify-self-start rounded-full border border-accent px-4 text-sm font-medium text-accent hover:bg-chip sm:min-h-9${FOCUS}`}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
+                  <path d="M3 17l6-6 4 4 8-8" />
+                  <path d="M15 7h6v6" />
+                </svg>
+                Plan savings
+              </button>
             )}
           </div>
         );

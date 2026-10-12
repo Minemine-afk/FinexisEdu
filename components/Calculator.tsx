@@ -311,7 +311,11 @@ function DesktopCalculator({
           </div>
         ) : (
           <>
-            <StatTiles selections={selections} countryByCode={countryByCode} />
+            <StatTiles
+              selections={selections}
+              countryByCode={countryByCode}
+              planner={{ today, sheet: false }}
+            />
 
             <div className="space-y-3">
               {categories.length > 1 && (
