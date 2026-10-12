@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { Country, University } from "./schema";
+import { Country, RationaleFile, University, type ShortlistRationale } from "./schema";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -36,4 +36,9 @@ export function loadCountries(dataDir = DATA_DIR): Country[] {
     .readdirSync(dir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => Country.parse(readJson(path.join(dir, f))));
+}
+
+/** Shortlist evidence per university, keyed "country/id"; universities added before the shortlist have none. */
+export function loadRationale(dataDir = DATA_DIR): Record<string, ShortlistRationale> {
+  return RationaleFile.parse(readJson(path.join(dataDir, "rationale.json")));
 }

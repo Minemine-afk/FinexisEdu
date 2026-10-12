@@ -11,6 +11,7 @@ import {
 import type { FxResult } from "@/lib/fx";
 import { RESIDENCY_LABELS } from "@/lib/format";
 import {
+  COUNTRY_ORDER,
   LIVING_CATEGORIES,
   type Country,
   type Field,
@@ -93,19 +94,7 @@ export const MAX_SELECTED = 3;
 export const MIN_START_YEAR = 2026;
 /** How far ahead a start year may be: projections beyond this are guesswork. */
 export const MAX_YEARS_AHEAD = 10;
-// Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
-export const COUNTRY_ORDER = [
-  "sg",
-  "au",
-  "uk",
-  "us",
-  "de",
-  "ca",
-  "nz",
-  "ch",
-  "jp",
-  "ie",
-];
+export { COUNTRY_ORDER };
 export const LIFESTYLE_LABELS: Record<Lifestyle, string> = {
   frugal: "Frugal",
   moderate: "Moderate",
