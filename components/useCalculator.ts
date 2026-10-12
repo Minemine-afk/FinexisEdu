@@ -74,6 +74,8 @@ export interface Selection extends Option {
     oneOffFees: number;
     living: number;
   };
+  /** Tuition at 2026 prices; `yearsSgd.tuition` minus this is the expected price rises. */
+  tuitionAtBaseYearSgd: number;
   /** Living costs, when included and the university has an estimate. */
   living: LivingResult | null;
   /** Why living costs are missing when they were asked for. */
@@ -479,6 +481,7 @@ export function useCalculator({
           oneOffFees: sum((y) => y.oneOffFees),
           living: living?.totalSgd ?? 0,
         },
+        tuitionAtBaseYearSgd: sum((y) => y.tuitionAtBaseYear),
         living,
         livingNote,
       };
@@ -501,6 +504,9 @@ export function useCalculator({
               : seg.label,
         ] as [CompareCategory, string],
     ),
+    ...(selections.some((s) => s.yearsSgd.tuition > 0)
+      ? [["inflation", "Inflation"] as [CompareCategory, string]]
+      : []),
   ];
   const category = categories.some(([c]) => c === compare) ? compare : "total";
 

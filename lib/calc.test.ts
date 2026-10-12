@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { calculate, feesForYear, hasRateFor, isStale, laterYearFee, pickTier, toSgd } from "./calc";
+import { baseYearTuition, calculate, feesForYear, hasRateFor, isStale, laterYearFee, pickTier, toSgd } from "./calc";
 import { Programme } from "./schema";
 
 const nus = Programme.parse({
@@ -229,5 +229,55 @@ describe("isStale", () => {
     const today = new Date("2026-09-23");
     expect(isStale("2025-09-01", today)).toBe(true);
     expect(isStale("2026-01-01", today)).toBe(false);
+  });
+});
+
+describe("tuition at 2026 prices", () => {
+  it("takes the projected rises out of each year", () => {
+    const r = calculate({ programme: ucl, currency: "GBP", residency: "international", startYear: 2028, feeIncrease: 0.05 });
+    for (const y of r.years) expect(y.tuitionAtBaseYear).toBeCloseTo(40000);
+    expect(r.years[0].tuition).toBeCloseTo(40000 * 1.05 ** 2);
+  });
+
+  it("is the tuition itself when starting in 2026 with no rise", () => {
+    const r = calculate({ programme: ucl, currency: "GBP", residency: "international", startYear: 2026, feeIncrease: 0 });
+    for (const y of r.years) expect(y.tuitionAtBaseYear).toBe(y.tuition);
+  });
+
+  it("grows an older published fee to 2026 and keeps cohort-locked fees flat", () => {
+    expect(baseYearTuition(nus, "citizen", 0.1)).toBeCloseTo(11000);
+    const r = calculate({ programme: nus, currency: "SGD", residency: "citizen", startYear: 2027, feeIncrease: 0.1 });
+    expect(r.years[0].tuition).toBeCloseTo(12100);
+    for (const y of r.years) expect(y.tuitionAtBaseYear).toBeCloseTo(11000);
+  });
+
+  it("uses a published 2026 fee when the latest one is for 2027", () => {
+    const p = Programme.parse({
+      ...ucl,
+      feeYear: 2027,
+      fees: { international: { annualTuition: 42000 } },
+      feeHistory: [{ feeYear: 2026, tier: "international", annualTuition: 40000 }],
+    });
+    const r = calculate({ programme: p, currency: "GBP", residency: "international", startYear: 2026, feeIncrease: 0.03 });
+    expect(r.years.map((y) => y.tuitionAtBaseYear)).toEqual([40000, 40000, 40000]);
+    expect(r.years[1].tuition).toBe(42000);
+  });
+
+  it("keeps a later year's own premium in the 2026 price", () => {
+    const p = Programme.parse({ ...ucl, laterYears: [{ fromYear: 3, annualTuition: 60000 }] });
+    const r = calculate({ programme: p, currency: "GBP", residency: "international", startYear: 2027, feeIncrease: 0.1 });
+    expect(r.years[2].tuitionAtBaseYear).toBeCloseTo(60000);
+    expect(r.years[2].tuition).toBeCloseTo(60000 * 1.1 ** 3);
+  });
+
+  it("never counts a fee cut as negative inflation", () => {
+    const p = Programme.parse({
+      ...ucl,
+      feeYear: 2027,
+      fees: { international: { annualTuition: 38000 } },
+      feeHistory: [{ feeYear: 2026, tier: "international", annualTuition: 40000 }],
+    });
+    const r = calculate({ programme: p, currency: "GBP", residency: "international", startYear: 2027, feeIncrease: 0 });
+    for (const y of r.years) expect(y.tuitionAtBaseYear).toBe(y.tuition);
   });
 });
