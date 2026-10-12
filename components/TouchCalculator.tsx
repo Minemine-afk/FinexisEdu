@@ -209,9 +209,17 @@ function Results({
   return (
     <section id="results" className="min-w-0 space-y-4">
       {layout === "phone" && selections.length > 1 ? (
-        <Carousel selections={selections} countryByCode={countryByCode} />
+        <Carousel
+          selections={selections}
+          countryByCode={countryByCode}
+          today={today}
+        />
       ) : (
-        <StatTiles selections={selections} countryByCode={countryByCode} />
+        <StatTiles
+          selections={selections}
+          countryByCode={countryByCode}
+          planner={{ today, sheet: layout === "phone" }}
+        />
       )}
 
       <div className="rounded-xl border border-border bg-surface p-4">
@@ -297,9 +305,11 @@ function Results({
 function Carousel({
   selections,
   countryByCode,
+  today,
 }: {
   selections: Selection[];
   countryByCode: CalculatorState["countryByCode"];
+  today: string;
 }) {
   const [rawPage, setPage] = useState(0);
   const page = Math.min(rawPage, selections.length - 1);
@@ -324,6 +334,7 @@ function Carousel({
               selections={selections}
               countryByCode={countryByCode}
               only={i}
+              planner={{ today, sheet: true }}
             />
           </div>
         ))}
