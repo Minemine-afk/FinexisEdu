@@ -14,7 +14,7 @@ import {
 } from "@/lib/format";
 import { FIELDS, LEVELS, type Field } from "@/lib/schema";
 import type { Lifestyle } from "@/lib/living";
-import { SEGMENTS, valueFor, type CompareCategory } from "./FeeChart";
+import { Breakdown, chartParts, valueFor, type CompareCategory } from "./FeeChart";
 import InfoTip from "./InfoTip";
 import RateInput from "./RateInput";
 import ResultDetail, { FOCUS } from "./ResultDetail";
@@ -359,13 +359,7 @@ function Bars({
   selections: Selection[];
   category: CompareCategory;
 }) {
-  const used = SEGMENTS.filter((seg) =>
-    selections.some((s) => s.yearsSgd[seg.key] > 0),
-  );
-  const segments =
-    category === "total"
-      ? used
-      : SEGMENTS.filter((seg) => seg.key === category);
+  const { used, segments } = chartParts(selections, category);
   const max = Math.max(...selections.map((s) => valueFor(s, category)), 1);
   // Tapping a bar shows what it is made of, as hovering does on desktop.
   const [open, setOpen] = useState<string | null>(null);
@@ -387,7 +381,8 @@ function Bars({
                 {s.university.name}
               </span>
               <span className="shrink-0 tabular-nums">
-                {category === "tuition" && value === 0
+                {(category === "tuition" || category === "inflation") &&
+                value === 0
                   ? "No tuition"
                   : formatMoney(value, "SGD")}
               </span>
@@ -398,7 +393,7 @@ function Bars({
               aria-label={`${s.university.name}: ${formatMoney(value, "SGD")}`}
             >
               {segments.map((seg) => {
-                const part = s.yearsSgd[seg.key];
+                const part = seg.value(s);
                 if (part <= 0) return null;
                 return (
                   <div
@@ -413,23 +408,7 @@ function Bars({
               id={breakdownId}
               className={`mt-2 space-y-0.5 rounded-lg bg-chip/60 px-3 py-2 text-xs tabular-nums ${open === s.key ? "" : "hidden"}`}
             >
-              {used.map((seg) => (
-                <div key={seg.key} className="flex justify-between gap-2">
-                  <dt className="flex items-center gap-1.5 text-muted">
-                    <span className={`inline-block h-2 w-2 rounded-sm ${seg.color}`} />
-                    {seg.label}
-                  </dt>
-                  <dd>
-                    {seg.key === "tuition" && s.yearsSgd.tuition === 0
-                      ? "None"
-                      : formatMoney(s.yearsSgd[seg.key], "SGD")}
-                  </dd>
-                </div>
-              ))}
-              <div className="flex justify-between gap-2 border-t border-border pt-1 font-medium">
-                <dt>Total</dt>
-                <dd>{formatMoney(s.grandTotalSgd, "SGD")}</dd>
-              </div>
+              <Breakdown s={s} category={category} used={used} />
             </dl>
           </div>
         );
@@ -1104,7 +1083,8 @@ function TouchSegmented<T extends string>({
         aria-label={label}
         className="mt-2 grid gap-1 rounded-xl border border-border bg-chip p-1"
         style={{
-          gridTemplateColumns: `repeat(${options.length}, minmax(0, 1fr))`,
+          // More than four choices wrap to rows of three so labels stay readable on a phone.
+          gridTemplateColumns: `repeat(${options.length > 4 ? 3 : options.length}, minmax(0, 1fr))`,
         }}
       >
         {options.map(([v, text]) => (

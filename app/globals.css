@@ -20,6 +20,7 @@
   --series-2: #38bdf8; /* compulsory fees */
   --series-3: #4338ca; /* one-off fees */
   --series-4: #0d9488; /* living costs */
+  --series-5: #c2410c; /* expected tuition price rises */
   --warn-bg: #fff4d6;
   --warn-fg: #6b4a00;
   /* Savings planner: your own money, beside interest in --series-4. */
@@ -48,6 +49,7 @@
     --series-2: #13a8b8;
     --series-3: #8e70f2;
     --series-4: #2fa36b;
+    --series-5: #f08a3c;
     --warn-bg: #3a2e0a;
     --warn-fg: #ffd98a;
     --you: #5f7699;
@@ -73,6 +75,7 @@
   --color-series-2: var(--series-2);
   --color-series-3: var(--series-3);
   --color-series-4: var(--series-4);
+  --color-series-5: var(--series-5);
   --color-warn-bg: var(--warn-bg);
   --color-warn-fg: var(--warn-fg);
   --color-you: var(--you);
