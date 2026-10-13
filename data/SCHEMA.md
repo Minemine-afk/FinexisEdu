@@ -46,7 +46,8 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
           "annualTuition": 17000,
           "annualCompulsoryFees": 400,           // optional; current value is used if omitted
           "oneOffFees": 0,                       // optional; current value is used if omitted
-          "sourceUrl": "https://..."             // optional but strongly preferred
+          "sourceUrl": "https://...",            // optional but strongly preferred
+          "sourceType": "official"               // optional; "secondary" for a third-party page, see below
         }
       ],
       "laterYears": [                            // optional; years of study charged a different fee, see below
@@ -97,6 +98,12 @@ Fee history:
 - For cohort-locked programmes (fees fixed per intake), the entry is the fee for the
   cohort that started in `feeYear`. For others it is that academic year's fee.
 - Only add figures you actually found in a source. Never back-calculate.
+- When the university no longer publishes an earlier year's fee, a third-party page
+  (course aggregator, education agent, news item) may be used if it states the fee
+  for that specific intake or academic year. Mark the row `"sourceType": "secondary"`
+  with its `sourceUrl`; the site then labels that year "Unofficial source". Never use
+  an undated third-party figure, and never fill a year in which the programme had
+  no intake.
 
 Living costs (optional, universities outside Singapore only):
 ```jsonc

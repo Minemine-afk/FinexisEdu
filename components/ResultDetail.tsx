@@ -71,7 +71,11 @@ export default function ResultDetail({
         h.sourceUrl &&
         h.sourceUrl !== p.sourceUrl,
     )
-    .map((h) => ({ year: h.feeYear, url: h.sourceUrl! }));
+    .map((h) => ({ year: h.feeYear, url: h.sourceUrl!, unofficial: h.sourceType === "secondary" }));
+  const unofficialHistoryYears = p.feeHistory
+    .filter((h) => h.tier === result.tier && historyYears.has(h.feeYear) && h.sourceType === "secondary")
+    .map((h) => h.feeYear)
+    .sort();
 
   return (
     <article
@@ -158,6 +162,11 @@ export default function ResultDetail({
           {p.sourceType === "secondary" && (
             <Badge warn term="unofficialSource">
               Unofficial source
+            </Badge>
+          )}
+          {unofficialHistoryYears.length > 0 && p.sourceType !== "secondary" && (
+            <Badge warn term="unofficialHistory">
+              Unofficial source for {unofficialHistoryYears.join(", ")}
             </Badge>
           )}
           {stale && (
@@ -299,6 +308,7 @@ export default function ResultDetail({
               >
                 {h.year} source
               </a>
+              {h.unofficial && " (unofficial)"}
             </span>
           ))}
         </p>

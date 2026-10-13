@@ -63,6 +63,8 @@ export const FeeHistoryEntry = z.object({
   annualCompulsoryFees: money.optional(),
   oneOffFees: money.optional(),
   sourceUrl: z.url().optional(),
+  /** "secondary" when read from an aggregator, agent or news page rather than the university's own. */
+  sourceType: z.enum(["official", "secondary"]).optional(),
 });
 
 // A university whose degree another institution teaches (e.g. SIM Global Education's partners).
