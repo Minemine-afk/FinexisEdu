@@ -273,8 +273,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year MBA tuition plus mandatory university and programme fees and the international services charge. The school expects tuition to rise 2-7% for year two. Health insurance not included.",
-      "notes": "Columbia Business School 'Full-Time MBA and MBAxMS' cost of attendance 2026-2027 (August entry): tuition US$93,908; mandatory fees US$6,783 first year / US$6,678 continuing. Fee breakdown from CBS 'University Fees' page (business.columbia.edu/financial-aid/policies/university-fees): Health Service Fee US$759/term, University Services and Support Fee US$645/term, MBA Program Fee US$1,935/term = US$6,678/yr; plus International Service Charge US$175/term = US$7,028; Document Fee US$105 one-off. The CBS page says international students cannot waive Columbia medical insurance (US$5,823), but Columbia Health allows non-J international students a waiver with a qualifying plan, so insurance is excluded here as elsewhere. Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled.",
-      "feeHistory": []
+      "notes": "Columbia Business School 'Full-Time MBA and MBAxMS' cost of attendance 2026-2027 (August entry): tuition US$93,908; mandatory fees US$6,783 first year / US$6,678 continuing. Fee breakdown from CBS 'University Fees' page (business.columbia.edu/financial-aid/policies/university-fees): Health Service Fee US$759/term, University Services and Support Fee US$645/term, MBA Program Fee US$1,935/term = US$6,678/yr; plus International Service Charge US$175/term = US$7,028; Document Fee US$105 one-off. The CBS page says international students cannot waive Columbia medical insurance (US$5,823), but Columbia Health allows non-J international students a waiver with a qualifying plan, so insurance is excluded here as elsewhere. Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled. 2024 and 2025 rows (2026-10-13, unofficial): Poets&Quants (27 Aug 2025, 'Highest Tuition at a U.S. B-School') states Columbia Business School tuition US$91,172 for 2025 and US$88,300 for 2024 (its 2024 article explains the calendar-year labels as the academic year starting that autumn); tuition only, so the rows carry no fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 88300,
+          "sourceUrl": "https://poetsandquants.com/2025/08/27/the-mba-price-tag-21-of-the-top-25-u-s-b-schools-now-charge-100k-a-year-or-more/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 91172,
+          "sourceUrl": "https://poetsandquants.com/2025/08/27/the-mba-price-tag-21-of-the-top-25-u-s-b-schools-now-charge-100k-a-year-or-more/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -294,8 +309,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly JD tuition plus university fees and the international services charge. Health insurance not included. Fees rise each year.",
-      "notes": "Columbia Law School Standard Cost of Attendance 2026-2027 (J.D.): tuition US$88,996; Student Activity Fee US$390; University Services & Support Fee US$1,290; Health & Related Services Fee US$1,518; plus International Services Charge US$175/term x 2 (university-wide, from the ISSO/SFS schedules) = US$3,548. Document Fee US$105 one-off for new students. Health insurance (Columbia Student Health Insurance Plan, US$5,823 a year in 2026-27) is excluded: Columbia Health says non-J visa international students may waive it with a plan meeting university requirements. Columbia's JD is on the Singapore Institute of Legal Education's approved list (Fifth Schedule, Legal Profession (Qualified Persons) Rules; graduates in the top 70% of their batch). Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled.",
-      "feeHistory": [],
+      "notes": "Columbia Law School Standard Cost of Attendance 2026-2027 (J.D.): tuition US$88,996; Student Activity Fee US$390; University Services & Support Fee US$1,290; Health & Related Services Fee US$1,518; plus International Services Charge US$175/term x 2 (university-wide, from the ISSO/SFS schedules) = US$3,548. Document Fee US$105 one-off for new students. Health insurance (Columbia Student Health Insurance Plan, US$5,823 a year in 2026-27) is excluded: Columbia Health says non-J visa international students may waive it with a plan meeting university requirements. Columbia's JD is on the Singapore Institute of Legal Education's approved list (Fifth Schedule, Legal Profession (Qualified Persons) Rules; graduates in the top 70% of their batch). Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled. 2024 and 2025 rows (2026-10-13): Columbia Law's own ABA Standard 509 Information Reports give full-time tuition and fees of US$85,368 + US$3,022 for 2025-2026 (report of 15 Dec 2025) and US$81,888 + US$2,932 for 2024-2025 (report of 16 Dec 2024). The 2025 compulsory figure adds the 2025-26 International Service Charge (US$170 x 2, GSAS 2025-26 cost page) to match the current basis; the 2024-25 charge was not found, so the 2024 row's fees exclude it.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 81888,
+          "annualCompulsoryFees": 2932,
+          "sourceUrl": "https://www.law.columbia.edu/sites/default/files/2024-12/Std509InfoReport-40-12-16-2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 85368,
+          "annualCompulsoryFees": 3362,
+          "sourceUrl": "https://www.law.columbia.edu/sites/default/files/2025-12/cls_std509inforeport_2025.pdf"
+        }
+      ],
       "sgRecognition": {
         "body": "SILE",
         "listed": true,
