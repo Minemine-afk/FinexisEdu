@@ -41,8 +41,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) HEC Lausanne bachelor, taught mainly in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) HEC Lausanne bachelor, taught mainly in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +79,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Biology and Medicine bachelor, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Biology and Medicine bachelor, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +117,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Arts bachelor combining two disciplines, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Arts bachelor combining two disciplines, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -104,8 +155,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) law bachelor, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": [],
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) law bachelor, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ],
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -132,8 +200,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Social and Political Sciences bachelor, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 3-year (180 ECTS) Faculty of Social and Political Sciences bachelor, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -153,8 +238,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) HEC Lausanne master, taught in English. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) HEC Lausanne master, taught in English. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -174,8 +276,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) HEC Lausanne master, taught in English. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) HEC Lausanne master, taught in English. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -195,8 +314,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) Faculty of Biology and Medicine master, taught in English. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) Faculty of Biology and Medicine master, taught in English. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -216,8 +352,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) Faculty of Arts master, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) Faculty of Arts master, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -237,8 +390,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) law master, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": [],
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) law master, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ],
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -265,8 +435,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) master, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 2-year (120 ECTS) master, taught in French. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -286,8 +473,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants with foreign qualifications.",
-      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) master run jointly by UNIL and HES-SO, taught in French; needs a nursing bachelor. Students enrol at UNIL, so UNIL's semester fee is used. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows.",
-      "feeHistory": []
+      "notes": "UNIL immatriculation page 'Taxes d'etudes et cout de la vie': 'Bachelor, Master, EFLE: CHF 580.- per semester' (course enrolment + semester fees combined), no surcharge for foreign students, so CHF 580 x 2 = 1,160. No separate compulsory contributions listed. One-off: CHF 200 administrative fee for processing applications from bachelor applicants with a foreign secondary certificate and master applicants without a Swiss university degree (https://unil.ch/immat/en/home/menuinst/futurs-etudiants/sinscrire.html). Page undated, read 2026-10-07; feeYear 2026 is the current rate. No 2024/2025 rows: no dated UNIL or Vaud source for those years was found this session (the fee has long been CHF 580 but that is not documented here). 1.5-year (90 ECTS) master run jointly by UNIL and HES-SO, taught in French; needs a nursing bachelor. Students enrol at UNIL, so UNIL's semester fee is used. On 2026-10-13 the UNIL 'Guide general 2024-2025' PDF and Directive 3.2 (taxes et delais) on unil.ch/files were found but cannot be read (robots-disallowed to the fetch tool), and the undated 'Tuition and semester fees' page names no academic year, so 2024/2025 rows are still missing. Round 2 (2026-10-13): r.jina.ai renderings of UNIL pages failed, and the Vaud regulation RTI-UL (in force since 1 July 2011) sets only the CHF 500 semester course fee, not a dated 2024/25 or 2025/26 total, so no rows were added. Round 4 (2026-10-13): swissuniversities' tuition-fee table (500 + 80 other fees per semester) is labelled only 'Academic year 2026-27', and iamexpat.ch and mimineurope.com tie CHF 580 only to 2026, so no 2024/2025 rows. Round 5 (2026-10-13): curl now reads unil.ch/files. UNIL's general guide '2025-2026 Tous les cursus d'etudes a l'UNIL' (guide-general-2025_web.pdf, linked from unil.ch/unil/fr/home/profils/futures-etudiantes-etudiants.html) states 'Taxe d'inscription aux cours : 580 CHF par semestre', so 2025 row = 1,160 (official). 2024: Directive 3.2 'sur les taxes et delais' (dir3-2-taxes-delais.pdf, PDF of 20 Jan 2026) sets CHF 500 course fee (art. 3) + CHF 80 semester fees (art. 4) per semester; its 'Tableau des modifications' shows the 12.12.2023 restructuring (art. 4 change only to the allocation of the semester fee) and, after that, only the 02.12.2025 update of article 15 (deadlines), so the CHF 580/semester rate was in force throughout 2024-25: 2024 row = 1,160 (official, from the directive's amendment history; no 2024-2025 guide PDF found: guide-general-2024*_web.pdf variants return 404).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

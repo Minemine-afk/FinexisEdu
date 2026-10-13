@@ -81,13 +81,20 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
-      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 37,500 per annum'), 2026-10-07; 4-year programme. The 2026-entry course page gives 35,700 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No 2025 or 2024 row: on 2026-10-13 the 2025-entry course and fees-and-funding URLs (/courses/2025/<code>/...) redirect to the 2027 page and the 2024-entry URLs no longer resolve. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (home fee for students commencing September 2024) states 'Tuition fees for international students will be £32,500 per annum'. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 37,500 per annum'), 2026-10-07; 4-year programme. The 2026-entry course page gives 35,700 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No 2025 or 2024 row: on 2026-10-13 the 2025-entry course and fees-and-funding URLs (/courses/2025/<code>/...) redirect to the 2027 page and the 2024-entry URLs no longer resolve. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (home fee for students commencing September 2024) states 'Tuition fees for international students will be £32,500 per annum'. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 03921, September admit year = academic year, full-time) gives 'Fees for international students': 2025 entry £34,000; rows added (official); 2024 £32,500 and 2026 £35,700 match the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 35700,
           "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/03921/meng-mechanical-engineering/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=03921&admitMonth=9&admitYear=2025&academicYear=2025&career=UGRD&moa=FT",
+          "sourceType": "official"
         },
         {
           "feeYear": 2024,
@@ -115,13 +122,20 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
-      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,300 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 33,100 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No 2025 or 2024 row: on 2026-10-13 the 2025-entry course and fees-and-funding URLs (/courses/2025/<code>/...) redirect to the 2027 page and the 2024-entry URLs no longer resolve. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (year of entry 2024) states 'Tuition fees for international students will be £30,000 per annum'. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,300 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 33,100 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No 2025 or 2024 row: on 2026-10-13 the 2025-entry course and fees-and-funding URLs (/courses/2025/<code>/...) redirect to the 2027 page and the 2024-entry URLs no longer resolve. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (year of entry 2024) states 'Tuition fees for international students will be £30,000 per annum'. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 03519, September admit year = academic year, full-time) gives 'Fees for international students': 2025 entry £31,500; rows added (official); 2024 £30,000 and 2026 £33,100 match the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 33100,
           "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/03519/bsc-management/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=03519&admitMonth=9&admitYear=2025&academicYear=2025&career=UGRD&moa=FT",
+          "sourceType": "official"
         },
         {
           "feeYear": 2024,
@@ -189,8 +203,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
-      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 33,100 per annum'), 2026-10-07; 3-year programme. No earlier figure found: the 2025 and 2026 course page URLs now redirect to the 2027 page. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (year of entry 2024) states 'Tuition fees for international students will be £28,500 per annum'. 2025 and 2026 still unfilled: the 2025/2026 'all-content' and module-suffix URLs also redirect to the 2027 page. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 33,100 per annum'), 2026-10-07; 3-year programme. No earlier figure found: the 2025 and 2026 course page URLs now redirect to the 2027 page. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (year of entry 2024) states 'Tuition fees for international students will be £28,500 per annum'. 2025 and 2026 still unfilled: the 2025/2026 'all-content' and module-suffix URLs also redirect to the 2027 page. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 05134, September admit year = academic year, full-time) gives 'Fees for international students': 2025 entry £29,500; 2026 entry £31,000; rows added (official); 2024 £28,500 matches the existing row.",
       "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 31000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=05134&admitMonth=9&admitYear=2026&academicYear=2026&career=UGRD&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=05134&admitMonth=9&admitYear=2025&academicYear=2025&career=UGRD&moa=FT",
+          "sourceType": "official"
+        },
         {
           "feeYear": 2024,
           "tier": "international",
@@ -217,13 +245,20 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
-      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,800 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 34,100 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No 2025 or 2024 row: on 2026-10-13 the 2025-entry course and fees-and-funding URLs (/courses/2025/<code>/...) redirect to the 2027 page and the 2024-entry URLs no longer resolve. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (home fee for students commencing September 2024) states 'Tuition fees for international students will be £29,500 per annum'. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,800 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 34,100 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No 2025 or 2024 row: on 2026-10-13 the 2025-entry course and fees-and-funding URLs (/courses/2025/<code>/...) redirect to the 2027 page and the 2024-entry URLs no longer resolve. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (home fee for students commencing September 2024) states 'Tuition fees for international students will be £29,500 per annum'. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 00653, September admit year = academic year, full-time) gives 'Fees for international students': 2025 entry £32,500; rows added (official); 2024 £29,500 and 2026 £34,100 match the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 34100,
           "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/00653/bsc-psychology/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=00653&admitMonth=9&admitYear=2025&academicYear=2025&career=UGRD&moa=FT",
+          "sourceType": "official"
         },
         {
           "feeYear": 2024,
@@ -251,13 +286,20 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
-      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,300 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 33,600 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No 2025 or 2024 row: on 2026-10-13 the 2025-entry course and fees-and-funding URLs (/courses/2025/<code>/...) redirect to the 2027 page and the 2024-entry URLs no longer resolve. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (year of entry 2024) states 'Tuition fees for international students will be £29,500 per annum'. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
+      "notes": "International fee read on the 2027-entry course page ('Tuition fees for international students will be GBP 35,300 per annum'), 2026-10-07; 3-year programme. The 2026-entry course page gives 33,600 for the 2026/27 academic year. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No 2025 or 2024 row: on 2026-10-13 the 2025-entry course and fees-and-funding URLs (/courses/2025/<code>/...) redirect to the 2027 page and the 2024-entry URLs no longer resolve. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page (year of entry 2024) states 'Tuition fees for international students will be £29,500 per annum'. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 10971, September admit year = academic year, full-time) gives 'Fees for international students': 2025 entry £32,000; rows added (official); plan title 'BNurs (Adult) Non HENW'; 2024 £29,500 and 2026 £33,600 match the existing rows.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 33600,
           "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2026/10971/bnurs-adult-nursing/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=10971&admitMonth=9&admitYear=2025&academicYear=2025&career=UGRD&moa=FT",
+          "sourceType": "official"
         },
         {
           "feeYear": 2024,
@@ -285,8 +327,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Years 1 and 2 (pre-clinical) cost £39,900 a year at 2026-27 rates; years 3 to 5 (clinical) cost £60,900 a year at the rate set when you enter year 3. Manchester may raise fees by up to 7% a year. No separate compulsory fees.",
-      "notes": "The 2027-entry course page quotes the 2026/27 rates: pre-clinical (Years 1-2) GBP 39,900 per year for students starting in September 2026; clinical (Years 3-5) GBP 60,900 for students entering the clinical part in 2026, set at the rate applicable when entering Year 3. First-year (pre-clinical) fee used per the calculator's medicine rule. 5-year programme, open to overseas applicants. Read 2026-10-07. The 2025-entry URL redirects to the 2027 page, so no earlier figure. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page states 'Tuition fees for international students, including EU, will be £38,000 for years 1 and 2 of study' (clinical fees for students entering Year 3 in 2024: £58,000); year-1 figure used. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
+      "notes": "The 2027-entry course page quotes the 2026/27 rates: pre-clinical (Years 1-2) GBP 39,900 per year for students starting in September 2026; clinical (Years 3-5) GBP 60,900 for students entering the clinical part in 2026, set at the rate applicable when entering Year 3. First-year (pre-clinical) fee used per the calculator's medicine rule. 5-year programme, open to overseas applicants. Read 2026-10-07. The 2025-entry URL redirects to the 2027 page, so no earlier figure. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. 2024 row (2026-10-13, official): the 2024-entry 'all-content' course page states 'Tuition fees for international students, including EU, will be £38,000 for years 1 and 2 of study' (clinical fees for students entering Year 3 in 2024: £58,000); year-1 figure used. 2025 still unfilled: the 2025 'all-content' URL also redirects. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 01428, September admit year = academic year, full-time) gives 'Fees for international students': 2025 entry £38,000; rows added (official); 2024 £38,000 and 2026 £39,900 match the existing row and current fee.",
       "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 38000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=01428&admitMonth=9&admitYear=2025&academicYear=2025&career=MDUG&moa=FT",
+          "sourceType": "official"
+        },
         {
           "feeYear": 2024,
           "tier": "international",
@@ -326,8 +375,22 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
-      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. 2024 row (2026-10-13, official): the older course page for MSc Advanced Computer Science (course code 02069; the current page uses 21573) states 'For entry in the academic year beginning September 2024' International, including EU, students (per annum) £36,000. 2025 and 2026 still unfilled. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. 2024 row (2026-10-13, official): the older course page for MSc Advanced Computer Science (course code 02069; the current page uses 21573) states 'For entry in the academic year beginning September 2024' International, including EU, students (per annum) £36,000. 2025 and 2026 still unfilled. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 21573, September admit year = academic year, full-time) gives 'Fees for international students': 2025 entry £37,500; 2026 entry £39,400; rows added (official); the old plan 02069 gives the same 2025/2026 figures and 2024 £36,000, matching the existing row.",
       "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 39400,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=21573&admitMonth=9&admitYear=2026&academicYear=2026&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=21573&admitMonth=9&admitYear=2025&academicYear=2025&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
         {
           "feeYear": 2024,
           "tier": "international",
@@ -354,8 +417,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
-      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
-      "feeHistory": []
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 04342, September admit year = academic year, full-time) gives 'Fees for international students': 2024 entry £35,000; 2025 entry £36,500; 2026 entry £38,400; rows added (official).",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38400,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=04342&admitMonth=9&admitYear=2026&academicYear=2026&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=04342&admitMonth=9&admitYear=2025&academicYear=2025&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=04342&admitMonth=9&admitYear=2024&academicYear=2024&career=PGDT&moa=FT",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -375,13 +460,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
-      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. 2026 row (2026-10-13, official): the Alliance Manchester Business School course page (not yet updated to 2027) states 'For entry in the academic year beginning September 2026' International, including EU, students (per annum) £33,100. 2024 and 2025 still unfilled. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. 2026 row (2026-10-13, official): the Alliance Manchester Business School course page (not yet updated to 2027) states 'For entry in the academic year beginning September 2026' International, including EU, students (per annum) £33,100. 2024 and 2025 still unfilled. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 12805, September admit year = academic year, full-time) gives 'Fees for international students': 2024 entry £30,500; 2025 entry £31,500; rows added (official); 2026 £33,100 matches the existing row.",
       "feeHistory": [
         {
           "feeYear": 2026,
           "tier": "international",
           "annualTuition": 33100,
           "sourceUrl": "https://alliancembs.manchester.ac.uk/study/masters/msc-international-business-and-management/?pg=6"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=12805&admitMonth=9&admitYear=2025&academicYear=2025&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=12805&admitMonth=9&admitYear=2024&academicYear=2024&career=PGDT&moa=FT",
+          "sourceType": "official"
         }
       ]
     },
@@ -403,8 +502,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the one-year programme for international students starting in 2026. No separate compulsory fees.",
-      "notes": "International (including EU) full-time fee per annum from the course page, the page says fees for 2027 entry have not yet been set and gives, for reference, the fees for the academic year beginning September 2026 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
-      "feeHistory": []
+      "notes": "International (including EU) full-time fee per annum from the course page, the page says fees for 2027 entry have not yet been set and gives, for reference, the fees for the academic year beginning September 2026 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 09128, September admit year = academic year, full-time) gives 'Fees for international students': 2024 entry £30,000; 2025 entry £34,500; rows added (official); 2026 £36,300 matches the current fee.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=09128&admitMonth=9&admitYear=2025&academicYear=2025&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=09128&admitMonth=9&admitYear=2024&academicYear=2024&career=PGDT&moa=FT",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -424,8 +538,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
-      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
-      "feeHistory": []
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 01380, September admit year = academic year, full-time) gives 'Fees for international students': 2024 entry £31,000; 2025 entry £32,000; 2026 entry £33,600; rows added (official).",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33600,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=01380&admitMonth=9&admitYear=2026&academicYear=2026&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=01380&admitMonth=9&admitYear=2025&academicYear=2025&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=01380&admitMonth=9&admitYear=2024&academicYear=2024&career=PGDT&moa=FT",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -445,8 +581,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the one-year programme for international students starting in 2027. No separate compulsory fees.",
-      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
-      "feeHistory": []
+      "notes": "International (including EU) full-time fee per annum from the course page, for entry in the academic year beginning September 2027 (read 2026-10-07); 1-year programme. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 08070, September admit year = academic year, full-time) gives 'Fees for international students': 2024 entry £29,500; 2025 entry £32,000; 2026 entry £33,600; rows added (official).",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33600,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=08070&admitMonth=9&admitYear=2026&academicYear=2026&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=08070&admitMonth=9&admitYear=2025&academicYear=2025&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=08070&admitMonth=9&admitYear=2024&academicYear=2024&career=PGDT&moa=FT",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -466,8 +624,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2026 on this two-year pre-registration nursing master's; Manchester may raise it by up to 7% in the second year.",
-      "notes": "International (including EU) full-time fee per annum. The 2027-entry course page says fees for 2027 entry have not yet been set and gives, for reference, the fees for the academic year beginning September 2026 (UK GBP 9,790; international GBP 28,900). 2-year programme for graduates leading to NMC registration; international applicants accepted. Read 2026-10-07. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled.",
-      "feeHistory": []
+      "notes": "International (including EU) full-time fee per annum. The 2027-entry course page says fees for 2027 entry have not yet been set and gives, for reference, the fees for the academic year beginning September 2026 (UK GBP 9,790; international GBP 28,900). 2-year programme for graduates leading to NMC registration; international applicants accepted. Read 2026-10-07. Manchester states that for subsequent academic years it reserves the right to increase the tuition fee by up to 7% each year, so cohortLocked is false. Manchester says fees cover registration, tuition, examinations and graduation, with no separate compulsory fees. No earlier rows: on 2026-10-13 the master's course page is not year-specific (it shows only the current entry fee) and no Manchester postgraduate fee table for 2024 or 2025 entry was found. Round 3 (2026-10-13): the module-suffix, course-details and postgraduate-diploma copies of the course page and the Student Support tuition-fee search (a form whose results cannot be fetched) gave no earlier-year figure. Round 4 (2026-10-13): the 2025 all-content module URLs and the masters course/?code= route redirect to current-entry content; still unfilled. Round 5 (2026-10-13): the University's Student Support tuition fee search (studentsupport.manchester.ac.uk tuition-fee-search, action=Display, plan 18749, September admit year = academic year, full-time) gives 'Fees for international students': 2024 entry £25,000; 2025 entry £27,500; rows added (official); plan title 'Master of Science in Nursing (Adult Field)'; 2026 £28,900 matches the current fee.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 27500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=18749&admitMonth=9&admitYear=2025&academicYear=2025&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=18749&admitMonth=9&admitYear=2024&academicYear=2024&career=PGDT&moa=FT",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

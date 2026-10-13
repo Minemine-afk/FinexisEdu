@@ -378,8 +378,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year MD tuition plus compulsory school fees and the international services charge. Health insurance not included. Fees rise each year.",
-      "notes": "VP&S MD Program Student Budget 2026-27 ('VP&S - Standard' PDF linked from the budget page; file 41692): tuition US$76,336 each year. First-year compulsory = Student Health Service US$1,788 + Supplemental Insurance US$10 + Disability Insurance US$78 + CUIMC Network Fee US$480 + P&S IT Fee US$148 + Program Fee US$100 + Student Activity Fee US$145 = US$2,749, plus International Services Charge US$350 = US$3,099. Document Fee US$105 one-off. Later years: Program Fee US$500 in MS2, no activity fee after MS1. Medical Insurance Premium US$5,823 excluded (waivable). The Vagelos Scholarship Program meets need with grants; eligibility of international students not confirmed. Columbia's MD (Vagelos College of Physicians and Surgeons) is on the Second Schedule of Singapore's Medical Registration Act. Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): CollegeTuitionCompare gives only the 2026-27 tuition and fees (US$79,690), and no dated 2024-25 or 2025-26 VP&S budget was found. Retried 2026-10-13 (round 4): Columbia OPIR's tuition-rates abstract stops at 2023-24, and Student Doctor Network's US$74,840 is not tied to a year (its 'AAMC FACTS 2025-2026' line refers to admissions data), so 2024 and 2025 remain unfilled.",
-      "feeHistory": [],
+      "notes": "VP&S MD Program Student Budget 2026-27 ('VP&S - Standard' PDF linked from the budget page; file 41692): tuition US$76,336 each year. First-year compulsory = Student Health Service US$1,788 + Supplemental Insurance US$10 + Disability Insurance US$78 + CUIMC Network Fee US$480 + P&S IT Fee US$148 + Program Fee US$100 + Student Activity Fee US$145 = US$2,749, plus International Services Charge US$350 = US$3,099. Document Fee US$105 one-off. Later years: Program Fee US$500 in MS2, no activity fee after MS1. Medical Insurance Premium US$5,823 excluded (waivable). The Vagelos Scholarship Program meets need with grants; eligibility of international students not confirmed. Columbia's MD (Vagelos College of Physicians and Surgeons) is on the Second Schedule of Singapore's Medical Registration Act. Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): CollegeTuitionCompare gives only the 2026-27 tuition and fees (US$79,690), and no dated 2024-25 or 2025-26 VP&S budget was found. Retried 2026-10-13 (round 4): Columbia OPIR's tuition-rates abstract stops at 2023-24, and Student Doctor Network's US$74,840 is not tied to a year (its 'AAMC FACTS 2025-2026' line refers to admissions data), so 2024 and 2025 remain unfilled. Round 5 (2026-10-13): Columbia SFS's 'Tuition & Fees Tool' (tuition.sfs.columbia.edu; script-driven, read with a headless browser) still offers Fall/Spring 2024-2025 and 2025-2026 terms, and for 2026-27 it reproduces the current figures exactly (checked). Vagelos 'MD, All Students' tuition per term: 2025-26 $37,420, 2024-25 $36,506 (2026-27 $38,168), so annual = x 2 = $74,840 and $73,012. Compulsory on the current first-year basis (health fee x 2 + supplemental insurance + disability insurance + CUIMC technology fee x 2 + IT fee + program fee + activity fee + international services charge x 2): 2025-26 1,720 + 10 + 78 + 464 + 148 + 85 + 145 + 340 = $2,990; 2024-25 1,656 + 10 + 78 + 450 + 148 + 85 + 145 + 320 = $2,892; Document Fee $105 one-off. 2024 and 2025 rows added.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 74840,
+          "annualCompulsoryFees": 2990,
+          "oneOffFees": 105,
+          "sourceUrl": "https://tuition.sfs.columbia.edu/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 73012,
+          "annualCompulsoryFees": 2892,
+          "oneOffFees": 105,
+          "sourceUrl": "https://tuition.sfs.columbia.edu/",
+          "sourceType": "official"
+        }
+      ],
       "sgRecognition": {
         "body": "SMC",
         "listed": true,
@@ -444,8 +463,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly flat-rate tuition for the two-year Master of International Affairs plus school and university fees. Health insurance not included. Figures are provisional estimates.",
-      "notes": "SIPA Office of Financial Aid 'Tuition and Fees' 2026-2027 (provisional, dated 13 Feb 2026): MIA/MPA flat rate US$37,110 per term (12-16.5 credits) x 2 = US$74,220. Compulsory per term: Health & Related Services US$759 + SIPA Computer Lab US$200 + University Services & Support US$645 + Student Activity US$75 + International Student Fee US$175 = US$1,854 x 2 = US$3,708. One-off: Document Fee US$105 + I-20 fee US$121 = US$226. Medical insurance (waivable) excluded. Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): SIPA's own July 2025 'Updates to SIPA's Tuition Structure' notice says the flat-rate structure took effect in 2025-26 but gives no amounts, and no dated 2024-25 or 2025-26 SIPA figure was found. Retried 2026-10-13 (round 4): SFS's DoD per-credit sheets give International Relations at US$2,858 (Aug 2024) and US$2,974 (Aug 2025) per credit, but the current figure is SIPA's flat term rate, so they were not used.",
-      "feeHistory": []
+      "notes": "SIPA Office of Financial Aid 'Tuition and Fees' 2026-2027 (provisional, dated 13 Feb 2026): MIA/MPA flat rate US$37,110 per term (12-16.5 credits) x 2 = US$74,220. Compulsory per term: Health & Related Services US$759 + SIPA Computer Lab US$200 + University Services & Support US$645 + Student Activity US$75 + International Student Fee US$175 = US$1,854 x 2 = US$3,708. One-off: Document Fee US$105 + I-20 fee US$121 = US$226. Medical insurance (waivable) excluded. Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): SIPA's own July 2025 'Updates to SIPA's Tuition Structure' notice says the flat-rate structure took effect in 2025-26 but gives no amounts, and no dated 2024-25 or 2025-26 SIPA figure was found. Retried 2026-10-13 (round 4): SFS's DoD per-credit sheets give International Relations at US$2,858 (Aug 2024) and US$2,974 (Aug 2025) per credit, but the current figure is SIPA's flat term rate, so they were not used. Round 5 (2026-10-13): Columbia SFS's 'Tuition & Fees Tool' (tuition.sfs.columbia.edu; script-driven, read with a headless browser) still offers Fall/Spring 2024-2025 and 2025-2026 terms, and for 2026-27 it reproduces the current figures exactly (checked). SIPA 'Master of International Affairs, Residence Unit' tuition per term: 2025-26 $35,684 (1 to 16.5 points), 2024-25 $34,200 (1 to 18 points) (2026-27 $37,110), annual = x 2 = $71,368 and $68,400. Per-term fees (activity + SIPA IT/AV + University Services & Support full time + Morningside health full time + international services charge): 2025-26 70 + 200 + 618 + 723 + 170 = $1,781, 2024-25 70 + 200 + 602 + 694 + 160 = $1,726, x 2 = $3,562 and $3,452. One-off is the $105 Document Fee only (the tool does not list the I-20 fee included in the current one-off figure). 2024 and 2025 rows added.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 71368,
+          "annualCompulsoryFees": 3562,
+          "oneOffFees": 105,
+          "sourceUrl": "https://tuition.sfs.columbia.edu/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 68400,
+          "annualCompulsoryFees": 3452,
+          "oneOffFees": 105,
+          "sourceUrl": "https://tuition.sfs.columbia.edu/",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -465,8 +503,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the first three terms (summer, fall, spring) of the 15-month nursing master's for non-nurses, plus university fees. A final summer term is extra. Health insurance not included.",
-      "notes": "Columbia Nursing Tuition and Fees 2026-27, Master's Direct Entry full-time traditional track: tuition US$106,222 for the first three terms (Summer, Fall, Spring); University Fees US$3,387 (listed components: Simulation US$25, Technology US$50, CUIMC Network US$240 and Student Activity US$35 per term, Transcript Fee US$105 one-time; the remainder is presumably the health service fee). Compulsory = US$3,387 - US$105 = US$3,282 + International Services Charge US$175 x 2 (fall, spring) = US$3,632; one-off US$105. Health insurance (Summer US$1,356, Fall US$2,218, Spring US$3,605) excluded as waivable. Programme is 15 months (four terms); the fourth term's tuition is not included in this annual figure. Columbia Nursing has a page for MDE international applicants. Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): Mastersportal's MDE fee (US$82,244 a year) is undated, so it was not used. Retried 2026-10-13 (round 4): SFS's DoD per-credit sheets give nursing at US$1,860 (Aug 2024) and US$1,936 (Aug 2025) per credit, but the current figure is the MDE's three-term programme rate, so they were not used.",
-      "feeHistory": []
+      "notes": "Columbia Nursing Tuition and Fees 2026-27, Master's Direct Entry full-time traditional track: tuition US$106,222 for the first three terms (Summer, Fall, Spring); University Fees US$3,387 (listed components: Simulation US$25, Technology US$50, CUIMC Network US$240 and Student Activity US$35 per term, Transcript Fee US$105 one-time; the remainder is presumably the health service fee). Compulsory = US$3,387 - US$105 = US$3,282 + International Services Charge US$175 x 2 (fall, spring) = US$3,632; one-off US$105. Health insurance (Summer US$1,356, Fall US$2,218, Spring US$3,605) excluded as waivable. Programme is 15 months (four terms); the fourth term's tuition is not included in this annual figure. Columbia Nursing has a page for MDE international applicants. Retried 2026-10-13: the school cost page, SFS cost pages and the Columbia CDS show no earlier-year figure for this programme, archived bulletins are blocked to automated reading and the SFS tuition tool is script-only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): Mastersportal's MDE fee (US$82,244 a year) is undated, so it was not used. Retried 2026-10-13 (round 4): SFS's DoD per-credit sheets give nursing at US$1,860 (Aug 2024) and US$1,936 (Aug 2025) per credit, but the current figure is the MDE's three-term programme rate, so they were not used. Round 5 (2026-10-13): Columbia SFS's 'Tuition & Fees Tool' (tuition.sfs.columbia.edu; script-driven, read with a headless browser) still offers Fall/Spring 2024-2025 and 2025-2026 terms, and for 2026-27 it reproduces the current figures exactly (checked). Nursing 'Masters Direct Entry (MDE), All Students' tuition per term: Summer 2024 $32,092, Fall/Spring 2024-25 $33,378, Summer 2025 $33,378, Fall/Spring 2025-26 $34,714 (Summer 2026 $34,714 + 2 x Fall/Spring 2026-27 $35,754 = $106,222, the current figure). On the same first-three-terms basis: 2025 cohort 33,378 + 2 x 34,714 = $102,806; 2024 cohort 32,092 + 2 x 33,378 = $98,848. Fees on the current basis (summer: student life 35 + technology 50 + simulation 25 + health + supplemental 10 + CUIMC technology; fall/spring: the same less supplemental, with the full-time health fee; plus international services charge in fall and spring): 2025 = 770 + 2 x 1,202 + 2 x 170 = $3,514; 2024 = 755 + 2 x 1,163 + 2 x 160 = $3,401; Document Fee $105 one-off. 2024 and 2025 rows added.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 102806,
+          "annualCompulsoryFees": 3514,
+          "oneOffFees": 105,
+          "sourceUrl": "https://tuition.sfs.columbia.edu/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 98848,
+          "annualCompulsoryFees": 3401,
+          "oneOffFees": 105,
+          "sourceUrl": "https://tuition.sfs.columbia.edu/",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

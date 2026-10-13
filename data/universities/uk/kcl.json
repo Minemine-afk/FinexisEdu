@@ -31,17 +31,26 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 38300,
+          "annualTuition": 40600,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/81646/electronic-engineering.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/electronic-engineering-beng/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '38300 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '38300 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £40,600 (visible text: 'The International tuition fee for the 2027-2028 academic year is £40,600 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '35,800', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UBSH3CSEEB, year 2, overseas) gives £38,300 (35,800 plus 7% is 38,306, capped at what appears to be the 2026 new-entrant fee), under King's rule of at most 7% a year for continuing students. Added 2025 row £35,800 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £40,600 per year'; the Studyportals figure previously used (£38,300) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/electronic-engineering-beng/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -51,17 +60,26 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 40450,
+          "annualTuition": 42900,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/81582/computer-science.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/computer-science-bsc/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '40450 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '40450 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £42,900 (visible text: 'The International tuition fee for the 2027-2028 academic year is £42,900 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '35,800', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UBSH3CSCS, year 2, overseas) gives £38,306 (exactly 35,800 plus 7%), under King's rule of at most 7% a year for continuing students. Added 2025 row £35,800 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £42,900 per year'; the Studyportals figure previously used (£40,450) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/computer-science-bsc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -71,17 +89,26 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 38300,
+          "annualTuition": 40600,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/80635/business-management.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/business-management-bsc/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '38300 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '38300 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £40,600 (visible text: 'The International tuition fee for the 2027-2028 academic year is £40,600 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '35,800', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UBSH3SSBM, year 2, overseas) gives £38,300 (35,800 plus 7% is 38,306, capped), under King's rule of at most 7% a year for continuing students. Added 2025 row £35,800 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £40,600 per year'; the Studyportals figure previously used (£38,300) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/business-management-bsc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -91,17 +118,26 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 38300,
+          "annualTuition": 40600,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/82181/physics.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/physics-bsc/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '38300 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '38300 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £40,600 (visible text: 'The International tuition fee for the 2027-2028 academic year is £40,600 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '35,800', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UBSH3CSPH, year 2, overseas) gives £38,300 (35,800 plus 7% is 38,306, capped), under King's rule of at most 7% a year for continuing students. Added 2025 row £35,800 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £40,600 per year'; the Studyportals figure previously used (£38,300) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/physics-bsc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -111,17 +147,26 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 38300,
+          "annualTuition": 40600,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/81639/economics.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/economics-bsc/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '38300 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '38300 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £40,600 (visible text: 'The International tuition fee for the 2027-2028 academic year is £40,600 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '35,800', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UBSH3SSWE, year 2, overseas) gives £38,300 (35,800 plus 7% is 38,306, capped), under King's rule of at most 7% a year for continuing students. Added 2025 row £35,800 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £40,600 per year'; the Studyportals figure previously used (£38,300) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/economics-bsc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -131,24 +176,33 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 33850,
+          "annualTuition": 35900,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/82024/law.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/law-llb/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '33850 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled.",
+      "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '33850 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £35,900 (visible text: 'The International tuition fee for the 2027-2028 academic year is £35,900 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '31,600', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UBLH3FSLW, year 2, overseas) gives £33,812 (exactly 31,600 plus 7%), under King's rule of at most 7% a year for continuing students. Added 2025 row £31,600 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £35,900 per year'; the Studyportals figure previously used (£33,850) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
       "sgRecognition": {
         "body": "SILE",
         "listed": true,
         "note": "First Schedule, at least a 2:2",
         "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
         "lastVerified": "2026-10-08"
-      }
+      },
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31600,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/law-llb/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -158,24 +212,33 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 56800,
+          "annualTuition": 60200,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/318542/medicine.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/medicine-mbbs/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting the 5-year MBBS in 2027, as listed by a course directory (King's own page could not be read). Fees can rise by up to 7% a year.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '56800 GBP / year'. Replace with the official figure when it can be read. Studyportals lists the 'MBBS On Campus' (60 months) at 56,800 GBP / year; whether King's charges a different rate in the clinical years was not confirmed. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled.",
+      "summary": "Yearly tuition for international students starting the 5-year MBBS in 2027 (King's own course fees page). Fees can rise by up to 7% a year.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '56800 GBP / year'. Replace with the official figure when it can be read. Studyportals lists the 'MBBS On Campus' (60 months) at 56,800 GBP / year; whether King's charges a different rate in the clinical years was not confirmed. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £60,200 (visible text: 'The International tuition fee for the 2027-2028 academic year is £60,200 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '53,000', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UMBB5MSMD, year 2, overseas) gives £56,710 (exactly 53,000 plus 7%), under King's rule of at most 7% a year for continuing students. Added 2025 row £53,000 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £60,200 per year'; the Studyportals figure previously used (£56,800) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
       "sgRecognition": {
         "body": "SMC",
         "listed": true,
         "note": "Second Schedule, MB BS",
         "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
         "lastVerified": "2026-10-08"
-      }
+      },
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53000,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/medicine-mbbs/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -185,17 +248,26 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 42800,
+          "annualTuition": 45400,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/82268/psychology.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/psychology-bsc/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '42800 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '42800 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £45,400 (visible text: 'The International tuition fee for the 2027-2028 academic year is £45,400 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '40,000', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UBSH3PSPN, year 2, overseas) gives £42,800 (exactly 40,000 plus 7%), under King's rule of at most 7% a year for continuing students. Added 2025 row £40,000 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £45,400 per year'; the Studyportals figure previously used (£42,800) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 40000,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/psychology-bsc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -205,17 +277,26 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 33850,
+          "annualTuition": 35900,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.bachelorsportal.com/studies/82122/nursing-with-registration-as-an-adult-nurse.html",
-      "lastVerified": "2026-10-07",
-      "sourceType": "secondary",
+      "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/nursing-with-registration-as-an-adult-nurse-bsc/fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students starting in 2027, as listed by a course directory (King's own page could not be read). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '33850 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
+      "notes": "Secondary source: King's undergraduate course pages and their /fees subpages load fees by JavaScript, and no official undergraduate fee table or PDF could be found (checked 2026-10-07: kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees says fees are only on each course page; the UCAS entry lists the UK fee only; the returning-student fee page is an interactive form). Figure read from the Studyportals (Bachelorsportal) listing for King's College London, start date 27 September 2027, '33850 GBP / year'. Replace with the official figure when it can be read. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No feeHistory rows and still secondary: on 2026-10-13 the King's course /fees pages (e.g. computer-science-bsc, physics-bsc) still returned no figures without JavaScript, and no official King's fee schedule or year-dated figure for 2024, 2025 or 2026 entry was found. 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): King's course pages are built from a CMS record whose JSON is embedded in the page HTML (window.REDUX_DATA, readable with curl). The /fees page's own record gives the 2027/28 international fee £35,900 (visible text: 'The International tuition fee for the 2027-2028 academic year is £35,900 per year'), which differs from the Studyportals figure in `fees` (corrected later in this note). The linked course record still carries the previous fee import, internationalFee '31,600', whose study-abroad text in the same record refers to 2025/26; this is dated to 2025 entry because King's 2026/27 returning-student fee lookup (CMS type courseFees2026, course UBSR3KSNRA, year 2, overseas) gives £33,812 (exactly 31,600 plus 7%), under King's rule of at most 7% a year for continuing students. Added 2025 row £31,600 (official). No 2024 or 2026 entry figure found: the CMS keeps no older versions, and the 2025/26 returning-fee table (courseFees2025) gives only continuing-student rates, which were not used. Round 5 (2026-10-13): current fee corrected to the official figure. The King's course fees page, rendered with JavaScript, reads 'The International tuition fee for the 2027-2028 academic year is £35,900 per year'; the Studyportals figure previously used (£33,850) was lower and appears to be the 2026 entry fee, so it was replaced. sourceType is now official.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31600,
+          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/nursing-with-registration-as-an-adult-nurse-bsc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -235,7 +316,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. No separate compulsory fees.",
-      "notes": "King's course fees page: 'Full time tuition fees International: £40,450 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "notes": "King's course fees page: 'Full time tuition fees International: £40,450 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): the course page's embedded CMS course record (window.REDUX_DATA in the /fees page HTML) still holds the previous fee import: internationalFee '£37,800 per year (2025/26)'. Added 2025 row £37,800 (official). 2024 not found: the CMS keeps no older versions and no 2024/25 figure is on King's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/courses/robotics-msc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -255,7 +345,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. No separate compulsory fees.",
-      "notes": "King's course fees page: 'Full time tuition fees International: £40,450 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "notes": "King's course fees page: 'Full time tuition fees International: £40,450 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): the course page's embedded CMS course record (window.REDUX_DATA in the /fees page HTML) still holds the previous fee import: internationalFee '£37,800 per year (2025/26)'. Added 2025 row £37,800 (official). 2024 not found: the CMS keeps no older versions and no 2024/25 figure is on King's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/courses/advanced-computing-msc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -275,7 +374,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. No separate compulsory fees.",
-      "notes": "King's course fees page: 'Full time tuition fees International: £40,450 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "notes": "King's course fees page: 'Full time tuition fees International: £40,450 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): the course page's embedded CMS course record (window.REDUX_DATA in the /fees page HTML) still holds the previous fee import: internationalFee '£37,800 per year (2025/26)'. Added 2025 row £37,800 (official). 2024 not found: the CMS keeps no older versions and no 2024/25 figure is on King's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/courses/international-management-msc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -295,7 +403,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. No separate compulsory fees.",
-      "notes": "King's course fees page: 'Full time tuition fees International: £40,450 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "notes": "King's course fees page: 'Full time tuition fees International: £40,450 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): the course page's embedded CMS course record (window.REDUX_DATA in the /fees page HTML) still holds the previous fee import: internationalFee '£37,800 per year (2025/26)'. Added 2025 row £37,800 (official). 2024 not found: the CMS keeps no older versions and no 2024/25 figure is on King's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/courses/data-science-msc/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -315,7 +432,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. No separate compulsory fees.",
-      "notes": "King's course fees page: 'Full time tuition fees International: £38,300 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "notes": "King's course fees page: 'Full time tuition fees International: £38,300 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): the course page's embedded CMS course record (window.REDUX_DATA in the /fees page HTML) still holds the previous fee import: internationalFee '£35,800 per year (2025/26)'. Added 2025 row £35,800 (official). 2024 not found: the CMS keeps no older versions and no 2024/25 figure is on King's site.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/courses/international-relations-ma/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -335,14 +461,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. No separate compulsory fees.",
-      "notes": "King's course fees page: 'Full time tuition fees International: £38,300 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled.",
+      "notes": "King's course fees page: 'Full time tuition fees International: £38,300 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): the course page's embedded CMS course record (window.REDUX_DATA in the /fees page HTML) still holds the previous fee import: internationalFee '£35,800 per year (2025/26)'. Added 2025 row £35,800 (official). 2024 not found: the CMS keeps no older versions and no 2024/25 figure is on King's site.",
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
         "note": "SILE lists this university's first law degree, not the LLM",
         "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
         "lastVerified": "2026-10-08"
-      }
+      },
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35800,
+          "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/courses/master-of-laws-llm/fees",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -362,7 +497,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. No separate compulsory fees.",
-      "notes": "King's course fees page: 'Full time tuition fees International: £42,800 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. Taught by the Institute of Psychiatry, Psychology & Neuroscience; chosen because King's on-campus psychology master's are specialised and this is its main mental-health psychology MSc. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled."
+      "notes": "King's course fees page: 'Full time tuition fees International: £42,800 per year (2026/27)'; one-year full-time MSc/MA/LLM (September to September). Figures for 2027/28 entry were not yet published when checked; earlier years' fees are not shown on the page. Taught by the Institute of Psychiatry, Psychology & Neuroscience; chosen because King's on-campus psychology master's are specialised and this is its main mental-health psychology MSc. King's states (Student Services article KA-02161) that fees for continuing international undergraduate and postgraduate taught students will not rise by more than 7% on the previous year for the same course, so fees are not fixed for the cohort: cohortLocked false. No compulsory fees besides tuition. No 2024 or 2025 row: on 2026-10-13 no official King's figure for those entry years was found (the fees page shows only 2026/27; aggregator listings give undated fees). 2024-2026 rows still unfilled (2026-10-13, unofficial search): r.jina.ai could not render kcl.ac.uk pages; Hotcourses, Complete University Guide, Yocket, TopUniversities and Collegedunia give only undated or 2027-start fees, and blog figures (e.g. iSchoolConnect's MBBS fee) were contradictory, so none was used. Round 3 (2026-10-13): King's study-abroad '2025-26 fees for reference' page gives only visiting-student fees; whatdotheyknow.com FOI replies cannot be fetched (robots); no year-dated full-degree figure found. Round 4 (2026-10-13): the older kcl.ac.uk/study/postgraduate/taught-courses/.../fees URLs and Unienrol listings show only 2026/27 or undated figures; still unfilled. Round 5 (2026-10-13): the course page's embedded CMS records (window.REDUX_DATA) hold only the 2026/27 fee (£42,800), with no earlier fee import; King's CMS keeps no older versions. 2024 and 2025 still unfilled."
     }
   ]
 }
