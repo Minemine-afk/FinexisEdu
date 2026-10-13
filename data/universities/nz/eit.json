@@ -41,8 +41,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard yearly tuition for international students for 2027, including GST. Excludes the student services fee and insurance.",
-      "notes": "2027 standard fee per academic year, Napier ('undergraduate tuition fees listed are for one academic year only'); net fee after scholarship $24,500. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 standard fee per academic year, Napier ('undergraduate tuition fees listed are for one academic year only'); net fee after scholarship $24,500. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('The tuition fees listed are for all 2024 programmes'; annual, incl. GST) lists Bachelor of Computing Systems at $25,000 a year (single fee, no net/standard split for undergraduates). It also gives a Student Services Levy of $364 for 2024, not added so the row matches the 2027 basis.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +71,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard yearly tuition for international students for 2027, including GST. Excludes the student services fee and insurance.",
-      "notes": "2027 standard fee per academic year, Napier; net after scholarship $24,500. Bachelor of Accounting same fee. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 standard fee per academic year, Napier; net after scholarship $24,500. Bachelor of Accounting same fee. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('The tuition fees listed are for all 2024 programmes'; annual, incl. GST) lists Bachelor of Business Studies at $25,000 a year (single fee, no net/standard split for undergraduates). It also gives a Student Services Levy of $364 for 2024, not added so the row matches the 2027 basis.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +101,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard yearly tuition for international students for 2027, including GST. Excludes the student services fee and insurance.",
-      "notes": "2027 standard fee per academic year, Napier; net after scholarship $24,500. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 standard fee per academic year, Napier; net after scholarship $24,500. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('The tuition fees listed are for all 2024 programmes'; annual, incl. GST) lists Bachelor of Viticulture and Wine Science at $25,000 a year (single fee, no net/standard split for undergraduates). It also gives a Student Services Levy of $364 for 2024, not added so the row matches the 2027 basis.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -104,8 +131,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard yearly tuition for international students for 2027, including GST. Excludes the student services fee and insurance.",
-      "notes": "2027 standard fee per academic year, Napier; net after scholarship $24,500. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 standard fee per academic year, Napier; net after scholarship $24,500. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('The tuition fees listed are for all 2024 programmes'; annual, incl. GST) lists Bachelor of Creative Practice at $25,000 a year (single fee, no net/standard split for undergraduates). It also gives a Student Services Levy of $364 for 2024, not added so the row matches the 2027 basis.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -125,8 +161,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students for 2027, including GST; no scholarship discount applies. Excludes the student services fee and insurance.",
-      "notes": "2027 fee per academic year, Napier; standard and net fee both $30,000. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 fee per academic year, Napier; standard and net fee both $30,000. 3 years. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('The tuition fees listed are for all 2024 programmes'; annual, incl. GST) lists Bachelor of Nursing at $28,000 a year (single fee, no net/standard split for undergraduates). It also gives a Student Services Levy of $364 for 2024, not added so the row matches the 2027 basis. 2026 row (2026-10-13, official): EIT's international application pack 'BACHELOR OF NURSING 2026' (eit.ac.nz programme-app-packs/int BACH of Nursing.pdf; fees 'for 2026') gives 'Standard Fees NZ$30,000 per year'.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 30000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/programme-app-packs/int%20BACH%20of%20Nursing.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -146,8 +199,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST. Excludes the student services fee and insurance.",
-      "notes": "2027 standard fee $42,000 total for 180 credits (1.5 years), Napier and Auckland, = $28,000 a year; net after scholarship $39,000. 240-credit (2-year) version $56,000 standard. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 standard fee $42,000 total for 180 credits (1.5 years), Napier and Auckland, = $28,000 a year; net after scholarship $39,000. 240-credit (2-year) version $56,000 standard. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('for all 2024 programmes') lists Master of Information Technology (180 credits, Napier) at standard fee $48,750 (net $38,750 after 2024 study grants) for the 180-credit, 1.5-year programme = $32,500 a year. This is higher than the 2027 standard fee: EIT cut its master's list price (2024 standard $48,750, 2027 standard $42,000 total), so the 2024 standard fee is recorded on the same standard-fee basis.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -167,8 +229,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST. Excludes the student services fee and insurance.",
-      "notes": "2027 standard fee $42,000 total for 180 credits (1.5 years), Napier and Auckland, = $28,000 a year; net after scholarship $39,000. 240-credit version $56,000. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 standard fee $42,000 total for 180 credits (1.5 years), Napier and Auckland, = $28,000 a year; net after scholarship $39,000. 240-credit version $56,000. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('for all 2024 programmes') lists Master of Applied Management (180 credits, Napier) at standard fee $48,750 (net $38,750 after 2024 study grants) for the 180-credit, 1.5-year programme = $32,500 a year. This is higher than the 2027 standard fee: EIT cut its master's list price (2024 standard $48,750, 2027 standard $42,000 total), so the 2024 standard fee is recorded on the same standard-fee basis.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -188,8 +259,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST. Excludes the student services fee and insurance.",
-      "notes": "2027 standard fee $42,000 total for 180 credits (1.5 years), Napier, = $28,000 a year; net after scholarship $39,000. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 standard fee $42,000 total for 180 credits (1.5 years), Napier, = $28,000 a year; net after scholarship $39,000. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('for all 2024 programmes') lists Master of Professional Creative Practice (Napier; length 1.5 years / 2 years, one fee) at standard fee $48,750 (net $38,750 after 2024 study grants) for the 180-credit, 1.5-year programme = $32,500 a year. This is higher than the 2027 standard fee: EIT cut its master's list price (2024 standard $48,750, 2027 standard $42,000 total), so the 2024 standard fee is recorded on the same standard-fee basis.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -209,8 +289,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST; no scholarship discount applies. Excludes the student services fee and insurance.",
-      "notes": "2027 fee $44,400 total for 180 credits (1.5 years), Napier, = $29,600 a year; standard and net fee equal. The matrix does not say whether this is the pre-registration route. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees).",
-      "feeHistory": []
+      "notes": "2027 fee $44,400 total for 180 credits (1.5 years), Napier, = $29,600 a year; standard and net fee equal. The matrix does not say whether this is the pre-registration route. Source: EIT '2027 Programme - Dates and Fees' international matrix (PDF, undated; fees incl. GST; 'tuition fees do not include any insurances, Student Services Fee or any additional course-related costs'). The Student Services Fee amount was not found on EIT pages, so compulsory fees are 0 (understated). Standard fee recorded; 'Net Fees' are after an EIT scholarship. No 2024-2026 figures found. No year-labelled 2024-2026 agent fee list or earlier EIT fee matrix was found either (2026-10-13; studywithnewzealand course pages carry no fees). 2024 row (2026-10-13, official): EIT's '2024 version 2 EIT International Prospectus' PDF ('for all 2024 programmes') lists Master of Nursing Science (180 credits, Napier) at standard fee $48,750 (net $38,750 after 2024 study grants) for the 180-credit, 1.5-year programme = $32,500 a year. This is higher than the 2027 standard fee: EIT cut its master's list price (2024 standard $48,750, 2027 standard $44,400 total), so the 2024 standard fee is recorded on the same standard-fee basis.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/2024/05/2024-version-2-EIT-International-Prospectus.pdf"
+        }
+      ]
     }
   ]
 }

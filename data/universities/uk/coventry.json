@@ -41,8 +41,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2026. Coventry may raise fees each year by up to 5% above inflation, so later years could cost more.",
-      "notes": "Coventry University course page 'MSci/BSc (Hons) Computer Science' (fetched 2026-10-07), year of entry 2026-27: International £20,800 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'MSci/BSc (Hons) Computer Science' (fetched 2026-10-07), year of entry 2026-27: International £20,800 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £19,850 per year (years of entry 2025-26 and 2026-27, only start date January 2026, UK fee £9,535 = the 2025/26 UK rate, placement fee quoted for placements starting 2027/28); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19850,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/ug/eec/computer-science-mscibsc-hons/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +70,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2026. Coventry may raise fees each year by up to 5% above inflation, so later years could cost more.",
-      "notes": "Coventry University course page 'MEng/BEng (Hons) Mechanical Engineering' (fetched 2026-10-07), year of entry 2026-27: International £20,800 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'MEng/BEng (Hons) Mechanical Engineering' (fetched 2026-10-07), year of entry 2026-27: International £20,800 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £19,850 per year (years of entry 2025-26 and 2026-27, only start date January 2026, UK fee £9,535 = the 2025/26 UK rate, placement fee quoted for placements starting 2027/28); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19850,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/ug/eec/mechanical-engineering-mengbeng-hons/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +99,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2026. Coventry may raise fees each year by up to 5% above inflation, so later years could cost more.",
-      "notes": "Coventry University course page 'BSc (Hons) Biomedical Science' (fetched 2026-10-07), year of entry 2026-27: International £19,200 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'BSc (Hons) Biomedical Science' (fetched 2026-10-07), year of entry 2026-27: International £19,200 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £18,300 per year (fee table: 'International | 2026/27 fees TBC 2025/26 fees: £18,300 per year'); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18300,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/ug/hls/biomedical-science-applied-biomedical-science-bsc/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -104,8 +128,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2026. Coventry may raise fees each year by up to 5% above inflation, so later years could cost more.",
-      "notes": "Coventry University course page 'BA (Hons) Business Management' (fetched 2026-10-07), year of entry 2026-27: International £17,600 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'BA (Hons) Business Management' (fetched 2026-10-07), year of entry 2026-27: International £17,600 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £16,800 per year (years of entry 2025-26 and 2026-27, only start date January 2026, UK fee £9,535 = the 2025/26 UK rate, placement fee quoted for placements starting 2027/28); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16800,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -125,8 +157,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2026. Coventry may raise fees each year by up to 5% above inflation, so later years could cost more.",
-      "notes": "Coventry University course page 'BA (Hons) Graphic Design' (fetched 2026-10-07), year of entry 2026-27: International £20,800 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'BA (Hons) Graphic Design' (fetched 2026-10-07), year of entry 2026-27: International £20,800 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £19,850 per year (fee table: 'International | 2026/27 fees TBC 2025/26 fees: £19,850 per year'); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19850,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/ug/fah/graphic-design-ba-hons/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -146,8 +186,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2026. Coventry may raise fees each year by up to 5% above inflation, so later years could cost more.",
-      "notes": "Coventry University course page 'BSc (Hons) Psychology' (fetched 2026-10-07), year of entry 2026-27: International £19,200 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'BSc (Hons) Psychology' (fetched 2026-10-07), year of entry 2026-27: International £19,200 per year (2027/28 fees TBC); 3-year full-time route. An optional professional placement or study abroad year costs an extra £1,900 for international students (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £18,300 per year (years of entry 2025-26 and 2026-27, only start date January 2026, UK fee £9,535 = the 2025/26 UK rate, placement fee quoted for placements starting 2027/28); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18300,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/ug/hls/psychology-bsc-hons/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -167,8 +215,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time course starting in 2026. An optional placement route costs extra.",
-      "notes": "Coventry University course page 'MSc Computer Science' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'MSc Computer Science' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £18,600 per year (years of entry 2025-26 and 2026-27, start dates January to July 2026 only, i.e. 2025-26 entry intakes); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18600,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/pg/ees/computer-science-msc/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -188,8 +244,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time course starting in 2026. An optional placement route costs extra.",
-      "notes": "Coventry University course page 'MSc Advanced Mechanical Engineering' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'MSc Advanced Mechanical Engineering' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £18,600 per year (years of entry 2025-26 and 2026-27, start dates January to July 2026 only, i.e. 2025-26 entry intakes); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18600,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/pg/ees/advanced-mechanical-engineering-msc/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -209,8 +273,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time course starting in 2026. An optional placement route costs extra.",
-      "notes": "Coventry University course page 'MSc International Business Management' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'MSc International Business Management' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £18,600 per year (years of entry 2025-26 and 2026-27, start dates January to July 2026 only, i.e. 2025-26 entry intakes); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18600,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/pg/cbl/international-business-management-msc/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -230,8 +302,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time course starting in 2026. An optional placement route costs extra.",
-      "notes": "Coventry University course page 'MSc Biotechnology' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'MSc Biotechnology' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £18,600 per year (years of entry 2025-26 and 2026-27, start dates January to July 2026 only, i.e. 2025-26 entry intakes); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18600,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/pg/ees/biotechnology-msc/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -251,8 +331,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for international students on the one-year full-time course starting in 2026. An optional placement route costs extra.",
-      "notes": "Coventry University course page 'MSc Psychology' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found.",
-      "feeHistory": []
+      "notes": "Coventry University course page 'MSc Psychology' (fetched 2026-10-07), year of entry 2026-27: International £19,500 (1 year full-time). Routes with a professional placement add £1,900 for international students if a placement is secured (not included). Coventry course pages say that for international students 'we may increase fees annually, but such increases will be no more than 5% above the inflation rate', so cohortLocked is false. No separate compulsory fees. No 2025 or 2024 row: the course pages show only 2026-27 (2027/28 fees TBC) and no earlier official figure was found. 2025 row (2026-10-13, unofficial): epi-integration.coventry.ac.uk, a Coventry-hosted integration/staging copy of the course page that still carries 2025-26 entry content, states International £18,600 per year (years of entry 2025-26 and 2026-27, start dates January to July 2026 only, i.e. 2025-26 entry intakes); marked secondary because it is not the live public site. 2024 still unfilled: no 2024-25 copy of the page or year-dated third-party figure was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18600,
+          "sourceUrl": "https://epi-integration.coventry.ac.uk/course-structure/pg/cas/psychology-msc/",
+          "sourceType": "secondary"
+        }
+      ]
     }
   ]
 }

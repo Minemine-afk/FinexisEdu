@@ -375,8 +375,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Tried 2026-10-13 for 2024/2025: JPSS graduate pages and NIAD-QE jpcup give 282,000/535,800 with no year label, and no dated Nagoya graduate guideline with fees was found, so still unfilled.",
-      "feeHistory": []
+      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 row (2026-10-13, official): Nagoya University's 'International Programs for AY2024' admission requirements for this master's programme (October 2024 admission) state registration fee JPY 282,000 and tuition 'Per semester: JPY 267,900 (Per year: JPY 535,800)'. 2025 still unfilled (2026-10-13): the AY2025 Automotive master's admission-requirements PDF could not be located (the AY2025 Physics, Economics and Japan-in-Asia PDFs were found).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2023/10/%E2%98%8501_AY2024G30AdmissionRequirement_MAutoE_EN-1.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -396,8 +405,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Tried 2026-10-13 for 2024/2025: JPSS graduate pages and NIAD-QE jpcup give 282,000/535,800 with no year label, and no dated Nagoya graduate guideline with fees was found, so still unfilled.",
-      "feeHistory": []
+      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 row (2026-10-13, official): Nagoya University's 'International Programs for AY2024' admission requirements for this master's programme (October 2024 admission) state registration fee JPY 282,000 and tuition 'Per semester: JPY 267,900 (Per year: JPY 535,800)'. 2025 row (2026-10-13, official): the Academic Year 2025 (October 2025 admission) admission requirements for the same programme state registration fee JPY 282,000 and annual tuition JPY 535,800.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2023/10/%E2%98%8508_AY2024G30AdmissionRequirement_MPh_EN-1.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2024/12/08_AY2025_G30AdmissionRequirement_MPhy.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -417,8 +443,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Tried 2026-10-13 for 2024/2025: JPSS graduate pages and NIAD-QE jpcup give 282,000/535,800 with no year label, and no dated Nagoya graduate guideline with fees was found, so still unfilled.",
-      "feeHistory": []
+      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 row (2026-10-13, official): Nagoya University's 'International Programs for AY2024' admission requirements for this master's programme (October 2024 admission) state registration fee JPY 282,000 and tuition 'Per semester: JPY 267,900 (Per year: JPY 535,800)'. 2025 row (2026-10-13, official): the Academic Year 2025 (October 2025 admission) admission requirements for the same programme state registration fee JPY 282,000 and annual tuition JPY 535,800.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2023/10/%E2%98%8515_AY2024G30AdmissionRequirement_MEcon_EN-2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2024/10/15_AY2025_G30AdmissionRequirement_MEcon_EN.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -438,8 +481,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Tried 2026-10-13 for 2024/2025: JPSS graduate pages and NIAD-QE jpcup give 282,000/535,800 with no year label, and no dated Nagoya graduate guideline with fees was found, so still unfilled.",
-      "feeHistory": []
+      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 row (2026-10-13, official): Nagoya University's 'International Programs for AY2024' admission requirements for this master's programme (October 2024 admission) state registration fee JPY 282,000 and tuition 'Per semester: JPY 267,900 (Per year: JPY 535,800)'. 2025 row (2026-10-13, official): the Academic Year 2025 (October 2025 admission) admission requirements for the same programme state registration fee JPY 282,000 and annual tuition JPY 535,800.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2023/10/%E2%98%8517_AY2024G30AdmissionRequirement_MJACS_EN-1.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2024/10/17_AY2025_G30AdmissionRequirement_MJACS_EN.pdf"
+        }
+      ]
     }
   ]
 }
