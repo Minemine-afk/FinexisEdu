@@ -1,0 +1,858 @@
+{
+  "id": "edinburgh",
+  "name": "University of Edinburgh",
+  "country": "uk",
+  "city": "Edinburgh",
+  "currency": "GBP",
+  "website": "https://www.ed.ac.uk",
+  "description": "The University of Edinburgh is a public research university in Scotland's capital, founded in 1583. It has over 40,000 students and is a member of the Russell Group.",
+  "whyIncluded": "Edinburgh's MB ChB is on the Singapore Medical Council's list of registrable basic medical qualifications, and it is one of the largest UK universities for international students.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 9,
+    "monthly": {
+      "housing": 980,
+      "food": 248,
+      "transport": 58,
+      "personal": 260
+    },
+    "sourceUrl": "https://study.ed.ac.uk/undergraduate/fees-funding/living-costs",
+    "lastVerified": "2026-10-13",
+    "sourceType": "official",
+    "summary": "The University of Edinburgh's own estimate of a student's monthly costs for 2026-27, over a 39-week (about 9-month) year. Excludes tuition, flights, visa and health surcharge.",
+    "notes": "Living costs page, 2026-27 figures calculated March 2026: per month accommodation incl. utilities GBP 980, food 248, mobile phone 12, socialising 248, bus pass 58; total GBP 1,546 a month, GBP 13,914 for 39 weeks. personal = socialising 248 + phone 12."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science BSc (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTCMPSI&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTCMPSI, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTCMPSI&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees. Programme page: https://study.ed.ac.uk/programmes/undergraduate/57-computer-science.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTCMPSI&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTCMPSI&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTCMPSI&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering BEng (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMCHEB&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTMCHEB, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTMCHEB&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees. Programme page: https://study.ed.ac.uk/programmes/undergraduate/82-mechanical-engineering.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMCHEB&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMCHEB&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMCHEB&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Business Management MA (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 31100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMAHBUSMN1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTMAHBUSMN1F, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTMAHBUSMN1F&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees. Programme page: https://study.ed.ac.uk/programmes/undergraduate/182-business-management.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26500,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMAHBUSMN1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28000,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMAHBUSMN1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29600,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMAHBUSMN1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Economics MA (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 31100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTECNMC&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTECNMC, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTECNMC&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26500,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTECNMC&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28000,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTECNMC&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29600,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTECNMC&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physics BSc (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTPHYSB&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTPHYSB, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTPHYSB&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees. Programme page: https://study.ed.ac.uk/programmes/undergraduate/33-physics.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTPHYSB&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTPHYSB&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTPHYSB&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "English Literature MA (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 31100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTENLIT&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTENLIT, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTENLIT&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees. Programme page: https://study.ed.ac.uk/programmes/undergraduate/197-english-literature.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26500,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTENLIT&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28000,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTENLIT&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29600,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTENLIT&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Psychology BSc (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTBSCPSYCH1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTBSCPSYCH1F, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTBSCPSYCH1F&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees. Programme page: https://study.ed.ac.uk/programmes/undergraduate/370-psychology.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTBSCPSYCH1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTBSCPSYCH1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTBSCPSYCH1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Nursing Studies BN (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 40900,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTNURSING01F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTNURSING01F, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTNURSING01F&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees. Programme page: https://study.ed.ac.uk/programmes/undergraduate/113-nursing-studies.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTNURSING01F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTNURSING01F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTNURSING01F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Law LLB (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 31100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTLLBLAWHO1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTLLBLAWHO1F, academic session 2027/8, read from the University of Edinburgh's tuition fee lookup (fee table loaded from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTLLBLAWHO1F&year=YYYY; the session label '2027/8' etc. is printed in the table). Duration 4 years per the same table. Undergraduate programme pages state the international fee is 'not affected by annual tuition fee increase; fixed annual fee based on start date', hence cohortLocked. History rows are the same lookup for sessions 2024/5, 2025/6 and 2026/7 (the fee for each starting cohort). No separate compulsory fees. Programme page: https://study.ed.ac.uk/programmes/undergraduate/168-law-ordinary-and-honours. SILE: the Legal Profession (Qualified Persons) Rules First Schedule lists Birmingham, Bristol, Cambridge, Durham, KCL, LSE, QMUL, UCL, Nottingham, Oxford and Warwick for the UK; Edinburgh is not listed (Scots law LLB).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26500,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTLLBLAWHO1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28000,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTLLBLAWHO1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29600,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTLLBLAWHO1F&year=2026",
+          "sourceType": "official"
+        }
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "Edinburgh is not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-13"
+      }
+    },
+    {
+      "level": "bachelor",
+      "field": "medicine",
+      "name": "Medicine MBChB (6-year programme)",
+      "durationYears": 6,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 59700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://registryservices.ed.ac.uk/tuition-fees/find/undergraduate/2027-2028/medicine",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for all six years. No separate compulsory fees. No fee on file for 2024 starters.",
+      "notes": "Registry Services 'Tuition fees 2027-2028 / Medicine' page (published 2026-09-01): Medicine (MBChB) international GBP 59,700 per year, same row for direct entry to year 4. Fee is fixed per start date (cohortLocked). History: 2026-2027 page GBP 54,650; 2025-2026 page GBP 51,961 (pre-clinical and clinical rates are the same from 2025 entry). The 2024-2025 page lists pre-clinical GBP 37,500 and clinical GBP 51,000 for 2024 entrants, but the rate those entrants pay in their later clinical years (2027 onwards) is not published, so no 2024 row is given rather than guessing laterYears. A deposit (GBP 18,217 for 2026 entry) is credited to tuition, so not counted. The per-programme lookup (codes UTMBCHBMDP1F/UTMBCHBMDC1F) only says fees are on the Registry Services page. Programme page: https://study.ed.ac.uk/programmes/undergraduate/354-mbchb-medicine-6-year-programme. SMC: Medical Registration Act Second Schedule lists 'The University of Edinburgh, Edinburgh Medical School' MB ChB (read 2026-10).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 51961,
+          "sourceUrl": "https://registryservices.ed.ac.uk/tuition-fees/find/undergraduate/2025-2026/medicine",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 54650,
+          "sourceUrl": "https://registryservices.ed.ac.uk/tuition-fees/find/undergraduate/2026-2027/medicine",
+          "sourceType": "official"
+        }
+      ],
+      "sgRecognition": {
+        "body": "SMC",
+        "listed": true,
+        "note": "Second Schedule, MB ChB",
+        "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
+        "lastVerified": "2026-10-13"
+      }
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47680,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCCMPSI1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMSCCMPSI1F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMSCCMPSI1F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCCMPSI1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43300,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCCMPSI1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45410,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCCMPSI1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Data Science MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47680,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCDATSC1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMSCDATSC1F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMSCDATSC1F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCDATSC1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43300,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCDATSC1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45410,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCDATSC1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Electronics MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 41160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCELECT1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMSCELECT1F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMSCELECT1F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35300,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCELECT1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 37300,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCELECT1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 39200,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCELECT1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Management MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 36540,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCMGMNT1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMSCMGMNT1F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMSCMGMNT1F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/277-management.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31300,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCMGMNT1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33100,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCMGMNT1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 34800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCMGMNT1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Business Administration MBA (12 months)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47680,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMBABUSAD5F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMBABUSAD5F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMBABUSAD5F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/267-business-administration-master-of.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMBABUSAD5F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43300,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMBABUSAD5F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45410,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMBABUSAD5F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Economics MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCECONO1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMSCECONO1F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMSCECONO1F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/272-economics-economics-econometrics-economics-finance.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCECONO1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30500,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCECONO1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 32000,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCECONO1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychology of Individual Differences MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34860,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPYCHI1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMSCPYCHI1F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMSCPYCHI1F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/1055-psychology-of-individual-differences.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29900,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPYCHI1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31600,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPYCHI1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33200,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPYCHI1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Psychology of Mental Health (Conversion) MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPSYMH1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMSCPSYMH1F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMSCPSYMH1F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/883-psychology-of-mental-health-conversion.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28800,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPSYMH1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30500,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPSYMH1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 32000,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPSYMH1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "law",
+      "name": "Law LLM",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 33600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTLLMLAWAA1F&year=2027",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting in 2027 for this one-year master's. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTLLMLAWAA1F, academic session 2027/8, read from the University of Edinburgh's postgraduate taught fee lookup (fee table from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTLLMLAWAA1F&year=YYYY). Full-time one-year programme; the figure is the fee for the year. History rows: same lookup for sessions 2024/5, 2025/6, 2026/7. Programme page: https://study.ed.ac.uk/programmes/postgraduate-taught/167-law. SILE: the Legal Profession (Qualified Persons) Rules First Schedule lists Birmingham, Bristol, Cambridge, Durham, KCL, LSE, QMUL, UCL, Nottingham, Oxford and Warwick for the UK; Edinburgh is not listed (Scots law LLB).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 27300,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTLLMLAWAA1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30500,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTLLMLAWAA1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 32000,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTLLMLAWAA1F&year=2026",
+          "sourceType": "official"
+        }
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "an LLM is not a qualifying law degree, and Edinburgh is not on the SILE list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-13"
+      }
+    }
+  ]
+}

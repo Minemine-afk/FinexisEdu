@@ -1,0 +1,391 @@
+{
+  "id": "tu-berlin",
+  "name": "Technische Universität Berlin",
+  "country": "de",
+  "city": "Berlin",
+  "currency": "EUR",
+  "website": "https://www.tu.berlin",
+  "description": "Technische Universität Berlin is a public technical university in Berlin with about 35,000 students, strong in engineering, computer science and natural sciences. It is part of the Berlin University Alliance funded under Germany's Excellence Strategy.",
+  "whyIncluded": "TU Berlin is a member of the Berlin University Alliance, which has a strategic partnership with the National University of Singapore, and nearly 30% of its students come from abroad.",
+  "livingCosts": {
+    "year": 2023,
+    "months": 12,
+    "monthly": {
+      "housing": 500,
+      "food": 150,
+      "transport": 0,
+      "personal": 140
+    },
+    "sourceUrl": "https://www.tu.berlin/en/international/students-1/international-students/exchange-studies-at-tu-berlin/administrative-matters/faqs-and-timeline",
+    "lastVerified": "2026-10-13",
+    "sourceType": "official",
+    "summary": "TU Berlin's own estimate of a student's monthly costs in Berlin. Local transport is covered by the semester ticket in the semester fee. Excludes health insurance and fees.",
+    "notes": "TU Berlin exchange-studies FAQ: accommodation EUR 350-650 (midpoint 500), food 150, clothing 60, books/study materials 40, other 40 (personal = 140), health insurance 120-130 (excluded); public transport included in the semester ticket; 'approx. EUR 900', with 'From January 2023, this will be EUR 934 per month' (visa requirement), hence year 2023. Page undated otherwise."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Computer Science (Informatik) B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee (administration, student services and a Germany-wide transport ticket) for 2026-27.",
+      "notes": "No tuition fees at TU Berlin ('There are no tuition fees to pay at TU Berlin. The only exceptions to this are continuing education master's programs', https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies). Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. Programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-b-sc: 6 semesters, German-taught; admission-restricted.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 598.7,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 720.98,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Mechanical Engineering B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee (administration, student services and a Germany-wide transport ticket) for 2026-27.",
+      "notes": "No tuition fees at TU Berlin ('There are no tuition fees to pay at TU Berlin. The only exceptions to this are continuing education master's programs', https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies). Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. Programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/mechanical-engineering-b-sc: 6 semesters, German-taught.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 598.7,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 720.98,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Industrial Engineering and Management (Wirtschaftsingenieurwesen) B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee (administration, student services and a Germany-wide transport ticket) for 2026-27.",
+      "notes": "No tuition fees at TU Berlin ('There are no tuition fees to pay at TU Berlin. The only exceptions to this are continuing education master's programs', https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies). Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. Programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/industrial-engineering-and-management-b-sc: 6 semesters, German-taught.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 598.7,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 720.98,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Physics B.Sc.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee (administration, student services and a Germany-wide transport ticket) for 2026-27.",
+      "notes": "No tuition fees at TU Berlin ('There are no tuition fees to pay at TU Berlin. The only exceptions to this are continuing education master's programs', https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies). Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. Programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/physics-b-sc: 6 semesters, German-taught; open admission.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 598.7,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 720.98,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Sociology and Technology Studies B.A.",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee (administration, student services and a Germany-wide transport ticket) for 2026-27.",
+      "notes": "No tuition fees at TU Berlin ('There are no tuition fees to pay at TU Berlin. The only exceptions to this are continuing education master's programs', https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies). Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. Programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/sociology-and-technology-studies-b-a: 6 semesters, German-taught.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 598.7,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 720.98,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Computer Science (Informatik) M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee (administration, student services and a Germany-wide transport ticket) for 2026-27.",
+      "notes": "No tuition fees at TU Berlin ('There are no tuition fees to pay at TU Berlin. The only exceptions to this are continuing education master's programs', https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies). Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. Programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-informatik-m-sc: 4 semesters, English-taught; open admission.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 598.7,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 720.98,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Physics M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee (administration, student services and a Germany-wide transport ticket) for 2026-27.",
+      "notes": "No tuition fees at TU Berlin ('There are no tuition fees to pay at TU Berlin. The only exceptions to this are continuing education master's programs', https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies). Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. Programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/physics-m-sc: 4 semesters, German-taught.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 598.7,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 720.98,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Human Factors M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 0,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "No tuition. The figure is only the compulsory semester fee (administration, student services and a Germany-wide transport ticket) for 2026-27.",
+      "notes": "No tuition fees at TU Berlin ('There are no tuition fees to pay at TU Berlin. The only exceptions to this are continuing education master's programs', https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies). Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. Programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/human-factors-m-sc: 4 semesters, German-taught.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 598.7,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 720.98,
+          "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees/semester-fees-of-previous-semesters",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Energy Management MBA",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 13200,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://master-in-energy.com/courses/energy-management/",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for the 18-month programme starting October 2026 (EUR 19,800 in total), plus the TU Berlin semester fee.",
+      "notes": "Continuing-education MBA run for TU Berlin by TU Berlin Services GmbH (programme site linked from TU's programme page https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/energy-management-m-ba). Programme site: total tuition EUR 19,800, 'Program starts Oct 2026', 3 semesters, English-taught; semester fee payable on top (links to the TU semester-fees page). annualTuition = 19,800 / 1.5 years. Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. No earlier-intake tuition found (site not archived)."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Global Production Engineering M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 7750,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gpe.tu-berlin.de/study-program-general-information/",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for this two-year fee-charging master's (EUR 15,500 in total), plus the TU Berlin semester fee.",
+      "notes": "GPE programme information page: '15.500EUR for the entire study program (1 installment at 6.200EUR & 3 installments at 3.100EUR)', 4 semesters, English-taught, October start, plus about EUR 320 per semester semester fee. The page carries no year label; read 2026-10-13 as the current programme fee, treated as the 2026 intake. annualTuition = 15,500 / 2. Compulsory fees use the exact TU semester fee. Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. No history found."
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Space Engineering M.Sc.",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 12450,
+          "annualCompulsoryFees": 758.12,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://mse.tu-berlin.de/admission/fees-funding/",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for this two-year fee-charging master's (EUR 24,900 in total), plus the TU Berlin semester fee.",
+      "notes": "Master of Space Engineering 'Fees & funding' page: tuition EUR 24,900 for the 2-year programme plus an 'organisation fee of EUR 379.06 per semester' (the WS 2026/27 TU semester fee, so the page is current for 2026 entry; no explicit intake year printed). annualTuition = 24,900 / 2. Compulsory fees = semester fee for winter semester 2026/27, EUR 379.06 per semester x2 = 758.12: administration fee 50 + student body 14.56 + studierendenWERK 85 + Semesterticket (Deutschlandsemesterticket) 226.80 + social fund 2.70 (TU 'Semester fees' page). History: TU 'Semester fees of previous semesters' page: WS 2025/26 EUR 360.49 (x2 = 720.98); WS 2024/25 EUR 299.35 = 63 + 50 + 9.95 + 176.40 (x2 = 598.70). Winter rate x2 follows the convention used for other Berlin universities in this dataset. No history found."
+    }
+  ]
+}

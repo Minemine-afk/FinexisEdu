@@ -1,0 +1,105 @@
+# University of Edinburgh. International fees are fixed per start year. Each study.ed.ac.uk fee page loads its table
+# per programme code and year from www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug|pg&programme_code=CODE&year=YYYY
+# (plain HTML, curl works; the study.ed.ac.uk wrapper needs a browser). Medicine is on Registry Services. Read by hand.
+sources:
+  # Computer Science BSc (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTCMPSI&year=2027"
+    manual: true
+  # Mechanical Engineering BEng (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMCHEB&year=2027"
+    manual: true
+  # Business Management MA (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTMAHBUSMN1F&year=2027"
+    manual: true
+  # Economics MA (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTECNMC&year=2027"
+    manual: true
+  # Physics BSc (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTPHYSB&year=2027"
+    manual: true
+  # English Literature MA (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTENLIT&year=2027"
+    manual: true
+  # Psychology BSc (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTBSCPSYCH1F&year=2027"
+    manual: true
+  # Nursing Studies BN (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTNURSING01F&year=2027"
+    manual: true
+  # Law LLB (Hons)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTLLBLAWHO1F&year=2027"
+    manual: true
+  # Medicine MBChB (6-year programme)
+  - university: edinburgh
+    country: uk
+    url: "https://registryservices.ed.ac.uk/tuition-fees/find/undergraduate/2027-2028/medicine"
+    manual: true
+  # Computer Science MSc
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCCMPSI1F&year=2027"
+    manual: true
+  # Data Science MSc
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCDATSC1F&year=2027"
+    manual: true
+  # Electronics MSc
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCELECT1F&year=2027"
+    manual: true
+  # Management MSc
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCMGMNT1F&year=2027"
+    manual: true
+  # Business Administration MBA (12 months)
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMBABUSAD5F&year=2027"
+    manual: true
+  # Economics MSc
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCECONO1F&year=2027"
+    manual: true
+  # Psychology of Individual Differences MSc
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPYCHI1F&year=2027"
+    manual: true
+  # Psychology of Mental Health (Conversion) MSc
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCPSYMH1F&year=2027"
+    manual: true
+  # Law LLM
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTLLMLAWAA1F&year=2027"
+    manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: edinburgh
+    country: uk
+    url: https://study.ed.ac.uk/undergraduate/fees-funding/living-costs
+    parser: html
+    manual: true

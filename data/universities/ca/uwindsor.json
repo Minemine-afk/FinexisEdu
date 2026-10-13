@@ -1,0 +1,254 @@
+{
+  "id": "uwindsor",
+  "name": "University of Windsor",
+  "country": "ca",
+  "city": "Windsor",
+  "currency": "CAD",
+  "website": "https://www.uwindsor.ca",
+  "description": "The University of Windsor is a public comprehensive university in Windsor, Ontario, across the river from Detroit, with about 17,000 students.",
+  "whyIncluded": "A fast-growing destination for international master's students in Canada: its international share rose from 10% to 22% of students by 2021, mostly at master's level, and it fixes tuition for each entering cohort.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 8,
+    "monthly": {
+      "housing": 1130.25,
+      "food": 947.5,
+      "transport": 0,
+      "personal": 0
+    },
+    "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+    "lastVerified": "2026-10-13",
+    "sourceType": "official",
+    "summary": "Windsor's own 2026-27 residence and meal plan charges for an 8-month year. Local transit is in the compulsory fees; personal costs are not covered.",
+    "notes": "UWindsor fee estimator, residence option: Laurier Hall single room CA$4,521 per term and 7-day meal plan CA$3,790 per term; 2 terms over 8 months. No personal-expense estimate published, so personal 0; the student transit pass is in compulsory fees."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Applied Science in Mechanical Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 44100,
+          "annualCompulsoryFees": 1752.1,
+          "oneOffFees": 90
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026, fixed for your degree under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category Engineering: base tuition CA$22,050.00 'assessed each term'; annual = 2 terms. One-off First Year Transition fee CA$90. Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,752.10; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Programme page: https://future.uwindsor.ca/program/mechanical-engineering"
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computer Science (Honours)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 37500,
+          "annualCompulsoryFees": 1704.26,
+          "oneOffFees": 90
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026, fixed for your degree under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category Computer Science: base tuition CA$18,750.00 'assessed each term'; annual = 2 terms. One-off First Year Transition fee CA$90. Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,704.26; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Programme page: https://future.uwindsor.ca/program/computer-science"
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce (Honours Business Administration)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 38620,
+          "annualCompulsoryFees": 1886.74,
+          "oneOffFees": 90
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026, fixed for your degree under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category Business: base tuition CA$19,310.00 'assessed each term'; annual = 2 terms. Compulsory fees include the Odette Career Services fee 61.24 per term. One-off First Year Transition fee CA$90. Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,886.74; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Programme page: https://future.uwindsor.ca/program/business-administration"
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (Honours)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 36050,
+          "annualCompulsoryFees": 1684.26,
+          "oneOffFees": 90
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026, fixed for your degree under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category Science: base tuition CA$18,025.00 'assessed each term'; annual = 2 terms. Rate applies to Faculty of Science majors. One-off First Year Transition fee CA$90. Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,684.26; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort."
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (Honours), Arts, Humanities and Social Sciences",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 33000,
+          "annualCompulsoryFees": 1664.26,
+          "oneOffFees": 90
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026, fixed for your degree under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category Arts, Humanities and Social Sciences: base tuition CA$16,500.00 'assessed each term'; annual = 2 terms. One-off First Year Transition fee CA$90. Excludes society fees charged only to some majors (Creative Arts 5, Dramatic Art 5 per term; Social Science 2.50). Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,664.26; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort."
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts (Honours Psychology)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 33000,
+          "annualCompulsoryFees": 1664.26,
+          "oneOffFees": 90
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026, fixed for your degree under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category Arts, Humanities and Social Sciences (Psychology is in this faculty): base tuition CA$16,500.00 'assessed each term'; annual = 2 terms. One-off First Year Transition fee CA$90. Excludes society fees charged only to some majors (Social Science Student Society 2.50, rule not stated; Creative/Dramatic Art 5 per term). Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,664.26; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Programme page: https://future.uwindsor.ca/program/psychology"
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Science in Nursing",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43350,
+          "annualCompulsoryFees": 1940.02,
+          "oneOffFees": 90
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026, fixed for your degree under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category Nursing: base tuition CA$21,675.00 'assessed each term'; annual = 2 terms. One-off First Year Transition fee CA$90. Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,940.02; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Programme page: https://future.uwindsor.ca/program/nursing"
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Juris Doctor",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56430,
+          "annualCompulsoryFees": 1984.26,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting the three-year JD in 2026, fixed under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category Law: base tuition CA$28,215.00 'assessed each term'; annual = 2 terms.  Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,984.26; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Programme page: https://future.uwindsor.ca/program/juris-doctor (3-year JD).",
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "Windsor is not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-13"
+      }
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Applied Science in Mechanical Engineering",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 24885,
+          "annualCompulsoryFees": 1791.93,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026 (three terms), fixed under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category MASc (graduate research): base tuition CA$8,295.00 'assessed each term'; annual = 3 terms.  Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,791.93; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Graduate year = 3 terms (fall, winter, summer): the estimator charges graduate health insurance per term, consistent with three registered terms. Graduate compulsory fees CA$1,791.93 for the year, excluding the GSS per-course fee and health insurance. Duration 2 years per the Faculty of Graduate Studies programme page."
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Science in Computer Science (thesis)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 26355,
+          "annualCompulsoryFees": 1791.93,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026 (three terms), fixed under Windsor's tuition guarantee, plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category MSc Computer Science: base tuition CA$8,785.00 'assessed each term'; annual = 3 terms.  Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,791.93; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Graduate year = 3 terms (fall, winter, summer): the estimator charges graduate health insurance per term, consistent with three registered terms. Graduate compulsory fees CA$1,791.93 for the year, excluding the GSS per-course fee and health insurance. Duration: graduate calendar sets a minimum two-year programme for applicants from related degrees and a minimum one-year programme for honours CS graduates; 2 years used."
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Arts in Economics",
+      "durationYears": 0.67,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 26235,
+          "annualCompulsoryFees": 1564.24,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uwindsor.ca/finance/fee-estimator",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting this 8-month master's in 2026 (two terms), plus compulsory student fees.",
+      "notes": "UWindsor fee estimator ('approved fees for 2026-2027'), international full-time, program category MA Economics: base tuition CA$13,117.50 'assessed each term'; annual = 2 terms.  Compulsory fees = the estimator's non-tuition fees for 10 courses (Student Centre per-course fee x10) over the year = CA$1,564.24; excludes international health insurance (985.09 a year undergraduate) and co-op fees. Only 2026-2027 is published, so no fee history. cohortLocked: the UWindsor Tuition Guarantee (https://ask.uwindsor.ca/app/answers/detail/a_id/743/kw/tuition%20guarantee) keeps base tuition unchanged for each entering cohort. Programme runs 'Two Semesters (8 Months)', so annual = 2 terms and duration 0.67 years; compulsory fees for 2 terms = per-term items (recreation 145.77, wellness 39.71, UWincard 11, GSS 27.71, international student society 3.50) x2 + sport & rec 2-term fees (75.97 + 18.40) x2 + GSS bus pass 316.48 + GSS drug plan 603.64 = 1,564.24."
+    }
+  ]
+}

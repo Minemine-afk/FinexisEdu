@@ -1,0 +1,8 @@
+# University of Windsor. Fees come from the Drupal ajax fee estimator (program type, major, fee category),
+# per term, current year only; needs a browser and is read by hand.
+sources:
+  # Fee estimator: approved fees for 2026-2027 (also the residence and meal plan rates used for living costs)
+  - university: uwindsor
+    country: ca
+    url: https://www.uwindsor.ca/finance/fee-estimator
+    manual: true
