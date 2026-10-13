@@ -41,7 +41,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Language of instruction German: the Institute of Computer Science's bachelor's page says 'All the Bachelor programs are offered in German' (informatik.uni-bonn.de/en/studies/bachelor-programs). Standard period 6 semesters (usual Bonn B.Sc.; not read from the programme page).",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Language of instruction German: the Institute of Computer Science's bachelor's page says 'All the Bachelor programs are offered in German' (informatik.uni-bonn.de/en/studies/bachelor-programs). Standard period 6 semesters (usual Bonn B.Sc.; not read from the programme page). On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -50,6 +50,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -71,7 +80,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Bonn has no classic engineering faculty; geodesy (surveying engineering) at the Faculty of Agricultural, Nutritional and Engineering Sciences is its main engineering degree. Programme listed in Bonn's A-Z (degree-programs-a-z/geodesy-and-geoinformation-bsc). Standard period 6 semesters assumed for a Bonn B.Sc. (not read). Language not read from the programme page; Bonn's bachelor's degrees are generally German-taught.",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Bonn has no classic engineering faculty; geodesy (surveying engineering) at the Faculty of Agricultural, Nutritional and Engineering Sciences is its main engineering degree. Programme listed in Bonn's A-Z (degree-programs-a-z/geodesy-and-geoinformation-bsc). Standard period 6 semesters assumed for a Bonn B.Sc. (not read). Language not read from the programme page; Bonn's bachelor's degrees are generally German-taught. On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -80,6 +89,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -101,7 +119,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English and German.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Bonn has no business administration degree; its Department of Economics runs the single-subject Economics B.Sc., 6 semesters, language 'English & German' (econ.uni-bonn.de study programmes page).",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Bonn has no business administration degree; its Department of Economics runs the single-subject Economics B.Sc., 6 semesters, language 'English & German' (econ.uni-bonn.de study programmes page). On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -110,6 +128,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -131,7 +158,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Physics B.Sc. taught in German (physik-astro.uni-bonn.de/en/studying). Standard period 6 semesters.",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Physics B.Sc. taught in German (physik-astro.uni-bonn.de/en/studying). Standard period 6 semesters. On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -140,6 +167,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -161,7 +197,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). English Studies B.A. (core subject) at the Department of English, American and Celtic Studies (A-Z page english-studies-bakf; module handbook B.A. English Studies Kernfach). Standard period 6 semesters assumed (not read).",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). English Studies B.A. (core subject) at the Department of English, American and Celtic Studies (A-Z page english-studies-bakf; module handbook B.A. English Studies Kernfach). Standard period 6 semesters assumed (not read). On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -170,6 +206,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -191,7 +236,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Polyvalent Psychology B.Sc. (psychologie.uni-bonn.de, Studiengaenge). Admission restricted. Standard period 6 semesters assumed (not read). Language not stated on the overview page; German-taught.",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Polyvalent Psychology B.Sc. (psychologie.uni-bonn.de, Studiengaenge). Admission restricted. Standard period 6 semesters assumed (not read). Language not stated on the overview page; German-taught. On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -200,6 +245,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -221,7 +275,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Computer Science M.Sc. taught in English (Institute of Computer Science studies page; A-Z page computer-science-msc). Standard period 4 semesters assumed (not read).",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Computer Science M.Sc. taught in English (Institute of Computer Science studies page; A-Z page computer-science-msc). Standard period 4 semesters assumed (not read). On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -230,6 +284,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -251,7 +314,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Geodesy and Geoinformation M.Sc. listed in Bonn's A-Z (geodesy-and-geoinformation-msc). Standard period 4 semesters assumed. Language not read.",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Geodesy and Geoinformation M.Sc. listed in Bonn's A-Z (geodesy-and-geoinformation-msc). Standard period 4 semesters assumed. Language not read. On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -260,6 +323,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -281,7 +353,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Bonn Graduate School of Economics M.Sc. Economics, 4 semesters, taught in English (econ.uni-bonn.de study programmes page).",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Bonn Graduate School of Economics M.Sc. Economics, 4 semesters, taught in English (econ.uni-bonn.de study programmes page). On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -290,6 +362,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -311,7 +392,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in English.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Physics M.Sc. taught in English (physik-astro.uni-bonn.de/en/studying). Standard period 4 semesters.",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Physics M.Sc. taught in English (physik-astro.uni-bonn.de/en/studying). Standard period 4 semesters. On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -320,6 +401,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -341,7 +431,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). North American Studies M.A. (nas.uni-bonn.de study programmes). Standard period 4 semesters assumed; English-taught per the programme's site title and focus (not read in detail).",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). North American Studies M.A. (nas.uni-bonn.de study programmes). Standard period 4 semesters assumed; English-taught per the programme's site title and focus (not read in detail). On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -350,6 +440,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     },
@@ -371,7 +470,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "No tuition, including for international students. The figure is only the compulsory semester contribution, which includes a Germany-wide transport ticket. Taught in German.",
-      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Psychology M.Sc. (psychologie.uni-bonn.de, M.Sc. Psychologie). Standard period 4 semesters assumed (not read). German-taught (not stated on the overview page).",
+      "notes": "No tuition fees: the University of Bonn's 'Costs' page states that as a public university it does not charge tuition (North Rhine-Westphalia charges none, including for non-EU students). Compulsory fees = semester contribution for winter semester 2026/27, stated total EUR 363.07 x2 = 726.14. Items listed: student self-administration 14.00, social services 0.50, student councils 2.25, support fund 0.01, university sports 0.80, culture pass 3.00, Deutschlandsemesterticket 226.80, mobility refund account 0.01, Studierendenwerk 115.00; these sum to 362.37, EUR 0.70 below the stated total (re-read 2026-10-07; the stated total is used). 2025 history: the same page gives summer semester 2026 (part of academic year 2025/26) as EUR 345.07, identical except the ticket at 208.80, so 690.14; the winter 2025/26 rate is not published there, so the summer rate x2 is used (as for HU Berlin). No 2024 figure found (Bonn's 2024 finance flyer only says 'ca. 345 EUR'). Psychology M.Sc. (psychologie.uni-bonn.de, M.Sc. Psychologie). Standard period 4 semesters assumed (not read). German-taught (not stated on the overview page). On 2026-10-13 also checked Bonn's Rueckmeldung page (no amount), the student parliament's Beitragsordnung (only WS 2026/27-SS 2027: 248.07 student-body share) and the ULB e-Pflicht official-notice PDFs (those found were Hochschule Bonn-Rhein-Sieg and RWTH, not Uni Bonn): no dated 2024/25 total found. Round 2 (2026-10-13): searches for a dated Uni Bonn WS 2024/25 or SS 2025 semester contribution (AStA Bonn, Bonn epflicht notices, news) found only Hochschule Bonn-Rhein-Sieg figures, so no 2024 row. Round 3 (2026-10-13): the Bonn student-body Beitragsordnung amendments on epflicht.ulb.uni-bonn.de found by search cover only WS 2020/21-SS 2022 (BOAeO XXXII, XXXIII), and they exclude the Studierendenwerk share, so no 2024 row. Round 5 (2026-10-13): found Uni Bonn's Amtliche Bekanntmachungen on epflicht.ulb.uni-bonn.de (periodical/structure/4586; needs cookie js_enabled=1). XXXIX. BOÄO (Amtl. Bek. 2/2025, 29.01.2025): student-body contribution 'Der Beitrag in Höhe von 198,16 € für das Wintersemester 2024/25 und 197,67 € für das Sommersemester 2025'; Achte Ordnung zur Änderung der Beitragsordnung des Studierendenwerks Bonn (Amtl. Bek. 20/2024): Studierendenwerk contribution 'ab dem Wintersemester 2024/25 auf einhundertundfünfzehn Euro' (EUR 115, unchanged through 2026). 2024 row = (198.16+115) + (197.67+115) = 313.16 + 312.67 = 625.83 (sum of the two officially published components per semester). Also confirmed: XL. BOÄO (Amtl. Bek. 28/2025) sets 230.07 for both WS 2025/26 and SS 2026, so WS 2025/26 total = 345.07 and the 2025 row (690.14) is exact.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -380,6 +479,15 @@
           "annualCompulsoryFees": 690.14,
           "oneOffFees": 0,
           "sourceUrl": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 625.83,
+          "oneOffFees": 0,
+          "sourceUrl": "https://epflicht.ulb.uni-bonn.de/download/pdf/784141",
+          "sourceType": "official"
         }
       ]
     }

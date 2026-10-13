@@ -1,0 +1,21 @@
+# University of Technology Sydney. Added Oct 2026; 2027 international fees read by hand from the
+# per-session course summary tables (PDF), annual = per-session fee x 2.
+sources:
+  # 2027 International Undergraduate Course Summary Table, read by hand (per-session fees)
+  - university: uts
+    country: au
+    url: "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf"
+    parser: pdf
+    manual: true
+  # 2027 International Postgraduate Course Summary Table, read by hand (per-session fees)
+  - university: uts
+    country: au
+    url: "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf"
+    parser: pdf
+    manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: uts
+    country: au
+    url: https://www.uts.edu.au/for-students/international/life-in-sydney/cost-of-living
+    parser: html
+    manual: true

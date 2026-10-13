@@ -1315,7 +1315,7 @@ sources:
   # site blocks automated access
   - university: ucl
     country: uk
-    url: https://www.ucl.ac.uk/scholarships/us-student-financial-aid/us-loans-costs
+    url: https://www.ucl.ac.uk/study/student-finances/cost-study/how-much-does-it-cost-study-ucl
     parser: html
     manual: true
   # secondary source; the university's own fee page is not machine-readable
@@ -1324,10 +1324,10 @@ sources:
     url: https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953
     parser: html
     manual: true
-  # secondary source; the university's own fee page is not machine-readable
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: unimelb
     country: au
-    url: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+    url: https://study.unimelb.edu.au/your-experience/accommodation/your-living-costs
     parser: html
     manual: true
   # official 2026 international course tuition fee table (JD, MD); unimelb.edu.au returns 403 to

@@ -20,7 +20,7 @@
     "lastVerified": "2026-10-08",
     "sourceType": "secondary",
     "summary": "Science Tokyo publishes no living-cost estimate, so this uses the University of Tokyo's figures for a one-room apartment and food in Tokyo, with transport and personal costs from the national survey average for Tokyo, 12 months a year. Science Tokyo's own dormitories are cheaper.",
-    "notes": "Rung D (sister university in the same city). Institute of Science Tokyo's admissions and student-support sites (isct.ac.jp, students.isct.ac.jp, and the legacy titech.ac.jp admissions pages, searched and read 2026-10-08) give no cost-of-living or monthly budget page; the only priced page is 'Science Tokyo Dormitories for Students' (students.isct.ac.jp/en/012/student-life-and-support/dormitories-and-accommodation/dormitories, fees as of October 2024), where single rooms cost 27,500-65,000/month (e.g. Komaba Dormitory 39,500, Ookayama House and Midorigaoka House 50,000 for graduate students, Senzokuike House 65,000, most including utilities in the common charge). Figures here are the repo's rung-A University of Tokyo entry (Tokyo): housing = one-room apartment 80,000-100,000 midpoint 90,000 (rent only, utilities not included); food 50,000-60,000 midpoint 55,000; transport and personal from the JASSO 2023 Lifestyle Survey of Privately Financed International Students Tokyo averages: commuting 6,000; personal = hobbies/leisure 10,000 + other daily costs 10,000. National Health Insurance (roughly 2,000-3,000/month in Tokyo) is not included. A student in a Science Tokyo dormitory would spend roughly 40,000-60,000 less on housing than this estimate."
+    "notes": "Rung D (sister university in the same city). Institute of Science Tokyo's admissions and student-support sites (isct.ac.jp, students.isct.ac.jp, and the legacy titech.ac.jp admissions pages, searched and read 2026-10-08) give no cost-of-living or monthly budget page; the only priced page is 'Science Tokyo Dormitories for Students' (students.isct.ac.jp/en/012/student-life-and-support/dormitories-and-accommodation/dormitories, fees as of October 2024), where single rooms cost 27,500-65,000/month (e.g. Komaba Dormitory 39,500, Ookayama House and Midorigaoka House 50,000 for graduate students, Senzokuike House 65,000, most including utilities in the common charge). Figures here are the repo's rung-A University of Tokyo entry (Tokyo): housing = one-room apartment 80,000-100,000 midpoint 90,000 (rent only, utilities not included); food 50,000-60,000 midpoint 55,000; transport and personal from the JASSO 2023 Lifestyle Survey of Privately Financed International Students Tokyo averages: commuting 6,000; personal = hobbies/leisure 10,000 + other daily costs 10,000. National Health Insurance (roughly 2,000-3,000/month in Tokyo) is not included. A student in a Science Tokyo dormitory would spend roughly 40,000-60,000 less on housing than this estimate. Rechecked 2026-10-13: the legacy Tokyo Tech FAQ for exchange students (titech.ac.jp, updated 12 January 2023) says 'you will need at least JPY 100,000 per month as of 2022' with no breakdown; not used because it is a 2022 minimum. students.isct.ac.jp international student guide and 'Independent living' pages give dormitory fees only."
   },
   "programmes": [
     {
@@ -41,8 +41,26 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for science and engineering students, above the national standard rate. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "GSEP page: all subjects taught in English; Bachelor of Engineering; April intake; about 10 privately funded international places a year plus MEXT scholars. GSEP page lists enrollment fee ¥282,000 and tuition ¥635,400/yr. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Medical and dental programmes (former TMDU) have a separate schedule and are not included. ",
-      "feeHistory": []
+      "notes": "GSEP page: all subjects taught in English; Bachelor of Engineering; April intake; about 10 privately funded international places a year plus MEXT scholars. GSEP page lists enrollment fee ¥282,000 and tuition ¥635,400/yr. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. Medical and dental programmes (former TMDU) have a separate schedule and are not included. 2025 row (2026-10-13, unofficial): NIAD-QE Japanese College and University Portraits (jpcup) School of Environment and Society (lists the Department of Transdisciplinary Science and Engineering) page lists tuition 635,400 yen a year and admission fee 282,000 yen under 'As at 01st 10 2025'. 2024 still unfilled (2026-10-13): JPSS and NIAD-QE jpcup show only 2023 or 2025+ figures, and the Tokyo Tech fees page gives the ¥635,400 rate only by start date (April 2019 or after), not for academic year 2024. 2024 still unfilled (2026-10-13): the only 2024-dated Tokyo Tech fee document found is a doctoral (Sept 2024) application guide, not an undergraduate one, so no bachelor's row was added. 2024 row (2026-10-13, rung 2): Tokyo Tech's '令和6年度 私費外国人留学生特別入試 学生募集要項' (April 2024 privately-financed international student entrance guidelines, all six schools) states 入学料 282,000円（予定） and 授業料 前学期分・後学期分各317,700円（年額635,400円）（予定）. GSEP students enrol in the School of Environment and Society, one of the six schools the guidelines cover, and the guidelines give one fee for all schools; the GSEP page itself shows the same ¥635,400/¥282,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.titech.ac.jp/admissions/pdf/r6-guidelines-foreign-0-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://jpcup.niad.ac.jp/institute/0901/1Z39.html",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +80,26 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for science and engineering students, above the national standard rate. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in Japanese.",
-      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance route. Fee figures from the science and engineering tuition page. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Medical and dental programmes (former TMDU) have a separate schedule and are not included. ",
-      "feeHistory": []
+      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance route. Fee figures from the science and engineering tuition page. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. Medical and dental programmes (former TMDU) have a separate schedule and are not included. 2025 row (2026-10-13, unofficial): NIAD-QE Japanese College and University Portraits (jpcup) School of Computing (bachelor) page lists tuition 635,400 yen a year and admission fee 282,000 yen under 'As at 01st 10 2025'. 2024 still unfilled (2026-10-13): JPSS and NIAD-QE jpcup show only 2023 or 2025+ figures, and the Tokyo Tech fees page gives the ¥635,400 rate only by start date (April 2019 or after), not for academic year 2024. 2024 still unfilled (2026-10-13): the only 2024-dated Tokyo Tech fee document found is a doctoral (Sept 2024) application guide, not an undergraduate one, so no bachelor's row was added. 2024 row (2026-10-13, rung 1): Tokyo Tech's '令和6年度 私費外国人留学生特別入試 学生募集要項' (April 2024 privately-financed international student entrance guidelines, all six schools) states 入学料 282,000円（予定） and 授業料 前学期分・後学期分各317,700円（年額635,400円）（予定）. This is the entrance route the programme's international applicants use.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.titech.ac.jp/admissions/pdf/r6-guidelines-foreign-0-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://jpcup.niad.ac.jp/institute/0901/1Z38.html",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +119,26 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for science and engineering students, above the national standard rate. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in Japanese.",
-      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance route. Fee figures from the science and engineering tuition page. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Medical and dental programmes (former TMDU) have a separate schedule and are not included. ",
-      "feeHistory": []
+      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance route. Fee figures from the science and engineering tuition page. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. Medical and dental programmes (former TMDU) have a separate schedule and are not included. 2025 row (2026-10-13, unofficial): NIAD-QE Japanese College and University Portraits (jpcup) School of Science (bachelor) page lists tuition 635,400 yen a year and admission fee 282,000 yen under 'As at 01st 10 2025'. 2024 still unfilled (2026-10-13): JPSS and NIAD-QE jpcup show only 2023 or 2025+ figures, and the Tokyo Tech fees page gives the ¥635,400 rate only by start date (April 2019 or after), not for academic year 2024. 2024 still unfilled (2026-10-13): the only 2024-dated Tokyo Tech fee document found is a doctoral (Sept 2024) application guide, not an undergraduate one, so no bachelor's row was added. 2024 row (2026-10-13, rung 1): Tokyo Tech's '令和6年度 私費外国人留学生特別入試 学生募集要項' (April 2024 privately-financed international student entrance guidelines, all six schools) states 入学料 282,000円（予定） and 授業料 前学期分・後学期分各317,700円（年額635,400円）（予定）. This is the entrance route the programme's international applicants use.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.titech.ac.jp/admissions/pdf/r6-guidelines-foreign-0-.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://jpcup.niad.ac.jp/institute/0901/1E27.html",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -104,8 +158,26 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for the 2-year master's in science and engineering, above the national standard rate. The one-off ¥282,000 is the admission fee, paid in year 1. Fees may be revised. Taught in English or Japanese.",
-      "notes": "English-taught International Graduate Program (IGP) entry available (IGP(C): spring or fall intake to master's programmes across 18 departments). IGP page lists enrollment fee ¥282,000 and tuition ¥635,400/yr. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Medical and dental programmes (former TMDU) have a separate schedule and are not included. ",
-      "feeHistory": []
+      "notes": "English-taught International Graduate Program (IGP) entry available (IGP(C): spring or fall intake to master's programmes across 18 departments). IGP page lists enrollment fee ¥282,000 and tuition ¥635,400/yr. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. Medical and dental programmes (former TMDU) have a separate schedule and are not included. 2025 row (2026-10-13, unofficial): NIAD-QE Japanese College and University Portraits (jpcup) School of Engineering (master's) page lists tuition 635,400 yen a year and admission fee 282,000 yen under 'As at 01st 10 2025'. 2024 row (2026-10-13, official): Tokyo Tech's application guide for the doctoral programme under the China State-Funded Postgraduate Overseas Study Program, enrolment September 2024, states 'Enrollment fee: JPY282,000' and 'Tuition: JPY 635,400/year'; it is a doctoral guide, used because Tokyo Tech's graduate fee schedule was the same for master's and doctoral students (the matching Fall 2025 guide and the 2025 jpcup master's figure are identical).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.titech.ac.jp/english/international-student-exchange/pdf/cdf2b1ab0ca05bbb4e88db634dcd7025-1.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://jpcup.niad.ac.jp/institute/0901/1G60.html",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -125,8 +197,26 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for the 2-year master's in science and engineering, above the national standard rate. The one-off ¥282,000 is the admission fee, paid in year 1. Fees may be revised. Taught in English or Japanese.",
-      "notes": "English-taught International Graduate Program (IGP) entry available (IGP(C): spring or fall intake to master's programmes across 18 departments). IGP page lists enrollment fee ¥282,000 and tuition ¥635,400/yr. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Medical and dental programmes (former TMDU) have a separate schedule and are not included. ",
-      "feeHistory": []
+      "notes": "English-taught International Graduate Program (IGP) entry available (IGP(C): spring or fall intake to master's programmes across 18 departments). IGP page lists enrollment fee ¥282,000 and tuition ¥635,400/yr. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. Medical and dental programmes (former TMDU) have a separate schedule and are not included. 2025 row (2026-10-13, unofficial): NIAD-QE Japanese College and University Portraits (jpcup) School of Computing (master's) page lists tuition 635,400 yen a year and admission fee 282,000 yen under 'As at 01st 10 2025'. 2024 row (2026-10-13, official): Tokyo Tech's application guide for the doctoral programme under the China State-Funded Postgraduate Overseas Study Program, enrolment September 2024, states 'Enrollment fee: JPY282,000' and 'Tuition: JPY 635,400/year'; it is a doctoral guide, used because Tokyo Tech's graduate fee schedule was the same for master's and doctoral students (the matching Fall 2025 guide and the 2025 jpcup master's figure are identical).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.titech.ac.jp/english/international-student-exchange/pdf/cdf2b1ab0ca05bbb4e88db634dcd7025-1.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://jpcup.niad.ac.jp/institute/0901/1Z41.html",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -146,8 +236,26 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual tuition for the 2-year master's in science and engineering, above the national standard rate. The one-off ¥282,000 is the admission fee, paid in year 1. Fees may be revised. Taught in English or Japanese.",
-      "notes": "English-taught International Graduate Program (IGP) entry available (IGP(C): spring or fall intake to master's programmes across 18 departments). IGP page lists enrollment fee ¥282,000 and tuition ¥635,400/yr. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. Medical and dental programmes (former TMDU) have a separate schedule and are not included. ",
-      "feeHistory": []
+      "notes": "English-taught International Graduate Program (IGP) entry available (IGP(C): spring or fall intake to master's programmes across 18 departments). IGP page lists enrollment fee ¥282,000 and tuition ¥635,400/yr. Science and engineering fee schedule (former Tokyo Tech): enrollment fee ¥282,000 and tuition ¥635,400/yr for all levels, above the ¥535,800 national standard; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. The page gives no effective year and says amounts are subject to change, so not cohort-locked. Medical and dental programmes (former TMDU) have a separate schedule and are not included. 2025 row (2026-10-13, unofficial): NIAD-QE Japanese College and University Portraits (jpcup) School of Science (master's) page lists tuition 635,400 yen a year and admission fee 282,000 yen under 'As at 01st 10 2025'. 2024 row (2026-10-13, official): Tokyo Tech's application guide for the doctoral programme under the China State-Funded Postgraduate Overseas Study Program, enrolment September 2024, states 'Enrollment fee: JPY282,000' and 'Tuition: JPY 635,400/year'; it is a doctoral guide, used because Tokyo Tech's graduate fee schedule was the same for master's and doctoral students (the matching Fall 2025 guide and the 2025 jpcup master's figure are identical).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.titech.ac.jp/english/international-student-exchange/pdf/cdf2b1ab0ca05bbb4e88db634dcd7025-1.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 635400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://jpcup.niad.ac.jp/institute/0901/1E28.html",
+          "sourceType": "secondary"
+        }
+      ]
     }
   ]
 }

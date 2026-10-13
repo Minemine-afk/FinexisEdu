@@ -41,8 +41,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for Johns Hopkins undergraduates plus the university health insurance, which international students cannot waive, and a one-off matriculation fee. Fees rise each year.",
-      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. Not cohort-locked.",
-      "feeHistory": []
+      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. Not cohort-locked. History (read 2026-10-13) from JHU OIRA Common Data Sets, section G1 (private-institution tuition, same rate for all undergraduates): 2023-2024 CDS, which states 'Provide 2024-2025 academic year costs', tuition US$64,730, required fees US$500 first-year; 2024-2025 CDS, which states 'Provide 2025-2026 academic year costs', tuition US$66,670, required fees US$500 first-year (the matriculation fee). The student health insurance premium for those years was not found, so the rows omit compulsory fees and the current premium applies. JHU's archived catalogues remain blocked to automated reading.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64730,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2023-2024_JHU_20250401.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2024-2025_JHU-2.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +77,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for Johns Hopkins undergraduates plus the university health insurance, which international students cannot waive, and a one-off matriculation fee. Fees rise each year.",
-      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. Not cohort-locked.",
-      "feeHistory": []
+      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. Not cohort-locked. History (read 2026-10-13) from JHU OIRA Common Data Sets, section G1 (private-institution tuition, same rate for all undergraduates): 2023-2024 CDS, which states 'Provide 2024-2025 academic year costs', tuition US$64,730, required fees US$500 first-year; 2024-2025 CDS, which states 'Provide 2025-2026 academic year costs', tuition US$66,670, required fees US$500 first-year (the matriculation fee). The student health insurance premium for those years was not found, so the rows omit compulsory fees and the current premium applies. JHU's archived catalogues remain blocked to automated reading.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64730,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2023-2024_JHU_20250401.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2024-2025_JHU-2.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +113,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for Johns Hopkins undergraduates plus the university health insurance, which international students cannot waive, and a one-off matriculation fee. Fees rise each year.",
-      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. Not cohort-locked.",
-      "feeHistory": []
+      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. Not cohort-locked. History (read 2026-10-13) from JHU OIRA Common Data Sets, section G1 (private-institution tuition, same rate for all undergraduates): 2023-2024 CDS, which states 'Provide 2024-2025 academic year costs', tuition US$64,730, required fees US$500 first-year; 2024-2025 CDS, which states 'Provide 2025-2026 academic year costs', tuition US$66,670, required fees US$500 first-year (the matriculation fee). The student health insurance premium for those years was not found, so the rows omit compulsory fees and the current premium applies. JHU's archived catalogues remain blocked to automated reading.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64730,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2023-2024_JHU_20250401.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2024-2025_JHU-2.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -104,8 +149,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for Johns Hopkins undergraduates plus the university health insurance, which international students cannot waive, and a one-off matriculation fee. Fees rise each year.",
-      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. Not cohort-locked.",
-      "feeHistory": []
+      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. Not cohort-locked. History (read 2026-10-13) from JHU OIRA Common Data Sets, section G1 (private-institution tuition, same rate for all undergraduates): 2023-2024 CDS, which states 'Provide 2024-2025 academic year costs', tuition US$64,730, required fees US$500 first-year; 2024-2025 CDS, which states 'Provide 2025-2026 academic year costs', tuition US$66,670, required fees US$500 first-year (the matriculation fee). The student health insurance premium for those years was not found, so the rows omit compulsory fees and the current premium applies. JHU's archived catalogues remain blocked to automated reading.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64730,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2023-2024_JHU_20250401.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2024-2025_JHU-2.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -125,8 +185,23 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for Johns Hopkins undergraduates plus the university health insurance, which international students cannot waive, and a one-off matriculation fee. Fees rise each year.",
-      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. Not cohort-locked.",
-      "feeHistory": []
+      "notes": "JHU Student Financial Services 'Cost and Tuition' 2026-27 undergraduate cost of attendance: tuition US$68,670 (Krieger and Whiting, same rate); Matriculation Fee US$500 'one-time only'. Compulsory = JHU student health insurance US$3,624, included because the page says international F-1/J-1 visa holders cannot waive coverage. No other mandatory fees are listed. Not cohort-locked. History (read 2026-10-13) from JHU OIRA Common Data Sets, section G1 (private-institution tuition, same rate for all undergraduates): 2023-2024 CDS, which states 'Provide 2024-2025 academic year costs', tuition US$64,730, required fees US$500 first-year; 2024-2025 CDS, which states 'Provide 2025-2026 academic year costs', tuition US$66,670, required fees US$500 first-year (the matriculation fee). The student health insurance premium for those years was not found, so the rows omit compulsory fees and the current premium applies. JHU's archived catalogues remain blocked to automated reading.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64730,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2023-2024_JHU_20250401.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "oneOffFees": 500,
+          "sourceUrl": "https://oira.jhu.edu/wp-content/uploads/CDS_2024-2025_JHU-2.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -146,8 +221,24 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for Whiting School of Engineering master's students plus a one-off matriculation fee. Health insurance not included; fees rise each year.",
-      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. Duration typical (full-time, up to two years).",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical (full-time, up to two years). Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. 2025 row (2026-10-13, rung 2): JHU Applied Mathematics and Statistics' own MSE page (not yet updated) states 'Tuition $66,670 annually / $33,335 per semester' beside application deadlines of 15 Sept 2025 for spring 2026 and 15 Jan 2026 for fall 2026, so it is the 2025-26 Whiting full-time graduate rate (the Civil and Systems Engineering MSE page shows the same figure; the ME department page gives '2026-2027 Tuition is $68,670'). AdmissionSight (18 May 2025) and Orbit (citing JHU's Common Data Set) state US$66,670 as JHU's 2025-26 full-time tuition. Tuition only; the matriculation fee was not stated for that year. Round 5 (2026-10-13): JHU's archived catalogue is now readable with curl. The 2024-25 edition's 'Tuition, Fees, and Cost of Attendance' page (https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/) gives Whiting School of Engineering 'Full-Time Graduate/PhD $64,730' with Matriculation Fee $500; 2024 row added. The 2025-26 edition gives $66,670, confirming the existing 2025 row.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "sourceUrl": "https://engineering.jhu.edu/ams/data-science-masters-program/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64730,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 500,
+          "sourceUrl": "https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -167,8 +258,24 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for Whiting School of Engineering master's students plus a one-off matriculation fee. Health insurance not included; fees rise each year.",
-      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. Duration typical (three to four semesters).",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical (three to four semesters). Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. 2025 row (2026-10-13, rung 2): JHU Applied Mathematics and Statistics' own MSE page (not yet updated) states 'Tuition $66,670 annually / $33,335 per semester' beside application deadlines of 15 Sept 2025 for spring 2026 and 15 Jan 2026 for fall 2026, so it is the 2025-26 Whiting full-time graduate rate (the Civil and Systems Engineering MSE page shows the same figure; the ME department page gives '2026-2027 Tuition is $68,670'). AdmissionSight (18 May 2025) and Orbit (citing JHU's Common Data Set) state US$66,670 as JHU's 2025-26 full-time tuition. Tuition only; the matriculation fee was not stated for that year. Round 5 (2026-10-13): JHU's archived catalogue is now readable with curl. The 2024-25 edition's 'Tuition, Fees, and Cost of Attendance' page (https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/) gives Whiting School of Engineering 'Full-Time Graduate/PhD $64,730' with Matriculation Fee $500; 2024 row added. The 2025-26 edition gives $66,670, confirming the existing 2025 row.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "sourceUrl": "https://engineering.jhu.edu/ams/data-science-masters-program/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64730,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 500,
+          "sourceUrl": "https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -188,8 +295,24 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for Whiting School of Engineering master's students plus a one-off matriculation fee. Health insurance not included; fees rise each year.",
-      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. Duration typical.",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. 2025 row (2026-10-13, rung 2): JHU Applied Mathematics and Statistics' own MSE page (not yet updated) states 'Tuition $66,670 annually / $33,335 per semester' beside application deadlines of 15 Sept 2025 for spring 2026 and 15 Jan 2026 for fall 2026, so it is the 2025-26 Whiting full-time graduate rate (the Civil and Systems Engineering MSE page shows the same figure; the ME department page gives '2026-2027 Tuition is $68,670'). AdmissionSight (18 May 2025) and Orbit (citing JHU's Common Data Set) state US$66,670 as JHU's 2025-26 full-time tuition. Tuition only; the matriculation fee was not stated for that year. Round 5 (2026-10-13): JHU's archived catalogue is now readable with curl. The 2024-25 edition's 'Tuition, Fees, and Cost of Attendance' page (https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/) gives Whiting School of Engineering 'Full-Time Graduate/PhD $64,730' with Matriculation Fee $500; 2024 row added. The 2025-26 edition gives $66,670, confirming the existing 2025 row.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "sourceUrl": "https://engineering.jhu.edu/ams/data-science-masters-program/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64730,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 500,
+          "sourceUrl": "https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -209,8 +332,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for the two-year, full-time, visa-eligible MS in Psychology, which has its own lower rate, plus a one-off matriculation fee. Health insurance not included.",
-      "notes": "JHU Academic Catalogue 2026-27, Krieger School: 'MS Psychology US$43,000' (programme-specific annual rate; Krieger full-time graduate rate is US$68,670). Matriculation Fee US$500. Psychological and Brain Sciences 'Master of Science' page: two years full-time on campus, 'Visa eligible'. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. ",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 2026-27, Krieger School: 'MS Psychology US$43,000' (programme-specific annual rate; Krieger full-time graduate rate is US$68,670). Matriculation Fee US$500. Psychological and Brain Sciences 'Master of Science' page: two years full-time on campus, 'Visa eligible'. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. Round 5 (2026-10-13): the JHU catalogue archives for 2024-25 and 2025-26 (e-catalogue.jhu.edu/archive/2024-25/ and /2025-26/) list no MS in Psychology programme page or tuition line (only the BA, minor and PhD); the programme and its US$43,000 rate first appear in the 2026-27 catalogue, so 2024 and 2025 are treated as no-intake years and left blank."
     },
     {
       "level": "master",
@@ -230,8 +352,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for the Carey full-time Global MBA plus a one-off matriculation fee. Health insurance not included; fees rise each year.",
-      "notes": "JHU Academic Catalogue 2026-27, Carey Business School: 'Full-time Global MBA US$77,375'; Matriculation Fee US$1,000 (Carey rate). No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). Duration two years (typical). JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. ",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 2026-27, Carey Business School: 'Full-time Global MBA US$77,375'; Matriculation Fee US$1,000 (Carey rate). No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). Duration two years (typical). JHU's archived catalogues are blocked to automated reading. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): Carey's financial-aid 'Tuition and Fees 2024-2025' page loads without its fee tables, and its admissions page now shows 2026-27 only (a per-cohort locked rate of US$154,750 over four semesters), so 2024 and 2025 remain unfilled. Round 5 (2026-10-13): JHU's archived catalogues (readable with curl) give Carey 'Full-time Global MBA' $72,000 for 2024-25 and $75,000 for 2025-26, Matriculation Fee $1,000 in both; 2024 and 2025 rows added.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 75000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 1000,
+          "sourceUrl": "https://e-catalogue.jhu.edu/archive/2025-26/university-wide-policies-information/admission-aid/tuition-fees/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 72000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 1000,
+          "sourceUrl": "https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -251,8 +392,26 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition at Johns Hopkins SAIS in Washington, DC, plus a one-off matriculation fee. Health insurance not included; fees rise each year.",
-      "notes": "JHU Academic Catalogue 2026-27, Nitze School of Advanced International Studies: 'Full-time Graduate/Doctoral Resident - DC US$66,995'; Matriculation Fee US$500. Two-year MA. Campus is Washington, DC, not Baltimore. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. ",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 2026-27, Nitze School of Advanced International Studies: 'Full-time Graduate/Doctoral Resident - DC US$66,995'; Matriculation Fee US$500. Two-year MA. Campus is Washington, DC, not Baltimore. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. 2025 row (2026-10-13): an older copy of SAIS's own cost page on its origin-cdn.sais.jhu.edu host, headed 'Cost of Attendance for 2025-2026', gives MAIR (Washington, DC) full-time tuition US$32,425 per semester = US$64,850 a year and a one-time matriculation fee of US$500 (health insurance and the UPass/Metro fee are excluded, as in the current figure). 2024 not filled: no 2024-25 SAIS cost page was found. Round 5 (2026-10-13): the JHU 2024-25 catalogue archive gives SAIS 'Full-time Graduate/Doctoral Resident - DC $62,350', Matriculation Fee $500; 2024 row added. The 2025-26 archive gives $64,850, confirming the 2025 row.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 64850,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 500,
+          "sourceUrl": "https://origin-cdn.sais.jhu.edu/admissions-aid/tuition-and-aid/tuition-and-fees/cost-of-attendance"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62350,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 500,
+          "sourceUrl": "https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -272,8 +431,26 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the first year (fall, spring and summer terms) of the four-term nursing master's for non-nurses, plus the health services fee. The fourth term is extra. Health insurance not included.",
-      "notes": "JHU School of Nursing cost sheet '26-27 MEN New F26' (MSN Entry into Nursing, Fall 2026 start), linked from nursing.jhu.edu/admissions/tuition-fees: tuition US$28,000 per term for Fall 26, Spring 27 and Summer 27 = US$84,000; Health Services Fee US$950 for the year; Matriculation Fee US$500. The catalogue lists 'Full-time MSN-Entry to Practice (4 semesters) US$84,000'. Health insurance US$3,293 excluded (the sheet says the university plan is optional). The school expects a 2-3% increase each year. International applicants' eligibility not separately checked. JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. ",
-      "feeHistory": []
+      "notes": "JHU School of Nursing cost sheet '26-27 MEN New F26' (MSN Entry into Nursing, Fall 2026 start), linked from nursing.jhu.edu/admissions/tuition-fees: tuition US$28,000 per term for Fall 26, Spring 27 and Summer 27 = US$84,000; Health Services Fee US$950 for the year; Matriculation Fee US$500. The catalogue lists 'Full-time MSN-Entry to Practice (4 semesters) US$84,000'. Health insurance US$3,293 excluded (the sheet says the university plan is optional). The school expects a 2-3% increase each year. International applicants' eligibility not separately checked. History (read 2026-10-13): School of Nursing cost sheet '25-26 MEN New FA25' (Fall 2025 start): tuition US$23,940 x 3 terms (Fall 25, Spring 26, Summer 26) = US$71,820; Health Services Fee US$300 x 3 = US$900; Matriculation Fee US$500. 2024 left unfilled: no new-student Fall 2024 sheet was reachable; the '24-25 MEN Cont SP24' continuing-student sheet (US$70,428 for Fall 24-Summer 25) is for an earlier cohort, so it was not used. JHU's archived catalogues remain blocked to automated reading. Retried 2026-10-13 (round 3): guessed addresses for a '24-25 MEN New' Fall 2024 cost sheet under nursing.jhu.edu/wp-content/uploads/2024/ all failed. Round 5 (2026-10-13): the JHU 2024-25 catalogue archive gives School of Nursing 'Full-time MSN-Entry to Practice (3 semesters) $69,732', Health Services Fee $849 and Matriculation Fee $500 (health insurance $3,116 excluded); 2024 row added. The 2025-26 archive gives $71,820 and Health Services Fee $900, matching the 2025 row.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 71820,
+          "annualCompulsoryFees": 900,
+          "oneOffFees": 500,
+          "sourceUrl": "https://nursing.jhu.edu/wp-content/uploads/2025/05/25-26-MEN-New-FA25.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69732,
+          "annualCompulsoryFees": 849,
+          "oneOffFees": 500,
+          "sourceUrl": "https://e-catalogue.jhu.edu/archive/2024-25/university-wide-policies-information/admission-aid/tuition-fees/",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -293,8 +470,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year MD tuition plus the health service, imaging and activity fees. Health and dental insurance not included. Fees rise each year.",
-      "notes": "Johns Hopkins School of Medicine Financial Aid 'Cost of Attendance' 2026-2027, M1: Tuition US$69,100; University Health Service Fee US$950 + Imaging Fee US$200 + Student Activity Fee US$250 = US$1,400 compulsory; Matriculation Fee US$740 one-off. Health Insurance Premium US$3,775 and Dental Insurance US$268 excluded (insurance). Tuition is US$69,100 in all four years; the imaging fee is charged in M1-M2 only. JHU's need-based free-tuition support for MD students from families earning under US$300,000 is not reflected here; international eligibility not confirmed. JHU's MD is on the Second Schedule of Singapore's Medical Registration Act. JHU's archived catalogues are blocked to automated reading and no earlier-year official table was found, so no feeHistory. ",
-      "feeHistory": [],
+      "notes": "Johns Hopkins School of Medicine Financial Aid 'Cost of Attendance' 2026-2027, M1: Tuition US$69,100; University Health Service Fee US$950 + Imaging Fee US$200 + Student Activity Fee US$250 = US$1,400 compulsory; Matriculation Fee US$740 one-off. Health Insurance Premium US$3,775 and Dental Insurance US$268 excluded (insurance). Tuition is US$69,100 in all four years; the imaging fee is charged in M1-M2 only. JHU's need-based free-tuition support for MD students from families earning under US$300,000 is not reflected here; international eligibility not confirmed. JHU's MD is on the Second Schedule of Singapore's Medical Registration Act. JHU's archived catalogues are blocked to automated reading. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): MedCMP and CollegeEvaluator give only a 2027 figure (US$71,508), so 2024 and 2025 remain unfilled. 2025 row (2026-10-13, rung 3): AcceptedTogether's JHU School of Medicine guide (published 9 Oct 2025, updated 9 Jan 2026) lists 2025-2026 tuition US$66,580, University Health Service Fee US$900, Student Activity Fee US$250, Imaging Fee US$200 (first two years) and Matriculation Fee US$740 (first year), the same components as the current figure, so compulsory = US$1,350; insurance excluded. 2024 still unfilled. Round 5 (2026-10-13): the JHU catalogue archives' School of Medicine table lists only 'Master of Arts/Master of Science' and 'MD/PhD' (both $64,665 in 2024-25 and $66,580 in 2025-26), with Matriculation Fee $740 and Health Services Fee $850 (2024-25); no MD tuition line, so 2024 was not filled from it (the 2025-26 MD/PhD figure equals the MD figure in the 2025 row). Round 6 (2026-10-13): 2024 row added from the archived 2024-2025 JHU catalogue, School of Medicine 'Tuition and Fees' page: 'Medical students matriculating in August 2024 will be charged tuition at the rate of $64,665 per year', plus an $850 annual University Health Services fee, a $200 imaging fee (first and second years) and a $740 one-time matriculation fee; compulsory = $1,050 (that page names no student activity fee, so none is added); insurance excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66580,
+          "annualCompulsoryFees": 1350,
+          "oneOffFees": 740,
+          "sourceUrl": "https://blog.acceptedtogether.com/johns-hopkins-university-school-of-medicine-complete-guide-to-admission-requirements-and-md-program/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64665,
+          "annualCompulsoryFees": 1050,
+          "oneOffFees": 740,
+          "sourceUrl": "https://e-catalogue.jhu.edu/archive/2024-25/medicine/general-information/tuition-fees/",
+          "sourceType": "official"
+        }
+      ],
       "sgRecognition": {
         "body": "SMC",
         "listed": true,

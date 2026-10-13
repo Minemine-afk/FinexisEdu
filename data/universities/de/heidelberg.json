@@ -8,19 +8,19 @@
   "description": "Heidelberg University (Ruprecht-Karls-Universität) is a public research university in Heidelberg, founded in 1386 and Germany's oldest university. It is a comprehensive university spanning the humanities, natural sciences, law and medicine.",
   "whyIncluded": "Its medical degree is on the Singapore Medical Council's list of registrable basic medical qualifications, and Germany is among the ten destinations with the most Singaporean students abroad (about 640, UNESCO data for 2022-24).",
   "livingCosts": {
-    "year": 2023,
+    "year": 2026,
     "months": 12,
     "monthly": {
-      "housing": 410,
-      "food": 198,
-      "transport": 89,
-      "personal": 318
+      "housing": 650,
+      "food": 300,
+      "transport": 54,
+      "personal": 225
     },
-    "sourceUrl": "https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/costs-of-education-and-living/",
-    "lastVerified": "2026-09-30",
-    "sourceType": "secondary",
-    "summary": "A national average for students in Germany from the German Academic Exchange Service, as the university publishes none. Covers rent, food, transport and personal costs for 12 months; excludes health insurance and fees.",
-    "notes": "The university publishes no itemised cost-of-living estimate for Heidelberg, so this is DAAD's 'Average expenses of a German student' (national average, DZHW 22nd Social Survey 2023): rent incl. utilities EUR 410; food EUR 198; transportation EUR 89; personal = recreation/culture/sports 65 + clothing 46 + working materials 31 + telephone/internet/licence 32 + other 144 = EUR 318. Excludes health insurance (100), tuition (76) and semester contribution (36). DAAD is the German Academic Exchange Service, not the university, so marked secondary. Heidelberg's own page only gives a total of 'min. EUR 992 per month' (the residence-permit minimum) with no breakdown."
+    "sourceUrl": "https://www.uni-heidelberg.de/en/study-financing-for-international-students",
+    "lastVerified": "2026-10-13",
+    "sourceType": "official",
+    "summary": "Heidelberg University's own monthly cost estimate for international students: rent, food, transport and leisure, using the middle of each range. Health insurance (about 150 euros a month) and fees are excluded.",
+    "notes": "Rung A. Heidelberg University 'Study Financing for international students' page (updated 9 September 2026, read 2026-10-13), monthly costs: rent approx. EUR 350 (student housing) to approx. EUR 950 (private market) -> midpoint 650; food approx. EUR 200-400 -> 300; public transportation EUR 45-63 (Deutschlandticket) -> 54; leisure, clothing, etc. approx. EUR 150-300 -> 225 (personal). Health insurance EUR 150 a month (approx. EUR 300 for those over 30) excluded per SCHEMA. The page's own monthly total is approx. EUR 895 to EUR 2,013 including health insurance. The older 'Financial Matters' page for incoming students gives dorm rent EUR 270-450, Mensa EUR 150, groceries EUR 100-200, transport ca. EUR 65 and an average of EUR 1,000 a month. Replaces the DAAD national average used before."
   },
   "programmes": [
     {

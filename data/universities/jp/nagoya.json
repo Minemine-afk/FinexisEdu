@@ -41,8 +41,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in English.",
-      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. An Electrical, Electronic and Information Engineering track is also offered. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. An Electrical, Electronic and Information Engineering track is also offered. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 and 2025 rows (2026-10-13, unofficial): JPSS (Japan Study Support) Nagoya University Law page states admission fee 282,000 yen and tuition 535,800 yen 'for the 2024 school year', and its Engineering page states the same 'for the 2025 school year' (university-wide national rate).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/165/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/170/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +81,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in English.",
-      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 Chemistry and Biological Science programmes are also offered. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 Chemistry and Biological Science programmes are also offered. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 and 2025 rows (2026-10-13, unofficial): JPSS (Japan Study Support) Nagoya University Law page states admission fee 282,000 yen and tuition 535,800 yen 'for the 2024 school year', and its Engineering page states the same 'for the 2025 school year' (university-wide national rate).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/165/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/170/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +121,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in English.",
-      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 and 2025 rows (2026-10-13, unofficial): JPSS (Japan Study Support) Nagoya University Law page states admission fee 282,000 yen and tuition 535,800 yen 'for the 2024 school year', and its Engineering page states the same 'for the 2025 school year' (university-wide national rate).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/165/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/170/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -104,8 +161,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in English.",
-      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": [],
+      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 and 2025 rows (2026-10-13, unofficial): JPSS (Japan Study Support) Nagoya University Law page states admission fee 282,000 yen and tuition 535,800 yen 'for the 2024 school year', and its Engineering page states the same 'for the 2025 school year' (university-wide national rate).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/165/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/170/",
+          "sourceType": "secondary"
+        }
+      ],
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -132,8 +208,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in English.",
-      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 and 2025 rows (2026-10-13, unofficial): JPSS (Japan Study Support) Nagoya University Law page states admission fee 282,000 yen and tuition 535,800 yen 'for the 2024 school year', and its Engineering page states the same 'for the 2025 school year' (university-wide national rate).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/165/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/170/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -153,8 +248,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in English.",
-      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. The G30 option closest to computing (electrical, electronic and information engineering). G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught Global 30 (G30) programme, listed on the G30 admissions statistics page. The G30 option closest to computing (electrical, electronic and information engineering). G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 and 2025 rows (2026-10-13, unofficial): JPSS (Japan Study Support) Nagoya University Law page states admission fee 282,000 yen and tuition 535,800 yen 'for the 2024 school year', and its Engineering page states the same 'for the 2025 school year' (university-wide national rate).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/165/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/170/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -174,8 +288,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national tuition for the 6-year Japanese-taught medical degree. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
-      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination; fee is the same university-wide national rate. 6-year undergraduate medical degree. Not checked against the Singapore Medical Council's list of registrable qualifications. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": [],
+      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination; fee is the same university-wide national rate. 6-year undergraduate medical degree. Not checked against the Singapore Medical Council's list of registrable qualifications. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 and 2025 rows (2026-10-13, unofficial): JPSS (Japan Study Support) Nagoya University Medicine (Medicine and Health Sciences) page states admission fee 282,000 yen and tuition 535,800 yen 'for the 2024 school year', and its Engineering page states the same 'for the 2025 school year' (university-wide national rate).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/169/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/170/",
+          "sourceType": "secondary"
+        }
+      ],
       "sgRecognition": {
         "body": "SMC",
         "listed": false,
@@ -202,8 +335,27 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in Japanese.",
-      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination; fee is the same university-wide national rate. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination; fee is the same university-wide national rate. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 and 2025 rows (2026-10-13, unofficial): JPSS (Japan Study Support) Nagoya University Medicine (Medicine and Health Sciences) page states admission fee 282,000 yen and tuition 535,800 yen 'for the 2024 school year', and its Engineering page states the same 'for the 2025 school year' (university-wide national rate).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/169/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://www.jpss.jp/en/univ/47/170/",
+          "sourceType": "secondary"
+        }
+      ]
     },
     {
       "level": "master",
@@ -223,8 +375,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 row (2026-10-13, official): Nagoya University's 'International Programs for AY2024' admission requirements for this master's programme (October 2024 admission) state registration fee JPY 282,000 and tuition 'Per semester: JPY 267,900 (Per year: JPY 535,800)'. 2025 still unfilled (2026-10-13): the AY2025 Automotive master's admission-requirements PDF could not be located (the AY2025 Physics, Economics and Japan-in-Asia PDFs were found). 2025 row (2026-10-13, rung 1): Nagoya University's '2025年度（10月入学）名古屋大学大学院工学研究科 博士前期課程 自動車工学プログラム 学生募集要項' (October 2025 admission guidelines for this programme, Japanese version) states 入学料 282,000円 and 授業料 前期分 267,900円, 年額 535,800円.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2023/10/%E2%98%8501_AY2024G30AdmissionRequirement_MAutoE_EN-1.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2024/11/01_AY2025_G30AdmissionRequirement_MAutoE_JP.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -244,8 +413,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 row (2026-10-13, official): Nagoya University's 'International Programs for AY2024' admission requirements for this master's programme (October 2024 admission) state registration fee JPY 282,000 and tuition 'Per semester: JPY 267,900 (Per year: JPY 535,800)'. 2025 row (2026-10-13, official): the Academic Year 2025 (October 2025 admission) admission requirements for the same programme state registration fee JPY 282,000 and annual tuition JPY 535,800.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2023/10/%E2%98%8508_AY2024G30AdmissionRequirement_MPh_EN-1.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2024/12/08_AY2025_G30AdmissionRequirement_MPhy.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -265,8 +451,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 row (2026-10-13, official): Nagoya University's 'International Programs for AY2024' admission requirements for this master's programme (October 2024 admission) state registration fee JPY 282,000 and tuition 'Per semester: JPY 267,900 (Per year: JPY 535,800)'. 2025 row (2026-10-13, official): the Academic Year 2025 (October 2025 admission) admission requirements for the same programme state registration fee JPY 282,000 and annual tuition JPY 535,800.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2023/10/%E2%98%8515_AY2024G30AdmissionRequirement_MEcon_EN-2.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2024/10/15_AY2025_G30AdmissionRequirement_MEcon_EN.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -286,8 +489,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. No year-specific 2024/2025 figure read, so no history. ",
-      "feeHistory": []
+      "notes": "English-taught G30 graduate programme, named in the G30 graduate application guidelines announcement for October 2026 admission. G30 'Tuition' page: tuition ¥535,800 per academic year regardless of nationality (the same as for Japanese students); non-refundable registration fee ¥282,000 at admission; application fee (¥10,000 undergraduate / ¥20,000 graduate) excluded. The page gives no year; national-university fees may be revised during enrolment, so not cohort-locked. 2024 row (2026-10-13, official): Nagoya University's 'International Programs for AY2024' admission requirements for this master's programme (October 2024 admission) state registration fee JPY 282,000 and tuition 'Per semester: JPY 267,900 (Per year: JPY 535,800)'. 2025 row (2026-10-13, official): the Academic Year 2025 (October 2025 admission) admission requirements for the same programme state registration fee JPY 282,000 and annual tuition JPY 535,800.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2023/10/%E2%98%8517_AY2024G30AdmissionRequirement_MJACS_EN-1.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 535800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 282000,
+          "sourceUrl": "https://admissions.g30.nagoya-u.ac.jp/wp-content/uploads/2024/10/17_AY2025_G30AdmissionRequirement_MJACS_EN.pdf"
+        }
+      ]
     }
   ]
 }

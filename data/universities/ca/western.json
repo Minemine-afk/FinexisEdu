@@ -503,7 +503,34 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition for the one-year Ivey MBA starting January 2027, plus student, ancillary and case-book fees. Health insurance (UHIP) is extra.",
-      "notes": "Ivey MBA tuition and living expenses page: international tuition C$136,310 for the programme year beginning January 2027 (paid in January, May and September 2027 instalments). Compulsory = Western student organization and ancillary fees incl. MBA Association fee C$2,300 + Ivey course material fees (case books) C$2,700; UHIP C$820 excluded. C$5,000 deposit is credited to tuition so not counted. No earlier-year figure on the page."
+      "notes": "Ivey MBA tuition and living expenses page: international tuition C$136,310 for the programme year beginning January 2027 (paid in January, May and September 2027 instalments). Compulsory = Western student organization and ancillary fees incl. MBA Association fee C$2,300 + Ivey course material fees (case books) C$2,700; UHIP C$820 excluded. C$5,000 deposit is credited to tuition so not counted. No earlier-year figure on that page. History (read 2026-10-13) from the Western Registrar graduate fee schedules for the Spring term in which earlier Ivey MBA classes started, international full-time row 'Ivey Business School, Business Administration, MBA, Program Specific': Spring 2024 tuition C$126,600.00 with student organization 768.48 + UWO ancillary 558.41 + transit 325.00 + course material 2,639.00 = C$4,290.89; Spring 2025 tuition C$129,750.00 with 791.28 + 575.18 + 350.00 + 2,639.00 = C$4,355.46 (UHIP and the opt-out health and dental plan excluded). The Summer 2026 graduate fee schedule has no full-time Ivey MBA row, and the 2025-26 Program-Specific Tuition Fees sheet (MBA international C$132,990) does not say which intake it applies to. 2026 row (2026-10-13): Ivey's own MBA finance page, still served on Ivey's test2.ivey.uwo.ca host, gives 2026 tuition for international students C$132,994 (first instalment due 6 March 2026; Ivey's news item 'Meet Ivey's MBA Class of 2027' dated 2 March 2026 confirms that class started in March 2026), with Western student organization and ancillary fees incl. MBA Association fee C$2,100 + Ivey course material fees C$2,700 = C$4,800 (optional USC health and dental plan C$1,100 and UHIP C$800 excluded); it is Ivey's own text, but served from a staging host rather than the live site, so the row is marked secondary.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 126600.0,
+          "annualCompulsoryFees": 4290.89,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.registrar.uwo.ca/Student_finances/fees_refunds/pdfsfeeschedule/Grad%20Fee%20Schedules%20-%20Spring%202024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 129750.0,
+          "annualCompulsoryFees": 4355.46,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://www.registrar.uwo.ca/Student_finances/fees_refunds/pdfsfeeschedule/Grad%20Fee%20Schedules%20-%20Spring%202025.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 132994,
+          "annualCompulsoryFees": 4800,
+          "oneOffFees": 0,
+          "sourceUrl": "https://test2.ivey.uwo.ca/mba/finance",
+          "sourceType": "secondary"
+        }
+      ]
     }
   ]
 }

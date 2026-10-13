@@ -123,6 +123,7 @@ describe("committed data", () => {
           seen.add(key);
           expect(h.feeYear, `${u.id}: ${p.name}`).toBeLessThan(p.feeYear);
           if (u.country !== "sg") expect(h.tier, `${u.id}: ${p.name}`).toBe("international");
+          if (h.sourceType === "secondary") expect(h.sourceUrl, `${u.id}: ${p.name} ${h.feeYear}`).toBeDefined();
         }
       }
     }

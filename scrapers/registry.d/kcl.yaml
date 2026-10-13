@@ -1,86 +1,86 @@
 # King's College London. All sources are checked by hand (manual).
 sources:
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/81646/electronic-engineering.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/electronic-engineering-beng/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/81582/computer-science.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/computer-science-bsc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/80635/business-management.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/business-management-bsc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/82181/physics.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/physics-bsc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/81639/economics.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/economics-bsc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/82024/law.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/law-llb/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/318542/medicine.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/medicine-mbbs/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/82268/psychology.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/psychology-bsc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
-    url: "https://www.bachelorsportal.com/studies/82122/nursing-with-registration-as-an-adult-nurse.html"
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/nursing-with-registration-as-an-adult-nurse-bsc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
     url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/robotics-msc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
     url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/advanced-computing-msc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
     url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/international-management-msc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
     url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/data-science-msc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
     url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/international-relations-ma/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
     url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/master-of-laws-llm/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
     url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/mental-health-studies-msc/fees"
     manual: true
-  # King's UG fees load by JavaScript (Studyportals used); PG fee text is per page; checked by hand
+  # King's fees load by JavaScript (read from the rendered course fees page); checked by hand
   - university: kcl
     country: uk
     url: "https://www.kcl.ac.uk/study/student-experience/living-expenses"

@@ -41,7 +41,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Computer Science (BSc) G400', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Computer Science (BSc) G400', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found. Rechecked 2026-10-13: the Academic Office copy of the overseas fee table and the intercalated/study-abroad fee page also start at 2025-26, and the warwick.ac.uk/study course pages (e.g. courses-2024) are blocked to automated fetching by robots.txt, so 2024 is still unfilled. Round 3 (2026-10-13): the Warwick 'fees and funding content blocks' page and Warwick Medical School international page show only 2026-27 and 2025-26 figures; no 2024-25 overseas table was found. Round 4 (2026-10-13): the WBS course fees page shows only 2026-27 onward and the Student Finance fees index links no earlier tables; still unfilled. Round 5 (2026-10-13): the warwick.ac.uk/study/undergraduate/courses-2024/ index is public but every 2024 course page redirects to Warwick sign-in (websignon), even in a headless browser, so no official 2024 figure. 2024 row added as unofficial: the Accommodation For Students Warwick guide states 'If you are an overseas or EU student enrolling in 2024 ... Band 1 – £24,800 per year (classroom-based courses ...) Band 2 – £31,620 per year (laboratory-based courses, plus Maths, Statistics, Theatre and Performance Studies, Economics, and courses provided by Warwick Business School ...)'; this course is Band 2 in the official overseas fee table, so £31,620. Corroboration: the band wording matches Warwick's own course-costs page, both bands rise by the same 6.0% to the official 2025-26 rates (£26,290/£33,520) as they do again to 2026-27, the page's home fee for 2024 entry (£9,250) is correct, and a search-engine index of Warwick's intercalated-year fee page showed an Overseas Band 2 2024/25 fee of £4,740 (15% of £31,620).",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -54,6 +54,13 @@
           "tier": "international",
           "annualTuition": 33520,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31620,
+          "sourceUrl": "https://www.accommodationforstudents.com/university-guides/university-of-warwick-",
+          "sourceType": "secondary"
         }
       ]
     },
@@ -75,7 +82,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Mechanical Engineering (MEng) H302', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Mechanical Engineering (MEng) H302', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found. Rechecked 2026-10-13: the Academic Office copy of the overseas fee table and the intercalated/study-abroad fee page also start at 2025-26, and the warwick.ac.uk/study course pages (e.g. courses-2024) are blocked to automated fetching by robots.txt, so 2024 is still unfilled. Round 3 (2026-10-13): the Warwick 'fees and funding content blocks' page and Warwick Medical School international page show only 2026-27 and 2025-26 figures; no 2024-25 overseas table was found. Round 4 (2026-10-13): the WBS course fees page shows only 2026-27 onward and the Student Finance fees index links no earlier tables; still unfilled. Round 5 (2026-10-13): the warwick.ac.uk/study/undergraduate/courses-2024/ index is public but every 2024 course page redirects to Warwick sign-in (websignon), even in a headless browser, so no official 2024 figure. 2024 row added as unofficial: the Accommodation For Students Warwick guide states 'If you are an overseas or EU student enrolling in 2024 ... Band 1 – £24,800 per year (classroom-based courses ...) Band 2 – £31,620 per year (laboratory-based courses, plus Maths, Statistics, Theatre and Performance Studies, Economics, and courses provided by Warwick Business School ...)'; this course is Band 2 in the official overseas fee table, so £31,620. Corroboration: the band wording matches Warwick's own course-costs page, both bands rise by the same 6.0% to the official 2025-26 rates (£26,290/£33,520) as they do again to 2026-27, the page's home fee for 2024 entry (£9,250) is correct, and a search-engine index of Warwick's intercalated-year fee page showed an Overseas Band 2 2024/25 fee of £4,740 (15% of £31,620).",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -88,6 +95,13 @@
           "tier": "international",
           "annualTuition": 33520,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31620,
+          "sourceUrl": "https://www.accommodationforstudents.com/university-guides/university-of-warwick-",
+          "sourceType": "secondary"
         }
       ]
     },
@@ -109,7 +123,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Mathematics (BSc)', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Mathematics (BSc)', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found. Rechecked 2026-10-13: the Academic Office copy of the overseas fee table and the intercalated/study-abroad fee page also start at 2025-26, and the warwick.ac.uk/study course pages (e.g. courses-2024) are blocked to automated fetching by robots.txt, so 2024 is still unfilled. Round 3 (2026-10-13): the Warwick 'fees and funding content blocks' page and Warwick Medical School international page show only 2026-27 and 2025-26 figures; no 2024-25 overseas table was found. Round 4 (2026-10-13): the WBS course fees page shows only 2026-27 onward and the Student Finance fees index links no earlier tables; still unfilled. Round 5 (2026-10-13): the warwick.ac.uk/study/undergraduate/courses-2024/ index is public but every 2024 course page redirects to Warwick sign-in (websignon), even in a headless browser, so no official 2024 figure. 2024 row added as unofficial: the Accommodation For Students Warwick guide states 'If you are an overseas or EU student enrolling in 2024 ... Band 1 – £24,800 per year (classroom-based courses ...) Band 2 – £31,620 per year (laboratory-based courses, plus Maths, Statistics, Theatre and Performance Studies, Economics, and courses provided by Warwick Business School ...)'; this course is Band 2 in the official overseas fee table, so £31,620. Corroboration: the band wording matches Warwick's own course-costs page, both bands rise by the same 6.0% to the official 2025-26 rates (£26,290/£33,520) as they do again to 2026-27, the page's home fee for 2024 entry (£9,250) is correct, and a search-engine index of Warwick's intercalated-year fee page showed an Overseas Band 2 2024/25 fee of £4,740 (15% of £31,620).",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -122,6 +136,13 @@
           "tier": "international",
           "annualTuition": 33520,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31620,
+          "sourceUrl": "https://www.accommodationforstudents.com/university-guides/university-of-warwick-",
+          "sourceType": "secondary"
         }
       ]
     },
@@ -143,7 +164,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Management (BSc) N200', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Management (BSc) N200', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found. Rechecked 2026-10-13: the Academic Office copy of the overseas fee table and the intercalated/study-abroad fee page also start at 2025-26, and the warwick.ac.uk/study course pages (e.g. courses-2024) are blocked to automated fetching by robots.txt, so 2024 is still unfilled. Round 3 (2026-10-13): the Warwick 'fees and funding content blocks' page and Warwick Medical School international page show only 2026-27 and 2025-26 figures; no 2024-25 overseas table was found. Round 4 (2026-10-13): the WBS course fees page shows only 2026-27 onward and the Student Finance fees index links no earlier tables; still unfilled. Round 5 (2026-10-13): the warwick.ac.uk/study/undergraduate/courses-2024/ index is public but every 2024 course page redirects to Warwick sign-in (websignon), even in a headless browser, so no official 2024 figure. 2024 row added as unofficial: the Accommodation For Students Warwick guide states 'If you are an overseas or EU student enrolling in 2024 ... Band 1 – £24,800 per year (classroom-based courses ...) Band 2 – £31,620 per year (laboratory-based courses, plus Maths, Statistics, Theatre and Performance Studies, Economics, and courses provided by Warwick Business School ...)'; this course is Band 2 in the official overseas fee table, so £31,620. Corroboration: the band wording matches Warwick's own course-costs page, both bands rise by the same 6.0% to the official 2025-26 rates (£26,290/£33,520) as they do again to 2026-27, the page's home fee for 2024 entry (£9,250) is correct, and a search-engine index of Warwick's intercalated-year fee page showed an Overseas Band 2 2024/25 fee of £4,740 (15% of £31,620).",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -156,6 +177,13 @@
           "tier": "international",
           "annualTuition": 33520,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31620,
+          "sourceUrl": "https://www.accommodationforstudents.com/university-guides/university-of-warwick-",
+          "sourceType": "secondary"
         }
       ]
     },
@@ -177,7 +205,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Economics (3 years) (BSc) L100', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Economics (3 years) (BSc) L100', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found. Rechecked 2026-10-13: the Academic Office copy of the overseas fee table and the intercalated/study-abroad fee page also start at 2025-26, and the warwick.ac.uk/study course pages (e.g. courses-2024) are blocked to automated fetching by robots.txt, so 2024 is still unfilled. Round 3 (2026-10-13): the Warwick 'fees and funding content blocks' page and Warwick Medical School international page show only 2026-27 and 2025-26 figures; no 2024-25 overseas table was found. Round 4 (2026-10-13): the WBS course fees page shows only 2026-27 onward and the Student Finance fees index links no earlier tables; still unfilled. Round 5 (2026-10-13): the warwick.ac.uk/study/undergraduate/courses-2024/ index is public but every 2024 course page redirects to Warwick sign-in (websignon), even in a headless browser, so no official 2024 figure. 2024 row added as unofficial: the Accommodation For Students Warwick guide states 'If you are an overseas or EU student enrolling in 2024 ... Band 1 – £24,800 per year (classroom-based courses ...) Band 2 – £31,620 per year (laboratory-based courses, plus Maths, Statistics, Theatre and Performance Studies, Economics, and courses provided by Warwick Business School ...)'; this course is Band 2 in the official overseas fee table, so £31,620. Corroboration: the band wording matches Warwick's own course-costs page, both bands rise by the same 6.0% to the official 2025-26 rates (£26,290/£33,520) as they do again to 2026-27, the page's home fee for 2024 entry (£9,250) is correct, and a search-engine index of Warwick's intercalated-year fee page showed an Overseas Band 2 2024/25 fee of £4,740 (15% of £31,620).",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -190,6 +218,13 @@
           "tier": "international",
           "annualTuition": 33520,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31620,
+          "sourceUrl": "https://www.accommodationforstudents.com/university-guides/university-of-warwick-",
+          "sourceType": "secondary"
         }
       ]
     },
@@ -211,7 +246,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Law (3 years) (LLB) M100', Band 1: 2025-26 £26,290, 2026-27 £27,870, 2027-28 £29,260. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Law (3 years) (LLB) M100', Band 1: 2025-26 £26,290, 2026-27 £27,870, 2027-28 £29,260. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found. Rechecked 2026-10-13: the Academic Office copy of the overseas fee table and the intercalated/study-abroad fee page also start at 2025-26, and the warwick.ac.uk/study course pages (e.g. courses-2024) are blocked to automated fetching by robots.txt, so 2024 is still unfilled. Round 3 (2026-10-13): the Warwick 'fees and funding content blocks' page and Warwick Medical School international page show only 2026-27 and 2025-26 figures; no 2024-25 overseas table was found. Round 4 (2026-10-13): the WBS course fees page shows only 2026-27 onward and the Student Finance fees index links no earlier tables; still unfilled. Round 5 (2026-10-13): the warwick.ac.uk/study/undergraduate/courses-2024/ index is public but every 2024 course page redirects to Warwick sign-in (websignon), even in a headless browser, so no official 2024 figure. 2024 row added as unofficial: the Accommodation For Students Warwick guide states 'If you are an overseas or EU student enrolling in 2024 ... Band 1 – £24,800 per year (classroom-based courses ...) Band 2 – £31,620 per year (laboratory-based courses, plus Maths, Statistics, Theatre and Performance Studies, Economics, and courses provided by Warwick Business School ...)'; this course is Band 1 in the official overseas fee table, so £24,800. Corroboration: the band wording matches Warwick's own course-costs page, both bands rise by the same 6.0% to the official 2025-26 rates (£26,290/£33,520) as they do again to 2026-27, the page's home fee for 2024 entry (£9,250) is correct, and a search-engine index of Warwick's intercalated-year fee page showed an Overseas Band 2 2024/25 fee of £4,740 (15% of £31,620).",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -224,6 +259,13 @@
           "tier": "international",
           "annualTuition": 26290,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 24800,
+          "sourceUrl": "https://www.accommodationforstudents.com/university-guides/university-of-warwick-",
+          "sourceType": "secondary"
         }
       ],
       "sgRecognition": {
@@ -252,7 +294,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Psychology (BSc) C800', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), row 'Psychology (BSc) C800', Band 2: 2025-26 £33,520, 2026-27 £35,530, 2027-28 £37,310. The page says fees for continuing students may be increased in line with an inflationary uplift in future years, so cohortLocked is false. No separate compulsory fees. No 2024-25 row: the current page lists only 2025-26 to 2027-28 and no earlier official table was found. Rechecked 2026-10-13: the Academic Office copy of the overseas fee table and the intercalated/study-abroad fee page also start at 2025-26, and the warwick.ac.uk/study course pages (e.g. courses-2024) are blocked to automated fetching by robots.txt, so 2024 is still unfilled. Round 3 (2026-10-13): the Warwick 'fees and funding content blocks' page and Warwick Medical School international page show only 2026-27 and 2025-26 figures; no 2024-25 overseas table was found. Round 4 (2026-10-13): the WBS course fees page shows only 2026-27 onward and the Student Finance fees index links no earlier tables; still unfilled. Round 5 (2026-10-13): the warwick.ac.uk/study/undergraduate/courses-2024/ index is public but every 2024 course page redirects to Warwick sign-in (websignon), even in a headless browser, so no official 2024 figure. 2024 row added as unofficial: the Accommodation For Students Warwick guide states 'If you are an overseas or EU student enrolling in 2024 ... Band 1 – £24,800 per year (classroom-based courses ...) Band 2 – £31,620 per year (laboratory-based courses, plus Maths, Statistics, Theatre and Performance Studies, Economics, and courses provided by Warwick Business School ...)'; this course is Band 2 in the official overseas fee table, so £31,620. Corroboration: the band wording matches Warwick's own course-costs page, both bands rise by the same 6.0% to the official 2025-26 rates (£26,290/£33,520) as they do again to 2026-27, the page's home fee for 2024 entry (£9,250) is correct, and a search-engine index of Warwick's intercalated-year fee page showed an Overseas Band 2 2024/25 fee of £4,740 (15% of £31,620).",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -265,6 +307,13 @@
           "tier": "international",
           "annualTuition": 33520,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31620,
+          "sourceUrl": "https://www.accommodationforstudents.com/university-guides/university-of-warwick-",
+          "sourceType": "secondary"
         }
       ]
     },
@@ -531,13 +580,20 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Year 1 of this 4-year graduate-entry medical degree costs £32,510 at 2026-27 rates; years 2 to 4 cost £56,660 a year, and fees may rise each year with inflation. No separate compulsory fees.",
-      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), rows 'Bachelor of Medicine & Bachelor of Surgery (Year 1)' A101 and '(Years 2-4)': 2025-26 £30,670 / £53,460; 2026-27 £32,510 / £56,660; 2027-28 TBA, so the latest published year (2026) is used. Warwick's MBChB is a four-year graduate-entry degree, so it is listed under Master's per the README rule; first-year fee recorded, later-year rate here. Warwick Medical School was added to the Singapore Medical Council's list of registrable qualifications from 1 January 2025 (news reports of the SMC update). Continuing-student fees may rise with an inflationary uplift. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (fetched 2026-10-07), rows 'Bachelor of Medicine & Bachelor of Surgery (Year 1)' A101 and '(Years 2-4)': 2025-26 £30,670 / £53,460; 2026-27 £32,510 / £56,660; 2027-28 TBA, so the latest published year (2026) is used. Warwick's MBChB is a four-year graduate-entry degree, so it is listed under Master's per the README rule; first-year fee recorded, later-year rate here. Warwick Medical School was added to the Singapore Medical Council's list of registrable qualifications from 1 January 2025 (news reports of the SMC update). Continuing-student fees may rise with an inflationary uplift. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. Rechecked 2026-10-13: the Academic Office copy of the overseas fee table and the intercalated/study-abroad fee page also start at 2025-26, and the warwick.ac.uk/study course pages (e.g. courses-2024) are blocked to automated fetching by robots.txt, so 2024 is still unfilled. Round 3 (2026-10-13): the Warwick 'fees and funding content blocks' page and Warwick Medical School international page show only 2026-27 and 2025-26 figures; no 2024-25 overseas table was found. Round 4 (2026-10-13): the WBS course fees page shows only 2026-27 onward and the Student Finance fees index links no earlier tables; still unfilled. Round 5 (2026-10-13): the 2024 courses-2024 MBChB page requires Warwick sign-in and the WMS international finance page lists 2025-26 onward only; the MBChB is outside the Band 1/2 structure, so the third-party 2024 band figures do not apply. 2024 still unfilled. Round 6 (2026-10-13): Warwick's Student Finance 'Postgraduate Taught Fees' table (warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees/, readable with curl), where the graduate-entry MBChB is also listed, has columns 2024-25 / 2025-26 / 2026-27: 'Medicine (Graduate entry) (MBChB) - year 1 A101 Full Time Overseas £28,930 £30,670 £32,510' and '- years 2+ ... £50,430 £53,460 £56,660'. The 2025-26 and 2026-27 figures match the UG overseas table. Added 2024 row £28,930 (official, year-1 figure, same basis as annualTuition). The 2024 entry course page (warwick.ac.uk/study/postgraduate/courses-2024/mbchb-medicine/) is also public and links to this table.",
       "feeHistory": [
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 30670,
           "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28930,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees/",
+          "sourceType": "official"
         }
       ],
       "laterYears": [

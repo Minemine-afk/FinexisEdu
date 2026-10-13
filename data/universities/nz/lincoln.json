@@ -20,7 +20,7 @@
     "lastVerified": "2026-10-08",
     "sourceType": "secondary",
     "summary": "Lincoln publishes no living-cost budget, so this is Immigration New Zealand's student-visa living-cost minimum of NZ$20,000 a year (about NZ$1,667 a month), split into rent, food, transport and personal using the pattern of other NZ universities. Campus flats: NZ$245-320 a week.",
-    "notes": "Rung C. Tried for rung A/B: lincoln.ac.nz 'Money and Banking' page (only item prices: campus lunch NZ$15, coffee from NZ$3.50, 'allow up to NZ$1,000 for course related costs'; no rent or totals), international fees page (tuition, Student Services Fee and insurance only), Study Abroad page, international 'Accommodation options' page and the 2023 Accommodation Guide PDF (no prices); the /study/international-students/cost-of-living/ URL returns 403. 'Living on Campus' gives 2026 accommodation prices: fully catered single-room halls NZ$17,490-22,220 per year and self-catered campus flats NZ$245-320 per week (Crescent Flats 245, Farm Road 290, The Junction 310), which exclude food, transport and personal costs; these were not used because there is no itemised budget around them. Figure used: Immigration New Zealand 'Student fund requirements' page, read 2026-10-08: 'NZD $20,000 for each year, if you are studying for 1 year or more'. Monthly = 20,000 / 12 = 1,666.67, split with the brief's New Zealand average shares housing .71 / food .14 / transport .04 / personal .11. The resulting housing figure (NZ$1,183/month, about NZ$273/week) sits inside Lincoln's campus-flat range. Cross-check: University of Canterbury (Christchurch, rung A, flatting estimate) totals about NZ$1,889/month. Excludes tuition, compulsory insurance, bond, Res Life and processing fees."
+    "notes": "Rung C. Tried for rung A/B: lincoln.ac.nz 'Money and Banking' page (only item prices: campus lunch NZ$15, coffee from NZ$3.50, 'allow up to NZ$1,000 for course related costs'; no rent or totals), international fees page (tuition, Student Services Fee and insurance only), Study Abroad page, international 'Accommodation options' page and the 2023 Accommodation Guide PDF (no prices); the /study/international-students/cost-of-living/ URL returns 403. 'Living on Campus' gives 2026 accommodation prices: fully catered single-room halls NZ$17,490-22,220 per year and self-catered campus flats NZ$245-320 per week (Crescent Flats 245, Farm Road 290, The Junction 310), which exclude food, transport and personal costs; these were not used because there is no itemised budget around them. Figure used: Immigration New Zealand 'Student fund requirements' page, read 2026-10-08: 'NZD $20,000 for each year, if you are studying for 1 year or more'. Monthly = 20,000 / 12 = 1,666.67, split with the brief's New Zealand average shares housing .71 / food .14 / transport .04 / personal .11. The resulting housing figure (NZ$1,183/month, about NZ$273/week) sits inside Lincoln's campus-flat range. Cross-check: University of Canterbury (Christchurch, rung A, flatting estimate) totals about NZ$1,889/month. Excludes tuition, compulsory insurance, bond, Res Life and processing fees. Rechecked 2026-10-13: Lincoln international fees page (tuition, Student Services fee and insurance only) and 'Money and Banking' (textbooks up to NZ$1,000 only); the international-students page failed to load."
   },
   "programmes": [
     {
@@ -39,9 +39,9 @@
       "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
+      "cohortLocked": true,
       "summary": "Yearly tuition for international students for 2027, including GST. Student services fee included; insurance is extra.",
-      "notes": "2027: tuition $35,000 + student services fee $1,038 (+ insurance $999). The page's 2027 total shows $36,875, which does not add up (it equals the 2026 total); tuition and SSF lines are used. 2026: $35,000 + SSF $976. 3 years. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "notes": "2027: tuition $35,000 + student services fee $1,038 (+ insurance $999). The page's 2027 total shows $36,875, which does not add up (it equals the 2026 total); tuition and SSF lines are used. 2026: $35,000 + SSF $976. 3 years. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found. No year-labelled 2024/2025 agent fee list was found either (2026-10-13; Uni Enrol and similar sites give undated figures). Round 4 (2026-10-13): Lincoln Council agenda papers (e.g. 23 June 2025) were checked for an international fee schedule; none was found. Round 5 (2026-10-13): still no 2024/2025 row. The English and Chinese international fees pages (read via headless browser) show only 2026/2027; the Chinese page describes a fee guarantee (an undergraduate's annual fee is held at the entry-year rate for the normal duration, example NZD 32,000), which is illustrative, not a dated fee. No Lincoln international prospectus or fee PDF for 2024/2025 was found on lincoln.ac.nz or issuu; the only older prospectus copy found (2023/24, on a German agent's site) could not be fetched (TLS certificate mismatch). Round 6 (2026-10-13): 2024 and 2025 rows added from Lincoln's own 2024 and 2025 Academic Calendars (Maramataka), held in the university's Living Heritage archive (PDF via livingheritage.lincoln.ac.nz/assets/displaypdf/97763 and /98338): 'International Programme Package Fees for new international students' list Bachelor of Commerce at $31,500 (2024) and $32,500 (2025); compulsory fee = Student Services Fee 2 x $454.50 per semester (30+ credits) = $909 (same rates printed in both calendars). The calendars (and the 2026 calendar) say continuing international students pay the Programme Package Fee set for their year of initial enrolment, and the current fees page says the first-year fee 'is maintained for the minimum period required to complete your programme', so these are entry-cohort fees. Round 6 (2026-10-13): now cohortLocked true. Lincoln's international fees page says 'A programme-based fee means that you pay the fees set for the first year of your enrolment. The same fee is maintained for the minimum period required to complete your programme', and the 2024-2026 Academic Calendars say continuing international students pay the Programme Package Fees set for their year of initial enrolment, provided they maintain good progress.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -50,6 +50,24 @@
           "annualCompulsoryFees": 976,
           "oneOffFees": 0,
           "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 32500,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/98338",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31500,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/97763",
+          "sourceType": "official"
         }
       ]
     },
@@ -69,9 +87,9 @@
       "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
+      "cohortLocked": true,
       "summary": "Yearly tuition for international students for 2027, including GST. Student services fee included; insurance is extra.",
-      "notes": "2027: tuition $37,000 + student services fee $1,038 (+ insurance $999). 2026: $37,000 + SSF $976. 3 years. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "notes": "2027: tuition $37,000 + student services fee $1,038 (+ insurance $999). 2026: $37,000 + SSF $976. 3 years. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found. No year-labelled 2024/2025 agent fee list was found either (2026-10-13; Uni Enrol and similar sites give undated figures). Round 4 (2026-10-13): Lincoln Council agenda papers (e.g. 23 June 2025) were checked for an international fee schedule; none was found. Round 5 (2026-10-13): still no 2024/2025 row. The English and Chinese international fees pages (read via headless browser) show only 2026/2027; the Chinese page describes a fee guarantee (an undergraduate's annual fee is held at the entry-year rate for the normal duration, example NZD 32,000), which is illustrative, not a dated fee. No Lincoln international prospectus or fee PDF for 2024/2025 was found on lincoln.ac.nz or issuu; the only older prospectus copy found (2023/24, on a German agent's site) could not be fetched (TLS certificate mismatch). Round 6 (2026-10-13): 2024 and 2025 rows added from Lincoln's own 2024 and 2025 Academic Calendars (Maramataka), held in the university's Living Heritage archive (PDF via livingheritage.lincoln.ac.nz/assets/displaypdf/97763 and /98338): 'International Programme Package Fees for new international students' list Bachelor of Science at $35,000 (2024) and $36,000 (2025); compulsory fee = Student Services Fee 2 x $454.50 per semester (30+ credits) = $909 (same rates printed in both calendars). The calendars (and the 2026 calendar) say continuing international students pay the Programme Package Fee set for their year of initial enrolment, and the current fees page says the first-year fee 'is maintained for the minimum period required to complete your programme', so these are entry-cohort fees. Round 6 (2026-10-13): now cohortLocked true. Lincoln's international fees page says 'A programme-based fee means that you pay the fees set for the first year of your enrolment. The same fee is maintained for the minimum period required to complete your programme', and the 2024-2026 Academic Calendars say continuing international students pay the Programme Package Fees set for their year of initial enrolment, provided they maintain good progress.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -80,6 +98,24 @@
           "annualCompulsoryFees": 976,
           "oneOffFees": 0,
           "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36000,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/98338",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35000,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/97763",
+          "sourceType": "official"
         }
       ]
     },
@@ -99,9 +135,9 @@
       "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
+      "cohortLocked": true,
       "summary": "Yearly tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST. Student services fee included; insurance is extra.",
-      "notes": "2027: 180 credits, total tuition $66,000 + SSF $1,557 (+ insurance $1,498.50); divided by 1.5 years = $44,000 + $1,038 a year. 2026: $63,000 + $1,464 total = $42,000 + $976 a year. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "notes": "2027: 180 credits, total tuition $66,000 + SSF $1,557 (+ insurance $1,498.50); divided by 1.5 years = $44,000 + $1,038 a year. 2026: $63,000 + $1,464 total = $42,000 + $976 a year. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found. No year-labelled 2024/2025 agent fee list was found either (2026-10-13; Uni Enrol and similar sites give undated figures). Round 4 (2026-10-13): Lincoln Council agenda papers (e.g. 23 June 2025) were checked for an international fee schedule; none was found. Round 5 (2026-10-13): still no 2024/2025 row. The English and Chinese international fees pages (read via headless browser) show only 2026/2027; the Chinese page describes a fee guarantee (an undergraduate's annual fee is held at the entry-year rate for the normal duration, example NZD 32,000), which is illustrative, not a dated fee. No Lincoln international prospectus or fee PDF for 2024/2025 was found on lincoln.ac.nz or issuu; the only older prospectus copy found (2023/24, on a German agent's site) could not be fetched (TLS certificate mismatch). Round 6 (2026-10-13): 2024 and 2025 rows added from Lincoln's own 2024 and 2025 Academic Calendars (Maramataka), held in the university's Living Heritage archive (PDF via livingheritage.lincoln.ac.nz/assets/displaypdf/97763 and /98338): 'International Programme Package Fees for new international students' list Master of Applied Computing at $54,000 for 180 credits (2024) and $57,000 for 180 credits (2025), divided by 1.5 years = $36,000 (2024) and $38,000 (2025) a year; compulsory fee = Student Services Fee 2 x $454.50 per semester (30+ credits) = $909 (same rates printed in both calendars). The calendars (and the 2026 calendar) say continuing international students pay the Programme Package Fee set for their year of initial enrolment, and the current fees page says the first-year fee 'is maintained for the minimum period required to complete your programme', so these are entry-cohort fees. Round 6 (2026-10-13): now cohortLocked true. Lincoln's international fees page says 'A programme-based fee means that you pay the fees set for the first year of your enrolment. The same fee is maintained for the minimum period required to complete your programme', and the 2024-2026 Academic Calendars say continuing international students pay the Programme Package Fees set for their year of initial enrolment, provided they maintain good progress.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -110,6 +146,24 @@
           "annualCompulsoryFees": 976,
           "oneOffFees": 0,
           "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 38000,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/98338",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36000,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/97763",
+          "sourceType": "official"
         }
       ]
     },
@@ -129,9 +183,9 @@
       "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
+      "cohortLocked": true,
       "summary": "Yearly tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST. Student services fee included; insurance is extra.",
-      "notes": "2027: 180 credits, total tuition $59,000 + SSF $1,557 (+ insurance $1,498.50); divided by 1.5 years. Same fee for Master of Business (Finance) and Master of Professional Accounting (CPA). 2026: $57,000 + $1,464 total = $38,000 + $976 a year. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "notes": "2027: 180 credits, total tuition $59,000 + SSF $1,557 (+ insurance $1,498.50); divided by 1.5 years. Same fee for Master of Business (Finance) and Master of Professional Accounting (CPA). 2026: $57,000 + $1,464 total = $38,000 + $976 a year. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found. No year-labelled 2024/2025 agent fee list was found either (2026-10-13; Uni Enrol and similar sites give undated figures). Round 4 (2026-10-13): Lincoln Council agenda papers (e.g. 23 June 2025) were checked for an international fee schedule; none was found. Round 5 (2026-10-13): still no 2024/2025 row. The English and Chinese international fees pages (read via headless browser) show only 2026/2027; the Chinese page describes a fee guarantee (an undergraduate's annual fee is held at the entry-year rate for the normal duration, example NZD 32,000), which is illustrative, not a dated fee. No Lincoln international prospectus or fee PDF for 2024/2025 was found on lincoln.ac.nz or issuu; the only older prospectus copy found (2023/24, on a German agent's site) could not be fetched (TLS certificate mismatch). Round 6 (2026-10-13): 2024 and 2025 rows added from Lincoln's own 2024 and 2025 Academic Calendars (Maramataka), held in the university's Living Heritage archive (PDF via livingheritage.lincoln.ac.nz/assets/displaypdf/97763 and /98338): 'International Programme Package Fees for new international students' list Master of Business (Global Management and Marketing) at $48,000 for 180 credits (2024) and $51,000 for 180 credits (2025), divided by 1.5 years = $32,000 (2024) and $34,000 (2025) a year; compulsory fee = Student Services Fee 2 x $454.50 per semester (30+ credits) = $909 (same rates printed in both calendars). The calendars (and the 2026 calendar) say continuing international students pay the Programme Package Fee set for their year of initial enrolment, and the current fees page says the first-year fee 'is maintained for the minimum period required to complete your programme', so these are entry-cohort fees. Round 6 (2026-10-13): now cohortLocked true. Lincoln's international fees page says 'A programme-based fee means that you pay the fees set for the first year of your enrolment. The same fee is maintained for the minimum period required to complete your programme', and the 2024-2026 Academic Calendars say continuing international students pay the Programme Package Fees set for their year of initial enrolment, provided they maintain good progress.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -140,6 +194,24 @@
           "annualCompulsoryFees": 976,
           "oneOffFees": 0,
           "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34000,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/98338",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32000,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/97763",
+          "sourceType": "official"
         }
       ]
     },
@@ -159,9 +231,9 @@
       "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
+      "cohortLocked": true,
       "summary": "Tuition for international students for a 120-credit year starting in 2027, including GST. Student services fee included; insurance is extra.",
-      "notes": "2027: 120 credits, tuition $39,000 + SSF $1,038 (+ insurance $999). 2026: $37,000 + $976. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found.",
+      "notes": "2027: 120 credits, tuition $39,000 + SSF $1,038 (+ insurance $999). 2026: $37,000 + $976. Lincoln's international fees page lists tuition, student services fee and medical/travel insurance separately for 2026 and 2027 (fees incl. GST); insurance is excluded here. The 2026 history row is the 2026 table on the same page (read 2026-10-07). No 2024/2025 figures found. No year-labelled 2024/2025 agent fee list was found either (2026-10-13; Uni Enrol and similar sites give undated figures). Round 4 (2026-10-13): Lincoln Council agenda papers (e.g. 23 June 2025) were checked for an international fee schedule; none was found. Round 5 (2026-10-13): still no 2024/2025 row. The English and Chinese international fees pages (read via headless browser) show only 2026/2027; the Chinese page describes a fee guarantee (an undergraduate's annual fee is held at the entry-year rate for the normal duration, example NZD 32,000), which is illustrative, not a dated fee. No Lincoln international prospectus or fee PDF for 2024/2025 was found on lincoln.ac.nz or issuu; the only older prospectus copy found (2023/24, on a German agent's site) could not be fetched (TLS certificate mismatch). Round 6 (2026-10-13): 2024 and 2025 rows added from Lincoln's own 2024 and 2025 Academic Calendars (Maramataka), held in the university's Living Heritage archive (PDF via livingheritage.lincoln.ac.nz/assets/displaypdf/97763 and /98338): 'International Programme Package Fees for new international students' list Master of Science at $36,000 (120 credits, research) (2024) and $36,500 (120 credits, research) (2025); compulsory fee = Student Services Fee 'Full year (Research)' $913.00 (same rates printed in both calendars). The calendars (and the 2026 calendar) say continuing international students pay the Programme Package Fee set for their year of initial enrolment, and the current fees page says the first-year fee 'is maintained for the minimum period required to complete your programme', so these are entry-cohort fees. Round 6 (2026-10-13): now cohortLocked true. Lincoln's international fees page says 'A programme-based fee means that you pay the fees set for the first year of your enrolment. The same fee is maintained for the minimum period required to complete your programme', and the 2024-2026 Academic Calendars say continuing international students pay the Programme Package Fees set for their year of initial enrolment, provided they maintain good progress.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -170,6 +242,24 @@
           "annualCompulsoryFees": 976,
           "oneOffFees": 0,
           "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36500,
+          "annualCompulsoryFees": 913,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/98338",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36000,
+          "annualCompulsoryFees": 913,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/97763",
+          "sourceType": "official"
         }
       ]
     }

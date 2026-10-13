@@ -1,69 +1,69 @@
 # University of Birmingham. All sources are checked by hand (manual).
 sources:
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.bachelorsportal.com/studies/316289/mechanical-engineering.html"
+    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/eps/mechanical-engineering-m.eng.-4-years-h301-2026-27-pdf-180.1kb.pdf"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.bachelorsportal.com/studies/316343/computer-science.html"
+    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/eps/computer-science-b.sc.-3-years-g400-2026-27-pdf-160.3kb.pdf"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.bachelorsportal.com/studies/316595/business-management.html"
+    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/coss/business-management-bsc-3-years-n200-2026-27-pdf-160kb.pdf"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.bachelorsportal.com/studies/316433/physics.html"
+    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/eps/physics-b.sc.-3-years-f300-2026-27-pdf-181.3kb.pdf"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.bachelorsportal.com/studies/316665/economics.html"
+    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/coss/economics-bsc-3-years-l100-2026-27-pdf-176kb.pdf"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.bachelorsportal.com/studies/316032/law.html"
+    url: "https://www.birmingham.ac.uk/study/undergraduate/subjects/law-courses/law-llb"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.bachelorsportal.com/studies/316524/psychology.html"
+    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/les/psychology-bsc-3-years-c800-2026-27-pdf-165.1kb.pdf"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.mastersportal.com/studies/41485/advanced-mechanical-engineering.html"
+    url: "https://www.birmingham.ac.uk/study/postgraduate/subjects/mechanical-engineering-courses/advanced-mechanical-engineering-msc"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.mastersportal.com/studies/2902/computer-science.html"
+    url: "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/computer-science-msc"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.mastersportal.com/studies/225503/international-business.html"
+    url: "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/international-business-msc"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.mastersportal.com/studies/309582/data-science.html"
+    url: "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/data-science-msc"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.mastersportal.com/studies/309589/economics.html"
+    url: "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/economics-msc"
     manual: true
-  # Birmingham's international fee is behind a JavaScript country selector; Studyportals figure checked by hand
+  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.mastersportal.com/studies/271453/general-law.html"
+    url: "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/general-law-llm"
     manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: birmingham

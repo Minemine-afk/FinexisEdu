@@ -99,6 +99,6 @@ sources:
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: mcgill
     country: ca
-    url: https://www.quebec.ca/en/education/study-quebec/required-conditions/costs-studies
+    url: https://www.mcgill.ca/ece/graduate/fees
     parser: html
     manual: true

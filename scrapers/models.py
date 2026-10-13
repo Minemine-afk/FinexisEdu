@@ -43,6 +43,8 @@ class FeeHistoryEntry(_Model):
     annualCompulsoryFees: float | None = Field(default=None, ge=0)
     oneOffFees: float | None = Field(default=None, ge=0)
     sourceUrl: HttpUrl | None = None
+    # "secondary" when read from an aggregator, agent or news page rather than the university's own.
+    sourceType: Literal["official", "secondary"] | None = None
 
 
 class Partner(_Model):

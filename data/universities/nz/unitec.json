@@ -20,7 +20,7 @@
     "lastVerified": "2026-10-08",
     "sourceType": "secondary",
     "summary": "Unitec's cost-of-living page is no longer online, so this is Immigration New Zealand's student-visa living-cost minimum of NZ$20,000 a year (about NZ$1,667 a month), split into rent, food, transport and personal using the pattern of other NZ universities.",
-    "notes": "Rung C. Tried for rung A/B: unitec.ac.nz 'Cost of living in Auckland, New Zealand' (both indexed URLs, /why-choose-unitec/about-auckland/cost-of-living-in-auckland/ and /why-choose-unitec/accommodation/living-costs, now return 'Page not found'), /international/living-in-auckland/cost-of-living (404), International fees 2027 page (tuition only; links to a cost-of-living page that no longer exists), 'About Auckland', International Support and current-students Accommodation page. The Accommodation page (last modified 24 March 2025) gives flatting at 'NZ$130 to NZ$200 per week' for a room in a shared house and a whole rented apartment or house at 'NZ$280 - NZ$560 per week', but no food, transport or personal figures, so no itemised budget exists. Figure used: Immigration New Zealand 'Student fund requirements' page, read 2026-10-08: 'NZD $20,000 for each year, if you are studying for 1 year or more'. Monthly = 20,000 / 12 = 1,666.67, split with the brief's New Zealand average shares housing .71 / food .14 / transport .04 / personal .11. Cross-check: University of Auckland (rung A) totals about NZ$1,912/month, and Unitec's own flatting range (NZ$563-867/month) is below the housing figure here, so the entry is a reasonable minimum. Excludes tuition, compulsory insurance, bond (up to four weeks' rent) and letting fees."
+    "notes": "Rung C. Tried for rung A/B: unitec.ac.nz 'Cost of living in Auckland, New Zealand' (both indexed URLs, /why-choose-unitec/about-auckland/cost-of-living-in-auckland/ and /why-choose-unitec/accommodation/living-costs, now return 'Page not found'), /international/living-in-auckland/cost-of-living (404), International fees 2027 page (tuition only; links to a cost-of-living page that no longer exists), 'About Auckland', International Support and current-students Accommodation page. The Accommodation page (last modified 24 March 2025) gives flatting at 'NZ$130 to NZ$200 per week' for a room in a shared house and a whole rented apartment or house at 'NZ$280 - NZ$560 per week', but no food, transport or personal figures, so no itemised budget exists. Figure used: Immigration New Zealand 'Student fund requirements' page, read 2026-10-08: 'NZD $20,000 for each year, if you are studying for 1 year or more'. Monthly = 20,000 / 12 = 1,666.67, split with the brief's New Zealand average shares housing .71 / food .14 / transport .04 / personal .11. Cross-check: University of Auckland (rung A) totals about NZ$1,912/month, and Unitec's own flatting range (NZ$563-867/month) is below the housing figure here, so the entry is a reasonable minimum. Excludes tuition, compulsory insurance, bond (up to four weeks' rent) and letting fees. Rechecked 2026-10-13: unitec.ac.nz/international/before-you-arrive/cost-of-living-in-auckland/ (modified 26 November 2025) gives only 'about $15,000 (NZD) per year available for living costs' as the visa amount (now NZ$20,000) and no itemised figures."
   },
   "programmes": [
     {
@@ -41,8 +41,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $30,503.20 (Level 7, full-time 3 years); Electrical major same fee. Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $30,503.20 (Level 7, full-time 3 years); Electrical major same fee. Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses: Engineering Levels 5-7 diplomas & degree $30,000 (2024 standard fee; net after Pacific grant not used); BEngTech (Civil) $31,591 (2025); $29,615 (2026). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29615,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31591,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30000,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +84,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $27,207.20 (Level 7, full-time 3 years). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $27,207.20 (Level 7, full-time 3 years). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses: Levels 1-7 (certificates, diplomas, degrees) $25,000 (2024); Bachelor of Computing Systems $26,391 (2025); $26,415 (2026). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 26415,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26391,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +127,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $27,207.20 (full-time 3 years); Bachelor of Accounting same fee. Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $27,207.20 (full-time 3 years); Bachelor of Accounting same fee. Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses: Levels 1-7 $25,000 (2024); Bachelor of Business (Management and Marketing) $26,391 (2025); $26,415 (2026). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 26415,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26391,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -104,8 +170,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $27,207.20 (Level 7, full-time 3 years); Animal Behaviour and Welfare same fee. Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $27,207.20 (Level 7, full-time 3 years); Animal Behaviour and Welfare same fee. Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses: Levels 1-7 $25,000 (2024); Bachelor of Applied Science (Biodiversity Management) $26,391 (2025); $26,415 (2026). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 26415,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26391,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -125,8 +213,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $27,207.20 (full-time 3 years). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $27,207.20 (full-time 3 years). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses: Levels 1-7 $25,000 (2024); Bachelor of Design & Contemporary Art $26,391 (2025); $26,415 (2026). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 26415,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26391,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -146,8 +256,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $31,983.20 (Level 7, full-time 3 years). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $31,983.20 (Level 7, full-time 3 years). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses: Levels 1-7 Nursing degrees $28,000 (2024); Bachelor of Nursing $29,511 (2025); $30,185 (2026). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 30185,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29511,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 28000,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -167,8 +299,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027 per 120 credits, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $31,327.20 per 120 credits (Level 9, full-time 18 months). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $31,327.20 per 120 credits (Level 9, full-time 18 months). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses. 2024: Levels 8-9 postgraduate and masters standard fee $32,500 per 120 credits (180 credits $48,750 = $32,500 a year; Auckland study grant not deducted). 2025: Master of Applied Technologies - Computing $46,337 programme fee for the 18-month (180-credit) programme, divided by 1.5 years = $30,891.33 a year (matches the 1-year Postgraduate Diploma fee $30,891). 2026: Master of Applied Technologies - Computing $30,415 ('Annual Fee', per 120 credits). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 30415,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30891.33,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32500,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -188,8 +342,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027 per 120 credits, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $31,327.20 per 120 credits (full-time 18 months); Master of Professional Accounting same fee. Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $31,327.20 per 120 credits (full-time 18 months); Master of Professional Accounting same fee. Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses. 2024: Levels 8-9 postgraduate and masters standard fee $32,500 per 120 credits (180 credits $48,750 = $32,500 a year; Auckland study grant not deducted). 2025: Master of Applied Business $46,337 programme fee for the 18-month (180-credit) programme, divided by 1.5 years = $30,891.33 a year (matches the 1-year Postgraduate Diploma fee $30,891). 2026: Master of Applied Business $30,415 ('Annual Fee', per 120 credits). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 30415,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30891.33,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32500,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     },
     {
       "level": "master",
@@ -209,8 +385,30 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly fee for international students for 2027 per 120 credits, including GST and the student services fee. Health insurance is extra.",
-      "notes": "2027 fee $31,327.20 per 120 credits (full-time 18 months). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found.",
-      "feeHistory": []
+      "notes": "2027 fee $31,327.20 per 120 credits (full-time 18 months). Source: Unitec 'International fees 2027' page: 'Tuition fees advertised include GST and Student Services Fee (SSF). Tuition fees do not include compulsory health insurance or other applicable student levies. The fees shown are based on programmes of up to 120 credits.' SSF is inside the tuition figure, so compulsory fees are 0. Only 2027 fees are shown; no earlier figures found. On 2026-10-13 also tried Unitec's ?p= page variants (the 'International fees 2026' search hit now serves the 2027 table), the International Study Grant page (grants only, no fees), studywithnewzealand.govt.nz and a guessed international-fees-2026 URL (404): no 2024-2026 international fee is published or reachable, so no history rows. No year-labelled 2024-2026 agent fee list was found either (2026-10-13: studywithnewzealand course pages carry no fees; Mastersportal, Uni Enrol and similar give undated figures). Round 3 (2026-10-13): Unitec's 'International Prospectus 2026' (issuu.com/unitecnz/docs/unitec_international_prospectus_2026) exists but its pages could not be read as text, and no 2024/2025 international prospectus or fee PDF was found. Round 5 (2026-10-13): 2024-2026 rows added (official) from Unitec's international prospectuses. 2024: Levels 8-9 postgraduate and masters standard fee $32,500 per 120 credits (180 credits $48,750 = $32,500 a year; Auckland study grant not deducted). 2025: Master of Creative Practice $46,337 programme fee for the 18-month (180-credit) programme, divided by 1.5 years = $30,891.33 a year (matches the 1-year Postgraduate Diploma fee $30,891). 2026: Master of Creative Practice $30,415 ('Annual Fee', per 120 credits). Source: Unitec's International Prospectus 2024, 2025 and 2026 on Unitec's own issuu account (issuu.com/unitecnz), read as page images (the text layer is not available): 2024 p.76 'International Fees and Study Grants' (standard international tuition fee per 120 credits; 'International tuition fees include GST excludes insurance and levies'); 2025 pp.80-81 'International Fees' ('Programme Fees in NZD$'; 'include GST, excluding insurance and all levies'); 2026 pp.80-81 'International Fees' ('Annual Fee in NZD$', 'Advertised fee are for 120 Credits', same GST/levies note). Basis caveat: the 2027 web page says its fees include the Student Services Fee, while the prospectus tables say they exclude 'levies'; no separate SSF amount is given, so compulsory fees are left at the current 0.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 30415,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30891.33,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32500,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

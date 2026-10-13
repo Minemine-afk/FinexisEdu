@@ -269,8 +269,21 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "BU charges engineering master's per credit: shown for the 32-credit MS taken over two full-time semesters, plus mandatory fees. Health insurance not included.",
-      "notes": "BU Financial Assistance 'Cost of Attendance for Graduate/Professional Schools' 2026/2027, College of Engineering (graduate): Tuition US$2,282/credit; Fees US$1,148. The Student Financials page confirms ENG on-campus master's students are billed per credit regardless of enrolment status. Annual figure = 16 credits per semester (four 4-credit courses) x 2 semesters = 32 credits x US$2,282 = US$73,024, i.e. the whole 32-credit MS in one academic year; students taking 12 credits a term pay less per year but study longer. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year figure read, so no feeHistory.",
-      "feeHistory": []
+      "notes": "BU Financial Assistance 'Cost of Attendance for Graduate/Professional Schools' 2026/2027, College of Engineering (graduate): Tuition US$2,282/credit; Fees US$1,148. The Student Financials page confirms ENG on-campus master's students are billed per credit regardless of enrolment status. Annual figure = 16 credits per semester (four 4-credit courses) x 2 semesters = 32 credits x US$2,282 = US$73,024, i.e. the whole 32-credit MS in one academic year; students taking 12 credits a term pay less per year but study longer. BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. History (read 2026-10-13) from BU Student Financials 'Tuition & Fees' earlier-year tables: the 2024-2025 and 2025-2026 tables do not have the 2026-27 note that ENG on-campus master's students are billed per credit, so they paid the full-time flat tuition (12-18 credits): US$69,870 (2025-26), US$66,670 (2024-25). The ENG graduate fee total for those years was not found (the tables give only the graduate Student Services Fee US$219/US$209 and Health & Wellness Fee US$282/US$269 per semester), so the rows carry tuition only and the current fees apply.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
     },
     {
       "level": "master",
@@ -290,8 +303,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for BU Arts & Sciences master's students plus student services and health and wellness fees. Health insurance not included; fees rise each year.",
-      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year master's rate was read, so no feeHistory. The MS is 32 credits, which fits two full-time semesters at the flat rate; some students take three.",
-      "feeHistory": []
+      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. The MS is 32 credits, which fits two full-time semesters at the flat rate; some students take three. History (read 2026-10-13) from BU Student Financials 'Tuition & Fees' earlier-year tables: full-time tuition (all schools, 12-18 credits) 2025-2026 US$69,870, 2024-2025 US$66,670; full-time graduate Student Services Fee US$219/US$209 per semester + Health & Wellness Fee US$282/US$269 per semester, x 2 = US$1,002 (2025-26) and US$956 (2024-25).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 956,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1002,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
     },
     {
       "level": "master",
@@ -311,8 +341,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for BU Arts & Sciences master's students plus student services and health and wellness fees. Health insurance not included; fees rise each year.",
-      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year master's rate was read, so no feeHistory. Duration typical.",
-      "feeHistory": []
+      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. Duration typical. History (read 2026-10-13) from BU Student Financials 'Tuition & Fees' earlier-year tables: full-time tuition (all schools, 12-18 credits) 2025-2026 US$69,870, 2024-2025 US$66,670; full-time graduate Student Services Fee US$219/US$209 per semester + Health & Wellness Fee US$282/US$269 per semester, x 2 = US$1,002 (2025-26) and US$956 (2024-25).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 956,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1002,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
     },
     {
       "level": "master",
@@ -332,8 +379,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for BU Arts & Sciences master's students plus student services and health and wellness fees. Health insurance not included; fees rise each year.",
-      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year master's rate was read, so no feeHistory. Duration typical (32 credits).",
-      "feeHistory": []
+      "notes": "BU Arts & Sciences 'Master's Tuition and Fees' 2026-2027: full-time (12-18 credits per semester) tuition US$36,512 per semester x 2 = US$73,024; Student Services Fee US$229 + Health & Wellness Fee US$295 per semester x 2 = US$1,048 (matches the Financial Assistance graduate cost of attendance). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. Duration typical (32 credits). History (read 2026-10-13) from BU Student Financials 'Tuition & Fees' earlier-year tables: full-time tuition (all schools, 12-18 credits) 2025-2026 US$69,870, 2024-2025 US$66,670; full-time graduate Student Services Fee US$219/US$209 per semester + Health & Wellness Fee US$282/US$269 per semester, x 2 = US$1,002 (2025-26) and US$956 (2024-25).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "annualCompulsoryFees": 956,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "annualCompulsoryFees": 1002,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
     },
     {
       "level": "master",
@@ -353,8 +417,21 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for Questrom's full-time MBA plus mandatory fees. Health insurance not included; fees rise each year.",
-      "notes": "BU Financial Assistance graduate cost of attendance 2026/2027, Questrom School of Business: Tuition US$73,024; Fees US$1,448 (the page does not name the programme, but the full-time MBA pays the standard BU graduate full-time rate). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. No earlier-year figure read, so no feeHistory.",
-      "feeHistory": []
+      "notes": "BU Financial Assistance graduate cost of attendance 2026/2027, Questrom School of Business: Tuition US$73,024; Fees US$1,448 (the page does not name the programme, but the full-time MBA pays the standard BU graduate full-time rate). BU Student Health Insurance Plan (US$4,054 a year in 2026-27) excluded as it can be waived with comparable coverage. History (read 2026-10-13) from BU Student Financials 'Tuition & Fees' earlier-year tables: full-time tuition (all schools, Questrom not listed as an exception) US$69,870 (2025-26) and US$66,670 (2024-25). Questrom's graduate fee total for those years was not found, so the rows carry tuition only and the current fees apply.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 66670,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 69870,
+          "sourceUrl": "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
+        }
+      ]
     },
     {
       "level": "master",

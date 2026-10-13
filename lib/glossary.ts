@@ -42,6 +42,8 @@ export const GLOSSARY = {
     "The published fee table for the earlier year listed tuition only, so this year's compulsory and one-off fees are taken from the current rates.",
   unofficialSource:
     "The university's own page blocks automated reading, so this figure was read through a third-party rendering or a credible secondary source and may lag the official page. The source link shows where it came from.",
+  unofficialHistory:
+    "The university no longer publishes this earlier year's fee, so it was read from a third-party page (a course listing, agent or news site) that quoted it for that year. Treat it as a close estimate; the source link shows where it came from.",
   outdated:
     "This figure was last verified against its source more than a year ago, so the university may have changed it since. Check the source link before relying on it.",
   livingCosts:

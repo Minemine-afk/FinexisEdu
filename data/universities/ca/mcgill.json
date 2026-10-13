@@ -11,16 +11,16 @@
     "year": 2026,
     "months": 12,
     "monthly": {
-      "housing": 1148.79,
-      "food": 533.37,
-      "transport": 20.51,
-      "personal": 328.23
+      "housing": 1541.67,
+      "food": 0,
+      "transport": 63.33,
+      "personal": 566.67
     },
-    "sourceUrl": "https://www.quebec.ca/en/education/study-quebec/required-conditions/costs-studies",
-    "lastVerified": "2026-10-08",
-    "sourceType": "secondary",
-    "summary": "Quebec government's required living budget for one foreign student (C$24,617 a year, 12 months, from January 2026), split into rent, food, transport and personal using typical Canadian shares. McGill publishes no itemised living-cost page.",
-    "notes": "Rung C. McGill has no itemised cost-of-living page for undergraduates: studentaid 'Calculate your costs' gives only books (~C$1,000 for the 8-month year) and a percentage 'Budget Pie' with no dollar amounts; the Financial Roadmap PDF (Oct 2025) and gradapplicants cost page give no figures; the undergraduate-admissions finance pages give none; the 2026 residence comparison chart gives only all-in residence totals (meal plan C$6,150, 8.45-month lease). Montreal is in Quebec, so IRCC's C$23,448 outside-Quebec figure does not apply; IRCC's financial-support page defers to the Ministere de l'Immigration, de la Francisation et de l'Integration (MIFI). MIFI 'costs of studies' page (read 2026-10-08): living expenses for one person, applications from 1 January 2026, C$24,617 'for one year' covering groceries, housing incl. move-in, clothing, local transport, health insurance and other essentials. Monthly = 24,617 / 12 = 2,051.42, split with the Canadian average shares .56/.26/.01/.16 (shares sum to .99 so the four lines total 2,030.90). Tuition and travel excluded."
+    "sourceUrl": "https://www.mcgill.ca/ece/graduate/fees",
+    "lastVerified": "2026-10-13",
+    "sourceType": "official",
+    "summary": "McGill's own estimate of yearly expenses for a single student in Montreal (C$26,060), from its Electrical and Computer Engineering department. Rent and meals are one figure, so food sits inside housing.",
+    "notes": "Rung A (department page). McGill Department of Electrical and Computer Engineering 'Fees and expenses' page (graduate; last updated 14 April 2026; read 2026-10-13), section 'Expenses': 'Some of the estimated expenses per year for a single student are:' rent and meals C$18,500; course materials C$2,000; transit (student fare) C$760; winter gear C$800; personal spending C$4,000; total C$26,060. Per year, so divided by 12. Housing = rent and meals combined (the page does not split them), food 0; transport = 760; personal = course materials 2,000 + winter gear 800 + personal spending 4,000 = 6,800. No university-wide McGill living-cost page with figures exists (studentaid 'Build your budget(s)', accepted 'Plan your finances', gradapplicants 'Cost of Living' and 'Cost of attendance', international FAQs and the 2026-27 international fee PDF give no amounts). Cross-check: Quebec MIFI living-cost requirement C$24,617 a year (2026). Tuition and health insurance excluded."
   },
   "programmes": [
     {

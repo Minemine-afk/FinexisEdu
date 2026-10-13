@@ -117,6 +117,29 @@ describe("later years of study with their own fee", () => {
     expect(r.laterYearsEstimated).toBe(false);
   });
 
+  it("uses an earlier intake's own later-year fees when its history entry has them", () => {
+    const p = Programme.parse({
+      ...mbchb,
+      durationYears: 4,
+      feeYear: 2027,
+      cohortLocked: true,
+      fees: { international: { annualTuition: 1455000 } },
+      laterYears: [{ fromYear: 2, annualTuition: 1655000 }],
+      feeHistory: [
+        {
+          feeYear: 2025,
+          tier: "international",
+          annualTuition: 1300000,
+          laterYears: [{ fromYear: 2, annualTuition: 1500000 }],
+        },
+      ],
+    });
+    const r = calculate({ programme: p, currency: "JPY", residency: "international", startYear: 2025, feeIncrease: 0 });
+    expect(r.years.map((y) => y.tuition)).toEqual([1300000, 1500000, 1500000, 1500000]);
+    const now = calculate({ programme: p, currency: "JPY", residency: "international", startYear: 2027, feeIncrease: 0 });
+    expect(now.years.map((y) => y.tuition)).toEqual([1455000, 1655000, 1655000, 1655000]);
+  });
+
   it("projects later-year fees from the same fee year as the first year", () => {
     const r = calculate({ programme: mbchb, currency: "NZD", residency: "international", startYear: 2027, feeIncrease: 0.1 });
     expect(r.years[0].tuition).toBeCloseTo(32100 * 1.1);

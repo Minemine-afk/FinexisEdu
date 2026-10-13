@@ -11,16 +11,16 @@
     "year": 2026,
     "months": 12,
     "monthly": {
-      "housing": 2475.83,
-      "food": 0,
-      "transport": 0,
-      "personal": 0
+      "housing": 1083.33,
+      "food": 951.78,
+      "transport": 93.17,
+      "personal": 475.89
     },
-    "sourceUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-    "lastVerified": "2026-09-23",
+    "sourceUrl": "https://study.unimelb.edu.au/your-experience/accommodation/your-living-costs",
+    "lastVerified": "2026-10-13",
     "sourceType": "official",
-    "summary": "Not a University of Melbourne estimate: the Australian government's minimum living cost for student visas, one combined figure for 12 months, used because no university breakdown could be verified.",
-    "notes": "FALLBACK - visa minimum, not a University of Melbourne estimate: the Department of Home Affairs student visa living-cost requirement for a single student, AU$29,710 per year (from 10 May 2024) / 12. It is one combined figure for accommodation, food, transport and personal costs, so it is all in housing and the other categories are 0. Melbourne's own cost-of-living pages (study.unimelb.edu.au) block automated access and no breakdown could be verified; the amount was read from UNSW's page citing Home Affairs because the Home Affairs page also blocks scripts."
+    "summary": "The University of Melbourne's own estimate for a student sharing a rented home near the Parkville campus: A$26,000-36,500 a year including rent. Melbourne gives only the rent separately, so food and personal costs are an estimated split.",
+    "notes": "Rung B. University of Melbourne 'Your living costs' page (study.unimelb.edu.au, read 2026-10-13; no year stated, 2026 = year read), weekly cost-of-living table, row 'Sharing rented premises (with 2 others), close to Parkville', 52 weeks: weekly rent/board A$225-275, 'Estimated annual living costs (including rent/board and other expenses)' A$26,000-36,500; 'Tuition fees are not included in estimates.' Same page 'expenses at a glance': MYKI travel pass A$21.50/week. Midpoints: total 31,250 / 12 = 2,604.17 a month; housing = rent 250 x 52/12 = 1,083.33; transport = 21.50 x 52/12 = 93.17; the remaining 1,427.67 (food, utilities, phone and personal, not itemised by the university) is split food:personal 2:1 using the Australian average shares (food .22, personal .11). Other rows: single student apartment A$355-435/week (A$33,500-46,000 a year); undergraduate residential college A$24,500-37,500 a year. Replaces the earlier fallback (Home Affairs visa minimum A$29,710 a year)."
   },
   "programmes": [
     {
