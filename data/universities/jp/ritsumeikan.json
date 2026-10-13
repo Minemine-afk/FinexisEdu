@@ -411,8 +411,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
-      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026.",
-      "feeHistory": []
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026. 2025 row (2026-10-13, rung 1): Ritsumeikan '学費およびその他納付金について' for 2025 entrants ('2025年度入学者に適用する授業料は、修了するまで以下の表のとおり') gives the row '国際関係研究科（GIRPを除く）' 授業料 405,800 per semester, 年次計 811,600 (1st and 2nd year alike), and 入学金 200,000. (GIRP, the English-taught programme, is a separate row at 974,000.) 2026 row (2026-10-13, rung 2): the 2026 entrants' graduate fee document ('2026年度大学院入学者学費', https://www.ritsumei.ac.jp/file.jsp?id=505239, same table as ritsumeikan-trust.jp file.jsp?id=661898) gives 418,000 per semester / 836,000 a year and 入学金 200,000 for the standard humanities and social-science master's rows. The extracted text separates labels from amounts, so the pairing was checked: every row that was 811,600 in the 2025 entrants' table (which pairs this school with 811,600 explicitly) is 836,000 in 2026 and no other nearby amount appears; Business Administration, which shares this rate, is listed by JPSS at ¥836,000 explicitly for 'April 2026 entrants' (https://www.jpss.jp/ja/grad/362/994/); and the council document's 2027 rule (2026 entrants' tuition + ¥40,000, then a price-index rise capped at ¥30,000) gives (836,000 + 40,000) x ~1.026 = 898,800, the published 2027 figure. 2024 still unfilled (2026-10-13): JPSS's IR page (updated 20 Aug 2024) gives ¥788,000 for programmes other than GIRP but states no fee year, and no second independent source was found.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 811600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=626207"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 836000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=505239"
+        }
+      ]
     },
     {
       "level": "master",
@@ -432,8 +449,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
-      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥668,800 + fall ¥668,800 = ¥1,337,600 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026.",
-      "feeHistory": []
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥668,800 + fall ¥668,800 = ¥1,337,600 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026. 2025 row (2026-10-13, rung 1): Ritsumeikan '学費およびその他納付金について' for 2025 entrants ('2025年度入学者に適用する授業料は、修了するまで以下の表のとおり') gives the row '情報理工学研究科、生命科学研究科' 授業料 615,300 per semester, 年次計 1,230,600 (1st and 2nd year alike), and 入学金 200,000. The English 'Tuition and Fees' page for Academic Year 2025 entry (https://www.ritsumei.ac.jp/file.jsp?id=626208) gives the same 615,300 per semester / 1,230,600 annual sum for 'Information Science and Engineering / Life Sciences'. 2024 still unfilled (2026-10-13): no explicit 2024-entrant figure found (the 2024 trust PDF's text is scrambled; JPSS pages for this school carry no year statement). 2026 still unfilled (2026-10-13): the 2026 entrants' fee document (https://www.ritsumei.ac.jp/file.jsp?id=505239) only yields this school's amount by row position, not an explicit label/amount pairing; the row matching this school's 2025 position reads 1,267,600 a year, which also fits the council document's 2027 rule (2026 + ¥40,000, then a price-index rise capped at ¥30,000) exactly, but it was left out because the pairing is not explicit.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1230600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=626207"
+        }
+      ]
     },
     {
       "level": "master",
@@ -453,8 +479,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
-      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥675,900 + fall ¥675,900 = ¥1,351,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Standard science and engineering rate. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026.",
-      "feeHistory": []
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥675,900 + fall ¥675,900 = ¥1,351,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Standard science and engineering rate. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026. 2024 row (2026-10-13, rung 1): the Graduate School of Science and Engineering brochure's table '学費［初年度納付金／2024年度］' gives 博士課程前期課程（数理科学コース除く） 入学金 200,000, 春学期 604,100, 秋学期 604,100, total 1,408,200 for other-university graduates (1,208,200 tuition). 2025 row (2026-10-13, rung 1): Ritsumeikan '学費およびその他納付金について' for 2025 entrants ('2025年度入学者に適用する授業料は、修了するまで以下の表のとおり') gives the row '理工学研究科（数理科学コースを除く）' 授業料 622,200 per semester, 年次計 1,244,400 (1st and 2nd year alike), and 入学金 200,000. The English 'Tuition and Fees' page for Academic Year 2025 entry (https://www.ritsumei.ac.jp/file.jsp?id=626208) gives the same 622,200 per semester / 1,244,400 for 'Science and Engineering (except Mathematics Course)'. 2026 still unfilled (2026-10-13): the 2026 entrants' fee document (https://www.ritsumei.ac.jp/file.jsp?id=505239) only yields this school's amount by row position, not an explicit label/amount pairing; the row matching this school's 2025 position reads 1,281,800 a year, which also fits the council document's 2027 rule (2026 + ¥40,000, then a price-index rise capped at ¥30,000) exactly, but it was left out because the pairing is not explicit.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1208200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=612647"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1244400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=626207"
+        }
+      ]
     },
     {
       "level": "master",
@@ -474,8 +517,34 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
-      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Mainly Japanese-taught. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026.",
-      "feeHistory": []
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Mainly Japanese-taught. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026. 2024 row (2026-10-13, rung 3): JPSS's Business Administration page (last updated 29 May 2024) gives master's tuition ¥788,000 a year and admission fee ¥200,000, stating that 2025 fees were not yet finalised and the figures are for 'students entering in April 2024'; ¥788,000 lies between the official 2023 (¥762,800, file.jsp?id=581510) and 2025 (¥811,600) rates. 2025 row (2026-10-13, rung 1): Ritsumeikan '学費およびその他納付金について' for 2025 entrants ('2025年度入学者に適用する授業料は、修了するまで以下の表のとおり') gives the row '法学研究科、経営学研究科、社会学研究科、政策科学研究科' 授業料 405,800 per semester, 年次計 811,600 (1st and 2nd year alike), and 入学金 200,000. 2026 row (2026-10-13, rung 2): the 2026 entrants' graduate fee document ('2026年度大学院入学者学費', https://www.ritsumei.ac.jp/file.jsp?id=505239, same table as ritsumeikan-trust.jp file.jsp?id=661898) gives 418,000 per semester / 836,000 a year and 入学金 200,000 for the standard humanities and social-science master's rows. The extracted text separates labels from amounts, so the pairing was checked: every row that was 811,600 in the 2025 entrants' table (which pairs this school with 811,600 explicitly) is 836,000 in 2026 and no other nearby amount appears; this school is listed by JPSS at ¥836,000 explicitly for 'April 2026 entrants' (https://www.jpss.jp/ja/grad/362/994/); and the council document's 2027 rule (2026 entrants' tuition + ¥40,000, then a price-index rise capped at ¥30,000) gives (836,000 + 40,000) x ~1.026 = 898,800, the published 2027 figure. JPSS (https://www.jpss.jp/ja/grad/362/994/, updated 10 Jun 2026): '2027年度の学費および諸会費はまだ決定しておりませんので、参考として2026年4月入学者の学費を掲載しています' with 授業料 ¥836,000 and 入学金 ¥200,000.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 788000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.jpss.jp/en/grad/362/994/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 811600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=626207"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 836000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=505239"
+        }
+      ]
     },
     {
       "level": "master",
@@ -495,8 +564,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
-      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Mainly Japanese-taught research master's (not the professional law school). No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026.",
-      "feeHistory": [],
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥449,400 + fall ¥449,400 = ¥898,800 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Mainly Japanese-taught research master's (not the professional law school). No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026. 2025 row (2026-10-13, rung 1): Ritsumeikan '学費およびその他納付金について' for 2025 entrants ('2025年度入学者に適用する授業料は、修了するまで以下の表のとおり') gives the row '法学研究科、経営学研究科、社会学研究科、政策科学研究科' 授業料 405,800 per semester, 年次計 811,600 (1st and 2nd year alike), and 入学金 200,000. JPSS's Law page (updated 3 Jun 2025) gives the same ¥811,600 'for a student in the first year to have enrolled in 2025'. 2026 row (2026-10-13, rung 2): the 2026 entrants' graduate fee document ('2026年度大学院入学者学費', https://www.ritsumei.ac.jp/file.jsp?id=505239, same table as ritsumeikan-trust.jp file.jsp?id=661898) gives 418,000 per semester / 836,000 a year and 入学金 200,000 for the standard humanities and social-science master's rows. The extracted text separates labels from amounts, so the pairing was checked: every row that was 811,600 in the 2025 entrants' table (which pairs this school with 811,600 explicitly) is 836,000 in 2026 and no other nearby amount appears; Business Administration, which shares this rate, is listed by JPSS at ¥836,000 explicitly for 'April 2026 entrants' (https://www.jpss.jp/ja/grad/362/994/); and the council document's 2027 rule (2026 entrants' tuition + ¥40,000, then a price-index rise capped at ¥30,000) gives (836,000 + 40,000) x ~1.026 = 898,800, the published 2027 figure. 2024 still unfilled (2026-10-13): no explicit 2024-entrant figure found (the 2024 trust PDF's text is scrambled; JPSS pages for this school carry no year statement).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 811600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=626207"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 836000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=505239"
+        }
+      ],
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -523,8 +609,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for 2027 entrants to the 2-year master's, the same for international students. The one-off ¥200,000 is the admission fee, paid in year 1. Fees may rise with prices.",
-      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥506,500 + fall ¥506,500 = ¥1,013,000 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Psychology graduate school; mainly Japanese-taught. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026.",
-      "feeHistory": []
+      "notes": "Ritsumeikan 'Student-Fee Policy for AY 2027 and Beyond and AY 2027 Tuition and Other Fees' (council document): graduate master's AY 2027 tuition spring ¥506,500 + fall ¥506,500 = ¥1,013,000 (years 1-2). Entrance fee ¥200,000 standard (waived for some internal or joint-degree routes). The document says master's tuition rises ¥40,000 from AY 2026, then follows a price index (capped at ¥30,000 a year), so not cohort-locked. Psychology graduate school; mainly Japanese-taught. No earlier-year table found. Tried 2026-10-13: no master's fee table for 2024-2026 entrants found (the graduate school's eng202X_gakuhi.pdf fee sheets were not reachable; the AY 2026 readmission guidelines give readmission rates only), so no history. Tried 2026-10-13: Ritsumeikan graduate school guides 2025-2027 (大学院案内) as text omit the 学費 table; still no 2024-2026 master's figure. Round 3 (2026-10-13): the Ritsumeikan Trust disclosure page (ritsumeikan-trust.jp/publicinfo/disclosure/data/, section 8-1) links per-cohort graduate fee PDFs '学費【立命館大学＿大学院＿2024年度入学者】' (file.jsp?id=578988), 2025 (id=627471) and 2026 (id=661898); they hold the needed figures (some schools have separate 1回生/2回生 rates), but the text extracted by the fetch tool loses the table layout so amounts cannot be matched to graduate schools reliably; no rows added, and a person reading the PDFs could fill 2024-2026. 2025 row (2026-10-13, rung 1): Ritsumeikan '学費およびその他納付金について' for 2025 entrants ('2025年度入学者に適用する授業料は、修了するまで以下の表のとおり') gives the row '人間科学研究科' 授業料 459,900 per semester, 年次計 919,800 (1st and 2nd year alike), and 入学金 200,000. 2024 still unfilled (2026-10-13): no explicit 2024-entrant figure found (the 2024 trust PDF's text is scrambled; JPSS pages for this school carry no year statement). 2026 still unfilled (2026-10-13): the 2026 entrants' fee document (https://www.ritsumei.ac.jp/file.jsp?id=505239) only yields this school's amount by row position, not an explicit label/amount pairing; the row matching this school's 2025 position reads 947,400 a year, which also fits the council document's 2027 rule (2026 + ¥40,000, then a price-index rise capped at ¥30,000) exactly, but it was left out because the pairing is not explicit.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 919800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://www.ritsumei.ac.jp/file.jsp?id=626207"
+        }
+      ]
     }
   ]
 }

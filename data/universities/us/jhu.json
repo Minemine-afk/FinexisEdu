@@ -221,8 +221,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for Whiting School of Engineering master's students plus a one-off matriculation fee. Health insurance not included; fees rise each year.",
-      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical (full-time, up to two years). Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled.",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical (full-time, up to two years). Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. 2025 row (2026-10-13, rung 2): JHU Applied Mathematics and Statistics' own MSE page (not yet updated) states 'Tuition $66,670 annually / $33,335 per semester' beside application deadlines of 15 Sept 2025 for spring 2026 and 15 Jan 2026 for fall 2026, so it is the 2025-26 Whiting full-time graduate rate (the Civil and Systems Engineering MSE page shows the same figure; the ME department page gives '2026-2027 Tuition is $68,670'). AdmissionSight (18 May 2025) and Orbit (citing JHU's Common Data Set) state US$66,670 as JHU's 2025-26 full-time tuition. Tuition only; the matriculation fee was not stated for that year.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "sourceUrl": "https://engineering.jhu.edu/ams/data-science-masters-program/"
+        }
+      ]
     },
     {
       "level": "master",
@@ -242,8 +249,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for Whiting School of Engineering master's students plus a one-off matriculation fee. Health insurance not included; fees rise each year.",
-      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical (three to four semesters). Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled.",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical (three to four semesters). Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. 2025 row (2026-10-13, rung 2): JHU Applied Mathematics and Statistics' own MSE page (not yet updated) states 'Tuition $66,670 annually / $33,335 per semester' beside application deadlines of 15 Sept 2025 for spring 2026 and 15 Jan 2026 for fall 2026, so it is the 2025-26 Whiting full-time graduate rate (the Civil and Systems Engineering MSE page shows the same figure; the ME department page gives '2026-2027 Tuition is $68,670'). AdmissionSight (18 May 2025) and Orbit (citing JHU's Common Data Set) state US$66,670 as JHU's 2025-26 full-time tuition. Tuition only; the matriculation fee was not stated for that year.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "sourceUrl": "https://engineering.jhu.edu/ams/data-science-masters-program/"
+        }
+      ]
     },
     {
       "level": "master",
@@ -263,8 +277,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly full-time tuition for Whiting School of Engineering master's students plus a one-off matriculation fee. Health insurance not included; fees rise each year.",
-      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled.",
-      "feeHistory": []
+      "notes": "JHU Academic Catalogue 'Tuition, Fees, and Cost of Attendance' 2026-27 (also as tuition-fees.pdf): Whiting School of Engineering 'Full-Time Graduate/PhD US$68,670' a year; Matriculation Fee US$500 one-off. No other mandatory fee is itemised. Health insurance excluded: JHU states that F-1/J-1 undergraduates cannot waive the university plan, but no equivalent statement was found for graduate students, and the graduate premium differs between JHU pages (US$3,624 in the catalogue, US$3,936 on the Krieger graduate cost page). JHU's archived catalogues are blocked to automated reading. Duration typical. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. 2025 row (2026-10-13, rung 2): JHU Applied Mathematics and Statistics' own MSE page (not yet updated) states 'Tuition $66,670 annually / $33,335 per semester' beside application deadlines of 15 Sept 2025 for spring 2026 and 15 Jan 2026 for fall 2026, so it is the 2025-26 Whiting full-time graduate rate (the Civil and Systems Engineering MSE page shows the same figure; the ME department page gives '2026-2027 Tuition is $68,670'). AdmissionSight (18 May 2025) and Orbit (citing JHU's Common Data Set) state US$66,670 as JHU's 2025-26 full-time tuition. Tuition only; the matriculation fee was not stated for that year.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66670,
+          "sourceUrl": "https://engineering.jhu.edu/ams/data-science-masters-program/"
+        }
+      ]
     },
     {
       "level": "master",
@@ -386,8 +407,18 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "First-year MD tuition plus the health service, imaging and activity fees. Health and dental insurance not included. Fees rise each year.",
-      "notes": "Johns Hopkins School of Medicine Financial Aid 'Cost of Attendance' 2026-2027, M1: Tuition US$69,100; University Health Service Fee US$950 + Imaging Fee US$200 + Student Activity Fee US$250 = US$1,400 compulsory; Matriculation Fee US$740 one-off. Health Insurance Premium US$3,775 and Dental Insurance US$268 excluded (insurance). Tuition is US$69,100 in all four years; the imaging fee is charged in M1-M2 only. JHU's need-based free-tuition support for MD students from families earning under US$300,000 is not reflected here; international eligibility not confirmed. JHU's MD is on the Second Schedule of Singapore's Medical Registration Act. JHU's archived catalogues are blocked to automated reading. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): MedCMP and CollegeEvaluator give only a 2027 figure (US$71,508), so 2024 and 2025 remain unfilled.",
-      "feeHistory": [],
+      "notes": "Johns Hopkins School of Medicine Financial Aid 'Cost of Attendance' 2026-2027, M1: Tuition US$69,100; University Health Service Fee US$950 + Imaging Fee US$200 + Student Activity Fee US$250 = US$1,400 compulsory; Matriculation Fee US$740 one-off. Health Insurance Premium US$3,775 and Dental Insurance US$268 excluded (insurance). Tuition is US$69,100 in all four years; the imaging fee is charged in M1-M2 only. JHU's need-based free-tuition support for MD students from families earning under US$300,000 is not reflected here; international eligibility not confirmed. JHU's MD is on the Second Schedule of Singapore's Medical Registration Act. JHU's archived catalogues are blocked to automated reading. Retried 2026-10-13: the school's own cost page shows 2026-27 only, JHU catalogue archives (e-catalogue.jhu.edu/archive/...) are blocked to automated reading, and the JHU Common Data Set covers undergraduates only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): MedCMP and CollegeEvaluator give only a 2027 figure (US$71,508), so 2024 and 2025 remain unfilled. 2025 row (2026-10-13, rung 3): AcceptedTogether's JHU School of Medicine guide (published 9 Oct 2025, updated 9 Jan 2026) lists 2025-2026 tuition US$66,580, University Health Service Fee US$900, Student Activity Fee US$250, Imaging Fee US$200 (first two years) and Matriculation Fee US$740 (first year), the same components as the current figure, so compulsory = US$1,350; insurance excluded. 2024 still unfilled.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66580,
+          "annualCompulsoryFees": 1350,
+          "oneOffFees": 740,
+          "sourceUrl": "https://blog.acceptedtogether.com/johns-hopkins-university-school-of-medicine-complete-guide-to-admission-requirements-and-md-program/",
+          "sourceType": "secondary"
+        }
+      ],
       "sgRecognition": {
         "body": "SMC",
         "listed": true,
