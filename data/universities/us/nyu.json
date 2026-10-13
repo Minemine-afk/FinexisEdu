@@ -44,19 +44,19 @@
       "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. 2024 row (2026-10-13, unofficial): SoFi's NYU tuition page (updated 08/2025, IPEDS-based) states 'NYU tuition and fees is $62,796 for the 2024-25 school year' (CollegeTuitionCompare and Univstats give the same 2024-2025 figure); this is NYU's standard undergraduate rate, recorded as combined tuition and fees like the current figure. 2025 not filled: Washington Square News (25 Jun 2025) says tuition is 'now around $68,575' after a 4.25% rise 'next year', which equals the 2026-27 bulletin figure recorded here rather than a distinct 2025-26 rate, so the year is ambiguous and it was not used; aggregators give only an estimate for 2025-26. 2025 row (2026-10-13, rung 4): Niche's NYU cost page (IPEDS-based) and Orbit's NYU tuition page ('$65,622 tuition in the 2026 public cost data', https://www.findmyorbit.com/tuition-fees/new-york-university) both give NYU undergraduate tuition and fees of US$65,622; NYU's own NYU Shanghai cost-of-attendance page (cdn.shanghai.nyu.edu/page/cost-attendance), headed 2025-2026, states 'Tuition $65,622', and the NYU Shanghai bulletin's 2026-27 tuition (US$68,576) equals the New York standard rate recorded here, so the figure is NYU's 2025-26 standard undergraduate rate; it differs from the 2024-25 (US$62,796) and 2026-27 (US$68,576) figures. Recorded as combined tuition and fees like the current figure.",
       "feeHistory": [
         {
-          "feeYear": 2024,
-          "tier": "international",
-          "annualTuition": 62796,
-          "annualCompulsoryFees": 0,
-          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
-          "sourceType": "secondary"
-        },
-        {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 65622,
           "annualCompulsoryFees": 0,
           "sourceUrl": "https://www.niche.com/colleges/new-york-university/cost/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62796,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
           "sourceType": "secondary"
         }
       ]
@@ -82,19 +82,19 @@
       "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. 2024 row (2026-10-13, unofficial): SoFi's NYU tuition page (updated 08/2025, IPEDS-based) states 'NYU tuition and fees is $62,796 for the 2024-25 school year' (CollegeTuitionCompare and Univstats give the same 2024-2025 figure); this is NYU's standard undergraduate rate, recorded as combined tuition and fees like the current figure. 2025 not filled: Washington Square News (25 Jun 2025) says tuition is 'now around $68,575' after a 4.25% rise 'next year', which equals the 2026-27 bulletin figure recorded here rather than a distinct 2025-26 rate, so the year is ambiguous and it was not used; aggregators give only an estimate for 2025-26. 2025 row (2026-10-13, rung 4): Niche's NYU cost page (IPEDS-based) and Orbit's NYU tuition page ('$65,622 tuition in the 2026 public cost data', https://www.findmyorbit.com/tuition-fees/new-york-university) both give NYU undergraduate tuition and fees of US$65,622; NYU's own NYU Shanghai cost-of-attendance page (cdn.shanghai.nyu.edu/page/cost-attendance), headed 2025-2026, states 'Tuition $65,622', and the NYU Shanghai bulletin's 2026-27 tuition (US$68,576) equals the New York standard rate recorded here, so the figure is NYU's 2025-26 standard undergraduate rate; it differs from the 2024-25 (US$62,796) and 2026-27 (US$68,576) figures. Recorded as combined tuition and fees like the current figure.",
       "feeHistory": [
         {
-          "feeYear": 2024,
-          "tier": "international",
-          "annualTuition": 62796,
-          "annualCompulsoryFees": 0,
-          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
-          "sourceType": "secondary"
-        },
-        {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 65622,
           "annualCompulsoryFees": 0,
           "sourceUrl": "https://www.niche.com/colleges/new-york-university/cost/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62796,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
           "sourceType": "secondary"
         }
       ]
@@ -117,7 +117,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition and mandatory registration fees for NYU undergraduates in New York, quoted as one figure. Health insurance not included; fees rise each year.",
-      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$70,464 for the Leonard N. Stern School of Business (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (unofficial sources): IPEDS-based aggregators (SoFi, CollegeTuitionCompare) give only NYU's standard undergraduate rate (US$62,796 for 2024-25), not Stern's higher rate, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): a third-party copy of NYU's 2024-25 Common Data Set has blank G1 cost fields, and no Stern-specific dated undergraduate fee was found. Retried 2026-10-13 (round 4): Poets&Quants gives only a four-year cost and Hotcourses the 2026-27 rate, so 2024 and 2025 remain unfilled. Round 5 (2026-10-13): the archived 2024-2025 NYU Bulletin 'Stern School of Business Cost of Attendance 2024-2025' (undergraduate, two semesters full-time) gives 'Tuition $64,526' (NYU's general undergraduate figure on the same archived page is $62,796, NYU's combined 2024-25 tuition-and-fees rate, so this line includes registration fees, the same basis as the current figure); 2024 row added. 2025 still unfilled: NYU Bulletins has an archived 2024-2025 edition (bulletins.nyu.edu/archive/2024-2025/, readable with curl) but no 2025-2026 archive (/archive/2025-2026/ returns 404) and the live bulletin shows 2026-27. Round 6 (2026-10-13): 2025 still unfilled: the Bursar 2025-2026 Tuition and Fees PDF returns 403 to curl and a headless browser; Stern's financial-aid cost pages cover graduate programmes only; skillnation.in gives NYU's general 2025-26 undergraduate tuition ($65,622) but no Stern rate.",
+      "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$70,464 for the Leonard N. Stern School of Business (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (unofficial sources): IPEDS-based aggregators (SoFi, CollegeTuitionCompare) give only NYU's standard undergraduate rate (US$62,796 for 2024-25), not Stern's higher rate, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (round 3): a third-party copy of NYU's 2024-25 Common Data Set has blank G1 cost fields, and no Stern-specific dated undergraduate fee was found. Retried 2026-10-13 (round 4): Poets&Quants gives only a four-year cost and Hotcourses the 2026-27 rate, so 2024 and 2025 remain unfilled. Round 5 (2026-10-13): the archived 2024-2025 NYU Bulletin 'Stern School of Business Cost of Attendance 2024-2025' (undergraduate, two semesters full-time) gives 'Tuition $64,526' (NYU's general undergraduate figure on the same archived page is $62,796, NYU's combined 2024-25 tuition-and-fees rate, so this line includes registration fees, the same basis as the current figure); 2024 row added. 2025 still unfilled: NYU Bulletins has an archived 2024-2025 edition (bulletins.nyu.edu/archive/2024-2025/, readable with curl) but no 2025-2026 archive (/archive/2025-2026/ returns 404) and the live bulletin shows 2026-27. Round 6 (2026-10-13): 2025 still unfilled: the Bursar 2025-2026 Tuition and Fees PDF returns 403 to curl and a headless browser; Stern's financial-aid cost pages cover graduate programmes only; skillnation.in gives NYU's general 2025-26 undergraduate tuition ($65,622) but no Stern rate. Round 7 (2026-10-13): 2025 still blank; Common Crawl has no capture of Stern's bulletin cost page, captured 2025-26 bulletin pages give only the general undergraduate rate ($65,622).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -151,19 +151,19 @@
       "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. 2024 row (2026-10-13, unofficial): SoFi's NYU tuition page (updated 08/2025, IPEDS-based) states 'NYU tuition and fees is $62,796 for the 2024-25 school year' (CollegeTuitionCompare and Univstats give the same 2024-2025 figure); this is NYU's standard undergraduate rate, recorded as combined tuition and fees like the current figure. 2025 not filled: Washington Square News (25 Jun 2025) says tuition is 'now around $68,575' after a 4.25% rise 'next year', which equals the 2026-27 bulletin figure recorded here rather than a distinct 2025-26 rate, so the year is ambiguous and it was not used; aggregators give only an estimate for 2025-26. 2025 row (2026-10-13, rung 4): Niche's NYU cost page (IPEDS-based) and Orbit's NYU tuition page ('$65,622 tuition in the 2026 public cost data', https://www.findmyorbit.com/tuition-fees/new-york-university) both give NYU undergraduate tuition and fees of US$65,622; NYU's own NYU Shanghai cost-of-attendance page (cdn.shanghai.nyu.edu/page/cost-attendance), headed 2025-2026, states 'Tuition $65,622', and the NYU Shanghai bulletin's 2026-27 tuition (US$68,576) equals the New York standard rate recorded here, so the figure is NYU's 2025-26 standard undergraduate rate; it differs from the 2024-25 (US$62,796) and 2026-27 (US$68,576) figures. Recorded as combined tuition and fees like the current figure.",
       "feeHistory": [
         {
-          "feeYear": 2024,
-          "tier": "international",
-          "annualTuition": 62796,
-          "annualCompulsoryFees": 0,
-          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
-          "sourceType": "secondary"
-        },
-        {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 65622,
           "annualCompulsoryFees": 0,
           "sourceUrl": "https://www.niche.com/colleges/new-york-university/cost/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62796,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
           "sourceType": "secondary"
         }
       ]
@@ -189,19 +189,19 @@
       "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. 2024 row (2026-10-13, unofficial): SoFi's NYU tuition page (updated 08/2025, IPEDS-based) states 'NYU tuition and fees is $62,796 for the 2024-25 school year' (CollegeTuitionCompare and Univstats give the same 2024-2025 figure); this is NYU's standard undergraduate rate, recorded as combined tuition and fees like the current figure. 2025 not filled: Washington Square News (25 Jun 2025) says tuition is 'now around $68,575' after a 4.25% rise 'next year', which equals the 2026-27 bulletin figure recorded here rather than a distinct 2025-26 rate, so the year is ambiguous and it was not used; aggregators give only an estimate for 2025-26. 2025 row (2026-10-13, rung 4): Niche's NYU cost page (IPEDS-based) and Orbit's NYU tuition page ('$65,622 tuition in the 2026 public cost data', https://www.findmyorbit.com/tuition-fees/new-york-university) both give NYU undergraduate tuition and fees of US$65,622; NYU's own NYU Shanghai cost-of-attendance page (cdn.shanghai.nyu.edu/page/cost-attendance), headed 2025-2026, states 'Tuition $65,622', and the NYU Shanghai bulletin's 2026-27 tuition (US$68,576) equals the New York standard rate recorded here, so the figure is NYU's 2025-26 standard undergraduate rate; it differs from the 2024-25 (US$62,796) and 2026-27 (US$68,576) figures. Recorded as combined tuition and fees like the current figure.",
       "feeHistory": [
         {
-          "feeYear": 2024,
-          "tier": "international",
-          "annualTuition": 62796,
-          "annualCompulsoryFees": 0,
-          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
-          "sourceType": "secondary"
-        },
-        {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 65622,
           "annualCompulsoryFees": 0,
           "sourceUrl": "https://www.niche.com/colleges/new-york-university/cost/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62796,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
           "sourceType": "secondary"
         }
       ]
@@ -227,19 +227,19 @@
       "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. 2024 row (2026-10-13, unofficial): SoFi's NYU tuition page (updated 08/2025, IPEDS-based) states 'NYU tuition and fees is $62,796 for the 2024-25 school year' (CollegeTuitionCompare and Univstats give the same 2024-2025 figure); this is NYU's standard undergraduate rate, recorded as combined tuition and fees like the current figure. 2025 not filled: Washington Square News (25 Jun 2025) says tuition is 'now around $68,575' after a 4.25% rise 'next year', which equals the 2026-27 bulletin figure recorded here rather than a distinct 2025-26 rate, so the year is ambiguous and it was not used; aggregators give only an estimate for 2025-26. 2025 row (2026-10-13, rung 4): Niche's NYU cost page (IPEDS-based) and Orbit's NYU tuition page ('$65,622 tuition in the 2026 public cost data', https://www.findmyorbit.com/tuition-fees/new-york-university) both give NYU undergraduate tuition and fees of US$65,622; NYU's own NYU Shanghai cost-of-attendance page (cdn.shanghai.nyu.edu/page/cost-attendance), headed 2025-2026, states 'Tuition $65,622', and the NYU Shanghai bulletin's 2026-27 tuition (US$68,576) equals the New York standard rate recorded here, so the figure is NYU's 2025-26 standard undergraduate rate; it differs from the 2024-25 (US$62,796) and 2026-27 (US$68,576) figures. Recorded as combined tuition and fees like the current figure.",
       "feeHistory": [
         {
-          "feeYear": 2024,
-          "tier": "international",
-          "annualTuition": 62796,
-          "annualCompulsoryFees": 0,
-          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
-          "sourceType": "secondary"
-        },
-        {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 65622,
           "annualCompulsoryFees": 0,
           "sourceUrl": "https://www.niche.com/colleges/new-york-university/cost/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62796,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
           "sourceType": "secondary"
         }
       ]
@@ -265,19 +265,19 @@
       "notes": "NYU Bulletins 'Cost of Attendance' 2026-2027, New York campus undergraduate direct costs: 'Tuition and Fees' US$68,576 for most schools (CAS, Tandon, Steinhardt, Meyers and others) (the same table is on the admissions cost-of-attendance page and the Silver School bulletin PDF). The page gives one combined tuition-and-fees figure (registration and services fees included), so the whole amount is recorded as tuition and compulsory fees as 0. The bulletin says the amounts were not officially approved until July 2026. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Not cohort-locked. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. 2024 row (2026-10-13, unofficial): SoFi's NYU tuition page (updated 08/2025, IPEDS-based) states 'NYU tuition and fees is $62,796 for the 2024-25 school year' (CollegeTuitionCompare and Univstats give the same 2024-2025 figure); this is NYU's standard undergraduate rate, recorded as combined tuition and fees like the current figure. 2025 not filled: Washington Square News (25 Jun 2025) says tuition is 'now around $68,575' after a 4.25% rise 'next year', which equals the 2026-27 bulletin figure recorded here rather than a distinct 2025-26 rate, so the year is ambiguous and it was not used; aggregators give only an estimate for 2025-26. 2025 row (2026-10-13, rung 4): Niche's NYU cost page (IPEDS-based) and Orbit's NYU tuition page ('$65,622 tuition in the 2026 public cost data', https://www.findmyorbit.com/tuition-fees/new-york-university) both give NYU undergraduate tuition and fees of US$65,622; NYU's own NYU Shanghai cost-of-attendance page (cdn.shanghai.nyu.edu/page/cost-attendance), headed 2025-2026, states 'Tuition $65,622', and the NYU Shanghai bulletin's 2026-27 tuition (US$68,576) equals the New York standard rate recorded here, so the figure is NYU's 2025-26 standard undergraduate rate; it differs from the 2024-25 (US$62,796) and 2026-27 (US$68,576) figures. Recorded as combined tuition and fees like the current figure.",
       "feeHistory": [
         {
-          "feeYear": 2024,
-          "tier": "international",
-          "annualTuition": 62796,
-          "annualCompulsoryFees": 0,
-          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
-          "sourceType": "secondary"
-        },
-        {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 65622,
           "annualCompulsoryFees": 0,
           "sourceUrl": "https://www.niche.com/colleges/new-york-university/cost/",
+          "sourceType": "secondary"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 62796,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.sofi.com/nyu-tuition-fees/",
           "sourceType": "secondary"
         }
       ]
@@ -303,16 +303,16 @@
       "notes": "NYU Stern 'Cost of Attendance for Full-time MBA Students' MBA1 budget, 2026-2027 (fall + spring, 9 months): Tuition US$92,658; Orientation Fee (LAUNCH) US$2,040 (first year, recorded as one-off). The budget lists no separate registration fee, so compulsory fees are 0 (assumed included in the tuition line). Health insurance US$5,100 excluded. Health insurance excluded: NYU publishes an F-1/J-1 student health insurance waiver form, so it can be waived with qualifying coverage. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. 2024 and 2025 rows (2026-10-13, unofficial): Poets&Quants (27 Aug 2025, 'Highest Tuition at a U.S. B-School') states NYU Stern tuition US$89,254 for 2025 and US$84,180 for 2024 (its 2024 article explains the calendar-year labels as the academic year starting that autumn); tuition only, so the rows carry no fees.",
       "feeHistory": [
         {
-          "feeYear": 2024,
+          "feeYear": 2025,
           "tier": "international",
-          "annualTuition": 84180,
+          "annualTuition": 89254,
           "sourceUrl": "https://poetsandquants.com/2025/08/27/the-mba-price-tag-21-of-the-top-25-u-s-b-schools-now-charge-100k-a-year-or-more/",
           "sourceType": "secondary"
         },
         {
-          "feeYear": 2025,
+          "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 89254,
+          "annualTuition": 84180,
           "sourceUrl": "https://poetsandquants.com/2025/08/27/the-mba-price-tag-21-of-the-top-25-u-s-b-schools-now-charge-100k-a-year-or-more/",
           "sourceType": "secondary"
         }
@@ -339,19 +339,19 @@
       "notes": "NYU Law 'Student Expense Budget' 2026-27, JD: Tuition US$87,312; Health, Registration, Service, and Tech Fees US$3,326. Health Insurance (basic) US$4,952 excluded. NYU's JD is on the Singapore Institute of Legal Education's approved list (Fifth Schedule, Legal Profession (Qualified Persons) Rules; graduates in the top 70% of their batch). NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. 2025 row (2026-10-13): NYU Law's own 2025 ABA Standard 509 Information Report (generated 15 Dec 2025) gives 2025-2026 full-time tuition US$83,952 and fees US$3,262 (resident and nonresident alike). 2024 not filled: NYU's ABA disclosure page now links only the 2025 report and the 2024 report was not found at a guessable address; LST Reports is blocked to automated reading. Retried 2026-10-13 (round 3): a guessed 2024 report address (sites/default/files/2024-12/Std509InfoReport_2024.pdf) failed, and LSAT Lab and Odyssey Test Prep give only the 2025 and 2023-24 figures. 2024 row (2026-10-13, rung 3): the Top-Law-Schools wiki page on NYU Law (edited 26 Aug 2026) gives the 2024-25 budget as tuition US$79,954 and health, registration, service and technology fees US$3,198 (same components as the current figure); it sits below NYU Law's own 2025-26 509 figures (US$83,952 and US$3,262), so it was accepted as a dated third-party figure. No second source for this figure was found.",
       "feeHistory": [
         {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 83952,
+          "annualCompulsoryFees": 3262,
+          "sourceUrl": "https://www.law.nyu.edu/sites/default/files/2025-12/Std509InfoReport_2025%5B2%5D.pdf"
+        },
+        {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 79954,
           "annualCompulsoryFees": 3198,
           "sourceUrl": "https://www.top-law-schools.com/wiki/New_York_University_School_of_Law",
           "sourceType": "secondary"
-        },
-        {
-          "feeYear": 2025,
-          "tier": "international",
-          "annualTuition": 83952,
-          "annualCompulsoryFees": 3262,
-          "sourceUrl": "https://www.law.nyu.edu/sites/default/files/2025-12/Std509InfoReport_2025%5B2%5D.pdf"
         }
       ],
       "sgRecognition": {
@@ -380,8 +380,15 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "NYU Grossman gives every MD student a full-tuition scholarship, so only fees are charged (US$65,500 tuition is covered). Health insurance is subsidised. Living costs are extra.",
-      "notes": "NYU Grossman School of Medicine Cost of Attendance 2026-27, four-year MD: Tuition US$65,500 less Full-Tuition Scholarship US$65,500 each year; Fees US$4,550 each year; Student Health Insurance US$9,325 less Health Insurance Subsidy US$9,325. annualTuition recorded as 0 because the page applies the scholarship to all current and entering MD students; the page does not mention international students specifically, so confirm eligibility with the school. NYU Grossman's MD is on the Second Schedule of Singapore's Medical Registration Act. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (unofficial sources): AAMC tuition and fees reports are script-only, and no dated third-party figure for the 2024-25 or 2025-26 MD fees was found. Retried 2026-10-13 (round 3): the Grossman bulletin PDF and the Long Island campus page show 2026-27 only. Round 5 (2026-10-13): the archived 2024-2025 NYU Bulletin 'Four-Year MD 2024-25 Costs' gives Tuition $61,811 less Full-Tuition Scholarship $61,811 and Fees $4,150 in each of years 1-4 (health insurance $5,781 fully subsidised); 2024 row added with tuition 0, as for the current figure. 2025 still unfilled: NYU Bulletins has an archived 2024-2025 edition (bulletins.nyu.edu/archive/2024-2025/, readable with curl) but no 2025-2026 archive (/archive/2025-2026/ returns 404) and the live bulletin shows 2026-27. Round 6 (2026-10-13): 2025 still unfilled: the Bursar 2025-2026 Tuition and Fees PDF returns 403 to curl and a headless browser, and the Grossman cost page and bulletin show 2026-27 only; search-engine copies of the old bulletin quote 'Four-Year MD 2025-26' tuition $64,250 less a full scholarship and fees $4,350, but no fetchable page or second source confirms it, so no row.",
+      "notes": "NYU Grossman School of Medicine Cost of Attendance 2026-27, four-year MD: Tuition US$65,500 less Full-Tuition Scholarship US$65,500 each year; Fees US$4,550 each year; Student Health Insurance US$9,325 less Health Insurance Subsidy US$9,325. annualTuition recorded as 0 because the page applies the scholarship to all current and entering MD students; the page does not mention international students specifically, so confirm eligibility with the school. NYU Grossman's MD is on the Second Schedule of Singapore's Medical Registration Act. NYU's Bursar tuition PDFs (2024-25, 2025-26, 2026-27) refuse automated reading, so no earlier-year figures were taken and there is no feeHistory. Retried 2026-10-13: the bursar 'Tuition' page lists 2024-2025 and 2025-2026 Tuition and Fees PDFs but exposes no readable link to them, the NYU Bulletins archive (bulletins.nyu.edu/archive/...) is blocked to automated reading, and the school cost pages (Stern, Law, Grossman, Steinhardt, bulletins) show 2026-27 only, so 2024 and 2025 remain unfilled. Retried 2026-10-13 (unofficial sources): AAMC tuition and fees reports are script-only, and no dated third-party figure for the 2024-25 or 2025-26 MD fees was found. Retried 2026-10-13 (round 3): the Grossman bulletin PDF and the Long Island campus page show 2026-27 only. Round 5 (2026-10-13): the archived 2024-2025 NYU Bulletin 'Four-Year MD 2024-25 Costs' gives Tuition $61,811 less Full-Tuition Scholarship $61,811 and Fees $4,150 in each of years 1-4 (health insurance $5,781 fully subsidised); 2024 row added with tuition 0, as for the current figure. 2025 still unfilled: NYU Bulletins has an archived 2024-2025 edition (bulletins.nyu.edu/archive/2024-2025/, readable with curl) but no 2025-2026 archive (/archive/2025-2026/ returns 404) and the live bulletin shows 2026-27. Round 6 (2026-10-13): 2025 still unfilled: the Bursar 2025-2026 Tuition and Fees PDF returns 403 to curl and a headless browser, and the Grossman cost page and bulletin show 2026-27 only; search-engine copies of the old bulletin quote 'Four-Year MD 2025-26' tuition $64,250 less a full scholarship and fees $4,350, but no fetchable page or second source confirms it, so no row. Round 7 (2026-10-13, Common Crawl captures of official pages): Same basis as the 2024 row and current figure: tuition net of the universal Full-Tuition Scholarship = 0, compulsory fees $4,350; matches the search-engine quote already mentioned in the notes ($64,250 / $4,350), now confirmed from an official-page capture.",
       "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 0,
+          "annualCompulsoryFees": 4350,
+          "sourceUrl": "https://med.nyu.edu/education/md-degree/affordability-financial-aid/cost-attendance"
+        },
         {
           "feeYear": 2024,
           "tier": "international",
