@@ -39,10 +39,56 @@
       "sourceUrl": "https://admissions.apu.ac.jp/costs_scholarships/tuition_fees/?&lang=en",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
+      "cohortLocked": true,
       "summary": "Before scholarships, 2027 entrants pay ¥1,455,000 in year 1 and ¥1,655,000 a year in years 2 to 4 (¥6,420,000 over 4 years), plus a one-off ¥200,000 admission fee. Most students get a 30-100% tuition reduction. Taught in English.",
-      "notes": "Areas of study: Strategic Management and Leadership; Marketing; Accounting and Finance; Entrepreneurship and Operations Management (AACSB and AMBA accredited). 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. 2024-2026 entrants (rechecked 2026-10-13): APU's undergraduate table for students enrolled AY 2020 - AY 2026 (student-site PDF 'Students enrolled since AY 2020'; Undergraduate Application Handbook for 2026 enrollment) charges JPY 1,300,000 in year 1 and JPY 1,500,000 in years 2-4, admission fee JPY 200,000. feeHistory cannot carry its own later-year fee, so adding those rows would charge the 2027 later-year fee (JPY 1,655,000) to earlier cohorts; left unfilled until the schema supports per-cohort later years.",
-      "feeHistory": [],
+      "notes": "Areas of study: Strategic Management and Leadership; Marketing; Accounting and Finance; Entrepreneurship and Operations Management (AACSB and AMBA accredited). 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. 2024-2026 entrants (read 2026-10-13): APU's undergraduate table for students enrolled AY 2020 - AY 2026 (student-site PDF 'Students enrolled since AY 2020'; Undergraduate Application Handbook for 2026 enrollment) charges JPY 650,000 a semester in year 1 and JPY 750,000 a semester in years 2-4, admission fee JPY 200,000, so each history row carries its own laterYears (JPY 1,500,000 from year 2). APU fixes tuition by entering cohort, so cohortLocked is true.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1300000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content9/AY2021_Tuition_Fees_EnrolledSinceAY2020_E.pdf",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1300000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content9/AY2021_Tuition_Fees_EnrolledSinceAY2020_E.pdf",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 1300000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://admissions.apu.ac.jp/resource/ln/14e5384bf2991cf60640ed8496f7ffd17d6f8901/ApplicationHandbook_UG_OutsideJapan_ENG_26_2.pdf",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
+        }
+      ],
       "laterYears": [
         {
           "fromYear": 2,
@@ -66,10 +112,56 @@
       "sourceUrl": "https://admissions.apu.ac.jp/costs_scholarships/tuition_fees/?&lang=en",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
+      "cohortLocked": true,
       "summary": "Before scholarships, 2027 entrants pay ¥1,455,000 in year 1 and ¥1,655,000 a year in years 2 to 4 (¥6,420,000 over 4 years), plus a one-off ¥200,000 admission fee. Most students get a 30-100% tuition reduction. Taught in English.",
-      "notes": "Areas of study: Culture, Society and Media; Global Economy; International Relations. 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. 2024-2026 entrants (rechecked 2026-10-13): APU's undergraduate table for students enrolled AY 2020 - AY 2026 (student-site PDF 'Students enrolled since AY 2020'; Undergraduate Application Handbook for 2026 enrollment) charges JPY 1,300,000 in year 1 and JPY 1,500,000 in years 2-4, admission fee JPY 200,000. feeHistory cannot carry its own later-year fee, so adding those rows would charge the 2027 later-year fee (JPY 1,655,000) to earlier cohorts; left unfilled until the schema supports per-cohort later years.",
-      "feeHistory": [],
+      "notes": "Areas of study: Culture, Society and Media; Global Economy; International Relations. 2027-entry undergraduate tuition (APU Tuition & Fees page, 0% Tuition Reduction Scholarship): year 1 ¥1,455,000 (2 semesters x ¥727,500), years 2-4 ¥1,655,000 per year, so 4-year total ¥6,420,000; recorded as the 4-year average ¥1,605,000/yr. Admission fee ¥200,000 (one-off). Tuition is semester-based: Tuition A fixed plus Tuition B that varies by semester enrolled. Comprehensive insurance (¥12,740 for first-year entrants) and AP House housing fees excluded. Most students receive a 30-100% Tuition Reduction Scholarship; the full rate is used here. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. 2024-2026 entrants (read 2026-10-13): APU's undergraduate table for students enrolled AY 2020 - AY 2026 (student-site PDF 'Students enrolled since AY 2020'; Undergraduate Application Handbook for 2026 enrollment) charges JPY 650,000 a semester in year 1 and JPY 750,000 a semester in years 2-4, admission fee JPY 200,000, so each history row carries its own laterYears (JPY 1,500,000 from year 2). APU fixes tuition by entering cohort, so cohortLocked is true.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1300000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content9/AY2021_Tuition_Fees_EnrolledSinceAY2020_E.pdf",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1300000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content9/AY2021_Tuition_Fees_EnrolledSinceAY2020_E.pdf",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 1300000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200000,
+          "sourceUrl": "https://admissions.apu.ac.jp/resource/ln/14e5384bf2991cf60640ed8496f7ffd17d6f8901/ApplicationHandbook_UG_OutsideJapan_ENG_26_2.pdf",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
+        }
+      ],
       "laterYears": [
         {
           "fromYear": 2,

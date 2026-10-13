@@ -55,19 +55,6 @@ export const FeeTier = z.object({
   oneOffFees: money.default(0),
 });
 
-export const FeeHistoryEntry = z.object({
-  feeYear: z.number().int(),
-  tier: Tier,
-  annualTuition: money,
-  // Omitted when only tuition was published; the calculator then uses current values.
-  annualCompulsoryFees: money.optional(),
-  oneOffFees: money.optional(),
-  sourceUrl: z.url().optional(),
-  /** "secondary" when read from an aggregator, agent or news page rather than the university's own. */
-  sourceType: z.enum(["official", "secondary"]).optional(),
-});
-
-// A university whose degree another institution teaches (e.g. SIM Global Education's partners).
 export const LaterYearFee = z.object({
   fromYear: z.number().int().min(2).max(8),
   /** Omit when the figure applies to every tier. */
@@ -79,6 +66,21 @@ export const LaterYearFee = z.object({
   estimate: z.boolean().default(false),
 });
 
+export const FeeHistoryEntry = z.object({
+  feeYear: z.number().int(),
+  tier: Tier,
+  annualTuition: money,
+  // Omitted when only tuition was published; the calculator then uses current values.
+  annualCompulsoryFees: money.optional(),
+  oneOffFees: money.optional(),
+  sourceUrl: z.url().optional(),
+  /** "secondary" when read from an aggregator, agent or news page rather than the university's own. */
+  sourceType: z.enum(["official", "secondary"]).optional(),
+  /** This intake's own later-year fees, when they differ from the programme's current `laterYears`. */
+  laterYears: z.array(LaterYearFee).optional(),
+});
+
+// A university whose degree another institution teaches (e.g. SIM Global Education's partners).
 export const Partner = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   name: z.string().min(1),

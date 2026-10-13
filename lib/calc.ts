@@ -87,6 +87,8 @@ export interface YearFees {
   yearsAhead: number;
   fromHistory: boolean;
   otherFeesFromCurrent: boolean;
+  /** A history entry's own later-year fees, when it has them. */
+  laterYears?: LaterYearFee[];
 }
 
 /**
@@ -116,14 +118,20 @@ export function feesForYear(programme: Programme, tier: Tier, year: number): Yea
     yearsAhead: 0,
     fromHistory: true,
     otherFeesFromCurrent,
+    laterYears: h.laterYears,
   };
 }
 
 /** The fee published for `yearOfStudy` (1-based) when it differs from the first year's, or undefined. */
-export function laterYearFee(programme: Programme, tier: Tier, yearOfStudy: number): LaterYearFee | undefined {
+export function laterYearFee(
+  programme: Programme,
+  tier: Tier,
+  yearOfStudy: number,
+  laterYears: LaterYearFee[] = programme.laterYears,
+): LaterYearFee | undefined {
   // The latest applicable year wins; at the same year an entry for this tier
   // beats one that applies to every tier.
-  return programme.laterYears
+  return laterYears
     .filter((l) => l.fromYear <= yearOfStudy && (!l.tier || l.tier === tier))
     .sort(
       (a, b) =>
@@ -167,7 +175,7 @@ export function calculate(input: CalcInput): CalcResult {
       otherFeesFromCurrent = true;
     }
 
-    const later = laterYearFee(programme, tier, y + 1);
+    const later = laterYearFee(programme, tier, y + 1, yf.laterYears);
     if (later) {
       laterYearFees = true;
       if (later.estimate) laterYearsEstimated = true;

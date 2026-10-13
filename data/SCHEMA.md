@@ -97,6 +97,9 @@ Fee history:
   shown as "No published fee on file" rather than estimated.
 - For cohort-locked programmes (fees fixed per intake), the entry is the fee for the
   cohort that started in `feeYear`. For others it is that academic year's fee.
+- If that earlier intake paid different later-year fees from the current `laterYears`
+  (e.g. APU charges each entering cohort its own year 2-4 rate), give the entry its own
+  `laterYears` array; the calculator then uses it instead of the programme's.
 - Only add figures you actually found in a source. Never back-calculate.
 - When the university no longer publishes an earlier year's fee, a third-party page
   (course aggregator, education agent, news item) may be used if it states the fee
