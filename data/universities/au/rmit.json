@@ -41,8 +41,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program BH077, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus.",
-      "feeHistory": []
+      "notes": "RMIT program BH077, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan BH077) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $43,200; 2025 $45,120; 2026 $47,040. Melbourne City campus.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 45120,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 47040,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +87,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program BP094, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus.",
-      "feeHistory": []
+      "notes": "RMIT program BP094, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan BP094) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $38,400; 2025 $40,320; 2026 $43,200. Melbourne City campus.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 40320,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +133,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program BP343, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus. Majors include economics, finance, marketing, management and logistics.",
-      "feeHistory": []
+      "notes": "RMIT program BP343, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan BP343) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $41,280; 2025 $42,240; 2026 $45,120. Melbourne City campus. Majors include economics, finance, marketing, management and logistics.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41280,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42240,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45120,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -104,8 +179,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program BP231, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Bundoora campus. Chosen as RMIT's main single science degree for international students.",
-      "feeHistory": []
+      "notes": "RMIT program BP231, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan BP231) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $42,240; 2025 $44,160; 2026 $46,080. Bundoora campus. Chosen as RMIT's main single science degree for international students.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42240,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 46080,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -125,8 +225,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2026 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program BP221, international view of the program page, fee read on 2026-10-07 as 'AU$X (2026 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus. RMIT has no general Bachelor of Arts; this communication degree is its flagship humanities/media bachelor. When read on 2026-10-07 the page still showed the 2026 fee (other RMIT pages already show 2027).",
-      "feeHistory": []
+      "notes": "RMIT program BP221, international view of the program page, fee read on 2026-10-07 as 'AU$X (2026 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan BP221) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $37,440; 2025 $38,400. Melbourne City campus. RMIT has no general Bachelor of Arts; this communication degree is its flagship humanities/media bachelor. When read on 2026-10-07 the page still showed the 2026 fee (other RMIT pages already show 2027).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37440,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 38400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -146,8 +263,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program BP154, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus.",
-      "feeHistory": []
+      "notes": "RMIT program BP154, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan BP154) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $38,400; 2025 $40,320; 2026 $43,200. Melbourne City campus.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 40320,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -167,8 +309,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program BP032, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Bundoora campus; February and July intakes.",
-      "feeHistory": []
+      "notes": "RMIT program BP032, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan BP032) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $38,400; 2025 $40,320; 2026 $43,200. Bundoora campus; February and July intakes.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 40320,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -188,8 +355,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program MC257, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus.",
-      "feeHistory": []
+      "notes": "RMIT program MC257, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan MC257) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $44,160; 2025 $46,080; 2026 $48,000. Melbourne City campus.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 44160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46080,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 48000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -209,8 +401,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program MC208, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus.",
-      "feeHistory": []
+      "notes": "RMIT program MC208, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan MC208) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $39,360; 2025 $41,280; 2026 $44,160. Melbourne City campus.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39360,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41280,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -230,8 +447,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program MC199, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus; 2 years full-time or 1.5 years accelerated (visa holders must study full-time).",
-      "feeHistory": []
+      "notes": "RMIT program MC199, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan MC199) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $48,000; 2025 $48,960; 2026 $50,880. Melbourne City campus; 2 years full-time or 1.5 years accelerated (visa holders must study full-time).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 48960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 50880,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -251,8 +493,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program MC267, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus.",
-      "feeHistory": []
+      "notes": "RMIT program MC267, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan MC267) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $39,360; 2025 $41,280; 2026 $44,160. Melbourne City campus.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39360,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41280,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -272,8 +539,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program MC248, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Melbourne City campus.",
-      "feeHistory": []
+      "notes": "RMIT program MC248, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan MC248) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $38,400; 2025 $40,320; 2026 $43,200. Melbourne City campus.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 40320,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 43200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     },
     {
       "level": "master",
@@ -293,8 +585,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
-      "notes": "RMIT program MC002, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. No 2024 or 2025 international fee was found on an official RMIT page (program pages show only the current year; RMIT does not publish a fee schedule PDF for coursework programs), so no feeHistory. Bundoora campus; the page lists both domestic and international student types.",
-      "feeHistory": []
+      "notes": "RMIT program MC002, international view of the program page, fee read on 2026-10-07 as 'AU$X (2027 annual)'. RMIT quotes an annual fee for a standard full-time load; it may raise fees by up to 7.5% a calendar year (RMIT 'Tuition fees for international students' page). Excludes SSAF (the MC267 page gives a 2027 maximum of $386) and OSHC. History rows (read 2026-10-13) are the 'indicative annual tuition fee' (96 credit points, standard full-time plan MC002) from RMIT's 'International Onshore student tuition fees' PDFs for each year (finance staff-site, e.g. 2025-inton-fees.pdf): 2024 $39,360; 2025 $41,280; 2026 $44,160. Bundoora campus; the page lists both domestic and international student types.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39360,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41280,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     }
   ]
 }

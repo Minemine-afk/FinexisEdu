@@ -20,7 +20,7 @@
     "lastVerified": "2026-10-08",
     "sourceType": "secondary",
     "summary": "Deakin publishes no dollar figures, so this is the Australian Government's student-visa living-cost minimum of A$29,710 a year (about A$2,476 a month), split into rent, food, transport and personal using the pattern of other Australian universities. Geelong is cheaper.",
-    "notes": "Rung C. Tried for rung A/B: deakin.edu.au 'Cost of living and studying in Melbourne' and '...in Geelong' story pages (no dollar amounts; only percentages such as Geelong rent '20-30% lower than Melbourne' and overall living costs 'approximately 12% less'; both point to the Study Australia calculator and cite Numbeo for comparisons), 'Living in Australia' and 'Living costs' international pages (qualitative only), and the international 'Fees and scholarships' page (no living-cost total). The university cost-of-living URL under /study/study-at-deakin/ returns 404. Figure used: Department of Home Affairs Student visa (subclass 500) financial capacity requirement for the primary applicant, A$29,710 for 12 months of living costs, in force since 10 May 2024 and still current as at 2026-10-08 (the Home Affairs page itself rendered only navigation in the fetch; the amount and date were confirmed from two 2026 secondary summaries of the Home Affairs requirement). Monthly = 29,710 / 12 = 2,475.83, split with the brief's Australian average shares housing .64 / food .22 / transport .04 / personal .11 (these shares sum to 1.01, so the four categories total A$2,500.58). Excludes tuition, OSHC, travel and the separate visa amounts for dependants. Cross-check: Monash (Melbourne, rung A) is higher at about A$4,368/month; the Home Affairs figure is the visa minimum, and Deakin's own page says Melbourne rents are higher than Geelong."
+    "notes": "Rung C. Tried for rung A/B: deakin.edu.au 'Cost of living and studying in Melbourne' and '...in Geelong' story pages (no dollar amounts; only percentages such as Geelong rent '20-30% lower than Melbourne' and overall living costs 'approximately 12% less'; both point to the Study Australia calculator and cite Numbeo for comparisons), 'Living in Australia' and 'Living costs' international pages (qualitative only), and the international 'Fees and scholarships' page (no living-cost total). The university cost-of-living URL under /study/study-at-deakin/ returns 404. Figure used: Department of Home Affairs Student visa (subclass 500) financial capacity requirement for the primary applicant, A$29,710 for 12 months of living costs, in force since 10 May 2024 and still current as at 2026-10-08 (the Home Affairs page itself rendered only navigation in the fetch; the amount and date were confirmed from two 2026 secondary summaries of the Home Affairs requirement). Monthly = 29,710 / 12 = 2,475.83, split with the brief's Australian average shares housing .64 / food .22 / transport .04 / personal .11 (these shares sum to 1.01, so the four categories total A$2,500.58). Excludes tuition, OSHC, travel and the separate visa amounts for dependants. Cross-check: Monash (Melbourne, rung A) is higher at about A$4,368/month; the Home Affairs figure is the visa minimum, and Deakin's own page says Melbourne rents are higher than Geelong. Rechecked 2026-10-13: deakin.edu.au 'Accommodation and living costs' international page (no dollar figures; points to the Study Australia calculator). The Deakin College pre-departure handbook (A$30,000 a year, itemised) is from the Navitas-run pathway college, not Deakin University, so not used."
   },
   "programmes": [
     {
@@ -41,8 +41,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne) and Waurn Ponds (Geelong).",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $40,800; 2025 $43,800; 2026 $45,000. Burwood (Melbourne) and Waurn Ponds (Geelong).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-engineering-honours-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-engineering-honours-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-engineering-honours-international?year=2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -62,8 +87,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne).",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $38,600; 2025 $41,000; 2026 $42,000. Burwood (Melbourne).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-computer-science-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-computer-science-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-computer-science-international?year=2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -83,8 +133,17 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne) and Waterfront (Geelong); course redesigned for 2027.",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (2026-10-13): the 2025 row is 'AUD $44,000' for M300 Bachelor of Commerce in Deakin's 2025 International UG Course Guide PDF ('annual course fee indicates the tuition fee for two trimesters of full-time study, or 8 credit points'). The redesigned 2027 course page shows no fee for ?year=2024 or ?year=2026, so those rows are still missing. Burwood (Melbourne) and Waterfront (Geelong); course redesigned for 2027.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://deakin.edu.au/__data/assets/pdf_file/0018/2612403/2025-International-UG-Course-Guide.pdf"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -104,8 +163,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne) and Waurn Ponds (Geelong).",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $39,400; 2025 $41,000; 2026 $42,400. Burwood (Melbourne) and Waurn Ponds (Geelong).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-science-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-science-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-science-international?year=2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -125,8 +209,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne) and Waurn Ponds (Geelong).",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $33,000; 2025 $34,600; 2026 $37,400. The 2025 figure matches Deakin's 2025 International UG Course Guide PDF. Burwood (Melbourne) and Waurn Ponds (Geelong).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 33000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-arts-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-arts-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-arts-international?year=2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -146,8 +255,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne) and Waurn Ponds (Geelong).",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $38,200; 2025 $39,600; 2026 $41,600. Burwood (Melbourne) and Waurn Ponds (Geelong).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 38200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-psychological-science-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-psychological-science-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 41600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-psychological-science-international?year=2026"
+        }
+      ]
     },
     {
       "level": "bachelor",
@@ -167,8 +301,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne), Waterfront (Geelong) and Warrnambool.",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $39,800; 2025 $42,400; 2026 $44,600. Burwood (Melbourne), Waterfront (Geelong) and Warrnambool.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-nursing-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-nursing-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/bachelor-nursing-international?year=2026"
+        }
+      ]
     },
     {
       "level": "master",
@@ -188,8 +347,25 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Waurn Ponds (Geelong); up to 2 years full-time depending on prior study.",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (2026-10-13): 2026 row = 'Estimated tuition fee $46,400 for 1 yr full-time' on the course page with ?year=2026 ('2026 course information'); 2025 row = 'Master of Engineering (Professional) (S751) $45,200' in Deakin's 2025 International PG Course Guide PDF (annual fee = 8 credit points); the ?year=2024 and ?year=2025 page views show no fee, so 2024 is still missing. Waurn Ponds (Geelong); up to 2 years full-time depending on prior study.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 45200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://deakin.edu.au/__data/assets/pdf_file/0019/2612404/2025-International-PG-Course-Guide.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 46400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-engineering-professional-international?year=2026"
+        }
+      ]
     },
     {
       "level": "master",
@@ -209,8 +385,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne).",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $39,800; 2025 $43,000; 2026 $44,200. The 2025 figure matches Deakin's 2025 International PG Course Guide PDF. Burwood (Melbourne).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-information-technology-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-information-technology-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-information-technology-international?year=2026"
+        }
+      ]
     },
     {
       "level": "master",
@@ -230,8 +431,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne); 1, 1.5 or 2 years full-time depending on prior study (2 years recorded). Chosen because Deakin's MBA is taught online only and so cannot be taken on a student visa.",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $43,600; 2025 $46,200; 2026 $48,000. The 2025 figure matches Deakin's 2025 International PG Course Guide PDF. Burwood (Melbourne); 1, 1.5 or 2 years full-time depending on prior study (2 years recorded). Chosen because Deakin's MBA is taught online only and so cannot be taken on a student visa.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-professional-accounting-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-professional-accounting-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 48000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-professional-accounting-international?year=2026"
+        }
+      ]
     },
     {
       "level": "master",
@@ -251,8 +477,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne).",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $39,800; 2025 $43,000; 2026 $44,200. The 2025 figure matches Deakin's 2025 International PG Course Guide PDF. Burwood (Melbourne).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-data-science-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-data-science-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 44200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-data-science-international?year=2026"
+        }
+      ]
     },
     {
       "level": "master",
@@ -272,8 +523,33 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Estimated tuition for international students for the first full-time year (8 credit points), for 2027 entry. Excludes the student services fee and health cover; fees can change each year.",
-      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. Deakin publishes no international fee schedule and its course pages show only the current figure, so no 2024 or 2025 fee was found and there is no feeHistory. Burwood (Melbourne), with teaching also at Geelong.",
-      "feeHistory": []
+      "notes": "International version of the Deakin course page, read on 2026-10-07: 'Estimated tuition fee ... $X for 1 yr full-time AUD', 'based on a typical first-year full-time enrolment of 8 credit points and is provided as a guide only'. The fee box does not print a year; the page is the 'Year 2027 course information' view ('This course structure applies to students who commenced in 2027'), so the figure is recorded as the 2027 fee. Excludes SSAF and OSHC. History (read 2026-10-13): the same international course page viewed with ?year=2024/2025/2026 shows 'YYYY course information' and 'Estimated tuition fee $X for 1 yr full-time AUD': 2024 $41,200; 2025 $44,400; 2026 $46,800. Burwood (Melbourne), with teaching also at Geelong.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-psychology-clinical-international?year=2024"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-psychology-clinical-international?year=2025"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 46800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.deakin.edu.au/course/master-psychology-clinical-international?year=2026"
+        }
+      ]
     }
   ]
 }

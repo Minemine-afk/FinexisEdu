@@ -8,19 +8,19 @@
   "description": "Massey University is a public university founded in 1927 as an agricultural college, with campuses in Palmerston North, Wellington and Auckland. It teaches business, creative arts, health, science, humanities and social sciences, and is known for agriculture, veterinary science and food technology.",
   "whyIncluded": "Massey has taught in Singapore since 2008 (including a joint Bachelor of Food Technology with the Singapore Institute of Technology since 2016) and was among the most-searched overseas universities from Singapore in 2025 (KiasuParents, a Singapore parents' website).",
   "livingCosts": {
-    "year": 2026,
-    "months": 12,
+    "year": 2027,
+    "months": 8.77,
     "monthly": {
-      "housing": 1666.67,
-      "food": 0,
-      "transport": 0,
-      "personal": 0
+      "housing": 1781.23,
+      "food": 351.23,
+      "transport": 100.35,
+      "personal": 275.96
     },
-    "sourceUrl": "https://www.massey.ac.nz/study/international-students/living-in-new-zealand/",
-    "lastVerified": "2026-09-30",
+    "sourceUrl": "https://www.massey.ac.nz/about/colleges-schools-and-institutes/college-of-sciences/school-of-veterinary-science/cost-of-attendance/",
+    "lastVerified": "2026-10-13",
     "sourceType": "official",
-    "summary": "Massey gives no estimate, so this is New Zealand's visa minimum of NZ$20,000 a year for all living costs. Massey notes actual costs vary and may be higher; tuition and airfares excluded.",
-    "notes": "FALLBACK - visa minimum, not a Massey estimate: Massey's 'Living in New Zealand' page gives no cost-of-living breakdown, only that Immigration New Zealand requires NZ$20,000 per year of study for living costs on top of course fees (plus return airfares). NZ$20,000 / 12 is one combined figure for accommodation, food, transport and personal costs, so it is all in housing and the other categories are 0. Massey notes living costs vary considerably and may need to be more."
+    "summary": "Massey's own living-cost figure of NZ$22,000 for a 38-week academic year (2027 data), from its veterinary school's cost-of-attendance page. Massey gives no breakdown, so the split into rent, food, transport and personal is estimated.",
+    "notes": "Rung B. Massey School of Veterinary Science 'Attendance costs' page (read 2026-10-13), tables 'based on 2027 data', domestic and international alike: 'Living Costs (38 weeks)' NZ$22,000 a year for BVSc years 2-5 (NZ$11,000 per semester in year 1), footnote: 'Approximate cost which may be higher or lower based on student choice of accommodation etc.' It is a Massey figure for a full-time student (the vet school is at Manawatu, Palmerston North) and no Massey page itemises it. Monthly = 22,000 / 38 weeks x 52/12 = 2,508.77, months = 38 x 12/52 = 8.77; split with the New Zealand average shares housing .71 / food .14 / transport .04 / personal .11 (Manawatu students have free bus travel, per Massey's US financial aid page). Tried with no figures: 'Living in New Zealand', 'Financial and budgeting help', study-abroad 'Fees, costs and scholarships' (links to StudyLink calculator). Replaces the earlier fallback (Immigration NZ visa minimum NZ$20,000 a year)."
   },
   "programmes": [
     {

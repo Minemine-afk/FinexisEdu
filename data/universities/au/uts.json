@@ -1,0 +1,305 @@
+{
+  "id": "uts",
+  "name": "University of Technology Sydney",
+  "country": "au",
+  "city": "Sydney",
+  "currency": "AUD",
+  "website": "https://www.uts.edu.au",
+  "description": "The University of Technology Sydney (UTS) is a public university in central Sydney, established as a university in 1988, with its campus in Ultimo next to the city centre. It is known for engineering, IT, business, design, health and communication.",
+  "whyIncluded": "The Australian Government's indicative allocation lets UTS enrol about 5,350 new international students in 2026, a sign of strong international demand.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 12,
+    "monthly": {
+      "housing": 1993.33,
+      "food": 600,
+      "transport": 465,
+      "personal": 840
+    },
+    "sourceUrl": "https://www.uts.edu.au/for-students/international/life-in-sydney/cost-of-living",
+    "lastVerified": "2026-10-13",
+    "sourceType": "official",
+    "summary": "UTS's own Sydney cost-of-living guide: a room in shared accommodation near UTS, food, public transport, utilities, phone and entertainment for 12 months, using the middle of each range UTS quotes. Excludes OSHC, tuition and set-up costs.",
+    "notes": "Rung A: UTS international student guide 'Cost of living in Sydney' (canonical URL above; reached via /study/international/commencing-students/living-sydney/costs-living), read 2026-10-13. 'At a glance' table, 'Monthly cost (AUD)', figures based on Study Australia's cost of living calculator: accommodation $1,200-$3,400; food and groceries $400-$800; utilities and internet $150-$400; transport $130-$800; lifestyle and entertainment $350-$650; mobile phone plans $30-$100. The page also gives shared accommodation near UTS at $370-$550 a week. Housing = midpoint of the shared-accommodation range (A$460/week x 52/12 = 1,993.33), per the method's single-room rule; the monthly accommodation range (midpoint 2,300) covers whole dwellings and was not used. Food = midpoint 600; transport = midpoint 465; personal = utilities and internet midpoint 275 + lifestyle midpoint 500 + phone midpoint 65 = 840. Textbooks (A$400+, no period) excluded, as are OSHC, tuition and one-off set-up costs. Total about A$3,898/month (A$46,780/year), above the Home Affairs visa minimum of A$29,710."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Engineering (Honours)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 57240,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C09066 (CRICOS 084098A), '2027 International Undergraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$28,620 for 2027, course duration 8 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; UTS course pages state '1 year = 48 credit points'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). The table lists one row for the BE (Honours); majors are not priced separately.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Computing Science (Honours)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 57240,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C09119 (CRICOS 092896D), '2027 International Undergraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$28,620 for 2027, course duration 8 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; UTS course pages state '1 year = 48 credit points'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo).",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 51016,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C10026 (CRICOS 006487A), '2027 International Undergraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$25,508 for 2027, course duration 6 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; UTS course pages state '1 year = 48 credit points'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). Shortlist fee programme for UTS (bachelor's).",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science",
+      "majors": [
+        "Biotechnology",
+        "Chemistry",
+        "Medical Science"
+      ],
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 51016,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C10242 (CRICOS 040705B), '2027 International Undergraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$25,508 for 2027, course duration 6 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; UTS course pages state '1 year = 48 credit points'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). The table lists the Biotechnology, Chemistry and Medical Science majors at the same fee.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Communication (Digital and Social Media)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 45880,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C10371 (CRICOS 087738E), '2027 International Undergraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$22,940 for 2027, course duration 6 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; UTS course pages state '1 year = 48 credit points'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). UTS has no general Bachelor of Arts for international students in the table; the communication degrees are its humanities/media bachelor's (Journalism C10361 is A$26,370 a session).",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Psychology",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 48030,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C10477 (CRICOS 113304M), '2027 International Undergraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$24,015 for 2027, course duration 6 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; UTS course pages state '1 year = 48 credit points'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). February intake only.",
+      "feeHistory": []
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Nursing",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 51016,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C10122 (CRICOS 019877B), '2027 International Undergraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$25,508 for 2027, course duration 6 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; UTS course pages state '1 year = 48 credit points'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). February intake only.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 52740,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C04273 (CRICOS 081095F), '2027 International Postgraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$26,370 for 2027, course duration 4 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; the PG table states 'Fees shown are based on 24 credit points per session. Fees are correct for 2027 only and are subject to an increase each calendar year'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). Majors listed in the row: Civil Engineering, Cybersecurity, Electrical Energy Systems, Mechanical Engineering, Software Systems Engineering, Telecommunications and Electronics (same fee).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Information Technology",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 57870,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C04295 (CRICOS 084256C), '2027 International Postgraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$28,935 for 2027, course duration 4 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; the PG table states 'Fees shown are based on 24 credit points per session. Fees are correct for 2027 only and are subject to an increase each calendar year'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). Shortlist fee programme for UTS (master's).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 54590,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C04018 (CRICOS 025004A), '2027 International Postgraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$27,295 for 2027, course duration 4 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; the PG table states 'Fees shown are based on 24 credit points per session. Fees are correct for 2027 only and are subject to an increase each calendar year'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Data Science and Innovation",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 52740,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C04372 (CRICOS 084268K), '2027 International Postgraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$26,370 for 2027, course duration 4 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; the PG table states 'Fees shown are based on 24 credit points per session. Fees are correct for 2027 only and are subject to an increase each calendar year'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo).",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Strategic Communication",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43290,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C04461 (CRICOS 116217H), '2027 International Postgraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$21,645 for 2027, course duration 3 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; the PG table states 'Fees shown are based on 24 credit points per session. Fees are correct for 2027 only and are subject to an increase each calendar year'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). 3 sessions = 1.5 years full-time.",
+      "feeHistory": []
+    },
+    {
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Clinical Psychology",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 54590,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year.",
+      "notes": "UTS course C04300 (CRICOS 084263D), '2027 International Postgraduate Course Summary Table' PDF on uts.edu.au ('Information is correct as of June 2026'), read 2026-10-13: 'Course Fee (A$/Session)' A$27,295 for 2027, course duration 4 sessions. Annual = per-session fee x 2 sessions (UTS full-time year = 48 credit points = 2 sessions of 24 credit points; the PG table states 'Fees shown are based on 24 credit points per session. Fees are correct for 2027 only and are subject to an increase each calendar year'). Excludes SSAF and OSHC. UTS course pages show domestic fees only and the international fee search (cis.uts.edu.au/fees/course-fees.cfm) is a form that could not be queried; only the current (2027) summary tables are published at a fixed URL, so no 2024 or 2025 international fee was found and there is no feeHistory. City campus (Ultimo). February intake only.",
+      "feeHistory": []
+    }
+  ]
+}

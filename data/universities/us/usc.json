@@ -6,7 +6,7 @@
   "currency": "USD",
   "website": "https://www.usc.edu",
   "description": "The University of Southern California is a private research university in Los Angeles, California, founded in 1880. It is known for engineering, business, film and communication.",
-  "whyIncluded": "One of the 10 universities in the US most popular with international students; the US is one of the nine places Singaporeans most often study abroad (about 3,800 Singaporean students, UNESCO data).",
+  "whyIncluded": "The USC Alumni Association has a Singapore alumni club for Trojans living or working in Singapore.",
   "livingCosts": {
     "year": 2026,
     "months": 9,
@@ -41,8 +41,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
-      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Viterbi School of Engineering.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. Viterbi School of Engineering. 2024-25 row from USC Thornton School of Music's official 'Academic Year 2024-2025' undergraduate cost sheet (read 2026-10-13): flat-rate tuition (12-18 units) $69,904; fees = Student Health Service $1,300 + Student Programming $128 + Norman Topping Student Aid $22 + Student Transportation Fee $234 = $1,684 (music-only instruction fee and health insurance excluded); New Student fee $450 one-time.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69904,
+          "annualCompulsoryFees": 1684,
+          "oneOffFees": 450,
+          "sourceUrl": "https://music.usc.edu/wp-content/uploads/2024/06/FCosts2024.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
@@ -70,8 +78,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
-      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Viterbi School of Engineering.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. Viterbi School of Engineering. 2024-25 row from USC Thornton School of Music's official 'Academic Year 2024-2025' undergraduate cost sheet (read 2026-10-13): flat-rate tuition (12-18 units) $69,904; fees = Student Health Service $1,300 + Student Programming $128 + Norman Topping Student Aid $22 + Student Transportation Fee $234 = $1,684 (music-only instruction fee and health insurance excluded); New Student fee $450 one-time.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69904,
+          "annualCompulsoryFees": 1684,
+          "oneOffFees": 450,
+          "sourceUrl": "https://music.usc.edu/wp-content/uploads/2024/06/FCosts2024.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
@@ -99,8 +115,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
-      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Marshall School of Business.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. Marshall School of Business. 2024-25 row from USC Thornton School of Music's official 'Academic Year 2024-2025' undergraduate cost sheet (read 2026-10-13): flat-rate tuition (12-18 units) $69,904; fees = Student Health Service $1,300 + Student Programming $128 + Norman Topping Student Aid $22 + Student Transportation Fee $234 = $1,684 (music-only instruction fee and health insurance excluded); New Student fee $450 one-time.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69904,
+          "annualCompulsoryFees": 1684,
+          "oneOffFees": 450,
+          "sourceUrl": "https://music.usc.edu/wp-content/uploads/2024/06/FCosts2024.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
@@ -128,8 +152,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
-      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Dornsife College of Letters, Arts and Sciences.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. Dornsife College of Letters, Arts and Sciences. 2024-25 row from USC Thornton School of Music's official 'Academic Year 2024-2025' undergraduate cost sheet (read 2026-10-13): flat-rate tuition (12-18 units) $69,904; fees = Student Health Service $1,300 + Student Programming $128 + Norman Topping Student Aid $22 + Student Transportation Fee $234 = $1,684 (music-only instruction fee and health insurance excluded); New Student fee $450 one-time.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69904,
+          "annualCompulsoryFees": 1684,
+          "oneOffFees": 450,
+          "sourceUrl": "https://music.usc.edu/wp-content/uploads/2024/06/FCosts2024.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
@@ -157,8 +189,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
-      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Dornsife College of Letters, Arts and Sciences.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. Dornsife College of Letters, Arts and Sciences. 2024-25 row from USC Thornton School of Music's official 'Academic Year 2024-2025' undergraduate cost sheet (read 2026-10-13): flat-rate tuition (12-18 units) $69,904; fees = Student Health Service $1,300 + Student Programming $128 + Norman Topping Student Aid $22 + Student Transportation Fee $234 = $1,684 (music-only instruction fee and health insurance excluded); New Student fee $450 one-time.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69904,
+          "annualCompulsoryFees": 1684,
+          "oneOffFees": 450,
+          "sourceUrl": "https://music.usc.edu/wp-content/uploads/2024/06/FCosts2024.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
@@ -186,8 +226,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for USC undergraduates, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
-      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. 2024-25 not found. Dornsife College of Letters, Arts and Sciences. Programme names from USC's catalogue major list.",
+      "notes": "USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units for two semesters) $75,384, fees $1,952, plus a $450 new student fee in the first semester (one-off). 2025-26 on the same page: tuition $73,260, fees $1,902 (new student fee for that year not shown, so current one-off used). The page does not itemise 'fees'; no health insurance line is included. Flat-rate tuition, same for all majors. Not cohort-locked. Dornsife College of Letters, Arts and Sciences. Programme names from USC's catalogue major list. 2024-25 row from USC Thornton School of Music's official 'Academic Year 2024-2025' undergraduate cost sheet (read 2026-10-13): flat-rate tuition (12-18 units) $69,904; fees = Student Health Service $1,300 + Student Programming $128 + Norman Topping Student Aid $22 + Student Transportation Fee $234 = $1,684 (music-only instruction fee and health insurance excluded); New Student fee $450 one-time.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69904,
+          "annualCompulsoryFees": 1684,
+          "oneOffFees": 450,
+          "sourceUrl": "https://music.usc.edu/wp-content/uploads/2024/06/FCosts2024.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
@@ -215,8 +263,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for an international Viterbi master's student taking 9 units a semester (charged per unit), plus mandatory fees and a one-time orientation fee. Health insurance not included.",
-      "notes": "USC Viterbi 2026-27 cost-of-attendance sheet (33-unit master's): graduate engineering tuition $2,742 per unit; the sheet assumes 9 units in each of the first two semesters, so annual = 18 x $2,742 = $49,356. Other fees = mandatory fees $922 per semester x2 (student health service, programming, transportation, Topping Student Aid Fund); one-off = $55 orientation fee. Health insurance (2025-26 rates $1,224 fall, $2,298 spring/summer) excluded. 2025 history from the 2025-26 sheet: $2,665 per unit x 18 = $47,970; fees $897 per semester x2 = $1,794; orientation $55. All Viterbi master's programmes are charged the same per-unit rate; total cost depends on the programme's unit count (27-33 units, typically four semesters). Not cohort-locked.",
+      "notes": "USC Viterbi 2026-27 cost-of-attendance sheet (33-unit master's): graduate engineering tuition $2,742 per unit; the sheet assumes 9 units in each of the first two semesters, so annual = 18 x $2,742 = $49,356. Other fees = mandatory fees $922 per semester x2 (student health service, programming, transportation, Topping Student Aid Fund); one-off = $55 orientation fee. Health insurance (2025-26 rates $1,224 fall, $2,298 spring/summer) excluded. 2025 history from the 2025-26 sheet: $2,665 per unit x 18 = $47,970; fees $897 per semester x2 = $1,794; orientation $55. All Viterbi master's programmes are charged the same per-unit rate; total cost depends on the programme's unit count (27-33 units, typically four semesters). Not cohort-locked. 2024 history from the Viterbi 2024-2025 sheet (read 2026-10-13): $2,543 per unit x 18 = $45,774; mandatory fees $873 per semester x2 = $1,746 (the sheet's Fall 2024 $928 includes the $55 orientation fee); orientation $55.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 45774,
+          "annualCompulsoryFees": 1746,
+          "oneOffFees": 55,
+          "sourceUrl": "https://viterbigradadmission.usc.edu/wp-content/uploads/2024/05/2024-2025-Tuition-Fees-32.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
@@ -245,8 +301,16 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition for an international Viterbi master's student taking 9 units a semester (charged per unit), plus mandatory fees and a one-time orientation fee. Health insurance not included.",
-      "notes": "USC Viterbi 2026-27 cost-of-attendance sheet (33-unit master's): graduate engineering tuition $2,742 per unit; the sheet assumes 9 units in each of the first two semesters, so annual = 18 x $2,742 = $49,356. Other fees = mandatory fees $922 per semester x2 (student health service, programming, transportation, Topping Student Aid Fund); one-off = $55 orientation fee. Health insurance (2025-26 rates $1,224 fall, $2,298 spring/summer) excluded. 2025 history from the 2025-26 sheet: $2,665 per unit x 18 = $47,970; fees $897 per semester x2 = $1,794; orientation $55. All Viterbi master's programmes are charged the same per-unit rate; total cost depends on the programme's unit count (27-33 units, typically four semesters). Not cohort-locked.",
+      "notes": "USC Viterbi 2026-27 cost-of-attendance sheet (33-unit master's): graduate engineering tuition $2,742 per unit; the sheet assumes 9 units in each of the first two semesters, so annual = 18 x $2,742 = $49,356. Other fees = mandatory fees $922 per semester x2 (student health service, programming, transportation, Topping Student Aid Fund); one-off = $55 orientation fee. Health insurance (2025-26 rates $1,224 fall, $2,298 spring/summer) excluded. 2025 history from the 2025-26 sheet: $2,665 per unit x 18 = $47,970; fees $897 per semester x2 = $1,794; orientation $55. All Viterbi master's programmes are charged the same per-unit rate; total cost depends on the programme's unit count (27-33 units, typically four semesters). Not cohort-locked. 2024 history from the Viterbi 2024-2025 sheet (read 2026-10-13): $2,543 per unit x 18 = $45,774; mandatory fees $873 per semester x2 = $1,746 (the sheet's Fall 2024 $928 includes the $55 orientation fee); orientation $55.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 45774,
+          "annualCompulsoryFees": 1746,
+          "oneOffFees": 55,
+          "sourceUrl": "https://viterbigradadmission.usc.edu/wp-content/uploads/2024/05/2024-2025-Tuition-Fees-32.pdf"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
