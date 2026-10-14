@@ -1,0 +1,25 @@
+# University of Ottawa. International tuition comes from an ASP.NET calculator (choose year, level, faculty,
+# discipline; per-term figures), so it needs a browser and is read by hand.
+sources:
+  # International tuition page (embeds the calculator below); sourceUrl of every programme
+  - university: uottawa
+    country: ca
+    url: https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international
+    manual: true
+  # Tuition calculator (2026-2027 and 2025-2026), per term
+  - university: uottawa
+    country: ca
+    url: https://dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL
+    manual: true
+  # Worked example of total fees (incidental and student association fees per term)
+  - university: uottawa
+    country: ca
+    url: https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees
+    parser: html
+    manual: true
+  # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
+  - university: uottawa
+    country: ca
+    url: https://www.uottawa.ca/campus-life/housing/fees-payment-information
+    parser: html
+    manual: true

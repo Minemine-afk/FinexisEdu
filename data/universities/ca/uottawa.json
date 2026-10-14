@@ -1,0 +1,515 @@
+{
+  "id": "uottawa",
+  "name": "University of Ottawa",
+  "country": "ca",
+  "city": "Ottawa",
+  "currency": "CAD",
+  "website": "https://www.uottawa.ca",
+  "description": "The University of Ottawa is a public research university in Canada's capital and the largest English-French bilingual university in the world, with about 47,000 students.",
+  "whyIncluded": "One of Canada's most popular universities for international graduate students: about 30% of its master's and doctoral students in 2024 were international.",
+  "livingCosts": {
+    "year": 2026,
+    "months": 8,
+    "monthly": {
+      "housing": 1451,
+      "food": 890.63,
+      "transport": 0,
+      "personal": 0
+    },
+    "sourceUrl": "https://www.uottawa.ca/campus-life/housing/fees-payment-information",
+    "lastVerified": "2026-10-13",
+    "sourceType": "official",
+    "summary": "uOttawa's 2026-27 on-campus residence fee and compulsory meal plan for an 8-month year. Local transit is in the compulsory fees; personal costs are not covered.",
+    "notes": "Housing fees and payment information, 2026-2027 tab: traditional single room CA$11,608 (includes $166 contents insurance) for the 8-month academic year, plus mandatory 5-day meal plan CA$7,125. Monthly = /8. The university publishes no personal-expense estimate, so personal is 0; transit is covered by the U-Pass in compulsory fees. The 2027-2028 tab shows $11,955 + $7,400."
+  },
+  "programmes": [
+    {
+      "level": "bachelor",
+      "field": "engineering",
+      "name": "Bachelor of Applied Science in Mechanical Engineering",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 63164.3,
+          "annualCompulsoryFees": 1369.51,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$31,582.15 per term for 2026-2027 and CA$31,582.15 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Engineering, Mechanical Engineering. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 63164.3,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63164.3,
+          "annualCompulsoryFees": 1338.93,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "computing",
+      "name": "Bachelor of Science in Computer Science",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 63164.3,
+          "annualCompulsoryFees": 1369.51,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$31,582.15 per term for 2026-2027 and CA$31,582.15 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Engineering, Computer Science. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 63164.3,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63164.3,
+          "annualCompulsoryFees": 1338.93,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce (Telfer)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 53184.38,
+          "annualCompulsoryFees": 1644.63,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$26,592.19 per term for 2026-2027 and CA$26,592.19 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Telfer School of Management, Commerce; compulsory fees include the Telfer undergraduate fee 137.56 per term (135.02 in 2025-26). Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 53184.38,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53184.38,
+          "annualCompulsoryFees": 1608.97,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science in Physics",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43335.08,
+          "annualCompulsoryFees": 1369.51,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$21,667.54 per term for 2026-2027 and CA$21,667.54 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Science, Physics. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43335.08,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43335.08,
+          "annualCompulsoryFees": 1338.93,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts in English",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43335.08,
+          "annualCompulsoryFees": 1369.51,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$21,667.54 per term for 2026-2027 and CA$21,667.54 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Arts, English. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43335.08,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43335.08,
+          "annualCompulsoryFees": 1338.93,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "psychology",
+      "name": "Bachelor of Arts in Psychology",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43335.08,
+          "annualCompulsoryFees": 1369.51,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$21,667.54 per term for 2026-2027 and CA$21,667.54 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Social Sciences, Psychology. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43335.08,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43335.08,
+          "annualCompulsoryFees": 1338.93,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "nursing",
+      "name": "Bachelor of Science in Nursing",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43335.08,
+          "annualCompulsoryFees": 1369.51,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$21,667.54 per term for 2026-2027 and CA$21,667.54 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Health Sciences, Nursing. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 43335.08,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 43335.08,
+          "annualCompulsoryFees": 1338.93,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "bachelor",
+      "field": "law",
+      "name": "Juris Doctor (Common Law)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 49439.0,
+          "annualCompulsoryFees": 1369.51,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees and health plan. This is much lower than the 2025-26 rate.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$24,719.50 per term for 2026-2027 and CA$38,552.46 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Law, Juris Doctor. The calculator lists the JD under undergraduate programs; the 2026-2027 rate (24,719.50 per term) is well below 2025-2026 (38,552.46); both read directly from the calculator, cause not stated. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 77104.92,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 77104.92,
+          "annualCompulsoryFees": 1338.93,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ],
+      "sgRecognition": {
+        "body": "SILE",
+        "listed": false,
+        "note": "uOttawa is not on the SILE approved list",
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
+        "lastVerified": "2026-10-13"
+      }
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Business Administration (English intensive, 12 months)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 70672.23,
+          "annualCompulsoryFees": 2803.67,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting in 2026 for this 12-month MBA, plus student fees, transit pass and student health and dental plan.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$23,557.41 per term for 2026-2027 and CA$23,557.41 for 2025-2026; annual = 3 terms (graduate year of three terms, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Telfer, MBA English intensive program 12 months, rate for '3 or fewer terms'; compulsory fees include the Telfer graduate fee 202.28 per term (198.55 in 2025-26). Compulsory fees 2026-27 = per term 240.67 + 22.00 + 86.59 + 12.47 + GSAED health & dental 258.05 (x3 terms) + GSAED fees 126.13 + 126.13 + 85.23 = 2,196.83; 2025-26: 234.80x3 + (118.82x2 + 106.58) + 234.59x3 + (123.81x2 + 82.05) = 2,082.06. Excludes UHIP. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 70672.23,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 70672.23,
+          "annualCompulsoryFees": 2677.71,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "engineering",
+      "name": "Master of Engineering in Mechanical Engineering",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21328.65,
+          "annualCompulsoryFees": 2196.83,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Average yearly tuition for this coursework master's, charged per unit (30 units over about two years), plus student fees and health plan.",
+      "notes": "uOttawa international tuition calculator, graduate per-unit rate CA$1,421.91 per unit for both 2026-2027 and 2025-2026. Programme requires 30 units, so total tuition CA$42,657.30; the calendar says it can be completed within two years full-time, so annualTuition = total / 2. Faculty of Engineering, Mechanical Engineering (MEng). Compulsory fees 2026-27 = per term 240.67 + 22.00 + 86.59 + 12.47 + GSAED health & dental 258.05 (x3 terms) + GSAED fees 126.13 + 126.13 + 85.23 = 2,196.83; 2025-26: 234.80x3 + (118.82x2 + 106.58) + 234.59x3 + (123.81x2 + 82.05) = 2,082.06. Excludes UHIP. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21328.65,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21328.65,
+          "annualCompulsoryFees": 2082.06,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "computing",
+      "name": "Master of Computer Science (Coursework and Project)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17329.05,
+          "annualCompulsoryFees": 2196.83,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Average yearly tuition for this coursework master's, charged per unit (30 units over about two years), plus student fees and health plan.",
+      "notes": "uOttawa international tuition calculator, graduate per-unit rate CA$1,155.27 per unit for both 2026-2027 and 2025-2026. Programme requires 30 units, so total tuition CA$34,658.10; the calendar says it can be completed within two years full-time, so annualTuition = total / 2. Faculty of Engineering, Computer Science (Coursework and Project). Compulsory fees 2026-27 = per term 240.67 + 22.00 + 86.59 + 12.47 + GSAED health & dental 258.05 (x3 terms) + GSAED fees 126.13 + 126.13 + 85.23 = 2,196.83; 2025-26: 234.80x3 + (118.82x2 + 106.58) + 234.59x3 + (123.81x2 + 82.05) = 2,082.06. Excludes UHIP. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 17329.05,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 17329.05,
+          "annualCompulsoryFees": 2082.06,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science in Physics",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29162.67,
+          "annualCompulsoryFees": 2196.83,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (three terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$9,720.89 per term for 2026-2027 and CA$9,720.89 for 2025-2026; annual = 3 terms (graduate year of three terms, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Science, Physics (graduate flat rate). Duration 6 terms (24 months) per the graduate calendar. Compulsory fees 2026-27 = per term 240.67 + 22.00 + 86.59 + 12.47 + GSAED health & dental 258.05 (x3 terms) + GSAED fees 126.13 + 126.13 + 85.23 = 2,196.83; 2025-26: 234.80x3 + (118.82x2 + 106.58) + 234.59x3 + (123.81x2 + 82.05) = 2,082.06. Excludes UHIP. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29162.67,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29162.67,
+          "annualCompulsoryFees": 2082.06,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Arts in Economics (course-based)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29445.78,
+          "annualCompulsoryFees": 2196.83,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+      "lastVerified": "2026-10-13",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students in 2026-27 (three terms), plus student fees, transit pass and student health and dental plan. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$9,815.26 per term for 2026-2027 and CA$9,815.26 for 2025-2026; annual = 3 terms (graduate year of three terms, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Social Sciences, Economics (graduate flat rate); the course-based MA runs three terms. Compulsory fees 2026-27 = per term 240.67 + 22.00 + 86.59 + 12.47 + GSAED health & dental 258.05 (x3 terms) + GSAED fees 126.13 + 126.13 + 85.23 = 2,196.83; 2025-26: 234.80x3 + (118.82x2 + 106.58) + 234.59x3 + (123.81x2 + 82.05) = 2,082.06. Excludes UHIP. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 29445.78,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29445.78,
+          "annualCompulsoryFees": 2082.06,
+          "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+          "sourceType": "official"
+        }
+      ]
+    }
+  ]
+}
