@@ -114,32 +114,46 @@ export interface Tvm {
 }
 export type TvmField = "months" | "rate" | "start" | "monthly" | "end";
 
-/** Fills in `field` from the other four. Returns NaN when no answer exists. */
+/**
+ * Fills in `field` from the other four. Returns NaN when no answer exists, and
+ * 0 for a month count, starting amount or monthly saving when what's there
+ * already covers the end amount (a negative answer would mean taking money out).
+ */
 export function solveTvm(t: Tvm, field: TvmField): number {
   const i = monthlyRate(t.rate);
   const A = (n: number, r = i) => annuity(r, n, t.startOfMonth);
+  const atLeastZero = (v: number) => (Number.isNaN(v) ? v : Math.max(0, v));
   switch (field) {
     case "end":
       return t.start * growth(i, t.months) + t.monthly * A(t.months);
     case "monthly": {
       const a = A(t.months);
-      return a === 0 ? NaN : (t.end - t.start * growth(i, t.months)) / a;
+      const short = t.end - t.start * growth(i, t.months);
+      if (short <= 0) return 0;
+      return a === 0 ? NaN : short / a;
     }
     case "start":
-      return (t.end - t.monthly * A(t.months)) / growth(i, t.months);
+      return atLeastZero((t.end - t.monthly * A(t.months)) / growth(i, t.months));
     case "months": {
+      if (t.end <= t.start) return 0;
+      // Nothing coming in can never reach the end amount.
+      if (t.start <= 0 && t.monthly <= 0) return NaN;
       if (i === 0) return t.monthly > 0 ? (t.end - t.start) / t.monthly : NaN;
       const c = (t.monthly * (t.startOfMonth ? 1 + i : 1)) / i;
       const ratio = (t.end + c) / (t.start + c);
-      return ratio > 0 ? Math.log(ratio) / Math.log(1 + i) : NaN;
+      return ratio > 0 ? atLeastZero(Math.log(ratio) / Math.log(1 + i)) : NaN;
     }
     case "rate": {
-      // The end amount rises with the rate, so bisect between -11.88% and 60% a year.
+      // The end amount rises with the rate, so bisect between 0% and 60% a year;
+      // when 0% already reaches it, no interest is needed.
       const f = (r: number) =>
         t.start * growth(r, t.months) + t.monthly * A(t.months, r) - t.end;
-      let lo = -0.0099;
+      let lo = 0;
       let hi = 0.05;
-      if (f(lo) > 0 || f(hi) < 0) return NaN;
+      // Nothing put in, or no time: no rate makes a difference.
+      if ((t.start === 0 && t.monthly === 0) || t.months <= 0) return NaN;
+      if (f(lo) >= 0) return 0;
+      if (f(hi) < 0) return NaN;
       for (let k = 0; k < 200; k++) {
         const mid = (lo + hi) / 2;
         if (f(mid) > 0) hi = mid;
@@ -217,6 +231,13 @@ export function simulate({
   };
   yearOf(0).paidIn += start;
   yearOf(0).balance = balance;
+  // Fees due straight away (no months to save) come out of today's balance.
+  if (months === 0 && costs.length > 0) {
+    balance -= costs[0];
+    yearOf(0).costs += costs[0];
+    yearOf(0).balance = balance;
+    points[0].balance = balance;
+  }
   for (let m = 1; m <= last; m++) {
     const row = yearOf(m);
     const deposit = m <= months ? monthly : 0;
@@ -235,13 +256,6 @@ export function simulate({
     }
     row.balance = balance;
     points.push({ month: m, paidIn, balance });
-  }
-  // Fees due straight away (no months to save) come out of today's balance.
-  if (last === 0 && costs.length > 0) {
-    balance -= costs[0];
-    yearOf(0).costs += costs[0];
-    yearOf(0).balance = balance;
-    points[0].balance = balance;
   }
   return { points, years: [...years.values()], paidIn, interest };
 }

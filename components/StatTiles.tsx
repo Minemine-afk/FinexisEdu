@@ -15,6 +15,7 @@ export default function StatTiles({
   countryByCode,
   only,
   planner,
+  onPlan,
 }: {
   selections: Selection[];
   countryByCode: Map<string, Country>;
@@ -22,10 +23,13 @@ export default function StatTiles({
   only?: number;
   /** Adds a "Plan savings" button that opens the savings planner, as a bottom sheet when `sheet`. */
   planner?: { today: string; sheet: boolean };
+  /** When given, "Plan savings" calls this and the caller shows the planner (so it can outlive a layout change). */
+  onPlan?: (key: string) => void;
 }) {
   const [planKey, setPlanKey] = useState<string | null>(null);
   const closePlanner = useCallback(() => setPlanKey(null), []);
-  const planning = selections.find((s) => s.key === planKey);
+  const planning = onPlan ? undefined : selections.find((s) => s.key === planKey);
+  const openPlanner = onPlan ?? setPlanKey;
   // Selections are sorted by total, so the first is the cheapest.
   const cheapest = selections[0];
   // Three tiles only fit side by side from lg up; a tablet in portrait gets two columns.
@@ -69,10 +73,10 @@ export default function StatTiles({
             </p>
             <p className="mt-1 text-sm tabular-nums">
               <InfoTip term="perYear">
-                ≈ {formatMoney(s.grandTotalSgd / s.result.durationYears, "SGD")}{" "}
+                ≈ {formatMoney(s.grandTotalSgd / Math.max(1, s.result.durationYears), "SGD")}{" "}
                 a year ·{" "}
                 {formatMoney(
-                  s.grandTotalSgd / s.result.durationYears / 12,
+                  s.grandTotalSgd / Math.max(1, s.result.durationYears) / 12,
                   "SGD",
                 )}{" "}
                 a month
@@ -101,7 +105,7 @@ export default function StatTiles({
             {planner && (
               <button
                 type="button"
-                onClick={() => setPlanKey(s.key)}
+                onClick={() => openPlanner(s.key)}
                 className={`mt-3 inline-flex min-h-11 items-center justify-center gap-2 justify-self-start rounded-full border border-accent px-4 text-sm font-medium text-accent hover:bg-chip sm:min-h-9${FOCUS}`}
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>

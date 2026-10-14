@@ -24,6 +24,7 @@ import {
   MAX_SELECTED,
   MIN_START_YEAR,
   pickProgramme,
+  unavailableHint,
   useCalculator,
   type CalculatorProps,
   type CountryGroup,
@@ -122,11 +123,14 @@ function DesktopCalculator({
           onChange={changeLevel}
         />
 
-        <label className="block">
+        <div>
           <span className="text-sm font-medium">
-            <InfoTip term="residency">Residency</InfoTip>
+            <InfoTip term="residency">
+              <label htmlFor="residency">Residency</label>
+            </InfoTip>
           </span>
           <select
+            id="residency"
             className={select}
             value={residency}
             onChange={(e) => setResidency(e.target.value as Residency)}
@@ -140,7 +144,7 @@ function DesktopCalculator({
           <span className="mt-1 block text-xs text-muted">
             Changes Singapore fees only; abroad you pay international rates.
           </span>
-        </label>
+        </div>
 
         <fieldset className="min-w-0 rounded-md border border-border bg-surface/60 p-3">
           <legend className="px-1 text-sm font-medium">
@@ -148,11 +152,14 @@ function DesktopCalculator({
               Rates based on {baseYearLabel} figures
             </InfoTip>
           </legend>
-          <label className="block">
+          <div>
             <span className="text-sm">
-              <InfoTip term="startYear">Start year</InfoTip>
+              <InfoTip term="startYear">
+                <label htmlFor="start-year">Start year</label>
+              </InfoTip>
             </span>
             <input
+              id="start-year"
               type="text"
               inputMode="numeric"
               pattern="[0-9]*"
@@ -171,7 +178,7 @@ function DesktopCalculator({
               {startYearError ??
                 `Enter the year the degree starts, ${MIN_START_YEAR} to ${maxStartYear}.`}
             </span>
-          </label>
+          </div>
           <div className="mt-3 text-sm">
             <span>% inflation</span>
             <ul className="mt-1 space-y-1 text-xs">
@@ -574,7 +581,7 @@ function UniversityPicker({
       )}
       {reason && (
         <p className="mt-1 text-xs text-warn-fg">
-          {reason}. Change the start year or residency to price it.
+          {reason}. {unavailableHint(reason)}
         </p>
       )}
       {taken.has(current.key) && (
@@ -607,9 +614,7 @@ function Segmented<T extends string>({
     <div>
       <span className={small ? "text-xs text-muted" : "text-sm font-medium"}>
         {tip ? (
-          <InfoTip term={tip} align="right">
-            {label}
-          </InfoTip>
+          <InfoTip term={tip}>{label}</InfoTip>
         ) : (
           label
         )}

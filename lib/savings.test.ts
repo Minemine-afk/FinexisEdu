@@ -81,4 +81,32 @@ describe("savings planner", () => {
     expect(solveTvm(begin, "end")).toBeGreaterThan(t.end);
     expect(solveTvm({ ...t, rate: 0 }, "end")).toBe(1000 + 3000 * 95);
   });
+
+  it("takes the first year's fees out today when there is no time to save", () => {
+    const costs = [100000, 100000, 100000];
+    const lump = lumpSum(neededAtStart(costs, 4, "yearly"), 0, 4, 0);
+    const plan = simulate({ start: lump, monthly: 0, months: 0, ratePct: 4, yearCosts: costs, today: TODAY });
+    expect(plan.years[0].costs).toBe(100000);
+    expect(plan.years.reduce((s, y) => s + y.costs, 0)).toBe(300000);
+    expect(plan.points[plan.points.length - 1].balance).toBeCloseTo(0, 2);
+  });
+
+  it("answers zero, not a negative amount, when what's there already covers the end amount", () => {
+    const t: Tvm = { months: 24, rate: 4, start: 300000, monthly: 0, end: 200000, startOfMonth: false };
+    expect(solveTvm(t, "monthly")).toBe(0);
+    expect(solveTvm({ ...t, monthly: 10000, end: 100000 }, "start")).toBe(0);
+    expect(solveTvm(t, "months")).toBe(0);
+    expect(solveTvm({ ...t, rate: 0 }, "months")).toBe(0);
+  });
+
+  it("never asks for infinite months and needs no interest when 0% already gets there", () => {
+    expect(solveTvm({ months: 0, rate: 4, start: 0, monthly: 0, end: 1000, startOfMonth: false }, "months")).toBeNaN();
+    expect(solveTvm({ months: 24, rate: 4, start: 0, monthly: 1000, end: 23000, startOfMonth: false }, "rate")).toBe(0);
+  });
+
+  it("finds no rate when nothing is put in or there is no time", () => {
+    expect(solveTvm({ months: 24, rate: 4, start: 0, monthly: 0, end: 0, startOfMonth: false }, "rate")).toBeNaN();
+    expect(solveTvm({ months: 0, rate: 4, start: 1000, monthly: 0, end: 1000, startOfMonth: false }, "rate")).toBeNaN();
+    expect(solveTvm({ months: 24, rate: 4, start: 0, monthly: 0, end: 1000, startOfMonth: false }, "rate")).toBeNaN();
+  });
 });

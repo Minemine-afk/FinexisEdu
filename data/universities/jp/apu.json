@@ -14,13 +14,13 @@
       "housing": 46000,
       "food": 30000,
       "transport": 12666.67,
-      "personal": 9666.67
+      "personal": 8000
     },
     "sourceUrl": "https://admissions.apu.ac.jp/student_life/money_matters/",
     "lastVerified": "2026-10-08",
     "sourceType": "official",
-    "summary": "APU's own sample monthly budget for a student renting in downtown Beppu: rent, utilities, food, local transport plus a yearly campus bus pass, and small extras, for 12 months a year. Health insurance is included; tuition and set-up costs are not.",
-    "notes": "Rung A. APU Admissions 'Money Matters' page, sample monthly living expenses for a student living in downtown Beppu (undated, read 2026-10-08; assumes tuition already paid): rent 30,000-50,000 (midpoint 40,000) + utilities 6,000 = housing 46,000; food 30,000; transport = 6,000 for 'other transportation needs' (the page says this excludes commuting) + the one-year student bus pass to campus of 60,000-100,000 (midpoint 80,000 / 12 = 6,666.67) = 12,666.67; personal = 'miscellaneous' 8,000 + National Health Insurance approx. 20,000 per 2 semesters from APU's study-abroad accommodation page (en.apu.ac.jp/abroad/prospective/independent/accommodation/, = 1,666.67/month) = 9,666.67. Excluded: the 200,000 initial cash the page says to bring for the first two months, Gakkensai student insurance (6,000/yr), academic expenses, tuition, and the AP House dormitory lump sum (approx. 400,000 per semester incl. utilities, i.e. about 66,700/month, dearer than the private-rent model used here)."
+    "summary": "APU's own sample monthly budget for a student renting in downtown Beppu: rent, utilities, food, local transport plus a yearly campus bus pass, and small extras, for 12 months a year. National Health Insurance, tuition and set-up costs are not included.",
+    "notes": "Rung A. APU Admissions 'Money Matters' page, sample monthly living expenses for a student living in downtown Beppu (undated, read 2026-10-08; assumes tuition already paid): rent 30,000-50,000 (midpoint 40,000) + utilities 6,000 = housing 46,000; food 30,000; transport = 6,000 for 'other transportation needs' (the page says this excludes commuting) + the one-year student bus pass to campus of 60,000-100,000 (midpoint 80,000 / 12 = 6,666.67) = 12,666.67; personal = 'miscellaneous' 8,000 (National Health Insurance, approx. 20,000 per 2 semesters on APU's study-abroad accommodation page, en.apu.ac.jp/abroad/prospective/independent/accommodation/, is excluded). Excluded: the 200,000 initial cash the page says to bring for the first two months, Gakkensai student insurance (6,000/yr), academic expenses, tuition, and the AP House dormitory lump sum (approx. 400,000 per semester incl. utilities, i.e. about 66,700/month, dearer than the private-rent model used here). Bug fix 2026-10-14: health insurance taken out of the personal line, as the schema keeps insurance out of living costs."
   },
   "programmes": [
     {

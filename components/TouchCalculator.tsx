@@ -18,6 +18,7 @@ import { Breakdown, chartParts, valueFor, type CompareCategory } from "./FeeChar
 import InfoTip from "./InfoTip";
 import RateInput from "./RateInput";
 import ResultDetail, { FOCUS } from "./ResultDetail";
+import SavingsPlanner from "./SavingsPlanner";
 import StatTiles from "./StatTiles";
 import {
   increaseBasisNote,
@@ -25,6 +26,7 @@ import {
   MAX_SELECTED,
   MIN_START_YEAR,
   pickProgramme,
+  unavailableHint,
   type CalculatorState,
   type Option,
   type Selection,
@@ -52,6 +54,11 @@ export default function TouchCalculator({
   // The comparison slot open in the picker sheet, if any.
   const [editing, setEditing] = useState<number | null>(null);
   const closeSheet = useCallback(() => setEditing(null), []);
+  // The savings planner lives here, not in the tiles, so it survives a phone
+  // turning into a tablet (and back) mid-plan.
+  const [planKey, setPlanKey] = useState<string | null>(null);
+  const closePlanner = useCallback(() => setPlanKey(null), []);
+  const planning = selections.find((s) => s.key === planKey);
 
   function addAndEdit() {
     const i = selected.length;
@@ -105,38 +112,47 @@ export default function TouchCalculator({
     />
   );
 
-  if (layout === "tablet") {
-    return (
-      <div className="grid gap-6 md:grid-cols-[19rem_1fr] lg:grid-cols-[21rem_1fr]">
-        <aside className="space-y-6 rounded-xl border border-border bg-sidebar p-4 md:self-start">
-          <Assumptions state={state} />
-          {universities}
-        </aside>
-        <Results state={state} today={today} layout="tablet" />
-        {sheet}
-      </div>
-    );
-  }
-
-  // Both tabs stay mounted so an expanded detail or a half-typed budget
-  // survives a trip to the other tab.
+  // One tree for both layouts, so switching between them (a phone turned
+  // sideways) keeps every component's state. A tablet shows the settings in a
+  // sidebar beside the results; a phone keeps both tabs mounted and hides one,
+  // so an expanded detail or a half-typed budget survives a trip to the other tab.
+  const tablet = layout === "tablet";
   return (
-    <div>
-      <div className={tab === "settings" ? "space-y-6" : "hidden"}>
+    <div className={tablet ? "grid gap-6 md:grid-cols-[19rem_1fr] lg:grid-cols-[21rem_1fr]" : ""}>
+      <aside
+        className={
+          tablet
+            ? "space-y-6 rounded-xl border border-border bg-sidebar p-4 md:self-start"
+            : tab === "settings"
+              ? "space-y-6"
+              : "hidden"
+        }
+      >
         <Assumptions state={state} />
-        <div className="border-t border-border pt-6">{universities}</div>
+        <div className={tablet ? "" : "border-t border-border pt-6"}>{universities}</div>
+      </aside>
+      <div className={tablet ? "min-w-0" : tab === "compare" ? "space-y-4" : "hidden"}>
+        {!tablet && <SettingsChips state={state} onOpen={() => setTab("settings")} />}
+        <Results state={state} today={today} layout={layout} onPlan={setPlanKey} />
       </div>
-      <div className={tab === "compare" ? "space-y-4" : "hidden"}>
-        <SettingsChips state={state} onOpen={() => setTab("settings")} />
-        <Results state={state} today={today} layout="phone" />
-      </div>
-      <TabBar
-        tab={tab}
-        onChange={setTab}
-        count={selections.length}
-        cheapest={selections[0]?.grandTotalSgd}
-        includeLiving={state.includeLiving}
-      />
+      {!tablet && (
+        <TabBar
+          tab={tab}
+          onChange={setTab}
+          count={selections.length}
+          cheapest={selections[0]?.grandTotalSgd}
+          includeLiving={state.includeLiving}
+        />
+      )}
+      {planning && (
+        <SavingsPlanner
+          key={planning.key}
+          selection={planning}
+          today={today}
+          sheet={!tablet}
+          onClose={closePlanner}
+        />
+      )}
       {sheet}
     </div>
   );
@@ -185,10 +201,12 @@ function Results({
   state,
   today,
   layout,
+  onPlan,
 }: {
   state: CalculatorState;
   today: string;
   layout: Exclude<Layout, "desktop">;
+  onPlan: (key: string) => void;
 }) {
   const { selections, countryByCode, categories, category, setCompare } =
     state;
@@ -213,12 +231,14 @@ function Results({
           selections={selections}
           countryByCode={countryByCode}
           today={today}
+          onPlan={onPlan}
         />
       ) : (
         <StatTiles
           selections={selections}
           countryByCode={countryByCode}
           planner={{ today, sheet: layout === "phone" }}
+          onPlan={onPlan}
         />
       )}
 
@@ -306,10 +326,12 @@ function Carousel({
   selections,
   countryByCode,
   today,
+  onPlan,
 }: {
   selections: Selection[];
   countryByCode: CalculatorState["countryByCode"];
   today: string;
+  onPlan: (key: string) => void;
 }) {
   const [rawPage, setPage] = useState(0);
   const page = Math.min(rawPage, selections.length - 1);
@@ -335,6 +357,7 @@ function Carousel({
               countryByCode={countryByCode}
               only={i}
               planner={{ today, sheet: true }}
+              onPlan={onPlan}
             />
           </div>
         ))}
@@ -627,6 +650,35 @@ function Assumptions({ state }: { state: CalculatorState }) {
   );
 }
 
+/** Initials of a name, minus small words: "National University of Singapore" gives "nus". */
+function initialsOf(name: string): string {
+  return name
+    .split(/[\s-]+/)
+    .filter((w) => w.length > 2 && !["and", "the", "for", "der", "des"].includes(w.toLowerCase()))
+    .map((w) => w[0])
+    .join("")
+    .toLowerCase();
+}
+
+const wordStart = (text: string, q: string) =>
+  text.toLowerCase().split(/[\s-]+/).some((w) => w.startsWith(q));
+
+/**
+ * How well a university matches a typed search, lower is better, or null for
+ * no match: its initials ("NUS", "ETH") first, then the start of a word in its
+ * name, then its city or country, then any part of its name for longer searches.
+ */
+function searchRank(name: string, city: string, country: string, q: string): number | null {
+  const initials = initialsOf(name);
+  if (initials === q) return 0;
+  if (initials.startsWith(q)) return 1;
+  if (name.toLowerCase().startsWith(q)) return 2;
+  if (wordStart(name, q)) return 3;
+  if (wordStart(city, q) || wordStart(country, q) || initialsOf(country) === q) return 4;
+  if (q.length >= 4 && name.toLowerCase().includes(q)) return 5;
+  return null;
+}
+
 /** One comparison slot as a tappable row. */
 function SlotRow({
   index,
@@ -644,7 +696,7 @@ function SlotRow({
   onRemove?: () => void;
 }) {
   const warn = reason
-    ? `${reason}. Change the start year or residency to price it.`
+    ? `${reason}. ${unavailableHint(reason)}`
     : duplicate
       ? "Same programme as another slot; pick a different one to compare."
       : null;
@@ -787,16 +839,24 @@ function PickerSheet({
   const pick = (candidates: Option[], field: Field = current.programme.field) =>
     setSlot(index, pickProgramme(candidates, field, reasonFor, taken).key);
 
-  // A typed search looks across every country.
+  // A typed search looks across every country, by name, initials ("NUS"), city or country.
   const q = query.trim().toLowerCase();
   const matches = q
     ? grouped
-        .flatMap((g) => g.options)
-        .filter(
-          (o, i, arr) =>
-            arr.findIndex((x) => x.university.id === o.university.id) === i &&
-            o.university.name.toLowerCase().includes(q),
+        .flatMap((g) =>
+          g.options.map((o) => ({ o, country: g.country?.name ?? "" })),
         )
+        .filter(
+          ({ o }, i, arr) =>
+            arr.findIndex((x) => x.o.university.id === o.university.id) === i,
+        )
+        .map(({ o, country }) => ({
+          o,
+          rank: searchRank(o.university.name, o.university.city, country, q),
+        }))
+        .filter((m): m is { o: Option; rank: number } => m.rank !== null)
+        .sort((a, b) => a.rank - b.rank)
+        .map(({ o }) => o)
     : [];
 
   const priced = (universityId: string) =>
@@ -968,8 +1028,7 @@ function PickerSheet({
               )}
               {reasonFor(current) && (
                 <p className="text-xs text-warn-fg">
-                  {reasonFor(current)}. Change the start year or residency to
-                  price it.
+                  {reasonFor(current)}. {unavailableHint(reasonFor(current)!)}
                 </p>
               )}
             </>
@@ -1071,9 +1130,7 @@ function TouchSegmented<T extends string>({
     <div>
       <span className="text-sm font-medium">
         {tip ? (
-          <InfoTip term={tip} align="right">
-            {label}
-          </InfoTip>
+          <InfoTip term={tip}>{label}</InfoTip>
         ) : (
           label
         )}
@@ -1094,7 +1151,7 @@ function TouchSegmented<T extends string>({
             role="radio"
             aria-checked={value === v}
             onClick={() => onChange(v)}
-            className={`min-h-11 rounded-lg px-2 text-sm leading-tight${FOCUS} ${value === v ? "bg-surface font-semibold shadow-sm" : "text-muted"}`}
+            className={`min-h-11 rounded-lg px-1 text-[13px] leading-tight${FOCUS} ${value === v ? "bg-surface font-semibold shadow-sm" : "text-muted"}`}
           >
             {text}
           </button>
@@ -1216,7 +1273,10 @@ function TabBar({
       {tab !== "compare" && count > 0 && cheapest !== undefined && (
         <button
           type="button"
-          onClick={() => onChange("compare")}
+          onClick={() => {
+            onChange("compare");
+            window.scrollTo({ top: 0 });
+          }}
           className={`flex w-full items-center justify-between gap-3 border-b border-border px-4 py-2 text-left text-xs${FOCUS}`}
         >
           <span className="text-muted">

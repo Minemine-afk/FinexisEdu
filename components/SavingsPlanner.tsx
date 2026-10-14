@@ -22,6 +22,8 @@ import {
 import { FOCUS } from "./ResultDetail";
 import type { Selection } from "./useCalculator";
 
+/** The most months the planner will simulate or accept: 100 years. */
+const MAX_MONTHS = 1200;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const sgd = (n: number) => formatMoney(n, "SGD");
 const pct = (r: number) => `${+r.toFixed(2)}%`;
@@ -53,6 +55,14 @@ function yearCostsSgd(s: Selection): number[] {
 interface Side {
   paidIn: number;
   interest: number;
+}
+interface Bars {
+  saving: Side | null;
+  investing: Side;
+  target: number;
+  targetLabel: string;
+  rate: number;
+  sameMoney?: boolean;
 }
 
 /**
@@ -149,7 +159,18 @@ export default function SavingsPlanner({
   let compare: [string, string] | null = null;
   let mine: Plan;
   let other: Plan | null;
-  let bars: { saving: Side | null; investing: Side; target: number; targetLabel: string; rate: number; sameMoney?: boolean };
+  // Null when the numbers give nothing worth drawing (no time to save, no answer).
+  let bars: Bars | null;
+  /** How a cost is met: your money up to the cost, interest for the rest. */
+  const covered = (paidIn: number, cost: number): Side => ({
+    paidIn: Math.min(paidIn, cost),
+    interest: Math.max(0, cost - paidIn),
+  });
+  /** "S$X less" when investing needs less than saving, "S$X more" when the rate is below the saving rate. */
+  const lessOrMore = (diff: number, suffix: string) =>
+    Math.abs(diff) < 0.5
+      ? `about the same as`
+      : `${sgd(Math.abs(diff))}${suffix} ${diff > 0 ? "less" : "more"} than`;
 
   if (mode === "monthly" || mode === "lump") {
     const lump = mode === "lump";
@@ -157,7 +178,7 @@ export default function SavingsPlanner({
     const amountSaving = lump
       ? lumpSum(needSaving, saved, SAVING_RATE, months)
       : monthlySaving(needSaving, saved, SAVING_RATE, months);
-    const tooLate = !Number.isFinite(amount);
+    const tooLate = !Number.isFinite(amount) || !Number.isFinite(amountSaving);
     mine = lump ? plan(saved + amount, 0, rate) : plan(saved, tooLate ? 0 : amount, rate);
     other = lump ? plan(saved + amountSaving, 0, SAVING_RATE) : plan(saved, tooLate ? 0 : amountSaving, SAVING_RATE);
     const unit = lump ? " once" : " a month";
@@ -176,19 +197,21 @@ export default function SavingsPlanner({
           amount === 0
             ? "What you've saved already covers it."
             : lump
-              ? `Investing at ${pct(rate)} needs ${sgd(amountSaving - amount)} less today than saving at ${pct(SAVING_RATE)}.`
-              : `Investing at ${pct(rate)} means ${sgd(amountSaving - amount)} a month less than saving at ${pct(SAVING_RATE)}.`
+              ? `Investing at ${pct(rate)} needs ${lessOrMore(amountSaving - amount, "")} saving at ${pct(SAVING_RATE)}.`
+              : `Investing at ${pct(rate)} means ${lessOrMore(amountSaving - amount, " a month")} saving at ${pct(SAVING_RATE)}.`
         }
       />
     );
     if (!tooLate) compare = [sgd(amountSaving) + (lump ? "" : " /mo"), sgd(amount) + (lump ? "" : " /mo")];
-    bars = {
-      saving: { paidIn: other.paidIn, interest: costTotal - other.paidIn },
-      investing: { paidIn: mine.paidIn, interest: costTotal - mine.paidIn },
-      target: costTotal,
-      targetLabel: "Total cost",
-      rate,
-    };
+    bars = tooLate
+      ? null
+      : {
+          saving: covered(other.paidIn, costTotal),
+          investing: covered(mine.paidIn, costTotal),
+          target: costTotal,
+          targetLabel: "Total cost",
+          rate,
+        };
   } else if (mode === "check") {
     mine = plan(saved, monthly, rate);
     other = plan(saved, monthly, SAVING_RATE);
@@ -196,16 +219,18 @@ export default function SavingsPlanner({
     const reachedSaving = growTo(saved, monthly, SAVING_RATE, months);
     const gap = need - reached;
     const extra = monthlySaving(gap, 0, rate, months);
+    const share = (got: number, needed: number) =>
+      needed > 0 ? `${Math.round((got / needed) * 100)}% of what's needed` : "more than enough";
     answer = (
       <Answer
         question={`Investing at ${pct(rate)}, by ${startLabel} your savings grow to`}
         value={sgd(reached)}
         status={
           gap <= 0
-            ? { good: true, text: `Covers the cost, with ${sgd(-gap)} to spare` }
+            ? { good: true, text: `Covers the cost, with ${sgd(Math.max(0, -gap))} to spare` }
             : { good: false, text: `Covers ${Math.round((reached / need) * 100)}%, short by ${sgd(gap)}` }
         }
-        note={`${gap > 0 && Number.isFinite(extra) ? `Saving another ${sgd(extra)} a month closes the gap. ` : ""}Saving at ${pct(SAVING_RATE)}, the same plan reaches ${sgd(reachedSaving)}, ${Math.round((reachedSaving / needSaving) * 100)}% of what's needed.`}
+        note={`${gap > 0 && Number.isFinite(extra) ? `Saving another ${sgd(extra)} a month closes the gap. ` : ""}Saving at ${pct(SAVING_RATE)}, the same plan reaches ${sgd(reachedSaving)}, ${share(reachedSaving, needSaving)}.`}
       />
     );
     compare = [sgd(reachedSaving), sgd(reached)];
@@ -223,7 +248,8 @@ export default function SavingsPlanner({
     const solved = solveTvm(t, tvmField);
     const full: Tvm = { ...t, [tvmField]: solved };
     const ok = Number.isFinite(solved);
-    const n = Math.max(0, Math.round(full.months));
+    // Only a real answer is simulated, and never beyond a century of months.
+    const n = ok ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : 0;
     mine = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
     other = null;
     let savingSide: Side | null = null;
@@ -232,7 +258,7 @@ export default function SavingsPlanner({
       const v = solveTvm(s0, tvmField);
       if (Number.isFinite(v)) {
         const f = { ...s0, [tvmField]: v };
-        other = simulate({ start: f.start, monthly: f.monthly, months: Math.max(0, Math.round(f.months)), ratePct: SAVING_RATE, startOfMonth, today: now });
+        other = simulate({ start: f.start, monthly: f.monthly, months: Math.min(MAX_MONTHS, Math.max(0, Math.round(f.months))), ratePct: SAVING_RATE, startOfMonth, today: now });
         savingSide = { paidIn: f.start + f.monthly * f.months, interest: f.end - f.start - f.monthly * f.months };
         compare = [show(f, tvmField), show(full, tvmField)];
       }
@@ -249,14 +275,20 @@ export default function SavingsPlanner({
       />
     );
     const paid = full.start + full.monthly * full.months;
-    bars = {
-      saving: savingSide,
-      investing: { paidIn: paid, interest: full.end - paid },
-      target: full.end,
-      targetLabel: "Amount needed at the end",
-      rate: full.rate,
-    };
-    const edit = (k: TvmField, v: number) => setTvmEdits({ ...full, [k]: v });
+    bars = ok
+      ? {
+          saving: savingSide && covered(savingSide.paidIn, savingSide.paidIn + savingSide.interest),
+          investing: covered(paid, full.end),
+          target: full.end,
+          targetLabel: "Amount needed at the end",
+          rate: full.rate,
+        }
+      : null;
+    // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
+    const clamp = (k: TvmField, v: number) =>
+      k === "rate" ? Math.min(20, Math.max(0, v)) : k === "months" ? Math.min(MAX_MONTHS, Math.max(0, v)) : Math.max(0, v);
+    // A box with no answer ("Not possible") is kept as 0 when it becomes an input again.
+    const edit = (k: TvmField, v: number) => setTvmEdits({ ...full, [tvmField]: ok ? solved : 0, [k]: clamp(k, v) });
     const tvmBoxes = (
       <div className="space-y-3">
         {TVM_FIELDS.map(([k, label]) => (
@@ -269,10 +301,10 @@ export default function SavingsPlanner({
                 type="button"
                 aria-pressed={tvmField === k}
                 onClick={() => {
-                  setTvmEdits(full);
+                  setTvmEdits({ ...full, [tvmField]: ok ? solved : 0 });
                   setTvmField(k);
                 }}
-                className={`min-h-9 shrink-0 whitespace-nowrap rounded-lg border px-2.5 text-xs${FOCUS} ${tvmField === k ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
+                className={`min-h-11 shrink-0 whitespace-nowrap rounded-lg border px-2.5 text-xs${FOCUS} ${tvmField === k ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
               >
                 {tvmField === k ? "Worked out" : "Work this out"}
               </button>
@@ -332,7 +364,7 @@ export default function SavingsPlanner({
                 type="button"
                 aria-pressed={rate === r}
                 onClick={() => setRate(r)}
-                className={`min-h-8 rounded-full border px-3 text-xs${FOCUS} ${rate === r ? "border-accent font-medium text-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
+                className={`min-h-11 rounded-full border px-3 text-xs${FOCUS} ${rate === r ? "border-accent font-medium text-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
               >
                 {name} {r}%
               </button>
@@ -406,7 +438,7 @@ export default function SavingsPlanner({
                   role="radio"
                   aria-checked={mode === m}
                   onClick={() => setMode(m)}
-                  className={`min-h-10 shrink-0 rounded-full border px-3.5 text-sm${FOCUS} ${
+                  className={`min-h-11 shrink-0 rounded-full border px-3.5 text-sm${FOCUS} ${
                     mode === m
                       ? "border-accent-fill bg-accent-fill font-medium text-on-accent"
                       : "border-border bg-surface text-muted hover:bg-chip"
@@ -442,7 +474,7 @@ export default function SavingsPlanner({
                               setTarget(null);
                               resetTvm();
                             }}
-                            className={`text-accent underline underline-offset-2${FOCUS}`}
+                            className={`-my-3 -mx-1 px-1 py-3 text-accent underline underline-offset-2${FOCUS}`}
                           >
                             Reset
                           </button>
@@ -501,11 +533,14 @@ export default function SavingsPlanner({
                   {compare && (
                     <dl className="grid grid-cols-2 gap-2.5 pt-1">
                       <Compared label={`Saving at ${pct(SAVING_RATE)}`} value={compare[0]} color="var(--you)" />
-                      <Compared label={`Investing at ${pct(bars.rate)}`} value={compare[1]} color="var(--series-1)" />
+                      <Compared label={`Investing at ${pct(bars?.rate ?? rate)}`} value={compare[1]} color="var(--series-1)" />
                     </dl>
                   )}
                 </div>
-                <Chart bars={bars} mine={mine} other={other} today={now} startMonth={mode === "tvm" ? null : months} startLabel={startLabel} view={view} setView={setView} />
+                {bars && (
+                  <Chart bars={bars} mine={mine} other={other} today={now} startMonth={mode === "tvm" ? null : months} startLabel={startLabel} view={view} setView={setView} />
+                )}
+                {bars && (
                 <details className="rounded-xl border border-border">
                   <summary className={`cursor-pointer rounded-xl px-4 py-3 text-sm font-medium${FOCUS}`}>
                     Year by year (investing at {pct(bars.rate)})
@@ -537,6 +572,7 @@ export default function SavingsPlanner({
                     </table>
                   </div>
                 </details>
+                )}
               </div>
             </div>
           </div>
@@ -687,7 +723,13 @@ function NumberField({
         inputMode="decimal"
         readOnly={readOnly}
         value={draft ?? shown}
-        onFocus={() => !readOnly && setDraft(Number.isFinite(value) ? String(+value.toFixed(decimals)) : "")}
+        onFocus={(e) => {
+          if (readOnly) return;
+          setDraft(Number.isFinite(value) ? String(+value.toFixed(decimals)) : "");
+          // The re-render drops the browser's select-all, so select the plain number again.
+          const el = e.currentTarget;
+          requestAnimationFrame(() => el.select());
+        }}
         onBlur={() => setDraft(null)}
         onChange={(e) => {
           setDraft(e.target.value);
@@ -712,7 +754,7 @@ function Chart({
   view,
   setView,
 }: {
-  bars: { saving: Side | null; investing: Side; target: number; targetLabel: string; rate: number; sameMoney?: boolean };
+  bars: Bars;
   mine: Plan;
   other: Plan | null;
   today: { year: number; month: number };
@@ -733,10 +775,17 @@ function Chart({
       Investing at {r} grows the same plan to{" "}
       <em className="not-italic text-series-4">{sgd(investing.interest - saving.interest)} more</em> than saving at {pct(SAVING_RATE)}.
     </>
+  ) : Math.abs(saving.paidIn - investing.paidIn) < 0.5 ? (
+    <>
+      Investing at {r} takes <em className="not-italic text-series-4">the same money</em> as saving at {pct(SAVING_RATE)}.
+    </>
   ) : (
     <>
-      Investing at {r} means <em className="not-italic text-series-4">{sgd(saving.paidIn - investing.paidIn)} less</em> of your own
-      money than saving at {pct(SAVING_RATE)}.
+      Investing at {r} means{" "}
+      <em className="not-italic text-series-4">
+        {sgd(Math.abs(saving.paidIn - investing.paidIn))} {saving.paidIn > investing.paidIn ? "less" : "more"}
+      </em>{" "}
+      of your own money than saving at {pct(SAVING_RATE)}.
     </>
   );
   return (
@@ -756,7 +805,7 @@ function Chart({
                 type="button"
                 aria-pressed={view === v}
                 onClick={() => setView(v)}
-                className={`min-h-8 rounded-md px-2.5${FOCUS} ${view === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted"}`}
+                className={`min-h-11 rounded-md px-2.5${FOCUS} ${view === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted"}`}
               >
                 {text}
               </button>
@@ -774,7 +823,7 @@ function Chart({
   );
 }
 
-function Split({ bars }: { bars: { saving: Side | null; investing: Side; target: number; targetLabel: string; rate: number } }) {
+function Split({ bars }: { bars: Bars }) {
   const rows: [string, Side][] = [
     ...(bars.saving ? [[`Saving at ${pct(SAVING_RATE)}`, bars.saving] as [string, Side]] : []),
     [`Investing at ${pct(bars.rate)}`, bars.investing],
@@ -862,10 +911,25 @@ function OverTime({
   for (let yr = today.year + 1; ; yr += every) {
     const m = (yr - today.year) * 12 - today.month;
     if (m > maxM) break;
-    years.push([yr, m]);
+    // A year that lands under the "S$0" axis label is skipped.
+    if (x(m) >= pad.l + 14) years.push([yr, m]);
   }
   const labelM = Math.round((startMonth ?? maxM) * 0.8);
   const labelPt = investing.points.find((q) => q.month === labelM);
+  // Labels sit on a halo of the background so the lines don't cut through them;
+  // the "Fees start" label flips to the right of its line when the line is near the left edge.
+  const halo = { paintOrder: "stroke" as const, stroke: "var(--surface)", strokeWidth: 4, strokeLinejoin: "round" as const };
+  const startX = startMonth !== null ? x(startMonth) : 0;
+  // Roughly 5.6px a character at 11px; used to keep labels inside the chart.
+  const textW = (t: string) => t.length * 5.6;
+  const startText = `Fees start · ${startLabel}`;
+  // The label sits to the right of its line when it fits there, else to the left,
+  // and against the chart's right edge on a narrow chart where neither fits.
+  const fitsRight = startX + 5 + textW(startText) <= W - pad.r;
+  const fitsLeft = startX - 5 - textW(startText) >= pad.l;
+  const startLabelX = fitsRight ? startX + 5 : fitsLeft ? startX - 5 : W - pad.r;
+  const gapText = `Interest covers ${formatCompactSgd(gap)}`;
+  const gapX = Math.min(W - pad.r - textW(gapText) / 2, Math.max(pad.l + textW(gapText) / 2, x(labelM)));
   return (
     <figure className="mt-3">
       <svg ref={ref} width="100%" height={H} viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Money put in over time: saving at ${pct(SAVING_RATE)} compared with investing at ${rate}`} className="block text-[11px]">
@@ -886,16 +950,22 @@ function OverTime({
         {startMonth !== null && startMonth <= maxM && (
           <g>
             <line x1={x(startMonth)} x2={x(startMonth)} y1={pad.t} y2={H - pad.b} stroke="var(--muted)" strokeDasharray="3 3" />
-            <text x={x(startMonth) - 5} y={pad.t + 10} textAnchor="end" fill="var(--foreground)">
-              Fees start · {startLabel}
+            <text
+              x={startLabelX}
+              y={pad.t + 10}
+              textAnchor={fitsRight ? "start" : "end"}
+              fill="var(--foreground)"
+              style={halo}
+            >
+              {startText}
             </text>
           </g>
         )}
         <path d={path(saving)} fill="none" stroke="var(--you)" strokeWidth={2.4} />
         <path d={path(investing)} fill="none" stroke="var(--series-1)" strokeWidth={2.4} />
         {gap > 0 && labelPt && (
-          <text x={x(labelM)} y={y(labelPt.paidIn) + 18} textAnchor="middle" fill="var(--series-4)" fontWeight={600}>
-            Interest covers {formatCompactSgd(gap)}
+          <text x={gapX} y={y(labelPt.paidIn) + 18} textAnchor="middle" fill="var(--series-4)" fontWeight={600} style={halo}>
+            {gapText}
           </text>
         )}
       </svg>
