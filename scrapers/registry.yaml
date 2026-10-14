@@ -626,18 +626,15 @@ sources:
     url: https://www.sydney.edu.au/study/fees-and-loans/other-costs/living-costs.html
     parser: html
     targets:
+    # The low end of each range (second look 2026-10-14), not the midpoint.
     - key: living.housing
-      pattern: Monthly cost \(AUD\) Accommodation .*?\$([\d,]+) ?[–-] ?\$([\d,]+)
-      multiplier: 0.5
+      pattern: Monthly cost \(AUD\) Accommodation .*?\$([\d,]+) ?[–-] ?\$[\d,]+
     - key: living.food
-      pattern: Food and groceries .*?\$([\d,]+) ?[–-] ?\$([\d,]+)
-      multiplier: 0.5
+      pattern: Food and groceries .*?\$([\d,]+) ?[–-] ?\$[\d,]+
     - key: living.transport
-      pattern: Transport Public transport in Sydney .*?\$([\d,]+) ?[–-] ?\$([\d,]+)
-      multiplier: 0.5
+      pattern: Transport Public transport in Sydney .*?\$([\d,]+) ?[–-] ?\$[\d,]+
     - key: living.personal
-      pattern: Mobile phone plan .*?\$([\d,]+) ?[–-] ?\$([\d,]+) Lifestyle expenses .*?\$([\d,]+) ?[–-] ?\$([\d,]+) Gym membership .*?\$([\d,]+) ?[–-] ?\$([\d,]+)
-      multiplier: 0.5
+      pattern: Mobile phone plan .*?\$([\d,]+) ?[–-] ?\$[\d,]+ Lifestyle expenses .*?\$([\d,]+) ?[–-] ?\$[\d,]+ Gym membership .*?\$([\d,]+) ?[–-] ?\$[\d,]+
   - university: berkeley
     country: us
     url: https://registrar.berkeley.edu/tuition-fees/fee-schedule/

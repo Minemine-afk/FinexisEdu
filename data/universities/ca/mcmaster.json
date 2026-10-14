@@ -14,13 +14,13 @@
       "housing": 1152.5,
       "food": 910,
       "transport": 0,
-      "personal": 0
+      "personal": 401.88
     },
     "sourceUrl": "https://housing.mcmaster.ca/future-residents/residence-fees/",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-14",
     "sourceType": "official",
-    "summary": "The university's on-campus costs for an 8-month academic year: a double residence room and a residence meal plan. Transport is covered by the student bus pass; personal costs are not included.",
-    "notes": "McMaster publishes no off-campus budget, so on-campus figures are used. Housing = Residence Fees 2026-27 'Double Room' $9,220 for the 8-month academic year (cheapest standard room; traditional triple/quad rooms are $6,750/$6,550). Food = Trad A residence meal plan $7,280 for the full academic year from Hospitality Services (https://hospitality.mcmaster.ca/meal-plans-and-cards/meal-plans/residence-meal-plans/). Transport 0: HSR bus pass is included in compulsory MSU fees. Personal 0: no university estimate. Residence application fee ($100) and $500 deposit excluded."
+    "summary": "The university's on-campus costs for an 8-month academic year: a double residence room, a residence meal plan, and McMaster's typical allowance for books, personal and entertainment spending. Transport is covered by the student bus pass.",
+    "notes": "McMaster publishes no off-campus budget, so on-campus figures are used. Housing = Residence Fees 2026-27 'Double Room' $9,220 for the 8-month academic year (cheapest standard room; traditional triple/quad rooms are $6,750/$6,550). Food = Trad A residence meal plan $7,280 for the full academic year from Hospitality Services (https://hospitality.mcmaster.ca/meal-plans-and-cards/meal-plans/residence-meal-plans/). Transport 0: HSR bus pass is included in compulsory MSU fees. Personal 0: no university estimate. Residence application fee ($100) and $500 deposit excluded. Second look 2026-10-14: personal filled from McMaster's own Cost Estimator https://future.mcmaster.ca/finances/cost-estimator/ (read 2026-10-14; 'unofficial estimates for the 2026/2027 school year', whose default values are 'typical amounts for an average McMaster Student'): books & supplies $1,215 + personal expenses $1,000 + entertainment costs $1,000 (+ other expenses $0) = $3,215 for the year, /8 = $401.88 a month. The estimator's transportation default ($1,000) is not added because the HSR bus pass is already in the compulsory MSU fees. Estimator added to the scraper registry as a manual source."
   },
   "programmes": [
     {

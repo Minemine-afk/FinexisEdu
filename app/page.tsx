@@ -1,13 +1,13 @@
 import Calculator from "@/components/Calculator";
 import UniversityRationale from "@/components/UniversityRationale";
-import { loadCountries, loadRationale, loadUniversities } from "@/lib/data";
+import { forSite, loadCountries, loadRationale, loadUniversities } from "@/lib/data";
 import { getFxRates } from "@/lib/fx";
 
 // Re-render daily so exchange rates stay fresh; fee data changes on redeploy.
 export const revalidate = 86400;
 
 export default async function Home() {
-  const universities = loadUniversities();
+  const universities = forSite(loadUniversities());
   const countries = loadCountries();
   const rationale = loadRationale();
   const fx = await getFxRates();

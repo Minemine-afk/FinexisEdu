@@ -303,13 +303,14 @@ export function useCalculator({
   const maxStartYear = MAX_START_YEAR;
   const startYearError = (() => {
     const t = startYearInput.trim();
+    const still = `Results still use ${startYear}.`;
     if (!/^\d{4}$/.test(t))
-      return `Enter a four-digit year, ${MIN_START_YEAR} to ${maxStartYear}.`;
+      return `Enter a four-digit year, ${MIN_START_YEAR} to ${maxStartYear}. ${still}`;
     const y = Number(t);
     if (y < MIN_START_YEAR)
-      return `Fee tables start at ${MIN_START_YEAR}. Enter ${MIN_START_YEAR} or a later year.`;
+      return `Fee tables start at ${MIN_START_YEAR}. Enter ${MIN_START_YEAR} or a later year. ${still}`;
     if (y > maxStartYear)
-      return `Projections stop at ${maxStartYear}. Enter ${maxStartYear} or earlier.`;
+      return `Projections stop at ${maxStartYear}. Enter ${maxStartYear} or earlier. ${still}`;
     return null;
   })();
   /** Applies what the user typed in the start-year box when it is a usable year. */

@@ -259,7 +259,7 @@ export default function SavingsPlanner({
           aria-label="Close"
           tabIndex={-1}
           onClick={onClose}
-          className="absolute inset-0 bg-foreground/50"
+          className="absolute inset-0 bg-backdrop"
         />
         <div
           ref={dialogRef}
@@ -268,17 +268,17 @@ export default function SavingsPlanner({
           aria-labelledby={titleId}
           className={`absolute flex flex-col overflow-hidden bg-surface shadow-2xl ${
             sheet
-              ? "inset-x-0 bottom-0 max-h-[92vh] rounded-t-3xl"
+              ? "inset-x-0 bottom-0 max-h-[92vh] rounded-t-3xl [@media(max-height:500px)]:max-h-full [@media(max-height:500px)]:rounded-none"
               : "left-1/2 top-1/2 max-h-[90vh] w-[min(56rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border"
           }`}
         >
-          {sheet && <div aria-hidden className="mx-auto mt-2 h-1.5 w-10 shrink-0 rounded-full bg-border" />}
-          <div className="flex shrink-0 items-start gap-3 border-b border-border px-4 pb-3 pt-3 sm:px-6 sm:pt-4">
+          {sheet && <div aria-hidden className="mx-auto mt-2 h-1.5 w-10 shrink-0 rounded-full bg-border [@media(max-height:500px)]:hidden" />}
+          <div className="flex shrink-0 items-start gap-3 border-b border-border px-4 pb-3 pt-3 sm:px-6 sm:pt-4 [@media(max-height:500px)]:pb-2 [@media(max-height:500px)]:pt-2">
             <div className="min-w-0 flex-1">
               <h2 id={titleId} className="text-lg font-semibold">
                 Time Value of Money calculator
               </h2>
-              <p className="text-sm text-muted">
+              <p className="text-sm text-muted [@media(max-height:500px)]:hidden">
                 {s.university.name} · {programmeLabel(s.university, s.programme)}
               </p>
             </div>
