@@ -53,10 +53,6 @@ export default function UniversityRationale({
             students, ease of entry and affordability. Each reason below says what links the university to
             Singapore.
           </p>
-          <p className="text-muted">
-            The other {universities.length - shortlisted} were in the calculator before the shortlist: the Singapore
-            universities as the local benchmark, and overseas universities with strong Singapore links.
-          </p>
 
           <div className="divide-y divide-border rounded-md border border-border">
             {groups.map((g) => (
