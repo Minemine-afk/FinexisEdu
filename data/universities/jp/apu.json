@@ -177,7 +177,7 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 2100000,
+          "annualTuition": 2000000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000
         }
@@ -185,33 +185,61 @@
       "sourceUrl": "https://admissions.apu.ac.jp/graduate/cost/enrollment_fee/",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
-      "summary": "Yearly tuition for 2027 entrants before scholarships, from the ¥4,200,000 programme total over 2 years. The one-off ¥200,000 is the admission fee. Taught in English.",
-      "notes": "Graduate Tuition and Fees page (from AY2027): MBA total tuition ¥4,200,000 for completion, divided by a 2-year standard duration = ¥2,100,000/yr. Admission fee ¥200,000. Insurance ¥6,850 excluded. Tuition may change and varies with the APU Tuition Reduction Scholarship. Fully English-based. History rows (read 2026-10-13): APU 'Tuition fees (Graduate School)' page, table for students enrolled in AY 2020 - AY 2026: 2-year standard course semesters ¥900,000, ¥900,000, ¥1,000,000, ¥1,000,000, total ¥3,800,000, divided by 2 years = ¥1,900,000/yr; admission fee ¥200,000.",
+      "cohortLocked": true,
+      "summary": "Before scholarships, 2027 entrants pay ¥2,000,000 in year 1 and ¥2,200,000 in year 2 (¥4,200,000 for the 2-year MBA), plus a one-off ¥200,000 admission fee. Taught in English.",
+      "notes": "Graduate Tuition and Fees page (from AY2027): MBA total tuition ¥4,200,000 for completion, divided by a 2-year standard duration = ¥2,100,000/yr. Admission fee ¥200,000. Insurance ¥6,850 excluded. Tuition may change and varies with the APU Tuition Reduction Scholarship. Fully English-based. History rows (read 2026-10-13): APU 'Tuition fees (Graduate School)' page, table for students enrolled in AY 2020 - AY 2026: 2-year standard course semesters ¥900,000, ¥900,000, ¥1,000,000, ¥1,000,000, total ¥3,800,000, divided by 2 years = ¥1,900,000/yr; admission fee ¥200,000. Second look 2026-10-14: the summary quoted a fixed programme total but cohortLocked was false, so the site grew year 2 by the yearly increase. APU's graduate fee page (https://en.apu.ac.jp/home/life/content32/, read 2026-10-14) publishes one semester-by-semester schedule per entering cohort ('Students enrolled in AY2027': MBA semesters 1-2 ¥1,000,000 each and 3-4 ¥1,100,000 each, total ¥4,200,000; 'Students enrolled in AY2020 and AY2026 earlier': ¥900,000 x 2 then ¥1,000,000 x 2, total ¥3,800,000), so cohortLocked is now true as for the undergraduate entries, annualTuition is the year-1 figure (2 semesters) instead of the 2-year average, and year 2 is carried as laterYears on the current record and on the 2024-2026 history rows (same page, same table). Totals are unchanged.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 1900000,
+          "annualTuition": 1800000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000,
-          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/"
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 2000000,
+              "estimate": false
+            }
+          ]
         },
         {
           "feeYear": 2025,
           "tier": "international",
-          "annualTuition": 1900000,
+          "annualTuition": 1800000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000,
-          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/"
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 2000000,
+              "estimate": false
+            }
+          ]
         },
         {
           "feeYear": 2026,
           "tier": "international",
-          "annualTuition": 1900000,
+          "annualTuition": 1800000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000,
-          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/"
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 2000000,
+              "estimate": false
+            }
+          ]
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 2200000,
+          "estimate": false
         }
       ]
     },
@@ -223,7 +251,7 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 1555000,
+          "annualTuition": 1455000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000
         }
@@ -231,33 +259,61 @@
       "sourceUrl": "https://admissions.apu.ac.jp/graduate/cost/enrollment_fee/",
       "lastVerified": "2026-10-07",
       "sourceType": "official",
-      "cohortLocked": false,
-      "summary": "Yearly tuition for 2027 entrants before scholarships, from the ¥3,110,000 programme total over 2 years. The one-off ¥200,000 is the admission fee. Taught in English.",
-      "notes": "Graduate Tuition and Fees page (from AY2027): Master's in Asia Pacific Studies total tuition ¥3,110,000 for completion, divided by a 2-year standard duration = ¥1,555,000/yr. Admission fee ¥200,000. Insurance ¥6,850 excluded. Fields include International Relations, Society and Culture, Development Economics, International Public Administration, Sustainability Science, Tourism and Hospitality. Fully English-based. History rows (read 2026-10-13): APU 'Tuition fees (Graduate School)' page, table for students enrolled in AY 2020 - AY 2026: 2-year standard course semesters ¥650,000, ¥650,000, ¥750,000, ¥750,000, total ¥2,800,000, divided by 2 years = ¥1,400,000/yr; admission fee ¥200,000.",
+      "cohortLocked": true,
+      "summary": "Before scholarships, 2027 entrants pay ¥1,455,000 in year 1 and ¥1,655,000 in year 2 (¥3,110,000 for the 2-year Master's in Asia Pacific Studies), plus a one-off ¥200,000 admission fee. Taught in English.",
+      "notes": "Graduate Tuition and Fees page (from AY2027): Master's in Asia Pacific Studies total tuition ¥3,110,000 for completion, divided by a 2-year standard duration = ¥1,555,000/yr. Admission fee ¥200,000. Insurance ¥6,850 excluded. Fields include International Relations, Society and Culture, Development Economics, International Public Administration, Sustainability Science, Tourism and Hospitality. Fully English-based. History rows (read 2026-10-13): APU 'Tuition fees (Graduate School)' page, table for students enrolled in AY 2020 - AY 2026: 2-year standard course semesters ¥650,000, ¥650,000, ¥750,000, ¥750,000, total ¥2,800,000, divided by 2 years = ¥1,400,000/yr; admission fee ¥200,000. Second look 2026-10-14: the summary quoted a fixed programme total but cohortLocked was false, so the site grew year 2 by the yearly increase. APU's graduate fee page (https://en.apu.ac.jp/home/life/content32/, read 2026-10-14) publishes one semester-by-semester schedule per entering cohort ('Students enrolled in AY2027': Master's in Asia Pacific Studies semesters 1-2 ¥727,500 each and 3-4 ¥827,500 each, total ¥3,110,000; 'Students enrolled in AY2020 and AY2026 earlier': ¥650,000 x 2 then ¥750,000 x 2, total ¥2,800,000), so cohortLocked is now true as for the undergraduate entries, annualTuition is the year-1 figure (2 semesters) instead of the 2-year average, and year 2 is carried as laterYears on the current record and on the 2024-2026 history rows (same page, same table). Totals are unchanged.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 1400000,
+          "annualTuition": 1300000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000,
-          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/"
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
         },
         {
           "feeYear": 2025,
           "tier": "international",
-          "annualTuition": 1400000,
+          "annualTuition": 1300000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000,
-          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/"
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
         },
         {
           "feeYear": 2026,
           "tier": "international",
-          "annualTuition": 1400000,
+          "annualTuition": 1300000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 200000,
-          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/"
+          "sourceUrl": "https://en.apu.ac.jp/home/life/content32/",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 1500000,
+              "estimate": false
+            }
+          ]
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 1655000,
+          "estimate": false
         }
       ]
     }
