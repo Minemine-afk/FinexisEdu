@@ -14,13 +14,13 @@
       "housing": 60550,
       "food": 45000,
       "transport": 7500,
-      "personal": 28916.67
+      "personal": 26666.67
     },
     "sourceUrl": "https://piloti.sophia.ac.jp/eng/studyabroad/exchangeprograms/housinginfo_costs/living_expenses/",
     "lastVerified": "2026-10-08",
     "sourceType": "official",
-    "summary": "Sophia's own monthly living-expense guide for international students in Tokyo (meals, commuting, personal spending, textbooks and health insurance) plus its own international house rent with utilities included, 12 months a year. Sophia suggests about 150,000 a month overall.",
-    "notes": "Rung A. Sophia University Web Piloti 'Living Expenses' page for international students (undated, read 2026-10-08; says to prepare approx. 150,000 JPY per month): food = meals 30,000-60,000 (midpoint 45,000); transport = commuter pass 5,000-10,000 (midpoint 7,500); personal = personal expenses 20,000 + Japanese National Health Insurance 1,500-3,000 (midpoint 2,250) + textbooks 30,000-50,000 per semester (midpoint 40,000 / 6 months = 6,666.67) = 28,916.67. The page gives no rent figure and refers to Sophia's housing list, so housing = Sophia Soshigaya International House, the university-run option on the Spring/Autumn 2026 Housing List Summary (piloti.sophia.ac.jp/assets/uploads/2026/02/26A_Housing-List-Summary_202602.pdf): 605,500 for one year (10 months) = 60,550/month, utilities included (about 60 minutes from campus; options nearer campus on the same list run roughly 87,500-130,000/month). This is close to the JASSO 2023 survey average rent in Tokyo of 57,000. Excluded: Personal Accident Insurance for Students 800/year, tuition, flights and set-up costs."
+    "summary": "Sophia's own monthly living-expense guide for international students in Tokyo (meals, commuting, personal spending and textbooks, not health insurance) plus its own international house rent with utilities included, 12 months a year. Sophia suggests about 150,000 a month overall.",
+    "notes": "Rung A. Sophia University Web Piloti 'Living Expenses' page for international students (undated, read 2026-10-08; says to prepare approx. 150,000 JPY per month): food = meals 30,000-60,000 (midpoint 45,000); transport = commuter pass 5,000-10,000 (midpoint 7,500); personal = personal expenses 20,000 + textbooks 30,000-50,000 per semester (midpoint 40,000 / 6 months = 6,666.67) = 26,666.67 (Japanese National Health Insurance 1,500-3,000 is excluded). The page gives no rent figure and refers to Sophia's housing list, so housing = Sophia Soshigaya International House, the university-run option on the Spring/Autumn 2026 Housing List Summary (piloti.sophia.ac.jp/assets/uploads/2026/02/26A_Housing-List-Summary_202602.pdf): 605,500 for one year (10 months) = 60,550/month, utilities included (about 60 minutes from campus; options nearer campus on the same list run roughly 87,500-130,000/month). This is close to the JASSO 2023 survey average rent in Tokyo of 57,000. Excluded: Personal Accident Insurance for Students 800/year, tuition, flights and set-up costs. Bug fix 2026-10-14: health insurance taken out of the personal line, as the schema keeps insurance out of living costs."
   },
   "programmes": [
     {

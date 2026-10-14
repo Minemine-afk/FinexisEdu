@@ -99,6 +99,11 @@ describe("savings planner", () => {
     expect(solveTvm({ ...t, rate: 0 }, "months")).toBe(0);
   });
 
+  it("never asks for infinite months and needs no interest when 0% already gets there", () => {
+    expect(solveTvm({ months: 0, rate: 4, start: 0, monthly: 0, end: 1000, startOfMonth: false }, "months")).toBeNaN();
+    expect(solveTvm({ months: 24, rate: 4, start: 0, monthly: 1000, end: 23000, startOfMonth: false }, "rate")).toBe(0);
+  });
+
   it("finds no rate when nothing is put in or there is no time", () => {
     expect(solveTvm({ months: 24, rate: 4, start: 0, monthly: 0, end: 0, startOfMonth: false }, "rate")).toBeNaN();
     expect(solveTvm({ months: 0, rate: 4, start: 1000, monthly: 0, end: 1000, startOfMonth: false }, "rate")).toBeNaN();

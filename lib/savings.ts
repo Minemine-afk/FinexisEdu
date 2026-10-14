@@ -136,20 +136,24 @@ export function solveTvm(t: Tvm, field: TvmField): number {
       return atLeastZero((t.end - t.monthly * A(t.months)) / growth(i, t.months));
     case "months": {
       if (t.end <= t.start) return 0;
+      // Nothing coming in can never reach the end amount.
+      if (t.start <= 0 && t.monthly <= 0) return NaN;
       if (i === 0) return t.monthly > 0 ? (t.end - t.start) / t.monthly : NaN;
       const c = (t.monthly * (t.startOfMonth ? 1 + i : 1)) / i;
       const ratio = (t.end + c) / (t.start + c);
       return ratio > 0 ? atLeastZero(Math.log(ratio) / Math.log(1 + i)) : NaN;
     }
     case "rate": {
-      // The end amount rises with the rate, so bisect between -11.88% and 60% a year.
+      // The end amount rises with the rate, so bisect between 0% and 60% a year;
+      // when 0% already reaches it, no interest is needed.
       const f = (r: number) =>
         t.start * growth(r, t.months) + t.monthly * A(t.months, r) - t.end;
-      let lo = -0.0099;
+      let lo = 0;
       let hi = 0.05;
       // Nothing put in, or no time: no rate makes a difference.
       if ((t.start === 0 && t.monthly === 0) || t.months <= 0) return NaN;
-      if (f(lo) > 0 || f(hi) < 0) return NaN;
+      if (f(lo) >= 0) return 0;
+      if (f(hi) < 0) return NaN;
       for (let k = 0; k < 200; k++) {
         const mid = (lo + hi) / 2;
         if (f(mid) > 0) hi = mid;

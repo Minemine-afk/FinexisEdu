@@ -73,10 +73,10 @@ export default function StatTiles({
             </p>
             <p className="mt-1 text-sm tabular-nums">
               <InfoTip term="perYear">
-                ≈ {formatMoney(s.grandTotalSgd / s.result.durationYears, "SGD")}{" "}
+                ≈ {formatMoney(s.grandTotalSgd / Math.max(1, s.result.durationYears), "SGD")}{" "}
                 a year ·{" "}
                 {formatMoney(
-                  s.grandTotalSgd / s.result.durationYears / 12,
+                  s.grandTotalSgd / Math.max(1, s.result.durationYears) / 12,
                   "SGD",
                 )}{" "}
                 a month

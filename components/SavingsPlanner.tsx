@@ -22,6 +22,8 @@ import {
 import { FOCUS } from "./ResultDetail";
 import type { Selection } from "./useCalculator";
 
+/** The most months the planner will simulate or accept: 100 years. */
+const MAX_MONTHS = 1200;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const sgd = (n: number) => formatMoney(n, "SGD");
 const pct = (r: number) => `${+r.toFixed(2)}%`;
@@ -176,7 +178,7 @@ export default function SavingsPlanner({
     const amountSaving = lump
       ? lumpSum(needSaving, saved, SAVING_RATE, months)
       : monthlySaving(needSaving, saved, SAVING_RATE, months);
-    const tooLate = !Number.isFinite(amount);
+    const tooLate = !Number.isFinite(amount) || !Number.isFinite(amountSaving);
     mine = lump ? plan(saved + amount, 0, rate) : plan(saved, tooLate ? 0 : amount, rate);
     other = lump ? plan(saved + amountSaving, 0, SAVING_RATE) : plan(saved, tooLate ? 0 : amountSaving, SAVING_RATE);
     const unit = lump ? " once" : " a month";
@@ -246,7 +248,8 @@ export default function SavingsPlanner({
     const solved = solveTvm(t, tvmField);
     const full: Tvm = { ...t, [tvmField]: solved };
     const ok = Number.isFinite(solved);
-    const n = Math.max(0, Math.round(full.months));
+    // Only a real answer is simulated, and never beyond a century of months.
+    const n = ok ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : 0;
     mine = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
     other = null;
     let savingSide: Side | null = null;
@@ -255,7 +258,7 @@ export default function SavingsPlanner({
       const v = solveTvm(s0, tvmField);
       if (Number.isFinite(v)) {
         const f = { ...s0, [tvmField]: v };
-        other = simulate({ start: f.start, monthly: f.monthly, months: Math.max(0, Math.round(f.months)), ratePct: SAVING_RATE, startOfMonth, today: now });
+        other = simulate({ start: f.start, monthly: f.monthly, months: Math.min(MAX_MONTHS, Math.max(0, Math.round(f.months))), ratePct: SAVING_RATE, startOfMonth, today: now });
         savingSide = { paidIn: f.start + f.monthly * f.months, interest: f.end - f.start - f.monthly * f.months };
         compare = [show(f, tvmField), show(full, tvmField)];
       }
@@ -281,9 +284,11 @@ export default function SavingsPlanner({
           rate: full.rate,
         }
       : null;
-    // Months and money can't go below zero; a rate can't go below zero or above 20% a year.
-    const edit = (k: TvmField, v: number) =>
-      setTvmEdits({ ...full, [k]: k === "rate" ? Math.min(20, Math.max(0, v)) : Math.max(0, v) });
+    // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
+    const clamp = (k: TvmField, v: number) =>
+      k === "rate" ? Math.min(20, Math.max(0, v)) : k === "months" ? Math.min(MAX_MONTHS, Math.max(0, v)) : Math.max(0, v);
+    // A box with no answer ("Not possible") is kept as 0 when it becomes an input again.
+    const edit = (k: TvmField, v: number) => setTvmEdits({ ...full, [tvmField]: ok ? solved : 0, [k]: clamp(k, v) });
     const tvmBoxes = (
       <div className="space-y-3">
         {TVM_FIELDS.map(([k, label]) => (
@@ -296,7 +301,7 @@ export default function SavingsPlanner({
                 type="button"
                 aria-pressed={tvmField === k}
                 onClick={() => {
-                  setTvmEdits(full);
+                  setTvmEdits({ ...full, [tvmField]: ok ? solved : 0 });
                   setTvmField(k);
                 }}
                 className={`min-h-11 shrink-0 whitespace-nowrap rounded-lg border px-2.5 text-xs${FOCUS} ${tvmField === k ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
@@ -535,9 +540,10 @@ export default function SavingsPlanner({
                 {bars && (
                   <Chart bars={bars} mine={mine} other={other} today={now} startMonth={mode === "tvm" ? null : months} startLabel={startLabel} view={view} setView={setView} />
                 )}
+                {bars && (
                 <details className="rounded-xl border border-border">
                   <summary className={`cursor-pointer rounded-xl px-4 py-3 text-sm font-medium${FOCUS}`}>
-                    Year by year (investing at {pct(bars?.rate ?? rate)})
+                    Year by year (investing at {pct(bars.rate)})
                   </summary>
                   <div className="overflow-x-auto px-4 pb-3">
                     <table className="w-full text-right text-xs tabular-nums sm:text-sm">
@@ -566,6 +572,7 @@ export default function SavingsPlanner({
                     </table>
                   </div>
                 </details>
+                )}
               </div>
             </div>
           </div>
