@@ -92,8 +92,8 @@ export interface CountryGroup {
 export const MAX_SELECTED = 3;
 /** Start years the calculator accepts: typed in, from the first year the current fee tables cover. */
 export const MIN_START_YEAR = 2026;
-/** How far ahead a start year may be: projections beyond this are guesswork. */
-export const MAX_YEARS_AHEAD = 10;
+/** The latest start year the calculator accepts. */
+export const MAX_START_YEAR = 2090;
 export { COUNTRY_ORDER };
 export const LIFESTYLE_LABELS: Record<Lifestyle, string> = {
   frugal: "Frugal",
@@ -300,7 +300,7 @@ export function useCalculator({
   );
   // What the user has typed; only a year in range is applied.
   const [startYearInput, setStartYearInput] = useState(String(startYear));
-  const maxStartYear = Math.max(thisYear, MIN_START_YEAR) + MAX_YEARS_AHEAD;
+  const maxStartYear = MAX_START_YEAR;
   const startYearError = (() => {
     const t = startYearInput.trim();
     if (!/^\d{4}$/.test(t))
@@ -309,7 +309,7 @@ export function useCalculator({
     if (y < MIN_START_YEAR)
       return `Fee tables start at ${MIN_START_YEAR}. Enter ${MIN_START_YEAR} or a later year.`;
     if (y > maxStartYear)
-      return `Projections stop ${MAX_YEARS_AHEAD} years out. Enter ${maxStartYear} or earlier.`;
+      return `Projections stop at ${maxStartYear}. Enter ${maxStartYear} or earlier.`;
     return null;
   })();
   /** Applies what the user typed in the start-year box when it is a usable year. */

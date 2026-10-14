@@ -68,7 +68,9 @@ export default function StatTiles({
             <p className="mt-0.5 text-sm text-muted">
               {programmeLabel(s.university, s.programme)}
             </p>
-            <p className="mt-2 text-3xl font-semibold text-accent tabular-nums">
+            <p
+              className={`mt-2 font-semibold text-accent tabular-nums ${totalSize(formatMoney(s.grandTotalSgd, "SGD"))}`}
+            >
               {formatMoney(s.grandTotalSgd, "SGD")}
             </p>
             <p className="mt-1 text-sm tabular-nums">
@@ -120,4 +122,11 @@ export default function StatTiles({
       })}
     </div>
   );
+}
+
+/** Smaller type for long totals (far-off start years), so they stay inside a narrow tile. */
+function totalSize(text: string): string {
+  if (text.length <= 11) return "text-3xl"; // up to S$9,999,999
+  if (text.length <= 13) return "text-2xl"; // up to S$999,999,999
+  return "text-xl break-all";
 }
