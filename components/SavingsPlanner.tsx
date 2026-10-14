@@ -474,7 +474,7 @@ export default function SavingsPlanner({
                               setTarget(null);
                               resetTvm();
                             }}
-                            className={`text-accent underline underline-offset-2${FOCUS}`}
+                            className={`-my-3 -mx-1 px-1 py-3 text-accent underline underline-offset-2${FOCUS}`}
                           >
                             Reset
                           </button>
@@ -805,7 +805,7 @@ function Chart({
                 type="button"
                 aria-pressed={view === v}
                 onClick={() => setView(v)}
-                className={`min-h-10 rounded-md px-2.5${FOCUS} ${view === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted"}`}
+                className={`min-h-11 rounded-md px-2.5${FOCUS} ${view === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted"}`}
               >
                 {text}
               </button>
@@ -911,7 +911,8 @@ function OverTime({
   for (let yr = today.year + 1; ; yr += every) {
     const m = (yr - today.year) * 12 - today.month;
     if (m > maxM) break;
-    years.push([yr, m]);
+    // A year that lands under the "S$0" axis label is skipped.
+    if (x(m) >= pad.l + 14) years.push([yr, m]);
   }
   const labelM = Math.round((startMonth ?? maxM) * 0.8);
   const labelPt = investing.points.find((q) => q.month === labelM);
@@ -919,7 +920,16 @@ function OverTime({
   // the "Fees start" label flips to the right of its line when the line is near the left edge.
   const halo = { paintOrder: "stroke" as const, stroke: "var(--surface)", strokeWidth: 4, strokeLinejoin: "round" as const };
   const startX = startMonth !== null ? x(startMonth) : 0;
-  const startLeft = startX < (pad.l + W) / 2;
+  // Roughly 5.6px a character at 11px; used to keep labels inside the chart.
+  const textW = (t: string) => t.length * 5.6;
+  const startText = `Fees start · ${startLabel}`;
+  // The label sits to the right of its line when it fits there, else to the left,
+  // and against the chart's right edge on a narrow chart where neither fits.
+  const fitsRight = startX + 5 + textW(startText) <= W - pad.r;
+  const fitsLeft = startX - 5 - textW(startText) >= pad.l;
+  const startLabelX = fitsRight ? startX + 5 : fitsLeft ? startX - 5 : W - pad.r;
+  const gapText = `Interest covers ${formatCompactSgd(gap)}`;
+  const gapX = Math.min(W - pad.r - textW(gapText) / 2, Math.max(pad.l + textW(gapText) / 2, x(labelM)));
   return (
     <figure className="mt-3">
       <svg ref={ref} width="100%" height={H} viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Money put in over time: saving at ${pct(SAVING_RATE)} compared with investing at ${rate}`} className="block text-[11px]">
@@ -941,21 +951,21 @@ function OverTime({
           <g>
             <line x1={x(startMonth)} x2={x(startMonth)} y1={pad.t} y2={H - pad.b} stroke="var(--muted)" strokeDasharray="3 3" />
             <text
-              x={startLeft ? startX + 5 : startX - 5}
+              x={startLabelX}
               y={pad.t + 10}
-              textAnchor={startLeft ? "start" : "end"}
+              textAnchor={fitsRight ? "start" : "end"}
               fill="var(--foreground)"
               style={halo}
             >
-              Fees start · {startLabel}
+              {startText}
             </text>
           </g>
         )}
         <path d={path(saving)} fill="none" stroke="var(--you)" strokeWidth={2.4} />
         <path d={path(investing)} fill="none" stroke="var(--series-1)" strokeWidth={2.4} />
         {gap > 0 && labelPt && (
-          <text x={x(labelM)} y={y(labelPt.paidIn) + 18} textAnchor="middle" fill="var(--series-4)" fontWeight={600} style={halo}>
-            Interest covers {formatCompactSgd(gap)}
+          <text x={gapX} y={y(labelPt.paidIn) + 18} textAnchor="middle" fill="var(--series-4)" fontWeight={600} style={halo}>
+            {gapText}
           </text>
         )}
       </svg>

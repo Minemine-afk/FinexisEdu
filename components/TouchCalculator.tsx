@@ -650,14 +650,33 @@ function Assumptions({ state }: { state: CalculatorState }) {
   );
 }
 
-/** The text a picker search matches: the name, its initials (minus "of", "and", "the"), the city and the country. */
-function searchText(name: string, city: string, country: string): string {
-  const initials = name
+/** Initials of a name, minus small words: "National University of Singapore" gives "nus". */
+function initialsOf(name: string): string {
+  return name
     .split(/[\s-]+/)
     .filter((w) => w.length > 2 && !["and", "the", "for", "der", "des"].includes(w.toLowerCase()))
     .map((w) => w[0])
-    .join("");
-  return `${name} ${initials} ${city} ${country}`.toLowerCase();
+    .join("")
+    .toLowerCase();
+}
+
+const wordStart = (text: string, q: string) =>
+  text.toLowerCase().split(/[\s-]+/).some((w) => w.startsWith(q));
+
+/**
+ * How well a university matches a typed search, lower is better, or null for
+ * no match: its initials ("NUS", "ETH") first, then the start of a word in its
+ * name, then its city or country, then any part of its name for longer searches.
+ */
+function searchRank(name: string, city: string, country: string, q: string): number | null {
+  const initials = initialsOf(name);
+  if (initials === q) return 0;
+  if (initials.startsWith(q)) return 1;
+  if (name.toLowerCase().startsWith(q)) return 2;
+  if (wordStart(name, q)) return 3;
+  if (wordStart(city, q) || wordStart(country, q) || initialsOf(country) === q) return 4;
+  if (q.length >= 4 && name.toLowerCase().includes(q)) return 5;
+  return null;
 }
 
 /** One comparison slot as a tappable row. */
@@ -828,10 +847,15 @@ function PickerSheet({
           g.options.map((o) => ({ o, country: g.country?.name ?? "" })),
         )
         .filter(
-          ({ o, country }, i, arr) =>
-            arr.findIndex((x) => x.o.university.id === o.university.id) === i &&
-            searchText(o.university.name, o.university.city, country).includes(q),
+          ({ o }, i, arr) =>
+            arr.findIndex((x) => x.o.university.id === o.university.id) === i,
         )
+        .map(({ o, country }) => ({
+          o,
+          rank: searchRank(o.university.name, o.university.city, country, q),
+        }))
+        .filter((m): m is { o: Option; rank: number } => m.rank !== null)
+        .sort((a, b) => a.rank - b.rank)
         .map(({ o }) => o)
     : [];
 
