@@ -98,7 +98,7 @@ export function growTo(
   return saved * growth(i, months) + monthly * annuity(i, months);
 }
 
-/** The five boxes of "Work out any one". */
+/** The five boxes of the Time Value of Money calculator. */
 export interface Tvm {
   /** Number of months to save. */
   months: number;
