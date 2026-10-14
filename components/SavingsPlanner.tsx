@@ -5,17 +5,11 @@ import { formatCompactSgd, formatMoney, programmeLabel } from "@/lib/format";
 import {
   DEFAULT_INVEST_RATE,
   defaultIntakeMonth,
-  growTo,
-  INVEST_PRESETS,
-  lumpSum,
-  monthlySaving,
   monthsBetween,
-  neededAtStart,
   SAVING_RATE,
   simulate,
   solveTvm,
   type Plan,
-  type Timing,
   type Tvm,
   type TvmField,
 } from "@/lib/savings";
@@ -28,13 +22,6 @@ const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 const sgd = (n: number) => formatMoney(n, "SGD");
 const pct = (r: number) => `${+r.toFixed(2)}%`;
 
-type Mode = "monthly" | "lump" | "check" | "tvm";
-const MODES: [Mode, string][] = [
-  ["monthly", "Monthly saving"],
-  ["lump", "Lump sum today"],
-  ["check", "Check my plan"],
-  ["tvm", "Work out any one"],
-];
 const TVM_FIELDS: [TvmField, string, string][] = [
   ["months", "Number of months to save", "Number of months to save"],
   ["rate", "Interest earned (% a year)", "Interest you'd need to earn"],
@@ -89,13 +76,8 @@ export default function SavingsPlanner({
   const projected = yearCostsSgd(s);
   const projectedTotal = projected.reduce((a, b) => a + b, 0);
 
-  const [mode, setMode] = useState<Mode>("monthly");
   const [target, setTarget] = useState<number | null>(null);
-  const [timing, setTiming] = useState<Timing>("yearly");
   const [intake, setIntake] = useState(defaultIntakeMonth(s.university.country));
-  const [saved, setSaved] = useState(0);
-  const [monthly, setMonthly] = useState(2500);
-  const [rate, setRate] = useState(DEFAULT_INVEST_RATE);
   const [view, setView] = useState<"split" | "time">("split");
   const [tvmEdits, setTvmEdits] = useState<Tvm | null>(null);
   const [tvmField, setTvmField] = useState<TvmField>("monthly");
@@ -144,236 +126,123 @@ export default function SavingsPlanner({
     };
   }, [onClose]);
 
-  // A typed total scales every year's cost alike.
-  const costs = target === null ? projected : projected.map((c) => (c * target) / (projectedTotal || 1));
-  const costTotal = costs.reduce((a, b) => a + b, 0);
+  // The whole cost is needed when the first fees fall due.
+  const costTotal = target ?? projectedTotal;
   const months = monthsBetween(now, { year: firstYear, month: intake });
   const startLabel = `${MONTHS[intake]} ${firstYear}`;
-  const need = neededAtStart(costs, rate, timing);
-  const needSaving = neededAtStart(costs, SAVING_RATE, timing);
-  const plan = (start: number, perMonth: number, r: number) =>
-    simulate({ start, monthly: perMonth, months, ratePct: r, yearCosts: costs, timing, today: now });
-  const resetTvm = () => setTvmEdits(null);
 
-  let answer: React.ReactNode;
-  let compare: [string, string] | null = null;
-  let mine: Plan;
-  let other: Plan | null;
-  // Null when the numbers give nothing worth drawing (no time to save, no answer).
-  let bars: Bars | null;
   /** How a cost is met: your money up to the cost, interest for the rest. */
   const covered = (paidIn: number, cost: number): Side => ({
     paidIn: Math.min(paidIn, cost),
     interest: Math.max(0, cost - paidIn),
   });
-  /** "S$X less" when investing needs less than saving, "S$X more" when the rate is below the saving rate. */
-  const lessOrMore = (diff: number, suffix: string) =>
-    Math.abs(diff) < 0.5
-      ? `about the same as`
-      : `${sgd(Math.abs(diff))}${suffix} ${diff > 0 ? "less" : "more"} than`;
 
-  if (mode === "monthly" || mode === "lump") {
-    const lump = mode === "lump";
-    const amount = lump ? lumpSum(need, saved, rate, months) : monthlySaving(need, saved, rate, months);
-    const amountSaving = lump
-      ? lumpSum(needSaving, saved, SAVING_RATE, months)
-      : monthlySaving(needSaving, saved, SAVING_RATE, months);
-    const tooLate = !Number.isFinite(amount) || !Number.isFinite(amountSaving);
-    mine = lump ? plan(saved + amount, 0, rate) : plan(saved, tooLate ? 0 : amount, rate);
-    other = lump ? plan(saved + amountSaving, 0, SAVING_RATE) : plan(saved, tooLate ? 0 : amountSaving, SAVING_RATE);
-    const unit = lump ? " once" : " a month";
-    answer = tooLate ? (
-      <Answer
-        question={`First fees are due ${startLabel}`}
-        value="No time to save"
-        note="Pick a later start year or first-fees month to plan monthly saving."
-      />
-    ) : (
-      <Answer
-        question={lump ? "Set aside today, on top of what you've saved" : `Save each month from ${MONTHS[now.month]} ${now.year} to ${startLabel}`}
-        value={sgd(amount)}
-        unit={unit}
-        note={
-          amount === 0
-            ? "What you've saved already covers it."
-            : lump
-              ? `Investing at ${pct(rate)} needs ${lessOrMore(amountSaving - amount, "")} saving at ${pct(SAVING_RATE)}.`
-              : `Investing at ${pct(rate)} means ${lessOrMore(amountSaving - amount, " a month")} saving at ${pct(SAVING_RATE)}.`
-        }
-      />
-    );
-    if (!tooLate) compare = [sgd(amountSaving) + (lump ? "" : " /mo"), sgd(amount) + (lump ? "" : " /mo")];
-    bars = tooLate
-      ? null
-      : {
-          saving: covered(other.paidIn, costTotal),
-          investing: covered(mine.paidIn, costTotal),
-          target: costTotal,
-          targetLabel: "Total cost",
-          rate,
-        };
-  } else if (mode === "check") {
-    mine = plan(saved, monthly, rate);
-    other = plan(saved, monthly, SAVING_RATE);
-    const reached = growTo(saved, monthly, rate, months);
-    const reachedSaving = growTo(saved, monthly, SAVING_RATE, months);
-    const gap = need - reached;
-    const extra = monthlySaving(gap, 0, rate, months);
-    const share = (got: number, needed: number) =>
-      needed > 0 ? `${Math.round((got / needed) * 100)}% of what's needed` : "more than enough";
-    answer = (
-      <Answer
-        question={`Investing at ${pct(rate)}, by ${startLabel} your savings grow to`}
-        value={sgd(reached)}
-        status={
-          gap <= 0
-            ? { good: true, text: `Covers the cost, with ${sgd(Math.max(0, -gap))} to spare` }
-            : { good: false, text: `Covers ${Math.round((reached / need) * 100)}%, short by ${sgd(gap)}` }
-        }
-        note={`${gap > 0 && Number.isFinite(extra) ? `Saving another ${sgd(extra)} a month closes the gap. ` : ""}Saving at ${pct(SAVING_RATE)}, the same plan reaches ${sgd(reachedSaving)}, ${share(reachedSaving, needSaving)}.`}
-      />
-    );
-    compare = [sgd(reachedSaving), sgd(reached)];
-    bars = {
-      saving: { paidIn: mine.paidIn, interest: reachedSaving - mine.paidIn },
-      investing: { paidIn: mine.paidIn, interest: reached - mine.paidIn },
-      target: need,
-      targetLabel: `Needed by ${startLabel}`,
-      rate,
-      sameMoney: true,
-    };
-  } else {
-    const seed: Tvm = { months, rate, start: saved, monthly: 0, end: need, startOfMonth };
-    const t: Tvm = { ...(tvmEdits ?? seed), startOfMonth };
-    const solved = solveTvm(t, tvmField);
-    const full: Tvm = { ...t, [tvmField]: solved };
-    const ok = Number.isFinite(solved);
-    // Only a real answer is simulated, and never beyond a century of months.
-    const n = ok ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : 0;
-    mine = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
-    other = null;
-    let savingSide: Side | null = null;
-    if (ok && tvmField !== "rate") {
-      const s0: Tvm = { ...t, rate: SAVING_RATE, end: tvmEdits ? t.end : needSaving };
-      const v = solveTvm(s0, tvmField);
-      if (Number.isFinite(v)) {
-        const f = { ...s0, [tvmField]: v };
-        other = simulate({ start: f.start, monthly: f.monthly, months: Math.min(MAX_MONTHS, Math.max(0, Math.round(f.months))), ratePct: SAVING_RATE, startOfMonth, today: now });
-        savingSide = { paidIn: f.start + f.monthly * f.months, interest: f.end - f.start - f.monthly * f.months };
-        compare = [show(f, tvmField), show(full, tvmField)];
-      }
+  const seed: Tvm = { months, rate: DEFAULT_INVEST_RATE, start: 0, monthly: 0, end: costTotal, startOfMonth };
+  const t: Tvm = { ...(tvmEdits ?? seed), startOfMonth };
+  const solved = solveTvm(t, tvmField);
+  const full: Tvm = { ...t, [tvmField]: solved };
+  const ok = Number.isFinite(solved);
+  // "Clear form" leaves boxes empty (NaN) until they are filled in again.
+  const blanks = TVM_FIELDS.filter(([k]) => k !== tvmField && !Number.isFinite(t[k])).length;
+  // Only a real answer is simulated, and never beyond a century of months.
+  const n = ok ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : 0;
+  const mine: Plan = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
+  let other: Plan | null = null;
+  let compare: [string, string] | null = null;
+  let savingSide: Side | null = null;
+  if (ok && tvmField !== "rate") {
+    const s0: Tvm = { ...t, rate: SAVING_RATE };
+    const v = solveTvm(s0, tvmField);
+    if (Number.isFinite(v)) {
+      const f = { ...s0, [tvmField]: v };
+      other = simulate({ start: f.start, monthly: f.monthly, months: Math.min(MAX_MONTHS, Math.max(0, Math.round(f.months))), ratePct: SAVING_RATE, startOfMonth, today: now });
+      savingSide = { paidIn: f.start + f.monthly * f.months, interest: f.end - f.start - f.monthly * f.months };
+      compare = [show(f, tvmField), show(full, tvmField)];
     }
-    answer = (
-      <Answer
-        question={TVM_FIELDS.find(([k]) => k === tvmField)![2]}
-        value={ok ? show(full, tvmField) : "Not possible"}
-        note={
-          ok
-            ? `"Amount needed at the end" starts as what's needed by ${startLabel}, ${sgd(need)}. Change any four boxes and tap "Work this out" on the one you want.`
-            : "No answer fits these numbers. Check the four boxes you filled in."
-        }
-      />
-    );
-    const paid = full.start + full.monthly * full.months;
-    bars = ok
-      ? {
-          saving: savingSide && covered(savingSide.paidIn, savingSide.paidIn + savingSide.interest),
-          investing: covered(paid, full.end),
-          target: full.end,
-          targetLabel: "Amount needed at the end",
-          rate: full.rate,
-        }
-      : null;
-    // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
-    const clamp = (k: TvmField, v: number) =>
-      k === "rate" ? Math.min(20, Math.max(0, v)) : k === "months" ? Math.min(MAX_MONTHS, Math.max(0, v)) : Math.max(0, v);
-    // A box with no answer ("Not possible") is kept as 0 when it becomes an input again.
-    const edit = (k: TvmField, v: number) => setTvmEdits({ ...full, [tvmField]: ok ? solved : 0, [k]: clamp(k, v) });
-    const tvmBoxes = (
-      <div className="space-y-3">
-        {TVM_FIELDS.map(([k, label]) => (
-          <div key={k}>
-            <div className="mb-1 flex items-center justify-between gap-2">
-              <label htmlFor={`tvm-${k}`} className="text-sm font-medium">
-                {label}
-              </label>
-              <button
-                type="button"
-                aria-pressed={tvmField === k}
-                onClick={() => {
-                  setTvmEdits({ ...full, [tvmField]: ok ? solved : 0 });
-                  setTvmField(k);
-                }}
-                className={`min-h-11 shrink-0 whitespace-nowrap rounded-lg border px-2.5 text-xs${FOCUS} ${tvmField === k ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
-              >
-                {tvmField === k ? "Worked out" : "Work this out"}
-              </button>
-            </div>
-            <NumberField
-              id={`tvm-${k}`}
-              value={full[k]}
-              decimals={k === "rate" ? 2 : 0}
-              prefix={k === "months" || k === "rate" ? undefined : "S$"}
-              suffix={k === "months" ? "months" : k === "rate" ? "% a year" : undefined}
-              readOnly={tvmField === k}
-              onValue={(v) => edit(k, v)}
-            />
-          </div>
-        ))}
-        <Field label="When you save each month">
-          <TwoWay
-            label="When you save each month"
-            options={[
-              [false, "End of the month"],
-              [true, "Start of the month"],
-            ]}
-            value={startOfMonth}
-            onChange={setStartOfMonth}
-          />
-        </Field>
-        <p className="text-xs text-muted">
-          Interest is added monthly. {months} months until {startLabel}.
-        </p>
-      </div>
-    );
-    return frame(<Group title="Fill in four, work out the fifth">{tvmBoxes}</Group>);
   }
-
-  return frame(
-      <Group title="Your savings">
-        <Field label="Already saved" htmlFor="sp-saved">
-          <NumberField id="sp-saved" value={saved} prefix="S$" onValue={(v) => setSaved(Math.max(0, v))} />
-        </Field>
-        {mode === "check" && (
-          <Field label="You save each month" htmlFor="sp-monthly">
-            <NumberField id="sp-monthly" value={monthly} prefix="S$" onValue={(v) => setMonthly(Math.max(0, v))} />
-          </Field>
-        )}
-        <Field label="Investing at" htmlFor="sp-rate">
-          <NumberField
-            id="sp-rate"
-            value={rate}
-            decimals={2}
-            suffix="% a year"
-            onValue={(v) => v >= 0 && v <= 20 && setRate(v)}
-          />
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            {INVEST_PRESETS.map(([r, name]) => (
-              <button
-                key={r}
-                type="button"
-                aria-pressed={rate === r}
-                onClick={() => setRate(r)}
-                className={`min-h-11 rounded-full border px-3 text-xs${FOCUS} ${rate === r ? "border-accent font-medium text-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
-              >
-                {name} {r}%
-              </button>
-            ))}
-          </div>
-          <p className="mt-2 text-xs text-muted">Compared with saving at a fixed {pct(SAVING_RATE)} a year.</p>
-        </Field>
-      </Group>,
+  const answer = (
+    <Answer
+      question={TVM_FIELDS.find(([k]) => k === tvmField)![2]}
+      value={ok ? show(full, tvmField) : blanks ? "Fill in the boxes" : "Not possible"}
+      note={
+        ok
+          ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}. Change any four boxes and tap "Solve" on the one you want.`
+          : blanks
+            ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Solve" on the one you want.`
+            : "No answer fits these numbers. Check the four boxes you filled in."
+      }
+    />
   );
+  const paid = full.start + full.monthly * full.months;
+  // Null when the numbers give nothing worth drawing.
+  const bars: Bars | null = ok
+    ? {
+        saving: savingSide && covered(savingSide.paidIn, savingSide.paidIn + savingSide.interest),
+        investing: covered(paid, full.end),
+        target: full.end,
+        targetLabel: "Amount needed at the end",
+        rate: full.rate,
+      }
+    : null;
+  // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
+  const clamp = (k: TvmField, v: number) =>
+    k === "rate" ? Math.min(20, Math.max(0, v)) : k === "months" ? Math.min(MAX_MONTHS, Math.max(0, v)) : Math.max(0, v);
+  // The box being solved keeps its answer when it becomes an input again; with no answer it starts empty.
+  const current = (): Tvm => ({ ...full, [tvmField]: ok ? solved : NaN });
+  const edit = (k: TvmField, v: number) => setTvmEdits({ ...current(), [k]: clamp(k, v) });
+  /** Empties every number; the projected cost and defaults come back with "Reset" or by reopening. */
+  const clearForm = () => {
+    setTarget(NaN);
+    setTvmEdits({ months: NaN, rate: NaN, start: NaN, monthly: NaN, end: NaN, startOfMonth });
+  };
+  const tvmBoxes = (
+    <div className="space-y-3">
+      {TVM_FIELDS.map(([k, label]) => (
+        <div key={k}>
+          <div className="mb-1 flex items-center justify-between gap-2">
+            <label htmlFor={`tvm-${k}`} className="text-sm font-medium">
+              {label}
+            </label>
+            <button
+              type="button"
+              aria-pressed={tvmField === k}
+              onClick={() => {
+                setTvmEdits(current());
+                setTvmField(k);
+              }}
+              className={`min-h-11 shrink-0 whitespace-nowrap rounded-lg border px-2.5 text-xs${FOCUS} ${tvmField === k ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
+            >
+              {tvmField === k ? "Solved" : "Solve"}
+            </button>
+          </div>
+          <NumberField
+            id={`tvm-${k}`}
+            value={full[k]}
+            decimals={k === "rate" ? 2 : 0}
+            prefix={k === "months" || k === "rate" ? undefined : "S$"}
+            suffix={k === "months" ? "months" : k === "rate" ? "% a year" : undefined}
+            readOnly={tvmField === k}
+            onValue={(v) => edit(k, v)}
+          />
+        </div>
+      ))}
+      <Field label="When you save each month">
+        <TwoWay
+          label="When you save each month"
+          options={[
+            [false, "End of the month"],
+            [true, "Start of the month"],
+          ]}
+          value={startOfMonth}
+          onChange={setStartOfMonth}
+        />
+      </Field>
+      <p className="text-xs text-muted">
+        Interest is added monthly. {months} months until {startLabel}.
+      </p>
+    </div>
+  );
+  return frame(<Group title="Fill in four, solve for the fifth">{tvmBoxes}</Group>);
 
   function show(v: Tvm, k: TvmField): string {
     if (k === "months") return `${Math.round(v.months)} months`;
@@ -381,7 +250,7 @@ export default function SavingsPlanner({
     return sgd(v[k]);
   }
 
-  /** The pop-up around the mode-specific inputs: header, modes, cost, results. */
+  /** The pop-up around the inputs: header, cost, results. */
   function frame(children: React.ReactNode) {
     return (
       <div className="fixed inset-0 z-50">
@@ -407,7 +276,7 @@ export default function SavingsPlanner({
           <div className="flex shrink-0 items-start gap-3 border-b border-border px-4 pb-3 pt-3 sm:px-6 sm:pt-4">
             <div className="min-w-0 flex-1">
               <h2 id={titleId} className="text-lg font-semibold">
-                Plan your savings
+                Time Value of Money calculator
               </h2>
               <p className="text-sm text-muted">
                 {s.university.name} · {programmeLabel(s.university, s.programme)}
@@ -426,29 +295,6 @@ export default function SavingsPlanner({
           </div>
 
           <div className="min-h-0 flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4 sm:px-6">
-            <div
-              role="radiogroup"
-              aria-label="What do you want to work out?"
-              className="-mx-4 flex gap-1.5 overflow-x-auto px-4 pb-0.5 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0"
-            >
-              {MODES.map(([m, text]) => (
-                <button
-                  key={m}
-                  type="button"
-                  role="radio"
-                  aria-checked={mode === m}
-                  onClick={() => setMode(m)}
-                  className={`min-h-11 shrink-0 rounded-full border px-3.5 text-sm${FOCUS} ${
-                    mode === m
-                      ? "border-accent-fill bg-accent-fill font-medium text-on-accent"
-                      : "border-border bg-surface text-muted hover:bg-chip"
-                  }`}
-                >
-                  {text}
-                </button>
-              ))}
-            </div>
-
             <div className="grid items-start gap-5 md:grid-cols-[18rem_minmax(0,1fr)]">
               <div className="min-w-0 space-y-4">
                 <Group title="The cost">
@@ -457,22 +303,23 @@ export default function SavingsPlanner({
                       id="sp-target"
                       value={costTotal}
                       prefix="S$"
-                      onValue={(v) => {
-                        setTarget(Math.max(0, v));
-                        resetTvm();
+                        onValue={(v) => {
+                        const cost = Math.max(0, v);
+                        setTarget(cost);
+                        if (tvmEdits) setTvmEdits({ ...current(), end: cost });
                       }}
                     />
                     <p className="mt-1 text-xs text-muted">
                       {target === null ? (
-                        `From Compare · ${projected.length} ${projected.length === 1 ? "year" : "years"}${s.living ? ", fees and living costs" : " of fees"}`
+                        `From Compare · ${projected.length} ${projected.length === 1 ? "year" : "years"}${s.living ? ", fees and living costs" : " of fees"}, all needed at the start`
                       ) : (
                         <>
-                          You changed this. Compare says {sgd(projectedTotal)}.{" "}
+                          {Number.isNaN(target) ? "Cleared." : "You changed this."} Compare says {sgd(projectedTotal)}.{" "}
                           <button
                             type="button"
                             onClick={() => {
                               setTarget(null);
-                              resetTvm();
+                              setTvmEdits(null);
                             }}
                             className={`-my-3 -mx-1 px-1 py-3 text-accent underline underline-offset-2${FOCUS}`}
                           >
@@ -482,20 +329,6 @@ export default function SavingsPlanner({
                       )}
                     </p>
                   </Field>
-                  <Field label="Money is needed">
-                    <TwoWay
-                      label="Money is needed"
-                      options={[
-                        ["yearly", "Year by year, as fees fall due"],
-                        ["start", "All of it at the start"],
-                      ]}
-                      value={timing}
-                      onChange={(v) => {
-                        setTiming(v);
-                        resetTvm();
-                      }}
-                    />
-                  </Field>
                   <div className="grid grid-cols-2 gap-2.5">
                     <Field label="First fees due" htmlFor="sp-intake">
                       <div className="flex h-11 items-center rounded-lg border border-border bg-surface pr-3 focus-within:border-accent">
@@ -503,8 +336,9 @@ export default function SavingsPlanner({
                           id="sp-intake"
                           value={intake}
                           onChange={(e) => {
-                            setIntake(Number(e.target.value));
-                            resetTvm();
+                            const m = Number(e.target.value);
+                            setIntake(m);
+                            if (tvmEdits) setTvmEdits({ ...current(), months: monthsBetween(now, { year: firstYear, month: m }) });
                           }}
                           className="h-full min-w-0 flex-1 bg-transparent pl-3 outline-none"
                         >
@@ -533,12 +367,12 @@ export default function SavingsPlanner({
                   {compare && (
                     <dl className="grid grid-cols-2 gap-2.5 pt-1">
                       <Compared label={`Saving at ${pct(SAVING_RATE)}`} value={compare[0]} color="var(--you)" />
-                      <Compared label={`Investing at ${pct(bars?.rate ?? rate)}`} value={compare[1]} color="var(--series-1)" />
+                      <Compared label={`Investing at ${pct(full.rate)}`} value={compare[1]} color="var(--series-1)" />
                     </dl>
                   )}
                 </div>
                 {bars && (
-                  <Chart bars={bars} mine={mine} other={other} today={now} startMonth={mode === "tvm" ? null : months} startLabel={startLabel} view={view} setView={setView} />
+                  <Chart bars={bars} mine={mine} other={other} today={now} startMonth={null} startLabel={startLabel} view={view} setView={setView} />
                 )}
                 {bars && (
                 <details className="rounded-xl border border-border">
@@ -583,8 +417,15 @@ export default function SavingsPlanner({
             </p>
             <button
               type="button"
+              onClick={clearForm}
+              className={`min-h-11 shrink-0 rounded-lg border border-border bg-surface px-4 text-sm text-muted hover:bg-chip${FOCUS}`}
+            >
+              Clear form
+            </button>
+            <button
+              type="button"
               onClick={onClose}
-              className={`min-h-11 rounded-lg bg-accent-fill px-5 font-medium text-on-accent${FOCUS}`}
+              className={`min-h-11 shrink-0 rounded-lg bg-accent-fill px-5 font-medium text-on-accent${FOCUS}`}
             >
               Done
             </button>
@@ -712,7 +553,9 @@ function NumberField({
   const [draft, setDraft] = useState<string | null>(null);
   const shown = Number.isFinite(value)
     ? value.toLocaleString("en-SG", { maximumFractionDigits: decimals, minimumFractionDigits: decimals })
-    : "–";
+    : readOnly
+      ? "–"
+      : "";
   return (
     <div
       className={`flex h-11 items-center rounded-lg border ${readOnly ? "border-dashed border-accent bg-chip" : "border-border bg-surface focus-within:border-accent"}`}

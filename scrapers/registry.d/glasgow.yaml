@@ -14,5 +14,5 @@ sources:
   # living-cost budget table read by hand
   - university: glasgow
     country: uk
-    url: "https://www.gla.ac.uk/myglasgow/registry/finance/federalloans/costofliving/"
+    url: "https://www.gla.ac.uk/myglasgow/registry/finance/usloans/costofliving202627/"
     manual: true
