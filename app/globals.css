@@ -115,3 +115,14 @@ input[type="checkbox"] {
   height: 1.125rem;
   flex-shrink: 0;
 }
+
+/*
+ * Open dropdown lists take their colours from the select itself; a select with
+ * a transparent background shows light text on a white list in dark mode on
+ * some browsers (Chrome on Windows), so give the options the theme colours.
+ */
+select option,
+select optgroup {
+  background-color: var(--surface);
+  color: var(--foreground);
+}
