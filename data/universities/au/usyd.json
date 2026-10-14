@@ -11,16 +11,16 @@
     "year": 2026,
     "months": 12,
     "monthly": {
-      "housing": 2240,
-      "food": 1750,
-      "transport": 465,
-      "personal": 650
+      "housing": 980,
+      "food": 1000,
+      "transport": 130,
+      "personal": 450
     },
     "sourceUrl": "https://www.sydney.edu.au/study/fees-and-loans/other-costs/living-costs.html",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-10-14",
     "sourceType": "official",
-    "summary": "The University of Sydney's own monthly estimate of accommodation, food, transport and personal costs for 12 months, using the middle of its ranges.",
-    "notes": "University of Sydney 'General living costs' table (monthly AUD, figures from the Study Australia cost-of-living calculator; the page gives no year, 2026 is the year it was read), range midpoints. Housing: accommodation $980-$3,500. Food: food and groceries $1,000-$2,500. Transport: $130-$800. Personal: mobile phone $30-$100 + lifestyle $350-$650 + gym $70-$100. The page also cites the older Home Affairs visa minimum of $24,505/yr."
+    "summary": "The University of Sydney's own monthly budget for accommodation, food, transport, phone, lifestyle and gym over 12 months, using the low end of each of its ranges; the page itself says a single student needs at least A$2,042 a month.",
+    "notes": "University of Sydney 'General living costs' table (monthly AUD, figures from the Study Australia cost-of-living calculator; the page gives no year, 2026 is the year it was read), range midpoints. Housing: accommodation $980-$3,500. Food: food and groceries $1,000-$2,500. Transport: $130-$800. Personal: mobile phone $30-$100 + lifestyle $350-$650 + gym $70-$100. The page also cites the older Home Affairs visa minimum of $24,505/yr. Second look 2026-10-14: the page https://www.sydney.edu.au/study/fees-and-loans/other-costs/living-costs.html was re-read on 2026-10-14 (curl, HTTP 200; the 'General living costs' table is unchanged). The range midpoints summed to A$5,105 a month (A$61,260 a year), two and a half times the page's own headline ('a single student living away from home will require at least $2,042 per month for accommodation, food, utilities and entertainment', from the A$24,505-a-year Home Affairs figure it quotes), so each line now uses the low end of the university's range: accommodation 980, food and groceries 1,000, transport 130, personal = mobile phone 30 + lifestyle 350 + gym 70 = 450; total A$2,560 a month = A$30,720 a year, the closest itemisation of the page to its headline (no itemised row goes below these). OSHC is a visa cost and is excluded. Note for maintainers: the scraper targets for this page in scrapers/registry.yaml still sum both ends of each range x 0.5 (midpoints) and would need their multiplier/groups changed to keep this basis."
   },
   "programmes": [
     {

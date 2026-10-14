@@ -24,3 +24,10 @@ sources:
     - key: living.food
       pattern: Trad A \$[\d,]+ \$[\d,]+ \$([\d,]+)
       multiplier: 0.125
+  # Cost Estimator (2026/27): default 'typical' amounts for books & supplies, personal and
+  # entertainment, used for the living-cost personal line; checked by hand (JS form, defaults in placeholders)
+  - university: mcmaster
+    country: ca
+    url: https://future.mcmaster.ca/finances/cost-estimator/
+    parser: html
+    manual: true
