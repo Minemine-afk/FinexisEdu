@@ -358,8 +358,8 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Year 1 tuition is C$71,670; Rotman estimates C$144,770 for the whole 2-year MBA, so year 2 is about C$73,100. Compulsory university fees of about C$2,390 a year included; the school's own fees and health insurance are extra.",
-      "notes": "2026-27 international program fee C$71,670 per academic year for the 2-year Full-Time MBA (students admitted 2026) from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,392.69 (Rotman's own ancillary fees, about C$650, are not in the schedule and are excluded). UHIP (C$948) excluded. Not fixed: Rotman estimates total international academic fees of C$144,770 for the programme, i.e. the second year is billed at that year's higher rate. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 20). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
+      "summary": "Year 1 tuition is C$71,670; year 2 is billed at the next year's rate, in line with Rotman's C$144,770 estimate for the 2-year MBA. Compulsory university fees of about C$2,390 a year included; school fees and health insurance are extra.",
+      "notes": "2026-27 international program fee C$71,670 per academic year for the 2-year Full-Time MBA (students admitted 2026) from the U of T Tuition Explorer; compulsory = incidental and system access fees C$2,392.69 (Rotman's own ancillary fees, about C$650, are not in the schedule and are excluded). UHIP (C$948) excluded. Not fixed: Rotman estimates total international academic fees of C$144,770 for the programme, i.e. the second year is billed at that year's higher rate. 2025 from the Tuition Explorer 2025-26 schedule; 2024 from the archived 2024-25 SGS international fee schedule PDF (Table 20). laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. Bug fix 2026-10-14: the laterYears entry (C$73,100 from year 2, i.e. 144,770 - 71,670) was removed because it is already the following year's rate and the calculator was growing it by another year's rise; year 2 is now projected from year 1 at Toronto's own rate.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -374,13 +374,6 @@
           "annualTuition": 70260,
           "annualCompulsoryFees": 2336.72,
           "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=MGT-G&program=98"
-        }
-      ],
-      "laterYears": [
-        {
-          "fromYear": 2,
-          "annualTuition": 73100,
-          "estimate": true
         }
       ]
     },

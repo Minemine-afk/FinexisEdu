@@ -55,6 +55,9 @@ export default function ResultDetail({
   const hasCompulsory = result.years.some((y) => y.compulsoryFees > 0);
   const hasOneOff = result.years.some((y) => y.oneOffFees > 0);
   const num = `whitespace-nowrap py-1 text-right font-normal ${hasCompulsory && hasOneOff ? "pl-2" : "pl-3"}`;
+  // Three tables side by side can be narrower than their columns; the total then
+  // stays pinned at the right while the other columns scroll under it.
+  const total = `${num} sticky right-0 bg-surface`;
   // Cohort-locked programmes are priced at the start year's fee throughout.
   const historyYears = new Set(
     result.years
@@ -200,7 +203,7 @@ export default function ResultDetail({
                   </InfoTip>
                 </th>
               )}
-              <th className={num}>Fees (SGD)</th>
+              <th className={total}>Fees (SGD)</th>
             </tr>
           </thead>
           <tbody>
@@ -255,7 +258,7 @@ export default function ResultDetail({
                     {formatMoney(sgd(y.oneOffFees), "SGD")}
                   </td>
                 )}
-                <td className={`${num} font-medium`}>
+                <td className={`${total} font-medium`}>
                   {formatMoney(sgd(y.total), "SGD")}
                 </td>
               </tr>
@@ -330,7 +333,7 @@ function MoreNotes({
   return (
     <details className="mt-2 text-xs">
       <summary
-        className={`cursor-pointer py-1.5 font-medium text-accent${FOCUS} rounded`}
+        className={`cursor-pointer py-3.5 font-medium text-accent${FOCUS} rounded`}
       >
         {label}
       </summary>
@@ -452,7 +455,7 @@ function LivingSection({
       </p>
 
       <details className="mt-2 text-sm">
-        <summary className={`cursor-pointer py-2 text-xs font-medium text-accent${FOCUS} rounded`}>
+        <summary className={`cursor-pointer py-3.5 text-xs font-medium text-accent${FOCUS} rounded`}>
           Customise this budget
         </summary>
         <CustomLiving
@@ -533,7 +536,7 @@ function CustomLiving({
               min={0}
               step="any"
               inputMode="decimal"
-              className={`mt-0.5 h-10 w-full rounded-md border border-border bg-surface px-2 text-right tabular-nums${FOCUS}`}
+              className={`mt-0.5 h-11 w-full rounded-md border border-border bg-surface px-2 text-right tabular-nums${FOCUS}`}
               value={draft[c]}
               onChange={(ev) =>
                 setDraft({
@@ -548,14 +551,14 @@ function CustomLiving({
       <div className="flex gap-2">
         <button
           type="submit"
-          className={`min-h-10 rounded-md bg-accent-fill px-3 py-1 text-xs font-medium text-on-accent${FOCUS}`}
+          className={`min-h-11 rounded-md bg-accent-fill px-3 py-1 text-xs font-medium text-on-accent${FOCUS}`}
         >
           Use my budget
         </button>
         {customised && (
           <button
             type="button"
-            className={`min-h-10 rounded-md border border-border px-3 py-1 text-xs${FOCUS}`}
+            className={`min-h-11 rounded-md border border-border px-3 py-1 text-xs${FOCUS}`}
             onClick={() => onSave(null)}
           >
             Reset to university estimate

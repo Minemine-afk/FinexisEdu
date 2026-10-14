@@ -154,6 +154,17 @@ export function unavailableReason(
   return `No published ${missingYears.join(", ")} fee on file`;
 }
 
+/** What to change so an unavailable programme can be priced, to follow its `unavailableReason`. */
+export function unavailableHint(reason: string): string {
+  if (reason.startsWith("Not open to international")) {
+    return "Change the residency to price it.";
+  }
+  if (reason.startsWith("No published")) {
+    return "Change the start year to price it.";
+  }
+  return "Change the residency to price it.";
+}
+
 /**
  * A sensible programme for a new slot: priced for this student, at a university not
  * already chosen, in a country not already chosen where possible, in the same field
@@ -348,6 +359,8 @@ export function useCalculator({
     .filter((o): o is Option => !!o);
 
   function changeLevel(nextLevel: Level) {
+    // Re-picking the current level must not swap anyone's programme.
+    if (nextLevel === level) return;
     setLevel(nextLevel);
     setSelected((prev) =>
       reselect(prev, options, optionsFor(universities, nextLevel), available),

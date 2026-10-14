@@ -25,8 +25,10 @@ export function formatCompactSgd(amount: number): string {
     [1e3, "K"],
   ];
   for (const [size, suffix] of units) {
-    if (Math.abs(amount) >= size) {
-      return `S$${(amount / size).toFixed(1).replace(/\.0$/, "")}${suffix}`;
+    // Round first, so 999,960 reads S$1M rather than S$1000K.
+    const scaled = (amount / size).toFixed(1);
+    if (Math.abs(Number(scaled)) >= 1) {
+      return `S$${scaled.replace(/\.0$/, "")}${suffix}`;
     }
   }
   return `S$${Math.round(amount)}`;
