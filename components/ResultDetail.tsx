@@ -57,7 +57,7 @@ export default function ResultDetail({
   const num = `whitespace-nowrap py-1 text-right font-normal ${hasCompulsory && hasOneOff ? "pl-2" : "pl-3"}`;
   // Three tables side by side can be narrower than their columns; the total then
   // stays pinned at the right while the other columns scroll under it.
-  const total = `${num} sticky right-0 bg-surface`;
+  const total = `${num} sticky right-0 border-l border-border bg-surface`;
   // Cohort-locked programmes are priced at the start year's fee throughout.
   const historyYears = new Set(
     result.years

@@ -30,6 +30,23 @@ export function loadUniversities(dataDir = DATA_DIR): University[] {
   return universities;
 }
 
+/**
+ * The data the site needs: maintainer `notes` are dropped from every programme
+ * and living-cost record, which halves the dataset embedded in the page.
+ */
+export function forSite(universities: University[]): University[] {
+  const withoutNotes = <T extends { notes?: string }>(record: T): T => {
+    const copy = { ...record };
+    delete copy.notes;
+    return copy;
+  };
+  return universities.map((u) => ({
+    ...u,
+    programmes: u.programmes.map(withoutNotes),
+    livingCosts: u.livingCosts && withoutNotes(u.livingCosts),
+  }));
+}
+
 export function loadCountries(dataDir = DATA_DIR): Country[] {
   const dir = path.join(dataDir, "countries");
   return fs

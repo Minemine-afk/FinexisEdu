@@ -14,7 +14,7 @@ import {
 } from "@/lib/format";
 import { FIELDS, LEVELS, type Field } from "@/lib/schema";
 import type { Lifestyle } from "@/lib/living";
-import { Breakdown, chartParts, valueFor, type CompareCategory } from "./FeeChart";
+import { Breakdown, INFLATION_CAPTION, chartParts, valueFor, type CompareCategory } from "./FeeChart";
 import InfoTip from "./InfoTip";
 import RateInput from "./RateInput";
 import ResultDetail, { FOCUS } from "./ResultDetail";
@@ -51,6 +51,17 @@ export default function TouchCalculator({
 }) {
   const { selections, chosen, selected, addSlot, grouped } = state;
   const [tab, setTab] = useState<Tab>("settings");
+  // Each tab keeps its own scroll position, so Compare → Details → Compare returns to the same place.
+  const tabScroll = useRef<Record<Tab, number>>({ settings: 0, compare: 0 });
+  const changeTab = (next: Tab, top = false) => {
+    tabScroll.current[tab] = window.scrollY;
+    if (top) tabScroll.current[next] = 0;
+    setTab(next);
+  };
+  useEffect(() => {
+    if (layout !== "tablet") window.scrollTo({ top: tabScroll.current[tab] });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tab]);
   // The comparison slot open in the picker sheet, if any.
   const [editing, setEditing] = useState<number | null>(null);
   const closeSheet = useCallback(() => setEditing(null), []);
@@ -132,13 +143,13 @@ export default function TouchCalculator({
         <div className={tablet ? "" : "border-t border-border pt-6"}>{universities}</div>
       </aside>
       <div className={tablet ? "min-w-0" : tab === "compare" ? "space-y-4" : "hidden"}>
-        {!tablet && <SettingsChips state={state} onOpen={() => setTab("settings")} />}
+        {!tablet && <SettingsChips state={state} onOpen={() => changeTab("settings")} />}
         <Results state={state} today={today} layout={layout} onPlan={setPlanKey} />
       </div>
       {!tablet && (
         <TabBar
           tab={tab}
-          onChange={setTab}
+          onChange={changeTab}
           count={selections.length}
           cheapest={selections[0]?.grandTotalSgd}
           includeLiving={state.includeLiving}
@@ -448,6 +459,7 @@ function Bars({
           ))}
         </p>
       )}
+      {category === "inflation" && <p className="text-xs text-muted">{INFLATION_CAPTION}</p>}
     </div>
   );
 }
@@ -875,7 +887,7 @@ function PickerSheet({
         type="button"
         aria-label="Close"
         onClick={onClose}
-        className="absolute inset-0 bg-foreground/50"
+        className="absolute inset-0 bg-backdrop"
       />
       <div
         ref={dialogRef}
@@ -1239,7 +1251,7 @@ function TabBar({
   includeLiving,
 }: {
   tab: Tab;
-  onChange: (t: Tab) => void;
+  onChange: (t: Tab, top?: boolean) => void;
   count: number;
   cheapest?: number;
   includeLiving: boolean;
@@ -1273,10 +1285,7 @@ function TabBar({
       {tab !== "compare" && count > 0 && cheapest !== undefined && (
         <button
           type="button"
-          onClick={() => {
-            onChange("compare");
-            window.scrollTo({ top: 0 });
-          }}
+          onClick={() => onChange("compare", true)}
           className={`flex w-full items-center justify-between gap-3 border-b border-border px-4 py-2 text-left text-xs${FOCUS}`}
         >
           <span className="text-muted">
@@ -1295,10 +1304,7 @@ function TabBar({
             key={t}
             type="button"
             aria-current={tab === t ? "page" : undefined}
-            onClick={() => {
-              onChange(t);
-              window.scrollTo({ top: 0 });
-            }}
+            onClick={() => onChange(t)}
             className={`flex min-h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-medium${FOCUS} ${tab === t ? "text-accent" : "text-muted"}`}
           >
             {icon}

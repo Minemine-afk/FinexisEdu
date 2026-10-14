@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { PRICE_BASE_YEAR } from "@/lib/calc";
 import { formatCompactSgd, formatMoney, programmeLabel } from "@/lib/format";
 import type { Selection } from "./useCalculator";
 import UniversityName from "./UniversityName";
@@ -36,7 +37,7 @@ const segmentPart = (seg: (typeof SEGMENTS)[number]): ChartPart => ({
 export const INFLATION_PARTS: ChartPart[] = [
   {
     key: "base",
-    label: "Tuition at 2026 prices",
+    label: `Tuition at ${PRICE_BASE_YEAR} prices`,
     color: "bg-series-1",
     value: (s) => s.tuitionAtBaseYearSgd,
   },
@@ -70,11 +71,14 @@ export function valueFor(s: Selection, category: CompareCategory): number {
 
 export function chartTitle(category: CompareCategory, includeLiving: boolean): string {
   if (category === "total") return includeLiving ? "Total cost in SGD" : "Total fees in SGD";
-  if (category === "inflation") return "Tuition in SGD: 2026 prices and expected rises";
+  if (category === "inflation") return `Tuition in SGD: ${PRICE_BASE_YEAR} prices and expected rises`;
   return `${SEGMENTS.find((seg) => seg.key === category)?.label ?? ""} in SGD`;
 }
 
 const percent = (x: number) => `${Number((x * 100).toFixed(1))}%`;
+
+/** One line under the Inflation chart saying what the two colours mean. */
+export const INFLATION_CAPTION = `Tuition held at ${PRICE_BASE_YEAR} prices, plus the rises expected by each year of study. Rises a university has already published for later years count as rises.`;
 
 /** What one bar is made of, for the hover tooltip and the tap-to-open breakdown. */
 export function Breakdown({
@@ -115,7 +119,8 @@ export function Breakdown({
           <dt className="sr-only">Price rises</dt>
           <dd>
             {percent(rise / s.yearsSgd.tuition)} of the tuition is expected price rises. Fees
-            are projected to rise {percent(s.feeIncrease)} a year.
+            are projected to rise {percent(s.feeIncrease)} a year; rises a university has
+            already published for years after {PRICE_BASE_YEAR} count as price rises too.
           </dd>
         </div>
       )}
@@ -159,6 +164,7 @@ export default function FeeChart({
           </span>
         )}
       </figcaption>
+      {category === "inflation" && <p className="mt-1 text-xs text-muted">{INFLATION_CAPTION}</p>}
 
       <div className="relative mt-8">
         {/* Plot: a fixed-height area whose bottom edge is the shared baseline. */}
