@@ -1,12 +1,11 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import { formatCompactSgd, formatMoney, programmeLabel } from "@/lib/format";
+import { formatMoney, programmeLabel } from "@/lib/format";
 import {
   DEFAULT_INVEST_RATE,
   defaultIntakeMonth,
   monthsBetween,
-  SAVING_RATE,
   simulate,
   solveTvm,
   type Plan,
@@ -20,7 +19,6 @@ import type { Selection } from "./useCalculator";
 const MAX_MONTHS = 1200;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const sgd = (n: number) => formatMoney(n, "SGD");
-const pct = (r: number) => `${+r.toFixed(2)}%`;
 
 const TVM_FIELDS: [TvmField, string, string][] = [
   ["months", "Number of months to save", "Number of months to save"],
@@ -38,24 +36,20 @@ function yearCostsSgd(s: Selection): number[] {
   );
 }
 
-/** One side of the comparison: what you put in and what interest adds. */
+/** What you put in and what interest adds. */
 interface Side {
   paidIn: number;
   interest: number;
 }
 interface Bars {
-  saving: Side | null;
   investing: Side;
   target: number;
   targetLabel: string;
-  rate: number;
-  sameMoney?: boolean;
 }
 
 /**
  * The savings planner: a pop-up from a university's tile that works out how to
- * pay its projected cost, saving at 0.05% compared with investing at a chosen
- * rate. Centred on desktop and tablets, a bottom sheet on phones.
+ * pay its projected cost when investing at a chosen rate. Centred on desktop and tablets, a bottom sheet on phones.
  */
 export default function SavingsPlanner({
   selection: s,
@@ -81,7 +75,6 @@ export default function SavingsPlanner({
 
   const [target, setTarget] = useState<number | null>(null);
   const [intake, setIntake] = useState(() => Math.max(firstMonth, defaultIntakeMonth(s.university.country)));
-  const [view, setView] = useState<"split" | "time">("split");
   const [tvmEdits, setTvmEdits] = useState<Tvm | null>(null);
   // With no time to save (fees due now) the question is what to set aside today.
   const seedField: TvmField = monthsBetween(now, { year: firstYear, month: intake }) === 0 ? "start" : "monthly";
@@ -136,12 +129,6 @@ export default function SavingsPlanner({
   const months = monthsBetween(now, { year: firstYear, month: intake });
   const startLabel = `${MONTHS[intake]} ${firstYear}`;
 
-  /** How a cost is met: your money up to the cost, interest for the rest. */
-  const covered = (paidIn: number, cost: number): Side => ({
-    paidIn: Math.min(paidIn, cost),
-    interest: Math.max(0, cost - paidIn),
-  });
-
   const seed: Tvm = { months, rate: DEFAULT_INVEST_RATE, start: 0, monthly: 0, end: costTotal, startOfMonth };
   const t: Tvm = { ...(tvmEdits ?? seed), startOfMonth };
   const solved = solveTvm(t, tvmField);
@@ -162,27 +149,10 @@ export default function SavingsPlanner({
   const coveredAlready = ok && solved === 0 && (tvmField === "months" || tvmField === "monthly" || tvmField === "start");
   // Fees fall due now: there is no time to save, so the whole amount is your own money.
   const dueNow = ok && n === 0 && !coveredAlready;
-  const mine: Plan = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
+  const plan: Plan = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
   // What the plan really ends with: above the end amount once months are rounded up, or an answer was held at zero.
   const reached = ok ? solveTvm(full, "end") : full.end;
   const overshoot = ok && reached > full.end + 0.5 ? reached - full.end : 0;
-  let other: Plan | null = null;
-  let compare: [string, string] | null = null;
-  let savingSide: Side | null = null;
-  if (ok && tvmField !== "rate") {
-    const s0: Tvm = { ...t, rate: SAVING_RATE };
-    const v = solveTvm(s0, tvmField);
-    if (Number.isFinite(v)) {
-      const f = { ...s0, [tvmField]: tvmField === "months" ? wholeMonths(v) : v };
-      compare = [show(f, tvmField), show(full, tvmField)];
-      // Saving at 0.05% that takes over a century is shown as such, not drawn.
-      if (f.months <= MAX_MONTHS) {
-        other = simulate({ start: f.start, monthly: f.monthly, months: Math.max(0, Math.round(f.months)), ratePct: SAVING_RATE, startOfMonth, today: now });
-        const paidIn = f.start + f.monthly * f.months;
-        savingSide = { paidIn, interest: solveTvm(f, "end") - paidIn };
-      }
-    }
-  }
   const answer = (
     <Answer
       question={TVM_FIELDS.find(([k]) => k === tvmField)![2]}
@@ -210,13 +180,9 @@ export default function SavingsPlanner({
   // Null when the numbers give nothing worth drawing.
   const bars: Bars | null = ok
     ? {
-        saving: savingSide && covered(savingSide.paidIn, savingSide.paidIn + savingSide.interest),
         investing: { paidIn: Math.min(paid, reached), interest: Math.max(0, reached - paid) },
         target: full.end,
         targetLabel: "Amount needed at the end",
-        rate: full.rate,
-        // Solving the end amount: both plans put in the same money and differ only in what it grows to.
-        sameMoney: tvmField === "end",
       }
     : null;
   // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
@@ -411,28 +377,15 @@ export default function SavingsPlanner({
               <div className="order-first min-w-0 space-y-4 md:order-none">
                 <div className="space-y-2 rounded-xl bg-chip p-4" aria-live="polite">
                   {answer}
-                  {compare && (
-                    <dl className="grid grid-cols-2 gap-2.5 pt-1">
-                      <Compared label={`Saving at ${pct(SAVING_RATE)}`} value={compare[0]} color="var(--you)" />
-                      <Compared label={`Investing at ${pct(full.rate)}`} value={compare[1]} color="var(--series-1)" />
-                    </dl>
-                  )}
                 </div>
                 {bars && (
                   <Chart
                     bars={bars}
-                    mine={mine}
-                    other={other}
-                    today={now}
-                    startMonth={null}
-                    startLabel={startLabel}
-                    view={view}
-                    setView={setView}
                     still={
                       dueNow
                         ? `Fees are due now, so there is no time for interest to build: the whole ${sgd(full.end)} is your own money.`
                         : coveredAlready
-                          ? `Nothing more is needed at either rate: what goes in already reaches ${sgd(full.end)}.`
+                          ? `Nothing more is needed: what goes in already reaches ${sgd(full.end)}.`
                           : null
                     }
                   />
@@ -440,7 +393,7 @@ export default function SavingsPlanner({
                 {bars && (
                 <details className="rounded-xl border border-border">
                   <summary className={`cursor-pointer rounded-xl px-4 py-3 text-sm font-medium${FOCUS}`}>
-                    Year by year (investing at {pct(bars.rate)})
+                    Year by year
                   </summary>
                   <div className="overflow-x-auto px-4 pb-3">
                     <table className="w-full text-right text-xs tabular-nums sm:text-sm">
@@ -453,7 +406,7 @@ export default function SavingsPlanner({
                         </tr>
                       </thead>
                       <tbody>
-                        {mine.years.map((y) => (
+                        {plan.years.map((y) => (
                           <tr key={y.year} className="border-t border-border">
                             <td className="py-1.5 pr-2 text-left">{y.year}</td>
                             <td className="px-2">{y.paidIn ? sgd(y.paidIn) : "–"}</td>
@@ -526,15 +479,6 @@ function Answer({
       )}
       <p className="text-sm">{note}</p>
     </>
-  );
-}
-
-function Compared({ label, value, color }: { label: string; value: string; color: string }) {
-  return (
-    <div className="min-w-0 rounded-lg border-l-4 bg-surface px-3 py-2" style={{ borderLeftColor: color }}>
-      <dt className="text-xs text-muted">{label}</dt>
-      <dd className="font-semibold tabular-nums">{value}</dd>
-    </div>
   );
 }
 
@@ -648,282 +592,65 @@ function NumberField({
   );
 }
 
-/** "Your money vs interest" bars for both rates, or the money put in over time. */
+/** "Your money vs interest" for the plan. */
 function Chart({
   bars,
-  mine,
-  other,
-  today,
-  startMonth,
-  startLabel,
-  view,
-  setView,
   still,
 }: {
   bars: Bars;
-  mine: Plan;
-  other: Plan | null;
-  today: { year: number; month: number };
-  startMonth: number | null;
-  startLabel: string;
-  view: "split" | "time";
-  setView: (v: "split" | "time") => void;
-  /** A headline that replaces the comparison when there is nothing to compare (fees due today, or nothing more needed). */
+  /** A headline in place of the usual one when interest has nothing to do (fees due today, or nothing more needed). */
   still: string | null;
 }) {
-  const { saving, investing } = bars;
-  const r = pct(bars.rate);
-  const canTime = Boolean(saving && other && !bars.sameMoney && !still);
-  const showTime = view === "time" && canTime;
-  const headline = !saving ? (
-    <>
-      At {r}, interest covers <em className="not-italic text-interest-text">{sgd(investing.interest)}</em>.
-    </>
-  ) : bars.sameMoney ? (
-    <>
-      Investing at {r} grows the same plan to{" "}
-      <em className="not-italic text-interest-text">{sgd(investing.interest - saving.interest)} more</em> than saving at {pct(SAVING_RATE)}.
-    </>
-  ) : Math.abs(saving.paidIn - investing.paidIn) < 0.5 ? (
-    <>
-      Investing at {r} takes <em className="not-italic text-interest-text">the same money</em> as saving at {pct(SAVING_RATE)}.
-    </>
-  ) : (
-    <>
-      Investing at {r} means{" "}
-      <em className="not-italic text-interest-text">
-        {sgd(Math.abs(saving.paidIn - investing.paidIn))} {saving.paidIn > investing.paidIn ? "less" : "more"}
-      </em>{" "}
-      of your own money than saving at {pct(SAVING_RATE)}.
-    </>
-  );
   return (
     <div className="rounded-xl border border-border p-4">
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <h3 className="text-sm font-semibold">Saving vs investing</h3>
-        {canTime && (
-          <div role="group" aria-label="Chart view" className="flex rounded-lg border border-border p-0.5 text-xs">
-            {(
-              [
-                ["split", "Your money vs interest"],
-                ["time", "Over time"],
-              ] as const
-            ).map(([v, text]) => (
-              <button
-                key={v}
-                type="button"
-                aria-pressed={view === v}
-                onClick={() => setView(v)}
-                className={`min-h-11 rounded-md px-2.5${FOCUS} ${view === v ? "bg-accent-fill font-medium text-on-accent" : "text-muted"}`}
-              >
-                {text}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
+      <h3 className="text-sm font-semibold">Your money vs interest</h3>
       <p className="mt-2 text-[15px] font-semibold leading-snug text-balance">
-        {still ?? headline}
+        {still ?? (
+          <>
+            Interest covers <em className="not-italic text-interest-text">{sgd(bars.investing.interest)}</em>.
+          </>
+        )}
       </p>
-      {showTime ? (
-        <OverTime saving={other!} investing={mine} today={today} startMonth={startMonth} startLabel={startLabel} rate={r} gap={saving!.paidIn - investing.paidIn} />
-      ) : (
-        <Split bars={bars} />
-      )}
+      <Split bars={bars} />
     </div>
   );
 }
 
 function Split({ bars }: { bars: Bars }) {
-  const rows: [string, Side][] = [
-    ...(bars.saving ? [[`Saving at ${pct(SAVING_RATE)}`, bars.saving] as [string, Side]] : []),
-    [`Investing at ${pct(bars.rate)}`, bars.investing],
-  ];
-  const max = Math.max(bars.target, ...rows.map(([, s]) => s.paidIn + s.interest)) * 1.02 || 1;
+  const side = bars.investing;
+  const name = "Investing";
+  const max = Math.max(bars.target, side.paidIn + side.interest) * 1.02 || 1;
   const w = (v: number) => `${Math.max(0, (v / max) * 100)}%`;
   return (
     <div className="mt-3 space-y-4">
-      {rows.map(([name, side]) => (
-        <div key={name}>
-          <div className="mb-1.5 flex justify-between gap-2 text-sm">
-            <span>{name}</span>
-            <b className="font-semibold tabular-nums">{sgd(side.paidIn + side.interest)}</b>
-          </div>
-          <div
-            role="img"
-            aria-label={`${name}: your money ${sgd(side.paidIn)}, interest ${sgd(side.interest)}`}
-            className="relative flex h-7 rounded-md bg-sidebar"
-          >
-            <span className="h-full rounded-l-md bg-you" style={{ width: w(side.paidIn) }} />
-            <span className="h-full rounded-r-md bg-series-4" style={{ width: w(side.interest) }} />
-            <i className="absolute -bottom-1 -top-1 border-l-2 border-dashed border-foreground" style={{ left: w(bars.target) }} />
-          </div>
-          <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted tabular-nums">
-            <span>
-              <i className="mr-1.5 inline-block size-2.5 rounded-sm bg-you align-[-1px]" />
-              Your money <b className="font-semibold text-foreground">{sgd(side.paidIn)}</b>
-            </span>
-            <span>
-              <i className="mr-1.5 inline-block size-2.5 rounded-sm bg-series-4 align-[-1px]" />
-              Interest <b className="font-semibold text-foreground">{sgd(side.interest)}</b>
-            </span>
-          </div>
+      <div>
+        <div className="mb-1.5 flex justify-between gap-2 text-sm">
+          <span>{name}</span>
+          <b className="font-semibold tabular-nums">{sgd(side.paidIn + side.interest)}</b>
         </div>
-      ))}
+        <div
+          role="img"
+          aria-label={`${name}: your money ${sgd(side.paidIn)}, interest ${sgd(side.interest)}`}
+          className="relative flex h-7 rounded-md bg-sidebar"
+        >
+          <span className="h-full rounded-l-md bg-you" style={{ width: w(side.paidIn) }} />
+          <span className="h-full rounded-r-md bg-series-4" style={{ width: w(side.interest) }} />
+          <i className="absolute -bottom-1 -top-1 border-l-2 border-dashed border-foreground" style={{ left: w(bars.target) }} />
+        </div>
+        <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted tabular-nums">
+          <span>
+            <i className="mr-1.5 inline-block size-2.5 rounded-sm bg-you align-[-1px]" />
+            Your money <b className="font-semibold text-foreground">{sgd(side.paidIn)}</b>
+          </span>
+          <span>
+            <i className="mr-1.5 inline-block size-2.5 rounded-sm bg-series-4 align-[-1px]" />
+            Interest <b className="font-semibold text-foreground">{sgd(side.interest)}</b>
+          </span>
+        </div>
+      </div>
       <p className="text-xs text-muted">
         Dashed line: {bars.targetLabel[0].toLowerCase() + bars.targetLabel.slice(1)}, {sgd(bars.target)}.
       </p>
     </div>
   );
-}
-
-function OverTime({
-  saving,
-  investing,
-  today,
-  startMonth,
-  startLabel,
-  rate,
-  gap,
-}: {
-  saving: Plan;
-  investing: Plan;
-  today: { year: number; month: number };
-  startMonth: number | null;
-  startLabel: string;
-  rate: string;
-  gap: number;
-}) {
-  const ref = useRef<SVGSVGElement>(null);
-  const [W, setW] = useState(480);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const ro = new ResizeObserver(([e]) => setW(Math.max(240, Math.round(e.contentRect.width))));
-    ro.observe(el);
-    return () => ro.disconnect();
-  }, []);
-  const H = 210;
-  const pad = { l: 52, r: 8, t: 14, b: 22 };
-  const all = [...saving.points, ...investing.points];
-  const maxM = Math.max(1, ...all.map((p) => p.month));
-  const hiRaw = Math.max(1, ...all.map((p) => p.paidIn));
-  const step = niceStep(hiRaw / 4);
-  const hi = Math.ceil(hiRaw / step) * step;
-  const x = (m: number) => pad.l + (m / maxM) * (W - pad.l - pad.r);
-  const y = (v: number) => pad.t + (1 - v / hi) * (H - pad.t - pad.b);
-  const path = (p: Plan) => p.points.map((q, k) => `${k ? "L" : "M"}${x(q.month).toFixed(1)},${y(q.paidIn).toFixed(1)}`).join("");
-  const back = [...investing.points].reverse().map((q) => `L${x(q.month).toFixed(1)},${y(q.paidIn).toFixed(1)}`).join("");
-  const ticks: number[] = [];
-  for (let v = 0; v <= hi + 1e-6; v += step) ticks.push(v);
-  // Calendar years along the bottom, every 1, 2 or 4 years.
-  const every = maxM > 168 ? 4 : maxM > 84 ? 2 : 1;
-  const years: [number, number][] = [];
-  for (let yr = today.year + 1; ; yr += every) {
-    const m = (yr - today.year) * 12 - today.month;
-    if (m > maxM) break;
-    // A year that lands under the "S$0" axis label is skipped.
-    if (x(m) >= pad.l + 14) years.push([yr, m]);
-  }
-  const labelM = Math.round((startMonth ?? maxM) * 0.8);
-  const labelPt = investing.points.find((q) => q.month === labelM);
-  // Labels sit on a halo of the background so the lines don't cut through them;
-  // the "Fees start" label flips to the right of its line when the line is near the left edge.
-  const halo = { paintOrder: "stroke" as const, stroke: "var(--surface)", strokeWidth: 4, strokeLinejoin: "round" as const };
-  const startX = startMonth !== null ? x(startMonth) : 0;
-  // Roughly 5.6px a character at 11px; used to keep labels inside the chart.
-  const textW = (t: string) => t.length * 5.6;
-  const startText = `Fees start · ${startLabel}`;
-  // The label sits to the right of its line when it fits there, else to the left,
-  // and against the chart's right edge on a narrow chart where neither fits.
-  const fitsRight = startX + 5 + textW(startText) <= W - pad.r;
-  const fitsLeft = startX - 5 - textW(startText) >= pad.l;
-  const startLabelX = fitsRight ? startX + 5 : fitsLeft ? startX - 5 : W - pad.r;
-  const gapText = `Interest covers ${formatCompactSgd(gap)}`;
-  const gapHalf = textW(gapText) / 2;
-  const gapX = Math.min(W - pad.r - gapHalf, Math.max(pad.l + gapHalf, x(labelM)));
-  // The label sits between the two lines where the gap is wide enough across its whole width,
-  // else under the lower (investing) line, else above the upper (saving) line, never across either.
-  // Sampled a little past the estimated text width, since the real glyphs may run wider.
-  const under = (p: Plan) => p.points.filter((q) => Math.abs(x(q.month) - gapX) <= gapHalf + 14).map((q) => y(q.paidIn));
-  const sY = under(saving);
-  const iY = under(investing);
-  // An 11px label's box runs from 11px above its baseline to 3px below it.
-  const ascent = 11;
-  const descent = 3;
-  const clear = 4;
-  let gapY = y(labelPt?.paidIn ?? 0) + 18;
-  if (sY.length && iY.length) {
-    const top = Math.max(...sY); // lowest point of the saving line over the label
-    const bottom = Math.min(...iY); // highest point of the investing line over the label
-    const between = (top + bottom) / 2 + (ascent - descent) / 2;
-    const below = Math.max(...iY) + clear + ascent;
-    const above = Math.min(...sY) - clear - descent;
-    if (bottom - top >= ascent + descent + 2 * clear) gapY = between;
-    else if (below + descent <= H - pad.b - 2) gapY = below;
-    else if (above - ascent >= pad.t) gapY = above;
-    else gapY = between;
-  }
-  return (
-    <figure className="mt-3">
-      <svg ref={ref} width="100%" height={H} viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Money put in over time: saving at ${pct(SAVING_RATE)} compared with investing at ${rate}`} className="block text-[11px]">
-        {ticks.map((v) => (
-          <g key={v}>
-            <line x1={pad.l} x2={W - pad.r} y1={y(v)} y2={y(v)} stroke="var(--border)" />
-            <text x={pad.l - 6} y={y(v) + 4} textAnchor="end" fill="var(--muted)">
-              {formatCompactSgd(v)}
-            </text>
-          </g>
-        ))}
-        {years.map(([yr, m]) => (
-          // The last year's label is pulled in so it is not cut off at the right edge.
-          <text key={yr} x={Math.min(x(m), W - textW(String(yr)) / 2)} y={H - 6} textAnchor="middle" fill="var(--muted)">
-            {yr}
-          </text>
-        ))}
-        <path d={`${path(saving)}${back}Z`} fill="var(--series-4)" fillOpacity={0.22} />
-        {startMonth !== null && startMonth <= maxM && (
-          <g>
-            <line x1={x(startMonth)} x2={x(startMonth)} y1={pad.t} y2={H - pad.b} stroke="var(--muted)" strokeDasharray="3 3" />
-            <text
-              x={startLabelX}
-              y={pad.t + 10}
-              textAnchor={fitsRight ? "start" : "end"}
-              fill="var(--foreground)"
-              style={halo}
-            >
-              {startText}
-            </text>
-          </g>
-        )}
-        <path d={path(saving)} fill="none" stroke="var(--you)" strokeWidth={2.4} />
-        <path d={path(investing)} fill="none" stroke="var(--series-1)" strokeWidth={2.4} />
-        {gap > 0 && labelPt && (
-          <text x={gapX} y={gapY} textAnchor="middle" fill="var(--interest-text)" fontWeight={600} style={halo}>
-            {gapText}
-          </text>
-        )}
-      </svg>
-      <figcaption className="mt-1 flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted">
-        <span>
-          <i className="mr-1.5 inline-block h-0.5 w-3 bg-you align-middle" />
-          Saving at {pct(SAVING_RATE)}: your money in
-        </span>
-        <span>
-          <i className="mr-1.5 inline-block h-0.5 w-3 bg-series-1 align-middle" />
-          Investing at {rate}: your money in
-        </span>
-        <span>
-          <i className="mr-1.5 inline-block size-2.5 rounded-sm bg-series-4/40 align-[-1px]" />
-          Gap: paid by interest
-        </span>
-      </figcaption>
-    </figure>
-  );
-}
-
-function niceStep(raw: number): number {
-  const p = Math.pow(10, Math.floor(Math.log10(raw || 1)));
-  const f = raw / p;
-  return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p;
 }

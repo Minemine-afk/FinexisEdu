@@ -1,19 +1,13 @@
 /**
  * Time-value-of-money maths for the savings planner: how much to save, or set
- * aside, to pay a university's projected costs, saving at a fixed low rate
- * compared with investing at a chosen return. Interest compounds monthly on a
- * nominal yearly rate, as on a financial calculator; deposits come at the end
- * of each month unless `startOfMonth` is set.
+ * aside, to pay a university's projected costs when investing at a chosen
+ * return. Interest compounds monthly on a nominal yearly rate, as on a
+ * financial calculator; deposits come at the end of each month unless
+ * `startOfMonth` is set.
  */
 
-/** The fixed "Saving at" rate, % a year: a typical base rate on a Singapore savings account. */
-export const SAVING_RATE = 0.05;
-/** The default "Investing at" rate, % a year, and the presets offered beside it. */
+/** The default investing return, % a year. */
 export const DEFAULT_INVEST_RATE = 4;
-export const INVEST_PRESETS: [number, string][] = [
-  [4, "Balanced"],
-  [6, "Growth"],
-];
 
 /** Month the first fees fall due (0 = January): August in Singapore and the US, otherwise each country's usual intake. */
 const INTAKE_MONTH: Record<string, number> = {
