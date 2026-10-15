@@ -38,7 +38,7 @@ every scraped change goes through a pull request:
 
 ## Coverage (checked 8 Oct 2026)
 
-109 universities, 1,537 programmes: five to sixteen universities in each of the
+114 universities, 1,537 programmes: five to sixteen universities in each of the
 10 countries, plus SIM Global Education in Singapore, across nine fields (engineering,
 computing, business, sciences, arts and humanities, law, medicine, psychology,
 nursing). Business includes a dedicated accountancy degree (one bachelor's and one

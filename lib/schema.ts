@@ -240,3 +240,16 @@ export const ShortlistRationale = z.object({
 });
 export const RationaleFile = z.record(z.string().regex(/^[a-z]{2}\/[a-z0-9-]+$/), ShortlistRationale);
 export type ShortlistRationale = z.infer<typeof ShortlistRationale>;
+
+/** Why a field of study is in the calculator (data/courses.json): one reason, one figure and one source per field. */
+export const CourseRationale = z.object({
+  field: Field,
+  /** Short extra label shown under the field name, e.g. "including accountancy". */
+  includes: z.string().optional(),
+  reason: z.string().min(1).max(160),
+  figure: z.string().min(1).max(80),
+  sourceLabel: z.string().min(1).max(30),
+  sourceUrl: z.url(),
+});
+export const CoursesFile = z.array(CourseRationale);
+export type CourseRationale = z.infer<typeof CourseRationale>;

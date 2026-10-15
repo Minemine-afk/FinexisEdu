@@ -1,0 +1,68 @@
+[
+  {
+    "field": "engineering",
+    "reason": "The largest field at home, and the largest for international students in Germany.",
+    "figure": "25% of 2024 local university places",
+    "sourceLabel": "MOE",
+    "sourceUrl": "https://www.moe.gov.sg/api/media/a43c4537-f4b9-47c2-bfe5-d43125a94973/ESD-2025.pdf"
+  },
+  {
+    "field": "computing",
+    "reason": "Graduates earn the most of the broad course groups in the national graduate survey.",
+    "figure": "S$5,500 median monthly pay for 2025 graduates",
+    "sourceLabel": "MOE",
+    "sourceUrl": "https://www.moe.gov.sg/media/files/post-secondary/ges-2025/Joint%20Web%20Publication%20GES%202025.pdf"
+  },
+  {
+    "field": "business",
+    "includes": "including accountancy",
+    "reason": "The largest subject group for international students in the UK and Australia.",
+    "figure": "38.8% of international students in the UK study business or law",
+    "sourceLabel": "OECD",
+    "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.EDU.IMEP,DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_DIST_FIELD,/GBR+AUS+USA+CAN+DEU+OECD..............?startPeriod=2022&format=csvfilewithlabels"
+  },
+  {
+    "field": "arts",
+    "includes": "including economics",
+    "reason": "A large local intake; economics graduates move into finance and public service.",
+    "figure": "17% of 2024 local university places",
+    "sourceLabel": "MOE",
+    "sourceUrl": "https://www.moe.gov.sg/api/media/a43c4537-f4b9-47c2-bfe5-d43125a94973/ESD-2025.pdf"
+  },
+  {
+    "field": "sciences",
+    "includes": "including data science",
+    "reason": "Smaller at home, but the biomedical sector is a national priority that needs scientists.",
+    "figure": "Over 53,000 researchers; biomedical sector 1.9% of GDP",
+    "sourceLabel": "EDB",
+    "sourceUrl": "https://www.edb.gov.sg/en/business-insights/insights/singapores-rise-as-a-biomedical-sciences-powerhouse-the-talent-driving-its-next-chapter.html"
+  },
+  {
+    "field": "psychology",
+    "reason": "Long waits for a psychologist; the government plans to grow the public workforce by about 40%.",
+    "figure": "212 to 300 public-sector psychologists by 2030",
+    "sourceLabel": "MOH",
+    "sourceUrl": "https://moh.gov.sg/news-highlights/details/speech-by-mdm-rahayu-mahzam-senior-parliamentary-secretary-ministry-of-health-ministry-of-law-at-the-motion-debate-on-advancing-mental-health-on-7-february-2024"
+  },
+  {
+    "field": "law",
+    "reason": "Few local places, so many Singaporeans qualify overseas and take the Part A exam.",
+    "figure": "About 1,050 Singaporeans studying law abroad (2013)",
+    "sourceLabel": "Straits Times",
+    "sourceUrl": "https://news.smu.edu.sg/sites/news.smu.edu.sg/files/newsroom-pdf/st_20130529_2.pdf"
+  },
+  {
+    "field": "medicine",
+    "reason": "Far more local applicants than places; MOH supports Singaporeans who train abroad.",
+    "figure": "About 2,400 citizen applicants turned away each year",
+    "sourceLabel": "MOE",
+    "sourceUrl": "https://www.moe.gov.sg/news/parliamentary-replies/20221107-entry-requirements-to-study-medicine-in-local-universities"
+  },
+  {
+    "field": "nursing",
+    "reason": "A national hiring priority: local training cannot supply all the nurses needed.",
+    "figure": "82,000 healthcare workers needed by 2030",
+    "sourceLabel": "MOH",
+    "sourceUrl": "https://www.moh.gov.sg/newsroom/annual-hiring-targets-for-healthcare-workers-to-meet-projected-size-of-82-000-by-2030/"
+  }
+]

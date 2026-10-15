@@ -1,6 +1,7 @@
 import Calculator from "@/components/Calculator";
+import CourseRationale from "@/components/CourseRationale";
 import UniversityRationale from "@/components/UniversityRationale";
-import { forSite, loadCountries, loadRationale, loadUniversities } from "@/lib/data";
+import { forSite, loadCountries, loadCourses, loadRationale, loadUniversities } from "@/lib/data";
 import { getFxRates } from "@/lib/fx";
 
 // Re-render daily so exchange rates stay fresh; fee data changes on redeploy.
@@ -10,6 +11,7 @@ export default async function Home() {
   const universities = forSite(loadUniversities());
   const countries = loadCountries();
   const rationale = loadRationale();
+  const courses = loadCourses();
   const fx = await getFxRates();
   const today = new Date().toISOString().slice(0, 10);
 
@@ -30,6 +32,7 @@ export default async function Home() {
         <Calculator universities={universities} countries={countries} fx={fx} today={today} />
       </main>
 
+      <CourseRationale courses={courses} />
       <UniversityRationale universities={universities} countries={countries} rationale={rationale} />
 
       <footer className="safe-x mx-auto max-w-6xl pb-[calc(env(safe-area-inset-bottom)+6rem)] text-sm text-muted lg:pb-10">

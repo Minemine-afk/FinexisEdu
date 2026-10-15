@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { Country, RationaleFile, University, type ShortlistRationale } from "./schema";
+import { Country, CoursesFile, RationaleFile, University, type CourseRationale, type ShortlistRationale } from "./schema";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -58,4 +58,9 @@ export function loadCountries(dataDir = DATA_DIR): Country[] {
 /** Shortlist evidence per university, keyed "country/id"; universities added before the shortlist have none. */
 export function loadRationale(dataDir = DATA_DIR): Record<string, ShortlistRationale> {
   return RationaleFile.parse(readJson(path.join(dataDir, "rationale.json")));
+}
+
+/** Why each field of study is in the calculator, in the order shown (data/courses.json). */
+export function loadCourses(dataDir = DATA_DIR): CourseRationale[] {
+  return CoursesFile.parse(readJson(path.join(dataDir, "courses.json")));
 }
