@@ -128,3 +128,8 @@ sources:
     country: nz
     url: "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-UBSCN/psychology-UBSCN2JPSYC1/"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: massey
+    country: nz
+    url: "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-professional-accountancy-PMPRC/"
+    manual: true

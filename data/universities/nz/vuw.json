@@ -644,6 +644,55 @@
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 58950,
+          "annualCompulsoryFees": 1912,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-professional-accounting/overview",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Estimated whole-programme tuition for international students: 180 points in 3 trimesters (about 1 year), including GST. Student services and hardship fees are included; insurance is extra.",
+      "notes": "VUW programme page data (api/postgrad, internationalYear 2027): international fee for the full programme NZ$58,950 (= $327.50/pt x 180) with levies $1,912; the rendered page only displays the domestic figure unless a nationality is selected, so the international number was read from the page's data feed. The published levy 1,912 looks like the 2026 rate (SSF 10.44 x 180 + 32); the SSF is capped at 150 points a year in the 2026 calendar and the cap was not applied, following the page. 3 trimesters = 1 year so annual = total. History from the University Calendar Fees Schedule Part B 'MMPA courses are charged at' (international, incl. GST) x 180 points: 2026 $308.90 = 55,602.00; 2025 $291.42 = 52,455.60; 2024 $277.54 = 49,957.20. Compulsory = SSF per point x 180 + hardship fee: 2026 10.44 + $32 = 1,911.20; 2025 9.94 + $32 = 1,821.20; 2024 9.20 + $30 = 1,686.00. Assumes the 2024 and 2025 MPA was also 180 points.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 55602,
+          "annualCompulsoryFees": 1911.2,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0011/2321984/te-herenga-waka-calendar-2026.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 52455.6,
+          "annualCompulsoryFees": 1821.2,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0010/2259307/te-herenga-waka-calendar-2025.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 49957.2,
+          "annualCompulsoryFees": 1686,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

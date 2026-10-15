@@ -612,6 +612,98 @@
           "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Accounting",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 47040,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2027-inton-fees.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year.",
+      "notes": "RMIT program BP351, 3 years full-time, Melbourne City. Figure from RMIT's '2027 International Onshore annual tuition fees' PDF (96 credit points per year): A$47,040; international tier chosen because Singaporeans are international students. The program page shows the domestic fee by default, so the PDF was used. History from the same PDF for each year (BP351 'indicative annual tuition fee'): 2024 A$41,280, 2025 A$42,240, 2026 A$45,120. Excludes SSAF and OSHC. Same fee as the Bachelor of Business already in the file.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41280,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42240,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45120,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 50880,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2027-inton-fees.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; RMIT reviews fees each year. Takes 2 years, 1.5 with advanced standing.",
+      "notes": "RMIT program MC194, 2 years full-time (1.5 with advanced standing), Melbourne City. Figure from RMIT's '2027 International Onshore annual tuition fees' PDF (96 credit points per year, plan MC194P15): A$50,880; international tier chosen because Singaporeans are international students. The program page shows the domestic fee (A$38,400) by default, so the PDF was used. History from the same PDF for each year: 2024 A$45,120, 2025 A$46,080, 2026 A$48,960. Excludes SSAF and OSHC.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 45120,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2024-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 46080,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2025-inton-fees.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 48960,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2026-inton-fees.pdf"
+        }
+      ]
     }
   ]
 }

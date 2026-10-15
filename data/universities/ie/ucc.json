@@ -658,6 +658,86 @@
           "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-42-index?url=https%3A%2F%2Fwww.ucc.ie%2Fen%2Ffinanceoffice%2Ffees%2Fschedules%2Fpostgraduateeuandinternationalfees202425%2F&output=json"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc (Hons) Accounting (CK202)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 21700,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202627/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international (non-EU) students plus a EUR 210 capitation fee. 4 years including a work placement. UCC says fees on multi-year degrees may change from year to year.",
+      "notes": "UCC Fees Office 'International Undergraduate Fees 2026/27', row 'Accounting - BSc (Hons) - CK202': non-EU full-time EUR 21,700, capitation EUR 210, 4 Yr FT; international fee used because Singaporeans are non-EU. History, same row: 2025/26 EUR 21,700 + capitation EUR 207 (Past Fee Schedules page for 2025-26); 2024/25 EUR 21,300 + EUR 207 (page 'International Undergraduate Fees 2024/25', now removed from ucc.ie, read from Common Crawl copy of 9 Nov 2024). Same conventions as the file's BComm Commerce row.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21700,
+          "annualCompulsoryFees": 207,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/pastfeeschedules/internationalundergraduatefees2025-26/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21300,
+          "annualCompulsoryFees": 207,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202425/",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Accounting (MACC)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 19700,
+          "annualCompulsoryFees": 210,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202627/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students plus a EUR 210 capitation fee. Intended for accounting graduates; gives professional exemptions.",
+      "notes": "UCC Fees Office 'Postgraduate EU and International Fees 2026/27', row 'Accounting - MACC': non-EU full-time EUR 19,700, capitation EUR 210, 1 Yr FT; international fee used because Singaporeans are non-EU. History, same row: 2025-26 EUR 19,700 + EUR 207 (Past Fee Schedules page); 2024/25 EUR 19,300 (page 'Postgraduate EU and International Fees 2024/25', now removed from ucc.ie, Common Crawl copy of 5 Oct 2024), whose heading says the fees are inclusive of the EUR 207 capitation fee, so compulsory 0, as on the file's MSc Finance row. UCC also offers an MSc Accounting and Performance Analytics at the same fee, not chosen.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19700,
+          "annualCompulsoryFees": 207,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/pastfeeschedules/postgraduateeuandinternationalfees2025-26/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 19300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ucc.ie/en/financeoffice/fees/schedules/postgraduateeuandinternationalfees202425/",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

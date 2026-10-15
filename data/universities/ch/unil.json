@@ -492,6 +492,44 @@
           "sourceType": "official"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Science in Accounting, Control and Finance",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 200
+        }
+      },
+      "sourceUrl": "https://www.unil.ch/unil/fr/home/menuinst/etudier/immatriculations-et-inscriptions/faq-liens-utiles.html",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly course and semester fees, the same for Swiss and international students. A one-off CHF 200 application processing fee applies to applicants without a Swiss university degree.",
+      "notes": "International tier, 2026-27: UNIL charges CHF 580 per semester to all students regardless of nationality, x2 = 1,160 per year; CHF 200 one-off processing fee for master applicants without a Swiss university degree (same as the existing UNIL master record). History: 2025 row from UNIL general guide 2025-26 (580 CHF per semester); 2024 row from Directive 3.2 amendment history (580 per semester in force), same sources as the other UNIL records. Programme: HEC Lausanne MScCCF, 90 ECTS, 3 semesters full-time, autumn start only; official page lists teaching languages as French and English with C1 required, so check that the electives needed are available in English. Admission page asks a Swiss bachelor's in economics/management/finance/IS or an equivalent.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/01-profils/0101-futures-etudiant-es/guides-des-etudes/guide-general-2025_web.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1160,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.unil.ch/files/live/sites/unil/files/02-universite/0212-cadres-legal-reglementaire/textes-leg/3-ens/dir3-2-taxes-delais.pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

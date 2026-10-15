@@ -14,3 +14,8 @@ sources:
     country: us
     url: "https://admission.asu.edu/aid/international"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: asu
+    country: us
+    url: "https://wpcarey.asu.edu/masters-programs/accounting/cost-financial-aid"
+    manual: true

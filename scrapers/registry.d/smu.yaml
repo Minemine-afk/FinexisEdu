@@ -10,3 +10,8 @@ sources:
     url: https://masters.smu.edu.sg/programme/msc-in-applied-finance
     parser: html
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: smu
+    country: sg
+    url: "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+    manual: true

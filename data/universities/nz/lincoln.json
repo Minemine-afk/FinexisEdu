@@ -262,6 +262,55 @@
           "sourceType": "official"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting (CPA)",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39333.33,
+          "annualCompulsoryFees": 1038,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027 (the 18-month total spread over 1.5 years), including GST. Student services fee included; insurance is extra.",
+      "notes": "International fees page, 2027 taught masters table: Master of Professional Accounting (CPA), 180 credits, tuition $59,000 + student services fee $1,557 (insurance $1,498.50 excluded); divided by 1.5 years. 2026 table on the same page: $57,000 + $1,464 = 38,000 + 976 a year. 2025 and 2024 rows: Lincoln 2025 and 2024 Academic Calendars (Living Heritage archive, PDFs displaypdf/98338 and /97763) 'International Programme Package Fees', Master of Professional Accounting (CPA) 180 credits $51,000 (2025) and $48,000 (2024), divided by 1.5 = 34,000 / 32,000; compulsory = Student Services Fee 2 x $454.50 = 909, as used for the existing Lincoln master's rows. Page states the first-year fee is held for the minimum programme duration, so cohort locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 38000,
+          "annualCompulsoryFees": 976,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.lincoln.ac.nz/study/fees/international-fees/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34000,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/98338",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32000,
+          "annualCompulsoryFees": 909,
+          "oneOffFees": 0,
+          "sourceUrl": "https://livingheritage.lincoln.ac.nz/nodes/view/97763",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

@@ -416,6 +416,86 @@
           "sourceUrl": "https://www.griffith.ie/sites/default/files/2024-02/non-eu-postgraduate-fee-15022024-compressed.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BA (Hons) in Accounting & Finance",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 825,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.griffith.ie/sites/default/files/2025-11/gop-nef-b-25.11.v1-compressed.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for non-EU students plus compulsory yearly administration, student support and learner protection fees. 3 years full-time in Dublin; Griffith prices all undergraduate degrees the same.",
+      "notes": "Griffith College non-EU undergraduate pack ('For September 2025 intake onwards', still the live document for 2026 entry): 'Annual Tuition Fee EUR 13,500 for all undergraduate programmes' plus A.I.P fees EUR 250 + 300 + 275 = EUR 825 a year; the same flat rate as the file's other Griffith bachelors. A QQI award fee in the final year is not included. 2025 row: same pack, same figures. 2024 row: pack 'Updated February 2024': EUR 12,000 tuition with A.I.P fees EUR 250 + 200 + 245 = EUR 695. Programme existence (BA (Hons) Accounting & Finance, 3 years, QQI validated, Dublin) from Griffith's course page griffith.ie/faculties/business/courses/ba-hons-accounting-finance.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 825,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.griffith.ie/sites/default/files/2025-11/gop-nef-b-25.11.v1-compressed.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 12000,
+          "annualCompulsoryFees": 695,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.griffith.ie/sites/default/files/2024-02/non-eu-undergraduate-fee-15022024-compressed.pdf",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc in Accounting & Finance Management",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16000,
+          "annualCompulsoryFees": 1075,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.griffith.ie/sites/default/files/2025-06/gop-nef-m-19.06.v1-compressed.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for non-EU students plus compulsory yearly fees. Griffith charges one flat rate for its taught master's degrees.",
+      "notes": "Griffith College non-EU postgraduate pack ('For September 2025 intake onwards', still live for 2026 entry): Masters Degree/Higher Diploma EUR 16,000, plus A.I.P fees EUR 1,075 a year, same as the file's other Griffith master's (the pack lists no separate price for this MSc, so the standard master's rate applies). 2025 row: same pack and figures. 2024 row: pack 'Updated February 2024': EUR 14,000, with A.I.P fees EUR 735 as recorded for the file's other Griffith master's. 1 year full-time in Dublin (course page griffith.ie/faculties/graduate-business-school/courses/msc-accounting-finance-management); also part-time 2 years, not used.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16000,
+          "annualCompulsoryFees": 1075,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.griffith.ie/sites/default/files/2025-06/gop-nef-m-19.06.v1-compressed.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 14000,
+          "annualCompulsoryFees": 735,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.griffith.ie/sites/default/files/2024-02/non-eu-postgraduate-fee-15022024-compressed.pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

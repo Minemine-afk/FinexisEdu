@@ -103,3 +103,12 @@ sources:
     url: https://study.ed.ac.uk/undergraduate/fees-funding/living-costs
     parser: html
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTACCFIMAH&year=2027"
+    manual: true
+  - university: edinburgh
+    country: uk
+    url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCACFMT1F&year=2027"
+    manual: true

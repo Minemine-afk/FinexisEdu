@@ -778,6 +778,55 @@
           "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 1.5,
+      "feeYear": 2028,
+      "fees": {
+        "international": {
+          "annualTuition": 41600,
+          "annualCompulsoryFees": 1285.4,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Programme fee for the 180-point, 17-month course, paid at the start and spread here over 1.5 years. Student services levy is included; insurance is extra.",
+      "notes": "UC international masters fee page (read 2026-10-15) lists the MPA Special Programme Fee NZ$62,400 for 180 points in 2028 (59,400 in 2027, 56,850 in 2026); divided by 1.5 years (17-month programme, semester 1 or 2 start) = 41,600 / 39,600 / 37,900, same method as the existing MBA row. Compulsory = Student Services Levy 2027 $10.71/pt x 120 = 1,285.40 (2028 not yet published; 2026 $1,236.00). 2025 row: UC Calendar 2025 Fees and Fines Regulations Schedule 1 Part C international fee band 2 (Accountancy, Business) postgraduate $36,400 per 120 points, the MPA (180 points) not being in the Part D special programme list; 1.5 x 36,400 = 54,600 total / 1.5 = 36,400; SSL then $9.17/pt x 120 = 1,100.40. 2024 row deliberately omitted: the 2024 MPA was a 240-point programme (UC Calendar 2024) so a per-120-point band would not describe a 1.5-year programme; the 2024 band was $35,000 per 120 points. UC special programme fees are paid at the start for the whole qualification (hence cohortLocked).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36400,
+          "annualCompulsoryFees": 1100.4,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37900,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2027,
+          "tier": "international",
+          "annualTuition": 39600,
+          "annualCompulsoryFees": 1285.4,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

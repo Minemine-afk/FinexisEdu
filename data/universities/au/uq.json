@@ -589,6 +589,46 @@
           "sourceUrl": "https://my.uq.edu.au/files/37961/full_fee_paying_2026.pdf"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Commerce (Professional Accounting)",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 60952,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.uq.edu.au/study-options/programs/master-commerce-5584",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year. Takes 2 years.",
+      "notes": "UQ Master of Commerce, program 5584, field of study Professional Accounting (CAANZ and CPA pathway). International fee on the program page read 2026-10-15: A$60,952 per year; page lists 1.5 or 2 years depending on entry, 2 years recorded. UQ has no separate accounting-named master, so the Master of Commerce with this field is used; the fee is the program fee. International tier chosen because Singaporeans are international students. History from UQ's full-fee-paying schedules, program 5584, international column for students commencing that year x 16 units: 2024 $3,010 = A$48,160; 2025 $3,360 = A$53,760; 2026 $3,628.50 = A$58,056. Excludes SSAF and OSHC.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48160,
+          "sourceUrl": "https://my.uq.edu.au/files/33653/full_fee_paying_2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53760,
+          "sourceUrl": "https://my.uq.edu.au/files/37103/full_fee_paying_2025.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 58056,
+          "sourceUrl": "https://my.uq.edu.au/files/37961/full_fee_paying_2026.pdf"
+        }
+      ]
     }
   ]
 }

@@ -82,3 +82,12 @@ sources:
     url: https://www.manchester.ac.uk/study/undergraduate/student-finance/cost-of-living/
     parser: html
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/07808/bsc-accounting/"
+    manual: true
+  - university: manchester
+    country: uk
+    url: "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/"
+    manual: true

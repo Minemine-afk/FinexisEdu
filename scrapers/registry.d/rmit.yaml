@@ -73,3 +73,8 @@ sources:
     url: https://www.rmit.edu.au/study-with-us/moving-to-melbourne/costs-of-living
     parser: html
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: rmit
+    country: au
+    url: "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2027-inton-fees.pdf"
+    manual: true

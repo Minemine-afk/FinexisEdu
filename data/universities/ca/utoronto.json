@@ -557,6 +557,46 @@
           "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=OISET-G&program=100"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Management and Professional Accounting (MMPA), University of Toronto Mississauga",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 64640,
+          "annualCompulsoryFees": 2460.82,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTM&faculty=ERIN-G&program=129",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual programme fee for international students on the two-year MMPA at U of T Mississauga, plus about C$2,460 of compulsory fees. Fees rise most years; health insurance is extra.",
+      "notes": "International full-time program fee, admitted 2026-27 Fall and Winter, MMPA Fall Start 12- and 24-month stream: Tuition Explorer shows C$64,640 + incidental and system access fee C$2,460.82 (UHIP C$948 excluded); the only international tier published. Duration set to 2 years (24-month stream open to any background; a 12-month stream exists for accounting graduates of Canadian universities); the schedule lists one annual fee, so year 2 is projected. 2025 row: Tuition Explorer 2025-26 (C$63,370 + C$2,409.71). 2024 row: 2024-25 SGS international fee schedule PDF Table 47 (C$63,370 + C$2,305.80).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 63370,
+          "annualCompulsoryFees": 2409.71,
+          "oneOffFees": 0,
+          "sourceUrl": "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2025-26&sessionType=1&studyLevel=G&residency=INT&campus=UTM&faculty=ERIN-G&program=129",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 63370,
+          "annualCompulsoryFees": 2305.8,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.registrar.utoronto.ca/wp-content/uploads/2025/03/24-25-SGS-INT-.pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

@@ -5,7 +5,6 @@ import {
   monthlySaving,
   monthsBetween,
   neededAtStart,
-  SAVING_RATE,
   simulate,
   solveTvm,
   type Tvm,
@@ -28,16 +27,11 @@ describe("savings planner", () => {
     expect(neededAtStart(MANCHESTER, 0, "yearly")).toBe(394719);
   });
 
-  it("finds the monthly saving at 4% and at the saving rate", () => {
+  it("finds the monthly saving at 4% and at 2%", () => {
     const at4 = monthlySaving(neededAtStart(MANCHESTER, 4, "yearly"), 0, 4, MONTHS);
-    const atSaving = monthlySaving(
-      neededAtStart(MANCHESTER, SAVING_RATE, "yearly"),
-      0,
-      SAVING_RATE,
-      MONTHS,
-    );
+    const at2 = monthlySaving(neededAtStart(MANCHESTER, 2, "yearly"), 0, 2, MONTHS);
     expect(Math.round(at4)).toBe(3398);
-    expect(Math.round(atSaving)).toBe(4145);
+    expect(Math.round(at2)).toBe(3760);
   });
 
   it("needs nothing more when savings already cover the cost", () => {
@@ -123,7 +117,7 @@ describe("savings planner", () => {
     const due: Tvm = { months: 0, rate: 4, start: NaN, monthly: 0, end: 394719, startOfMonth: false };
     expect(solveTvm(due, "start")).toBe(394719);
     expect(solveTvm({ ...due, monthly: 3000 }, "start")).toBe(394719);
-    expect(solveTvm({ ...due, rate: SAVING_RATE }, "start")).toBe(394719);
+    expect(solveTvm({ ...due, rate: 2 }, "start")).toBe(394719);
     expect(solveTvm({ ...due, start: 394719 }, "end")).toBe(394719);
     // The same today when starting from the beginning of the month.
     expect(solveTvm({ ...due, startOfMonth: true }, "start")).toBe(394719);

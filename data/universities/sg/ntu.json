@@ -760,6 +760,178 @@
       "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/research-fees-ay2026_new-intakes.pdf?sfvrsn=fa819c4a_1",
       "summary": "Yearly fee for the lab-based research master's, fixed for your cohort; up to 3 years. Subsidised for Singaporeans and PRs; international students pay the non-subsidised rate including 9% GST.",
       "notes": "NIE 'Tuition Fees for PhD and Master's by Research (AY2026-2027, new intakes)' PDF (accurate as of 19 June 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: 'Laboratory based: PhD - Sciences & Physical Education; MSc' row per academic year: non-subsidised S$48,370, Singapore Citizen S$10,450, Singapore PR S$14,950, international with 3-year service obligation S$23,250. SC/PR subsidised fees exclusive of GST (GST subsidised by MOE); international and non-subsidised fees inclusive of 9% GST. The international figure recorded is the non-subsidised rate: the PDF footnote limits the S$23,250 subsidised rate to MOE Postgraduate by Research Scholarship recipients, and NIE says it 'may implement the scheme for international students if deemed feasible ... subject to MOE approval'. Fees are cohort-based for the normal duration; maximum candidature 3 years full- or part-time (2 years recorded as the typical full-time length; NIE publishes no minimum). Compulsory = miscellaneous fees AY2026-27 full-time S$595.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 was S$48,270 / 10,450 / 14,700 / 22,850 (not added: 2026 onwards requested)."
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Accountancy",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 9500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 13300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 21800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition, fixed for the whole degree at your entry-year rate. Citizens and PRs pay the Ministry of Education (MOE) Tuition Grant rate; the international rate includes 9% GST. Miscellaneous fees are extra.",
+      "notes": "International tier (non-ASEAN, MOE Tuition Grant rate incl. 9% GST), AY2026/27 intake: NTU's tuition fees page lists Accountancy (and Accountancy (Sustainability Management and Analytics)) in the same row as Business, S$21,800 (ASEAN S$20,700); chose the non-ASEAN international rate since Singaporeans abroad and non-ASEAN foreigners pay it. Same fee as the existing Bachelor of Business record. Fixed for the whole degree. History: 2025 intake from NTU's AY2025 full-time fee PDF (SC 9,450 / PR 13,250 / non-ASEAN 21,700), 2024 intake from NTU's 2024 full-time UG fee PDF (SC 9,450 / PR 13,250 / non-ASEAN 21,050), both listing Accountancy in the Business row. Miscellaneous fees excluded, as for other NTU records.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 9450,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 13250,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 21700,
+          "sourceUrl": "https://www.ntu.edu.sg/media/docs/default-source/onestop-at-sac/2025/tuition-fees-ft-ay2025_12mar25.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "citizen",
+          "annualTuition": 9450,
+          "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "pr",
+          "annualTuition": 13250,
+          "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21050,
+          "sourceUrl": "https://www.ntu.edu.sg/docs/default-source/onestop@sac/tuition-fees-ft_ug_2024.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc in Accountancy",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "citizen": {
+          "annualTuition": 65850,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 610
+        },
+        "pr": {
+          "annualTuition": 65850,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 610
+        },
+        "international": {
+          "annualTuition": 70850,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 610
+        }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Total fee for the 12-month programme, including 9% GST. Citizens and PRs get a S$5,000 grant off the fee. A one-time miscellaneous fee is extra.",
+      "notes": "Self-financed 12-month full-time programme (Nanyang Business School), so the programme fee is the annual fee. International tier, Aug 2027 intake: fee schedule on the NBS admissions page shows total S$70,850.00 incl. 9% GST and the S$21,800 enrolment fee (programme page: 'Programme Fee (2027 Intake): S$70,850.00'); one fee for all nationalities. Citizen/PR: the page states SC/PR 'are eligible for a grant of $5000' off tuition, so 70,850 - 5,000 = 65,850 (derived). One-off fee = one-time miscellaneous fee S$610 incl. GST. History (Wayback captures of the NBS admissions page): 2026 intake S$67,580 (capture 20251222, 'Fee Schedule (August 2026 Intake)', misc fee S$555.20); 2025 intake S$61,040 (capture 20250426, schedule headed 'AY2024 (August 2025 intake)'; the heading is partly stale, and NTU's programme page still printed 'August 2024 Intake: S$61,040' until May 2025 and showed '2026 Intake S$67,580' from Oct 2025, so no separate 2025 figure was ever published); 2024 intake S$61,040 (capture 20240810, 'AY2024 (August 2024 intake)'). 2024 and 2025 rows list the Student Services Fee S$126.67 (excluded from the schedule) as one-off. The S$5,000 SC/PR grant appears on the 2024, 2025 and 2026 captures too. Excludes the S$100 application fee; NTU alumni get a further 10% grant (not applied).",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "citizen",
+          "annualTuition": 62580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 555.2,
+          "sourceUrl": "https://web.archive.org/web/20251222073327/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "pr",
+          "annualTuition": 62580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 555.2,
+          "sourceUrl": "https://web.archive.org/web/20251222073327/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 67580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 555.2,
+          "sourceUrl": "https://web.archive.org/web/20251222073327/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 56040,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 126.67,
+          "sourceUrl": "https://web.archive.org/web/20250426164020/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 56040,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 126.67,
+          "sourceUrl": "https://web.archive.org/web/20250426164020/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 61040,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 126.67,
+          "sourceUrl": "https://web.archive.org/web/20250426164020/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "citizen",
+          "annualTuition": 56040,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 126.67,
+          "sourceUrl": "https://web.archive.org/web/20240810142939/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "pr",
+          "annualTuition": 56040,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 126.67,
+          "sourceUrl": "https://web.archive.org/web/20240810142939/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 61040,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 126.67,
+          "sourceUrl": "https://web.archive.org/web/20240810142939/https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+        }
+      ]
     }
   ]
 }

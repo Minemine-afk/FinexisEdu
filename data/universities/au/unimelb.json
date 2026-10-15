@@ -448,6 +448,40 @@
           "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0028/341893/2025_International-Fee-Tables_September.pdf"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Commerce (Accounting)",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 60992,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0018/493011/2026IntFeeMayUpdate.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2026 international course tuition for one full-time year. International students pay no student services fee; fees are reviewed each year. Takes 2 years.",
+      "notes": "MC-COMACT (CRICOS 092763F), 200 points over 2 years. 2026 international course tuition fee per EFTSL A$60,992 from the University of Melbourne's '2026 Tuition fee tables for International students' (Table 3, row MC-COMACT); international tier chosen because Singaporeans are international students. History from the University's international fee tables for each year, same row: 2024 A$52,448, 2025 A$56,992. The PDFs sit on study.unimelb.edu.au, which blocks scripts, so they were read through a text rendering of the official URLs (same practice as the other Melbourne records). International students pay no SSAF.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 52448,
+          "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0017/440810/2024-International-Fee-Table.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 56992,
+          "sourceUrl": "https://study.unimelb.edu.au/__data/assets/pdf_file/0028/341893/2025_International-Fee-Tables_September.pdf"
+        }
+      ]
     }
   ]
 }

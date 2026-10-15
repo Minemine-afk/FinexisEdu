@@ -569,6 +569,46 @@
           "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Science_International.pdf"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 1.25,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 60125.76,
+          "annualCompulsoryFees": 1359.36,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2026-fees/2026-Fees-BE-International.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Estimated yearly tuition for international students on the 15-month, 180-point course, spread over 1.25 years, including 15% GST. Student services fee is included; insurance and living costs are extra.",
+      "notes": "International fee schedule 'Tuition fees 2026 - International students: Business and Economics': the 12 x 15-point courses of the MProfAcctg (BUSACT 701-705, 731/732/734 and BUSMGT core courses) are all NZ$6,263.10 each, so 12 x 6,263.10 = 75,157.20 for 180 points over the 15-month programme (page: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-professional-accounting-mprofacctg.html shows no fee, only the schedule does); divided by durationYears 1.25 = 60,125.76. Assumption: the 'Managing People and Organisations' course is BUSMGT 711 (6,263.10); if it is BUSMAN 701 (5,959.35) the total is NZ$303.75 lower. Compulsory = Student Services Fee NZ$9.44/point x 180 = 1,699.20 over the programme, /1.25 = 1,359.36 (schedule says it 'may be charged'). History rows use the same method: 2025 schedule (Website_Fees_BE_International.pdf) courses 5,964.90 x 12 = 71,578.80, SSF 9.24/pt; 2024 schedule (Website_Fees_B&E_International.pdf) courses 5,735.55 x 12 = 68,826.60, SSF 8.88/pt. All include 15% GST. The 2024/2025 programme structure (15 months, 180 points) was assumed unchanged. Fees reviewed annually, not cohort locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 57263.04,
+          "annualCompulsoryFees": 1330.56,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_BE_International.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 55061.28,
+          "annualCompulsoryFees": 1278.72,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_B&E_International.pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

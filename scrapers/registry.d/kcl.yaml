@@ -85,3 +85,12 @@ sources:
     country: uk
     url: "https://www.kcl.ac.uk/study/student-experience/living-expenses"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/undergraduate/courses/accounting-finance-bsc/fees"
+    manual: true
+  - university: kcl
+    country: uk
+    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/accounting-accountability-and-financial-management-msc/fees"
+    manual: true

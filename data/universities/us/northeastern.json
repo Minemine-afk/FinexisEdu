@@ -362,6 +362,44 @@
           "sourceType": "official"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Accounting, MSA (Boston)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 74460,
+          "annualCompulsoryFees": 625,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://catalog.northeastern.edu/graduate/expenses/tuition-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for an international full-time student on Northeastern's one-year MS in Accounting (30 credits, charged per credit), plus campus fees and a one-time international fee. Health insurance not included.",
+      "notes": "International tier (all graduate students pay the same rate), Boston campus, 30 semester hours (catalog: 30 total semester hours, seven-month programme for students with an accounting undergraduate major), so annual = 30 x per-credit rate and durationYears 1. 2026-27 Academic Catalog tuition page lists 'MSA Accounting' at US$2,482 per credit hour (a programme-specific rate; the Student Financial Services page still shows the general D'Amore-McKim rate of $1,931 and does not list MSA, so the catalog was used) = $74,460. Fees 2026-27: full-time Comprehensive Fee $200 per term x2 + Health and Counseling Fee $225 = $625; one-off International Student Fee $450; MSA has no programme fee. History: MSA is not listed separately in the 2025-26 or 2024-25 catalog tables, so it is charged the general D'Amore-McKim graduate rate: 2025-26 $1,884 x 30 = $56,520 (catalog archive 2025-2026, fees Student Center $85 + Recreation $75 + Activities $19 per term x2 + Health and Counseling $225 = $583, International fee $450); 2024-25 $1,816 x 30 = $54,480 (catalog archive 2024-2025, fees $72+$62+$17 per term x2 + $225 = $527, International fee $375). Student health plan (waivable) excluded. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54480,
+          "annualCompulsoryFees": 527,
+          "oneOffFees": 375,
+          "sourceUrl": "https://catalog.northeastern.edu/archive/2024-2025/graduate/expenses/tuition-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 56520,
+          "annualCompulsoryFees": 583,
+          "oneOffFees": 450,
+          "sourceUrl": "https://catalog.northeastern.edu/archive/2025-2026/graduate/expenses/tuition-fees/"
+        }
+      ]
     }
   ]
 }

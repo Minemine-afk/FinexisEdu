@@ -135,3 +135,8 @@ sources:
     country: au
     url: "https://www.monash.edu/study/courses/find-a-course/clinical-psychology-m6046"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: monash
+    country: au
+    url: "https://www.monash.edu/study/courses/find-a-course/professional-accounting-b6011"
+    manual: true

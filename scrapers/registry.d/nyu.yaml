@@ -30,3 +30,8 @@ sources:
     country: us
     url: "https://www.nyu.edu/admissions/financial-aid-and-scholarships/cost-of-attendance.html"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: nyu
+    country: us
+    url: "https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/ms-accounting"
+    manual: true

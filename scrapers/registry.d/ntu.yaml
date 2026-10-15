@@ -58,3 +58,8 @@ sources:
     country: sg
     url: "https://www.ntu.edu.sg/media/docs/nielibraries/ote-documents/programme/general-information.pdf?sfvrsn=30825969_18"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+    manual: true

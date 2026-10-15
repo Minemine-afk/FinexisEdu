@@ -588,6 +588,46 @@
           "sourceType": "official"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 54590,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 tuition for international students for a full-time year (two sessions). Excludes the student services fee and overseas student health cover; UTS raises fees each calendar year. Takes 1.5 years.",
+      "notes": "UTS course C04238 (CRICOS 061285K), 72 credit points = 3 sessions = 1.5 years, City campus. '2027 International Postgraduate Course Summary Table' (correct as of June 2026) lists A$27,295 per session; annual = 2 sessions (24 credit points each) = A$54,590; international tier chosen because Singaporeans are international students. History from UTS's official course fee search (cis.uts.edu.au/fees/course-fees.cfm, queried by POST with fee_type=IF, fee_year and cohort_year, Search=C04238), fee per session x 2: 2024 A$24,035 = A$48,070; 2025 A$24,995 = A$49,990; 2026 A$26,120 = A$52,240. Excludes SSAF and OSHC.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48070,
+          "sourceUrl": "https://cis.uts.edu.au/fees/course-fees.cfm"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 49990,
+          "sourceUrl": "https://cis.uts.edu.au/fees/course-fees.cfm"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 52240,
+          "sourceUrl": "https://cis.uts.edu.au/fees/course-fees.cfm"
+        }
+      ]
     }
   ]
 }

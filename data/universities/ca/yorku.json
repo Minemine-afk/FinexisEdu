@@ -329,6 +329,77 @@
           "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/schulich/mba-imba-pdam"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce (BCom) in Accounting, Faculty of Liberal Arts and Professional Studies",
+      "durationYears": 4,
+      "feeYear": 2025,
+      "fees": {
+        "international": {
+          "annualTuition": 37193.7,
+          "annualCompulsoryFees": 1270.8,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/laps",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition and supplementary fees for international students who started in 2025-26, the latest published fee table. Fees usually rise each year; health insurance is extra.",
+      "notes": "International tier, full-time, entering on or after 3 Sept 2025: SFS 'Course and Program Fees / FW25 / Faculty of Liberal Arts and Professional Studies - all other programs' gives C$1,239.79/credit tuition + C$42.36/credit supplementary x 30 credits; chosen because Singaporeans are international students. Assumption: the BCom Accounting stream falls under this LAPS 'all other programs' table (no separate BCom/Accounting fee page found); same figures as the existing York BA row. 2026-27 page (sfs.yorku.ca/fees/courses/2026-2027/fall-winter/laps) has an empty table, so 2025 stays current. 2024 row: SFS FW24 LAPS regular programs page, C$1,203.68 + C$39.02 per credit x 30. UHIP excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36110.4,
+          "annualCompulsoryFees": 1170.6,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/laps",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Accounting (MAcc), Schulich School of Business",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 48240.0,
+          "annualCompulsoryFees": 0.0,
+          "oneOffFees": 0.0
+        }
+      },
+      "sourceUrl": "https://schulich.yorku.ca/admissions/tuition-fees-costs",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Full-time four-term programme; fee shown is two terms a year over two years, supplementary fees included. Fees usually rise each year; health insurance is extra.",
+      "notes": "International (visa/study permit) tier, full-time, Summer 2026 framework: Schulich page states C$24,120 per term including supplementary fees (rounded), four terms, estimated total C$96,480; chose this over domestic C$9,274 because Singaporeans are international students. Annual = 2 terms (same convention as the York MBA row); compulsory 0 as supplementary fees are inside the figure. 2025 row: SFS FW25 Schulich MAcc page (entering 3 Sept 2025) tuition C$22,402.57 + supplementary C$575.08 per term x 2. 2024 row: SFS FW24 page (entering 4 Sept 2024) tuition C$21,335.78 + C$526.24 per term x 2. Programme is 4 terms across about 16 months, shown as 2 years.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44805.14,
+          "annualCompulsoryFees": 1150.16,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/schulich/macc",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42671.56,
+          "annualCompulsoryFees": 1052.48,
+          "oneOffFees": 0.0,
+          "sourceUrl": "https://sfs.yorku.ca/fees/courses/2024-2025/fall-winter/schulich/macc",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

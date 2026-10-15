@@ -118,3 +118,8 @@ sources:
     country: ca
     url: "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=OISET-G&program=100"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: utoronto
+    country: ca
+    url: "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTM&faculty=ERIN-G&program=129"
+    manual: true
