@@ -1,57 +1,57 @@
-# University of Canterbury. The fee-estimate pages show 2026, 2027 and 2028 side by side, so the
-# patterns are anchored on the 2027 figure; when it drops off the page they stop matching and the
-# figures are re-checked by hand.
+# University of Canterbury. The fee-estimate pages show 2026, 2027 and 2028 side by side; the records
+# moved to the published 2028 fees on 2026-10-15, so the patterns are anchored on the 2028 figure;
+# when it drops off the page they stop matching and the figures are re-checked by hand.
 sources:
   - university: canterbury
     country: nz
     url: https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/bachelors
     parser: html
-    year_pattern: (2027) tuition fee estimate
+    year_pattern: (2028) tuition fee estimate
     targets:
     - level: bachelor
       field: computing
-      pattern: 'Bachelor of Data Science \(BDataSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
+      pattern: 'Bachelor of Data Science \(BDataSc\).*?2028 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: business
-      pattern: 'Bachelor of Commerce \(BCom\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
+      pattern: 'Bachelor of Commerce \(BCom\).*?2028 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: engineering
-      pattern: 'Bachelor of Engineering with Honours \(BE\(Hons\)\).*?First Year.*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
+      pattern: 'Bachelor of Engineering with Honours \(BE\(Hons\)\).*?First Year.*?2028 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: sciences
-      pattern: 'Bachelor of Science \(BSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
+      pattern: 'Bachelor of Science \(BSc\).*?2028 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: arts
-      pattern: 'Bachelor of Arts \(BA\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
+      pattern: 'Bachelor of Arts \(BA\).*?2028 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: bachelor
       field: law
-      pattern: 'Bachelor of Laws \(LLB\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
+      pattern: 'Bachelor of Laws \(LLB\).*?2028 tuition fee estimate: \$([\d,]+) per 120 points'
   - university: canterbury
     country: nz
     url: https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/international-tuition-fees/masters
     parser: html
-    year_pattern: (2027) tuition fee estimate
+    year_pattern: (2028) tuition fee estimate
     targets:
     - level: master
       field: computing
-      pattern: 'Master of Computer Science \(PMCS\).*?2027 Special Programme Fee: \$([\d,]+) \(180 points\)'
+      pattern: 'Master of Computer Science \(PMCS\).*?2028 Special Programme Fee: \$([\d,]+) \(180 points\)'
       multiplier: 0.6666666666666666
     - level: master
       field: business
-      pattern: 'Master of Business Administration \(MBA\).*?2027 Special Programme Fee: \$([\d,]+) \(180 points\)'
+      pattern: 'Master of Business Administration \(MBA\).*?2028 Special Programme Fee: \$([\d,]+) \(180 points\)'
       multiplier: 0.6666666666666666
     - level: master
       field: engineering
-      pattern: 'Master of Engineering \(ME\).*?2027 Special Programme Fee: \$([\d,]+) \(120 points\)'
+      pattern: 'Master of Engineering \(ME\).*?2028 Special Programme Fee: \$([\d,]+) \(120 points\)'
     - level: master
       field: sciences
-      pattern: 'Master of Science \(MSc\).*?2027 tuition fee estimate: \$([\d,]+) per 120 points'
+      pattern: 'Master of Science \(MSc\).*?2028 tuition fee estimate: \$([\d,]+) per 120 points'
     - level: master
       field: arts
-      pattern: 'Master of Arts \(Thesis\) \(MA\(Thesis\)\).*?2027 Special Programme Fee: \$([\d,]+) \(120 points\)'
+      pattern: 'Master of Arts \(Thesis\) \(MA\(Thesis\)\).*?2028 Special Programme Fee: \$([\d,]+) \(120 points\)'
     - level: master
       field: law
-      pattern: 'Master of Laws \(LLM\).*?2027 Special Programme Fee: \$([\d,]+) \(120 points\)'
+      pattern: 'Master of Laws \(LLM\).*?2028 Special Programme Fee: \$([\d,]+) \(120 points\)'
   # UC Calendar (Maramataka) 2024 and 2025: Fees and Fines Regulations, Schedule 1 Part C
   # (international fee bands per 120 points) and Part D (special programme fees), plus
   # Schedule 3 (Student Services Levy per point). Used only for the 2024 and 2025 feeHistory
@@ -67,16 +67,16 @@ sources:
     url: https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/a-regulations/uc-calendar/UC-Calendar-2025.pdf
     parser: pdf
     manual: true
-  # Student Services Levy; the page now states 2026 ($1,236.00) and 2027 ($1,285.40) side by side.
-  # The records keep the 2026 rate by convention, so the pattern is anchored on the first (2026)
-  # figure, written with cents.
+  # Student Services Levy; the page states 2026 ($1,236.00) and 2027 ($1,285.40) side by side.
+  # The records are at feeYear 2028 but the 2028 levy is not yet published, so they carry the latest
+  # published (2027) rate and the pattern is anchored on the 2027 figure, written with cents.
   - university: canterbury
     country: nz
     url: https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/study-costs/student-services-levy
     parser: html
     targets:
     - key: annualCompulsoryFees
-      pattern: For one year of study \(120 points\), this equates to \$([\d,]+)(?:\.\d\d)? in 2026
+      pattern: For one year of study \(120 points\), this equates to \$[\d,]+(?:\.\d\d)? in 2026, and \$([\d,]+\.\d\d) in 2027
   - university: canterbury
     country: nz
     url: https://www.canterbury.ac.nz/study/getting-started/study-and-living-costs/living-costs/living-costs-estimate-flatting

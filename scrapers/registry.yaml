@@ -593,32 +593,72 @@ sources:
       field: law
       pattern: B Arts and B Laws 006441D \d+ Feb/Aug ([\d,]+)
   # Sydney's course pages load their fee table from this JSON (the page itself has no figures). It
-  # lists 2026 and 2027 side by side, so the patterns are anchored on the 2026 block; when 2026 drops
-  # off, they stop matching and the figures are re-checked by hand.
+  # lists 2026 and 2027 side by side; the records moved to the 2027 fees on 2026-10-15, so the patterns
+  # are anchored on the 2027 block; when 2027 drops off, they stop matching and the figures are
+  # re-checked by hand.
   - university: usyd
     country: au
     url: https://www.sydney.edu.au/courses/courses/pc/juris-doctor.coredata.json
     parser: html
-    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    year_pattern: '"year":(2027),"fees"'
     targets:
     - level: master
       field: law
-      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+      pattern: '"year":2027,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
   - university: usyd
     country: au
     url: https://www.sydney.edu.au/courses/courses/pc/doctor-of-medicine0.coredata.json
     parser: html
-    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    year_pattern: '"year":(2027),"fees"'
     targets:
     - level: master
       field: medicine
-      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+      pattern: '"year":2027,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
   - university: usyd
     country: au
     url: https://www.sydney.edu.au/students/ssaf.html
     parser: html
     targets:
+    # Full-time rate per semester x 2. The programmes read from the course pages' coredata JSON are at
+    # feeYear 2027 (2027 SSAF); the three from the 2026 International Admission Guide (B Engineering
+    # Honours, B Advanced Computing, BA and B Laws) are still at 2026 (2026 SSAF).
     - key: annualCompulsoryFees
+      level: master
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: business
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: sciences
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: arts
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: psychology
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: engineering
+      pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: computing
+      pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: law
       pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
       multiplier: 2
   - university: usyd
