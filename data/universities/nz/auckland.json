@@ -32,32 +32,32 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 40225,
+          "annualTuition": 48133,
           "annualCompulsoryFees": 1132.8,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf",
+      "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-arts-ba.html",
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Auckland's 2026 estimated fee of NZ$40,225 for a 120-point BA year of standard arts courses; performance and science-based courses raise it to about NZ$48,133.",
+      "feeBasis": "Top of Auckland's 2026 BA range of NZ$40,225-48,133 a year; standard arts courses cost less, performance and science-based courses cost this much.",
       "summary": "Estimated yearly tuition for international students, for a full-time year. Performance and science-based courses cost more. Student services fee included. Not fixed.",
-      "notes": "2026 estimated international fee for 120 points, excluding performance and science-based courses (those NZ$48,133). Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point Arts course fee from that year's international Arts fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
+      "notes": "2026 international fee for a full-time BA year from the BA programme page (and the 2026 Programme List): 'International students NZ$40,225 – $48,133'; the upper end is used (from 2026-10-15 at Kumar's request; it is the 'performance and science-based courses' figure, standard arts courses cost NZ$40,225). Indicative; inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024 and 2025 = upper end of the same page's range in those years, read from Common Crawl captures (CC-MAIN-2023-50, 5 Dec 2023: '2024 fees ... International students NZ$36,836 – $44,078'; CC-MAIN-2024-46, 3 Nov 2024: '2025 fees ... NZ$38,310 – $45,841'), with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 36836.4,
+          "annualTuition": 44078,
           "annualCompulsoryFees": 1065.6,
-          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_Arts_International.pdf"
+          "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-arts-ba.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
-          "annualTuition": 38310,
+          "annualTuition": 45841,
           "annualCompulsoryFees": 1108.8,
-          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Arts_International.pdf"
+          "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-arts-ba.html"
         }
       ]
     },
@@ -290,7 +290,7 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 47221,
+          "annualTuition": 58009,
           "annualCompulsoryFees": 1132.8,
           "oneOffFees": 0
         }
@@ -299,23 +299,23 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Lower end of Auckland's 2026 BSc range NZ$47,221-58,009 (8 standard science courses); laboratory-heavy majors cost more. Computer Science is the same degree at this fee.",
+      "feeBasis": "Top of Auckland's 2026 BSc range of NZ$47,221-58,009 a year; standard science courses cost less, laboratory-heavy majors cost up to this. Computer Science is the same degree.",
       "summary": "Lower end of the published range for international students; laboratory-heavy majors cost more. Includes 15% GST and the student services fee. Books and insurance are extra.",
-      "notes": "Lower end of the 2026 indicative international range NZ$47,221 - $58,009 on the programme page's Fees section: 8 x 15-point standard Science course at NZ$5,902.65 (e.g. BIOSCI 101, CHEM 110, COMPSCI 101; laboratory-heavy majors cost more); 360 points over 3 years; inclusive of 15% GST, excludes books, insurance and living costs. The Computer Science major is the same degree at the same fee, so it is not recorded separately. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point BIOSCI 101 / COMPSCI 101 fee from that year's international Science fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
+      "notes": "2026 international fee for a full-time BSc year from the programme page's Fees section: 'International students NZ$47,221 – $58,009'; the upper end is used (from 2026-10-15 at Kumar's request; previously the lower end, 8 standard 15-point Science courses at NZ$5,902.65; laboratory-heavy majors cost more). Indicative; inclusive of 15% GST, excludes books, insurance and living costs; 360 points over 3 years. The Computer Science major is the same degree at the same fee, so it is not recorded separately. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024 and 2025 = upper end of the same page's range in those years, read from Common Crawl captures (CC-MAIN-2023-50, 5 Dec 2023: '2024 fees ... International students NZ$43,243 – $53,122'; CC-MAIN-2024-51, 8 Dec 2024: '2025 fees ... NZ$44,972 – $55,247'), with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 43243.2,
+          "annualTuition": 53122,
           "annualCompulsoryFees": 1065.6,
-          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_Science_International.pdf"
+          "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
-          "annualTuition": 44972.4,
+          "annualTuition": 55247,
           "annualCompulsoryFees": 1108.8,
-          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Science_International.pdf"
+          "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html"
         }
       ]
     },
@@ -327,32 +327,32 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 44970,
+          "annualTuition": 55484,
           "annualCompulsoryFees": 1132.8,
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2026%20Fees%20AEd%20International.pdf",
+      "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-arts-ma.html",
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Auckland's 2026 rate for 120 points of master's-level arts courses, NZ$44,970; the MA page quotes NZ$43,674-55,484 across all subjects.",
+      "feeBasis": "Top of Auckland's 2026 MA range of NZ$43,674-55,484 a year across all subjects; standard arts subjects cost about NZ$44,970.",
       "summary": "Tuition for international students for the one-year taught master's, including 15% GST and the student services fee. Fees vary by subject.",
-      "notes": "2026 international fee for 120 points of 700-level Arts courses (8 x 15-point course at NZ$5,621.25, e.g. ARTSGEN 740 / HISTORY 700A) from the 2026 international Arts and Education fee schedule; taught 120-point MA, 1 year (the programme page quotes NZ$43,674 - $55,484 across all subjects). Inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point 700-level Arts course fee from that year's international Arts fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
+      "notes": "2026 international fee for a full-time 120-point taught MA year from the MA programme page: 'International students NZ$43,674 – $55,484'; the upper end is used (from 2026-10-15 at Kumar's request; previously the standard 700-level Arts course rate, 8 x NZ$5,621.25 = NZ$44,970). Indicative; inclusive of 15% GST. 1 year. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024 and 2025 = upper end of the same page's range in those years, read from Common Crawl captures (CC-MAIN-2024-18, 16 Apr 2024: '2024 fees ... International students NZ$39,995 – $50,810'; CC-MAIN-2024-46, 8 Nov 2024: '2025 fees ... NZ$41,594 – $52,842'), with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 41180.4,
+          "annualTuition": 50810,
           "annualCompulsoryFees": 1065.6,
-          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2024fees/Website_Fees_Arts_International.pdf"
+          "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-arts-ma.html"
         },
         {
           "feeYear": 2025,
           "tier": "international",
-          "annualTuition": 42828,
+          "annualTuition": 52842,
           "annualCompulsoryFees": 1108.8,
-          "sourceUrl": "https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2025-fees/Website_Fees_Arts_International.pdf"
+          "sourceUrl": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-arts-ma.html"
         }
       ]
     },
@@ -524,9 +524,9 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Psychology is a BSc major; it uses the lower end of the BSc range (NZ$47,221), as psychology courses are charged at the standard science rate. The new BPsych quotes the same.",
+      "feeBasis": "Auckland's 2026 fee for a full-time year of psychology courses (8 x NZ$5,902.65 = NZ$47,221), which are charged at the standard science rate. The new BPsych quotes the same.",
       "summary": "Yearly tuition for international students for 120 points of standard science courses, including 15% GST and the student services fee. Books and insurance are extra.",
-      "notes": "Psychology is a major in the BSc (also the BA); the new Bachelor of Psychology (BPsych) takes its first students in 2027 and its page quotes the same 2026 international figure (NZ$47,221). 2026 figure = lower end of the BSc page's indicative international range NZ$47,221 - $58,009; PSYCH courses are standard Science courses (2026 international Science fee schedule: PSYCH 108 / PSYCH 109, 15 points, NZ$5,902.65 each; 8 x 15 points = NZ$47,221.20). 360 points over 3 years; inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point PSYCH 108/109 fee from that year's international Science fee schedule (NZ$5,405.40 / NZ$5,621.55), with SSF NZ$8.88 / NZ$9.24 per point.",
+      "notes": "Psychology is a major in the BSc (also the BA); the new Bachelor of Psychology (BPsych) takes its first students in 2027 and its page quotes the same 2026 international figure (NZ$47,221). 2026 figure = the PSYCH course rate, not a pick from a range: PSYCH courses are standard Science courses (the BSc page's range NZ$47,221 - $58,009 starts at this rate) (2026 international Science fee schedule: PSYCH 108 / PSYCH 109, 15 points, NZ$5,902.65 each; 8 x 15 points = NZ$47,221.20). 360 points over 3 years; inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point PSYCH 108/109 fee from that year's international Science fee schedule (NZ$5,405.40 / NZ$5,621.55), with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
         {
           "feeYear": 2024,
