@@ -183,6 +183,17 @@ export const University = z.object({
   livingCosts: LivingCosts.optional(),
   /** Awarding universities, when this institution teaches other universities' degrees. */
   partners: z.array(Partner).optional(),
+  /**
+   * A stated yearly fee increase, used instead of the rate derived from the
+   * university's own fee history when that history holds a one-off step
+   * (a policy jump) that would otherwise be projected every year.
+   */
+  feeIncrease: z
+    .object({
+      rate: z.number().min(0).max(0.5),
+      reason: z.string().min(1),
+    })
+    .optional(),
   programmes: z.array(Programme),
 });
 

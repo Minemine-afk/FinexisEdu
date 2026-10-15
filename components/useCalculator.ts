@@ -266,18 +266,20 @@ export function increaseBasisNote(selections: Selection[]): string {
   if (selections.length === 0)
     return "Each university's own past fee rises, applied after its published fee year.";
   const own = selections.filter((s) => s.increase.basis !== "country");
-  const years = own.flatMap((s) => [s.increase.from!, s.increase.to!]);
+  const years = own.flatMap((s) =>
+    s.increase.from !== undefined && s.increase.to !== undefined ? [s.increase.from, s.increase.to] : [],
+  );
   const span = years.length
-    ? `${Math.min(...years)}–${Math.max(...years)}`
+    ? `, ${Math.min(...years)}–${Math.max(...years)}`
     : "";
   if (own.length === selections.length) {
-    return `From each university's published fees, ${span}; applied to years after the published fee year.`;
+    return `From each university's published fees${span}; applied to years after the published fee year.`;
   }
   const fallback = selections
     .filter((s) => s.increase.basis === "country")
     .map((s) => s.university.name);
   return own.length
-    ? `From published fees ${span}; ${fallback.join(", ")} ${fallback.length > 1 ? "have" : "has"} too little history, so the country's typical rate is used.`
+    ? `From published fees${span}; ${fallback.join(", ")} ${fallback.length > 1 ? "have" : "has"} too little history, so the country's typical rate is used.`
     : `${fallback.join(", ")} ${fallback.length > 1 ? "have" : "has"} too little fee history, so the country's typical rate is used.`;
 }
 

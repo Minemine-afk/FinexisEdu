@@ -272,7 +272,7 @@ export default function SavingsPlanner({
   function show(v: Tvm, k: TvmField): string {
     if (k === "months")
       return v.months > MAX_MONTHS ? `Over ${MAX_MONTHS.toLocaleString("en-SG")} months` : `${Math.round(v.months).toLocaleString("en-SG")} months`;
-    if (k === "rate") return `${v.rate.toFixed(2)}% a year`;
+    if (k === "rate") return v.rate > 20 ? "Over 20% a year" : `${v.rate.toFixed(2)}% a year`;
     return sgd(v[k]);
   }
 

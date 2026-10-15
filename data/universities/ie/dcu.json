@@ -22,6 +22,10 @@
     "summary": "Dublin City University's own estimate of rent, bills, food, transport and personal costs for a student living away from home, for the 9-month academic year (2025/26 figures).",
     "notes": "DCU Student Support 'Cost of attending University 2025/2026 - living away from home' (dated 25 June 2025), monthly averages: housing = rent for a single room EUR 796 + gas/electricity/oil EUR 125 + internet EUR 30 + bin charges EUR 18; food = groceries/toiletries EUR 200 + campus meals EUR 120; transport = local transport EUR 92 + weekend travel outside Dublin EUR 140; personal = phone EUR 27 + medication EUR 22 + college materials EUR 10 + books EUR 24 + TV licence EUR 13 + extra-curricular EUR 45 + clothing and social EUR 145. DCU's own monthly total is EUR 1,822 (EUR 16,398 for September-May). No 2026/27 version was published when checked."
   },
+  "feeIncrease": {
+    "rate": 0.058,
+    "reason": "DCU's 2027-28 schedule is a one-off step (Computer Science €17,900 to €23,800); the 2024–2026 trend of about 5.8% a year applies after it."
+  },
   "programmes": [
     {
       "level": "bachelor",
