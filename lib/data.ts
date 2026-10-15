@@ -31,8 +31,8 @@ export function loadUniversities(dataDir = DATA_DIR): University[] {
 }
 
 /**
- * The data the site needs: maintainer `notes` are dropped from every programme
- * and living-cost record, which halves the dataset embedded in the page.
+ * The data the site needs: maintainer `notes` (and each programme's `feeBasis`)
+ * are dropped, which halves the dataset embedded in the page.
  */
 export function forSite(universities: University[]): University[] {
   const withoutNotes = <T extends { notes?: string }>(record: T): T => {
@@ -40,9 +40,15 @@ export function forSite(universities: University[]): University[] {
     delete copy.notes;
     return copy;
   };
+  // `feeBasis` is kept in the data for maintainers; the site shows the university's `feeMethod`.
+  const forProgramme = (p: University["programmes"][number]) => {
+    const copy = withoutNotes(p) as Partial<typeof p>;
+    delete copy.feeBasis;
+    return copy as typeof p;
+  };
   return universities.map((u) => ({
     ...u,
-    programmes: u.programmes.map(withoutNotes),
+    programmes: u.programmes.map(forProgramme),
     livingCosts: u.livingCosts && withoutNotes(u.livingCosts),
   }));
 }

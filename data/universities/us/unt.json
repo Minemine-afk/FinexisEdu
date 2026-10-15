@@ -500,7 +500,7 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 16304.22,
+          "annualTuition": 14945.54,
           "annualCompulsoryFees": 3259.94,
           "oneOffFees": 0
         }
@@ -509,14 +509,14 @@
       "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "UNT's Fall 2026-Summer 2027 graduate non-resident rate times 18 credits a year (9 a semester), plus mandatory fees and a flat master's access fee. The 33-credit programme is treated as 2 years.",
-      "summary": "Yearly non-resident graduate tuition at 9 credits a semester, plus UNT's mandatory fees and a business-school master's programme fee. International students pay the out-of-state rate. Health insurance not included.",
-      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, graduate non-resident: statutory tuition US$478/credit + Board Designated US$227.79 + Board Authorized US$50 + Board Designated Graduate US$25 + Ryan College graduate differential US$125 (all graduate programmes) = $905.79/credit; annual = 9 credits a semester x2 = 18 credits = $16,304.22, same basis as the existing MBA row. The MS in Accounting is 33 credit hours (11 courses), full-time cohort, so durationYears 2 (about four semesters at 9 credits) is used. Fees = $2,259.94 a year as in the MBA row plus the Ryan College Master's Graduate Program Access Fee of a flat US$500 per semester x2 = $1,000 (stated on the explanation-of-fees page and in the 2024-25 and 2025-26 manuals; the existing MBA row omits it) = $3,259.94. History: 2025-26 statutory $455 -> $15,890.22 (manual 2025-2026); 2024-25 statutory $460 -> $15,980.22 (manual 2024-2025), other rates and the $500 access fee unchanged. Course fees and insurance excluded. Not cohort-locked.",
+      "feeBasis": "UNT's Fall 2026-Summer 2027 graduate non-resident rate per credit times the programme's 33 credits, spread over 2 years (16.5 a year), plus mandatory fees and a flat master's access fee.",
+      "summary": "Yearly non-resident graduate tuition for the 33-credit programme spread over two years, plus UNT's mandatory fees and a business-school master's programme fee. International students pay the out-of-state rate. Health insurance not included.",
+      "notes": "UNT Student Accounting 'Tuition and Fees', Fall 2026-Summer 2027, graduate non-resident: statutory tuition US$478/credit + Board Designated US$227.79 + Board Authorized US$50 + Board Designated Graduate US$25 + Ryan College graduate differential US$125 (all graduate programmes) = $905.79/credit; annual = 9 credits a semester x2 = 18 credits = $16,304.22, same basis as the existing MBA row. The MS in Accounting is 33 credit hours (11 courses), full-time cohort, so durationYears 2 (about four semesters at 9 credits) is used. Fees = $2,259.94 a year as in the MBA row plus the Ryan College Master's Graduate Program Access Fee of a flat US$500 per semester x2 = $1,000 (stated on the explanation-of-fees page and in the 2024-25 and 2025-26 manuals; the existing MBA row omits it) = $3,259.94. History: 2025-26 statutory $455 -> $15,890.22 (manual 2025-2026); 2024-25 statutory $460 -> $15,980.22 (manual 2024-2025), other rates and the $500 access fee unchanged. Course fees and insurance excluded. Not cohort-locked. Fix 2026-10-15: tuition was 18 credits a year x 2 years = 36 credits, 3 more than the 33-credit programme; now 33 credits / 2 years = 16.5 credits a year: 2026-27 $905.79 x 16.5 = $14,945.54; 2025-26 $882.79 x 16.5 = $14,566.04; 2024-25 $887.79 x 16.5 = $14,648.54 (whole programme $29,891.07 at 2026-27 rates). Mandatory fees left at the 9-credits-a-semester figure, unchanged.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 15980.22,
+          "annualTuition": 14648.54,
           "annualCompulsoryFees": 3259.94,
           "oneOffFees": 0,
           "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fees-manual-2024-2025.pdf"
@@ -524,7 +524,7 @@
         {
           "feeYear": 2025,
           "tier": "international",
-          "annualTuition": 15890.22,
+          "annualTuition": 14566.04,
           "annualCompulsoryFees": 3259.94,
           "oneOffFees": 0,
           "sourceUrl": "https://studentaccounting.unt.edu/sites/default/files/tuition-fee-manual-2025-2026.pdf"

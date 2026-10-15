@@ -134,7 +134,8 @@ export default function SavingsPlanner({
   const solved = solveTvm(t, tvmField);
   // A solved month count is rounded up to whole months, so the plan reaches
   // the end amount rather than falling a little short of it.
-  const wholeMonths = (m: number) => Math.ceil(m - 1e-9);
+  // Never below zero: Math.ceil of a hair under 0 is -0.
+  const wholeMonths = (m: number) => Math.max(0, Math.ceil(m - 1e-9));
   const full: Tvm = { ...t, [tvmField]: tvmField === "months" && Number.isFinite(solved) ? wholeMonths(solved) : solved };
   // A month count past a century is no plan at all.
   const tooLong = tvmField === "months" && solved > MAX_MONTHS;
@@ -149,6 +150,10 @@ export default function SavingsPlanner({
   const coveredAlready = ok && solved === 0 && (tvmField === "months" || tvmField === "monthly" || tvmField === "start");
   // Fees fall due now: there is no time to save, so the whole amount is your own money.
   const dueNow = ok && n === 0 && !coveredAlready;
+  // The plan's own end: the solved or typed month count, which can differ from the months until the fees fall due.
+  const planMonths = Number.isFinite(full.months) ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : months;
+  const endAt = new Date(Date.UTC(now.year, now.month + planMonths, 1));
+  const endLabel = `${MONTHS[endAt.getUTCMonth()]} ${endAt.getUTCFullYear()}`;
   const plan: Plan = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
   // What the plan really ends with: above the end amount once months are rounded up, or an answer was held at zero.
   const reached = ok ? solveTvm(full, "end") : full.end;
@@ -163,7 +168,7 @@ export default function SavingsPlanner({
           : coveredAlready
             ? `Nothing more is needed: the other boxes already reach the ${sgd(full.end)} needed at the end. Change any four boxes and tap "Solve" on the one you want.`
             : ok
-            ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}. Change any four boxes and tap "Solve" on the one you want.${
+            ? `${Number.isFinite(costTotal) ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}.` : `The first fees fall due in ${startLabel}.`}${planMonths !== months ? ` This plan runs ${planMonths.toLocaleString("en-SG")} ${planMonths === 1 ? "month" : "months"}, to ${endLabel}.` : ""} Change any four boxes and tap "Solve" on the one you want.${
                 overshoot && tvmField === "months" ? ` Rounded up to whole months, so the plan ends ${sgd(overshoot)} above the amount needed.` : ""
               }`
             : blanks
@@ -171,7 +176,7 @@ export default function SavingsPlanner({
               : tooLong
                 ? `That would take more than ${MAX_MONTHS.toLocaleString("en-SG")} months. Start with more, save more each month or earn more interest.`
                 : noTime
-                  ? 'With 0 months the whole amount is needed today. Tap "Solve" on "Amount to start with", or give it some months.'
+                  ? 'With 0 months the whole amount is needed today. Tap "Solve" on "Starting amount", or give it some months.'
                   : "No answer fits these numbers. Check the four boxes you filled in."
       }
     />
@@ -188,8 +193,9 @@ export default function SavingsPlanner({
   // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
   const clamp = (k: TvmField, v: number) =>
     k === "rate" ? Math.min(20, Math.max(0, v)) : k === "months" ? Math.min(MAX_MONTHS, Math.max(0, v)) : Math.max(0, v);
-  // The box being solved keeps its answer (within the box's limits) when it becomes an input again; with no answer it starts empty.
-  const current = (): Tvm => ({ ...full, [tvmField]: ok ? clamp(tvmField, solved) : NaN });
+  // The box being solved keeps its answer (within the box's limits) when it becomes an input again.
+  // With no answer it starts empty while other boxes are blank too, and at 0 when the numbers simply had no answer.
+  const current = (): Tvm => ({ ...full, [tvmField]: ok || tooLong ? clamp(tvmField, solved) : blanks ? NaN : 0 });
   const edit = (k: TvmField, v: number) => setTvmEdits({ ...current(), [k]: clamp(k, v) });
   /** Empties every number; the projected cost and defaults come back with "Reset" or by reopening. */
   const clearForm = () => {
@@ -232,6 +238,7 @@ export default function SavingsPlanner({
             prefix={k === "months" || k === "rate" ? undefined : "S$"}
             suffix={k === "months" ? "months" : k === "rate" ? "% a year" : undefined}
             readOnly={tvmField === k}
+            limit={(v) => clamp(k, v)}
             onValue={(v) => edit(k, v)}
           />
         </div>
@@ -250,6 +257,7 @@ export default function SavingsPlanner({
       <p className="text-xs text-muted">
         Interest is added monthly.{" "}
         {months === 0 ? `Fees are due now (${startLabel}).` : `${months.toLocaleString("en-SG")} ${months === 1 ? "month" : "months"} until ${startLabel}.`}
+        {planMonths !== months && ok ? ` The plan runs to ${endLabel}.` : ""}
       </p>
     </div>
   );
@@ -546,10 +554,13 @@ function NumberField({
   suffix,
   decimals = 0,
   readOnly,
+  limit,
 }: {
   id: string;
   value: number;
   onValue: (v: number) => void;
+  /** The box's limits; a typed value outside them is shown as the value used. */
+  limit?: (v: number) => number;
   prefix?: string;
   suffix?: string;
   decimals?: number;
@@ -583,7 +594,11 @@ function NumberField({
           setDraft(e.target.value);
           // Thousands separators and spaces are ignored; anything else must read as a number.
           const v = Number(e.target.value.replace(/[,\s]/g, ""));
-          if (e.target.value.trim() !== "" && Number.isFinite(v)) onValue(v);
+          if (e.target.value.trim() !== "" && Number.isFinite(v)) {
+            const used = limit ? limit(v) : v;
+            if (used !== v) setDraft(String(+used.toFixed(decimals)));
+            onValue(used);
+          }
         }}
         className="h-full min-w-0 flex-1 bg-transparent px-3 tabular-nums outline-none"
       />

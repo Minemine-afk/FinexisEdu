@@ -58,7 +58,7 @@ export default function CourseRationale({ courses }: { courses: Course[] }) {
                         href={c.sourceUrl}
                         target="_blank"
                         rel="noreferrer"
-                        className={`flex min-h-11 w-fit items-center text-xs text-accent underline-offset-4 hover:underline sm:min-h-0 sm:pt-1${FOCUS}`}
+                        className={`flex min-h-11 w-fit items-center text-xs text-accent underline-offset-4 hover:underline pointer-fine:sm:min-h-0 pointer-fine:sm:pt-1${FOCUS}`}
                       >
                         {c.sourceLabel} ↗
                       </a>
@@ -70,8 +70,9 @@ export default function CourseRationale({ courses }: { courses: Course[] }) {
           </div>
 
           <p className="text-muted">
-            Not covered: architecture, dentistry, education and mass communication together take about 7% of local
-            places. Degrees in law and medicine are labelled by whether they lead to practice in Singapore.
+            Not covered: architecture, dentistry and mass communication. Education degrees (NTU&apos;s National
+            Institute of Education) are listed under Arts and Sciences. Degrees in law and medicine are labelled by
+            whether they lead to practice in Singapore.
           </p>
         </div>
       </details>

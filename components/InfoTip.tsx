@@ -1,7 +1,6 @@
 "use client";
 
-import { Fragment, useEffect, useId, useRef, useState } from "react";
-import { useClampX } from "./useClampX";
+import { Fragment, useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { GLOSSARY, type GlossaryTerm } from "@/lib/glossary";
 
 /**
@@ -23,8 +22,40 @@ export default function InfoTip({
   const id = useId();
   const root = useRef<HTMLSpanElement>(null);
   const card = useRef<HTMLSpanElement>(null);
-  // A card near a screen edge slides sideways to stay in view.
-  useClampX(card, open);
+  // The card is fixed to the screen, so a scrolling table cannot clip it. It
+  // sits under the term, slides sideways to stay in view, and opens upwards
+  // when there is no room below (near the bottom, or above a phone's tab bar).
+  useLayoutEffect(() => {
+    const el = card.current;
+    if (!open || !root.current || !el) return;
+    const place = () => {
+      const r = root.current!.getBoundingClientRect();
+      const width = document.documentElement.clientWidth;
+      const bar = document.querySelector('nav[aria-label="Calculator sections"]')?.getBoundingClientRect().top;
+      const floor = Math.min(window.innerHeight, bar ?? Infinity);
+      const w = el.offsetWidth;
+      const h = el.offsetHeight;
+      const left = align === "right" ? r.right - w : r.left;
+      const x = Math.max(MARGIN, Math.min(left, width - w - MARGIN));
+      const up = r.bottom + GAP + h > floor && r.top - GAP - h > 0;
+      const y = up ? r.top - GAP - h : r.bottom + GAP;
+      el.style.left = `${x}px`;
+      el.style.top = `${y}px`;
+      // Inside a transformed parent (a centred dialog) "fixed" is relative to that parent; correct by the difference.
+      const at = el.getBoundingClientRect();
+      if (Math.abs(at.left - x) > 0.5 || Math.abs(at.top - y) > 0.5) {
+        el.style.left = `${2 * x - at.left}px`;
+        el.style.top = `${2 * y - at.top}px`;
+      }
+    };
+    place();
+    window.addEventListener("resize", place);
+    window.addEventListener("scroll", place, true);
+    return () => {
+      window.removeEventListener("resize", place);
+      window.removeEventListener("scroll", place, true);
+    };
+  }, [open, align]);
   // What kind of pointer pressed the marker last: a mouse click pins a tip
   // that hover opened (clicking it must not close it), a tap toggles.
   const pointer = useRef<string | null>(null);
@@ -75,7 +106,7 @@ export default function InfoTip({
               setOpen(false);
             }
           }}
-          className="relative ml-1 inline-flex h-4 w-4 items-center justify-center rounded-full border border-current align-text-top text-[10px] font-semibold leading-none text-muted outline-none after:absolute after:-inset-3.5 after:content-[''] hover:text-accent focus-visible:ring-2 focus-visible:ring-accent"
+          className="relative ml-1 inline-flex h-4 w-4 items-center justify-center rounded-full border border-current align-text-top text-[10px] font-semibold leading-none text-muted outline-none after:absolute after:-inset-3.5 after:content-[''] pointer-fine:after:-inset-y-1 hover:text-accent focus-visible:ring-2 focus-visible:ring-accent"
         >
           i
         </button>
@@ -84,13 +115,16 @@ export default function InfoTip({
         id={id}
         ref={card}
         role="tooltip"
-        className={`absolute top-full z-30 mt-1.5 w-72 max-w-[85vw] rounded-lg border border-border bg-surface p-3 text-left text-xs font-normal normal-case tracking-normal text-foreground shadow-lg ${align === "right" ? "right-0" : "left-0"} ${open ? "block" : "hidden"}`}
+        className={`fixed left-0 top-0 z-50 w-72 max-w-[85vw] rounded-lg border border-border bg-surface p-3 text-left text-xs font-normal normal-case tracking-normal text-foreground shadow-lg ${open ? "block" : "hidden"}`}
       >
         {GLOSSARY[term]}
       </span>
     </span>
   );
 }
+
+const MARGIN = 8;
+const GAP = 6;
 
 /** [everything before the last word, the last word] of text children; [children, null] otherwise. */
 function splitLastWord(children: React.ReactNode): [React.ReactNode, React.ReactNode] {

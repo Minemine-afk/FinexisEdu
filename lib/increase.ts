@@ -23,13 +23,45 @@ function median(xs: number[]): number {
   return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
 }
 
-/** The published tuition series for one programme and tier, oldest first. */
-function tuitionSeries(p: Programme, tier: Tier): [number, number][] {
+function tierPoints(p: Programme, tier: Tier): Map<number, number> {
   const points = new Map<number, number>();
   for (const h of p.feeHistory)
     if (h.tier === tier) points.set(h.feeYear, h.annualTuition);
   const current = p.fees[tier];
   if (current) points.set(p.feeYear, current.annualTuition);
+  return points;
+}
+
+/**
+ * The published tuition series for one programme and tier, oldest first.
+ *
+ * A citizen or PR fee is often the international fee less a subsidy. When that
+ * subsidy was cut by a twentieth of the fee or more and has held steady since, for
+ * the latest two or more years (NIE's self-financed master's in 2025), the cut
+ * is a one-off rather than a yearly trend, so only the years since are kept.
+ */
+function tuitionSeries(p: Programme, tier: Tier): [number, number][] {
+  const points = tierPoints(p, tier);
+  if (tier !== "international") {
+    const intl = tierPoints(p, "international");
+    const gap = (y: number) => (intl.get(y) ?? NaN) - (points.get(y) ?? NaN);
+    const now = gap(p.feeYear);
+    if (Number.isFinite(now)) {
+      const years = [...points.keys()].filter((y) => intl.has(y)).sort((a, b) => b - a);
+      let from = p.feeYear;
+      let changed = false;
+      for (const y of years) {
+        if (Math.abs(gap(y) - now) > 1) {
+          // Only a subsidy cut of a twentieth of the fee or more counts as a one-off.
+          changed = gap(y) - now > 0.05 * (intl.get(p.feeYear) ?? Infinity);
+          break;
+        }
+        from = y;
+      }
+      if (changed && from < p.feeYear)
+        for (const y of [...points.keys()]) if (y < from) points.delete(y);
+    }
+  }
   return [...points.entries()].sort((a, b) => a[0] - b[0]);
 }
 

@@ -87,7 +87,12 @@ Definitions:
   of its own that students pick separately (NIE at NTU). The calculator then asks
   for the partner or institute after the university, and the yearly increase is
   estimated from that partner's programmes first. Programmes without `partner`
-  are the university's own and appear under its name in that picker.
+  are the university's own and appear under its name in that picker. A partner
+  may have its own `feeMethod` (same limits), shown for its programmes instead of
+  the university's.
+- Increase estimate: a citizen or PR fee series whose subsidy was cut by a
+  twentieth of the fee or more, and has held steady for the latest two or more
+  years, is measured only from the cut (NIE and NTU self-financed master's, 2025).
 - US public universities: use the non-resident (out-of-state/international) rate.
 - Singaporeans studying abroad are international students, so only `international`
   matters outside Singapore.

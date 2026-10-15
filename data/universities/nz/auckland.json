@@ -1,7 +1,7 @@
 {
   "id": "auckland",
   "name": "University of Auckland",
-  "feeMethod": "Charges per course at rates that differ by faculty, so the calculator uses Auckland's estimated fee for a full-time 120-point year of each degree.",
+  "feeMethod": "Charges per course at rates that differ by faculty, so the calculator uses Auckland's estimated fee for a full-time 120-point year, taking the top where a degree's fee is a range.",
   "country": "nz",
   "city": "Auckland",
   "currency": "NZD",
@@ -300,7 +300,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "Top of Auckland's 2026 BSc range of NZ$47,221-58,009 a year; standard science courses cost less, laboratory-heavy majors cost up to this. Computer Science is the same degree.",
-      "summary": "Lower end of the published range for international students; laboratory-heavy majors cost more. Includes 15% GST and the student services fee. Books and insurance are extra.",
+      "summary": "Top of the published range for international students (NZ$47,221 to NZ$58,009), the cost for laboratory-heavy majors; standard science courses cost less. Includes 15% GST and the student services fee. Books and insurance are extra.",
       "notes": "2026 international fee for a full-time BSc year from the programme page's Fees section: 'International students NZ$47,221 – $58,009'; the upper end is used (from 2026-10-15 at Kumar's request; previously the lower end, 8 standard 15-point Science courses at NZ$5,902.65; laboratory-heavy majors cost more). Indicative; inclusive of 15% GST, excludes books, insurance and living costs; 360 points over 3 years. The Computer Science major is the same degree at the same fee, so it is not recorded separately. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024 and 2025 = upper end of the same page's range in those years, read from Common Crawl captures (CC-MAIN-2023-50, 5 Dec 2023: '2024 fees ... International students NZ$43,243 – $53,122'; CC-MAIN-2024-51, 8 Dec 2024: '2025 fees ... NZ$44,972 – $55,247'), with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
         {

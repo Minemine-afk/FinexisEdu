@@ -202,6 +202,23 @@ function defaultPick(
 }
 
 /** When the level changes, keep each slot's university and field where the new level offers them. */
+// Words that say nothing about a programme's subject.
+const GENERIC = new Set(["bachelor", "master", "masters", "science", "sciences", "honours", "applied", "professional", "studies", "degree", "doctor", "programme", "program"]);
+
+/** Whether two programme names share a subject word, compared on its first five letters (Accountancy, Accounting). */
+function kin(a: string, b: string): boolean {
+  const stems = (n: string) =>
+    new Set(
+      n
+        .toLowerCase()
+        .split(/[^a-z]+/)
+        .filter((w) => w.length >= 5 && !GENERIC.has(w))
+        .map((w) => w.slice(0, 5)),
+    );
+  const sa = stems(a);
+  return [...stems(b)].some((w) => sa.has(w));
+}
+
 function reselect(
   prevKeys: string[],
   prevOptions: Option[],
@@ -217,13 +234,14 @@ function reselect(
     );
     const samePartner = (x: Option) =>
       x.programme.partner === prev.programme.partner;
+    const sameField = (x: Option) =>
+      samePartner(x) &&
+      x.programme.field === prev.programme.field &&
+      isAvailable(x);
     const o =
-      same.find(
-        (x) =>
-          samePartner(x) &&
-          x.programme.field === prev.programme.field &&
-          isAvailable(x),
-      ) ??
+      // Within a field, a programme sharing a subject word (Accountancy → Professional Accounting) first.
+      same.find((x) => sameField(x) && kin(x.programme.name, prev.programme.name)) ??
+      same.find(sameField) ??
       same.find((x) => samePartner(x) && isAvailable(x)) ??
       same.find(
         (x) => x.programme.field === prev.programme.field && isAvailable(x),

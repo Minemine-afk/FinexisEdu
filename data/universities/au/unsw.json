@@ -665,9 +665,9 @@
       "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "UNSW's 2026 indicative first-year full fee for international students on this 1.5-year degree. The page gives A$96,000 for the whole degree, so the remaining half year is costed separately.",
-      "summary": "First-year tuition for international students, plus the A$372 student services fee. The 1.5-year degree costs A$96,000 in total, so the remaining half year costs a little more.",
-      "notes": "Program 8409 (CRICOS 051221J), 72 UOC = 1.5 full-time years (UNSW lists 1.7 calendar years). Page with the International toggle on, read 2026-10-15: '2026 Indicative first year full fee' A$62,000, 'full fee to complete degree' A$96,000; international tier chosen because Singaporeans are international students. Compulsory = 2026 SSAF A$124/term x 3. 2024/2025 = UNSW fee archive international postgraduate Business School (ACCT) rate per UOC x 48 UOC: A$1,170 (2024) = A$56,160 and A$1,235 (2025) = A$59,280, read from the archive page tables; SSAF A$117.00 (2024) and A$121.50 (2025) per term x 3 as in the other UNSW records.",
+      "feeBasis": "UNSW's 2026 indicative first-year fee (A$62,000) for this 1.5-year degree. The final half year is costed at A$68,000 a year so the whole degree totals the page's A$96,000.",
+      "summary": "First-year tuition for international students, plus the A$372 student services fee. The final half year is charged at a higher rate so the 1.5-year degree totals UNSW's published A$96,000.",
+      "notes": "Program 8409 (CRICOS 051221J), 72 UOC = 1.5 full-time years (UNSW lists 1.7 calendar years). Page with the International toggle on, read 2026-10-15: '2026 Indicative first year full fee' A$62,000, 'full fee to complete degree' A$96,000; international tier chosen because Singaporeans are international students. Compulsory = 2026 SSAF A$124/term x 3. 2024/2025 = UNSW fee archive international postgraduate Business School (ACCT) rate per UOC x 48 UOC: A$1,170 (2024) = A$56,160 and A$1,235 (2025) = A$59,280, read from the archive page tables; SSAF A$117.00 (2024) and A$121.50 (2025) per term x 3 as in the other UNSW records. laterYears added 2026-10-15: the calculator charged A$62,000 x 1.5 = A$93,000, below the page's A$96,000 'full fee to complete degree'; year 2 (the final half year) is now A$68,000 a year (estimate: (96,000 - 62,000) / 0.5), so 62,000 + 0.5 x 68,000 = 96,000 for a 2026 start before the calculator's yearly increase. The 2024 and 2025 rows carry their own laterYears at the same per-UOC rate (A$1,170 / A$1,235 x 48 UOC), because UNSW then charged every unit at one rate.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -675,7 +675,14 @@
           "annualTuition": 56160,
           "annualCompulsoryFees": 351,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 56160,
+              "estimate": false
+            }
+          ]
         },
         {
           "feeYear": 2025,
@@ -683,7 +690,21 @@
           "annualTuition": 59280,
           "annualCompulsoryFees": 364.5,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 59280,
+              "estimate": false
+            }
+          ]
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 68000,
+          "estimate": true
         }
       ]
     }

@@ -687,19 +687,19 @@
       "cohortLocked": false,
       "feeBasis": "King's international fee for 2027/28 entry (GBP 40,600) taken from the data on its fees page for Accounting & Finance BSc, the same band as Business Management. Continuing-student fees may rise up to 7% a year.",
       "summary": "Yearly tuition for international students starting in 2027 (King's own course fees page). King's may raise fees by up to 7% a year for continuing students.",
-      "notes": "International fee for 2027/28 entry read from the CMS record embedded in King's /fees page (internationalFee 40,600, same band as King's Business Management BSc), read 2026-10-15; International tier because Singaporeans are international students. King's says continuing-student fees rise by at most 7% a year, so cohortLocked false. No compulsory fees. History: 2025 row 35,800 is the course record's internationalFee on the live page and in Common Crawl captures of the course page from April and July 2025; 2024 row 33,450 is the course page's internationalFee in Common Crawl captures from Feb and Aug 2024. No 2026-entry figure: later captures (Nov 2025 on) no longer carry a fee and the CMS keeps no older versions.",
+      "notes": "International fee for 2027/28 entry read from the CMS record embedded in King's /fees page (internationalFee 40,600, same band as King's Business Management BSc), read 2026-10-15; International tier because Singaporeans are international students. King's says continuing-student fees rise by at most 7% a year, so cohortLocked false. No compulsory fees. History: 2025 row 35,800 is the course record's internationalFee on the live page and in Common Crawl captures of the course page from April and July 2025; 2024 row 33,450 is the course page's internationalFee in Common Crawl captures from Feb and Aug 2024. No 2026-entry figure: later captures (Nov 2025 on) no longer carry a fee and the CMS keeps no older versions. Archive links 2026-10-15: 2024 row now links the Wayback Machine copy of 24 Feb 2024 and 2025 row the copy of 18 Apr 2025, each the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-10, CC-MAIN-2025-18) in which the course record's internationalFee was re-checked ('33,450' and '35,800'). 2026 still not found: the course page has carried no fee since Nov 2025 and no /fees capture exists.",
       "feeHistory": [
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 35800,
-          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/accounting-finance-bsc"
+          "sourceUrl": "https://web.archive.org/web/20250418165905/https://www.kcl.ac.uk/study/undergraduate/courses/Accounting-Finance-BSc"
         },
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 33450,
-          "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/accounting-finance-bsc"
+          "sourceUrl": "https://web.archive.org/web/20240224225135/https://www.kcl.ac.uk/study/undergraduate/courses/accounting-finance-bsc"
         }
       ]
     },
@@ -722,20 +722,27 @@
       "cohortLocked": false,
       "feeBasis": "King's international fee of GBP 47,800 for 2027/28 stated on its course fees page for the one-year MSc in Accounting, Accountability & Financial Management.",
       "summary": "Tuition for international students on the one-year full-time master's starting in 2027. No separate compulsory fees.",
-      "notes": "King's course fees page: 'internationalFee: 47,800 per year (2027/28)', read 2026-10-15; International tier because Singaporeans are international students. One-year MSc; King's says continuing fees rise by at most 7%, so cohortLocked false. No compulsory fees. History: 2025 row 43,000 is the course record's internationalFee labelled '(2025/26)'; 2024 row 40,140 labelled '(2024/25)' in Common Crawl captures of the course page (Feb and Aug 2024). 2026/27 not on any King's page found (a search snippet quoted 45,100 but no King's page confirmed it, so not used).",
+      "notes": "King's course fees page: 'internationalFee: 47,800 per year (2027/28)', read 2026-10-15; International tier because Singaporeans are international students. One-year MSc; King's says continuing fees rise by at most 7%, so cohortLocked false. No compulsory fees. History: 2025 row 43,000 is the course record's internationalFee labelled '(2025/26)'; 2024 row 40,140 labelled '(2024/25)' in Common Crawl captures of the course page (Feb and Aug 2024). 2026 row added 2026-10-15: King's own course fees page as captured by Common Crawl on 10 Nov 2025 (CC-MAIN-2025-47) and 17 Feb 2026 (CC-MAIN-2026-08): 'Full time tuition fees international £45,100 per year (2026/27)' (UK £32,100). Archive links 2026-10-15: 2024 and 2025 rows now link the Common Crawl index entries for the course-page captures of 29 Feb 2024 (CC-MAIN-2024-10, 'internationalFee: £40,140 per year (2024/25)') and 15 Mar 2025 (CC-MAIN-2025-13, '£43,000 per year (2025/26)'); no Wayback copy with the same timestamp was found. Archive link 2026-10-15: history rows that linked a Common Crawl index query (JSON, not readable) now link the Wayback Machine copy with the same timestamp as the Common Crawl capture: https://web.archive.org/web/20251110140331/https://www.kcl.ac.uk/study/postgraduate-taught/courses/accounting-accountability-and-financial-management-msc/fees.",
       "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 45100,
+          "sourceUrl": "https://web.archive.org/web/20251110140331/https://www.kcl.ac.uk/study/postgraduate-taught/courses/accounting-accountability-and-financial-management-msc/fees",
+          "sourceType": "official"
+        },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 43000,
-          "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/courses/accounting-accountability-and-financial-management-msc/fees",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-13-index?url=https%3A%2F%2Fwww.kcl.ac.uk%2Fstudy%2Fpostgraduate-taught%2Fcourses%2Faccounting-accountability-and-financial-management-msc&output=json",
           "sourceType": "official"
         },
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 40140,
-          "sourceUrl": "https://www.kcl.ac.uk/study/postgraduate-taught/courses/accounting-accountability-and-financial-management-msc",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=https%3A%2F%2Fwww.kcl.ac.uk%2Fstudy%2Fpostgraduate-taught%2Fcourses%2Faccounting-accountability-and-financial-management-msc&output=json",
           "sourceType": "official"
         }
       ]

@@ -87,6 +87,8 @@ export const Partner = z.object({
   country: z.string().min(1),
   website: z.url().optional(),
   description: z.string().min(1).optional(),
+  /** How this partner prices its degrees, shown instead of the university's `feeMethod` for its programmes. */
+  feeMethod: z.string().min(1).max(220).optional(),
 });
 
 /**

@@ -1,7 +1,7 @@
 {
   "id": "asu",
   "name": "Arizona State University",
-  "feeMethod": "Charges one flat tuition to all international undergraduates plus a college fee, so the calculator adds the degree's college fee.",
+  "feeMethod": "Charges one flat tuition to all international undergraduates plus a college fee, so the calculator adds the degree's college fee. Master's use the graduate rate or programme fee.",
   "country": "us",
   "city": "Tempe, AZ",
   "currency": "USD",
@@ -395,14 +395,14 @@
       "cohortLocked": false,
       "feeBasis": "The 'estimated tuition and fees' for international students (US$60,500) on ASU's page for the 9-month MACC, fall 2026 intake. The page now shows US$64,000, which is for fall 2027 and not used.",
       "summary": "One-year, 9-month full-time master's at ASU's W. P. Carey School, leading to CPA exam eligibility. The price is the school's estimated tuition and fees for international students. Health insurance not included.",
-      "notes": "International tier, Tempe full-time, 9-month programme (Aug start); the programme page's 'Estimated tuition and fees' International figure of $60,500 (page capture of 2026-05-21, fall 2026 cycle) is a total for tuition and fees combined, so annualCompulsoryFees is 0 and durationYears is 1 (an academic year Aug-May) so annual equals total. Chosen over Resident/Nonresident because Singaporeans are international students. The live page on 2026-10-15 shows $64,000, which appears under Fall 2027 deadlines, so it is taken as the next intake and not used. History from the same page in Common Crawl captures: 2025-03-16 to 2025-11-10 show $60,000 (fall 2025); the 2024-09-12 capture shows $55,058 (taken as fall 2024). Health insurance and the $500 deposit excluded.",
+      "notes": "International tier, Tempe full-time, 9-month programme (Aug start); the programme page's 'Estimated tuition and fees' International figure of $60,500 (page capture of 2026-05-21, fall 2026 cycle) is a total for tuition and fees combined, so annualCompulsoryFees is 0 and durationYears is 1 (an academic year Aug-May) so annual equals total. Chosen over Resident/Nonresident because Singaporeans are international students. The live page on 2026-10-15 shows $64,000, which appears under Fall 2027 deadlines, so it is taken as the next intake and not used. History from the same page in Common Crawl captures: 2025-03-16 to 2025-11-10 show $60,000 (fall 2025); the 2024-09-12 capture shows $55,058 (taken as fall 2024). Health insurance and the $500 deposit excluded. Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-02-28, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-10) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-06-24, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-26) in which the figure was re-checked.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 55058,
           "annualCompulsoryFees": 0,
-          "sourceUrl": "https://wpcarey.asu.edu/masters-programs/accounting",
+          "sourceUrl": "https://web.archive.org/web/20240228114312/https://www.wpcarey.asu.edu/masters-programs/accounting",
           "sourceType": "official"
         },
         {
@@ -410,7 +410,7 @@
           "tier": "international",
           "annualTuition": 60000,
           "annualCompulsoryFees": 0,
-          "sourceUrl": "https://wpcarey.asu.edu/masters-programs/accounting/cost-financial-aid",
+          "sourceUrl": "https://web.archive.org/web/20250624161000/https://wpcarey.asu.edu/masters-programs/accounting/cost-financial-aid",
           "sourceType": "official"
         }
       ]
