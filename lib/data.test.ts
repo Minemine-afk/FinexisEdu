@@ -71,6 +71,17 @@ describe("committed data", () => {
     }
   });
 
+  it("explains how every fee was worked out in at most 240 characters", () => {
+    for (const u of universities) {
+      for (const p of u.programmes) {
+        const id = `${u.id}: ${p.name}`;
+        expect(p.feeBasis, id).toBeTruthy();
+        expect(p.feeBasis!.length, id).toBeLessThanOrEqual(240);
+        expect(p.feeBasis, id).not.toMatch(/https?:\/\//);
+      }
+    }
+  });
+
   it("names a known partner, or none, on every programme of a university with partners", () => {
     for (const u of universities) {
       const ids = new Set((u.partners ?? []).map((p) => p.id));

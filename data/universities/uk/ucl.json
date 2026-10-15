@@ -40,6 +40,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the International Management BSc in UCL's official 2027/28 fee schedule: £44,400 a year, fixed for the whole course.",
       "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028); 3-year programme. The 2025 figure was read on the School of Management page in 2026-09 (that page now redirects to www.ucl.ac.uk and blocks automated access). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt. No 2024 row: the programme had no 2024 intake. UCL's 2024 undergraduate fee schedule (degree-fees-drupal index.php?coursetype=undergraduate&year=2024, fetched 2026-10-05) lists 'International Management, BSc (UBSINTSING18)' with UK and Overseas full-time fees 'TBC'. The Wayback capture 20240715185103 of the UCL prospectus page (ucl.ac.uk/prospective-students/undergraduate/degrees/international-management-bsc) reads 'Overseas tuition fees (2024/25) Fees to be confirmed ... Programme starts September 2025'. The 2025 schedule gives Overseas £39,800, matching the existing 2025 row, whose source could be moved to that schedule (year=2025) since the School of Management page now redirects. Round 5 (2026-10-13): UCL's 2024 undergraduate fee schedule (degree-fees-drupal year=2024, read via headless browser past Cloudflare) still lists International Management, BSc (UBSINTSING18) with UK and Overseas full-time fees 'TBC'; first intake September 2025, so 2024 is left blank as a no-intake year.",
       "feeHistory": [
@@ -74,6 +75,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The £44,400 fee for the one-year MSc Management in UCL's 2027/28 fee schedule, the same for UK and international students.",
       "summary": "Tuition for the one-year programme, the same for UK and international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Full-time fee for 2027/28 entrants, the same for UK and Overseas students, from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1-year programme. The 2025 and 2026 figures were read on the School of Management page in 2026-09 (that page now redirects to www.ucl.ac.uk and blocks automated access) and match the fee schedules for those years. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -114,6 +116,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Law LLB in UCL's official 2027/28 fee schedule: £36,800 a year, fixed for the whole course.",
       "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Law LLB prospectus page (ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb); 3-year programme. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -161,6 +164,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Law LLM in UCL's official 2027/28 fee schedule: £40,800 a year, fixed for the whole course.",
       "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £24,100) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1-year programme (also offered part-time at half the fee per year). Replaces the 2026/27 figure previously taken from a secondary aggregator, which matches the 2026/27 schedule. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -208,6 +212,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "UCL's 2027/28 overseas Medicine schedule: £40,800 a year for the 2 pre-clinical years and the BSc year, then £72,134 for each of the 3 clinical years.",
       "summary": "Six years at your intake's published schedule (2027 entry): £40,800 for each of 2 pre-clinical years and the intercalated BSc year, then £72,134 for each of 3 clinical years, about £338,800 in all. UCL may add inflation yearly.",
       "notes": "Overseas fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028). The programme lasts six academic years but UCL bills overseas students in five annual instalments of £59,600 (an averaged rate: 2 x £40,800 pre-clinical plus 3 x £72,134 clinical), which is why the record once had durationYears 5 (the number of fee years); since 2026-10-14 durationYears is 6 so the intercalated BSc year is priced too, see below. The schedule states that Overseas Medicine fees are excluded from the cohort guarantee and are subject to annual increases of no more than RPI-X (see the 2026-10-14 note below on why cohortLocked is nevertheless true). The 2026 entry was read on the 2026 Medicine MBBS BSc prospectus page through a reader proxy (r.jina.ai) on 2026-09-30 and matches the 2026/27 schedule. No separate compulsory fees; additional costs (DBS check, equipment, placement travel) excluded. 2024/2025 rows from UCL's official undergraduate fee schedule tool for those years (same source as the current record, year=2024 and year=2025, fetched directly 2026-10-05), row 'Medicine: Medicine, MB,BS (UBMMEDSING01)': 2024 Overseas full-time £50,300, note 'Overseas students pay the fees in 5 annual instalments of £50,300 (2x £34,400 plus 3x £60,900), subject to annual increases of no more than RPI-X'; 2025 Overseas £53,400, '5 annual instalments of £53,400 (2x £36,500 plus 3x £64,667)'. Same five-instalment averaged rate as the current record. Later-year check 2026-10-08: year-1 fee changed from the averaged £59,600 to the pre-clinical rate £40,800 with laterYears from fee-year 3 at the clinical rate £72,134 (2 x 40,800 + 3 x 72,134 = £298,002, matching the averaged total). The 2026/27 prospectus page confirms the same pattern (5 instalments of £57,300 = 2 x £39,200 + 3 x £69,367); the 2027/28 split is the 2026-10-01 reading of the fee-schedule tool (could not be re-read because the tool page truncates before Medical Sciences). The intercalated BSc (year 3 of 6) is not one of the five MBBS instalments and UCL publishes no fee for it. feeHistory rows record the year-1 pre-clinical instalment of each year (2026: 39,200 of 2 x 39,200 + 3 x 69,367; 2025: 36,500 of 36,500 / 64,667; 2024: 34,400 of 34,400 / 60,900), and since the bug fix of 2026-10-14 each row also carries its own cohort's clinical rate as laterYears (2026: £69,367; 2025: £64,667; 2024: £60,900) with cohortLocked true, so every intake is priced at its own published five-instalment schedule (2026: 2 x 39,200 + 3 x 69,367 = £286,501; 2025: £267,001; 2024: £251,500) instead of the 2027 clinical rate. UCL's schedule says overseas Medicine fees are outside the cohort guarantee and may rise by up to RPI-X a year; that possible rise is not modelled, so cohortLocked here means 'priced at the intake's published schedule', as stated in the summary. Second look 2026-10-14: the record charged only the five MBBS instalments (durationYears 5), leaving the intercalated BSc year (year 3 of 6) unpriced. UCL's undergraduate fee schedule tool (https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027, read 2026-10-14) lists the UCL Medical School iBSc programmes (UBIMDS0001-1718, e.g. 'Mathematics, Computers and Medicine, iBSc') at Overseas £40,800 for 2027/28, the same as the MBBS pre-clinical instalment, and the 2024-2026 tools list the 'Medicine: ... BSc (Intercal) (UBMMEDSING01)' rows at £34,400 / £36,500 / £39,200, again equal to that year's pre-clinical rate. durationYears is now 6 and laterYears charge year 3 at the iBSc rate and years 4-6 at the clinical rate (current record 40,800 / 72,134; 2026 row 39,200 / 69,367; 2025 row 36,500 / 64,667; 2024 row 34,400 / 60,900), so the six-year international total is 2027 entry 3 x 40,800 + 3 x 72,134 = £338,802; 2026 entry 3 x 39,200 + 3 x 69,367 = £325,701; 2025 £303,501; 2024 £285,900. The iBSc fee used for each cohort is the one published for its entry year; UCL publishes the iBSc rate per academic year and may raise it (RPI-X) by the time the cohort reaches year 3. Fix 2026-10-15: the notes sentence that still said 'durationYears 5 reflects the number of fee years' was reworded to match durationYears 6. Source: https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=undergraduate&year=2027.",
       "feeHistory": [
@@ -315,6 +320,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Computer Science BSc in UCL's official 2027/28 fee schedule: £48,600 a year, fixed for the whole course.",
       "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. A suitable laptop is not included.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Computer Science BSc prospectus page; 3 academic years (the MEng charges the same fee). A suitable laptop (UCL estimates £800-£1,500) is excluded. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -355,6 +361,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Mechanical Engineering MEng in UCL's official 2027/28 fee schedule: £44,400 a year, fixed for the whole course.",
       "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Mechanical Engineering MEng prospectus page; 4 academic years (the 3-year BEng charges the same annual fee). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -395,6 +402,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Natural Sciences BSc in UCL's official 2027/28 fee schedule: £44,400 a year, fixed for the whole course.",
       "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028), matching the Natural Sciences BSc prospectus page; 3 academic years. Optional field-trip travel excluded. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -435,6 +443,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Economics BSc (Econ) in UCL's official 2027/28 fee schedule: £40,800 a year, fixed for the whole course.",
       "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees. An optional placement year costs 15% of the fee.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £10,050) from UCL's official undergraduate fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028); 3 academic years. Students on an optional placement year pay 15% of the full-time fee for that year. UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -475,6 +484,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Computer Science MSc in UCL's official 2027/28 fee schedule: £44,400 a year, fixed for the whole course.",
       "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £21,500) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year. The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -515,6 +525,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Civil Engineering MSc in UCL's official 2027/28 fee schedule: £44,400 a year, fixed for the whole course.",
       "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £21,500) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -555,6 +566,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Physics MSc in UCL's official 2027/28 fee schedule: £44,400 a year, fixed for the whole course.",
       "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £16,800) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -595,6 +607,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Economics MSc in UCL's official 2027/28 fee schedule: £40,800 a year, fixed for the whole course.",
       "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK £28,900) from UCL's official postgraduate taught fee schedule (the table embedded in ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/postgraduate-taught-fees-2027-2028); 1 calendar year (part-time over 2 years at half the fee per year). UCL's schedules list £39,800 for 2025/26 entrants and £39,200 for 2026/27 entrants, as published. The 2027/28 prospectus page still shows the fee as 'to be confirmed'. UCL states that postgraduate taught students benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes); earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -635,6 +648,7 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The overseas fee for the Psychology BSc in UCL's official 2027/28 fee schedule: £44,400 a year, fixed for the whole course.",
       "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK GBP 10,050) from UCL's official undergraduate fee schedule ('Psychology, BSc (UBSBRN000518)', Faculty of Brain Sciences; the table embedded in UCL's fee-schedules-2027-2028 undergraduate page); 3 academic years (the 4-year Psychology MSci is the same annual fee). UCL states that Overseas undergraduates benefit from a cohort guarantee (fees do not increase during the course, save for government levies or taxes), so earlier feeHistory entries are the fee charged to the cohort that started in that year, from the same schedule for that year ('Psychology, BSc (UBSPSYSING18)'): 2026 GBP 42,700, 2025 GBP 39,800, 2024 GBP 37,500. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [
@@ -681,6 +695,7 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": true,
+      "feeBasis": "The £40,800 overseas fee in UCL's 2027/28 schedule for the broad Psychological Sciences MSc; specialist psychology MScs are priced separately.",
       "summary": "Tuition for the one-year programme for international students, fixed at your entry-year rate. No separate compulsory fees.",
       "notes": "Overseas full-time fee for 2027/28 entrants (UK GBP 16,800; part-time GBP 20,400 a year) from UCL's official postgraduate taught fee schedule ('Psychological Sciences, MSc (TMSBRN002318)', Faculty of Brain Sciences); 1 calendar year full-time. Chosen as UCL's broad taught psychology MSc (a conversion-style programme covering the core areas of psychology); specialist MScs such as Health Psychology and Developmental Psychology and Clinical Practice are priced separately. UCL states that postgraduate taught students benefit from a cohort guarantee; earlier feeHistory entries are the fee for new entrants in that year, from the same schedule for that year ('Psychological Sciences, MSc (TMSPSYSSCI01)'): 2026 GBP 39,200, 2025 GBP 36,500, 2024 GBP 34,400. No separate compulsory fees; fees are VAT-exempt.",
       "feeHistory": [

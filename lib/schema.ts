@@ -128,6 +128,8 @@ export const Programme = z.object({
   internationalEligible: z.boolean().default(true),
   /** One or two plain-English sentences for parents: what the fee covers and any caveat. */
   summary: z.string().max(280).optional(),
+  /** One or two short sentences on how this exact figure was chosen from the source (shown on the site). */
+  feeBasis: z.string().min(1).max(240).optional(),
   /** Detailed source and method notes for maintainers; not shown on the site. */
   notes: z.string().optional(),
   feeHistory: z.array(FeeHistoryEntry).default([]),
