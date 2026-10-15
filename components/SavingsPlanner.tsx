@@ -155,8 +155,10 @@ export default function SavingsPlanner({
   const blanks = TVM_FIELDS.filter(([k]) => k !== tvmField && !Number.isFinite(t[k])).length;
   // Only a real answer is simulated, and never beyond a century of months.
   const n = ok ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : 0;
+  // The answer is zero because the other boxes already reach the end amount.
+  const coveredAlready = ok && solved === 0 && (tvmField === "months" || tvmField === "monthly" || tvmField === "start");
   // Fees fall due now: there is no time to save, so the whole amount is your own money.
-  const dueNow = ok && n === 0;
+  const dueNow = ok && n === 0 && !coveredAlready;
   const mine: Plan = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
   let other: Plan | null = null;
   let compare: [string, string] | null = null;
@@ -181,7 +183,9 @@ export default function SavingsPlanner({
       note={
         dueNow
           ? `Fees are due now, so the whole ${sgd(full.end)} is needed today and there is no time for interest to build. Change any four boxes and tap "Solve" on the one you want.`
-          : ok
+          : coveredAlready
+            ? `Nothing more is needed: the other boxes already reach the ${sgd(full.end)} needed at the end. Change any four boxes and tap "Solve" on the one you want.`
+            : ok
             ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}. Change any four boxes and tap "Solve" on the one you want.`
             : blanks
               ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Solve" on the one you want.`
@@ -202,6 +206,8 @@ export default function SavingsPlanner({
         target: full.end,
         targetLabel: "Amount needed at the end",
         rate: full.rate,
+        // Solving the end amount: both plans put in the same money and differ only in what it grows to.
+        sameMoney: tvmField === "end",
       }
     : null;
   // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
@@ -404,7 +410,23 @@ export default function SavingsPlanner({
                   )}
                 </div>
                 {bars && (
-                  <Chart bars={bars} mine={mine} other={other} today={now} startMonth={null} startLabel={startLabel} view={view} setView={setView} dueNow={dueNow} />
+                  <Chart
+                    bars={bars}
+                    mine={mine}
+                    other={other}
+                    today={now}
+                    startMonth={null}
+                    startLabel={startLabel}
+                    view={view}
+                    setView={setView}
+                    still={
+                      dueNow
+                        ? `Fees are due now, so there is no time for interest to build: the whole ${sgd(full.end)} is your own money.`
+                        : coveredAlready
+                          ? `Nothing more is needed at either rate: what goes in already reaches ${sgd(full.end)}.`
+                          : null
+                    }
+                  />
                 )}
                 {bars && (
                 <details className="rounded-xl border border-border">
@@ -627,7 +649,7 @@ function Chart({
   startLabel,
   view,
   setView,
-  dueNow,
+  still,
 }: {
   bars: Bars;
   mine: Plan;
@@ -637,12 +659,12 @@ function Chart({
   startLabel: string;
   view: "split" | "time";
   setView: (v: "split" | "time") => void;
-  /** No months to save: the whole amount is due today, so there is nothing to draw over time. */
-  dueNow: boolean;
+  /** A headline that replaces the comparison when there is nothing to compare (fees due today, or nothing more needed). */
+  still: string | null;
 }) {
   const { saving, investing } = bars;
   const r = pct(bars.rate);
-  const canTime = Boolean(saving && other && !bars.sameMoney && !dueNow);
+  const canTime = Boolean(saving && other && !bars.sameMoney && !still);
   const showTime = view === "time" && canTime;
   const headline = !saving ? (
     <>
@@ -692,7 +714,7 @@ function Chart({
         )}
       </div>
       <p className="mt-2 text-[15px] font-semibold leading-snug text-balance">
-        {dueNow ? <>Fees are due now, so there is no time for interest to build: the whole {sgd(investing.paidIn)} is your own money.</> : headline}
+        {still ?? headline}
       </p>
       {showTime ? (
         <OverTime saving={other!} investing={mine} today={today} startMonth={startMonth} startLabel={startLabel} rate={r} gap={saving!.paidIn - investing.paidIn} />
