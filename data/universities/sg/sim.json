@@ -4845,7 +4845,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition at SIM for a University of Wollongong degree, including GST; international students pay more. Credit exemptions shorten the course and lower the total.",
-      "notes": "Page states full programme fees (no credit exemption, 23 modules payable over 12 terms, standard entry 3 years full-time): international S$41,638.00, Singaporeans & PRs S$38,847.60, GST-inclusive. Annual = total / 3 (S$13,879.33 international, S$12,949.20 local). Per-module rates: local academics S$1,422.45 (intl) / S$1,248.05 (local); UOW academics S$2,359.85; Final Year Project S$4,719.70. Exemption routes: 0.5/1/1.5 years exemption cost S$35,948.20/S$30,258.40/S$24,568.60 (intl) and S$33,855.40/S$28,863.20/S$23,871.00 (local). Page says fees are 'valid for the intake for the current application'; applications open on the page are for the January 2027 and April 2027 intakes, so feeYear 2026. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. History: Common Crawl capture 2025-12-15 (April 2026 intake, feeYear 2025) states S$40,809.60 intl / S$38,088.96 local (annual /3), induction fee S$436. No earlier capture of this URL. 2024: the programme was SIM's Bachelor of Computer Science (Big Data) until 2025, when the major was renamed Artificial Intelligence and Big Data (the March 2025 capture of the old page already describes it as 'Artificial Intelligence and Big Data'; the old URL was later marked discontinued). The old page has the same structure (23 modules payable over 12 terms, standard entry 3 years). Common Crawl capture 2024-11-13 of bachelor-of-computer-science-big-data, advertising the Apr 2025 intake (feeYear 2024) with 'Fees quoted are valid for the intake for the current application', states full programme fees S$39,240.00 international / S$36,624.00 Singaporeans & PRs (annual /3 = S$13,080 / S$12,208), induction fee S$436; the 2024-06-20 and 2024-08-04 captures (Oct 2024 intake) show the same totals. Captures 2025-03-25 and 2025-07-16 (Jul and Oct 2025 intakes) also show S$39,240.00 / S$36,624.00; the 2025 rows use the later Apr 2026 intake figure from the current page, matching how the current figure is dated. Second look 2026-10-14: SIM's one-time Student Development Fee (S$730.30, 'applicable to all students embarking on a full-time ... programme at SIM', collected with the first instalment) was left out of oneOffFees; added to the citizen and PR tiers and to the international tier on top of the S$588.60 International Student Induction Fee, from the Mandatory Fees block of https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data (read 2026-10-14). History rows are unchanged unless their source states that year's amount.",
+      "notes": "Page states full programme fees (no credit exemption, 23 modules payable over 12 terms, standard entry 3 years full-time): international S$41,638.00, Singaporeans & PRs S$38,847.60, GST-inclusive. Annual = total / 3 (S$13,879.33 international, S$12,949.20 local). Per-module rates: local academics S$1,422.45 (intl) / S$1,248.05 (local); UOW academics S$2,359.85; Final Year Project S$4,719.70. Exemption routes: 0.5/1/1.5 years exemption cost S$35,948.20/S$30,258.40/S$24,568.60 (intl) and S$33,855.40/S$28,863.20/S$23,871.00 (local). Page says fees are 'valid for the intake for the current application'; applications open on the page are for the January 2027 and April 2027 intakes, so feeYear 2026. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. History: Common Crawl capture 2025-12-15 (April 2026 intake, feeYear 2025) states S$40,809.60 intl / S$38,088.96 local (annual /3), induction fee S$436. No earlier capture of this URL. 2024: the programme was SIM's Bachelor of Computer Science (Big Data) until 2025, when the major was renamed Artificial Intelligence and Big Data (the March 2025 capture of the old page already describes it as 'Artificial Intelligence and Big Data'; the old URL was later marked discontinued). The old page has the same structure (23 modules payable over 12 terms, standard entry 3 years). Common Crawl capture 2024-11-13 of bachelor-of-computer-science-big-data, advertising the Apr 2025 intake (feeYear 2024) with 'Fees quoted are valid for the intake for the current application', states full programme fees S$39,240.00 international / S$36,624.00 Singaporeans & PRs (annual /3 = S$13,080 / S$12,208), induction fee S$436; the 2024-06-20 and 2024-08-04 captures (Oct 2024 intake) show the same totals. Captures 2025-03-25 and 2025-07-16 (Jul and Oct 2025 intakes) also show S$39,240.00 / S$36,624.00; the 2025 rows use the later Apr 2026 intake figure from the current page, matching how the current figure is dated. Second look 2026-10-14: SIM's one-time Student Development Fee (S$730.30, 'applicable to all students embarking on a full-time ... programme at SIM', collected with the first instalment) was left out of oneOffFees; added to the citizen and PR tiers and to the international tier on top of the S$588.60 International Student Induction Fee, from the Mandatory Fees block of https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data (read 2026-10-14). History rows are unchanged unless their source states that year's amount. Fix 2026-10-15: the 2024 rows' sourceUrl (SIM's former Bachelor of Computer Science (Big Data) page, now 404) is replaced by the Common Crawl index entry for that page; its capture of 2024-11-13 (CC-MAIN-2024-46, WARC crawl-data/CC-MAIN-2024-46/segments/1730477028303.91/warc/CC-MAIN-20241113004258-20241113034258-00722.warc.gz, offset 900060704, length 28776), re-read on 2026-10-15, advertises the Apr 2025 intake and states full programme fees (23 modules over 12 terms) S$39,240.00 international / S$36,624.00 Singaporeans & PRs, induction fee S$436; figures unchanged.",
       "feeHistory": [
         {
           "feeYear": 2025,
@@ -4873,21 +4873,21 @@
           "tier": "citizen",
           "annualTuition": 12208,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-46-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-computer-science-big-data&output=json"
         },
         {
           "feeYear": 2024,
           "tier": "pr",
           "annualTuition": 12208,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-46-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-computer-science-big-data&output=json"
         },
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 13080,
           "oneOffFees": 436,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-big-data"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-46-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-computer-science-big-data&output=json"
         }
       ]
     },
@@ -5759,7 +5759,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Tuition at SIM for a one-year RMIT graphic design top-up degree, including GST; international students pay more. Students also pay their own costs for a study tour to Melbourne.",
-      "notes": "Page states 144 credit points (12 months, payable over 4 terms): Singaporeans & PRs S$24,799.68, international S$28,095.84, based on S$172.22 (local) / S$195.11 (international) per credit point, GST-inclusive; full-time 1 year so annual = total. All Melbourne Study Tour expenses are borne by students. Fees are valid for Jul 2027 intake only, so feeYear 2027. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. History: no 2024 or 2025 capture found (the only Common Crawl capture, 2025-12-15, states fees 'valid for Jul 2026 intake only': S$24,328.80 local / S$27,624.96 intl at S$168.95 / S$191.84 per credit point, induction fee S$436; recorded as a feeYear 2026 row). 2024 and 2025 rows come from the predecessor SIM page Bachelor of Design (Communication Design) (Top-up), RMIT University (slug bachelor-of-design-communication-design-top-up). It is the same degree renamed: RMIT renamed its Bachelor of Design (Communication Design) (BP115) as the Bachelor of Graphic Design; the SIM page said in Sept 2025 'This programme has undergone some changes... register for your interest in the new programme', went 404 by Dec 2025 when the Graphic Design page appeared, and both are 144-credit-point, 1-year full-time RMIT top-ups with a Melbourne study tour, and the Graphic Design page carried over the same per-credit rates (S$168.95 / S$191.84). Common Crawl captures 2024-07-14 and 2024-10-13: 'Fees are valid for Jul 2024 intake only', S$24,014.88 local / S$26,683.20 international (S$166.77 / S$185.30 per credit point x 144), induction fee S$436. Captures 2025-03-25, 2025-06-21 and 2025-09-12: 'valid for Jul 2025 intake only', S$24,328.80 / S$27,624.96 (S$168.95 / S$191.84 per credit point), induction fee S$436. Annual = total / 1. Second look 2026-10-14: SIM's one-time Student Development Fee (S$730.30, 'applicable to all students embarking on a full-time ... programme at SIM', collected with the first instalment) was left out of oneOffFees; added to the citizen and PR tiers and to the international tier on top of the S$588.60 International Student Induction Fee, from the Mandatory Fees block of https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-graphic-design-top-up (read 2026-10-14). History rows are unchanged unless their source states that year's amount.",
+      "notes": "Page states 144 credit points (12 months, payable over 4 terms): Singaporeans & PRs S$24,799.68, international S$28,095.84, based on S$172.22 (local) / S$195.11 (international) per credit point, GST-inclusive; full-time 1 year so annual = total. All Melbourne Study Tour expenses are borne by students. Fees are valid for Jul 2027 intake only, so feeYear 2027. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. History: no 2024 or 2025 capture found (the only Common Crawl capture, 2025-12-15, states fees 'valid for Jul 2026 intake only': S$24,328.80 local / S$27,624.96 intl at S$168.95 / S$191.84 per credit point, induction fee S$436; recorded as a feeYear 2026 row). 2024 and 2025 rows come from the predecessor SIM page Bachelor of Design (Communication Design) (Top-up), RMIT University (slug bachelor-of-design-communication-design-top-up). It is the same degree renamed: RMIT renamed its Bachelor of Design (Communication Design) (BP115) as the Bachelor of Graphic Design; the SIM page said in Sept 2025 'This programme has undergone some changes... register for your interest in the new programme', went 404 by Dec 2025 when the Graphic Design page appeared, and both are 144-credit-point, 1-year full-time RMIT top-ups with a Melbourne study tour, and the Graphic Design page carried over the same per-credit rates (S$168.95 / S$191.84). Common Crawl captures 2024-07-14 and 2024-10-13: 'Fees are valid for Jul 2024 intake only', S$24,014.88 local / S$26,683.20 international (S$166.77 / S$185.30 per credit point x 144), induction fee S$436. Captures 2025-03-25, 2025-06-21 and 2025-09-12: 'valid for Jul 2025 intake only', S$24,328.80 / S$27,624.96 (S$168.95 / S$191.84 per credit point), induction fee S$436. Annual = total / 1. Second look 2026-10-14: SIM's one-time Student Development Fee (S$730.30, 'applicable to all students embarking on a full-time ... programme at SIM', collected with the first instalment) was left out of oneOffFees; added to the citizen and PR tiers and to the international tier on top of the S$588.60 International Student Induction Fee, from the Mandatory Fees block of https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-graphic-design-top-up (read 2026-10-14). History rows are unchanged unless their source states that year's amount. Fix 2026-10-15: the 2024 rows' sourceUrl (SIM's former Bachelor of Design (Communication Design) (Top-up) page, now 404) is replaced by the Common Crawl index entry for that page; its capture of 2024-07-14 (CC-MAIN-2024-30, WARC crawl-data/CC-MAIN-2024-30/segments/1720763514564.41/warc/CC-MAIN-20240714094004-20240714124004-00216.warc.gz, offset 858980940, length 29273), re-read on 2026-10-15, states 'Fees are valid for Jul 2024 intake only', 144 credit points S$24,014.88 Singaporeans & PRs / S$26,683.20 international, induction fee S$436; figures unchanged. Fix 2026-10-15: the 2025 rows' sourceUrl (same former page) is replaced by the Common Crawl index entry for the page; its capture of 2025-03-25 (CC-MAIN-2025-13, WARC crawl-data/CC-MAIN-2025-13/segments/1742004434056.15/warc/CC-MAIN-20250325104902-20250325134902-00116.warc.gz, offset 939796248, length 30047), re-read on 2026-10-15, states 'Fees are valid for Jul 2025 intake only', S$24,328.80 Singaporeans & PRs / S$27,624.96 international, induction fee S$436; figures unchanged.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -5787,42 +5787,42 @@
           "tier": "citizen",
           "annualTuition": 24328.8,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-design-communication-design-top-up"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-13-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-design-communication-design-top-up&output=json"
         },
         {
           "feeYear": 2025,
           "tier": "pr",
           "annualTuition": 24328.8,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-design-communication-design-top-up"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-13-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-design-communication-design-top-up&output=json"
         },
         {
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 27624.96,
           "oneOffFees": 436.0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-design-communication-design-top-up"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-13-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-design-communication-design-top-up&output=json"
         },
         {
           "feeYear": 2024,
           "tier": "citizen",
           "annualTuition": 24014.88,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-design-communication-design-top-up"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-30-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-design-communication-design-top-up&output=json"
         },
         {
           "feeYear": 2024,
           "tier": "pr",
           "annualTuition": 24014.88,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-design-communication-design-top-up"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-30-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-design-communication-design-top-up&output=json"
         },
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 26683.2,
           "oneOffFees": 436.0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-design-communication-design-top-up"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-30-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-design-communication-design-top-up&output=json"
         }
       ]
     },
@@ -5855,7 +5855,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Yearly tuition at SIM for an RMIT communication degree taken over two years, including GST; international students pay more. Diploma holders can finish sooner and pay less.",
-      "notes": "Page states fees for Category A (288 credit points in 24 months, full-time): Singaporeans & PRs S$49,599.36, international S$56,505.60, based on S$172.22 (local) / S$196.20 (international) per credit point, GST-inclusive; annual = total / 2 (S$24,799.68 local, S$28,252.80 intl). Category B (240 credit points, 20 months) S$41,332.80 / S$47,088.00; Category C (144 credit points, 12 months) S$24,799.68 / S$28,252.80. Fees are valid for July-November 2027 intakes only, so feeYear 2027. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. History: 2024 from the predecessor page 'Bachelor of Communication (Professional Communication)' (old URL bachelor-of-communication-professional-communication): Common Crawl captures 2024-05-22 ('valid for Jul 2024 intake') and 2024-08-04 ('valid for Nov 2024 intake'), feeYear 2024, state 288 credit points in 24 months S$48,029.76 local / S$53,366.40 intl (S$166.77 / S$185.30 per credit point). 2025: captures 2025-03-15, 2025-06-21 and 2025-09-15 ('valid for Jul 2025 intake only', feeYear 2025) state S$48,657.60 / S$55,249.92 (S$168.95 / S$191.84 per credit point). Annual /2; induction fee S$436. 2026: Common Crawl captures 2026-01-23 and 2026-06-06 of the current URL ('Fees are valid for Jul 2026 intake only', feeYear 2026) state Category A S$48,657.60 local / S$55,249.92 international (S$168.95 / S$191.84 per credit point, unchanged from 2025); annual /2; induction fee S$436. Second look 2026-10-14: SIM's one-time Student Development Fee (S$730.30, 'applicable to all students embarking on a full-time ... programme at SIM', collected with the first instalment) was left out of oneOffFees; added to the citizen and PR tiers and to the international tier on top of the S$588.60 International Student Induction Fee, from the Mandatory Fees block of https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-professional-communication (read 2026-10-14). History rows are unchanged unless their source states that year's amount.",
+      "notes": "Page states fees for Category A (288 credit points in 24 months, full-time): Singaporeans & PRs S$49,599.36, international S$56,505.60, based on S$172.22 (local) / S$196.20 (international) per credit point, GST-inclusive; annual = total / 2 (S$24,799.68 local, S$28,252.80 intl). Category B (240 credit points, 20 months) S$41,332.80 / S$47,088.00; Category C (144 credit points, 12 months) S$24,799.68 / S$28,252.80. Fees are valid for July-November 2027 intakes only, so feeYear 2027. International Student Induction Fee S$588.60 (one-time, international only). SIM also charges all new full-time undergraduates a one-time Student Development Fee of S$730.30 (not included here, as the brief limits oneOffFees to the induction fee). No cohort fee lock stated. History: 2024 from the predecessor page 'Bachelor of Communication (Professional Communication)' (old URL bachelor-of-communication-professional-communication): Common Crawl captures 2024-05-22 ('valid for Jul 2024 intake') and 2024-08-04 ('valid for Nov 2024 intake'), feeYear 2024, state 288 credit points in 24 months S$48,029.76 local / S$53,366.40 intl (S$166.77 / S$185.30 per credit point). 2025: captures 2025-03-15, 2025-06-21 and 2025-09-15 ('valid for Jul 2025 intake only', feeYear 2025) state S$48,657.60 / S$55,249.92 (S$168.95 / S$191.84 per credit point). Annual /2; induction fee S$436. 2026: Common Crawl captures 2026-01-23 and 2026-06-06 of the current URL ('Fees are valid for Jul 2026 intake only', feeYear 2026) state Category A S$48,657.60 local / S$55,249.92 international (S$168.95 / S$191.84 per credit point, unchanged from 2025); annual /2; induction fee S$436. Second look 2026-10-14: SIM's one-time Student Development Fee (S$730.30, 'applicable to all students embarking on a full-time ... programme at SIM', collected with the first instalment) was left out of oneOffFees; added to the citizen and PR tiers and to the international tier on top of the S$588.60 International Student Induction Fee, from the Mandatory Fees block of https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-professional-communication (read 2026-10-14). History rows are unchanged unless their source states that year's amount. Fix 2026-10-15: the 2024 rows' sourceUrl (SIM's former Bachelor of Communication (Professional Communication) page, now 404) is replaced by the Common Crawl index entry for that page; its capture of 2024-08-04 (CC-MAIN-2024-33, WARC crawl-data/CC-MAIN-2024-33/segments/1722640389685.8/warc/CC-MAIN-20240804041019-20240804071019-00079.warc.gz, offset 787673584, length 28537), re-read on 2026-10-15, states 'Fees are valid for Nov 2024 intake only', Category A (288 credit points in 24 months) S$48,029.76 Singaporeans & PRs / S$53,366.40 international; figures unchanged.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -5904,21 +5904,21 @@
           "tier": "citizen",
           "annualTuition": 24014.88,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-communication-professional-communication"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-33-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-communication-professional-communication&output=json"
         },
         {
           "feeYear": 2024,
           "tier": "pr",
           "annualTuition": 24014.88,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-communication-professional-communication"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-33-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-communication-professional-communication&output=json"
         },
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 26683.2,
           "oneOffFees": 436,
-          "sourceUrl": "https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-communication-professional-communication"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-33-index?url=https%3A%2F%2Fwww.sim.edu.sg%2Fdegrees-diplomas%2Fprogrammes%2Fprogramme-listing%2Fbachelor-of-communication-professional-communication&output=json"
         }
       ]
     },

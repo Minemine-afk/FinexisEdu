@@ -337,7 +337,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international (student-visa) students entering the 2-year master's from April 2027, up from ¥535,800. The one-off ¥282,000 is the admission fee. Taught in English or Japanese.",
-      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide.",
+      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide. Fix 2026-10-15: the 2024 row's sourceUrl (the Graduate School of Arts and Letters IGSAL October 2024 guidelines PDF, now 404 on sal.tohoku.ac.jp and never captured by Common Crawl) is replaced by the Common Crawl index entry for Tohoku University's own Japanese tuition page 入学料及び授業料等納付額・納付方法 (https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/04/studentlife0401/); its capture of 2024-04-20 (CC-MAIN-2024-18, WARC crawl-data/CC-MAIN-2024-18/segments/1712296817688.24/warc/CC-MAIN-20240420214757-20240421004757-00574.warc.gz, offset 941303925, length 11190), read on 2026-10-15, lists 入学料 282,000円 and 授業料 年額 535,800円 (半期 267,900円) for undergraduate and graduate students, i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -345,7 +345,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sal.tohoku.ac.jp/media/files/4_IGSAL_yoko_2025E(2).pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-18-index?url=https%3A%2F%2Fwww.tohoku.ac.jp%2Fjapanese%2Fstudentinfo%2Fstudentlife%2F04%2Fstudentlife0401%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -383,7 +383,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international (student-visa) students entering the 2-year master's from April 2027, up from ¥535,800. The one-off ¥282,000 is the admission fee. Taught in English or Japanese.",
-      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide.",
+      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide. Fix 2026-10-15: the 2024 row's sourceUrl (the Graduate School of Arts and Letters IGSAL October 2024 guidelines PDF, now 404 on sal.tohoku.ac.jp and never captured by Common Crawl) is replaced by the Common Crawl index entry for Tohoku University's own Japanese tuition page 入学料及び授業料等納付額・納付方法 (https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/04/studentlife0401/); its capture of 2024-04-20 (CC-MAIN-2024-18, WARC crawl-data/CC-MAIN-2024-18/segments/1712296817688.24/warc/CC-MAIN-20240420214757-20240421004757-00574.warc.gz, offset 941303925, length 11190), read on 2026-10-15, lists 入学料 282,000円 and 授業料 年額 535,800円 (半期 267,900円) for undergraduate and graduate students, i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -391,7 +391,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sal.tohoku.ac.jp/media/files/4_IGSAL_yoko_2025E(2).pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-18-index?url=https%3A%2F%2Fwww.tohoku.ac.jp%2Fjapanese%2Fstudentinfo%2Fstudentlife%2F04%2Fstudentlife0401%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -429,7 +429,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international (student-visa) students entering the 2-year master's from April 2027, up from ¥535,800. The one-off ¥282,000 is the admission fee. Taught in English or Japanese.",
-      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide.",
+      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide. Fix 2026-10-15: the 2024 row's sourceUrl (the Graduate School of Arts and Letters IGSAL October 2024 guidelines PDF, now 404 on sal.tohoku.ac.jp and never captured by Common Crawl) is replaced by the Common Crawl index entry for Tohoku University's own Japanese tuition page 入学料及び授業料等納付額・納付方法 (https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/04/studentlife0401/); its capture of 2024-04-20 (CC-MAIN-2024-18, WARC crawl-data/CC-MAIN-2024-18/segments/1712296817688.24/warc/CC-MAIN-20240420214757-20240421004757-00574.warc.gz, offset 941303925, length 11190), read on 2026-10-15, lists 入学料 282,000円 and 授業料 年額 535,800円 (半期 267,900円) for undergraduate and graduate students, i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -437,7 +437,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sal.tohoku.ac.jp/media/files/4_IGSAL_yoko_2025E(2).pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-18-index?url=https%3A%2F%2Fwww.tohoku.ac.jp%2Fjapanese%2Fstudentinfo%2Fstudentlife%2F04%2Fstudentlife0401%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -475,7 +475,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international (student-visa) students entering the 2-year master's from April 2027, up from ¥535,800. The one-off ¥282,000 is the admission fee. Taught in English or Japanese.",
-      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide.",
+      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide. Fix 2026-10-15: the 2024 row's sourceUrl (the Graduate School of Arts and Letters IGSAL October 2024 guidelines PDF, now 404 on sal.tohoku.ac.jp and never captured by Common Crawl) is replaced by the Common Crawl index entry for Tohoku University's own Japanese tuition page 入学料及び授業料等納付額・納付方法 (https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/04/studentlife0401/); its capture of 2024-04-20 (CC-MAIN-2024-18, WARC crawl-data/CC-MAIN-2024-18/segments/1712296817688.24/warc/CC-MAIN-20240420214757-20240421004757-00574.warc.gz, offset 941303925, length 11190), read on 2026-10-15, lists 入学料 282,000円 and 授業料 年額 535,800円 (半期 267,900円) for undergraduate and graduate students, i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -483,7 +483,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sal.tohoku.ac.jp/media/files/4_IGSAL_yoko_2025E(2).pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-18-index?url=https%3A%2F%2Fwww.tohoku.ac.jp%2Fjapanese%2Fstudentinfo%2Fstudentlife%2F04%2Fstudentlife0401%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -521,7 +521,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international (student-visa) students entering the 2-year master's from April 2027, up from ¥535,800. The one-off ¥282,000 is the admission fee. Taught in Japanese.",
-      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide.",
+      "notes": "Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide. Fix 2026-10-15: the 2024 row's sourceUrl (the Graduate School of Arts and Letters IGSAL October 2024 guidelines PDF, now 404 on sal.tohoku.ac.jp and never captured by Common Crawl) is replaced by the Common Crawl index entry for Tohoku University's own Japanese tuition page 入学料及び授業料等納付額・納付方法 (https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/04/studentlife0401/); its capture of 2024-04-20 (CC-MAIN-2024-18, WARC crawl-data/CC-MAIN-2024-18/segments/1712296817688.24/warc/CC-MAIN-20240420214757-20240421004757-00574.warc.gz, offset 941303925, length 11190), read on 2026-10-15, lists 入学料 282,000円 and 授業料 年額 535,800円 (半期 267,900円) for undergraduate and graduate students, i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -529,7 +529,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sal.tohoku.ac.jp/media/files/4_IGSAL_yoko_2025E(2).pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-18-index?url=https%3A%2F%2Fwww.tohoku.ac.jp%2Fjapanese%2Fstudentinfo%2Fstudentlife%2F04%2Fstudentlife0401%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -567,7 +567,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "summary": "Annual tuition for international (student-visa) students entering the 2-year master's from April 2027, up from ¥535,800. The one-off ¥282,000 is the admission fee. Taught in Japanese.",
-      "notes": "Research master's, not the professional Law School. Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide.",
+      "notes": "Research master's, not the professional Law School. Tohoku University Guide 2026-2027 leaflet (June 2026): from April 2027, tuition for new undergraduate and master's students who need a student visa ('international students') is ¥900,000 a year, against ¥535,800 for domestic students; admission fee ¥282,000 for both; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. Students enrolled through 2026 keep ¥535,800 for the standard duration of their programme, recorded as the 2026 history row. Not marked cohort-locked because the leaflet does not say the new rate is fixed for 2027 entrants. 2024 and 2025 rows (2026-10-13, official): Tohoku Graduate School of Arts and Letters international guidelines (October 2024) list matriculation fee JPY 282,000 and tuition JPY 535,800 per year 'as of 2024'; the Graduate School of Education 令和7年度 master's guidelines for international students list 入学料 282,000円 and 授業料 年額 535,800円 (予定額); standard graduate rate applies university-wide. Fix 2026-10-15: the 2024 row's sourceUrl (the Graduate School of Arts and Letters IGSAL October 2024 guidelines PDF, now 404 on sal.tohoku.ac.jp and never captured by Common Crawl) is replaced by the Common Crawl index entry for Tohoku University's own Japanese tuition page 入学料及び授業料等納付額・納付方法 (https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/04/studentlife0401/); its capture of 2024-04-20 (CC-MAIN-2024-18, WARC crawl-data/CC-MAIN-2024-18/segments/1712296817688.24/warc/CC-MAIN-20240420214757-20240421004757-00574.warc.gz, offset 941303925, length 11190), read on 2026-10-15, lists 入学料 282,000円 and 授業料 年額 535,800円 (半期 267,900円) for undergraduate and graduate students, i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -575,7 +575,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sal.tohoku.ac.jp/media/files/4_IGSAL_yoko_2025E(2).pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-18-index?url=https%3A%2F%2Fwww.tohoku.ac.jp%2Fjapanese%2Fstudentinfo%2Fstudentlife%2F04%2Fstudentlife0401%2F&output=json"
         },
         {
           "feeYear": 2025,

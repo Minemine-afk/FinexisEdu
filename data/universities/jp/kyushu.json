@@ -335,7 +335,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in Japanese.",
-      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2025 row (2026-10-13, unofficial): JPSS (Japan Study Support) Kyushu University page (Medicine row, which lists Health Sciences (Nursing)) states admission fee 282,000 yen and tuition 535,800 yen a year 'for the 2025 school year' (page last updated 17 Jul 2025). 2024 still unfilled (2026-10-13): no dated 2024 undergraduate fee source found (JPSS shows only its latest year; NIAD-QE jpcup fee data is dated 1 Oct 2023; the 令和6年度 privately-financed international student guidelines PDF was not locatable). 2024 row (2026-10-13, rung 1): a nursing-school listing published on the Fukuoka Prefectural Government site gives, under '九州大学医学部保健学科・看護学専攻', '令和6年4月1日現在 入学料：282,000円 授業料：（年額）535,800円' (as at 1 April 2024, i.e. AY2024); the Japan Times university guide (https://info.japantimes.co.jp/japanese-university-guide/kyushu-u) also gives ¥282,000 admission and ¥535,800 tuition 'as of 2024'.",
+      "notes": "Japanese-taught; international applicants use the privately-financed international student entrance examination. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2025 row (2026-10-13, unofficial): JPSS (Japan Study Support) Kyushu University page (Medicine row, which lists Health Sciences (Nursing)) states admission fee 282,000 yen and tuition 535,800 yen a year 'for the 2025 school year' (page last updated 17 Jul 2025). 2024 still unfilled (2026-10-13): no dated 2024 undergraduate fee source found (JPSS shows only its latest year; NIAD-QE jpcup fee data is dated 1 Oct 2023; the 令和6年度 privately-financed international student guidelines PDF was not locatable). 2024 row (2026-10-13, rung 1): a nursing-school listing published on the Fukuoka Prefectural Government site gives, under '九州大学医学部保健学科・看護学専攻', '令和6年4月1日現在 入学料：282,000円 授業料：（年額）535,800円' (as at 1 April 2024, i.e. AY2024); the Japan Times university guide (https://info.japantimes.co.jp/japanese-university-guide/kyushu-u) also gives ¥282,000 admission and ¥535,800 tuition 'as of 2024'. Fix 2026-10-15: the 2024 row's sourceUrl (the Fukuoka Prefecture nursing-school PDF, now 404; its only Common Crawl capture, 2024-08-07, is truncated at 1 MB and unreadable) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2024-10-10 (CC-MAIN-2024-42, WARC crawl-data/CC-MAIN-2024-42/segments/1727944253693.30/warc/CC-MAIN-20241010155548-20241010185548-00560.warc.gz, offset 743411587, length 10313), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard rate, same as the prefectural listing gave).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -343,7 +343,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.pref.fukuoka.lg.jp/uploaded/life/728688_62140556_misc.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-42-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -374,7 +374,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme.",
+      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme. Fix 2026-10-15: the 2024 row's sourceUrl (Graduate School of Science 2024 admission-guidelines PDF, now 404 and never captured by Common Crawl) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2024-10-10 (CC-MAIN-2024-42, WARC crawl-data/CC-MAIN-2024-42/segments/1727944253693.30/warc/CC-MAIN-20241010155548-20241010185548-00560.warc.gz, offset 743411587, length 10313), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard graduate rate). Fix 2026-10-15: the 2025 row's sourceUrl (Graduate School of Science 2025 admission-guidelines PDF, now 404; Common Crawl's only capture, June 2025, is already a 404) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2025-07-09 (CC-MAIN-2025-30, WARC crawl-data/CC-MAIN-2025-30/segments/1751905933702.70/warc/CC-MAIN-20250709082701-20250709112701-00260.warc.gz, offset 758014314, length 10334), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2025; figure unchanged (the university-wide standard graduate rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -382,7 +382,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2024_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-42-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -390,7 +390,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2025_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-30-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         }
       ]
     },
@@ -412,7 +412,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme.",
+      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme. Fix 2026-10-15: the 2024 row's sourceUrl (Graduate School of Science 2024 admission-guidelines PDF, now 404 and never captured by Common Crawl) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2024-10-10 (CC-MAIN-2024-42, WARC crawl-data/CC-MAIN-2024-42/segments/1727944253693.30/warc/CC-MAIN-20241010155548-20241010185548-00560.warc.gz, offset 743411587, length 10313), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard graduate rate). Fix 2026-10-15: the 2025 row's sourceUrl (Graduate School of Science 2025 admission-guidelines PDF, now 404; Common Crawl's only capture, June 2025, is already a 404) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2025-07-09 (CC-MAIN-2025-30, WARC crawl-data/CC-MAIN-2025-30/segments/1751905933702.70/warc/CC-MAIN-20250709082701-20250709112701-00260.warc.gz, offset 758014314, length 10334), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2025; figure unchanged (the university-wide standard graduate rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -420,7 +420,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2024_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-42-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -428,7 +428,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2025_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-30-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         }
       ]
     },
@@ -450,7 +450,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme.",
+      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme. Fix 2026-10-15: the 2024 row's sourceUrl (Graduate School of Science 2024 admission-guidelines PDF, now 404 and never captured by Common Crawl) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2024-10-10 (CC-MAIN-2024-42, WARC crawl-data/CC-MAIN-2024-42/segments/1727944253693.30/warc/CC-MAIN-20241010155548-20241010185548-00560.warc.gz, offset 743411587, length 10313), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard graduate rate). Fix 2026-10-15: the 2025 row's sourceUrl (Graduate School of Science 2025 admission-guidelines PDF, now 404; Common Crawl's only capture, June 2025, is already a 404) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2025-07-09 (CC-MAIN-2025-30, WARC crawl-data/CC-MAIN-2025-30/segments/1751905933702.70/warc/CC-MAIN-20250709082701-20250709112701-00260.warc.gz, offset 758014314, length 10334), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2025; figure unchanged (the university-wide standard graduate rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -458,7 +458,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2024_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-42-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -466,7 +466,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2025_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-30-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         }
       ]
     },
@@ -488,7 +488,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme.",
+      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme. Fix 2026-10-15: the 2024 row's sourceUrl (Graduate School of Science 2024 admission-guidelines PDF, now 404 and never captured by Common Crawl) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2024-10-10 (CC-MAIN-2024-42, WARC crawl-data/CC-MAIN-2024-42/segments/1727944253693.30/warc/CC-MAIN-20241010155548-20241010185548-00560.warc.gz, offset 743411587, length 10313), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard graduate rate). Fix 2026-10-15: the 2025 row's sourceUrl (Graduate School of Science 2025 admission-guidelines PDF, now 404; Common Crawl's only capture, June 2025, is already a 404) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2025-07-09 (CC-MAIN-2025-30, WARC crawl-data/CC-MAIN-2025-30/segments/1751905933702.70/warc/CC-MAIN-20250709082701-20250709112701-00260.warc.gz, offset 758014314, length 10334), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2025; figure unchanged (the university-wide standard graduate rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -496,7 +496,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2024_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-42-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -504,7 +504,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2025_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-30-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         }
       ]
     },
@@ -526,7 +526,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme.",
+      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme. Fix 2026-10-15: the 2024 row's sourceUrl (Graduate School of Science 2024 admission-guidelines PDF, now 404 and never captured by Common Crawl) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2024-10-10 (CC-MAIN-2024-42, WARC crawl-data/CC-MAIN-2024-42/segments/1727944253693.30/warc/CC-MAIN-20241010155548-20241010185548-00560.warc.gz, offset 743411587, length 10313), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard graduate rate). Fix 2026-10-15: the 2025 row's sourceUrl (Graduate School of Science 2025 admission-guidelines PDF, now 404; Common Crawl's only capture, June 2025, is already a 404) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2025-07-09 (CC-MAIN-2025-30, WARC crawl-data/CC-MAIN-2025-30/segments/1751905933702.70/warc/CC-MAIN-20250709082701-20250709112701-00260.warc.gz, offset 758014314, length 10334), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2025; figure unchanged (the university-wide standard graduate rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -534,7 +534,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2024_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-42-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -542,7 +542,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2025_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-30-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         }
       ]
     },
@@ -564,7 +564,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Taught in English.",
-      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Standard graduate rate; the ¥804,000 professional graduate school rate applies to the Law School (JD), not this programme. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme.",
+      "notes": "English-taught programme listed on the International Student Center's degree programmes pages. Standard graduate rate; the ¥804,000 professional graduate school rate applies to the Law School (JD), not this programme. Kyushu University 'Expenses' page (data as of 1 April 2020, still the published schedule in October 2026): enrollment fee ¥282,000 and tuition ¥535,800/yr (¥267,900 per half year) for undergraduate and graduate school students alike; application fee (¥17,000 undergraduate / ¥30,000 graduate) excluded. National-university fees may be revised during enrolment, so not cohort-locked. Tried 2026-10-13: the Japanese Expenses page (/ja/admission/fees/expenses/) gives the same figures dated 令和8年4月1日現在 (1 April 2026) only; no dated 2024 or 2025 admissions guide reachable in that first pass. 2024 and 2025 rows (2026-10-13, official): Kyushu University Graduate School of Science master's admission guidelines for 令和6年度 (2024) and 令和7年度 (2025) entry each list 入学料 282,000円 and 授業料 年額 535,800円 (予定); the standard graduate rate applies university-wide, so used for this master's programme. Fix 2026-10-15: the 2024 row's sourceUrl (Graduate School of Science 2024 admission-guidelines PDF, now 404 and never captured by Common Crawl) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2024-10-10 (CC-MAIN-2024-42, WARC crawl-data/CC-MAIN-2024-42/segments/1727944253693.30/warc/CC-MAIN-20241010155548-20241010185548-00560.warc.gz, offset 743411587, length 10313), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2024; figure unchanged (the university-wide standard graduate rate). Fix 2026-10-15: the 2025 row's sourceUrl (Graduate School of Science 2025 admission-guidelines PDF, now 404; Common Crawl's only capture, June 2025, is already a 404) is replaced by the Common Crawl index entry for Kyushu University's own 'Expenses' page; its capture of 2025-07-09 (CC-MAIN-2025-30, WARC crawl-data/CC-MAIN-2025-30/segments/1751905933702.70/warc/CC-MAIN-20250709082701-20250709112701-00260.warc.gz, offset 758014314, length 10334), read on 2026-10-15, states 'Tuition Fees ... School / Graduate school 267,900 Yen (half-year) 535,800 Yen (annual)' and 'Enrollment Fees ... Graduate school 282,000 Yen' (As of April 1, 2020), i.e. the schedule in force for AY2025; figure unchanged (the university-wide standard graduate rate).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -572,7 +572,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2024_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2024-42-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         },
         {
           "feeYear": 2025,
@@ -580,7 +580,7 @@
           "annualTuition": 535800,
           "annualCompulsoryFees": 0,
           "oneOffFees": 282000,
-          "sourceUrl": "https://www.sci.kyushu-u.ac.jp/admission/pdf/2025_msyakaijin.pdf"
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-30-index?url=https%3A%2F%2Fwww.kyushu-u.ac.jp%2Fen%2Fadmission%2Ffees%2Fexpenses%2F&output=json"
         }
       ],
       "sgRecognition": {
