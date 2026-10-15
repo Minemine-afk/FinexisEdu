@@ -38,10 +38,12 @@ every scraped change goes through a pull request:
 
 ## Coverage (checked 8 Oct 2026)
 
-109 universities, 1,388 programmes: five to sixteen universities in each of the
+109 universities, 1,537 programmes: five to sixteen universities in each of the
 10 countries, plus SIM Global Education in Singapore, across nine fields (engineering,
 computing, business, sciences, arts and humanities, law, medicine, psychology,
-nursing). Psychology covers the main bachelor's and one taught master's at
+nursing). Business includes a dedicated accountancy degree (one bachelor's and one
+master's at most) wherever a university teaches one in English; where accounting is only
+a major inside a general commerce degree, that degree is listed once. Psychology covers the main bachelor's and one taught master's at
 every university that offers them (Imperial, SIT, TUM, ETH, EPFL and St. Gallen
 have none; most US universities and several others teach psychology master's
 only as research degrees, so they have the bachelor's only). MIT is listed with

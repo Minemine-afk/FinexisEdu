@@ -73,3 +73,8 @@ sources:
     url: https://www.wgtn.ac.nz/__data/assets/pdf_file/0006/2049180/money-matters.pdf
     parser: pdf
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: vuw
+    country: nz
+    url: "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-professional-accounting/overview"
+    manual: true

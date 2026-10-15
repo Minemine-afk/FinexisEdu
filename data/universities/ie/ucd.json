@@ -658,6 +658,46 @@
           "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Accounting & Financial Management (B714)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 23870,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, fixed at the entry-year rate. Includes the Student Centre levy; a EUR 5 union levy is extra.",
+      "notes": "UCD Registry non-EU graduate taught fee table for 2026/27, 'MSc Accounting & Financial Management FT(B714)', School of Business, Full Time, Per Year EUR 23,870; non-EU rate used because Singaporeans are international students. Published fee includes the Student Centre Levy; EUR 5 AMLE levy is charged on top (compulsory 5), same treatment as the file's MSc Management (Smurfit). History, same row on the 2025/26 and 2024/25 tables: 2025 EUR 23,170 (compulsory 5), 2024 EUR 22,600 (no AMLE levy that year, compulsory 0, as on the file's other UCD rows). UCD also teaches a MAcc (B008) which needs full CAP1 exemptions; B714 chosen as the more widely open accounting master's. 1 year full-time.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23170,
+          "annualCompulsoryFees": 5,
+          "oneOffFees": 0,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 22600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2024",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

@@ -606,6 +606,37 @@
           "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2024-2025"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Accounting",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18400,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for non-EU students, including the student levy. The course gives exemptions from Chartered Accountants Ireland and Irish Tax Institute exams.",
+      "notes": "UL postgraduate taught fees 2026/27, row 'Master of Science in Accounting', Non-EU fee EUR 18,400 (page says fees include the student levy of EUR 104, so compulsory 0 as for the file's MSc Business Analytics); non-EU used because Singaporeans pay it. 1 year full-time (UL course page ul.ie/study/postgraduate/accounting-msc). History: 2025/26 EUR 18,000 ('Master of Science In Accounting' on postgraduate-fees-2025-2026, levy EUR 102 included). 2024/25: the programme started in September 2024 but UL's 2024-2025 PG fee page does not list it (only a Professional Diploma in Accounting), so no 2024 row.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-fees-2025-2026",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

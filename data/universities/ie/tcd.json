@@ -613,6 +613,46 @@
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "M.Sc. Accounting and Analytics (PTBU-AAYT-1F)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 24000,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for non-EU students, plus student levies and charges of EUR 314. Trinity offers no undergraduate accounting degree; this master's gives professional exemptions.",
+      "notes": "Trinity Business School 'Masters in Accounting & Analytics' (PTBU-AAYT-1F), 1 year full-time, Non-EU Student Fee for 2026/27 EUR 24,000 on tcd.ie/courses/postgraduate/fees/ and on the programme fees page (business/programmes/masters-programmes/msc-in-accounting-and-analytics-/fees, Common Crawl copy of 9 Nov 2025); chose non-EU because Singaporeans pay it. Compulsory = Student Levies and Charges (SLC) for a full-time 1-year PG degree, EUR 314 in 2026/27 as on the file's M.Sc. Management. History: 2025/26 EUR 23,250 from the live PG fee table row '2025/26 Masters in Accounting & Analytics' (SLC EUR 311); an earlier Common Crawl copy of that table (17 Mar 2025) showed EUR 24,300 for 2025/26, the live table is used. 2024/25 EUR 23,250 from the programme fees page ('annual fees for the 2024/25 academic year ... Non-EU Students EUR 23,250', Common Crawl copy of 26 Mar 2025; SLC EUR 304). The PG fee table itself lists only a PG Diploma in Accounting for 2024/25. TCD has no undergraduate accounting degree (B.E.S.S. has no accounting stream).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 23250,
+          "annualCompulsoryFees": 311,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 23250,
+          "annualCompulsoryFees": 304,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/business/programmes/masters-programmes/msc-in-accounting-and-analytics-/fees/",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

@@ -613,6 +613,82 @@
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7601XMCPSY"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Accounting",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BACCT",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
+      "notes": "ANU program BACCT (CRICOS 079653K), 3 years full-time, 'Annual indicative fee for international students' A$56,120 on the 2026 program page (read 2026-10-15; the 2027 page shows A$57,640 but the file's convention is feeYear 2026). International tier chosen because Singaporeans are international students. History: the same program page for 2025 (A$53,700) and 2024 (A$48,035), each stating the annual indicative international fee. Compulsory = ANU Services and Amenities Fee: 2026 A$373, 2025 A$365, 2024 A$351 (same values and Common Crawl sources as the existing ANU records, anu.edu.au services-amenities-fee page).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48035,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/BACCT"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BACCT"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Accounting",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 56120,
+          "annualCompulsoryFees": 373,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/7414XMACCT",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more. Takes 2 years.",
+      "notes": "ANU program 7414XMACCT (CRICOS 050800J), 2 years full-time (96 units), 'Annual indicative fee for international students' A$56,120 on the 2026 program page (read 2026-10-15; the 2027 page shows A$57,640 but the file's convention is feeYear 2026). International tier chosen because Singaporeans are international students. History: the same program page for 2025 (A$53,700) and 2024 (A$48,035). Compulsory = ANU Services and Amenities Fee: 2026 A$373, 2025 A$365, 2024 A$351 (same values and Common Crawl sources as the existing ANU records, anu.edu.au services-amenities-fee page). Chosen over Master of Accounting (Advanced) (VACCT), which is a pathway to PhD study.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 48035,
+          "annualCompulsoryFees": 351,
+          "oneOffFees": 0,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2024/program/7414XMACCT"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53700,
+          "annualCompulsoryFees": 365,
+          "oneOffFees": 0,
+          "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7414XMACCT"
+        }
+      ]
     }
   ]
 }

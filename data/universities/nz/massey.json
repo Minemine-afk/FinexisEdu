@@ -437,6 +437,37 @@
           "sourceUrl": "https://web.archive.org/web/20250323174301/https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students/"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accountancy",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 43630,
+          "annualCompulsoryFees": 1236,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-professional-accountancy-PMPRC/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Estimated yearly tuition for full-time study (120 credits) for international students in 2027, including GST. The 180-credit degree takes 15 to 18 months. Student services fee included; insurance is extra.",
+      "notes": "Qualification page '2027 tuition fees ... International students: $43,630' (estimate for full-time study, 120 credits, incl. GST) and on-campus Student Services Fee $1,236 per 120 credits; 180 credits = 15-18 months so durationYears 1.5. Massey's own international fee table says to contact the Business School for MPAcc fees, so the qualification page is the only published figure. 2026 row: the same page as captured by Common Crawl on 2026-04-10 ('2026 tuition fees ... International students: $42,350', SSF $1,164). 2025 and 2024 not found: captures of this page from 2024-10 and 2025-08 show no fee figure, and the international tuition table (Wayback/CC capture 2025-03-23) excludes MPAcc.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 42350,
+          "annualCompulsoryFees": 1164,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-professional-accountancy-PMPRC/",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

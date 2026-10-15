@@ -80,3 +80,12 @@ sources:
     country: uk
     url: "https://www.bristol.ac.uk/students/support/finances/advice/set-up-finances/living-expenses/"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-accounting-and-finance/"
+    manual: true
+  - university: bristol
+    country: uk
+    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-accounting-and-finance/"
+    manual: true

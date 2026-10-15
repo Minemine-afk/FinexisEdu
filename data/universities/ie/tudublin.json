@@ -418,6 +418,86 @@
           "sourceUrl": "https://www.tudublin.ie/media/website/study/international-students/find-a-course/documents/International-Postgraduate-Brochure-2024.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc (Hons) Accounting (TU910)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tudublin.ie/media/website/study/international-students/fees--funding/documents/TU-Dublin-International-Undergraduate-Summary-Booklet.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for non-EU students on a degree that is 3 years, or 4 with an optional placement year. TU Dublin prices most undergraduate business degrees at the same rate.",
+      "notes": "TU Dublin 'International Undergraduate Programmes 2026/27' summary booklet, Level 8 table, 'Fee Per Year': 'TU910 Accounting, BSc Hons, 3/4 years, Aungier Street, 13,500'; international fee used because Singaporeans are non-EU. Duration shown as 3/4 years (3 plus an optional placement year); 3 used. No separate compulsory fee listed for non-EU students, so 0 as on the file's other TU Dublin rows. History: 2025 entry booklet (Hyperlinked-Digital-International-Undergraduate-Booklet-2025.pdf, Common Crawl copy of 15 Oct 2024) TU910 EUR 13,500; 2024 entry booklet (published January 2024, Common Crawl copy of 19 May 2024) TU910 EUR 13,500. TU Dublin also has TU933 Accounting & Finance (BBus Hons, 4 years, EUR 13,500); TU910 chosen as the more accounting-focused 3-year route.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tudublin.ie/media/website/study/international-students/Hyperlinked-Digital-International-Undergraduate-Booklet-2025.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tudublin.ie/media/website/study/international-students/find-a-course/documents/International-Undergraduate-Booklet-24-January-(Web).pdf",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MBS Accounting (International) (TU324)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.tudublin.ie/media/website/study/international-students/find-a-course/documents/International-Postgraduate-Booklet_Nov-26.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for non-EU students at TU Dublin's Aungier Street campus. A Postgraduate Diploma in Accounting also exists but is not a master's.",
+      "notes": "TU Dublin 'International Postgraduate Booklet' 2026/27 course table: 'TU324 Accounting (International), MBS, Sept 26, 1 year, Aungier Street, 13,500, IELTS 6.5'; no compulsory non-EU levy listed so 0, as on the file's MSc Finance row. History: Sept 2025 intake EUR 13,500 (Hyperlinked-Digital-brochure-International-Postgraduate-Booklet-2025.pdf, Common Crawl copy of 15 Oct 2024, table read visually because the PDF text layer is garbled); Sept 2024 intake EUR 13,500 (International-Postgraduate-Brochure-2024.pdf, Common Crawl copy of 18 Jun 2024).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tudublin.ie/media/website/study/international-students/Hyperlinked-Digital-brochure-International-Postgraduate-Booklet-2025.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 13500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tudublin.ie/media/website/study/international-students/find-a-course/documents/International-Postgraduate-Brochure-2024.pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

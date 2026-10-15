@@ -430,6 +430,74 @@
           "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc (Hons) Accounting and Finance",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16020,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. UEL may raise fees each year (capped at 5%), so later years could cost a little more.",
+      "notes": "UEL Fees Schedule 2026-27, section 1.2 International Students, full-time, 'All Schools' rate 16,020 (read 2026-10-15); International tier because Singaporeans are international students. History from the same section: 2025-26 schedule 15,560 and 2024-25 schedule 'All other Schools' rate 14,820 (Accounting and Finance sits in the Royal Docks School of Business and Law, so the all-other-Schools rate applies). 3-year full-time route (4 with placement, placement year 1,500). UEL's policy lets international fees rise each year (capped at 5% on its course pages), so cohortLocked false. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15560,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 14820,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Professional Accounting",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17220,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.uel.ac.uk/sites/default/files/uel-fees-schedule-2026-27.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "UEL Fees Schedule 2026-27, taught postgraduate table, row 'MSc Professional Accounting' (RDSBL), FT Int column: 17,220 (read 2026-10-15); International tier because Singaporeans are international students. History from the same row: 2025-26 schedule 16,740 and 2024-25 schedule 15,960. One year full-time; UEL says international fees may rise each year, so cohortLocked false. No separate compulsory fees. UEL has no MSc titled Accounting and Finance; this is its dedicated accounting master's.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16740,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---uel-fees-schedule-2025-26.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15960,
+          "sourceUrl": "https://www.uel.ac.uk/sites/default/files/schedule-1---fees-schedule-2024-25.pdf"
+        }
+      ]
     }
   ]
 }

@@ -78,3 +78,8 @@ sources:
     country: au
     url: "https://www.unsw.edu.au/study/postgraduate/master-of-psychology-clinical"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: unsw
+    country: au
+    url: "https://www.unsw.edu.au/study/postgraduate/master-of-professional-accounting"
+    manual: true

@@ -9,3 +9,8 @@ sources:
     country: us
     url: "https://viterbigradadmission.usc.edu/wp-content/uploads/2026/03/2026-2027-Tuition-and-Fees-33.pdf"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: usc
+    country: us
+    url: "https://arr.usc.edu/students/tuition-and-fees/"
+    manual: true

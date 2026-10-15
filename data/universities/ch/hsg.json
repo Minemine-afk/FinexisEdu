@@ -226,6 +226,44 @@
         "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
         "lastVerified": "2026-10-08"
       }
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master in Accounting and Corporate Finance (MACFin)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 7115,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 268
+        }
+      },
+      "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students from autumn 2026, with no separate compulsory fees. A one-off CHF 268 application fee is extra. The course can be taken fully in English.",
+      "notes": "International (foreign nationals) master tier, autumn 2026 intake: costs page states CHF 3,557.50 per semester, x2 = 7,115 per year, plus non-refundable CHF 268 application/processing fee; HSG charges the same master tuition for all master programmes, so the figure is the same as the existing HSG master record. Chosen over the Swiss rate because Singaporeans are foreign nationals. History: 2024 and 2025 rows (6,658 = 3,329 x2, fee CHF 250) from Common Crawl captures of HSG's former 'Costs of an HSG degree' page (2024-10-08 and 2025-09-12), as in the other HSG master rows. Programme: 90 ECTS, 3 semesters, autumn start only; 'can be completed entirely in German, English, or a combination' (unisg.ch MACFin curriculum page); admission sur dossier for international applicants, GMAT/GRE required.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 6658,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 250,
+          "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 6658,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 250,
+          "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
+        }
+      ]
     }
   ]
 }

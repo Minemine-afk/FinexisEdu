@@ -328,6 +328,80 @@
           "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25graduate"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Accountancy, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41602,
+          "annualCompulsoryFees": 1408,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall26international",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates in the W. P. Carey School of Accountancy at ASU, including the business college fee, plus campus and international student fees. Rises most years; health insurance not included.",
+      "notes": "Fall 2026 international undergraduate table, 12+ credit hours, College Fee 5 level (Business): base tuition $19,531 + surcharge $175 + college fee $1,095 per year, plus fees as for the existing Finance, BS record ($1,408: student-initiated fee, advanced technology fee, $400 international student fee). W. P. Carey programmes share one college fee level, so the figures equal the Finance, BS record; chosen International tier because Singaporeans are international students. History rows (tuition only, from the fall 2025 and fall 2024 international catalog tables, Business at College Fee 5 in 2025 and College Fee 4 in 2024) use the same values as Finance, BS; compulsory fees for those years use current values. Degree page: degrees.apps.asu.edu/bachelors/major/ASU00/BAACCBS/accountancy-bs (120 credits, Tempe).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 37370,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall24international",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39682,
+          "sourceUrl": "https://catalog.asu.edu/tuitionandfees/fall25international",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Accountancy and Data Analytics (MACC)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 60500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://wpcarey.asu.edu/masters-programs/accounting/cost-financial-aid",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "One-year, 9-month full-time master's at ASU's W. P. Carey School, leading to CPA exam eligibility. The price is the school's estimated tuition and fees for international students. Health insurance not included.",
+      "notes": "International tier, Tempe full-time, 9-month programme (Aug start); the programme page's 'Estimated tuition and fees' International figure of $60,500 (page capture of 2026-05-21, fall 2026 cycle) is a total for tuition and fees combined, so annualCompulsoryFees is 0 and durationYears is 1 (an academic year Aug-May) so annual equals total. Chosen over Resident/Nonresident because Singaporeans are international students. The live page on 2026-10-15 shows $64,000, which appears under Fall 2027 deadlines, so it is taken as the next intake and not used. History from the same page in Common Crawl captures: 2025-03-16 to 2025-11-10 show $60,000 (fall 2025); the 2024-09-12 capture shows $55,058 (taken as fall 2024). Health insurance and the $500 deposit excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 55058,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://wpcarey.asu.edu/masters-programs/accounting",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 60000,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://wpcarey.asu.edu/masters-programs/accounting/cost-financial-aid",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

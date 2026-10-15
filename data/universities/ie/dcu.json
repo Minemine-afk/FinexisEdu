@@ -698,6 +698,104 @@
           "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BA in Accounting and Finance (DC115)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 19500,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2027-2028",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international (non-EU) students plus a EUR 43 Student Centre levy. 3 years, or 4 with an optional placement year. DCU says fees rise each year.",
+      "notes": "International tier ('Non EU Fee' column), full-time, row 'Accounting and Finance' (DC115, DCU Business School) on DCU's 'Undergraduate Fees 2027-2028' schedule, read 2026-10-15: EUR 19,500 a year, the same as Bachelor of Business Studies; chose this over the EU rate because Singaporeans pay the non-EU fee. 3 years (4 with the optional INTRA placement year, course page lists duration as 3 or 4 years). Student Centre levy EUR 43 per year as on the file's other DCU programmes (dcu.ie/fees/fees-fees-information-finance). History, same row and column on each year's schedule: 2026-27 EUR 17,000 from the 2026-2027 page (Common Crawl copy of 12 Nov 2025); 2025-26 EUR 16,500 from the 2025-2026 page (Common Crawl copy of 11 Sep 2025); 2024-25 EUR 15,000 from 'Undergraduate Fees 2024-2025' at /fees/undergraduate-fees (Common Crawl copy of 16 Oct 2024). The live URLs for the older years now redirect to the current schedule, so the older years were read from archive copies of the official pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17000,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15000,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc in Accounting (DC501)",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 23500,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2027-28",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy. Aimed at accounting graduates heading for chartered accountancy.",
+      "notes": "International tier ('Non EU Fee' column), full-time, row 'MSc in Accounting' (DCU Business School, DC501) on DCU's 'Postgraduate Fees 2027-28' schedule, read 2026-10-15: EUR 23,500 a year; chose this over the EU rate (EUR 12,200) because Singaporeans pay the non-EU fee. 1 year full-time. Student Centre levy EUR 43 per year as on the file's other DCU programmes (dcu.ie/fees/fees-fees-information-finance). History, same row and column: 2026-27 EUR 23,000 (postgraduate-fees-2026-27, Common Crawl copy of 12 Nov 2025); 2025-26 EUR 19,500 (postgraduate-fees-2025-26, Common Crawl copy of 15 Sep 2025); 2024-25 EUR 17,600 (page /fees/postgraduate-fees-25-fees-are-subject-annual-increase, Common Crawl copy of 24 Jun 2024). Older URLs redirect to the current schedule now, hence archive copies of the official pages.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 23000,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19500,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 17600,
+          "annualCompulsoryFees": 43,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

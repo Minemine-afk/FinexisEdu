@@ -583,6 +583,92 @@
           "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2024-25/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Accountancy & Finance BAcc",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 28275,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Glasgow publishes one international rate per year and may charge continuing students a different fee. No separate compulsory fees.",
+      "notes": "International fee for 2027/28 entrants, 'Arts and Social Sciences programmes' band, from the Glasgow international fees page (28,275; 2026/27 27,720 on the same page); the BAcc (N400, 4-year degree in the Adam Smith Business School, College of Social Sciences) is assigned to this band by inference, same as the existing Business & Management MA (SocSci) row. Chose International because Singaporeans are international students. Glasgow says fees are for new entrants and different fees may apply to continuing students (cohortLocked false). History: MyGlasgow undergraduate fee tables, Arts and Social Sciences International: 2026/27 27,720, 2025/26 26,580, 2024/25 25,290. No compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 27720,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2026-27/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26580,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2025-26/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25290,
+          "sourceUrl": "https://www.gla.ac.uk/myglasgow/students/payingyourfees/undergraduate/2024-25/",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "International Accounting & Financial Management MAcc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 38670,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time master's starting in 2027. No separate compulsory fees.",
+      "notes": "International full-time fee from the Glasgow postgraduate fee table ('live' table = 2027-28), row 'International Accounting & Financial Management MAcc' 38,670 (also on the programme page); 12 months full-time; chose International because Singaporeans are international students. History from the 2026-27 (37,350), 2025-26 (35,640) and 2024-25 (35,640) fee tables, same row. cohortLocked false to match Glasgow's other rows. This is Glasgow's only accounting-named master's. No compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37350,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2026-27/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 35640,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2025-26/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 35640,
+          "sourceUrl": "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/2024-25/",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

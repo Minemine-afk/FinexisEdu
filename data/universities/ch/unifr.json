@@ -444,6 +444,40 @@
           "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Arts in Accounting and Finance",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 1740,
+          "annualCompulsoryFees": 230,
+          "oneOffFees": 100
+        }
+      },
+      "sourceUrl": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition at the foreign-student rate plus the basic semester fee for sport, library and student association. A one-off CHF 100 application fee is extra.",
+      "notes": "International tier, 2026-27: Fribourg 'University fees' page states CHF 870 tuition + CHF 115 basic fee per semester for foreign students; x2 = 1,740 tuition and 230 basic fees per year; CHF 100 one-off application fee for foreign diplomas. Same fee as the existing Fribourg master record; chose the foreign-student rate because Singaporeans are international students. History: 2024 and 2025 rows (tuition 1,740) from cantonal ordinance RSF 431.0.16 (CHF 870 per semester), as in the other Fribourg records; no dated 2024/2025 basic-fee figure was found so those rows carry tuition only. Programme: 90 ECTS, 3 semesters (optional 4-semester double degree with Caen), autumn or spring start, courses in English, French and German; non-EU/EFTA bachelor holders need GMAT.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 1740,
+          "sourceUrl": "https://fr.lexwork.naz.ch/fr/dta/431.0.16.pdf"
+        }
+      ]
     }
   ]
 }
