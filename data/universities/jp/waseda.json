@@ -1,6 +1,7 @@
 {
   "id": "waseda",
   "name": "Waseda University",
+  "feeMethod": "Publishes one fee row per school, so the calculator uses the school's row (plus per-department lab fees for science master's).",
   "country": "jp",
   "city": "Tokyo",
   "currency": "JPY",

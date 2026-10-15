@@ -1,6 +1,7 @@
 {
   "id": "uts",
   "name": "University of Technology Sydney",
+  "feeMethod": "Publishes a fee per course per session, so the calculator doubles it for a full-time year; majors within a course are not priced separately.",
   "country": "au",
   "city": "Sydney",
   "currency": "AUD",

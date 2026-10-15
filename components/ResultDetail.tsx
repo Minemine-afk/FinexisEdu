@@ -215,10 +215,10 @@ export default function ResultDetail({
             </Badge>
           )}
         </div>
-        {p.feeBasis && (
+        {u.feeMethod && (
           <p className="mt-3 rounded-md border-l-2 border-accent bg-chip px-3 py-2 text-xs text-muted">
             <span className="font-medium text-foreground">How this fee was worked out: </span>
-            {p.feeBasis}{" "}
+            {u.feeMethod}{" "}
             <a
               className={`whitespace-nowrap font-medium text-accent underline hover:text-foreground${TAP_LINK}`}
               href={p.sourceUrl}

@@ -1,6 +1,7 @@
 {
   "id": "sophia",
   "name": "Sophia University",
+  "feeMethod": "Groups faculties into a few fee blocks (most humanities and social sciences share one), so the calculator uses the block each degree belongs to.",
   "country": "jp",
   "city": "Tokyo",
   "currency": "JPY",

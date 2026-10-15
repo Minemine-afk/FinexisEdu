@@ -1,6 +1,7 @@
 {
   "id": "sfu",
   "name": "Simon Fraser University",
+  "feeMethod": "Charges per unit with a basic rate for most courses and premium rates for Engineering Science, Computing Science and Business, so the calculator uses the matching rate.",
   "country": "ca",
   "city": "Burnaby, British Columbia",
   "currency": "CAD",

@@ -1,6 +1,7 @@
 {
   "id": "keio",
   "name": "Keio University",
+  "feeMethod": "Publishes one fee row per faculty or graduate school, and every department in it pays the same, so the calculator uses the first-year row.",
   "country": "jp",
   "city": "Tokyo",
   "currency": "JPY",

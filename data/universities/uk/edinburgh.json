@@ -1,6 +1,7 @@
 {
   "id": "edinburgh",
   "name": "University of Edinburgh",
+  "feeMethod": "Publishes a separate fee for every programme code, so the calculator uses each programme's own fee.",
   "country": "uk",
   "city": "Edinburgh",
   "currency": "GBP",

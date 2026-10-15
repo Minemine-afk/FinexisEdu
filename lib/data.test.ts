@@ -82,6 +82,14 @@ describe("committed data", () => {
     }
   });
 
+  it("states how every university prices its degrees, in at most 220 characters", () => {
+    for (const u of universities) {
+      expect(u.feeMethod, u.id).toBeTruthy();
+      expect(u.feeMethod!.length, u.id).toBeLessThanOrEqual(220);
+      expect(u.feeMethod, u.id).not.toMatch(/https?:\/\//);
+    }
+  });
+
   it("names a known partner, or none, on every programme of a university with partners", () => {
     for (const u of universities) {
       const ids = new Set((u.partners ?? []).map((p) => p.id));

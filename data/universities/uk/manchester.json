@@ -1,6 +1,7 @@
 {
   "id": "manchester",
   "name": "University of Manchester",
+  "feeMethod": "Sets a separate fee for each course, so the calculator uses each course's own published fee.",
   "country": "uk",
   "city": "Manchester",
   "currency": "GBP",

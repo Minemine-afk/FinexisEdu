@@ -1,6 +1,7 @@
 {
   "id": "dcu",
   "name": "Dublin City University",
+  "feeMethod": "Lists a separate non-EU fee for each programme, so the calculator uses each programme's own row in the yearly schedule.",
   "country": "ie",
   "city": "Dublin",
   "currency": "EUR",

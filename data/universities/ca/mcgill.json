@@ -1,6 +1,7 @@
 {
   "id": "mcgill",
   "name": "McGill University",
+  "feeMethod": "Charges a guaranteed rate per degree type (Arts, Science, Engineering, Commerce, Law, Medicine), so the calculator uses the rate for the degree.",
   "country": "ca",
   "city": "Montreal",
   "currency": "CAD",

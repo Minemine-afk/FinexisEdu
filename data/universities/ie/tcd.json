@@ -1,6 +1,7 @@
 {
   "id": "tcd",
   "name": "Trinity College Dublin",
+  "feeMethod": "Lists a separate non-EU fee for each course code, so the calculator uses each course's first-year fee.",
   "country": "ie",
   "city": "Dublin",
   "currency": "EUR",

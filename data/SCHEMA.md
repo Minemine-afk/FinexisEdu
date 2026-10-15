@@ -13,6 +13,7 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
   "website": "https://www.nus.edu.sg",
   "description": "Singapore's oldest and largest ...",   // 1–2 factual sentences, shown on hover over the name
   "whyIncluded": "MOE-funded Autonomous University ...", // why it is in the calculator (evidence of Singaporean demand)
+  "feeMethod": "One rate per faculty; every major in it pays the same ...",   // required, max 220 chars (1-2 sentences), shown on the site as "How this fee was worked out" for every programme of the university: how this university prices degrees (flat, by faculty, by major, by subject band...) and so which fee the calculator picks. No URLs
   "partners": [                                  // optional; only for institutions that teach other universities' degrees (SIM)
     { "id": "uol", "name": "University of London", "country": "United Kingdom", "website": "https://www.london.ac.uk", "description": "..." }
   ],
@@ -38,7 +39,7 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
       "cohortLocked": true,                      // true if the fee is fixed for the whole programme once you enrol
       "internationalEligible": true,             // optional; false if the programme is closed to international students
       "summary": "Yearly tuition after the MOE Tuition Grant, fixed for your whole degree.",  // shown on the site: 1-2 plain sentences for parents, max 280 chars
-      "feeBasis": "NTU's published rate for every standard undergraduate degree, subsidised by the MOE Tuition Grant.",  // required, max 240 chars, shown on the site under "How this fee was worked out": which published figure was used and which major, band or range point was chosen. No URLs; the source link is shown beside it
+      "feeBasis": "NTU's published rate for every standard undergraduate degree, subsidised by the MOE Tuition Grant.",  // required, max 240 chars, kept in the data but not currently shown on the site (the university-level `feeMethod` is shown instead): which published figure was used and which major, band or range point was chosen. No URLs; the source link is shown beside it
       "notes": "Tuition Grant rates; excludes GST",   // optional; detailed source/method notes for maintainers, not shown
       "feeHistory": [                            // fees for EARLIER intakes/years; see below
         {

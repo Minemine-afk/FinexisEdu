@@ -1,6 +1,7 @@
 {
   "id": "birmingham",
   "name": "University of Birmingham",
+  "feeMethod": "Sets a separate fee for each course, so the calculator uses each course's own published fee.",
   "country": "uk",
   "city": "Birmingham",
   "currency": "GBP",
