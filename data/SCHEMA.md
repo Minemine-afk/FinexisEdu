@@ -105,6 +105,9 @@ Fee history:
   (e.g. APU charges each entering cohort its own year 2-4 rate), give the entry its own
   `laterYears` array; the calculator then uses it instead of the programme's.
 - Only add figures you actually found in a source. Never back-calculate.
+- When a source gives a range for the same programme (a typical-year range, a range across
+  majors or subjects, a College fee that varies by College), record the top of the range,
+  for the current year and for every earlier year, and say so in `notes` and `feeBasis`.
 - When the university no longer publishes an earlier year's fee, a third-party page
   (course aggregator, education agent, news item) may be used if it states the fee
   for that specific intake or academic year. Mark the row `"sourceType": "secondary"`

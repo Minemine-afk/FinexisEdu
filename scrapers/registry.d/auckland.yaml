@@ -23,7 +23,8 @@ sources:
     - level: bachelor
       field: engineering
       pattern: International students NZ\$([\d,]+)
-  # BSc page shows a range (standard courses – laboratory-heavy majors); the first figure is recorded.
+  # BSc page shows a range (standard courses – laboratory-heavy majors); the upper end is recorded
+  # (Kumar, 2026-10-15: fees picked from a range use the high end).
   - university: auckland
     country: nz
     url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html
@@ -32,7 +33,7 @@ sources:
     targets:
     - level: bachelor
       field: sciences
-      pattern: International students NZ\$([\d,]+)
+      pattern: International students NZ\$[\d,]+ ?[–-] ?\$([\d,]+)
   - university: auckland
     country: nz
     url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-information-technology-minfotech.html
@@ -71,14 +72,23 @@ sources:
       field: business
       pattern: BUSMBA 720 Leading in Complexity 15 \$([\d,.]+)
       multiplier: 8
-  # MA: 120 points of 700-level Arts courses, 8 x the 15-point ARTSGEN 740 fee
+  # BA and MA pages show a yearly range ('International students NZ$40,225 – $48,133'); the upper
+  # end is recorded (Kumar, 2026-10-15: fees picked from a range use the high end).
   - university: auckland
     country: nz
-    url: https://www.auckland.ac.nz/assets/study/fees-and-money-matters/tuition-fees/fees-by-faculty/2026%20Fees%20AEd%20International.pdf
-    parser: pdf
-    year_pattern: Tuition fees (\d{4}) - International students
+    url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-arts-ba.html
+    parser: html
+    year_pattern: (\d{4}) fees
+    targets:
+    - level: bachelor
+      field: arts
+      pattern: International students NZ\$[\d,]+ ?[–-] ?\$([\d,]+)
+  - university: auckland
+    country: nz
+    url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-arts-ma.html
+    parser: html
+    year_pattern: (\d{4}) fees
     targets:
     - level: master
       field: arts
-      pattern: ARTSGEN 740 Research Essay 15 \$([\d,.]+)
-      multiplier: 8
+      pattern: International students NZ\$[\d,]+ ?[–-] ?\$([\d,]+)

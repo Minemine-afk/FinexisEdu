@@ -342,7 +342,8 @@ sources:
     - key: living.personal
       pattern: Personal items £ ?([\d,]+) Social activities £ ?([\d,]+) Study costs £ ?([\d,]+) Miscellaneous £ ?([\d,]+)
   # Yearly undergraduate fee document (new URL each year). Rows read "<course> <Home> <Overseas>".
-  # The College fee (annualCompulsoryFees) is the median of the per-College list and is kept by hand.
+  # The College fee (annualCompulsoryFees) is the highest in the per-College list (Kumar, 2026-10-15:
+  # fees picked from a range use the high end) and is kept by hand.
   - university: cambridge
     country: uk
     url: https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf
@@ -1132,9 +1133,7 @@ sources:
     parser: pdf
     year_pattern: International Tuition Fees (\d{4})
     targets:
-    - level: bachelor
-      field: arts
-      pattern: Bachelor of Arts NZ\$ ?([\d,]+)
+    # BA moved to its programme page (registry.d/auckland.yaml), which gives the full range.
     - level: bachelor
       field: law
       pattern: Bachelor of Laws NZ\$ ?([\d,]+)
