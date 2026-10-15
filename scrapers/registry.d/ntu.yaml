@@ -34,3 +34,27 @@ sources:
     country: sg
     url: "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees"
     manual: true
+
+  # National Institute of Education (NIE), NTU's teacher-training institute, added 2026-10-15 as
+  # partner 'nie'. Fees read by hand from NIE's handbook and fee PDFs (nie.edu.sg now redirects to
+  # ntu.edu.sg/nie); the PDFs are per academic year and replaced each year, so manual.
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/moe-cw-sub-ay2026---newintakes.pdf?sfvrsn=2a403fb3_1"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/research-fees-ay2026_new-intakes.pdf?sfvrsn=fa819c4a_1"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/ote-documents/programme/general-information.pdf?sfvrsn=30825969_18"
+    manual: true

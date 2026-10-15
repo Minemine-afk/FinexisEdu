@@ -81,9 +81,11 @@ Definitions:
   the first-year fee is charged every year, so always add it where the
   university publishes higher later-year fees, and say so in `summary`.
 - `partners` / `partner` — for an institution such as SIM Global Education whose
-  degrees are awarded by partner universities. The calculator then asks for the
-  partner after the university, and the yearly increase is estimated from that
-  partner's programmes first.
+  degrees are awarded by partner universities, or a university with an institute
+  of its own that students pick separately (NIE at NTU). The calculator then asks
+  for the partner or institute after the university, and the yearly increase is
+  estimated from that partner's programmes first. Programmes without `partner`
+  are the university's own and appear under its name in that picker.
 - US public universities: use the non-resident (out-of-state/international) rate.
 - Singaporeans studying abroad are international students, so only `international`
   matters outside Singapore.

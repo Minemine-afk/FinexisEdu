@@ -7,6 +7,15 @@
   "website": "https://www.ntu.edu.sg",
   "description": "Nanyang Technological University is a public research university established in 1991, with roots in Nanyang University (1955) and the Nanyang Technological Institute (1981). Based on a campus in western Singapore, it is known for engineering, science and business, and jointly runs the Lee Kong Chian School of Medicine with Imperial College London.",
   "whyIncluded": "One of Singapore's MOE-funded Autonomous Universities and, with NUS, one of the two comprehensive local universities that most Singaporean students weigh against overseas options.",
+  "partners": [
+    {
+      "id": "nie",
+      "name": "National Institute of Education",
+      "country": "Singapore",
+      "website": "https://www.ntu.edu.sg/nie",
+      "description": "Singapore's national teacher-training institute, an autonomous institute of NTU since 1991. It trains all of Singapore's MOE school teachers and awards NTU degrees in education, the arts and sciences, and sport science."
+    }
+  ],
   "programmes": [
     {
       "level": "bachelor",
@@ -387,6 +396,370 @@
         { "feeYear": 2026, "tier": "citizen", "annualTuition": 42116.67, "sourceUrl": "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees" },
         { "feeYear": 2026, "tier": "pr", "annualTuition": 42116.67, "sourceUrl": "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees" }
       ]
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "bachelor",
+      "field": "arts",
+      "name": "Bachelor of Arts (Hons) in an Academic Discipline and in Education",
+      "majors": ["Art", "Chinese Studies", "English Language", "English Literature", "Geography", "History", "Malay Studies", "Music", "Tamil Studies"],
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 8300, "annualCompulsoryFees": 330, "oneOffFees": 0 },
+        "pr": { "annualTuition": 11600, "annualCompulsoryFees": 435, "oneOffFees": 0 },
+        "international": { "annualTuition": 21400, "annualCompulsoryFees": 455, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/ote-documents/programme/general-information.pdf?sfvrsn=30825969_18",
+      "summary": "Subsidised yearly tuition for the 4-year teaching degree, fixed for your cohort, plus health and student service fees. MOE-sponsored trainee teachers pay no fees and receive an allowance, in return for a teaching bond.",
+      "notes": "NIE General Information Handbook 2026-2027 (accurate as of 15 July 2026), 'Tuition Fees' section: 'For candidates who join the programmes in Academic Year 2026/2027, the subsidised tuition fee payable ... per annum': Singapore Citizen S$8,300.00, Singapore PR S$11,600.00, ASEAN international S$18,050.00, other international S$21,400.00 (the non-ASEAN figure is recorded). SC/PR exclusive of GST (GST subsidised by MOE); international inclusive of 9% GST. Identical to NTU's AY2026/27 'All Programmes' undergraduate rate (https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees); NTU fees are fixed for the cohort. Full-fee-paying route (no Tuition Grant, all nationalities, incl. GST): BA S$36,350 / BSc S$40,600 per annum; the Handbook's full-fee application closed 1 April 2026. Compulsory = Health Service Fee + Student Service Fee per annum (GST-incl.): non-lab rate SC S$80.20 + 249.80 = 330.00; SPR 151.82 + 283.18 = 435.00; IS 162.72 + 292.28 = 455.00. MOE-sponsored trainee teachers pay nothing: the NIE Full-Fee Paying FAQ says 'The fees for these selected candidates will be fully sponsored by the Ministry' and MOE pays a monthly allowance in return for a teaching bond. 4-year direct-honours double major (academic discipline + education). No 2024/2025 rows yet (Kumar asked for 2026 onwards, 2026-10-15); the NTU cohort pages for offers accepted in 2025 and 2024 give S$8,250/11,550/20,000 and 8,250/11,550/18,900."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (Hons) in an Academic Discipline and in Education",
+      "majors": ["Biology", "Chemistry", "Mathematics & Computational Thinking", "Physics & Energy Studies", "Sport Science"],
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 8300, "annualCompulsoryFees": 367, "oneOffFees": 0 },
+        "pr": { "annualTuition": 11600, "annualCompulsoryFees": 470, "oneOffFees": 0 },
+        "international": { "annualTuition": 21400, "annualCompulsoryFees": 490, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/ote-documents/programme/general-information.pdf?sfvrsn=30825969_18",
+      "summary": "Subsidised yearly tuition for the 4-year teaching degree, fixed for your cohort, plus health and student service fees. MOE-sponsored trainee teachers pay no fees and receive an allowance, in return for a teaching bond.",
+      "notes": "NIE General Information Handbook 2026-2027 (accurate as of 15 July 2026), 'Tuition Fees' section: 'For candidates who join the programmes in Academic Year 2026/2027, the subsidised tuition fee payable ... per annum': Singapore Citizen S$8,300.00, Singapore PR S$11,600.00, ASEAN international S$18,050.00, other international S$21,400.00 (the non-ASEAN figure is recorded). SC/PR exclusive of GST (GST subsidised by MOE); international inclusive of 9% GST. Identical to NTU's AY2026/27 'All Programmes' undergraduate rate (https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees); NTU fees are fixed for the cohort. Full-fee-paying route (no Tuition Grant, all nationalities, incl. GST): BA S$36,350 / BSc S$40,600 per annum; the Handbook's full-fee application closed 1 April 2026. Compulsory = Health Service Fee + Student Service Fee per annum (GST-incl.): lab-based & PE rate SC S$80.20 + 286.80 = 367.00; SPR 151.82 + 318.18 = 470.00; IS 162.72 + 327.28 = 490.00. MOE-sponsored trainee teachers pay nothing: the NIE Full-Fee Paying FAQ says 'The fees for these selected candidates will be fully sponsored by the Ministry' and MOE pays a monthly allowance in return for a teaching bond. 4-year direct-honours double major (academic discipline + education). No 2024/2025 rows yet (Kumar asked for 2026 onwards, 2026-10-15); the NTU cohort pages for offers accepted in 2025 and 2024 give S$8,250/11,550/20,000 and 8,250/11,550/18,900."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "bachelor",
+      "field": "sciences",
+      "name": "Bachelor of Science (Hons) in Sport Science and Management",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 8300, "annualCompulsoryFees": 367, "oneOffFees": 0 },
+        "pr": { "annualTuition": 11600, "annualCompulsoryFees": 470, "oneOffFees": 0 },
+        "international": { "annualTuition": 21400, "annualCompulsoryFees": 490, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees",
+      "summary": "Subsidised yearly tuition for the 4-year NTU degree hosted at NIE, fixed for your cohort, plus health and student service fees. Not a teacher-training degree, so no MOE sponsorship or bond.",
+      "notes": "NTU undergraduate degree run by NIE's Physical Education and Sports Science academic group (https://www.ntu.edu.sg/nie/admissions/undergraduate-education-admissions/undergraduate-programmes: 'full-time four-year Bachelor of Science (Honours) in Sport Science & Management'). No SSM-specific fee line is published; as an NTU programme not in the exceptions list it takes NTU's AY2026/27 'All Programmes' subsidised rate from the NTU undergraduate tuition fees page: SC S$8,300, SPR S$11,600, ASEAN IS S$18,050, other IS S$21,400 (non-ASEAN recorded); non-subsidised S$40,600 lab-based / S$36,350 non-lab. SC/PR excl. GST, IS incl. 9% GST; NTU fees are fixed for the cohort. Compulsory fees assumed at NIE's lab-based & PE rate (Handbook 2026-27: SC 367.00, SPR 470.00, IS 490.00) because the programme is PE-based; NTU does not state SSM's lab classification. Admission is through NTU; PR and international Tuition Grant recipients sign a 3-year work obligation. No 2024/2025 rows yet (2026 onwards requested)."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Education (MEd)",
+      "majors": ["Art", "Chinese Language", "Curriculum and Teaching", "Developmental Psychology", "Drama", "Early Childhood", "Educational Assessment", "English", "High Ability Studies", "Learning Sciences and Artificial Intelligence", "Malay Language", "Mathematics", "Music", "Science", "Special Education", "Tamil Language"],
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 9800, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18050, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 42420, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/moe-cw-sub-ay2026---newintakes.pdf?sfvrsn=2a403fb3_1",
+      "summary": "Full-time one-year fee, fixed at your entry-year rate. Subsidised for Singaporeans and PRs; international students pay the non-subsidised rate including 9% GST. Part-time is half this a year over two years.",
+      "notes": "NIE 'MOE-Subsidised Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 19 June 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: 'Master of Teaching & Master of Education* (Full-Time) $9,800 $18,050 $42,420' per academic year for the August 2026 and January 2027 intakes; part-time $4,900 / $9,025 / $21,210. The third column is 'International student OR non-subsidised fee', so international students pay the non-subsidised rate. SC/PR exclusive of GST (GST subsidised by MOE); international inclusive of 9% GST. Fees are cohort-based ('the same throughout the normal programme duration'); the MOE subsidy covers the normal duration only (full-time 1 year, part-time 2 years), extra semesters at the non-subsidised rate. Full-time recorded (1 year); '*Only some of the specialisations in the Master of Education are offered on full-time basis'. SC aged 40+ pay 60% less (SkillsFuture Mid-Career Enhanced Subsidy). Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 was $9,800 / $18,050 / $42,320 and AY2024-25 $9,750 / $17,400 / $41,900 (not added: 2026 onwards requested)."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Teaching (MTeach)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 9800, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 18050, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 42420, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/moe-cw-sub-ay2026---newintakes.pdf?sfvrsn=2a403fb3_1",
+      "summary": "Full-time one-year fee, fixed at your entry-year rate. Subsidised for Singaporeans and PRs; international students pay the non-subsidised rate including 9% GST. Part-time is half this a year over two years. One January intake.",
+      "notes": "NIE 'MOE-Subsidised Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 19 June 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: 'Master of Teaching & Master of Education* (Full-Time) $9,800 $18,050 $42,420' per academic year for the August 2026 and January 2027 intakes; part-time $4,900 / $9,025 / $21,210. The third column is 'International student OR non-subsidised fee', so international students pay the non-subsidised rate. SC/PR exclusive of GST (GST subsidised by MOE); international inclusive of 9% GST. Fees are cohort-based ('the same throughout the normal programme duration'); the MOE subsidy covers the normal duration only (full-time 1 year, part-time 2 years), extra semesters at the non-subsidised rate. Full-time recorded (1 year); '*Only some of the specialisations in the Master of Education are offered on full-time basis'. SC aged 40+ pay 60% less (SkillsFuture Mid-Career Enhanced Subsidy). Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 was $9,800 / $18,050 / $42,320 and AY2024-25 $9,750 / $17,400 / $41,900 (not added: 2026 onwards requested)."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Arts (Counselling and Guidance)",
+      "durationYears": 1.5,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 35926.67, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 35926.67, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 35926.67, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$53,890 total tuition for the programme including 9% GST, shown here per year over 1.5 years full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$3,368.10 per 3-AU course' x 16 courses (practicum counts as 2 courses each; 42 AUs) = total tuition S$53,890 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1.5 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1.5 to 2 years, part-time 3 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$52,320 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (Applied Linguistics)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$45,486 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,516.19 per AU' x 30 AU = total tuition S$45,486 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 2 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$44,145 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (Educational Leadership)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$45,486 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,516.19 per AU' x 30 AU = total tuition S$45,486 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 2 years, part-time 2 to 4 years. Called MA (Educational Management) until AY2024-25. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$44,145 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (Instructional Design and Technology)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$45,486 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,516.19 per AU' x 30 AU = total tuition S$45,486 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 2 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$44,145 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in Humanities Education",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$45,486 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,516.19 per AU' x 30 AU = total tuition S$45,486 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 2 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$44,145 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts in Professional Education (Training and Development)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 45486, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$45,486 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,516.19 per AU' x 30 AU = total tuition S$45,486 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 2 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$44,145 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "psychology",
+      "name": "Master of Arts (Applied Psychology)",
+      "durationYears": 2.5,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 35836.4, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 35836.4, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 35836.4, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$89,591 total tuition for the programme including 9% GST, shown here per year over 2.5 years full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,571.78 per AU' x 57 AU = total tuition S$89,591 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 2.5 year(s), the minimum full-time candidature from the programme page. Full-time candidature 2.5 to 3.5 years, part-time 3.5 to 4.5 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$86,982 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (Teaching Chinese as an International Language)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 50297, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 50297, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 50297, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$50,297 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,571.78 per AU' x 32 AU = total tuition S$50,297 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 2 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$48,832 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (Exercise and Sport Studies)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$48,854 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,628.46 per AU' x 30 AU = total tuition S$48,854 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 3 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$47,415 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (Life Sciences)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$48,854 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,628.46 per AU' x 30 AU = total tuition S$48,854 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 3 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$47,415 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (Mathematics for Educators)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 48854, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$48,854 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,628.46 per AU' x 30 AU = total tuition S$48,854 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 3 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$47,415 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (Science of Learning)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 50522, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "pr": { "annualTuition": 50522, "annualCompulsoryFees": 620, "oneOffFees": 0 },
+        "international": { "annualTuition": 50522, "annualCompulsoryFees": 620, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1",
+      "summary": "One fee for everyone: S$50,522 total tuition for the programme including 9% GST, shown here per year over 1 year full-time. Singaporeans and PRs can claim a S$5,000 NTU subsidy and alumni 10% off. No MOE subsidy.",
+      "notes": "NIE 'Self-Financing Programmes: Tuition Fees for Master's by Coursework (AY2026-2027, new intakes)' PDF (accurate as of 25 May 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: '$1,684.05 per AU' x 30 AU = total tuition S$50,522 for the August 2026 and January 2027 intakes, one 'All Nationalities' price inclusive of 9% GST (no MOE subsidy). annualTuition = total / 1 year(s), the minimum full-time candidature from the programme page. Full-time candidature 1 to 2 years, part-time 2 to 4 years. NTU Postgraduate Incentives for self-financing programmes (not deducted): S$5,000 subsidy for SC/PR, up to S$10,000 more for SC/PR meeting financial-aid criteria, 10% off for NTU alumni, SkillsFuture Credit usable. Compulsory = miscellaneous fees AY2026-27, Master's by Coursework full-time S$620.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 total was S$49,050 (not added: 2026 onwards requested). International students admitted at the same price; part-time international students need an Employment or Dependant's Pass."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "arts",
+      "name": "Master of Arts (Research), Arts and Education",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 10450, "annualCompulsoryFees": 585, "oneOffFees": 0 },
+        "pr": { "annualTuition": 14950, "annualCompulsoryFees": 585, "oneOffFees": 0 },
+        "international": { "annualTuition": 41020, "annualCompulsoryFees": 585, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/research-fees-ay2026_new-intakes.pdf?sfvrsn=fa819c4a_1",
+      "summary": "Yearly fee for the research master's, fixed for your cohort; up to 3 years. Subsidised for Singaporeans and PRs; international students pay the non-subsidised rate including 9% GST.",
+      "notes": "NIE 'Tuition Fees for PhD and Master's by Research (AY2026-2027, new intakes)' PDF (accurate as of 19 June 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: 'Non-Laboratory based: PhD - Arts and Education; MA' row per academic year: non-subsidised S$41,020, Singapore Citizen S$10,450, Singapore PR S$14,950, international with 3-year service obligation S$23,250. SC/PR subsidised fees exclusive of GST (GST subsidised by MOE); international and non-subsidised fees inclusive of 9% GST. The international figure recorded is the non-subsidised rate: the PDF footnote limits the S$23,250 subsidised rate to MOE Postgraduate by Research Scholarship recipients, and NIE says it 'may implement the scheme for international students if deemed feasible ... subject to MOE approval'. Fees are cohort-based for the normal duration; maximum candidature 3 years full- or part-time (2 years recorded as the typical full-time length; NIE publishes no minimum). Compulsory = miscellaneous fees AY2026-27 full-time S$585.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 was S$40,920 / 10,450 / 14,700 / 22,850 (not added: 2026 onwards requested)."
+    },
+    {
+      "partner": "nie",
+      "sourceType": "official",
+      "lastVerified": "2026-10-15",
+      "cohortLocked": true,
+      "level": "master",
+      "field": "sciences",
+      "name": "Master of Science (Research), Sciences",
+      "durationYears": 2,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": { "annualTuition": 10450, "annualCompulsoryFees": 595, "oneOffFees": 0 },
+        "pr": { "annualTuition": 14950, "annualCompulsoryFees": 595, "oneOffFees": 0 },
+        "international": { "annualTuition": 48370, "annualCompulsoryFees": 595, "oneOffFees": 0 }
+      },
+      "sourceUrl": "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/research-fees-ay2026_new-intakes.pdf?sfvrsn=fa819c4a_1",
+      "summary": "Yearly fee for the lab-based research master's, fixed for your cohort; up to 3 years. Subsidised for Singaporeans and PRs; international students pay the non-subsidised rate including 9% GST.",
+      "notes": "NIE 'Tuition Fees for PhD and Master's by Research (AY2026-2027, new intakes)' PDF (accurate as of 19 June 2026), linked from https://www.ntu.edu.sg/nie/admissions/graduate-education/tuition-fees: 'Laboratory based: PhD - Sciences & Physical Education; MSc' row per academic year: non-subsidised S$48,370, Singapore Citizen S$10,450, Singapore PR S$14,950, international with 3-year service obligation S$23,250. SC/PR subsidised fees exclusive of GST (GST subsidised by MOE); international and non-subsidised fees inclusive of 9% GST. The international figure recorded is the non-subsidised rate: the PDF footnote limits the S$23,250 subsidised rate to MOE Postgraduate by Research Scholarship recipients, and NIE says it 'may implement the scheme for international students if deemed feasible ... subject to MOE approval'. Fees are cohort-based for the normal duration; maximum candidature 3 years full- or part-time (2 years recorded as the typical full-time length; NIE publishes no minimum). Compulsory = miscellaneous fees AY2026-27 full-time S$595.00 per year, GST-incl. (https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/miscellaneous-fee-ay2026.pdf?sfvrsn=90c4cde_1). AY2025-26 was S$48,270 / 10,450 / 14,700 / 22,850 (not added: 2026 onwards requested)."
     }
   ]
 }

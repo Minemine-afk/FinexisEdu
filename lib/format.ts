@@ -54,9 +54,44 @@ export const RESIDENCY_LABELS = {
   international: "International student",
 } as const;
 
-/** The awarding partner of a programme taught by an institution such as SIM. */
+/**
+ * The awarding partner of a programme taught by an institution such as SIM, or
+ * the institute within a university (NIE at NTU) that runs it.
+ */
 export function partnerOf(u: University, p: Programme): Partner | undefined {
   return p.partner ? u.partners?.find((x) => x.id === p.partner) : undefined;
+}
+
+/** Picker value for a university's own programmes, next to its partners' or institutes'. */
+export const OWN = "";
+
+/**
+ * The entries of the partner/institute picker for a university: its partners
+ * that have programmes among `options`, led by the university itself when it
+ * also teaches programmes of its own (NTU beside NIE). Empty when the
+ * university has no partners, so no picker is shown.
+ */
+export function partnerChoices(
+  u: University,
+  options: { programme: Programme }[],
+): Partner[] {
+  if (!u.partners?.length) return [];
+  const partners = u.partners.filter((p) =>
+    options.some((o) => o.programme.partner === p.id),
+  );
+  const own = options.some((o) => !o.programme.partner);
+  return own
+    ? [{ id: OWN, name: u.name, country: u.country }, ...partners]
+    : partners;
+}
+
+/**
+ * Label of that picker: "Partner university" where another university awards
+ * the degrees (SIM), "Institute" where the choice is between a university and
+ * an institute of its own (NTU and NIE).
+ */
+export function partnerPickerLabel(u: University): string {
+  return u.programmes.some((p) => !p.partner) ? "Institute" : "Partner university";
 }
 
 /** The programme name, led by its awarding partner where there is one. */

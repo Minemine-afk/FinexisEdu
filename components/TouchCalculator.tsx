@@ -7,7 +7,10 @@ import {
   LEVEL_LABELS,
   RESIDENCY_LABELS,
   formatCompactSgd,
+  OWN,
   institutionLabel,
+  partnerChoices,
+  partnerPickerLabel,
   programmeLabel,
   recognitionTag,
 } from "@/lib/format";
@@ -850,9 +853,7 @@ function PickerSheet({
   const atUniversity = inCountry.filter(
     (o) => o.university.id === current.university.id,
   );
-  const partners = (current.university.partners ?? []).filter((p) =>
-    atUniversity.some((o) => o.programme.partner === p.id),
-  );
+  const partners = partnerChoices(current.university, atUniversity);
   const atPartner = partners.length
     ? atUniversity.filter(
         (o) => o.programme.partner === current.programme.partner,
@@ -1006,15 +1007,15 @@ function PickerSheet({
               />
               {partners.length > 0 && (
                 <List
-                  label="Partner university"
+                  label={partnerPickerLabel(current.university)}
                   items={partners.map((p) => ({
                     key: p.id,
                     text: p.name,
-                    selected: p.id === current.programme.partner,
+                    selected: p.id === (current.programme.partner ?? OWN),
                     onSelect: () =>
                       pick(
                         atUniversity.filter(
-                          (o) => o.programme.partner === p.id,
+                          (o) => (o.programme.partner ?? OWN) === p.id,
                         ),
                       ),
                   }))}
