@@ -11,7 +11,6 @@ function brute(t: Tvm): number {
 let seed = 7; const rnd = () => (seed = (seed * 48271) % 2147483647) / 2147483647;
 describe("TVM cross-check", () => {
   it("every solved box reproduces the end amount under brute-force growth", () => {
-    let n = 0;
     for (let k = 0; k < 500; k++) {
       const t: Tvm = { months: Math.floor(rnd() * 240) + 1, rate: rnd() < 0.1 ? 0 : rnd() * 15, start: rnd() < 0.3 ? 0 : rnd() * 100000, monthly: rnd() < 0.3 ? 0 : rnd() * 5000, end: 0, startOfMonth: rnd() < 0.5 };
       if (t.start === 0 && t.monthly === 0) continue;
@@ -25,7 +24,6 @@ describe("TVM cross-check", () => {
         expect(Number.isFinite(v), `${f} ${JSON.stringify(t)}`).toBe(true);
         const back = brute({ ...t, [f]: v });
         expect(back / t.end, `${f} ${JSON.stringify(t)} -> ${v}`).toBeCloseTo(1, 5);
-        n++;
       }
       // simulate agrees with brute
       const p = simulate({ start: t.start, monthly: t.monthly, months: t.months, ratePct: t.rate, startOfMonth: t.startOfMonth, today: { year: 2026, month: 9 } });

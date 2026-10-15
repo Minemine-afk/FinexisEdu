@@ -145,7 +145,10 @@ export default function SavingsPlanner({
   const seed: Tvm = { months, rate: DEFAULT_INVEST_RATE, start: 0, monthly: 0, end: costTotal, startOfMonth };
   const t: Tvm = { ...(tvmEdits ?? seed), startOfMonth };
   const solved = solveTvm(t, tvmField);
-  const full: Tvm = { ...t, [tvmField]: solved };
+  // A solved month count is rounded up to whole months, so the plan reaches
+  // the end amount rather than falling a little short of it.
+  const wholeMonths = (m: number) => Math.ceil(m - 1e-9);
+  const full: Tvm = { ...t, [tvmField]: tvmField === "months" && Number.isFinite(solved) ? wholeMonths(solved) : solved };
   // A month count past a century is no plan at all.
   const tooLong = tvmField === "months" && solved > MAX_MONTHS;
   const ok = Number.isFinite(solved) && !tooLong;
@@ -160,6 +163,9 @@ export default function SavingsPlanner({
   // Fees fall due now: there is no time to save, so the whole amount is your own money.
   const dueNow = ok && n === 0 && !coveredAlready;
   const mine: Plan = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
+  // What the plan really ends with: above the end amount once months are rounded up, or an answer was held at zero.
+  const reached = ok ? solveTvm(full, "end") : full.end;
+  const overshoot = ok && reached > full.end + 0.5 ? reached - full.end : 0;
   let other: Plan | null = null;
   let compare: [string, string] | null = null;
   let savingSide: Side | null = null;
@@ -167,12 +173,13 @@ export default function SavingsPlanner({
     const s0: Tvm = { ...t, rate: SAVING_RATE };
     const v = solveTvm(s0, tvmField);
     if (Number.isFinite(v)) {
-      const f = { ...s0, [tvmField]: v };
+      const f = { ...s0, [tvmField]: tvmField === "months" ? wholeMonths(v) : v };
       compare = [show(f, tvmField), show(full, tvmField)];
       // Saving at 0.05% that takes over a century is shown as such, not drawn.
       if (f.months <= MAX_MONTHS) {
         other = simulate({ start: f.start, monthly: f.monthly, months: Math.max(0, Math.round(f.months)), ratePct: SAVING_RATE, startOfMonth, today: now });
-        savingSide = { paidIn: f.start + f.monthly * f.months, interest: f.end - f.start - f.monthly * f.months };
+        const paidIn = f.start + f.monthly * f.months;
+        savingSide = { paidIn, interest: solveTvm(f, "end") - paidIn };
       }
     }
   }
@@ -186,7 +193,9 @@ export default function SavingsPlanner({
           : coveredAlready
             ? `Nothing more is needed: the other boxes already reach the ${sgd(full.end)} needed at the end. Change any four boxes and tap "Solve" on the one you want.`
             : ok
-            ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}. Change any four boxes and tap "Solve" on the one you want.`
+            ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}. Change any four boxes and tap "Solve" on the one you want.${
+                overshoot && tvmField === "months" ? ` Rounded up to whole months, so the plan ends ${sgd(overshoot)} above the amount needed.` : ""
+              }`
             : blanks
               ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Solve" on the one you want.`
               : tooLong
@@ -202,7 +211,7 @@ export default function SavingsPlanner({
   const bars: Bars | null = ok
     ? {
         saving: savingSide && covered(savingSide.paidIn, savingSide.paidIn + savingSide.interest),
-        investing: covered(paid, full.end),
+        investing: { paidIn: Math.min(paid, reached), interest: Math.max(0, reached - paid) },
         target: full.end,
         targetLabel: "Amount needed at the end",
         rate: full.rate,
@@ -282,7 +291,7 @@ export default function SavingsPlanner({
 
   function show(v: Tvm, k: TvmField): string {
     if (k === "months")
-      return v.months > MAX_MONTHS ? `Over ${MAX_MONTHS.toLocaleString("en-SG")} months` : `${Math.round(v.months).toLocaleString("en-SG")} months`;
+      return v.months > MAX_MONTHS ? `Over ${MAX_MONTHS.toLocaleString("en-SG")} months` : `${wholeMonths(v.months).toLocaleString("en-SG")} months`;
     if (k === "rate") return v.rate > 20 ? "Over 20% a year" : `${v.rate.toFixed(2)}% a year`;
     return sgd(v[k]);
   }
