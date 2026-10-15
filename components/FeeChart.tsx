@@ -63,6 +63,17 @@ export function chartParts(selections: Selection[], category: CompareCategory) {
   return { used, segments };
 }
 
+/** The figure over a bar: the amount, or why there is none ("No tuition", living costs "Not included"). */
+export function barLabel(s: Selection, category: CompareCategory, compact = true): string {
+  const value = valueFor(s, category);
+  if (value === 0) {
+    if (category === "tuition" || category === "inflation") return "No tuition";
+    if (category === "living") return "Not included";
+    if (category === "compulsoryFees" || category === "oneOffFees") return "None";
+  }
+  return compact ? formatCompactSgd(value) : formatMoney(value, "SGD");
+}
+
 export function valueFor(s: Selection, category: CompareCategory): number {
   if (category === "total") return s.grandTotalSgd;
   if (category === "inflation") return s.yearsSgd.tuition;
@@ -146,6 +157,7 @@ export default function FeeChart({
   const max = Math.max(...selections.map((s) => valueFor(s, category)), 1);
   const title = chartTitle(category, includeLiving);
   const hovered = selections.find((s) => s.key === hover);
+  const hoveredAt = selections.findIndex((s) => s.key === hover);
   const column = "w-full max-w-44 min-w-0";
   const row = selections.length > 2 ? "flex items-end justify-center gap-3 sm:gap-10" : "flex items-end justify-center gap-8 sm:gap-16";
 
@@ -169,8 +181,10 @@ export default function FeeChart({
       <div className="relative mt-8">
         {/* Plot: a fixed-height area whose bottom edge is the shared baseline. */}
         <div className={`${row} border-b border-border`}>
-          {selections.map((s) => {
+          {selections.map((s, i) => {
             const value = valueFor(s, category);
+            // The breakdown sits beside its bar: to the right of every bar but the last.
+            const side = i === selections.length - 1 && selections.length > 1 ? "right-full mr-2" : "left-full ml-2";
             return (
               <div
                 key={s.key}
@@ -189,9 +203,7 @@ export default function FeeChart({
                   style={{ height: `${(value / max) * 100}%` }}
                 >
                   <span className="absolute inset-x-0 bottom-full mb-1.5 whitespace-nowrap text-center text-sm font-semibold tabular-nums">
-                    {(category === "tuition" || category === "inflation") && value === 0
-                      ? "No tuition"
-                      : formatCompactSgd(value)}
+                    {barLabel(s, category)}
                   </span>
                   {segments.map((seg, i) => {
                     const part = seg.value(s);
@@ -206,6 +218,20 @@ export default function FeeChart({
                     );
                   })}
                 </div>
+                {hovered && hoveredAt === i && (
+                  <div
+                    role="tooltip"
+                    className={`pointer-events-none absolute top-0 z-10 w-60 rounded-lg border border-border bg-surface p-3 text-xs shadow-lg ${side}`}
+                  >
+                    <p className="font-medium">{hovered.university.name}</p>
+                    <p className="text-muted">
+                      {programmeLabel(hovered.university, hovered.programme)}
+                    </p>
+                    <dl className="mt-2 space-y-0.5 tabular-nums">
+                      <Breakdown s={hovered} category={category} used={used} />
+                    </dl>
+                  </div>
+                )}
               </div>
             );
           })}
@@ -221,21 +247,6 @@ export default function FeeChart({
             </p>
           ))}
         </div>
-
-        {hovered && (
-          <div
-            role="tooltip"
-            className="absolute left-0 top-0 z-10 w-60 rounded-lg border border-border bg-surface p-3 text-xs shadow-lg"
-          >
-            <p className="font-medium">{hovered.university.name}</p>
-            <p className="text-muted">
-              {programmeLabel(hovered.university, hovered.programme)}
-            </p>
-            <dl className="mt-2 space-y-0.5 tabular-nums">
-              <Breakdown s={hovered} category={category} used={used} />
-            </dl>
-          </div>
-        )}
       </div>
     </figure>
   );

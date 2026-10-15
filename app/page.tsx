@@ -32,15 +32,18 @@ export default async function Home() {
 
       <UniversityRationale universities={universities} countries={countries} rationale={rationale} />
 
-      <footer className="safe-x mx-auto max-w-6xl border-t-2 border-accent pt-6 pb-[calc(env(safe-area-inset-bottom)+6rem)] text-sm text-muted lg:pb-10">
-        <p>
-          Fees come from each university&apos;s published fee pages and are refreshed by an automated monthly check.
-          Future years are projections. Always confirm with the university before making decisions.
-        </p>
-        <p className="mt-2">
-          Exchange rates: {fx.source === "live" ? "European Central Bank via Frankfurter" : "stored fallback rates"}, as
-          of {fx.date}.
-        </p>
+      <footer className="safe-x mx-auto max-w-6xl pb-[calc(env(safe-area-inset-bottom)+6rem)] text-sm text-muted lg:pb-10">
+        {/* The rule sits inside the side padding, so it is exactly as wide as the content above it. */}
+        <div className="border-t-2 border-accent pt-6">
+          <p>
+            Fees come from each university&apos;s published fee pages and are refreshed by an automated monthly check.
+            Future years are projections. Always confirm with the university before making decisions.
+          </p>
+          <p className="mt-2">
+            Exchange rates: {fx.source === "live" ? "European Central Bank via Frankfurter" : "stored fallback rates"},
+            as of {fx.date}.
+          </p>
+        </div>
       </footer>
     </>
   );

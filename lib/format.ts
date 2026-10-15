@@ -71,3 +71,13 @@ export function recognitionTag(p: Programme): string {
   if (!r) return "";
   return r.listed ? ` · ${r.body} listed` : ` · not on ${r.body} list`;
 }
+
+/**
+ * The institution as a short label: the awarding partner first where there is
+ * one, e.g. "University of London · Singapore Institute of Management", so two
+ * SIM programmes with different partners can be told apart.
+ */
+export function institutionLabel(u: University, p: Programme): string {
+  const partner = partnerOf(u, p);
+  return partner ? `${partner.name} · ${u.name}` : u.name;
+}

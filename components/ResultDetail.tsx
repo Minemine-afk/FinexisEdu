@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { isStale, type CalcResult } from "@/lib/calc";
 import { formatMoney, partnerOf, programmeLabel } from "@/lib/format";
 import { LIVING_CATEGORIES, type Country, type SgRecognition } from "@/lib/schema";
@@ -11,6 +11,10 @@ import type { GlossaryTerm } from "@/lib/glossary";
 import { LIVING_LABELS, type LivingResult, type Selection } from "./useCalculator";
 
 export const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
+/** A 44px-tall tap area around an inline text link, without changing the line it sits in. */
+export const TAP_LINK = " relative after:absolute after:-inset-x-1 after:-inset-y-3.5 after:content-['']";
+/** The most a custom living budget accepts for one category, per month, in the local currency. */
+export const MAX_CUSTOM_MONTHLY = 50_000;
 
 /** A partial final year as a fraction people recognise, e.g. "½ year" or "40% of a year". */
 export function yearShare(fraction: number): string {
@@ -28,6 +32,32 @@ export function yearShare(fraction: number): string {
 /** True when the university charges no tuition at all for this programme (e.g. most German public universities). */
 export function noTuition(result: CalcResult): boolean {
   return result.years.length > 0 && result.years.every((y) => y.tuition === 0);
+}
+
+/**
+ * Whether a horizontally scrolling element still has content hidden past its
+ * right edge (under the pinned column), kept up to date as it scrolls or resizes.
+ */
+function useScrollShadow() {
+  const scroller = useRef<HTMLDivElement>(null);
+  const [covered, setCovered] = useState(false);
+  useEffect(() => {
+    const el = scroller.current;
+    if (!el) return;
+    const update = () =>
+      setCovered(el.scrollWidth - el.clientWidth - el.scrollLeft > 1);
+    update();
+    el.addEventListener("scroll", update, { passive: true });
+    // The table's own width changes when its columns do, not only the box's.
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    if (el.firstElementChild) ro.observe(el.firstElementChild);
+    return () => {
+      el.removeEventListener("scroll", update);
+      ro.disconnect();
+    };
+  }, []);
+  return { scroller, covered };
 }
 
 /** Year-by-year fees, living costs and sources for one university. */
@@ -55,9 +85,13 @@ export default function ResultDetail({
   const hasCompulsory = result.years.some((y) => y.compulsoryFees > 0);
   const hasOneOff = result.years.some((y) => y.oneOffFees > 0);
   const num = `whitespace-nowrap py-1 text-right font-normal ${hasCompulsory && hasOneOff ? "pl-2" : "pl-3"}`;
-  // Three tables side by side can be narrower than their columns; the total then
-  // stays pinned at the right while the other columns scroll under it.
-  const total = `${num} sticky right-0 border-l border-border bg-surface`;
+  // Headers may wrap ("Other fees" on two lines) so the numbers need less width.
+  const head = `py-1 text-right align-bottom font-normal ${hasCompulsory && hasOneOff ? "pl-2" : "pl-3"}`;
+  // Tables side by side can be narrower than their columns; the total then stays
+  // pinned at the right while the other columns scroll under it, with a shadow
+  // on its left edge while any column is hidden beneath it.
+  const { scroller, covered } = useScrollShadow();
+  const total = `${num} sticky right-0 border-l border-border bg-surface${covered ? " shadow-[-10px_0_10px_-8px_rgba(0,0,0,0.35)]" : ""}`;
   // Cohort-locked programmes are priced at the start year's fee throughout.
   const historyYears = new Set(
     result.years
@@ -180,7 +214,7 @@ export default function ResultDetail({
         </div>
       </div>
 
-      <div className="mt-4 overflow-x-auto">
+      <div ref={scroller} className="mt-4 overflow-x-auto">
         <table
           className={`w-full tabular-nums ${(hasCompulsory && hasOneOff) || className ? "text-xs" : "text-sm"}`}
         >
@@ -188,22 +222,24 @@ export default function ResultDetail({
           <thead className="text-left text-xs text-muted">
             <tr>
               <th className="py-1 pr-2 font-medium">Year</th>
-              <th className={num}>Tuition</th>
+              <th className={head}>Tuition</th>
               {hasCompulsory && (
-                <th className={num}>
+                <th className={head}>
                   <InfoTip term="compulsoryFees" align="right">
                     Other fees
                   </InfoTip>
                 </th>
               )}
               {hasOneOff && (
-                <th className={num}>
+                <th className={head}>
                   <InfoTip term="oneOffFees" align="right">
                     One-off
                   </InfoTip>
                 </th>
               )}
-              <th className={total}>Fees (SGD)</th>
+              <th className={`${total} align-bottom`}>
+                Fees <span className="whitespace-nowrap">(SGD)</span>
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -292,7 +328,7 @@ export default function ResultDetail({
         <p className="mt-3 text-xs text-muted">
           {p.feeYear}/{String((p.feeYear + 1) % 100).padStart(2, "0")} fees ·{" "}
           <a
-            className="text-accent underline hover:text-foreground"
+            className={`text-accent underline hover:text-foreground${TAP_LINK}`}
             href={p.sourceUrl}
             target="_blank"
             rel="noreferrer"
@@ -304,7 +340,7 @@ export default function ResultDetail({
             <span key={h.year}>
               {" · "}
               <a
-                className="text-accent underline hover:text-foreground"
+                className={`text-accent underline hover:text-foreground${TAP_LINK}`}
                 href={h.url}
                 target="_blank"
                 rel="noreferrer"
@@ -339,7 +375,7 @@ function MoreNotes({
       </summary>
       <p className="mt-1 text-muted">{children}</p>
       <a
-        className={`mt-1 inline-flex items-center gap-1 rounded font-medium text-accent hover:text-foreground${FOCUS}`}
+        className={`mt-1 inline-flex min-h-11 items-center gap-1 rounded font-medium text-accent hover:text-foreground${FOCUS}`}
         href={href}
         target="_blank"
         rel="noreferrer"
@@ -487,7 +523,7 @@ function LivingSection({
       <p className="mt-1 text-xs text-muted">
         {e.year} estimate ·{" "}
         <a
-          className="text-accent underline hover:text-foreground"
+          className={`text-accent underline hover:text-foreground${TAP_LINK}`}
           href={e.sourceUrl}
           target="_blank"
           rel="noreferrer"
@@ -517,6 +553,10 @@ function CustomLiving({
         LIVING_CATEGORIES.map((c) => [c, Math.round(initial[c])]),
       ) as MonthlyLiving,
   );
+  // Which boxes were typed over the cap, so the message can say so.
+  const [capped, setCapped] = useState<string[]>([]);
+  const budgetId = useId();
+  const capNote = `Each line is capped at ${MAX_CUSTOM_MONTHLY.toLocaleString("en-SG")} ${currency} a month.`;
   return (
     <form
       className="mt-2 space-y-2"
@@ -534,20 +574,37 @@ function CustomLiving({
             <input
               type="number"
               min={0}
+              max={MAX_CUSTOM_MONTHLY}
               step="any"
               inputMode="decimal"
+              aria-label={`${LIVING_LABELS[c]} in ${currency} a month`}
+              aria-describedby={capped.length ? `${budgetId}-cap` : undefined}
               className={`mt-0.5 h-11 w-full rounded-md border border-border bg-surface px-2 text-right tabular-nums${FOCUS}`}
               value={draft[c]}
-              onChange={(ev) =>
-                setDraft({
-                  ...draft,
-                  [c]: Math.max(0, Number(ev.target.value)),
-                })
-              }
+              onChange={(ev) => {
+                const typed = Number(ev.target.value);
+                const n = Math.min(
+                  MAX_CUSTOM_MONTHLY,
+                  Math.max(0, Number.isFinite(typed) ? typed : 0),
+                );
+                setCapped((prev) =>
+                  typed > MAX_CUSTOM_MONTHLY
+                    ? prev.includes(c)
+                      ? prev
+                      : [...prev, c]
+                    : prev.filter((x) => x !== c),
+                );
+                setDraft({ ...draft, [c]: n });
+              }}
             />
           </label>
         ))}
       </div>
+      {capped.length > 0 && (
+        <p id={`${budgetId}-cap`} className="text-xs text-warn-fg">
+          {capNote}
+        </p>
+      )}
       <div className="flex gap-2">
         <button
           type="submit"
