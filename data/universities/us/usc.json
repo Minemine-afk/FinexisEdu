@@ -1,6 +1,7 @@
 {
   "id": "usc",
   "name": "University of Southern California",
+  "feeMethod": "Charges one flat undergraduate tuition for every major, so the calculator uses it for all bachelor's degrees. Engineering master's are billed per unit at one rate, so the calculator uses that rate times the yearly load in USC's own cost sheet.",
   "country": "us",
   "city": "Los Angeles, CA",
   "currency": "USD",

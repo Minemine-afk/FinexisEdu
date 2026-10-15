@@ -1,6 +1,7 @@
 {
   "id": "stanford",
   "name": "Stanford University",
+  "feeMethod": "Charges one undergraduate tuition for every major, so the calculator uses it for all bachelor's degrees. Graduate tuition is set by school (Engineering, standard graduate, Law, Medicine, GSB), and each degree uses its school's published quarterly rate times three quarters.",
   "country": "us",
   "city": "Stanford, CA",
   "currency": "USD",

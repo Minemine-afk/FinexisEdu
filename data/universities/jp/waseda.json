@@ -1,6 +1,7 @@
 {
   "id": "waseda",
   "name": "Waseda University",
+  "feeMethod": "A private university that publishes a fee table for each entry year with one row per school (and, for science master's, per-department lab fees); the calculator uses the 2026 entrants' row, spreading the admission fee into year 1 so each year costs the same.",
   "country": "jp",
   "city": "Tokyo",
   "currency": "JPY",

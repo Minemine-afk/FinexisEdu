@@ -227,6 +227,12 @@ export default function ResultDetail({
             >
               source ↗
             </a>
+            {u.feeMethod && (
+              <span className="mt-1 block">
+                <span className="font-medium text-foreground">How {u.name} prices degrees: </span>
+                {u.feeMethod}
+              </span>
+            )}
           </p>
         )}
       </div>

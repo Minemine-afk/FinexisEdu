@@ -1,6 +1,7 @@
 {
   "id": "cmu",
   "name": "Carnegie Mellon University",
+  "feeMethod": "Charges one undergraduate tuition for every major, so the calculator uses that rate for all bachelor's degrees. Master's tuition is set per college (and for the MBA per programme), so each master's uses its own college's published rate.",
   "country": "us",
   "city": "Pittsburgh, PA",
   "currency": "USD",

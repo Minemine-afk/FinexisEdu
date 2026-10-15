@@ -182,6 +182,8 @@ export const University = z.object({
   description: z.string().min(1).optional(),
   /** Why it is in the calculator, e.g. evidence of Singaporean enrolment or recognition. */
   whyIncluded: z.string().min(1).optional(),
+  /** How the university prices its degrees (flat, by faculty, by major...) and so which fee the calculator picks; shown with each programme's fee note. */
+  feeMethod: z.string().min(1).max(360).optional(),
   livingCosts: LivingCosts.optional(),
   /** Awarding universities, when this institution teaches other universities' degrees. */
   partners: z.array(Partner).optional(),

@@ -1,6 +1,7 @@
 {
   "id": "sophia",
   "name": "Sophia University",
+  "feeMethod": "A private university whose yearly fee table groups faculties into a few fee blocks (e.g. most humanities/social sciences share one, Science and Technology, Psychology and Nursing have their own); the calculator uses the 2026-entrant column for the relevant block, plus the entrance fee.",
   "country": "jp",
   "city": "Tokyo",
   "currency": "JPY",

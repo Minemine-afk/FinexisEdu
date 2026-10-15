@@ -13,6 +13,7 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
   "website": "https://www.nus.edu.sg",
   "description": "Singapore's oldest and largest ...",   // 1–2 factual sentences, shown on hover over the name
   "whyIncluded": "MOE-funded Autonomous University ...", // why it is in the calculator (evidence of Singaporean demand)
+  "feeMethod": "One rate per faculty; every major in it pays the same ...",   // required, max 360 chars, shown under "How this fee was worked out": how this university prices degrees (flat, by faculty, by major, by subject band...) and so which fee the calculator picks. No URLs
   "partners": [                                  // optional; only for institutions that teach other universities' degrees (SIM)
     { "id": "uol", "name": "University of London", "country": "United Kingdom", "website": "https://www.london.ac.uk", "description": "..." }
   ],
