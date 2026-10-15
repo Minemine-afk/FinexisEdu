@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { PRICE_BASE_YEAR } from "@/lib/calc";
 import { formatCompactSgd, formatMoney, programmeLabel } from "@/lib/format";
 import type { Selection } from "./useCalculator";
 import UniversityName from "./UniversityName";
+import { useClampX } from "./useClampX";
 
 export const SEGMENTS = [
   { key: "tuition", label: "Tuition", color: "bg-series-1" },
@@ -197,6 +198,12 @@ export default function FeeChart({
                 onClick={() => setHover(s.key)}
                 onFocus={() => setHover(s.key)}
                 onBlur={() => setHover(null)}
+                onKeyDown={(e) => {
+                  if (e.key === "Escape") {
+                    setHover(null);
+                    e.currentTarget.blur();
+                  }
+                }}
               >
                 <div
                   className="absolute inset-x-0 bottom-0 flex flex-col-reverse gap-0.5"
@@ -219,10 +226,7 @@ export default function FeeChart({
                   })}
                 </div>
                 {hovered && hoveredAt === i && (
-                  <div
-                    role="tooltip"
-                    className={`pointer-events-none absolute top-0 z-10 w-60 rounded-lg border border-border bg-surface p-3 text-xs shadow-lg ${side}`}
-                  >
+                  <BarTip className={side}>
                     <p className="font-medium">{hovered.university.name}</p>
                     <p className="text-muted">
                       {programmeLabel(hovered.university, hovered.programme)}
@@ -230,7 +234,7 @@ export default function FeeChart({
                     <dl className="mt-2 space-y-0.5 tabular-nums">
                       <Breakdown s={hovered} category={category} used={used} />
                     </dl>
-                  </div>
+                  </BarTip>
                 )}
               </div>
             );
@@ -249,5 +253,20 @@ export default function FeeChart({
         </div>
       </div>
     </figure>
+  );
+}
+
+/** The breakdown card beside a bar, slid sideways when it would run off the screen. */
+function BarTip({ className, children }: { className: string; children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null);
+  useClampX(ref, true);
+  return (
+    <div
+      ref={ref}
+      role="tooltip"
+      className={`pointer-events-none absolute top-0 z-10 w-60 rounded-lg border border-border bg-surface p-3 text-xs shadow-lg ${className}`}
+    >
+      {children}
+    </div>
   );
 }

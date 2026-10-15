@@ -19,7 +19,9 @@ const TABLET_SHORT_SIDE = 600;
 
 function current(): Layout {
   const touch = window.matchMedia(COARSE).matches || navigator.maxTouchPoints > 0;
-  const shortSide = Math.min(window.innerWidth, window.innerHeight);
+  // The screen's own short side: the window's height shrinks under browser
+  // chrome or a keyboard, which must not turn a tablet into a phone mid-use.
+  const shortSide = Math.min(screen.width || window.innerWidth, screen.height || window.innerHeight);
   if (window.matchMedia(PHONE).matches) {
     return touch && shortSide >= TABLET_SHORT_SIDE ? "tablet" : "phone";
   }

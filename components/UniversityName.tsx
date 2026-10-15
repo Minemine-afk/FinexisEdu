@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import type { University } from "@/lib/schema";
+import { useClampX } from "./useClampX";
 
 /**
  * A university's name as a link to its website, with a small card on hover
@@ -13,6 +14,9 @@ export default function UniversityName({ university: u, className = "" }: { univ
   const [open, setOpen] = useState(false);
   const id = useId();
   const root = useRef<HTMLSpanElement>(null);
+  const card = useRef<HTMLSpanElement>(null);
+  // A card near the screen's right edge slides left to stay in view.
+  useClampX(card, open);
   // iOS Safari gives neither buttons nor links focus on a tap, so blur never
   // fires there; a tap anywhere else closes the card instead.
   useEffect(() => {
@@ -68,8 +72,9 @@ export default function UniversityName({ university: u, className = "" }: { univ
       {hasCard && (
         <span
           id={id}
+          ref={card}
           role="tooltip"
-          className={`absolute left-0 top-full z-30 mt-1.5 w-72 max-w-[85vw] rounded-lg border border-border bg-surface p-3 text-left text-xs font-normal normal-case tracking-normal text-foreground shadow-lg ${open ? "block" : "hidden"}`}
+            className={`absolute left-0 top-full z-30 mt-1.5 w-72 max-w-[85vw] rounded-lg border border-border bg-surface p-3 text-left text-xs font-normal normal-case tracking-normal text-foreground shadow-lg ${open ? "block" : "hidden"}`}
         >
           {u.description && <span className="block">{u.description}</span>}
           {u.whyIncluded && (

@@ -22,7 +22,7 @@ export default function RateInput({
   onChange: (rate: number) => void;
   className?: string;
 }) {
-  const shown = String(+(value * 100).toFixed(1));
+  const shown = String(+(value * 100).toFixed(2));
   const [text, setText] = useState(shown);
   // Follow outside changes (another control, a reset) without fighting the user's typing.
   const [applied, setApplied] = useState(value);
@@ -55,7 +55,7 @@ export default function RateInput({
         setApplied(rate);
         onChange(rate);
       }}
-      onBlur={() => setText(String(+(value * 100).toFixed(1)))}
+      onBlur={() => setText(String(+(value * 100).toFixed(2)))}
     />
   );
 }

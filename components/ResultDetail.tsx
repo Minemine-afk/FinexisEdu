@@ -91,7 +91,10 @@ export default function ResultDetail({
   // pinned at the right while the other columns scroll under it, with a shadow
   // on its left edge while any column is hidden beneath it.
   const { scroller, covered } = useScrollShadow();
-  const total = `${num} sticky right-0 border-l border-border bg-surface${covered ? " shadow-[-10px_0_10px_-8px_rgba(0,0,0,0.35)]" : ""}`;
+  // The edge is drawn as an inset shadow: a sticky cell's own border does not
+  // move with it under border-collapse. A wider, darker shade is added while
+  // a column is hidden beneath.
+  const total = `${num} sticky right-0 bg-surface ${covered ? "shadow-[inset_1px_0_0_var(--color-border),-14px_0_12px_-6px_rgba(0,0,0,0.35)]" : "shadow-[inset_1px_0_0_var(--color-border)]"}`;
   // Cohort-locked programmes are priced at the start year's fee throughout.
   const historyYears = new Set(
     result.years
@@ -547,12 +550,16 @@ function CustomLiving({
   customised: boolean;
   onSave: (m: MonthlyLiving | null) => void;
 }) {
-  const [draft, setDraft] = useState<MonthlyLiving>(
-    () =>
-      Object.fromEntries(
-        LIVING_CATEGORIES.map((c) => [c, Math.round(initial[c])]),
-      ) as MonthlyLiving,
+  // What is typed in each box, so a box can be emptied or hold "15" on the way to "1500".
+  const [text, setText] = useState<Record<string, string>>(() =>
+    Object.fromEntries(LIVING_CATEGORIES.map((c) => [c, String(Math.round(initial[c]))])),
   );
+  const draft = Object.fromEntries(
+    LIVING_CATEGORIES.map((c) => {
+      const n = Number(text[c]);
+      return [c, text[c].trim() === "" || !Number.isFinite(n) ? 0 : Math.min(MAX_CUSTOM_MONTHLY, Math.max(0, n))];
+    }),
+  ) as MonthlyLiving;
   // Which boxes were typed over the cap, so the message can say so.
   const [capped, setCapped] = useState<string[]>([]);
   const budgetId = useId();
@@ -580,21 +587,22 @@ function CustomLiving({
               aria-label={`${LIVING_LABELS[c]} in ${currency} a month`}
               aria-describedby={capped.length ? `${budgetId}-cap` : undefined}
               className={`mt-0.5 h-11 w-full rounded-md border border-border bg-surface px-2 text-right tabular-nums${FOCUS}`}
-              value={draft[c]}
+              value={text[c]}
               onChange={(ev) => {
-                const typed = Number(ev.target.value);
-                const n = Math.min(
-                  MAX_CUSTOM_MONTHLY,
-                  Math.max(0, Number.isFinite(typed) ? typed : 0),
-                );
+                const raw = ev.target.value;
+                const typed = Number(raw);
+                const over = typed > MAX_CUSTOM_MONTHLY;
+                const under = typed < 0;
                 setCapped((prev) =>
-                  typed > MAX_CUSTOM_MONTHLY
+                  over
                     ? prev.includes(c)
                       ? prev
                       : [...prev, c]
                     : prev.filter((x) => x !== c),
                 );
-                setDraft({ ...draft, [c]: n });
+                // Beyond a limit the box shows the limit at once; otherwise what was
+                // typed stays, minus leading zeros ("01500" reads as 1500).
+                setText({ ...text, [c]: over ? String(MAX_CUSTOM_MONTHLY) : under ? "0" : raw.replace(/^0+(?=\d)/, "") });
               }}
             />
           </label>

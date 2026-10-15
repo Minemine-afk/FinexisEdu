@@ -52,13 +52,19 @@ export default function TouchCalculator({
   const [tab, setTab] = useState<Tab>("settings");
   // Each tab keeps its own scroll position, so Compare → Details → Compare returns to the same place.
   const tabScroll = useRef<Record<Tab, number>>({ settings: 0, compare: 0 });
+  // A settings chip opens Details at the control it names.
+  const jumpTo = useRef<string | null>(null);
   const changeTab = (next: Tab, top = false) => {
     tabScroll.current[tab] = window.scrollY;
     if (top) tabScroll.current[next] = 0;
     setTab(next);
   };
   useEffect(() => {
-    if (layout !== "tablet") window.scrollTo({ top: tabScroll.current[tab] });
+    if (layout === "tablet") return;
+    const target = jumpTo.current && document.getElementById(jumpTo.current);
+    jumpTo.current = null;
+    if (target) target.scrollIntoView({ block: "start" });
+    else window.scrollTo({ top: tabScroll.current[tab] });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tab]);
   // The comparison slot open in the picker sheet, if any.
@@ -142,7 +148,15 @@ export default function TouchCalculator({
         <div className={tablet ? "" : "border-t border-border pt-6"}>{universities}</div>
       </aside>
       <div className={tablet ? "min-w-0" : tab === "compare" ? "space-y-4" : "hidden"}>
-        {!tablet && <SettingsChips state={state} onOpen={() => changeTab("settings")} />}
+        {!tablet && (
+          <SettingsChips
+            state={state}
+            onOpen={(id) => {
+              jumpTo.current = id;
+              changeTab("settings");
+            }}
+          />
+        )}
         <Results state={state} today={today} layout={layout} onPlan={setPlanKey} />
       </div>
       {!tablet && (
@@ -178,26 +192,25 @@ function SettingsChips({
   onOpen,
 }: {
   state: CalculatorState;
-  onOpen: () => void;
+  /** Opens the Details tab at the control with this id. */
+  onOpen: (id: string) => void;
 }) {
-  const chips = [
-    LEVEL_LABELS[state.level],
-    RESIDENCY_LABELS[state.residency].replace(" student", ""),
-    `Starts ${state.startYear}`,
+  const chips: [string, string][] = [
+    [LEVEL_LABELS[state.level], "touch-level"],
+    [RESIDENCY_LABELS[state.residency].replace(" student", ""), "touch-residency"],
+    [`Starts ${state.startYear}`, "touch-start-year-section"],
     ...(state.customIncrease !== null
-      ? [`Your rate ${(state.customIncrease * 100).toFixed(1)}%/yr`]
+      ? [[`Your rate ${(state.customIncrease * 100).toFixed(1)}%/yr`, "touch-rate"] as [string, string]]
       : []),
-    state.includeLiving
-      ? `${LIFESTYLE_LABELS[state.lifestyle]} living costs`
-      : "Fees only",
+    [state.includeLiving ? `${LIFESTYLE_LABELS[state.lifestyle]} living costs` : "Fees only", "touch-living"],
   ];
   return (
     <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
-      {chips.map((text) => (
+      {chips.map(([text, id]) => (
         <button
           key={text}
           type="button"
-          onClick={onOpen}
+          onClick={() => onOpen(id)}
           className={`shrink-0 whitespace-nowrap rounded-full border border-border bg-surface px-3.5 font-medium ${BIG_BUTTON}`}
         >
           {text} <span aria-hidden className="text-xs text-muted">▾</span>
@@ -494,13 +507,14 @@ function Assumptions({ state }: { state: CalculatorState }) {
   return (
     <div className="space-y-6">
       <TouchSegmented
+        id="touch-level"
         label="Level"
         value={level}
         options={LEVELS.map((l) => [l, LEVEL_LABELS[l]])}
         onChange={changeLevel}
       />
 
-      <fieldset>
+      <fieldset id="touch-residency" className="scroll-mt-4">
         <legend className="mb-2 text-sm font-medium">
           <InfoTip term="residency">Residency</InfoTip>
         </legend>
@@ -520,7 +534,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
         </p>
       </fieldset>
 
-      <div>
+      <div id="touch-start-year-section" className="scroll-mt-4">
         <p className="text-sm font-medium">
           <InfoTip term="startYear">Start year</InfoTip>
         </p>
@@ -572,7 +586,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
         </p>
       </div>
 
-      <div>
+      <div id="touch-rate" className="scroll-mt-4">
         <p className="text-sm font-medium">Yearly fee increase</p>
         <ul className="mt-2 divide-y divide-border rounded-xl border border-border bg-surface px-3 text-sm">
           {selections.length === 0 && (
@@ -631,7 +645,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
         )}
       </div>
 
-      <div>
+      <div id="touch-living" className="scroll-mt-4">
         <p className="text-sm font-medium">
           <InfoTip term="livingCosts">Living costs</InfoTip>
         </p>
@@ -723,7 +737,7 @@ function SlotRow({
           onClick={onOpen}
           className={`flex min-h-16 min-w-0 flex-1 items-center gap-3 px-3 py-2 text-left${FOCUS} rounded-xl`}
         >
-          <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-chip text-sm font-semibold text-accent">
+          <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-accent-fill text-sm font-semibold text-on-accent">
             {index + 1}
           </span>
           <span className="min-w-0 flex-1">
@@ -1133,12 +1147,14 @@ function Chip({
 
 /** A radio group as a row of equal, touch-sized buttons. */
 function TouchSegmented<T extends string>({
+  id,
   label,
   value,
   options,
   onChange,
   tip,
 }: {
+  id?: string;
   label: string;
   value: T;
   /** Value, label and, when the label may be clipped, the full text for `title` and the accessible name. */
@@ -1153,7 +1169,7 @@ function TouchSegmented<T extends string>({
   const span = (i: number) =>
     n > 4 ? 12 / (i < firstRow ? firstRow : n - firstRow) : 1;
   return (
-    <div>
+    <div id={id} className="scroll-mt-4">
       <span className="text-sm font-medium">
         {tip ? (
           <InfoTip term={tip}>{label}</InfoTip>
@@ -1179,9 +1195,9 @@ function TouchSegmented<T extends string>({
             title={full}
             onClick={() => onChange(v)}
             style={{ gridColumn: `span ${span(i)}` }}
-            className={`min-h-11 rounded-lg px-1 py-1 text-[13px] leading-tight${FOCUS} ${value === v ? "bg-surface font-semibold shadow-sm" : "text-muted"}`}
+            className={`min-h-11 rounded-lg px-0 py-1 text-xs leading-tight${FOCUS} ${value === v ? "bg-surface font-semibold shadow-sm" : "text-muted"}`}
           >
-            <span className="line-clamp-2 break-words">{text}</span>
+            <span className="line-clamp-2 [overflow-wrap:normal]">{text}</span>
           </button>
         ))}
       </div>

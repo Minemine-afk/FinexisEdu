@@ -149,6 +149,8 @@ export default function SavingsPlanner({
   // A month count past a century is no plan at all.
   const tooLong = tvmField === "months" && solved > MAX_MONTHS;
   const ok = Number.isFinite(solved) && !tooLong;
+  // With zero months typed there is no time for monthly saving or interest to do anything.
+  const noTime = !ok && t.months === 0 && (tvmField === "monthly" || tvmField === "rate");
   // "Clear form" leaves boxes empty (NaN) until they are filled in again.
   const blanks = TVM_FIELDS.filter(([k]) => k !== tvmField && !Number.isFinite(t[k])).length;
   // Only a real answer is simulated, and never beyond a century of months.
@@ -175,7 +177,7 @@ export default function SavingsPlanner({
   const answer = (
     <Answer
       question={TVM_FIELDS.find(([k]) => k === tvmField)![2]}
-      value={ok ? show(full, tvmField) : blanks ? "Fill in the boxes" : tooLong ? "Over 100 years" : "Not possible"}
+      value={ok ? show(full, tvmField) : blanks ? "Fill in the boxes" : tooLong ? "Over 100 years" : noTime ? "No time to save" : "Not possible"}
       note={
         dueNow
           ? `Fees are due now, so the whole ${sgd(full.end)} is needed today and there is no time for interest to build. Change any four boxes and tap "Solve" on the one you want.`
@@ -185,7 +187,9 @@ export default function SavingsPlanner({
               ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Solve" on the one you want.`
               : tooLong
                 ? `That would take more than ${MAX_MONTHS.toLocaleString("en-SG")} months. Start with more, save more each month or earn more interest.`
-                : "No answer fits these numbers. Check the four boxes you filled in."
+                : noTime
+                  ? 'With 0 months the whole amount is needed today. Tap "Solve" on "Amount to start with", or give it some months.'
+                  : "No answer fits these numbers. Check the four boxes you filled in."
       }
     />
   );
@@ -241,7 +245,8 @@ export default function SavingsPlanner({
           </div>
           <NumberField
             id={`tvm-${k}`}
-            value={full[k]}
+            // A month count past a century is no answer, so its box stays blank.
+            value={k === "months" && tooLong ? NaN : full[k]}
             decimals={k === "rate" ? 2 : 0}
             prefix={k === "months" || k === "rate" ? undefined : "S$"}
             suffix={k === "months" ? "months" : k === "rate" ? "% a year" : undefined}
@@ -601,8 +606,9 @@ function NumberField({
         onBlur={() => setDraft(null)}
         onChange={(e) => {
           setDraft(e.target.value);
-          const v = parseFloat(e.target.value.replace(/[^0-9.-]/g, ""));
-          if (Number.isFinite(v)) onValue(v);
+          // Thousands separators and spaces are ignored; anything else must read as a number.
+          const v = Number(e.target.value.replace(/[,\s]/g, ""));
+          if (e.target.value.trim() !== "" && Number.isFinite(v)) onValue(v);
         }}
         className="h-full min-w-0 flex-1 bg-transparent px-3 tabular-nums outline-none"
       />
