@@ -63,3 +63,36 @@ sources:
     country: sg
     url: "https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
     manual: true
+  # NIE earlier-year fees (AY2024-25, AY2025-26) added 2026-10-15; PDFs read by hand
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees/accepted-programme-offer-in-2024"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees/accepted-programme-offer-in-2025"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/ay2024-2025-fees/new-intake/moe_cw-ay2024---newintakesv2.pdf?sfvrsn=64fc2f55_3"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/ay2024-2025-fees/new-intake/research-fees-ay2024_new-intakesv2.pdf?sfvrsn=b6e29718_3"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/ay2024-2025-fees/new-intake/self-fin-mbc-ay2024---newintakes_may2024.pdf?sfvrsn=27c8a370_3"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-tuition-fees-ay2025-2026/11-july-2025/moe-cw-sub-ay2025---newintakes-v2_final.pdf?sfvrsn=1e366e8_1"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-tuition-fees-ay2025-2026/research-fees-ay2025_new-intakesv1_a.pdf?sfvrsn=26bcc278_1"
+    manual: true
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-tuition-fees-ay2025-2026/self-fin-mbc-ay2025---newintakes_sep2025.pdf?sfvrsn=f641171d_1"
+    manual: true
