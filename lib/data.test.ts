@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import fallback from "@/data/fx-fallback.json";
-import { loadCountries, loadRationale, loadUniversities } from "./data";
+import { loadCountries, loadCourses, loadRationale, loadUniversities } from "./data";
 import { FX_CURRENCIES } from "./fx";
-import { COUNTRY_CODES, FxRates } from "./schema";
+import { COUNTRY_CODES, FIELDS, FxRates } from "./schema";
 
 // Guards the committed data, including every scraper PR.
 describe("committed data", () => {
@@ -139,6 +139,15 @@ describe("committed data", () => {
     for (const u of universities) {
       expect(u.whyIncluded, u.id).not.toMatch(banned);
       expect(u.whyIncluded!.length, u.id).toBeLessThanOrEqual(400);
+    }
+  });
+
+  it("gives every field of study exactly one reason, figure and source", () => {
+    const courses = loadCourses();
+    expect(courses.map((c) => c.field).sort()).toEqual([...FIELDS].sort());
+    for (const c of courses) {
+      expect(`${c.reason} ${c.figure}`, c.field).not.toMatch(/—|judgement|not verified/i);
+      expect(universities.some((u) => u.programmes.some((p) => p.field === c.field)), c.field).toBe(true);
     }
   });
 
