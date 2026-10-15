@@ -5,7 +5,10 @@ import {
   FIELD_LABELS,
   LEVEL_LABELS,
   RESIDENCY_LABELS,
+  OWN,
   institutionLabel,
+  partnerChoices,
+  partnerPickerLabel,
   recognitionTag,
 } from "@/lib/format";
 import { FIELDS, LEVELS, type Field } from "@/lib/schema";
@@ -432,10 +435,9 @@ function UniversityPicker({
   const atUniversity = inCountry.filter(
     (o) => o.university.id === current.university.id,
   );
-  // Institutions such as SIM teach other universities' degrees: pick the awarding partner next.
-  const partners = (current.university.partners ?? []).filter((p) =>
-    atUniversity.some((o) => o.programme.partner === p.id),
-  );
+  // Institutions such as SIM teach other universities' degrees, and NTU has its own
+  // institute (NIE): pick the awarding partner or institute next.
+  const partners = partnerChoices(current.university, atUniversity);
   const atPartner = partners.length
     ? atUniversity.filter((o) => o.programme.partner === current.programme.partner)
     : atUniversity;
@@ -512,15 +514,15 @@ function UniversityPicker({
       </label>
       {partners.length > 0 && (
         <label className="mt-2 block">
-          <span className="text-sm">Partner university</span>
+          <span className="text-sm">{partnerPickerLabel(current.university)}</span>
           <select
             className={select}
-            value={current.programme.partner}
+            value={current.programme.partner ?? OWN}
             onChange={(e) =>
               onChange(
                 pick(
                   atUniversity.filter(
-                    (o) => o.programme.partner === e.target.value,
+                    (o) => (o.programme.partner ?? OWN) === e.target.value,
                   ),
                 ).key,
               )
