@@ -8,24 +8,30 @@ export type MaybeLayout = Layout | "pending";
 
 // Phones get the tabbed layout; tablets get a sidebar with touch-sized
 // controls; everything else gets the desktop layout. A wide touch screen up to
-// an iPad Pro in landscape (1366px) counts as a tablet.
+// an iPad Pro in landscape (1366px) counts as a tablet, as does a narrower
+// touch screen whose short side is at least 600px (a small Android tablet such
+// as a Galaxy Tab S4 in portrait, 712px wide), which a phone's never is.
 const PHONE = "(max-width: 767px)";
 const NARROW = "(max-width: 1023px)";
-const WIDE_TOUCH = "(max-width: 1366px) and (pointer: coarse)";
+const COARSE = "(pointer: coarse)";
+const WIDE_TOUCH = `(max-width: 1366px) and ${COARSE}`;
+const TABLET_SHORT_SIDE = 600;
 
 function current(): Layout {
-  if (window.matchMedia(PHONE).matches) return "phone";
+  const touch = window.matchMedia(COARSE).matches || navigator.maxTouchPoints > 0;
+  // The screen's own short side: the window's height shrinks under browser
+  // chrome or a keyboard, which must not turn a tablet into a phone mid-use.
+  const shortSide = Math.min(screen.width || window.innerWidth, screen.height || window.innerHeight);
+  if (window.matchMedia(PHONE).matches) {
+    return touch && shortSide >= TABLET_SHORT_SIDE ? "tablet" : "phone";
+  }
   if (window.matchMedia(NARROW).matches) return "tablet";
-  if (
-    window.matchMedia(WIDE_TOUCH).matches ||
-    (window.innerWidth <= 1366 && navigator.maxTouchPoints > 0)
-  )
-    return "tablet";
+  if (window.matchMedia(WIDE_TOUCH).matches || (window.innerWidth <= 1366 && touch)) return "tablet";
   return "desktop";
 }
 
 function subscribe(onChange: () => void) {
-  const lists = [PHONE, NARROW, WIDE_TOUCH].map((q) => window.matchMedia(q));
+  const lists = [PHONE, NARROW, COARSE, WIDE_TOUCH].map((q) => window.matchMedia(q));
   window.addEventListener("resize", onChange);
   lists.forEach((l) => l.addEventListener("change", onChange));
   return () => {

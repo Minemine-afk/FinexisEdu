@@ -65,7 +65,7 @@ sources:
   # DAAD national average student expenses (HU publishes no breakdown we can read)
   - university: hu-berlin
     country: de
-    url: https://www.daad.de/en/study-and-research-in-germany/plan-your-studies/costs-of-education-and-living/
+    url: https://www.daad.de/en/studying-in-germany/living-in-germany/finances/
     parser: html
     targets:
     - key: living.housing

@@ -116,7 +116,7 @@ function Row({ u, r }: { u: University; r?: ShortlistRationale }) {
               href={r.source}
               target="_blank"
               rel="noreferrer"
-              className={`whitespace-nowrap text-xs text-accent underline-offset-4 hover:underline${FOCUS}`}
+              className={`inline-flex min-h-11 items-center whitespace-nowrap text-xs text-accent underline-offset-4 hover:underline${FOCUS}`}
             >
               Source ↗
             </a>

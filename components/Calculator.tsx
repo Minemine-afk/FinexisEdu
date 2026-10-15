@@ -5,7 +5,7 @@ import {
   FIELD_LABELS,
   LEVEL_LABELS,
   RESIDENCY_LABELS,
-  partnerOf,
+  institutionLabel,
   recognitionTag,
 } from "@/lib/format";
 import { FIELDS, LEVELS, type Field } from "@/lib/schema";
@@ -15,7 +15,7 @@ import RateInput from "./RateInput";
 import InfoTip from "./InfoTip";
 import type { GlossaryTerm } from "@/lib/glossary";
 import ResultDetail, { FOCUS } from "./ResultDetail";
-import StatTiles from "./StatTiles";
+import StatTiles, { EmptyResults } from "./StatTiles";
 import TouchCalculator from "./TouchCalculator";
 import { useLayout } from "./useLayout";
 import {
@@ -50,12 +50,19 @@ export default function Calculator(props: CalculatorProps) {
   return <DesktopCalculator state={state} today={props.today} />;
 }
 
-/** Grey blocks roughly where the controls and results will appear. */
+/**
+ * Grey blocks roughly where the controls and results will appear, kept about
+ * as tall as the layout that replaces them (one university chosen: a phone's
+ * Details tab, a tablet's sidebar beside its results, the desktop grid) so the
+ * page below barely moves when the real calculator arrives. The minimums sit
+ * just under the shortest real layout at each width, so content only ever
+ * moves down a little, never up.
+ */
 function Placeholder() {
   const block = "animate-pulse rounded-xl bg-chip";
   return (
     <div
-      className="grid gap-6 lg:grid-cols-[22rem_1fr]"
+      className="grid min-h-[58rem] content-start gap-6 md:min-h-[64rem] lg:min-h-[62rem] lg:grid-cols-[22rem_1fr] xl:min-h-[76rem]"
       aria-busy="true"
       aria-label="Loading the calculator"
     >
@@ -193,9 +200,7 @@ function DesktopCalculator({
                   className="flex items-baseline justify-between gap-2"
                 >
                   <span className="min-w-0 truncate text-muted">
-                    {partnerOf(s.university, s.programme)
-                      ? `${partnerOf(s.university, s.programme)!.name} · ${s.university.name}`
-                      : s.university.name}
+                    {institutionLabel(s.university, s.programme)}
                   </span>
                   <span className="shrink-0 tabular-nums">
                     <InfoTip term="universityIncrease" align="right">
@@ -312,10 +317,7 @@ function DesktopCalculator({
 
       <section id="results" className="min-w-0 scroll-mt-4 space-y-6">
         {selections.length === 0 ? (
-          <div className="rounded-xl border border-dashed border-border p-10 text-center text-muted">
-            Pick a university to see its total {includeLiving ? "cost" : "fees"}
-            .
-          </div>
+          <EmptyResults chosen={chosen} reasonFor={reasonFor} includeLiving={includeLiving} />
         ) : (
           <>
             <StatTiles
@@ -361,8 +363,11 @@ function DesktopCalculator({
               <h2 className="text-xs font-medium uppercase tracking-wide text-muted">
                 Details (in SGD)
               </h2>
+              {/* Two tables side by side at most: the page is 72rem wide, so a third
+                  column would squeeze the fee columns under the pinned total. The third
+                  university goes below, full width. */}
               <div
-                className={`mt-3 grid gap-8 md:gap-0 md:divide-x md:divide-border ${selections.length === 3 ? "md:grid-cols-3" : selections.length === 2 ? "md:grid-cols-2" : ""}`}
+                className={`mt-3 grid gap-8 md:gap-0 ${selections.length > 1 ? "md:grid-cols-2" : ""}`}
               >
                 {selections.map((s, i) => (
                   <ResultDetail
@@ -376,9 +381,9 @@ function DesktopCalculator({
                         ? ""
                         : i === 0
                           ? "md:pr-4"
-                          : i === selections.length - 1
-                            ? "md:pl-4"
-                            : "md:px-4"
+                          : i === 1
+                            ? "md:border-l md:border-border md:pl-4"
+                            : "md:col-span-2 md:mt-6 md:border-t md:border-border md:pt-6"
                     }
                     onCustomLiving={(m) =>
                       setCustomLivingFor(s.university.id, m)

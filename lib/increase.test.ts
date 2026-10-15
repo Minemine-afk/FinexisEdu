@@ -127,6 +127,30 @@ describe("universityIncrease", () => {
     expect(e).toEqual({ rate: 0.05, basis: "country", series: 0 });
   });
 
+  it("uses a stated rate over its own history when the file sets one", () => {
+    const u = {
+      ...uni([
+        {
+          ...base,
+          name: "BSc A",
+          feeYear: 2027,
+          fees: { international: { annualTuition: 900000, annualCompulsoryFees: 0, oneOffFees: 0 } },
+          feeHistory: [{ feeYear: 2026, tier: "international", annualTuition: 535800 }],
+        },
+        {
+          ...base,
+          name: "BSc B",
+          feeYear: 2027,
+          fees: { international: { annualTuition: 900001, annualCompulsoryFees: 0, oneOffFees: 0 } },
+          feeHistory: [{ feeYear: 2026, tier: "international", annualTuition: 535800 }],
+        },
+      ]),
+      feeIncrease: { rate: 0.031, reason: "The 2027 rise is a one-off step." },
+    };
+    expect(universityIncrease(u, "international", country)).toEqual({ rate: 0.031, basis: "stated", series: 0 });
+    expect(universityIncrease({ ...u, feeIncrease: undefined }, "international", country).rate).toBe(0.15);
+  });
+
   it("uses the partner's own series first, then the whole institution", () => {
     const mk = (name: string, partner: string, now: number, then: number) => ({
       ...base,

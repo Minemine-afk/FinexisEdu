@@ -4,8 +4,8 @@ import type { Country, Programme, Tier, University } from "./schema";
 export interface IncreaseEstimate {
   /** Yearly compound increase, e.g. 0.045 for 4.5%. */
   rate: number;
-  /** Where the rate came from. */
-  basis: "partner" | "university" | "country";
+  /** Where the rate came from: "stated" is a rate set by hand in the university file. */
+  basis: "partner" | "university" | "country" | "stated";
   /** Number of distinct fee series the university figure rests on. */
   series: number;
   /** Earliest and latest published fee years used. */
@@ -53,6 +53,8 @@ export function universityIncrease(
   country: Country | undefined,
   partner?: string,
 ): IncreaseEstimate {
+  if (university.feeIncrease)
+    return { rate: university.feeIncrease.rate, basis: "stated", series: 0 };
   if (partner) {
     const own = programmeIncrease(
       university.programmes.filter((p) => p.partner === partner),

@@ -7,7 +7,7 @@ import UniversityName from "./UniversityName";
 import InfoTip from "./InfoTip";
 import { FOCUS, noTuition } from "./ResultDetail";
 import SavingsPlanner from "./SavingsPlanner";
-import type { Selection } from "./useCalculator";
+import { unavailableHint, type Option, type Selection } from "./useCalculator";
 
 /** One headline tile per university: the total, and how it compares with the cheapest. */
 export default function StatTiles({
@@ -74,7 +74,8 @@ export default function StatTiles({
               {formatMoney(s.grandTotalSgd, "SGD")}
             </p>
             <p className="mt-1 text-sm tabular-nums">
-              <InfoTip term="perYear">
+              {/* The last tile sits at the page's right edge, so its tip opens leftwards. */}
+              <InfoTip term="perYear" align={i === selections.length - 1 && selections.length > 1 ? "right" : "left"}>
                 ≈ {formatMoney(s.grandTotalSgd / Math.max(1, s.result.durationYears), "SGD")}{" "}
                 a year ·{" "}
                 {formatMoney(
@@ -129,4 +130,50 @@ function totalSize(text: string): string {
   if (text.length <= 11) return "text-3xl"; // up to S$9,999,999
   if (text.length <= 13) return "text-2xl"; // up to S$999,999,999
   return "text-xl break-all";
+}
+
+/**
+ * Why nothing is priced: every chosen programme's reason (a residency it is not
+ * open to, a missing fee year) and what to change, or a prompt to pick one.
+ */
+export function EmptyResults({
+  chosen,
+  reasonFor,
+  includeLiving,
+}: {
+  chosen: Option[];
+  reasonFor: (o: Option) => string | null;
+  includeLiving: boolean;
+}) {
+  const unpriced = chosen
+    .map((o) => ({ o, reason: reasonFor(o) }))
+    .filter((x): x is { o: Option; reason: string } => x.reason !== null);
+  return (
+    <div
+      role="status"
+      className="rounded-xl border border-dashed border-border p-10 text-center text-muted"
+    >
+      {unpriced.length === 0 ? (
+        <>Pick a university to see its total {includeLiving ? "cost" : "fees"}.</>
+      ) : (
+        <>
+          <p className="font-medium text-foreground">
+            {unpriced.length === 1
+              ? "This programme can't be priced for you yet."
+              : "These programmes can't be priced for you yet."}
+          </p>
+          <ul className="mt-2 space-y-1 text-sm">
+            {unpriced.map(({ o, reason }) => (
+              <li key={o.key}>
+                <span className="text-foreground">
+                  {o.university.name} · {o.programme.name}
+                </span>
+                : {reason}. {unavailableHint(reason)}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </div>
+  );
 }

@@ -421,7 +421,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual law school tuition for international students, plus campus fees. Unlike undergraduate tuition, it is not fixed and can rise each year. Health insurance not included.",
-      "notes": "Nonresident Juris Doctor (Law JD) rate: tuition $6,861 + Nonresident Supplemental Tuition $6,122.50 + Professional Degree Supplemental Tuition $27,285 per semester x 2 = $80,537 (2026-27 fee schedule). Other fees = Student Services, Berkeley Campus, Transit, Law Instructional Materials ($15) and Instructional Resilience & Enhancement fees per semester x 2; one-off = Document Management Fee - Law. Health insurance ($4,103/semester) excluded because it can be waived. JD is graduate-entry (3 years); the PDST is not covered by the Tuition Stability Plan, so fees are not fixed. 2024 and 2025 from the Registrar's 2024-25 and 2025-26 fee schedule PDFs (same components).",
+      "notes": "Nonresident Juris Doctor (Law JD) rate: tuition $6,861 + Nonresident Supplemental Tuition $6,122.50 + Professional Degree Supplemental Tuition $27,285 per semester x 2 = $80,537 (2026-27 fee schedule). Other fees = Student Services, Berkeley Campus, Transit, Law Instructional Materials ($15) and Instructional Resilience & Enhancement fees per semester x 2; one-off = Document Management Fee - Law. Health insurance ($4,103/semester) excluded because it can be waived. JD is graduate-entry (3 years); the PDST is not covered by the Tuition Stability Plan, so fees are not fixed. 2024 and 2025 from the Registrar's 2024-25 and 2025-26 fee schedule PDFs (same components). Fix 2026-10-15: SILE's separate US approved-universities page now redirects to a generic page; the Fifth Schedule list is on the 'Qualified Person (Overseas Scheduled Universities)' page under its United States of America tab, where this university is not in the list (Harvard, Columbia, NYU and Michigan only). Source: https://www.sile.edu.sg/for-overseas-graduates/qualified-person/#unitedstatesofamerica (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -444,8 +444,8 @@
         "body": "SILE",
         "listed": false,
         "note": "university not on the SILE approved list",
-        "sourceUrl": "https://www.sile.edu.sg/united-states-of-america-approved-universities",
-        "lastVerified": "2026-10-08"
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/#unitedstatesofamerica",
+        "lastVerified": "2026-10-15"
       }
     },
     {

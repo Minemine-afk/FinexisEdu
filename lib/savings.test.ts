@@ -104,6 +104,48 @@ describe("savings planner", () => {
     expect(solveTvm({ months: 24, rate: 4, start: 0, monthly: 1000, end: 23000, startOfMonth: false }, "rate")).toBe(0);
   });
 
+  it("answers NaN, never a rate of 60%, when any other box is blank", () => {
+    const full: Tvm = { months: 24, rate: 4, start: 1000, monthly: 500, end: 14000, startOfMonth: false };
+    const fields = ["months", "rate", "start", "monthly", "end"] as const;
+    for (const solve of fields) {
+      for (const blank of fields) {
+        if (blank === solve) continue;
+        expect(solveTvm({ ...full, [blank]: NaN }, solve), `${solve} with ${blank} blank`).toBeNaN();
+      }
+    }
+    // "Clear form" then "Solve" on the rate: every other box is blank.
+    expect(solveTvm({ months: NaN, rate: NaN, start: NaN, monthly: NaN, end: NaN, startOfMonth: false }, "rate")).toBeNaN();
+    // A blank box being solved is fine: it is the one being filled in.
+    expect(solveTvm({ ...full, end: NaN }, "end")).toBeGreaterThan(full.start);
+  });
+
+  it("needs the whole end amount today when the fees are due now (no months to save)", () => {
+    const due: Tvm = { months: 0, rate: 4, start: NaN, monthly: 0, end: 394719, startOfMonth: false };
+    expect(solveTvm(due, "start")).toBe(394719);
+    expect(solveTvm({ ...due, monthly: 3000 }, "start")).toBe(394719);
+    expect(solveTvm({ ...due, rate: SAVING_RATE }, "start")).toBe(394719);
+    expect(solveTvm({ ...due, start: 394719 }, "end")).toBe(394719);
+    // The same today when starting from the beginning of the month.
+    expect(solveTvm({ ...due, startOfMonth: true }, "start")).toBe(394719);
+  });
+
+  it("keeps the year-by-year rows consistent without a costs column", () => {
+    const plan = simulate({ start: 1000, monthly: 500, months: 30, ratePct: 4, today: TODAY });
+    const paidIn = plan.years.reduce((s, y) => s + y.paidIn, 0);
+    const interest = plan.years.reduce((s, y) => s + y.interest, 0);
+    expect(paidIn).toBeCloseTo(1000 + 500 * 30, 6);
+    expect(paidIn).toBeCloseTo(plan.paidIn, 6);
+    expect(interest).toBeCloseTo(plan.interest, 6);
+    // Each year's balance is the previous balance plus that year's money in and interest.
+    let balance = 0;
+    for (const y of plan.years) {
+      balance += y.paidIn + y.interest;
+      expect(y.costs).toBe(0);
+      expect(y.balance).toBeCloseTo(balance, 6);
+    }
+    expect(plan.years[plan.years.length - 1].balance).toBeCloseTo(growTo(1000, 500, 4, 30), 6);
+  });
+
   it("finds no rate when nothing is put in or there is no time", () => {
     expect(solveTvm({ months: 24, rate: 4, start: 0, monthly: 0, end: 0, startOfMonth: false }, "rate")).toBeNaN();
     expect(solveTvm({ months: 0, rate: 4, start: 1000, monthly: 0, end: 1000, startOfMonth: false }, "rate")).toBeNaN();

@@ -7,19 +7,18 @@ import {
   LEVEL_LABELS,
   RESIDENCY_LABELS,
   formatCompactSgd,
-  formatMoney,
-  partnerOf,
+  institutionLabel,
   programmeLabel,
   recognitionTag,
 } from "@/lib/format";
 import { FIELDS, LEVELS, type Field } from "@/lib/schema";
 import type { Lifestyle } from "@/lib/living";
-import { Breakdown, INFLATION_CAPTION, chartParts, valueFor, type CompareCategory } from "./FeeChart";
+import { Breakdown, INFLATION_CAPTION, barLabel, chartParts, valueFor, type CompareCategory } from "./FeeChart";
 import InfoTip from "./InfoTip";
 import RateInput from "./RateInput";
 import ResultDetail, { FOCUS } from "./ResultDetail";
 import SavingsPlanner from "./SavingsPlanner";
-import StatTiles from "./StatTiles";
+import StatTiles, { EmptyResults } from "./StatTiles";
 import {
   increaseBasisNote,
   LIFESTYLE_LABELS,
@@ -53,13 +52,19 @@ export default function TouchCalculator({
   const [tab, setTab] = useState<Tab>("settings");
   // Each tab keeps its own scroll position, so Compare → Details → Compare returns to the same place.
   const tabScroll = useRef<Record<Tab, number>>({ settings: 0, compare: 0 });
+  // A settings chip opens Details at the control it names.
+  const jumpTo = useRef<string | null>(null);
   const changeTab = (next: Tab, top = false) => {
     tabScroll.current[tab] = window.scrollY;
     if (top) tabScroll.current[next] = 0;
     setTab(next);
   };
   useEffect(() => {
-    if (layout !== "tablet") window.scrollTo({ top: tabScroll.current[tab] });
+    if (layout === "tablet") return;
+    const target = jumpTo.current && document.getElementById(jumpTo.current);
+    jumpTo.current = null;
+    if (target) target.scrollIntoView({ block: "start" });
+    else window.scrollTo({ top: tabScroll.current[tab] });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tab]);
   // The comparison slot open in the picker sheet, if any.
@@ -129,11 +134,11 @@ export default function TouchCalculator({
   // so an expanded detail or a half-typed budget survives a trip to the other tab.
   const tablet = layout === "tablet";
   return (
-    <div className={tablet ? "grid gap-6 md:grid-cols-[19rem_1fr] lg:grid-cols-[21rem_1fr]" : ""}>
+    <div className={tablet ? "grid gap-6 min-[600px]:grid-cols-[17rem_1fr] md:grid-cols-[19rem_1fr] lg:grid-cols-[21rem_1fr]" : ""}>
       <aside
         className={
           tablet
-            ? "space-y-6 rounded-xl border border-border bg-sidebar p-4 md:self-start"
+            ? "space-y-6 rounded-xl border border-border bg-sidebar p-4 min-[600px]:self-start"
             : tab === "settings"
               ? "space-y-6"
               : "hidden"
@@ -143,7 +148,15 @@ export default function TouchCalculator({
         <div className={tablet ? "" : "border-t border-border pt-6"}>{universities}</div>
       </aside>
       <div className={tablet ? "min-w-0" : tab === "compare" ? "space-y-4" : "hidden"}>
-        {!tablet && <SettingsChips state={state} onOpen={() => changeTab("settings")} />}
+        {!tablet && (
+          <SettingsChips
+            state={state}
+            onOpen={(id) => {
+              jumpTo.current = id;
+              changeTab("settings");
+            }}
+          />
+        )}
         <Results state={state} today={today} layout={layout} onPlan={setPlanKey} />
       </div>
       {!tablet && (
@@ -152,7 +165,7 @@ export default function TouchCalculator({
           onChange={changeTab}
           count={selections.length}
           cheapest={selections[0]?.grandTotalSgd}
-          includeLiving={state.includeLiving}
+          includeLiving={selections.some((s) => s.living !== null)}
         />
       )}
       {planning && (
@@ -179,26 +192,25 @@ function SettingsChips({
   onOpen,
 }: {
   state: CalculatorState;
-  onOpen: () => void;
+  /** Opens the Details tab at the control with this id. */
+  onOpen: (id: string) => void;
 }) {
-  const chips = [
-    LEVEL_LABELS[state.level],
-    RESIDENCY_LABELS[state.residency].replace(" student", ""),
-    `Starts ${state.startYear}`,
+  const chips: [string, string][] = [
+    [LEVEL_LABELS[state.level], "touch-level"],
+    [RESIDENCY_LABELS[state.residency].replace(" student", ""), "touch-residency"],
+    [`Starts ${state.startYear}`, "touch-start-year-section"],
     ...(state.customIncrease !== null
-      ? [`Your rate ${(state.customIncrease * 100).toFixed(1)}%/yr`]
+      ? [[`Your rate ${(state.customIncrease * 100).toFixed(1)}%/yr`, "touch-rate"] as [string, string]]
       : []),
-    state.includeLiving
-      ? `${LIFESTYLE_LABELS[state.lifestyle]} living costs`
-      : "Fees only",
+    [state.includeLiving ? `${LIFESTYLE_LABELS[state.lifestyle]} living costs` : "Fees only", "touch-living"],
   ];
   return (
     <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
-      {chips.map((text) => (
+      {chips.map(([text, id]) => (
         <button
           key={text}
           type="button"
-          onClick={onOpen}
+          onClick={() => onOpen(id)}
           className={`shrink-0 whitespace-nowrap rounded-full border border-border bg-surface px-3.5 font-medium ${BIG_BUTTON}`}
         >
           {text} <span aria-hidden className="text-xs text-muted">▾</span>
@@ -228,10 +240,11 @@ function Results({
 
   if (selections.length === 0) {
     return (
-      <div className="rounded-xl border border-dashed border-border p-10 text-center text-muted">
-        Pick a university to see its total{" "}
-        {state.includeLiving ? "cost" : "fees"}.
-      </div>
+      <EmptyResults
+        chosen={state.chosen}
+        reasonFor={state.reasonFor}
+        includeLiving={state.includeLiving}
+      />
     );
   }
 
@@ -276,11 +289,8 @@ function Results({
               value={detail.key}
               options={selections.map((s) => [
                 s.key,
-                selections.some(
-                  (x) => x.key !== s.key && x.university.id === s.university.id,
-                )
-                  ? `${s.university.name} · ${programmeLabel(s.university, s.programme)}`
-                  : s.university.name,
+                shortLabel(s, selections),
+                `${s.university.name} · ${programmeLabel(s.university, s.programme)}`,
               ])}
               onChange={setDetailKey}
             />
@@ -304,7 +314,7 @@ function Results({
                   className={`flex min-h-12 cursor-pointer list-none items-center justify-between gap-3 py-2 text-sm [&::-webkit-details-marker]:hidden${FOCUS} rounded`}
                 >
                   <span className="min-w-0 truncate font-medium">
-                    {s.university.name}
+                    {shortLabel(s, selections)}
                   </span>
                   <span className="shrink-0 text-muted tabular-nums">
                     {formatCompactSgd(s.grandTotalSgd)}{" "}
@@ -385,6 +395,18 @@ function Carousel({
   );
 }
 
+/**
+ * A one-line name for a selection: the awarding partner and institution, plus
+ * the programme only when another selection is at the same institution.
+ */
+function shortLabel(s: Selection, selections: Selection[]): string {
+  const base = institutionLabel(s.university, s.programme);
+  const clash = selections.some(
+    (x) => x.key !== s.key && institutionLabel(x.university, x.programme) === base,
+  );
+  return clash ? `${base} · ${s.programme.name}` : base;
+}
+
 /** Horizontal bars, one per university, on a shared scale. */
 function Bars({
   selections,
@@ -400,7 +422,6 @@ function Bars({
   return (
     <div className="mt-4 space-y-3">
       {selections.map((s) => {
-        const value = valueFor(s, category);
         const breakdownId = `bar-${s.key.replace(/[^a-z0-9]/gi, "-")}`;
         return (
           <div key={s.key}>
@@ -412,19 +433,16 @@ function Bars({
               className={`flex min-h-11 w-full items-baseline justify-between gap-3 text-left text-sm${FOCUS} rounded`}
             >
               <span className="min-w-0 truncate font-medium">
-                {s.university.name}
+                {shortLabel(s, selections)}
               </span>
               <span className="shrink-0 tabular-nums">
-                {(category === "tuition" || category === "inflation") &&
-                value === 0
-                  ? "No tuition"
-                  : formatMoney(value, "SGD")}
+                {barLabel(s, category, false)}
               </span>
             </button>
             <div
               className="mt-1 flex h-4 overflow-hidden rounded bg-chip"
               role="img"
-              aria-label={`${s.university.name}: ${formatMoney(value, "SGD")}`}
+              aria-label={`${shortLabel(s, selections)}: ${barLabel(s, category, false)}`}
             >
               {segments.map((seg) => {
                 const part = seg.value(s);
@@ -489,17 +507,18 @@ function Assumptions({ state }: { state: CalculatorState }) {
   return (
     <div className="space-y-6">
       <TouchSegmented
+        id="touch-level"
         label="Level"
         value={level}
         options={LEVELS.map((l) => [l, LEVEL_LABELS[l]])}
         onChange={changeLevel}
       />
 
-      <fieldset>
+      <fieldset id="touch-residency" className="scroll-mt-4">
         <legend className="mb-2 text-sm font-medium">
           <InfoTip term="residency">Residency</InfoTip>
         </legend>
-        <div className="space-y-2">
+        <div role="radiogroup" aria-label="Residency" className="space-y-2">
           {(Object.keys(RESIDENCY_LABELS) as Residency[]).map((r) => (
             <ChoiceRow
               key={r}
@@ -515,7 +534,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
         </p>
       </fieldset>
 
-      <div>
+      <div id="touch-start-year-section" className="scroll-mt-4">
         <p className="text-sm font-medium">
           <InfoTip term="startYear">Start year</InfoTip>
         </p>
@@ -567,7 +586,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
         </p>
       </div>
 
-      <div>
+      <div id="touch-rate" className="scroll-mt-4">
         <p className="text-sm font-medium">Yearly fee increase</p>
         <ul className="mt-2 divide-y divide-border rounded-xl border border-border bg-surface px-3 text-sm">
           {selections.length === 0 && (
@@ -581,9 +600,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
               className="flex min-h-10 items-center justify-between gap-3"
             >
               <span className="min-w-0 truncate text-muted">
-                {partnerOf(s.university, s.programme)
-                  ? `${partnerOf(s.university, s.programme)!.name} · ${s.university.name}`
-                  : s.university.name}
+                {institutionLabel(s.university, s.programme)}
               </span>
               <span className="shrink-0 tabular-nums">
                 <InfoTip term="universityIncrease" align="right">
@@ -620,7 +637,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
               <RateInput
                 value={customIncrease}
                 onChange={setCustomIncrease}
-                className="h-10 w-20"
+                className="h-11 w-20"
               />
               %
             </span>
@@ -628,7 +645,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
         )}
       </div>
 
-      <div>
+      <div id="touch-living" className="scroll-mt-4">
         <p className="text-sm font-medium">
           <InfoTip term="livingCosts">Living costs</InfoTip>
         </p>
@@ -720,7 +737,7 @@ function SlotRow({
           onClick={onOpen}
           className={`flex min-h-16 min-w-0 flex-1 items-center gap-3 px-3 py-2 text-left${FOCUS} rounded-xl`}
         >
-          <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-chip text-sm font-semibold text-accent">
+          <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-accent-fill text-sm font-semibold text-on-accent">
             {index + 1}
           </span>
           <span className="min-w-0 flex-1">
@@ -896,8 +913,8 @@ function PickerSheet({
         aria-labelledby={titleId}
         className={`absolute flex flex-col bg-surface shadow-2xl ${
           centered
-            ? "left-1/2 top-1/2 h-[min(44rem,90vh)] w-[min(34rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl"
-            : "inset-x-0 bottom-0 h-[88vh] rounded-t-3xl"
+            ? "left-1/2 top-1/2 h-[min(44rem,90dvh)] w-[min(34rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl"
+            : "inset-x-0 bottom-0 h-[88dvh] rounded-t-3xl pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)]"
         }`}
       >
         {!centered && (
@@ -957,7 +974,11 @@ function PickerSheet({
                 <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted">
                   Country
                 </p>
-                <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
+                <div
+                  role="radiogroup"
+                  aria-label="Country"
+                  className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none]"
+                >
                   {grouped.map((g) => (
                     <Chip
                       key={g.country?.code}
@@ -1003,7 +1024,7 @@ function PickerSheet({
                 <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted">
                   Field of study
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div role="radiogroup" aria-label="Field of study" className="flex flex-wrap gap-2">
                   {fields.map((f) => (
                     <Chip
                       key={f}
@@ -1126,20 +1147,29 @@ function Chip({
 
 /** A radio group as a row of equal, touch-sized buttons. */
 function TouchSegmented<T extends string>({
+  id,
   label,
   value,
   options,
   onChange,
   tip,
 }: {
+  id?: string;
   label: string;
   value: T;
-  options: [T, string][];
+  /** Value, label and, when the label may be clipped, the full text for `title` and the accessible name. */
+  options: [T, string, string?][];
   onChange: (v: T) => void;
   tip?: "lifestyle";
 }) {
+  // Up to four choices share one row. More fill two rows evenly (3 + 2, 3 + 3)
+  // on a 12-column grid, so no row has an odd gap at its end.
+  const n = options.length;
+  const firstRow = n > 4 ? Math.ceil(n / 2) : n;
+  const span = (i: number) =>
+    n > 4 ? 12 / (i < firstRow ? firstRow : n - firstRow) : 1;
   return (
-    <div>
+    <div id={id} className="scroll-mt-4">
       <span className="text-sm font-medium">
         {tip ? (
           <InfoTip term={tip}>{label}</InfoTip>
@@ -1152,20 +1182,22 @@ function TouchSegmented<T extends string>({
         aria-label={label}
         className="mt-2 grid gap-1 rounded-xl border border-border bg-chip p-1"
         style={{
-          // More than four choices wrap to rows of three so labels stay readable on a phone.
-          gridTemplateColumns: `repeat(${options.length > 4 ? 3 : options.length}, minmax(0, 1fr))`,
+          gridTemplateColumns: `repeat(${n > 4 ? 12 : n}, minmax(0, 1fr))`,
         }}
       >
-        {options.map(([v, text]) => (
+        {options.map(([v, text, full], i) => (
           <button
             key={v}
             type="button"
             role="radio"
             aria-checked={value === v}
+            aria-label={full}
+            title={full}
             onClick={() => onChange(v)}
-            className={`min-h-11 rounded-lg px-1 text-[13px] leading-tight${FOCUS} ${value === v ? "bg-surface font-semibold shadow-sm" : "text-muted"}`}
+            style={{ gridColumn: `span ${span(i)}` }}
+            className={`min-h-11 rounded-lg px-0 py-1 text-xs leading-tight${FOCUS} ${value === v ? "bg-surface font-semibold shadow-sm" : "text-muted"}`}
           >
-            {text}
+            <span className="line-clamp-2 [overflow-wrap:normal]">{text}</span>
           </button>
         ))}
       </div>
@@ -1286,7 +1318,7 @@ function TabBar({
         <button
           type="button"
           onClick={() => onChange("compare", true)}
-          className={`flex w-full items-center justify-between gap-3 border-b border-border px-4 py-2 text-left text-xs${FOCUS}`}
+          className={`flex min-h-11 w-full items-center justify-between gap-3 border-b border-border px-4 py-1 text-left text-xs${FOCUS}`}
         >
           <span className="text-muted">
             {count} {count === 1 ? "university" : "universities"} · from{" "}

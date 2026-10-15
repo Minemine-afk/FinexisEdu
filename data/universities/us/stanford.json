@@ -269,7 +269,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual law school tuition for three quarters, plus the campus health fee and a one-off document fee. Student activities fee and health insurance not included.",
-      "notes": "Stanford Law School tuition $26,593 per quarter x 3 quarters (Autumn, Winter, Spring) = $79,779 for 2026-27. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee and Cardinal Care insurance (waivable) not included. JD is graduate-entry (3 years). 2024 = $24,825 x 3 and 2025 = $25,818 x 3 from those years' graduate and professional tuition pages. 2024 Campus Health Service Fee: the 2024-25 Student Services non-tuition fees page lists the fee without an amount (live and Common Crawl captures), and Vaden's health-fee page has no 2024 capture. The 2024-25 figure is stated as $783 per year (3 quarters x $261) in two official Stanford 2024-25 budgets: GSB 'Cost of Attendance Breakdown: First-Year MBA 2024-2025', 'Health Fee $783' (gsb.stanford.edu, Common Crawl capture 20241102043701), and Stanford Law School '2024-2025' standard budget, 'Health Services Fee 783' (law.stanford.edu/apply/tuition-financial-aid/cost-of-attendance/, Common Crawl capture 20240909040612). It is one university-wide fee (2025-26 $271/quarter, 2026-27 $281/quarter on the Student Services pages). Document Fee $250 one-off unchanged (2024-25 non-tuition page). Tuition unchanged from the existing row.",
+      "notes": "Stanford Law School tuition $26,593 per quarter x 3 quarters (Autumn, Winter, Spring) = $79,779 for 2026-27. Other fees = Campus Health Service Fee; one-off = Document Fee. ASSU activities fee and Cardinal Care insurance (waivable) not included. JD is graduate-entry (3 years). 2024 = $24,825 x 3 and 2025 = $25,818 x 3 from those years' graduate and professional tuition pages. 2024 Campus Health Service Fee: the 2024-25 Student Services non-tuition fees page lists the fee without an amount (live and Common Crawl captures), and Vaden's health-fee page has no 2024 capture. The 2024-25 figure is stated as $783 per year (3 quarters x $261) in two official Stanford 2024-25 budgets: GSB 'Cost of Attendance Breakdown: First-Year MBA 2024-2025', 'Health Fee $783' (gsb.stanford.edu, Common Crawl capture 20241102043701), and Stanford Law School '2024-2025' standard budget, 'Health Services Fee 783' (law.stanford.edu/apply/tuition-financial-aid/cost-of-attendance/, Common Crawl capture 20240909040612). It is one university-wide fee (2025-26 $271/quarter, 2026-27 $281/quarter on the Student Services pages). Document Fee $250 one-off unchanged (2024-25 non-tuition page). Tuition unchanged from the existing row. Fix 2026-10-15: SILE's separate US approved-universities page now redirects to a generic page; the Fifth Schedule list is on the 'Qualified Person (Overseas Scheduled Universities)' page under its United States of America tab, where this university is not in the list (Harvard, Columbia, NYU and Michigan only). Source: https://www.sile.edu.sg/for-overseas-graduates/qualified-person/#unitedstatesofamerica (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -292,8 +292,8 @@
         "body": "SILE",
         "listed": false,
         "note": "university not on the SILE approved list",
-        "sourceUrl": "https://www.sile.edu.sg/united-states-of-america-approved-universities",
-        "lastVerified": "2026-10-08"
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/#unitedstatesofamerica",
+        "lastVerified": "2026-10-15"
       }
     },
     {

@@ -16,11 +16,11 @@
       "transport": 0,
       "personal": 388.89
     },
-    "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-    "lastVerified": "2026-09-30",
+    "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance",
+    "lastVerified": "2026-10-15",
     "sourceType": "official",
     "summary": "Harvard College's own estimate of on-campus housing, food, books and personal costs for a 9-month year. Travel (up to US$5,000), tuition, fees and health insurance are extra.",
-    "notes": "Harvard College 2026-2027 cost of attendance (on-campus, 9-month academic year). Yearly: housing $14,250, food $8,942, personal = estimated personal expenses $2,500 + estimated books $1,000 = $3,500. Transport 0: 'Estimated transportation costs $0-$5,000' depends on home location. Excludes tuition, fees and health insurance ($4,954)."
+    "notes": "Harvard College 2026-2027 cost of attendance (on-campus, 9-month academic year). Yearly: housing $14,250, food $8,942, personal = estimated personal expenses $2,500 + estimated books $1,000 = $3,500. Transport 0: 'Estimated transportation costs $0-$5,000' depends on home location. Excludes tuition, fees and health insurance ($4,954). Fix 2026-10-15: source repointed to the 'How aid works' page's Cost of Attendance section (the old URL redirects there); 2026-2027 housing $14,250, food $8,942, personal $2,500 and books $1,000 unchanged. Source: https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance (read 2026-10-15)."
   },
   "programmes": [
     {
@@ -36,12 +36,12 @@
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-10-04",
+      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance",
+      "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual Harvard College tuition, same for every subject, plus student services, activities and health fees. Health insurance (can be waived), housing and food not included.",
-      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables.",
+      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables. Fix 2026-10-15: the cost-attendance URL now redirects to the generic 'How aid works' page; the Cost of Attendance tables (2026-2027: tuition $62,226, fees $6,216; 2025-2026: $59,320 / $5,476; 2024-2025: $56,550 / $5,126) are a section of that page, so the current and history sourceUrls point at its #cost-of-attendance anchor; figures unchanged. Source: https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -49,7 +49,7 @@
           "annualTuition": 56550,
           "annualCompulsoryFees": 5126,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         },
         {
           "feeYear": 2025,
@@ -57,7 +57,7 @@
           "annualTuition": 59320,
           "annualCompulsoryFees": 5476,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         }
       ]
     },
@@ -74,12 +74,12 @@
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-10-04",
+      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance",
+      "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual Harvard College tuition, same for every subject, plus student services, activities and health fees. Health insurance (can be waived), housing and food not included.",
-      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables.",
+      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables. Fix 2026-10-15: the cost-attendance URL now redirects to the generic 'How aid works' page; the Cost of Attendance tables (2026-2027: tuition $62,226, fees $6,216; 2025-2026: $59,320 / $5,476; 2024-2025: $56,550 / $5,126) are a section of that page, so the current and history sourceUrls point at its #cost-of-attendance anchor; figures unchanged. Source: https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -87,7 +87,7 @@
           "annualTuition": 56550,
           "annualCompulsoryFees": 5126,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         },
         {
           "feeYear": 2025,
@@ -95,7 +95,7 @@
           "annualTuition": 59320,
           "annualCompulsoryFees": 5476,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         }
       ]
     },
@@ -112,12 +112,12 @@
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-10-04",
+      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance",
+      "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual Harvard College tuition, same for every subject, plus student services, activities and health fees. Health insurance (can be waived), housing and food not included.",
-      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables.",
+      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables. Fix 2026-10-15: the cost-attendance URL now redirects to the generic 'How aid works' page; the Cost of Attendance tables (2026-2027: tuition $62,226, fees $6,216; 2025-2026: $59,320 / $5,476; 2024-2025: $56,550 / $5,126) are a section of that page, so the current and history sourceUrls point at its #cost-of-attendance anchor; figures unchanged. Source: https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -125,7 +125,7 @@
           "annualTuition": 56550,
           "annualCompulsoryFees": 5126,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         },
         {
           "feeYear": 2025,
@@ -133,7 +133,7 @@
           "annualTuition": 59320,
           "annualCompulsoryFees": 5476,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         }
       ]
     },
@@ -150,12 +150,12 @@
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-10-04",
+      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance",
+      "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual Harvard College tuition, same for every subject, plus student services, activities and health fees. Health insurance (can be waived), housing and food not included.",
-      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables.",
+      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables. Fix 2026-10-15: the cost-attendance URL now redirects to the generic 'How aid works' page; the Cost of Attendance tables (2026-2027: tuition $62,226, fees $6,216; 2025-2026: $59,320 / $5,476; 2024-2025: $56,550 / $5,126) are a section of that page, so the current and history sourceUrls point at its #cost-of-attendance anchor; figures unchanged. Source: https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -163,7 +163,7 @@
           "annualTuition": 56550,
           "annualCompulsoryFees": 5126,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         },
         {
           "feeYear": 2025,
@@ -171,7 +171,7 @@
           "annualTuition": 59320,
           "annualCompulsoryFees": 5476,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         }
       ]
     },
@@ -383,7 +383,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual law school tuition plus the compulsory student health fee. Health insurance (can be waived), housing and food not included.",
-      "notes": "HLS 2026-27 Standard Student Budget (9-month): tuition $84,400; fees = Mandatory HUHS Student Health Fee $1,944 (waivers generally not available). Harvard University Student Health Insurance Plan ($4,954, waivable with comparable coverage), housing and food excluded. JD is graduate-entry (3 years). 2025 from the same page's 2025-2026 Cost of Attendance table; 2024 tuition from Harvard OIRA Fact Book (Law School, academic year 2025 = 2024-25); 2024 fees not found. 2024 row from the HLS Cost of Attendance page, '2024-25 Standard Student Budget (9-Month)' (Common Crawl capture 20241006094256): tuition $77,100 (matches OIRA); Mandatory HUHS Student Health Fee $1,592. HUSHP insurance ($4,202, waivable) excluded.",
+      "notes": "HLS 2026-27 Standard Student Budget (9-month): tuition $84,400; fees = Mandatory HUHS Student Health Fee $1,944 (waivers generally not available). Harvard University Student Health Insurance Plan ($4,954, waivable with comparable coverage), housing and food excluded. JD is graduate-entry (3 years). 2025 from the same page's 2025-2026 Cost of Attendance table; 2024 tuition from Harvard OIRA Fact Book (Law School, academic year 2025 = 2024-25); 2024 fees not found. 2024 row from the HLS Cost of Attendance page, '2024-25 Standard Student Budget (9-Month)' (Common Crawl capture 20241006094256): tuition $77,100 (matches OIRA); Mandatory HUHS Student Health Fee $1,592. HUSHP insurance ($4,202, waivable) excluded. Fix 2026-10-15: SILE's separate US approved-universities page now redirects to a generic page; the Fifth Schedule list is on the 'Qualified Person (Overseas Scheduled Universities)' page under its United States of America tab, where this university is listed (Fifth Schedule, J.D., top 70% of the graduating batch, degree conferred on or after 1 January 2004). Source: https://www.sile.edu.sg/for-overseas-graduates/qualified-person/#unitedstatesofamerica (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -406,8 +406,8 @@
         "body": "SILE",
         "listed": true,
         "note": "Fifth Schedule, JD, top 70% of class",
-        "sourceUrl": "https://www.sile.edu.sg/united-states-of-america-approved-universities",
-        "lastVerified": "2026-10-08"
+        "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/#unitedstatesofamerica",
+        "lastVerified": "2026-10-15"
       }
     },
     {
@@ -468,12 +468,12 @@
           "oneOffFees": 0
         }
       },
-      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
-      "lastVerified": "2026-10-05",
+      "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance",
+      "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
       "summary": "Annual Harvard College tuition, same for every subject, plus student services, activities and health fees. Health insurance (can be waived), housing and food not included.",
-      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables. Psychology is a Harvard College concentration (AB) charged the same tuition and fees as every other concentration; figures and history copied from the existing AB in History record.",
+      "notes": "Harvard College 2026-27 cost of attendance: tuition $62,226 and 'Fees' $6,216 (student services, activities and health services fees) are the same for every concentration. Excludes Student Health Insurance Plan ($4,954, waivable), housing and food. No admission or document fee is charged. 2024 and 2025 figures from the same page's 2024-2025 and 2025-2026 tables. Psychology is a Harvard College concentration (AB) charged the same tuition and fees as every other concentration; figures and history copied from the existing AB in History record. Fix 2026-10-15: the cost-attendance URL now redirects to the generic 'How aid works' page; the Cost of Attendance tables (2026-2027: tuition $62,226, fees $6,216; 2025-2026: $59,320 / $5,476; 2024-2025: $56,550 / $5,126) are a section of that page, so the current and history sourceUrls point at its #cost-of-attendance anchor; figures unchanged. Source: https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -481,7 +481,7 @@
           "annualTuition": 56550,
           "annualCompulsoryFees": 5126,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         },
         {
           "feeYear": 2025,
@@ -489,7 +489,7 @@
           "annualTuition": 59320,
           "annualCompulsoryFees": 5476,
           "oneOffFees": 0,
-          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance"
+          "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance"
         }
       ]
     }

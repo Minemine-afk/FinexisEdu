@@ -593,32 +593,72 @@ sources:
       field: law
       pattern: B Arts and B Laws 006441D \d+ Feb/Aug ([\d,]+)
   # Sydney's course pages load their fee table from this JSON (the page itself has no figures). It
-  # lists 2026 and 2027 side by side, so the patterns are anchored on the 2026 block; when 2026 drops
-  # off, they stop matching and the figures are re-checked by hand.
+  # lists 2026 and 2027 side by side; the records moved to the 2027 fees on 2026-10-15, so the patterns
+  # are anchored on the 2027 block; when 2027 drops off, they stop matching and the figures are
+  # re-checked by hand.
   - university: usyd
     country: au
     url: https://www.sydney.edu.au/courses/courses/pc/juris-doctor.coredata.json
     parser: html
-    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    year_pattern: '"year":(2027),"fees"'
     targets:
     - level: master
       field: law
-      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+      pattern: '"year":2027,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
   - university: usyd
     country: au
     url: https://www.sydney.edu.au/courses/courses/pc/doctor-of-medicine0.coredata.json
     parser: html
-    year_pattern: '"feesByYear":\[\{"year":(\d{4})'
+    year_pattern: '"year":(2027),"fees"'
     targets:
     - level: master
       field: medicine
-      pattern: '"year":2026,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
+      pattern: '"year":2027,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
   - university: usyd
     country: au
     url: https://www.sydney.edu.au/students/ssaf.html
     parser: html
     targets:
+    # Full-time rate per semester x 2. The programmes read from the course pages' coredata JSON are at
+    # feeYear 2027 (2027 SSAF); the three from the 2026 International Admission Guide (B Engineering
+    # Honours, B Advanced Computing, BA and B Laws) are still at 2026 (2026 SSAF).
     - key: annualCompulsoryFees
+      level: master
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: business
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: sciences
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: arts
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: psychology
+      pattern: 2027 \$ ?([\d.]+) \$ ?[\d.]+
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: engineering
+      pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: computing
+      pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
+      multiplier: 2
+    - key: annualCompulsoryFees
+      level: bachelor
+      field: law
       pattern: 2026 \$ ?([\d.]+) \$ ?[\d.]+ 2027
       multiplier: 2
   - university: usyd
@@ -1291,12 +1331,6 @@ sources:
     url: https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine
     parser: html
     manual: true
-  # secondary source; the university's own fee page is not machine-readable
-  - university: oxford
-    country: uk
-    url: https://www.educatly.com/program/734267/mst-in-history-early-modern-history-1500-1700
-    parser: html
-    manual: true
   # site blocks automated access
   - university: oxford
     country: uk
@@ -1313,12 +1347,6 @@ sources:
   - university: ucl
     country: uk
     url: https://www.ucl.ac.uk/study/student-finances/cost-study/how-much-does-it-cost-study-ucl
-    parser: html
-    manual: true
-  # secondary source; the university's own fee page is not machine-readable
-  - university: unimelb
-    country: au
-    url: https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/master-of-engineering-meng-mechanical-engineering-177953
     parser: html
     manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)

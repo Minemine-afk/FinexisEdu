@@ -108,6 +108,15 @@ Fee history:
   an undated third-party figure, and never fill a year in which the programme had
   no intake.
 
+Yearly fee increase: the calculator derives each university's rate from its own
+fee history (median growth across its programmes, 0–15%), else the country's
+`defaultFeeIncrease`. When the history holds a one-off step (a policy jump such as
+Tohoku's 2027 rise or DCU's 2027-28 schedule) that must not be projected every
+year, set a stated rate at the university level:
+```jsonc
+"feeIncrease": { "rate": 0.031, "reason": "The 2027 rise is a one-off step; Japan's typical rate applies after it." }
+```
+
 Living costs (optional, universities outside Singapore only):
 ```jsonc
 "livingCosts": {

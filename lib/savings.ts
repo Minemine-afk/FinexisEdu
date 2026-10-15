@@ -113,13 +113,17 @@ export interface Tvm {
   startOfMonth: boolean;
 }
 export type TvmField = "months" | "rate" | "start" | "monthly" | "end";
+export const TVM_FIELDS: readonly TvmField[] = ["months", "rate", "start", "monthly", "end"];
 
 /**
- * Fills in `field` from the other four. Returns NaN when no answer exists, and
+ * Fills in `field` from the other four. Returns NaN when no answer exists or
+ * any of the other four is blank (NaN), and
  * 0 for a month count, starting amount or monthly saving when what's there
  * already covers the end amount (a negative answer would mean taking money out).
  */
 export function solveTvm(t: Tvm, field: TvmField): number {
+  // A blank box (NaN) among the four inputs leaves nothing to solve from.
+  for (const k of TVM_FIELDS) if (k !== field && !Number.isFinite(t[k])) return NaN;
   const i = monthlyRate(t.rate);
   const A = (n: number, r = i) => annuity(r, n, t.startOfMonth);
   const atLeastZero = (v: number) => (Number.isNaN(v) ? v : Math.max(0, v));
