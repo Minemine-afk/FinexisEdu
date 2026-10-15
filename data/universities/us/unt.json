@@ -1,7 +1,7 @@
 {
   "id": "unt",
   "name": "University of North Texas",
-  "feeMethod": "Charges tuition per credit hour, with a small extra per-credit charge for some colleges (Engineering, Business, Science); the calculator multiplies the non-resident rate plus that charge by a standard full-time load (30 credits a year for bachelor's, 18 for master's).",
+  "feeMethod": "Charges tuition per credit hour with a small extra charge for some colleges, so the calculator uses the college's rate times a full-time load.",
   "country": "us",
   "city": "Denton, TX",
   "currency": "USD",

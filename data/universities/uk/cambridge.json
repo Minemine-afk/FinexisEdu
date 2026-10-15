@@ -1,7 +1,7 @@
 {
   "id": "cambridge",
   "name": "University of Cambridge",
-  "feeMethod": "Undergraduate tuition is set by subject fee group and fixed for the degree, plus a separate College fee that varies by College; the calculator uses each subject's official fee plus the median College fee. Postgraduate courses have one all-in fee per course, which is used as published.",
+  "feeMethod": "Sets undergraduate tuition by subject fee group plus a College fee, so the calculator uses the subject's fee plus the median College fee.",
   "country": "uk",
   "city": "Cambridge",
   "currency": "GBP",
