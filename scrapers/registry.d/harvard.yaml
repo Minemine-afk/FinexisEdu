@@ -2,7 +2,7 @@ sources:
   # Harvard College cost of attendance: tuition, fees and the living-cost budget (latest year listed first)
   - university: harvard
     country: us
-    url: https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance
+    url: https://college.harvard.edu/financial-aid/how-aid-works#cost-of-attendance
     parser: html
     year_pattern: (\d{4})-\d{4} Cost of Attendance
     targets:

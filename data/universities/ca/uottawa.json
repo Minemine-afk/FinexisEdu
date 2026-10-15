@@ -14,13 +14,13 @@
       "housing": 1451,
       "food": 890.63,
       "transport": 0,
-      "personal": 0
+      "personal": 520.24
     },
     "sourceUrl": "https://www.uottawa.ca/campus-life/housing/fees-payment-information",
-    "lastVerified": "2026-10-13",
-    "sourceType": "official",
-    "summary": "uOttawa's 2026-27 on-campus residence fee and compulsory meal plan for an 8-month year. Local transit is in the compulsory fees; personal costs are not covered.",
-    "notes": "Housing fees and payment information, 2026-2027 tab: traditional single room CA$11,608 (includes $166 contents insurance) for the 8-month academic year, plus mandatory 5-day meal plan CA$7,125. Monthly = /8. The university publishes no personal-expense estimate, so personal is 0; transit is covered by the U-Pass in compulsory fees. The 2027-2028 tab shows $11,955 + $7,400."
+    "lastVerified": "2026-10-15",
+    "sourceType": "secondary",
+    "summary": "uOttawa's 2026-27 residence fee and meal plan for an 8-month year; personal spending is set so the total meets Canada's study-permit cost-of-living floor (C$22,895). Transit is in the compulsory fees.",
+    "notes": "Housing fees and payment information, 2026-2027 tab: traditional single room CA$11,608 (includes $166 contents insurance) for the 8-month academic year, plus mandatory 5-day meal plan CA$7,125. Monthly = /8. The university publishes no personal-expense estimate, so personal is 0; transit is covered by the U-Pass in compulsory fees. The 2027-2028 tab shows $11,955 + $7,400. Fix 2026-10-15: uOttawa publishes no personal/miscellaneous budget, so personal = CA$520.24 a month, the amount that lifts the 8-month total (housing + food = CA$18,733.04) to the IRCC study-permit cost-of-living requirement outside Quebec of CA$22,895 a year for a single applicant (applications up to 1 Sep 2026; CA$23,448 for applications after that date), read 2026-10-15 at https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html. Marked secondary because the personal line is the visa floor, not a university figure."
   },
   "programmes": [
     {
@@ -290,17 +290,17 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 49439.0,
+          "annualTuition": 77104.92,
           "annualCompulsoryFees": 1369.51,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
-      "lastVerified": "2026-10-13",
+      "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
-      "summary": "Yearly tuition for international students in 2026-27 (two terms), plus student fees and health plan. This is much lower than the 2025-26 rate.",
-      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$24,719.50 per term for 2026-2027 and CA$38,552.46 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Law, Juris Doctor. The calculator lists the JD under undergraduate programs; the 2026-2027 rate (24,719.50 per term) is well below 2025-2026 (38,552.46); both read directly from the calculator, cause not stated. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them. Second look 2026-10-14: level changed from bachelor to master so the JD is grouped with every other Juris Doctor on the site (a graduate-entry law degree requiring a prior bachelor's degree); the fee and source are unchanged (https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international).",
+      "summary": "Yearly tuition for international students (two terms), plus student fees and health plan, at the 2025-26 rate that uOttawa says is unchanged for 2026-27. Fees can rise in later years.",
+      "notes": "uOttawa international tuition calculator (dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL, embedded in the sourceUrl page), full-time first-year rate CA$24,719.50 per term for 2026-2027 and CA$38,552.46 for 2025-2026; annual = 2 terms (undergraduate year of fall and winter, as in uOttawa's estimating-fees example https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees). Faculty of Law, Juris Doctor. The calculator lists the JD under undergraduate programs; the 2026-2027 rate (24,719.50 per term) is well below 2025-2026 (38,552.46); both read directly from the calculator, cause not stated. Compulsory fees 2026-27 = per term U-Pass 240.67 + health services 31.46 + sports 143.72 + University Centre 18.86 + UOSU health & dental plan 104.15 (x2 terms) + UOSU fees 148.50 + 143.29 = 1,369.51 (from uOttawa's 'Estimating total university fees' worked example); 2025-26 from the incidental-fees table: (234.80 + 190.46 + 102.24) x2 + 144.52 + 139.41 = 1,338.93. Excludes UHIP (about 316 per term) and faculty association fees. 2024 row: uOttawa's tuition-international page (archived 2025-08-07) under 'Changes for 2025-2026' states first-year international undergraduate tuition 'will remain unchanged relative to 2024-2025' and that graduate master's and doctoral tuition 'will remain unchanged', so the 2024 figure is the 2025 figure as stated by the university. 2024 compulsory fees not found (omitted). Not cohort-locked: uOttawa's tuition predictability commitment caps annual increases for continuing students rather than freezing them. Second look 2026-10-14: level changed from bachelor to master so the JD is grouped with every other Juris Doctor on the site (a graduate-entry law degree requiring a prior bachelor's degree); the fee and source are unchanged (https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international). Fix 2026-10-15: 2026 tuition corrected from CA$49,439.00 (2 x CA$24,719.50) to CA$77,104.92 (2 x CA$38,552.46). Re-read of the international tuition calculator on 2026-10-15: for 2025-2026 every JD discipline (Juris Doctor, National Program, Political Science and JD, Commerce and JD) shows CA$38,552.46 per term full-time (CA$3,100.50 per unit part-time) while Civil Law (LLL) shows CA$24,719.50; for 2026-2027 the same JD disciplines show CA$24,719.50 per term (CA$1,916.20 per unit), identical to the Civil Law rate, so the 2026-27 JD entry is not a different load or programme but a change in the calculator itself. uOttawa's tuition-international page, 'Changes for 2026-2027', states that tuition for international undergraduate students enrolling in first year 'are unchanged compared to 2025-2026' (the calculator lists the JD under undergraduate programs), so the published 2025-26 JD rate is carried into 2026-27 and the calculator's lower 2026-27 figure is treated as an error; confirm with the Faculty of Law before relying on it. Source: https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international (read 2026-10-15).",
       "feeHistory": [
         {
           "feeYear": 2024,

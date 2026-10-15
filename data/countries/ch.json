@@ -2,6 +2,7 @@
   "code": "ch",
   "name": "Switzerland",
   "currency": "CHF",
-  "defaultFeeIncrease": 0.0,
-  "livingCostIncrease": 0.011
+  "defaultFeeIncrease": 0.011,
+  "livingCostIncrease": 0.011,
+  "notes": "defaultFeeIncrease 0.011 set 2026-10-15. The 2025 ETH/EPFL rise was a one-off step (ETH Board ordinance of 5 Dec 2024: the CHF 730 semester tuition tripled to CHF 2,190 for students who move to Switzerland to study, from autumn 2025) and is already in the data as the 2025 and 2026 rows of every ETH and EPFL programme, so it must not be projected forward; a tripling cannot be a yearly rate. The same ordinance indexes the tuition fee to the Swiss consumer price index every four years, first in 2029 (EPFL 'Tuition fee and other fees' page: 'the tuition fee will also be adapted every four years according to the Swiss consumer price index (first adaptation in 2029)'; ETH 'Tuition fees' page, updated 19.11.2025, read 2026-10-15), which averages to the CPI rate of about 1.1% a year, the same figure used for livingCostIncrease. Cantonal universities (Neuchatel, St Gallen, Zurich) have left international fees unchanged since 2024, so 1.1% slightly overstates them (about CHF 15 a year on a CHF 1,400 fee). The calculator estimates a university's own rate from its fee history first and falls back to this rate; ETH and EPFL have a single identical tuition series each, so they use this country rate. Sources: https://ethz.ch/en/studies/financial/tuition-fees.html and https://www.epfl.ch/education/studies/en/rules-and-procedures/study-taxes/tuition-fee-other-fees/."
 }

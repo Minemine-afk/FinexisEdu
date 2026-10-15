@@ -1,9 +1,9 @@
-# University of Neuchatel. Fees are fixed in a cantonal decree (annual amounts).
+# University of Neuchatel. Fees are fixed in a cantonal decree; the 'Taxes universitaires' page gives them per semester.
 sources:
-  # Cantonal fee decree PDF: amounts read by hand
+  # 'Taxes universitaires' page (foreign students CHF 790 a semester): amounts read by hand
   - university: unine
     country: ch
-    url: "https://unine.ch/media/wp-content/uploads/sites/17/a_finance_inscription_unine.pdf"
+    url: "https://www.unine.ch/admission/taxes-universitaires/"
     manual: true
   # Managing-your-finances page: ranged monthly budget, midpoints computed by hand
   - university: unine

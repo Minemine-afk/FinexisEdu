@@ -1,11 +1,11 @@
-# Dublin City University. Fee schedules are one page per academic year (…2026-2027 / …2026-27);
+# Dublin City University. Fee schedules are one page per academic year (…2027-2028 / …2027-28);
 # earlier years' URLs redirect to the current page, so bump the URL when a new year is published
 # (the 2025-26 feeHistory rows were read from Common Crawl's September 2025 capture of the old URLs).
 # UG rows: name, description, student contribution (EU only), EU fee, non-EU fee.
 sources:
   - university: dcu
     country: ie
-    url: https://www.dcu.ie/fees/undergraduate-fees-2026-2027
+    url: https://www.dcu.ie/fees/undergraduate-fees-2027-2028
     parser: html
     year_pattern: Undergraduate Fees (\d{4})-\d{4}
     targets:
@@ -17,7 +17,7 @@ sources:
       pattern: Bachelor of Business Studies All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
     - level: bachelor
       field: engineering
-      pattern: Mechanical and Manufacturing Engineering All programme fees are per annum and subject to an annual increase\. €[\d,]+ \(Year 1- ?4\) €[\d,]+ \(Year 1 - 4\), €[\d,]+ \(Year 5 Integrated Masters\) €([\d,]+) \(Year 1 - 4\)
+      pattern: Mechanical and Manufacturing Engineering All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+, \(€[\d,]+ Year 5 Integrated Masters\) €([\d,]+) \(Year 1\)
     - level: bachelor
       field: sciences
       pattern: Applied Physics All programme fees are per annum and subject to an annual increase\. €[\d,]+ €[\d,]+ €([\d,]+)
@@ -30,7 +30,7 @@ sources:
   # PG rows: name, (scholarship blurb for Engineering & Computing), description, EU FT, [EU PT], non-EU FT, [non-EU PT].
   - university: dcu
     country: ie
-    url: https://www.dcu.ie/fees/postgraduate-fees-2026-27
+    url: https://www.dcu.ie/fees/postgraduate-fees-2027-28
     parser: html
     year_pattern: Postgraduate Fees (\d{4})-\d{2}
     targets:
