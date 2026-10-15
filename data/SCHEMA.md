@@ -38,6 +38,7 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
       "cohortLocked": true,                      // true if the fee is fixed for the whole programme once you enrol
       "internationalEligible": true,             // optional; false if the programme is closed to international students
       "summary": "Yearly tuition after the MOE Tuition Grant, fixed for your whole degree.",  // shown on the site: 1-2 plain sentences for parents, max 280 chars
+      "feeBasis": "NTU's published rate for every standard undergraduate degree, subsidised by the MOE Tuition Grant.",  // required, max 240 chars, shown on the site under "How this fee was worked out": which published figure was used and which major, band or range point was chosen. No URLs; the source link is shown beside it
       "notes": "Tuition Grant rates; excludes GST",   // optional; detailed source/method notes for maintainers, not shown
       "feeHistory": [                            // fees for EARLIER intakes/years; see below
         {

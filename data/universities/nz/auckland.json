@@ -40,6 +40,7 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 estimated fee of NZ$40,225 for a 120-point BA year of standard arts courses; performance and science-based courses raise it to about NZ$48,133.",
       "summary": "Estimated yearly tuition for international students, for a full-time year. Performance and science-based courses cost more. Student services fee included. Not fixed.",
       "notes": "2026 estimated international fee for 120 points, excluding performance and science-based courses (those NZ$48,133). Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point Arts course fee from that year's international Arts fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -76,6 +77,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 estimated LLB fee of NZ$47,218 a year (8 law courses at NZ$5,902.20); year 1 mixes in another degree's courses and may be up to about 9% lower.",
       "summary": "University's estimated yearly tuition for international students for a full-time year of law. Year 1 mixes 45 law points with 75 from another degree, so it is about 9% lower with Arts courses and about the same with Science or Commerce.",
       "notes": "2026 estimated international fee for 120 points (8 x 15-point LAW course at NZ$5,902.20; 480 points over 4 years). LLB Part I is 45 points of law plus 75 points from another degree, so the first year is a little lower. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point LAW course fee from that year's international Law fee schedule, with SSF NZ$8.88 / NZ$9.24 per point. Later-year check 2026-10-08: 2026 Law international schedule: Part I courses (LAW 121G, 131, 141) and 200 to 400-level LAW courses all NZ$5,902.20 per 15 points, so Parts II to IV = 8 x 5,902.20 = NZ$47,217.60. Part I is 45 law points (NZ$17,706.60) plus 75 points of another degree: about NZ$42,847 with Arts (5 x 5,028.15), NZ$47,220 with Science, NZ$47,790 with Commerce. The university publishes one LLB figure (NZ$47,218) and no Part I figure, so year 1 is kept at the published rate rather than guessing the partner degree. 2027 schedules not yet published.",
       "feeHistory": [
@@ -119,6 +121,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 rate for 120 points of master's-level law courses, NZ$48,595 (8 x NZ$6,074.40), for the one-year LLM.",
       "summary": "Tuition for international students for this one-year master's. Student services fee included.",
       "notes": "2026 international fee for 120 points of 700-level LAW courses (8 x 15-point LAW 760 at NZ$6,074.40, or 4 x 30-point LAW 701 at NZ$12,148.80); taught or research LLM, 1 year. Compulsory = Student Services Fee NZ$9.44/point x 120. 2024/2025 = 8 x 15-point 700-level LAW course fee from that year's schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -162,6 +165,7 @@
       "lastVerified": "2026-09-30",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Year 1 uses Auckland's 2026 estimated fee of NZ$42,818 for the shared first year; years 2-6 use the medical programme rate of about NZ$86,561 a year (year 3 about NZ$75,740).",
       "summary": "At 2026 rates, year 1 costs about NZ$42,800 and years 2 to 6 about NZ$86,561 a year (year 3 is 105 points, about NZ$75,740). Fees are set each year and are not fixed for your intake. Student services fee included.",
       "notes": "First-year rate: the 2026 estimated international fee for the Year 1 (overlapping BHSc / Biomedical Science year, 120 points at NZ$5,352.30 per 15-point course), which the programme list quotes for MB ChB Year 1. Years 2 to 6 are NZ$86,561 a year (MBChB Part II-VI, 2 x 60-point halves at NZ$43,280.40 each; Part III is 105 points, NZ$75,740.70), so the six-year total is about NZ$475,600. 720 points over 6 years. Compulsory = Student Services Fee NZ$9.44/point x 120. 2024/2025 = 8 x 15-point Year 1 course fee (MEDSCI 142 / POPLHLTH) from that year's international Medical and Health Sciences schedule, with SSF NZ$8.88 / NZ$9.24 per point; MBChB Part II was NZ$83,232 in 2024 and NZ$86,560.80 in 2025. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure. Second look 2026-10-14: cohortLocked kept false; the summary quoted a six-year total (NZ$465,000-475,600) as if fixed, so it now gives the per-year rates 'at 2026 rates' and says fees are set each year. The 2026 Programme List (https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/Programme-List-2026-WEB.pdf, read 2026-10-14) labels the figures 'estimated tuition fees for 2026' and 'a general guide only and ... subject to alteration'; nothing states that the fee is fixed for the cohort.",
       "feeHistory": [
@@ -219,6 +223,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 indicative fee of NZ$48,133 for a 120-point BCom year (8 business courses at NZ$6,016.65), the same for all majors as standard business courses.",
       "summary": "Estimated yearly tuition for international students, including 15% GST and the student services fee. Books, insurance and living costs are extra. Not fixed.",
       "notes": "2026 indicative international fee for 120 points from the programme page's Fees section (8 x 15-point Business School course at NZ$6,016.65, e.g. BUSINESS 111; 360 points over 3 years); inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2025 = 8 x 15-point BUSINESS 111 fee from the 2025 international Business and Economics fee schedule, with SSF NZ$9.24 per point; no 2024 Business and Economics schedule is published. 2024 row: 'Tuition fees 2024 - International students: Business and Economics' schedule (2024fees/Website_Fees_B&E_International.pdf, still live; Wayback capture 20240620223241), BUSINESS 111 Understanding Business 15 points $5,509.80 x 8 = NZ$44,078.40; schedule header: Student Services Fee NZ$8.88 per point x 120 = NZ$1,065.60. Corrects the earlier note that no 2024 B&E schedule is published (it was filed as B&E, not BE).",
       "feeHistory": [
@@ -256,6 +261,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 indicative fee of NZ$58,009 for a 120-point first year of the BE (Honours) (8 engineering courses at NZ$7,251.15).",
       "summary": "Estimated yearly tuition for international students, including 15% GST and the student services fee. Books, insurance and living costs are extra. Not fixed.",
       "notes": "2026 indicative international fee for 120 points from the programme page's Fees section (8 x 15-point Part I engineering course at NZ$7,251.15, e.g. ENGGEN 115; 480 points over 4 years); inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point ENGGEN 115 fee from that year's international Engineering fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -292,6 +298,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Lower end of Auckland's 2026 BSc range NZ$47,221-58,009 (8 standard science courses); laboratory-heavy majors cost more. Computer Science is the same degree at this fee.",
       "summary": "Lower end of the published range for international students; laboratory-heavy majors cost more. Includes 15% GST and the student services fee. Books and insurance are extra.",
       "notes": "Lower end of the 2026 indicative international range NZ$47,221 - $58,009 on the programme page's Fees section: 8 x 15-point standard Science course at NZ$5,902.65 (e.g. BIOSCI 101, CHEM 110, COMPSCI 101; laboratory-heavy majors cost more); 360 points over 3 years; inclusive of 15% GST, excludes books, insurance and living costs. The Computer Science major is the same degree at the same fee, so it is not recorded separately. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point BIOSCI 101 / COMPSCI 101 fee from that year's international Science fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -328,6 +335,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 rate for 120 points of master's-level arts courses, NZ$44,970; the MA page quotes NZ$43,674-55,484 across all subjects.",
       "summary": "Tuition for international students for the one-year taught master's, including 15% GST and the student services fee. Fees vary by subject.",
       "notes": "2026 international fee for 120 points of 700-level Arts courses (8 x 15-point course at NZ$5,621.25, e.g. ARTSGEN 740 / HISTORY 700A) from the 2026 international Arts and Education fee schedule; taught 120-point MA, 1 year (the programme page quotes NZ$43,674 - $55,484 across all subjects). Inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point 700-level Arts course fee from that year's international Arts fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -364,6 +372,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 MBA course rate (NZ$7,536 per 15 points) for 120 points a year, NZ$60,288; the 18-month MBA totals about NZ$90,432.",
       "summary": "Annual share of the 18-month MBA total for international students, including 15% GST and the student services fee. Travel for intensives and the study tour is extra.",
       "notes": "180-point MBA over 18 months (6 quarters of 30 points): 2026 international fee NZ$7,536.00 per 15-point BUSMBA course from the 2026 international Business and Economics fee schedule, so NZ$90,432 for the programme; recorded per year as 8 x 15 points (120 points). The programme page only publishes the domestic fee (NZ$51,898 for 180 points). Inclusive of 15% GST; travel for intensives and the study tour is extra. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2025 = 8 x 15-point BUSMBA course fee (NZ$7,177.20) from the 2025 schedule, with SSF NZ$9.24 per point; no 2024 Business and Economics schedule is published. 2024 row: 2024 international Business and Economics schedule (2024fees/Website_Fees_B&E_International.pdf, still live; Wayback 20240620223241), 15-point BUSMBA course (e.g. BUSMBA 720/750) $6,901.20 x 8 = NZ$55,209.60 per 120 points; SSF NZ$8.88 per point x 120 = NZ$1,065.60. Corrects the earlier note that no 2024 B&E schedule is published.",
       "feeHistory": [
@@ -401,6 +410,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 indicative international fee of NZ$55,214 per year for the 1.5-year Master of Information Technology, from its programme page.",
       "summary": "Estimated yearly tuition for international students in this 1.5-year programme with an industry internship. Includes 15% GST and the student services fee. Books and insurance extra.",
       "notes": "2026 indicative international fee per year (120 points) from the programme page's Fees section; 180-point MInfoTech (1.5 years) for entry from a bachelor's degree, awarded jointly with the University of Waikato, including a 60-point industry internship; inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). Earlier years' page figures are not published. 2024/2025 rows from Wayback captures of the programme page, 'How much does a Master of Information Technology cost per year?': capture 20240926150029 '2024 fees ... International students NZ$50,564' (the 20240223 capture shows only the domestic figure); captures 20250209144743 and 20250801161347 '2025 fees ... International students NZ$52,585'; both inclusive of GST, excluding SSF. SSF per year: 2024 NZ$8.88/point x 120 = NZ$1,065.60 (2024 B&E schedule header), 2025 NZ$9.24/point x 120 = NZ$1,108.80 (as used for other 2025 rows).",
       "feeHistory": [
@@ -439,6 +449,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 indicative fee of NZ$55,484 for the one-year Master of Engineering Studies (8 master's-level engineering courses).",
       "summary": "Tuition for international students for the one-year programme (1.5 years if you hold a 3-year degree). Includes 15% GST and the student services fee. Books and insurance extra.",
       "notes": "2026 indicative international fee for 120 points from the programme page's Fees section (8 x 15-point 700-level engineering course at NZ$6,935.55, e.g. ENGGEN 701); taught 120-point MEngSt for holders of a 4-year BE(Hons), 1 year (180 points / 1.5 years from a 3-year degree); inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point 700-level ENGGEN course fee from that year's international Engineering fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -475,6 +486,7 @@
       "lastVerified": "2026-10-01",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 indicative fee of NZ$55,484 a year for the 2-year Master of Science (8 master's-level science courses a year).",
       "summary": "Estimated yearly tuition for international students in the 2-year master's (1 year after an honours degree). Includes 15% GST and the student services fee. Books and insurance extra.",
       "notes": "2026 indicative international fee per year (120 points) from the programme page's Fees section (8 x 15-point 700-level Science course at NZ$6,935.55, e.g. BIOSCI 700 / COMPSCI 701); 240-point MSc over 2 years for direct entry from a bachelor's degree (120 points / 1 year after a BSc(Hons) or PGDipSci); inclusive of 15% GST, excludes books, insurance and living costs. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point 700-level Science course fee from that year's international Science fee schedule, with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -511,6 +523,7 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Psychology is a BSc major; it uses the lower end of the BSc range (NZ$47,221), as psychology courses are charged at the standard science rate. The new BPsych quotes the same.",
       "summary": "Yearly tuition for international students for 120 points of standard science courses, including 15% GST and the student services fee. Books and insurance are extra.",
       "notes": "Psychology is a major in the BSc (also the BA); the new Bachelor of Psychology (BPsych) takes its first students in 2027 and its page quotes the same 2026 international figure (NZ$47,221). 2026 figure = lower end of the BSc page's indicative international range NZ$47,221 - $58,009; PSYCH courses are standard Science courses (2026 international Science fee schedule: PSYCH 108 / PSYCH 109, 15 points, NZ$5,902.65 each; 8 x 15 points = NZ$47,221.20). 360 points over 3 years; inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point PSYCH 108/109 fee from that year's international Science fee schedule (NZ$5,405.40 / NZ$5,621.55), with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -549,6 +562,7 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "The MSc in Psychology at Auckland's 2026 rate of NZ$55,484 a year (8 master's-level psychology courses), the same as the general MSc figure.",
       "summary": "Estimated yearly tuition for international students in the 2-year master's (1 year after an honours degree). Includes 15% GST and the student services fee. Books and insurance extra.",
       "notes": "MSc specialisation in Psychology, 240 points over 2 years from a bachelor's degree (taught courses plus a thesis; 120 points / 1 year after honours). 2026 fee per year = 8 x 15-point 700-level PSYCH course at NZ$6,935.55 (e.g. PSYCH 714, PSYCH 723; 2026 international Science fee schedule) = NZ$55,484.40, the same as the Master of Science entry's figure from the programme page. Auckland's other taught option is the Master of Organisational Psychology. Inclusive of 15% GST. Compulsory = Student Services Fee NZ$9.44/point x 120 (cssf page). 2024/2025 = 8 x 15-point 700-level PSYCH course fee from that year's international Science fee schedule (NZ$6,351.15 / NZ$6,605.25), with SSF NZ$8.88 / NZ$9.24 per point.",
       "feeHistory": [
@@ -587,6 +601,7 @@
       "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
+      "feeBasis": "Auckland's 2026 international fee schedule: 12 courses at NZ$6,263.10 each (NZ$75,157.20 for 180 points), divided by the 1.25-year programme. Assumes the Managing People course is BUSMGT 711; if BUSMAN 701, NZ$303.75 less.",
       "summary": "Estimated yearly tuition for international students on the 15-month, 180-point course, spread over 1.25 years, including 15% GST. Student services fee is included; insurance and living costs are extra.",
       "notes": "International fee schedule 'Tuition fees 2026 - International students: Business and Economics': the 12 x 15-point courses of the MProfAcctg (BUSACT 701-705, 731/732/734 and BUSMGT core courses) are all NZ$6,263.10 each, so 12 x 6,263.10 = 75,157.20 for 180 points over the 15-month programme (page: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-professional-accounting-mprofacctg.html shows no fee, only the schedule does); divided by durationYears 1.25 = 60,125.76. Assumption: the 'Managing People and Organisations' course is BUSMGT 711 (6,263.10); if it is BUSMAN 701 (5,959.35) the total is NZ$303.75 lower. Compulsory = Student Services Fee NZ$9.44/point x 180 = 1,699.20 over the programme, /1.25 = 1,359.36 (schedule says it 'may be charged'). History rows use the same method: 2025 schedule (Website_Fees_BE_International.pdf) courses 5,964.90 x 12 = 71,578.80, SSF 9.24/pt; 2024 schedule (Website_Fees_B&E_International.pdf) courses 5,735.55 x 12 = 68,826.60, SSF 8.88/pt. All include 15% GST. The 2024/2025 programme structure (15 months, 180 points) was assumed unchanged. Fees reviewed annually, not cohort locked.",
       "feeHistory": [
