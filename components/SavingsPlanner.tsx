@@ -75,12 +75,17 @@ export default function SavingsPlanner({
   const firstYear = s.result.years[0]?.academicYear ?? now.year + 1;
   const projected = yearCostsSgd(s);
   const projectedTotal = projected.reduce((a, b) => a + b, 0);
+  // Months of the first year that have already passed are not offered as "First fees due".
+  const firstMonth = firstYear === now.year ? now.month : 0;
+  const bodyRef = useRef<HTMLDivElement>(null);
 
   const [target, setTarget] = useState<number | null>(null);
-  const [intake, setIntake] = useState(defaultIntakeMonth(s.university.country));
+  const [intake, setIntake] = useState(() => Math.max(firstMonth, defaultIntakeMonth(s.university.country)));
   const [view, setView] = useState<"split" | "time">("split");
   const [tvmEdits, setTvmEdits] = useState<Tvm | null>(null);
-  const [tvmField, setTvmField] = useState<TvmField>("monthly");
+  // With no time to save (fees due now) the question is what to set aside today.
+  const seedField: TvmField = monthsBetween(now, { year: firstYear, month: intake }) === 0 ? "start" : "monthly";
+  const [tvmField, setTvmField] = useState<TvmField>(seedField);
   const [startOfMonth, setStartOfMonth] = useState(false);
 
   // Keep the page behind still (position: fixed also holds on iOS Safari),
@@ -141,11 +146,15 @@ export default function SavingsPlanner({
   const t: Tvm = { ...(tvmEdits ?? seed), startOfMonth };
   const solved = solveTvm(t, tvmField);
   const full: Tvm = { ...t, [tvmField]: solved };
-  const ok = Number.isFinite(solved);
+  // A month count past a century is no plan at all.
+  const tooLong = tvmField === "months" && solved > MAX_MONTHS;
+  const ok = Number.isFinite(solved) && !tooLong;
   // "Clear form" leaves boxes empty (NaN) until they are filled in again.
   const blanks = TVM_FIELDS.filter(([k]) => k !== tvmField && !Number.isFinite(t[k])).length;
   // Only a real answer is simulated, and never beyond a century of months.
   const n = ok ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : 0;
+  // Fees fall due now: there is no time to save, so the whole amount is your own money.
+  const dueNow = ok && n === 0;
   const mine: Plan = simulate({ start: full.start, monthly: full.monthly, months: n, ratePct: full.rate, startOfMonth, today: now });
   let other: Plan | null = null;
   let compare: [string, string] | null = null;
@@ -155,21 +164,28 @@ export default function SavingsPlanner({
     const v = solveTvm(s0, tvmField);
     if (Number.isFinite(v)) {
       const f = { ...s0, [tvmField]: v };
-      other = simulate({ start: f.start, monthly: f.monthly, months: Math.min(MAX_MONTHS, Math.max(0, Math.round(f.months))), ratePct: SAVING_RATE, startOfMonth, today: now });
-      savingSide = { paidIn: f.start + f.monthly * f.months, interest: f.end - f.start - f.monthly * f.months };
       compare = [show(f, tvmField), show(full, tvmField)];
+      // Saving at 0.05% that takes over a century is shown as such, not drawn.
+      if (f.months <= MAX_MONTHS) {
+        other = simulate({ start: f.start, monthly: f.monthly, months: Math.max(0, Math.round(f.months)), ratePct: SAVING_RATE, startOfMonth, today: now });
+        savingSide = { paidIn: f.start + f.monthly * f.months, interest: f.end - f.start - f.monthly * f.months };
+      }
     }
   }
   const answer = (
     <Answer
       question={TVM_FIELDS.find(([k]) => k === tvmField)![2]}
-      value={ok ? show(full, tvmField) : blanks ? "Fill in the boxes" : "Not possible"}
+      value={ok ? show(full, tvmField) : blanks ? "Fill in the boxes" : tooLong ? "Over 100 years" : "Not possible"}
       note={
-        ok
-          ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}. Change any four boxes and tap "Solve" on the one you want.`
-          : blanks
-            ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Solve" on the one you want.`
-            : "No answer fits these numbers. Check the four boxes you filled in."
+        dueNow
+          ? `Fees are due now, so the whole ${sgd(full.end)} is needed today and there is no time for interest to build. Change any four boxes and tap "Solve" on the one you want.`
+          : ok
+            ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}. Change any four boxes and tap "Solve" on the one you want.`
+            : blanks
+              ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Solve" on the one you want.`
+              : tooLong
+                ? `That would take more than ${MAX_MONTHS.toLocaleString("en-SG")} months. Start with more, save more each month or earn more interest.`
+                : "No answer fits these numbers. Check the four boxes you filled in."
       }
     />
   );
@@ -187,13 +203,21 @@ export default function SavingsPlanner({
   // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
   const clamp = (k: TvmField, v: number) =>
     k === "rate" ? Math.min(20, Math.max(0, v)) : k === "months" ? Math.min(MAX_MONTHS, Math.max(0, v)) : Math.max(0, v);
-  // The box being solved keeps its answer when it becomes an input again; with no answer it starts empty.
-  const current = (): Tvm => ({ ...full, [tvmField]: ok ? solved : NaN });
+  // The box being solved keeps its answer (within the box's limits) when it becomes an input again; with no answer it starts empty.
+  const current = (): Tvm => ({ ...full, [tvmField]: ok ? clamp(tvmField, solved) : NaN });
   const edit = (k: TvmField, v: number) => setTvmEdits({ ...current(), [k]: clamp(k, v) });
   /** Empties every number; the projected cost and defaults come back with "Reset" or by reopening. */
   const clearForm = () => {
     setTarget(NaN);
     setTvmEdits({ months: NaN, rate: NaN, start: NaN, monthly: NaN, end: NaN, startOfMonth });
+    // The answer panel says what to fill in; bring it back into view.
+    bodyRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+  };
+  /** Back to the projected cost, the seed in every box and the field the planner opened on. */
+  const reset = () => {
+    setTarget(null);
+    setTvmEdits(null);
+    setTvmField(seedField);
   };
   const tvmBoxes = (
     <div className="space-y-3">
@@ -238,20 +262,24 @@ export default function SavingsPlanner({
         />
       </Field>
       <p className="text-xs text-muted">
-        Interest is added monthly. {months} months until {startLabel}.
+        Interest is added monthly.{" "}
+        {months === 0 ? `Fees are due now (${startLabel}).` : `${months.toLocaleString("en-SG")} ${months === 1 ? "month" : "months"} until ${startLabel}.`}
       </p>
     </div>
   );
   return frame(<Group title="Fill in four, solve for the fifth">{tvmBoxes}</Group>);
 
   function show(v: Tvm, k: TvmField): string {
-    if (k === "months") return `${Math.round(v.months)} months`;
+    if (k === "months")
+      return v.months > MAX_MONTHS ? `Over ${MAX_MONTHS.toLocaleString("en-SG")} months` : `${Math.round(v.months).toLocaleString("en-SG")} months`;
     if (k === "rate") return `${v.rate.toFixed(2)}% a year`;
     return sgd(v[k]);
   }
 
   /** The pop-up around the inputs: header, cost, results. */
   function frame(children: React.ReactNode) {
+    // A sheet in landscape keeps clear of the notch; a centred dialog has the page's own margins.
+    const padX = sheet ? "safe-x" : "px-4 sm:px-6";
     return (
       <div className="fixed inset-0 z-50">
         <button
@@ -268,17 +296,17 @@ export default function SavingsPlanner({
           aria-labelledby={titleId}
           className={`absolute flex flex-col overflow-hidden bg-surface shadow-2xl ${
             sheet
-              ? "inset-x-0 bottom-0 max-h-[92vh] rounded-t-3xl [@media(max-height:500px)]:max-h-full [@media(max-height:500px)]:rounded-none"
-              : "left-1/2 top-1/2 max-h-[90vh] w-[min(56rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border"
+              ? "inset-x-0 bottom-0 max-h-[92dvh] rounded-t-3xl [@media(max-height:500px)]:max-h-full [@media(max-height:500px)]:rounded-none"
+              : "left-1/2 top-1/2 max-h-[90dvh] w-[min(56rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border"
           }`}
         >
           {sheet && <div aria-hidden className="mx-auto mt-2 h-1.5 w-10 shrink-0 rounded-full bg-border [@media(max-height:500px)]:hidden" />}
-          <div className="flex shrink-0 items-start gap-3 border-b border-border px-4 pb-3 pt-3 sm:px-6 sm:pt-4 [@media(max-height:500px)]:pb-2 [@media(max-height:500px)]:pt-2">
+          <div className={`flex shrink-0 items-start gap-3 border-b border-border pb-3 pt-3 sm:pt-4 [@media(max-height:500px)]:pb-2 [@media(max-height:500px)]:pt-2 ${padX}`}>
             <div className="min-w-0 flex-1">
               <h2 id={titleId} className="text-lg font-semibold">
                 Time Value of Money calculator
               </h2>
-              <p className="text-sm text-muted [@media(max-height:500px)]:hidden">
+              <p className="truncate text-sm text-muted [@media(max-height:500px)]:hidden" title={`${s.university.name} · ${programmeLabel(s.university, s.programme)}`}>
                 {s.university.name} · {programmeLabel(s.university, s.programme)}
               </p>
             </div>
@@ -294,7 +322,7 @@ export default function SavingsPlanner({
             </button>
           </div>
 
-          <div className="min-h-0 flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4 sm:px-6">
+          <div ref={bodyRef} className={`min-h-0 flex-1 space-y-4 overflow-y-auto pb-5 pt-4 ${padX}`}>
             <div className="grid items-start gap-5 md:grid-cols-[18rem_minmax(0,1fr)]">
               <div className="min-w-0 space-y-4">
                 <Group title="The cost">
@@ -317,11 +345,8 @@ export default function SavingsPlanner({
                           {Number.isNaN(target) ? "Cleared." : "You changed this."} Compare says {sgd(projectedTotal)}.{" "}
                           <button
                             type="button"
-                            onClick={() => {
-                              setTarget(null);
-                              setTvmEdits(null);
-                            }}
-                            className={`-my-3 -mx-1 px-1 py-3 text-accent underline underline-offset-2${FOCUS}`}
+                            onClick={reset}
+                            className={`-my-3.5 -mx-1 inline-block min-h-11 px-1 py-3.5 align-middle text-accent underline underline-offset-2${FOCUS}`}
                           >
                             Reset
                           </button>
@@ -342,11 +367,13 @@ export default function SavingsPlanner({
                           }}
                           className="h-full min-w-0 flex-1 bg-transparent pl-3 outline-none"
                         >
-                          {MONTHS.map((m, i) => (
-                            <option key={m} value={i}>
-                              {m}
-                            </option>
-                          ))}
+                          {MONTHS.map((m, i) =>
+                            i < firstMonth ? null : (
+                              <option key={m} value={i}>
+                                {m}
+                              </option>
+                            ),
+                          )}
                         </select>
                         <span className="text-sm text-muted tabular-nums">{firstYear}</span>
                       </div>
@@ -372,7 +399,7 @@ export default function SavingsPlanner({
                   )}
                 </div>
                 {bars && (
-                  <Chart bars={bars} mine={mine} other={other} today={now} startMonth={null} startLabel={startLabel} view={view} setView={setView} />
+                  <Chart bars={bars} mine={mine} other={other} today={now} startMonth={null} startLabel={startLabel} view={view} setView={setView} dueNow={dueNow} />
                 )}
                 {bars && (
                 <details className="rounded-xl border border-border">
@@ -386,7 +413,6 @@ export default function SavingsPlanner({
                           <th className="py-1.5 pr-2 text-left font-medium">Year</th>
                           <th className="px-2 font-medium">Paid in</th>
                           <th className="px-2 font-medium">Interest</th>
-                          <th className="px-2 font-medium">Costs paid</th>
                           <th className="pl-2 font-medium">Balance</th>
                         </tr>
                       </thead>
@@ -396,7 +422,6 @@ export default function SavingsPlanner({
                             <td className="py-1.5 pr-2 text-left">{y.year}</td>
                             <td className="px-2">{y.paidIn ? sgd(y.paidIn) : "–"}</td>
                             <td className="px-2">{sgd(y.interest)}</td>
-                            <td className="px-2">{y.costs ? sgd(y.costs) : "–"}</td>
                             <td className={`pl-2 ${y.balance < -0.5 ? "text-warn-fg" : ""}`}>
                               {sgd(Math.abs(y.balance) < 0.5 ? 0 : y.balance)}
                             </td>
@@ -409,12 +434,12 @@ export default function SavingsPlanner({
                 )}
               </div>
             </div>
-          </div>
-
-          <div className={`flex shrink-0 items-center gap-3 border-t border-border px-4 pt-3 sm:px-6 ${sheet ? "pb-[max(0.75rem,env(safe-area-inset-bottom))]" : "pb-3"}`}>
-            <p className="min-w-0 flex-1 text-xs text-muted">
+            <p className="text-xs text-muted">
               An estimate, not financial advice. Returns are not guaranteed; costs after the published year are projections.
             </p>
+          </div>
+
+          <div className={`flex shrink-0 items-center justify-end gap-3 border-t border-border pt-3 ${padX} ${sheet ? "pb-[max(0.75rem,env(safe-area-inset-bottom))]" : "pb-3"}`}>
             <button
               type="button"
               onClick={clearForm}
@@ -596,6 +621,7 @@ function Chart({
   startLabel,
   view,
   setView,
+  dueNow,
 }: {
   bars: Bars;
   mine: Plan;
@@ -605,27 +631,30 @@ function Chart({
   startLabel: string;
   view: "split" | "time";
   setView: (v: "split" | "time") => void;
+  /** No months to save: the whole amount is due today, so there is nothing to draw over time. */
+  dueNow: boolean;
 }) {
   const { saving, investing } = bars;
   const r = pct(bars.rate);
-  const showTime = view === "time" && saving && other && !bars.sameMoney;
+  const canTime = Boolean(saving && other && !bars.sameMoney && !dueNow);
+  const showTime = view === "time" && canTime;
   const headline = !saving ? (
     <>
-      At {r}, interest covers <em className="not-italic text-series-4">{sgd(investing.interest)}</em>.
+      At {r}, interest covers <em className="not-italic text-interest-text">{sgd(investing.interest)}</em>.
     </>
   ) : bars.sameMoney ? (
     <>
       Investing at {r} grows the same plan to{" "}
-      <em className="not-italic text-series-4">{sgd(investing.interest - saving.interest)} more</em> than saving at {pct(SAVING_RATE)}.
+      <em className="not-italic text-interest-text">{sgd(investing.interest - saving.interest)} more</em> than saving at {pct(SAVING_RATE)}.
     </>
   ) : Math.abs(saving.paidIn - investing.paidIn) < 0.5 ? (
     <>
-      Investing at {r} takes <em className="not-italic text-series-4">the same money</em> as saving at {pct(SAVING_RATE)}.
+      Investing at {r} takes <em className="not-italic text-interest-text">the same money</em> as saving at {pct(SAVING_RATE)}.
     </>
   ) : (
     <>
       Investing at {r} means{" "}
-      <em className="not-italic text-series-4">
+      <em className="not-italic text-interest-text">
         {sgd(Math.abs(saving.paidIn - investing.paidIn))} {saving.paidIn > investing.paidIn ? "less" : "more"}
       </em>{" "}
       of your own money than saving at {pct(SAVING_RATE)}.
@@ -635,7 +664,7 @@ function Chart({
     <div className="rounded-xl border border-border p-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <h3 className="text-sm font-semibold">Saving vs investing</h3>
-        {saving && other && !bars.sameMoney && (
+        {canTime && (
           <div role="group" aria-label="Chart view" className="flex rounded-lg border border-border p-0.5 text-xs">
             {(
               [
@@ -656,7 +685,9 @@ function Chart({
           </div>
         )}
       </div>
-      <p className="mt-2 text-[15px] font-semibold leading-snug text-balance">{headline}</p>
+      <p className="mt-2 text-[15px] font-semibold leading-snug text-balance">
+        {dueNow ? <>Fees are due now, so there is no time for interest to build: the whole {sgd(investing.paidIn)} is your own money.</> : headline}
+      </p>
       {showTime ? (
         <OverTime saving={other!} investing={mine} today={today} startMonth={startMonth} startLabel={startLabel} rate={r} gap={saving!.paidIn - investing.paidIn} />
       ) : (
@@ -772,7 +803,30 @@ function OverTime({
   const fitsLeft = startX - 5 - textW(startText) >= pad.l;
   const startLabelX = fitsRight ? startX + 5 : fitsLeft ? startX - 5 : W - pad.r;
   const gapText = `Interest covers ${formatCompactSgd(gap)}`;
-  const gapX = Math.min(W - pad.r - textW(gapText) / 2, Math.max(pad.l + textW(gapText) / 2, x(labelM)));
+  const gapHalf = textW(gapText) / 2;
+  const gapX = Math.min(W - pad.r - gapHalf, Math.max(pad.l + gapHalf, x(labelM)));
+  // The label sits between the two lines where the gap is wide enough across its whole width,
+  // else under the lower (investing) line, else above the upper (saving) line, never across either.
+  // Sampled a little past the estimated text width, since the real glyphs may run wider.
+  const under = (p: Plan) => p.points.filter((q) => Math.abs(x(q.month) - gapX) <= gapHalf + 14).map((q) => y(q.paidIn));
+  const sY = under(saving);
+  const iY = under(investing);
+  // An 11px label's box runs from 11px above its baseline to 3px below it.
+  const ascent = 11;
+  const descent = 3;
+  const clear = 4;
+  let gapY = y(labelPt?.paidIn ?? 0) + 18;
+  if (sY.length && iY.length) {
+    const top = Math.max(...sY); // lowest point of the saving line over the label
+    const bottom = Math.min(...iY); // highest point of the investing line over the label
+    const between = (top + bottom) / 2 + (ascent - descent) / 2;
+    const below = Math.max(...iY) + clear + ascent;
+    const above = Math.min(...sY) - clear - descent;
+    if (bottom - top >= ascent + descent + 2 * clear) gapY = between;
+    else if (below + descent <= H - pad.b - 2) gapY = below;
+    else if (above - ascent >= pad.t) gapY = above;
+    else gapY = between;
+  }
   return (
     <figure className="mt-3">
       <svg ref={ref} width="100%" height={H} viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Money put in over time: saving at ${pct(SAVING_RATE)} compared with investing at ${rate}`} className="block text-[11px]">
@@ -785,7 +839,8 @@ function OverTime({
           </g>
         ))}
         {years.map(([yr, m]) => (
-          <text key={yr} x={x(m)} y={H - 6} textAnchor="middle" fill="var(--muted)">
+          // The last year's label is pulled in so it is not cut off at the right edge.
+          <text key={yr} x={Math.min(x(m), W - textW(String(yr)) / 2)} y={H - 6} textAnchor="middle" fill="var(--muted)">
             {yr}
           </text>
         ))}
@@ -807,7 +862,7 @@ function OverTime({
         <path d={path(saving)} fill="none" stroke="var(--you)" strokeWidth={2.4} />
         <path d={path(investing)} fill="none" stroke="var(--series-1)" strokeWidth={2.4} />
         {gap > 0 && labelPt && (
-          <text x={gapX} y={y(labelPt.paidIn) + 18} textAnchor="middle" fill="var(--series-4)" fontWeight={600} style={halo}>
+          <text x={gapX} y={gapY} textAnchor="middle" fill="var(--interest-text)" fontWeight={600} style={halo}>
             {gapText}
           </text>
         )}
