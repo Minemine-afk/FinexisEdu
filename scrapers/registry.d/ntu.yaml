@@ -34,3 +34,8 @@ sources:
     country: sg
     url: "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: ntu
+    country: sg
+    url: "https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
+    manual: true

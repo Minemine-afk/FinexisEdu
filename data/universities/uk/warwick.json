@@ -609,6 +609,75 @@
         "sourceUrl": "https://sso.agc.gov.sg/Act/MRA1997?ProvIds=Sc2-",
         "lastVerified": "2026-10-08"
       }
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Accounting and Finance BSc",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37310,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Warwick may raise fees for continuing students each year in line with inflation, so later years may cost more.",
+      "notes": "Warwick Student Finance 'UG Overseas Fees' table (read 2026-10-15), row 'Accounting and Finance (BSc)' NN34, Band 2: 2025-26 33,520, 2026-27 35,530, 2027-28 37,310; Overseas tier because Singaporeans are international students. Fees for continuing students may rise by inflation so cohortLocked false. 2024 row is secondary, the same source and reasoning as Warwick's Management BSc row: the Accommodation For Students Warwick guide states Band 2 (including Warwick Business School courses) is 31,620 for 2024 enrolment; the WBS fee page captured Feb 2024 still showed only 2023-24 (29,830), and no official 2024-25 table is online.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 35530,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33520,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31620,
+          "sourceUrl": "https://www.accommodationforstudents.com/university-guides/university-of-warwick-",
+          "sourceType": "secondary"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Accounting and Financial Management MSc",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43580,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (read 2026-10-15), row 'Accounting and Financial Management (MSc)' P-NN00, Full Time, Overseas: 2025-26 42,730, 2026-27 43,580 (used), 2027-28 44,500; Overseas tier because Singaporeans are international students. feeYear 2026 kept in line with Warwick's other master's rows. One-year programme; fees rise annually so cohortLocked false. No 2024 row: the 2024-25 version of the same table (Common Crawl capture, March 2024) has no Accounting and Financial Management row, only the predecessor 'Accounting and Finance (MSc)' P-N4N6 at 40,700, which is a different course code so not used.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 42730,
+          "sourceUrl": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
+        }
+      ]
     }
   ]
 }

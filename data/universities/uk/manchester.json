@@ -641,6 +641,92 @@
           "sourceType": "official"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc Accounting",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 34800,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/07808/bsc-accounting/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Manchester may raise it by up to 7% a year for later years of the degree. No separate compulsory fees.",
+      "notes": "International fee per annum from the 2027-entry course page ('Tuition fees for international students will be 34,800 per annum'), read 2026-10-15, and matching the University's Student Support tuition fee search for plan 07808 (admit 2027); International tier chosen because Singaporeans are international students. Manchester reserves the right to raise fees by up to 7% a year, so cohortLocked false. No separate compulsory fees. History 2024-2026 (official) from the Student Support tuition fee search, plan 07808, full-time, 'Fees for international students': 2024 30,000; 2025 31,500; 2026 33,100. Chose BSc Accounting (N400) over BSc Management (Accounting and Finance) (NN24), which is a Management-school degree priced 35,300 for 2027.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 33100,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=07808&admitMonth=9&admitYear=2026&academicYear=2026&career=UGRD&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 31500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=07808&admitMonth=9&admitYear=2025&academicYear=2025&career=UGRD&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 30000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=07808&admitMonth=9&admitYear=2024&academicYear=2024&career=UGRD&moa=FT",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Accounting and Finance",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year full-time programme for international students starting in 2027. No separate compulsory fees.",
+      "notes": "International (including EU) full-time fee for 2027 entry from the course page (39,700), read 2026-10-15, matching the Student Support tuition fee search for plan 02061 (admit 2027); International tier because Singaporeans are international students. One-year programme; Manchester reserves the right to raise fees by up to 7% a year so cohortLocked false. History (official) from the Student Support tuition fee search, plan 02061, full-time international: 2024 34,500; 2025 36,000; 2026 37,800.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 37800,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=02061&admitMonth=9&admitYear=2026&academicYear=2026&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 36000,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=02061&admitMonth=9&admitYear=2025&academicYear=2025&career=PGDT&moa=FT",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 34500,
+          "sourceUrl": "https://www.studentsupport.manchester.ac.uk/finances/tuition-fees/fee-amounts/tuition-fee-search/index.htm?action=Display&planId=02061&admitMonth=9&admitYear=2024&academicYear=2024&career=PGDT&moa=FT",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

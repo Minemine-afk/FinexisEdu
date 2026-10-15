@@ -89,3 +89,8 @@ sources:
     country: au
     url: "https://www.sydney.edu.au/courses/courses/pc/master-of-clinical-psychology.coredata.json"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: usyd
+    country: au
+    url: "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-accounting-and-business-performance.coredata.json"
+    manual: true

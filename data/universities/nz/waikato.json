@@ -587,6 +587,55 @@
           "sourceUrl": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 62748,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students for 2027, including GST; the 180-point degree is completed in 12 months. Student services fee included; insurance is extra.",
+      "notes": "International tuition costs page, masters table: Master of Professional Accounting (180 points, 12 months of full-time study per the qualification page) $62,748 in 2027, $59,760 in 2026. Compulsory = 2026 Student Services Fee $9.25/pt x 120 = 1,110 (2027 not yet published), as in the existing Waikato rows. 2025 row $56,910 from the 2025 table of the same page (Common Crawl capture 2025-05-15), SSF $9.00 x 120 = 1,080; 2024 row $54,200 from the 2024 table (page https://www.waikato.ac.nz/study/costs/tuition-costs-international, Common Crawl capture 2024-03-02, also the /int/ page captured 2024-10-03), SSF $7.72 x 120 = 926.40. The 240-point CA version is excluded.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 59760,
+          "annualCompulsoryFees": 1110,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 56910,
+          "annualCompulsoryFees": 1080,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 54200,
+          "annualCompulsoryFees": 926.4,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.waikato.ac.nz/study/costs/tuition-costs-international",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

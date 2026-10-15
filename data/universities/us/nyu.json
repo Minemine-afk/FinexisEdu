@@ -445,6 +445,44 @@
           "sourceType": "official"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MS in Accounting (Stern School of Business)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 68684,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 500
+        }
+      },
+      "sourceUrl": "https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/ms-accounting",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition and fees for the one-year full-time MS in Accounting at NYU Stern, quoted as one figure, plus a one-time orientation fee. Health insurance not included; merit scholarships are available.",
+      "notes": "Stern 'Cost of Attendance, MS in Accounting Students' 2026-2027 (nine-month academic year, one-year full-time programme): 'NYU Stern Tuition & Fees' Tuition $68,684 (tuition and mandatory fees quoted together, so compulsory fees recorded as 0) + Orientation Fee $500 (one-off). Same figure on the programme's Financial Aid & Tuition page. Single rate for all students, so it applies to Singaporeans as international students. History from Common Crawl captures of the same Stern page and the programme Financial Aid page (https://www.stern.nyu.edu/programs-admissions/masters-programs/ms-accounting/financial-aid): 2024-2025 Tuition $64,430, 2025-2026 Tuition $66,362, orientation $500 in both. (A search snippet quoted $66,862 for 2025; the captured page says $66,362 and that was used.) Health insurance (budget item $5,100) and scholarships excluded. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 64430,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 500,
+          "sourceUrl": "https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/ms-accounting"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 66362,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 500,
+          "sourceUrl": "https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/ms-accounting"
+        }
+      ]
     }
   ]
 }

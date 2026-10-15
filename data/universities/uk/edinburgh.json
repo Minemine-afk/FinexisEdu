@@ -853,6 +853,92 @@
         "sourceUrl": "https://www.sile.edu.sg/for-overseas-graduates/qualified-person/",
         "lastVerified": "2026-10-13"
       }
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Accounting and Finance MA (Hons)",
+      "durationYears": 4,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 31100,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTACCFIMAH&year=2027",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2027, fixed at that rate for every year of the degree. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code UTACCFIMAH, session 2027/8, read from the University of Edinburgh tuition fee lookup (www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=ug&programme_code=UTACCFIMAH&year=YYYY); 4 years per the table; chose International because Singaporeans are international students. Edinburgh states the international fee is fixed for the start date (cohortLocked). History rows are the same lookup for 2024/5 (26,500), 2025/6 (28,000), 2026/7 (29,600). Programme page: study.ed.ac.uk/programmes/undergraduate/464-accounting-and-finance. No compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26500,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTACCFIMAH&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 28000,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTACCFIMAH&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29600,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTACCFIMAH&year=2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Accounting and Financial Management MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 38130,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCACFMT1F&year=2027",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "International/EU fee rate for programme code PTMSCACFMT1F, session 2027/8, from Edinburgh's postgraduate taught fee lookup (www.uwp.is.ed.ac.uk/edweb2-proxies/tuition-fees-single/index.php?env=live&level=pg&programme_code=PTMSCACFMT1F&year=YYYY), 1 year full-time; chose International because Singaporeans are international students. History from the same lookup: 2024/5 32,700, 2025/6 34,600, 2026/7 36,310. Programme page: study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management. Edinburgh also has Accounting and Business MA (Hons), not added. No compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32700,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCACFMT1F&year=2024",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34600,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCACFMT1F&year=2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 36310,
+          "sourceUrl": "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCACFMT1F&year=2026",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

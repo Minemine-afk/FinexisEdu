@@ -421,6 +421,62 @@
           "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/master-of-nursing/int/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce majoring in Accounting",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 52200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/bachelor-of-commerce-accounting/int/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year.",
+      "notes": "Adelaide University degree page (ACCTBCOMM), 2027 international view, read 2026-10-15: 'Indicative annual fees' A$52,200, 'Fees are based on the total number of units studied in this program on a full-time annual basis'; international tier chosen because Singaporeans are international students. 2026 history row is the same page's /2026/ view (A$54,300, higher than 2027; the page states a lower figure for 2027). No 2024/2025 rows: Adelaide University began teaching in 2026 and /study/degrees/2025/ returns 404 (same convention as the other Adelaide records). Adelaide City Campus, 3 years full-time. Excludes SSAF and OSHC.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 54300,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/bachelor-of-commerce-accounting/int/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 54300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://adelaide.edu.au/study/degrees/2027/master-of-professional-accounting/int/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Indicative 2027 yearly tuition for international students for a full-time year. Excludes the student services fee and health cover; fees can change each year. Takes 1.5 years.",
+      "notes": "Adelaide University degree page, 2027 international view, read 2026-10-15: 'Indicative annual fees' A$54,300; international tier chosen because Singaporeans are international students. 2026 history row is the same page's /2026/ view (A$52,200). No 2024/2025 rows: Adelaide University began teaching in 2026 and /study/degrees/2025/ returns 404. Adelaide City Campus, 1.5 years full-time; accredited by CA ANZ and CPA Australia per the page. Chosen over the 2-year Master of Accounting (same fee) because it is the conversion degree for non-accounting graduates.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 52200,
+          "sourceUrl": "https://adelaide.edu.au/study/degrees/2026/master-of-professional-accounting/int/"
+        }
+      ]
     }
   ]
 }

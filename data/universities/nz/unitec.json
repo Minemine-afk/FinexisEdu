@@ -409,6 +409,104 @@
           "sourceType": "official"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Accounting",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 27207.2,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unitec.ac.nz/international/study-with-us/international-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international students for 2027 per 120 credits, including GST and the student services fee. Health insurance is extra.",
+      "notes": "International fees 2027 page: Bachelor of Accounting, level 7, 3 years, $27,207.20 (includes GST and SSF; 120 credits), compulsory 0 as for the other Unitec rows. History from Unitec international prospectuses on issuu (page images read 2026-10-15): 2026 pp.80 'Annual Fee' $26,415; 2025 p.80 'Programme Fees' $26,391; 2024 p.76 standard fee for levels 1-7 per 120 credits $25,000 (generic table, not programme specific). Prospectus fees exclude 'levies' while the 2027 web fee includes SSF; no separate SSF amount is published.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 26415,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26391,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 25000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 1.5,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 31327.2,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.unitec.ac.nz/international/study-with-us/international-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly fee for international students for 2027 per 120 credits, including GST and the student services fee. The 18-month degree is charged at this yearly rate. Health insurance is extra.",
+      "notes": "International fees 2027 page: Master Professional Accounting, level 9, 18 months, $31,327.20 per 120 credits (incl. GST and SSF); compulsory 0. History: 2026 prospectus p.80 'Annual Fee' $30,415; 2025 prospectus p.80 programme fee $46,337 for 18 months / 1.5 = 30,891.33; 2024 prospectus p.76 standard levels 8-9 fee $32,500 per 120 credits (generic, 180 credits $48,750). Same method as the existing Master of Applied Business row.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 30415,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2026",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 30891.33,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2025",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://issuu.com/unitecnz/docs/unitec_international_prospectus_2024",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

@@ -71,3 +71,12 @@ sources:
     url: https://www.birmingham.ac.uk/study/support/moneyadvice/living
     parser: html
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: birmingham
+    country: uk
+    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/coss/accounting-and-finance-bsc-3-years-n400-2026-27-pdf-176kb.pdf"
+    manual: true
+  - university: birmingham
+    country: uk
+    url: "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc"
+    manual: true

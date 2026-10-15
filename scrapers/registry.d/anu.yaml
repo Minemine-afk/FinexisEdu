@@ -84,3 +84,12 @@ sources:
     country: au
     url: "https://programsandcourses.anu.edu.au/2026/program/7601XMCPSY"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: anu
+    country: au
+    url: "https://programsandcourses.anu.edu.au/2026/program/BACCT"
+    manual: true
+  - university: anu
+    country: au
+    url: "https://programsandcourses.anu.edu.au/2026/program/7414XMACCT"
+    manual: true

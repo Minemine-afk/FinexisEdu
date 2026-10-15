@@ -718,6 +718,40 @@
           "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
         }
       ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Professional Accounting",
+      "durationYears": 2,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 62140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.monash.edu/study/courses/find-a-course/professional-accounting-b6011",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "2027 annual tuition for international students for a full-time year. Excludes the student services fee and overseas student health cover; fees are reviewed each year. Takes 2 years, shorter with credit.",
+      "notes": "B6011 (CRICOS 082336G), Caulfield campus, 2 years full-time (1.5 with a business-related degree). 2027 international fee per 48 credit points, A$62,140, from the international section of the course page (read 2026-10-15 through a text rendering of the official monash.edu page because monash.edu blocks scripts); international tier chosen because Singaporeans are international students. History from Monash's own International Graduate Course Guides, fee footnote 'quoted fees ... per 48 credit points': 2026 A$59,900 (2027 guide, '2026 quoted fees', B6011 p.17); 2024 A$53,000 (2025 guide, '2024 quoted fees'). 2025 not found: the guide carrying the 2025 quote is only on archive captures that are not reachable here. Excludes SSAF and OSHC.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 53000,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0008/3636044/2025-PG-Interational-course-guide.pdf"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 59900,
+          "sourceUrl": "https://www.monash.edu/__data/assets/pdf_file/0010/3945205/graduate-international-course-guide.pdf"
+        }
+      ]
     }
   ]
 }

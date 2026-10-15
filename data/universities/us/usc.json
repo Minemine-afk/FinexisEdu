@@ -320,6 +320,82 @@
           "sourceUrl": "https://viterbigradadmission.usc.edu/wp-content/uploads/2025/04/2025-2026-Tuition-and-Fees-32.pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Accounting (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 75384,
+          "annualCompulsoryFees": 1952,
+          "oneOffFees": 450
+        }
+      },
+      "sourceUrl": "https://financialaid.usc.edu/cost/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for USC undergraduates in the Leventhal School of Accounting, the same for all majors and for international students, plus mandatory fees and a one-time new student fee. Rises most years; health insurance not included.",
+      "notes": "Same fee basis as the existing Business Administration (BS): USC Financial Aid cost of attendance, 2026-27 undergraduate: tuition (12-18 units, two semesters) $75,384, fees $1,952, plus $450 new student fee in the first semester (one-off). Flat-rate tuition, same for all majors. 2025-26 on the same page: tuition $73,260, fees $1,902. 2024-25 from USC Thornton's official 'Academic Year 2024-2025' undergraduate cost sheet: flat tuition $69,904; fees Student Health Service $1,300 + Programming $128 + Topping $22 + Transportation $234 = $1,684; new student fee $450. The $450 new student fee for 2025 is taken from the ARR fee schedule (Orientation/New Student Fee, undergraduate $450). Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69904,
+          "annualCompulsoryFees": 1684,
+          "oneOffFees": 450,
+          "sourceUrl": "https://music.usc.edu/wp-content/uploads/2024/06/FCosts2024.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73260,
+          "annualCompulsoryFees": 1902,
+          "oneOffFees": 450,
+          "sourceUrl": "https://financialaid.usc.edu/cost/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Accounting (MAcc)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 75384,
+          "annualCompulsoryFees": 1844,
+          "oneOffFees": 55
+        }
+      },
+      "sourceUrl": "https://arr.usc.edu/students/tuition-and-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for the full-time Master of Accounting at USC Leventhal (30-unit track, two semesters at 15 units each), plus mandatory fees and a one-time orientation fee. Health insurance not included.",
+      "notes": "USC Registrar tuition schedule: 'Graduate Students (15-18 units)' flat rate, which Marshall's MAcc admissions page directs full-time MAcc students to; Fall 2026 $37,692 per semester x2 = $75,384 (Spring 2027 rate not yet published, assumed equal to Fall 2026, as for undergraduates). Previous years from Common Crawl captures of the same Registrar page: 2025-26 $36,630 per semester x2 = $73,260; 2024-25 Spring 2025 $34,952 per semester x2 = $69,904 (equals the 2024-25 flat graduate and undergraduate rate on the Thornton sheet). The MAcc is 30 units for students with an accounting background (fall start) and 45 units without (summer start plus a $15,350 summer intensive); the 30-unit one-year track is used here, so students without an accounting background pay more. Mandatory fees (student health service, programming, transportation, Topping fund) are university-wide for graduate students at the University Park campus; taken from USC Viterbi's published per-semester mandatory totals: $922 x2 = $1,844 (2026-27), $897 x2 = $1,794 (2025-26), $873 x2 = $1,746 (2024-25); graduate orientation fee $55 one-off. Marshall publishes no MAcc tuition page. Health insurance excluded. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 69904,
+          "annualCompulsoryFees": 1746,
+          "oneOffFees": 55,
+          "sourceUrl": "https://arr.usc.edu/students/tuition-and-fees/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 73260,
+          "annualCompulsoryFees": 1794,
+          "oneOffFees": 55,
+          "sourceUrl": "https://arr.usc.edu/students/tuition-and-fees/"
+        }
+      ]
     }
   ]
 }

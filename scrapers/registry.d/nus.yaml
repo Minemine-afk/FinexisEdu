@@ -14,3 +14,8 @@ sources:
     country: sg
     url: "https://fass.nus.edu.sg/fees-gradcoursework/"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: nus
+    country: sg
+    url: "https://mscacc.nus.edu.sg/fees-finances/programme-fees/"
+    manual: true

@@ -402,6 +402,82 @@
           "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/graduate-tuition-and-fees-2025-2026/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Accounting (BS)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 35266,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international undergraduates in the Daniels School of Business at Purdue West Lafayette, including the school's extra differential charge, plus student fees. Health insurance not included.",
+      "notes": "Same fee basis as the existing Purdue Finance (BS): Bursar's West Lafayette undergraduate table, international, 8+ credit hours flat rate, per semester x2; Daniels School of Business differential general service applies to all Daniels undergraduate majors including Accounting. Base General Service $4,859 + Nonresident Tuition $9,401 + International Student Tuition $1,655 ($1,155 in 2024-25) + Daniels differential ($3,436 a year in 2026-27, $1,436 in 2025-26 and 2024-25) = $35,266 (2026-27), $33,266 (2025-26), $32,266 (2024-25). Other fees = Fitness & Wellness $117 + Activity $20 per semester x2 = $274 in all years. History sourced from the Bursar's 2024-2025 and 2025-2026 undergraduate tables. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 32266,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/undergraduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 33266,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/undergraduate-tuition-and-fees-2025-2026/"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Accounting (MS)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 41336,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/graduate-tuition-and-fees-2026-2027/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the Daniels School's 30-credit, about 10-month MS in Accounting, including the business differential, plus student fees. Any summer term is extra. Health insurance not included.",
+      "notes": "Bursar's West Lafayette graduate table, international, 8+ credit hours flat rate, per semester x2: General Service $4,859 + Nonresident Tuition $9,401 + International Fee $200 ($155 in 2024-25) + differential general service for 'Daniels School of Business Management (MBA, MSIA, MSHR, MS ACCT)' $6,208 per semester ($12,416 a year in all three years; the MS ACCT is named in that differential line in the 2024-25, 2025-26 and 2026-27 tables) = $41,336 (2026-27), $41,336 (2025-26), $41,246 (2024-25). Fees = Fitness & Wellness $117 + Activity $20 per semester x2 = $274. Programme is 30 credits over about 10 months (fall and spring plus a short term); summer charges not included. The business school's MS Accounting page quotes older per-credit rates (international $1,300) which were not used. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 41246,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2024-2025/graduate-tuition-and-fees-2024-2025/"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 41336,
+          "annualCompulsoryFees": 274,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2025-2026/graduate-tuition-and-fees-2025-2026/"
+        }
+      ]
     }
   ]
 }

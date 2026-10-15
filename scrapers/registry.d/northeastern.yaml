@@ -10,3 +10,8 @@ sources:
     url: https://admissions.northeastern.edu/cost
     parser: html
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: northeastern
+    country: us
+    url: "https://catalog.northeastern.edu/graduate/expenses/tuition-fees/"
+    manual: true

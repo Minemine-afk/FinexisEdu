@@ -396,6 +396,78 @@
           "sourceUrl": "https://www.coventry.ac.uk/course-structure/pg/hls/psychology-msc/?term=2024-25"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc (Hons) Accounting and Finance",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 17600,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.coventry.ac.uk/course-structure/ug/fbl/accounting-and-finance-bsc-hons/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2026. Coventry may raise fees each year by up to 5% above inflation, so later years could cost more.",
+      "notes": "International tier, full-time, 2026/27 entry, course page fees table states 'International 17,600 per year' (3 years full-time); chose International because Singaporeans are international students. Placement/study-abroad year fee not included. Coventry says international fees may rise each year by no more than 5% above inflation (cohortLocked false). History from Common Crawl captures of Coventry's own course page: 2025 = 16,800 (capture of 14 Nov 2025, CC-MAIN-2025-47, the 2025/26 fee) and 2024 = 16,800 (capture of 20 Jan 2025 of the ?term=2024-25 view headed '2024/25 tuition fees', CC-MAIN-2025-05). No compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16800,
+          "sourceUrl": "https://www.coventry.ac.uk/course-structure/ug/fbl/accounting-and-finance-bsc-hons/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16800,
+          "sourceUrl": "https://www.coventry.ac.uk/course-structure/ug/fbl/accounting-and-finance-bsc-hons/?term=2024-25",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Accounting and Financial Management",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 19500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.coventry.ac.uk/course-structure/pg/cbl/accounting-and-financial-management-msc/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on the one-year full-time conversion master's starting in 2026. An optional placement route costs extra.",
+      "notes": "International tier, full-time, 2026/27 entry, course page fees table states 'International 19,500' (1 year full-time, conversion course for any-discipline graduates; Coventry's accounting-focused master's, no MSc titled Accounting and Finance exists); chose International because Singaporeans are international students. Placement route not included. cohortLocked false (annual increases up to 5% above inflation). History from Common Crawl captures of the official course pages: 2025 = 18,600 (page capture Oct 2025, CC-MAIN-2025-43); 2024 = 20,050 (older fbl page, ?term=2024-25 view, capture Sep 2024, CC-MAIN-2024-38; the same page lists 24,050 for the route with professional experience, standard route used). The 2024 course was the earlier FBLT041 version of the programme. No compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18600,
+          "sourceUrl": "https://www.coventry.ac.uk/course-structure/pg/cbl/accounting-and-financial-management-msc/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 20050,
+          "sourceUrl": "https://www.coventry.ac.uk/course-structure/pg/fbl/accounting-and-financial-management-msc/?term=2024-25",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

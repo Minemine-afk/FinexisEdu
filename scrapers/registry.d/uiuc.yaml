@@ -29,3 +29,8 @@ sources:
     country: us
     url: "https://registrar.illinois.edu/tuition-fees/tuition-fee-rates/tf-rates-academic-year/ug-additional-expenses-2627/"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: uiuc
+    country: us
+    url: "https://gies.illinois.edu/msa/tuition"
+    manual: true

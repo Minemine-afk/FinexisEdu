@@ -276,6 +276,74 @@
         { "feeYear": 2025, "tier": "international", "annualTuition": 28900, "annualCompulsoryFees": 0, "oneOffFees": 0, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf" },
         { "feeYear": 2024, "tier": "international", "annualTuition": 27480, "annualCompulsoryFees": 0, "oneOffFees": 0, "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf" }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc Accounting and Finance",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 35700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2026-27-and-PGR-structure-combined-28Nov2025.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Annual tuition for international students, fixed for the whole degree at the rate in your first year. Covers registration, exams and Students' Union membership; no separate compulsory fees.",
+      "notes": "Overseas full-time fee for 2026/27 new entrants, row 'BSc in Accounting and Finance' (35,700) in LSE's Table of Fees 2026/27; chosen over the Home rate (9,790) because Singaporeans are overseas students. Fixed at the year-of-entry level for the whole programme, as for LSE's other BSc rows. History: 2025/26 Table of Fees overseas column (29,200) and 2024/25 Table of Fees overseas column (27,192), both official LSE PDFs. No separate compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 29200,
+          "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 27192,
+          "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Accounting and Finance",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 43000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2026-27-and-PGR-structure-combined-28Nov2025.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the one-year full-time programme for international students, the same as the UK fee. No separate compulsory fees.",
+      "notes": "Full-time Overseas fee for 2026/27 (43,000, same as Home) for 'MSc in Accounting and Finance' in LSE's Table of Fees 2026/27, Postgraduate Taught table, Full time columns; Overseas used because Singaporeans are international students. One-year programme; LSE says fees normally rise each year so cohortLocked is false. History: 2025/26 table full-time Overseas 38,000 and 2024/25 table full-time Overseas 36,168, both official LSE PDFs.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 38000,
+          "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-Fees-2025-26-Oct25.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 36168,
+          "sourceUrl": "https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Table-of-fees-2024-25-03Jul24Updated.pdf"
+        }
+      ]
     }
   ]
 }

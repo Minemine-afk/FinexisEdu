@@ -550,6 +550,49 @@
           "sourceType": "official"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc (Hons) Accounting and Finance",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 17970,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.herts.ac.uk/courses/undergraduate/bsc-hons-accounting-and-finance",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027. Herts may raise fees for continuing students, so later years could cost more.",
+      "notes": "International tier, full-time, 2027/28 entry (UCAS N4N3), course page shows '17,970 for the 2027/2028 academic year' (UK 10,050); chose International because Singaporeans are international students. 3-year route; placement year not costed. Herts fees are quoted per year and may rise for continuing students (cohortLocked false). History: the course is not listed as non-standard, so the standard full-time international undergraduate fee in the Herts Fees and Finance Policy applies: 2026/27 17,450 and 2025/26 15,965 (2026/27 policy PDF, table 3.4) and 2024/25 15,500 (2024 policy PDF, table 3.3); no course-specific page for earlier years was found. No compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 17450,
+          "sourceUrl": "https://www.herts.ac.uk/__data/assets/pdf_file/0010/446824/Fees-and-finance-policy-26-27.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 15965,
+          "sourceUrl": "https://www.herts.ac.uk/__data/assets/pdf_file/0010/446824/Fees-and-finance-policy-26-27.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 15500,
+          "sourceUrl": "https://www.herts.ac.uk/__data/assets/pdf_file/0003/373278/Fees-and-Finance-Policy-2024-v2-updated.pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

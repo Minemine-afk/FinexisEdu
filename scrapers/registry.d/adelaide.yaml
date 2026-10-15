@@ -77,3 +77,12 @@ sources:
     country: au
     url: "https://ask.adelaideuni.edu.au/app/answers/detail/a_id/4258/~/what-is-the-cost-of-living-in-adelaide"
     manual: true
+  # Accountancy programmes added Oct 2026; fees read by hand
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-commerce-accounting/int/"
+    manual: true
+  - university: adelaide
+    country: au
+    url: "https://adelaide.edu.au/study/degrees/2027/master-of-professional-accounting/int/"
+    manual: true

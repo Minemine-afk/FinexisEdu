@@ -358,6 +358,82 @@
           "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Accountancy, BS",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 47800,
+          "annualCompulsoryFees": 3430,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international undergraduates in Gies College of Business, guaranteed for four years if you stay in the same major, plus campus fees. Campus fees can rise; health insurance not included.",
+      "notes": "Illinois Cost Calculator, 2026-2027 undergrad tuition rates, Gies College of Business table ('The Business rate applies to all majors in the Gies College of Business'): international rate for entry Summer 2026-Spring 2027 $47,800; guaranteed rates of earlier entry cohorts used for history (entry 2025 $44,688, entry 2024 $42,868). Tuition is guaranteed for 4 years under the Undergraduate Guaranteed Tuition Program, so cohort-locked; fees are not. Other fees = campus fees from the registrar's estimated additional expenses page minus waivable student health insurance: 2026-27 $5,182 - $1,752 = $3,430; 2025-26 $5,054 - $1,692 = $3,362; 2024-25 $4,928 - $1,636 = $3,292 (same basis as the existing Finance BS).",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 42868,
+          "annualCompulsoryFees": 3292,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 44688,
+          "annualCompulsoryFees": 3362,
+          "oneOffFees": 0,
+          "sourceUrl": "https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Accountancy, MSA",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 54352,
+          "annualCompulsoryFees": 7675,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://gies.illinois.edu/msa/tuition",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students on Gies's 12-month on-campus MS in Accountancy (summer, fall and spring), plus campus fees that may include student health insurance. STEM-designated.",
+      "notes": "Gies 'MSA Tuition & Scholarships' page, 2026-27 estimates for international students: Summer '26 $10,700 + Fall '26 $21,826 + Spring '27 $21,826 = tuition $54,352; Campus Fees $1,981 + $2,847 + $2,847 = $7,675 (total $62,027). The 12-month programme spans three terms, so the whole total is recorded as one year. The page does not say whether campus fees include the waivable student health insurance; they appear to (per-semester fees are higher than the registrar's non-insurance fees), so compulsory fees may be overstated by up to about $2,250. History from Common Crawl captures of the same Gies page (earlier URL giesbusiness.illinois.edu/msa/tuition): 2024-25 tuition $10,490 + $20,979 + $20,979 = $52,448, campus fees $7,481; 2025-26 tuition $53,496 ($10,700 + $21,398 + $21,398), campus fees $7,675. The cheaper Master of Accounting Science (MAS, listed in the registrar rate table) requires a US accounting bachelor's, so MSA was chosen for international applicants. Not cohort-locked.",
+      "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 52448,
+          "annualCompulsoryFees": 7481,
+          "oneOffFees": 0,
+          "sourceUrl": "https://giesbusiness.illinois.edu/msa/tuition"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 53496,
+          "annualCompulsoryFees": 7675,
+          "oneOffFees": 0,
+          "sourceUrl": "https://gies.illinois.edu/msa/tuition"
+        }
+      ]
     }
   ]
 }

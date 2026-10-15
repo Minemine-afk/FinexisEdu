@@ -643,6 +643,92 @@
           "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BSc Accounting and Finance (NN43)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 29300,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-accounting-and-finance/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Yearly tuition for international students starting in 2027 (first-year rate). Bristol reviews fees each year and says international fees rise with expected inflation. No separate compulsory fees.",
+      "notes": "International tier, 2027 entry, course page (UCAS NN43, 3 years full-time) states 'International students, 29,300 for the first year. Fees are subject to annual review and are liable to rise each year', so cohortLocked is false; chose International because Singaporeans are international students. History from Bristol's overseas undergraduate fee tables by starting cohort, row 9ECON020U 'Accounting and Finance (BSc)': 2026 starters 28,200, 2025 starters 27,400, 2024 starters 26,400. Four-year study abroad/placement variants not costed. No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 28200,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 27400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/25-26/2025-starters/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 26400,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/24-25/2024-starters/",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc Accounting and Finance",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 39000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-accounting-and-finance/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for international students starting the one-year full-time master's in 2027. No separate compulsory fees.",
+      "notes": "International (Overseas) tier, full-time, September 2027 entry, course page states 'Overseas: full-time 39,000 per year'; chose Overseas because Singaporeans are international students. One-year programme; Bristol says fees are reviewed annually (cohortLocked false). History from Bristol's overseas postgraduate taught fee tables, row 9ECON053T 'Accounting and Finance (MSc)': 2026 starters 39,000, 2025 starters 39,000, 2024 starters 39,000 (unchanged four years). No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 39000,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/26-27/2026-starters/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39000,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/25-26/2025-starters/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 39000,
+          "sourceUrl": "https://www.bristol.ac.uk/students/support/finances/tuition-fees/pgt/overseas/24-25/2024-starters/",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

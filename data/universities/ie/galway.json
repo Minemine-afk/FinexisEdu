@@ -605,6 +605,86 @@
           "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Commerce (Accounting) (GY207)",
+      "durationYears": 3,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 20650,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international (non-EU) students. 3 years (4 with an optional international and placement year). Galway raises fees for continuing years, so later years cost more.",
+      "notes": "International (non-EU) fee column, course GY207 Bachelor of Commerce (Accounting) on University of Galway's undergraduate fee table, now showing 2027/28: EUR 20,650 p.a.; chose this over the EU fee because Singaporeans pay the non-EU fee. The 2026/27 edition of the table is no longer online (the page rolled to 2027/28), so feeYear is 2027, unlike the file's other Galway programmes (2026). The page does not say whether the figure includes the student levy (EUR 150 is listed in a separate column); treated as levy-inclusive like the earlier years, so compulsory fees are 0. History, same course code and column: 2025/26 EUR 19,140 incl. levy ('EUR 19,000 p.a. (EUR 19,140 including levy)', Common Crawl copy of 9 Dec 2024 of this page); 2024/25 EUR 18,640 incl. levy ('EUR 18,500 (EUR 18,640 including levy)', Common Crawl copy of 21 Feb 2024; GY207 was then titled 'Commerce with Accounting'). 2026/27 not found for GY207 (for reference the file's GY201 Commerce row is EUR 19,390 for 2026, and GY207 equalled GY201 in 2024, 2025 and 2027, but that is not a published GY207 figure so it is not used). Galway applies an approved inflationary increase to continuing years.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 19140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18640,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/undergraduate-fees/",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Master of Accounting (1AY1)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 20540,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students. Entry expects an accounting-heavy business degree with Chartered Accountants Ireland exemptions.",
+      "notes": "International (non-EU) column, row 'Accounting (Master of)' (1AY1, earlier code MACC-AY) on University of Galway's postgraduate fee table: EUR 20,540 p.a. 2026/27; chose this over the EU fee (EUR 11,840) because Singaporeans pay the non-EU fee. 1 year full-time. Treated as including the student levy, as the file's other Galway master's. History, same row: 2025/26 EUR 20,140 incl. levy ('EUR 20,000 (EUR 20,140 including levy)', Common Crawl copy of 26 Mar 2025 of the postgraduate fee page); 2024/25 EUR 19,140 incl. levy ('EUR 19,000 (EUR 19,140 including levy)', Common Crawl copy of 5 Mar 2024). Galway also offers an MSc International Accounting and Analytics (EUR 20,890 for 2026/27, Pathway A) which was not chosen because the Master of Accounting is the dedicated accounting degree.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 20140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 19140,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

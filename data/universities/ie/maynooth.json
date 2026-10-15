@@ -568,6 +568,86 @@
           "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document//2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "BA Accounting & Finance (MH403)",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Annual tuition for international (non-EU) students on a 3-year degree. Maynooth has charged the same rate since 2024/25. Graduates get exemptions from the first level of the professional accounting exams.",
+      "notes": "Maynooth 'International Undergraduate Courses Tuition Fee Schedule 2026/27' (24.04.26), 'Total Fee per annum': 'MH403 BA - Accounting & Finance 16,500'; this is the international fee and no EU fee applies to Singaporeans. 3 years. No separate compulsory fee is listed, so 0, as for the file's other Maynooth rows. History, same course row: 2025/26 list (02.12.24) EUR 16,500; 2024/25 list (14.12.23) EUR 16,500.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202025.26%20(02.12.24)%20V1%20CHR_0.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 16500,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/UG%20International%20Fees%20List%202024.25%2014.12.23.pdf",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MA Accounting (MH28D)",
+      "durationYears": 1,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": false,
+      "summary": "Tuition for the 1-year full-time master's for international (non-EU) students. The course is aimed at accounting graduates and leads to exemptions from the second level of the professional exams.",
+      "notes": "Maynooth 'Postgraduate Courses 2026/27 EU & International Tuition Fee Schedule' (10 Aug 2026), full-time row 'MA ACCOUNTING MH28D', NON-EU fee per annum EUR 18,000 (EU fee 9,500 plus EUR 150 levy; the levy is taken as included in the non-EU figure, as for the file's MSc Business Management, so compulsory 0). 1 year full-time. History, same row: 2025/26 schedule (24.02.25, 'MA ACCOUNTING (1 YEAR COURSE)') EUR 18,000; 2024/25 schedule (02.11.23) EUR 18,000. Maynooth also lists a newer MSc International Accounting with Management (MH98D, EUR 18,000, 2026/27 only) and a 2-year MA Accounting (Conversion), not chosen.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2025.26%20Postgraduate%20EU%20&%20International%20Fees%20List%20(24.02.25)%20V.4%20CHR.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 18000,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2024.25%20Postgraduate%20EU%20&%20International%20Fees%20List%20(02.11.23).pdf",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

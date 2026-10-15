@@ -540,6 +540,85 @@
           "sourceUrl": "https://www.birmingham.ac.uk/postgraduate/courses/taught/law/llm-general-law.aspx"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Accounting and Finance BSc",
+      "durationYears": 3,
+      "feeYear": 2026,
+      "fees": {
+        "international": {
+          "annualTuition": 29160,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.birmingham.ac.uk/documents/students/cma/2026/coss/accounting-and-finance-bsc-3-years-n400-2026-27-pdf-176kb.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition for international students starting in 2026. Birmingham keeps the first-year fee for the whole three-year course.",
+      "notes": "International tier, full-time, 2026/27 entry, N400 3-year programme fact sheet states 'Annual Tuition Fee: UK: 9,790. International: 29,160'; chose the International figure because Singaporeans are international students. Same method as the other Birmingham undergraduate rows (the 2027/28 international fee is not yet published). History: 2025 from the 2025/26 N400 fact sheet (International 25,520) and 2024 from the 2024/25 N400 fact sheet (International 24,660), both official Birmingham programme fact sheets. Fee policy: first-year fee stays constant for the duration (cohortLocked). No compulsory fees besides tuition.",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 25520,
+          "sourceUrl": "https://www.birmingham.ac.uk/documents/students/cma/2025/coss/accounting-and-finance-bsc-3-years-n400-2025-26-pdf-204kb.pdf",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 24660,
+          "sourceUrl": "https://www.birmingham.ac.uk/documents/students/cma/2024/coss/accounting-and-finance-bsc-3-years-n400-2024-2025.pdf",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "Accounting and Finance MSc",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "international": {
+          "annualTuition": 37440,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Tuition for international students on the one-year full-time master's starting in September 2027, from Birmingham's own course page. No separate compulsory fees.",
+      "notes": "International tier, full-time, September 2027 entry, course page shows 'Fees (international): 37,440 (full-time)'; chose International because Singaporeans are international students. History from captures of the same official course page: 'Fees for 2026 entry' 36,180 (Common Crawl CC-MAIN-2025-43, Oct 2025) and 'Fees for 2025 entry' 34,930 (CC-MAIN-2025-05, Jan 2025). 2024: the page's embedded older record reads 'Fees 2024 - 2025 ... 31,779 (International)'; same basis as other Birmingham master's rows. Cohort-locked per Birmingham fee policy (first-year fee constant). 12 months full-time. No compulsory fees.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 36180,
+          "sourceUrl": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 34930,
+          "sourceUrl": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc",
+          "sourceType": "official"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 31779,
+          "sourceUrl": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc",
+          "sourceType": "official"
+        }
+      ]
     }
   ]
 }

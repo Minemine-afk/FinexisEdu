@@ -1153,6 +1153,124 @@
           "sourceUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/"
         }
       ]
+    },
+    {
+      "level": "bachelor",
+      "field": "business",
+      "name": "Bachelor of Business Administration (Accountancy)",
+      "durationYears": 4,
+      "feeYear": 2026,
+      "fees": {
+        "citizen": {
+          "annualTuition": 9700,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 13550,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 22200,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Yearly tuition, fixed for the whole degree at your entry-year rate. Citizens and PRs pay the Ministry of Education (MOE) Tuition Grant rate; the international rate includes 9% GST. Miscellaneous fees are extra.",
+      "notes": "International tier (non-ASEAN, MOE Tuition Grant rate incl. 9% GST), full-time, AY2026/27 intake: the 'Business' row of NUS's UG tuition PDF (March 2026) says S$22,200 per annum (ASEAN S$21,150); chose this because Singaporeans abroad and non-ASEAN foreigners pay the international rate. Accountancy has no separate fee row; it is charged the Business rate, same as the existing BBA record. Fixed per cohort. History read from the same PDF: section (B) 'existing students admitted in AY2025/2026' gives 2025 intake SC 9,650 / PR 13,500 / IS 22,100; section (C) 'admitted in AY2024/2025' gives 2024 intake SC 9,650 / PR 13,500 / IS 21,550. Miscellaneous Student Fees (billed per semester) are not in the PDF and are excluded, consistent with the other NUS records. The PDF is served only with a browser User-Agent (Incapsula).",
+      "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "citizen",
+          "annualTuition": 9650,
+          "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "pr",
+          "annualTuition": 13500,
+          "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 22100,
+          "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "citizen",
+          "annualTuition": 9650,
+          "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "pr",
+          "annualTuition": 13500,
+          "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf"
+        },
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 21550,
+          "sourceUrl": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/ugtuitioncurrent.pdf"
+        }
+      ]
+    },
+    {
+      "level": "master",
+      "field": "business",
+      "name": "MSc in Accounting and Financial Analytics",
+      "durationYears": 1,
+      "feeYear": 2027,
+      "fees": {
+        "citizen": {
+          "annualTuition": 46564.8,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "pr": {
+          "annualTuition": 46564.8,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        },
+        "international": {
+          "annualTuition": 77608,
+          "annualCompulsoryFees": 0,
+          "oneOffFees": 0
+        }
+      },
+      "sourceUrl": "https://mscacc.nus.edu.sg/fees-finances/programme-fees/",
+      "lastVerified": "2026-10-15",
+      "sourceType": "official",
+      "cohortLocked": true,
+      "summary": "Total fee for the 12-month programme, including 9% GST. Citizens and PRs get a 40% NUS tuition rebate. Miscellaneous student fees are extra.",
+      "notes": "Self-funded 12-month programme (three semesters), so the programme fee is the annual fee. International tier, Aug 2027 intake (AY2027/28): official page says 'Before GST S$71,200.00, Inclusive of 9% GST S$77,608.00', one fee for all nationalities. Citizen/PR DERIVED: the same page (Wayback capture 2025-08-06, AY2026/27 block) states 'Starting AY24/25, all self-funded Singaporeans and Singapore PRs will receive a 40% tuition fee rebate'; the current page no longer prints it, but the sibling NUS MSc in Finance record cites masters.nus.edu.sg listing the 40% rebate for SC/PR admitted AY2024-AY2028, so SC/PR = 60% of 77,608 = 46,564.80. History: 2026 intake from the Wayback Machine capture 20250806024538 of the same fee page ('August 2026 intake, AY2026/2027, Before GST S$69,000, Inclusive of 9% GST S$75,210'), SC/PR 60% = 45,126. 2024 and 2025 intake fees could not be found: Wayback/Common Crawl captures of this page before Aug 2025 are Incapsula block pages, and no source labels a figure with those intakes. Excludes the S$100 application fee, the S$10,900 acceptance fee (credited to tuition) and Miscellaneous Student Fees. NUS alumni get a further 20% rebate (not applied). NUS also lists this programme as MSc in Accounting in older captures.",
+      "feeHistory": [
+        {
+          "feeYear": 2026,
+          "tier": "citizen",
+          "annualTuition": 45126,
+          "sourceUrl": "https://web.archive.org/web/20250806024538/https://mscacc.nus.edu.sg/fees-finances/programme-fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "pr",
+          "annualTuition": 45126,
+          "sourceUrl": "https://web.archive.org/web/20250806024538/https://mscacc.nus.edu.sg/fees-finances/programme-fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 75210,
+          "sourceUrl": "https://web.archive.org/web/20250806024538/https://mscacc.nus.edu.sg/fees-finances/programme-fees/"
+        }
+      ]
     }
   ]
 }
