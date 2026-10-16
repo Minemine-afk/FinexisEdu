@@ -44,7 +44,7 @@ export const INFLATION_PARTS: ChartPart[] = [
   },
   {
     key: "rise",
-    label: "Expected price rises",
+    label: "Expected price increase",
     color: "bg-series-5",
     value: (s) => Math.max(0, s.yearsSgd.tuition - s.tuitionAtBaseYearSgd),
   },

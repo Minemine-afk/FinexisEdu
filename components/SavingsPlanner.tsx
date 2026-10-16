@@ -21,10 +21,10 @@ const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 const sgd = (n: number) => formatMoney(n, "SGD");
 
 const TVM_FIELDS: [TvmField, string, string][] = [
-  ["months", "Number of months to save", "Number of months to save"],
-  ["rate", "Interest earned (% a year)", "Interest you'd need to earn"],
+  ["months", "Number of months", "Number of months"],
+  ["rate", "Interest (% a year)", "Interest you'd need"],
   ["start", "Starting amount", "Starting amount you'd need"],
-  ["monthly", "Amount saved each month", "Amount to save each month"],
+  ["monthly", "Monthly deposit", "Monthly deposit"],
   ["end", "Amount needed at the end", "Amount you'd have at the end"],
 ];
 
@@ -164,19 +164,17 @@ export default function SavingsPlanner({
       value={ok ? show(full, tvmField) : blanks ? "Fill in the boxes" : tooLong ? "Over 100 years" : noTime ? "No time to save" : "Not possible"}
       note={
         dueNow
-          ? `Fees are due now, so the whole ${sgd(full.end)} is needed today and there is no time for interest to build. Change any four boxes and tap "Solve" on the one you want.`
+          ? `Fees are due now, so the whole ${sgd(full.end)} is needed today and there is no time for interest to build. Change any four boxes and tap "Calculate" on the one you want.`
           : coveredAlready
-            ? `Nothing more is needed: the other boxes already reach the ${sgd(full.end)} needed at the end. Change any four boxes and tap "Solve" on the one you want.`
+            ? `Nothing more is needed: the other boxes already reach the ${sgd(full.end)} needed at the end. Change any four boxes and tap "Calculate" on the one you want.`
             : ok
-            ? `${Number.isFinite(costTotal) ? `"Amount needed at the end" starts as the whole cost, ${sgd(costTotal)}, needed by ${startLabel}.` : `The first fees fall due in ${startLabel}.`}${planMonths !== months ? ` This plan runs ${planMonths.toLocaleString("en-SG")} ${planMonths === 1 ? "month" : "months"}, to ${endLabel}.` : ""} Change any four boxes and tap "Solve" on the one you want.${
-                overshoot && tvmField === "months" ? ` Rounded up to whole months, so the plan ends ${sgd(overshoot)} above the amount needed.` : ""
-              }`
+            ? ""
             : blanks
-              ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Solve" on the one you want.`
+              ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Calculate" on the one you want.`
               : tooLong
                 ? `That would take more than ${MAX_MONTHS.toLocaleString("en-SG")} months. Start with more, save more each month or earn more interest.`
                 : noTime
-                  ? 'With 0 months the whole amount is needed today. Tap "Solve" on "Starting amount", or give it some months.'
+                  ? 'With 0 months the whole amount is needed today. Tap "Calculate" on "Starting amount", or give it some months.'
                   : "No answer fits these numbers. Check the four boxes you filled in."
       }
     />
@@ -227,7 +225,7 @@ export default function SavingsPlanner({
               }}
               className={`min-h-11 shrink-0 whitespace-nowrap rounded-lg border px-2.5 text-xs${FOCUS} ${tvmField === k ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
             >
-              {tvmField === k ? "Solved" : "Solve"}
+              Calculate
             </button>
           </div>
           <NumberField
@@ -257,11 +255,14 @@ export default function SavingsPlanner({
       <p className="text-xs text-muted">
         Interest is added monthly.{" "}
         {months === 0 ? `Fees are due now (${startLabel}).` : `${months.toLocaleString("en-SG")} ${months === 1 ? "month" : "months"} until ${startLabel}.`}
-        {planMonths !== months && ok ? ` The plan runs to ${endLabel}.` : ""}
+        {ok ? ` The projection runs to ${endLabel}.` : ""}
+        {overshoot
+          ? ` ${tvmField === "months" ? "Rounded up to whole months, so the projection" : "The projection"} ends ${sgd(overshoot)} above the amount needed.`
+          : ""}
       </p>
     </div>
   );
-  return frame(<Group title="Fill in four, solve for the fifth">{tvmBoxes}</Group>);
+  return frame(<Group title="Time Value of Money Calculator">{tvmBoxes}</Group>);
 
   function show(v: Tvm, k: TvmField): string {
     if (k === "months")
@@ -485,7 +486,7 @@ function Answer({
           {status.text}
         </p>
       )}
-      <p className="text-sm">{note}</p>
+      {note && <p className="text-sm">{note}</p>}
     </>
   );
 }

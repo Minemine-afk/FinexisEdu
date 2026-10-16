@@ -39,12 +39,17 @@ export default async function Home() {
         {/* The rule sits inside the side padding, so it is exactly as wide as the content above it. */}
         <div className="border-t-2 border-accent pt-6">
           <p>
-            Fees come from each university&apos;s published fee pages and are refreshed by an automated monthly check.
-            Future years are projections. Always confirm with the university before making decisions.
+            The fees are retrieved from each university&apos;s published fee pages and are based on 2026 figures.
+            The information you see on this page may contain inaccuracies, omissions or outdated information. Please
+            verify the latest fees directly with the relevant university. Future education costs are illustrative
+            estimates based on the indicated inflation rates and assumptions. Actual costs may vary.
           </p>
           <p className="mt-2">
-            Exchange rates: {fx.source === "live" ? "European Central Bank via Frankfurter" : "stored fallback rates"},
-            as of {fx.date}.
+            This calculator is for general planning purposes only and does not constitute financial advice. Please
+            consult your Financial Consultant before making any financial decisions.
+          </p>
+          <p className="mt-2">
+            Exchange rates{fx.source === "live" ? ": European Central Bank via Frankfurter," : ""} as of {fx.date}.
           </p>
         </div>
       </footer>

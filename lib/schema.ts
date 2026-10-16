@@ -87,7 +87,7 @@ export const Partner = z.object({
   country: z.string().min(1),
   website: z.url().optional(),
   description: z.string().min(1).optional(),
-  /** How this partner prices its degrees, shown instead of the university's `feeMethod` for its programmes. */
+  /** How this partner prices its degrees, for maintainers (the site shows each programme's `feeChoice`). */
   feeMethod: z.string().min(1).max(220).optional(),
 });
 
@@ -130,8 +130,14 @@ export const Programme = z.object({
   internationalEligible: z.boolean().default(true),
   /** One or two plain-English sentences for parents: what the fee covers and any caveat. */
   summary: z.string().max(280).optional(),
-  /** One or two short sentences on how this exact figure was chosen from the source (shown on the site). */
+  /** One or two short sentences on how this exact figure was chosen from the source (maintainers only). */
   feeBasis: z.string().min(1).max(240).optional(),
+  /**
+   * One sentence on why this fee stands for the whole degree (same rate for every
+   * major, top of a published range, the major's own rate...), shown on the site as
+   * "How this fee was worked out". No amounts: those are in `summary`.
+   */
+  feeChoice: z.string().min(1).max(160).optional(),
   /** Detailed source and method notes for maintainers; not shown on the site. */
   notes: z.string().optional(),
   feeHistory: z.array(FeeHistoryEntry).default([]),
@@ -184,7 +190,7 @@ export const University = z.object({
   description: z.string().min(1).optional(),
   /** Why it is in the calculator, e.g. evidence of Singaporean enrolment or recognition. */
   whyIncluded: z.string().min(1).optional(),
-  /** How the university prices its degrees (flat, by faculty, by major...) and so which fee the calculator picks; shown as the fee note, in one or two sentences. */
+  /** How the university prices its degrees (flat, by faculty, by major...) and so which fee the calculator picks, in one or two sentences, for maintainers. */
   feeMethod: z.string().min(1).max(220).optional(),
   livingCosts: LivingCosts.optional(),
   /** Awarding universities, when this institution teaches other universities' degrees. */

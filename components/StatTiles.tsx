@@ -21,9 +21,9 @@ export default function StatTiles({
   countryByCode: Map<string, Country>;
   /** Show just this one of the selections (for a swipeable carousel), still compared with the cheapest. */
   only?: number;
-  /** Adds a "Plan savings" button that opens the savings planner, as a bottom sheet when `sheet`. */
+  /** Adds a "Plan" button that opens the savings planner, as a bottom sheet when `sheet`. */
   planner?: { today: string; sheet: boolean };
-  /** When given, "Plan savings" calls this and the caller shows the planner (so it can outlive a layout change). */
+  /** When given, "Plan" calls this and the caller shows the planner (so it can outlive a layout change). */
   onPlan?: (key: string) => void;
 }) {
   const [planKey, setPlanKey] = useState<string | null>(null);
@@ -117,7 +117,7 @@ export default function StatTiles({
                   <path d="M3 17l6-6 4 4 8-8" />
                   <path d="M15 7h6v6" />
                 </svg>
-                Plan savings
+                Plan
               </button>
             )}
           </div>
