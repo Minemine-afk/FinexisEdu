@@ -78,8 +78,6 @@ export default function ResultDetail({
 }) {
   const { university: u, programme: p, result } = s;
   const partner = partnerOf(u, p);
-  // A partner or institute (NIE at NTU) can price its degrees differently from the university.
-  const feeMethod = partner?.feeMethod ?? u.feeMethod;
   const cur = u.currency;
   // Units of the local currency per S$1, so local ÷ rate = SGD.
   const sgd = (n: number) => n / s.fxRate;
@@ -217,10 +215,10 @@ export default function ResultDetail({
             </Badge>
           )}
         </div>
-        {feeMethod && (
+        {p.feeChoice && (
           <p className="mt-3 rounded-md border-l-2 border-accent bg-chip px-3 py-2 text-xs text-muted">
             <span className="font-medium text-foreground">How this fee was worked out: </span>
-            {feeMethod}{" "}
+            {p.feeChoice}{" "}
             <a
               className={`whitespace-nowrap font-medium text-accent underline hover:text-foreground${TAP_LINK}`}
               href={p.sourceUrl}

@@ -82,6 +82,18 @@ describe("committed data", () => {
     }
   });
 
+  it("says in one short sentence, with no amounts, why each fee stands for the whole degree", () => {
+    for (const u of universities) {
+      for (const p of u.programmes) {
+        const id = `${u.id}: ${p.name}`;
+        expect(p.feeChoice, id).toBeTruthy();
+        expect(p.feeChoice!.length, id).toBeLessThanOrEqual(160);
+        expect(p.feeChoice, id).not.toMatch(/https?:\/\/|[$£€¥]|\d{4}|\d,\d|\b(?:AUD|CAD|CHF|EUR|GBP|JPY|NZD|SGD|USD|S\$|A\$|C\$|NZ\$)\b/);
+        expect(p.feeChoice, id).toMatch(/^[A-Z].*\.$/);
+      }
+    }
+  });
+
   it("states how every university prices its degrees, in at most 220 characters", () => {
     for (const u of universities) {
       expect(u.feeMethod, u.id).toBeTruthy();

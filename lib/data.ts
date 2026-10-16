@@ -40,14 +40,21 @@ export function forSite(universities: University[]): University[] {
     delete copy.notes;
     return copy;
   };
-  // `feeBasis` is kept in the data for maintainers; the site shows the university's `feeMethod`.
+  // `feeBasis` is kept in the data for maintainers; the site shows each programme's `feeChoice`.
   const forProgramme = (p: University["programmes"][number]) => {
     const copy = withoutNotes(p) as Partial<typeof p>;
     delete copy.feeBasis;
     return copy as typeof p;
   };
+  // `feeMethod` (university and partner) is kept for maintainers too.
+  const withoutMethod = <T extends { feeMethod?: string }>(record: T): T => {
+    const copy = { ...record };
+    delete copy.feeMethod;
+    return copy;
+  };
   return universities.map((u) => ({
-    ...u,
+    ...withoutMethod(u),
+    partners: u.partners?.map(withoutMethod),
     programmes: u.programmes.map(forProgramme),
     livingCosts: u.livingCosts && withoutNotes(u.livingCosts),
   }));
