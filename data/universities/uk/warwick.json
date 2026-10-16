@@ -703,9 +703,16 @@
       "cohortLocked": false,
       "feeBasis": "Warwick's 2026-27 full-time overseas fee (GBP 43,580) for the one-year MSc Accounting and Financial Management, from its postgraduate fees table; the 2027-28 figure is GBP 44,500.",
       "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
-      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees.",
-      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (read 2026-10-15), row 'Accounting and Financial Management (MSc)' P-NN00, Full Time, Overseas: 2025-26 42,730, 2026-27 43,580 (used), 2027-28 44,500; Overseas tier because Singaporeans are international students. feeYear 2026 kept in line with Warwick's other master's rows. One-year programme; fees rise annually so cohortLocked false. No 2024 row: the 2024-25 version of the same table (Common Crawl capture, March 2024) has no Accounting and Financial Management row, only the predecessor 'Accounting and Finance (MSc)' P-N4N6 at 40,700, which is a different course code so not used.",
+      "summary": "Tuition for international students on the one-year full-time course starting in 2026. No separate compulsory fees. The 2024 fee is from its earlier name, MSc Accounting and Finance.",
+      "notes": "Warwick Student Finance 'Postgraduate Taught Fees' table (read 2026-10-15), row 'Accounting and Financial Management (MSc)' P-NN00, Full Time, Overseas: 2025-26 42,730, 2026-27 43,580 (used), 2027-28 44,500; Overseas tier because Singaporeans are international students. feeYear 2026 kept in line with Warwick's other master's rows. One-year programme; fees rise annually so cohortLocked false. No 2024 row: the 2024-25 version of the same table (Common Crawl capture, March 2024) has no Accounting and Financial Management row, only the predecessor 'Accounting and Finance (MSc)' P-N4N6 at 40,700, which is a different course code so not used. 2024 row (2026-10-16, added at Kumar's instruction): WBS page for MSc Accounting & Finance (Common Crawl capture 2024-06-14, 'Start Date September 2024', 'Applications are now closed for 2024 entry') states EU/International fees GBP 40,700, and the Warwick fee table captured 2024-08-05 lists the same course (P-N4N6) at GBP 40,700 for 2024-25. The old page address redirected to this course page by mid-2024, so it is treated as the same course renamed, though no page says so.",
       "feeHistory": [
+        {
+          "feeYear": 2024,
+          "tier": "international",
+          "annualTuition": 40700,
+          "sourceUrl": "https://www.wbs.ac.uk/courses/masters/accounting-and-finance/fees/",
+          "sourceType": "secondary"
+        },
         {
           "feeYear": 2025,
           "tier": "international",

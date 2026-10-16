@@ -452,7 +452,7 @@
       "feeBasis": "Napier (EIT) 2027 international programme matrix, standard fee for the Bachelor of Accounting at NZ$26,000. A scholarship-reduced fee of NZ$24,500 also appears but was not used.",
       "feeChoice": "This degree has its own published standard yearly fee, used as the yearly rate.",
       "summary": "Standard yearly tuition for international students at Napier for 2027, including GST. Excludes the student services fee and insurance.",
-      "notes": "2027 International Programme Matrix PDF lists Bachelor of Accounting, Napier, standard fee $26,000 (net $24,500 after EIT scholarship); standard fee used, same as the existing Bachelor of Business Studies row. Compulsory left 0 (levy not on the matrix), as for other EIT rows. 2024 row: EIT-International-Programme-Matrix.pdf (2024, wp-json media library) lists Bachelor of Accounting Napier $25,000. 2025 and 2026 not found: the 2025 prospectus capture in Common Crawl is truncated and unreadable, and no 2026 accounting listing could be read (the existing BBS rows for those years are 26,000 but BBS is not this programme). 2026 row (2026-10-16, official): EIT's 2026 International Prospectus (Common Crawl capture of 21 Jan 2026 of this file, before EIT replaced it with the 2027 edition) lists Bachelor of Accounting, Napier, standard fee $26,000 (net $24,500), 3 years; same basis as the 2027 row. 2026 Student Services Levy not added, matching other rows. 2025 still not found: the Common Crawl capture of the 2025 prospectus is cut off at 5 MB and its page index is missing, so the fee table cannot be read.",
+      "notes": "2027 International Programme Matrix PDF lists Bachelor of Accounting, Napier, standard fee $26,000 (net $24,500 after EIT scholarship); standard fee used, same as the existing Bachelor of Business Studies row. Compulsory left 0 (levy not on the matrix), as for other EIT rows. 2024 row: EIT-International-Programme-Matrix.pdf (2024, wp-json media library) lists Bachelor of Accounting Napier $25,000. 2025 and 2026 not found: the 2025 prospectus capture in Common Crawl is truncated and unreadable, and no 2026 accounting listing could be read (the existing BBS rows for those years are 26,000 but BBS is not this programme). 2026 row (2026-10-16, official): EIT's 2026 International Prospectus (Common Crawl capture of 21 Jan 2026 of this file, before EIT replaced it with the 2027 edition) lists Bachelor of Accounting, Napier, standard fee $26,000 (net $24,500), 3 years; same basis as the 2027 row. 2026 Student Services Levy not added, matching other rows. 2025 still not found: the Common Crawl capture of the 2025 prospectus is cut off at 5 MB and its page index is missing, so the fee table cannot be read. 2025 row (2026-10-16, official): the Mandarin edition of EIT's 2025 International Prospectus (Common Crawl capture of 18 Mar 2025, complete and readable) lists Bachelor of Accounting, Napier, $26,000, 3 years, 'listed are for 2025 programmes'; same basis as other EIT rows. The 2025 Student Services Levy ($378) is not added, matching other rows.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -460,6 +460,13 @@
           "annualTuition": 26000,
           "annualCompulsoryFees": 0,
           "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/programme-app-packs/EIT%20International%20Prospectus.pdf"
+        },
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 26000,
+          "annualCompulsoryFees": 0,
+          "sourceUrl": "https://www.eit.ac.nz/wp-content/uploads/programme-app-packs/EIT%20International%20Prospectus_Mandarin.pdf"
         },
         {
           "feeYear": 2024,

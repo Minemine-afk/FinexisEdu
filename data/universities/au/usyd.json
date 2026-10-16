@@ -736,8 +736,15 @@
       "feeBasis": "Sydney's 2027 international full-fee-paying rate for year 1 of this new 2-year degree, read from the course page's fee data. It matches the Master of Commerce rate.",
       "feeChoice": "This degree has its own published Year 1 fee, which is the basis for every year of the degree.",
       "summary": "Year 1 tuition for international students starting in 2027, plus the A$386 student services fee. Fees rise each year, so later years will cost more. A 2-year programme.",
-      "notes": "Course 107966A (96 credit points, 2 years), a new Business School degree whose fee data lists 2026 and 2027 only (startingYear 2026). Course page fee data read 2026-10-15: International Full Fee Paying Rate A$64,800 for 2027 and A$61,700 for 2026, same as the Master of Commerce; international tier chosen because Singaporeans are international students. Compulsory = SSAF A$193.00 x 2 (2027), A$186.50 x 2 (2026), as in the other Sydney records. No 2024/2025 rows because this registration began in 2026; the older Master of Professional Accounting fee could not be found.",
+      "notes": "Course 107966A (96 credit points, 2 years), a new Business School degree whose fee data lists 2026 and 2027 only (startingYear 2026). Course page fee data read 2026-10-15: International Full Fee Paying Rate A$64,800 for 2027 and A$61,700 for 2026, same as the Master of Commerce; international tier chosen because Singaporeans are international students. Compulsory = SSAF A$193.00 x 2 (2027), A$186.50 x 2 (2026), as in the other Sydney records. No 2024/2025 rows because this registration began in 2026; the older Master of Professional Accounting fee could not be found. 2025 row (2026-10-16, unofficial): IDP's course page, Common Crawl captures 2025-01-14 and 2025-09-14, shows 'Fees AUD56500 ( 2025 )', next intake 17 February 2025. IDP fees are indicative and its USyd figures can sit below the university's rates; compulsory fees not stated, so none added. The course page has been captured since Dec 2023 with international students listed, so the earlier 'registration began in 2026' remark is doubtful, but no 2024 fee was found.",
       "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 56500,
+          "sourceUrl": "https://www.idp.com/universities-and-colleges/the-university-of-sydney/master-of-professional-accounting-and-business-performance/PRG-AU-00401450/",
+          "sourceType": "secondary"
+        },
         {
           "feeYear": 2026,
           "tier": "international",

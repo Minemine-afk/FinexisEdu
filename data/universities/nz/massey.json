@@ -477,8 +477,15 @@
       "feeBasis": "Massey's qualification page estimate for 2027 international full-time study (120 credits), the only published figure for this master's. The 180-credit degree takes 15 to 18 months.",
       "feeChoice": "The only published figure is a full-time yearly estimate, used across the degree's 15 to 18 months.",
       "summary": "Estimated yearly tuition for full-time study (120 credits) for international students in 2027, including GST. The 180-credit degree takes 15 to 18 months. Student services fee included; insurance is extra.",
-      "notes": "Qualification page '2027 tuition fees ... International students: $43,630' (estimate for full-time study, 120 credits, incl. GST) and on-campus Student Services Fee $1,236 per 120 credits; 180 credits = 15-18 months so durationYears 1.5. Massey's own international fee table says to contact the Business School for MPAcc fees, so the qualification page is the only published figure. 2026 row: the same page as captured by Common Crawl on 2026-04-10 ('2026 tuition fees ... International students: $42,350', SSF $1,164). 2025 and 2024 not found: captures of this page from 2024-10 and 2025-08 show no fee figure, and the international tuition table (Wayback/CC capture 2025-03-23) excludes MPAcc. Archive links 2026-10-15 (the original page is gone or now shows a later year): 2026 row: Common Crawl capture of 2026-04-10 (CC-MAIN-2026-17; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
+      "notes": "Qualification page '2027 tuition fees ... International students: $43,630' (estimate for full-time study, 120 credits, incl. GST) and on-campus Student Services Fee $1,236 per 120 credits; 180 credits = 15-18 months so durationYears 1.5. Massey's own international fee table says to contact the Business School for MPAcc fees, so the qualification page is the only published figure. 2026 row: the same page as captured by Common Crawl on 2026-04-10 ('2026 tuition fees ... International students: $42,350', SSF $1,164). 2025 and 2024 not found: captures of this page from 2024-10 and 2025-08 show no fee figure, and the international tuition table (Wayback/CC capture 2025-03-23) excludes MPAcc. Archive links 2026-10-15 (the original page is gone or now shows a later year): 2026 row: Common Crawl capture of 2026-04-10 (CC-MAIN-2026-17; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it. 2025 row (2026-10-16, unofficial): IDP's course page (Common Crawl capture 2025-08-15) shows 'Fees NZD39940 ( 2025 )', duration 1.5 years; the same page gives NZ$42,350 for 2026, matching the 2026 row here. Compulsory fees not stated, so none added. No 2024 fee found.",
       "feeHistory": [
+        {
+          "feeYear": 2025,
+          "tier": "international",
+          "annualTuition": 39940,
+          "sourceUrl": "https://www.idp.com/universities-and-colleges/massey-university/master-of-professional-accountancy/PRG-NZ-00165260/",
+          "sourceType": "secondary"
+        },
         {
           "feeYear": 2026,
           "tier": "international",

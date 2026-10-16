@@ -154,6 +154,14 @@ export function unavailableReason(
   return `No published ${missingYears.join(", ")} fee on file`;
 }
 
+/** The short tag after a programme's name in a list when it cannot be priced. */
+export function unavailableTag(reason: string | null): string {
+  if (!reason) return "";
+  return reason.startsWith("Not open to international")
+    ? " (not open to international students)"
+    : " (no published fee)";
+}
+
 /** What to change so an unavailable programme can be priced, to follow its `unavailableReason`. */
 export function unavailableHint(reason: string): string {
   if (reason.startsWith("Not open to international")) {
