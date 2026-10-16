@@ -255,8 +255,10 @@ export default function SavingsPlanner({
       <p className="text-xs text-muted">
         Interest is added monthly.{" "}
         {months === 0 ? `Fees are due now (${startLabel}).` : `${months.toLocaleString("en-SG")} ${months === 1 ? "month" : "months"} until ${startLabel}.`}
-        {planMonths !== months && ok ? ` The projection runs to ${endLabel}.` : ""}
-        {overshoot && tvmField === "months" ? ` Rounded up to whole months, so the projection ends ${sgd(overshoot)} above the amount needed.` : ""}
+        {ok ? ` The projection runs to ${endLabel}.` : ""}
+        {overshoot
+          ? ` ${tvmField === "months" ? "Rounded up to whole months, so the projection" : "The projection"} ends ${sgd(overshoot)} above the amount needed.`
+          : ""}
       </p>
     </div>
   );
