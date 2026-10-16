@@ -28,6 +28,7 @@ import {
   MIN_START_YEAR,
   pickProgramme,
   unavailableHint,
+  unavailableTag,
   useCalculator,
   type CalculatorProps,
   type CountryGroup,
@@ -571,7 +572,7 @@ function UniversityPicker({
                 {o.programme.majors
                   ? ` (${o.programme.majors.length} majors)`
                   : ""}
-                {reasonFor(o) ? " (no published fee)" : ""}
+                {unavailableTag(reasonFor(o))}
                 {recognitionTag(o.programme)}
               </option>
             ))}

@@ -29,6 +29,7 @@ import {
   MIN_START_YEAR,
   pickProgramme,
   unavailableHint,
+  unavailableTag,
   type CalculatorState,
   type Option,
   type Selection,
@@ -1077,7 +1078,7 @@ function PickerSheet({
                   label="Programme"
                   items={programmes.map((o) => ({
                     key: o.key,
-                    text: `${o.programme.name}${o.programme.majors ? ` (${o.programme.majors.length} majors)` : ""}${reasonFor(o) ? " (no published fee)" : ""}${recognitionTag(o.programme)}`,
+                    text: `${o.programme.name}${o.programme.majors ? ` (${o.programme.majors.length} majors)` : ""}${unavailableTag(reasonFor(o))}${recognitionTag(o.programme)}`,
                     selected: o.key === current.key,
                     onSelect: () => setSlot(index, o.key),
                   }))}
