@@ -39,7 +39,7 @@ export default async function Home() {
         {/* The rule sits inside the side padding, so it is exactly as wide as the content above it. */}
         <div className="border-t-2 border-accent pt-6">
           <p>
-            The fees are retrieved from each university&apos;s published fee pages and are refreshed by an automated
+            The fees are retrieved from each university&apos;s published fee pages and are refreshed by a
             monthly check. The information you see on this page may contain inaccuracies, omissions or outdated
             information. Please verify the latest fees directly with the relevant university. Future education costs
             are illustrative estimates based on the indicated inflation rates and assumptions. Actual costs may vary.
