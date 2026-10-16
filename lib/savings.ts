@@ -7,7 +7,7 @@
  */
 
 /** The default investing return, % a year. */
-export const DEFAULT_INVEST_RATE = 4;
+export const DEFAULT_INVEST_RATE = 6;
 
 /** Month the first fees fall due (0 = January): August in Singapore and the US, otherwise each country's usual intake. */
 const INTAKE_MONTH: Record<string, number> = {
