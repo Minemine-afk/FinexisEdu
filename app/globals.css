@@ -108,8 +108,9 @@ input[type="checkbox"] {
   padding-right: max(1rem, env(safe-area-inset-right));
 }
 
-/* iOS Safari zooms into any focused field under 16px; keep fields at 16px on phones. */
-@media (max-width: 639px) {
+/* iOS Safari zooms into any focused field under 16px; keep fields at 16px on phones
+   (landscape included) and other touch screens. */
+@media (max-width: 767px), (pointer: coarse) {
   input,
   select,
   textarea {

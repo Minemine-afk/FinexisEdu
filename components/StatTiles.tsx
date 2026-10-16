@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { formatMoney, programmeLabel } from "@/lib/format";
+import { formatMoney, partnerOf, programmeLabel } from "@/lib/format";
 import type { Country } from "@/lib/schema";
 import UniversityName from "./UniversityName";
 import InfoTip from "./InfoTip";
@@ -32,6 +32,7 @@ export default function StatTiles({
   const openPlanner = onPlan ?? setPlanKey;
   // Selections are sorted by total, so the first is the cheapest.
   const cheapest = selections[0];
+  const cheapestName = cheapest ? comparisonName(cheapest, selections) : "";
   // Three tiles only fit side by side from lg up; a tablet in portrait gets two columns.
   const cols =
     selections.length === 3
@@ -56,7 +57,7 @@ export default function StatTiles({
         return (
           <div
             key={s.key}
-            className="min-w-0 rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5"
+            className="@container min-w-0 rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5"
           >
             <p className="text-xs font-medium uppercase tracking-wide text-muted">
               {countryByCode.get(s.university.country)?.name} ·{" "}
@@ -69,7 +70,8 @@ export default function StatTiles({
               {programmeLabel(s.university, s.programme)}
             </p>
             <p
-              className={`mt-2 font-semibold text-accent tabular-nums ${totalSize(formatMoney(s.grandTotalSgd, "SGD"))}`}
+              className="mt-2 whitespace-nowrap font-semibold leading-tight text-accent tabular-nums"
+              style={{ fontSize: totalSize(formatMoney(s.grandTotalSgd, "SGD")) }}
             >
               {formatMoney(s.grandTotalSgd, "SGD")}
             </p>
@@ -101,8 +103,8 @@ export default function StatTiles({
                 {i === 0
                   ? `Cheapest of the ${selections.length === 3 ? "three" : "two"}`
                   : diff === 0
-                    ? `Same as ${cheapest.university.name}`
-                    : `${formatMoney(diff, "SGD")} more than ${cheapest.university.name}`}
+                    ? `Same as ${cheapestName}`
+                    : `${formatMoney(diff, "SGD")} more than ${cheapestName}`}
               </p>
             )}
             {planner && (
@@ -125,11 +127,24 @@ export default function StatTiles({
   );
 }
 
-/** Smaller type for long totals (far-off start years), so they stay inside a narrow tile. */
+/**
+ * The total's font size: 1.875rem (text-3xl) when it fits, otherwise shrunk to
+ * the tile's width (a two-column tablet tile, a far-off start year). A
+ * semibold tabular digit is about 0.62em wide.
+ */
 function totalSize(text: string): string {
-  if (text.length <= 11) return "text-3xl"; // up to S$9,999,999
-  if (text.length <= 13) return "text-2xl"; // up to S$999,999,999
-  return "text-xl break-all";
+  return `min(1.875rem, ${(100 / (text.length * 0.62)).toFixed(2)}cqi)`;
+}
+
+/**
+ * How the comparison line names the cheapest choice: its awarding partner or
+ * institute where there is one (SIM's partners, NIE), and the programme too when
+ * another tile would carry the same name.
+ */
+function comparisonName(c: Selection, selections: Selection[]): string {
+  const name = (x: Selection) => partnerOf(x.university, x.programme)?.name ?? x.university.name;
+  const n = name(c);
+  return selections.some((x) => x !== c && name(x) === n) ? `${n} (${c.programme.name})` : n;
 }
 
 /**

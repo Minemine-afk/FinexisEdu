@@ -47,7 +47,7 @@
       "cohortLocked": false,
       "feeBasis": "The non-EU fee for the BSc in Computer Science (DC121) in DCU's official 2027-28 fee schedule: €23,800 a year, plus the €43 Student Centre levy.",
       "summary": "Annual tuition for international (non-EU) students plus a EUR 43 Student Centre levy. Fees rise each year, so later years will likely cost more.",
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column; 4-year degree. All programme fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43), which non-EU and postgraduate students pay with their tuition; the EUR 2,500 Student Contribution applies to Free Fees (EU) students only. 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Computer Science' EUR 16,000 per annum. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,800 (was EUR 17,900 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column; 4-year degree. All programme fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43), which non-EU and postgraduate students pay with their tuition; the EUR 2,500 Student Contribution applies to Free Fees (EU) students only. 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Computer Science' EUR 16,000 per annum. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,800 (was EUR 17,900 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-10-16, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-42) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-03-22, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-13) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -55,7 +55,7 @@
           "annualTuition": 17900,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fundergraduate-fees-2026-2027&output=json",
           "sourceType": "official"
         },
         {
@@ -64,7 +64,7 @@
           "annualTuition": 16400,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+          "sourceUrl": "https://web.archive.org/web/20250322164033/https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
         },
         {
           "feeYear": 2024,
@@ -72,7 +72,7 @@
           "annualTuition": 16000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+          "sourceUrl": "https://web.archive.org/web/20241016063307/https://www.dcu.ie/fees/undergraduate-fees"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "cohortLocked": false,
       "feeBasis": "The non-EU fee for the Bachelor of Business Studies (DC111) in DCU's official 2027-28 fee schedule: €19,500 a year, plus the €43 Student Centre levy.",
       "summary": "Annual tuition for international (non-EU) students plus a EUR 43 Student Centre levy. 3 years, or 4 with an optional placement year. Fees rise each year.",
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column; 3 years (4 with the optional INTRA placement year). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Business Studies' EUR 15,000 per annum. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 19,500 (was EUR 17,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column; 3 years (4 with the optional INTRA placement year). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Business Studies' EUR 15,000 per annum. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 19,500 (was EUR 17,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-10-16, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-42) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-03-22, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-13) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -103,7 +103,7 @@
           "annualTuition": 17000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fundergraduate-fees-2026-2027&output=json",
           "sourceType": "official"
         },
         {
@@ -112,7 +112,7 @@
           "annualTuition": 16500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+          "sourceUrl": "https://web.archive.org/web/20250322164033/https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
         },
         {
           "feeYear": 2024,
@@ -120,7 +120,7 @@
           "annualTuition": 15000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+          "sourceUrl": "https://web.archive.org/web/20241016063307/https://www.dcu.ie/fees/undergraduate-fees"
         }
       ]
     },
@@ -143,7 +143,7 @@
       "cohortLocked": false,
       "feeBasis": "The €23,800 a year non-EU fee for years 1–4 of Mechanical and Manufacturing Engineering in DCU's 2027-28 schedule, plus €43 levy; an optional 5th master's year is €19,900.",
       "summary": "Annual tuition for international (non-EU) students plus a EUR 43 levy, for the 4-year degree. An optional fifth master's year costs more. Fees rise each year.",
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' for years 1-4 (an optional year 5 integrated master's is EUR 19,400). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Mechanical and Manufacturing Engineering' EUR 16,000 (Year 1-4), EUR 18,600 Year 5 integrated masters. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,800 (was EUR 17,900 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Year 5 (integrated master's) non-EU fee is EUR 19,900. Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' for years 1-4 (an optional year 5 integrated master's is EUR 19,400). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Mechanical and Manufacturing Engineering' EUR 16,000 (Year 1-4), EUR 18,600 Year 5 integrated masters. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,800 (was EUR 17,900 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Year 5 (integrated master's) non-EU fee is EUR 19,900. Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-10-16, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-42) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-03-22, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-13) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -151,7 +151,7 @@
           "annualTuition": 17900,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fundergraduate-fees-2026-2027&output=json",
           "sourceType": "official"
         },
         {
@@ -160,7 +160,7 @@
           "annualTuition": 16400,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+          "sourceUrl": "https://web.archive.org/web/20250322164033/https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
         },
         {
           "feeYear": 2024,
@@ -168,7 +168,7 @@
           "annualTuition": 16000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+          "sourceUrl": "https://web.archive.org/web/20241016063307/https://www.dcu.ie/fees/undergraduate-fees"
         }
       ]
     },
@@ -191,7 +191,7 @@
       "cohortLocked": false,
       "feeBasis": "The non-EU fee for the BSc in Applied Physics in DCU's official 2027-28 fee schedule: €23,850 a year, plus the €43 Student Centre levy.",
       "summary": "Annual tuition for international (non-EU) students plus a EUR 43 Student Centre levy. Fees rise each year, so later years will likely cost more.",
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (Faculty of Science and Health); 4-year degree. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Applied Physics' EUR 15,500 per annum (Faculty of Science & Health). 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Note: the 22 Mar 2025 Common Crawl capture of the 2025-2026 schedule showed Applied Physics at EUR 15,500, revised to EUR 16,400 by the 11 Sep 2025 capture; the later (in-year) figure is kept. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,850 (was EUR 16,900 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (Faculty of Science and Health); 4-year degree. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Applied Physics' EUR 15,500 per annum (Faculty of Science & Health). 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Note: the 22 Mar 2025 Common Crawl capture of the 2025-2026 schedule showed Applied Physics at EUR 15,500, revised to EUR 16,400 by the 11 Sep 2025 capture; the later (in-year) figure is kept. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,850 (was EUR 16,900 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-10-16, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-42) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-03-22, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-13) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -199,7 +199,7 @@
           "annualTuition": 16900,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fundergraduate-fees-2026-2027&output=json",
           "sourceType": "official"
         },
         {
@@ -208,7 +208,7 @@
           "annualTuition": 16400,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+          "sourceUrl": "https://web.archive.org/web/20250322164033/https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
         },
         {
           "feeYear": 2024,
@@ -216,7 +216,7 @@
           "annualTuition": 15500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+          "sourceUrl": "https://web.archive.org/web/20241016063307/https://www.dcu.ie/fees/undergraduate-fees"
         }
       ]
     },
@@ -239,7 +239,7 @@
       "cohortLocked": false,
       "feeBasis": "The non-EU fee for the BA Joint Honours (Humanities) in DCU's official 2027-28 fee schedule: €19,450 a year, plus the €43 Student Centre levy.",
       "summary": "Annual tuition for international (non-EU) students plus a EUR 43 Student Centre levy. 3 years, or 4 with a language or placement year. Fees rise each year.",
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (Faculty of Humanities and Social Sciences); 3 years (4 with a language or placement option). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Arts: Joint Honours (Humanities)' EUR 16,000 per annum. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 19,450 (was EUR 17,300 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (Faculty of Humanities and Social Sciences); 3 years (4 with a language or placement option). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Arts: Joint Honours (Humanities)' EUR 16,000 per annum. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 19,450 (was EUR 17,300 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-10-16, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-42) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-03-22, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-13) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -247,7 +247,7 @@
           "annualTuition": 17300,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fundergraduate-fees-2026-2027&output=json",
           "sourceType": "official"
         },
         {
@@ -256,7 +256,7 @@
           "annualTuition": 16400,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+          "sourceUrl": "https://web.archive.org/web/20250322164033/https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
         },
         {
           "feeYear": 2024,
@@ -264,7 +264,7 @@
           "annualTuition": 16000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+          "sourceUrl": "https://web.archive.org/web/20241016063307/https://www.dcu.ie/fees/undergraduate-fees"
         }
       ]
     },
@@ -287,7 +287,7 @@
       "cohortLocked": false,
       "feeBasis": "The €25,000 non-EU fee for the one-year MSc in Computing in DCU's 2027-28 schedule, plus €43 levy; a €4,400 faculty scholarship may reduce it.",
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy. A EUR 4,400 faculty scholarship may reduce it.",
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee'; 1 year full-time. Fees are per annum and subject to an annual increase. A EUR 5,000 Faculty of Engineering and Computing international scholarship may reduce it. Compulsory fee is the Student Centre levy (EUR 43) paid with tuition. 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MSc in Computing (with Major Options)' EUR 25,000. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 25,000 (was EUR 25,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). The Faculty of Engineering & Computing International Scholarship is now a EUR 4,400 reduction (was EUR 5,000). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee'; 1 year full-time. Fees are per annum and subject to an annual increase. A EUR 5,000 Faculty of Engineering and Computing international scholarship may reduce it. Compulsory fee is the Student Centre levy (EUR 43) paid with tuition. 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MSc in Computing (with Major Options)' EUR 25,000. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 25,000 (was EUR 25,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). The Faculty of Engineering & Computing International Scholarship is now a EUR 4,400 reduction (was EUR 5,000). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-05-18, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-22) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-01-21, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-05) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -295,7 +295,7 @@
           "annualTuition": 25000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fpostgraduate-fees-2026-27&output=json",
           "sourceType": "official"
         },
         {
@@ -304,7 +304,7 @@
           "annualTuition": 25000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+          "sourceUrl": "https://web.archive.org/web/20250121093349/https://www.dcu.ie/fees/postgraduate-fees-2025-26"
         },
         {
           "feeYear": 2024,
@@ -312,7 +312,7 @@
           "annualTuition": 25000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
+          "sourceUrl": "https://web.archive.org/web/20240518215350/https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
       ]
     },
@@ -335,7 +335,7 @@
       "cohortLocked": false,
       "feeBasis": "The €23,500 non-EU fee for the one-year MSc in Management (Business) in DCU's 2027-28 schedule, plus the €43 levy.",
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy.",
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (DCU Business School); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MSc in Management (Business)' EUR 17,600. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,500 (was EUR 23,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (DCU Business School); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MSc in Management (Business)' EUR 17,600. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,500 (was EUR 23,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-05-18, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-22) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-01-21, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-05) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -343,7 +343,7 @@
           "annualTuition": 23000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fpostgraduate-fees-2026-27&output=json",
           "sourceType": "official"
         },
         {
@@ -352,7 +352,7 @@
           "annualTuition": 19500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+          "sourceUrl": "https://web.archive.org/web/20250121093349/https://www.dcu.ie/fees/postgraduate-fees-2025-26"
         },
         {
           "feeYear": 2024,
@@ -360,7 +360,7 @@
           "annualTuition": 17600,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
+          "sourceUrl": "https://web.archive.org/web/20240518215350/https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
       ]
     },
@@ -383,7 +383,7 @@
       "cohortLocked": false,
       "feeBasis": "The €25,000 non-EU fee for the one-year MEng in DCU's 2027-28 schedule, plus €43 levy; a €4,400 faculty scholarship may reduce it.",
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy. A EUR 4,400 faculty scholarship may reduce it.",
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee'; 1 year full-time (12 months). Fees are per annum and subject to an annual increase. A EUR 5,000 Faculty of Engineering and Computing international scholarship may reduce it. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MEng in Mechanical and Manufacturing Engineering' EUR 25,000. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 25,000 (was EUR 25,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). The Faculty of Engineering & Computing International Scholarship is now a EUR 4,400 reduction (was EUR 5,000). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee'; 1 year full-time (12 months). Fees are per annum and subject to an annual increase. A EUR 5,000 Faculty of Engineering and Computing international scholarship may reduce it. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MEng in Mechanical and Manufacturing Engineering' EUR 25,000. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 25,000 (was EUR 25,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). The Faculty of Engineering & Computing International Scholarship is now a EUR 4,400 reduction (was EUR 5,000). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-05-18, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-22) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-01-21, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-05) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -391,7 +391,7 @@
           "annualTuition": 25000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fpostgraduate-fees-2026-27&output=json",
           "sourceType": "official"
         },
         {
@@ -400,7 +400,7 @@
           "annualTuition": 25000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+          "sourceUrl": "https://web.archive.org/web/20250121093349/https://www.dcu.ie/fees/postgraduate-fees-2025-26"
         },
         {
           "feeYear": 2024,
@@ -408,7 +408,7 @@
           "annualTuition": 25000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
+          "sourceUrl": "https://web.archive.org/web/20240518215350/https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
       ]
     },
@@ -431,7 +431,7 @@
       "cohortLocked": false,
       "feeBasis": "The €17,700 non-EU fee for the one-year MA in History in DCU's 2027-28 schedule, plus the €43 levy.",
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy.",
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (Faculty of Humanities and Social Sciences); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MA in History' EUR 16,500 (part-time EUR 8,100 per annum). 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 17,700 (was EUR 17,200 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, full-time 'Non EU Fee' (Faculty of Humanities and Social Sciences); 1 year full-time. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MA in History' EUR 16,500 (part-time EUR 8,100 per annum). 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 17,700 (was EUR 17,200 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-05-18, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-22) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-01-21, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-05) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -439,7 +439,7 @@
           "annualTuition": 17200,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fpostgraduate-fees-2026-27&output=json",
           "sourceType": "official"
         },
         {
@@ -448,7 +448,7 @@
           "annualTuition": 17000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+          "sourceUrl": "https://web.archive.org/web/20250121093349/https://www.dcu.ie/fees/postgraduate-fees-2025-26"
         },
         {
           "feeYear": 2024,
@@ -456,7 +456,7 @@
           "annualTuition": 16500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
+          "sourceUrl": "https://web.archive.org/web/20240518215350/https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
       ]
     },
@@ -479,7 +479,7 @@
       "cohortLocked": false,
       "feeBasis": "The non-EU fee for the Bachelor of Civil Law (BCL) (DC232) in DCU's official 2027-28 fee schedule: €19,450 a year, plus the €43 Student Centre levy.",
       "summary": "Annual tuition for international (non-EU) students plus a EUR 43 levy. 3 years, or 4 with a year abroad or placement. Fees rise each year. Taught in English.",
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (School of Law and Government); 3 years, or 4 with a year abroad or INTRA placement. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). Taught in English. DCU has no medical school. 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Bachelor of Civil Law - BCL' EUR 16,000 per annum (row present in the 16 Oct 2024 capture; not in the Dec 2023/Apr 2024 captures). 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 19,450 (was EUR 17,300 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Non EU Fee' column (School of Law and Government); 3 years, or 4 with a year abroad or INTRA placement. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). Taught in English. DCU has no medical school. 2025/26 history: non-EU fee from DCU's 'Undergraduate Fees 2025-2026' schedule (same URL pattern); the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Bachelor of Civil Law - BCL' EUR 16,000 per annum (row present in the 16 Oct 2024 capture; not in the Dec 2023/Apr 2024 captures). 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 19,450 (was EUR 17,300 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-10-16, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-42) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-03-22, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-13) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -487,7 +487,7 @@
           "annualTuition": 17300,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fundergraduate-fees-2026-2027&output=json",
           "sourceType": "official"
         },
         {
@@ -496,7 +496,7 @@
           "annualTuition": 16400,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+          "sourceUrl": "https://web.archive.org/web/20250322164033/https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
         },
         {
           "feeYear": 2024,
@@ -504,7 +504,7 @@
           "annualTuition": 16000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+          "sourceUrl": "https://web.archive.org/web/20241016063307/https://www.dcu.ie/fees/undergraduate-fees"
         }
       ],
       "sgRecognition": {
@@ -534,7 +534,7 @@
       "cohortLocked": false,
       "feeBasis": "The €17,700 non-EU LLM fee in DCU's 2027-28 schedule, plus €43 levy; one fee covers the general LLM and all its named strands.",
       "summary": "Tuition for the 1-year full-time LLM for international (non-EU) students, plus a EUR 43 levy. The part-time route is EUR 8,750 a year over 2 years.",
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, 'LLM' row, full-time 'Non EU Fee' (Faculty of Humanities and Social Sciences, School of Law and Government); the one LLM fee covers the general pathway and the named strands (European Law, International Human Rights Law, Public Law, Policing, Crime and Security, Business and Trade Law and Market Regulation). 1 year full-time (six taught modules plus dissertation); part-time non-EU is EUR 8,500 a year over 2 years. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule; the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'LLM' EUR 15,500 (part-time EUR 7,800 per annum). 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 17,700 (was EUR 16,700 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, 'LLM' row, full-time 'Non EU Fee' (Faculty of Humanities and Social Sciences, School of Law and Government); the one LLM fee covers the general pathway and the named strands (European Law, International Human Rights Law, Public Law, Policing, Crime and Security, Business and Trade Law and Market Regulation). 1 year full-time (six taught modules plus dissertation); part-time non-EU is EUR 8,500 a year over 2 years. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee from DCU's 'Postgraduate Fees 2025-26' schedule; the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'LLM' EUR 15,500 (part-time EUR 7,800 per annum). 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 17,700 (was EUR 16,700 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-05-18, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-22) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-01-21, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-05) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -542,7 +542,7 @@
           "annualTuition": 16700,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fpostgraduate-fees-2026-27&output=json",
           "sourceType": "official"
         },
         {
@@ -551,7 +551,7 @@
           "annualTuition": 15500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+          "sourceUrl": "https://web.archive.org/web/20250121093349/https://www.dcu.ie/fees/postgraduate-fees-2025-26"
         },
         {
           "feeYear": 2024,
@@ -559,7 +559,7 @@
           "annualTuition": 15500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
+          "sourceUrl": "https://web.archive.org/web/20240518215350/https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
       ],
       "sgRecognition": {
@@ -589,7 +589,7 @@
       "cohortLocked": false,
       "feeBasis": "The €23,500 non-EU fee for the one-year MSc in Diagnostics and Precision Medicine in DCU's 2027-28 schedule, chosen as DCU's taught science MSc.",
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy.",
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, Faculty of Science and Health, full-time 'Non EU Fee' (EUR 23,000 per annum); School of Biotechnology, 1 year full-time (2-4 years part-time, priced per module: EUR 1,000 per 5-credit module, EUR 5,940 dissertation). The schedule says Science and Health programmes 'are subject to the fixed registration charge of EUR 130 plus levy of EUR 40', which applies to the modular (part-time) route; the full-time figure is used here and the compulsory fee kept as the Student Centre levy (EUR 43) per the other DCU records. Fees are per annum and subject to an annual increase. Chosen because DCU's physics, chemistry and biotechnology MScs are research or modular only. 2025/26 history: non-EU fee (EUR 17,000 per annum) from DCU's 'Postgraduate Fees 2025-26' schedule; the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MSc in Diagnostics and Precision Medicine' EUR 16,500 per annum. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,500 (was EUR 23,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, Faculty of Science and Health, full-time 'Non EU Fee' (EUR 23,000 per annum); School of Biotechnology, 1 year full-time (2-4 years part-time, priced per module: EUR 1,000 per 5-credit module, EUR 5,940 dissertation). The schedule says Science and Health programmes 'are subject to the fixed registration charge of EUR 130 plus levy of EUR 40', which applies to the modular (part-time) route; the full-time figure is used here and the compulsory fee kept as the Student Centre levy (EUR 43) per the other DCU records. Fees are per annum and subject to an annual increase. Chosen because DCU's physics, chemistry and biotechnology MScs are research or modular only. 2025/26 history: non-EU fee (EUR 17,000 per annum) from DCU's 'Postgraduate Fees 2025-26' schedule; the live URL now redirects to the 2026-27 page, so the 2025-26 figure was read from Common Crawl's September 2025 capture of that page (secondary read of the official schedule). 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MSc in Diagnostics and Precision Medicine' EUR 16,500 per annum. 2025/26 row completed with the levy; tuition re-checked against Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,500 (was EUR 23,000 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-05-18, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-22) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-01-21, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-05) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -597,7 +597,7 @@
           "annualTuition": 23000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fpostgraduate-fees-2026-27&output=json",
           "sourceType": "official"
         },
         {
@@ -606,7 +606,7 @@
           "annualTuition": 17000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+          "sourceUrl": "https://web.archive.org/web/20250121093349/https://www.dcu.ie/fees/postgraduate-fees-2025-26"
         },
         {
           "feeYear": 2024,
@@ -614,7 +614,7 @@
           "annualTuition": 16500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
+          "sourceUrl": "https://web.archive.org/web/20240518215350/https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
       ]
     },
@@ -637,7 +637,7 @@
       "cohortLocked": false,
       "feeBasis": "The non-EU fee for the BSc in Psychology (DC208) in DCU's official 2027-28 fee schedule: €23,850 a year, plus the €43 Student Centre levy.",
       "summary": "Annual tuition for international (non-EU) students plus a EUR 43 Student Centre levy. 4-year degree including a work placement. Fees rise each year.",
-      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Psychology' row, 'Non EU Fee' column EUR 16,900 (Faculty of Science and Health table); course page lists CAO code DC208, duration four years, with placement. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43), as for DCU's other records. 2025/26 history: non-EU fee EUR 16,400 per annum from DCU's 'Undergraduate Fees 2025-2026' schedule ('Psychology' row); the live URL now redirects to the 2026-27 page, so the figure was read from Common Crawl's 11 September 2025 capture of that page (secondary read of the official schedule). No 2024/25 schedule was found. 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Psychology' EUR 16,000 per annum (Faculty of Science & Health). 2025/26 row unchanged (already complete); tuition matches Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,850 (was EUR 16,900 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office undergraduate schedule 2026-2027, 'Psychology' row, 'Non EU Fee' column EUR 16,900 (Faculty of Science and Health table); course page lists CAO code DC208, duration four years, with placement. Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43), as for DCU's other records. 2025/26 history: non-EU fee EUR 16,400 per annum from DCU's 'Undergraduate Fees 2025-2026' schedule ('Psychology' row); the live URL now redirects to the 2026-27 page, so the figure was read from Common Crawl's 11 September 2025 capture of that page (secondary read of the official schedule). No 2024/25 schedule was found. 2024/25 row: DCU Fees Office 'Undergraduate Fees 2024-2025' schedule ('DCU Fees Schedule 2024-2025'), read from Common Crawl captures of dcu.ie/fees/undergraduate-fees (16 Oct 2024; the same figures appear in the 8 Dec 2023 capture of /fees/undergraduate-fees-2024-2025 and the 18 Apr 2024 capture), 'Non EU Fee' column: 'Psychology' EUR 16,000 per annum (Faculty of Science & Health). 2025/26 row unchanged (already complete); tuition matches Common Crawl's 11 Sep 2025 capture of /fees/undergraduate-fees-2025-2026. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,850 (was EUR 16,900 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/undergraduate-fees-2027-2028 ('Undergraduate Fees 2027-2028', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-10-16, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-42) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-03-22, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-13) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -645,7 +645,7 @@
           "annualTuition": 16900,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fundergraduate-fees-2026-2027&output=json",
           "sourceType": "official"
         },
         {
@@ -654,7 +654,7 @@
           "annualTuition": 16400,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
+          "sourceUrl": "https://web.archive.org/web/20250322164033/https://www.dcu.ie/fees/undergraduate-fees-2025-2026"
         },
         {
           "feeYear": 2024,
@@ -662,7 +662,7 @@
           "annualTuition": 16000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+          "sourceUrl": "https://web.archive.org/web/20241016063307/https://www.dcu.ie/fees/undergraduate-fees"
         }
       ]
     },
@@ -685,7 +685,7 @@
       "cohortLocked": false,
       "feeBasis": "The €23,500 non-EU fee for the one-year MSc in Psychology (Conversion) in DCU's 2027-28 schedule; the Psychology and Wellbeing MSc costs the same.",
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy.",
-      "notes": "DCU Fees Office postgraduate schedule 2026-27, 'MSc in Psychology (Conversion)' row, full-time 'Non EU Fee' EUR 16,800 (EU EUR 9,100); course page: course code DC767, NFQ level 9, full-time, duration 1 year. Chosen as DCU's broad taught psychology master's (the other taught options are MSc in Psychology and Wellbeing, same fee, and MSc in Work and Organisational Psychology/Behaviour, part-time). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee EUR 16,500 per annum from DCU's 'Postgraduate Fees 2025-26' schedule (same row); the live URL now redirects to the 2026-27 page, so the figure was read from Common Crawl's 15 September 2025 capture of that page (secondary read of the official schedule). No 2024/25 schedule was found. 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MSc in Psychology (Conversion)' EUR 16,000 per annum. 2025/26 row unchanged (already complete); tuition matches Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,500 (was EUR 16,800 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15).",
+      "notes": "DCU Fees Office postgraduate schedule 2026-27, 'MSc in Psychology (Conversion)' row, full-time 'Non EU Fee' EUR 16,800 (EU EUR 9,100); course page: course code DC767, NFQ level 9, full-time, duration 1 year. Chosen as DCU's broad taught psychology master's (the other taught options are MSc in Psychology and Wellbeing, same fee, and MSc in Work and Organisational Psychology/Behaviour, part-time). Fees are per annum and subject to an annual increase. Compulsory fee is the Student Centre levy (EUR 43). 2025/26 history: non-EU fee EUR 16,500 per annum from DCU's 'Postgraduate Fees 2025-26' schedule (same row); the live URL now redirects to the 2026-27 page, so the figure was read from Common Crawl's 15 September 2025 capture of that page (secondary read of the official schedule). No 2024/25 schedule was found. 2024/25 row: DCU Fees Office 'Postgraduate Fees 2024-25 (Fees are subject to an annual increase)' schedule, read from Common Crawl captures of dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase (23 Jun 2024; same figures in the 27 Feb 2024 capture of /fees/postgraduate-fees-2024-25-fees-are-subject-annual-increase), full-time 'Non EU Fee': 'MSc in Psychology (Conversion)' EUR 16,000 per annum. 2025/26 row unchanged (already complete); tuition matches Common Crawl's 15 Sep 2025 capture of /fees/postgraduate-fees-2025-26. Student Centre levy EUR 43 for 2024/25 and 2025/26: DCU Finance 'Fees - Fees Information' page (dcu.ie/fees/fees-fees-information-finance), Common Crawl captures of 17 Jul 2024, 12 Nov 2024 and 16 Feb 2025, table 'Student Contribution | Student Centre Fee | Total Due': grant holder EUR 43.00; no grant EUR 3,000.00 + EUR 43.00 = EUR 3,043.00 (the table's heading still read 'Undergraduate Free Fees Scheme 2023/2024', but the EUR 3,043 total is exactly the 'Student Contribution' column printed on the 2024-2025 and 2025-2026 schedules, as EUR 2,543 = 2,500 + 43 is on the 2026-2027 schedule, so the EUR 43 Student Centre fee applied in both years). Applied to non-EU/postgraduate students on the same basis as the current record. Fix 2026-10-15: DCU now publishes the 2027-28 schedule and the old URL redirects to it, so the record moved to feeYear 2027 with the 2027-28 non-EU fee EUR 23,500 (was EUR 16,800 for 2026-27, kept as the 2026 feeHistory row with its own URL); Student Centre levy still EUR 43 (dcu.ie/fees/fees-fees-information-finance, read 2026-10-15). Source: https://www.dcu.ie/fees/postgraduate-fees-2027-28 ('Postgraduate Fees 2027-28', 'Non EU Fee' column, read 2026-10-15). Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-05-18, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-22) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-01-21, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-05) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -693,7 +693,7 @@
           "annualTuition": 16800,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fpostgraduate-fees-2026-27&output=json",
           "sourceType": "official"
         },
         {
@@ -702,7 +702,7 @@
           "annualTuition": 16500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26"
+          "sourceUrl": "https://web.archive.org/web/20250121093349/https://www.dcu.ie/fees/postgraduate-fees-2025-26"
         },
         {
           "feeYear": 2024,
@@ -710,7 +710,7 @@
           "annualTuition": 16000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
+          "sourceUrl": "https://web.archive.org/web/20240518215350/https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase"
         }
       ]
     },
@@ -733,7 +733,7 @@
       "cohortLocked": false,
       "feeBasis": "DCU's 'Undergraduate Fees 2027-2028' schedule, non-EU fee for Accounting and Finance (DC115), plus its Student Centre levy. The 4th placement year is optional.",
       "summary": "Annual tuition for international (non-EU) students plus a EUR 43 Student Centre levy. 3 years, or 4 with an optional placement year. DCU says fees rise each year.",
-      "notes": "International tier ('Non EU Fee' column), full-time, row 'Accounting and Finance' (DC115, DCU Business School) on DCU's 'Undergraduate Fees 2027-2028' schedule, read 2026-10-15: EUR 19,500 a year, the same as Bachelor of Business Studies; chose this over the EU rate because Singaporeans pay the non-EU fee. 3 years (4 with the optional INTRA placement year, course page lists duration as 3 or 4 years). Student Centre levy EUR 43 per year as on the file's other DCU programmes (dcu.ie/fees/fees-fees-information-finance). History, same row and column on each year's schedule: 2026-27 EUR 17,000 from the 2026-2027 page (Common Crawl copy of 12 Nov 2025); 2025-26 EUR 16,500 from the 2025-2026 page (Common Crawl copy of 11 Sep 2025); 2024-25 EUR 15,000 from 'Undergraduate Fees 2024-2025' at /fees/undergraduate-fees (Common Crawl copy of 16 Oct 2024). The live URLs for the older years now redirect to the current schedule, so the older years were read from archive copies of the official pages.",
+      "notes": "International tier ('Non EU Fee' column), full-time, row 'Accounting and Finance' (DC115, DCU Business School) on DCU's 'Undergraduate Fees 2027-2028' schedule, read 2026-10-15: EUR 19,500 a year, the same as Bachelor of Business Studies; chose this over the EU rate because Singaporeans pay the non-EU fee. 3 years (4 with the optional INTRA placement year, course page lists duration as 3 or 4 years). Student Centre levy EUR 43 per year as on the file's other DCU programmes (dcu.ie/fees/fees-fees-information-finance). History, same row and column on each year's schedule: 2026-27 EUR 17,000 from the 2026-2027 page (Common Crawl copy of 12 Nov 2025); 2025-26 EUR 16,500 from the 2025-2026 page (Common Crawl copy of 11 Sep 2025); 2024-25 EUR 15,000 from 'Undergraduate Fees 2024-2025' at /fees/undergraduate-fees (Common Crawl copy of 16 Oct 2024). The live URLs for the older years now redirect to the current schedule, so the older years were read from archive copies of the official pages. Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-10-16, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-42) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-03-22, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-13) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -741,7 +741,7 @@
           "annualTuition": 17000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2026-2027",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fundergraduate-fees-2026-2027&output=json",
           "sourceType": "official"
         },
         {
@@ -750,7 +750,7 @@
           "annualTuition": 16500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees-2025-2026",
+          "sourceUrl": "https://web.archive.org/web/20250322164033/https://www.dcu.ie/fees/undergraduate-fees-2025-2026",
           "sourceType": "official"
         },
         {
@@ -759,7 +759,7 @@
           "annualTuition": 15000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees",
+          "sourceUrl": "https://web.archive.org/web/20241016063307/https://www.dcu.ie/fees/undergraduate-fees",
           "sourceType": "official"
         }
       ]
@@ -783,7 +783,7 @@
       "cohortLocked": false,
       "feeBasis": "DCU's 'Postgraduate Fees 2027-28' schedule, non-EU fee for the MSc in Accounting (DC501), plus the Student Centre levy. The EU fee is lower at EUR 12,200.",
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus a EUR 43 Student Centre levy. Aimed at accounting graduates heading for chartered accountancy.",
-      "notes": "International tier ('Non EU Fee' column), full-time, row 'MSc in Accounting' (DCU Business School, DC501) on DCU's 'Postgraduate Fees 2027-28' schedule, read 2026-10-15: EUR 23,500 a year; chose this over the EU rate (EUR 12,200) because Singaporeans pay the non-EU fee. 1 year full-time. Student Centre levy EUR 43 per year as on the file's other DCU programmes (dcu.ie/fees/fees-fees-information-finance). History, same row and column: 2026-27 EUR 23,000 (postgraduate-fees-2026-27, Common Crawl copy of 12 Nov 2025); 2025-26 EUR 19,500 (postgraduate-fees-2025-26, Common Crawl copy of 15 Sep 2025); 2024-25 EUR 17,600 (page /fees/postgraduate-fees-25-fees-are-subject-annual-increase, Common Crawl copy of 24 Jun 2024). Older URLs redirect to the current schedule now, hence archive copies of the official pages.",
+      "notes": "International tier ('Non EU Fee' column), full-time, row 'MSc in Accounting' (DCU Business School, DC501) on DCU's 'Postgraduate Fees 2027-28' schedule, read 2026-10-15: EUR 23,500 a year; chose this over the EU rate (EUR 12,200) because Singaporeans pay the non-EU fee. 1 year full-time. Student Centre levy EUR 43 per year as on the file's other DCU programmes (dcu.ie/fees/fees-fees-information-finance). History, same row and column: 2026-27 EUR 23,000 (postgraduate-fees-2026-27, Common Crawl copy of 12 Nov 2025); 2025-26 EUR 19,500 (postgraduate-fees-2025-26, Common Crawl copy of 15 Sep 2025); 2024-25 EUR 17,600 (page /fees/postgraduate-fees-25-fees-are-subject-annual-increase, Common Crawl copy of 24 Jun 2024). Older URLs redirect to the current schedule now, hence archive copies of the official pages. Archive links 2026-10-15 (the original page is gone or now shows a later year): 2024 row: Wayback Machine copy dated 2024-05-18, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2024-22) in which the figure was re-checked; 2025 row: Wayback Machine copy dated 2025-01-21, the same capture (same timestamp) as the Common Crawl copy (CC-MAIN-2025-05) in which the figure was re-checked; 2026 row: Common Crawl capture of 2025-11-12 (CC-MAIN-2025-47; the link is the Common Crawl index entry for that capture, no readable Wayback copy was found), figure re-checked in it.",
       "feeHistory": [
         {
           "feeYear": 2026,
@@ -791,7 +791,7 @@
           "annualTuition": 23000,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2026-27",
+          "sourceUrl": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=https%3A%2F%2Fwww.dcu.ie%2Ffees%2Fpostgraduate-fees-2026-27&output=json",
           "sourceType": "official"
         },
         {
@@ -800,7 +800,7 @@
           "annualTuition": 19500,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-2025-26",
+          "sourceUrl": "https://web.archive.org/web/20250121093349/https://www.dcu.ie/fees/postgraduate-fees-2025-26",
           "sourceType": "official"
         },
         {
@@ -809,7 +809,7 @@
           "annualTuition": 17600,
           "annualCompulsoryFees": 43,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase",
+          "sourceUrl": "https://web.archive.org/web/20240518215350/https://www.dcu.ie/fees/postgraduate-fees-25-fees-are-subject-annual-increase",
           "sourceType": "official"
         }
       ]

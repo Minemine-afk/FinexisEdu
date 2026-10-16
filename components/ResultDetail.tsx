@@ -78,6 +78,8 @@ export default function ResultDetail({
 }) {
   const { university: u, programme: p, result } = s;
   const partner = partnerOf(u, p);
+  // A partner or institute (NIE at NTU) can price its degrees differently from the university.
+  const feeMethod = partner?.feeMethod ?? u.feeMethod;
   const cur = u.currency;
   // Units of the local currency per S$1, so local ÷ rate = SGD.
   const sgd = (n: number) => n / s.fxRate;
@@ -215,10 +217,10 @@ export default function ResultDetail({
             </Badge>
           )}
         </div>
-        {u.feeMethod && (
+        {feeMethod && (
           <p className="mt-3 rounded-md border-l-2 border-accent bg-chip px-3 py-2 text-xs text-muted">
             <span className="font-medium text-foreground">How this fee was worked out: </span>
-            {u.feeMethod}{" "}
+            {feeMethod}{" "}
             <a
               className={`whitespace-nowrap font-medium text-accent underline hover:text-foreground${TAP_LINK}`}
               href={p.sourceUrl}
@@ -319,6 +321,9 @@ export default function ResultDetail({
           </tbody>
         </table>
       </div>
+      {covered && (
+        <p className="mt-1 text-right text-xs text-muted">Scroll the table sideways for more columns →</p>
+      )}
 
       <div>
         {s.living && (
@@ -485,7 +490,9 @@ function LivingSection({
         {formatMoney(monthlyTotal(living.monthly), cur)}) × {e.months} months a
         year
         {projected &&
-          ` · later years +${(living.increase * 100).toFixed(1)}%/yr inflation`}
+          (living.years[0]?.projected
+            ? ` · every year projected from the ${e.year} figures at +${(living.increase * 100).toFixed(1)}%/yr inflation`
+            : ` · later years +${(living.increase * 100).toFixed(1)}%/yr inflation`)}
       </p>
       {breakdown ? (
         <dl className="mt-2 grid gap-x-4 gap-y-0.5 text-xs tabular-nums sm:grid-cols-2 lg:grid-cols-1">

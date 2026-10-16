@@ -56,7 +56,7 @@ export default function CourseRationale({ courses }: { courses: Course[] }) {
                         href={c.sourceUrl}
                         target="_blank"
                         rel="noreferrer"
-                        className={`flex min-h-11 w-fit items-center text-xs text-accent underline-offset-4 hover:underline sm:min-h-0 sm:pt-1${FOCUS}`}
+                        className={`flex min-h-11 w-fit items-center text-xs text-accent underline-offset-4 hover:underline pointer-fine:sm:min-h-0 pointer-fine:sm:pt-1${FOCUS}`}
                       >
                         {c.sourceLabel} ↗
                       </a>

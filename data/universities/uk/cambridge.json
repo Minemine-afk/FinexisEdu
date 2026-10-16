@@ -1,7 +1,7 @@
 {
   "id": "cambridge",
   "name": "University of Cambridge",
-  "feeMethod": "Sets undergraduate tuition by subject fee group plus a College fee, so the calculator uses the subject's fee plus the highest College fee.",
+  "feeMethod": "Sets undergraduate tuition by subject fee group plus a College fee, so the calculator adds the highest College fee. Master's use each course's own published fee.",
   "country": "uk",
   "city": "Cambridge",
   "currency": "GBP",
@@ -85,7 +85,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "feeBasis": "Cambridge's 2027-28 international tuition for BA Law (£30,798 a year) plus the highest College fee, £15,950, the top of the £12,500–£15,950 range across Colleges.",
-      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee (a typical figure; the actual amount depends on your College).",
+      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee at the highest College's rate (£15,950); most Colleges charge less.",
       "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Law' row; fee Group 1 on the international fees page), fixed at this rate for the duration of the course. Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the highest in the published list, £15,950 (upper end used from 2026-10-15 at Kumar's request; previously the median £14,100), so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £29,052 (College fees £11,500-£14,950, median £13,245), 2025-26 £27,024 (£10,017-£13,950, median £12,600, top £13,950), 2024-25 £25,734 (£9,275-£12,950, median £11,800, top £12,950).",
       "feeHistory": [
         {
@@ -188,7 +188,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "feeBasis": "Cambridge's 2027-28 international tuition for Medicine (£70,554 a year) plus the highest College fee, £15,950, the top of the £12,500–£15,950 range across Colleges.",
-      "summary": "Annual tuition for international students, fixed for all six years, plus the yearly College fee (a typical figure; the actual amount depends on your College).",
+      "summary": "Annual tuition for international students, fixed for all six years, plus the yearly College fee at the highest College's rate (£15,950); most Colleges charge less.",
       "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Medicine' row; fee Group 5, 'Medical and Veterinary Science including the Second M.B.', on the international fees page), fixed at this rate for the duration of the six-year course. Cambridge charges the same Group 5 rate in the pre-clinical and clinical years (the Year 3 fee follows the course taken that year). Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 to £15,950 across the 31 Colleges) and is recorded here as the highest in the published list, £15,950 (upper end used from 2026-10-15 at Kumar's request; previously the median £14,100). History from the earlier years' documents: 2026-27 £70,554 (College fee median £13,245, top £14,950), 2025-26 £70,554 (median £12,600, top £13,950), 2024-25 £67,194 (median £11,800, top £12,950).",
       "feeHistory": [
         {
@@ -239,7 +239,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "feeBasis": "Cambridge's 2027-28 international tuition for BA Economics (£30,798 a year) plus the highest College fee, £15,950, the top of the £12,500–£15,950 range across Colleges.",
-      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee (a typical figure; the actual amount depends on your College).",
+      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee at the highest College's rate (£15,950); most Colleges charge less.",
       "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Economics' row; fee Group 1 on the international fees page), fixed at this rate for the duration of the course. Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the highest in the published list, £15,950 (upper end used from 2026-10-15 at Kumar's request; previously the median £14,100), so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £29,052 (College fee median £13,245, top £14,950), 2025-26 £27,024 (median £12,600, top £13,950), 2024-25 £25,734 (median £11,800, top £12,950).",
       "feeHistory": [
         {
@@ -283,7 +283,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "feeBasis": "Cambridge's 2027-28 international tuition for BA Computer Science (£46,872 a year) plus the highest College fee, £15,950, the top of the £12,500–£15,950 range across Colleges.",
-      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee (a typical figure; the actual amount depends on your College). An optional fourth year costs the same.",
+      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee at the highest College's rate (£15,950); most Colleges charge less. An optional fourth year costs the same.",
       "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Computer Science' row; fee Group 2 on the international fees page), fixed at this rate for the duration of the course. Three-year BA; students may continue to a fourth year for the MEng at the same annual fee (document footnote 1). Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the highest in the published list, £15,950 (upper end used from 2026-10-15 at Kumar's request; previously the median £14,100), so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £44,214 (College fee median £13,245, top £14,950), 2025-26 £41,124 (median £12,600, top £13,950), 2024-25 £39,162 (median £11,800, top £12,950).",
       "feeHistory": [
         {
@@ -327,7 +327,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "feeBasis": "Cambridge's 2027-28 international tuition for MEng Engineering (£46,872 a year) plus the highest College fee, £15,950, the top of the £12,500–£15,950 range across Colleges.",
-      "summary": "Annual tuition for international students for the 4-year course, fixed at your entry-year rate, plus the yearly College fee (a typical figure; the actual amount depends on your College).",
+      "summary": "Annual tuition for international students for the 4-year course, fixed at your entry-year rate, plus the yearly College fee at the highest College's rate (£15,950); most Colleges charge less.",
       "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Engineering' row; fee Group 2 on the international fees page), fixed at this rate for the duration of the course. The Engineering Tripos is a four-year integrated course leading to the BA and MEng (the BA can be taken after three years); the same annual fee applies in every year (document footnote 1). Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the highest in the published list, £15,950 (upper end used from 2026-10-15 at Kumar's request; previously the median £14,100), so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £44,214 (College fee median £13,245, top £14,950), 2025-26 £41,124 (median £12,600, top £13,950), 2024-25 £39,162 (median £11,800, top £12,950).",
       "feeHistory": [
         {
@@ -371,7 +371,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "feeBasis": "Cambridge's 2027-28 international tuition for BA Natural Sciences (£46,872 a year) plus the highest College fee, £15,950, the top of the £12,500–£15,950 range across Colleges.",
-      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee (a typical figure; the actual amount depends on your College). An optional fourth year costs the same.",
+      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee at the highest College's rate (£15,950); most Colleges charge less. An optional fourth year costs the same.",
       "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Natural Sciences' row; fee Group 2 on the international fees page), fixed at this rate for the duration of the course. Three-year BA; students may continue to a fourth year for the MSci at the same annual fee (document footnote 1). Compulsory fee = the annual College fee that all international students pay on top of tuition; it is set by each College (2027-28 range £12,500 Darwin to £15,950 Murray Edwards across the 31 Colleges) and is recorded here as the highest in the published list, £15,950 (upper end used from 2026-10-15 at Kumar's request; previously the median £14,100), so the real amount depends on the College. History from the earlier years' documents: 2026-27 tuition £44,214 (College fee median £13,245, top £14,950), 2025-26 £41,124 (median £12,600, top £13,950), 2024-25 £39,162 (median £11,800, top £12,950).",
       "feeHistory": [
         {
@@ -595,7 +595,7 @@
       "sourceType": "official",
       "cohortLocked": true,
       "feeBasis": "Cambridge's 2027-28 international tuition for BA Psychological and Behavioural Sciences (£46,872 a year) plus the highest College fee, £15,950, the top of the £12,500–£15,950 range across Colleges.",
-      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee (a typical figure; the actual amount depends on your College).",
+      "summary": "Annual tuition for international students, fixed for the whole degree, plus the yearly College fee at the highest College's rate (£15,950); most Colleges charge less.",
       "notes": "International (Overseas) tuition fee for 2027 entry from Cambridge's 'Undergraduate tuition fees 2027-28' document ('Psychological and Behavioural Sciences' row, GBP 46,872, the same fee as Natural Sciences on the same document), fixed at this rate for the duration of the course. Three-year BA. Compulsory fee = the annual College fee all international students pay on top of tuition, set by each College; recorded as the highest in the published 2027-28 list (GBP 15,950; upper end used from 2026-10-15 at Kumar's request, previously the median GBP 14,100), the same figure used for the University's other undergraduate records, so the real amount depends on the College. History from the earlier years' documents ('Psychological and Behavioural Sciences' row in each): 2026-27 GBP 44,214 (College fee median GBP 13,245, top GBP 14,950), 2025-26 GBP 41,124 (median GBP 12,600, top GBP 13,950), 2024-25 GBP 39,162 (median GBP 11,800, top GBP 12,950); the College-fee medians are copied from the Natural Sciences record, which used the same documents.",
       "feeHistory": [
         {

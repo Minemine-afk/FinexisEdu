@@ -14,7 +14,7 @@ import {
   programmeLabel,
   recognitionTag,
 } from "@/lib/format";
-import { FIELDS, LEVELS, type Field } from "@/lib/schema";
+import { FIELDS, LEVELS, type Field, type Partner } from "@/lib/schema";
 import type { Lifestyle } from "@/lib/living";
 import { Breakdown, INFLATION_CAPTION, barLabel, chartParts, valueFor, type CompareCategory } from "./FeeChart";
 import InfoTip from "./InfoTip";
@@ -59,7 +59,11 @@ export default function TouchCalculator({
   const jumpTo = useRef<string | null>(null);
   const changeTab = (next: Tab, top = false) => {
     tabScroll.current[tab] = window.scrollY;
-    if (top) tabScroll.current[next] = 0;
+    if (top) {
+      tabScroll.current[next] = 0;
+      // "View results" lands on the results themselves, below the page header.
+      if (next === "compare") jumpTo.current = "touch-compare";
+    }
     setTab(next);
   };
   useEffect(() => {
@@ -70,6 +74,15 @@ export default function TouchCalculator({
     else window.scrollTo({ top: tabScroll.current[tab] });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tab]);
+  // On a phone a focused box (or one the keyboard pushes up) stops above the fixed tab bar.
+  useEffect(() => {
+    if (layout === "tablet") return;
+    const html = document.documentElement.style;
+    html.scrollPaddingBottom = "calc(7.5rem + env(safe-area-inset-bottom))";
+    return () => {
+      html.scrollPaddingBottom = "";
+    };
+  }, [layout]);
   // The comparison slot open in the picker sheet, if any.
   const [editing, setEditing] = useState<number | null>(null);
   const closeSheet = useCallback(() => setEditing(null), []);
@@ -150,7 +163,7 @@ export default function TouchCalculator({
         <Assumptions state={state} />
         <div className={tablet ? "" : "border-t border-border pt-6"}>{universities}</div>
       </aside>
-      <div className={tablet ? "min-w-0" : tab === "compare" ? "space-y-4" : "hidden"}>
+      <div id="touch-compare" className={tablet ? "min-w-0" : tab === "compare" ? "scroll-mt-4 space-y-4" : "hidden"}>
         {!tablet && (
           <SettingsChips
             state={state}
@@ -880,13 +893,26 @@ function PickerSheet({
           ({ o }, i, arr) =>
             arr.findIndex((x) => x.o.university.id === o.university.id) === i,
         )
-        .map(({ o, country }) => ({
-          o,
-          rank: searchRank(o.university.name, o.university.city, country, q),
-        }))
-        .filter((m): m is { o: Option; rank: number } => m.rank !== null)
+        .flatMap(({ o, country }) => [
+          {
+            o,
+            partner: undefined as Partner | undefined,
+            rank: searchRank(o.university.name, o.university.city, country, q),
+          },
+          // A partner or institute (NIE at NTU, SIM's awarding universities) is found by its own name too.
+          ...(o.university.partners ?? [])
+            .filter((pt) => o.university.programmes.some((p) => p.partner === pt.id))
+            .map((partner) => ({
+            o,
+            partner,
+            rank: searchRank(partner.name, o.university.city, country, q),
+          })),
+        ])
+        .filter(
+          (m): m is { o: Option; partner: Partner | undefined; rank: number } =>
+            m.rank !== null,
+        )
         .sort((a, b) => a.rank - b.rank)
-        .map(({ o }) => o)
     : [];
 
   const priced = (universityId: string) =>
@@ -949,19 +975,25 @@ function PickerSheet({
           {q ? (
             <List
               label="Matches"
-              items={matches.map((o) => ({
-                key: o.university.id,
-                text: `${o.university.name}${priced(o.university.id) ? "" : " (no published fee)"}`,
+              items={matches.map(({ o, partner }) => ({
+                key: partner ? `${o.university.id}:${partner.id}` : o.university.id,
+                text: partner
+                  ? `${partner.name} (${o.university.name})`
+                  : `${o.university.name}${priced(o.university.id) ? "" : " (no published fee)"}`,
                 sub: grouped.find(
                   (g) => g.country?.code === o.university.country,
                 )?.country?.name,
-                selected: o.university.id === current.university.id,
+                selected:
+                  o.university.id === current.university.id &&
+                  (!partner || current.programme.partner === partner.id),
                 onSelect: () => {
                   pick(
                     (grouped.find(
                       (g) => g.country?.code === o.university.country,
                     )?.options ?? []).filter(
-                      (x) => x.university.id === o.university.id,
+                      (x) =>
+                        x.university.id === o.university.id &&
+                        (!partner || x.programme.partner === partner.id),
                     ),
                   );
                   setQuery("");

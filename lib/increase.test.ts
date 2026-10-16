@@ -184,6 +184,48 @@ describe("universityIncrease", () => {
     expect(c.rate).toBeCloseTo(0.04, 3);
   });
 
+  it("ignores the one-off jump when a citizen subsidy ends", () => {
+    const fee = (n: number) => ({ annualTuition: n, annualCompulsoryFees: 0, oneOffFees: 0 });
+    // Citizens paid less in 2024; from 2025 everyone pays the same fee.
+    const mk = (name: string, s24: number, i24: number, f25: number, f26: number) => ({
+      ...base,
+      name,
+      feeYear: 2026,
+      fees: { citizen: fee(f26), international: fee(f26) },
+      feeHistory: [
+        { feeYear: 2024, tier: "citizen" as const, annualTuition: s24 },
+        { feeYear: 2024, tier: "international" as const, annualTuition: i24 },
+        { feeYear: 2025, tier: "citizen" as const, annualTuition: f25 },
+        { feeYear: 2025, tier: "international" as const, annualTuition: f25 },
+      ],
+    });
+    const u = uni([mk("MA", 34760, 42772, 44145, 45486), mk("MSc", 38161, 46000, 47415, 48854)]);
+    const e = universityIncrease(u, "citizen", country);
+    expect(e.rate).toBeCloseTo(0.03, 3);
+    expect(e.from).toBe(2025);
+  });
+
+  it("ignores the one-off jump when a citizen subsidy shrinks to a flat amount", () => {
+    const fee = (n: number) => ({ annualTuition: n, annualCompulsoryFees: 0, oneOffFees: 0 });
+    // Citizens paid about 8,000 less in 2024; from 2025 a flat 5,000 less.
+    const mk = (name: string, s24: number, i24: number, i25: number, i26: number) => ({
+      ...base,
+      name,
+      feeYear: 2026,
+      fees: { citizen: fee(i26 - 5000), international: fee(i26) },
+      feeHistory: [
+        { feeYear: 2024, tier: "citizen" as const, annualTuition: s24 },
+        { feeYear: 2024, tier: "international" as const, annualTuition: i24 },
+        { feeYear: 2025, tier: "citizen" as const, annualTuition: i25 - 5000 },
+        { feeYear: 2025, tier: "international" as const, annualTuition: i25 },
+      ],
+    });
+    const u = uni([mk("MA", 34760, 42772, 44145, 45486), mk("MSc", 38161, 46000, 47415, 48854)]);
+    const e = universityIncrease(u, "citizen", country);
+    expect(e.rate).toBeLessThan(0.04);
+    expect(e.from).toBe(2025);
+  });
+
   it("produces a sane rate for every university in the data", () => {
     const countries = new Map(loadCountries().map((c) => [c.code, c]));
     for (const u of loadUniversities()) {

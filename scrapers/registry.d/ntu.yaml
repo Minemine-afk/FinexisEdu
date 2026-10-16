@@ -10,7 +10,7 @@
 sources:
   - university: ntu
     country: sg
-    url: https://www.ntu.edu.sg/cee/admissions/programmes/graduate-programmes/detail/master-of-science-in-civil-engineering
+    url: https://www.ntu.edu.sg/engineering/coe-programmes/graduate/coe-programme-detail/master-of-science-in-civil-engineering
     parser: html
     year_pattern: Tuition fee for AY(\d{4})-\d{4}
     targets:

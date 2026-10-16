@@ -1,7 +1,7 @@
 {
   "id": "uiuc",
   "name": "University of Illinois Urbana-Champaign",
-  "feeMethod": "Sets undergraduate tuition by group of majors (Engineering, Business, Chemistry & Life Sciences, base rate), so the calculator uses the degree's group rate.",
+  "feeMethod": "Sets undergraduate tuition by group of majors (Engineering, Business, Chemistry & Life Sciences, base rate), so the calculator uses the group rate. Master's use their programme's rate.",
   "country": "us",
   "city": "Champaign-Urbana, IL",
   "currency": "USD",
@@ -277,7 +277,7 @@
       "cohortLocked": false,
       "feeBasis": "Illinois's 2026-27 international graduate rate for Engineering programmes (US$40,444 a year), plus campus fees without health insurance.",
       "summary": "Yearly tuition for international graduate students in this programme, plus campus fees. Graduate tuition is not guaranteed and can rise each year; health insurance not included.",
-      "notes": "2026-27 graduate tuition rates (new and continuing), 'Grainger Engineering & Engineering Related' international annual $40,444; 2025-26 $39,344; 2024-25 $38,276. Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 (the 2025-26 graduate page was not found, so that history row has tuition only). Duration typical (thesis MS).",
+      "notes": "2026-27 graduate tuition rates (new and continuing), 'Grainger Engineering & Engineering Related' international annual $40,444; 2025-26 $39,344; 2024-25 $38,276. Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 ; 2025-26 $5,694 - $2,176 = $3,518 (registrar Fall 2025 & Spring 2026 graduate fees page g-fees-cr-2526: Range I $2,769 incl. $1,088 insurance, plus $78 international fee, per semester; added 2026-10-15). Duration typical (thesis MS).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -291,7 +291,8 @@
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 39344,
-          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/"
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/",
+          "annualCompulsoryFees": 3518
         }
       ]
     },
@@ -314,7 +315,7 @@
       "cohortLocked": false,
       "feeBasis": "Illinois's 2026-27 international graduate rate for Engineering programmes (US$40,444 a year), which the on-campus MCS pays, plus campus fees.",
       "summary": "Yearly tuition for international graduate students in this programme, plus campus fees. Graduate tuition is not guaranteed and can rise each year; health insurance not included.",
-      "notes": "On-campus Master of Computer Science, charged the 'Grainger Engineering & Engineering Related' graduate rate: international annual $40,444 (2026-27), $39,344 (2025-26), $38,276 (2024-25). Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 (the 2025-26 graduate page was not found, so that history row has tuition only). Duration typical (non-thesis, about three semesters).",
+      "notes": "On-campus Master of Computer Science, charged the 'Grainger Engineering & Engineering Related' graduate rate: international annual $40,444 (2026-27), $39,344 (2025-26), $38,276 (2024-25). Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 ; 2025-26 $5,694 - $2,176 = $3,518 (registrar Fall 2025 & Spring 2026 graduate fees page g-fees-cr-2526: Range I $2,769 incl. $1,088 insurance, plus $78 international fee, per semester; added 2026-10-15). Duration typical (non-thesis, about three semesters).",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -328,7 +329,8 @@
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 39344,
-          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/"
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/",
+          "annualCompulsoryFees": 3518
         }
       ]
     },
@@ -351,7 +353,7 @@
       "cohortLocked": false,
       "feeBasis": "Illinois's own 2026-27 international rate for the MS in Management (US$43,026), plus campus fees without health insurance.",
       "summary": "Tuition for international students in Gies College of Business's one-year MS in Management, plus campus fees. Health insurance not included.",
-      "notes": "2026-27 graduate tuition rates, 'MS in Management (Fall 2026+)' international $43,026. History uses the rate for that year's new entrants: 2025-26 'entered Fall 2025 or after' $42,182; 2024-25 'entered Fall 2024 or after' $41,354. Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 (the 2025-26 graduate page was not found, so that history row has tuition only). Gies has no on-campus MBA in the rate table, so the MS in Management is the business master's.",
+      "notes": "2026-27 graduate tuition rates, 'MS in Management (Fall 2026+)' international $43,026. History uses the rate for that year's new entrants: 2025-26 'entered Fall 2025 or after' $42,182; 2024-25 'entered Fall 2024 or after' $41,354. Other fees = international graduate campus fees from the registrar's estimated additional expenses page minus waivable health insurance: 2026-27 $5,840 - $2,250 = $3,590; 2024-25 $5,546 - $2,102 = $3,444 ; 2025-26 $5,694 - $2,176 = $3,518 (registrar Fall 2025 & Spring 2026 graduate fees page g-fees-cr-2526: Range I $2,769 incl. $1,088 insurance, plus $78 international fee, per semester; added 2026-10-15). Gies has no on-campus MBA in the rate table, so the MS in Management is the business master's.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -365,7 +367,8 @@
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 42182,
-          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/"
+          "sourceUrl": "https://registrar.illinois.edu/g-tuition-rates-2526/",
+          "annualCompulsoryFees": 3518
         }
       ]
     },
@@ -417,7 +420,7 @@
       "fees": {
         "international": {
           "annualTuition": 54352,
-          "annualCompulsoryFees": 7675,
+          "annualCompulsoryFees": 4696,
           "oneOffFees": 0
         }
       },
@@ -425,15 +428,15 @@
       "lastVerified": "2026-10-15",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Gies's 2026-27 estimates for international MSA students: summer, fall and spring tuition (US$54,352) plus campus fees (US$7,675). Fees may include waivable health insurance, so they could be overstated by about US$2,250.",
-      "summary": "Tuition for international students on Gies's 12-month on-campus MS in Accountancy (summer, fall and spring), plus campus fees that may include student health insurance. STEM-designated.",
-      "notes": "Gies 'MSA Tuition & Scholarships' page, 2026-27 estimates for international students: Summer '26 $10,700 + Fall '26 $21,826 + Spring '27 $21,826 = tuition $54,352; Campus Fees $1,981 + $2,847 + $2,847 = $7,675 (total $62,027). The 12-month programme spans three terms, so the whole total is recorded as one year. The page does not say whether campus fees include the waivable student health insurance; they appear to (per-semester fees are higher than the registrar's non-insurance fees), so compulsory fees may be overstated by up to about $2,250. History from Common Crawl captures of the same Gies page (earlier URL giesbusiness.illinois.edu/msa/tuition): 2024-25 tuition $10,490 + $20,979 + $20,979 = $52,448, campus fees $7,481; 2025-26 tuition $53,496 ($10,700 + $21,398 + $21,398), campus fees $7,675. The cheaper Master of Accounting Science (MAS, listed in the registrar rate table) requires a US accounting bachelor's, so MSA was chosen for international applicants. Not cohort-locked.",
+      "feeBasis": "Gies's 2026-27 estimate of international MSA tuition for summer, fall and spring (US$54,352), plus the registrar's campus fees for those terms without the waivable health insurance (US$4,696).",
+      "summary": "Tuition for international students on Gies's 12-month on-campus MS in Accountancy (summer, fall and spring), plus campus fees and the international student fee. Health insurance not included. STEM-designated.",
+      "notes": "Gies 'MSA Tuition & Scholarships' page, 2026-27 estimates for international students: Summer '26 $10,700 + Fall '26 $21,826 + Spring '27 $21,826 = tuition $54,352; Campus Fees $1,981 + $2,847 + $2,847 = $7,675 (total $62,027). The 12-month programme spans three terms, so the whole total is recorded as one year. Campus fees replaced 2026-10-15: Gies's campus-fee line includes the waivable student health insurance (its $2,847 fall figure is the registrar's Fall 2025 Range I total $2,769 incl. $1,088 insurance, plus the $78 international fee), which the schema excludes. Compulsory now = registrar graduate campus fees, Range I (12+ hours; 9+ in summer), minus the Health Insurance Fee, plus the International Student Fee per term: 2026-27 = Summer 2026 ($2,116 - $1,088 + $78 = $1,106, registrar.illinois.edu/tuition-fees/tuition-fee-rates/tf-rates-term/g-fees-su26/) + Fall 2026 and Spring 2027 (2 x ($2,840 - $1,125 + $80) = $3,590, .../g-fees-cr-2627/) = $4,696; 2025-26 = Summer 2025 ($2,056 - $1,051 + $76 = $1,081, registrar.illinois.edu/g-fees-su25/) + 2 x ($2,769 - $1,088 + $78) = $3,518 (g-fees-cr-2526) = $4,599; 2024-25 = Summer 2024 ($2,012 - $1,008 + $75 = $1,079, g-fees-su24) + 2 x ($2,697 - $1,051 + $76) = $3,444 (g-fees-cr-2425) = $4,523. Gies's own campus-fee totals (with insurance) were $7,675 (2026-27), $7,675 (2025-26) and $7,481 (2024-25). History from Common Crawl captures of the same Gies page (earlier URL giesbusiness.illinois.edu/msa/tuition): 2024-25 tuition $10,490 + $20,979 + $20,979 = $52,448, campus fees $7,481; 2025-26 tuition $53,496 ($10,700 + $21,398 + $21,398), campus fees $7,675. The cheaper Master of Accounting Science (MAS, listed in the registrar rate table) requires a US accounting bachelor's, so MSA was chosen for international applicants. Not cohort-locked.",
       "feeHistory": [
         {
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 52448,
-          "annualCompulsoryFees": 7481,
+          "annualCompulsoryFees": 4523,
           "oneOffFees": 0,
           "sourceUrl": "https://giesbusiness.illinois.edu/msa/tuition"
         },
@@ -441,7 +444,7 @@
           "feeYear": 2025,
           "tier": "international",
           "annualTuition": 53496,
-          "annualCompulsoryFees": 7675,
+          "annualCompulsoryFees": 4599,
           "oneOffFees": 0,
           "sourceUrl": "https://gies.illinois.edu/msa/tuition"
         }
