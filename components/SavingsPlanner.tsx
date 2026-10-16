@@ -310,7 +310,7 @@ export default function SavingsPlanner({
           <div className={`flex shrink-0 items-start gap-3 border-b border-border pb-3 pt-3 sm:pt-4 [@media(max-height:500px)]:pb-2 [@media(max-height:500px)]:pt-2 ${padX}`}>
             <div className="min-w-0 flex-1">
               <h2 id={titleId} className="text-lg font-semibold">
-                Time Value of Money calculator
+                Time Value of Money Calculator
               </h2>
               <p className="truncate text-sm text-muted [@media(max-height:500px)]:hidden" title={`${s.university.name} · ${programmeLabel(s.university, s.programme)}`}>
                 {s.university.name} · {programmeLabel(s.university, s.programme)}

@@ -158,17 +158,23 @@ export function unavailableReason(
 export function unavailableTag(reason: string | null): string {
   if (!reason) return "";
   return reason.startsWith("Not open to international")
-    ? " (not open to international students)"
+    ? " (closed to international)"
     : " (no published fee)";
+}
+
+/** A start year moved by `delta` years, kept within `min`–`max`. */
+export function stepYear(year: number, delta: number, min: number, max: number): number {
+  return Math.min(max, Math.max(min, year + delta));
 }
 
 /** The tag after a university or field in a list when none of its programmes can be priced. */
 export function groupTag(options: Option[], reasonFor: (o: Option) => string | null): string {
   const reasons = options.map(reasonFor);
   if (reasons.length === 0 || reasons.some((r) => r === null)) return "";
-  return reasons.every((r) => r!.startsWith("Not open to international"))
-    ? " (not open to international students)"
-    : " (no published fee)";
+  const closed = reasons.filter((r) => r!.startsWith("Not open to international")).length;
+  if (closed === reasons.length) return " (closed to international)";
+  // Some closed to international students, the rest missing a fee: one tag covers both.
+  return closed ? " (can't be priced)" : " (no published fee)";
 }
 
 /** What to change so an unavailable programme can be priced, to follow its `unavailableReason`. */
@@ -377,11 +383,7 @@ export function useCalculator({
   }
   /** Moves the start year by whole years (the − / + stepper on touch screens). */
   function stepStartYear(delta: number) {
-    const y = Math.min(
-      minStartYear,
-    maxStartYear,
-      Math.max(minStartYear, startYear + delta),
-    );
+    const y = stepYear(startYear, delta, minStartYear, maxStartYear);
     setStartYear(y);
     setStartYearInput(String(y));
   }
