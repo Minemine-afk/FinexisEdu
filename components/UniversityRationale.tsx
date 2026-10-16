@@ -25,7 +25,6 @@ export default function UniversityRationale({
       .filter((u) => u.country === code)
       .sort((a, b) => a.name.localeCompare(b.name)),
   })).filter((g) => g.universities.length > 0);
-  const shortlisted = universities.filter((u) => rationale[`${u.country}/${u.id}`]).length;
 
   return (
     <section aria-label="Why these universities" className="safe-x mx-auto max-w-6xl pb-8">
@@ -47,9 +46,7 @@ export default function UniversityRationale({
         <div className="space-y-3 border-t border-border px-5 pt-4 pb-5 text-sm">
           <p>
             The overseas countries are the nine where Singaporeans most often study, by UNESCO&apos;s counts of
-            Singaporean students abroad. Within them, {shortlisted} universities come from an October 2026 shortlist
-            of the top 10 for bachelor&apos;s and for master&apos;s degrees, chosen for popularity with international
-            students, ease of entry and affordability. Each reason below says what links the university to
+            Singaporean students abroad. Each reason below says what links the university to
             Singapore.
           </p>
 

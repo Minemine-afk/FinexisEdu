@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import { isStale, type CalcResult } from "@/lib/calc";
+import { type CalcResult } from "@/lib/calc";
 import { formatMoney, partnerOf, programmeLabel } from "@/lib/format";
 import { LIVING_CATEGORIES, type Country, type SgRecognition } from "@/lib/schema";
 import { monthlyTotal, type Lifestyle, type MonthlyLiving } from "@/lib/living";
@@ -63,14 +63,12 @@ function useScrollShadow() {
 /** Year-by-year fees, living costs and sources for one university. */
 export default function ResultDetail({
   s,
-  today,
   country,
   lifestyle,
   className,
   onCustomLiving,
 }: {
   s: Selection;
-  today: string;
   country?: Country;
   lifestyle: Lifestyle;
   className: string;
@@ -83,7 +81,6 @@ export default function ResultDetail({
   const cur = u.currency;
   // Units of the local currency per S$1, so local ÷ rate = SGD.
   const sgd = (n: number) => n / s.fxRate;
-  const stale = isStale(p.lastVerified, new Date(today));
   const hasCompulsory = result.years.some((y) => y.compulsoryFees > 0);
   const hasOneOff = result.years.some((y) => y.oneOffFees > 0);
   const num = `whitespace-nowrap py-1 text-right font-normal ${hasCompulsory && hasOneOff ? "pl-2" : "pl-3"}`;
@@ -114,10 +111,6 @@ export default function ResultDetail({
         h.sourceUrl !== p.sourceUrl,
     )
     .map((h) => ({ year: h.feeYear, url: h.sourceUrl!, unofficial: h.sourceType === "secondary" }));
-  const unofficialHistoryYears = p.feeHistory
-    .filter((h) => h.tier === result.tier && historyYears.has(h.feeYear) && h.sourceType === "secondary")
-    .map((h) => h.feeYear)
-    .sort();
 
   return (
     <article
@@ -204,16 +197,6 @@ export default function ResultDetail({
           {p.sourceType === "secondary" && (
             <Badge warn term="unofficialSource">
               Unofficial source
-            </Badge>
-          )}
-          {unofficialHistoryYears.length > 0 && p.sourceType !== "secondary" && (
-            <Badge warn term="unofficialHistory">
-              Unofficial source for {unofficialHistoryYears.join(", ")}
-            </Badge>
-          )}
-          {stale && (
-            <Badge warn term="outdated">
-              Data may be outdated
             </Badge>
           )}
         </div>
@@ -332,7 +315,6 @@ export default function ResultDetail({
             currency={cur}
             fxRate={s.fxRate}
             lifestyle={lifestyle}
-            today={today}
             onCustom={onCustomLiving}
           />
         )}
@@ -449,7 +431,6 @@ function LivingSection({
   currency: cur,
   fxRate,
   lifestyle,
-  today,
   onCustom,
 }: {
   living: LivingResult;
@@ -457,12 +438,10 @@ function LivingSection({
   /** Units of `currency` per S$1. */
   fxRate: number;
   lifestyle: Lifestyle;
-  today: string;
   onCustom: (m: MonthlyLiving | null) => void;
 }) {
   const e = living.estimate;
   const sgd = (n: number) => n / fxRate;
-  const stale = isStale(e.lastVerified, new Date(today));
   const projected = living.years.some((y) => y.projected);
   // Some sources (e.g. a visa minimum) give one total, stored under housing.
   const breakdown =
@@ -531,11 +510,6 @@ function LivingSection({
         {e.sourceType === "secondary" && (
           <Badge warn term="unofficialSource">
             Unofficial source
-          </Badge>
-        )}
-        {stale && (
-          <Badge warn term="outdated">
-            Estimate may be outdated
           </Badge>
         )}
       </div>

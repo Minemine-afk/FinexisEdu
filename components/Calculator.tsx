@@ -376,7 +376,6 @@ function DesktopCalculator({
                   <ResultDetail
                     key={s.key}
                     s={s}
-                    today={today}
                     country={countryByCode.get(s.university.country)}
                     lifestyle={lifestyle}
                     className={

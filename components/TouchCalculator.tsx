@@ -313,7 +313,6 @@ function Results({
             <ResultDetail
               key={detail.key}
               s={detail}
-              today={today}
               country={countryByCode.get(detail.university.country)}
               lifestyle={state.lifestyle}
               className=""
@@ -340,7 +339,6 @@ function Results({
                 <div className="pb-4">
                   <ResultDetail
                     s={s}
-                    today={today}
                     country={countryByCode.get(s.university.country)}
                     lifestyle={state.lifestyle}
                     className=""
