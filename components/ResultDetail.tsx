@@ -198,20 +198,6 @@ export default function ResultDetail({
             </Badge>
           )}
         </div>
-        {p.feeChoice && (
-          <p className="mt-3 rounded-md border-l-2 border-accent bg-chip px-3 py-2 text-xs text-muted">
-            <span className="font-medium text-foreground">How this fee was worked out: </span>
-            {p.feeChoice}{" "}
-            <a
-              className={`whitespace-nowrap font-medium text-accent underline hover:text-foreground${TAP_LINK}`}
-              href={p.sourceUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
-              source ↗
-            </a>
-          </p>
-        )}
       </div>
 
       <div ref={scroller} className="mt-4 overflow-x-auto">
@@ -322,9 +308,15 @@ export default function ResultDetail({
           </p>
         )}
 
-        {p.summary && (
+        {(p.feeChoice || p.summary) && (
           <MoreNotes label="Show more about this fee" href={p.sourceUrl}>
-            {p.summary}
+            {p.feeChoice && (
+              <p className="rounded-md border-l-2 border-accent bg-chip px-3 py-2">
+                <span className="font-medium text-foreground">How this fee was worked out: </span>
+                {p.feeChoice}
+              </p>
+            )}
+            {p.summary && <p className={p.feeChoice ? "mt-2" : undefined}>{p.summary}</p>}
           </MoreNotes>
         )}
         <p className="mt-3 text-xs text-muted">
@@ -375,7 +367,7 @@ function MoreNotes({
       >
         {label}
       </summary>
-      <p className="mt-1 text-muted">{children}</p>
+      <div className="mt-1 text-muted">{children}</div>
       <a
         className={`mt-1 inline-flex min-h-11 items-center gap-1 rounded font-medium text-accent hover:text-foreground${FOCUS}`}
         href={href}
