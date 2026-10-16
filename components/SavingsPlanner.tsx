@@ -253,12 +253,9 @@ export default function SavingsPlanner({
         />
       </Field>
       <p className="text-xs text-muted">
-        Interest is added monthly.
-        {ok
-          ? planMonths === 0
-            ? ` Fees are due now (${startLabel}), so there is no time to save.`
-            : ` The projection runs ${planMonths.toLocaleString("en-SG")} ${planMonths === 1 ? "month" : "months"}, to ${endLabel}.`
-          : ""}
+        Interest is added monthly.{" "}
+        {months === 0 ? `Fees are due now (${startLabel}).` : `${months.toLocaleString("en-SG")} ${months === 1 ? "month" : "months"} until ${startLabel}.`}
+        {ok ? ` The projection runs to ${endLabel}.` : ""}
         {overshoot
           ? ` ${tvmField === "months" ? "Rounded up to whole months, so the projection" : "The projection"} ends ${sgd(overshoot)} above the amount needed.`
           : ""}
