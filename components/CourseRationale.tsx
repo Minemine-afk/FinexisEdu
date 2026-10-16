@@ -30,9 +30,7 @@ export default function CourseRationale({ courses }: { courses: Course[] }) {
           <p>
             The calculator covers the fields Singaporeans most often study, at home and abroad: together they match
             about 93% of first-year places at Singapore&apos;s six autonomous universities (2024). In each field it
-            follows the main bachelor&apos;s and master&apos;s degrees at every university that teaches them. No
-            agency publishes what Singaporeans study overseas by subject, so each reason below pairs a Singapore
-            figure with what international students choose in the same countries.
+            follows the main bachelor&apos;s and master&apos;s degrees at every university that teaches them.
           </p>
 
           <div className="overflow-hidden rounded-md border border-border">
@@ -68,12 +66,6 @@ export default function CourseRationale({ courses }: { courses: Course[] }) {
               </tbody>
             </table>
           </div>
-
-          <p className="text-muted">
-            Not covered: architecture, dentistry and mass communication. Education degrees (NTU&apos;s National
-            Institute of Education) are listed under Arts and Sciences. Degrees in law and medicine are labelled by
-            whether they lead to practice in Singapore.
-          </p>
         </div>
       </details>
     </section>
