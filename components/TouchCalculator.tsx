@@ -881,8 +881,11 @@ function PickerSheet({
     (o) => o.programme.field === current.programme.field,
   );
   const taken = new Set(others.map((o) => o.key));
-  const pick = (candidates: Option[], field: Field = current.programme.field) =>
-    setSlot(index, pickProgramme(candidates, field, reasonFor, taken).key);
+  const pick = (candidates: Option[], field: Field = current.programme.field) => {
+    // Nothing to pick (no programme at this level) leaves the slot as it is.
+    const chosen = pickProgramme(candidates, field, reasonFor, taken) as Option | undefined;
+    if (chosen) setSlot(index, chosen.key);
+  };
 
   // A typed search looks across every country, by name, initials ("NUS"), city or country.
   const q = query.trim().toLowerCase();
@@ -901,9 +904,14 @@ function PickerSheet({
             partner: undefined as Partner | undefined,
             rank: searchRank(o.university.name, o.university.city, country, q),
           },
-          // A partner or institute (NIE at NTU, SIM's awarding universities) is found by its own name too.
+          // A partner or institute (NIE at NTU, SIM's awarding universities) is found by its own name too,
+          // when it has a programme at the chosen level (SIM's Sydney, Buffalo and Stirling are bachelor's only).
           ...(o.university.partners ?? [])
-            .filter((pt) => o.university.programmes.some((p) => p.partner === pt.id))
+            .filter((pt) =>
+              grouped.some((g) =>
+                g.options.some((x) => x.university.id === o.university.id && x.programme.partner === pt.id),
+              ),
+            )
             .map((partner) => ({
             o,
             partner,
