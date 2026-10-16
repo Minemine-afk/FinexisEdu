@@ -417,23 +417,23 @@ export default function SavingsPlanner({
                   <summary className={`cursor-pointer rounded-xl px-4 py-3 text-sm font-medium${FOCUS}`}>
                     Year by year
                   </summary>
-                  <div className="overflow-x-auto px-4 pb-3">
+                  <div className="overflow-x-auto px-4 pb-3 max-[360px]:px-2.5">
                     <table className="w-full text-right text-xs tabular-nums sm:text-sm">
                       <thead className="text-muted">
                         <tr>
-                          <th className="py-1.5 pr-2 text-left font-medium">Year</th>
-                          <th className="px-2 font-medium">Paid in</th>
-                          <th className="px-2 font-medium">Interest</th>
-                          <th className="pl-2 font-medium">Balance</th>
+                          <th className="py-1.5 pr-2 text-left font-medium max-[360px]:pr-1">Year</th>
+                          <th className="px-2 font-medium max-[360px]:px-1">Paid in</th>
+                          <th className="px-2 font-medium max-[360px]:px-1">Interest</th>
+                          <th className="pl-2 font-medium max-[360px]:pl-1">Balance</th>
                         </tr>
                       </thead>
                       <tbody>
                         {plan.years.map((y) => (
                           <tr key={y.year} className="border-t border-border">
-                            <td className="py-1.5 pr-2 text-left">{y.year}</td>
-                            <td className="px-2">{y.paidIn ? sgd(y.paidIn) : "–"}</td>
-                            <td className="px-2">{sgd(y.interest)}</td>
-                            <td className={`pl-2 ${y.balance < -0.5 ? "text-warn-fg" : ""}`}>
+                            <td className="py-1.5 pr-2 text-left max-[360px]:pr-1">{y.year}</td>
+                            <td className="px-2 max-[360px]:px-1">{y.paidIn ? sgd(y.paidIn) : "–"}</td>
+                            <td className="px-2 max-[360px]:px-1">{sgd(y.interest)}</td>
+                            <td className={`pl-2 max-[360px]:pl-1 ${y.balance < -0.5 ? "text-warn-fg" : ""}`}>
                               {sgd(Math.abs(y.balance) < 0.5 ? 0 : y.balance)}
                             </td>
                           </tr>

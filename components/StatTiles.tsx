@@ -33,96 +33,102 @@ export default function StatTiles({
   // Selections are sorted by total, so the first is the cheapest.
   const cheapest = selections[0];
   const cheapestName = cheapest ? comparisonName(cheapest, selections) : "";
-  // Three tiles only fit side by side from lg up; a tablet in portrait gets two columns.
+  // Columns follow the space the tiles have, measured in rem, so larger text
+  // settings get fewer, wider tiles instead of words running out of them. At
+  // normal text three tiles sit side by side from about 970px wide; a tablet in
+  // portrait gets two columns.
   const cols =
     selections.length === 3
-      ? "sm:grid-cols-2 lg:grid-cols-3"
+      ? "@min-[25rem]:grid-cols-2 @min-[38rem]:grid-cols-3"
       : selections.length === 2
-        ? "sm:grid-cols-2"
+        ? "@min-[25rem]:grid-cols-2"
         : "";
   return (
-    <div className={`grid gap-4 ${cols}`}>
-      {planning && planner && (
-        <SavingsPlanner
-          key={planning.key}
-          selection={planning}
-          today={planner.today}
-          sheet={planner.sheet}
-          onClose={closePlanner}
-        />
-      )}
-      {selections.map((s, i) => {
-        if (only !== undefined && i !== only) return null;
-        const diff = s.grandTotalSgd - cheapest.grandTotalSgd;
-        return (
-          <div
-            key={s.key}
-            className="@container min-w-0 rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5"
-          >
-            <p className="text-xs font-medium uppercase tracking-wide text-muted">
-              {countryByCode.get(s.university.country)?.name} ·{" "}
-              {s.university.city}
-            </p>
-            <h2 className="mt-1 font-semibold leading-snug">
-              <UniversityName university={s.university} />
-            </h2>
-            <p className="mt-0.5 text-sm text-muted">
-              {programmeLabel(s.university, s.programme)}
-            </p>
-            <p
-              className="mt-2 whitespace-nowrap font-semibold leading-tight text-accent tabular-nums"
-              style={{ fontSize: totalSize(formatMoney(s.grandTotalSgd, "SGD")) }}
+    <div className="@container">
+      <div className={`grid gap-4 ${cols}`}>
+        {planning && planner && (
+          <SavingsPlanner
+            key={planning.key}
+            selection={planning}
+            today={planner.today}
+            sheet={planner.sheet}
+            onClose={closePlanner}
+          />
+        )}
+        {selections.map((s, i) => {
+          if (only !== undefined && i !== only) return null;
+          const diff = s.grandTotalSgd - cheapest.grandTotalSgd;
+          return (
+            <div
+              key={s.key}
+              // A word too long for even a single-column tile wraps rather than crossing its edge.
+              className="@container min-w-0 rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5 [overflow-wrap:break-word]"
             >
-              {formatMoney(s.grandTotalSgd, "SGD")}
-            </p>
-            <p className="mt-1 text-sm tabular-nums">
-              {/* The last tile sits at the page's right edge, so its tip opens leftwards. */}
-              <InfoTip term="perYear" align={i === selections.length - 1 && selections.length > 1 ? "right" : "left"}>
-                ≈ {formatMoney(s.grandTotalSgd / Math.max(1, s.result.durationYears), "SGD")}{" "}
-                a year ·{" "}
-                {formatMoney(
-                  s.grandTotalSgd / Math.max(1, s.result.durationYears) / 12,
-                  "SGD",
-                )}{" "}
-                a month
-              </InfoTip>
-            </p>
-            {noTuition(s.result) && (
-              <p className="mt-1 text-sm text-muted">
-                No tuition: semester contribution only
+              <p className="text-xs font-medium uppercase tracking-wide text-muted">
+                {countryByCode.get(s.university.country)?.name} ·{" "}
+                {s.university.city}
               </p>
-            )}
-            {s.living && (
-              <p className="mt-1 text-sm text-muted tabular-nums">
-                Fees {formatMoney(s.totalSgd, "SGD")} + living{" "}
-                {formatMoney(s.living.totalSgd, "SGD")}
+              <h2 className="mt-1 font-semibold leading-snug">
+                <UniversityName university={s.university} />
+              </h2>
+              <p className="mt-0.5 text-sm text-muted">
+                {programmeLabel(s.university, s.programme)}
               </p>
-            )}
-            {selections.length > 1 && (
-              <p className="mt-1 text-sm tabular-nums">
-                {i === 0
-                  ? `Cheapest of the ${selections.length === 3 ? "three" : "two"}`
-                  : diff === 0
-                    ? `Same as ${cheapestName}`
-                    : `${formatMoney(diff, "SGD")} more than ${cheapestName}`}
-              </p>
-            )}
-            {planner && (
-              <button
-                type="button"
-                onClick={() => openPlanner(s.key)}
-                className={`mt-3 inline-flex min-h-11 items-center justify-center gap-2 justify-self-start rounded-full border border-accent px-4 text-sm font-medium text-accent hover:bg-chip sm:min-h-9${FOCUS}`}
+              <p
+                className="mt-2 whitespace-nowrap font-semibold leading-tight text-accent tabular-nums"
+                style={{ fontSize: totalSize(formatMoney(s.grandTotalSgd, "SGD")) }}
               >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
-                  <path d="M3 17l6-6 4 4 8-8" />
-                  <path d="M15 7h6v6" />
-                </svg>
-                Plan
-              </button>
-            )}
-          </div>
-        );
-      })}
+                {formatMoney(s.grandTotalSgd, "SGD")}
+              </p>
+              <p className="mt-1 text-sm tabular-nums">
+                {/* The last tile sits at the page's right edge, so its tip opens leftwards. */}
+                <InfoTip term="perYear" align={i === selections.length - 1 && selections.length > 1 ? "right" : "left"}>
+                  ≈ {formatMoney(s.grandTotalSgd / Math.max(1, s.result.durationYears), "SGD")}{" "}
+                  a year ·{" "}
+                  {formatMoney(
+                    s.grandTotalSgd / Math.max(1, s.result.durationYears) / 12,
+                    "SGD",
+                  )}{" "}
+                  a month
+                </InfoTip>
+              </p>
+              {noTuition(s.result) && (
+                <p className="mt-1 text-sm text-muted">
+                  No tuition: semester contribution only
+                </p>
+              )}
+              {s.living && (
+                <p className="mt-1 text-sm text-muted tabular-nums">
+                  Fees {formatMoney(s.totalSgd, "SGD")} + living{" "}
+                  {formatMoney(s.living.totalSgd, "SGD")}
+                </p>
+              )}
+              {selections.length > 1 && (
+                <p className="mt-1 text-sm tabular-nums">
+                  {i === 0
+                    ? `Cheapest of the ${selections.length === 3 ? "three" : "two"}`
+                    : diff === 0
+                      ? `Same as ${cheapestName}`
+                      : `${formatMoney(diff, "SGD")} more than ${cheapestName}`}
+                </p>
+              )}
+              {planner && (
+                <button
+                  type="button"
+                  onClick={() => openPlanner(s.key)}
+                  className={`mt-3 inline-flex min-h-11 items-center justify-center gap-2 justify-self-start rounded-full border border-accent px-4 text-sm font-medium text-accent hover:bg-chip sm:min-h-9${FOCUS}`}
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
+                    <path d="M3 17l6-6 4 4 8-8" />
+                    <path d="M15 7h6v6" />
+                  </svg>
+                  Plan
+                </button>
+              )}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
