@@ -18,14 +18,17 @@ import RateInput from "./RateInput";
 import InfoTip from "./InfoTip";
 import type { GlossaryTerm } from "@/lib/glossary";
 import ResultDetail, { FOCUS } from "./ResultDetail";
-import StatTiles, { EmptyResults } from "./StatTiles";
+import StatTiles, { EmptyResults, UnpricedNote } from "./StatTiles";
 import TouchCalculator from "./TouchCalculator";
 import { useLayout } from "./useLayout";
+import { useState } from "react";
+import { singaporeToday } from "@/lib/today";
 import {
   increaseBasisNote,
+  increaseTip,
+  groupTag,
   LIFESTYLE_LABELS,
   MAX_SELECTED,
-  MIN_START_YEAR,
   pickProgramme,
   unavailableHint,
   unavailableTag,
@@ -46,12 +49,16 @@ export type { Selection } from "./useCalculator";
  */
 export default function Calculator(props: CalculatorProps) {
   const layout = useLayout();
-  const state = useCalculator(props);
+  // The page is cached for up to a day, so the browser reads today's date itself
+  // (in Singapore time). The first render is the placeholder either way, so the
+  // server and browser markup still match.
+  const [today] = useState(() => (typeof window === "undefined" ? props.today : singaporeToday()));
+  const state = useCalculator({ ...props, today });
   if (layout === "pending") return <Placeholder />;
   if (layout !== "desktop") {
-    return <TouchCalculator state={state} layout={layout} today={props.today} />;
+    return <TouchCalculator state={state} layout={layout} today={today} />;
   }
-  return <DesktopCalculator state={state} today={props.today} />;
+  return <DesktopCalculator state={state} today={today} />;
 }
 
 /**
@@ -97,6 +104,7 @@ function DesktopCalculator({
     changeLevel,
     residency,
     setResidency,
+    minStartYear,
     maxStartYear,
     startYearInput,
     startYearError,
@@ -175,7 +183,7 @@ function DesktopCalculator({
               inputMode="numeric"
               pattern="[0-9]*"
               maxLength={4}
-              placeholder={String(MIN_START_YEAR)}
+              placeholder={String(minStartYear)}
               aria-invalid={startYearError !== null}
               aria-describedby="start-year-hint"
               className={`${select} tabular-nums${startYearError ? " border-warn-fg" : ""}`}
@@ -187,7 +195,7 @@ function DesktopCalculator({
               className={`mt-1 block text-xs ${startYearError ? "text-warn-fg" : "text-muted"}`}
             >
               {startYearError ??
-                `Enter the year the degree starts, ${MIN_START_YEAR} to ${maxStartYear}.`}
+                `Enter the year the degree starts, ${minStartYear} to ${maxStartYear}.`}
             </span>
           </div>
           <div className="mt-3 text-sm">
@@ -207,7 +215,7 @@ function DesktopCalculator({
                     {institutionLabel(s.university, s.programme)}
                   </span>
                   <span className="shrink-0 tabular-nums">
-                    <InfoTip term="universityIncrease" align="right">
+                    <InfoTip term={s.increase.basis === "stated" ? "statedIncrease" : "universityIncrease"} text={increaseTip(s)} align="right">
                       {customIncrease !== null ? (
                         <span className="text-muted line-through">
                           {(s.increase.rate * 100).toFixed(1)}%
@@ -324,6 +332,7 @@ function DesktopCalculator({
           <EmptyResults chosen={chosen} reasonFor={reasonFor} includeLiving={includeLiving} />
         ) : (
           <>
+            <UnpricedNote chosen={chosen} reasonFor={reasonFor} />
             <StatTiles
               selections={selections}
               countryByCode={countryByCode}
@@ -498,18 +507,15 @@ function UniversityPicker({
             )
           }
         >
-          {universities.map((u) => {
-            const priced = inCountry.some(
-              (o) =>
-                o.university.id === u.university.id && reasonFor(o) === null,
-            );
-            return (
-              <option key={u.university.id} value={u.university.id}>
-                {u.university.name}
-                {!priced ? " (no published fee)" : ""}
-              </option>
-            );
-          })}
+          {universities.map((u) => (
+            <option key={u.university.id} value={u.university.id}>
+              {u.university.name}
+              {groupTag(
+                inCountry.filter((o) => o.university.id === u.university.id),
+                reasonFor,
+              )}
+            </option>
+          ))}
         </select>
       </label>
       {partners.length > 0 && (
@@ -554,6 +560,10 @@ function UniversityPicker({
           {fields.map((f) => (
             <option key={f} value={f}>
               {FIELD_LABELS[f]}
+              {groupTag(
+                atPartner.filter((o) => o.programme.field === f),
+                reasonFor,
+              )}
             </option>
           ))}
         </select>
@@ -579,7 +589,10 @@ function UniversityPicker({
           </select>
         </label>
       ) : (
-        <p className="mt-1 text-xs text-muted">{current.programme.name}</p>
+        <p className="mt-1 text-xs text-muted">
+          {current.programme.name}
+          {unavailableTag(reasonFor(current))}
+        </p>
       )}
       {current.programme.majors && (
         <p className="mt-1 text-xs text-muted">

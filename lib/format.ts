@@ -25,10 +25,11 @@ export function formatCompactSgd(amount: number): string {
     [1e3, "K"],
   ];
   for (const [size, suffix] of units) {
-    // Round first, so 999,960 reads S$1M rather than S$1000K.
-    const scaled = (amount / size).toFixed(1);
+    // Round first, so 999,960 reads S$1M rather than S$1000K. Millions and
+    // billions keep two decimals (S$1.27M), thousands one (S$34.2K).
+    const scaled = (amount / size).toFixed(size >= 1e6 ? 2 : 1);
     if (Math.abs(Number(scaled)) >= 1) {
-      return `S$${scaled.replace(/\.0$/, "")}${suffix}`;
+      return `S$${scaled.replace(/(\.\d*?)0+$/, "$1").replace(/\.$/, "")}${suffix}`;
     }
   }
   return `S$${Math.round(amount)}`;

@@ -10,10 +10,13 @@ import { GLOSSARY, type GlossaryTerm } from "@/lib/glossary";
  */
 export default function InfoTip({
   term,
+  text,
   children,
   align = "left",
 }: {
   term: GlossaryTerm;
+  /** Text to show in place of the glossary entry for `term`. */
+  text?: string;
   children?: React.ReactNode;
   /** Which edge of the card lines up with the term. */
   align?: "left" | "right";
@@ -117,7 +120,7 @@ export default function InfoTip({
         role="tooltip"
         className={`fixed left-0 top-0 z-50 w-72 max-w-[85vw] rounded-lg border border-border bg-surface p-3 text-left text-xs font-normal normal-case tracking-normal text-foreground shadow-lg ${open ? "block" : "hidden"}`}
       >
-        {GLOSSARY[term]}
+        {text ?? GLOSSARY[term]}
       </span>
     </span>
   );

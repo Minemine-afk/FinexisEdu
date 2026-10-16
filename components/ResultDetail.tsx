@@ -468,7 +468,12 @@ function LivingSection({
           {LIVING_CATEGORIES.map((c) => (
             <div key={c} className="flex justify-between gap-2">
               <dt className="text-muted">{LIVING_LABELS[c]}</dt>
-              <dd>{formatMoney(sgd(living.monthly[c]), "SGD")}/mo</dd>
+              {/* A university that folds a cost into another line (meals in housing, say) has 0 here. */}
+              <dd className={living.monthly[c] === 0 && !living.customised ? "text-muted" : undefined}>
+                {living.monthly[c] === 0 && !living.customised
+                  ? "Not listed separately"
+                  : `${formatMoney(sgd(living.monthly[c]), "SGD")}/mo`}
+              </dd>
             </div>
           ))}
         </dl>

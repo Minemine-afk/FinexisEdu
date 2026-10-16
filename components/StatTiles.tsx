@@ -174,8 +174,8 @@ export function EmptyResults({
         <>
           <p className="font-medium text-foreground">
             {unpriced.length === 1
-              ? "This programme can't be priced for you yet."
-              : "These programmes can't be priced for you yet."}
+              ? "This programme can't be priced with these choices."
+              : "These programmes can't be priced with these choices."}
           </p>
           <ul className="mt-2 space-y-1 text-sm">
             {unpriced.map(({ o, reason }) => (
@@ -189,6 +189,38 @@ export function EmptyResults({
           </ul>
         </>
       )}
+    </div>
+  );
+}
+
+/**
+ * A line above the results naming any chosen university left out because it
+ * can't be priced with these choices, so it doesn't just vanish.
+ */
+export function UnpricedNote({
+  chosen,
+  reasonFor,
+}: {
+  chosen: Option[];
+  reasonFor: (o: Option) => string | null;
+}) {
+  const unpriced = chosen
+    .map((o) => ({ o, reason: reasonFor(o) }))
+    .filter((x): x is { o: Option; reason: string } => x.reason !== null);
+  if (unpriced.length === 0) return null;
+  return (
+    <div role="status" className="rounded-xl border border-dashed border-border px-4 py-3 text-sm text-muted">
+      <p className="font-medium text-foreground">Not shown below:</p>
+      <ul className="mt-1 space-y-1">
+        {unpriced.map(({ o, reason }) => (
+          <li key={o.key}>
+            <span className="text-foreground">
+              {o.university.name} · {o.programme.name}
+            </span>
+            : {reason}. {unavailableHint(reason)}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
