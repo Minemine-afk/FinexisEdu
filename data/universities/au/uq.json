@@ -42,6 +42,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$60,952 for the Bachelor of Engineering (Honours), i.e. its per-unit rate for a full-time 16-unit year.",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 2455, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,200 per unit x 16 = A$51,200; 2025: $3,360 per unit x 16 = A$53,760; 2026: $3,628.50 per unit x 16 = A$58,056. St Lucia campus. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -83,6 +84,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$60,952 for the Bachelor of Computer Science (16 units), from the program's current page.",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 2451, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,200 per unit x 16 = A$51,200; 2025: $3,360 per unit x 16 = A$53,760; 2026: $3,628.50 per unit x 16 = A$58,056. St Lucia campus. When read the page still showed the 2026 fee (A$58,056, matching the 2026 schedule), not yet a 2027 figure. Excludes SSAF and OSHC. Fix 2026-10-15: UQ retired program code 2451 (page 404) and now lists the Bachelor of Computer Science as program 2559, whose page gives the 2027 international indicative fee A$60,952 (16 units, St Lucia, 3 years), so the record moved to feeYear 2027; the 2026 fee A$58,056 (A$3,628.50 x 16 from the 2026 full-fee-paying schedule) is kept as the 2026 history row. Source: https://study.uq.edu.au/study-options/programs/bachelor-computer-science-2559 (read 2026-10-15).",
       "feeHistory": [
@@ -124,6 +126,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$56,800 for the Bachelor of Commerce as a whole (16 units); no per-major fee is used.",
+      "feeChoice": "Charged per unit; the degree's single rate for a full-time 16-unit year covers all majors and is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 2336, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,010 per unit x 16 = A$48,160; 2025: $3,160 per unit x 16 = A$50,560; 2026: $3,381 per unit x 16 = A$54,096. St Lucia campus. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -165,6 +168,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$56,800 for the Bachelor of Science as a whole (16 units).",
+      "feeChoice": "Charged per unit; the degree's overall rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 2461, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,010 per unit x 16 = A$48,160; 2025: $3,160 per unit x 16 = A$50,560; 2026: $3,381 per unit x 16 = A$54,096. St Lucia campus. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -206,6 +210,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$48,080 for the Bachelor of Arts as a whole (16 units).",
+      "feeChoice": "Charged per unit; the degree's overall rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 2000, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $2,570 per unit x 16 = A$41,120; 2025: $2,700 per unit x 16 = A$43,200; 2026: $2,862 per unit x 16 = A$45,792. St Lucia campus. Students who commenced before 2024 pay a lower legacy rate. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -247,6 +252,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$52,528 for the Bachelor of Psychological Science (Honours) (16 units).",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 2379, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $2,570 per unit x 16 = A$41,120; 2025: $2,700 per unit x 16 = A$43,200; 2026: $3,127 per unit x 16 = A$50,032. St Lucia campus. The 2026 schedule charges students who commenced before 2026 the lower $2,862 per unit. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -288,6 +294,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$48,080 for the Bachelor of Nursing (16 units).",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 2241, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $2,570 per unit x 16 = A$41,120; 2025: $2,700 per unit x 16 = A$43,200; 2026: $2,862 per unit x 16 = A$45,792. St Lucia campus. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -329,6 +336,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$109,328 for the 4-year graduate-entry Doctor of Medicine; placement and check costs are extra.",
+      "feeChoice": "This medical degree has its own published yearly fee, used for all four years.",
       "summary": "Approximate 2027 yearly tuition for international students in the 4-year graduate-entry medical degree. Excludes the student services fee, health cover and placement costs; fees rise yearly.",
       "notes": "UQ program 5740, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $5,738 per unit x 16 = A$91,808; 2025: $6,025 per unit x 16 = A$96,400; 2026: $6,507.50 per unit x 16 = A$104,120. Four-year graduate-entry MD (St Lucia and clinical units in teaching hospitals); recorded at master level because entry needs a prior degree. Extra placement, first-aid, police-check and vaccination costs apply. Singapore Medical Council recognition was not checked in this pass. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -377,6 +385,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$60,952 for the Master of Civil Engineering (Professional) (16 units).",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 5743, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,200 per unit x 16 = A$51,200; 2025: $3,360 per unit x 16 = A$53,760; 2026: $3,628.50 per unit x 16 = A$58,056. St Lucia campus. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -418,6 +427,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$60,952 for the Master of Information Technology (16 units).",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 5581, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,200 per unit x 16 = A$51,200; 2025: $3,360 per unit x 16 = A$53,760. St Lucia campus. 2026: A$58,056 from the program page's 2026 view (?year=2026), because the 2026 schedule's text extraction for this code was unreliable. Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -459,6 +469,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$69,112 for the 1.5-year MBA (16 units), unchanged from 2026.",
+      "feeChoice": "Charged per unit, so the MBA's rate for a full-time 16-unit year is used across its 1.5 years.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 5430, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,809 per unit x 16 = A$60,944; 2025: $3,999 per unit x 16 = A$63,984; 2026: $4,319.50 per unit x 16 = A$69,112. Brisbane City campus; 1.5 years full-time. When read the page still showed the 2026 fee (A$69,112 = $4,319.50 x 16 in the 2026 schedule). Excludes SSAF and OSHC. Fix 2026-10-15: UQ retired program code 5430 (page 404) and now lists the MBA as program 5770, whose page gives the 2027 international indicative fee A$69,112 (full-time, 16 units, Brisbane City, 1.5 years), the same amount as 2026, so the record moved to feeYear 2027; the 2026 fee A$69,112 (A$4,319.50 x 16 from the 2026 full-fee-paying schedule) is kept as the 2026 history row. Source: https://study.uq.edu.au/study-options/programs/master-business-administration-5770 (read 2026-10-15).",
       "feeHistory": [
@@ -500,6 +511,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$60,952 for the 2-year Master of Data Science; the 1.5-year version has the same rate.",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 5660, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,200 per unit x 16 = A$51,200; 2025: $3,360 per unit x 16 = A$53,760; 2026: $3,628.50 per unit x 16 = A$58,056. St Lucia campus; 2-year (32-unit) version, code 5660 (a 1.5-year version, 5659, has the same rate). Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -541,6 +553,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$48,080 for the 2-year version of the Master of International Relations (16 units).",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 5641, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $2,570 per unit x 16 = A$41,120; 2025: $2,700 per unit x 16 = A$43,200. St Lucia campus; 1, 1.5 or 2 years depending on prior study (2-year, 32-unit version recorded). 2026: A$45,792 from the program page's 2026 view (?year=2026). Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -582,6 +595,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's approximate 2027 yearly international tuition of A$60,952 for the Master of Clinical Psychology (16 units).",
+      "feeChoice": "Charged per unit, so this degree's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year.",
       "notes": "UQ program 5164, international fee on the program page read on 2026-10-07 ('Approximate yearly cost of tuition (16 units)'). History from UQ's official 'Domestic and International Full Tuition Fees' schedules (my.uq.edu.au fee schedules), which give the international rate per unit charged in that year by commencement cohort; the column for students commencing in that year was used and multiplied by 16 units, the full-time yearly load UQ's own program pages use. 2024: $3,200 per unit x 16 = A$51,200; 2025: $3,360 per unit x 16 = A$53,760; 2026: $3,628.50 per unit x 16 = A$58,056. St Lucia campus; international students admitted (eligible for a subclass 500 visa). Excludes SSAF and OSHC.",
       "feeHistory": [
@@ -623,6 +637,7 @@
       "sourceType": "official",
       "cohortLocked": false,
       "feeBasis": "UQ's 2027 international yearly fee for the Master of Commerce with the Professional Accounting field, from the program page. UQ has no separate accounting master's. Page lists 1.5 or 2 years; 2 recorded.",
+      "feeChoice": "Charged per unit, so the Professional Accounting field's rate for a full-time 16-unit year is used as the yearly rate.",
       "summary": "Approximate 2027 yearly tuition for international students (16 units, a full-time year). Excludes the student services fee and health cover; UQ reviews fees each year. Takes 2 years.",
       "notes": "UQ Master of Commerce, program 5584, field of study Professional Accounting (CAANZ and CPA pathway). International fee on the program page read 2026-10-15: A$60,952 per year; page lists 1.5 or 2 years depending on entry, 2 years recorded. UQ has no separate accounting-named master, so the Master of Commerce with this field is used; the fee is the program fee. International tier chosen because Singaporeans are international students. History from UQ's full-fee-paying schedules, program 5584, international column for students commencing that year x 16 units: 2024 $3,010 = A$48,160; 2025 $3,360 = A$53,760; 2026 $3,628.50 = A$58,056. Excludes SSAF and OSHC.",
       "feeHistory": [

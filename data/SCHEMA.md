@@ -13,7 +13,7 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
   "website": "https://www.nus.edu.sg",
   "description": "Singapore's oldest and largest ...",   // 1–2 factual sentences, shown on hover over the name
   "whyIncluded": "MOE-funded Autonomous University ...", // why it is in the calculator (evidence of Singaporean demand)
-  "feeMethod": "One rate per faculty; every major in it pays the same ...",   // required, max 220 chars (1-2 sentences), shown on the site as "How this fee was worked out" for every programme of the university: how this university prices degrees (flat, by faculty, by major, by subject band...) and so which fee the calculator picks. No URLs
+  "feeMethod": "One rate per faculty; every major in it pays the same ...",   // required, max 220 chars (1-2 sentences), kept for maintainers (no longer shown; each programme's `feeChoice` is): how this university prices degrees (flat, by faculty, by major, by subject band...) and so which fee the calculator picks. No URLs
   "partners": [                                  // optional; only for institutions that teach other universities' degrees (SIM)
     { "id": "uol", "name": "University of London", "country": "United Kingdom", "website": "https://www.london.ac.uk", "description": "..." }
   ],
@@ -39,7 +39,8 @@ Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
       "cohortLocked": true,                      // true if the fee is fixed for the whole programme once you enrol
       "internationalEligible": true,             // optional; false if the programme is closed to international students
       "summary": "Yearly tuition after the MOE Tuition Grant, fixed for your whole degree.",  // shown on the site: 1-2 plain sentences for parents, max 280 chars
-      "feeBasis": "NTU's published rate for every standard undergraduate degree, subsidised by the MOE Tuition Grant.",  // required, max 240 chars, kept in the data but not currently shown on the site (the university-level `feeMethod` is shown instead): which published figure was used and which major, band or range point was chosen. No URLs; the source link is shown beside it
+      "feeBasis": "NTU's published rate for every standard undergraduate degree, subsidised by the MOE Tuition Grant.",  // required, max 240 chars, kept in the data for maintainers, not shown: which published figure was used and which major, band or range point was chosen. No URLs
+      "feeChoice": "Every major in this degree pays the same rate, so one rate covers the whole degree.",  // required, max 160 chars, one sentence, shown on the site as "How this fee was worked out": why this fee stands for the whole degree (same rate for all majors, top of a published range, the major's own rate, subject rate x full-time load, whole-degree total spread over the years, split years...). No amounts, currency, subsidy or source details (those are in `summary`), no URLs
       "notes": "Tuition Grant rates; excludes GST",   // optional; detailed source/method notes for maintainers, not shown
       "feeHistory": [                            // fees for EARLIER intakes/years; see below
         {
@@ -88,8 +89,7 @@ Definitions:
   for the partner or institute after the university, and the yearly increase is
   estimated from that partner's programmes first. Programmes without `partner`
   are the university's own and appear under its name in that picker. A partner
-  may have its own `feeMethod` (same limits), shown for its programmes instead of
-  the university's.
+  may have its own `feeMethod` (same limits, maintainers only) for its programmes.
 - Increase estimate: a citizen or PR fee series whose subsidy was cut by a
   twentieth of the fee or more, and has held steady for the latest two or more
   years, is measured only from the cut (NIE and NTU self-financed master's, 2025).
