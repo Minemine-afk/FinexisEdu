@@ -21,15 +21,16 @@ import InfoTip from "./InfoTip";
 import RateInput from "./RateInput";
 import ResultDetail, { FOCUS } from "./ResultDetail";
 import SavingsPlanner from "./SavingsPlanner";
-import StatTiles, { EmptyResults } from "./StatTiles";
+import StatTiles, { EmptyResults, UnpricedNote } from "./StatTiles";
 import {
   increaseBasisNote,
+  increaseTip,
   LIFESTYLE_LABELS,
   MAX_SELECTED,
-  MIN_START_YEAR,
   pickProgramme,
   unavailableHint,
   unavailableTag,
+  groupTag,
   type CalculatorState,
   type Option,
   type Selection,
@@ -267,6 +268,7 @@ function Results({
 
   return (
     <section id="results" className="min-w-0 space-y-4">
+      <UnpricedNote chosen={state.chosen} reasonFor={state.reasonFor} />
       {layout === "phone" && selections.length > 1 ? (
         <Carousel
           selections={selections}
@@ -505,6 +507,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
     residency,
     setResidency,
     startYear,
+    minStartYear,
     maxStartYear,
     startYearInput,
     startYearError,
@@ -559,7 +562,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
           <button
             type="button"
             aria-label="One year earlier"
-            disabled={startYear <= MIN_START_YEAR}
+            disabled={startYear <= minStartYear}
             onClick={() => stepStartYear(-1)}
             className={`h-11 w-14 shrink-0 rounded-lg bg-chip text-2xl text-accent disabled:opacity-40${FOCUS}`}
           >
@@ -571,7 +574,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
             inputMode="numeric"
             pattern="[0-9]*"
             maxLength={4}
-            placeholder={String(MIN_START_YEAR)}
+            placeholder={String(minStartYear)}
             aria-label="Start year"
             aria-invalid={startYearError !== null}
             aria-describedby="touch-start-year-hint"
@@ -602,7 +605,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
       </div>
 
       <div id="touch-rate" className="scroll-mt-4">
-        <p className="text-sm font-medium">Yearly fee increase</p>
+        <p className="text-sm font-medium">% inflation</p>
         <ul className="mt-2 divide-y divide-border rounded-xl border border-border bg-surface px-3 text-sm">
           {selections.length === 0 && (
             <li className="py-2.5 text-muted">
@@ -618,7 +621,7 @@ function Assumptions({ state }: { state: CalculatorState }) {
                 {institutionLabel(s.university, s.programme)}
               </span>
               <span className="shrink-0 tabular-nums">
-                <InfoTip term="universityIncrease" align="right">
+                <InfoTip term={s.increase.basis === "stated" ? "statedIncrease" : "universityIncrease"} text={increaseTip(s)} align="right">
                   {customIncrease !== null && (
                     <span className="text-muted line-through">
                       {(s.increase.rate * 100).toFixed(1)}%{" "}
@@ -878,8 +881,11 @@ function PickerSheet({
     (o) => o.programme.field === current.programme.field,
   );
   const taken = new Set(others.map((o) => o.key));
-  const pick = (candidates: Option[], field: Field = current.programme.field) =>
-    setSlot(index, pickProgramme(candidates, field, reasonFor, taken).key);
+  const pick = (candidates: Option[], field: Field = current.programme.field) => {
+    // Nothing to pick (no programme at this level) leaves the slot as it is.
+    const chosen = pickProgramme(candidates, field, reasonFor, taken) as Option | undefined;
+    if (chosen) setSlot(index, chosen.key);
+  };
 
   // A typed search looks across every country, by name, initials ("NUS"), city or country.
   const q = query.trim().toLowerCase();
@@ -898,9 +904,14 @@ function PickerSheet({
             partner: undefined as Partner | undefined,
             rank: searchRank(o.university.name, o.university.city, country, q),
           },
-          // A partner or institute (NIE at NTU, SIM's awarding universities) is found by its own name too.
+          // A partner or institute (NIE at NTU, SIM's awarding universities) is found by its own name too,
+          // when it has a programme at the chosen level (SIM's Sydney, Buffalo and Stirling are bachelor's only).
           ...(o.university.partners ?? [])
-            .filter((pt) => o.university.programmes.some((p) => p.partner === pt.id))
+            .filter((pt) =>
+              grouped.some((g) =>
+                g.options.some((x) => x.university.id === o.university.id && x.programme.partner === pt.id),
+              ),
+            )
             .map((partner) => ({
             o,
             partner,
@@ -914,14 +925,11 @@ function PickerSheet({
         .sort((a, b) => a.rank - b.rank)
     : [];
 
-  const priced = (universityId: string) =>
-    inCountry.some(
-      (o) => o.university.id === universityId && reasonFor(o) === null,
-    ) ||
-    grouped.some((g) =>
-      g.options.some(
-        (o) => o.university.id === universityId && reasonFor(o) === null,
-      ),
+  // The tag after a university that can't be priced: why, from its programmes' reasons.
+  const universityTag = (universityId: string) =>
+    groupTag(
+      grouped.flatMap((g) => g.options.filter((o) => o.university.id === universityId)),
+      reasonFor,
     );
 
   return (
@@ -978,7 +986,7 @@ function PickerSheet({
                 key: partner ? `${o.university.id}:${partner.id}` : o.university.id,
                 text: partner
                   ? `${partner.name} (${o.university.name})`
-                  : `${o.university.name}${priced(o.university.id) ? "" : " (no published fee)"}`,
+                  : `${o.university.name}${universityTag(o.university.id)}`,
                 sub: grouped.find(
                   (g) => g.country?.code === o.university.country,
                 )?.country?.name,
@@ -1026,7 +1034,7 @@ function PickerSheet({
                 label="University"
                 items={universities.map((u) => ({
                   key: u.university.id,
-                  text: `${u.university.name}${priced(u.university.id) ? "" : " (no published fee)"}`,
+                  text: `${u.university.name}${universityTag(u.university.id)}`,
                   selected: u.university.id === current.university.id,
                   onSelect: () =>
                     pick(
@@ -1069,6 +1077,10 @@ function PickerSheet({
                       }
                     >
                       {FIELD_LABELS[f]}
+                      {groupTag(
+                        atPartner.filter((o) => o.programme.field === f),
+                        reasonFor,
+                      )}
                     </Chip>
                   ))}
                 </div>
@@ -1084,7 +1096,10 @@ function PickerSheet({
                   }))}
                 />
               ) : (
-                <p className="text-sm text-muted">{current.programme.name}</p>
+                <p className="text-sm text-muted">
+                  {current.programme.name}
+                  {unavailableTag(reasonFor(current))}
+                </p>
               )}
               {current.programme.majors && (
                 <p className="text-xs text-muted">

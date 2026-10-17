@@ -147,7 +147,7 @@ describe("universityIncrease", () => {
       ]),
       feeIncrease: { rate: 0.031, reason: "The 2027 rise is a one-off step." },
     };
-    expect(universityIncrease(u, "international", country)).toEqual({ rate: 0.031, basis: "stated", series: 0 });
+    expect(universityIncrease(u, "international", country)).toEqual({ rate: 0.031, basis: "stated", series: 0, reason: "The 2027 rise is a one-off step." });
     expect(universityIncrease({ ...u, feeIncrease: undefined }, "international", country).rate).toBe(0.15);
   });
 
@@ -224,6 +224,39 @@ describe("universityIncrease", () => {
     const e = universityIncrease(u, "citizen", country);
     expect(e.rate).toBeLessThan(0.04);
     expect(e.from).toBe(2025);
+  });
+
+  it("skips a series whose citizen subsidy was cut in the latest fee year", () => {
+    const fee = (n: number) => ({ annualTuition: n, annualCompulsoryFees: 0, oneOffFees: 0 });
+    // Steady 3% rises, except one programme whose citizen subsidy ends in 2026.
+    const steady = (name: string, a: number) => ({
+      ...base,
+      name,
+      feeYear: 2026,
+      fees: { citizen: fee(a * 1.03 * 1.03), international: fee(a * 2) },
+      feeHistory: [
+        { feeYear: 2025, tier: "citizen" as const, annualTuition: a * 1.03 },
+        { feeYear: 2025, tier: "international" as const, annualTuition: a * 2 },
+        { feeYear: 2024, tier: "citizen" as const, annualTuition: a },
+        { feeYear: 2024, tier: "international" as const, annualTuition: a * 2 },
+      ],
+    });
+    const cut = {
+      ...base,
+      name: "Cut",
+      feeYear: 2026,
+      fees: { citizen: fee(57232), international: fee(57232) },
+      feeHistory: [
+        { feeYear: 2025, tier: "citizen" as const, annualTuition: 15000 },
+        { feeYear: 2025, tier: "international" as const, annualTuition: 55031 },
+        { feeYear: 2024, tier: "citizen" as const, annualTuition: 14000 },
+        { feeYear: 2024, tier: "international" as const, annualTuition: 53000 },
+      ],
+    };
+    const u = uni([steady("A", 10000), steady("B", 12000), cut]);
+    const e = universityIncrease(u, "citizen", country);
+    expect(e.series).toBe(2);
+    expect(e.rate).toBeCloseTo(0.03, 3);
   });
 
   it("produces a sane rate for every university in the data", () => {

@@ -44,7 +44,8 @@ export default function UniversityName({ university: u, className = "" }: { univ
         target="_blank"
         rel="noreferrer"
         aria-describedby={hasCard ? id : undefined}
-        className={`underline decoration-accent/50 decoration-dotted underline-offset-4 outline-none hover:decoration-solid focus-visible:ring-2 focus-visible:ring-accent ${className}`}
+        // The invisible ::after pads the tap area to 44px tall without moving the text.
+        className={`relative underline decoration-accent/50 decoration-dotted underline-offset-4 outline-none after:absolute after:-inset-x-1 after:-inset-y-3 after:content-[''] hover:decoration-solid focus-visible:ring-2 focus-visible:ring-accent ${className}`}
         onPointerDown={(e) => {
           pointer.current = e.pointerType;
         }}

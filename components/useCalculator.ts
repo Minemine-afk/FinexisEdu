@@ -158,8 +158,23 @@ export function unavailableReason(
 export function unavailableTag(reason: string | null): string {
   if (!reason) return "";
   return reason.startsWith("Not open to international")
-    ? " (not open to international students)"
+    ? " (closed to international)"
     : " (no published fee)";
+}
+
+/** A start year moved by `delta` years, kept within `min`–`max`. */
+export function stepYear(year: number, delta: number, min: number, max: number): number {
+  return Math.min(max, Math.max(min, year + delta));
+}
+
+/** The tag after a university or field in a list when none of its programmes can be priced. */
+export function groupTag(options: Option[], reasonFor: (o: Option) => string | null): string {
+  const reasons = options.map(reasonFor);
+  if (reasons.length === 0 || reasons.some((r) => r === null)) return "";
+  const closed = reasons.filter((r) => r!.startsWith("Not open to international")).length;
+  if (closed === reasons.length) return " (closed to international)";
+  // Some closed to international students, the rest missing a fee: one tag covers both.
+  return closed ? " (can't be priced)" : " (no published fee)";
 }
 
 /** What to change so an unavailable programme can be priced, to follow its `unavailableReason`. */
@@ -291,22 +306,37 @@ export function pickProgramme(
 export function increaseBasisNote(selections: Selection[]): string {
   if (selections.length === 0)
     return "Each university's own past fee rises, applied after its published fee year.";
-  const own = selections.filter((s) => s.increase.basis !== "country");
+  const list = (xs: Selection[]) => xs.map((s) => s.university.name).join(", ");
+  const own = selections.filter((s) => s.increase.basis === "university" || s.increase.basis === "partner");
+  const stated = selections.filter((s) => s.increase.basis === "stated");
+  const fallback = selections.filter((s) => s.increase.basis === "country");
   const years = own.flatMap((s) =>
     s.increase.from !== undefined && s.increase.to !== undefined ? [s.increase.from, s.increase.to] : [],
   );
   const span = years.length
     ? `, ${Math.min(...years)}–${Math.max(...years)}`
     : "";
-  if (own.length === selections.length) {
+  const parts: string[] = [];
+  if (own.length === selections.length)
     return `From each university's published fees${span}; applied to years after the published fee year.`;
-  }
-  const fallback = selections
-    .filter((s) => s.increase.basis === "country")
-    .map((s) => s.university.name);
-  return own.length
-    ? `From published fees${span}; ${fallback.join(", ")} ${fallback.length > 1 ? "have" : "has"} too little history, so the country's typical rate is used.`
-    : `${fallback.join(", ")} ${fallback.length > 1 ? "have" : "has"} too little fee history, so the country's typical rate is used.`;
+  if (own.length) parts.push(`From published fees${span}`);
+  if (stated.length)
+    parts.push(
+      `${list(stated)} ${stated.length > 1 ? "use rates" : "uses a rate"} set by hand after a one-off fee change (see the ⓘ by ${stated.length > 1 ? "their rates" : "its rate"})`,
+    );
+  if (fallback.length)
+    parts.push(
+      `${list(fallback)} ${fallback.length > 1 ? "have" : "has"} too little fee history, so the country's typical rate is used`,
+    );
+  return `${parts.join("; ")}.`;
+}
+
+/** The ⓘ text for one university's yearly rate: its own reason when the rate was set by hand. */
+export function increaseTip(s: Selection): string | undefined {
+  if (s.increase.basis !== "stated") return undefined;
+  return s.increase.reason
+    ? `This university's yearly fee increase is set by hand rather than worked out from its fee history. ${s.increase.reason}`
+    : undefined;
 }
 
 export function useCalculator({
@@ -316,6 +346,8 @@ export function useCalculator({
   today,
 }: CalculatorProps) {
   const thisYear = Number(today.slice(0, 4));
+  // A degree can't start in a year that has already gone.
+  const minStartYear = Math.max(MIN_START_YEAR, thisYear);
   const countryByCode = useMemo(
     () => new Map(countries.map((c) => [c.code, c])),
     [countries],
@@ -324,7 +356,7 @@ export function useCalculator({
   const [level, setLevel] = useState<Level>("bachelor");
   const [residency, setResidency] = useState<Residency>("citizen");
   const [startYear, setStartYear] = useState(
-    Math.max(thisYear + 1, MIN_START_YEAR),
+    Math.max(thisYear + 1, minStartYear),
   );
   // What the user has typed; only a year in range is applied.
   const [startYearInput, setStartYearInput] = useState(String(startYear));
@@ -333,10 +365,10 @@ export function useCalculator({
     const t = startYearInput.trim();
     const still = `Results still use ${startYear}.`;
     if (!/^\d{4}$/.test(t))
-      return `Enter a four-digit year, ${MIN_START_YEAR} to ${maxStartYear}. ${still}`;
+      return `Enter a four-digit year, ${minStartYear} to ${maxStartYear}. ${still}`;
     const y = Number(t);
-    if (y < MIN_START_YEAR)
-      return `Fee tables start at ${MIN_START_YEAR}. Enter ${MIN_START_YEAR} or a later year. ${still}`;
+    if (y < minStartYear)
+      return `The earliest start year is ${minStartYear}. Enter ${minStartYear} or a later year. ${still}`;
     if (y > maxStartYear)
       return `Projections stop at ${maxStartYear}. Enter ${maxStartYear} or earlier. ${still}`;
     return null;
@@ -346,15 +378,12 @@ export function useCalculator({
     const t = text.replace(/[^0-9]/g, "").slice(0, 4);
     setStartYearInput(t);
     const y = Number(t);
-    if (/^\d{4}$/.test(t) && y >= MIN_START_YEAR && y <= maxStartYear)
+    if (/^\d{4}$/.test(t) && y >= minStartYear && y <= maxStartYear)
       setStartYear(y);
   }
   /** Moves the start year by whole years (the − / + stepper on touch screens). */
   function stepStartYear(delta: number) {
-    const y = Math.min(
-      maxStartYear,
-      Math.max(MIN_START_YEAR, startYear + delta),
-    );
+    const y = stepYear(startYear, delta, minStartYear, maxStartYear);
     setStartYear(y);
     setStartYearInput(String(y));
   }
@@ -564,6 +593,7 @@ export function useCalculator({
     residency,
     setResidency,
     startYear,
+    minStartYear,
     maxStartYear,
     startYearInput,
     startYearError,

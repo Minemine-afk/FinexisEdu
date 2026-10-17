@@ -18,6 +18,8 @@ export const GLOSSARY = {
     "Fees are taken from each university's latest published fee table. For years after that, the calculator grows the fee by that university's own historical rate of increase (the yearly rate shown next to each university); you can set your own rate instead. Where a fee is fixed for your cohort, the increase only sets the entry-year fee when you start after the latest published year.",
   universityIncrease:
     "This university's yearly fee increase, worked out from its own published fees: for every programme with two or more years on file, the compound yearly rise from the earliest to the latest published fee, then the median across programmes (per residency tier in Singapore). Where a university has fewer than two such programmes, its country's typical rate is used instead.",
+  statedIncrease:
+    "This university's yearly fee increase is set by hand rather than worked out from its fee history, because a one-off change in its published fees would otherwise be read as a yearly trend.",
   noTuition:
     "This public university charges no tuition, including to international students. You pay only the compulsory semester contribution (student services and usually a public transport ticket), shown as other fees.",
   cohortLocked:

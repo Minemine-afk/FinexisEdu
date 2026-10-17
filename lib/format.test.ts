@@ -10,5 +10,11 @@ describe("formatCompactSgd", () => {
     expect(formatCompactSgd(950)).toBe("S$950");
     expect(formatCompactSgd(0)).toBe("S$0");
     expect(formatCompactSgd(2_500_000)).toBe("S$2.5M");
+    expect(formatCompactSgd(1_271_173)).toBe("S$1.27M");
+    expect(formatCompactSgd(5_957_502)).toBe("S$5.96M");
+    expect(formatCompactSgd(1_000_000)).toBe("S$1M");
+    expect(formatCompactSgd(9_995_000)).toBe("S$10M");
+    expect(formatCompactSgd(999.95)).toBe("S$1K");
+    expect(formatCompactSgd(-1_271_173)).toBe("-S$1.27M");
   });
 });

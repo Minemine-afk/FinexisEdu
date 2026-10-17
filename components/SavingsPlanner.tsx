@@ -72,6 +72,7 @@ export default function SavingsPlanner({
   // Months of the first year that have already passed are not offered as "First fees due".
   const firstMonth = firstYear === now.year ? now.month : 0;
   const bodyRef = useRef<HTMLDivElement>(null);
+  const answerRef = useRef<HTMLDivElement>(null);
 
   const [target, setTarget] = useState<number | null>(null);
   const [intake, setIntake] = useState(() => Math.max(firstMonth, defaultIntakeMonth(s.university.country)));
@@ -139,7 +140,9 @@ export default function SavingsPlanner({
   const full: Tvm = { ...t, [tvmField]: tvmField === "months" && Number.isFinite(solved) ? wholeMonths(solved) : solved };
   // A month count past a century is no plan at all.
   const tooLong = tvmField === "months" && solved > MAX_MONTHS;
-  const ok = Number.isFinite(solved) && !tooLong;
+  // The rate box stops at 20% a year, so a higher answer is shown as out of reach rather than drawn.
+  const tooHigh = tvmField === "rate" && solved > 20;
+  const ok = Number.isFinite(solved) && !tooLong && !tooHigh;
   // With zero months typed there is no time for monthly saving or interest to do anything.
   const noTime = !ok && t.months === 0 && (tvmField === "monthly" || tvmField === "rate");
   // "Clear form" leaves boxes empty (NaN) until they are filled in again.
@@ -148,8 +151,10 @@ export default function SavingsPlanner({
   const n = ok ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : 0;
   // The answer is zero because the other boxes already reach the end amount.
   const coveredAlready = ok && solved === 0 && (tvmField === "months" || tvmField === "monthly" || tvmField === "start");
-  // Fees fall due now: there is no time to save, so the whole amount is your own money.
-  const dueNow = ok && n === 0 && !coveredAlready;
+  // No months in the plan: the whole amount is your own money, set aside today.
+  const noMonths = ok && n === 0 && !coveredAlready;
+  // Only "due now" when the fees really fall due this month, not when 0 months was typed.
+  const dueNow = noMonths && months === 0;
   // The plan's own end: the solved or typed month count, which can differ from the months until the fees fall due.
   const planMonths = Number.isFinite(full.months) ? Math.min(MAX_MONTHS, Math.max(0, Math.round(full.months))) : months;
   const endAt = new Date(Date.UTC(now.year, now.month + planMonths, 1));
@@ -161,10 +166,10 @@ export default function SavingsPlanner({
   const answer = (
     <Answer
       question={TVM_FIELDS.find(([k]) => k === tvmField)![2]}
-      value={ok ? show(full, tvmField) : blanks ? "Fill in the boxes" : tooLong ? "Over 100 years" : noTime ? "No time to save" : "Not possible"}
+      value={ok ? show(full, tvmField) : blanks ? "Fill in the boxes" : tooLong ? "Over 100 years" : tooHigh ? "Over 20% a year" : noTime ? "No time to save" : "Not possible"}
       note={
-        dueNow
-          ? `Fees are due now, so the whole ${sgd(full.end)} is needed today and there is no time for interest to build. Change any four boxes and tap "Calculate" on the one you want.`
+        noMonths
+          ? `${dueNow ? "Fees are due now, so" : "With 0 months to save,"} the whole ${sgd(full.end)} is needed today and there is no time for interest to build. Change any four boxes and tap "Calculate" on the one you want.`
           : coveredAlready
             ? `Nothing more is needed: the other boxes already reach the ${sgd(full.end)} needed at the end. Change any four boxes and tap "Calculate" on the one you want.`
             : ok
@@ -173,7 +178,9 @@ export default function SavingsPlanner({
               ? `Fill in the ${blanks === 1 ? "empty box" : `${blanks} empty boxes`}, then tap "Calculate" on the one you want.`
               : tooLong
                 ? `That would take more than ${MAX_MONTHS.toLocaleString("en-SG")} months. Start with more, save more each month or earn more interest.`
-                : noTime
+                : tooHigh
+                  ? "That would need more than 20% a year. Start with more, save more each month or give it more months."
+                  : noTime
                   ? 'With 0 months the whole amount is needed today. Tap "Calculate" on "Starting amount", or give it some months.'
                   : "No answer fits these numbers. Check the four boxes you filled in."
       }
@@ -188,12 +195,13 @@ export default function SavingsPlanner({
         targetLabel: "Amount needed at the end",
       }
     : null;
-  // Months and money can't go below zero; months stop at a century, a rate at 20% a year.
+  // Months and money can't go below zero; months are whole and stop at a century, a rate at 20% a year.
   const clamp = (k: TvmField, v: number) =>
-    k === "rate" ? Math.min(20, Math.max(0, v)) : k === "months" ? Math.min(MAX_MONTHS, Math.max(0, v)) : Math.max(0, v);
+    k === "rate" ? Math.min(20, Math.max(0, v)) : k === "months" ? Math.min(MAX_MONTHS, Math.max(0, Math.round(v))) : Math.max(0, v);
   // The box being solved keeps its answer (within the box's limits) when it becomes an input again.
   // With no answer it starts empty while other boxes are blank too, and at 0 when the numbers simply had no answer.
-  const current = (): Tvm => ({ ...full, [tvmField]: ok || tooLong ? clamp(tvmField, solved) : blanks ? NaN : 0 });
+  // It keeps the answer as shown (a solved month count already rounded up), not the unrounded value.
+  const current = (): Tvm => ({ ...full, [tvmField]: ok || tooLong || tooHigh ? clamp(tvmField, full[tvmField]) : blanks ? NaN : 0 });
   const edit = (k: TvmField, v: number) => setTvmEdits({ ...current(), [k]: clamp(k, v) });
   /** Empties every number; the projected cost and defaults come back with "Reset" or by reopening. */
   const clearForm = () => {
@@ -222,6 +230,8 @@ export default function SavingsPlanner({
               onClick={() => {
                 setTvmEdits(current());
                 setTvmField(k);
+                // On a phone the answer sits above the boxes; bring it into view.
+                answerRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
               }}
               className={`min-h-11 shrink-0 whitespace-nowrap rounded-lg border px-2.5 text-xs${FOCUS} ${tvmField === k ? "border-accent-fill bg-accent-fill text-on-accent" : "border-border bg-surface text-muted hover:bg-chip"}`}
             >
@@ -231,7 +241,8 @@ export default function SavingsPlanner({
           <NumberField
             id={`tvm-${k}`}
             // A month count past a century is no answer, so its box stays blank.
-            value={k === "months" && tooLong ? NaN : full[k]}
+            // Likewise a rate above the box's 20% limit.
+            value={(k === "months" && tooLong) || (k === "rate" && tooHigh) ? NaN : full[k]}
             decimals={k === "rate" ? 2 : 0}
             prefix={k === "months" || k === "rate" ? undefined : "S$"}
             suffix={k === "months" ? "months" : k === "rate" ? "% a year" : undefined}
@@ -257,7 +268,7 @@ export default function SavingsPlanner({
         {months === 0 ? `Fees are due now (${startLabel}).` : `${months.toLocaleString("en-SG")} ${months === 1 ? "month" : "months"} until ${startLabel}.`}
         {ok ? ` The projection runs to ${endLabel}.` : ""}
         {overshoot
-          ? ` ${tvmField === "months" ? "Rounded up to whole months, so the projection" : "The projection"} ends ${sgd(overshoot)} above the amount needed.`
+          ? ` ${tvmField === "months" && solved > 0 && full.months > solved + 1e-9 ? "Rounded up to whole months, so the projection" : "The projection"} ends ${sgd(overshoot)} above the amount needed.`
           : ""}
       </p>
     </div>
@@ -299,7 +310,7 @@ export default function SavingsPlanner({
           <div className={`flex shrink-0 items-start gap-3 border-b border-border pb-3 pt-3 sm:pt-4 [@media(max-height:500px)]:pb-2 [@media(max-height:500px)]:pt-2 ${padX}`}>
             <div className="min-w-0 flex-1">
               <h2 id={titleId} className="text-lg font-semibold">
-                Time Value of Money calculator
+                Time Value of Money Calculator
               </h2>
               <p className="truncate text-sm text-muted [@media(max-height:500px)]:hidden" title={`${s.university.name} · ${programmeLabel(s.university, s.programme)}`}>
                 {s.university.name} · {programmeLabel(s.university, s.programme)}
@@ -330,6 +341,8 @@ export default function SavingsPlanner({
                         const cost = Math.max(0, v);
                         setTarget(cost);
                         if (tvmEdits) setTvmEdits({ ...current(), end: cost });
+                        // A new cost is the amount needed, so stop working that box out and solve the default one instead.
+                        if (tvmField === "end") setTvmField(seedField);
                       }}
                     />
                     <p className="mt-1 text-xs text-muted">
@@ -384,15 +397,15 @@ export default function SavingsPlanner({
               </div>
 
               <div className="order-first min-w-0 space-y-4 md:order-none">
-                <div className="space-y-2 rounded-xl bg-chip p-4" aria-live="polite">
+                <div ref={answerRef} className="scroll-mt-4 space-y-2 rounded-xl bg-chip p-4" aria-live="polite">
                   {answer}
                 </div>
                 {bars && (
                   <Chart
                     bars={bars}
                     still={
-                      dueNow
-                        ? `Fees are due now, so there is no time for interest to build: the whole ${sgd(full.end)} is your own money.`
+                      noMonths
+                        ? `${dueNow ? "Fees are due now, so" : "With 0 months to save,"} there is no time for interest to build: the whole ${sgd(full.end)} is your own money.`
                         : coveredAlready
                           ? `Nothing more is needed: what goes in already reaches ${sgd(full.end)}.`
                           : null
@@ -404,23 +417,23 @@ export default function SavingsPlanner({
                   <summary className={`cursor-pointer rounded-xl px-4 py-3 text-sm font-medium${FOCUS}`}>
                     Year by year
                   </summary>
-                  <div className="overflow-x-auto px-4 pb-3">
+                  <div className="overflow-x-auto px-4 pb-3 max-[360px]:px-2.5">
                     <table className="w-full text-right text-xs tabular-nums sm:text-sm">
                       <thead className="text-muted">
                         <tr>
-                          <th className="py-1.5 pr-2 text-left font-medium">Year</th>
-                          <th className="px-2 font-medium">Paid in</th>
-                          <th className="px-2 font-medium">Interest</th>
-                          <th className="pl-2 font-medium">Balance</th>
+                          <th className="py-1.5 pr-2 text-left font-medium max-[360px]:pr-1">Year</th>
+                          <th className="px-2 font-medium max-[360px]:px-1">Paid in</th>
+                          <th className="px-2 font-medium max-[360px]:px-1">Interest</th>
+                          <th className="pl-2 font-medium max-[360px]:pl-1">Balance</th>
                         </tr>
                       </thead>
                       <tbody>
                         {plan.years.map((y) => (
                           <tr key={y.year} className="border-t border-border">
-                            <td className="py-1.5 pr-2 text-left">{y.year}</td>
-                            <td className="px-2">{y.paidIn ? sgd(y.paidIn) : "–"}</td>
-                            <td className="px-2">{sgd(y.interest)}</td>
-                            <td className={`pl-2 ${y.balance < -0.5 ? "text-warn-fg" : ""}`}>
+                            <td className="py-1.5 pr-2 text-left max-[360px]:pr-1">{y.year}</td>
+                            <td className="px-2 max-[360px]:px-1">{y.paidIn ? sgd(y.paidIn) : "–"}</td>
+                            <td className="px-2 max-[360px]:px-1">{sgd(y.interest)}</td>
+                            <td className={`pl-2 max-[360px]:pl-1 ${y.balance < -0.5 ? "text-warn-fg" : ""}`}>
                               {sgd(Math.abs(y.balance) < 0.5 ? 0 : y.balance)}
                             </td>
                           </tr>

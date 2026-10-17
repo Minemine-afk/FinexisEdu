@@ -3,6 +3,7 @@ import CourseRationale from "@/components/CourseRationale";
 import UniversityRationale from "@/components/UniversityRationale";
 import { forSite, loadCountries, loadCourses, loadRationale, loadUniversities } from "@/lib/data";
 import { getFxRates } from "@/lib/fx";
+import { singaporeToday } from "@/lib/today";
 
 // Re-render daily so exchange rates stay fresh; fee data changes on redeploy.
 export const revalidate = 86400;
@@ -13,7 +14,8 @@ export default async function Home() {
   const rationale = loadRationale();
   const courses = loadCourses();
   const fx = await getFxRates();
-  const today = new Date().toISOString().slice(0, 10);
+  // The browser works out its own date again; this is only the first guess.
+  const today = singaporeToday();
 
   return (
     <>

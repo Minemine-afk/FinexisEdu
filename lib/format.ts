@@ -19,19 +19,23 @@ export function formatMoney(amount: number, currency: string): string {
  * notation differs between Node and browsers, which breaks hydration.
  */
 export function formatCompactSgd(amount: number): string {
-  const units: [number, string][] = [
-    [1e9, "B"],
-    [1e6, "M"],
-    [1e3, "K"],
+  if (amount < 0) return `-${formatCompactSgd(-amount)}`;
+  // Each unit with its decimals: millions and billions keep two (S$1.27M), thousands one (S$34.2K).
+  const units: [number, string, number][] = [
+    [1, "", 0],
+    [1e3, "K", 1],
+    [1e6, "M", 2],
+    [1e9, "B", 2],
   ];
-  for (const [size, suffix] of units) {
-    // Round first, so 999,960 reads S$1M rather than S$1000K.
-    const scaled = (amount / size).toFixed(1);
-    if (Math.abs(Number(scaled)) >= 1) {
-      return `S$${scaled.replace(/\.0$/, "")}${suffix}`;
-    }
-  }
-  return `S$${Math.round(amount)}`;
+  // toPrecision clears float noise, so 9,995,000 rounds up to S$10M, not down to S$9.99M.
+  const round = (x: number, places: number) =>
+    Math.round(Number((x * 10 ** places).toPrecision(12))) / 10 ** places;
+  // The smallest unit whose rounded figure stays under 1,000, so 999,960 reads S$1M rather than S$1000K.
+  let i = 0;
+  while (i < units.length - 1 && round(amount / units[i][0], units[i][2]) >= 1000) i++;
+  const [size, suffix, places] = units[i];
+  const text = round(amount / size, places).toFixed(places).replace(/(\.\d*?)0+$/, "$1").replace(/\.$/, "");
+  return `S$${text}${suffix}`;
 }
 
 export const LEVEL_LABELS = { bachelor: "Bachelor's", master: "Master's" } as const;

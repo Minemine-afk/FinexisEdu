@@ -13,15 +13,15 @@
     "months": 12,
     "monthly": {
       "housing": 850,
-      "food": 500,
+      "food": 380,
       "transport": 43,
       "personal": 0
     },
     "sourceUrl": "https://www.lmu.de/en/workspace-for-students/international-student-guide/living-costs/",
     "lastVerified": "2026-09-30",
     "sourceType": "official",
-    "summary": "The university's own estimate for Munich: private room, food and transport for 12 months. Its food figure also covers health insurance and leisure. Excludes the semester fee.",
-    "notes": "LMU International Student Guide 'Living costs' (budget about EUR 1,500 a month in Munich): housing = midpoint of 'rooms in private housing including utilities 700-1,000' (university housing is 400-600); food = 'food, health insurance, leisure activities approx. 500' (the page does not split these, so the figure includes health insurance and leisure); transport = Deutschlandticket for students EUR 43/month; personal 0 because the page lists no separate personal/books figure (leisure is inside the food line). Semester fee (97) excluded."
+    "summary": "The university's own estimate for Munich: private room, food and transport for 12 months. Its food line also covers leisure; health insurance, which LMU folds into that line, is taken out. Excludes the semester fee.",
+    "notes": "LMU International Student Guide 'Living costs' (budget about EUR 1,500 a month in Munich): housing = midpoint of 'rooms in private housing including utilities 700-1,000' (university housing is 400-600); food = 'food, health insurance, leisure activities approx. 500' (the page does not split these, so the figure includes health insurance and leisure); transport = Deutschlandticket for students EUR 43/month; personal 0 because the page lists no separate personal/books figure (leisure is inside the food line). Semester fee (97) excluded. Fix 2026-10-16: health insurance taken out of the food line, as the schema keeps insurance out of living costs and as was done for Bern, TU Darmstadt and Goethe. LMU does not split its 'food, health insurance, leisure activities approx. 500' line, so the insurance share is TUM's figure for the same city: the TUM Graduate School 'Cost of Living in Munich' page (https://www.gs.tum.de/en/gs/welcome-office/living-in-the-munich-metropolitan-region/cost-of-living/, status October 2024) gives health insurance EUR 90-150 a month; its midpoint, 120, is deducted (the convention used for ranges in living costs), so food = 500 - 120 = 380 (still including leisure). Monthly total 1,273 instead of 1,393. The LMU page (re-read 2026-10-16) is unchanged."
   },
   "programmes": [
     {

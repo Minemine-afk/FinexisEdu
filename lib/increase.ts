@@ -11,6 +11,8 @@ export interface IncreaseEstimate {
   /** Earliest and latest published fee years used. */
   from?: number;
   to?: number;
+  /** Why a "stated" rate was set by hand. */
+  reason?: string;
 }
 
 const MIN_RATE = 0;
@@ -36,9 +38,10 @@ function tierPoints(p: Programme, tier: Tier): Map<number, number> {
  * The published tuition series for one programme and tier, oldest first.
  *
  * A citizen or PR fee is often the international fee less a subsidy. When that
- * subsidy was cut by a twentieth of the fee or more and has held steady since, for
- * the latest two or more years (NIE's self-financed master's in 2025), the cut
- * is a one-off rather than a yearly trend, so only the years since are kept.
+ * subsidy was cut by a twentieth of the fee or more and has held steady since
+ * (NIE's self-financed master's in 2025), the cut is a one-off rather than a
+ * yearly trend, so only the years since are kept. A cut in the latest fee year
+ * leaves that year alone, too short to show a trend, so the series is skipped.
  */
 function tuitionSeries(p: Programme, tier: Tier): [number, number][] {
   const points = tierPoints(p, tier);
@@ -58,7 +61,7 @@ function tuitionSeries(p: Programme, tier: Tier): [number, number][] {
         }
         from = y;
       }
-      if (changed && from < p.feeYear)
+      if (changed && from <= p.feeYear)
         for (const y of [...points.keys()]) if (y < from) points.delete(y);
     }
   }
@@ -86,7 +89,7 @@ export function universityIncrease(
   partner?: string,
 ): IncreaseEstimate {
   if (university.feeIncrease)
-    return { rate: university.feeIncrease.rate, basis: "stated", series: 0 };
+    return { rate: university.feeIncrease.rate, basis: "stated", series: 0, reason: university.feeIncrease.reason };
   if (partner) {
     const own = programmeIncrease(
       university.programmes.filter((p) => p.partner === partner),

@@ -121,10 +121,10 @@
       "lastVerified": "2026-09-23",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "UNSW's 2026 indicative first-year international fee of A$62,000 for the 1.5-year Master of Commerce (A$96,000 in total to complete).",
+      "feeBasis": "UNSW's 2026 indicative first-year fee (A$62,000) for this 1.5-year degree. The final half year is costed at A$68,000 a year so the whole degree totals the page's A$96,000.",
       "feeChoice": "One total is published for the whole 1.5-year degree; the first-year fee is used and the last half year makes up the rest of that total.",
-      "summary": "First-year tuition for international students, plus the A$372 student services fee. The 1.5-year degree costs A$96,000 in total, so the remaining half year costs a little more.",
-      "notes": "2026 indicative first-year international fee (total to complete A$96,000). 72 UOC = 1.5 full-time years; UNSW lists 1.7 calendar years. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Business School per-UOC rate x 48 UOC (UNSW fee archive). Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive).",
+      "summary": "First-year tuition for international students, plus the A$372 student services fee. The final half year is charged at a higher rate so the 1.5-year degree totals UNSW's published A$96,000.",
+      "notes": "2026 indicative first-year international fee (total to complete A$96,000). 72 UOC = 1.5 full-time years; UNSW lists 1.7 calendar years. Compulsory = 2026 SSAF A$124/term x 3 terms. 2024/2025 = international postgraduate Business School per-UOC rate x 48 UOC (UNSW fee archive). Compulsory fees for history rows (added 2026-10-06): UNSW SSAF page (unsw.edu.au/student/managing-your-studies/fees/ssaf), Common Crawl captures CC-MAIN-2024-42 (2024-10-03) and CC-MAIN-2025-13 (2025-03-23), 'UNSW Sydney coursework students', 3+ Academic Calendar full-time fee: 2024 $117.00 per term, 2025 $121.50 per term; x 3 terms = A$351 (2024) and A$364.50 (2025), same basis as the 2026 figure (A$124 x 3). Tuition unchanged from the existing rows (UNSW fee archive). laterYears added 2026-10-16 (same treatment as the Master of Professional Accounting): the calculator charged A$62,000 x 1.5 = A$93,000, below the page's A$96,000 total to complete; year 2 (the final half year) is now A$68,000 a year (estimate: (96,000 - 62,000) / 0.5), so 62,000 + 0.5 x 68,000 = 96,000 for a 2026 start before the calculator's yearly increase. The 2024 and 2025 rows carry their own laterYears at the same per-UOC rate as their first year (A$1,170 / A$1,235 x 48 UOC), because UNSW then charged every unit at one rate. The summary no longer says the last half year 'costs a little more'.",
       "feeHistory": [
         {
           "feeYear": 2024,
@@ -132,7 +132,14 @@
           "annualTuition": 56160,
           "annualCompulsoryFees": 351,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024"
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2024",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 56160,
+              "estimate": false
+            }
+          ]
         },
         {
           "feeYear": 2025,
@@ -140,7 +147,21 @@
           "annualTuition": 59280,
           "annualCompulsoryFees": 364.5,
           "oneOffFees": 0,
-          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025"
+          "sourceUrl": "https://www.unsw.edu.au/student/managing-your-studies/fees/archive/2025",
+          "laterYears": [
+            {
+              "fromYear": 2,
+              "annualTuition": 59280,
+              "estimate": false
+            }
+          ]
+        }
+      ],
+      "laterYears": [
+        {
+          "fromYear": 2,
+          "annualTuition": 68000,
+          "estimate": true
         }
       ]
     },
