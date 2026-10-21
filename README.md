@@ -205,7 +205,8 @@ scrapers/             Python scraper pipeline
   registry.yaml       which page and regex feeds which fee figure
   registry.d/         one more registry file per newer university, merged in by run.py
   run.py              runs the registry, validates, writes data/, writes the PR summary
-.github/workflows/    ci.yml (tests + build), refresh-data.yml (monthly scrape → PR)
+sheetsync/            editors' spreadsheet: build it from data/, apply their edits back (see its README)
+.github/workflows/    ci.yml (tests + build), refresh-data.yml (monthly scrape → PR), sheet-sync.yml (editors' sheet → PR)
 ```
 
 ## Running locally

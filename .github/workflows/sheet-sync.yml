@@ -1,0 +1,62 @@
+name: Sync editors' sheet
+
+# Run this from the Actions tab ("Run workflow") after editors have finished their changes.
+# It reads the Google Sheet, checks every changed cell, and opens a pull request with the
+# changes in data/. If anything in the sheet is wrong, nothing is changed and the problems
+# are listed in the run summary so the editor can fix them in the sheet.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install .
+
+      # SHEET_EXPORT_URL is https://docs.google.com/spreadsheets/d/<sheet id>/export?format=xlsx
+      # and the sheet must be viewable by anyone with the link (the data is public anyway).
+      - name: Download the sheet
+        env:
+          SHEET_EXPORT_URL: ${{ secrets.SHEET_EXPORT_URL }}
+        run: |
+          test -n "$SHEET_EXPORT_URL" || { echo "::error::Add the SHEET_EXPORT_URL secret first (see sheetsync/README.md)."; exit 1; }
+          curl --fail --location --silent --show-error -o sheet.xlsx "$SHEET_EXPORT_URL"
+
+      - name: Apply the sheet to data/
+        id: apply
+        run: |
+          set +e
+          python -m sheetsync.apply sheet.xlsx --report sheet-sync-report.md
+          status=$?
+          cat sheet-sync-report.md >> "$GITHUB_STEP_SUMMARY"
+          exit $status
+
+      # The edited data must still pass the website's own schema checks.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+
+      - name: Open a pull request for review
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/sheet-edits
+          delete-branch: true
+          commit-message: "data: edits from the editors' sheet"
+          title: "Edits from the editors' sheet"
+          body-path: sheet-sync-report.md
+          add-paths: data/
+          labels: sheet-edit
