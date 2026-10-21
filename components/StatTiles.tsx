@@ -62,7 +62,8 @@ export default function StatTiles({
             <div
               key={s.key}
               // A word too long for even a single-column tile wraps rather than crossing its edge.
-              className="@container min-w-0 rounded-xl border border-border border-t-4 border-t-accent bg-surface p-5 [overflow-wrap:break-word]"
+              // In two columns the third tile takes the whole second row instead of sitting alone beside a gap.
+              className={`@container min-w-0 rounded-xl ${selections.length === 3 && i === 2 && only === undefined ? "@min-[25rem]:col-span-2 @min-[38rem]:col-span-1 " : ""} border border-border border-t-4 border-t-accent bg-surface p-5 [overflow-wrap:break-word]`}
             >
               <p className="text-xs font-medium uppercase tracking-wide text-muted">
                 {countryByCode.get(s.university.country)?.name} ·{" "}

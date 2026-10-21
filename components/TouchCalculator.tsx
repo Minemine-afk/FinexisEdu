@@ -1365,16 +1365,21 @@ function TabBar({
         <button
           type="button"
           onClick={() => onChange("compare", true)}
-          className={`flex min-h-11 w-full items-center justify-between gap-3 border-b border-border px-4 py-1 text-left text-xs${FOCUS}`}
+          // A phone on its side has little height, so the strip gives way to the results themselves.
+          className={`flex min-h-11 w-full items-center justify-between gap-3 border-b border-border px-4 py-1 text-left text-xs [@media(max-height:500px)]:hidden${FOCUS}`}
         >
           <span className="text-muted">
-            {count} {count === 1 ? "university" : "universities"} · from{" "}
+            {/* The count is dropped on the narrowest phones so the line stays on one row. */}
+            <span className="max-[374px]:hidden">
+              {count} {count === 1 ? "university" : "universities"} · from{" "}
+            </span>
+            <span className="min-[375px]:hidden">From </span>
             <span className="font-medium text-foreground tabular-nums">
               {formatCompactSgd(cheapest)}
             </span>{" "}
             {includeLiving ? "incl. living costs" : "in fees"}
           </span>
-          <span className="font-medium text-accent">View results</span>
+          <span className="shrink-0 whitespace-nowrap font-medium text-accent">View results</span>
         </button>
       )}
       <div className="grid grid-cols-2">
@@ -1384,7 +1389,7 @@ function TabBar({
             type="button"
             aria-current={tab === t ? "page" : undefined}
             onClick={() => onChange(t)}
-            className={`flex min-h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-medium${FOCUS} ${tab === t ? "text-accent" : "text-muted"}`}
+            className={`flex min-h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-medium [@media(max-height:500px)]:min-h-11 [@media(max-height:500px)]:flex-row [@media(max-height:500px)]:gap-2 [@media(max-height:500px)]:text-xs${FOCUS} ${tab === t ? "text-accent" : "text-muted"}`}
           >
             {icon}
             {text}
