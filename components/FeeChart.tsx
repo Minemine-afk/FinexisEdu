@@ -113,11 +113,8 @@ export function Breakdown({
             <span className={`inline-block h-2 w-2 rounded-sm ${part.color}`} />
             {part.label}
           </dt>
-          <dd>
-            {part.key === "tuition" && s.yearsSgd.tuition === 0
-              ? "None"
-              : formatMoney(part.value(s), "SGD")}
-          </dd>
+          {/* A missing part reads as the bar label does ("Not included" living costs), not S$0. */}
+          <dd>{inflation ? formatMoney(part.value(s), "SGD") : barLabel(s, part.key as CompareCategory, false)}</dd>
         </div>
       ))}
       <div className="flex justify-between gap-2 border-t border-border pt-1 font-medium">
