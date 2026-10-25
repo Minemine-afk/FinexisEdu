@@ -2,31 +2,8 @@ import { z } from "zod";
 
 // Mirrors scrapers/models.py. Keep the two in sync; see data/SCHEMA.md.
 
-export const COUNTRY_CODES = [
-  "sg",
-  "uk",
-  "au",
-  "us",
-  "de",
-  "ca",
-  "nz",
-  "ch",
-  "jp",
-  "ie",
-] as const;
-// Singapore first, then destinations in order of how many Singaporeans study there (UNESCO UIS).
-export const COUNTRY_ORDER: CountryCode[] = [
-  "sg",
-  "au",
-  "uk",
-  "us",
-  "de",
-  "ca",
-  "nz",
-  "ch",
-  "jp",
-  "ie",
-];
+// Country codes are two lowercase letters; the countries themselves are the files in data/countries/
+// and their display order is in data/settings.json (see orderCountries in lib/settings.ts).
 
 export const LEVELS = ["bachelor", "master"] as const;
 export const FIELDS = [
@@ -42,7 +19,7 @@ export const FIELDS = [
 ] as const;
 export const TIERS = ["citizen", "pr", "international"] as const;
 
-export const CountryCode = z.enum(COUNTRY_CODES);
+export const CountryCode = z.string().regex(/^[a-z]{2}$/);
 export const Level = z.enum(LEVELS);
 export const Field = z.enum(FIELDS);
 export const Tier = z.enum(TIERS);

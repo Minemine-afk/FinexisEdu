@@ -3,12 +3,15 @@ import CourseRationale from "@/components/CourseRationale";
 import UniversityRationale from "@/components/UniversityRationale";
 import { forSite, loadCountries, loadCourses, loadRationale, loadUniversities } from "@/lib/data";
 import { getFxRates } from "@/lib/fx";
+import { Settings, SETTINGS } from "@/lib/settings";
 import { singaporeToday } from "@/lib/today";
 
 // Re-render daily so exchange rates stay fresh; fee data changes on redeploy.
 export const revalidate = 86400;
 
 export default async function Home() {
+  // A bad value in data/settings.json fails the build, so visitors keep the last good version.
+  Settings.parse(SETTINGS);
   const universities = forSite(loadUniversities());
   const countries = loadCountries();
   const rationale = loadRationale();

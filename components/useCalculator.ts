@@ -11,7 +11,6 @@ import {
 import type { FxResult } from "@/lib/fx";
 import { RESIDENCY_LABELS } from "@/lib/format";
 import {
-  COUNTRY_ORDER,
   LIVING_CATEGORIES,
   type Country,
   type Field,
@@ -28,6 +27,7 @@ import {
   type LivingYear,
   type MonthlyLiving,
 } from "@/lib/living";
+import { orderCountries, SETTINGS } from "@/lib/settings";
 import { SEGMENTS, type CompareCategory } from "./FeeChart";
 import { universityIncrease, type IncreaseEstimate } from "@/lib/increase";
 
@@ -92,9 +92,8 @@ export interface CountryGroup {
 export const MAX_SELECTED = 3;
 /** Start years the calculator accepts: typed in, from the first year the current fee tables cover. */
 export const MIN_START_YEAR = 2026;
-/** The latest start year the calculator accepts. */
-export const MAX_START_YEAR = 2090;
-export { COUNTRY_ORDER };
+/** The latest start year the calculator accepts (data/settings.json). */
+export const MAX_START_YEAR = SETTINGS.maxStartYear;
 export const LIFESTYLE_LABELS: Record<Lifestyle, string> = {
   frugal: "Frugal",
   moderate: "Moderate",
@@ -210,7 +209,7 @@ function defaultPick(
     list.find((o) => o.programme.field === "computing") ??
     list[0];
   for (const skipTakenCountries of [true, false]) {
-    for (const country of COUNTRY_ORDER) {
+    for (const country of orderCountries(usable.map((x) => x.university.country))) {
       if (skipTakenCountries && takenCountries.has(country)) continue;
       const o = byField(
         usable.filter(
@@ -498,7 +497,7 @@ export function useCalculator({
           livingNote = "No living-cost estimate from this university yet.";
         else {
           const custom = customLiving[o.university.id];
-          const increase = country?.livingCostIncrease ?? 0.03;
+          const increase = country?.livingCostIncrease ?? SETTINGS.fallbackLivingCostIncrease;
           const years = livingCostsByYear({
             living: estimate,
             years: result.years,
@@ -570,7 +569,7 @@ export function useCalculator({
   ];
   const category = categories.some(([c]) => c === compare) ? compare : "total";
 
-  const grouped: CountryGroup[] = COUNTRY_ORDER.map((code) => ({
+  const grouped: CountryGroup[] = orderCountries(options.map((o) => o.university.country)).map((code) => ({
     country: countryByCode.get(code as Country["code"]),
     options: options.filter((o) => o.university.country === code),
   })).filter((g) => g.options.length > 0);

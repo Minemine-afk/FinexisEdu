@@ -2,7 +2,8 @@ import { describe, expect, it } from "vitest";
 import fallback from "@/data/fx-fallback.json";
 import { loadCountries, loadCourses, loadRationale, loadUniversities } from "./data";
 import { FX_CURRENCIES } from "./fx";
-import { COUNTRY_CODES, FIELDS, FxRates } from "./schema";
+import { FIELDS, FxRates } from "./schema";
+import { Settings, SETTINGS } from "./settings";
 
 // Guards the committed data, including every scraper PR.
 describe("committed data", () => {
@@ -11,7 +12,16 @@ describe("committed data", () => {
 
   it("passes schema validation", () => {
     expect(universities.length).toBeGreaterThan(0);
-    expect(countries.map((c) => c.code).sort()).toEqual([...COUNTRY_CODES].sort());
+    expect(countries.length).toBeGreaterThan(0);
+  });
+
+  it("has a country file for every university, and settings that pass their checks", () => {
+    const codes = new Set(countries.map((c) => c.code));
+    expect(codes.size).toBe(countries.length);
+    for (const u of universities) expect(codes.has(u.country), `${u.id}: no data/countries/${u.country}.json`).toBe(true);
+    expect(() => Settings.parse(SETTINGS)).not.toThrow();
+    for (const c of SETTINGS.countryOrder) expect(codes.has(c), `settings countryOrder: ${c}`).toBe(true);
+    for (const c of Object.keys(SETTINGS.intakeMonth)) expect(codes.has(c), `settings intakeMonth: ${c}`).toBe(true);
   });
 
   it("describes every university and why it is included", () => {

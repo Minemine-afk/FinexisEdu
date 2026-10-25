@@ -3,11 +3,12 @@
 from __future__ import annotations
 
 from datetime import date
-from typing import Literal
+from typing import Annotated, Literal
 
-from pydantic import BaseModel, ConfigDict, Field, HttpUrl
+from pydantic import BaseModel, ConfigDict, Field, HttpUrl, StringConstraints
 
-CountryCode = Literal["sg", "uk", "au", "us", "de", "ca", "nz", "ch", "jp", "ie"]
+# Two lowercase letters; the countries themselves are the files in data/countries/.
+CountryCode = Annotated[str, StringConstraints(pattern=r"^[a-z]{2}$")]
 LevelT = Literal["bachelor", "master"]
 FieldT = Literal[
     "engineering", "computing", "business", "sciences", "arts", "law", "medicine", "psychology", "nursing"

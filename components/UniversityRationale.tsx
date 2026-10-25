@@ -1,5 +1,6 @@
 import UniversityName from "@/components/UniversityName";
-import { COUNTRY_ORDER, type Country, type ShortlistRationale, type University } from "@/lib/schema";
+import { type Country, type ShortlistRationale, type University } from "@/lib/schema";
+import { orderCountries } from "@/lib/settings";
 
 const FOCUS = " outline-none focus-visible:ring-2 focus-visible:ring-accent";
 
@@ -18,7 +19,7 @@ export default function UniversityRationale({
   rationale: Record<string, ShortlistRationale>;
 }) {
   const countryByCode = new Map(countries.map((c) => [c.code, c]));
-  const groups = COUNTRY_ORDER.map((code) => ({
+  const groups = orderCountries(universities.map((u) => u.country)).map((code) => ({
     country: countryByCode.get(code),
     code,
     universities: universities
