@@ -173,3 +173,10 @@ export async function commitParent(sha: string): Promise<string> {
   const c = await gh<{ parents: { sha: string }[] }>("GET", `/git/commits/${sha}`);
   return c.parents[0].sha;
 }
+
+/** Every file path in the repository at a ref. */
+export async function listPaths(ref: string): Promise<Set<string>> {
+  const t = await gh<{ tree: { path: string; type: string }[]; truncated: boolean }>("GET", `/git/trees/${enc(ref)}?recursive=1`);
+  if (t.truncated) throw new GitHubError(0, "The repository listing was cut short.");
+  return new Set(t.tree.filter((e) => e.type === "blob").map((e) => e.path));
+}

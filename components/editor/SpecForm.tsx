@@ -293,12 +293,14 @@ function ListItem({
   problemCount,
   startOpen,
   onRemove,
+  onCopy,
   children,
 }: {
   title: string;
   problemCount: number;
   startOpen: boolean;
   onRemove?: () => void;
+  onCopy?: () => void;
   children: () => React.ReactNode;
 }) {
   // Long lists (SIM has hundreds of programmes) only draw the items that are open.
@@ -311,8 +313,19 @@ function ListItem({
           {title}
           {problemCount > 0 && <span className="ml-2 rounded-full bg-warn-bg px-2 text-xs text-warn-fg">{problemCount} to fix</span>}
         </button>
+        {onCopy && (
+          <button type="button" className={smallButton} onClick={onCopy}>
+            Copy
+          </button>
+        )}
         {onRemove && (
-          <button type="button" className={smallButton} onClick={onRemove}>
+          <button
+            type="button"
+            className={smallButton}
+            onClick={() => {
+              if (confirm(`Remove ${title}?`)) onRemove();
+            }}
+          >
             Remove
           </button>
         )}
@@ -344,11 +357,17 @@ function ListField({ spec, value, onChange, path, problems }: FieldProps & { spe
       <div className="space-y-2">
         {shown.map(({ item, i }) => (
           <ListItem
-            key={spec.identity ? `${spec.identity(item)}#${i}` : i}
+            // By position: an identity key would change (and close the item) while its name is typed.
+            key={i}
             title={spec.title(item)}
             problemCount={problemsUnder(problems, [...path, i]).length}
-            startOpen={!spec.collapsed && items.length <= 3}
+            startOpen={(!spec.collapsed && items.length <= 3) || (i === items.length - 1 && spec.title(item).startsWith("New"))}
             onRemove={spec.addRemove ? () => update(items.filter((_, j) => j !== i)) : undefined}
+            onCopy={
+              spec.copyable
+                ? () => update([...items.slice(0, i + 1), { ...structuredClone(item), name: `${item.name ?? ""} (copy)` }, ...items.slice(i + 1)])
+                : undefined
+            }
           >
             {() => (
               <Fields

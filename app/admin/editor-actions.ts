@@ -17,6 +17,8 @@ import {
 } from "@/lib/editor/changes";
 import { GitHubError, savingConfigured } from "@/lib/editor/github";
 import { SESSION_COOKIE, verifySessionToken } from "@/lib/editor/session";
+import { addCountry, addUniversity, removeCountry, removeUniversity, type NewCountry } from "@/lib/editor/structure";
+import type { University } from "@/lib/schema";
 
 /** Every editor action answers with a result rather than throwing, so the message reaches the screen. */
 export type Result<T> = { ok: true; value: T } | { ok: false; error: string };
@@ -76,4 +78,20 @@ export async function fetchVersions() {
 
 export async function undoLast(by: string) {
   return run(() => undoLastChange(by));
+}
+
+export async function addUniversityChange(by: string, data: University) {
+  return run(() => addUniversity(by, data));
+}
+
+export async function removeUniversityChange(by: string, country: string, id: string) {
+  return run(() => removeUniversity(by, country, id));
+}
+
+export async function addCountryChange(by: string, input: NewCountry) {
+  return run(() => addCountry(by, input));
+}
+
+export async function removeCountryChange(by: string, code: string) {
+  return run(() => removeCountry(by, code));
 }

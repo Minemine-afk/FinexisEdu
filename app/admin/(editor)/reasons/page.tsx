@@ -1,3 +1,4 @@
+import { editPageFor } from "@/lib/editor/documents";
 import { Cell, ExternalLink, PageTitle, Section, Table } from "@/components/editor/ui";
 import { loadCountries, loadCourses, loadRationale, loadUniversities } from "@/lib/data";
 import { orderCountries } from "@/lib/settings";
@@ -16,7 +17,7 @@ export default function ReasonsScreen() {
 
   return (
     <>
-      <PageTitle title="Reasons" edit="/admin/reasons/edit">
+      <PageTitle title="Reasons" edit={editPageFor("data/courses.json")}>
         What visitors read under &quot;Why these courses?&quot; and the shortlist places behind &quot;Why these
         universities?&quot;.
       </PageTitle>

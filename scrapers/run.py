@@ -35,8 +35,14 @@ SUMMARY_PATH = Path(__file__).resolve().parent / "out" / "summary.md"
 
 FLAG_THRESHOLD = 0.25  # changes bigger than this are called out for review
 MANUAL_CHECK_AFTER = timedelta(days=330)
-FX_CURRENCIES = ["GBP", "AUD", "USD", "EUR", "CAD", "NZD", "CHF", "JPY"]
-FX_URL = "https://api.frankfurter.dev/v1/latest?base=SGD&symbols=" + ",".join(FX_CURRENCIES)
+# The currencies the site started with, in their original order; others follow A to Z.
+FIRST_CURRENCIES = ["GBP", "AUD", "USD", "EUR", "CAD", "NZD", "CHF", "JPY"]
+
+
+def fx_currencies(data_dir: Path) -> list[str]:
+    """Every country's currency except SGD (mirrors fxCurrencies in lib/fx.ts)."""
+    used = {json.loads(f.read_text())["currency"] for f in (data_dir / "countries").glob("*.json")} - {"SGD"}
+    return [c for c in FIRST_CURRENCIES if c in used] + sorted(used - set(FIRST_CURRENCIES))
 
 Fetcher = Callable[[str, str], str]
 
@@ -221,10 +227,11 @@ def save_university(path: Path, uni: University) -> None:
 
 def refresh_fx(data_dir: Path, report: Report, dry_run: bool) -> None:
     try:
-        res = requests.get(FX_URL, timeout=30)
+        currencies = fx_currencies(data_dir)
+        res = requests.get("https://api.frankfurter.dev/v1/latest?base=SGD&symbols=" + ",".join(currencies), timeout=30)
         res.raise_for_status()
         body = res.json()
-        rates = {c: body["rates"][c] for c in FX_CURRENCIES}
+        rates = {c: body["rates"][c] for c in currencies}
     except Exception as err:  # noqa: BLE001 - any failure just keeps the old file
         report.problems.append(f"exchange rates: {err}")
         return

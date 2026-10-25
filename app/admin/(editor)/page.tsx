@@ -24,7 +24,7 @@ export default function UniversitiesScreen() {
 
   return (
     <>
-      <PageTitle title="Universities">
+      <PageTitle title="Universities" action={{ href: "/admin/universities/new", label: "Add a university" }}>
         {universities.length} universities and {programmes.toLocaleString("en-GB")} programmes in {groups.length} countries.
         Open a university to see its programmes, fees, fee history and living costs.
       </PageTitle>

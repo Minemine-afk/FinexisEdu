@@ -32,13 +32,13 @@ function FileChanges({ file, names }: { file: ChangeDetail["files"][number]; nam
       </details>
     );
   }
-  const title = kind.describe(names);
-  if (file.before === undefined) return <p className="text-sm">Adds {title}.</p>;
-  if (file.after === undefined) return <p className="text-sm">Removes {title}.</p>;
+  const named = (file.after ?? file.before) as { name?: unknown } | undefined;
+  const title = typeof named?.name === "string" ? named.name : kind.describe(names);
+  if (file.after === undefined) return <h3 className="font-medium">Removes {title}</h3>;
   return (
     <div>
-      <h3 className="mb-2 font-medium">{title}</h3>
-      <ChangeRows rows={diffDocument(kind.spec(names), file.before, file.after)} />
+      <h3 className="mb-2 font-medium">{file.before === undefined ? `Adds ${title}` : title}</h3>
+      <ChangeRows rows={diffDocument(kind.spec(names), file.before ?? {}, file.after)} />
     </div>
   );
 }
@@ -83,7 +83,7 @@ function Detail({ number, names, onDone }: { number: number; names: Names; onDon
   if (!change) return <p className="text-muted">Loading the change…</p>;
 
   const own = change.author !== "" && name.trim().toLowerCase() === change.author.trim().toLowerCase();
-  const editPages = [...new Set(change.files.map((f) => editPageFor(f.path)).filter(Boolean))];
+  const editPages = [...new Set(change.files.map((f) => editPageFor(f.path, change.number)).filter(Boolean))];
   const ready = change.checks.state === "passed" && !change.sentBack && change.mergeable !== false;
 
   return (
@@ -139,7 +139,7 @@ function Detail({ number, names, onDone }: { number: number; names: Names; onDon
             Approve and publish
           </button>
           {editPages.length === 1 && (
-            <Link href={`${editPages[0]}?change=${change.number}`} className={secondaryButtonClass}>
+            <Link href={editPages[0]!} className={secondaryButtonClass}>
               Edit this change
             </Link>
           )}
