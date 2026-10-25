@@ -18,7 +18,12 @@ const original = fs.readFileSync(NUS, "utf8");
 let github: FakeGitHub;
 
 beforeEach(() => {
-  github = new FakeGitHub({ [NUS]: original, "README.md": "hi" });
+  github = new FakeGitHub({
+    [NUS]: original,
+    "README.md": "hi",
+    "scrapers/registry.yaml": fs.readFileSync("scrapers/registry.yaml", "utf8"),
+    "scrapers/registry.d/nus.yaml": fs.readFileSync("scrapers/registry.d/nus.yaml", "utf8"),
+  });
   vi.stubEnv("EDITOR_GITHUB_TOKEN", "test-token");
   vi.stubGlobal("fetch", async (input: string, init: RequestInit) => {
     const [status, json] = github.handle(init.method ?? "GET", new URL(input), init.body ? JSON.parse(String(init.body)) : {});
@@ -68,6 +73,16 @@ describe("editor changes", () => {
     // The restored version can be edited again like any other.
     const again = await sendChange({ author: "Cat", summary: "Edit after undo", documents: [await editNus()] });
     expect(again).toBeGreaterThan(undo);
+  });
+
+  it("lists a new source page for the monthly check, to be checked by hand", async () => {
+    const doc = await editNus();
+    (doc.data as unknown as { programmes: { sourceUrl: string }[] }).programmes[0].sourceUrl = "https://www.nus.edu.sg/new-fees";
+    const n = await sendChange({ author: "Ana", summary: "New source", documents: [doc] });
+    const files = (await getChange(n)).files.map((f) => f.path);
+    expect(files).toEqual([NUS, "scrapers/registry.d/nus.yaml"]);
+    const registry = github.filesAt(`editor/${github.pulls[0].head.split("/")[1]}`).get("scrapers/registry.d/nus.yaml")!;
+    expect(registry).toContain('url: "https://www.nus.edu.sg/new-fees"\n    manual: true');
   });
 
   it("stops a change made from a version someone else has changed since", async () => {

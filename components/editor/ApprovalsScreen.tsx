@@ -20,7 +20,18 @@ function CheckState({ change }: { change: ChangeDetail }) {
 
 function FileChanges({ file, names }: { file: ChangeDetail["files"][number]; names: Names }) {
   const kind = documentKind(file.path);
-  if (!kind) return <p className="text-sm text-muted">{file.path} changed (not shown here).</p>;
+  if (!kind) {
+    const label = file.path.startsWith("scrapers/") ? "Pages the monthly fee check looks at" : file.path;
+    const verb = file.before === undefined ? "Adds" : file.after === undefined ? "Removes" : "Updates";
+    return (
+      <details className="text-sm">
+        <summary className="cursor-pointer">
+          {verb} {label} <span className="text-muted">({file.path})</span>
+        </summary>
+        <pre className="mt-2 max-h-64 overflow-auto rounded-md bg-sidebar p-3 text-xs">{String(file.after ?? file.before ?? "")}</pre>
+      </details>
+    );
+  }
   const title = kind.describe(names);
   if (file.before === undefined) return <p className="text-sm">Adds {title}.</p>;
   if (file.after === undefined) return <p className="text-sm">Removes {title}.</p>;

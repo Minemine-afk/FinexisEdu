@@ -1,3 +1,4 @@
+import type { University } from "@/lib/schema";
 import { documentKind, serialize, validateDocument } from "./documents";
 import {
   BASE_BRANCH,
@@ -16,6 +17,7 @@ import {
   type CheckSummary,
   type PullRequest,
 } from "./github";
+import { MAIN_REGISTRY, normaliseUrl, registeredUrls, registryFile, sourceUrls, withManualSources } from "./registry";
 
 /**
  * Editor changes, kept as pull requests labelled `editor-change`. A pull
@@ -174,6 +176,24 @@ async function changedSince(ref: string, documents: SendInput["documents"]) {
     const text = serialize(d.data);
     if (text !== current.text) out.push({ path: d.path, text });
   }
+  return [...out, ...(await registryUpdates(ref, out))];
+}
+
+/**
+ * The scraper tests require every source page a university points at to be in
+ * the scraper registry, so new pages are added there as "check by hand".
+ */
+async function registryUpdates(ref: string, files: { path: string; text: string | null }[]) {
+  const out: { path: string; text: string }[] = [];
+  for (const f of files) {
+    if (f.text === null || !/^data\/universities\//.test(f.path)) continue;
+    const u = JSON.parse(f.text) as University;
+    const own = registryFile(u.id);
+    const [main, mine] = await Promise.all([readFile(MAIN_REGISTRY, ref), readFile(own, ref)]);
+    const registered = registeredUrls([main.text, mine.text], u.id);
+    const missing = sourceUrls(u).filter((url) => !registered.has(normaliseUrl(url)));
+    if (missing.length) out.push({ path: own, text: withManualSources(mine.text, u, missing) });
+  }
   return out;
 }
 
@@ -234,12 +254,13 @@ export async function getChange(n: number): Promise<ChangeDetail> {
   const compare = await gh<{ merge_base_commit: { sha: string } }>("GET", `/compare/${BASE_BRANCH}...${p.head.sha}`);
   const base = compare.merge_base_commit.sha;
   const files = await pulls.files(n);
-  const parse = (text: string | null) => (text === null ? undefined : JSON.parse(text));
+  // Data files are shown value by value; anything else (the scraper registry) as text.
+  const parse = (path: string, text: string | null) => (text === null ? undefined : path.endsWith(".json") ? JSON.parse(text) : text);
   const [contents, check, preview, comments] = await Promise.all([
     Promise.all(
       files.map(async (f) => {
         const [before, after] = await Promise.all([readFile(f.previous_filename ?? f.filename, base), readFile(f.filename, p.head.sha)]);
-        return { path: f.filename, before: parse(before.text), after: parse(after.text) };
+        return { path: f.filename, before: parse(f.filename, before.text), after: parse(f.filename, after.text) };
       }),
     ),
     checks(p.head.sha),
