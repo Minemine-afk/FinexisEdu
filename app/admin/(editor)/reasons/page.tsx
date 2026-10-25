@@ -16,7 +16,7 @@ export default function ReasonsScreen() {
 
   return (
     <>
-      <PageTitle title="Reasons">
+      <PageTitle title="Reasons" edit="/admin/reasons/edit">
         What visitors read under &quot;Why these courses?&quot; and the shortlist places behind &quot;Why these
         universities?&quot;.
       </PageTitle>

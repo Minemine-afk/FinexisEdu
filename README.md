@@ -244,7 +244,16 @@ Production deploys from `main`.
 The editor at `/admin` (the "Editor login" link, shown on computers only) stays
 switched off until you add an `EDITOR_PASSWORD` environment variable (at least 8
 characters) under **Settings → Environment Variables**. Everyone who edits shares
-that password; changing it signs everyone out. The page re-renders daily for fresh exchange
+that password; changing it signs everyone out.
+
+To let the editor save, add an `EDITOR_GITHUB_TOKEN` as well: on GitHub go to
+**Settings → Developer settings → Fine-grained tokens → Generate new token**,
+choose **Only select repositories** with this repository, give it **Contents** and
+**Pull requests** set to *Read and write*, and set an expiry date (renew it before
+then). Each saved change becomes a pull request labelled `editor-change`; it goes
+live only when someone other than its sender approves it on the editor's
+Approvals screen after its checks pass. Approving merges it, and Vercel then
+redeploys the site. The page re-renders daily for fresh exchange
 rates, and every merge into `main` (including approved data PRs) redeploys it.
 
 For the monthly data PRs, go to **Settings → Actions → General** and allow

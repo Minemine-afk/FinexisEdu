@@ -137,7 +137,7 @@ export default async function UniversityScreen({ params }: { params: Promise<{ c
       <Link href="/admin" className="text-sm text-accent underline">
         All universities
       </Link>
-      <PageTitle title={u.name}>
+      <PageTitle title={u.name} edit={`/admin/universities/${u.country}/${u.id}/edit`}>
         {u.city}, {countryName}. Fees are in {u.currency}.
       </PageTitle>
 
