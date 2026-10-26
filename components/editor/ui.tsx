@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 /** Small building blocks shared by the editor screens. */
 
 export function money(value: number | undefined): string {
@@ -8,11 +10,18 @@ export function percent(rate: number | undefined): string {
   return rate === undefined ? "" : `${(rate * 100).toLocaleString("en-GB", { maximumFractionDigits: 2 })}%`;
 }
 
-export function PageTitle({ title, children }: { title: string; children?: React.ReactNode }) {
+export function PageTitle({ title, edit, children }: { title: string; edit?: string; children?: React.ReactNode }) {
   return (
-    <div className="mb-6">
-      <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
-      {children && <p className="mt-1 max-w-3xl text-muted">{children}</p>}
+    <div className="mb-6 flex items-start justify-between gap-6">
+      <div>
+        <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
+        {children && <p className="mt-1 max-w-3xl text-muted">{children}</p>}
+      </div>
+      {edit && (
+        <Link href={edit} className="shrink-0 rounded-md bg-accent-fill px-4 py-2 text-sm font-medium text-on-accent">
+          Edit
+        </Link>
+      )}
     </div>
   );
 }

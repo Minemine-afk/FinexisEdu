@@ -10,7 +10,7 @@ export default function SettingsScreen() {
 
   return (
     <>
-      <PageTitle title="Site settings">The calculator&apos;s fixed assumptions and the hover explanations.</PageTitle>
+      <PageTitle title="Site settings" edit="/admin/settings/edit">The calculator&apos;s fixed assumptions and the hover explanations.</PageTitle>
 
       <Facts
         rows={[

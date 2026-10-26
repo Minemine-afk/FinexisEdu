@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Cell, PageTitle, percent, Table } from "@/components/editor/ui";
 import { loadCountries, loadUniversities } from "@/lib/data";
 import { orderCountries, SETTINGS } from "@/lib/settings";
@@ -13,7 +14,7 @@ export default function CountriesScreen() {
     <>
       <PageTitle title="Countries">
         Each country&apos;s currency, typical yearly fee increase (used when a university has too little fee history) and
-        living-cost inflation, in the order the calculator lists them.
+        living-cost inflation, in the order the calculator lists them. Open a country to edit it; the order and intake months are in Site settings.
       </PageTitle>
       <Table
         head={[
@@ -35,7 +36,11 @@ export default function CountriesScreen() {
           const month = SETTINGS.intakeMonth[code] ?? SETTINGS.defaultIntakeMonth;
           return (
             <tr key={code}>
-              <Cell>{c.name}</Cell>
+              <Cell>
+                <Link href={`/admin/countries/${code}/edit`} className="text-accent underline">
+                  {c.name}
+                </Link>
+              </Cell>
               <Cell>{c.code}</Cell>
               <Cell>{c.currency}</Cell>
               <Cell>{universities.filter((u) => u.country === code).length}</Cell>

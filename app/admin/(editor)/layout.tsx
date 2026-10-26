@@ -6,6 +6,8 @@ const SCREENS = [
   { href: "/admin/countries", label: "Countries" },
   { href: "/admin/reasons", label: "Reasons" },
   { href: "/admin/settings", label: "Site settings" },
+  { href: "/admin/approvals", label: "Approvals" },
+  { href: "/admin/versions", label: "Versions" },
 ];
 
 export default function EditorLayout({ children }: { children: React.ReactNode }) {
@@ -35,11 +37,6 @@ export default function EditorLayout({ children }: { children: React.ReactNode }
           </div>
         </div>
       </header>
-      <div className="border-b border-border bg-sidebar">
-        <p className="mx-auto max-w-6xl px-6 py-2 text-sm text-muted">
-          View only for now: these screens show what is live on the calculator. Editing comes in the next update.
-        </p>
-      </div>
       <main className="mx-auto max-w-6xl px-6 py-8">{children}</main>
     </div>
   );
