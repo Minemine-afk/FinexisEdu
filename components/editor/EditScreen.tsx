@@ -30,6 +30,7 @@ export default function EditScreen({ paths, names, backHref }: { paths: string[]
   const change = Number(params.get("change")) || undefined;
   const [docs, setDocs] = useState<Doc[] | null>(null);
   const [waiting, setWaiting] = useState<WaitingChange[]>([]);
+  const [joining, setJoining] = useState<{ number: number; title: string } | null>(null);
   const [loadError, setLoadError] = useState("");
   const [savedDraft, setSavedDraft] = useState<Record<string, unknown> | null>(null);
   const [reviewing, setReviewing] = useState(false);
@@ -47,6 +48,7 @@ export default function EditScreen({ paths, names, backHref }: { paths: string[]
       if (!r.ok) return setLoadError(r.error);
       setDocs(r.value.documents.map((d) => ({ path: d.path, sha: d.sha, original: d.data, data: structuredClone(d.data) })));
       setWaiting(r.value.waiting);
+      setJoining(r.value.joining);
       try {
         const stored = JSON.parse(localStorage.getItem(key) ?? "null") as { shas: Record<string, string>; data: Record<string, unknown> } | null;
         // Only offer a draft made from the same versions of the files.
@@ -105,11 +107,12 @@ export default function EditScreen({ paths, names, backHref }: { paths: string[]
   if (sent) {
     return (
       <Notice tone="good">
-        {change ? "The change has been updated" : "Sent for approval"}. Check it and approve it on the{" "}
+        {change ? "The change has been updated" : joining ? "Added to the change you already have waiting" : "Sent for approval"}. Check it and approve it
+        on the{" "}
         <Link href={`/admin/approvals?change=${sent}`} className="underline">
           Approvals
         </Link>{" "}
-        screen; the calculator changes a few minutes after that.{" "}
+        screen; the calculator changes a few minutes after that. Anything else you edit before then is added to the same approval.{" "}
         <Link href={backHref} className="underline">
           Back
         </Link>
@@ -122,6 +125,14 @@ export default function EditScreen({ paths, names, backHref }: { paths: string[]
       {change && (
         <div className="mb-4">
           <Notice>You are editing a change that is waiting for approval; saving updates that change.</Notice>
+        </div>
+      )}
+      {!change && joining && (
+        <div className="mb-4">
+          <Notice>
+            Your earlier edits are waiting for approval as &quot;{joining.title}&quot;. What you send now is added to that change, so one approval covers
+            everything from this sign-in.
+          </Notice>
         </div>
       )}
       {waiting.length > 0 && (

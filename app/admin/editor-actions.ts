@@ -8,15 +8,14 @@ import {
   getChange,
   listChanges,
   listVersions,
-  loadDocuments,
+  openForEditing,
   sendBackChange,
   sendChange,
   undoLastChange,
-  waitingChangesFor,
   type SendInput,
 } from "@/lib/editor/changes";
 import { GitHubError, savingConfigured } from "@/lib/editor/github";
-import { SESSION_COOKIE, verifySessionToken } from "@/lib/editor/session";
+import { SESSION_COOKIE, sessionIdOf } from "@/lib/editor/session";
 import { addCountry, addUniversity, removeCountry, removeUniversity, type NewCountry } from "@/lib/editor/structure";
 import type { University } from "@/lib/schema";
 
@@ -50,14 +49,15 @@ function permissionNames(header: string): string {
     .join(" or ");
 }
 
-async function run<T>(work: () => Promise<T>): Promise<Result<T>> {
+async function run<T>(work: (session: string) => Promise<T>): Promise<Result<T>> {
   // The proxy already guards /admin; this check keeps actions safe on their own.
-  if (!verifySessionToken((await cookies()).get(SESSION_COOKIE)?.value)) {
+  const session = sessionIdOf((await cookies()).get(SESSION_COOKIE)?.value);
+  if (!session) {
     return { ok: false, error: "You have been signed out. Sign in again (copy anything you typed first)." };
   }
   if (!savingConfigured()) return { ok: false, error: "Saving is not switched on yet: the GitHub token still needs to be added." };
   try {
-    return { ok: true, value: await work() };
+    return { ok: true, value: await work(session) };
   } catch (e) {
     if (e instanceof EditorError) return { ok: false, error: e.message };
     console.error(e);
@@ -78,14 +78,11 @@ async function run<T>(work: () => Promise<T>): Promise<Result<T>> {
 }
 
 export async function loadForEdit(paths: string[], change?: number) {
-  return run(async () => ({
-    documents: await loadDocuments(paths, change),
-    waiting: change ? [] : await waitingChangesFor(paths),
-  }));
+  return run((session) => openForEditing(paths, change, session));
 }
 
 export async function sendForApproval(input: SendInput) {
-  return run(() => sendChange(input));
+  return run((session) => sendChange({ ...input, session }));
 }
 
 export async function fetchChanges() {
@@ -117,17 +114,17 @@ export async function undoLast(by: string) {
 }
 
 export async function addUniversityChange(by: string, data: University) {
-  return run(() => addUniversity(by, data));
+  return run((session) => addUniversity(by, data, session));
 }
 
 export async function removeUniversityChange(by: string, country: string, id: string) {
-  return run(() => removeUniversity(by, country, id));
+  return run((session) => removeUniversity(by, country, id, session));
 }
 
 export async function addCountryChange(by: string, input: NewCountry) {
-  return run(() => addCountry(by, input));
+  return run((session) => addCountry(by, input, session));
 }
 
 export async function removeCountryChange(by: string, code: string) {
-  return run(() => removeCountry(by, code));
+  return run((session) => removeCountry(by, code, session));
 }

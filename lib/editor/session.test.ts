@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { checkPassword, createSessionToken, editingConfigured, SESSION_HOURS, verifySessionToken } from "./session";
+import { checkPassword, createSessionToken, editingConfigured, SESSION_HOURS, sessionIdOf, sessionKey, verifySessionToken } from "./session";
 
 describe("editor session", () => {
   afterEach(() => vi.unstubAllEnvs());
@@ -26,11 +26,23 @@ describe("editor session", () => {
     const token = createSessionToken(now);
     expect(verifySessionToken(token, now + 1000)).toBe(true);
     expect(verifySessionToken(token, now + SESSION_HOURS * 3600_000 + 1)).toBe(false);
-    const [v, exp, sig] = token.split(".");
-    expect(verifySessionToken(`${v}.${Number(exp) + 3600_000}.${sig}`, now)).toBe(false);
+    const [v, exp, id, sig] = token.split(".");
+    expect(verifySessionToken(`${v}.${Number(exp) + 3600_000}.${id}.${sig}`, now)).toBe(false);
+    expect(verifySessionToken(`${v}.${exp}.someone-else.${sig}`, now)).toBe(false);
     expect(verifySessionToken(undefined, now)).toBe(false);
     expect(verifySessionToken("rubbish", now)).toBe(false);
     vi.stubEnv("EDITOR_PASSWORD", "a new password");
     expect(verifySessionToken(token, now + 1000)).toBe(false);
+  });
+
+  it("gives each sign-in its own session id, kept out of public text by hashing", () => {
+    vi.stubEnv("EDITOR_PASSWORD", "correct horse");
+    const a = createSessionToken();
+    const b = createSessionToken();
+    expect(sessionIdOf(a)).toBeTruthy();
+    expect(sessionIdOf(a)).not.toBe(sessionIdOf(b));
+    expect(sessionIdOf("rubbish")).toBeUndefined();
+    expect(sessionKey(sessionIdOf(a)!)).toMatch(/^[0-9a-f]{16}$/);
+    expect(sessionKey(sessionIdOf(a)!)).not.toContain(sessionIdOf(a)!);
   });
 });

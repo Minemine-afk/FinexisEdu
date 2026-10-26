@@ -1,15 +1,16 @@
-import { createHash, createHmac, timingSafeEqual } from "node:crypto";
+import { createHash, createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 
 /**
  * Editor sign-in: one shared password (the EDITOR_PASSWORD environment
  * variable) and a signed, expiring cookie. The signing key is derived from the
- * password, so changing the password signs everyone out. The public calculator
- * never reads any of this.
+ * password, so changing the password signs everyone out. Each sign-in gets its
+ * own random id, which groups everything edited in that sitting into one change
+ * for approval. The public calculator never reads any of this.
  */
 export const SESSION_COOKIE = "finexisedu_editor";
 export const SESSION_HOURS = 12;
 
-const VERSION = "v1";
+const VERSION = "v2";
 
 function password(): string | undefined {
   const value = process.env.EDITOR_PASSWORD;
@@ -40,20 +41,30 @@ export function checkPassword(attempt: string): boolean {
   return secret !== undefined && sameText(attempt, secret);
 }
 
-/** A cookie value that stays valid until `now + SESSION_HOURS`. */
+/** A cookie value, with a new session id, that stays valid until `now + SESSION_HOURS`. */
 export function createSessionToken(now = Date.now()): string {
   const secret = password();
   if (!secret) throw new Error("EDITOR_PASSWORD is not set");
-  const payload = `${VERSION}.${now + SESSION_HOURS * 3600_000}`;
+  const payload = `${VERSION}.${now + SESSION_HOURS * 3600_000}.${randomBytes(12).toString("base64url")}`;
   return `${payload}.${sign(payload, secret)}`;
 }
 
-export function verifySessionToken(token: string | undefined, now = Date.now()): boolean {
+/** The session id in a valid, unexpired cookie value; undefined for anything else. */
+export function sessionIdOf(token: string | undefined, now = Date.now()): string | undefined {
   const secret = password();
-  if (!secret || !token) return false;
+  if (!secret || !token) return undefined;
   const parts = token.split(".");
-  if (parts.length !== 3 || parts[0] !== VERSION) return false;
+  if (parts.length !== 4 || parts[0] !== VERSION) return undefined;
   const expires = Number(parts[1]);
-  if (!Number.isFinite(expires) || expires <= now) return false;
-  return sameText(parts[2], sign(`${parts[0]}.${parts[1]}`, secret));
+  if (!Number.isFinite(expires) || expires <= now) return undefined;
+  return sameText(parts[3], sign(parts.slice(0, 3).join("."), secret)) ? parts[2] : undefined;
+}
+
+export function verifySessionToken(token: string | undefined, now = Date.now()): boolean {
+  return sessionIdOf(token, now) !== undefined;
+}
+
+/** What a change records about the session that made it: a hash, since pull request text is public. */
+export function sessionKey(sessionId: string): string {
+  return sha256(`finexisedu-editor-batch:${sessionId}`).toString("hex").slice(0, 16);
 }

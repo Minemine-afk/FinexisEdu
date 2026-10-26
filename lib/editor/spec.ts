@@ -14,6 +14,8 @@ interface Base {
   key: string;
   label: string;
   help?: string;
+  /** Sample text, shown as a hint in the new-university form. */
+  example?: string;
   /** Leaving it empty removes it from the file. */
   optional?: boolean;
   /** Leaving it empty stores null (the field must stay in the file). */
@@ -72,13 +74,13 @@ const sourceType = {
 };
 
 const FEE_TIER: FieldSpec[] = [
-  { key: "annualTuition", label: "Yearly tuition", kind: "money" },
-  { key: "annualCompulsoryFees", label: "Yearly compulsory fees", kind: "money", optional: true },
-  { key: "oneOffFees", label: "One-off fees", kind: "money", optional: true },
+  { key: "annualTuition", label: "Yearly tuition", kind: "money", example: "32000" },
+  { key: "annualCompulsoryFees", label: "Yearly compulsory fees", kind: "money", optional: true, example: "1200" },
+  { key: "oneOffFees", label: "One-off fees", kind: "money", optional: true, example: "500" },
 ];
 
 const LATER_YEAR: FieldSpec[] = [
-  { key: "fromYear", label: "From year of study", kind: "int", help: "2 for the second year, and so on." },
+  { key: "fromYear", label: "From year of study", kind: "int", help: "2 for the second year, and so on.", example: "2" },
   {
     key: "tier",
     label: "Tier",
@@ -87,8 +89,8 @@ const LATER_YEAR: FieldSpec[] = [
     options: TIERS.map((t) => ({ value: t, label: TIER_LABEL[t] })),
     help: "Leave empty when it applies to every tier.",
   },
-  { key: "annualTuition", label: "Yearly tuition", kind: "money" },
-  { key: "annualCompulsoryFees", label: "Yearly compulsory fees", kind: "money", optional: true },
+  { key: "annualTuition", label: "Yearly tuition", kind: "money", example: "34000" },
+  { key: "annualCompulsoryFees", label: "Yearly compulsory fees", kind: "money", optional: true, example: "1200" },
   { key: "estimate", label: "Worked out from a published total", kind: "bool", defaultValue: false },
 ];
 
@@ -106,28 +108,35 @@ const laterYears = (label: string): FieldSpec => ({
 });
 
 const FEE_HISTORY: FieldSpec[] = [
-  { key: "feeYear", label: "Fee year", kind: "int" },
+  { key: "feeYear", label: "Fee year", kind: "int", example: "2025" },
   { key: "tier", label: "Tier", kind: "select", options: TIERS.map((t) => ({ value: t, label: TIER_LABEL[t] })) },
   ...FEE_TIER,
-  { key: "sourceUrl", label: "Source", kind: "url", optional: true },
+  { key: "sourceUrl", label: "Source", kind: "url", optional: true, example: "https://www.example.edu/fees/2025" },
   sourceType,
   laterYears("This intake's own later-year fees"),
 ];
 
 const PROGRAMME: FieldSpec[] = [
-  { key: "name", label: "Name", kind: "text", audience: "visitors" },
+  { key: "name", label: "Name", kind: "text", audience: "visitors", example: "Bachelor of Commerce" },
   { key: "partner", label: "Awarding partner id", kind: "text", optional: true, help: "Only for universities with partners." },
   { key: "level", label: "Level", kind: "select", options: LEVELS.map((l) => ({ value: l, label: level(l) })) },
   { key: "field", label: "Field", kind: "select", options: FIELDS.map((f) => ({ value: f, label: f })) },
-  { key: "majors", label: "Majors", kind: "strings", optional: true, itemLabel: "major" },
-  { key: "durationYears", label: "Length in years", kind: "number" },
-  { key: "feeYear", label: "Fee year", kind: "int" },
-  { key: "sourceUrl", label: "Fee source", kind: "url" },
-  { key: "lastVerified", label: "Last checked", kind: "date" },
+  { key: "majors", label: "Majors", kind: "strings", optional: true, itemLabel: "major", example: "Accounting, Finance, Marketing (one per line)" },
+  { key: "durationYears", label: "Length in years", kind: "number", example: "3" },
+  { key: "feeYear", label: "Fee year", kind: "int", example: "2026" },
+  { key: "sourceUrl", label: "Fee source", kind: "url", example: "https://www.example.edu/fees/bachelor-of-commerce" },
+  { key: "lastVerified", label: "Last checked", kind: "date", example: "the date you checked the fee page" },
   sourceType,
   { key: "cohortLocked", label: "Fee fixed for the whole course", kind: "bool", defaultValue: false },
   { key: "internationalEligible", label: "Open to international students", kind: "bool", defaultValue: true },
-  { key: "summary", label: "Summary", kind: "longtext", maxLength: 240, audience: "visitors" },
+  {
+    key: "summary",
+    label: "Summary",
+    kind: "longtext",
+    maxLength: 240,
+    audience: "visitors",
+    example: "A three-year business degree covering accounting, finance and marketing, with an optional work placement.",
+  },
   {
     key: "feeChoice",
     label: "How this fee was worked out",
@@ -135,8 +144,16 @@ const PROGRAMME: FieldSpec[] = [
     maxLength: 160,
     audience: "visitors",
     help: "One sentence, no amounts or links.",
+    example: "The international yearly fee published for the 2026 intake, using the top of the published range.",
   },
-  { key: "feeBasis", label: "Fee basis", kind: "longtext", maxLength: 240, audience: "maintainers" },
+  {
+    key: "feeBasis",
+    label: "Fee basis",
+    kind: "longtext",
+    maxLength: 240,
+    audience: "maintainers",
+    example: "International tuition from the 2026 fee table for this course; compulsory fees from the student services fee page.",
+  },
   { key: "notes", label: "Notes", kind: "longtext", optional: true, audience: "maintainers" },
   {
     key: "fees",
@@ -188,12 +205,32 @@ const PROGRAMME: FieldSpec[] = [
 export const programmeTitle = (p: Obj) => `${p.name || "New programme"} (${level(p.level)}${p.partner ? `, ${p.partner}` : ""})`;
 
 export const UNIVERSITY: FieldSpec[] = [
-  { key: "name", label: "Name", kind: "text", audience: "visitors" },
-  { key: "city", label: "City", kind: "text" },
-  { key: "website", label: "Website", kind: "url" },
-  { key: "description", label: "Description (shown on hover)", kind: "longtext", audience: "visitors" },
-  { key: "whyIncluded", label: "Why it is included", kind: "longtext", maxLength: 400, audience: "visitors" },
-  { key: "feeMethod", label: "How it prices degrees", kind: "longtext", maxLength: 220, audience: "maintainers" },
+  { key: "name", label: "Name", kind: "text", audience: "visitors", example: "University of Melbourne" },
+  { key: "city", label: "City", kind: "text", example: "Melbourne" },
+  { key: "website", label: "Website", kind: "url", example: "https://www.example.edu" },
+  {
+    key: "description",
+    label: "Description (shown on hover)",
+    kind: "longtext",
+    audience: "visitors",
+    example: "A large research university in the centre of Melbourne, known for its law, medicine and business schools.",
+  },
+  {
+    key: "whyIncluded",
+    label: "Why it is included",
+    kind: "longtext",
+    maxLength: 400,
+    audience: "visitors",
+    example: "Consistently ranked among the best universities in Australia and a popular choice for Singapore students, especially for business and engineering.",
+  },
+  {
+    key: "feeMethod",
+    label: "How it prices degrees",
+    kind: "longtext",
+    maxLength: 220,
+    audience: "maintainers",
+    example: "Fees are set per course and published each year in local currency on the university's course pages.",
+  },
   {
     key: "feeIncrease",
     label: "Yearly fee increase set by hand",
@@ -201,8 +238,8 @@ export const UNIVERSITY: FieldSpec[] = [
     optional: true,
     help: "Only when the fee history has a one-off jump that should not repeat every year.",
     fields: [
-      { key: "rate", label: "Rate", kind: "percent" },
-      { key: "reason", label: "Reason (shown in the tip)", kind: "longtext" },
+      { key: "rate", label: "Rate", kind: "percent", example: "5.8" },
+      { key: "reason", label: "Reason (shown in the tip)", kind: "longtext", example: "Fees rose sharply in 2025 after a one-off change in government funding, so a lower rate is used." },
     ],
   },
   {
@@ -211,23 +248,30 @@ export const UNIVERSITY: FieldSpec[] = [
     kind: "object",
     optional: true,
     fields: [
-      { key: "year", label: "Year of the estimate", kind: "int" },
-      { key: "months", label: "Months a year", kind: "number" },
+      { key: "year", label: "Year of the estimate", kind: "int", example: "2026" },
+      { key: "months", label: "Months a year", kind: "number", example: "12" },
       {
         key: "monthly",
         label: "Monthly amounts",
         kind: "object",
         fields: [
-          { key: "housing", label: "Housing", kind: "money" },
-          { key: "food", label: "Food", kind: "money" },
-          { key: "transport", label: "Transport", kind: "money" },
-          { key: "personal", label: "Personal", kind: "money" },
+          { key: "housing", label: "Housing", kind: "money", example: "1800" },
+          { key: "food", label: "Food", kind: "money", example: "600" },
+          { key: "transport", label: "Transport", kind: "money", example: "150" },
+          { key: "personal", label: "Personal", kind: "money", example: "400" },
         ],
       },
-      { key: "sourceUrl", label: "Source", kind: "url" },
-      { key: "lastVerified", label: "Last checked", kind: "date" },
+      { key: "sourceUrl", label: "Source", kind: "url", example: "https://www.example.edu/living-costs" },
+      { key: "lastVerified", label: "Last checked", kind: "date", example: "the date you checked the source" },
       sourceType,
-      { key: "summary", label: "Summary", kind: "longtext", maxLength: 280, audience: "visitors" },
+      {
+        key: "summary",
+        label: "Summary",
+        kind: "longtext",
+        maxLength: 280,
+        audience: "visitors",
+        example: "Based on the university's own estimate for a student living in shared accommodation near the campus.",
+      },
       { key: "notes", label: "Notes", kind: "longtext", optional: true, audience: "maintainers" },
     ],
   },
@@ -239,9 +283,9 @@ export const UNIVERSITY: FieldSpec[] = [
     itemLabel: "partner",
     addRemove: true,
     fields: [
-      { key: "id", label: "Short id", kind: "text", help: "Lower-case letters, digits and dashes; programmes name their partner by it." },
-      { key: "name", label: "Name", kind: "text" },
-      { key: "country", label: "Country", kind: "text" },
+      { key: "id", label: "Short id", kind: "text", help: "Lower-case letters, digits and dashes; programmes name their partner by it.", example: "partner-university" },
+      { key: "name", label: "Name", kind: "text", example: "Partner University" },
+      { key: "country", label: "Country", kind: "text", example: "United Kingdom" },
       { key: "website", label: "Website", kind: "url", optional: true },
       { key: "description", label: "Description", kind: "longtext", optional: true },
       { key: "feeMethod", label: "How it prices degrees", kind: "longtext", optional: true, maxLength: 220, audience: "maintainers" },

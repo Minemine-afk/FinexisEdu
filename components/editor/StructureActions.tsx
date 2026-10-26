@@ -9,7 +9,7 @@ import { buttonClass, NameInput, Notice, secondaryButtonClass, useEditorName } f
 function Sent({ change }: { change: number }) {
   return (
     <Notice tone="good">
-      Sent for approval.{" "}
+      Sent for approval; anything else you edit before then is added to it.{" "}
       <Link href={`/admin/approvals?change=${change}`} className="underline">
         Open it on the Approvals screen
       </Link>

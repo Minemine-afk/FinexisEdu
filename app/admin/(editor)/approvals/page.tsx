@@ -7,8 +7,8 @@ export default function Approvals() {
   return (
     <>
       <PageTitle title="Approvals">
-        Changes waiting to go live. Check what each one changes and open its preview; the person approving must not be the
-        person who sent it.
+        Changes waiting to go live. Everything one person edits in a sign-in is gathered into one change, so one approval
+        covers it all. Check what it changes and open its preview before approving.
       </PageTitle>
       <Suspense>
         <ApprovalsScreen names={loadNames()} />
