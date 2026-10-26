@@ -110,6 +110,10 @@ export class FakeGitHub {
       else this.branches.set(m[1], String(body.sha));
       return [method === "DELETE" ? 204 : 200, {}];
     }
+    if (method === "GET" && (m = /^\/git\/trees\/(.+)$/.exec(path))) {
+      const files = this.filesAt(decodeURIComponent(m[1]));
+      return [200, { truncated: false, tree: [...files.keys()].map((p) => ({ path: p, type: "blob" })) }];
+    }
     if (method === "GET" && (m = /^\/git\/commits\/(.+)$/.exec(path))) {
       const c = this.commits.get(m[1])!;
       return [200, { tree: { sha: c.tree }, parents: c.parents.map((sha) => ({ sha })) }];

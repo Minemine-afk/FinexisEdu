@@ -43,7 +43,7 @@ async function editNus(change?: number) {
 }
 
 describe("editor changes", () => {
-  it("sends, approves, records and undoes a change, with a different approver each time", async () => {
+  it("sends, approves, records and undoes a change, whoever approves", async () => {
     const n = await sendChange({ author: "Ana", summary: "Raise a fee", documents: [await editNus()] });
     expect(github.filesAt("main").get(NUS)).toBe(original);
     expect((await listChanges()).changes).toMatchObject([{ number: n, author: "Ana", title: "Raise a fee", sentBack: false }]);
@@ -54,14 +54,14 @@ describe("editor changes", () => {
 
     // A second change to the same file waits for the first.
     await expect(sendChange({ author: "Ben", summary: "Another", documents: [await editNus()] })).rejects.toThrow(/already waiting/);
-    await expect(approveChange(n, " ana ")).rejects.toThrow(/Someone other/);
     github.checkState = "in_progress";
     await expect(approveChange(n, "Ben")).rejects.toThrow(/still running/);
     github.checkState = "failure";
     await expect(approveChange(n, "Ben")).rejects.toThrow(/checks failed/);
     github.checkState = "success";
 
-    await approveChange(n, "Ben");
+    // The sender can approve their own change.
+    await approveChange(n, "Ana");
     const live = JSON.parse(github.filesAt("main").get(NUS)!);
     expect(live.programmes[0].fees.international.annualTuition).toBe(JSON.parse(original).programmes[0].fees.international.annualTuition + 100);
     expect([...github.branches.keys()]).toEqual(["main"]);

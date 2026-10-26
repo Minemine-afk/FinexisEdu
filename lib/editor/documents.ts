@@ -116,13 +116,15 @@ export function serialize(data: unknown): string {
   return `${JSON.stringify(data, null, 2)}\n`;
 }
 
-/** The editor page for a file. */
-export function editPageFor(path: string): string | undefined {
-  const u = UNIVERSITY_PATH.exec(path);
-  if (u) return `/admin/universities/${u[1]}/${u[2]}/edit`;
-  const c = COUNTRY_PATH.exec(path);
-  if (c) return `/admin/countries/${c[1]}/edit`;
-  if (path === "data/settings.json") return "/admin/settings/edit";
-  if (path === "data/courses.json" || path === "data/rationale.json") return "/admin/reasons/edit";
-  return undefined;
+/** The files edited together on one page (the two reasons files share a page). */
+export function filesEditedWith(path: string): string[] {
+  return path === "data/courses.json" || path === "data/rationale.json" ? ["data/courses.json", "data/rationale.json"] : [path];
+}
+
+/** The editor page for a file, optionally to edit a waiting change. */
+export function editPageFor(path: string, change?: number): string | undefined {
+  if (!documentKind(path)) return undefined;
+  const query = new URLSearchParams(filesEditedWith(path).map((f) => ["file", f]));
+  if (change) query.set("change", String(change));
+  return `/admin/edit?${query}`;
 }

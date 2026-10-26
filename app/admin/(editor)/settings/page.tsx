@@ -1,3 +1,4 @@
+import { editPageFor } from "@/lib/editor/documents";
 import { Cell, Facts, PageTitle, percent, Section, Table } from "@/components/editor/ui";
 import { loadCountries } from "@/lib/data";
 import { SETTINGS } from "@/lib/settings";
@@ -10,7 +11,7 @@ export default function SettingsScreen() {
 
   return (
     <>
-      <PageTitle title="Site settings" edit="/admin/settings/edit">The calculator&apos;s fixed assumptions and the hover explanations.</PageTitle>
+      <PageTitle title="Site settings" edit={editPageFor("data/settings.json")}>The calculator&apos;s fixed assumptions and the hover explanations.</PageTitle>
 
       <Facts
         rows={[

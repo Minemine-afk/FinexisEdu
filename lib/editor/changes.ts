@@ -59,9 +59,8 @@ function writeBody(meta: Meta, summary: string, files: string[]): string {
   ].join("\n");
 }
 
-const sameName = (a: string, b: string) => a.trim().toLowerCase() === b.trim().toLowerCase();
 
-function cleanName(name: string): string {
+export function cleanName(name: string): string {
   const n = name.trim().replace(/\s+/g, " ");
   if (n.length < 2 || n.length > 60) throw new EditorError("Type your name (2 to 60 characters).");
   return n;
@@ -197,7 +196,7 @@ async function registryUpdates(ref: string, files: { path: string; text: string 
   return out;
 }
 
-async function openPullRequest(meta: Meta, summary: string, files: { path: string; text: string | null }[]): Promise<number> {
+export async function openPullRequest(meta: Meta, summary: string, files: { path: string; text: string | null }[]): Promise<number> {
   const branch = `editor/${stamp()}-${slug(summary)}`;
   await createBranch(branch, await branchSha(BASE_BRANCH));
   try {
@@ -294,7 +293,6 @@ export async function approveChange(n: number, approver: string): Promise<void> 
   const name = cleanName(approver);
   const p = await openChange(n);
   const meta = readMeta(p.body);
-  if (meta.author && sameName(meta.author, name)) throw new EditorError("Someone other than the person who sent a change has to approve it.");
   if (p.labels.some((l) => l.name === SENT_BACK_LABEL)) throw new EditorError("This change was sent back. It needs updating before it can be approved.");
   const result = await checks(p.head.sha);
   if (result.state === "running" || result.state === "none") throw new EditorError("The checks are still running. Try again in a minute.");

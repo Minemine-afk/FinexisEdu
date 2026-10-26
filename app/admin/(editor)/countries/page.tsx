@@ -1,4 +1,6 @@
+import { editPageFor } from "@/lib/editor/documents";
 import Link from "next/link";
+import { RemoveCountry } from "@/components/editor/StructureActions";
 import { Cell, PageTitle, percent, Table } from "@/components/editor/ui";
 import { loadCountries, loadUniversities } from "@/lib/data";
 import { orderCountries, SETTINGS } from "@/lib/settings";
@@ -12,7 +14,7 @@ export default function CountriesScreen() {
 
   return (
     <>
-      <PageTitle title="Countries">
+      <PageTitle title="Countries" action={{ href: "/admin/countries/new", label: "Add a country" }}>
         Each country&apos;s currency, typical yearly fee increase (used when a university has too little fee history) and
         living-cost inflation, in the order the calculator lists them. Open a country to edit it; the order and intake months are in Site settings.
       </PageTitle>
@@ -26,6 +28,7 @@ export default function CountriesScreen() {
           "By tier",
           "Living-cost increase",
           "Usual intake month",
+          "",
         ]}
       >
         {orderCountries(countries.map((c) => c.code)).map((code) => {
@@ -37,7 +40,7 @@ export default function CountriesScreen() {
           return (
             <tr key={code}>
               <Cell>
-                <Link href={`/admin/countries/${code}/edit`} className="text-accent underline">
+                <Link href={editPageFor(`data/countries/${code}.json`)!} className="text-accent underline">
                   {c.name}
                 </Link>
               </Cell>
@@ -48,6 +51,7 @@ export default function CountriesScreen() {
               <Cell>{tiers || <span className="text-muted">-</span>}</Cell>
               <Cell>{c.livingCostIncrease === undefined ? <span className="text-muted">Site default</span> : percent(c.livingCostIncrease)}</Cell>
               <Cell>{MONTHS[month]}</Cell>
+              <Cell>{universities.some((u) => u.country === code) ? null : <RemoveCountry code={code} name={c.name} />}</Cell>
             </tr>
           );
         })}

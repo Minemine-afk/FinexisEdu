@@ -10,16 +10,26 @@ export function percent(rate: number | undefined): string {
   return rate === undefined ? "" : `${(rate * 100).toLocaleString("en-GB", { maximumFractionDigits: 2 })}%`;
 }
 
-export function PageTitle({ title, edit, children }: { title: string; edit?: string; children?: React.ReactNode }) {
+export function PageTitle({
+  title,
+  edit,
+  action,
+  children,
+}: {
+  title: string;
+  edit?: string;
+  action?: { href: string; label: string };
+  children?: React.ReactNode;
+}) {
   return (
     <div className="mb-6 flex items-start justify-between gap-6">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
         {children && <p className="mt-1 max-w-3xl text-muted">{children}</p>}
       </div>
-      {edit && (
-        <Link href={edit} className="shrink-0 rounded-md bg-accent-fill px-4 py-2 text-sm font-medium text-on-accent">
-          Edit
+      {(edit || action) && (
+        <Link href={(edit ?? action?.href)!} className="shrink-0 rounded-md bg-accent-fill px-4 py-2 text-sm font-medium text-on-accent">
+          {edit ? "Edit" : action!.label}
         </Link>
       )}
     </div>

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import fallback from "@/data/fx-fallback.json";
 import { loadCountries, loadCourses, loadRationale, loadUniversities } from "./data";
-import { FX_CURRENCIES } from "./fx";
+import { fxCurrencies } from "./fx";
 import { FIELDS, FxRates } from "./schema";
 import { Settings, SETTINGS } from "./settings";
 
@@ -192,8 +192,8 @@ describe("committed data", () => {
     }
   });
 
-  it("has a fallback rate for every currency", () => {
+  it("has a fallback rate for every country's currency", () => {
     const fx = FxRates.parse(fallback);
-    for (const c of FX_CURRENCIES) expect(fx.rates[c], c).toBeGreaterThan(0);
+    for (const c of fxCurrencies(countries)) expect(fx.rates[c], c).toBeGreaterThan(0);
   });
 });

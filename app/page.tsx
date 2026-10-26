@@ -2,7 +2,7 @@ import Calculator from "@/components/Calculator";
 import CourseRationale from "@/components/CourseRationale";
 import UniversityRationale from "@/components/UniversityRationale";
 import { forSite, loadCountries, loadCourses, loadRationale, loadUniversities } from "@/lib/data";
-import { getFxRates } from "@/lib/fx";
+import { fxCurrencies, getFxRates } from "@/lib/fx";
 import { Settings, SETTINGS } from "@/lib/settings";
 import { singaporeToday } from "@/lib/today";
 
@@ -16,7 +16,7 @@ export default async function Home() {
   const countries = loadCountries();
   const rationale = loadRationale();
   const courses = loadCourses();
-  const fx = await getFxRates();
+  const fx = await getFxRates(fxCurrencies(countries));
   // The browser works out its own date again; this is only the first guess.
   const today = singaporeToday();
 

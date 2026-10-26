@@ -6,7 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 import { loadForEdit, sendForApproval } from "@/app/admin/editor-actions";
 import type { WaitingChange } from "@/lib/editor/changes";
 import { diffDocument } from "@/lib/editor/diff";
-import { describeLocation, documentKind, validateDocument, type Names } from "@/lib/editor/documents";
+import { describeLocation, documentKind, editPageFor, validateDocument, type Names } from "@/lib/editor/documents";
 import { buttonClass, ChangeRows, NameInput, Notice, secondaryButtonClass, useEditorName } from "./shared";
 import { Field } from "./SpecForm";
 
@@ -105,7 +105,7 @@ export default function EditScreen({ paths, names, backHref }: { paths: string[]
   if (sent) {
     return (
       <Notice tone="good">
-        {change ? "The change has been updated" : "Sent for approval"}. Someone else now needs to approve it on the{" "}
+        {change ? "The change has been updated" : "Sent for approval"}. Check it and approve it on the{" "}
         <Link href={`/admin/approvals?change=${sent}`} className="underline">
           Approvals
         </Link>{" "}
@@ -129,7 +129,7 @@ export default function EditScreen({ paths, names, backHref }: { paths: string[]
           <Notice tone="warn">
             &quot;{waiting[0].title}&quot; by {waiting[0].author || "an editor"} is {waiting[0].sentBack ? "sent back and " : ""}waiting for
             approval on this, so a second change cannot be sent until it is approved, sent back or discarded.{" "}
-            <button type="button" className="underline" onClick={() => router.push(`?change=${waiting[0].number}`)}>
+            <button type="button" className="underline" onClick={() => router.push(editPageFor(paths[0], waiting[0].number)!)}>
               Edit that change instead
             </button>{" "}
             or{" "}

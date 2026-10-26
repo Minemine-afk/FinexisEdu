@@ -39,8 +39,10 @@ export type FieldSpec =
       title: (item: Obj) => string;
       /** Matches an item before and after a change; defaults to its position. */
       identity?: (item: Obj) => string;
-      /** False for lists whose items are added and removed elsewhere (programmes). */
+      /** False for lists whose items are fixed (one per field of study). */
       addRemove: boolean;
+      /** Offer "Copy" on each item, to start a new one from it. */
+      copyable?: boolean;
       /** A new item's starting values. */
       blank?: () => Obj;
       collapsed?: boolean;
@@ -183,7 +185,7 @@ const PROGRAMME: FieldSpec[] = [
   },
 ];
 
-export const programmeTitle = (p: Obj) => `${p.name ?? "Untitled"} (${level(p.level)}${p.partner ? `, ${p.partner}` : ""})`;
+export const programmeTitle = (p: Obj) => `${p.name || "New programme"} (${level(p.level)}${p.partner ? `, ${p.partner}` : ""})`;
 
 export const UNIVERSITY: FieldSpec[] = [
   { key: "name", label: "Name", kind: "text", audience: "visitors" },
@@ -235,27 +237,42 @@ export const UNIVERSITY: FieldSpec[] = [
     kind: "list",
     optional: true,
     itemLabel: "partner",
-    addRemove: false,
+    addRemove: true,
     fields: [
+      { key: "id", label: "Short id", kind: "text", help: "Lower-case letters, digits and dashes; programmes name their partner by it." },
       { key: "name", label: "Name", kind: "text" },
       { key: "country", label: "Country", kind: "text" },
       { key: "website", label: "Website", kind: "url", optional: true },
       { key: "description", label: "Description", kind: "longtext", optional: true },
       { key: "feeMethod", label: "How it prices degrees", kind: "longtext", optional: true, maxLength: 220, audience: "maintainers" },
     ],
-    title: (i) => String(i.name ?? i.id),
+    title: (i) => String(i.name || i.id || "New partner"),
     identity: (i) => String(i.id),
+    blank: () => ({ id: "", name: "", country: "" }),
   },
   {
     key: "programmes",
     label: "Programmes",
     kind: "list",
     itemLabel: "programme",
-    addRemove: false,
+    addRemove: true,
+    copyable: true,
     collapsed: true,
     fields: PROGRAMME,
     title: programmeTitle,
     identity: (p) => `${p.partner ?? ""}|${p.level}|${p.name}`,
+    blank: () => ({
+      level: "bachelor",
+      field: FIELDS[0],
+      name: "",
+      durationYears: 3,
+      feeYear: new Date().getFullYear(),
+      fees: { international: { annualTuition: 0 } },
+      sourceUrl: "",
+      lastVerified: new Date().toISOString().slice(0, 10),
+      feeHistory: [],
+      laterYears: [],
+    }),
   },
 ];
 

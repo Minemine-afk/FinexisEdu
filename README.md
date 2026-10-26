@@ -251,9 +251,16 @@ To let the editor save, add an `EDITOR_GITHUB_TOKEN` as well: on GitHub go to
 choose **Only select repositories** with this repository, give it **Contents** and
 **Pull requests** set to *Read and write*, and set an expiry date (renew it before
 then). Each saved change becomes a pull request labelled `editor-change`; it goes
-live only when someone other than its sender approves it on the editor's
-Approvals screen after its checks pass. Approving merges it, and Vercel then
-redeploys the site. The page re-renders daily for fresh exchange
+live once it is approved on the editor's Approvals screen (the sender can
+approve their own change) after its checks pass. Approving merges it, and Vercel then
+redeploys the site.
+
+Editors can also add and remove programmes, universities and countries. A new
+university's fee pages go into `scrapers/registry.d/<id>.yaml` as pages to check
+by hand; removing one also drops its scraper entries and shortlist place. A new
+country's currency must be one the European Central Bank publishes, and its
+rate is added to `data/fx-fallback.json`; the list of currencies to fetch comes
+from the country files. The page re-renders daily for fresh exchange
 rates, and every merge into `main` (including approved data PRs) redeploys it.
 
 For the monthly data PRs, go to **Settings → Actions → General** and allow

@@ -1,5 +1,7 @@
+import { editPageFor } from "@/lib/editor/documents";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { RemoveUniversity } from "@/components/editor/StructureActions";
 import { Cell, ExternalLink, Facts, money, PageTitle, percent, Section, Table } from "@/components/editor/ui";
 import { loadCountries, loadRationale, loadUniversities } from "@/lib/data";
 import { TIERS, type FeeTier, type LaterYearFee, type Programme } from "@/lib/schema";
@@ -137,7 +139,7 @@ export default async function UniversityScreen({ params }: { params: Promise<{ c
       <Link href="/admin" className="text-sm text-accent underline">
         All universities
       </Link>
-      <PageTitle title={u.name} edit={`/admin/universities/${u.country}/${u.id}/edit`}>
+      <PageTitle title={u.name} edit={editPageFor(`data/universities/${u.country}/${u.id}.json`)}>
         {u.city}, {countryName}. Fees are in {u.currency}.
       </PageTitle>
 
@@ -210,6 +212,10 @@ export default async function UniversityScreen({ params }: { params: Promise<{ c
           ))}
         </div>
       </Section>
+
+      <div className="mt-10">
+        <RemoveUniversity country={u.country} id={u.id} name={u.name} />
+      </div>
     </>
   );
 }
