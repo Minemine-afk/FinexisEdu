@@ -52,6 +52,13 @@ function readMeta(body: string | null): Meta {
   }
 }
 
+const FILE_LINE = /^- `([^`]+)`$/gm;
+
+/** The files a change's description lists. Written with every commit, so unlike GitHub's file list it is never behind. */
+function listedFiles(body: string | null): string[] {
+  return [...(body ?? "").matchAll(FILE_LINE)].map((m) => m[1]);
+}
+
 function writeBody(meta: Meta, summary: string, files: string[]): string {
   return [
     `<!-- finexisedu-editor ${JSON.stringify(meta)} -->`,
@@ -133,7 +140,11 @@ export async function sessionWorkspace(session?: string): Promise<Workspace> {
     return meta.session === key && !meta.undoOf;
   });
   if (!batch) return live;
-  const touched = new Set((await pulls.files(batch.number)).flatMap((f) => [f.filename, ...(f.previous_filename ? [f.previous_filename] : [])]));
+  // GitHub's file list can lag a moment behind the latest commit, so the description's list is included too.
+  const touched = new Set([
+    ...listedFiles(batch.body),
+    ...(await pulls.files(batch.number)).flatMap((f) => [f.filename, ...(f.previous_filename ? [f.previous_filename] : [])]),
+  ]);
   return { batch, treeRef: batch.head.ref, ref: (path) => (touched.has(path) ? batch.head.ref : BASE_BRANCH) };
 }
 
@@ -194,6 +205,11 @@ export async function sendChange(input: SendInput): Promise<number> {
     const files = await changedSince(() => pr.head.ref, input.documents);
     if (files.length === 0) throw new EditorError("Nothing has changed.");
     await commitFiles(pr.head.ref, `${summary}\n\nEdited by ${author} in the FinexisEdu editor.`, files);
+    const listed = listedFiles(pr.body);
+    if (files.some((f) => !listed.includes(f.path))) {
+      const all = [...new Set([...listed, ...files.map((f) => f.path)])];
+      await pulls.update(pr.number, { body: writeBody(readMeta(pr.body), pr.title.replace(/ and \d+ more$/, ""), all) });
+    }
     await issues.removeLabel(pr.number, SENT_BACK_LABEL);
     await issues.comment(pr.number, `<!-- finexisedu-note ${JSON.stringify({ by: author, kind: "updated" })} -->\nUpdated by **${author}**: ${summary}`);
     return pr.number;
@@ -223,7 +239,7 @@ export async function submitFiles(ws: Workspace, meta: Meta, summary: string, fi
   const count = (before.count ?? 1) + 1;
   const first = batch.title.replace(/ and \d+ more$/, "");
   await commitFiles(batch.head.ref, `${summary}\n\nAdded by ${meta.author} in the FinexisEdu editor.`, files);
-  const all = (await pulls.files(batch.number)).map((f) => f.filename);
+  const all = [...new Set([...listedFiles(batch.body), ...files.map((f) => f.path)])];
   await pulls.update(batch.number, { title: `${first} and ${count - 1} more`, body: writeBody({ ...before, count }, first, all) });
   await issues.comment(batch.number, `<!-- finexisedu-note ${JSON.stringify({ by: meta.author, kind: "added" })} -->\nAdded by **${meta.author}**: ${summary}`);
   return batch.number;

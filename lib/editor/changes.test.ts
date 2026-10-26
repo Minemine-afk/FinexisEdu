@@ -168,6 +168,19 @@ describe("editor changes", () => {
       expect(next).not.toBe(n);
     });
 
+    it("keeps an earlier edit of the same file even while GitHub's file list is behind", async () => {
+      const n = await sendChange({ author: "Ana", summary: "Raise NTU fee", documents: [await raise(NTU, "a")], session: "a" });
+      // From here GitHub keeps reporting only NTU, so the NUS edits must be tracked another way.
+      github.staleFiles = true;
+      await sendChange({ author: "Ana", summary: "Raise NUS fee", documents: [await raise(NUS, "a")], session: "a" });
+      expect(await sendChange({ author: "Ana", summary: "Raise NUS again", documents: [await raise(NUS, "a")], session: "a" })).toBe(n);
+      github.staleFiles = false;
+      const before = (JSON.parse(original) as Tuition).programmes[0].fees.international.annualTuition;
+      await approveChange(n, "Ana");
+      expect(tuition(NUS)).toBe(before + 200);
+      expect(tuition(NTU)).toBe((JSON.parse(fs.readFileSync(NTU, "utf8")) as Tuition).programmes[0].fees.international.annualTuition + 100);
+    });
+
     it("keeps different sign-ins apart, and blocks two of them editing the same file", async () => {
       const a = await sendChange({ author: "Ana", summary: "Raise NUS fee", documents: [await raise(NUS, "a")], session: "a" });
       const b = await sendChange({ author: "Ben", summary: "Raise NTU fee", documents: [await raise(NTU, "b")], session: "b" });
