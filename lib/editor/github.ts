@@ -5,7 +5,7 @@
  *
  * Environment: EDITOR_GITHUB_TOKEN, a fine-grained token limited to this
  * repository with read and write access to Contents, Pull requests and Issues,
- * and read access to Checks, Commit statuses and Deployments; and optionally
+ * and read access to Actions, Commit statuses and Deployments; and optionally
  * EDITOR_GITHUB_REPO ("owner/name", default below).
  */
 
@@ -146,14 +146,20 @@ export interface CheckSummary {
   failed: string[];
 }
 
-/** The combined result of the CI checks and commit statuses on a commit. */
+/**
+ * The combined result of the GitHub Actions runs and commit statuses (Vercel's) on a commit.
+ * Actions runs are read rather than check runs because fine-grained tokens cannot be given
+ * the Checks permission.
+ */
 export async function checks(sha: string): Promise<CheckSummary> {
   const [runs, status] = await Promise.all([
-    gh<{ check_runs: { name: string; status: string; conclusion: string | null }[] }>("GET", `/commits/${sha}/check-runs?per_page=100`),
+    gh<{ workflow_runs: { name: string; status: string; conclusion: string | null }[] }>("GET", `/actions/runs?head_sha=${sha}&per_page=100`),
     gh<{ statuses: { context: string; state: string }[] }>("GET", `/commits/${sha}/status`),
   ]);
+  // Runs come newest first; a re-run supersedes the earlier run of the same workflow.
+  const latest = runs.workflow_runs.filter((r, i, all) => all.findIndex((o) => o.name === r.name) === i);
   const items = [
-    ...runs.check_runs.map((r) => ({
+    ...latest.map((r) => ({
       name: r.name,
       state: r.status !== "completed" ? "running" : ["success", "skipped", "neutral"].includes(r.conclusion ?? "") ? "passed" : "failed",
     })),

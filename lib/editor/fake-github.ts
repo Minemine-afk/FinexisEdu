@@ -186,9 +186,9 @@ export class FakeGitHub {
       if (method === "POST") p.comments.push({ body: String(body.body), created_at: "2026-10-25T01:00:00Z" });
       return [200, p.comments];
     }
-    if (method === "GET" && /^\/commits\/[^/]+\/check-runs$/.test(path)) {
+    if (method === "GET" && path === "/actions/runs") {
       const done = this.checkState !== "in_progress";
-      return [200, { check_runs: [{ name: "web", status: done ? "completed" : "in_progress", conclusion: done ? this.checkState : null }] }];
+      return [200, { workflow_runs: [{ name: "CI", status: done ? "completed" : "in_progress", conclusion: done ? this.checkState : null }] }];
     }
     if (method === "GET" && /^\/commits\/[^/]+\/status$/.test(path)) return [200, { statuses: [] }];
     if (method === "GET" && path === "/deployments") return [200, [{ id: 1 }]];

@@ -27,6 +27,7 @@ const PERMISSION_NAMES: Record<string, string> = {
   contents: "Contents",
   pull_requests: "Pull requests",
   issues: "Issues",
+  actions: "Actions",
   checks: "Checks",
   statuses: "Commit statuses",
   deployments: "Deployments",
