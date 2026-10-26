@@ -1,7 +1,9 @@
 # Fee data schema
 
 One JSON file per university at `data/universities/<country>/<id>.json`.
-Country codes: `sg`, `uk`, `au`, `us`, `de`, `ca`, `nz`, `ch`, `jp`, `ie`.
+Country codes are two lowercase letters, one per file in `data/countries/` (today `sg`, `uk`, `au`, `us`,
+`de`, `ca`, `nz`, `ch`, `jp`, `ie`). Adding a country = adding its file; see "Site settings" below for its
+place in the pickers and its intake month.
 
 ```jsonc
 {
@@ -161,3 +163,18 @@ Living costs (optional, universities outside Singapore only):
   list; `note` carries a short condition such as `"JD only"` or
   `"entrants before 2015"`. The site shows "SILE listed" / "Not on SMC list" on
   the result and in the programme picker.
+
+Site settings (`data/settings.json`, checked by `lib/settings.ts`; the build fails on a bad value):
+```jsonc
+{
+  "countryOrder": ["sg", "au", "uk", "us", "de", "ca", "nz", "ch", "jp", "ie"], // picker order; unlisted countries follow alphabetically
+  "intakeMonth": { "sg": 7, "us": 7, "au": 1, "nz": 1, "jp": 3, "de": 9 },    // month first fees are due, 0 = January
+  "defaultIntakeMonth": 8,                                                     // for countries not in intakeMonth
+  "lifestyleMultiplier": { "frugal": 0.8, "moderate": 1, "comfortable": 1.3 }, // scales the living-cost estimate
+  "maxFeeIncrease": 0.15,             // cap on the yearly increase derived from fee history (0 to 0.5)
+  "fallbackFeeIncrease": 0.03,        // when neither the university nor its country gives a rate
+  "fallbackLivingCostIncrease": 0.03, // when the country gives no livingCostIncrease
+  "maxStartYear": 2090,               // latest start year a visitor can pick
+  "glossary": { "residency": "...", ... } // hover explanations; the terms are fixed in code (GLOSSARY_TERMS), the wording is not
+}
+```

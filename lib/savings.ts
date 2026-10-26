@@ -6,20 +6,14 @@
  * `startOfMonth` is set.
  */
 
+import { SETTINGS } from "./settings";
+
 /** The default investing return, % a year. */
 export const DEFAULT_INVEST_RATE = 6;
 
-/** Month the first fees fall due (0 = January): August in Singapore and the US, otherwise each country's usual intake. */
-const INTAKE_MONTH: Record<string, number> = {
-  sg: 7,
-  us: 7,
-  au: 1,
-  nz: 1,
-  jp: 3,
-  de: 9,
-};
+/** Month the first fees fall due (0 = January): each country's usual intake, from data/settings.json. */
 export function defaultIntakeMonth(country: string): number {
-  return INTAKE_MONTH[country] ?? 8;
+  return SETTINGS.intakeMonth[country] ?? SETTINGS.defaultIntakeMonth;
 }
 
 export const monthlyRate = (ratePct: number) => ratePct / 100 / 12;

@@ -1,13 +1,10 @@
 import type { LivingCategory, LivingCosts } from "./schema";
+import { SETTINGS } from "./settings";
 
 export type Lifestyle = "frugal" | "moderate" | "comfortable";
 
 /** How each lifestyle scales the university's own (moderate) estimate. */
-export const LIFESTYLE_MULTIPLIER: Record<Lifestyle, number> = {
-  frugal: 0.8,
-  moderate: 1,
-  comfortable: 1.3,
-};
+export const LIFESTYLE_MULTIPLIER: Record<Lifestyle, number> = SETTINGS.lifestyleMultiplier;
 
 export type MonthlyLiving = Record<LivingCategory, number>;
 

@@ -1,4 +1,5 @@
 import type { Country, Programme, Tier, University } from "./schema";
+import { SETTINGS } from "./settings";
 
 /** How a university's yearly fee increase was arrived at. */
 export interface IncreaseEstimate {
@@ -16,7 +17,7 @@ export interface IncreaseEstimate {
 }
 
 const MIN_RATE = 0;
-const MAX_RATE = 0.15;
+const MAX_RATE = SETTINGS.maxFeeIncrease;
 const MIN_SERIES = 2;
 
 function median(xs: number[]): number {
@@ -100,7 +101,7 @@ export function universityIncrease(
   const all = programmeIncrease(university.programmes, tier);
   if (all) return all;
   const rate =
-    country?.feeIncreaseByTier?.[tier] ?? country?.defaultFeeIncrease ?? 0.03;
+    country?.feeIncreaseByTier?.[tier] ?? country?.defaultFeeIncrease ?? SETTINGS.fallbackFeeIncrease;
   return { rate, basis: "country", series: 0 };
 }
 
