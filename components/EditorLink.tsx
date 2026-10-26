@@ -1,14 +1,31 @@
 "use client";
 
-import { useLayout } from "./useLayout";
+import { useSyncExternalStore } from "react";
+
+// A computer has a mouse or trackpad as its main pointer and a window wide enough for the desktop layout.
+const COMPUTER = "(pointer: fine) and (hover: hover) and (min-width: 1024px)";
+
+function onComputer(): boolean {
+  const ua = navigator.userAgent;
+  if (/iPhone|iPad|iPod|Android|Mobi/i.test(ua)) return false;
+  // iPadOS Safari presents itself as a Mac, but a real Mac has no touch screen.
+  if (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1) return false;
+  return window.matchMedia(COMPUTER).matches;
+}
+
+function subscribe(onChange: () => void) {
+  const list = window.matchMedia(COMPUTER);
+  list.addEventListener("change", onChange);
+  return () => list.removeEventListener("change", onChange);
+}
 
 /**
- * The way into the editor: a faint symbol that only computers get. Phones and
- * tablets (including an iPad with a keyboard or trackpad) never have it in the
- * page at all, using the same test the calculator uses to pick its touch layout.
+ * The way into the editor: a faint symbol that only computers get, touch
+ * laptops included. Phones and tablets (including an iPad with a keyboard or
+ * trackpad) never have it in the page at all.
  */
 export default function EditorLink() {
-  if (useLayout() !== "desktop") return null;
+  if (!useSyncExternalStore(subscribe, onComputer, () => false)) return null;
   return (
     <a
       href="/admin"
