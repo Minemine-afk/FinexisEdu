@@ -82,7 +82,6 @@ function Detail({ number, names, onDone }: { number: number; names: Names; onDon
   if (error && !change) return <Notice tone="warn">{error}</Notice>;
   if (!change) return <p className="text-muted">Loading the change…</p>;
 
-  const own = change.author !== "" && name.trim().toLowerCase() === change.author.trim().toLowerCase();
   const editPages = [...new Set(change.files.map((f) => editPageFor(f.path, change.number)).filter(Boolean))];
   const ready = change.checks.state === "passed" && !change.sentBack && change.mergeable !== false;
 
@@ -126,14 +125,13 @@ function Detail({ number, names, onDone }: { number: number; names: Names; onDon
 
       <div className="space-y-4 rounded-lg border border-border p-4">
         <NameInput name={name} setName={setName} />
-        {own && <p className="text-sm text-warn-fg">You sent this change, so someone else has to approve it.</p>}
         {change.sentBack && <p className="text-sm text-warn-fg">Sent back: it needs updating before it can be approved.</p>}
         {error && <Notice tone="warn">{error}</Notice>}
         <div className="flex flex-wrap gap-3">
           <button
             type="button"
             className={buttonClass}
-            disabled={busy || own || !ready || name.trim().length < 2}
+            disabled={busy || !ready || name.trim().length < 2}
             onClick={() => act(() => approve(change.number, name), `Approved "${change.title}". The calculator updates in a few minutes.`)}
           >
             Approve and publish

@@ -86,7 +86,7 @@ export default function NewUniversityScreen({ countries }: { countries: { value:
   if (sent) {
     return (
       <Notice tone="good">
-        Sent for approval. Once someone else approves it on the{" "}
+        Sent for approval. Once it is approved on the{" "}
         <Link href={`/admin/approvals?change=${sent}`} className="underline">
           Approvals
         </Link>{" "}

@@ -105,7 +105,7 @@ export default function EditScreen({ paths, names, backHref }: { paths: string[]
   if (sent) {
     return (
       <Notice tone="good">
-        {change ? "The change has been updated" : "Sent for approval"}. Someone else now needs to approve it on the{" "}
+        {change ? "The change has been updated" : "Sent for approval"}. Check it and approve it on the{" "}
         <Link href={`/admin/approvals?change=${sent}`} className="underline">
           Approvals
         </Link>{" "}

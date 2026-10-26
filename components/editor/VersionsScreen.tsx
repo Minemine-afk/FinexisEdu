@@ -29,8 +29,8 @@ export default function VersionsScreen() {
         <div className="space-y-3 rounded-lg border border-border p-4">
           <p className="text-sm">
             The last approved change was <strong>{latest.title}</strong>, sent by {latest.author || "an editor"} and approved on{" "}
-            {when(latest.mergedAt)}. Undoing it sends a change that puts those files back as they were, which someone else then
-            approves like any other. The restored data can be edited again afterwards.
+            {when(latest.mergedAt)}. Undoing it sends a change that puts those files back as they were, which is then
+            approved like any other. The restored data can be edited again afterwards.
           </p>
           {sent ? (
             <Notice tone="good">

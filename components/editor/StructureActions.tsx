@@ -35,8 +35,8 @@ export function RemoveUniversity({ country, id, name: universityName }: { countr
   return (
     <div className="space-y-3 rounded-lg border border-border p-4">
       <p className="text-sm">
-        Removing {universityName} takes it out of the calculator, its shortlist place and the monthly fee check, once someone else approves
-        it. It can be brought back with &quot;Undo the last change&quot; while nothing newer has been approved.
+        Removing {universityName} takes it out of the calculator, its shortlist place and the monthly fee check, once it is
+        approved. It can be brought back with &quot;Undo the last change&quot; while nothing newer has been approved.
       </p>
       <div className="flex items-end gap-3">
         <NameInput name={name} setName={setName} />

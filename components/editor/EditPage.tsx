@@ -25,7 +25,7 @@ export default function EditPage({ names }: { names: Names }) {
       <div className="mb-6">
         <h1 className="text-2xl font-semibold tracking-tight">Edit {title}</h1>
         <p className="mt-1 max-w-3xl text-muted">
-          Changes are checked as you type. Nothing reaches the calculator until someone else approves it.
+          Changes are checked as you type. Nothing reaches the calculator until it is approved on the Approvals screen.
         </p>
       </div>
       <EditScreen key={params.toString()} paths={files} names={names} backHref={viewPageFor(files[0])} />

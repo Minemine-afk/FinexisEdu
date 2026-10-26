@@ -59,7 +59,6 @@ function writeBody(meta: Meta, summary: string, files: string[]): string {
   ].join("\n");
 }
 
-const sameName = (a: string, b: string) => a.trim().toLowerCase() === b.trim().toLowerCase();
 
 export function cleanName(name: string): string {
   const n = name.trim().replace(/\s+/g, " ");
@@ -294,7 +293,6 @@ export async function approveChange(n: number, approver: string): Promise<void> 
   const name = cleanName(approver);
   const p = await openChange(n);
   const meta = readMeta(p.body);
-  if (meta.author && sameName(meta.author, name)) throw new EditorError("Someone other than the person who sent a change has to approve it.");
   if (p.labels.some((l) => l.name === SENT_BACK_LABEL)) throw new EditorError("This change was sent back. It needs updating before it can be approved.");
   const result = await checks(p.head.sha);
   if (result.state === "running" || result.state === "none") throw new EditorError("The checks are still running. Try again in a minute.");

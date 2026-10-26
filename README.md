@@ -251,8 +251,8 @@ To let the editor save, add an `EDITOR_GITHUB_TOKEN` as well: on GitHub go to
 choose **Only select repositories** with this repository, give it **Contents** and
 **Pull requests** set to *Read and write*, and set an expiry date (renew it before
 then). Each saved change becomes a pull request labelled `editor-change`; it goes
-live only when someone other than its sender approves it on the editor's
-Approvals screen after its checks pass. Approving merges it, and Vercel then
+live once it is approved on the editor's Approvals screen (the sender can
+approve their own change) after its checks pass. Approving merges it, and Vercel then
 redeploys the site.
 
 Editors can also add and remove programmes, universities and countries. A new

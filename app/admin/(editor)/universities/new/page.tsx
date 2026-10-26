@@ -14,7 +14,7 @@ export default function NewUniversity() {
       </Link>
       <PageTitle title="Add a university">
         Fill in the university and at least one programme. Its fee pages are added to the monthly check as pages to check by
-        hand. Nothing reaches the calculator until someone else approves it.
+        hand. Nothing reaches the calculator until it is approved on the Approvals screen.
       </PageTitle>
       <NewUniversityScreen countries={countries} />
     </>
