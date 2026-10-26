@@ -26,12 +26,17 @@ export default async function Home() {
         <div className="safe-x mx-auto max-w-6xl pt-[calc(env(safe-area-inset-top)+2.5rem)] pb-10 sm:pt-[calc(env(safe-area-inset-top)+3.5rem)] sm:pb-14">
           <div className="flex items-baseline justify-between gap-4">
             <p className="text-sm font-semibold uppercase tracking-widest text-on-accent-muted">FinexisEdu</p>
-            {/* Editing is desktop-only, so phones and tablets don't see the link. */}
+            {/* The editor link: desktop-only, and kept faint so visitors do not notice it. */}
             <a
               href="/admin"
-              className="hidden text-sm text-on-accent-muted underline-offset-4 hover:text-on-accent hover:underline lg:pointer-fine:inline"
+              aria-label="Editor login"
+              className="hidden rounded px-1.5 py-1 text-on-accent-muted opacity-30 transition-opacity hover:opacity-100 focus-visible:opacity-100 lg:pointer-fine:inline-block"
             >
-              Editor login
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
+                <rect x="1" y="1" width="2" height="12" rx="1" />
+                <rect x="6" y="1" width="2" height="12" rx="1" />
+                <rect x="11" y="1" width="2" height="12" rx="1" />
+              </svg>
             </a>
           </div>
           <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">University fee calculator</h1>
