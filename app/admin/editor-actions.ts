@@ -23,6 +23,33 @@ import type { University } from "@/lib/schema";
 /** Every editor action answers with a result rather than throwing, so the message reaches the screen. */
 export type Result<T> = { ok: true; value: T } | { ok: false; error: string };
 
+const PERMISSION_NAMES: Record<string, string> = {
+  contents: "Contents",
+  pull_requests: "Pull requests",
+  issues: "Issues",
+  actions: "Actions",
+  checks: "Checks",
+  statuses: "Commit statuses",
+  deployments: "Deployments",
+  metadata: "Metadata",
+};
+
+/** "checks=read; pull_requests=read" -> "Checks (read) or Pull requests (read)". */
+function permissionNames(header: string): string {
+  return header
+    .split(";")
+    .map((alt) =>
+      alt
+        .split(",")
+        .map((p) => p.trim().split("="))
+        .filter(([name]) => name)
+        .map(([name, level]) => `${PERMISSION_NAMES[name] ?? name} (${level === "write" ? "read and write" : "read"})`)
+        .join(" and "),
+    )
+    .filter(Boolean)
+    .join(" or ");
+}
+
 async function run<T>(work: () => Promise<T>): Promise<Result<T>> {
   // The proxy already guards /admin; this check keeps actions safe on their own.
   if (!verifySessionToken((await cookies()).get(SESSION_COOKIE)?.value)) {
@@ -34,8 +61,17 @@ async function run<T>(work: () => Promise<T>): Promise<Result<T>> {
   } catch (e) {
     if (e instanceof EditorError) return { ok: false, error: e.message };
     console.error(e);
-    if (e instanceof GitHubError && (e.status === 401 || e.status === 403)) {
-      return { ok: false, error: "GitHub refused the request. The token may have expired or lack access; it needs replacing." };
+    if (e instanceof GitHubError && e.status === 401) {
+      return { ok: false, error: "GitHub refused the request: the token has expired or is wrong, so it needs replacing." };
+    }
+    if (e instanceof GitHubError && e.status === 403) {
+      const missing = permissionNames(e.needs);
+      return {
+        ok: false,
+        error: missing
+          ? `GitHub refused the request: the token needs ${missing}. Edit the token on GitHub to add it, then try again.`
+          : "GitHub refused the request. The token may lack a permission; see the editor setup steps in the README.",
+      };
     }
     return { ok: false, error: "Something went wrong talking to GitHub. Nothing was changed; try again." };
   }
