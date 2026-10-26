@@ -238,8 +238,13 @@ For `parser: browser` sources, also run `pip install -e ".[browser]"` and
 
 Import this repo into [Vercel](https://vercel.com/new) with **Add New → Project →
 Import Git Repository** (not "Clone Template", which creates a separate, empty
-repo). Vercel detects Next.js automatically; no settings or secrets are needed.
-Production deploys from `main`. The page re-renders daily for fresh exchange
+repo). Vercel detects Next.js automatically; the calculator needs no settings or secrets.
+Production deploys from `main`.
+
+The editor at `/admin` (the "Editor login" link, shown on computers only) stays
+switched off until you add an `EDITOR_PASSWORD` environment variable (at least 8
+characters) under **Settings → Environment Variables**. Everyone who edits shares
+that password; changing it signs everyone out. The page re-renders daily for fresh exchange
 rates, and every merge into `main` (including approved data PRs) redeploys it.
 
 For the monthly data PRs, go to **Settings → Actions → General** and allow
