@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { University } from "@/lib/schema";
-import { approveChange, getChange, undoLastChange } from "./changes";
+import { approveChange, getChange, openForEditing, sendChange, undoLastChange } from "./changes";
 import { FakeGitHub } from "./fake-github";
 import { parseSources } from "./registry";
 import { addCountry, addUniversity, removeCountry, removeUniversity } from "./structure";
@@ -126,5 +126,22 @@ describe("adding and removing", () => {
     const settings = json("data/settings.json");
     expect(settings.countryOrder).not.toContain("au");
     expect(settings.intakeMonth.au).toBeUndefined();
+  });
+
+  it("adds to the sign-in's change and keeps its earlier edit of the same file", async () => {
+    const SETTINGS = "data/settings.json";
+    const { documents } = await openForEditing([SETTINGS], undefined, "a");
+    const edited = structuredClone(documents[0].data) as { maxStartYear?: number; defaultIntakeMonth: number };
+    edited.defaultIntakeMonth = (edited.defaultIntakeMonth + 1) % 12;
+    const n = await sendChange({ author: "Ana", summary: "Change the usual intake month", documents: [{ ...documents[0], data: edited }], session: "a" });
+
+    // Adding a country reads settings.json from the change, not from the live site.
+    const added = await addCountry("Ana", { code: "hk", name: "Hong Kong", currency: "HKD", defaultFeeIncrease: 0.03 }, "a");
+    expect(added).toBe(n);
+    await approveChange(n, "Ana");
+    const settings = json(SETTINGS);
+    expect(settings.defaultIntakeMonth).toBe(edited.defaultIntakeMonth);
+    expect(settings.countryOrder.at(-1)).toBe("hk");
+    expect(live("data/countries/hk.json")).toBeDefined();
   });
 });

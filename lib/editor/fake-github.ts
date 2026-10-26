@@ -18,6 +18,9 @@ export class FakeGitHub {
     comments: { body: string; created_at: string }[];
   }[] = [];
   checkState: "success" | "in_progress" | "failure" = "success";
+  /** When set, a pull request's file list lags behind its latest commit, as GitHub's can for a few seconds. */
+  staleFiles = false;
+  private filesSeen = new Map<number, { filename: string; status: string }[]>();
   private n = 0;
 
   constructor(files: Record<string, string>) {
@@ -157,7 +160,10 @@ export class FakeGitHub {
       const p = this.pr(Number(m[1]));
       if (p.merge_commit_sha) return [200, this.changedFiles(this.commits.get(p.merge_commit_sha)!.parents[0], p.merge_commit_sha)];
       const head = this.branches.get(p.head)!;
-      return [200, this.changedFiles(this.mergeBase(this.branches.get("main")!, head), head)];
+      if (this.staleFiles && this.filesSeen.has(p.number)) return [200, this.filesSeen.get(p.number)!];
+      const files = this.changedFiles(this.mergeBase(this.branches.get("main")!, head), head);
+      this.filesSeen.set(p.number, files);
+      return [200, files];
     }
     if (method === "PUT" && (m = /^\/pulls\/(\d+)\/merge$/.exec(path))) {
       const p = this.pr(Number(m[1]));

@@ -254,7 +254,10 @@ statuses** and **Deployments** set to *Read-only*, and set an expiry date (renew
 before then). If GitHub refuses a request, the editor names the permission it was
 missing. Each saved change becomes a pull request labelled `editor-change`; it goes
 live once it is approved on the editor's Approvals screen (the sender can
-approve their own change) after its checks pass. Approving merges it, and Vercel then
+approve their own change) after its checks pass. Everything one person edits
+between signing in and signing out (or the 12-hour limit) joins that same pull request, so a single
+approval covers it; once it is approved or sent back, the next edit starts a
+new one. Approving merges it, and Vercel then
 redeploys the site.
 
 Editors can also add and remove programmes, universities and countries. A new

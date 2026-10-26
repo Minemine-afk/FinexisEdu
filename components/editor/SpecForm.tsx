@@ -1,11 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { createContext, useContext, useState } from "react";
 import type { Problem } from "@/lib/editor/checks";
 import { MONTHS, type FieldSpec } from "@/lib/editor/spec";
 
 type Obj = Record<string, unknown>;
 type Path = (string | number)[];
+
+/** True in the new-university form, where each field shows its sample text. */
+export const ExamplesContext = createContext(false);
 
 const isObj = (v: unknown): v is Obj => typeof v === "object" && v !== null && !Array.isArray(v);
 const keyOf = (path: Path) => path.join(".");
@@ -53,7 +56,7 @@ function emptyValue(spec: FieldSpec) {
   return spec.nullable ? null : undefined;
 }
 
-function ScalarInput({ spec, value, onChange }: { spec: FieldSpec; value: unknown; onChange: (v: unknown) => void }) {
+function ScalarInput({ spec, value, onChange, placeholder }: { spec: FieldSpec; value: unknown; onChange: (v: unknown) => void; placeholder?: string }) {
   const fromText = (text: string) => (text === "" ? emptyValue(spec) : text);
   switch (spec.kind) {
     case "longtext": {
@@ -63,6 +66,7 @@ function ScalarInput({ spec, value, onChange }: { spec: FieldSpec; value: unknow
           <textarea
             className={inputClass}
             rows={Math.min(8, Math.max(2, Math.ceil(text.length / 90)))}
+            placeholder={placeholder}
             value={text}
             onChange={(e) => onChange(fromText(e.target.value))}
           />
@@ -80,6 +84,7 @@ function ScalarInput({ spec, value, onChange }: { spec: FieldSpec; value: unknow
         <input
           className={inputClass}
           type={spec.kind === "url" ? "url" : "text"}
+          placeholder={placeholder}
           value={(value as string) ?? ""}
           onChange={(e) => onChange(fromText(e.target.value))}
         />
@@ -122,7 +127,7 @@ function ScalarInput({ spec, value, onChange }: { spec: FieldSpec; value: unknow
     case "select":
       return (
         <select className={inputClass} value={(value as string) ?? ""} onChange={(e) => onChange(fromText(e.target.value))}>
-          {(spec.optional || value === undefined) && <option value="">{spec.optional ? "(none)" : "Choose…"}</option>}
+          {(spec.optional || value === undefined || value === "") && <option value="">{spec.optional ? "(none)" : "Choose…"}</option>}
           {spec.options.map((o) => (
             <option key={o.value} value={o.value}>
               {o.label}
@@ -178,11 +183,15 @@ interface FieldProps {
 
 /** One field of a form, drawn from its spec; objects, lists and records draw their children. */
 export function Field({ spec, value, onChange, path, problems }: FieldProps) {
+  const examples = useContext(ExamplesContext);
   if (spec.kind === "object") return <ObjectField spec={spec} value={value} onChange={onChange} path={path} problems={problems} />;
   if (spec.kind === "list") return <ListField spec={spec} value={value} onChange={onChange} path={path} problems={problems} />;
   if (spec.kind === "record") return <RecordField spec={spec} value={value} onChange={onChange} path={path} problems={problems} />;
   const wide = spec.kind === "longtext" || spec.kind === "strings" || spec.kind === "url";
   const own = problems.some((p) => keyOf(p.at) === keyOf(path));
+  const example = examples ? spec.example : undefined;
+  // Text boxes show the sample inside them while empty; other kinds show it underneath.
+  const inBox = spec.kind === "text" || spec.kind === "longtext" || spec.kind === "url";
   return (
     <label className={`block ${wide ? "col-span-full" : ""} ${spec.kind === "bool" ? "flex items-center gap-2" : ""}`}>
       {spec.kind === "bool" ? (
@@ -194,9 +203,10 @@ export function Field({ spec, value, onChange, path, problems }: FieldProps) {
         <>
           <Label spec={spec} />
           <span className={`mt-1 block ${own ? "rounded-md ring-2 ring-warn-fg/50" : ""}`}>
-            <ScalarInput spec={spec} value={value} onChange={onChange} />
+            <ScalarInput spec={spec} value={value} onChange={onChange} placeholder={inBox ? example : undefined} />
           </span>
           <Help spec={spec} />
+          {example && !inBox && <span className="mt-0.5 block text-xs text-muted">Example: {example}</span>}
         </>
       )}
       <Messages problems={problems} path={path} />

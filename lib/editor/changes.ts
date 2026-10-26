@@ -17,6 +17,7 @@ import {
   type CheckSummary,
   type PullRequest,
 } from "./github";
+import { sessionKey } from "./session";
 import { MAIN_REGISTRY, normaliseUrl, registeredUrls, registryFile, sourceUrls, withManualSources } from "./registry";
 
 /**
@@ -36,6 +37,10 @@ export class EditorError extends Error {}
 interface Meta {
   author: string;
   undoOf?: number;
+  /** A hash of the sign-in session that made the change, so its later edits join it. */
+  session?: string;
+  /** How many separate edits the change holds; absent for one. */
+  count?: number;
 }
 
 function readMeta(body: string | null): Meta {
@@ -45,6 +50,13 @@ function readMeta(body: string | null): Meta {
   } catch {
     return { author: "" };
   }
+}
+
+const FILE_LINE = /^- `([^`]+)`$/gm;
+
+/** The files a change's description lists. Written with every commit, so unlike GitHub's file list it is never behind. */
+function listedFiles(body: string | null): string[] {
+  return [...(body ?? "").matchAll(FILE_LINE)].map((m) => m[1]);
 }
 
 function writeBody(meta: Meta, summary: string, files: string[]): string {
@@ -92,11 +104,12 @@ export interface WaitingChange {
   sentBack: boolean;
 }
 
-/** Open changes that touch any of these files. */
-export async function waitingChangesFor(paths: string[]): Promise<WaitingChange[]> {
+/** Open changes that touch any of these files, other than the one numbered `except`. */
+export async function waitingChangesFor(paths: string[], except?: number): Promise<WaitingChange[]> {
   const open = (await pulls.list("open")).filter(isEditorChange);
   const out: WaitingChange[] = [];
   for (const p of open) {
+    if (p.number === except) continue;
     const files = await pulls.files(p.number);
     if (files.some((f) => paths.includes(f.filename))) {
       out.push({ number: p.number, title: p.title, author: readMeta(p.body).author, sentBack: p.labels.some((l) => l.name === SENT_BACK_LABEL) });
@@ -105,17 +118,58 @@ export async function waitingChangesFor(paths: string[]): Promise<WaitingChange[
   return out;
 }
 
+/**
+ * Everything one person edits in one sign-in goes into a single change, so one
+ * approval covers the lot. `batch` is that sitting's open change, if it has one.
+ */
+export interface Workspace {
+  batch: PullRequest | null;
+  /** The branch whose file list to use: the sitting's change if there is one, else the live site. */
+  treeRef: string;
+  /** Where to read a file from: the sitting's change if it has altered the file, else the live site. */
+  ref(path: string): string;
+}
+
+export async function sessionWorkspace(session?: string): Promise<Workspace> {
+  const live: Workspace = { batch: null, treeRef: BASE_BRANCH, ref: () => BASE_BRANCH };
+  if (!session) return live;
+  const key = sessionKey(session);
+  const batch = (await pulls.list("open")).find((p) => {
+    if (!isEditorChange(p) || p.labels.some((l) => l.name === SENT_BACK_LABEL)) return false;
+    const meta = readMeta(p.body);
+    return meta.session === key && !meta.undoOf;
+  });
+  if (!batch) return live;
+  // GitHub's file list can lag a moment behind the latest commit, so the description's list is included too.
+  const touched = new Set([
+    ...listedFiles(batch.body),
+    ...(await pulls.files(batch.number)).flatMap((f) => [f.filename, ...(f.previous_filename ? [f.previous_filename] : [])]),
+  ]);
+  return { batch, treeRef: batch.head.ref, ref: (path) => (touched.has(path) ? batch.head.ref : BASE_BRANCH) };
+}
+
 /** The files as they are live (or on a waiting change's branch, to edit that change). */
-export async function loadDocuments(paths: string[], change?: number): Promise<LoadedDocument[]> {
-  const ref = change ? (await openChange(change)).head.ref : BASE_BRANCH;
+export async function loadDocuments(paths: string[], change?: number, ws?: Workspace): Promise<LoadedDocument[]> {
+  const fixed = change ? (await openChange(change)).head.ref : undefined;
   return Promise.all(
     paths.map(async (path) => {
       if (!documentKind(path)) throw new EditorError(`${path} cannot be edited here.`);
-      const f = await readFile(path, ref);
+      const f = await readFile(path, fixed ?? ws?.ref(path) ?? BASE_BRANCH);
       if (f.sha === null || f.text === null) throw new EditorError(`${path} does not exist.`);
       return { path, sha: f.sha, data: JSON.parse(f.text) };
     }),
   );
+}
+
+/** Opens files for editing: from the explicit change, else from this sitting's change if it has one, else live. */
+export async function openForEditing(paths: string[], change?: number, session?: string) {
+  const ws = change ? undefined : await sessionWorkspace(session);
+  return {
+    documents: await loadDocuments(paths, change, ws),
+    waiting: change ? [] : await waitingChangesFor(paths, ws?.batch?.number),
+    /** The sitting's change these edits will join. */
+    joining: ws?.batch ? { number: ws.batch.number, title: ws.batch.title } : null,
+  };
 }
 
 async function openChange(n: number): Promise<PullRequest> {
@@ -132,6 +186,8 @@ export interface SendInput {
   documents: { path: string; sha: string; data: unknown }[];
   /** The waiting change being edited, if any. */
   change?: number;
+  /** The signed-in session; its edits are gathered into one change. */
+  session?: string;
 }
 
 export async function sendChange(input: SendInput): Promise<number> {
@@ -146,49 +202,74 @@ export async function sendChange(input: SendInput): Promise<number> {
 
   if (input.change) {
     const pr = await openChange(input.change);
-    const files = await changedSince(pr.head.ref, input.documents);
+    const files = await changedSince(() => pr.head.ref, input.documents);
     if (files.length === 0) throw new EditorError("Nothing has changed.");
     await commitFiles(pr.head.ref, `${summary}\n\nEdited by ${author} in the FinexisEdu editor.`, files);
+    const listed = listedFiles(pr.body);
+    if (files.some((f) => !listed.includes(f.path))) {
+      const all = [...new Set([...listed, ...files.map((f) => f.path)])];
+      await pulls.update(pr.number, { body: writeBody(readMeta(pr.body), pr.title.replace(/ and \d+ more$/, ""), all) });
+    }
     await issues.removeLabel(pr.number, SENT_BACK_LABEL);
     await issues.comment(pr.number, `<!-- finexisedu-note ${JSON.stringify({ by: author, kind: "updated" })} -->\nUpdated by **${author}**: ${summary}`);
     return pr.number;
   }
 
-  const paths = input.documents.map((d) => d.path);
-  const waiting = await waitingChangesFor(paths);
+  const ws = await sessionWorkspace(input.session);
+  const waiting = await waitingChangesFor(
+    input.documents.map((d) => d.path),
+    ws.batch?.number,
+  );
   if (waiting.length) {
     throw new EditorError(`"${waiting[0].title}" is already waiting for approval on this. Approve, send back or discard it first, or edit that change instead.`);
   }
-  const files = await changedSince(BASE_BRANCH, input.documents);
+  const files = await changedSince(ws.ref, input.documents);
   if (files.length === 0) throw new EditorError("Nothing has changed.");
-  return openPullRequest({ author }, summary, files);
+  return submitFiles(ws, { author, session: input.session ? sessionKey(input.session) : undefined }, summary, files);
+}
+
+/**
+ * Sends files as a change: into this sitting's open change if it has one (one
+ * approval covers it all), otherwise as a new change.
+ */
+export async function submitFiles(ws: Workspace, meta: Meta, summary: string, files: { path: string; text: string | null }[]): Promise<number> {
+  const batch = ws.batch;
+  if (!batch) return openPullRequest(meta, summary, files);
+  const before = readMeta(batch.body);
+  const count = (before.count ?? 1) + 1;
+  const first = batch.title.replace(/ and \d+ more$/, "");
+  await commitFiles(batch.head.ref, `${summary}\n\nAdded by ${meta.author} in the FinexisEdu editor.`, files);
+  const all = [...new Set([...listedFiles(batch.body), ...files.map((f) => f.path)])];
+  await pulls.update(batch.number, { title: `${first} and ${count - 1} more`, body: writeBody({ ...before, count }, first, all) });
+  await issues.comment(batch.number, `<!-- finexisedu-note ${JSON.stringify({ by: meta.author, kind: "added" })} -->\nAdded by **${meta.author}**: ${summary}`);
+  return batch.number;
 }
 
 /** The files whose text differs from `ref`, after checking nobody else changed them since they were loaded. */
-async function changedSince(ref: string, documents: SendInput["documents"]) {
+async function changedSince(refFor: (path: string) => string, documents: SendInput["documents"]) {
   const out: { path: string; text: string }[] = [];
   for (const d of documents) {
-    const current = await readFile(d.path, ref);
+    const current = await readFile(d.path, refFor(d.path));
     if (current.sha !== d.sha) {
       throw new EditorError("Someone else has changed this since you opened it. Copy anything you need, then reload the page to start from their version.");
     }
     const text = serialize(d.data);
     if (text !== current.text) out.push({ path: d.path, text });
   }
-  return [...out, ...(await registryUpdates(ref, out))];
+  return [...out, ...(await registryUpdates(refFor, out))];
 }
 
 /**
  * The scraper tests require every source page a university points at to be in
  * the scraper registry, so new pages are added there as "check by hand".
  */
-async function registryUpdates(ref: string, files: { path: string; text: string | null }[]) {
+async function registryUpdates(refFor: (path: string) => string, files: { path: string; text: string | null }[]) {
   const out: { path: string; text: string }[] = [];
   for (const f of files) {
     if (f.text === null || !/^data\/universities\//.test(f.path)) continue;
     const u = JSON.parse(f.text) as University;
     const own = registryFile(u.id);
-    const [main, mine] = await Promise.all([readFile(MAIN_REGISTRY, ref), readFile(own, ref)]);
+    const [main, mine] = await Promise.all([readFile(MAIN_REGISTRY, refFor(MAIN_REGISTRY)), readFile(own, refFor(own))]);
     const registered = registeredUrls([main.text, mine.text], u.id);
     const missing = sourceUrls(u).filter((url) => !registered.has(normaliseUrl(url)));
     if (missing.length) out.push({ path: own, text: withManualSources(mine.text, u, missing) });

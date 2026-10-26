@@ -7,6 +7,7 @@ import {
   listChanges,
   listVersions,
   loadDocuments,
+  openForEditing,
   sendBackChange,
   sendChange,
   undoLastChange,
@@ -14,15 +15,18 @@ import {
 import { FakeGitHub } from "./fake-github";
 
 const NUS = "data/universities/sg/nus.json";
+const NTU = "data/universities/sg/ntu.json";
 const original = fs.readFileSync(NUS, "utf8");
 let github: FakeGitHub;
 
 beforeEach(() => {
   github = new FakeGitHub({
     [NUS]: original,
+    [NTU]: fs.readFileSync(NTU, "utf8"),
     "README.md": "hi",
     "scrapers/registry.yaml": fs.readFileSync("scrapers/registry.yaml", "utf8"),
     "scrapers/registry.d/nus.yaml": fs.readFileSync("scrapers/registry.d/nus.yaml", "utf8"),
+    "scrapers/registry.d/ntu.yaml": fs.readFileSync("scrapers/registry.d/ntu.yaml", "utf8"),
   });
   vi.stubEnv("EDITOR_GITHUB_TOKEN", "test-token");
   vi.stubGlobal("fetch", async (input: string, init: RequestInit) => {
@@ -128,5 +132,71 @@ describe("editor changes", () => {
     await approveChange(n, "Ben");
     github.commitToMain(NUS, original);
     await expect(undoLastChange("Ben")).rejects.toThrow(/changed again/);
+  });
+
+  describe("one sign-in, one approval", () => {
+    type Tuition = { programmes: { fees: { international: { annualTuition: number } } }[] };
+    /** Opens the file the way the edit screen does, raises the first programme's fee by 100, and returns the document to send. */
+    async function raise(path: string, session: string) {
+      const { documents } = await openForEditing([path], undefined, session);
+      const data = structuredClone(documents[0].data) as Tuition;
+      data.programmes[0].fees.international.annualTuition += 100;
+      return { path, sha: documents[0].sha, data };
+    }
+    const tuition = (path: string) => (JSON.parse(github.filesAt("main").get(path)!) as Tuition).programmes[0].fees.international.annualTuition;
+
+    it("adds every edit from one sign-in to the same change, so one approval publishes them all", async () => {
+      const n = await sendChange({ author: "Ana", summary: "Raise NUS fee", documents: [await raise(NUS, "a")], session: "a" });
+      expect((await openForEditing([NUS], undefined, "a")).joining).toMatchObject({ number: n, title: "Raise NUS fee" });
+      // The same file again starts from the sitting's version, and a different file joins too.
+      expect(await sendChange({ author: "Ana", summary: "Raise NUS again", documents: [await raise(NUS, "a")], session: "a" })).toBe(n);
+      expect(await sendChange({ author: "Ana", summary: "Raise NTU fee", documents: [await raise(NTU, "a")], session: "a" })).toBe(n);
+
+      const { changes } = await listChanges();
+      expect(changes).toMatchObject([{ number: n, title: "Raise NUS fee and 2 more", author: "Ana" }]);
+      const detail = await getChange(n);
+      expect(detail.files.map((f) => f.path).sort()).toEqual([NTU, NUS]);
+      expect(detail.notes.map((x) => x.kind)).toEqual(["added", "added"]);
+
+      const before = (JSON.parse(original) as Tuition).programmes[0].fees.international.annualTuition;
+      await approveChange(n, "Ana");
+      expect(tuition(NUS)).toBe(before + 200);
+      expect(await listVersions()).toMatchObject([{ number: n, author: "Ana" }]);
+
+      // Once approved, the next edit starts a new change.
+      const next = await sendChange({ author: "Ana", summary: "Raise NUS once more", documents: [await raise(NUS, "a")], session: "a" });
+      expect(next).not.toBe(n);
+    });
+
+    it("keeps an earlier edit of the same file even while GitHub's file list is behind", async () => {
+      const n = await sendChange({ author: "Ana", summary: "Raise NTU fee", documents: [await raise(NTU, "a")], session: "a" });
+      // From here GitHub keeps reporting only NTU, so the NUS edits must be tracked another way.
+      github.staleFiles = true;
+      await sendChange({ author: "Ana", summary: "Raise NUS fee", documents: [await raise(NUS, "a")], session: "a" });
+      expect(await sendChange({ author: "Ana", summary: "Raise NUS again", documents: [await raise(NUS, "a")], session: "a" })).toBe(n);
+      github.staleFiles = false;
+      const before = (JSON.parse(original) as Tuition).programmes[0].fees.international.annualTuition;
+      await approveChange(n, "Ana");
+      expect(tuition(NUS)).toBe(before + 200);
+      expect(tuition(NTU)).toBe((JSON.parse(fs.readFileSync(NTU, "utf8")) as Tuition).programmes[0].fees.international.annualTuition + 100);
+    });
+
+    it("keeps different sign-ins apart, and blocks two of them editing the same file", async () => {
+      const a = await sendChange({ author: "Ana", summary: "Raise NUS fee", documents: [await raise(NUS, "a")], session: "a" });
+      const b = await sendChange({ author: "Ben", summary: "Raise NTU fee", documents: [await raise(NTU, "b")], session: "b" });
+      expect(b).not.toBe(a);
+      const { documents, joining, waiting } = await openForEditing([NUS], undefined, "b");
+      expect(joining).toMatchObject({ number: b });
+      expect(waiting).toMatchObject([{ number: a }]);
+      await expect(sendChange({ author: "Ben", summary: "Raise NUS too", documents, session: "b" })).rejects.toThrow(/already waiting/);
+    });
+
+    it("does not add to a change that was sent back", async () => {
+      const a = await sendChange({ author: "Ana", summary: "Raise NUS fee", documents: [await raise(NUS, "a")], session: "a" });
+      await sendBackChange(a, "Ben", "Check the figure");
+      expect((await openForEditing([NTU], undefined, "a")).joining).toBeNull();
+      const other = await sendChange({ author: "Ana", summary: "Raise NTU fee", documents: [await raise(NTU, "a")], session: "a" });
+      expect(other).not.toBe(a);
+    });
   });
 });
