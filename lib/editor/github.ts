@@ -4,8 +4,9 @@
  * when a pull request is merged (and its checks have passed).
  *
  * Environment: EDITOR_GITHUB_TOKEN, a fine-grained token limited to this
- * repository with read and write access to Contents and Pull requests; and
- * optionally EDITOR_GITHUB_REPO ("owner/name", default below).
+ * repository with read and write access to Contents, Pull requests and Issues,
+ * and read access to Checks, Commit statuses and Deployments; and optionally
+ * EDITOR_GITHUB_REPO ("owner/name", default below).
  */
 
 export const BASE_BRANCH = "main";
@@ -14,6 +15,8 @@ export class GitHubError extends Error {
   constructor(
     readonly status: number,
     message: string,
+    /** For a refused request, the token permissions GitHub says would allow it, e.g. "checks=read". */
+    readonly needs = "",
   ) {
     super(message);
   }
@@ -45,7 +48,11 @@ export async function gh<T>(method: string, path: string, body?: unknown): Promi
   });
   if (!res.ok) {
     const detail = await res.text().catch(() => "");
-    throw new GitHubError(res.status, `GitHub ${method} ${path} failed (${res.status}): ${detail.slice(0, 300)}`);
+    throw new GitHubError(
+      res.status,
+      `GitHub ${method} ${path} failed (${res.status}): ${detail.slice(0, 300)}`,
+      res.headers.get("x-accepted-github-permissions") ?? "",
+    );
   }
   return (res.status === 204 ? undefined : await res.json()) as T;
 }

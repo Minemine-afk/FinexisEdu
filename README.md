@@ -248,9 +248,11 @@ that password; changing it signs everyone out.
 
 To let the editor save, add an `EDITOR_GITHUB_TOKEN` as well: on GitHub go to
 **Settings → Developer settings → Fine-grained tokens → Generate new token**,
-choose **Only select repositories** with this repository, give it **Contents** and
-**Pull requests** set to *Read and write*, and set an expiry date (renew it before
-then). Each saved change becomes a pull request labelled `editor-change`; it goes
+choose **Only select repositories** with this repository, give it **Contents**,
+**Pull requests** and **Issues** set to *Read and write*, and **Checks**, **Commit
+statuses** and **Deployments** set to *Read-only*, and set an expiry date (renew it
+before then). If GitHub refuses a request, the editor names the permission it was
+missing. Each saved change becomes a pull request labelled `editor-change`; it goes
 live once it is approved on the editor's Approvals screen (the sender can
 approve their own change) after its checks pass. Approving merges it, and Vercel then
 redeploys the site.
