@@ -51,6 +51,14 @@ export default async function Home() {
             consult your Financial Consultant before making any financial decisions.
           </p>
           <p className="mt-2">
+            The information in this publication or any dissemination of information in any form is not intended to be
+            and does not constitute financial advice, insurance advice or any other advice or recommendation of any sort
+            offered or endorsed by finexis advisory Pte Ltd (“finexis”). The information is not to be relied on as
+            investment, legal, tax or other advice as it does not take into account the investment objectives, financial
+            situation or particular needs of any specific investor. The information provided and / or this advertisement
+            has not been reviewed by the Monetary Authority of Singapore.
+          </p>
+          <p className="mt-2">
             Exchange rates{fx.source === "live" ? ": European Central Bank via Frankfurter," : ""} as of {fx.date}.
           </p>
         </div>
