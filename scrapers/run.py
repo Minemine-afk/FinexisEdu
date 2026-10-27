@@ -1,4 +1,4 @@
-"""Refreshes data/ from university fee pages and IMF exchange rates.
+"""Refreshes data/ from university fee pages and ECB/IMF exchange rates.
 
     python -m scrapers.run               # update data/ and write scrapers/out/summary.md
     python -m scrapers.run --dry-run     # print what would change, write nothing
@@ -234,10 +234,9 @@ def imf_country(currency: str) -> str | None:
     return FX_CODES["area"].get(currency) or FX_CODES["iso3"].get(currency[:2])
 
 
-def imf_rates(currencies: list[str], today: date) -> tuple[str, dict[str, float], dict[str, str]]:
-    """Units of each currency per SGD from the latest IMF month-end rates (mirrors getImfRates in lib/fx.ts).
-
-    Returns the month-end date, the rates, and the currencies whose rate is from an earlier month."""
+def imf_rates(currencies: list[str], today: date) -> tuple[dict[str, float], dict[str, str]]:
+    """Units of each currency per SGD from the latest IMF month-end rates, and the month each comes from
+    (mirrors getImfRates in lib/fx.ts)."""
     want = {imf_country(c): c for c in currencies if imf_country(c)}
     months_back = today.year * 12 + today.month - 1 - FX_MAX_AGE_MONTHS
     start = f"{months_back // 12}-{months_back % 12 + 1:02d}"
@@ -264,28 +263,32 @@ def imf_rates(currencies: list[str], today: date) -> tuple[str, dict[str, float]
         if shared:
             rates[currency] = float(f"{series[code][shared[-1]] / sgd[shared[-1]]:.5g}")
             months[currency] = shared[-1]
-    latest = max(months.values(), default=max(sgd))
-    year, month = map(int, latest.split("-"))
-    end = (date(year + month // 12, month % 12 + 1, 1) - timedelta(days=1)).isoformat()
-    return end, rates, {c: m for c, m in months.items() if m != latest}
+    return rates, months
 
 
 def refresh_fx(data_dir: Path, report: Report, dry_run: bool, today: date | None = None) -> None:
+    """ECB rates (via Frankfurter) where published, IMF month-end rates for the rest (mirrors getRates in lib/fx.ts)."""
     try:
         currencies = fx_currencies(data_dir)
-        as_of, rates, earlier = imf_rates(currencies, today or date.today())
-        missing = [c for c in currencies if c not in rates]
-        if missing:
-            raise ValueError("the IMF has no recent rate for " + ", ".join(missing))
+        res = requests.get("https://api.frankfurter.dev/v1/latest?base=SGD", timeout=30)
+        res.raise_for_status()
+        body = res.json()
+        rates = {c: body["rates"][c] for c in currencies if c in body["rates"]}
+        month_end: dict[str, str] = {}
+        if missing := [c for c in currencies if c not in rates]:
+            imf, month_end = imf_rates(missing, today or date.today())
+            rates |= imf
+        if missing := [c for c in currencies if c not in rates]:
+            raise ValueError("neither the ECB nor the IMF has a recent rate for " + ", ".join(missing))
     except Exception as err:  # noqa: BLE001 - any failure just keeps the old file
         report.problems.append(f"exchange rates: {err}")
         return
     if not dry_run:
-        payload = {"base": "SGD", "date": as_of, "rates": dict(sorted(rates.items()))}
-        if earlier:
-            payload["earlier"] = dict(sorted(earlier.items()))
+        payload = {"base": "SGD", "date": body["date"], "rates": dict(sorted(rates.items()))}
+        if month_end:
+            payload["monthEnd"] = dict(sorted(month_end.items()))
         (data_dir / "fx-fallback.json").write_text(json.dumps(payload, indent=2) + "\n")
-    report.notes.append(f"fallback exchange rates refreshed from the IMF ({as_of})")
+    report.notes.append(f"fallback exchange rates refreshed ({body['date']})")
 
 
 def _median_rate(growth: list[float]) -> float:

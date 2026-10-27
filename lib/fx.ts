@@ -45,10 +45,10 @@ export function parseImfCsv(csv: string): Map<string, Map<string, number>> {
 
 /**
  * Units of each currency per Singapore dollar, from the latest month-end rates in the International
- * Monetary Fund's exchange-rate dataset (both currencies against the US dollar on the same month end).
- * Currencies the IMF has no recent rate for are left out.
+ * Monetary Fund's exchange-rate dataset (both currencies against the US dollar on the same month end),
+ * with the month ("2026-09") each comes from. Currencies the IMF has no recent rate for are left out.
  */
-export async function getImfRates(currencies: string[], opts: FxFetchOptions = {}, today = new Date()): Promise<FxRates> {
+export async function getImfRates(currencies: string[], opts: FxFetchOptions = {}, today = new Date()) {
   const want = new Map(currencies.flatMap((c) => (imfCountry(c) ? [[imfCountry(c)!, c] as const] : [])));
   const start = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth() - MAX_AGE_MONTHS, 1)).toISOString().slice(0, 7);
   const url = `https://api.imf.org/external/sdmx/2.1/data/IMF.STA,ER/${["SGP", ...want.keys()].join("+")}.XDC_USD.EOP_RT.M?startPeriod=${start}`;
@@ -67,9 +67,23 @@ export async function getImfRates(currencies: string[], opts: FxFetchOptions = {
     rates[currency] = Number((own!.get(month)! / sgd.get(month)!).toPrecision(5));
     months[currency] = month;
   }
-  const latest = Object.values(months).sort().pop() ?? [...sgd.keys()].sort().pop()!;
-  const earlier = Object.fromEntries(Object.entries(months).filter(([, m]) => m !== latest));
-  return { base: "SGD", date: monthEnd(latest), rates, ...(Object.keys(earlier).length ? { earlier } : {}) };
+  return { rates, months };
+}
+
+/**
+ * Units of each currency per Singapore dollar: the European Central Bank's daily reference rate
+ * (via Frankfurter) where it publishes one, otherwise the IMF's latest month-end rate.
+ * Currencies neither has are left out.
+ */
+export async function getRates(currencies: string[], opts: FxFetchOptions = {}, today = new Date()): Promise<FxRates> {
+  const res = await fetch("https://api.frankfurter.dev/v1/latest?base=SGD", { ...opts, signal: AbortSignal.timeout(8000) });
+  if (!res.ok) throw new Error(`Frankfurter returned ${res.status}`);
+  const ecb = (await res.json()) as { date: string; rates: Record<string, number> };
+  const rates = Object.fromEntries(currencies.filter((c) => ecb.rates[c] > 0).map((c) => [c, ecb.rates[c]]));
+  const missing = currencies.filter((c) => !(c in rates));
+  if (!missing.length) return { base: "SGD", date: ecb.date, rates };
+  const imf = await getImfRates(missing, opts, today);
+  return { base: "SGD", date: ecb.date, rates: { ...rates, ...imf.rates }, monthEnd: imf.months };
 }
 
 /** The last day of a month: "2026-09" becomes "2026-09-30". */
@@ -79,12 +93,12 @@ export function monthEnd(month: string): string {
 }
 
 /**
- * Latest IMF rates, cached for a day. Falls back to data/fx-fallback.json
- * (refreshed by the data pipeline) if the IMF is unreachable or lacks a currency.
+ * Latest ECB and IMF rates, cached for a day. Falls back to data/fx-fallback.json
+ * (refreshed by the data pipeline) if either is unreachable or a currency is missing.
  */
 export async function getFxRates(currencies: string[]): Promise<FxResult> {
   try {
-    const rates = FxRates.parse(await getImfRates(currencies, { next: { revalidate: ONE_DAY } }));
+    const rates = FxRates.parse(await getRates(currencies, { next: { revalidate: ONE_DAY } }));
     if (currencies.some((c) => !rates.rates[c])) throw new Error("Missing currencies");
     return { ...rates, source: "live" };
   } catch (err) {

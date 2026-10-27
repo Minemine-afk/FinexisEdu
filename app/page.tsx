@@ -71,8 +71,12 @@ export default async function Home() {
             has not been reviewed by the Monetary Authority of Singapore.
           </p>
           <p className="mt-2">
-            Exchange rates: International Monetary Fund month-end rates, as of {fx.date}
-            {fx.earlier && ` (${Object.entries(fx.earlier).map(([c, m]) => `${c} as of ${monthEnd(m)}`).join(", ")})`}.
+            Exchange rates: European Central Bank, as of {fx.date}
+            {fx.monthEnd &&
+              `; International Monetary Fund month-end rates for ${Object.entries(fx.monthEnd)
+                .map(([c, m]) => `${c} (as of ${monthEnd(m)})`)
+                .join(", ")}`}
+            .
           </p>
         </div>
       </footer>
