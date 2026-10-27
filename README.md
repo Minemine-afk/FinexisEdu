@@ -14,15 +14,15 @@ abroad. Visas, flights and health insurance are out of scope.
 
 ```
              monthly GitHub Action                       every request (cached 24h)
- university ──► scrapers/ (Python) ──► PR with data/ ──► Next.js site ◄── Frankfurter FX API
- fee pages                             changes, reviewed    (Vercel)        (ECB rates)
+ university ──► scrapers/ (Python) ──► PR with data/ ──► Next.js site ◄── Frankfurter (ECB)
+ fee pages                             changes, reviewed    (Vercel)        + IMF data API
                                        by a human
 ```
 
 | Data | Where it comes from | How it stays current |
 |---|---|---|
 | Tuition and compulsory fees, per university, level and field | Each university's published fee page (HTML, PDF or JavaScript page) | `scrapers/` re-reads the pages monthly and opens a PR |
-| Exchange rates to SGD | [Frankfurter](https://frankfurter.dev) (European Central Bank reference rates, free, no key) | Fetched live and cached for a day; `data/fx-fallback.json` is used if the API is down |
+| Exchange rates to SGD | [Frankfurter](https://frankfurter.dev) (European Central Bank daily reference rates, about 30 currencies), then the [IMF data API](https://data.imf.org) (month-end rates from the IMF exchange-rate dataset) for any currency the ECB lacks; both free, no key | Fetched live and cached for a day; `data/fx-fallback.json` is used if the API is down |
 | Yearly fee increase used for future years | Each university's own rate: the median compound yearly rise across its programmes' published fee histories (per residency tier in Singapore), computed in `lib/increase.ts`. A per-country default in `data/countries/` is used where a university has fewer than two programmes with history | Country defaults recomputed by the same monthly run; university rates follow the data |
 
 There is no public API for university tuition anywhere, so fees are scraped
@@ -263,7 +263,7 @@ redeploys the site.
 Editors can also add and remove programmes, universities and countries. A new
 university's fee pages go into `scrapers/registry.d/<id>.yaml` as pages to check
 by hand; removing one also drops its scraper entries and shortlist place. A new
-country's currency must be one the European Central Bank publishes, and its
+country's currency must be one the European Central Bank or the International Monetary Fund publishes, and its
 rate is added to `data/fx-fallback.json`; the list of currencies to fetch comes
 from the country files. The page re-renders daily for fresh exchange
 rates, and every merge into `main` (including approved data PRs) redeploys it.

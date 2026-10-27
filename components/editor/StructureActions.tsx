@@ -118,7 +118,7 @@ export function NewCountryForm({ defaultIntakeMonth }: { defaultIntakeMonth: num
         <label className="text-sm font-medium">
           Currency code
           <input className={input} value={form.currency} maxLength={3} onChange={set("currency")} placeholder="e.g. HKD" />
-          <span className="text-xs font-normal text-muted">It must be one the European Central Bank publishes a rate for.</span>
+          <span className="text-xs font-normal text-muted">It must be one the European Central Bank or the International Monetary Fund publishes a rate for.</span>
         </label>
         <label className="text-sm font-medium">
           Usual intake month

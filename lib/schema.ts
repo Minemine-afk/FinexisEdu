@@ -202,8 +202,10 @@ export const Country = z.object({
 export const FxRates = z.object({
   base: z.literal("SGD"),
   date: z.iso.date(),
-  // Units of each currency per 1 SGD, as returned by Frankfurter.
+  // Units of each currency per 1 SGD: ECB daily rates (via Frankfurter), or IMF month-end rates for currencies the ECB lacks.
   rates: z.record(z.string(), z.number().positive()),
+  // Currencies taken from the IMF, with the month ("2026-09") whose month-end rate they use.
+  monthEnd: z.record(z.string(), z.string().regex(/^\d{4}-\d{2}$/)).optional(),
 });
 
 export type CountryCode = z.infer<typeof CountryCode>;

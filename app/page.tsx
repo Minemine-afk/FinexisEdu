@@ -3,7 +3,7 @@ import CourseRationale from "@/components/CourseRationale";
 import EditorLink from "@/components/EditorLink";
 import UniversityRationale from "@/components/UniversityRationale";
 import { forSite, loadCountries, loadCourses, loadRationale, loadUniversities } from "@/lib/data";
-import { fxCurrencies, getFxRates } from "@/lib/fx";
+import { fxCurrencies, getFxRates, monthEnd } from "@/lib/fx";
 import { Settings, SETTINGS } from "@/lib/settings";
 import { singaporeToday } from "@/lib/today";
 
@@ -66,7 +66,12 @@ export default async function Home() {
             has not been reviewed by the Monetary Authority of Singapore.
           </p>
           <p className="mt-2">
-            Exchange rates{fx.source === "live" ? ": European Central Bank via Frankfurter," : ""} as of {fx.date}.
+            Exchange rates: European Central Bank, as of {fx.date}
+            {fx.monthEnd &&
+              `; International Monetary Fund month-end rates for ${Object.entries(fx.monthEnd)
+                .map(([c, m]) => `${c} (as of ${monthEnd(m)})`)
+                .join(", ")}`}
+            .
           </p>
         </div>
       </footer>

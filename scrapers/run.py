@@ -1,4 +1,4 @@
-"""Refreshes data/ from university fee pages and the exchange-rate API.
+"""Refreshes data/ from university fee pages and ECB/IMF exchange rates.
 
     python -m scrapers.run               # update data/ and write scrapers/out/summary.md
     python -m scrapers.run --dry-run     # print what would change, write nothing
@@ -225,18 +225,68 @@ def save_university(path: Path, uni: University) -> None:
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
 
-def refresh_fx(data_dir: Path, report: Report, dry_run: bool) -> None:
+FX_CODES = json.loads((ROOT / "lib" / "fx-imf.json").read_text())
+FX_MAX_AGE_MONTHS = 12  # older IMF rates are treated as missing
+
+
+def imf_country(currency: str) -> str | None:
+    """The IMF country code whose exchange rate stands for a currency (mirrors imfCountry in lib/fx.ts)."""
+    return FX_CODES["area"].get(currency) or FX_CODES["iso3"].get(currency[:2])
+
+
+def imf_rates(currencies: list[str], today: date) -> tuple[dict[str, float], dict[str, str]]:
+    """Units of each currency per SGD from the latest IMF month-end rates, and the month each comes from
+    (mirrors getImfRates in lib/fx.ts)."""
+    want = {imf_country(c): c for c in currencies if imf_country(c)}
+    months_back = today.year * 12 + today.month - 1 - FX_MAX_AGE_MONTHS
+    start = f"{months_back // 12}-{months_back % 12 + 1:02d}"
+    res = requests.get(
+        f"https://api.imf.org/external/sdmx/2.1/data/IMF.STA,ER/{'+'.join(['SGP', *want])}.XDC_USD.EOP_RT.M",
+        params={"startPeriod": start},
+        headers={"Accept": "application/vnd.sdmx.data+csv;version=1.0.0"},
+        timeout=60,
+    )
+    res.raise_for_status()
+    header, *rows = [r.split(",") for r in res.text.strip().splitlines()]
+    country, period, value = (header.index(h) for h in ("COUNTRY", "TIME_PERIOD", "OBS_VALUE"))
+    series: dict[str, dict[str, float]] = {}
+    for r in rows:
+        if r[value] and float(r[value]) > 0:
+            series.setdefault(r[country], {})[r[period].replace("-M", "-")] = float(r[value])
+    sgd = series.get("SGP") or {}
+    if not sgd:
+        raise ValueError("no IMF rate for the Singapore dollar")
+    rates: dict[str, float] = {}
+    months: dict[str, str] = {}
+    for code, currency in want.items():
+        shared = sorted(m for m in series.get(code, {}) if m in sgd)
+        if shared:
+            rates[currency] = float(f"{series[code][shared[-1]] / sgd[shared[-1]]:.5g}")
+            months[currency] = shared[-1]
+    return rates, months
+
+
+def refresh_fx(data_dir: Path, report: Report, dry_run: bool, today: date | None = None) -> None:
+    """ECB rates (via Frankfurter) where published, IMF month-end rates for the rest (mirrors getRates in lib/fx.ts)."""
     try:
         currencies = fx_currencies(data_dir)
-        res = requests.get("https://api.frankfurter.dev/v1/latest?base=SGD&symbols=" + ",".join(currencies), timeout=30)
+        res = requests.get("https://api.frankfurter.dev/v1/latest?base=SGD", timeout=30)
         res.raise_for_status()
         body = res.json()
-        rates = {c: body["rates"][c] for c in currencies}
+        rates = {c: body["rates"][c] for c in currencies if c in body["rates"]}
+        month_end: dict[str, str] = {}
+        if missing := [c for c in currencies if c not in rates]:
+            imf, month_end = imf_rates(missing, today or date.today())
+            rates |= imf
+        if missing := [c for c in currencies if c not in rates]:
+            raise ValueError("neither the ECB nor the IMF has a recent rate for " + ", ".join(missing))
     except Exception as err:  # noqa: BLE001 - any failure just keeps the old file
         report.problems.append(f"exchange rates: {err}")
         return
     if not dry_run:
         payload = {"base": "SGD", "date": body["date"], "rates": dict(sorted(rates.items()))}
+        if month_end:
+            payload["monthEnd"] = dict(sorted(month_end.items()))
         (data_dir / "fx-fallback.json").write_text(json.dumps(payload, indent=2) + "\n")
     report.notes.append(f"fallback exchange rates refreshed ({body['date']})")
 
@@ -341,7 +391,7 @@ def run(
             if living and today - living.lastVerified > MANUAL_CHECK_AFTER:
                 report.manual.append(f"{uni.name}: living costs (last checked {living.lastVerified}) — {living.sourceUrl}")
         if with_fx:
-            refresh_fx(data_dir, report, dry_run)
+            refresh_fx(data_dir, report, dry_run, today)
         update_fee_increase_defaults(data_dir, [u for _, u in unis.values()], report, dry_run)
 
     if not dry_run:
