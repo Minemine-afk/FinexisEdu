@@ -1,5 +1,6 @@
 import Calculator from "@/components/Calculator";
 import CourseRationale from "@/components/CourseRationale";
+import EditorLink from "@/components/EditorLink";
 import UniversityRationale from "@/components/UniversityRationale";
 import { forSite, loadCountries, loadCourses, loadRationale, loadUniversities } from "@/lib/data";
 import { fxCurrencies, getFxRates } from "@/lib/fx";
@@ -26,13 +27,7 @@ export default async function Home() {
         <div className="safe-x mx-auto max-w-6xl pt-[calc(env(safe-area-inset-top)+2.5rem)] pb-10 sm:pt-[calc(env(safe-area-inset-top)+3.5rem)] sm:pb-14">
           <div className="flex items-baseline justify-between gap-4">
             <p className="text-sm font-semibold uppercase tracking-widest text-on-accent-muted">FinexisEdu</p>
-            {/* Editing is desktop-only, so phones and tablets don't see the link. */}
-            <a
-              href="/admin"
-              className="hidden text-sm text-on-accent-muted underline-offset-4 hover:text-on-accent hover:underline lg:pointer-fine:inline"
-            >
-              Editor login
-            </a>
+            <EditorLink />
           </div>
           <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">University fee calculator</h1>
           <p className="mt-3 max-w-2xl text-on-accent-muted">

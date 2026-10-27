@@ -241,7 +241,7 @@ Import Git Repository** (not "Clone Template", which creates a separate, empty
 repo). Vercel detects Next.js automatically; the calculator needs no settings or secrets.
 Production deploys from `main`.
 
-The editor at `/admin` (the "Editor login" link, shown on computers only) stays
+The editor at `/admin` (reached by the faint three-bar symbol at the top right of the header, shown on computers only) stays
 switched off until you add an `EDITOR_PASSWORD` environment variable (at least 8
 characters) under **Settings → Environment Variables**. Everyone who edits shares
 that password; changing it signs everyone out.
