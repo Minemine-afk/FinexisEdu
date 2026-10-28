@@ -1,0 +1,39 @@
+name: Refresh exchange rates
+
+# The page only re-renders when someone visits it, so on a quiet day the rates could
+# go stale. This visits it once a day after the European Central Bank publishes
+# (around 16:00 Central European Time) and checks the footer shows the latest rate.
+on:
+  schedule:
+    # 16:30 UTC every day (00:30 in Singapore)
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+env:
+  SITE_URL: https://finexisedu1.vercel.app/
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - name: Visit the site until it shows the latest ECB rate
+        run: |
+          shown_date() {
+            curl -fsS --max-time 60 "$SITE_URL" | sed 's/<!-- -->//g' \
+              | grep -oE 'European Central Bank, as of [0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 | grep -oE '[0-9-]{10}$' || true
+          }
+          for attempt in 1 2 3 4 5 6; do
+            latest=$(curl -fsS --max-time 30 "https://api.frankfurter.dev/v1/latest?base=SGD" | jq -r .date || true)
+            # The first visit to a stale page still gets the old copy and starts a re-render.
+            curl -fsS --max-time 60 -o /dev/null "$SITE_URL" || true
+            sleep 60
+            shown=$(shown_date)
+            echo "Attempt $attempt: latest ECB rate $latest, site shows $shown"
+            if [ -n "$latest" ] && [ "$shown" = "$latest" ]; then exit 0; fi
+            sleep 600
+          done
+          echo "::error::The site still shows ECB rates as of '$shown' but the latest is '$latest'."
+          exit 1

@@ -4,7 +4,7 @@ import { FxRates } from "./schema";
 
 // The currencies the site started with, in their original order; others follow A to Z.
 const FIRST_CURRENCIES = ["GBP", "AUD", "USD", "EUR", "CAD", "NZD", "CHF", "JPY"];
-const ONE_DAY = 60 * 60 * 24;
+const ONE_HOUR = 60 * 60;
 // Rates older than this many months are treated as missing (the IMF keeps series for currencies that no longer exist).
 const MAX_AGE_MONTHS = 12;
 
@@ -15,7 +15,7 @@ export interface FxResult extends FxRates {
   source: "live" | "fallback";
 }
 
-/** How exchange-rate requests are cached: daily for the site, never for the editor. */
+/** How exchange-rate requests are cached: hourly for the site, never for the editor. */
 export type FxFetchOptions = Pick<RequestInit, "cache"> & { next?: { revalidate: number } };
 
 /** The currencies to convert to SGD: every country's currency except SGD itself. */
@@ -93,12 +93,12 @@ export function monthEnd(month: string): string {
 }
 
 /**
- * Latest ECB and IMF rates, cached for a day. Falls back to data/fx-fallback.json
+ * Latest ECB and IMF rates, cached for an hour. Falls back to data/fx-fallback.json
  * (refreshed by the data pipeline) if either is unreachable or a currency is missing.
  */
 export async function getFxRates(currencies: string[]): Promise<FxResult> {
   try {
-    const rates = FxRates.parse(await getRates(currencies, { next: { revalidate: ONE_DAY } }));
+    const rates = FxRates.parse(await getRates(currencies, { next: { revalidate: ONE_HOUR } }));
     if (currencies.some((c) => !rates.rates[c])) throw new Error("Missing currencies");
     return { ...rates, source: "live" };
   } catch (err) {

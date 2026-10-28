@@ -7,8 +7,9 @@ import { fxCurrencies, getFxRates, monthEnd } from "@/lib/fx";
 import { Settings, SETTINGS } from "@/lib/settings";
 import { singaporeToday } from "@/lib/today";
 
-// Re-render daily so exchange rates stay fresh; fee data changes on redeploy.
-export const revalidate = 86400;
+// Re-render at most hourly, on the next visit, so exchange rates stay fresh; fee data changes on redeploy.
+// .github/workflows/refresh-rates.yml visits daily after the ECB publishes, so a quiet day still gets new rates.
+export const revalidate = 3600;
 
 export default async function Home() {
   // A bad value in data/settings.json fails the build, so visitors keep the last good version.
