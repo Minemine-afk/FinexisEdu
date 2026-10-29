@@ -1,6 +1,7 @@
 import { editPageFor } from "@/lib/editor/documents";
 import { Cell, Facts, PageTitle, percent, Section, Table } from "@/components/editor/ui";
 import { loadCountries } from "@/lib/data";
+import { OTHER_RATES_OPTIONS } from "@/lib/editor/spec";
 import { SETTINGS } from "@/lib/settings";
 
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -19,6 +20,7 @@ export default function SettingsScreen() {
           ["Fee increase when nothing else is known", percent(s.fallbackFeeIncrease)],
           ["Living-cost increase when a country has none", percent(s.fallbackLivingCostIncrease)],
           ["Latest start year", s.maxStartYear],
+          ["Exchange rates when the ECB has none", OTHER_RATES_OPTIONS.find((o) => o.value === s.otherExchangeRates)?.label],
           ["Frugal lifestyle", `${s.lifestyleMultiplier.frugal} x the university's estimate`],
           ["Moderate lifestyle", `${s.lifestyleMultiplier.moderate} x the university's estimate`],
           ["Comfortable lifestyle", `${s.lifestyleMultiplier.comfortable} x the university's estimate`],

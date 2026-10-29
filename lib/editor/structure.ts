@@ -1,4 +1,5 @@
 import { getRates } from "@/lib/fx";
+import { SETTINGS as SITE_SETTINGS } from "@/lib/settings";
 import { Country, type University } from "@/lib/schema";
 import { cleanName, EditorError, sessionWorkspace, submitFiles, waitingChangesFor, type Workspace } from "./changes";
 import { countryPath, serialize, universityPath, validateDocument } from "./documents";
@@ -92,7 +93,7 @@ export interface NewCountry {
   intakeMonth?: number;
 }
 
-/** The SGD rate for a currency from the ECB or, failing that, the IMF; undefined if neither has one. */
+/** The SGD rate for a currency from the ECB or, failing that, the source chosen in Site settings; undefined if neither has one. */
 async function sgdRate(currency: string): Promise<{ rate: number } | undefined> {
   try {
     const rate = (await getRates([currency], { cache: "no-store" })).rates[currency];
@@ -118,7 +119,7 @@ export async function addCountry(by: string, input: NewCountry, session?: string
   if (country.currency !== "SGD" && !fx.data!.rates[country.currency]) {
     const live = await sgdRate(country.currency);
     if (!live) {
-      throw new EditorError(`Neither the European Central Bank nor the International Monetary Fund publishes a recent exchange rate for ${country.currency}, so the calculator could not convert its fees.`);
+      throw new EditorError(`Neither the European Central Bank nor ${SITE_SETTINGS.otherExchangeRates === "imf" ? "the International Monetary Fund" : "a central bank available through Frankfurter"} publishes a recent exchange rate for ${country.currency}, so the calculator could not convert its fees.`);
     }
     const rates = Object.fromEntries(Object.entries({ ...fx.data!.rates, [country.currency]: live.rate }).sort(([a], [b]) => a.localeCompare(b)));
     files.push({ path: FX_FALLBACK, text: serialize({ ...fx.data, rates }) });

@@ -348,6 +348,11 @@ export const COUNTRY: FieldSpec[] = [
   },
 ];
 
+export const OTHER_RATES_OPTIONS = [
+  { value: "frankfurter", label: "Frankfurter: daily central-bank rates" },
+  { value: "imf", label: "IMF: month-end rates, 4 to 8 weeks behind" },
+];
+
 export function settingsSpec(countries: { value: string; label: string }[]): FieldSpec[] {
   const name = (code: string) => countries.find((c) => c.value === code)?.label ?? code;
   return [
@@ -355,6 +360,13 @@ export function settingsSpec(countries: { value: string; label: string }[]): Fie
     { key: "fallbackFeeIncrease", label: "Fee increase when nothing else is known", kind: "percent" },
     { key: "fallbackLivingCostIncrease", label: "Living-cost increase when a country has none", kind: "percent" },
     { key: "maxStartYear", label: "Latest start year", kind: "int" },
+    {
+      key: "otherExchangeRates",
+      label: "Exchange rates when the ECB has none",
+      kind: "select",
+      options: OTHER_RATES_OPTIONS,
+      help: "The European Central Bank's daily rates are always used first. This picks the source for any currency it doesn't publish.",
+    },
     {
       key: "lifestyleMultiplier",
       label: "Lifestyle (times the university's estimate)",

@@ -14,15 +14,15 @@ abroad. Visas, flights and health insurance are out of scope.
 
 ```
              monthly GitHub Action                       every request (cached 24h)
- university ──► scrapers/ (Python) ──► PR with data/ ──► Next.js site ◄── Frankfurter (ECB)
- fee pages                             changes, reviewed    (Vercel)        + IMF data API
+ university ──► scrapers/ (Python) ──► PR with data/ ──► Next.js site ◄── ECB daily rates
+ fee pages                             changes, reviewed    (Vercel)        + Frankfurter or IMF
                                        by a human
 ```
 
 | Data | Where it comes from | How it stays current |
 |---|---|---|
 | Tuition and compulsory fees, per university, level and field | Each university's published fee page (HTML, PDF or JavaScript page) | `scrapers/` re-reads the pages monthly and opens a PR |
-| Exchange rates to SGD | [Frankfurter](https://frankfurter.dev) (European Central Bank daily reference rates, about 30 currencies), then the [IMF data API](https://data.imf.org) (month-end rates from the IMF exchange-rate dataset) for any currency the ECB lacks; both free, no key | Fetched live and cached for an hour, with a daily visit after the ECB publishes (`refresh-rates.yml`); `data/fx-fallback.json` is used if the API is down |
+| Exchange rates to SGD | European Central Bank daily reference rates (about 30 currencies, read from the ECB's own file, or Frankfurter's copy if that fails). For any currency the ECB lacks, the source chosen in Site settings (`otherExchangeRates`): [Frankfurter](https://frankfurter.dev) central-bank rates (MAS, Bank of England, Bank of Canada, RBA or IMF daily, else the currency's own central bank; at most a week old and within 2% of a second bank where one exists), or the [IMF data API](https://data.imf.org) month-end rates. All free, no key | Fetched live and cached for an hour, with a daily visit after the ECB publishes (`refresh-rates.yml`); `data/fx-fallback.json` is used if the API is down |
 | Yearly fee increase used for future years | Each university's own rate: the median compound yearly rise across its programmes' published fee histories (per residency tier in Singapore), computed in `lib/increase.ts`. A per-country default in `data/countries/` is used where a university has fewer than two programmes with history | Country defaults recomputed by the same monthly run; university rates follow the data |
 
 There is no public API for university tuition anywhere, so fees are scraped

@@ -1,4 +1,4 @@
-"""Refreshes data/ from university fee pages and ECB/IMF exchange rates.
+"""Refreshes data/ from university fee pages and exchange rates (ECB, then Frankfurter or the IMF).
 
     python -m scrapers.run               # update data/ and write scrapers/out/summary.md
     python -m scrapers.run --dry-run     # print what would change, write nothing
@@ -227,6 +227,10 @@ def save_university(path: Path, uni: University) -> None:
 
 FX_CODES = json.loads((ROOT / "lib" / "fx-imf.json").read_text())
 FX_MAX_AGE_MONTHS = 12  # older IMF rates are treated as missing
+FX_MAX_AGE_DAYS = 7  # older central-bank rates from Frankfurter are treated as missing
+FX_MAX_GAP = 0.02  # two central banks further apart than this are treated as unreliable
+FX_MAJOR_BANKS = ["MAS", "BOE", "BOC", "RBA", "IMF"]
+FRANKFURTER = "https://api.frankfurter.dev"
 
 
 def imf_country(currency: str) -> str | None:
@@ -266,29 +270,85 @@ def imf_rates(currencies: list[str], today: date) -> tuple[dict[str, float], dic
     return rates, months
 
 
-def refresh_fx(data_dir: Path, report: Report, dry_run: bool, today: date | None = None) -> None:
-    """ECB rates (via Frankfurter) where published, IMF month-end rates for the rest (mirrors getRates in lib/fx.ts)."""
+def ecb_rates() -> tuple[str, dict[str, float]]:
+    """The ECB's daily rates as units per SGD and their date, from the ECB's own file or else
+    Frankfurter's copy (mirrors getEcbRates in lib/fx.ts)."""
     try:
-        currencies = fx_currencies(data_dir)
-        res = requests.get("https://api.frankfurter.dev/v1/latest?base=SGD", timeout=30)
+        res = requests.get("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml", timeout=30)
+        res.raise_for_status()
+        day = re.search(r"time=['\"](\d{4}-\d{2}-\d{2})['\"]", res.text)
+        per_euro = {"EUR": 1.0} | {
+            c: float(r) for c, r in re.findall(r"currency=['\"]([A-Z]{3})['\"]\s+rate=['\"]([\d.]+)['\"]", res.text)
+        }
+        if not day or "SGD" not in per_euro:
+            raise ValueError("no date or SGD rate in the ECB file")
+        sgd = per_euro.pop("SGD")
+        return day.group(1), {c: float(f"{r / sgd:.5g}") for c, r in per_euro.items()}
+    except Exception:  # noqa: BLE001 - fall back to Frankfurter's copy
+        res = requests.get(f"{FRANKFURTER}/v1/latest?base=SGD", timeout=30)
         res.raise_for_status()
         body = res.json()
-        rates = {c: body["rates"][c] for c in currencies if c in body["rates"]}
+        return body["date"], body["rates"]
+
+
+def frankfurter_rates(currencies: list[str], today: date) -> tuple[dict[str, float], dict[str, dict[str, str]]]:
+    """Units of each currency per SGD from a named central bank through Frankfurter, and the bank and
+    date each comes from (mirrors getFrankfurterRates in lib/fx.ts)."""
+    res = requests.get(
+        f"{FRANKFURTER}/v2/rates", params={"base": "SGD", "quotes": ",".join(currencies), "expand": "providers"}, timeout=60
+    )
+    res.raise_for_status()
+    providers = requests.get(f"{FRANKFURTER}/v2/providers", timeout=60)
+    providers.raise_for_status()
+    banks = providers.json()
+    names = {p["key"]: p["name"] for p in banks}
+    oldest = (today - timedelta(days=FX_MAX_AGE_DAYS)).isoformat()
+    rates: dict[str, float] = {}
+    sources: dict[str, dict[str, str]] = {}
+    for row in res.json():
+        if row["quote"] not in currencies:
+            continue
+        order = FX_MAJOR_BANKS + [p["key"] for p in banks if p["pivot_currency"] == row["quote"]]
+        fresh = [
+            p for key in order for p in row.get("providers") or [] if p["key"] == key and p["date"] >= oldest and p["rate"] > 0
+        ]
+        if not fresh or (len(fresh) > 1 and abs(fresh[0]["rate"] / fresh[1]["rate"] - 1) > FX_MAX_GAP):
+            continue
+        rates[row["quote"]] = float(f"{fresh[0]['rate']:.5g}")
+        sources[row["quote"]] = {"name": names.get(fresh[0]["key"], fresh[0]["key"]), "date": fresh[0]["date"]}
+    return rates, sources
+
+
+def refresh_fx(data_dir: Path, report: Report, dry_run: bool, today: date | None = None) -> None:
+    """ECB rates where published, and for the rest the source chosen in data/settings.json: a central bank
+    through Frankfurter or the IMF's month-end rate (mirrors getRates in lib/fx.ts)."""
+    other = json.loads((data_dir / "settings.json").read_text()).get("otherExchangeRates", "frankfurter")
+    try:
+        currencies = fx_currencies(data_dir)
+        day, ecb = ecb_rates()
+        rates = {c: ecb[c] for c in currencies if c in ecb}
         month_end: dict[str, str] = {}
+        sources: dict[str, dict[str, str]] = {}
         if missing := [c for c in currencies if c not in rates]:
-            imf, month_end = imf_rates(missing, today or date.today())
-            rates |= imf
+            if other == "imf":
+                extra, month_end = imf_rates(missing, today or date.today())
+            else:
+                extra, sources = frankfurter_rates(missing, today or date.today())
+            rates |= extra
         if missing := [c for c in currencies if c not in rates]:
-            raise ValueError("neither the ECB nor the IMF has a recent rate for " + ", ".join(missing))
+            name = "the IMF" if other == "imf" else "a central bank through Frankfurter"
+            raise ValueError(f"neither the ECB nor {name} has a recent rate for " + ", ".join(missing))
     except Exception as err:  # noqa: BLE001 - any failure just keeps the old file
         report.problems.append(f"exchange rates: {err}")
         return
     if not dry_run:
-        payload = {"base": "SGD", "date": body["date"], "rates": dict(sorted(rates.items()))}
+        payload: dict = {"base": "SGD", "date": day, "rates": dict(sorted(rates.items()))}
         if month_end:
             payload["monthEnd"] = dict(sorted(month_end.items()))
+        if sources:
+            payload["sources"] = dict(sorted(sources.items()))
         (data_dir / "fx-fallback.json").write_text(json.dumps(payload, indent=2) + "\n")
-    report.notes.append(f"fallback exchange rates refreshed ({body['date']})")
+    report.notes.append(f"fallback exchange rates refreshed ({day})")
 
 
 def _median_rate(growth: list[float]) -> float:

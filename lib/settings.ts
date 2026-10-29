@@ -16,6 +16,10 @@ export const GLOSSARY_TERMS = [
 export type GlossaryTerm = (typeof GLOSSARY_TERMS)[number];
 const month = z.number().int().min(0).max(11);
 
+/** Where rates come from for currencies the European Central Bank doesn't publish. */
+export const OTHER_RATES_SOURCES = ["frankfurter", "imf"] as const;
+export type OtherRatesSource = (typeof OTHER_RATES_SOURCES)[number];
+
 export const Settings = z.strictObject({
   /** Countries in the order the pickers list them; countries not listed follow alphabetically. */
   countryOrder: z.array(z.string().regex(/^[a-z]{2}$/)).refine((xs) => new Set(xs).size === xs.length, "duplicate country"),
@@ -34,6 +38,8 @@ export const Settings = z.strictObject({
   fallbackFeeIncrease: z.number().min(0).max(0.5),
   /** Yearly living-cost increase used when the country gives none. */
   fallbackLivingCostIncrease: z.number().min(0).max(0.5),
+  /** Exchange rates for currencies the ECB lacks: central banks through Frankfurter (daily) or the IMF (month-end). */
+  otherExchangeRates: z.enum(OTHER_RATES_SOURCES),
   /** Latest start year a visitor can pick. */
   maxStartYear: z.number().int().min(2030).max(2200),
   /** Hover explanations. The terms are fixed by the code; only the wording can change. */
