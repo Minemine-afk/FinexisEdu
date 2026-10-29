@@ -30,7 +30,7 @@ export default function EditorLink() {
     <a
       href="/admin"
       aria-label="Editor login"
-      className="rounded px-1.5 py-1 text-on-accent-muted opacity-30 transition-opacity hover:opacity-100 focus-visible:opacity-100"
+      className="rounded px-1.5 py-1 text-on-accent-muted opacity-[0.12] transition-opacity hover:opacity-100 focus-visible:opacity-100"
     >
       <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
         <rect x="1" y="1" width="2" height="12" rx="1" />
