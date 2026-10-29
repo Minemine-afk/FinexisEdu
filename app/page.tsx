@@ -72,6 +72,10 @@ export default async function Home() {
               `; International Monetary Fund month-end rates for ${Object.entries(fx.monthEnd)
                 .map(([c, m]) => `${c} (as of ${monthEnd(m)})`)
                 .join(", ")}`}
+            {fx.sources &&
+              Object.entries(fx.sources)
+                .map(([c, s]) => `; ${s.name} for ${c} (as of ${s.date})`)
+                .join("")}
             .
           </p>
         </div>

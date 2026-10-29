@@ -202,10 +202,13 @@ export const Country = z.object({
 export const FxRates = z.object({
   base: z.literal("SGD"),
   date: z.iso.date(),
-  // Units of each currency per 1 SGD: ECB daily rates (via Frankfurter), or IMF month-end rates for currencies the ECB lacks.
+  // Units of each currency per 1 SGD: ECB daily rates, or for currencies the ECB lacks, the other source
+  // chosen in Site settings (a central bank's rate through Frankfurter, or the IMF's month-end rate).
   rates: z.record(z.string(), z.number().positive()),
   // Currencies taken from the IMF, with the month ("2026-09") whose month-end rate they use.
   monthEnd: z.record(z.string(), z.string().regex(/^\d{4}-\d{2}$/)).optional(),
+  // Currencies taken from a central bank through Frankfurter, with the bank's name and the rate's date.
+  sources: z.record(z.string(), z.object({ name: z.string(), date: z.iso.date() })).optional(),
 });
 
 export type CountryCode = z.infer<typeof CountryCode>;

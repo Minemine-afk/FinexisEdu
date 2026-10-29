@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { Suspense } from "react";
+import FxNotice from "@/components/editor/FxNotice";
 import { signOut } from "../actions";
 
 const SCREENS = [
@@ -37,7 +39,12 @@ export default function EditorLayout({ children }: { children: React.ReactNode }
           </div>
         </div>
       </header>
-      <main className="mx-auto max-w-6xl px-6 py-8">{children}</main>
+      <main className="mx-auto max-w-6xl px-6 py-8">
+        <Suspense>
+          <FxNotice />
+        </Suspense>
+        {children}
+      </main>
     </div>
   );
 }

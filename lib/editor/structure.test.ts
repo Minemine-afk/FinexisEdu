@@ -30,7 +30,14 @@ beforeEach(() => {
   vi.stubEnv("EDITOR_GITHUB_TOKEN", "test-token");
   vi.stubGlobal("fetch", async (input: string, init: RequestInit = {}) => {
     const url = new URL(input);
-    if (url.hostname === "api.frankfurter.dev") return Response.json({ date: "2026-10-26", rates: { AUD: 1.12 } });
+    // 1.25 SGD and 1.4 AUD per euro make 1.12 AUD per SGD.
+    if (url.hostname === "www.ecb.europa.eu") return new Response(`<Cube time='2026-10-26'><Cube currency='AUD' rate='1.4'/><Cube currency='SGD' rate='1.25'/></Cube>`);
+    if (url.pathname === "/v2/providers") return Response.json([{ key: "MAS", name: "Monetary Authority of Singapore", pivot_currency: "SGD" }]);
+    if (url.hostname === "api.frankfurter.dev") {
+      // Only Hong Kong has a central-bank rate.
+      const hkd = { quote: "HKD", providers: [{ key: "MAS", date: new Date().toISOString().slice(0, 10), rate: 5.95 }] };
+      return Response.json(url.searchParams.get("quotes") === "HKD" ? [hkd] : []);
+    }
     if (url.hostname === "api.imf.org") {
       // Only Hong Kong has a rate; 7.4375 HKD and 1.25 SGD per US dollar make 5.95 HKD per SGD.
       const rows = ["COUNTRY,INDICATOR,TYPE_OF_TRANSFORMATION,FREQUENCY,TIME_PERIOD,OBS_VALUE", "SGP,XDC_USD,EOP_RT,M,2026-M09,1.25"];
@@ -115,7 +122,7 @@ describe("adding and removing", () => {
     expect(settings.intakeMonth.hk).toBeUndefined();
   });
 
-  it("refuses a currency neither the ECB nor the IMF has a rate for, or a code in use", async () => {
+  it("refuses a currency neither the ECB nor the other source has a rate for, or a code in use", async () => {
     await expect(addCountry("Ana", { code: "ar", name: "Argentina", currency: "ARS", defaultFeeIncrease: 0.03 })).rejects.toThrow(/Neither the European Central Bank nor/);
     await expect(addCountry("Ana", { code: "au", name: "Australia", currency: "AUD", defaultFeeIncrease: 0.03 })).rejects.toThrow(/already a country/);
   });
