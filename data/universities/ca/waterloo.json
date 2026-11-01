@@ -1,11 +1,10 @@
 {
   "id": "waterloo",
   "name": "University of Waterloo",
-  "feeMethod": "Sets international term tuition by faculty and programme, so the calculator uses each degree's term rate for two terms.",
   "country": "ca",
   "city": "Waterloo, ON",
   "currency": "CAD",
-  "website": "https://uwaterloo.ca",
+  "website": "https://uwaterloo.ca/",
   "description": "The University of Waterloo is a public research university in Waterloo, Ontario, founded in 1957. It is known for engineering, mathematics and computer science and for running the world's largest co-operative education programme.",
   "whyIncluded": "Waterloo reports more than 300 alumni living or working in Singapore through its Singapore Alumni Chapter, and its co-op engineering and computer science degrees are a common overseas choice for Singaporean students.",
   "livingCosts": {
@@ -18,7 +17,7 @@
       "personal": 758
     },
     "sourceUrl": "https://uwaterloo.ca/future-graduate-students/funding/living-costs-and-housing",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-11-01",
     "sourceType": "official",
     "summary": "The university's own estimate for a single student in shared off-campus housing over an 8-month academic year: rent and utilities, groceries, transport, phone, personal care, clothing and books. One-time costs excluded.",
     "notes": "Waterloo Graduate Studies 'Estimated living costs' (single person in Waterloo, OSAP-based, updated annually; monthly figures). Housing = off-campus shared housing incl. utilities $950-$1,900, midpoint $1,425. Food (groceries) $385. Transport $28 (over and above the free UPass). Personal = telephone $106 + entertainment $150 + personal care $80 + clothing $132 + laundry $43 + books and supplies $247 = $758. Months = 8 (fall + winter undergraduate academic year; the page gives monthly figures and a 3-term/12-month graduate year). One-time costs (computer, deposit, furniture) excluded."
@@ -38,11 +37,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Engineering (C$34,942 + C$34,597 for the two first-year terms), plus incidental and co-op fees, since all engineering is co-op.",
-      "feeChoice": "Fees are set by faculty, so Engineering's first-year term rate, with the co-op fee all engineering pays, is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students (two terms). All engineering programmes are co-op, and the co-op fee is included with compulsory fees. Not fixed; health insurance is extra.",
       "notes": "Fall 2026 international schedule: Engineering program fee (maximum tuition) term 1A $34,942 + term 1B $34,597 (all engineering programs are co-op). Fees = incidental fees $1,385.62 x 2 + co-op fee $836 x 2 (charged every academic term from 1A). Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
       "feeHistory": [
@@ -62,7 +60,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Engineering (C$34,942 + C$34,597 for the two first-year terms), plus incidental and co-op fees, since all engineering is co-op.",
+      "feeChoice": "Fees are set by faculty, so Engineering's first-year term rate, with the co-op fee all engineering pays, is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -78,11 +78,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Computer Science (regular stream) (C$34,942 a term), for the fall and winter terms of first year, plus incidental fees.",
-      "feeChoice": "Fees are set by faculty and programme, so the Computer Science term rate for two terms is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students (two terms) in the regular stream; the co-op stream adds a co-op fee each term. Compulsory fees included; not fixed; health insurance is extra.",
       "notes": "Fall 2026 international schedule: Computer Science/Data Science regular stream maximum tuition $34,942 per term x 2. Fees = full-time incidental fees $1,171.91 x 2. Co-op stream adds an $836 co-op fee per academic term. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
       "feeHistory": [
@@ -102,7 +101,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Computer Science (regular stream) (C$34,942 a term), for the fall and winter terms of first year, plus incidental fees.",
+      "feeChoice": "Fees are set by faculty and programme, so the Computer Science term rate for two terms is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -118,11 +119,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Accounting & Financial Management (C$27,010 a term), for the fall and winter terms of first year, plus incidental fees.",
-      "feeChoice": "Tuition is the programme's own term rate each year; from Year 2 the co-op fee is added, so later years are costed separately.",
+      "internationalEligible": true,
       "summary": "Year 1 tuition is C$54,020 plus about C$2,680 in fees. From year 2 a co-op fee of C$836 a term (about C$1,670 a year) is added. Fees rise each year; health insurance is extra.",
       "notes": "Fall 2026 international schedule: Accounting & Financial Management co-op term 1A $27,010 + 1B $27,010 maximum tuition. Fees = incidental fees $1,341.21 x 2; the $836 co-op fee starts in term 2A and is excluded. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules. laterYears added 2026-10-08 from the figures above; annualTuition is now the year-1 figure.",
       "feeHistory": [
@@ -143,6 +143,8 @@
           "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
         }
       ],
+      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Accounting & Financial Management (C$27,010 a term), for the fall and winter terms of first year, plus incidental fees.",
+      "feeChoice": "Tuition is the programme's own term rate each year; from Year 2 the co-op fee is added, so later years are costed separately.",
       "laterYears": [
         {
           "fromYear": 2,
@@ -166,11 +168,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Science (C$25,296 a term), for the fall and winter terms of first year, plus incidental fees.",
-      "feeChoice": "Fees are set by faculty, so the Science term rate for two terms is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students (two terms). Not fixed, so later years may cost more. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: Science regular Year 1 maximum tuition $25,296 per term x 2. Fees = incidental fees $1,190.59 x 2. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
       "feeHistory": [
@@ -190,7 +191,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Science (C$25,296 a term), for the fall and winter terms of first year, plus incidental fees.",
+      "feeChoice": "Fees are set by faculty, so the Science term rate for two terms is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -206,11 +209,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Arts (C$27,010 a term), for the fall and winter terms of first year, plus incidental fees.",
-      "feeChoice": "Fees are set by faculty, so the Arts term rate for two terms is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students (two terms). Not fixed, so later years may cost more. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: Arts regular Year 1 maximum tuition $27,010 per term x 2. Fees = incidental fees $1,143.94 x 2. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules.",
       "feeHistory": [
@@ -230,7 +232,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Arts (C$27,010 a term), for the fall and winter terms of first year, plus incidental fees.",
+      "feeChoice": "Fees are set by faculty, so the Arts term rate for two terms is used as the yearly rate."
     },
     {
       "level": "master",
@@ -246,11 +250,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international full-time MEng tuition (C$17,400 a term) for the three terms of the one-year programme, plus incidental fees.",
-      "feeChoice": "The MEng has its own term rate, and its three terms cover the whole one-year degree.",
+      "internationalEligible": true,
       "summary": "Tuition for international students for this one-year, three-term programme. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: MEng full-time tuition $17,400 per term x 3 terms (one-year course-based programme). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
       "feeHistory": [
@@ -270,7 +273,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international full-time MEng tuition (C$17,400 a term) for the three terms of the one-year programme, plus incidental fees.",
+      "feeChoice": "The MEng has its own term rate, and its three terms cover the whole one-year degree."
     },
     {
       "level": "master",
@@ -286,11 +291,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international research master's rate (C$7,696 a term, three terms a year), the same for all research master's, plus incidental fees.",
-      "feeChoice": "Every research master's pays the same term rate, so three terms a year are used for each year.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students in a research master's, typically 2 years. Not fixed and may rise. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: research master's rate $7,696 per term x 3 terms; duration is the typical 2 years (6 terms). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
       "feeHistory": [
@@ -310,7 +314,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international research master's rate (C$7,696 a term, three terms a year), the same for all research master's, plus incidental fees.",
+      "feeChoice": "Every research master's pays the same term rate, so three terms a year are used for each year."
     },
     {
       "level": "master",
@@ -326,11 +332,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international MBET tuition (C$24,258 a term) for the three terms of the 12-month programme, plus incidental fees.",
-      "feeChoice": "The MBET has its own term rate, and its three terms cover the whole 12-month degree.",
+      "internationalEligible": true,
       "summary": "Tuition for international students for this 12-month programme. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: MBET full-time tuition $24,258 per term x 3 terms (12-month programme). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
       "feeHistory": [
@@ -350,7 +355,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international MBET tuition (C$24,258 a term) for the three terms of the 12-month programme, plus incidental fees.",
+      "feeChoice": "The MBET has its own term rate, and its three terms cover the whole 12-month degree."
     },
     {
       "level": "master",
@@ -366,11 +373,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international research master's rate (C$7,696 a term, three terms a year), the same for all research master's, plus incidental fees.",
-      "feeChoice": "Every research master's pays the same term rate, so three terms a year are used for each year.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students in a research master's, typically 2 years. Not fixed and may rise. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: research master's rate $7,696 per term x 3 terms; duration is the typical 2 years (6 terms). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
       "feeHistory": [
@@ -390,7 +396,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international research master's rate (C$7,696 a term, three terms a year), the same for all research master's, plus incidental fees.",
+      "feeChoice": "Every research master's pays the same term rate, so three terms a year are used for each year."
     },
     {
       "level": "master",
@@ -406,11 +414,10 @@
         }
       },
       "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international research master's rate (C$7,696 a term, three terms a year), the same for all research master's, plus incidental fees.",
-      "feeChoice": "Every research master's pays the same term rate, so three terms cover this one-year degree.",
+      "internationalEligible": true,
       "summary": "Tuition for international students for this one-year research master's. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: research master's rate $7,696 per term x 3 terms (one-year programme). Graduate year = 3 terms (fall, winter, spring). Fees = full-time incidental fees per term x 3 (health & dental plans, UPass, student services); UHIP excluded. History from the Fall 2025 and Fall 2024 international master's schedules.",
       "feeHistory": [
@@ -430,7 +437,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international research master's rate (C$7,696 a term, three terms a year), the same for all research master's, plus incidental fees.",
+      "feeChoice": "Every research master's pays the same term rate, so three terms cover this one-year degree."
     },
     {
       "level": "bachelor",
@@ -449,8 +458,7 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Arts (Psychology) (C$27,010 a term), for the fall and winter terms of first year, plus incidental fees.",
-      "feeChoice": "Fees are set by faculty, so the Arts term rate that Psychology pays, for two terms, is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students (two terms). Not fixed, so later years may cost more. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: Arts regular Year 1 maximum tuition $27,010 per term x 2. Fees = incidental fees $1,143.94 x 2. Academic year = fall + winter terms (8 months); the Fall schedule lists both first-year terms (1A/1B or Year 1 rate applies to both). Incidental fees include WUSA health & dental plans, UPass and student services; UHIP (international health insurance) is billed separately and excluded. History from the Fall 2025 and Fall 2024 international schedules. Honours Psychology (regular, Faculty of Arts) is charged the Arts Regular rate, so figures and history are copied from the existing BA Honours Economics record (same schedules); co-op adds a per-term co-op fee from 2A.",
       "feeHistory": [
@@ -470,7 +478,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2025-0"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international maximum term tuition for Arts (Psychology) (C$27,010 a term), for the fall and winter terms of first year, plus incidental fees.",
+      "feeChoice": "Fees are set by faculty, so the Arts term rate that Psychology pays, for two terms, is used as the yearly rate."
     },
     {
       "level": "master",
@@ -489,8 +499,7 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Waterloo's Fall 2026 international research master's rate (C$7,696 a term, three terms a year), the same for all research master's, plus incidental fees.",
-      "feeChoice": "Every research master's pays the same term rate, so three terms a year are used for each year.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students in this 2-year coursework and research-paper master's. Not fixed and may rise; international places are limited. Compulsory fees included; health insurance is extra.",
       "notes": "Fall 2026 international schedule: Graduate Master's Research rate $7,696 per term x 3 terms = $23,088; Psychology has its own full-time incidental fee, $1,024.92 per term x 3 = $3,074.76 ('Programs with different incidental fees' table). Graduate year = 3 terms. UHIP excluded. Programme: MASc in Psychology (Industrial and Organizational Psychology), 24 months full-time, coursework plus a master's research paper (no thesis) with an optional internship; Waterloo lists it as 'Master's, Research' and notes the Faculty of Arts is currently limiting the number of international students it admits (future-graduate-students programme page). The Psychology MA is thesis-only on admission. 2024 = Fall 2024 international master's schedule row 'Psychology - MASc (Industrial and Organizational Psychology)' $7,696 x 3 + incidental $891.19 x 3; 2025 = Fall 2025 schedule research master's $7,696 x 3 + Psychology incidental $948.65 x 3.",
       "feeHistory": [
@@ -510,7 +519,10 @@
           "oneOffFees": 0,
           "sourceUrl": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2025-international"
         }
-      ]
+      ],
+      "feeBasis": "Waterloo's Fall 2026 international research master's rate (C$7,696 a term, three terms a year), the same for all research master's, plus incidental fees.",
+      "feeChoice": "Every research master's pays the same term rate, so three terms a year are used for each year."
     }
-  ]
+  ],
+  "feeMethod": "Sets international term tuition by faculty and programme, so the calculator uses each degree's term rate for two terms."
 }

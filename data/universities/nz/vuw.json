@@ -1,11 +1,10 @@
 {
   "id": "vuw",
   "name": "Victoria University of Wellington",
-  "feeMethod": "Charges a per-point rate that depends on the subject group, so the calculator multiplies the rate by 120 points, a full-time year.",
   "country": "nz",
   "city": "Wellington",
   "currency": "NZD",
-  "website": "https://www.wgtn.ac.nz",
+  "website": "https://www.wgtn.ac.nz/",
   "description": "Victoria University of Wellington (Te Herenga Waka) is a public research university in Wellington, New Zealand's capital, founded in 1897 as Victoria College. Its faculties span law, humanities, science, engineering and business.",
   "whyIncluded": "Its LLB is one of only two New Zealand law degrees on the Singapore Institute of Legal Education's list of approved overseas universities (graduates in the top 70% of their cohort), and New Zealand is among the ten destinations with the most Singaporean students abroad (about 360, UNESCO data for 2022-24).",
   "livingCosts": {
@@ -38,11 +37,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "The BSc in Computer Science at Victoria's 2027 undergraduate science rate, NZ$357.43 per point x 120 points = NZ$42,892 a year (computing courses are in the science group).",
-      "feeChoice": "Computing courses are charged at the science per-point rate, so that rate for a full-time year is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students for an average full-time year in 2027, including GST. Student services and hardship fees included; insurance is extra. Fees reviewed yearly.",
       "notes": "2027 international undergraduate Science rate $357.43 per point x 120 points (the university's 'average year of full-time study'); COMP courses are in the Science fee band (Fees Schedule 2027). 360 points = 3 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 ($1,276.80) + Student Hardship Fee $33 (wgtn.ac.nz/students/money/fees/student-services-fee). 2026 = 2026 Science rate $337.20 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Science band 6, COMP (100-300 level) $318.12 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Science band 6, COMP (100-300 level) $302.97 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -64,10 +62,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 36356.4,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "The BSc in Computer Science at Victoria's 2027 undergraduate science rate, NZ$357.43 per point x 120 points = NZ$42,892 a year (computing courses are in the science group).",
+      "feeChoice": "Computing courses are charged at the science per-point rate, so that rate for a full-time year is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -83,11 +83,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 undergraduate commerce rate, NZ$331.65 per point x 120 points = NZ$39,798 for a full-time BCom year, the same for all its majors.",
-      "feeChoice": "Charged per point at the commerce rate, the same for all majors, so a full-time year at that rate is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students for an average full-time year in 2027, including GST. Student services and hardship fees included; insurance is extra. Fees reviewed yearly.",
       "notes": "2027 international undergraduate Commerce rate $331.65 per point x 120 points (average full-time year). 360 points = 3 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Commerce rate $312.88 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Commerce band 5 (100-300 level) $295.17 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Commerce band 5 (100-300 level) $281.11 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -109,10 +108,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 33733.2,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 undergraduate commerce rate, NZ$331.65 per point x 120 points = NZ$39,798 for a full-time BCom year, the same for all its majors.",
+      "feeChoice": "Charged per point at the commerce rate, the same for all majors, so a full-time year at that rate is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -128,11 +129,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 undergraduate engineering rate, NZ$410.31 per point x 120 points = NZ$49,237 for a full-time BE (Honours) year.",
-      "feeChoice": "Charged per point, so the engineering rate for a full-time year is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students for an average full-time year in 2027, including GST. Student services and hardship fees included; insurance is extra. Fees reviewed yearly.",
       "notes": "2027 international undergraduate Engineering rate $410.31 per point x 120 points (average full-time year). 480 points = 4 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Engineering rate $387.09 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Engineering band 9 (100-400 level) $365.18 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Engineering band 9 (100-400 level) $347.79 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -154,10 +154,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 41734.8,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 undergraduate engineering rate, NZ$410.31 per point x 120 points = NZ$49,237 for a full-time BE (Honours) year.",
+      "feeChoice": "Charged per point, so the engineering rate for a full-time year is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -173,11 +175,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 undergraduate science rate, NZ$357.43 per point x 120 points = NZ$42,892 for a full-time BSc year.",
-      "feeChoice": "Charged per point, so the science rate for a full-time year is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students for an average full-time year in 2027, including GST. Student services and hardship fees included; insurance is extra. Fees reviewed yearly.",
       "notes": "2027 international undergraduate Science rate $357.43 per point x 120 points (average full-time year). 360 points = 3 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Science rate $337.20 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Science band 6 (100-300 level) $318.12 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Science band 6 (100-300 level) $302.97 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -199,10 +200,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 36356.4,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 undergraduate science rate, NZ$357.43 per point x 120 points = NZ$42,892 for a full-time BSc year.",
+      "feeChoice": "Charged per point, so the science rate for a full-time year is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -218,11 +221,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 undergraduate humanities and social sciences rate, NZ$312.36 per point x 120 points = NZ$37,483 for a full-time BA year.",
-      "feeChoice": "Charged per point, so the humanities and social sciences rate for a full-time year is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students for an average full-time year in 2027, including GST. Student services and hardship fees included; insurance is extra. Fees reviewed yearly.",
       "notes": "2027 international undergraduate Humanities and Social Sciences rate $312.36 per point x 120 points (average full-time year). 360 points = 3 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = rate $294.68 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Humanities and Social Sciences band 1 (000/100-300 level) $278.00 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Humanities and Social Sciences band 1 (000/100-300 level) $264.76 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -236,7 +238,7 @@
         {
           "feeYear": 2025,
           "tier": "international",
-          "annualTuition": 33360.0,
+          "annualTuition": 33360,
           "annualCompulsoryFees": 1224.8,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0010/2259307/te-herenga-waka-calendar-2025.pdf"
         },
@@ -244,10 +246,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 31771.2,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 undergraduate humanities and social sciences rate, NZ$312.36 per point x 120 points = NZ$37,483 for a full-time BA year.",
+      "feeChoice": "Charged per point, so the humanities and social sciences rate for a full-time year is used as the yearly rate."
     },
     {
       "level": "master",
@@ -263,11 +267,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 postgraduate science rate, NZ$401.31 per point x 120 points = NZ$48,157 a year, for the 180-point (1.5-year) Master of Computer Science.",
-      "feeChoice": "Charged per point, so the postgraduate science rate for a full-time year is used across the 1.5 years.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students in 2027, including GST; the programme takes 1.5 years. Student services and hardship fees included; insurance is extra.",
       "notes": "2027 international postgraduate Science rate $401.31 per point x 120 points (average full-time year); MCompSc is 180 points (COMP/AIML/SWEN 400-500 level, Science band), so 1.5 years of the annual figure. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Science rate $378.60 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Science band 6, COMP (400-800 level) $357.17 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Science band 6, COMP (400-800 level) $350.17 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -289,10 +292,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 42020.4,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 postgraduate science rate, NZ$401.31 per point x 120 points = NZ$48,157 a year, for the 180-point (1.5-year) Master of Computer Science.",
+      "feeChoice": "Charged per point, so the postgraduate science rate for a full-time year is used across the 1.5 years."
     },
     {
       "level": "master",
@@ -308,11 +313,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 postgraduate commerce rate, NZ$342.65 per point x 120 points = NZ$41,118, for the one-year thesis Master of Commerce.",
-      "feeChoice": "Charged per point, so the postgraduate commerce rate for a full year covers this one-year thesis degree.",
+      "internationalEligible": true,
       "summary": "Tuition for international students for this one-year thesis master's in 2027, including GST. Student services and hardship fees included; insurance is extra.",
       "notes": "2027 international postgraduate Commerce rate $342.65 per point x 120 points; the MCom is a 120-point thesis degree, 1 year full-time. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Commerce rate $323.26 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Commerce band 5 (400-500 level) $304.97 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Commerce band 5 (400-500 level) $296.09 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -334,10 +338,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 35530.8,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 postgraduate commerce rate, NZ$342.65 per point x 120 points = NZ$41,118, for the one-year thesis Master of Commerce.",
+      "feeChoice": "Charged per point, so the postgraduate commerce rate for a full year covers this one-year thesis degree."
     },
     {
       "level": "master",
@@ -353,11 +359,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 postgraduate engineering rate, NZ$436.63 per point x 120 points = NZ$52,396 a year, for the 180-point (1.5-year) Master of Engineering Practice.",
-      "feeChoice": "Charged per point, so the postgraduate engineering rate for a full-time year is used across the 1.5 years.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students in 2027, including GST; the programme takes 1.5 years. Student services and hardship fees included; insurance is extra.",
       "notes": "2027 international postgraduate Engineering rate $436.63 per point x 120 points (average full-time year); the MEP is 180 points, so 1.5 years of the annual figure. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Engineering rate $411.92 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Engineering band 9 (500 level) $388.61 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Engineering band 9 (500 level) $377.29 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -379,10 +384,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 45274.8,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 postgraduate engineering rate, NZ$436.63 per point x 120 points = NZ$52,396 a year, for the 180-point (1.5-year) Master of Engineering Practice.",
+      "feeChoice": "Charged per point, so the postgraduate engineering rate for a full-time year is used across the 1.5 years."
     },
     {
       "level": "master",
@@ -398,11 +405,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 postgraduate science rate, NZ$401.31 per point x 120 points = NZ$48,157 a year, for the 2-year Master of Science.",
-      "feeChoice": "Charged per point, so the postgraduate science rate for a full-time year is used for both years.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students in 2027 for the 2-year master's, including GST. Student services and hardship fees included; insurance is extra.",
       "notes": "2027 international postgraduate Science rate $401.31 per point x 120 points (average full-time year); the MSc (Part 1 coursework + Part 2 thesis) is 240 points, 2 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Science rate $378.60 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Science band 6 (400-800 level) $357.17 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Science band 6 (400-800 level) $350.17 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -424,10 +430,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 42020.4,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 postgraduate science rate, NZ$401.31 per point x 120 points = NZ$48,157 a year, for the 2-year Master of Science.",
+      "feeChoice": "Charged per point, so the postgraduate science rate for a full-time year is used for both years."
     },
     {
       "level": "master",
@@ -443,11 +451,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 postgraduate humanities rate, NZ$338.33 per point x 120 points = NZ$40,600, for the one-year thesis Master of Arts.",
-      "feeChoice": "Charged per point, so the postgraduate humanities rate for a full year covers this one-year thesis degree.",
+      "internationalEligible": true,
       "summary": "Tuition for international students for this one-year thesis master's in 2027, including GST. Student services and hardship fees included; insurance is extra.",
       "notes": "2027 international postgraduate Humanities and Social Sciences rate $338.33 per point x 120 points; the MA is a 120-point thesis degree, 1 year full-time. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = rate $319.18 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, Humanities and Social Sciences band 1 (400-500 level) $301.12 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, Humanities and Social Sciences band 1 (400-500 level) $289.54 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -469,10 +476,12 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 34744.8,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Victoria's 2027 postgraduate humanities rate, NZ$338.33 per point x 120 points = NZ$40,600, for the one-year thesis Master of Arts.",
+      "feeChoice": "Charged per point, so the postgraduate humanities rate for a full year covers this one-year thesis degree."
     },
     {
       "level": "bachelor",
@@ -488,11 +497,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 undergraduate law rate, NZ$365.02 per point x 120 points = NZ$43,802 for a full-time LLB year.",
-      "feeChoice": "Charged per point, so the law rate for a full-time year is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students for an average full-time year in 2027, including GST. Student services and hardship fees included; insurance is extra. Fees reviewed yearly.",
       "notes": "2027 international undergraduate Law rate $365.02 per point x 120 points (average full-time year). 480 points = 4 years. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Law rate $344.36 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, LAWS band 4 (100-400 level) $324.87 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, LAWS band 4 (100-400 level) $318.50 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -513,11 +521,13 @@
         {
           "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 38220.0,
-          "annualCompulsoryFees": 1134.0,
+          "annualTuition": 38220,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
       ],
+      "feeBasis": "Victoria's 2027 undergraduate law rate, NZ$365.02 per point x 120 points = NZ$43,802 for a full-time LLB year.",
+      "feeChoice": "Charged per point, so the law rate for a full-time year is used as the yearly rate.",
       "sgRecognition": {
         "body": "SILE",
         "listed": true,
@@ -540,11 +550,10 @@
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/students/money/fees/international",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria's 2027 postgraduate law rate, NZ$385.82 per point x 120 points = NZ$46,298, for the one-year LLM.",
-      "feeChoice": "Charged per point, so the postgraduate law rate for a full year covers this one-year degree.",
+      "internationalEligible": true,
       "summary": "Tuition for international students for this one-year master's in 2027, including GST. Student services and hardship fees included; insurance is extra.",
       "notes": "2027 international postgraduate Law rate $385.82 per point x 120 points; the LLM is 120 points, 1 year full-time. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Law rate $363.99 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, LAWS band 4 (500 level) $343.39 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, LAWS band 4 (500 level) $336.65 x 120 with Part C SSF $9.20 x 120 + $30 hardship fee (University Calendar PDFs, wgtn.ac.nz/about/governance/university-publications/calendar; all international rates include GST). Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -565,11 +574,13 @@
         {
           "feeYear": 2024,
           "tier": "international",
-          "annualTuition": 40398.0,
-          "annualCompulsoryFees": 1134.0,
+          "annualTuition": 40398,
+          "annualCompulsoryFees": 1134,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
       ],
+      "feeBasis": "Victoria's 2027 postgraduate law rate, NZ$385.82 per point x 120 points = NZ$46,298, for the one-year LLM.",
+      "feeChoice": "Charged per point, so the postgraduate law rate for a full year covers this one-year degree.",
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -595,8 +606,7 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Psychology courses are in Victoria's science fee group, so the BPsyc uses the 2027 undergraduate science rate: NZ$357.43 per point x 120 points = NZ$42,892.",
-      "feeChoice": "Psychology courses are in the science fee group, so the science per-point rate for a full-time year is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students for an average full-time year in 2027, including GST. Student services and hardship fees included; insurance is extra. Fees reviewed yearly.",
       "notes": "Bachelor of Psychology (BPsyc, 360 points = 3 years; required major Psychological Science; wgtn.ac.nz/bpsyc). PSYC courses are in the Science fee group (Fees Schedule Part B group 6 lists PSYC with BIOL, CHEM etc.), so the fee is the 2027 international undergraduate Science rate $357.43 per point x 120 points (average full-time year), the same as the Bachelor of Science entry. Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = Science rate $337.20 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, group 6 (incl. PSYC, 100-300 level) $318.12 x 120 with Part C SSF $9.94 x 120 + $32 hardship fee; 2024 = Fees Schedule 2024, Part B, group 6 (incl. PSYC, 100-300 level) $302.97 x 120 with SSF $9.20 x 120 + $30 (University Calendar PDFs; the BPsyc regulations appear in both). History copied from the Bachelor of Science entry. All international rates include GST. Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -620,11 +630,13 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 36356.4,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "oneOffFees": 0,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Psychology courses are in Victoria's science fee group, so the BPsyc uses the 2027 undergraduate science rate: NZ$357.43 per point x 120 points = NZ$42,892.",
+      "feeChoice": "Psychology courses are in the science fee group, so the science per-point rate for a full-time year is used as the yearly rate."
     },
     {
       "level": "master",
@@ -643,8 +655,7 @@
       "lastVerified": "2026-10-05",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "The MSc in Psychology at Victoria's 2027 postgraduate science rate, NZ$401.31 per point x 120 points = NZ$48,157 a year, the same as the general MSc.",
-      "feeChoice": "Psychology is in the science fee group, so the postgraduate science rate for a full-time year is used for both years.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students in 2027 for the 2-year master's, including GST. Student services and hardship fees included; insurance is extra.",
       "notes": "MSc in Psychology: Part 1 coursework (PSYC 489 plus 90 points from PSYC 401-488) and Part 2 thesis (PSYC 591), 240 points, 2 years (2025 University Calendar, MSc subject requirements). Fee = 2027 international postgraduate Science rate $401.31 per point x 120 points (average full-time year), the same as the Master of Science entry (PSYC is in Fees Schedule Part B group 6). Compulsory = 2027 Student Services Fee $10.64/point x 120 + Student Hardship Fee $33. 2026 = postgraduate Science rate $378.60 x 120 with SSF $10.44 x 120 + $32. 2025 = Fees Schedule 2025, Part B, group 6 (400-800 level) $357.17 x 120 with SSF $9.94 x 120 + $32; 2024 = Fees Schedule 2024, Part B, group 6 (400-800 level) $350.17 x 120 with SSF $9.20 x 120 + $30. History copied from the Master of Science entry. All international rates include GST. Excludes insurance. Fees reviewed annually.",
       "feeHistory": [
@@ -668,11 +679,13 @@
           "feeYear": 2024,
           "tier": "international",
           "annualTuition": 42020.4,
-          "annualCompulsoryFees": 1134.0,
+          "annualCompulsoryFees": 1134,
           "oneOffFees": 0,
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf"
         }
-      ]
+      ],
+      "feeBasis": "The MSc in Psychology at Victoria's 2027 postgraduate science rate, NZ$401.31 per point x 120 points = NZ$48,157 a year, the same as the general MSc.",
+      "feeChoice": "Psychology is in the science fee group, so the postgraduate science rate for a full-time year is used for both years."
     },
     {
       "level": "master",
@@ -682,17 +695,16 @@
       "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 58950,
+          "annualTuition": 41118,
           "annualCompulsoryFees": 1912,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-professional-accounting/overview",
-      "lastVerified": "2026-10-15",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Victoria University of Wellington's 2027 international fee for the whole 180-point Master of Professional Accounting (NZ$327.50 per point), taken as one year across three trimesters, plus levies.",
-      "feeChoice": "Charged per point, so all 180 points of the degree are counted as one year across three trimesters.",
+      "internationalEligible": true,
       "summary": "Estimated whole-programme tuition for international students: 180 points in 3 trimesters (about 1 year), including GST. Student services and hardship fees are included; insurance is extra.",
       "notes": "VUW programme page data (api/postgrad, internationalYear 2027): international fee for the full programme NZ$58,950 (= $327.50/pt x 180) with levies $1,912; the rendered page only displays the domestic figure unless a nationality is selected, so the international number was read from the page's data feed. The published levy 1,912 looks like the 2026 rate (SSF 10.44 x 180 + 32); the SSF is capped at 150 points a year in the 2026 calendar and the cap was not applied, following the page. 3 trimesters = 1 year so annual = total. History from the University Calendar Fees Schedule Part B 'MMPA courses are charged at' (international, incl. GST) x 180 points: 2026 $308.90 = 55,602.00; 2025 $291.42 = 52,455.60; 2024 $277.54 = 49,957.20. Compulsory = SSF per point x 180 + hardship fee: 2026 10.44 + $32 = 1,911.20; 2025 9.94 + $32 = 1,821.20; 2024 9.20 + $30 = 1,686.00. Assumes the 2024 and 2025 MPA was also 180 points.",
       "feeHistory": [
@@ -723,7 +735,10 @@
           "sourceUrl": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0015/2190102/te-herenga-waka-calendar-2024.pdf",
           "sourceType": "official"
         }
-      ]
+      ],
+      "feeBasis": "Victoria University of Wellington's 2027 international fee for the whole 180-point Master of Professional Accounting (NZ$327.50 per point), taken as one year across three trimesters, plus levies.",
+      "feeChoice": "Charged per point, so all 180 points of the degree are counted as one year across three trimesters."
     }
-  ]
+  ],
+  "feeMethod": "Charges a per-point rate that depends on the subject group, so the calculator multiplies the rate by 120 points, a full-time year."
 }

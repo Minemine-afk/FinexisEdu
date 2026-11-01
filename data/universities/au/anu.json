@@ -1,11 +1,10 @@
 {
   "id": "anu",
   "name": "The Australian National University",
-  "feeMethod": "Publishes one annual indicative fee per degree for a standard full-time year, so the calculator uses that figure.",
   "country": "au",
   "city": "Canberra",
   "currency": "AUD",
-  "website": "https://www.anu.edu.au",
+  "website": "https://www.anu.edu.au/",
   "description": "The Australian National University is a public research university in Canberra, founded by the Australian Parliament in 1946 as a postgraduate research institution. It is a member of the Group of Eight and is known for public policy, the sciences and Asia-Pacific studies.",
   "whyIncluded": "A Group of Eight research university whose School of Medicine and Psychology degrees are on the Singapore Medical Council's list of registrable basic medical qualifications.",
   "livingCosts": {
@@ -18,7 +17,7 @@
       "personal": 391.08
     },
     "sourceUrl": "https://www.anu.edu.au/students/program-administration/fees-payments/estimated-cost-of-living-in-canberra",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-11-01",
     "sourceType": "official",
     "summary": "ANU's own estimate of rent, utilities, food, transport and personal costs in Canberra for 12 months, using the middle of its ranges. Excludes doctor visits and childcare.",
     "notes": "ANU 'Estimated Cost of Living in Canberra' (2026), weekly figures x 52/12, range midpoints. Housing: accommodation $312 (share) to $673 (not sharing) + utilities $22-$71 per week. Food: groceries $146-$204/wk. Transport: $5-$30/wk. Personal: phone and internet $18-$26/wk, textbooks $1,531-$1,595/yr, clothing $214-$1,000 and shoes $60-$100 per 6 months, haircut $20-$82/month. Excludes GP visits and childcare. ANU's headline is AU$33,000-$39,000 a year (AU$634-$750/wk), or AU$24,000-$28,500 for the Feb-Nov academic year."
@@ -38,11 +37,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/AENGI",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Bachelor of Engineering (Honours), for a full-time year of 48 units, plus the A$373 services fee.",
-      "feeChoice": "This degree has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -62,7 +60,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/AENGI"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Bachelor of Engineering (Honours), for a full-time year of 48 units, plus the A$373 services fee.",
+      "feeChoice": "This degree has its own published yearly fee, used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -78,11 +78,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/AACOM",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Bachelor of Advanced Computing (Honours), for 48 units, plus the A$373 services fee.",
-      "feeChoice": "This degree has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program AACOM, 192 units over 4 years; CRICOS 077939A). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -102,7 +101,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/AACOM"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Bachelor of Advanced Computing (Honours), for 48 units, plus the A$373 services fee.",
+      "feeChoice": "This degree has its own published yearly fee, used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -118,11 +119,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BCOMM",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's single 2026 annual indicative international fee of A$56,120 for the Bachelor of Commerce degree (48 units a year), plus the A$373 services fee.",
-      "feeChoice": "The degree has one published fee for all its majors, so that one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program BCOMM, 144 units over 3 years; CRICOS 002289F). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -142,7 +142,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BCOMM"
         }
-      ]
+      ],
+      "feeBasis": "ANU's single 2026 annual indicative international fee of A$56,120 for the Bachelor of Commerce degree (48 units a year), plus the A$373 services fee.",
+      "feeChoice": "The degree has one published fee for all its majors, so that one rate covers the whole degree."
     },
     {
       "level": "bachelor",
@@ -158,11 +160,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BSC",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's single 2026 annual indicative international fee of A$56,120 for the Bachelor of Science degree (48 units a year), plus the A$373 services fee.",
-      "feeChoice": "The degree has one published fee for all its majors, so that one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program BSC, 144 units over 3 years; CRICOS 000335K). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -182,7 +183,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BSC"
         }
-      ]
+      ],
+      "feeBasis": "ANU's single 2026 annual indicative international fee of A$56,120 for the Bachelor of Science degree (48 units a year), plus the A$373 services fee.",
+      "feeChoice": "The degree has one published fee for all its majors, so that one rate covers the whole degree."
     },
     {
       "level": "bachelor",
@@ -198,11 +201,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BARTS",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's single 2026 annual indicative international fee of A$49,820 for the Bachelor of Arts degree (48 units a year), plus the A$373 services fee.",
-      "feeChoice": "The degree has one published fee for all its majors, so that one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program BARTS, 144 units over 3 years; CRICOS 074016B). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -222,7 +224,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BARTS"
         }
-      ]
+      ],
+      "feeBasis": "ANU's single 2026 annual indicative international fee of A$49,820 for the Bachelor of Arts degree (48 units a year), plus the A$373 services fee.",
+      "feeChoice": "The degree has one published fee for all its majors, so that one rate covers the whole degree."
     },
     {
       "level": "bachelor",
@@ -238,11 +242,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/ALLB",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$53,110 for the Bachelor of Laws (Honours), for 48 units, plus the A$373 services fee.",
-      "feeChoice": "This degree has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program ALLB, 192 units over 4 years; CRICOS 085042J). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -263,6 +266,8 @@
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/ALLB"
         }
       ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$53,110 for the Bachelor of Laws (Honours), for 48 units, plus the A$373 services fee.",
+      "feeChoice": "This degree has its own published yearly fee, used as the yearly rate.",
       "sgRecognition": {
         "body": "SILE",
         "listed": true,
@@ -285,11 +290,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/NELENG",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative fee of A$56,120 for the Master of Engineering in its Electrical Engineering specialisation (ANU only offers it in named specialisations).",
-      "feeChoice": "Offered only in named specialisations; the Electrical Engineering specialisation's own yearly fee is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program NELENG, 96 units over 2 years; ANU offers the Master of Engineering only in named specialisations; CRICOS 077326G). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -309,7 +313,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/NELENG"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative fee of A$56,120 for the Master of Engineering in its Electrical Engineering specialisation (ANU only offers it in named specialisations).",
+      "feeChoice": "Offered only in named specialisations; the Electrical Engineering specialisation's own yearly fee is used as the yearly rate."
     },
     {
       "level": "master",
@@ -325,11 +331,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/7706XMCOMP",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Master of Computing, for 48 units, plus the A$373 services fee.",
-      "feeChoice": "This master's has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program 7706XMCOMP, 96 units over 2 years; CRICOS 078940M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -349,7 +354,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7706XMCOMP"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Master of Computing, for 48 units, plus the A$373 services fee.",
+      "feeChoice": "This master's has its own published yearly fee, used as the yearly rate."
     },
     {
       "level": "master",
@@ -365,11 +372,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/MBUSA",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for its one-year MBA, plus the A$373 services fee.",
-      "feeChoice": "This one-year MBA has its own published fee for the year.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program MBUSA, 48 units over 1 year; CRICOS 114606M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -389,7 +395,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MBUSA"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for its one-year MBA, plus the A$373 services fee.",
+      "feeChoice": "This one-year MBA has its own published fee for the year."
     },
     {
       "level": "master",
@@ -405,11 +413,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/NSCBS",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative fee of A$56,120 for the Master of Science in Biological Sciences (ANU only offers this master's in named specialisations).",
-      "feeChoice": "Offered only in named specialisations; the Biological Sciences specialisation's own yearly fee is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program NSCBS, 96 units over 2 years; ANU offers the Master of Science only in named specialisations; CRICOS 096439G). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -429,7 +436,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/NSCBS"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative fee of A$56,120 for the Master of Science in Biological Sciences (ANU only offers this master's in named specialisations).",
+      "feeChoice": "Offered only in named specialisations; the Biological Sciences specialisation's own yearly fee is used as the yearly rate."
     },
     {
       "level": "master",
@@ -445,11 +454,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/MINTR",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Master of International Relations, plus the A$373 services fee.",
-      "feeChoice": "This master's has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program MINTR, 96 units over 2 years; CRICOS 082309M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -469,7 +477,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MINTR"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Master of International Relations, plus the A$373 services fee.",
+      "feeChoice": "This master's has its own published yearly fee, used as the yearly rate."
     },
     {
       "level": "master",
@@ -485,11 +495,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/MJD",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$62,440 for the Juris Doctor, for 48 units, plus the A$373 services fee.",
-      "feeChoice": "The Juris Doctor has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units (program MJD, 144 units over 3 years; graduate entry for non-law graduates; CRICOS 061559M). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -510,6 +519,8 @@
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/MJD"
         }
       ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$62,440 for the Juris Doctor, for 48 units, plus the A$373 services fee.",
+      "feeChoice": "The Juris Doctor has its own published yearly fee, used as the yearly rate.",
       "sgRecognition": {
         "body": "SILE",
         "listed": true,
@@ -532,11 +543,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/8950XMCHD",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$99,650 for the Doctor of Medicine and Surgery; ANU quotes this one figure for all four years.",
-      "feeChoice": "The university quotes one yearly fee for all four years of this medical degree, so it covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU quotes one figure for all four years, but reviews fees each year.",
       "notes": "Annual indicative international fee for 48 units (program 8950XMCHD, 192 units over 4 years; graduate entry, AQF level 9 extended; CRICOS 077442D). ANU quotes one annual figure for all four years. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -557,6 +567,8 @@
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/8950XMCHD"
         }
       ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$99,650 for the Doctor of Medicine and Surgery; ANU quotes this one figure for all four years.",
+      "feeChoice": "The university quotes one yearly fee for all four years of this medical degree, so it covers the whole degree.",
       "sgRecognition": {
         "body": "SMC",
         "listed": true,
@@ -579,11 +591,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BSPSY",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Bachelor of Science (Psychology), the same as the general Bachelor of Science.",
-      "feeChoice": "The Psychology version is priced the same as the general Bachelor of Science, so one yearly rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units ('Annual indicative fee for international students $56,120.00'; program BSPSY, 144 units over 3 years; CRICOS 047423M; APAC-accredited psychology sequence). Compulsory = 2026 Services and Amenities Fee A$373 (full-time). Same fee as the Bachelor of Science. 2024/2025 from the same program page for those academic years (A$50,760 / A$53,700), read 2026-10-05. ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -603,7 +614,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BSPSY"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$56,120 for the Bachelor of Science (Psychology), the same as the general Bachelor of Science.",
+      "feeChoice": "The Psychology version is priced the same as the general Bachelor of Science, so one yearly rate covers the whole degree."
     },
     {
       "level": "master",
@@ -619,11 +632,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/7601XMCPSY",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 annual indicative international fee of A$59,270 for the Master of Clinical Psychology; its Master of Professional Psychology shows the same fee.",
-      "feeChoice": "This master's has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "Annual indicative international fee for 48 units ('Annual indicative fee for international students $59,270.00'; program 7601XMCPSY, 96 units over 2 years; CRICOS 003116G; coursework plus clinical placements and a research thesis component; entry needs an APAC-accredited 4-year psychology sequence). ANU's other taught psychology master's, the Master of Professional Psychology (MPPSY, 2 years), shows the same 2026 fee. Compulsory = 2026 Services and Amenities Fee A$373 (full-time). 2024/2025 from the same program page for those academic years (A$53,610 / A$56,720), read 2026-10-05. ANU fees are reviewed and indexed each year. Compulsory fees for history rows (added 2026-10-06): ANU Services and Amenities Fee page (anu.edu.au/students/program-administration/fees-payments/services-amenities-fee), Common Crawl captures: CC-MAIN-2024-18 (2024-04-21) '2024 fee: $351.00 for full-time students'; CC-MAIN-2025-18 (2025-04-28) '2025 fee: $365.00 for full-time students'. Tuition unchanged from the existing rows (programsandcourses.anu.edu.au per-year pages); sourceUrl kept as the tuition source.",
       "feeHistory": [
@@ -643,7 +655,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7601XMCPSY"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 annual indicative international fee of A$59,270 for the Master of Clinical Psychology; its Master of Professional Psychology shows the same fee.",
+      "feeChoice": "This master's has its own published yearly fee, used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -659,11 +673,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/BACCT",
-      "lastVerified": "2026-10-15",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 'annual indicative fee for international students' on the Bachelor of Accounting page (A$56,120). The 2027 page shows a higher A$57,640, but 2026 is used.",
-      "feeChoice": "This degree has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more.",
       "notes": "ANU program BACCT (CRICOS 079653K), 3 years full-time, 'Annual indicative fee for international students' A$56,120 on the 2026 program page (read 2026-10-15; the 2027 page shows A$57,640 but the file's convention is feeYear 2026). International tier chosen because Singaporeans are international students. History: the same program page for 2025 (A$53,700) and 2024 (A$48,035), each stating the annual indicative international fee. Compulsory = ANU Services and Amenities Fee: 2026 A$373, 2025 A$365, 2024 A$351 (same values and Common Crawl sources as the existing ANU records, anu.edu.au services-amenities-fee page).",
       "feeHistory": [
@@ -683,7 +696,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/BACCT"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 'annual indicative fee for international students' on the Bachelor of Accounting page (A$56,120). The 2027 page shows a higher A$57,640, but 2026 is used.",
+      "feeChoice": "This degree has its own published yearly fee, used as the yearly rate."
     },
     {
       "level": "master",
@@ -699,11 +714,10 @@
         }
       },
       "sourceUrl": "https://programsandcourses.anu.edu.au/2026/program/7414XMACCT",
-      "lastVerified": "2026-10-15",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "ANU's 2026 'annual indicative fee for international students' on the Master of Accounting page (A$56,120). The 2027 page shows a higher A$57,640. The Advanced version, a PhD pathway, was not used.",
-      "feeChoice": "This master's has its own published yearly fee, used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students, plus the A$373 student services fee. ANU reviews fees each year, so later years may cost more. Takes 2 years.",
       "notes": "ANU program 7414XMACCT (CRICOS 050800J), 2 years full-time (96 units), 'Annual indicative fee for international students' A$56,120 on the 2026 program page (read 2026-10-15; the 2027 page shows A$57,640 but the file's convention is feeYear 2026). International tier chosen because Singaporeans are international students. History: the same program page for 2025 (A$53,700) and 2024 (A$48,035). Compulsory = ANU Services and Amenities Fee: 2026 A$373, 2025 A$365, 2024 A$351 (same values and Common Crawl sources as the existing ANU records, anu.edu.au services-amenities-fee page). Chosen over Master of Accounting (Advanced) (VACCT), which is a pathway to PhD study.",
       "feeHistory": [
@@ -723,7 +737,10 @@
           "oneOffFees": 0,
           "sourceUrl": "https://programsandcourses.anu.edu.au/2025/program/7414XMACCT"
         }
-      ]
+      ],
+      "feeBasis": "ANU's 2026 'annual indicative fee for international students' on the Master of Accounting page (A$56,120). The 2027 page shows a higher A$57,640. The Advanced version, a PhD pathway, was not used.",
+      "feeChoice": "This master's has its own published yearly fee, used as the yearly rate."
     }
-  ]
+  ],
+  "feeMethod": "Publishes one annual indicative fee per degree for a standard full-time year, so the calculator uses that figure."
 }

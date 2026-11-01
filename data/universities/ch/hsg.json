@@ -1,11 +1,10 @@
 {
   "id": "hsg",
   "name": "University of St. Gallen",
-  "feeMethod": "Charges foreign students one tuition rate for all bachelor's programmes and a slightly higher one for all master's, so the calculator uses the rate for the degree level.",
   "country": "ch",
   "city": "St. Gallen",
   "currency": "CHF",
-  "website": "https://www.unisg.ch",
+  "website": "https://www.unisg.ch/",
   "description": "The University of St.Gallen (HSG) is a public cantonal university in St.Gallen, founded in 1898. It specialises in business administration, economics, law and international affairs.",
   "whyIncluded": "HSG has had a permanent presence in Singapore since 2011 through its St.Gallen Institute of Management in Asia, its first international institute, and Switzerland is among the ten destinations with the most Singaporean students abroad (about 280, UNESCO data for 2022-24).",
   "livingCosts": {
@@ -18,7 +17,7 @@
       "personal": 555
     },
     "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-01",
     "sourceType": "official",
     "summary": "The university's own monthly estimate of rent, food, transport and personal costs, based on a national student survey, for 12 months a year. Excludes health costs and tuition.",
     "notes": "HSG 'Cost of living: expenses for Bachelor's students per month' (source: Federal Statistical Office SSEE 2024 survey): accommodation incl. utilities CHF 795; food CHF 440; transport CHF 195; personal = communication CHF 45 + clothing CHF 130 + leisure CHF 210 + other (insurance, taxes, gifts) CHF 170. Excludes health (CHF 190) and tuition. HSG's own total is CHF 2,175 a month and it recommends budgeting CHF 25,000-30,000 a year. Fix 2026-10-15: re-read https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/ on 2026-10-15; the page still gives the same 'Cost of living: expenses for Bachelor's students per month' table (accommodation CHF 795, food 440, transport 195, communication 45, clothing 130, leisure 210, other 170; source Federal Statistical Office SSEE 2024 survey), so the lines and year are unchanged."
@@ -38,11 +37,10 @@
         }
       },
       "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "HSG's foreign-student bachelor's rate of CHF 3,343.50 per semester x 2 from autumn 2026 (same for every bachelor's); CHF 268 application fee once.",
-      "feeChoice": "Every HSG bachelor's pays the same foreign-student rate, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students from autumn 2026, about 7% higher than before. No separate compulsory fees. A one-off CHF 268 application fee is extra.",
       "notes": "Tuition for foreign nationals CHF 3,343.50 per semester x 2, from autumn semester 2026 (about 7% rise after fees were unchanged since 2014). Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 3-year (180 ECTS) bachelor's; the assessment year and most of the bachelor's are taught in German (some English tracks). HSG offers no engineering, computing, sciences or arts bachelor's. 2024/2025 rows from Common Crawl captures of HSG's former 'Costs of an HSG degree' page (URL above): 2024-10-08 (CC-MAIN-2024-42) and 2025-09-12 (CC-MAIN-2025-38) both state 'Application and processing fee (non-refundable) CHF 250' and tuition for foreign nationals Bachelor CHF 3,129 / Master CHF 3,329 per semester (x2 = 6,258 / 6,658, matching the existing rows). The fee overview lists no other compulsory semester fees (only tuition and long-term-student fees), so annualCompulsoryFees 0 as in the current record. Note the application fee was CHF 250 in 2024/2025 vs CHF 268 now.",
       "feeHistory": [
@@ -62,7 +60,9 @@
           "oneOffFees": 250,
           "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
         }
-      ]
+      ],
+      "feeBasis": "HSG's foreign-student bachelor's rate of CHF 3,343.50 per semester x 2 from autumn 2026 (same for every bachelor's); CHF 268 application fee once.",
+      "feeChoice": "Every HSG bachelor's pays the same foreign-student rate, so one rate covers the whole degree."
     },
     {
       "level": "master",
@@ -78,11 +78,10 @@
         }
       },
       "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "HSG's foreign-student master's rate of CHF 3,557.50 per semester x 2 from autumn 2026 (same for every master's); CHF 268 application fee once.",
-      "feeChoice": "Every HSG master's pays the same foreign-student rate, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students from autumn 2026. No separate compulsory fees. A one-off CHF 268 application fee is extra.",
       "notes": "Tuition for foreign nationals CHF 3,557.50 per semester x 2, from autumn semester 2026. Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 3-semester (90 ECTS) master's (MUG), taught in German with English electives. 2024/2025 rows from Common Crawl captures of HSG's former 'Costs of an HSG degree' page (URL above): 2024-10-08 (CC-MAIN-2024-42) and 2025-09-12 (CC-MAIN-2025-38) both state 'Application and processing fee (non-refundable) CHF 250' and tuition for foreign nationals Bachelor CHF 3,129 / Master CHF 3,329 per semester (x2 = 6,258 / 6,658, matching the existing rows). The fee overview lists no other compulsory semester fees (only tuition and long-term-student fees), so annualCompulsoryFees 0 as in the current record. Note the application fee was CHF 250 in 2024/2025 vs CHF 268 now.",
       "feeHistory": [
@@ -102,7 +101,9 @@
           "oneOffFees": 250,
           "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
         }
-      ]
+      ],
+      "feeBasis": "HSG's foreign-student master's rate of CHF 3,557.50 per semester x 2 from autumn 2026 (same for every master's); CHF 268 application fee once.",
+      "feeChoice": "Every HSG master's pays the same foreign-student rate, so one rate covers the whole degree."
     },
     {
       "level": "master",
@@ -118,11 +119,10 @@
         }
       },
       "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "HSG's foreign-student master's rate of CHF 3,557.50 per semester x 2 from autumn 2026 (same for every master's); CHF 268 application fee once.",
-      "feeChoice": "Every HSG master's pays the same foreign-student rate, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students from autumn 2026. No separate compulsory fees. A one-off CHF 268 application fee is extra.",
       "notes": "Tuition for foreign nationals CHF 3,557.50 per semester x 2, from autumn semester 2026. Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 4-semester (120 ECTS) master's (MCS), taught in English. HSG's only computing degree; its arts-type master's (MOK) was discontinued in 2025. 2024/2025 rows from Common Crawl captures of HSG's former 'Costs of an HSG degree' page (URL above): 2024-10-08 (CC-MAIN-2024-42) and 2025-09-12 (CC-MAIN-2025-38) both state 'Application and processing fee (non-refundable) CHF 250' and tuition for foreign nationals Bachelor CHF 3,129 / Master CHF 3,329 per semester (x2 = 6,258 / 6,658, matching the existing rows). The fee overview lists no other compulsory semester fees (only tuition and long-term-student fees), so annualCompulsoryFees 0 as in the current record. Note the application fee was CHF 250 in 2024/2025 vs CHF 268 now.",
       "feeHistory": [
@@ -142,7 +142,9 @@
           "oneOffFees": 250,
           "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
         }
-      ]
+      ],
+      "feeBasis": "HSG's foreign-student master's rate of CHF 3,557.50 per semester x 2 from autumn 2026 (same for every master's); CHF 268 application fee once.",
+      "feeChoice": "Every HSG master's pays the same foreign-student rate, so one rate covers the whole degree."
     },
     {
       "level": "bachelor",
@@ -158,11 +160,10 @@
         }
       },
       "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "HSG's foreign-student bachelor's rate of CHF 3,343.50 per semester x 2 from autumn 2026 (same for every bachelor's); CHF 268 application fee once.",
-      "feeChoice": "Every HSG bachelor's pays the same foreign-student rate, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students from autumn 2026, about 7% higher than before. No separate compulsory fees. A one-off CHF 268 application fee is extra.",
       "notes": "Tuition for foreign nationals CHF 3,343.50 per semester x 2, from autumn semester 2026 (about 7% rise after fees were unchanged since 2014). Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 3-year (180 ECTS incl. the assessment year) Law School bachelor's, taught in German. 2024/2025 rows from Common Crawl captures of HSG's former 'Costs of an HSG degree' page (URL above): 2024-10-08 (CC-MAIN-2024-42) and 2025-09-12 (CC-MAIN-2025-38) both state 'Application and processing fee (non-refundable) CHF 250' and tuition for foreign nationals Bachelor CHF 3,129 / Master CHF 3,329 per semester (x2 = 6,258 / 6,658, matching the existing rows). The fee overview lists no other compulsory semester fees (only tuition and long-term-student fees), so annualCompulsoryFees 0 as in the current record. Note the application fee was CHF 250 in 2024/2025 vs CHF 268 now.",
       "feeHistory": [
@@ -183,6 +184,8 @@
           "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
         }
       ],
+      "feeBasis": "HSG's foreign-student bachelor's rate of CHF 3,343.50 per semester x 2 from autumn 2026 (same for every bachelor's); CHF 268 application fee once.",
+      "feeChoice": "Every HSG bachelor's pays the same foreign-student rate, so one rate covers the whole degree.",
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -205,11 +208,10 @@
         }
       },
       "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "HSG's foreign-student master's rate of CHF 3,557.50 per semester x 2 from autumn 2026 (same for every master's); CHF 268 application fee once.",
-      "feeChoice": "Every HSG master's pays the same foreign-student rate, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for international students from autumn 2026. No separate compulsory fees. A one-off CHF 268 application fee is extra.",
       "notes": "Tuition for foreign nationals CHF 3,557.50 per semester x 2, from autumn semester 2026. Non-refundable application and processing fee CHF 268. No separate compulsory semester contributions are listed. 3-semester (90 ECTS) master's, taught in German. 2024/2025 rows from Common Crawl captures of HSG's former 'Costs of an HSG degree' page (URL above): 2024-10-08 (CC-MAIN-2024-42) and 2025-09-12 (CC-MAIN-2025-38) both state 'Application and processing fee (non-refundable) CHF 250' and tuition for foreign nationals Bachelor CHF 3,129 / Master CHF 3,329 per semester (x2 = 6,258 / 6,658, matching the existing rows). The fee overview lists no other compulsory semester fees (only tuition and long-term-student fees), so annualCompulsoryFees 0 as in the current record. Note the application fee was CHF 250 in 2024/2025 vs CHF 268 now.",
       "feeHistory": [
@@ -230,6 +232,8 @@
           "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
         }
       ],
+      "feeBasis": "HSG's foreign-student master's rate of CHF 3,557.50 per semester x 2 from autumn 2026 (same for every master's); CHF 268 application fee once.",
+      "feeChoice": "Every HSG master's pays the same foreign-student rate, so one rate covers the whole degree.",
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -252,11 +256,10 @@
         }
       },
       "sourceUrl": "https://www.unisg.ch/en/studying/studying-at-hsg/costs-of-an-hsg-degree/",
-      "lastVerified": "2026-10-15",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "St Gallen's autumn 2026 international (foreign national) master's tuition of CHF 3,557.50 per semester, doubled for a year. The same rate applies to all HSG master's programmes.",
-      "feeChoice": "Every HSG master's pays the same foreign-student rate, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Yearly tuition for international students from autumn 2026, with no separate compulsory fees. A one-off CHF 268 application fee is extra. The course can be taken fully in English.",
       "notes": "International (foreign nationals) master tier, autumn 2026 intake: costs page states CHF 3,557.50 per semester, x2 = 7,115 per year, plus non-refundable CHF 268 application/processing fee; HSG charges the same master tuition for all master programmes, so the figure is the same as the existing HSG master record. Chosen over the Swiss rate because Singaporeans are foreign nationals. History: 2024 and 2025 rows (6,658 = 3,329 x2, fee CHF 250) from Common Crawl captures of HSG's former 'Costs of an HSG degree' page (2024-10-08 and 2025-09-12), as in the other HSG master rows. Programme: 90 ECTS, 3 semesters, autumn start only; 'can be completed entirely in German, English, or a combination' (unisg.ch MACFin curriculum page); admission sur dossier for international applicants, GMAT/GRE required.",
       "feeHistory": [
@@ -276,7 +279,10 @@
           "oneOffFees": 250,
           "sourceUrl": "https://www.unisg.ch/en/studying/programmes/costs-of-an-hsg-degree/"
         }
-      ]
+      ],
+      "feeBasis": "St Gallen's autumn 2026 international (foreign national) master's tuition of CHF 3,557.50 per semester, doubled for a year. The same rate applies to all HSG master's programmes.",
+      "feeChoice": "Every HSG master's pays the same foreign-student rate, so one rate covers the whole degree."
     }
-  ]
+  ],
+  "feeMethod": "Charges foreign students one tuition rate for all bachelor's programmes and a slightly higher one for all master's, so the calculator uses the rate for the degree level."
 }

@@ -1,11 +1,10 @@
 {
   "id": "tum",
   "name": "Technical University of Munich",
-  "feeMethod": "Charges non-EU students a fee set per programme, so the calculator uses each programme's own published rate.",
   "country": "de",
   "city": "Munich",
   "currency": "EUR",
-  "website": "https://www.tum.de",
+  "website": "https://www.tum.de/",
   "description": "The Technical University of Munich is a public technical university in Munich, founded in 1868. It covers engineering, natural sciences, life sciences, medicine and management.",
   "whyIncluded": "TUM has run TUM Asia, its Singapore campus, since 2002 (over 3,000 graduates), it offers English-taught master's programmes in Munich, and Germany is among the ten destinations with the most Singaporean students abroad (about 640, UNESCO data for 2022-24).",
   "livingCosts": {
@@ -18,7 +17,7 @@
       "personal": 50
     },
     "sourceUrl": "https://www.gs.tum.de/en/gs/welcome-office/living-in-the-munich-metropolitan-region/cost-of-living/",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-01",
     "sourceType": "official",
     "summary": "The university's own minimum estimate of rent, food, transport and phone costs in Munich for 12 months a year. Excludes health insurance.",
     "notes": "TUM Graduate School 'Cost of Living in Munich' (status October 2024), one-person household minimums: rent for shared living or studio incl. utilities at least EUR 800 (800-1,200); food at least EUR 300; local public transit EUR 29 (student ticket; 49 for the regular Deutschlandticket); personal = telecommunication/phone/internet/broadcasting fee EUR 50-60 (lower bound used). Health insurance (90-150) excluded. TUM's overall estimate: at least EUR 1,300 a month. Fix 2026-10-15: re-read https://www.gs.tum.de/en/gs/welcome-office/living-in-the-munich-metropolitan-region/cost-of-living/ on 2026-10-15; the TUM Graduate School 'Cost of living in Munich' page still carries 'Status of information on this website: October 2024' with the same one-person minimums (rent at least EUR 800, food at least 300, local transit 29, phone/internet 50-60; health insurance 90-150 excluded), so the lines and year are unchanged."
@@ -38,11 +37,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "TUM sets a non-EU fee for each programme; this Informatics B.Sc. rate is EUR 3,000 per semester x 2 (range EUR 2,000-3,000 for the bachelor's here), plus the EUR 97 student services fee.",
-      "feeChoice": "TUM sets a fee for each programme, so this is the Informatics B.Sc.'s own rate, fixed at entry for the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for non-EU students (EUR 3,000 per semester), plus the EUR 97 per semester student services fee. Tuition is fixed at your entry rate for the standard length of the degree plus one semester.",
       "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-11-17 (CC-MAIN-2025-47; read from the archived capture, not the live page), stating EUR 3,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 6,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
@@ -62,7 +60,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc"
         }
-      ]
+      ],
+      "feeBasis": "TUM sets a non-EU fee for each programme; this Informatics B.Sc. rate is EUR 3,000 per semester x 2 (range EUR 2,000-3,000 for the bachelor's here), plus the EUR 97 student services fee.",
+      "feeChoice": "TUM sets a fee for each programme, so this is the Informatics B.Sc.'s own rate, fixed at entry for the whole degree."
     },
     {
       "level": "bachelor",
@@ -78,11 +78,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "TUM sets a non-EU fee for each programme; this Management and Technology (TUM-BWL) B.Sc. rate is EUR 2,000 per semester x 2 (range EUR 2,000-3,000 for the bachelor's here), plus the EUR 97 student services fee.",
-      "feeChoice": "TUM sets a fee for each programme, so this is the Management and Technology B.Sc.'s own rate, fixed at entry for the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for non-EU students (EUR 2,000 per semester), plus the EUR 97 per semester student services fee. Tuition is fixed at your entry rate for the standard length of the degree plus one semester.",
       "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 2,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German or English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-12-11 (CC-MAIN-2025-51; read from the archived capture, not the live page), stating EUR 2,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 4,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
@@ -102,7 +101,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc"
         }
-      ]
+      ],
+      "feeBasis": "TUM sets a non-EU fee for each programme; this Management and Technology (TUM-BWL) B.Sc. rate is EUR 2,000 per semester x 2 (range EUR 2,000-3,000 for the bachelor's here), plus the EUR 97 student services fee.",
+      "feeChoice": "TUM sets a fee for each programme, so this is the Management and Technology B.Sc.'s own rate, fixed at entry for the whole degree."
     },
     {
       "level": "bachelor",
@@ -118,11 +119,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-bachelor-of-science-bsc",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "TUM sets a non-EU fee for each programme; this Mechanical Engineering B.Sc. rate is EUR 3,000 per semester x 2 (range EUR 2,000-3,000 for the bachelor's here), plus the EUR 97 student services fee.",
-      "feeChoice": "TUM sets a fee for each programme, so this is the Mechanical Engineering B.Sc.'s own rate, fixed at entry for the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for non-EU students (EUR 3,000 per semester), plus the EUR 97 per semester student services fee. Tuition is fixed at your entry rate for the standard length of the degree plus one semester.",
       "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-10-11 (CC-MAIN-2025-43; read from the archived capture, not the live page), stating EUR 3,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 6,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
@@ -142,7 +142,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-bachelor-of-science-bsc"
         }
-      ]
+      ],
+      "feeBasis": "TUM sets a non-EU fee for each programme; this Mechanical Engineering B.Sc. rate is EUR 3,000 per semester x 2 (range EUR 2,000-3,000 for the bachelor's here), plus the EUR 97 student services fee.",
+      "feeChoice": "TUM sets a fee for each programme, so this is the Mechanical Engineering B.Sc.'s own rate, fixed at entry for the whole degree."
     },
     {
       "level": "bachelor",
@@ -158,11 +160,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/physics-bachelor-of-science-bsc",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "TUM sets a non-EU fee for each programme; this Physics B.Sc. rate is EUR 3,000 per semester x 2 (range EUR 2,000-3,000 for the bachelor's here), plus the EUR 97 student services fee.",
-      "feeChoice": "TUM sets a fee for each programme, so this is the Physics B.Sc.'s own rate, fixed at entry for the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for non-EU students (EUR 3,000 per semester), plus the EUR 97 per semester student services fee. Tuition is fixed at your entry rate for the standard length of the degree plus one semester.",
       "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 3,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-12-11 (CC-MAIN-2025-51; read from the archived capture, not the live page), stating EUR 3,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 6,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
@@ -182,7 +183,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/physics-bachelor-of-science-bsc"
         }
-      ]
+      ],
+      "feeBasis": "TUM sets a non-EU fee for each programme; this Physics B.Sc. rate is EUR 3,000 per semester x 2 (range EUR 2,000-3,000 for the bachelor's here), plus the EUR 97 student services fee.",
+      "feeChoice": "TUM sets a fee for each programme, so this is the Physics B.Sc.'s own rate, fixed at entry for the whole degree."
     },
     {
       "level": "master",
@@ -198,11 +201,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-master-of-science-msc",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "TUM sets a non-EU fee for each programme; this Informatics M.Sc. rate is EUR 6,000 per semester x 2 (range EUR 4,000-6,000 for the master's here), plus the EUR 97 student services fee.",
-      "feeChoice": "TUM sets a fee for each programme, so this is the Informatics M.Sc.'s own rate, fixed at entry for the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for non-EU students (EUR 6,000 per semester), plus the EUR 97 per semester student services fee. Tuition is fixed at your entry rate for the standard length of the degree plus one semester.",
       "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-10-09 (CC-MAIN-2025-43; read from the archived capture, not the live page), stating EUR 6,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 12,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
@@ -222,7 +224,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-master-of-science-msc"
         }
-      ]
+      ],
+      "feeBasis": "TUM sets a non-EU fee for each programme; this Informatics M.Sc. rate is EUR 6,000 per semester x 2 (range EUR 4,000-6,000 for the master's here), plus the EUR 97 student services fee.",
+      "feeChoice": "TUM sets a fee for each programme, so this is the Informatics M.Sc.'s own rate, fixed at entry for the whole degree."
     },
     {
       "level": "master",
@@ -238,11 +242,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-tum-bwl-master-of-science-msc",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "TUM sets a non-EU fee for each programme; this Management and Technology (TUM-BWL) M.Sc. rate is EUR 4,000 per semester x 2 (range EUR 4,000-6,000 for the master's here), plus the EUR 97 student services fee.",
-      "feeChoice": "TUM sets a fee for each programme, so this is the Management and Technology M.Sc.'s own rate, fixed at entry for the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for non-EU students (EUR 4,000 per semester), plus the EUR 97 per semester student services fee. Tuition is fixed at your entry rate for the standard length of the degree plus one semester.",
       "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 4,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-10-15 (CC-MAIN-2025-43; read from the archived capture, not the live page), stating EUR 4,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 8,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
@@ -262,7 +265,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-tum-bwl-master-of-science-msc"
         }
-      ]
+      ],
+      "feeBasis": "TUM sets a non-EU fee for each programme; this Management and Technology (TUM-BWL) M.Sc. rate is EUR 4,000 per semester x 2 (range EUR 4,000-6,000 for the master's here), plus the EUR 97 student services fee.",
+      "feeChoice": "TUM sets a fee for each programme, so this is the Management and Technology M.Sc.'s own rate, fixed at entry for the whole degree."
     },
     {
       "level": "master",
@@ -278,11 +283,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-master-of-science-msc",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "TUM sets a non-EU fee for each programme; this Mechanical Engineering M.Sc. rate is EUR 6,000 per semester x 2 (range EUR 4,000-6,000 for the master's here), plus the EUR 97 student services fee.",
-      "feeChoice": "TUM sets a fee for each programme, so this is the Mechanical Engineering M.Sc.'s own rate, fixed at entry for the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for non-EU students (EUR 6,000 per semester), plus the EUR 97 per semester student services fee. Tuition is fixed at your entry rate for the standard length of the degree plus one semester.",
       "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: German or English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-11-12 (CC-MAIN-2025-47; read from the archived capture, not the live page), stating EUR 6,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 12,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
@@ -302,7 +306,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-master-of-science-msc"
         }
-      ]
+      ],
+      "feeBasis": "TUM sets a non-EU fee for each programme; this Mechanical Engineering M.Sc. rate is EUR 6,000 per semester x 2 (range EUR 4,000-6,000 for the master's here), plus the EUR 97 student services fee.",
+      "feeChoice": "TUM sets a fee for each programme, so this is the Mechanical Engineering M.Sc.'s own rate, fixed at entry for the whole degree."
     },
     {
       "level": "master",
@@ -318,11 +324,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mathematics-master-of-science-msc",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "TUM sets a non-EU fee for each programme; this Mathematics M.Sc. rate is EUR 6,000 per semester x 2 (range EUR 4,000-6,000 for the master's here), plus the EUR 97 student services fee.",
-      "feeChoice": "TUM sets a fee for each programme, so this is the Mathematics M.Sc.'s own rate, fixed at entry for the whole degree.",
+      "internationalEligible": true,
       "summary": "Annual tuition for non-EU students (EUR 6,000 per semester), plus the EUR 97 per semester student services fee. Tuition is fixed at your entry rate for the standard length of the degree plus one semester.",
       "notes": "TUM charges non-EU/EEA students who enrolled from winter semester 2024/25 a programme-specific tuition fee; this programme is EUR 6,000 per semester (x2). Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (no semester ticket; Munich campuses). Fee is fixed for the cohort for the standard period of study plus one semester (TUM fee statute, 12 Feb 2024). Language of instruction: English. 2024 history: fee class in the statute annex (winter 2024/25 introduction) plus the EUR 85 basic fee then in force. 2025 history: the same TUM programme page as captured by Common Crawl on 2025-10-05 (CC-MAIN-2025-43; read from the archived capture, not the live page), stating EUR 6,000 per semester for international students from third countries and 'Student Fees: 85.00 €' per semester (basic fee then in force), i.e. 12,000 tuition plus 170 compulsory fees for winter 2025/26.",
       "feeHistory": [
@@ -342,7 +347,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mathematics-master-of-science-msc"
         }
-      ]
+      ],
+      "feeBasis": "TUM sets a non-EU fee for each programme; this Mathematics M.Sc. rate is EUR 6,000 per semester x 2 (range EUR 4,000-6,000 for the master's here), plus the EUR 97 student services fee.",
+      "feeChoice": "TUM sets a fee for each programme, so this is the Mathematics M.Sc.'s own rate, fixed at entry for the whole degree."
     },
     {
       "level": "bachelor",
@@ -358,11 +365,10 @@
         }
       },
       "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/medicine-clinical-work-staatsexamen",
-      "lastVerified": "2026-10-04",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "State-exam medicine is exempt from TUM's non-EU tuition, so the figure is only the EUR 97 per semester student services fee x 2.",
-      "feeChoice": "State-exam medicine is exempt from TUM's non-EU tuition, so only the compulsory student services fee is counted.",
+      "internationalEligible": true,
       "summary": "No tuition: the international tuition fee does not apply to state-examination medicine. The figure is only the EUR 97 per semester student services fee. Admission is restricted.",
       "notes": "TUM's programme-specific tuition fee for non-EU/EEA students (from winter 2024/25) is charged only in bachelor's and master's programmes; TUM's fee page lists students 'enrolled in a state examination degree program' among those not required to pay, and the fee statute annex has no entry for Medizin, so tuition is 0. Compulsory fees = Studierendenwerk basic fee (Semesterbeitrag) EUR 97.00 per semester x2 (the TUM programme page shows 'Student Fees: 97.00 €'; no semester ticket). Undergraduate-entry state examination degree: the pre-clinical first section is taken at LMU (joint MeCuM curriculum, dual enrolment) and only the clinical section at TUM; standard duration 12 semesters per the TUM page (6 years and 3 months under the federal licensing regulation). Admission restricted (NC). Language of instruction: German. Not on the Singapore Medical Council's list of registrable basic medical qualifications (1 Sep 2022 edition). 2025 history: Studierendenwerk basic-fee statute (EUR 85.00 in winter 2025/26; 97 only from summer 2026). 2024 history: TUM Hochschulgebuehren- und Entgeltsatzung as amended 12 Feb 2024 (first applied to fee collection for winter 2024/25; section 3 limits the tuition fee to bachelor's and master's programmes and its annex 'Zuordnung Studiengaenge zu Gebuehrenklassen' lists no Medizin/Staatsexamen entry, so tuition 0) plus the Studierendenwerk Grundbeitragssatzung of 22 Mar 2024 (EUR 85.00 per semester x2, replacing the 28 Feb 2023 statute).",
       "feeHistory": [
@@ -383,6 +389,8 @@
           "sourceUrl": "https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/ueber_uns/dateien/Satzung/20250930_Grundbeitragssatzung_web_AKTUELL_gez.pdf"
         }
       ],
+      "feeBasis": "State-exam medicine is exempt from TUM's non-EU tuition, so the figure is only the EUR 97 per semester student services fee x 2.",
+      "feeChoice": "State-exam medicine is exempt from TUM's non-EU tuition, so only the compulsory student services fee is counted.",
       "sgRecognition": {
         "body": "SMC",
         "listed": false,
@@ -391,5 +399,6 @@
         "lastVerified": "2026-10-08"
       }
     }
-  ]
+  ],
+  "feeMethod": "Charges non-EU students a fee set per programme, so the calculator uses each programme's own published rate."
 }

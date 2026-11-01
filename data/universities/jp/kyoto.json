@@ -1,11 +1,10 @@
 {
   "id": "kyoto",
   "name": "Kyoto University",
-  "feeMethod": "A national university that charges the government's standard tuition (¥535,800/yr) for every programme, so every major costs the same.",
   "country": "jp",
   "city": "Kyoto",
   "currency": "JPY",
-  "website": "https://www.kyoto-u.ac.jp",
+  "website": "https://www.kyoto-u.ac.jp/",
   "description": "Kyoto University is a national research university in Kyoto, founded in 1897 as Kyoto Imperial University, the second university established in Japan. It is one of Japan's leading research universities.",
   "whyIncluded": "Its medical degree is on the Singapore Medical Council's list of registrable basic medical qualifications, its Kyoto iUP undergraduate programme admits students without Japanese proficiency, and Japan is among the ten destinations with the most Singaporean students abroad (about 270, UNESCO data for 2022-24).",
   "livingCosts": {
@@ -18,7 +17,7 @@
       "personal": 15000
     },
     "sourceUrl": "https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-01",
     "sourceType": "official",
     "summary": "Kyoto publishes no estimate of its own, so this uses the national survey average for international students in the Kansai region: housing, food, transport and personal costs, 12 months a year.",
     "notes": "Kyoto University publishes no itemised estimate of its own; its international-student guide cites JASSO averages. JASSO 2023 Lifestyle Survey of Privately-Financed International Students (令和5年度私費外国人留学生生活実態調査, table 7-4), Kinki region average monthly spending in ¥1,000s: housing 40 + utilities 7, food 32, commuting 4, personal = hobbies/leisure 7 + other daily costs 8. Excludes study/research costs (54, includes tuition) and insurance/medical (3). Fix 2026-10-15: re-read https://www.studyinjapan.go.jp/ja/_mt/2026/09/re_Seikatsu2023zittai.pdf on 2026-10-15; JASSO's survey index (studyinjapan.go.jp/ja/statistics/daily-life/) still lists the 令和5年度 (2023) survey as the latest (the survey is biennial and no 令和7年度 results are published), so the Kinki-region lines and year are unchanged."
@@ -38,11 +37,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
-      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment.",
       "feeHistory": [
@@ -62,7 +60,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
+      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree."
     },
     {
       "level": "bachelor",
@@ -78,11 +78,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
-      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment.",
       "feeHistory": [
@@ -102,7 +101,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
+      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree."
     },
     {
       "level": "bachelor",
@@ -118,11 +119,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
-      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment.",
       "feeHistory": [
@@ -142,7 +142,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
+      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree."
     },
     {
       "level": "bachelor",
@@ -158,11 +160,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
-      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment.",
       "feeHistory": [
@@ -182,7 +183,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
+      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree."
     },
     {
       "level": "bachelor",
@@ -198,11 +201,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
-      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment.",
       "feeHistory": [
@@ -222,7 +224,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
+      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree."
     },
     {
       "level": "master",
@@ -238,11 +242,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
-      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
       "feeHistory": [
@@ -262,7 +265,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
+      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's."
     },
     {
       "level": "master",
@@ -278,11 +283,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
-      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
       "feeHistory": [
@@ -302,7 +306,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
+      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's."
     },
     {
       "level": "master",
@@ -318,11 +324,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
-      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
       "feeHistory": [
@@ -342,7 +347,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
+      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's."
     },
     {
       "level": "master",
@@ -358,11 +365,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
-      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
       "feeHistory": [
@@ -382,7 +388,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
+      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's."
     },
     {
       "level": "master",
@@ -398,11 +406,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
-      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
       "feeHistory": [
@@ -422,7 +429,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
+      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's."
     },
     {
       "level": "bachelor",
@@ -438,11 +447,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
-      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies. Taught in Japanese.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 4-year undergraduate degree, Japanese-taught. 2024-25 figures from the university-wide general-selection admission guides.",
       "feeHistory": [
@@ -463,6 +471,8 @@
           "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
         }
       ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
+      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree.",
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -485,11 +495,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr for all six years of Medicine, plus the ¥282,000 admission fee; no medical surcharge.",
-      "feeChoice": "Medicine pays the same standard national tuition as every other degree, with no surcharge, so one rate covers all six years.",
+      "internationalEligible": true,
       "summary": "Standard national tuition for the 6-year Japanese-taught medical degree. The one-off ¥282,000 is the admission fee, paid once in year 1. Recognised by the Singapore Medical Council.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 6-year undergraduate medical degree (Igaku), Japanese-taught. Kyoto University, Faculty of Medicine is on the Singapore Medical Council's list of registrable basic medical qualifications. 2024-25 figures from the university-wide general-selection admission guides.",
       "feeHistory": [
@@ -510,6 +519,8 @@
           "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
         }
       ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr for all six years of Medicine, plus the ¥282,000 admission fee; no medical surcharge.",
+      "feeChoice": "Medicine pays the same standard national tuition as every other degree, with no surcharge, so one rate covers all six years.",
       "sgRecognition": {
         "body": "SMC",
         "listed": true,
@@ -532,11 +543,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university master's tuition, ¥535,800/yr, plus the ¥282,000 admission fee; the professional Law School (¥804,000/yr) is a separate programme.",
-      "feeChoice": "This research master's pays the standard national rate shared by every graduate school, so one rate covers both years.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised. Mainly taught in Japanese.",
       "notes": "Standard tuition ¥535,800/yr; admission fee ¥282,000 (the FAQ notes ¥804,000/yr for the professional Law School, which is not this programme). Fees may be revised during enrolment. 2-year master's, mainly Japanese-taught. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
       "feeHistory": [
@@ -557,6 +567,8 @@
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
       ],
+      "feeBasis": "Kyoto's standard national-university master's tuition, ¥535,800/yr, plus the ¥282,000 admission fee; the professional Law School (¥804,000/yr) is a separate programme.",
+      "feeChoice": "This research master's pays the standard national rate shared by every graduate school, so one rate covers both years.",
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -579,11 +591,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
-      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised during your studies.",
       "notes": "Psychology (心理学専修, Behavioural Culture Studies division) is a specialisation of the Faculty of Letters (https://www.bun.kyoto-u.ac.jp/); students choose it after entering the Faculty. Kyoto charges the standard national-university rate to all undergraduates, so the figures and 2024/2025 history rows are copied from the existing 'Faculty of Letters' entry. Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment.",
       "feeHistory": [
@@ -603,7 +614,9 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/ippanbosyuyokoR7_all-dd6842cd74a8c3c050dd02bf48b6e7c3.pdf"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every faculty and major pays the same.",
+      "feeChoice": "As a national university, every faculty and major pays the same standard tuition, so one rate covers the whole degree."
     },
     {
       "level": "master",
@@ -619,11 +632,10 @@
         }
       },
       "sourceUrl": "https://www.kyoto-u.ac.jp/en/education-campus/faq/2-2",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
-      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's.",
+      "internationalEligible": true,
       "summary": "Standard national-university tuition for the 2-year master's, the same for all students. The one-off ¥282,000 is the admission fee, paid once in year 1. Fees may be revised.",
       "notes": "Psychology (心理学専修) master's course of the Graduate School of Letters. Kyoto charges the standard national-university rate to all graduate students, so the figures and 2024/2025 history rows are copied from the existing 'Graduate School of Letters (Master's)' entry. Standard tuition ¥535,800/yr; admission fee ¥282,000. Fees may be revised during enrolment. 2024-25 figures from the Graduate School of Engineering admissions guidelines; the rate is university-wide.",
       "feeHistory": [
@@ -643,7 +655,10 @@
           "oneOffFees": 282000,
           "sourceUrl": "https://www.t.kyoto-u.ac.jp/ja/admissions/graduate/exam1/master2025/100all"
         }
-      ]
+      ],
+      "feeBasis": "Kyoto's standard national-university tuition, ¥535,800/yr, plus the ¥282,000 admission fee; every graduate school pays the same.",
+      "feeChoice": "Every graduate school pays the same standard national tuition, so one rate covers both years of this master's."
     }
-  ]
+  ],
+  "feeMethod": "A national university that charges the government's standard tuition (¥535,800/yr) for every programme, so every major costs the same."
 }

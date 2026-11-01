@@ -1,11 +1,10 @@
 {
   "id": "tcd",
   "name": "Trinity College Dublin",
-  "feeMethod": "Lists a separate non-EU fee for each course code, so the calculator uses each course's first-year fee.",
   "country": "ie",
   "city": "Dublin",
   "currency": "EUR",
-  "website": "https://www.tcd.ie",
+  "website": "https://www.tcd.ie/",
   "description": "Trinity College Dublin, the University of Dublin, is Ireland's oldest university, founded by royal charter in 1592 in central Dublin. It has about 22,000 students across arts, humanities, business, law, engineering, science and health sciences.",
   "whyIncluded": "Its MB BCh BAO is on the Singapore Medical Council's list of registrable basic medical qualifications, and Trinity has awarded physiotherapy and occupational therapy degrees in Singapore with the Singapore Institute of Technology since 2012.",
   "livingCosts": {
@@ -18,7 +17,7 @@
       "personal": 555.56
     },
     "sourceUrl": "https://www.tcd.ie/study/international/welcome/cost-of-living/",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-11-01",
     "sourceType": "official",
     "summary": "Trinity's own estimate for international undergraduates: housing, bills, food, transport and personal costs, spread over 9 months. Excludes immigration fees, health insurance and flights.",
     "notes": "Trinity's 'Cost of Living' page for international students (updated 16 July 2026) gives annual ranges; each is taken at its midpoint and divided by 9 months. Housing = average of Trinity Hall (EUR 7,227, Sept-June) and Kavanagh Court (EUR 12,350) undergraduate accommodation plus utilities EUR 1,000-2,000; food = meals EUR 3,000-5,000; transport = commuting EUR 1,000; personal = miscellaneous EUR 2,500 (personal items, leisure, course materials) plus personal and social EUR 2,000-3,000. Excludes immigration fees, health insurance and airfares. Trinity's own total undergraduate estimate is EUR 19,937-29,050 a year."
@@ -29,20 +28,19 @@
       "field": "computing",
       "name": "Computer Science (BA, integrated MAI)",
       "durationYears": 4,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 29570,
+          "annualTuition": 30450,
           "annualCompulsoryFees": 212.75,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Computer Science (BA, integrated MAI) in 2026/27: €29,570, plus about €213 in student levies; later years rise 2.33% a year.",
-      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international (non-EU) students plus about EUR 213 in student levies. Fees rise 2.33% a year for later years, so the total will be higher. A fifth master's year is charged at the higher postgraduate rate.",
       "notes": "Non-EU tuition for new entrants in 2026/27 (course code UICS-ICSC-2F); the schedule says the fee is for the first year only. Compulsory fee is the Student Levies and Charges (SLC) for a full-time 4-year degree (EUR 212.75 in 2026/27, of which EUR 8 AMLE membership is optional). Year 5 of the integrated master's is charged at the postgraduate rate. Trinity's Fee Certainty policy sets the annual increase for the 2026/27 intake at 2.33% a year for 2027/28-2030/31, so fees are not fixed for the programme. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time UG/PG Degree/Doctorate (4 Year) row: 2024/25 EUR 202.75 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 33.75 + USI 8); 2025/26 EUR 209.75 (Sports Development 134 + Space and Centre Levy 34 + Graduation 33.75 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -61,28 +59,37 @@
           "annualCompulsoryFees": 209.75,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29570,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Computer Science (BA, integrated MAI) in 2026/27: €29,570, plus about €213 in student levies; later years rise 2.33% a year.",
+      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate."
     },
     {
       "level": "bachelor",
       "field": "business",
       "name": "Business, Economic and Social Studies (B.E.S.S.)",
       "durationYears": 4,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 22580,
+          "annualTuition": 23250,
           "annualCompulsoryFees": 212.75,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Business, Economic and Social Studies (B.E.S.S.) in 2026/27: €22,580, plus about €213 in student levies; later years rise 2.33% a year.",
-      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international (non-EU) students plus about EUR 213 in student levies. Fees rise 2.33% a year for later years, so the total will be higher.",
       "notes": "Non-EU tuition for new entrants in 2026/27 (UBBE-BESS-2F); first-year fee. Compulsory fee is the Student Levies and Charges (SLC) for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE membership optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time UG/PG Degree/Doctorate (4 Year) row: 2024/25 EUR 202.75 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 33.75 + USI 8); 2025/26 EUR 209.75 (Sports Development 134 + Space and Centre Levy 34 + Graduation 33.75 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -101,28 +108,37 @@
           "annualCompulsoryFees": 209.75,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 22580,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Business, Economic and Social Studies (B.E.S.S.) in 2026/27: €22,580, plus about €213 in student levies; later years rise 2.33% a year.",
+      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate."
     },
     {
       "level": "bachelor",
       "field": "engineering",
       "name": "Engineering with Management (BAI, integrated MAI)",
       "durationYears": 4,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 29570,
+          "annualTuition": 30450,
           "annualCompulsoryFees": 212.75,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Engineering with Management (BAI, integrated MAI) in 2026/27: €29,570, plus about €213 in student levies; later years rise 2.33% a year.",
-      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international (non-EU) students plus about EUR 213 in student levies. Fees rise 2.33% a year for later years, so the total will be higher. A fifth master's year is charged at the higher postgraduate rate.",
       "notes": "Non-EU tuition for new entrants in 2026/27 (UIEG-EMAN-2F); first-year fee. Year 5 of the integrated master's is charged at the postgraduate rate. Compulsory fee is the SLC for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time UG/PG Degree/Doctorate (4 Year) row: 2024/25 EUR 202.75 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 33.75 + USI 8); 2025/26 EUR 209.75 (Sports Development 134 + Space and Centre Levy 34 + Graduation 33.75 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -141,28 +157,37 @@
           "annualCompulsoryFees": 209.75,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29570,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Engineering with Management (BAI, integrated MAI) in 2026/27: €29,570, plus about €213 in student levies; later years rise 2.33% a year.",
+      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate."
     },
     {
       "level": "bachelor",
       "field": "sciences",
       "name": "Science (Common Entry)",
       "durationYears": 4,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 29570,
+          "annualTuition": 30450,
           "annualCompulsoryFees": 212.75,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Science (Common Entry) in 2026/27: €29,570, plus about €213 in student levies; later years rise 2.33% a year.",
-      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international (non-EU) students plus about EUR 213 in student levies. Fees rise 2.33% a year for later years, so the total will be higher.",
       "notes": "Non-EU tuition for new entrants in 2026/27 (UBSC-SCIE-1F, School of Natural Sciences); first-year fee. Compulsory fee is the SLC for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time UG/PG Degree/Doctorate (4 Year) row: 2024/25 EUR 202.75 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 33.75 + USI 8); 2025/26 EUR 209.75 (Sports Development 134 + Space and Centre Levy 34 + Graduation 33.75 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -181,28 +206,37 @@
           "annualCompulsoryFees": 209.75,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 29570,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Science (Common Entry) in 2026/27: €29,570, plus about €213 in student levies; later years rise 2.33% a year.",
+      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate."
     },
     {
       "level": "bachelor",
       "field": "arts",
       "name": "English Studies",
       "durationYears": 4,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 22580,
+          "annualTuition": 23250,
           "annualCompulsoryFees": 212.75,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to English Studies in 2026/27: €22,580, plus about €213 in student levies; later years rise 2.33% a year.",
-      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international (non-EU) students plus about EUR 213 in student levies. Fees rise 2.33% a year for later years, so the total will be higher.",
       "notes": "Non-EU tuition for new entrants in 2026/27 (UBEN-ENGS-2F); first-year fee. Compulsory fee is the SLC for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time UG/PG Degree/Doctorate (4 Year) row: 2024/25 EUR 202.75 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 33.75 + USI 8); 2025/26 EUR 209.75 (Sports Development 134 + Space and Centre Levy 34 + Graduation 33.75 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -221,28 +255,37 @@
           "annualCompulsoryFees": 209.75,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 22580,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to English Studies in 2026/27: €22,580, plus about €213 in student levies; later years rise 2.33% a year.",
+      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate."
     },
     {
       "level": "master",
       "field": "computing",
       "name": "M.Sc. Computer Science",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 27790,
+          "annualTuition": 28760,
           "annualCompulsoryFees": 314,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU fee of €27,790 for the one-year M.Sc. Computer Science (2026/27 entry), plus €314 in student levies.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus EUR 314 in student levies including the graduation fee.",
       "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTCS-MCSC-1F). Compulsory fee is the Student Levies and Charges for a full-time 1-year PG degree (EUR 314 in 2026/27, incl. EUR 135 graduation fee; EUR 8 AMLE optional). Single-year courses get no in-course increase. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time PG Degree 1 Year row: 2024/25 EUR 304.00 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 135 + USI 8); 2025/26 EUR 311.00 (134 + 34 + 135 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -261,28 +304,37 @@
           "annualCompulsoryFees": 311,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 27790,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU fee of €27,790 for the one-year M.Sc. Computer Science (2026/27 entry), plus €314 in student levies.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "master",
       "field": "business",
       "name": "M.Sc. Management",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 24000,
+          "annualTuition": 24600,
           "annualCompulsoryFees": 314,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU fee of €24,000 for the one-year M.Sc. Management (2026/27 entry), plus €314 in student levies.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus EUR 314 in student levies including the graduation fee.",
       "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTBU-BMAN-2F, Trinity Business School). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional). Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time PG Degree 1 Year row: 2024/25 EUR 304.00 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 135 + USI 8); 2025/26 EUR 311.00 (134 + 34 + 135 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -301,15 +353,25 @@
           "annualCompulsoryFees": 311,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 24000,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU fee of €24,000 for the one-year M.Sc. Management (2026/27 entry), plus €314 in student levies.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "master",
       "field": "engineering",
       "name": "M.Sc. Engineering",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
           "annualTuition": 27780,
@@ -318,11 +380,10 @@
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU fee of €27,780 for the one-year M.Sc. Engineering (2026/27 entry), plus €314 in student levies.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus EUR 314 in student levies including the graduation fee.",
       "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTEG-ENGI-1F, School of Engineering). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional). Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time PG Degree 1 Year row: 2024/25 EUR 304.00 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 135 + USI 8); 2025/26 EUR 311.00 (134 + 34 + 135 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -341,28 +402,37 @@
           "annualCompulsoryFees": 311,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 27780,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU fee of €27,780 for the one-year M.Sc. Engineering (2026/27 entry), plus €314 in student levies.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "master",
       "field": "sciences",
       "name": "M.Sc. Environmental Sciences",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 22520,
+          "annualTuition": 23300,
           "annualCompulsoryFees": 314,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU fee of €22,520 for the one-year M.Sc. Environmental Sciences (2026/27 entry), plus €314 in student levies.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus EUR 314 in student levies including the graduation fee.",
       "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTNS-ENVS-1F, School of Natural Sciences). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional). Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time PG Degree 1 Year row: 2024/25 EUR 304.00 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 135 + USI 8); 2025/26 EUR 311.00 (134 + 34 + 135 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -381,28 +451,37 @@
           "annualCompulsoryFees": 311,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 22520,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU fee of €22,520 for the one-year M.Sc. Environmental Sciences (2026/27 entry), plus €314 in student levies.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "master",
       "field": "arts",
       "name": "M.Phil. Modern and Contemporary Literary Studies",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 18180,
+          "annualTuition": 18810,
           "annualCompulsoryFees": 314,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU fee of €18,180 for this one-year M.Phil. (2026/27 entry), plus €314 in student levies.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus EUR 314 in student levies including the graduation fee.",
       "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTEN-MCLS-1F, School of English). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional). Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time PG Degree 1 Year row: 2024/25 EUR 304.00 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 135 + USI 8); 2025/26 EUR 311.00 (134 + 34 + 135 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -421,28 +500,37 @@
           "annualCompulsoryFees": 311,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 18180,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU fee of €18,180 for this one-year M.Phil. (2026/27 entry), plus €314 in student levies.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "bachelor",
       "field": "law",
       "name": "Law (LL.B.)",
       "durationYears": 4,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 22580,
+          "annualTuition": 23250,
           "annualCompulsoryFees": 212.75,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Law (LL.B.) in 2026/27: €22,580, plus about €213 in student levies; later years rise 2.33% a year.",
-      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international (non-EU) students plus about EUR 213 in student levies. Fees rise 2.33% a year for later years, so the total will be higher. Taught in English.",
       "notes": "Non-EU tuition for new entrants in 2026/27 (UBLW-LAWS-2F, School of Law); first-year fee. Compulsory fee is the Student Levies and Charges (SLC) for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. 4-year LL.B.; taught in English. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time UG/PG Degree/Doctorate (4 Year) row: 2024/25 EUR 202.75 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 33.75 + USI 8); 2025/26 EUR 209.75 (Sports Development 134 + Space and Centre Levy 34 + Graduation 33.75 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -461,8 +549,18 @@
           "annualCompulsoryFees": 209.75,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 22580,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
         }
       ],
+      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Law (LL.B.) in 2026/27: €22,580, plus about €213 in student levies; later years rise 2.33% a year.",
+      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate.",
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -476,20 +574,19 @@
       "field": "medicine",
       "name": "Medicine (M.B., B.Ch., B.A.O.)",
       "durationYears": 5,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 60000,
+          "annualTuition": 62000,
           "annualCompulsoryFees": 212.75,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's 2026/27 non-EU Medicine fee, shown in its schedule as a maximum of €60,000 a year, plus about €213 in levies; rises 2.33% a year.",
-      "feeChoice": "Medicine's yearly fee is published as a maximum, and that top figure is used as the yearly rate so the cost isn't understated.",
+      "internationalEligible": true,
       "summary": "First-year tuition (stated as a maximum) for international students plus about EUR 213 in levies. Rises 2.33% a year over the 5-year degree. Recognised by the Singapore Medical Council.",
       "notes": "Non-EU tuition for new entrants in 2026/27 (UBMD-MEDI-3F, School of Medicine), shown in the schedule as 'Max EUR 60,000' per year; first-year fee. Compulsory fee is the SLC full-time degree rate (EUR 212.75, the only full-time undergraduate degree row; EUR 8 AMLE optional). Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. 5-year undergraduate-entry degree; taught in English. The University of Dublin, Trinity College Dublin, School of Medicine is on the Singapore Medical Council's list of registrable basic medical qualifications. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time UG/PG Degree/Doctorate (4 Year) row: 2024/25 EUR 202.75 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 33.75 + USI 8); 2025/26 EUR 209.75 (Sports Development 134 + Space and Centre Levy 34 + Graduation 33.75 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -508,8 +605,18 @@
           "annualCompulsoryFees": 209.75,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 60000,
+          "annualCompulsoryFees": 212.75,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
         }
       ],
+      "feeBasis": "Trinity's 2026/27 non-EU Medicine fee, shown in its schedule as a maximum of €60,000 a year, plus about €213 in levies; rises 2.33% a year.",
+      "feeChoice": "Medicine's yearly fee is published as a maximum, and that top figure is used as the yearly rate so the cost isn't understated.",
       "sgRecognition": {
         "body": "SMC",
         "listed": true,
@@ -523,20 +630,19 @@
       "field": "law",
       "name": "LL.M. (Masters in Law)",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 22430,
+          "annualTuition": 23210,
           "annualCompulsoryFees": 314,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU fee of €22,430 for the one-year LL.M. (2026/27), plus €314 in levies; the specialised LL.M. streams cost the same.",
-      "feeChoice": "One fee covers the general LL.M. and its specialised streams, and it covers the whole one-year course.",
+      "internationalEligible": true,
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus EUR 314 in student levies including the graduation fee. Taught in English.",
       "notes": "Non-EU fee for 2026/27 entry, full-time 1 year (PTLW-LAWS-1F, School of Law; the specialised LL.M. streams are the same price). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional). Taught in English. Student Levies and Charges for earlier years from Trinity Academic Registry's fees page: 'SLC Rates 2024/25' (Wayback Machine capture of 9 Sep 2024 of tcd.ie/academicregistry/fees-and-payments/what-are-my-fees/; unchanged in the 21 Jan and 10 Jun 2025 captures) and 'Student Levies and Charges (SLC) Rates for Academic Year 2025/26' (Common Crawl capture of 11 Sep 2025 of /academicregistry/fees-and-payments/what-fees-do-I-need-to-pay/). Full Time PG Degree 1 Year row: 2024/25 EUR 304.00 (Sports Centre 131 + Space and Centre Levy 30 + Graduation 135 + USI 8); 2025/26 EUR 311.00 (134 + 34 + 135 + AMLE 8). The optional EUR 8 USI/AMLE fee is included, as in the current record. Tuition unchanged from the existing rows.",
       "feeHistory": [
@@ -555,8 +661,18 @@
           "annualCompulsoryFees": 311,
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 22430,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
       ],
+      "feeBasis": "Trinity's official non-EU fee of €22,430 for the one-year LL.M. (2026/27), plus €314 in levies; the specialised LL.M. streams cost the same.",
+      "feeChoice": "One fee covers the general LL.M. and its specialised streams, and it covers the whole one-year course.",
       "sgRecognition": {
         "body": "SILE",
         "listed": false,
@@ -579,11 +695,10 @@
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Psychology (B.A.) in 2026/27: €22,580, plus about €213 in student levies; later years rise 2.33% a year.",
-      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international (non-EU) students plus about EUR 213 in student levies. Fees rise 2.33% a year for later years, so the total will be higher.",
       "notes": "Non-EU tuition for new entrants in 2026/27 ('Psychology', School of Psychology, course code UBPS-PSYC-2F, 'Non-EU Student Total Fee - Year 1' EUR 22,580); first-year fee; 4-year single-honours degree. Compulsory fee is the SLC for a full-time 4-year degree (EUR 212.75, EUR 8 AMLE optional), as for Trinity's other undergraduate records. Fee Certainty policy: 2.33% annual increase for the 2026/27 intake. History from the same official table (it lists earlier academic years): 2025/26 EUR 22,070, 2024/25 EUR 21,570. Corrected 2024 and 2025 levies to that year's Student Levies and Charges (undergraduate EUR 202.75 in 2024/25 and EUR 209.75 in 2025/26, including the optional EUR 8 union fee as other TCD records do), read from Wayback (9 Sep 2024) and Common Crawl (11 Sep 2025) copies.",
       "feeHistory": [
@@ -603,7 +718,9 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's official non-EU first-year fee for new entrants to Psychology (B.A.) in 2026/27: €22,580, plus about €213 in student levies; later years rise 2.33% a year.",
+      "feeChoice": "This course's own published first-year fee for new entrants is used as the yearly rate."
     },
     {
       "level": "master",
@@ -619,11 +736,10 @@
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's €23,100 non-EU fee for the one-year M.Sc. Applied Psychology (2026/27), plus €314 in levies; chosen as its broad taught psychology master's.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the 1-year full-time master's for international (non-EU) students, plus EUR 314 in student levies including the graduation fee.",
       "notes": "Non-EU fee for 2026/27 entry, full-time 1 year ('Masters in Applied Psychology', School of Psychology, PTPS-APSY-1F, Non-EU Student Fee - Year 1 EUR 23,100; EU EUR 10,094). Chosen as Trinity's broad taught psychology master's (other taught options: Applied Behaviour Analysis, 2 years; Global Mental Health; Psychoanalytic Studies; the Higher Diploma conversion course is not a master's). Compulsory fee is the SLC for a full-time 1-year PG degree (EUR 314, EUR 8 AMLE optional). History from the same official table: 2025/26 EUR 22,430, 2024/25 EUR 22,430. Corrected 2024 and 2025 levies to that year's postgraduate Student Levies and Charges (EUR 304 in 2024/25, EUR 311 in 2025/26), from Wayback (9 Sep 2024) and Common Crawl (11 Sep 2025) copies.",
       "feeHistory": [
@@ -643,27 +759,28 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's €23,100 non-EU fee for the one-year M.Sc. Applied Psychology (2026/27), plus €314 in levies; chosen as its broad taught psychology master's.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "master",
       "field": "business",
       "name": "M.Sc. Accounting and Analytics (PTBU-AAYT-1F)",
       "durationYears": 1,
-      "feeYear": 2026,
+      "feeYear": 2027,
       "fees": {
         "international": {
-          "annualTuition": 24000,
+          "annualTuition": 24600,
           "annualCompulsoryFees": 314,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/",
-      "lastVerified": "2026-10-15",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Trinity's 2026/27 non-EU fee for the Master's in Accounting & Analytics, from its postgraduate fees page, plus student levies and charges of EUR 314.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the 1-year full-time master's for non-EU students, plus student levies and charges of EUR 314. Trinity offers no undergraduate accounting degree; this master's gives professional exemptions.",
       "notes": "Trinity Business School 'Masters in Accounting & Analytics' (PTBU-AAYT-1F), 1 year full-time, Non-EU Student Fee for 2026/27 EUR 24,000 on tcd.ie/courses/postgraduate/fees/ and on the programme fees page (business/programmes/masters-programmes/msc-in-accounting-and-analytics-/fees, Common Crawl copy of 9 Nov 2025); chose non-EU because Singaporeans pay it. Compulsory = Student Levies and Charges (SLC) for a full-time 1-year PG degree, EUR 314 in 2026/27 as on the file's M.Sc. Management. History: 2025/26 EUR 23,250 from the live PG fee table row '2025/26 Masters in Accounting & Analytics' (SLC EUR 311); an earlier Common Crawl copy of that table (17 Mar 2025) showed EUR 24,300 for 2025/26, the live table is used. 2024/25 EUR 23,250 from the programme fees page ('annual fees for the 2024/25 academic year ... Non-EU Students EUR 23,250', Common Crawl copy of 26 Mar 2025; SLC EUR 304). The PG fee table itself lists only a PG Diploma in Accounting for 2024/25. TCD has no undergraduate accounting degree (B.E.S.S. has no accounting stream).",
       "feeHistory": [
@@ -684,8 +801,19 @@
           "oneOffFees": 0,
           "sourceUrl": "https://www.tcd.ie/business/programmes/masters-programmes/msc-in-accounting-and-analytics-/fees/",
           "sourceType": "official"
+        },
+        {
+          "feeYear": 2026,
+          "tier": "international",
+          "annualTuition": 24000,
+          "annualCompulsoryFees": 314,
+          "oneOffFees": 0,
+          "sourceUrl": "https://www.tcd.ie/courses/postgraduate/fees/"
         }
-      ]
+      ],
+      "feeBasis": "Trinity's 2026/27 non-EU fee for the Master's in Accounting & Analytics, from its postgraduate fees page, plus student levies and charges of EUR 314.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     }
-  ]
+  ],
+  "feeMethod": "Lists a separate non-EU fee for each course code, so the calculator uses each course's first-year fee."
 }

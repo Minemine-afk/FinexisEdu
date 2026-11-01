@@ -1,11 +1,10 @@
 {
   "id": "imperial",
   "name": "Imperial College London",
-  "feeMethod": "Sets an overseas fee for each programme by entry year, so the calculator uses each programme's new-entrant fee.",
   "country": "uk",
   "city": "London",
   "currency": "GBP",
-  "website": "https://www.imperial.ac.uk",
+  "website": "https://www.imperial.ac.uk/",
   "description": "Imperial College London is a public research university in London founded in 1907, specialising in science, engineering, medicine and business. Its main campus is in South Kensington.",
   "whyIncluded": "Imperial says it currently hosts more than 450 students from Singapore and has more than 4,000 alumni in Singapore (July 2026); it also established the Lee Kong Chian School of Medicine with NTU, and its MB BS is on the Singapore Medical Council's list.",
   "livingCosts": {
@@ -18,7 +17,7 @@
       "personal": 331
     },
     "sourceUrl": "https://www.imperial.ac.uk/study/fees-and-funding/living-costs/",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-11-01",
     "sourceType": "official",
     "summary": "The university's own estimate of rent, food, local transport and personal costs in London for a 9-month academic year. Excludes tuition, study materials, flights and insurance.",
     "notes": "Imperial 'Likely costs for living in London - 2026', monthly column. Housing = midpoint of College-run £1,084 and private-sector £1,156/month (9 months: £9,753 / £10,403). Food £286/month (£2,577 for 9 months), travel zones 1-2 £120 (£1,079), personal and leisure £331 (£2,982). Total £1,821-£1,893/month, £16,392-£17,042 for 9 months. Excludes tuition, study materials, flights and insurance."
@@ -38,11 +37,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee for the MEng Mechanical Engineering for students entering in 2026: £45,500 a year (later years rise with inflation).",
-      "feeChoice": "This degree has its own published first-year fee, which is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students. Fees for later years rise each year by up to inflation, so the total will be somewhat above this. No separate compulsory fees.",
       "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
       "feeHistory": [
@@ -58,7 +56,9 @@
           "annualTuition": 43300,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-engineering/"
         }
-      ]
+      ],
+      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee for the MEng Mechanical Engineering for students entering in 2026: £45,500 a year (later years rise with inflation).",
+      "feeChoice": "This degree has its own published first-year fee, which is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -74,11 +74,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-engineering/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee for the MEng Computing for students entering in 2026: £45,500 a year (later years rise with inflation).",
-      "feeChoice": "This degree has its own published first-year fee, which is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students. Fees for later years rise each year by up to inflation, so the total will be somewhat above this. No separate compulsory fees.",
       "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
       "feeHistory": [
@@ -94,7 +93,9 @@
           "annualTuition": 43300,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-engineering/"
         }
-      ]
+      ],
+      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee for the MEng Computing for students entering in 2026: £45,500 a year (later years rise with inflation).",
+      "feeChoice": "This degree has its own published first-year fee, which is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -110,11 +111,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-natural-sciences/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee for the BSc Physics for students entering in 2026: £45,500 a year (later years rise with inflation).",
-      "feeChoice": "This degree has its own published first-year fee, which is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students. Fees for later years rise each year by up to inflation, so the total will be somewhat above this. No separate compulsory fees.",
       "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
       "feeHistory": [
@@ -130,7 +130,9 @@
           "annualTuition": 43300,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-natural-sciences/"
         }
-      ]
+      ],
+      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee for the BSc Physics for students entering in 2026: £45,500 a year (later years rise with inflation).",
+      "feeChoice": "This degree has its own published first-year fee, which is used as the yearly rate."
     },
     {
       "level": "bachelor",
@@ -146,11 +148,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/imperial-business-school/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee for the BSc Economics, Finance and Data Science for students entering in 2026: £42,700 a year (later years rise with inflation).",
-      "feeChoice": "This degree has its own published first-year fee, which is used as the yearly rate.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students. Fees for later years rise each year by up to inflation, so the total will be somewhat above this. No separate compulsory fees.",
       "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
       "feeHistory": [
@@ -166,7 +167,9 @@
           "annualTuition": 40700,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/imperial-business-school/"
         }
-      ]
+      ],
+      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee for the BSc Economics, Finance and Data Science for students entering in 2026: £42,700 a year (later years rise with inflation).",
+      "feeChoice": "This degree has its own published first-year fee, which is used as the yearly rate."
     },
     {
       "level": "master",
@@ -182,11 +185,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-engineering/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee of £45,000 for the one-year MSc Advanced Mechanical Engineering, 2026 entry.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the one-year programme for international students. No separate compulsory fees.",
       "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
       "feeHistory": [
@@ -202,7 +204,9 @@
           "annualTuition": 42900,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/faculty-of-engineering/"
         }
-      ]
+      ],
+      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee of £45,000 for the one-year MSc Advanced Mechanical Engineering, 2026 entry.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "master",
@@ -218,11 +222,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-engineering/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee of £46,000 for the one-year MSc Computing, 2026 entry.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the one-year programme for international students. No separate compulsory fees.",
       "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
       "feeHistory": [
@@ -238,7 +241,9 @@
           "annualTuition": 43800,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/faculty-of-engineering/"
         }
-      ]
+      ],
+      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee of £46,000 for the one-year MSc Computing, 2026 entry.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "master",
@@ -254,11 +259,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-natural-sciences/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee of £39,900 for the one-year MSc Statistics, 2026 entry.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the one-year programme for international students. No separate compulsory fees.",
       "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
       "feeHistory": [
@@ -274,7 +278,9 @@
           "annualTuition": 35700,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/faculty-of-natural-sciences/"
         }
-      ]
+      ],
+      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee of £39,900 for the one-year MSc Statistics, 2026 entry.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "master",
@@ -290,11 +296,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/imperial-business-school/",
-      "lastVerified": "2026-09-23",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee of £47,000 for the one-year MSc Business Analytics, 2026 entry.",
-      "feeChoice": "This one-year master's has its own published fee, which covers the whole course.",
+      "internationalEligible": true,
       "summary": "Tuition for the one-year programme for international students. No separate compulsory fees.",
       "notes": "Overseas fee for your entry cohort. Continuing students' fees rise each year by up to inflation (3.5% for 2026-27), capped at the new-entrant fee. No separate compulsory fees.",
       "feeHistory": [
@@ -310,7 +315,9 @@
           "annualTuition": 42500,
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2025-26/taught-postgraduate-programmes/imperial-business-school/"
         }
-      ]
+      ],
+      "feeBasis": "Imperial's 2026-27 faculty fee table: overseas fee of £47,000 for the one-year MSc Business Analytics, 2026 entry.",
+      "feeChoice": "This one-year master's has its own published fee, which covers the whole course."
     },
     {
       "level": "bachelor",
@@ -326,11 +333,10 @@
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2026-27/faculty-of-medicine/",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": false,
-      "feeBasis": "Imperial's 2026-entry overseas Medicine fee of £58,600 a year, one rate for both non-clinical and clinical years.",
-      "feeChoice": "Medicine has one rate for pre-clinical and clinical years alike, so it is used for every year.",
+      "internationalEligible": true,
       "summary": "First-year tuition for international students, one rate for both pre-clinical and clinical years. Later years rise each year by up to inflation, so the 6-year total will be above this. No separate compulsory fees.",
       "notes": "Overseas fee for the 2026 entry cohort ('Medicine, Non-clinical and Clinical' row of the Faculty of Medicine page): Imperial charges one rate for both the non-clinical and clinical years of the six-year MBBS/BSc, so there is no separate clinical-year rate. Continuing students' fees rise each year by up to inflation, capped at the new-entrant fee. No separate compulsory fees. History from the 2025-26 and 2024-25 Faculty of Medicine pages (new-entrant rate for each cohort).",
       "feeHistory": [
@@ -347,6 +353,8 @@
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-medicine/"
         }
       ],
+      "feeBasis": "Imperial's 2026-entry overseas Medicine fee of £58,600 a year, one rate for both non-clinical and clinical years.",
+      "feeChoice": "Medicine has one rate for pre-clinical and clinical years alike, so it is used for every year.",
       "sgRecognition": {
         "body": "SMC",
         "listed": true,
@@ -363,17 +371,16 @@
       "feeYear": 2026,
       "fees": {
         "international": {
-          "annualTuition": 51000,
+          "annualTuition": 47000,
           "annualCompulsoryFees": 0,
           "oneOffFees": 0
         }
       },
       "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/imperial-business-school/",
-      "lastVerified": "2026-10-15",
+      "lastVerified": "2026-11-01",
       "sourceType": "official",
       "cohortLocked": true,
-      "feeBasis": "Imperial Business School's 2026 cohort overseas full-time fee (GBP 51,000) for the one-year MSc Finance and Accounting; the fee is set for the whole programme with no later increase.",
-      "feeChoice": "This master's has one published fee set for the whole programme, with no later increase.",
+      "internationalEligible": true,
       "summary": "Tuition for international students on the one-year full-time master's starting in 2026. Imperial Business School fees are set for the whole programme with no later uplift.",
       "notes": "Overseas tier, full-time, 2026 entry cohort, Imperial Business School 2026-27 postgraduate fee table states '2026 Cohort Overseas FT 51,000'; chose Overseas because Singaporeans are international students. Imperial says Business School fees are set on a whole-programme basis with no inflationary uplift for continuing students (cohortLocked true). History from the 2025-26 table (2025 Cohort 47,500) and the 2024-25 table (2024 Cohort 45,400), same programme row. Tables read with a headless browser (accordions expanded). Imperial has no accounting bachelor's. No compulsory fees.",
       "feeHistory": [
@@ -391,7 +398,10 @@
           "sourceUrl": "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2024-25/taught-postgraduate-programmes/imperial-business-school/",
           "sourceType": "official"
         }
-      ]
+      ],
+      "feeBasis": "Imperial Business School's 2026 cohort overseas full-time fee (GBP 51,000) for the one-year MSc Finance and Accounting; the fee is set for the whole programme with no later increase.",
+      "feeChoice": "This master's has one published fee set for the whole programme, with no later increase."
     }
-  ]
+  ],
+  "feeMethod": "Sets an overseas fee for each programme by entry year, so the calculator uses each programme's new-entrant fee."
 }
