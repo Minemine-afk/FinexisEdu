@@ -1,18 +1,87 @@
 # Tohoku University (national university; ¥900,000 international rate from April 2027). Read by hand.
 sources:
-  # University guide leaflet PDF with the 2027 international tuition; read by hand
-  - university: tohoku
-    country: jp
-    url: "https://www.insc.tohoku.ac.jp/japanese/wp-content/uploads/2026/06/TU-Leaflet-2026.06.10.pdf"
-    manual: true
-  # Gateway College pamphlet PDF; read by hand
-  - university: tohoku
-    country: jp
-    url: "https://admissions.tohoku.ac.jp/en/adcms/wp-content/uploads/2026/03/gwc-pamphlet.pdf"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: tohoku
     country: jp
     url: https://sup.bureau.tohoku.ac.jp/en/pre-arrival-e/expenses-e/
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: tohoku
+    country: jp
+    url: https://admissions.tohoku.ac.jp/en/adcms/wp-content/uploads/2026/03/gwc-pamphlet.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Gateway College, Humanities and Social Sciences
+      tier: international
+      pattern: 'Annual Tuition \(International students\): JPY (\d{1,3}(?:,\d{3})+)(?![\d,]) \(Planned for 2027 intake\)'
+    - level: bachelor
+      field: engineering
+      programme: Gateway College, Science and Engineering
+      tier: international
+      pattern: 'Annual Tuition \(International students\): JPY (\d{1,3}(?:,\d{3})+)(?![\d,]) \(Planned for 2027 intake\)'
+    - level: bachelor
+      field: sciences
+      programme: Gateway College, Life Sciences
+      tier: international
+      pattern: 'Annual Tuition \(International students\): JPY (\d{1,3}(?:,\d{3})+)(?![\d,]) \(Planned for 2027 intake\)'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: tohoku
+    country: jp
+    url: https://www.insc.tohoku.ac.jp/japanese/wp-content/uploads/2026/06/TU-Leaflet-2026.06.10.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: business
+      programme: Faculty of Economics
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: bachelor
+      field: law
+      programme: School of Law
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: bachelor
+      field: medicine
+      programme: School of Medicine, Medicine (6-year)
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: bachelor
+      field: nursing
+      programme: School of Medicine, Health Sciences (Nursing)
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: master
+      field: engineering
+      programme: Graduate School of Engineering (Master's)
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: master
+      field: computing
+      programme: Graduate School of Information Sciences (Master's)
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: master
+      field: business
+      programme: Graduate School of Economics and Management (Master's)
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: master
+      field: sciences
+      programme: Graduate School of Science (Master's)
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: master
+      field: arts
+      programme: Graduate School of Arts and Letters (Master's)
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'
+    - level: master
+      field: law
+      programme: Graduate School of Law (Master's)
+      tier: international
+      pattern: '2027.{0,1049}?Tuition Fee \(Annually\):.{0,200}?International Students: JPY (\d{1,3}(?:,\d{3})+)(?![\d,])'

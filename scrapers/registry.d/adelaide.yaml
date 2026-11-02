@@ -1,77 +1,5 @@
 # Adelaide University. Added Oct 2026; fees read by hand from the official pages below.
 sources:
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-engineering-mechanical-honours/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-computer-science/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-business/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-science/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-arts/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-psychology/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-nursing/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-medical-studies/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/master-of-professional-engineering-civil/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/master-of-information-technology-computing-and-innovation/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/master-of-business-administration/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/master-of-data-science/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/master-of-psychology-clinical/int/"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: adelaide
-    country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/master-of-nursing/int/"
-    manual: true
   # living-cost page: added Oct 2026, fee read by hand (no automated pattern written yet)
   - university: adelaide
     country: au
@@ -82,7 +10,183 @@ sources:
     country: au
     url: "https://adelaide.edu.au/study/degrees/2027/bachelor-of-commerce-accounting/int/"
     manual: true
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: adelaide
     country: au
-    url: "https://adelaide.edu.au/study/degrees/2027/master-of-professional-accounting/int/"
-    manual: true
+    url: https://adelaide.edu.au/study/degrees/2027/bachelor-of-engineering-mechanical-honours/int/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering (Mechanical) (Honours)
+      tier: international
+      pattern: 2027.{0,2215}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/bachelor-of-computer-science/int/
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science
+      tier: international
+      pattern: 2027.{0,2215}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/bachelor-of-business/int/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business
+      tier: international
+      pattern: 2027.{0,2045}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/bachelor-of-science/int/
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science
+      tier: international
+      pattern: 2027.{0,2266}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/bachelor-of-arts/int/
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts
+      tier: international
+      pattern: 2027.{0,2227}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/bachelor-of-psychology/int/
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Psychology
+      tier: international
+      pattern: 2027.{0,2227}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/bachelor-of-nursing/int/
+    parser: html
+    targets:
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing
+      tier: international
+      pattern: 2027.{0,2174}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/bachelor-of-medical-studies/int/
+    parser: html
+    targets:
+    - level: bachelor
+      field: medicine
+      programme: Bachelor of Medical Studies and Doctor of Medicine
+      tier: international
+      pattern: 2027.{0,2066}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/master-of-professional-engineering-civil/int/
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: Master of Professional Engineering (Civil)
+      tier: international
+      pattern: 2027.{0,2215}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/master-of-information-technology-computing-and-innovation/int/
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: Master of Information Technology (Computing and Innovation)
+      tier: international
+      pattern: 2027.{0,2215}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/master-of-business-administration/int/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration
+      tier: international
+      pattern: 2027.{0,2075}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/master-of-data-science/int/
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      programme: Master of Data Science
+      tier: international
+      pattern: 2027.{0,2233}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/master-of-psychology-clinical/int/
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: Master of Psychology (Clinical)
+      tier: international
+      pattern: 2027.{0,2220}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/master-of-nursing/int/
+    parser: html
+    targets:
+    - level: master
+      field: nursing
+      programme: Master of Nursing
+      tier: international
+      pattern: 2027.{0,2148}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: adelaide
+    country: au
+    url: https://adelaide.edu.au/study/degrees/2027/master-of-professional-accounting/int/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Professional Accounting
+      tier: international
+      pattern: 2027.{0,2047}?full-time annual basis\. \$(\d{1,3}(?:,\d{3})+)(?![\d,]) Non-tuition fees

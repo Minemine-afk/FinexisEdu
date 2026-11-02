@@ -1,13 +1,99 @@
 # University of Bern. Fee sheet PDF per fee period (new rates from autumn 2026).
 sources:
-  # Fees-from-fall-2026 PDF: tuition, surcharge and semester fees read by hand; URL changes with each new sheet
-  - university: unibe
-    country: ch
-    url: "https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: unibe
     country: ch
     url: https://sub.unibe.ch/wp-content/uploads/2025/06/budget-studierende.pdf
     parser: pdf
     manual: true
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: unibe
+    country: ch
+    url: https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science in Computer Science
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science in Business Administration
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science in Biology
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts in English Languages and Literatures
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: bachelor
+      field: law
+      programme: Bachelor of Law
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: bachelor
+      field: medicine
+      programme: Bachelor of Medicine (Human Medicine)
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Science in Psychology
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: master
+      field: computing
+      programme: Master of Science in Computer Science
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: master
+      field: business
+      programme: Master of Science in Business Administration
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: master
+      field: sciences
+      programme: Master of Science in Climate Sciences
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: master
+      field: arts
+      programme: Master of Arts in English Languages and Literatures
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: master
+      field: law
+      programme: Master of Law
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: master
+      field: medicine
+      programme: Master of Medicine (Human Medicine)
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
+    - level: master
+      field: psychology
+      programme: Master of Science in Psychology
+      tier: international
+      pattern: Tuition fees 1 Tuition fee per semester CHF (\d[\d’',]*)\.- 1a\* non-Swiss students pay an additional fee of CHF (\d[\d’',]*)\.- per semester
+      multiplier: 2
