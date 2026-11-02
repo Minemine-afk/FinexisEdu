@@ -1,12 +1,6 @@
 # University of Technology Sydney. Added Oct 2026; 2027 international fees read by hand from the
 # per-session course summary tables (PDF), annual = per-session fee x 2.
 sources:
-  # 2027 International Postgraduate Course Summary Table, read by hand (per-session fees)
-  - university: uts
-    country: au
-    url: "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf"
-    parser: pdf
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: uts
     country: au
@@ -31,4 +25,90 @@ sources:
       programme: Bachelor of Communication (Digital and Social Media)
       tier: international
       pattern: 2027.{0,1153}?and Social Media 6 \$([\d,.\' ]*\d)
+      multiplier: 2
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uts
+    country: au
+    url: https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering (Honours)
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C09066 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computing Science (Honours)
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C09119 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C10242 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Psychology
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C10477 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C10122 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uts
+    country: au
+    url: https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-postgraduate-course-summary-table.pdf
+    parser: pdf
+    targets:
+    - level: master
+      field: engineering
+      programme: Master of Engineering
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C04273 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: master
+      field: computing
+      programme: Master of Information Technology
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C04295 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: master
+      field: business
+      programme: Master of Business Administration
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C04018 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: master
+      field: sciences
+      programme: Master of Data Science and Innovation
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C04372 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: master
+      field: arts
+      programme: Master of Strategic Communication
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C04461 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: master
+      field: psychology
+      programme: Master of Clinical Psychology
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C04300 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+      multiplier: 2
+    - level: master
+      field: business
+      programme: Master of Professional Accounting
+      tier: international
+      pattern: 2027 (?:International )?(?:Undergraduate|Postgraduate) Course Summary Table.{0,60000}?C04238 \d{6}[A-Z] [^$]{0,120}? \d{1,2} \$(\d{1,3}(?:,\d{3})+)(?![\d,])
       multiplier: 2
