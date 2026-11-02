@@ -68,18 +68,39 @@ sources:
     - level: master
       field: arts
       pattern: \d{4} Indicative First Year Fee \$ ?([\d,]+)\*
-  # Bachelor of Psychology (Honours): psychology programme added Oct 2026; fee read by hand
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: unsw
     country: au
-    url: "https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychology-honours"
-    manual: true
-  # Master of Psychology (Clinical): psychology programme added Oct 2026; fee read by hand
+    url: https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychology-honours
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Psychology (Honours)
+      tier: international
+      pattern: degree \$[\d,.\' ]*\d\* Fees 2026 Indicative first year full fee \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: unsw
     country: au
-    url: "https://www.unsw.edu.au/study/postgraduate/master-of-psychology-clinical"
-    manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-psychology-clinical
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: Master of Psychology (Clinical)
+      tier: international
+      pattern: 2026.{0,237}?first year full fee \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: unsw
     country: au
-    url: "https://www.unsw.edu.au/study/postgraduate/master-of-professional-accounting"
-    manual: true
+    url: https://www.unsw.edu.au/study/postgraduate/master-of-professional-accounting
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Professional Accounting
+      tier: international
+      pattern: degree \$[\d,.\' ]*\d\* Fees 2026 Indicative first year full fee \$([\d,.\' ]*\d)

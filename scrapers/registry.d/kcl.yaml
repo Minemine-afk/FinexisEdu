@@ -90,7 +90,15 @@ sources:
     country: uk
     url: "https://www.kcl.ac.uk/study/undergraduate/courses/accounting-finance-bsc/fees"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: kcl
     country: uk
-    url: "https://www.kcl.ac.uk/study/postgraduate-taught/courses/accounting-accountability-and-financial-management-msc/fees"
-    manual: true
+    url: https://www.kcl.ac.uk/study/postgraduate-taught/courses/accounting-accountability-and-financial-management-msc/fees
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Accounting, Accountability & Financial Management MSc
+      tier: international
+      pattern: 2027.{0,247}?fees international £([\d,.\' ]*\d)

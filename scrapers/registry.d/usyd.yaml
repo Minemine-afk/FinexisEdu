@@ -79,11 +79,6 @@ sources:
     - level: master
       field: arts
       pattern: '"year":2027,"fees":\[.*?"type":"INTFEE","title":"International Full Fee Paying Rate","amount":"\$([\d,]+)"'
-  # Bachelor of Psychology: psychology programme added Oct 2026; fee read by hand
-  - university: usyd
-    country: au
-    url: "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-psychology.coredata.json"
-    manual: true
   # Master of Clinical Psychology: psychology programme added Oct 2026; fee read by hand
   - university: usyd
     country: au
@@ -94,3 +89,15 @@ sources:
     country: au
     url: "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-accounting-and-business-performance.coredata.json"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: usyd
+    country: au
+    url: https://www.sydney.edu.au/courses/courses/uc/bachelor-of-psychology.coredata.json
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Psychology
+      tier: international
+      pattern: 2027.{0,1021}?Paying Rate","amount":"\$([\d,.\' ]*\d)

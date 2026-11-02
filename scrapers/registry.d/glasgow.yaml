@@ -6,13 +6,30 @@ sources:
     country: uk
     url: "https://www.gla.ac.uk/undergraduate/fees/intlfees/"
     manual: true
-  # PG fee table is a very long page of rows; read by hand
-  - university: glasgow
-    country: uk
-    url: "https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/"
-    manual: true
   # living-cost budget table read by hand
   - university: glasgow
     country: uk
     url: "https://www.gla.ac.uk/myglasgow/registry/finance/usloans/costofliving202627/"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: glasgow
+    country: uk
+    url: https://www.gla.ac.uk/postgraduate/feesandfunding/feetable/live/
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: Computing Science MSc
+      tier: international
+      pattern: 2027.{0,695}?£[\d,.\' ]*\d Computing Science MSc £[\d,.\' ]*\d £([\d,.\' ]*\d)
+    - level: master
+      field: engineering
+      programme: Mechanical Engineering MSc
+      tier: international
+      pattern: 2027.{0,1461}?Mechanical Engineering MSc £[\d,.\' ]*\d £([\d,.\' ]*\d)
+    - level: master
+      field: sciences
+      programme: Data Analytics MSc
+      tier: international
+      pattern: 2027.{0,764}?Analytics MSc £[\d,.\' ]*\d £([\d,.\' ]*\d)

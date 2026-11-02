@@ -18,11 +18,6 @@ sources:
   # Columbia fee pages are per school and partly PDF; checked by hand
   - university: columbia
     country: us
-    url: "https://www.law.columbia.edu/financial-aid/costs-and-billing/costs-budgeting"
-    manual: true
-  # Columbia fee pages are per school and partly PDF; checked by hand
-  - university: columbia
-    country: us
     url: "https://www.vagelos.columbia.edu/education/academic-programs/md-program/md-student-resources/student-financial-aid-and-planning-19"
     manual: true
   # Columbia fee pages are per school and partly PDF; checked by hand
@@ -35,8 +30,27 @@ sources:
     country: us
     url: "https://www.sipa.columbia.edu/office-financial-aid/tuition-and-fees"
     manual: true
-  # Columbia fee pages are per school and partly PDF; checked by hand
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: columbia
     country: us
-    url: "https://www.nursing.columbia.edu/academics/financial-aid/tuition-and-fees"
-    manual: true
+    url: https://www.law.columbia.edu/financial-aid/costs-and-billing/costs-budgeting
+    parser: html
+    targets:
+    - level: master
+      field: law
+      programme: JD (Columbia Law School)
+      tier: international
+      pattern: 2026.{0,234}?Expenses Costs Tuition \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: columbia
+    country: us
+    url: https://www.nursing.columbia.edu/academics/financial-aid/tuition-and-fees
+    parser: html
+    targets:
+    - level: master
+      field: nursing
+      programme: Master's Direct Entry (MDE) Program for Non-Nurses (Columbia Nursing)
+      tier: international
+      pattern: '2026.{0,797}?for Non\-Nurses Direct Costs: Tuition: \$([\d,.\'' ]*\d)'

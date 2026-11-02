@@ -50,22 +50,6 @@ sources:
     manual: true
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-business-management
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade
     manual: true
   - university: sim
@@ -122,10 +106,6 @@ sources:
     manual: true
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-graphic-design-top-up
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology
     manual: true
   - university: sim
@@ -135,10 +115,6 @@ sources:
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-post-registration
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-professional-communication
     manual: true
   - university: sim
     country: sg
@@ -314,14 +290,6 @@ sources:
     manual: true
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-energy-efficient-and-sustainable-building-top-up
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-financial-management
     manual: true
   - university: sim
@@ -344,7 +312,176 @@ sources:
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/uofa_bachelor-of-commerce
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-computing-(data-analytics)
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: Master of Computing (Data Analytics) (Top-up)
+      tier: citizen
+      pattern: 2026.{0,237}?Fees \(incl\. GST\)\* \# S\$([\d,.\' ]*\d)
+    - level: master
+      field: computing
+      programme: Master of Computing (Data Analytics) (Top-up)
+      tier: pr
+      pattern: 2026.{0,237}?Fees \(incl\. GST\)\* \# S\$([\d,.\' ]*\d)
+    - level: master
+      field: computing
+      programme: Master of Computing (Data Analytics) (Top-up)
+      tier: international
+      pattern: 2026.{0,237}?Fees \(incl\. GST\)\* \# S\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-graphic-design-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Graphic Design (Top-up)
+      tier: citizen
+      pattern: 2027.{0,243}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Graphic Design (Top-up)
+      tier: pr
+      pattern: 2027.{0,243}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Graphic Design (Top-up)
+      tier: international
+      pattern: 2027.{0,258}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-professional-communication
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Professional Communication
+      tier: citizen
+      pattern: 2027.{0,254}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Professional Communication
+      tier: pr
+      pattern: 2027.{0,254}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-energy-efficient-and-sustainable-building-top-up
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: Master of Energy Efficient and Sustainable Building (Top-up)
+      tier: citizen
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+    - level: master
+      field: engineering
+      programme: Master of Energy Efficient and Sustainable Building (Top-up)
+      tier: pr
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+    - level: master
+      field: engineering
+      programme: Master of Energy Efficient and Sustainable Building (Top-up)
+      tier: international
+      pattern: 2026.{0,249}?GST\)\* S\$[\d,.\' ]*\d \- S\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: BA (Honours) Digital Media
+      tier: international
+      pattern: '2026.{0,357}?International students: Year 1: S\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Marketing
+      tier: international
+      pattern: '2026.{0,355}?International students Year 1: S\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-business-management
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Sport Business Management
+      tier: citizen
+      pattern: '2026.{0,270}?students Year 1: S\$([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Sport Business Management
+      tier: pr
+      pattern: '2026.{0,270}?students Year 1: S\$([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Sport Business Management
+      tier: international
+      pattern: '2026.{0,355}?International students Year 1: S\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-sport-and-marketing
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Sport and Marketing
+      tier: citizen
+      pattern: '2026.{0,270}?students Year 1: S\$([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Sport and Marketing
+      tier: pr
+      pattern: '2026.{0,270}?students Year 1: S\$([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Sport and Marketing
+      tier: international
+      pattern: '2026.{0,355}?International students Year 1: S\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/uofa_master-of-business-administration
-    manual: true
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration
+      tier: citizen
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+    - level: master
+      field: business
+      programme: Master of Business Administration
+      tier: pr
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+    - level: master
+      field: business
+      programme: Master of Business Administration
+      tier: international
+      pattern: 2026.{0,268}?\(Singaporean \& PR\) / S\$([\d,.\' ]*\d)

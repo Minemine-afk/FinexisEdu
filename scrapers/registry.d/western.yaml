@@ -11,14 +11,21 @@ sources:
     country: ca
     url: "https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf"
     manual: true
-  # Western fee source read by hand (Oct 2026)
-  - university: western
-    country: ca
-    url: "https://www.ivey.uwo.ca/mba/admissions/tuition-living-expenses/"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: western
     country: ca
     url: https://welcome.uwo.ca/next-steps/finances/index.html
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: western
+    country: ca
+    url: https://www.ivey.uwo.ca/mba/admissions/tuition-living-expenses/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration (MBA), Ivey Business School
+      tier: international
+      pattern: 2027.{0,257}?Students\*\* \$([\d,.\' ]*\d)

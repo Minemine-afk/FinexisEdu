@@ -4,16 +4,6 @@ sources:
   # per-programme fee page read by hand (added Oct 2026)
   - university: rcsi
     country: ie
-    url: "https://www.rcsi.com/dublin/undergraduate/medicine/fees-and-funding"
-    manual: true
-  # per-programme fee page read by hand (added Oct 2026)
-  - university: rcsi
-    country: ie
-    url: "https://www.rcsi.com/dublin/undergraduate/gem/fees-and-funding"
-    manual: true
-  # per-programme fee page read by hand (added Oct 2026)
-  - university: rcsi
-    country: ie
     url: "https://www.rcsi.com/dublin/undergraduate/pharmacy/fees-and-funding"
     manual: true
   # per-programme fee page read by hand (added Oct 2026)
@@ -27,3 +17,27 @@ sources:
     url: https://www.rcsi.com/dublin/student-life/undergraduate-essentials/budgeting-and-banking
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rcsi
+    country: ie
+    url: https://www.rcsi.com/dublin/undergraduate/medicine/fees-and-funding
+    parser: html
+    targets:
+    - level: bachelor
+      field: medicine
+      programme: Medicine MB BCh BAO (school-leaver entry)
+      tier: international
+      pattern: 2027.{0,270}?Medicine tuition fees €([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rcsi
+    country: ie
+    url: https://www.rcsi.com/dublin/undergraduate/gem/fees-and-funding
+    parser: html
+    targets:
+    - level: master
+      field: medicine
+      programme: Medicine MB BCh BAO (Graduate Entry)
+      tier: international
+      pattern: 2027.{0,265}?GEM tuition fees €([\d,.\' ]*\d)

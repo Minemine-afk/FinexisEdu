@@ -1,80 +1,10 @@
 # University of Manchester. One course page per programme (UG URLs carry the entry year: bump to 2028 when published).
 # Added Oct 2026; read by hand.
 sources:
-  # BSc Computer Science: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/"
-    manual: true
-  # MEng Mechanical Engineering: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/03921/meng-mechanical-engineering/"
-    manual: true
-  # BSc Management: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/03519/bsc-management/"
-    manual: true
-  # BSc Physics: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00638/bsc-physics/"
-    manual: true
-  # BAEcon Economics: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/05134/baecon-economics/"
-    manual: true
-  # BSc Psychology: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00653/bsc-psychology/"
-    manual: true
-  # BNurs Adult Nursing: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/10971/bnurs-adult-nursing/"
-    manual: true
-  # MBChB Medicine: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/01428/mbchb-medicine/"
-    manual: true
-  # MSc Advanced Computer Science: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/"
-    manual: true
-  # MSc Mechanical Engineering Design: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/"
-    manual: true
-  # MSc International Business and Management: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/masters/courses/list/12805/msc-international-business-and-management/"
-    manual: true
   # MSc Applied Mathematics: fee read by hand from the course page
   - university: manchester
     country: uk
     url: "https://www.manchester.ac.uk/study/masters/courses/list/09128/msc-applied-mathematics/"
-    manual: true
-  # MSc Economics: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/"
-    manual: true
-  # MSc Clinical and Health Psychology: fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/masters/courses/list/08070/msc-clinical-and-health-psychology/"
-    manual: true
-  # MSc Adult Nursing (pre-registration): fee read by hand from the course page
-  - university: manchester
-    country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/18749/msc-adult-nursing/"
     manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: manchester
@@ -82,12 +12,195 @@ sources:
     url: https://www.manchester.ac.uk/study/undergraduate/student-finance/cost-of-living/
     parser: html
     manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: manchester
     country: uk
-    url: "https://www.manchester.ac.uk/study/undergraduate/courses/2027/07808/bsc-accounting/"
-    manual: true
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: BSc Computer Science
+      tier: international
+      pattern: 2027.{0,281}?students will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: manchester
     country: uk
-    url: "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/"
-    manual: true
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/03921/meng-mechanical-engineering/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: MEng Mechanical Engineering
+      tier: international
+      pattern: 2027.{0,281}?students will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/03519/bsc-management/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc Management
+      tier: international
+      pattern: 2027.{0,281}?students will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/00638/bsc-physics/
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: BSc Physics
+      tier: international
+      pattern: 2027.{0,281}?students will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/05134/baecon-economics/
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: BAEcon Economics
+      tier: international
+      pattern: 2027.{0,281}?students will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/00653/bsc-psychology/
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: BSc Psychology
+      tier: international
+      pattern: 2027.{0,281}?students will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/10971/bnurs-adult-nursing/
+    parser: html
+    targets:
+    - level: bachelor
+      field: nursing
+      programme: BNurs Adult Nursing
+      tier: international
+      pattern: 2027.{0,281}?students will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/01428/mbchb-medicine/
+    parser: html
+    targets:
+    - level: bachelor
+      field: medicine
+      programme: MBChB Medicine
+      tier: international
+      pattern: for 2026/27 will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: MSc Advanced Computer Science
+      tier: international
+      pattern: '2027.{0,340}?including EU, students \(per annum\): £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: MSc Mechanical Engineering Design
+      tier: international
+      pattern: '2027.{0,340}?including EU, students \(per annum\): £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/masters/courses/list/12805/msc-international-business-and-management/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: MSc International Business and Management
+      tier: international
+      pattern: '2027.{0,340}?including EU, students \(per annum\): £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/
+    parser: html
+    targets:
+    - level: master
+      field: arts
+      programme: MSc Economics
+      tier: international
+      pattern: '2027.{0,340}?including EU, students \(per annum\): £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/masters/courses/list/08070/msc-clinical-and-health-psychology/
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: MSc Clinical and Health Psychology
+      tier: international
+      pattern: '2027.{0,340}?including EU, students \(per annum\): £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/18749/msc-adult-nursing/
+    parser: html
+    targets:
+    - level: master
+      field: nursing
+      programme: MSc Adult Nursing (pre-registration)
+      tier: international
+      pattern: '2026.{0,322}?including EU, students \(per annum\): £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/07808/bsc-accounting/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc Accounting
+      tier: international
+      pattern: 2027.{0,281}?students will be £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: manchester
+    country: uk
+    url: https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: MSc Accounting and Finance
+      tier: international
+      pattern: '2027.{0,340}?including EU, students \(per annum\): £([\d,.\'' ]*\d)'

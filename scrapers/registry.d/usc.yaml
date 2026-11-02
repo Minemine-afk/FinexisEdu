@@ -2,11 +2,6 @@ sources:
   # USC cost-of-attendance page / Viterbi COA PDF: fee read by hand
   - university: usc
     country: us
-    url: "https://financialaid.usc.edu/cost/"
-    manual: true
-  # USC cost-of-attendance page / Viterbi COA PDF: fee read by hand
-  - university: usc
-    country: us
     url: "https://viterbigradadmission.usc.edu/wp-content/uploads/2026/03/2026-2027-Tuition-and-Fees-33.pdf"
     manual: true
   # Accountancy programmes added Oct 2026; fees read by hand
@@ -14,3 +9,45 @@ sources:
     country: us
     url: "https://arr.usc.edu/students/tuition-and-fees/"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: usc
+    country: us
+    url: https://financialaid.usc.edu/cost/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Mechanical Engineering (BS)
+      tier: international
+      pattern: 2026.{0,450}?for two semesters\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: computing
+      programme: Computer Science (BS)
+      tier: international
+      pattern: 2026.{0,450}?for two semesters\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: business
+      programme: Business Administration (BS)
+      tier: international
+      pattern: 2026.{0,450}?for two semesters\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: Biological Sciences (BS)
+      tier: international
+      pattern: 2026.{0,450}?for two semesters\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: English (BA)
+      tier: international
+      pattern: 2026.{0,450}?for two semesters\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: psychology
+      programme: Psychology (BA)
+      tier: international
+      pattern: 2026.{0,450}?for two semesters\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: business
+      programme: Accounting (BS)
+      tier: international
+      pattern: 2026.{0,450}?for two semesters\) \$([\d,.\' ]*\d)

@@ -3,11 +3,6 @@ sources:
   # JHU catalogue and school cost pages read by hand
   - university: jhu
     country: us
-    url: "https://sfs.jhu.edu/cost-tuition/"
-    manual: true
-  # JHU catalogue and school cost pages read by hand
-  - university: jhu
-    country: us
     url: "https://e-catalogue.jhu.edu/university-wide-policies-information/admission-aid/tuition-fees/"
     manual: true
   # JHU catalogue and school cost pages read by hand
@@ -20,3 +15,35 @@ sources:
     country: us
     url: "https://www.hopkinsmedicine.org/som/offices/finaid/cost"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: jhu
+    country: us
+    url: https://sfs.jhu.edu/cost-tuition/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: BS in Mechanical Engineering (Whiting School of Engineering)
+      tier: international
+      pattern: 2026.{0,363}?\(Freshman\) Tuition\* \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: computing
+      programme: BS in Computer Science (Whiting School of Engineering)
+      tier: international
+      pattern: 2026.{0,363}?\(Freshman\) Tuition\* \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: BS in Physics (Krieger School of Arts and Sciences)
+      tier: international
+      pattern: 2026.{0,363}?\(Freshman\) Tuition\* \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: BA in History (Krieger School of Arts and Sciences)
+      tier: international
+      pattern: 2026.{0,363}?\(Freshman\) Tuition\* \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: psychology
+      programme: BA in Psychology (Krieger School of Arts and Sciences)
+      tier: international
+      pattern: 2026.{0,363}?\(Freshman\) Tuition\* \$([\d,.\' ]*\d)

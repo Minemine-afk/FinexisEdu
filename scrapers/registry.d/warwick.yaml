@@ -2,19 +2,58 @@
 # overseas table (bands per course, three academic years) and the PG taught table (Home and
 # Overseas per course, three years). No automated pattern has been written yet.
 sources:
-  # UG overseas fees by band (Computer Science, Mechanical Engineering MEng, Mathematics, Management, Economics, Law, Psychology, MBChB): fee read by hand
-  - university: warwick
-    country: uk
-    url: "https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/"
-    manual: true
-  # PG taught fees per course (Computer Science, Advanced Mechanical Engineering, Mathematics, Management, Economics MSc, psychology MSc, LLM): fee read by hand
-  - university: warwick
-    country: uk
-    url: "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: warwick
     country: uk
     url: https://warwick.ac.uk/services/wss/funding/moneymatters/managingmoney/living/
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: warwick
+    country: uk
+    url: https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Computer Science BSc
+      tier: international
+      pattern: 2027.{0,1569}?\(BSc\) G400 Band 2 £[\d,.\' ]*\d £[\d,.\' ]*\d £([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: Economics BSc
+      tier: international
+      pattern: 2027.{0,358}?\(BSc\) L100 Band 2 £[\d,.\' ]*\d £[\d,.\' ]*\d £([\d,.\' ]*\d)
+    - level: master
+      field: medicine
+      programme: Bachelor of Medicine and Bachelor of Surgery (MBChB, graduate entry)
+      tier: international
+      pattern: 2026.{0,288}?1\) A101 MBChB £[\d,.\' ]*\d £([\d,.\' ]*\d)
+    - level: bachelor
+      field: business
+      programme: Accounting and Finance BSc
+      tier: international
+      pattern: 2027.{0,266}?Band 2 £[\d,.\' ]*\d £[\d,.\' ]*\d £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: warwick
+    country: uk
+    url: https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: Advanced Mechanical Engineering MSc
+      tier: international
+      pattern: 2026.{0,1026}?P\-H341 Full Time Overseas £[\d,.\' ]*\d £([\d,.\' ]*\d)
+    - level: master
+      field: law
+      programme: Advanced Legal Studies LLM
+      tier: international
+      pattern: 2026.{0,703}?P\-M3PJ Full Time Overseas £[\d,.\' ]*\d £([\d,.\' ]*\d)
+    - level: master
+      field: business
+      programme: Accounting and Financial Management MSc
+      tier: international
+      pattern: 2026.{0,381}?Time Overseas £[\d,.\' ]*\d £([\d,.\' ]*\d)

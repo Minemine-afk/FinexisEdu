@@ -1,12 +1,29 @@
 # University of Waikato (added Oct 2026).
 sources:
-  # international fee table: page layout not yet parsed automatically; figures read by hand
-  - university: waikato
-    country: nz
-    url: "https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/"
-    manual: true
   # living costs: page layout not yet parsed automatically; figures read by hand
   - university: waikato
     country: nz
     url: "https://www.waikato.ac.nz/int/study/international/preparing-to-come-to-new-zealand/cost-of-living/"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: waikato
+    country: nz
+    url: https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: Master of Engineering
+      tier: international
+      pattern: 2027.{0,1176}?of Engineering \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: master
+      field: business
+      programme: Master of Business
+      tier: international
+      pattern: 2027.{0,543}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: master
+      field: psychology
+      programme: Master of Applied Psychology
+      tier: international
+      pattern: 2027.{0,311}?Psychology \$[\d,.\' ]*\d \$([\d,.\' ]*\d)

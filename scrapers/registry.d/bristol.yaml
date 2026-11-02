@@ -3,46 +3,6 @@ sources:
   # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
   - university: bristol
     country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/mechanical-engineering/beng-mechanical-engineering/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/business-and-management/bsc-business-and-management/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/physics/bsc-physics/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/law/llb-law/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/medicine/mb-chb-medicine/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/psychology/bsc-psychology/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
     url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-robotics/"
     manual: true
   # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
@@ -80,12 +40,115 @@ sources:
     country: uk
     url: "https://www.bristol.ac.uk/students/support/finances/advice/set-up-finances/living-expenses/"
     manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-accounting-and-finance/"
-    manual: true
   - university: bristol
     country: uk
     url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-accounting-and-finance/"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/mechanical-engineering/beng-mechanical-engineering/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: BEng Mechanical Engineering (H305)
+      tier: international
+      pattern: 2027.{0,680}?first year\. International students, £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: BSc Computer Science (G400)
+      tier: international
+      pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/business-and-management/bsc-business-and-management/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc Business and Management (N200)
+      tier: international
+      pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/physics/bsc-physics/
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: BSc Physics (F300)
+      tier: international
+      pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics/
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: BSc Economics (L100)
+      tier: international
+      pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/law/llb-law/
+    parser: html
+    targets:
+    - level: bachelor
+      field: law
+      programme: LLB Law (M100)
+      tier: international
+      pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/medicine/mb-chb-medicine/
+    parser: html
+    targets:
+    - level: bachelor
+      field: medicine
+      programme: MB ChB Medicine (A100)
+      tier: international
+      pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/psychology/bsc-psychology/
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: BSc Psychology (C801)
+      tier: international
+      pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-accounting-and-finance/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc Accounting and Finance (NN43)
+      tier: international
+      pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)

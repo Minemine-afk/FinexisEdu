@@ -1,13 +1,25 @@
 # Unitec Institute of Technology (added Oct 2026).
 sources:
-  # international fee table: page layout not yet parsed automatically; figures read by hand
-  - university: unitec
-    country: nz
-    url: "https://www.unitec.ac.nz/international/study-with-us/international-fees/"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: unitec
     country: nz
     url: https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: unitec
+    country: nz
+    url: https://www.unitec.ac.nz/international/study-with-us/international-fees/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business (Management and Marketing)
+      tier: international
+      pattern: 2027.{0,904}?Full\-time – 3 years February or July \$ ([\d,.\' ]*\d)
+    - level: master
+      field: business
+      programme: Master of Professional Accounting
+      tier: international
+      pattern: 2027.{0,1481}?– 18 months February or July \$ ([\d,.\' ]*\d)

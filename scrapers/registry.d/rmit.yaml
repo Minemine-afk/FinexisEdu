@@ -13,16 +13,6 @@ sources:
   # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
   - university: rmit
     country: au
-    url: "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-business-bp343"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: rmit
-    country: au
-    url: "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-biomedical-science-bp231"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: rmit
-    country: au
     url: "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-communication-media-bp221"
     manual: true
   # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
@@ -42,26 +32,6 @@ sources:
     url: "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-engineering-civil-engineering-mc257"
     manual: true
   # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: rmit
-    country: au
-    url: "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-information-technology-mc208"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: rmit
-    country: au
-    url: "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/mc199"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: rmit
-    country: au
-    url: "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-data-science-mc267"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: rmit
-    country: au
-    url: "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-communication-mc248"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
   # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
   - university: rmit
     country: au
@@ -73,8 +43,87 @@ sources:
     url: https://www.rmit.edu.au/study-with-us/moving-to-melbourne/costs-of-living
     parser: html
     manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: rmit
     country: au
-    url: "https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2027-inton-fees.pdf"
-    manual: true
+    url: https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-business-bp343
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business
+      tier: international
+      pattern: '2027.{0,469}?3 years Fees: AU\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rmit
+    country: au
+    url: https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-biomedical-science-bp231
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Biomedical Science
+      tier: international
+      pattern: '2027.{0,462}?3 years Fees: AU\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rmit
+    country: au
+    url: https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-information-technology-mc208
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: Master of Information Technology
+      tier: international
+      pattern: '2027.{0,356}?2 years Fees: AU\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rmit
+    country: au
+    url: https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/mc199
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration
+      tier: international
+      pattern: '2027.{0,388}?accelerated Fees: AU\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rmit
+    country: au
+    url: https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-data-science-mc267
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      programme: Master of Data Science
+      tier: international
+      pattern: '2027.{0,356}?2 years Fees: AU\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rmit
+    country: au
+    url: https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-communication-mc248
+    parser: html
+    targets:
+    - level: master
+      field: arts
+      programme: Master of Communication
+      tier: international
+      pattern: '2027.{0,356}?2 years Fees: AU\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rmit
+    country: au
+    url: https://rmit.edu.au/content/dam/rmit/documents/staff-site/servicesandtools/finance/2027-inton-fees.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Accounting
+      tier: international
+      pattern: 2027.{0,510}?288 3 \.00 96 \$ ([\d,.\' ]*\d)

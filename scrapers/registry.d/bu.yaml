@@ -3,16 +3,6 @@ sources:
   # BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand
   - university: bu
     country: us
-    url: "https://www.bu.edu/studentfinancials/your-bill/tuition-fees/"
-    manual: true
-  # BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand
-  - university: bu
-    country: us
-    url: "https://www.bu.edu/finaid/graduate-students/graduate-coa/"
-    manual: true
-  # BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand
-  - university: bu
-    country: us
     url: "https://www.bu.edu/cas/admissions/ma-ms/tuition-mandatory-fees/"
     manual: true
   # BU Student Financials and Financial Assistance pages are long multi-year tables; read by hand
@@ -20,3 +10,52 @@ sources:
     country: us
     url: "https://www.bu.edu/isso/getting-started/documents-procedures/requiredfinancialdocumentation/expenses-crc/"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bu
+    country: us
+    url: https://www.bu.edu/studentfinancials/your-bill/tuition-fees/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: BS in Mechanical Engineering (College of Engineering)
+      tier: international
+      pattern: 2026.{0,260}?\(fall \& spring\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: computing
+      programme: BA in Computer Science (College of Arts & Sciences)
+      tier: international
+      pattern: 2026.{0,260}?\(fall \& spring\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: business
+      programme: BS in Business Administration and Management (Questrom School of Business)
+      tier: international
+      pattern: 2026.{0,260}?\(fall \& spring\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: BA in Physics (College of Arts & Sciences)
+      tier: international
+      pattern: 2026.{0,260}?\(fall \& spring\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: BA in History (College of Arts & Sciences)
+      tier: international
+      pattern: 2026.{0,260}?\(fall \& spring\) \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: psychology
+      programme: BA in Psychology (College of Arts & Sciences)
+      tier: international
+      pattern: 2026.{0,260}?\(fall \& spring\) \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bu
+    country: us
+    url: https://www.bu.edu/finaid/graduate-students/graduate-coa/
+    parser: html
+    targets:
+    - level: master
+      field: medicine
+      programme: MD (Chobanian & Avedisian School of Medicine)
+      tier: international
+      pattern: 2026.{0,324}?– First Year Tuition \$([\d,.\' ]*\d)

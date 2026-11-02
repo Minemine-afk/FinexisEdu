@@ -113,13 +113,20 @@ sources:
       field: engineering
       key: annualCompulsoryFees
       pattern: Master of Engineering - MEng International Full-time Program Fee .*?or earlier \$[\d,.]+ \$([\d,.]+)
-  # Master of Education (MEd) in Counselling Psychology, Counselling and Psychotherapy field, OISE: psychology programme added Oct 2026; fee read by hand
-  - university: utoronto
-    country: ca
-    url: "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=OISET-G&program=100"
-    manual: true
   # Accountancy programmes added Oct 2026; fees read by hand
   - university: utoronto
     country: ca
     url: "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTM&faculty=ERIN-G&program=129"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTSG&faculty=OISET-G&program=100
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: Master of Education (MEd) in Counselling Psychology, Counselling and Psychotherapy field, OISE
+      tier: international
+      pattern: 2026.{0,231}?Fall \& Winter Session \$([\d,.\' ]*\d)

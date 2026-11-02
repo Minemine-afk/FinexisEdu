@@ -47,11 +47,6 @@ sources:
     country: uk
     url: "https://study.ed.ac.uk/programmes/undergraduate-fees?programme_code=UTLLBLAWHO1F&year=2027"
     manual: true
-  # Medicine MBChB (6-year programme)
-  - university: edinburgh
-    country: uk
-    url: "https://registryservices.ed.ac.uk/tuition-fees/find/undergraduate/2027-2028/medicine"
-    manual: true
   # Computer Science MSc
   - university: edinburgh
     country: uk
@@ -112,3 +107,15 @@ sources:
     country: uk
     url: "https://study.ed.ac.uk/programmes/postgraduate-taught-campus-fees?programme_code=PTMSCACFMT1F&year=2027"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: edinburgh
+    country: uk
+    url: https://registryservices.ed.ac.uk/tuition-fees/find/undergraduate/2027-2028/medicine
+    parser: html
+    targets:
+    - level: bachelor
+      field: medicine
+      programme: Medicine MBChB (6-year programme)
+      tier: international
+      pattern: 2027.{0,704}?\(MBChB\) £[\d,.\' ]*\d £[\d,.\' ]*\d £([\d,.\' ]*\d)

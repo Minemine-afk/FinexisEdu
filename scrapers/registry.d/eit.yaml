@@ -1,13 +1,20 @@
 # Eastern Institute of Technology (added Oct 2026).
 sources:
-  # international fee table: page layout not yet parsed automatically; figures read by hand
-  - university: eit
-    country: nz
-    url: "https://www.eit.ac.nz/wp-content/uploads/programme-app-packs/int%20Programme%20Matrix.pdf"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: eit
     country: nz
     url: https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: eit
+    country: nz
+    url: https://www.eit.ac.nz/wp-content/uploads/programme-app-packs/int%20Programme%20Matrix.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Accounting
+      tier: international
+      pattern: 2027.{0,397}?of Accounting Napier \$([\d,.\' ]*\d)

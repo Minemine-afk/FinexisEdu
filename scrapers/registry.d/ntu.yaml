@@ -35,33 +35,9 @@ sources:
     url: "https://www.ntu.edu.sg/sss/graduate-education/MScP/tuition-fees"
     manual: true
 
-  # National Institute of Education (NIE), NTU's teacher-training institute, added 2026-10-15 as
-  # partner 'nie'. Fees read by hand from NIE's handbook and fee PDFs (nie.edu.sg now redirects to
-  # ntu.edu.sg/nie); the PDFs are per academic year and replaced each year, so manual.
-  - university: ntu
-    country: sg
-    url: "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees"
-    manual: true
-  - university: ntu
-    country: sg
-    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/moe-cw-sub-ay2026---newintakes.pdf?sfvrsn=2a403fb3_1"
-    manual: true
   - university: ntu
     country: sg
     url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/research-fees-ay2026_new-intakes.pdf?sfvrsn=fa819c4a_1"
-    manual: true
-  - university: ntu
-    country: sg
-    url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1"
-    manual: true
-  - university: ntu
-    country: sg
-    url: "https://www.ntu.edu.sg/media/docs/nielibraries/ote-documents/programme/general-information.pdf?sfvrsn=30825969_18"
-    manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
-  - university: ntu
-    country: sg
-    url: "https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions"
     manual: true
   # NIE earlier-year fees (AY2024-25, AY2025-26) added 2026-10-15; PDFs read by hand
   - university: ntu
@@ -96,3 +72,128 @@ sources:
     country: sg
     url: "https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-tuition-fees-ay2025-2026/self-fin-mbc-ay2025---newintakes_sep2025.pdf?sfvrsn=f641171d_1"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Social Sciences in Psychology (Hons)
+      tier: citizen
+      pattern: 2026.{0,516}?those listed below\) \$ ([\d,.\' ]*\d)
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Social Sciences in Psychology (Hons)
+      tier: pr
+      pattern: 2026.{0,524}?listed below\) \$ [\d,.\' ]*\d \$ ([\d,.\' ]*\d)
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Social Sciences in Psychology (Hons)
+      tier: international
+      pattern: 2026.{0,542}?below\) \$ [\d,.\' ]*\d \$ [\d,.\' ]*\d \$ [\d,.\' ]*\d \$ ([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Hons) in Sport Science and Management
+      tier: citizen
+      pattern: 2026.{0,516}?those listed below\) \$ ([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Hons) in Sport Science and Management
+      tier: pr
+      pattern: 2026.{0,524}?listed below\) \$ [\d,.\' ]*\d \$ ([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Hons) in Sport Science and Management
+      tier: international
+      pattern: 2026.{0,542}?below\) \$ [\d,.\' ]*\d \$ [\d,.\' ]*\d \$ [\d,.\' ]*\d \$ ([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/media/docs/nielibraries/ote-documents/programme/general-information.pdf?sfvrsn=30825969_18
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Hons) in an Academic Discipline and in Education
+      tier: citizen
+      pattern: 2026.{0,411}?\(i\) Singapore Citizen \* ([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Hons) in an Academic Discipline and in Education
+      tier: citizen
+      pattern: 2026.{0,411}?\(i\) Singapore Citizen \* ([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/moe-cw-sub-ay2026---newintakes.pdf?sfvrsn=2a403fb3_1
+    parser: pdf
+    targets:
+    - level: master
+      field: arts
+      programme: Master of Education (MEd)
+      tier: citizen
+      pattern: 2026.{0,398}?\& Master of Education\* \$([\d,.\' ]*\d)
+    - level: master
+      field: arts
+      programme: Master of Education (MEd)
+      tier: pr
+      pattern: 2026.{0,405}?of Education\* \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: master
+      field: arts
+      programme: Master of Education (MEd)
+      tier: international
+      pattern: 2026.{0,413}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: master
+      field: arts
+      programme: Master of Teaching (MTeach)
+      tier: citizen
+      pattern: 2026.{0,398}?\& Master of Education\* \$([\d,.\' ]*\d)
+    - level: master
+      field: arts
+      programme: Master of Teaching (MTeach)
+      tier: pr
+      pattern: 2026.{0,405}?of Education\* \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: master
+      field: arts
+      programme: Master of Teaching (MTeach)
+      tier: international
+      pattern: 2026.{0,413}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1
+    parser: pdf
+    targets:
+    - level: master
+      field: arts
+      programme: Master of Arts (Teaching Chinese as an International Language)
+      tier: international
+      pattern: 2026.{0,1143}?32 Total Tuition Fees\* \$([\d,.\' ]*\d)
+    - level: master
+      field: sciences
+      programme: Master of Science (Mathematics for Educators)
+      tier: international
+      pattern: 2026.{0,1336}?\(Mathematics for Educators\) Fees Per Academic Unit \$[\d,.\' ]*\d 30 Total Tuition Fees\* \$([\d,.\' ]*\d)
+    - level: master
+      field: sciences
+      programme: Master of Science (Science of Learning)
+      tier: international
+      pattern: 2026.{0,1442}?Science \(Science of Learning\) Fees Per Academic Unit \$[\d,.\' ]*\d 30 Total Tuition Fees\* \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-accountancy/admissions
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: MSc in Accountancy
+      tier: international
+      pattern: 2027.{0,395}?2 Tuition Fee \$[\d,.\' ]*\d \$[\d,.\' ]*\d \$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
