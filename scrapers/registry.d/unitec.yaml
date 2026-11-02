@@ -23,3 +23,45 @@ sources:
       programme: Master of Professional Accounting
       tier: international
       pattern: 2027.{0,1481}?– 18 months February or July \$ ([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: unitec
+    country: nz
+    url: https://www.unitec.ac.nz/international/study-with-us/international-fees/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering Technology (Civil)
+      tier: international
+      pattern: International fees 2027.{0,60000}?Bachelor of Engineering Technology \(Civil\) 7 Fulltime – 3 Year February or July \$ (\d{4,6}\.\d\d)
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computing Systems
+      tier: international
+      pattern: International fees 2027.{0,60000}?Bachelor of Computing Systems 7 Fulltime – 3 Year February or July \$ (\d{4,6}\.\d\d)
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Applied Science (Biodiversity Management)
+      tier: international
+      pattern: International fees 2027.{0,60000}?Bachelor of Applied Science \(Biodiversity Management\) 7 Fulltime – 3 Year February or July \$ (\d{4,6}\.\d\d)
+    - level: master
+      field: computing
+      programme: Master of Applied Technologies (Computing)
+      tier: international
+      pattern: International fees 2027.{0,60000}?Master Applied Technologies-Computing 9 Fulltime – 18 months February or July \$ (\d{4,6}\.\d\d)
+    - level: master
+      field: business
+      programme: Master of Applied Business
+      tier: international
+      pattern: International fees 2027.{0,60000}?Master Applied Business 9 Fulltime – 3 semesters \(13 – 18 months\) February, July[^$]{0,40} \$ (\d{4,6}\.\d\d)
+    - level: master
+      field: arts
+      programme: Master of Creative Practice
+      tier: international
+      pattern: International fees 2027.{0,60000}?Master of Creative Practice 9 Fulltime – 18 months February or July \$ (\d{4,6}\.\d\d)
+    - level: bachelor
+      field: business
+      programme: Bachelor of Accounting
+      tier: international
+      pattern: International fees 2027.{0,60000}?Bachelor of Accounting 7 Full-time – 3 years February or July \$ (\d{4,6}\.\d\d)
