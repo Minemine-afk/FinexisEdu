@@ -125,6 +125,8 @@ class Target(BaseModel):
     level: LevelT | None = None
     field: FieldT | None = None
     programme: str | None = None  # substring of the programme name
+    # Programmes (name substrings) a field-wide target must leave alone, e.g. one priced differently.
+    exclude: list[str] = []
     tier: TierT = "international"
     # A programme fee, or a monthly living-cost category (level/field/tier are then ignored).
     key: FeeKey | LivingKey = "annualTuition"

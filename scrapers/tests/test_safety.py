@@ -215,3 +215,23 @@ def test_tuition_only_comes_from_the_programmes_own_page(data_dir):
     run(_registry({}), data_dir, TODAY, fetch=fixture_fetch, with_fx=False)
     assert _fees(data_dir)["Other Computing"] == 30000
     assert _fees(data_dir)["Bachelor of Computing"] == 31500
+
+
+def test_one_rule_never_covers_programmes_priced_differently():
+    """A rule that reaches several programmes sets them all to one figure, so they must all have the
+    same fee today. Otherwise it would overwrite one of them with another programme's fee (as the
+    Business Analytics rows did to accountancy master's priced differently on the same page)."""
+    reg = load_registry()
+    hand_entered = manual_only_urls(reg)
+    unis = load_universities(DATA_DIR)
+    for s in reg.sources:
+        if s.manual:
+            continue
+        for t in s.targets:
+            if t.key.startswith("living."):
+                continue
+            values: dict[float, list[str]] = {}
+            for p in target_programmes(s, t, unis[s.university][1], hand_entered.get(s.university, set())):
+                if fees := getattr(p.fees, t.tier):
+                    values.setdefault(round(getattr(fees, t.key), 2), []).append(p.name)
+            assert len(values) <= 1, f"{s.university} {t.tier} {t.key} from {s.url}: {values}"

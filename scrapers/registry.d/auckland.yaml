@@ -70,6 +70,7 @@ sources:
     targets:
     - level: master
       field: business
+      programme: Master of Business Administration
       pattern: BUSMBA 720 Leading in Complexity 15 \$([\d,.]+)
       multiplier: 8
   # BA and MA pages show a yearly range ('International students NZ$40,225 – $48,133'); the upper

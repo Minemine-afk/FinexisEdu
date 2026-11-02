@@ -153,6 +153,7 @@ def target_programmes(source: Source, target, uni: University, hand_entered: set
         p
         for p in matching_programmes(uni, target.level, target.field, target.programme)
         if reachable(source, target, p, hand_entered)
+        and not any(x.lower() in p.name.lower() for x in target.exclude)
     ]
 
 

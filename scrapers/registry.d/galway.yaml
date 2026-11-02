@@ -20,6 +20,7 @@ sources:
       pattern: GY350 Bachelor of Science \(Computer Science and Information Technology\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: bachelor
       field: business
+      programme: (GY201)
       pattern: GY201 Bachelor of Commerce €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: bachelor
       field: engineering
@@ -47,6 +48,7 @@ sources:
       pattern: 1CSD1 Computer Science - Data Analytics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: master
       field: business
+      programme: MSc Business Analytics
       pattern: 1MBY1 Business Analytics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: master
       field: engineering

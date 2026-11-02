@@ -446,6 +446,7 @@ sources:
     targets:
     - level: master
       field: business
+      programme: MSc Business Analytics
       pattern: MSc Business Analytics \(1yr Full Time\) Entry Cohort Home and Ireland Overseas FT PT FT PT \d{4} Cohort £ ?[\d,.]+ N/A £ ?([\d,.]+)
   - university: imperial
     country: uk
@@ -1172,6 +1173,12 @@ sources:
     - key: annualCompulsoryFees
       pattern: In 2026 the fee is \$ ?([\d.]+) per point
       multiplier: 120
+      # 180 points over 15 months, so 144 points a year
+      exclude: [Master of Professional Accounting]
+    - key: annualCompulsoryFees
+      programme: Master of Professional Accounting
+      pattern: In 2026 the fee is \$ ?([\d.]+) per point
+      multiplier: 144
   - university: auckland
     country: nz
     url: https://www.businessmasters.auckland.ac.nz/living-in-auckland-new-zealand/
