@@ -3,37 +3,7 @@ sources:
   # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
     country: uk
-    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/eps/mechanical-engineering-m.eng.-4-years-h301-2026-27-pdf-180.1kb.pdf"
-    manual: true
-  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
-  - university: birmingham
-    country: uk
-    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/eps/computer-science-b.sc.-3-years-g400-2026-27-pdf-160.3kb.pdf"
-    manual: true
-  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
-  - university: birmingham
-    country: uk
-    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/coss/business-management-bsc-3-years-n200-2026-27-pdf-160kb.pdf"
-    manual: true
-  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
-  - university: birmingham
-    country: uk
-    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/eps/physics-b.sc.-3-years-f300-2026-27-pdf-181.3kb.pdf"
-    manual: true
-  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
-  - university: birmingham
-    country: uk
-    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/coss/economics-bsc-3-years-l100-2026-27-pdf-176kb.pdf"
-    manual: true
-  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
-  - university: birmingham
-    country: uk
     url: "https://www.birmingham.ac.uk/study/undergraduate/subjects/law-courses/law-llb"
-    manual: true
-  # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
-  - university: birmingham
-    country: uk
-    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/les/psychology-bsc-3-years-c800-2026-27-pdf-165.1kb.pdf"
     manual: true
   # Birmingham's own fee (course page or programme fact sheet; course pages render by script); checked by hand
   - university: birmingham
@@ -71,12 +41,91 @@ sources:
     url: https://www.birmingham.ac.uk/study/support/moneyadvice/living
     parser: html
     manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
-  - university: birmingham
-    country: uk
-    url: "https://www.birmingham.ac.uk/documents/students/cma/2026/coss/accounting-and-finance-bsc-3-years-n400-2026-27-pdf-176kb.pdf"
-    manual: true
   - university: birmingham
     country: uk
     url: "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc"
     manual: true
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: birmingham
+    country: uk
+    url: https://www.birmingham.ac.uk/documents/students/cma/2026/eps/mechanical-engineering-m.eng.-4-years-h301-2026-27-pdf-180.1kb.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Mechanical Engineering MEng
+      tier: international
+      pattern: '2026.{0,414}?£[\d,.\'' ]*\d\. International: £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: birmingham
+    country: uk
+    url: https://www.birmingham.ac.uk/documents/students/cma/2026/eps/computer-science-b.sc.-3-years-g400-2026-27-pdf-160.3kb.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Computer Science BSc
+      tier: international
+      pattern: '2026.{0,406}?£[\d,.\'' ]*\d\. International: £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: birmingham
+    country: uk
+    url: https://www.birmingham.ac.uk/documents/students/cma/2026/coss/business-management-bsc-3-years-n200-2026-27-pdf-160kb.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: business
+      programme: Business Management BSc
+      tier: international
+      pattern: '2026.{0,409}?£[\d,.\'' ]*\d\. International: £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: birmingham
+    country: uk
+    url: https://www.birmingham.ac.uk/documents/students/cma/2026/eps/physics-b.sc.-3-years-f300-2026-27-pdf-181.3kb.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Physics BSc
+      tier: international
+      pattern: '2026.{0,397}?£[\d,.\'' ]*\d\. International: £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: birmingham
+    country: uk
+    url: https://www.birmingham.ac.uk/documents/students/cma/2026/coss/economics-bsc-3-years-l100-2026-27-pdf-176kb.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Economics BSc
+      tier: international
+      pattern: '2026.{0,399}?£[\d,.\'' ]*\d\. International: £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: birmingham
+    country: uk
+    url: https://www.birmingham.ac.uk/documents/students/cma/2026/les/psychology-bsc-3-years-c800-2026-27-pdf-165.1kb.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Psychology BSc
+      tier: international
+      pattern: '2026.{0,400}?£[\d,.\'' ]*\d\. International: £([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: birmingham
+    country: uk
+    url: https://www.birmingham.ac.uk/documents/students/cma/2026/coss/accounting-and-finance-bsc-3-years-n400-2026-27-pdf-176kb.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: business
+      programme: Accounting and Finance BSc
+      tier: international
+      pattern: '2026.{0,412}?£[\d,.\'' ]*\d\. International: £([\d,.\'' ]*\d)'

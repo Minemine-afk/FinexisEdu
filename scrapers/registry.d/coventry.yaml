@@ -1,73 +1,165 @@
 # Coventry University. Each course page shows the fee for the current year of entry (UK, EU and
 # international); figures were read by hand. No automated pattern yet.
 sources:
-  # BSc (Hons) Computer Science: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/ug/eec/computer-science-mscibsc-hons/"
-    manual: true
-  # BEng (Hons) Mechanical Engineering: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/ug/eec/mechanical-engineering-mengbeng-hons/"
-    manual: true
-  # BSc (Hons) Biomedical Science: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/ug/hls/biomedical-science-applied-biomedical-science-bsc/"
-    manual: true
-  # BA (Hons) Business Management: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/"
-    manual: true
-  # BA (Hons) Graphic Design: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/ug/fah/graphic-design-ba-hons/"
-    manual: true
-  # BSc (Hons) Psychology: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/ug/hls/psychology-bsc-hons/"
-    manual: true
-  # MSc Computer Science: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/pg/ees/computer-science-msc/"
-    manual: true
-  # MSc Advanced Mechanical Engineering: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/pg/ees/advanced-mechanical-engineering-msc/"
-    manual: true
-  # MSc International Business Management: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/pg/cbl/international-business-management-msc/"
-    manual: true
-  # MSc Biotechnology: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/pg/ees/biotechnology-msc/"
-    manual: true
-  # MSc Psychology: fee read by hand
-  - university: coventry
-    country: uk
-    url: "https://www.coventry.ac.uk/course-structure/pg/cas/psychology-msc/"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: coventry
     country: uk
     url: https://www.coventry.ac.uk/cuc/international/living-in-the-uk_84843/
     parser: html
     manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: coventry
     country: uk
-    url: "https://www.coventry.ac.uk/course-structure/ug/fbl/accounting-and-finance-bsc-hons/"
-    manual: true
+    url: https://www.coventry.ac.uk/course-structure/ug/eec/computer-science-mscibsc-hons/
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: BSc (Hons) Computer Science
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: coventry
     country: uk
-    url: "https://www.coventry.ac.uk/course-structure/pg/cbl/accounting-and-financial-management-msc/"
-    manual: true
+    url: https://www.coventry.ac.uk/course-structure/ug/eec/mechanical-engineering-mengbeng-hons/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: BEng (Hons) Mechanical Engineering
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/ug/hls/biomedical-science-applied-biomedical-science-bsc/
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: BSc (Hons) Biomedical Science
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BA (Hons) Business Management
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/ug/fah/graphic-design-ba-hons/
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: BA (Hons) Graphic Design
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/ug/hls/psychology-bsc-hons/
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: BSc (Hons) Psychology
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/pg/ees/computer-science-msc/
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: MSc Computer Science
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/pg/ees/advanced-mechanical-engineering-msc/
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: MSc Advanced Mechanical Engineering
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/pg/cbl/international-business-management-msc/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: MSc International Business Management
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/pg/ees/biotechnology-msc/
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      programme: MSc Biotechnology
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/pg/cas/psychology-msc/
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: MSc Psychology
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/ug/fbl/accounting-and-finance-bsc-hons/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Accounting and Finance
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: coventry
+    country: uk
+    url: https://www.coventry.ac.uk/course-structure/pg/cbl/accounting-and-financial-management-msc/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: MSc Accounting and Financial Management
+      tier: international
+      pattern: Year of entry 2026-27.{0,40000}?Fees and funding Student Full-time.{0,600}?Bursary ?\*\* (?:£[\d,]+ professional placement fee \(if placement secured\) per year without EU Support Bursary ?\*\* )?(?:Not available )?International £(\d{1,3}(?:,\d{3})+)(?![\d,])

@@ -1,9 +1,4 @@
 sources:
-  # Northeastern Student Financial Services tuition and fees page: multi-table page; fee read by hand
-  - university: northeastern
-    country: us
-    url: "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: northeastern
     country: us
@@ -15,3 +10,58 @@ sources:
     country: us
     url: "https://catalog.northeastern.edu/graduate/expenses/tuition-fees/"
     manual: true
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: northeastern
+    country: us
+    url: https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Mechanical Engineering, BSME (Boston)
+      tier: international
+      pattern: 2026.{0,312}?Per Term Full\-Time \$([\d,.\' ]*\d)
+      multiplier: 2
+    - level: bachelor
+      field: computing
+      programme: Computer Science, BSCS (Boston)
+      tier: international
+      pattern: 2026.{0,312}?Per Term Full\-Time \$([\d,.\' ]*\d)
+      multiplier: 2
+    - level: bachelor
+      field: business
+      programme: Business Administration, BSBA (Boston)
+      tier: international
+      pattern: 2026.{0,312}?Per Term Full\-Time \$([\d,.\' ]*\d)
+      multiplier: 2
+    - level: bachelor
+      field: sciences
+      programme: Biology, BS (Boston)
+      tier: international
+      pattern: 2026.{0,312}?Per Term Full\-Time \$([\d,.\' ]*\d)
+      multiplier: 2
+    - level: bachelor
+      field: arts
+      programme: English, BA (Boston)
+      tier: international
+      pattern: 2026.{0,312}?Per Term Full\-Time \$([\d,.\' ]*\d)
+      multiplier: 2
+    - level: bachelor
+      field: psychology
+      programme: Psychology, BS (Boston)
+      tier: international
+      pattern: 2026.{0,312}?Per Term Full\-Time \$([\d,.\' ]*\d)
+      multiplier: 2
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Science in Nursing (Boston)
+      tier: international
+      pattern: 2026.{0,312}?Per Term Full\-Time \$([\d,.\' ]*\d)
+      multiplier: 2
+    - level: master
+      field: computing
+      programme: Computer Science, MSCS (Boston)
+      tier: international
+      pattern: 2026.{0,634}?per Credit College of Engineering \$([\d,.\' ]*\d)
+      multiplier: 16

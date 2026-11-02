@@ -1,83 +1,187 @@
 # The University of Queensland. Added Oct 2026; fees read by hand from the official pages below.
 sources:
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/bachelor-engineering-honours-2455"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/bachelor-computer-science-2559"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/bachelor-commerce-2336"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/bachelor-science-2461"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/bachelor-arts-2000"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/bachelor-psychological-science-honours-2379"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/bachelor-nursing-2241"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/doctor-medicine-5740"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/master-civil-engineering-professional-5743"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/master-information-technology-5581"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/master-business-administration-5770"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/master-data-science-5660"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/master-international-relations-5641"
-    manual: true
-  # programme fee page: added Oct 2026, fee read by hand (no automated pattern written yet)
-  - university: uq
-    country: au
-    url: "https://study.uq.edu.au/study-options/programs/master-clinical-psychology-5164"
-    manual: true
   # living-cost page: added Oct 2026, fee read by hand (no automated pattern written yet)
   - university: uq
     country: au
     url: "https://study.uq.edu.au/university-life/living-in-brisbane/cost-living"
     manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: uq
     country: au
-    url: "https://study.uq.edu.au/study-options/programs/master-commerce-5584"
-    manual: true
+    url: https://study.uq.edu.au/study-options/programs/bachelor-engineering-honours-2455
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering (Honours)
+      tier: international
+      pattern: 2027.{0,381}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/bachelor-computer-science-2559
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science
+      tier: international
+      pattern: 2027.{0,381}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/bachelor-commerce-2336
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Commerce
+      tier: international
+      pattern: 2027.{0,381}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/bachelor-science-2461
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science
+      tier: international
+      pattern: 2027.{0,381}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/bachelor-arts-2000
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts
+      tier: international
+      pattern: 2027.{0,381}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/bachelor-psychological-science-honours-2379
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Psychological Science (Honours)
+      tier: international
+      pattern: 2027.{0,357}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/bachelor-nursing-2241
+    parser: html
+    targets:
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing
+      tier: international
+      pattern: 2027.{0,381}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/doctor-medicine-5740
+    parser: html
+    targets:
+    - level: master
+      field: medicine
+      programme: Doctor of Medicine
+      tier: international
+      pattern: 2027.{0,368}?Hosps, St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/master-civil-engineering-professional-5743
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: Master of Civil Engineering (Professional)
+      tier: international
+      pattern: 2027.{0,312}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/master-information-technology-5581
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: Master of Information Technology
+      tier: international
+      pattern: 2027.{0,289}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/master-business-administration-5770
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration
+      tier: international
+      pattern: 2027.{0,317}?Brisbane City Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/master-data-science-5660
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      programme: Master of Data Science
+      tier: international
+      pattern: 2027.{0,336}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/master-international-relations-5641
+    parser: html
+    targets:
+    - level: master
+      field: arts
+      programme: Master of International Relations
+      tier: international
+      pattern: 2027.{0,336}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/master-clinical-psychology-5164
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: Master of Clinical Psychology
+      tier: international
+      pattern: 2027.{0,312}?St Lucia Fees A\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uq
+    country: au
+    url: https://study.uq.edu.au/study-options/programs/master-commerce-5584
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Commerce (Professional Accounting)
+      tier: international
+      pattern: 2027.{0,312}?St Lucia Fees A\$([\d,.\' ]*\d)

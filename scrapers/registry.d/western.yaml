@@ -1,24 +1,100 @@
 # Western University: fee-schedule PDFs (registrar) and the Ivey MBA tuition page.
 # All entries manual: the PDF tables are multi-column and the Ivey page is a single figure; fees read by hand Oct 2026.
 sources:
-  # Western fee source read by hand (Oct 2026)
-  - university: western
-    country: ca
-    url: "https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf"
-    manual: true
-  # Western fee source read by hand (Oct 2026)
-  - university: western
-    country: ca
-    url: "https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf"
-    manual: true
-  # Western fee source read by hand (Oct 2026)
-  - university: western
-    country: ca
-    url: "https://www.ivey.uwo.ca/mba/admissions/tuition-living-expenses/"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: western
     country: ca
     url: https://welcome.uwo.ca/next-steps/finances/index.html
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: western
+    country: ca
+    url: https://www.ivey.uwo.ca/mba/admissions/tuition-living-expenses/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration (MBA), Ivey Business School
+      tier: international
+      pattern: 2027.{0,257}?Students\*\* \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: western
+    country: ca
+    url: https://registrar.uwo.ca/Student_Finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf
+    parser: pdf
+    targets:
+    - level: master
+      field: engineering
+      programme: Master of Engineering (MEng) in Electrical and Computer Engineering
+      tier: international
+      pattern: FALL 2026 FULL-TIME INTERNATIONAL.{0,90000}?Faculty\ of\ Engineering\ Electrical\ \&\ Computer\ Engineering\ MEng\ Program\ Specific\ Per\ Term [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+      multiplier: 3
+    - level: master
+      field: computing
+      programme: Master of Science (MSc) in Computer Science
+      tier: international
+      pattern: FALL 2026 FULL-TIME INTERNATIONAL.{0,90000}?Faculty\ of\ Science\ Computer\ Science\ MSc\ Regular\ Per\ Term [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+      multiplier: 3
+    - level: master
+      field: sciences
+      programme: Master of Science (MSc) in Physics
+      tier: international
+      pattern: FALL 2026 FULL-TIME INTERNATIONAL.{0,90000}?Faculty\ of\ Science\ Physics\ MSc\ Regular\ Per\ Term [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+      multiplier: 3
+    - level: master
+      field: arts
+      programme: Master of Arts (MA) in Economics
+      tier: international
+      pattern: FALL 2026 FULL-TIME INTERNATIONAL.{0,90000}?Faculty\ of\ Social\ Science\ Economics\ MA\ Regular\ Per\ Term [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+      multiplier: 3
+    - level: master
+      field: psychology
+      programme: Master of Science (MSc) in Psychology
+      tier: international
+      pattern: FALL 2026 FULL-TIME INTERNATIONAL.{0,90000}?Faculty\ of\ Social\ Science\ Psychology\ MSc\ Regular\ Per\ Term [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+      multiplier: 3
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: western
+    country: ca
+    url: https://registrar.uwo.ca/Student_Finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering Science (BESc)
+      tier: international
+      pattern: SCHEDULE FOR 2026-27 UNDERGRADUATE.{0,90000}?Engineering Year 1 [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (BSc) in Computer Science
+      tier: international
+      pattern: SCHEDULE FOR 2026-27 UNDERGRADUATE.{0,90000}?Computer Science Year 1, 2, 3 [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+    - level: bachelor
+      field: business
+      programme: Bachelor of Management and Organizational Studies (BMOS)
+      tier: international
+      pattern: SCHEDULE FOR 2026-27 UNDERGRADUATE.{0,90000}?MOS Year 1 [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (BSc)
+      tier: international
+      pattern: SCHEDULE FOR 2026-27 UNDERGRADUATE.{0,90000}?Social Science, Science \(exclud\. Computer Science\), Year 1, 2, 3 [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (BA), Arts and Humanities
+      tier: international
+      pattern: SCHEDULE FOR 2026-27 UNDERGRADUATE.{0,90000}?Arts & Humanity, Year 1, 2, 3 [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (BA) in Psychology, Faculty of Social Science
+      tier: international
+      pattern: SCHEDULE FOR 2026-27 UNDERGRADUATE.{0,90000}?Social Science, Science \(exclud\. Computer Science\), Year 1, 2, 3 [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Science in Nursing (BScN)
+      tier: international
+      pattern: SCHEDULE FOR 2026-27 UNDERGRADUATE.{0,90000}?Nursing \(Not Including Year 1 [\d,]+\.\d\d (\d{1,3}(?:,\d{3})*\.\d\d)(?![\d])

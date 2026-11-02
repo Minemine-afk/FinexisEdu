@@ -83,3 +83,15 @@ sources:
     - key: living.personal
       pattern: (?=.*?Miscellaneous €([\d,]+))Miscellaneous €([\d,]+) .*?Personal & social €([\d,]+) [–-] €([\d,]+)
       multiplier: 0.05555555555555555
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: tcd
+    country: ie
+    url: https://www.tcd.ie/courses/postgraduate/fees/
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: M.Sc. Applied Psychology
+      tier: international
+      pattern: Masters in Applied Psychology PTPS-APSY-1F PTPS-APSY-1F Full-Time 1 €[\d,.]+ €(\d{1,3}(?:,\d{3})*\.\d\d)(?!\d) 2026/27

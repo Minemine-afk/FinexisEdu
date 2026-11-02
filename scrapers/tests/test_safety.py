@@ -103,12 +103,16 @@ def test_no_rule_reaches_a_hand_entered_programme():
                 assert url not in hand_entered.get(s.university, set()) or url in covers, (
                     f"{s.university}: {p.name} cites a manual page but {s.url} can change it"
                 )
-                reached.setdefault(s.university, set()).add(p.name)
-    # The programmes the 1 November 2026 run overwrote by mistake.
-    ntu = reached["ntu"]
-    assert not any(p.partner == "nie" and p.name in ntu for p in unis["ntu"][1].programmes)
-    assert "MSc in Accountancy" not in ntu
-    assert "Master of Professional Accounting" not in reached["vuw"]
+                if t.key == "annualTuition":
+                    assert url == str(s.url) or url in covers, f"{s.university}: {p.name} tuition from {s.url}"
+                reached.setdefault(s.university, set()).add((p.name, str(s.url)))
+    # The programmes the 1 November 2026 run overwrote by mistake are only reached from their own page.
+    unis_ntu = {p.name: str(p.sourceUrl) for p in unis["ntu"][1].programmes}
+    for name, url in reached["ntu"]:
+        if name.startswith("Master of Arts") or name == "MSc in Accountancy":
+            assert url == unis_ntu[name], name
+    assert not any(name == "Master of Professional Accounting" for name, _ in reached["vuw"])
+    ntu = {name for name, _ in reached["ntu"]}
     # Fields whose only programme was hand-entered still have their scraped one.
     assert {"Nanyang MBA (full-time)", "MSc in Analytics (School of Physical and Mathematical Sciences)"} <= ntu
 

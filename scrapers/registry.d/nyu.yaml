@@ -8,30 +8,59 @@ sources:
   # NYU Bursar PDFs refuse automated reading; school pages checked by hand
   - university: nyu
     country: us
-    url: "https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/full-time/mba1"
-    manual: true
-  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
-  - university: nyu
-    country: us
-    url: "https://www.law.nyu.edu/financialaid/budgetandbudgeting/studentexpensebudget"
-    manual: true
-  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
-  - university: nyu
-    country: us
     url: "https://med.nyu.edu/education/md-degree/affordability-financial-aid/cost-attendance"
-    manual: true
-  # NYU Bursar PDFs refuse automated reading; school pages checked by hand
-  - university: nyu
-    country: us
-    url: "https://steinhardt.nyu.edu/admissions/tuition-and-student-charges/graduate-study-tuition-and-fees"
     manual: true
   # NYU Bursar PDFs refuse automated reading; school pages checked by hand
   - university: nyu
     country: us
     url: "https://www.nyu.edu/admissions/financial-aid-and-scholarships/cost-of-attendance.html"
     manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: nyu
     country: us
-    url: "https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/ms-accounting"
-    manual: true
+    url: https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/full-time/mba1
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Full-time MBA (Stern School of Business)
+      tier: international
+      pattern: 2026.{0,253}?Tuition \& Fees Tuition \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: nyu
+    country: us
+    url: https://www.law.nyu.edu/financialaid/budgetandbudgeting/studentexpensebudget
+    parser: html
+    targets:
+    - level: master
+      field: law
+      programme: JD (NYU School of Law)
+      tier: international
+      pattern: 2026.{0,250}?Expense Budget Tuition \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: nyu
+    country: us
+    url: https://www.stern.nyu.edu/portal-partners/financial-aid/cost-attendance/ms-accounting
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: MS in Accounting (Stern School of Business)
+      tier: international
+      pattern: 2026.{0,319}?Tuition \& Fees Tuition \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: nyu
+    country: us
+    url: https://steinhardt.nyu.edu/admissions/tuition-and-student-charges/graduate-study-tuition-and-fees
+    parser: html
+    targets:
+    - level: master
+      field: arts
+      programme: MA in Media, Culture, and Communication (Steinhardt)
+      tier: international
+      pattern: 2026.{0,225}?Academic Year \$([\d,.\' ]*\d)
+      multiplier: 24

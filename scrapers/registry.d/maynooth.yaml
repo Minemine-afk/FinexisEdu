@@ -1,18 +1,109 @@
 # Maynooth University. Fee schedules are dated PDFs whose filenames change with each revision; find the current one
 # from the Student Fees and Grants Office international page.
 sources:
-  # dated PDF fee schedule whose filename changes with each revision; read by hand
-  - university: maynooth
-    country: ie
-    url: "https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf"
-    manual: true
-  # dated PDF fee schedule whose filename changes with each revision; read by hand
-  - university: maynooth
-    country: ie
-    url: "https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf"
-    manual: true
   # cost-of-living estimate read by hand
   - university: maynooth
     country: ie
     url: "https://www.maynoothuniversity.ie/campus-life/student-budgeting-advice-service/college-costs/living-expenses-planner"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: maynooth
+    country: ie
+    url: https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business Studies, Business & Management (MH404)
+      tier: international
+      pattern: 2026.{0,1647}?\- Business \& Management ([\d,.\' ]*\d)
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering (MH304)
+      tier: international
+      pattern: 2026.{0,1335}?Bachelor of Engineering ([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (MH201)
+      tier: international
+      pattern: 2026.{0,599}?\- Bachelor of Science ([\d,.\' ]*\d)
+    - level: bachelor
+      field: psychology
+      programme: BA Psychology (MH106)
+      tier: international
+      pattern: 2026.{0,443}?MH106 BA \- Psychology ([\d,.\' ]*\d)
+    - level: bachelor
+      field: business
+      programme: BA Accounting & Finance (MH403)
+      tier: international
+      pattern: 2026.{0,1606}?\- Accounting \& Finance ([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: maynooth
+    country: ie
+    url: https://www.maynoothuniversity.ie/sites/default/files/assets/document/International%20UG%20Fees%20List%202026.27%2024.04.26%20V2%20CHR.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: computing
+      programme: BSc Computer Science & Software Engineering (MH602)
+      tier: international
+      pattern: UNDERGRADUATE COURSES TUITION FEE SCHEDULE 2026/27.{0,60000}?\bMH602 [^\d]{3,120}? (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (MH101)
+      tier: international
+      pattern: UNDERGRADUATE COURSES TUITION FEE SCHEDULE 2026/27.{0,60000}?\bMH101 [^\d]{3,120}? (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: bachelor
+      field: law
+      programme: Bachelor of Laws (LLB) (MH501)
+      tier: international
+      pattern: UNDERGRADUATE COURSES TUITION FEE SCHEDULE 2026/27.{0,60000}?\bMH501 [^\d]{3,120}? (\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: maynooth
+    country: ie
+    url: https://www.maynoothuniversity.ie/sites/default/files/assets/document/2026.27%20Postgraduate%20EU%20%26%20International%20Fees%20List%20%2810.08.26%29%20V.3%20CHR.pdf
+    parser: pdf
+    targets:
+    - level: master
+      field: computing
+      programme: MSc Computer Science (Software Engineering) (MHG50)
+      tier: international
+      pattern: POSTGRADUATE COURSES 2026/27 EU & INTERNATIONAL TUITION FEE.{0,90000}?[Ff]ull-time MHG50 [\d,]+ \d+ [\d,]+ (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: business
+      programme: MSc Business Management (MH52D)
+      tier: international
+      pattern: POSTGRADUATE COURSES 2026/27 EU & INTERNATIONAL TUITION FEE.{0,90000}?[Ff]ull-time MH52D [\d,]+ \d+ [\d,]+ (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: engineering
+      programme: MSc Robotics and Embedded AI (MHJ20)
+      tier: international
+      pattern: POSTGRADUATE COURSES 2026/27 EU & INTERNATIONAL TUITION FEE.{0,90000}?[Ff]ull-time MHJ20 [\d,]+ \d+ [\d,]+ (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: sciences
+      programme: MSc Immunology and Global Health (MHD50)
+      tier: international
+      pattern: POSTGRADUATE COURSES 2026/27 EU & INTERNATIONAL TUITION FEE.{0,90000}?[Ff]ull-time MHD50 [\d,]+ \d+ [\d,]+ (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: arts
+      programme: MA Creative Writing (MHK84)
+      tier: international
+      pattern: POSTGRADUATE COURSES 2026/27 EU & INTERNATIONAL TUITION FEE.{0,90000}?[Ff]ull-time MHK84 [\d,]+ \d+ [\d,]+ (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: law
+      programme: LLM International Business Law (MH52J)
+      tier: international
+      pattern: POSTGRADUATE COURSES 2026/27 EU & INTERNATIONAL TUITION FEE.{0,90000}?[Ff]ull-time MH52J [\d,]+ \d+ [\d,]+ (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: psychology
+      programme: MSc Psychology (MHW54)
+      tier: international
+      pattern: POSTGRADUATE COURSES 2026/27 EU & INTERNATIONAL TUITION FEE.{0,90000}?[Ff]ull-time MHW54 [\d,]+ \d+ [\d,]+ (\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: business
+      programme: MA Accounting (MH28D)
+      tier: international
+      pattern: POSTGRADUATE COURSES 2026/27 EU & INTERNATIONAL TUITION FEE.{0,90000}?[Ff]ull-time MH28D [\d,]+ \d+ [\d,]+ (\d{1,3}(?:,\d{3})+)(?![\d,])

@@ -1,13 +1,80 @@
 # University of Tsukuba (national university, standard rate until the April 2027 international revision). Read by hand.
 sources:
-  # Admission and tuition fee page; the 2027 international rate is only in a robots-blocked PDF; read by hand
-  - university: tsukuba
-    country: jp
-    url: "https://www.tsukuba.ac.jp/en/admissions/fees-tuition/"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: tsukuba
     country: jp
     url: https://www.tsukuba.ac.jp/en/admissions/fees-living-expenses/
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: tsukuba
+    country: jp
+    url: https://www.tsukuba.ac.jp/en/admissions/fees-tuition/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Interdisciplinary Engineering Program (English-taught)
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: sciences
+      programme: Biology Program (English-taught)
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: arts
+      programme: International Social Studies Program (English-taught)
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: computing
+      programme: School of Informatics
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: psychology
+      programme: School of Human Sciences, College of Psychology
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: medicine
+      programme: School of Medicine and Health Sciences, Medicine (6-year)
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: nursing
+      programme: School of Medicine and Health Sciences, Nursing
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: master
+      field: engineering
+      programme: Master's Program in Engineering Sciences
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: master
+      field: computing
+      programme: Master's Program in Computer Science
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: master
+      field: sciences
+      programme: Master's Program in Biology
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: master
+      field: arts
+      programme: Master's Program in International and Advanced Japanese Studies
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: master
+      field: psychology
+      programme: Master's Program in Psychology
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'
+    - level: master
+      field: nursing
+      programme: Master's Program in Nursing Science
+      tier: international
+      pattern: '2026.{0,598}?¥[\d,.\'' ]*\d Annual: ¥([\d,.\'' ]*\d)'

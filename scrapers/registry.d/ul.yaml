@@ -6,14 +6,56 @@ sources:
     country: ie
     url: "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027"
     manual: true
-  # fee table rows read by hand (added Oct 2026; no automated pattern verified because the page could not be fetched from the build environment)
-  - university: ul
-    country: ie
-    url: "https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: ul
     country: ie
     url: https://www.ul.ie/media/cost-of-living-2025-26/download?inline=
     parser: pdf
     manual: true
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ul
+    country: ie
+    url: https://www.ul.ie/fees/course-fees/postgraduate-fees/postgraduate-taught-fees-2026-2027
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: MSc Software Engineering
+      tier: international
+      pattern: Postgraduate taught fees 2026 - 2027.{0,90000}?€\d+ Master\ of\ Science\ Software\ Engineering €\d+ €(\d{4,6})(?!\d)
+    - level: master
+      field: business
+      programme: MSc Business Analytics
+      tier: international
+      pattern: Postgraduate taught fees 2026 - 2027.{0,90000}?€\d+ Master\ of\ Science\ in\ Business\ Analytics €\d+ €(\d{4,6})(?!\d)
+    - level: master
+      field: engineering
+      programme: ME Mechatronics
+      tier: international
+      pattern: Postgraduate taught fees 2026 - 2027.{0,90000}?€\d+ Master\ of\ Engineering\ in\ Mechatronics €\d+ €(\d{4,6})(?!\d)
+    - level: master
+      field: sciences
+      programme: MSc Biomolecular Sciences
+      tier: international
+      pattern: Postgraduate taught fees 2026 - 2027.{0,90000}?€\d+ Master\ of\ Science\ in\ Biomolecular\ Sciences €\d+ €(\d{4,6})(?!\d)
+    - level: master
+      field: arts
+      programme: MA English
+      tier: international
+      pattern: Postgraduate taught fees 2026 - 2027.{0,90000}?€\d+ Master\ of\ Arts\ in\ English €\d+ €(\d{4,6})(?!\d)
+    - level: master
+      field: law
+      programme: LLM (General)
+      tier: international
+      pattern: Postgraduate taught fees 2026 - 2027.{0,90000}?€\d+ Master\ of\ Laws\ \(General\) €\d+ €(\d{4,6})(?!\d)
+    - level: master
+      field: psychology
+      programme: MA Psychology (conversion)
+      tier: international
+      pattern: Postgraduate taught fees 2026 - 2027.{0,90000}?€\d+ Master\ of\ Arts\ in\ Psychology €\d+ €(\d{4,6})(?!\d)
+    - level: master
+      field: business
+      programme: MSc Accounting
+      tier: international
+      pattern: Postgraduate taught fees 2026 - 2027.{0,90000}?€\d+ Master\ of\ Science\ in\ Accounting €\d+ €(\d{4,6})(?!\d)

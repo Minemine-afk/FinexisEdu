@@ -40,3 +40,15 @@ sources:
     country: uk
     url: "https://2027.gaobase.admin.cam.ac.uk/api/courses/CVPCMPCPS/financial_tracker.html?fee_status=O&children=0"
     manual: true
+  # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: cambridge
+    country: uk
+    url: https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: BA Psychological and Behavioural Sciences (PBS Tripos)
+      tier: international
+      pattern: 2027.{0,599}?Sciences [\d,.\' ]*\d ([\d,.\' ]*\d)
