@@ -2,21 +2,6 @@ sources:
   # University of Illinois registrar / cost calculator rate table: fee read by hand
   - university: uiuc
     country: us
-    url: "https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1"
-    manual: true
-  # University of Illinois registrar / cost calculator rate table: fee read by hand
-  - university: uiuc
-    country: us
-    url: "https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1"
-    manual: true
-  # University of Illinois registrar / cost calculator rate table: fee read by hand
-  - university: uiuc
-    country: us
-    url: "https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1"
-    manual: true
-  # University of Illinois registrar / cost calculator rate table: fee read by hand
-  - university: uiuc
-    country: us
     url: "https://registrar.illinois.edu/tuition-fees/tuition-fee-rates/tf-rates-academic-year/ug-additional-expenses-2627/"
     manual: true
   # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
@@ -55,3 +40,71 @@ sources:
       programme: Accountancy, MSA
       tier: international
       pattern: and fees for international students 2026\-27 Estimates Summer '26 Fall '26 Spring '27 Total Tuition \$[\d,.\' ]*\d \$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uiuc
+    country: us
+    url: https://cost.illinois.edu/Home/UgradBase?DiffCode=ENG&TermCode=120268&TableType=1
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Mechanical Engineering, BS
+      tier: international
+      pattern: 2026.{0,266}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: computing
+      programme: Computer Science, BS
+      tier: international
+      pattern: 2026.{0,266}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uiuc
+    country: us
+    url: https://cost.illinois.edu/Home/UgradBase?DiffCode=BUS&TermCode=120268&TableType=1
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Finance, BS
+      tier: international
+      pattern: 2026.{0,266}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: business
+      programme: Accountancy, BS
+      tier: international
+      pattern: 2026.{0,266}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uiuc
+    country: us
+    url: https://cost.illinois.edu/Home/UgradBase?DiffCode=BASE&TermCode=120268&TableType=1
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: English, BALAS
+      tier: international
+      pattern: 2026.{0,266}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: bachelor
+      field: psychology
+      programme: Psychology, BSLAS
+      tier: international
+      pattern: 2026.{0,266}?\$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uiuc
+    country: us
+    url: https://registrar.illinois.edu/g-tuition-rates-2627/
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: Mechanical Engineering, MS
+      tier: international
+      pattern: 2026.{0,906}?Related \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+    - level: master
+      field: computing
+      programme: Computer Science, MCS
+      tier: international
+      pattern: 2026.{0,906}?Related \$[\d,.\' ]*\d \$([\d,.\' ]*\d)

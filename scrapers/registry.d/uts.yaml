@@ -1,12 +1,6 @@
 # University of Technology Sydney. Added Oct 2026; 2027 international fees read by hand from the
 # per-session course summary tables (PDF), annual = per-session fee x 2.
 sources:
-  # 2027 International Undergraduate Course Summary Table, read by hand (per-session fees)
-  - university: uts
-    country: au
-    url: "https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf"
-    parser: pdf
-    manual: true
   # 2027 International Postgraduate Course Summary Table, read by hand (per-session fees)
   - university: uts
     country: au
@@ -19,3 +13,22 @@ sources:
     url: https://www.uts.edu.au/for-students/international/life-in-sydney/cost-of-living
     parser: html
     manual: true
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: uts
+    country: au
+    url: https://www.uts.edu.au/for-students/international/guides-for-international-students/contentassets/utsi-listing-grid-international-undergraduate-course-summary-table.pdf
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business
+      tier: international
+      pattern: 2027.{0,756}?Bachelor of Business 6 \$([\d,.\' ]*\d)
+      multiplier: 2
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Communication (Digital and Social Media)
+      tier: international
+      pattern: 2027.{0,1153}?and Social Media 6 \$([\d,.\' ]*\d)
+      multiplier: 2

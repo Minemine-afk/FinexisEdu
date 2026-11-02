@@ -197,3 +197,78 @@ sources:
       programme: MSc in Accountancy
       tier: international
       pattern: 2027.{0,395}?2 Tuition Fee \$[\d,.\' ]*\d \$[\d,.\' ]*\d \$[\d,.\' ]*\d \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc/financial-matters
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: MSc (School of EEE self-financed coursework programme, e.g. MSc Communications Engineering)
+      tier: international
+      pattern: Aug 2027\) S\$[\d,.\' ]*\d\* S\$[\d,.\' ]*\d\* S\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: MSc in Artificial Intelligence (MSAI)
+      tier: international
+      pattern: '2027.{0,251}?follows: Tuition Fees S\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/media/docs/nielibraries/ote-documents/programme/general-information.pdf?sfvrsn=30825969_18
+    parser: pdf
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Hons) in an Academic Discipline and in Education
+      tier: pr
+      pattern: 2026.{0,456}?Permanent Resident \* ([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Hons) in an Academic Discipline and in Education
+      tier: international
+      pattern: 2026.{0,561}?non\-ASEAN International Student \*\*,\*\*\* ([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Hons) in an Academic Discipline and in Education
+      tier: pr
+      pattern: 2026.{0,456}?Permanent Resident \* ([\d,.\' ]*\d)
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Hons) in an Academic Discipline and in Education
+      tier: international
+      pattern: 2026.{0,561}?non\-ASEAN International Student \*\*,\*\*\* ([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ntu
+    country: sg
+    url: https://www.ntu.edu.sg/media/docs/nielibraries/gpl-documents/graduate-tuition-fees/graduate-fees-ay2026-2027/self-fin-mbc-ay2026---newintakes_updated.pdf?sfvrsn=1cc1e7c7_1
+    parser: pdf
+    targets:
+    - level: master
+      field: psychology
+      programme: Master of Arts (Counselling and Guidance)
+      tier: international
+      pattern: 2026.{0,513}?16 Total Tuition Fees\* \$([\d,.\' ]*\d)
+      multiplier: 0.6666666666666666
+    - level: master
+      field: arts
+      programme: Master of Arts in Professional Education (Training and Development)
+      tier: international
+      pattern: 2026.{0,912}?Total Tuition Fees\* \$ ([\d,.\' ]*\d)
+    - level: master
+      field: psychology
+      programme: Master of Arts (Applied Psychology)
+      tier: international
+      pattern: 2026.{0,1014}?57 Total Tuition Fees\* \$([\d,.\' ]*\d)
+      multiplier: 0.4

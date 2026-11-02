@@ -1,18 +1,47 @@
 # Ritsumeikan University. Fees read by hand.
 sources:
-  # English-taught undergraduate fee table, split across semesters and intakes; read by hand
-  - university: ritsumeikan
-    country: jp
-    url: "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/"
-    manual: true
-  # AY 2027 fee policy council document listing all colleges and graduate schools; read by hand
-  - university: ritsumeikan
-    country: jp
-    url: "https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: ritsumeikan
     country: jp
     url: https://en.ritsumei.ac.jp/e-ug/financial_info/cost_of_living.html
     parser: html
     manual: true
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ritsumeikan
+    country: jp
+    url: https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: College of International Relations, Global Studies Major (English-taught)
+      tier: international
+      pattern: 2027.{0,433}?below GS Major [\d,.\' ]*\d [\d,.\' ]*\d ([\d,.\' ]*\d)
+    - level: bachelor
+      field: computing
+      programme: College of Information Science and Engineering, Information Systems Science and Engineering Course (English-taught)
+      tier: international
+      pattern: 2027.{0,497}?ISSE Course [\d,.\' ]*\d [\d,.\' ]*\d ([\d,.\' ]*\d)
+    - level: bachelor
+      field: arts
+      programme: College of Policy Science, Community and Regional Policy Studies Major (English-taught)
+      tier: international
+      pattern: 2027.{0,474}?CRPS Major [\d,.\' ]*\d [\d,.\' ]*\d ([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: ritsumeikan
+    country: jp
+    url: https://www.ritsumei.ac.jp/features/zengakkyo/eng/council/2026/page05-4.html
+    parser: html
+    targets:
+    - level: bachelor
+      field: law
+      programme: College of Law
+      tier: international
+      pattern: 2027.{0,449}?Total [\d,.\' ]*\d [\d,.\' ]*\d [\d,.\' ]*\d ([\d,.\' ]*\d)
+    - level: master
+      field: engineering
+      programme: Graduate School of Science and Engineering (Master's)
+      tier: international
+      pattern: 2027.{0,1249}?\& Physics Program Spring [\d,.\' ]*\d Fall [\d,.\' ]*\d Total [\d,.\' ]*\d ([\d,.\' ]*\d)

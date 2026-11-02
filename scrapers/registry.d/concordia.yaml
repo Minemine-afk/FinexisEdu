@@ -1,18 +1,70 @@
 # Concordia University: tuition rate pages (undergrad, grad) and the cost-of-living page.
 # All entries manual: rates are per-credit tables multiplied by credit loads by hand (Oct 2026).
 sources:
-  # Concordia per-credit rate table read by hand (Oct 2026)
-  - university: concordia
-    country: ca
-    url: "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html"
-    manual: true
-  # Concordia per-credit rate table read by hand (Oct 2026)
-  - university: concordia
-    country: ca
-    url: "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html"
-    manual: true
   # Concordia cost-of-living budget read by hand (Oct 2026)
   - university: concordia
     country: ca
     url: "https://www.concordia.ca/students/financial/tuition-fees/costs.html"
     manual: true
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: concordia
+    country: ca
+    url: https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering (BEng)
+      tier: international
+      pattern: Science programs Term Rate Summer 2026 \([\d,.\' ]*\d\) \$[\d,.\' ]*\d per credit Fall 2026 \([\d,.\' ]*\d\) \$([\d,.\' ]*\d)
+      multiplier: 30
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (BCompSc)
+      tier: international
+      pattern: Science programs Term Rate Summer 2026 \([\d,.\' ]*\d\) \$[\d,.\' ]*\d per credit Fall 2026 \([\d,.\' ]*\d\) \$([\d,.\' ]*\d)
+      multiplier: 30
+    - level: bachelor
+      field: business
+      programme: Bachelor of Commerce (BComm), John Molson School of Business
+      tier: international
+      pattern: of Business programs Term Rate Summer 2026 \([\d,.\' ]*\d\) \$[\d,.\' ]*\d per credit Fall 2026 \([\d,.\' ]*\d\) \$([\d,.\' ]*\d)
+      multiplier: 30
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (BSc), Faculty of Arts and Science
+      tier: international
+      pattern: credit Art \& Science Term Rate Summer 2026 \([\d,.\' ]*\d\) \$[\d,.\' ]*\d per credit Fall 2026 \([\d,.\' ]*\d\) \$([\d,.\' ]*\d)
+      multiplier: 30
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (BA), Faculty of Arts and Science
+      tier: international
+      pattern: credit Art \& Science Term Rate Summer 2026 \([\d,.\' ]*\d\) \$[\d,.\' ]*\d per credit Fall 2026 \([\d,.\' ]*\d\) \$([\d,.\' ]*\d)
+      multiplier: 30
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (BA) in Psychology
+      tier: international
+      pattern: credit Art \& Science Term Rate Summer 2026 \([\d,.\' ]*\d\) \$[\d,.\' ]*\d per credit Fall 2026 \([\d,.\' ]*\d\) \$([\d,.\' ]*\d)
+      multiplier: 30
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: concordia
+    country: ca
+    url: https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration (MBA), John Molson School of Business
+      tier: international
+      pattern: Business programs Cohort admission year Rate 2026\-2027 \$ ([\d,.\' ]*\d)
+      multiplier: 22.5
+    - level: master
+      field: sciences
+      programme: Master of Science (MSc) in Physics
+      tier: international
+      pattern: \$690\.89 per credit Fall 2026 \([\d,.\' ]*\d\) \$([\d,.\' ]*\d)
+      multiplier: 22.5

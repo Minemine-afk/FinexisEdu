@@ -77,9 +77,11 @@ sources:
     targets:
     - level: master
       field: business
+      programme: Master of Business Administration
       pattern: Master of Business Administration - MBA \(2-Year Degree Program\) International Full-time Program Fee .*?Admitted \d{4} Summer or \d{4}-\d{2} Fall & Winter Session \$([\d,.]+)
     - level: master
       field: business
+      programme: Master of Business Administration
       key: annualCompulsoryFees
       pattern: Master of Business Administration - MBA \(2-Year Degree Program\) International Full-time Program Fee .*?Admitted \d{4} Summer or \d{4}-\d{2} Fall & Winter Session \$[\d,.]+ \$([\d,.]+)
   # MScAC (16 months): Fall-Winter fee covers the Summer session; the final Fall term is billed at
@@ -113,11 +115,6 @@ sources:
       field: engineering
       key: annualCompulsoryFees
       pattern: Master of Engineering - MEng International Full-time Program Fee .*?or earlier \$[\d,.]+ \$([\d,.]+)
-  # Accountancy programmes added Oct 2026; fees read by hand
-  - university: utoronto
-    country: ca
-    url: "https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTM&faculty=ERIN-G&program=129"
-    manual: true
   # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
   # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
   - university: utoronto
@@ -130,3 +127,15 @@ sources:
       programme: Master of Education (MEd) in Counselling Psychology, Counselling and Psychotherapy field, OISE
       tier: international
       pattern: 2026.{0,231}?Fall \& Winter Session \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: utoronto
+    country: ca
+    url: https://tuitionexplorer.registrar.utoronto.ca/index.php?academicYear=2026-27&sessionType=1&studyLevel=G&residency=INT&campus=UTM&faculty=ERIN-G&program=129
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Management and Professional Accounting (MMPA), University of Toronto Mississauga
+      tier: international
+      pattern: 2026.{0,243}?Session, or earlier \$([\d,.\' ]*\d)

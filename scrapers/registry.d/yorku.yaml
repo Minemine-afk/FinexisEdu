@@ -1,43 +1,129 @@
 # York University: Student Financial Services 'Course and Program Fees' pages, the Schulich MBA tuition page and the Future Students cost page.
 # All entries manual: SFS pages are per programme per year (bump the year in the URL); read by hand Oct 2026.
 sources:
-  # York fee page read by hand (Oct 2026)
-  - university: yorku
-    country: ca
-    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/lassonde/engineering"
-    manual: true
-  # York fee page read by hand (Oct 2026)
-  - university: yorku
-    country: ca
-    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/lassonde/computer-science"
-    manual: true
-  # York fee page read by hand (Oct 2026)
-  - university: yorku
-    country: ca
-    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/science"
-    manual: true
-  # York fee page read by hand (Oct 2026)
-  - university: yorku
-    country: ca
-    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/laps"
-    manual: true
-  # York fee page read by hand (Oct 2026)
-  - university: yorku
-    country: ca
-    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/health/psychology"
-    manual: true
-  # York fee page read by hand (Oct 2026)
-  - university: yorku
-    country: ca
-    url: "https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/graduate-studies/masters"
-    manual: true
-  # York fee page read by hand (Oct 2026)
-  - university: yorku
-    country: ca
-    url: "https://schulich.yorku.ca/admissions/tuition-fees-costs"
-    manual: true
   # York living-cost estimate read by hand (Oct 2026)
   - university: yorku
     country: ca
     url: "https://futurestudents.yorku.ca/tuition"
     manual: true
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: yorku
+    country: ca
+    url: https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/lassonde/engineering
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering (BEng), Lassonde School of Engineering
+      tier: international
+      pattern: 2025.{0,404}?\$395\.32 International \$([\d,.\' ]*\d)
+      multiplier: 36
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: yorku
+    country: ca
+    url: https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/lassonde/computer-science
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (BSc) in Computer Science, Lassonde School of Engineering
+      tier: international
+      pattern: 2025.{0,404}?\$360\.15 International \$([\d,.\' ]*\d)
+      multiplier: 30
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: yorku
+    country: ca
+    url: https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/science
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (BSc), Faculty of Science
+      tier: international
+      pattern: 2025.{0,404}?\$267\.20 International \$([\d,.\' ]*\d)
+      multiplier: 30
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: yorku
+    country: ca
+    url: https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/laps
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (BA), Faculty of Liberal Arts and Professional Studies
+      tier: international
+      pattern: 2025.{0,404}?\$267\.20 International \$([\d,.\' ]*\d)
+      multiplier: 30
+    - level: bachelor
+      field: business
+      programme: Bachelor of Commerce (BCom) in Accounting, Faculty of Liberal Arts and Professional Studies
+      tier: international
+      pattern: 2025.{0,404}?\$267\.20 International \$([\d,.\' ]*\d)
+      multiplier: 30
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: yorku
+    country: ca
+    url: https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/health/psychology
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (BA) in Psychology, Faculty of Health
+      tier: international
+      pattern: 2025.{0,404}?\$267\.20 International \$([\d,.\' ]*\d)
+      multiplier: 30
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: yorku
+    country: ca
+    url: https://sfs.yorku.ca/fees/courses/2025-2026/fall-winter/graduate-studies/masters
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: Master of Science (MSc) in Computer Science
+      tier: international
+      pattern: 2025.{0,401}?\$870\.25 International \$([\d,.\' ]*\d)
+      multiplier: 3
+    - level: master
+      field: sciences
+      programme: Master of Science (MSc) in Physics and Astronomy
+      tier: international
+      pattern: 2025.{0,401}?\$870\.25 International \$([\d,.\' ]*\d)
+      multiplier: 3
+    - level: master
+      field: arts
+      programme: Master of Arts (MA) in English
+      tier: international
+      pattern: 2025.{0,401}?\$870\.25 International \$([\d,.\' ]*\d)
+      multiplier: 3
+    - level: master
+      field: psychology
+      programme: Master of Arts (MA) in Psychology
+      tier: international
+      pattern: 2025.{0,401}?\$870\.25 International \$([\d,.\' ]*\d)
+      multiplier: 3
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: yorku
+    country: ca
+    url: https://schulich.yorku.ca/admissions/tuition-fees-costs
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration (MBA), Schulich School of Business
+      tier: international
+      pattern: 2026.{0,509}?Permit \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: master
+      field: business
+      programme: Master of Accounting (MAcc), Schulich School of Business
+      tier: international
+      pattern: 2026.{0,592}?terms required for program completion\. Domestic Students Canadian Citizen, Landed Immigrant, Permanent Resident \$[\d,.\' ]*\d \$[\d,.\' ]*\d International Students Visa/Study Permit \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+      multiplier: 0.5

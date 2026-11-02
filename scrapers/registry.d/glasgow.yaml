@@ -1,11 +1,6 @@
 # University of Glasgow. Undergraduate international fees are one band table (intlfees page, current and next year);
 # postgraduate fees are one table per year (feetable/live is the newest). Added Oct 2026; read by hand.
 sources:
-  # UG band table read by hand (bands mapped to programmes by award)
-  - university: glasgow
-    country: uk
-    url: "https://www.gla.ac.uk/undergraduate/fees/intlfees/"
-    manual: true
   # living-cost budget table read by hand
   - university: glasgow
     country: uk
@@ -33,3 +28,15 @@ sources:
       programme: Data Analytics MSc
       tier: international
       pattern: 2027.{0,764}?Analytics MSc £[\d,.\' ]*\d £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: glasgow
+    country: uk
+    url: https://www.gla.ac.uk/undergraduate/fees/intlfees/
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Accountancy & Finance BAcc
+      tier: international
+      pattern: 2027.{0,456}?Sciences programmes £([\d,.\' ]*\d)

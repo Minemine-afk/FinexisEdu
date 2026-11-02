@@ -6,14 +6,6 @@
 sources:
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-applied-science-aviation-top-up
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication
     manual: true
   - university: sim
@@ -74,54 +66,6 @@ sources:
     manual: true
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business-information-systems
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-double-major
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-construction-management-honours-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-post-registration
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration
     manual: true
   - university: sim
@@ -174,34 +118,6 @@ sources:
     manual: true
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-and-management
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-communications-and-year-in-industry-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-communications-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-with-year-in-industry-top-up
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science
     manual: true
   - university: sim
@@ -226,34 +142,6 @@ sources:
     manual: true
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-data-science-and-business-analytics
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-finance
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-management
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-politics
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-finance
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-accounting-and-finance
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-top-up
     manual: true
   - university: sim
@@ -262,31 +150,11 @@ sources:
     manual: true
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-business-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-relations
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-management-and-digital-innovation
     manual: true
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-innovation-and-business-transformation
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-international-business-and-strategy
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-marketing
     manual: true
   - university: sim
     country: sg
@@ -307,10 +175,6 @@ sources:
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-international-business
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/uofa_bachelor-of-commerce
     manual: true
   # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
   # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
@@ -485,3 +349,708 @@ sources:
       programme: Master of Business Administration
       tier: international
       pattern: 2026.{0,268}?\(Singaporean \& PR\) / S\$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-accounting-and-finance
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Accounting and Finance
+      tier: international
+      pattern: 2027.{0,286}?GST\)\* \# S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-and-management
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Business and Management
+      tier: international
+      pattern: 2027.{0,284}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-data-science-and-business-analytics
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Data Science and Business Analytics
+      tier: international
+      pattern: 2027.{0,284}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics
+      tier: international
+      pattern: 2027.{0,284}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-finance
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Finance
+      tier: international
+      pattern: 2027.{0,284}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-management
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Management
+      tier: international
+      pattern: 2027.{0,284}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-politics
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Politics
+      tier: international
+      pattern: 2027.{0,284}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-finance
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Finance
+      tier: international
+      pattern: 2027.{0,284}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-relations
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in International Relations
+      tier: international
+      pattern: 2027.{0,284}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-accounting-and-finance-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Accounting and Finance (Top-up)
+      tier: citizen
+      pattern: 2027.{0,252}?Fees \(incl\. GST\)\* \# S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Accounting and Finance (Top-up)
+      tier: pr
+      pattern: 2027.{0,252}?Fees \(incl\. GST\)\* \# S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Accounting and Finance (Top-up)
+      tier: international
+      pattern: 2027.{0,267}?\# S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management (Top-up)
+      tier: citizen
+      pattern: 2027.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management (Top-up)
+      tier: pr
+      pattern: 2027.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management (Top-up)
+      tier: international
+      pattern: 2027.{0,265}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-communications-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Communications (Top-up)
+      tier: citizen
+      pattern: 2027.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Communications (Top-up)
+      tier: pr
+      pattern: 2027.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Communications (Top-up)
+      tier: international
+      pattern: 2027.{0,265}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-communications-and-year-in-industry-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Communications and Year in Industry (Top-up)
+      tier: citizen
+      pattern: 2027.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.4291845493562232
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Communications and Year in Industry (Top-up)
+      tier: pr
+      pattern: 2027.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.4291845493562232
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Communications and Year in Industry (Top-up)
+      tier: international
+      pattern: 2027.{0,265}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.4291845493562232
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-industrial-placement-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Industrial Placement (Top-up)
+      tier: citizen
+      pattern: 2026.{0,382}?Local students – S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Industrial Placement (Top-up)
+      tier: pr
+      pattern: 2026.{0,382}?Local students – S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Industrial Placement (Top-up)
+      tier: international
+      pattern: 2026.{0,419}?S\$[\d,.\' ]*\d International students – S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-management-with-year-in-industry-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Year in Industry (Top-up)
+      tier: citizen
+      pattern: 2027.{0,382}?Local students – S\$([\d,.\' ]*\d)
+      multiplier: 0.4291845493562232
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Year in Industry (Top-up)
+      tier: pr
+      pattern: 2027.{0,382}?Local students – S\$([\d,.\' ]*\d)
+      multiplier: 0.4291845493562232
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) Business Management with Year in Industry (Top-up)
+      tier: international
+      pattern: 2027.{0,419}?S\$[\d,.\' ]*\d International students – S\$([\d,.\' ]*\d)
+      multiplier: 0.4291845493562232
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-business-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) International Business Management (Top-up)
+      tier: citizen
+      pattern: 2027.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) International Business Management (Top-up)
+      tier: pr
+      pattern: 2027.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: BSc (Hons) International Business Management (Top-up)
+      tier: international
+      pattern: 2027.{0,265}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-innovation-and-business-transformation
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration (Innovation and Business Transformation)
+      tier: citizen
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: master
+      field: business
+      programme: Master of Business Administration (Innovation and Business Transformation)
+      tier: pr
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: master
+      field: business
+      programme: Master of Business Administration (Innovation and Business Transformation)
+      tier: international
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-international-business-and-strategy
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration (International Business and Strategy)
+      tier: citizen
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: master
+      field: business
+      programme: Master of Business Administration (International Business and Strategy)
+      tier: pr
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: master
+      field: business
+      programme: Master of Business Administration (International Business and Strategy)
+      tier: international
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration-marketing
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Business Administration (Marketing)
+      tier: citizen
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: master
+      field: business
+      programme: Master of Business Administration (Marketing)
+      tier: pr
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: master
+      field: business
+      programme: Master of Business Administration (Marketing)
+      tier: international
+      pattern: 2026.{0,251}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business-information-systems
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Business Information Systems
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Artificial Intelligence and Big Data)
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Cyber Security)
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Digital Systems Security)
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-double-major
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Double Major)
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Game and Mobile Development)
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-information-technology
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Information Technology
+      tier: citizen
+      pattern: 2026.{0,250}?GST\)\* SS\$[\d,.\' ]*\d to \$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Information Technology
+      tier: pr
+      pattern: 2026.{0,250}?GST\)\* SS\$[\d,.\' ]*\d to \$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Information Technology
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* SS\$[\d,.\' ]*\d to \$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Psychological Science
+      tier: international
+      pattern: 2026.{0,249}?GST\)\* S\$[\d,.\' ]*\d to \$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-accounting
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Accounting
+      tier: citizen
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: Bachelor of Accounting
+      tier: pr
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: Bachelor of Accounting
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-applied-science-aviation-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Applied Science (Aviation) (Top-up)
+      tier: citizen
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.4
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Applied Science (Aviation) (Top-up)
+      tier: pr
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.4
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Applied Science (Aviation) (Top-up)
+      tier: international
+      pattern: 2026.{0,250}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.4
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business
+      tier: citizen
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.6666666666666666
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business
+      tier: pr
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.6666666666666666
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business
+      tier: international
+      pattern: 2026.{0,249}?GST\)\* S\$[\d,.\' ]*\d \- S\$([\d,.\' ]*\d)
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-construction-management-honours-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Construction Management (Honours) (Top-up)
+      tier: citizen
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Construction Management (Honours) (Top-up)
+      tier: pr
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Construction Management (Honours) (Top-up)
+      tier: international
+      pattern: 2026.{0,246}?GST\)\* S\$[\d,.\' ]*\d \- S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-professional-communication
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Professional Communication
+      tier: international
+      pattern: 2027.{0,269}?GST\)\* S\$[\d,.\' ]*\d to S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-digital-media
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: BA (Honours) Digital Media
+      tier: citizen
+      pattern: '2026.{0,271}?students: Year 1: S\$([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: arts
+      programme: BA (Honours) Digital Media
+      tier: pr
+      pattern: '2026.{0,271}?students: Year 1: S\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-honours-marketing
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Marketing
+      tier: citizen
+      pattern: '2026.{0,270}?students Year 1: S\$([\d,.\'' ]*\d)'
+    - level: bachelor
+      field: business
+      programme: BA (Honours) Marketing
+      tier: pr
+      pattern: '2026.{0,270}?students Year 1: S\$([\d,.\'' ]*\d)'
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-honours
+    parser: html
+    targets:
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing (Honours)
+      tier: citizen
+      pattern: 2026.{0,248}?Fees \(incl\. GST\)\* \$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing (Honours)
+      tier: pr
+      pattern: 2026.{0,248}?Fees \(incl\. GST\)\* \$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing (Honours)
+      tier: international
+      pattern: 2026.{0,248}?Fees \(incl\. GST\)\* \$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-nursing-post-registration
+    parser: html
+    targets:
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing (Post-Registration)
+      tier: citizen
+      pattern: 2026.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing (Post-Registration)
+      tier: pr
+      pattern: 2026.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: nursing
+      programme: Bachelor of Nursing (Post-Registration)
+      tier: international
+      pattern: 2026.{0,250}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/uofa_bachelor-of-commerce
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Commerce (Top-up)
+      tier: citizen
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: Bachelor of Commerce (Top-up)
+      tier: pr
+      pattern: 2026.{0,235}?Fees \(incl\. GST\)\* S\$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: bachelor
+      field: business
+      programme: Bachelor of Commerce (Top-up)
+      tier: international
+      pattern: 2026.{0,268}?\(Singaporean \& PR\) / S\$([\d,.\' ]*\d)
+      multiplier: 0.5

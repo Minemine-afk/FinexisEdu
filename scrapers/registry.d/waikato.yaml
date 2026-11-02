@@ -27,3 +27,33 @@ sources:
       programme: Master of Applied Psychology
       tier: international
       pattern: 2027.{0,311}?Psychology \$[\d,.\' ]*\d \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: waikato
+    country: nz
+    url: https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts
+      tier: international
+      pattern: 2027.{0,271}?\- \$[\d,.\' ]*\d \$[\d,.\' ]*\d – \$([\d,.\' ]*\d)
+    - level: master
+      field: computing
+      programme: Master of Information Technology
+      tier: international
+      pattern: 2027.{0,1625}?points\) \$[\d,.\' ]*\d \$[\d,.\' ]*\d \(180 points\) \$([\d,.\' ]*\d)
+      multiplier: 0.5
+    - level: master
+      field: sciences
+      programme: Master of Science
+      tier: international
+      pattern: 2027.{0,500}?– \$[\d,.\' ]*\d \$[\d,.\' ]*\d – \$([\d,.\' ]*\d)
+      multiplier: 0.6666666666666666
+    - level: master
+      field: arts
+      programme: Master of Arts
+      tier: international
+      pattern: 2027.{0,500}?– \$[\d,.\' ]*\d \$[\d,.\' ]*\d – \$([\d,.\' ]*\d)
+      multiplier: 0.6666666666666666

@@ -74,9 +74,11 @@ sources:
     targets:
     - level: master
       field: business
+      programme: Master of Business Studies
       pattern: 'International students: \$([\d,]+)'
     - level: master
       field: business
+      programme: Master of Business Studies
       key: annualCompulsoryFees
       pattern: This fee is \$([\d,]+) for on-campus students
   - university: massey

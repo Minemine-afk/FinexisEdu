@@ -3,11 +3,6 @@ sources:
   # JHU catalogue and school cost pages read by hand
   - university: jhu
     country: us
-    url: "https://e-catalogue.jhu.edu/university-wide-policies-information/admission-aid/tuition-fees/"
-    manual: true
-  # JHU catalogue and school cost pages read by hand
-  - university: jhu
-    country: us
     url: "https://nursing.jhu.edu/wp-content/uploads/2026/04/26-27-MEN-New-F26.pdf"
     manual: true
   # JHU catalogue and school cost pages read by hand
@@ -47,3 +42,15 @@ sources:
       programme: BA in Psychology (Krieger School of Arts and Sciences)
       tier: international
       pattern: 2026.{0,363}?\(Freshman\) Tuition\* \$([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: jhu
+    country: us
+    url: https://e-catalogue.jhu.edu/university-wide-policies-information/admission-aid/tuition-fees/
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: MS in Psychology (Krieger School of Arts and Sciences)
+      tier: international
+      pattern: 2026.{0,1471}?\$[\d,.\' ]*\d MS Psychology \$([\d,.\' ]*\d)

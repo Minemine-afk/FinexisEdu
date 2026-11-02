@@ -115,3 +115,16 @@ sources:
       pattern: Transportation \(additional costs over and above free UPass\) \$([\d,]+)
     - key: living.personal
       pattern: Telephone \$([\d,]+) .*?Entertainment / Recreation \(doing fun stuff!\) \$([\d,]+) .*?Personal care \(think hair cuts\) \$([\d,]+) .*?Clothing \$([\d,]+) .*?Laundry \(typically not part of housing costs\) \$([\d,]+) .*?Books and supplies \$([\d,]+)
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: waterloo
+    country: ca
+    url: https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: Master of Applied Science (MASc) in Psychology (Industrial and Organizational Psychology)
+      tier: international
+      pattern: 2026.{0,613}?Master's Research \$([\d,.\' ]*\d)
+      multiplier: 3

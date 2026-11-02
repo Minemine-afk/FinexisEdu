@@ -7,22 +7,10 @@ sources:
     url: https://www.tu.berlin/en/studying/organizing-your-studies/topics-a-z/semester-fees
     parser: html
     manual: true
-  # Energy Management MBA (TU Berlin Services GmbH): EUR 19,800 total
-  - university: tu-berlin
-    country: de
-    url: https://master-in-energy.com/courses/energy-management/
-    parser: html
-    manual: true
   # Global Production Engineering M.Sc.: EUR 15,500 total (page undated)
   - university: tu-berlin
     country: de
     url: https://www.gpe.tu-berlin.de/study-program-general-information/
-    parser: html
-    manual: true
-  # Space Engineering M.Sc.: EUR 24,900 total
-  - university: tu-berlin
-    country: de
-    url: https://mse.tu-berlin.de/admission/fees-funding/
     parser: html
     manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
@@ -31,3 +19,29 @@ sources:
     url: https://www.tu.berlin/en/international/students-1/international-students/exchange-studies-at-tu-berlin/administrative-matters/faqs-and-timeline
     parser: html
     manual: true
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: tu-berlin
+    country: de
+    url: https://master-in-energy.com/courses/energy-management/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Energy Management MBA
+      tier: international
+      pattern: Oct 2026 Tuition fees €([\d,.\' ]*\d)
+      multiplier: 0.6666666666666666
+  # Scraped from 2026-11 (was worked out by hand from this page; the multiplier repeats that sum). The pattern keeps the fee year literal, so when the page
+  # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: tu-berlin
+    country: de
+    url: https://mse.tu-berlin.de/admission/fees-funding/
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: Space Engineering M.Sc.
+      tier: international
+      pattern: 2026.{0,456}?two years of study is €([\d,.\' ]*\d)
+      multiplier: 0.5
