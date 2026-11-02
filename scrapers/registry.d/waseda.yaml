@@ -14,6 +14,9 @@ sources:
   - university: waseda
     country: jp
     url: https://waseda.box.com/shared/static/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
+    # the records cite the viewer link of this same PDF
+    also_covers:
+    - https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
     parser: pdf
     year_pattern: (\d{4})（令和\d+）年度 学部
     targets:
@@ -46,6 +49,9 @@ sources:
   - university: waseda
     country: jp
     url: https://waseda.box.com/shared/static/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8
+    # the records cite the viewer link of this same PDF
+    also_covers:
+    - https://waseda.box.com/s/kuhkvtu87ksfqsxjgpgqrzemim1ezgf8
     parser: pdf
     year_pattern: (\d{4})（令和\d+）年度 修士課程
     targets:

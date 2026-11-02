@@ -5,6 +5,9 @@ sources:
   - university: hu-berlin
     country: de
     url: https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/
+    # the records cite HU's own page, which blocks the scraper
+    also_covers:
+    - https://www.hu-berlin.de/studium/im-studium/studienorganisation/rueckmeldung
     parser: html
     targets:
     # no field, so it also covers the Rechtswissenschaft (Staatsexamen) entry; medicine is excluded below

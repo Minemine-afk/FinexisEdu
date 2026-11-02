@@ -2,7 +2,8 @@
 #
 # Automated sources are scraped monthly: each target's regex runs on the page text and its
 # capture group(s) give the amount (several groups are added up). `manual: true` sources are
-# pages a person re-checks; the monthly PR lists their programmes once the data is 11+ months old.
+# pages a person re-checks; the monthly summary lists their programmes once the data is 11+ months old.
+# A programme citing a manual page is never changed by a scraped one (see also_covers in models.py).
 # Test a change with: python -m scrapers.run --dry-run --only <university>
 
 sources:
@@ -116,16 +117,19 @@ sources:
     targets:
     - level: master
       field: business
+      programme: Nanyang MBA
       tier: international
       pattern: Tuition Fee Nanyang MBA 12 months 3 \W{0,3}trimesters Singapore S\$ ?([\d,]+)
       multiplier: 1.09
     - level: master
       field: business
+      programme: Nanyang MBA
       tier: citizen
       pattern: Tuition Fee Nanyang MBA 12 months 3 \W{0,3}trimesters Singapore S\$ ?([\d,]+)
       multiplier: 0.981
     - level: master
       field: business
+      programme: Nanyang MBA
       tier: pr
       pattern: Tuition Fee Nanyang MBA 12 months 3 \W{0,3}trimesters Singapore S\$ ?([\d,]+)
       multiplier: 0.981
@@ -140,14 +144,17 @@ sources:
     targets:
     - level: master
       field: arts
+      programme: International Relations
       tier: citizen
       pattern: M\.Sc\. \(International Political Economy\) [\d,]+ ([\d,]+) [\d,]+ [\d,]+ - M\.Sc\. \(International Relations\)
     - level: master
       field: arts
+      programme: International Relations
       tier: pr
       pattern: M\.Sc\. \(International Political Economy\) [\d,]+ [\d,]+ ([\d,]+) [\d,]+ - M\.Sc\. \(International Relations\)
     - level: master
       field: arts
+      programme: International Relations
       tier: international
       pattern: M\.Sc\. \(International Political Economy\) [\d,]+ [\d,]+ [\d,]+ ([\d,]+) - M\.Sc\. \(International Relations\)
   # SPMS MSc in Analytics: one fee for all nationalities, three intake-year columns (last = newest).
@@ -161,6 +168,7 @@ sources:
     targets:
     - level: master
       field: sciences
+      programme: MSc in Analytics
       tier: international
       pattern: Tuition Fee S?\$[\d,.]+ S?\$[\d,.]+ S?\$([\d,.]+) Payment Schedule
   - university: nus
@@ -1037,6 +1045,9 @@ sources:
   - university: ubc
     country: ca
     url: https://vancouver.calendar.ubc.ca/fees/tuition-fees/undergraduate
+    # the bachelor records cite UBC Student Services' copy of this table
+    also_covers:
+    - https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/
     parser: html
     targets:
     - level: bachelor
@@ -1236,6 +1247,9 @@ sources:
   - university: waseda
     country: jp
     url: https://waseda.box.com/shared/static/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
+    # the records cite the viewer link of this same PDF
+    also_covers:
+    - https://waseda.box.com/s/qnr1rlnhkrb9zf61yxpoipc87sfpj86y
     parser: pdf
     targets:
     - level: bachelor

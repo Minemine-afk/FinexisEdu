@@ -1,6 +1,8 @@
 # University of Galway. Fee tables quote the non-EU fee per annum including the EUR 140 student
 # levy; each cell is followed by its academic year. The pages also keep a few stale rows from
-# earlier years, so year_pattern takes the largest year present.
+# earlier years, so year_pattern takes the largest year present. Amounts must have a thousands
+# comma: from 2027/28 the GY501 Medicine non-EU cell shows only the EUR 350 levy, which must not
+# be read as the fee.
 # Fee history (2025/26 rows) comes from sources that are not re-scraped: the Postgraduate
 # Prospectus 2025 PDF (/media/courses/downloads/Postgraduate-Prospectus-2025.pdf, non-EU
 # tuition + EUR 140 levy) and the Cairnes School legacy Commerce page
@@ -15,25 +17,25 @@ sources:
     targets:
     - level: bachelor
       field: computing
-      pattern: GY350 Bachelor of Science \(Computer Science and Information Technology\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: GY350 Bachelor of Science \(Computer Science and Information Technology\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: bachelor
       field: business
-      pattern: GY201 Bachelor of Commerce €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: GY201 Bachelor of Commerce €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: bachelor
       field: engineering
-      pattern: GY402 Bachelor and Master of Engineering \(Civil\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: GY402 Bachelor and Master of Engineering \(Civil\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: bachelor
       field: sciences
-      pattern: GY301 Bachelor of Science €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: GY301 Bachelor of Science €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: bachelor
       field: arts
-      pattern: GY101 Bachelor of Arts \(Joint-Honours\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: GY101 Bachelor of Arts \(Joint-Honours\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: bachelor
       field: law
-      pattern: GY251 Law \(BCL\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: GY251 Law \(BCL\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: bachelor
       field: medicine
-      pattern: GY501 Bachelor of Medicine \(MB\) of Surgery \(BCh\) and of Obstetrics \(BAO\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: GY501 Bachelor of Medicine \(MB\) of Surgery \(BCh\) and of Obstetrics \(BAO\) €[\d,]+ p\.a\. \(including levy\) \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
   - university: galway
     country: ie
     url: https://www.universityofgalway.ie/student-fees/how-much/postgraduate-fees/
@@ -42,22 +44,22 @@ sources:
     targets:
     - level: master
       field: computing
-      pattern: 1CSD1 Computer Science - Data Analytics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: 1CSD1 Computer Science - Data Analytics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: master
       field: business
-      pattern: 1MBY1 Business Analytics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: 1MBY1 Business Analytics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: master
       field: engineering
-      pattern: 1MEC1 Civil Engineering \(ME\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: 1MEC1 Civil Engineering \(ME\) €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: master
       field: sciences
-      pattern: MSC-BMG Biomedical Genomics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: MSC-BMG Biomedical Genomics \(MSc\) €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: master
       field: arts
-      pattern: 1MEN1 English \(MA\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: 1MEN1 English \(MA\) €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
     - level: master
       field: law
-      pattern: 1ML28 \(LLM\) 1ML29 \(LLM PT\) General \(LLM\) €[\d,]+ p\.a\. \d{4}/\d{2} €([\d,]+) p\.a\.
+      pattern: 1ML28 \(LLM\) 1ML29 \(LLM PT\) General \(LLM\) €[\d,]+ p\.a\. \d{4}/\d{2} €(\d{1,3}(?:,\d{3})+) p\.a\.
   # Monthly budget table (no transport line, so no living.transport target).
   - university: galway
     country: ie

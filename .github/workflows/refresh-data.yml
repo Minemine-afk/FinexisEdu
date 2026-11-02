@@ -1,5 +1,10 @@
 name: Refresh fee data
 
+# Scrapes the fee pages once a month. When every check passes (the website's own lint, type
+# checks, tests and build, the scraper tests, and the safety checks in scrapers/guard.py), the
+# new figures are committed straight to main and Vercel publishes them. Anything else is held on
+# the data/refresh branch for a person to review, as a pull request if GitHub allows Actions to
+# open one, otherwise as an issue with a link to the changes.
 on:
   schedule:
     # 03:00 UTC on the 1st of every month (11:00 in Singapore)
@@ -9,46 +14,145 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+env:
+  REVIEW_BRANCH: data/refresh
+  REVIEW_TITLE: "Monthly fee data refresh"
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history, so the push can rebase if main moved meanwhile
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install ".[browser]"
+      - run: pip install ".[browser,dev]"
       - run: python -m playwright install --with-deps chromium
 
       - name: Scrape fee pages and exchange rates
-        run: python -m scrapers.run --strict || echo "SCRAPE_PROBLEMS=true" >> "$GITHUB_ENV"
+        run: |
+          cp -r data "$RUNNER_TEMP/data-before"
+          python -m scrapers.run --strict || echo "SCRAPE_PROBLEMS=true" >> "$GITHUB_ENV"
+          if git diff --quiet -- data; then
+            echo "Nothing changed."
+            echo "CHANGED=false" >> "$GITHUB_ENV"
+          else
+            echo "CHANGED=true" >> "$GITHUB_ENV"
+          fi
 
-      # The scraped data must still pass the website's own schema checks.
+      # Every check runs even if an earlier one fails, so the summary lists them all.
       - uses: actions/setup-node@v4
+        if: env.CHANGED == 'true'
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
-      - run: npm test
+      - name: Check the website and the scraper with the new data
+        if: env.CHANGED == 'true'
+        run: |
+          failed=""
+          npm ci
+          for check in "npm run lint" "npm run typecheck" "npm test" "npm run build" "pytest"; do
+            echo "::group::$check"
+            $check || failed="$failed, $check"
+            echo "::endgroup::"
+          done
+          {
+            if [ -z "$failed" ]; then
+              echo "### ✅ Website and scraper checks passed"
+            else
+              echo "### ⛔ Failing checks: ${failed#, }"
+            fi
+            echo
+          } > "$RUNNER_TEMP/checks.md"
+          [ -z "$failed" ] || echo "HOLD=true" >> "$GITHUB_ENV"
 
-      - name: Open a pull request for review
-        uses: peter-evans/create-pull-request@v7
-        with:
-          branch: data/refresh
-          delete-branch: true
-          commit-message: "data: monthly fee and exchange-rate refresh"
-          title: "Monthly fee data refresh"
-          body-path: scrapers/out/summary.md
-          add-paths: data/
-          labels: data-refresh
+      - name: Safety checks on the changed figures
+        if: env.CHANGED == 'true'
+        run: |
+          python -m scrapers.guard --before "$RUNNER_TEMP/data-before" --out "$RUNNER_TEMP/guard.md" \
+            || echo "HOLD=true" >> "$GITHUB_ENV"
+          cat "$RUNNER_TEMP/checks.md" "$RUNNER_TEMP/guard.md" scrapers/out/summary.md > "$RUNNER_TEMP/body.md"
+          cat "$RUNNER_TEMP/body.md" >> "$GITHUB_STEP_SUMMARY"
 
-      # Scraper problems still produce a PR (with the problems listed), but the
-      # run is marked failed so GitHub notifies the repo owner.
+      - name: Publish to the live site
+        if: env.CHANGED == 'true' && env.HOLD != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898231+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -q -F - <<EOF
+          data: monthly fee and exchange-rate refresh (published automatically)
+
+          All website and scraper checks and the safety checks in scrapers/guard.py passed.
+          Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          EOF
+          # Someone may have changed main (say, through the editor) while this ran.
+          for attempt in 1 2 3; do
+            git push origin HEAD:main && break
+            [ "$attempt" = 3 ] && exit 1
+            git pull --rebase origin main
+          done
+          sha=$(git rev-parse HEAD)
+          # An older refresh still waiting for review is out of date now.
+          for pr in $(gh pr list --head "$REVIEW_BRANCH" --state open --json number --jq '.[].number'); do
+            gh pr close "$pr" --delete-branch --comment "Superseded by this month's refresh, which passed every check and was published automatically in $sha." || true
+          done
+          for issue in $(gh issue list --state open --search "\"$REVIEW_TITLE\" in:title" --json number --jq '.[].number'); do
+            gh issue close "$issue" --comment "Superseded by this month's refresh, which passed every check and was published automatically in $sha." || true
+          done
+
+      - name: Hold for review
+        if: env.CHANGED == 'true' && env.HOLD == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898231+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$REVIEW_BRANCH"
+          git add data
+          git commit -q -m "data: monthly fee and exchange-rate refresh (held for review)"
+          git push --force origin "$REVIEW_BRANCH"
+          existing=$(gh pr list --head "$REVIEW_BRANCH" --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh pr edit "$existing" --body-file "$RUNNER_TEMP/body.md"
+          elif gh pr create --base main --head "$REVIEW_BRANCH" --title "$REVIEW_TITLE" --body-file "$RUNNER_TEMP/body.md"; then
+            :
+          else
+            # GitHub only lets Actions open pull requests when the repository setting
+            # "Allow GitHub Actions to create and approve pull requests" is on.
+            compare="${{ github.server_url }}/${{ github.repository }}/compare/main...$REVIEW_BRANCH?expand=1"
+            {
+              echo "This month's fee refresh was **not** published, because some checks did not pass."
+              echo "To publish it after checking: open [the changes]($compare), press **Create pull request**, then **Merge**."
+              echo "To drop it, close this issue; next month's refresh replaces it."
+              echo
+              cat "$RUNNER_TEMP/body.md"
+            } > "$RUNNER_TEMP/issue.md"
+            issue=$(gh issue list --state open --search "\"$REVIEW_TITLE\" in:title" --json number --jq '.[0].number')
+            if [ -n "$issue" ]; then
+              gh issue edit "$issue" --body-file "$RUNNER_TEMP/issue.md"
+              gh issue comment "$issue" --body "Updated with the refresh of $(date -u +%Y-%m-%d)."
+            else
+              gh issue create --title "$REVIEW_TITLE needs review" --body-file "$RUNNER_TEMP/issue.md"
+            fi
+          fi
+          # Marked failed so GitHub emails the repository owner.
+          echo "::error::The fee refresh was held for review. See the pull request or issue."
+          exit 1
+
+      # Scraper problems (pages that could not be read) keep the old figures and don't stop
+      # publishing, but the run is marked failed so GitHub emails the repository owner.
       - name: Fail if any source had problems
         if: env.SCRAPE_PROBLEMS == 'true'
         run: |
-          echo "::error::Some fee pages could not be scraped. See the PR description or scrapers/out/summary.md."
+          echo "::error::Some fee pages could not be scraped. See the run summary or scrapers/out/summary.md."
           exit 1

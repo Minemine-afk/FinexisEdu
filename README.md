@@ -21,17 +21,28 @@ abroad. Visas, flights and health insurance are out of scope.
 
 | Data | Where it comes from | How it stays current |
 |---|---|---|
-| Tuition and compulsory fees, per university, level and field | Each university's published fee page (HTML, PDF or JavaScript page) | `scrapers/` re-reads the pages monthly and opens a PR |
+| Tuition and compulsory fees, per university, level and field | Each university's published fee page (HTML, PDF or JavaScript page) | `scrapers/` re-reads the pages monthly and publishes the result when every check passes, otherwise holds it for review |
 | Exchange rates to SGD | European Central Bank daily reference rates (about 30 currencies, read from the ECB's own file, or Frankfurter's copy if that fails). For any currency the ECB lacks, the source chosen in Site settings (`otherExchangeRates`): [Frankfurter](https://frankfurter.dev) central-bank rates (MAS, Bank of England, Bank of Canada, RBA or IMF daily, else the currency's own central bank; at most a week old and within 2% of a second bank where one exists), or the [IMF data API](https://data.imf.org) month-end rates. All free, no key | Fetched live and cached for an hour, with a daily visit after the ECB publishes (`refresh-rates.yml`); `data/fx-fallback.json` is used if the API is down |
-| Yearly fee increase used for future years | Each university's own rate: the median compound yearly rise across its programmes' published fee histories (per residency tier in Singapore), computed in `lib/increase.ts`. A per-country default in `data/countries/` is used where a university has fewer than two programmes with history | Country defaults recomputed by the same monthly run; university rates follow the data |
+| Yearly fee increase used for future years | Each university's own rate: the median compound yearly rise across its programmes' published fee histories (per residency tier in Singapore), computed in `lib/increase.ts`. A per-country default in `data/countries/` is used where a university has fewer than two programmes with history | Country defaults are set by hand (the monthly run's summary suggests a new one when the fee history points elsewhere); university rates follow the data |
 
 There is no public API for university tuition anywhere, so fees are scraped
-from each university's own pages. Pages change layout from time to time, so
-every scraped change goes through a pull request:
+from each university's own pages. Pages change layout from time to time, so the
+monthly run (`refresh-data.yml`) only publishes a refresh by itself when every
+check passes: the website's lint, type checks, tests and build, the scraper tests,
+and the safety checks in `scrapers/guard.py`. Those allow only fee, fee-year,
+history, living-cost, default-increase and fallback-rate changes, each fee moving
+by at most 25% (never to or from zero), exchange rates by at most 10%, and no change
+at all to a fee entered by hand. A passing refresh is committed straight to `main`
+and Vercel publishes it; anything else stays on the `data/refresh` branch as a pull
+request (or, if GitHub doesn't let Actions open one, an issue linking to it) and the
+run is marked failed so GitHub emails you. In the scrape itself:
 
-- changes over 25% are flagged at the top of the PR;
-- a page that fails to scrape keeps its old value and is listed in the PR, and
-  the workflow run is marked failed so GitHub notifies you;
+- a rule that names no programme leaves partner programmes (NIE, SIM partners)
+  alone, and no rule changes a programme whose source is a `manual: true` page
+  unless its source lists that page under `also_covers`;
+- changes over 25% are flagged at the top of the summary;
+- a page that fails to scrape keeps its old value and is listed in the summary,
+  and the workflow run is marked failed so GitHub notifies you;
 - entries not verified for 11 months are listed as needing a manual check;
 - the website shows a "Data may be outdated" badge on entries older than a year,
   and an "Unofficial source" badge on figures not taken from the university itself.
@@ -232,7 +243,8 @@ For `parser: browser` sources, also run `pip install -e ".[browser]"` and
    with a regex whose first capture group is the amount. Test it with
    `python -m scrapers.run --dry-run --only <id>`.
 3. If the page can't be scraped reliably, add it with `manual: true`. The
-   monthly PR will remind you when it needs re-checking.
+   monthly run's summary will remind you when it needs re-checking. A fee
+   entered by hand from a manual page is never changed by a scraped page.
 
 ## Deploying
 
@@ -268,8 +280,10 @@ rate is added to `data/fx-fallback.json`; the list of currencies to fetch comes
 from the country files. The page re-renders at most hourly for fresh exchange
 rates (a scheduled workflow visits it daily after the ECB publishes, so it never waits for a visitor), and every merge into `main` (including approved data PRs) redeploys it.
 
-For the monthly data PRs, go to **Settings → Actions → General** and allow
-GitHub Actions to create pull requests.
+The monthly fee refresh publishes by itself when its checks pass (no setting
+needed). To get a pull request instead of an issue when one is held for review,
+go to **Settings → Actions → General** and allow GitHub Actions to create pull
+requests.
 
 ## Limits
 
