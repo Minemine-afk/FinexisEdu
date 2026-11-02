@@ -49,7 +49,7 @@ sources:
       tier: international
       pattern: International Undergraduate Programmes 2026/27.{0,20000}?TU910\b.{0,160}?€ ?(\d{1,3}(?:,\d{3})+)(?![\d,])
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: tudublin
     country: ie
     url: https://www.tudublin.ie/media/website/study/international-students/find-a-course/documents/International-Postgraduate-Booklet_Nov-26.pdf

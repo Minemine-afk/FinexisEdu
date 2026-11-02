@@ -1,16 +1,6 @@
 # RCSI University of Medicine and Health Sciences. One 'fees-and-funding' page per programme; non-EU fees are
 # published for the next intake (2027/28 for medicine).
 sources:
-  # per-programme fee page read by hand (added Oct 2026)
-  - university: rcsi
-    country: ie
-    url: "https://www.rcsi.com/dublin/undergraduate/pharmacy/fees-and-funding"
-    manual: true
-  # per-programme fee page read by hand (added Oct 2026)
-  - university: rcsi
-    country: ie
-    url: "https://rcsi.com/dublin/postgraduate/taught-courses/technologies-and-analytics-in-precision-medicine-msc/fees-and-funding"
-    manual: true
   # living-cost estimate (checked by hand; see livingCosts.notes in the data file)
   - university: rcsi
     country: ie
@@ -41,3 +31,27 @@ sources:
       programme: Medicine MB BCh BAO (Graduate Entry)
       tier: international
       pattern: 2027.{0,265}?GEM tuition fees €([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: rcsi
+    country: ie
+    url: https://www.rcsi.com/dublin/undergraduate/pharmacy/fees-and-funding
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Pharmacy BSc (Hons) / MPharm
+      tier: international
+      pattern: 2026.{0,2827}?Non-EU fees for the 2027/28 academic year are listed below\. Non-EU Pharmacy tuition fees €(\d{1,3}(?:,\d{3})+)(?![\d,])
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
+  - university: rcsi
+    country: ie
+    url: https://rcsi.com/dublin/postgraduate/taught-courses/technologies-and-analytics-in-precision-medicine-msc/fees-and-funding
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      programme: MSc Technologies and Analytics in Precision Medicine
+      tier: international
+      pattern: MSc in Technologies and Analytics in Precision Medicine €[\d,]+ \(EU\)/€(\d{1,3}(?:,\d{3})+)(?![\d,]) \(Non-EU\)

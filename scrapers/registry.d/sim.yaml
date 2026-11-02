@@ -903,7 +903,7 @@ sources:
       pattern: 2026.{0,268}?\(Singaporean \& PR\) / S\$([\d,.\' ]*\d)
       multiplier: 0.5
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-accounting-and-finance
@@ -922,7 +922,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-and-management
@@ -941,7 +941,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science
@@ -966,7 +966,7 @@ sources:
       pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-machine-learning-and-artificial-intelligence
@@ -991,7 +991,7 @@ sources:
       pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-physical-computing-internet-of-things
@@ -1016,7 +1016,7 @@ sources:
       pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-user-experience
@@ -1041,7 +1041,7 @@ sources:
       pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-virtual-reality
@@ -1066,7 +1066,7 @@ sources:
       pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-web-and-mobile-development
@@ -1091,7 +1091,7 @@ sources:
       pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-data-science-and-business-analytics
@@ -1110,7 +1110,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics
@@ -1129,7 +1129,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-finance
@@ -1148,7 +1148,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-management
@@ -1167,7 +1167,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-politics
@@ -1186,7 +1186,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-finance
@@ -1205,7 +1205,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-relations
@@ -1224,7 +1224,7 @@ sources:
       pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-management-and-digital-innovation
@@ -1271,7 +1271,7 @@ sources:
       tier: international
       pattern: '2026.{0,2999}?Part-Time Programme Estimated Overall Fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology
@@ -1296,7 +1296,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology
@@ -1321,7 +1321,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade
@@ -1346,7 +1346,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology
@@ -1371,7 +1371,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology
@@ -1396,7 +1396,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology
@@ -1421,7 +1421,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology
@@ -1446,7 +1446,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology
@@ -1471,7 +1471,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science
@@ -1496,7 +1496,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication
@@ -1521,7 +1521,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics
@@ -1546,7 +1546,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade
@@ -1571,7 +1571,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology
@@ -1596,7 +1596,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology
@@ -1621,7 +1621,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication
@@ -1646,7 +1646,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics
@@ -1671,7 +1671,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade
@@ -1696,7 +1696,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology
@@ -1721,7 +1721,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology
@@ -1746,7 +1746,7 @@ sources:
       pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.25
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication
@@ -1771,7 +1771,7 @@ sources:
       pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics
@@ -1796,7 +1796,7 @@ sources:
       pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade
@@ -1821,7 +1821,7 @@ sources:
       pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology
@@ -1846,7 +1846,7 @@ sources:
       pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology
@@ -1871,7 +1871,7 @@ sources:
       pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration
@@ -1896,7 +1896,7 @@ sources:
       pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science
@@ -1921,7 +1921,7 @@ sources:
       pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business-information-systems
@@ -1940,7 +1940,7 @@ sources:
       pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data
@@ -1959,7 +1959,7 @@ sources:
       pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security
@@ -1978,7 +1978,7 @@ sources:
       pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security
@@ -1997,7 +1997,7 @@ sources:
       pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-double-major
@@ -2016,7 +2016,7 @@ sources:
       pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development
@@ -2035,7 +2035,7 @@ sources:
       pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science
@@ -2054,7 +2054,7 @@ sources:
       pattern: 'No credit exemption \(Full Programme Fees\) For 24 modules, payable over 6 semesters S?\$[\d,.]+ For Singaporeans & PRs: S?\$(\d[\d,]*\.\d\d)'
       multiplier: 0.3333333333333333
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-top-up
@@ -2079,7 +2079,7 @@ sources:
       pattern: 'Programme Fees Local Students: .{0,300}?International Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.5
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-with-security-and-forensics-top-up
@@ -2104,7 +2104,7 @@ sources:
       pattern: 'Programme Fees Local Students: .{0,300}?International Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
       multiplier: 0.5
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-ai-and-statistical-analytics
@@ -2126,7 +2126,7 @@ sources:
       tier: international
       pattern: 'Programme Fees Local Students: .{0,300}?International Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-sustainable-supply-chain-management

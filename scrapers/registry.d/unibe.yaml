@@ -7,7 +7,7 @@ sources:
     parser: pdf
     manual: true
   # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
-  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: unibe
     country: ch
     url: https://www.unibe.ch/unibe/portal/content/e1006/e7408/e20292/e175073/e1766093/Fees_fromfall2026_eng.pdf

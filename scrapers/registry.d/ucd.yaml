@@ -61,3 +61,27 @@ sources:
     url: https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/livingcosts/
     parser: html
     manual: true
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
+  - university: ucd
+    country: ie
+    url: https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=UG&ACYR=2026
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: BSc Psychology (DN720)
+      tier: international
+      pattern: BSc Psychology DN720 - PCS2 School of Psychology Full Time Per Year (\d{1,3}(?:,\d{3})*\.\d\d)(?!\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
+  - university: ucd
+    country: ie
+    url: https://sisweb.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=FEESLEVEL&RESD=NONEU&DGLEV=GT&ACYR=2026
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: Master of Psychological Science (W241)
+      tier: international
+      pattern: Master of Psychological Science FT\(W241\) School of Psychology Full Time Per Year (\d{1,3}(?:,\d{3})*\.\d\d)(?!\d)

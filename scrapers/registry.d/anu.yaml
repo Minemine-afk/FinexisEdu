@@ -74,22 +74,51 @@ sources:
     - level: master
       field: sciences
       pattern: Annual indicative fee for international students \$ ?([\d,]+(?:\.\d{2})?)
-  # Bachelor of Science (Psychology): psychology programme added Oct 2026; fee read by hand
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: anu
     country: au
-    url: "https://programsandcourses.anu.edu.au/2026/program/BSPSY"
-    manual: true
-  # Master of Clinical Psychology: psychology programme added Oct 2026; fee read by hand
+    url: https://programsandcourses.anu.edu.au/2026/program/BSPSY
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Science (Psychology)
+      tier: international
+      pattern: Annual indicative fee for international students \$(\d{1,3}(?:,\d{3})*\.\d\d)(?!\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: anu
     country: au
-    url: "https://programsandcourses.anu.edu.au/2026/program/7601XMCPSY"
-    manual: true
-  # Accountancy programmes added Oct 2026; fees read by hand
+    url: https://programsandcourses.anu.edu.au/2026/program/7601XMCPSY
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: Master of Clinical Psychology
+      tier: international
+      pattern: Annual indicative fee for international students \$(\d{1,3}(?:,\d{3})*\.\d\d)(?!\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: anu
     country: au
-    url: "https://programsandcourses.anu.edu.au/2026/program/BACCT"
-    manual: true
+    url: https://programsandcourses.anu.edu.au/2026/program/BACCT
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Accounting
+      tier: international
+      pattern: Annual indicative fee for international students \$(\d{1,3}(?:,\d{3})*\.\d\d)(?!\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so this rule has no year check; it stops matching if the row's wording changes, and the refresh guard's limits still apply.
   - university: anu
     country: au
-    url: "https://programsandcourses.anu.edu.au/2026/program/7414XMACCT"
-    manual: true
+    url: https://programsandcourses.anu.edu.au/2026/program/7414XMACCT
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Accounting
+      tier: international
+      pattern: Annual indicative fee for international students \$(\d{1,3}(?:,\d{3})*\.\d\d)(?!\d)
