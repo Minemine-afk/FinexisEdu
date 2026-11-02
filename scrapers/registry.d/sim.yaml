@@ -6,10 +6,6 @@
 sources:
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-economics
     manual: true
   - university: sim
@@ -18,159 +14,11 @@ sources:
     manual: true
   - university: sim
     country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-machine-learning-and-artificial-intelligence
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-physical-computing-internet-of-things
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-user-experience
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-virtual-reality
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-web-and-mobile-development
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-with-security-and-forensics-top-up
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-management-and-digital-innovation
-    manual: true
-  - university: sim
-    country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-business-administration
     manual: true
   - university: sim
     country: sg
     url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-financial-management
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-ai-and-statistical-analytics
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-professional-accountancy
-    manual: true
-  - university: sim
-    country: sg
-    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-sustainable-supply-chain-management
     manual: true
   - university: sim
     country: sg
@@ -1054,3 +902,1248 @@ sources:
       tier: international
       pattern: 2026.{0,268}?\(Singaporean \& PR\) / S\$([\d,.\' ]*\d)
       multiplier: 0.5
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-accounting-and-finance
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Accounting and Finance
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Accounting and Finance
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-business-and-management
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Business and Management
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Business and Management
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science
+      tier: international
+      pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-machine-learning-and-artificial-intelligence
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Machine Learning and Artificial Intelligence)
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Machine Learning and Artificial Intelligence)
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Machine Learning and Artificial Intelligence)
+      tier: international
+      pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-physical-computing-internet-of-things
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Physical Computing and the Internet of Things)
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Physical Computing and the Internet of Things)
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Physical Computing and the Internet of Things)
+      tier: international
+      pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-user-experience
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (User Experience)
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (User Experience)
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (User Experience)
+      tier: international
+      pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-virtual-reality
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Virtual Reality)
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Virtual Reality)
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Virtual Reality)
+      tier: international
+      pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-computer-science-web-and-mobile-development
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Web and Mobile Development)
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Web and Mobile Development)
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Web and Mobile Development)
+      tier: international
+      pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-data-science-and-business-analytics
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Data Science and Business Analytics
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Data Science and Business Analytics
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-finance
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Finance
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Finance
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-management
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Management
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Management
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-economics-and-politics
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Politics
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in Economics and Politics
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-finance
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Finance
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Finance
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-international-relations
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in International Relations
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Science (Honours) in International Relations
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-management-and-digital-innovation
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Management and Digital Innovation
+      tier: citizen
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Management and Digital Innovation
+      tier: pr
+      pattern: 'Programme Fees For Local(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Honours) in Management and Digital Innovation
+      tier: international
+      pattern: 'For International(?: Students)? Estimated Overall (?:Programme )?Fees(?: \(FT/PT\))? Standard Entry BSc \([^)]*\) Year 1: S\$[\d,.]+ Year 2: S\$[\d,.]+ Year 3: S\$[\d,.]+ Total programme fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-professional-accountancy
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Science in Professional Accountancy
+      tier: citizen
+      pattern: '2026.{0,2999}?Part-Time Programme Estimated Overall Fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+    - level: master
+      field: business
+      programme: Master of Science in Professional Accountancy
+      tier: pr
+      pattern: '2026.{0,2999}?Part-Time Programme Estimated Overall Fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+    - level: master
+      field: business
+      programme: Master of Science in Professional Accountancy
+      tier: international
+      pattern: '2026.{0,2999}?Part-Time Programme Estimated Overall Fee: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-psychology
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication and Psychology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication and Psychology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication and Psychology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication-and-sociology
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication and Sociology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication and Sociology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication and Sociology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-international-trade
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and International Trade)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and International Trade)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and International Trade)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-psychology
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and Psychology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and Psychology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and Psychology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics-and-sociology
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and Sociology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and Sociology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics and Sociology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-psychology
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade and Psychology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade and Psychology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade and Psychology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade-and-sociology
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade and Sociology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade and Sociology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade and Sociology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology-and-sociology
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (Psychology and Sociology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (Psychology and Sociology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (Psychology and Sociology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-geographic-information-science
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration and Geographic Information Science)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration and Geographic Information Science)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration and Geographic Information Science)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 120 - 136 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-communication
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Communication)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Communication)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Communication)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-economics
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Economics)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Economics)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Economics)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-international-trade
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (International Trade)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (International Trade)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (International Trade)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-bachelor-of-arts-psychology
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Psychology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Psychology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Psychology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration-and-bachelor-of-arts-sociology
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Sociology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Sociology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration) and Bachelor of Arts (Sociology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-communication
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Communication)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Communication)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Communication)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-economics
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Economics)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Economics)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Economics)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-international-trade
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (International Trade)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (International Trade)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (International Trade)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-psychology
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Psychology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Psychology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Psychology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science-and-bachelor-of-arts-sociology
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Sociology)
+      tier: citizen
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Sociology)
+      tier: pr
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science) and Bachelor of Arts (Sociology)
+      tier: international
+      pattern: Programme Fees \(2025 Summer intake onwards\).{0,1500}?without advanced standing credits or transfer credits 150 - 159 credits S\$[\d,.]+ - S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.25
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-communication
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication)
+      tier: citizen
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication)
+      tier: pr
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Communication)
+      tier: international
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-economics
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics)
+      tier: citizen
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics)
+      tier: pr
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Economics)
+      tier: international
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-international-trade
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade)
+      tier: citizen
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade)
+      tier: pr
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (International Trade)
+      tier: international
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-psychology
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (Psychology)
+      tier: citizen
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (Psychology)
+      tier: pr
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Arts (Psychology)
+      tier: international
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-arts-sociology
+    parser: html
+    targets:
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Sociology)
+      tier: citizen
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Sociology)
+      tier: pr
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: arts
+      programme: Bachelor of Arts (Sociology)
+      tier: international
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-business-administration
+    parser: html
+    targets:
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration)
+      tier: citizen
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration)
+      tier: pr
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: business
+      programme: Bachelor of Science (Business Administration)
+      tier: international
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-geographic-information-science
+    parser: html
+    targets:
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science)
+      tier: citizen
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science)
+      tier: pr
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science (Geographic Information Science)
+      tier: international
+      pattern: Program Fees \(2027 onwards\).{0,1500}?without advanced standing credits or transfer credits 120 credits S\$[\d,.]+ S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-business-information-systems
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Business Information Systems
+      tier: citizen
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Business Information Systems
+      tier: pr
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-artificial-intelligence-and-big-data
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Artificial Intelligence and Big Data)
+      tier: citizen
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Artificial Intelligence and Big Data)
+      tier: pr
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-cyber-security
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Cyber Security)
+      tier: citizen
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Cyber Security)
+      tier: pr
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-digital-systems-security
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Digital Systems Security)
+      tier: citizen
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Digital Systems Security)
+      tier: pr
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-double-major
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Double Major)
+      tier: citizen
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Double Major)
+      tier: pr
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-computer-science-game-and-mobile-development
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Game and Mobile Development)
+      tier: citizen
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science (Game and Mobile Development)
+      tier: pr
+      pattern: 'No credit exemption \(Full Programme Fees\) For 23 modules, payable over 12 terms S\$[\d,.]+ For Singaporeans & PRs: S\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-psychological-science
+    parser: html
+    targets:
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Psychological Science
+      tier: citizen
+      pattern: 'No credit exemption \(Full Programme Fees\) For 24 modules, payable over 6 semesters S?\$[\d,.]+ For Singaporeans & PRs: S?\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Psychological Science
+      tier: pr
+      pattern: 'No credit exemption \(Full Programme Fees\) For 24 modules, payable over 6 semesters S?\$[\d,.]+ For Singaporeans & PRs: S?\$(\d[\d,]*\.\d\d)'
+      multiplier: 0.3333333333333333
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Top-up)
+      tier: citizen
+      pattern: 'Programme Fees Local Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.5
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Top-up)
+      tier: pr
+      pattern: 'Programme Fees Local Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.5
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science (Top-up)
+      tier: international
+      pattern: 'Programme Fees Local Students: .{0,300}?International Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.5
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/bachelor-of-science-honours-in-computer-science-with-security-and-forensics-top-up
+    parser: html
+    targets:
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science with Security and Forensics (Top-up)
+      tier: citizen
+      pattern: 'Programme Fees Local Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.5
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science with Security and Forensics (Top-up)
+      tier: pr
+      pattern: 'Programme Fees Local Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.5
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Science (Honours) in Computer Science with Security and Forensics (Top-up)
+      tier: international
+      pattern: 'Programme Fees Local Students: .{0,300}?International Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+      multiplier: 0.5
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-ai-and-statistical-analytics
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: Master of Science in AI + Statistical Analytics
+      tier: citizen
+      pattern: 'Programme Fees Local Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+    - level: master
+      field: computing
+      programme: Master of Science in AI + Statistical Analytics
+      tier: pr
+      pattern: 'Programme Fees Local Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+    - level: master
+      field: computing
+      programme: Master of Science in AI + Statistical Analytics
+      tier: international
+      pattern: 'Programme Fees Local Students: .{0,300}?International Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The page gives no fee year beside
+  # the figure, so the pattern starts at the fee table's own heading and stops matching if that table is rewritten.
+  - university: sim
+    country: sg
+    url: https://www.sim.edu.sg/degrees-diplomas/programmes/programme-listing/master-of-science-in-sustainable-supply-chain-management
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: Master of Science in Sustainable Supply Chain Management
+      tier: citizen
+      pattern: 'Programme Fees Local Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+    - level: master
+      field: business
+      programme: Master of Science in Sustainable Supply Chain Management
+      tier: pr
+      pattern: 'Programme Fees Local Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
+    - level: master
+      field: business
+      programme: Master of Science in Sustainable Supply Chain Management
+      tier: international
+      pattern: 'Programme Fees Local Students: .{0,300}?International Students: Total programme fees: S\$(\d[\d,]*(?:\.\d\d)?)(?![\d,])'
