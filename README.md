@@ -37,7 +37,8 @@ and Vercel publishes it; anything else stays on the `data/refresh` branch as a p
 request (or, if GitHub doesn't let Actions open one, an issue linking to it) and the
 run is marked failed so GitHub emails you. In the scrape itself:
 
-- a rule that names no programme leaves partner programmes (NIE, SIM partners)
+- tuition is only read from the page a programme cites; a rule that names no
+  programme leaves partner programmes (NIE, SIM partners)
   alone, and no rule changes a programme whose source is a `manual: true` page
   unless its source lists that page under `also_covers`;
 - changes over 25% are flagged at the top of the summary;

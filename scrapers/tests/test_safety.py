@@ -207,3 +207,11 @@ def test_guard_holds_a_subsidised_fee_becoming_the_full_fee(before_after):
     before, after = before_after
     _edit(after, lambda u: u["programmes"][0]["fees"]["citizen"].update(annualTuition=30000))
     assert any("citizen tuition was below" in r for r in check(before, after, _registry({}, MANUAL)))
+
+
+def test_tuition_only_comes_from_the_programmes_own_page(data_dir):
+    """A field-wide rule on one page doesn't set the tuition of a programme citing another page."""
+    _edit(data_dir, lambda u: u["programmes"].append(_programme("Other Computing", sourceUrl="https://example.edu/other")))
+    run(_registry({}), data_dir, TODAY, fetch=fixture_fetch, with_fx=False)
+    assert _fees(data_dir)["Other Computing"] == 30000
+    assert _fees(data_dir)["Bachelor of Computing"] == 31500

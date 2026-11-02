@@ -135,11 +135,17 @@ def reachable(source: Source, target, programme: Programme, hand_entered: set[st
     - A partner's programme (such as NIE's under NTU, or a SIM partner's) is only changed by a
       target that names it, since the host university's field-wide rules don't apply to it.
     - A programme citing a manual page is only changed by a source that lists that page in
-      `also_covers` (the same table under another address)."""
+      `also_covers` (the same table under another address).
+    - Tuition only ever comes from the page the programme cites (or one in `also_covers`), so a
+      field-wide rule on one programme's page can't set another programme's tuition. Compulsory
+      and one-off fees may come from a separate page, such as a university-wide services fee."""
     if programme.partner and not target.programme:
         return False
     url = str(programme.sourceUrl)
-    return url not in hand_entered or url in {str(u) for u in source.also_covers}
+    covered = url == str(source.url) or url in {str(u) for u in source.also_covers}
+    if target.key == "annualTuition" and not covered:
+        return False
+    return url not in hand_entered or covered
 
 
 def target_programmes(source: Source, target, uni: University, hand_entered: set[str]) -> list[Programme]:
