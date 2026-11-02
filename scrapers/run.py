@@ -4,8 +4,8 @@
     python -m scrapers.run --dry-run     # print what would change, write nothing
     python -m scrapers.run --only nus    # just one university
 
-The monthly GitHub Action runs this and opens a PR whose body is the summary,
-so a human reviews every change before it reaches the site.
+The monthly GitHub Action runs this, then scrapers/guard.py checks the result. Changes that pass
+every check go straight to main (and so to the live site); anything else waits as a pull request.
 """
 
 from __future__ import annotations
@@ -22,6 +22,7 @@ from typing import Callable
 
 import requests
 import yaml
+from pydantic import HttpUrl
 
 from .fetch import fetch_text
 from .models import FeeHistoryEntry, Programme, Registry, Source, University
@@ -118,8 +119,49 @@ def matching_programmes(uni: University, level, field_, name) -> list[Programme]
     ]
 
 
-def apply_source(source: Source, text: str, uni: University, today: date, report: Report) -> None:
+def manual_only_urls(registry: Registry) -> dict[str, set[str]]:
+    """Per university, the pages listed only as `manual: true`. A programme citing one of them
+    had its fee entered by hand, so scraped pages leave it alone."""
+    manual: dict[str, set[str]] = {}
+    scraped: dict[str, set[str]] = {}
+    for s in registry.sources:
+        (manual if s.manual else scraped).setdefault(s.university, set()).add(str(s.url))
+    return {u: urls - scraped.get(u, set()) for u, urls in manual.items()}
+
+
+def reachable(source: Source, target, programme: Programme, hand_entered: set[str]) -> bool:
+    """Whether `target` on `source` may change `programme`.
+
+    - A partner's programme (such as NIE's under NTU, or a SIM partner's) is only changed by a
+      target that names it, since the host university's field-wide rules don't apply to it.
+    - A programme citing a manual page is only changed by a source that lists that page in
+      `also_covers` (the same table under another address).
+    - Tuition only ever comes from the page the programme cites (or one in `also_covers`), so a
+      field-wide rule on one programme's page can't set another programme's tuition. Compulsory
+      and one-off fees may come from a separate page, such as a university-wide services fee."""
+    if programme.partner and not target.programme:
+        return False
+    url = str(programme.sourceUrl)
+    covered = url == str(source.url) or url in {str(u) for u in source.also_covers}
+    if target.key == "annualTuition" and not covered:
+        return False
+    return url not in hand_entered or covered
+
+
+def target_programmes(source: Source, target, uni: University, hand_entered: set[str]) -> list[Programme]:
+    return [
+        p
+        for p in matching_programmes(uni, target.level, target.field, target.programme)
+        if reachable(source, target, p, hand_entered)
+        and not any(x.lower() in p.name.lower() for x in target.exclude)
+    ]
+
+
+def apply_source(
+    source: Source, text: str, uni: University, today: date, report: Report, hand_entered: set[str] | None = None
+) -> None:
     """Updates `uni` in place from one source page's text."""
+    hand_entered = hand_entered or set()
     found: list[tuple[Programme, str, str, float]] = []
     for t in source.targets:
         amount = extract_amount(text, t.pattern)
@@ -130,9 +172,10 @@ def apply_source(source: Source, text: str, uni: University, today: date, report
         if t.key.startswith("living."):
             apply_living(uni, t.key.removeprefix("living."), round(amount * t.multiplier, 2), today, report)
             continue
-        progs = matching_programmes(uni, t.level, t.field, t.programme)
+        progs = target_programmes(source, t, uni, hand_entered)
         if not progs:
-            report.problems.append(f"{label}: no programme in data/ matches this target")
+            if not matching_programmes(uni, t.level, t.field, t.programme):
+                report.problems.append(f"{label}: no programme in data/ matches this target")
             continue
         for p in progs:
             found.append((p, t.tier, t.key, round(amount * t.multiplier, 2)))
@@ -148,10 +191,11 @@ def apply_source(source: Source, text: str, uni: University, today: date, report
             continue
         if page_year and page_year > p.feeYear:
             # New academic year: keep last year's figures as history before overwriting.
+            history = list(p.feeHistory)
             for tier in ("citizen", "pr", "international"):
                 fees = getattr(p.fees, tier)
                 if fees is not None:
-                    p.feeHistory.append(
+                    history.append(
                         FeeHistoryEntry(
                             feeYear=p.feeYear,
                             tier=tier,
@@ -161,6 +205,7 @@ def apply_source(source: Source, text: str, uni: University, today: date, report
                             sourceUrl=p.sourceUrl,
                         )
                     )
+            p.feeHistory = history
             report.notes.append(f"{uni.id} {p.name}: fee year {p.feeYear} -> {page_year}")
             p.feeYear = page_year
 
@@ -220,8 +265,33 @@ def load_universities(data_dir: Path) -> dict[str, tuple[Path, University]]:
     return out
 
 
+def _same_url(a: str, b: str) -> bool:
+    try:
+        return str(HttpUrl(a)) == str(HttpUrl(b))
+    except ValueError:
+        return False
+
+
+def _keep_layout(old, new):
+    """`new` with the key order, number style and link spelling of `old` wherever the value is the
+    same, so a saved file only differs where a fee actually changed."""
+    if isinstance(old, dict) and isinstance(new, dict):
+        out = {k: _keep_layout(v, new[k]) if k in new else v for k, v in old.items()}
+        out.update({k: v for k, v in new.items() if k not in old})
+        return out
+    if isinstance(old, list) and isinstance(new, list):
+        return [_keep_layout(o, n) for o, n in zip(old, new)] + new[len(old) :]
+    if isinstance(old, str) and isinstance(new, str) and old != new and _same_url(old, new):
+        return old
+    if isinstance(old, (int, float)) and isinstance(new, (int, float)) and old == new:
+        return old
+    return new
+
+
 def save_university(path: Path, uni: University) -> None:
-    data = _tidy(uni.model_dump(mode="json", exclude_none=True))
+    data = _tidy(uni.model_dump(mode="json", exclude_none=True, exclude_unset=True))
+    if path.exists():
+        data = _keep_layout(json.loads(path.read_text()), data)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
 
@@ -393,8 +463,9 @@ def update_fee_increase_defaults(data_dir: Path, unis: list[University], report:
             updated["feeIncreaseByTier"] = tiers
         if updated != country:
             report.notes.append(
-                f"{country['name']}: default yearly increase {country['defaultFeeIncrease']:.1%} -> "
-                f"{updated['defaultFeeIncrease']:.1%}"
+                f"{country['name']}: fee history now suggests a default yearly increase of "
+                f"{updated['defaultFeeIncrease']:.1%} (currently {country['defaultFeeIncrease']:.1%}; change it in the "
+                "editor if it should follow)"
                 + (f"; by tier {', '.join(f'{t} {r:.1%}' for t, r in tiers.items())}" if len(tiers) > 1 else "")
                 + f" ({len(all_growth)} observations)"
             )
@@ -420,6 +491,7 @@ def run(
     unis = load_universities(data_dir)
     dirty: set[str] = set()
     pages: dict[str, str] = {}
+    hand_entered = manual_only_urls(registry)
 
     for source in registry.sources:
         if only and source.university != only:
@@ -438,7 +510,7 @@ def run(
             continue
         path, uni = unis[source.university]
         before = uni.model_dump_json()
-        apply_source(source, pages[url], uni, today, report)
+        apply_source(source, pages[url], uni, today, report, hand_entered.get(source.university, set()))
         if uni.model_dump_json() != before:
             dirty.add(uni.id)
 
@@ -452,7 +524,9 @@ def run(
                 report.manual.append(f"{uni.name}: living costs (last checked {living.lastVerified}) — {living.sourceUrl}")
         if with_fx:
             refresh_fx(data_dir, report, dry_run, today)
-        update_fee_increase_defaults(data_dir, [u for _, u in unis.values()], report, dry_run)
+        # Only suggested: the countries' default rates are set by hand (some with reasons in their
+        # notes, such as Switzerland's), so the monthly run never changes them itself.
+        update_fee_increase_defaults(data_dir, [u for _, u in unis.values()], report, dry_run=True)
 
     if not dry_run:
         for uni_id in dirty:

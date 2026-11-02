@@ -5,6 +5,9 @@ sources:
   - university: hu-berlin
     country: de
     url: https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/
+    # The records cite HU's own Rückmeldung page, which already shows the 2026/27 contribution
+    # (EUR 381.80) while this DAAD entry still shows 2025/26 (EUR 355.80), so this source must not
+    # cover them: it would put last year's figure back.
     parser: html
     targets:
     # no field, so it also covers the Rechtswissenschaft (Staatsexamen) entry; medicine is excluded below

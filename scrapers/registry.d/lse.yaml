@@ -26,6 +26,7 @@ sources:
       pattern: MSc in Data Science £[\d,]+ £([\d,]+)
     - level: master
       field: business
+      programme: MSc Management (12-Month Programme)
       pattern: MSc in Management \(12-Month Programme\) \d £[\d,]+ £([\d,]+)
     - level: master
       field: sciences

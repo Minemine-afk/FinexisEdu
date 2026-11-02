@@ -125,6 +125,8 @@ class Target(BaseModel):
     level: LevelT | None = None
     field: FieldT | None = None
     programme: str | None = None  # substring of the programme name
+    # Programmes (name substrings) a field-wide target must leave alone, e.g. one priced differently.
+    exclude: list[str] = []
     tier: TierT = "international"
     # A programme fee, or a monthly living-cost category (level/field/tier are then ignored).
     key: FeeKey | LivingKey = "annualTuition"
@@ -148,6 +150,11 @@ class Source(BaseModel):
     year_pattern: str | None = None
     # Sources a human keeps up to date. Listed in the PR when they get old.
     manual: bool = False
+    # Programmes whose fee was entered by hand from a `manual: true` page are never changed by a
+    # scraped page, so a broad rule (say, every NTU arts master's) cannot overwrite them. List a
+    # manual page here when this source is the same table under another address, so the
+    # programmes citing it are still kept up to date from here.
+    also_covers: list[HttpUrl] = Field(default_factory=list)
     targets: list[Target] = Field(default_factory=list)
 
 

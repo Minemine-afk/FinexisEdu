@@ -31,9 +31,8 @@ sources:
     - level: bachelor
       field: law
       pattern: 'Department: Laws Law, LLB \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
-    - level: bachelor
-      field: medicine
-      pattern: 'Medicine, MBBS \(\w+\) UK Full-time: £[\d,]+ Part-time: N/A Overseas Full-time: £([\d,]+)'
+    # No MBBS rule: the schedule shows the averaged £59,600 instalment, but the record prices the
+    # pre-clinical/BSc years (£40,800) and clinical years (£72,134) separately, so it is kept by hand.
   - university: ucl
     country: uk
     url: https://www.ucl.ac.uk/digital-presence-services/degree-fees-drupal/index.php?coursetype=graduate_taught&year=2027

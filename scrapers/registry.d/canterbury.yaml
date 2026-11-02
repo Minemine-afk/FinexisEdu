@@ -38,6 +38,7 @@ sources:
       multiplier: 0.6666666666666666
     - level: master
       field: business
+      programme: Master of Business Administration
       pattern: 'Master of Business Administration \(MBA\).*?2028 Special Programme Fee: \$([\d,]+) \(180 points\)'
       multiplier: 0.6666666666666666
     - level: master
