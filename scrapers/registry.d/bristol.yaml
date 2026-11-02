@@ -3,46 +3,7 @@ sources:
   # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
   - university: bristol
     country: uk
-    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-robotics/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-computer-science-conversion/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-international-business/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-data-science/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/postgraduate/taught/llm-law---commercial-law/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/"
-    manual: true
-  # course/programme fee pages; Bristol fee text is free-form per page, checked by hand
-  - university: bristol
-    country: uk
     url: "https://www.bristol.ac.uk/students/support/finances/advice/set-up-finances/living-expenses/"
-    manual: true
-  - university: bristol
-    country: uk
-    url: "https://www.bristol.ac.uk/study/postgraduate/taught/msc-accounting-and-finance/"
     manual: true
   # Scraped from 2026-11 (was read by hand). The pattern keeps the fee year literal, so when the page
   # moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
@@ -152,3 +113,99 @@ sources:
       programme: BSc Accounting and Finance (NN43)
       tier: international
       pattern: £[\d,.\' ]*\d International students Year Year 1 fee 2027/28 £([\d,.\' ]*\d)
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/postgraduate/taught/msc-robotics/
+    parser: html
+    targets:
+    - level: master
+      field: engineering
+      programme: MSc Robotics
+      tier: international
+      pattern: '2027.{0,10000}?Fees and funding Home: .{0,160}?Overseas: full-time £(\d{1,3}(?:,\d{3})+)(?![\d,]) per year'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/postgraduate/taught/msc-computer-science-conversion/
+    parser: html
+    targets:
+    - level: master
+      field: computing
+      programme: MSc Computer Science (Conversion)
+      tier: international
+      pattern: '2027.{0,10000}?Fees and funding Home: .{0,160}?Overseas: full-time £(\d{1,3}(?:,\d{3})+)(?![\d,]) per year'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-international-business/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: MSc Management (International Business)
+      tier: international
+      pattern: '2027.{0,10000}?Fees and funding Home: .{0,160}?Overseas: full-time £(\d{1,3}(?:,\d{3})+)(?![\d,]) per year'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/postgraduate/taught/msc-data-science/
+    parser: html
+    targets:
+    - level: master
+      field: sciences
+      programme: MSc Data Science
+      tier: international
+      pattern: '2027.{0,10000}?Fees and funding Home: .{0,160}?Overseas: full-time £(\d{1,3}(?:,\d{3})+)(?![\d,]) per year'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/
+    parser: html
+    targets:
+    - level: master
+      field: arts
+      programme: MSc Economics
+      tier: international
+      pattern: '2027.{0,10000}?Fees and funding Home: .{0,160}?Overseas: full-time £(\d{1,3}(?:,\d{3})+)(?![\d,]) per year'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/postgraduate/taught/llm-law---commercial-law/
+    parser: html
+    targets:
+    - level: master
+      field: law
+      programme: LLM Law - Commercial Law
+      tier: international
+      pattern: '2027.{0,10000}?Fees and funding Home: .{0,160}?Overseas: full-time £(\d{1,3}(?:,\d{3})+)(?![\d,]) per year'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/
+    parser: html
+    targets:
+    - level: master
+      field: psychology
+      programme: MSc Psychology (Conversion)
+      tier: international
+      pattern: '2027.{0,10000}?Fees and funding Home: .{0,160}?Overseas: full-time £(\d{1,3}(?:,\d{3})+)(?![\d,]) per year'
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: bristol
+    country: uk
+    url: https://www.bristol.ac.uk/study/postgraduate/taught/msc-accounting-and-finance/
+    parser: html
+    targets:
+    - level: master
+      field: business
+      programme: MSc Accounting and Finance
+      tier: international
+      pattern: '2027.{0,10000}?Fees and funding Home: .{0,160}?Overseas: full-time £(\d{1,3}(?:,\d{3})+)(?![\d,]) per year'

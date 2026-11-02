@@ -57,3 +57,45 @@ sources:
       tier: international
       pattern: 2027.{0,500}?– \$[\d,.\' ]*\d \$[\d,.\' ]*\d – \$([\d,.\' ]*\d)
       multiplier: 0.6666666666666666
+  # Scraped from 2026-11 (was read by hand from this page's fee table; any multiplier repeats the hand sum). The pattern keeps the fee year literal,
+  # so when the page moves to a new year it stops matching and is listed for a manual check instead of mislabelling the fee.
+  - university: waikato
+    country: nz
+    url: https://www.waikato.ac.nz/int/study/fees-costs/international-tuition-costs/
+    parser: html
+    targets:
+    - level: bachelor
+      field: engineering
+      programme: Bachelor of Engineering with Honours
+      tier: international
+      pattern: 2027.{0,2323}?Bachelor of Engineering with Honours \(BE\(Hons\)\) All major subjects, years 1-3:[^$]{0,600}?\$[\d,]+ \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: bachelor
+      field: computing
+      programme: Bachelor of Computer Science
+      tier: international
+      pattern: 2027.{0,2126}?Bachelor of Computer Science \(BCompSc\) \$[\d,]+ \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: bachelor
+      field: business
+      programme: Bachelor of Business
+      tier: international
+      pattern: 2027.{0,1367}?Bachelor of Business \(BBus\)[^$]{0,600}?\$[\d,]+ \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: bachelor
+      field: sciences
+      programme: Bachelor of Science
+      tier: international
+      pattern: 2027.{0,3105}?Bachelor of Science \(BSc\)[^$]{0,600}?\$[\d,]+ \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: bachelor
+      field: psychology
+      programme: Bachelor of Science (Psychology)
+      tier: international
+      pattern: 2027.{0,3105}?Bachelor of Science \(BSc\)[^$]{0,600}?\$[\d,]+ \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: nursing
+      programme: Master of Nursing Practice
+      tier: international
+      pattern: 2027.{0,1967}?Master of Nursing Practice \$[\d,]+ \(240 Points\) \$(\d{1,3}(?:,\d{3})+)(?![\d,])
+    - level: master
+      field: business
+      programme: Master of Professional Accounting
+      tier: international
+      pattern: 2027.{0,2144}?Master of Professional Accounting \$[\d,]+ \$(\d{1,3}(?:,\d{3})+)(?![\d,])
