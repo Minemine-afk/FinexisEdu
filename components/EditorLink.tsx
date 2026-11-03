@@ -6,6 +6,8 @@ import { useSyncExternalStore } from "react";
 const COMPUTER = "(pointer: fine) and (hover: hover) and (min-width: 1024px)";
 
 function onComputer(): boolean {
+  // Inside another website's iframe the editor stays hidden (it refuses to be framed).
+  if (window.self !== window.top) return false;
   const ua = navigator.userAgent;
   if (/iPhone|iPad|iPod|Android|Mobi/i.test(ua)) return false;
   // iPadOS Safari presents itself as a Mac, but a real Mac has no touch screen.
@@ -22,7 +24,7 @@ function subscribe(onChange: () => void) {
 /**
  * The way into the editor: a faint symbol that only computers get, touch
  * laptops included. Phones and tablets (including an iPad with a keyboard or
- * trackpad) never have it in the page at all.
+ * trackpad) never have it in the page at all, and neither does an embedded copy.
  */
 export default function EditorLink() {
   if (!useSyncExternalStore(subscribe, onComputer, () => false)) return null;
