@@ -79,8 +79,8 @@ function ProgrammeCard({ p, partnerName }: { p: Programme; partnerName?: string 
             ],
             ["Summary (shown to visitors)", p.summary],
             ["How this fee was worked out (shown to visitors)", p.feeChoice],
-            ["Fee basis (maintainers only)", p.feeBasis],
-            ["Notes (maintainers only)", p.notes && <span className="whitespace-pre-wrap">{p.notes}</span>],
+            ["Fee basis (internal note, not shown on the site)", p.feeBasis],
+            ["Notes (internal note, not shown on the site)", p.notes && <span className="whitespace-pre-wrap">{p.notes}</span>],
           ]}
         />
         <div>
@@ -151,7 +151,7 @@ export default async function UniversityScreen({ params }: { params: Promise<{ c
           ["Website", <ExternalLink key="w" href={u.website} />],
           ["Description (shown on hover)", u.description],
           ["Why it is included", u.whyIncluded],
-          ["How it prices degrees (maintainers only)", u.feeMethod],
+          ["How it prices degrees (internal note, not shown on the site)", u.feeMethod],
           [
             "Yearly fee increase set by hand",
             u.feeIncrease && `${percent(u.feeIncrease.rate)}: ${u.feeIncrease.reason}`,
@@ -180,7 +180,7 @@ export default async function UniversityScreen({ params }: { params: Promise<{ c
               ["Source type", living.sourceType === "secondary" ? "Unofficial source" : "University's own page"],
               ["Last checked", living.lastVerified],
               ["Summary (shown to visitors)", living.summary],
-              ["Notes (maintainers only)", living.notes],
+              ["Notes (internal note, not shown on the site)", living.notes],
             ]}
           />
         ) : (

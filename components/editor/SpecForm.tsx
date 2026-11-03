@@ -42,7 +42,7 @@ function Label({ spec }: { spec: FieldSpec }) {
     <span className="flex flex-wrap items-baseline gap-x-2">
       <span className="text-sm font-medium">{spec.label}</span>
       {spec.audience === "visitors" && <span className="text-xs text-muted">shown to visitors</span>}
-      {spec.audience === "maintainers" && <span className="text-xs text-muted">maintainers only</span>}
+      {spec.audience === "maintainers" && <span className="text-xs text-muted">internal note, not shown on the site</span>}
       {spec.optional && <span className="text-xs text-muted">optional</span>}
     </span>
   );
